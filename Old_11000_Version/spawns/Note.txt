@@ -1,6 +1,29 @@
 -----------------------------------------------------------------
-all.spawn file from your last update (after the 110016 realase)
+all.spawn.OLD file from your last update (after the 110016 realase)
  Changed:
  Weapons to weapons,
  level_f-1 to level_f_1
 -----------------------------------------------------------------
+-----------------------------------------------------------------
+New all.spawn file with these changes:
+ Weapons to weapons,
+ level_f-1 to level_f_1
+and 
+Removed duplicated:
+heli_idle_move
+heli_sleep
+heli_sleep2
+heli_stay_3
+heli_fly
+heli_look_3
+heli_move_3
+actors_way
+heli_death_way
+heli_move_end_1
+heli_blockpost_idle_move
+
+id sections on 29.03.2018 date.
+----------------------------------------------------------------
+Changed text:
+soldier of fortune => soldier_of_fortune
+Andrey_Lunev	   => andrey_lunev-
