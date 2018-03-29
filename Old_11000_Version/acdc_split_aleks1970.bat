@@ -1,5 +1,6 @@
 @echo off
 for %%i in ("%~dp0..") do SET "folder=%%~fi"
+::for %%j in ("%~dp0") do SET "foldergraph=%%~fj"
 ::echo. "%~dp0"
 
 
@@ -12,6 +13,7 @@ set acperl64name=ActivePerl_5_16_2_64-bit
 SET path="%~dp0spawns\all.spawn"
 SET idx_folder="%~dp0Idx_files"
 SET Gpath="%~dp0g_graph"
+::SET Gpath="%foldergraph%g_graph\game.graph"
 echo. %path%
 echo. %folder%
 echo. %acperl%
@@ -19,8 +21,8 @@ echo. %acperl64%
 
 pause
 cls
-::goto a
-goto b
+goto a
+::goto b
 
 :a
 echo. 
