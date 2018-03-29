@@ -1,0 +1,7454 @@
+[0]
+
+; cse_abstract properties
+section_name = level_changer
+name = zaton_to_escape
+position = -457.642669677734, -4.54689598083496, 202.109939575195
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22346
+
+; cse_alife_object properties
+game_vertex_id = 3667
+level_vertex_id = 134038
+object_flags = 0xffffff3e
+story_id = 6003
+
+; cse_shape properties
+shapes = 1
+shape_0:type = sphere
+shape_0:offset = 0,0,0
+shape_0:radius = 1.79139518737793
+
+; cse_alife_space_restrictor properties
+restrictor_type = 0
+
+; cse_alife_level_changer properties
+dest_game_vertex_id = 2
+dest_level_vertex_id = 587230
+dest_position = 345.363067626953, 15.0583877563477, -26.5997104644775
+dest_direction = 0.0075098886154592, 1.03138911724091, -0.000671439804136753
+dest_level_name = l01_Escape
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[1]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_b14_box_blocked
+position = 410.101196289063, -5.75064516067505, 230.310317993164
+direction = 0, 0.0872659981250763, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22347
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[2]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_a23_enter_door
+position = -424.399993896484, 36.1199989318848, -394.335144042969
+direction = 0, 3.14157605171204, -1.99999999495049e-006
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22348
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+
+[logic]
+active = ph_door@locked
+
+[ph_door@locked]
+locked = true
+on_info = {+peshera_code_door_unlocked} ph_door@closed %=play_snd(device\door_servomotor)%
+
+[ph_door@closed]
+closed = true
+locked = false
+on_use = ph_door@open
+snd_open_start = trader_door_open_start
+snd_close_start = trader_door_close_start
+snd_close_stop = trader_door_close_stop
+
+[ph_door@open]
+closed = false
+locked = false
+on_use = ph_door@closed
+snd_open_start = trader_door_open_start
+snd_close_start = trader_door_close_start
+snd_close_stop = trader_door_close_stop
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_katakomb_big_2
+
+; cse_ph_skeleton properties
+skeleton_name = 
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[3]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_a23_enter_door_lock
+position = -422.004180908203, 37.4039077758789, -395.913421630859
+direction = 1.57079601287842, -1.57079601287842, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22349
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+
+[logic]
+active = ph_code
+
+[ph_code]
+code = 1
+on_code = nil %+peshera_code_door_unlocked%
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_katakomb_big_2_lock
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[4]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_b14_door_1
+position = 409.470092773438, -5.11999988555908, 229.329986572266
+direction = 0, -1.57082200050354, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22350
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+
+[logic]
+cfg = scripts\zaton\zat_door_1.ltx
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_ship_high_r
+visual_flags = 0x1
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[5]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zaton_physic_door
+position = 153.355270385742, -6.90001010894775, -133.720428466797
+direction = 0, 3.13744497299194, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22351
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+[logic]
+cfg = scripts\zaton\zat_door_2.ltx
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_wood_130x245_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[6]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_a2_physic_door
+position = 139.309997558594, -6.65999984741211, 182.729995727539
+direction = 0, 1.57078802585602, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22352
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+
+[logic]
+cfg = scripts\zaton\zat_door_3.ltx
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_ship_high_l
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[7]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_a2_physic_door_0000
+position = 112.730003356934, -0.75, 181.229995727539
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22353
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+
+[logic]
+cfg = scripts\zaton\zat_door_4.ltx
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_ship_high_l
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[8]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_a2_physic_door_0001
+position = 104.190002441406, -0.75, 182
+direction = 0, -1.57079601287842, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22354
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+ignore_ragdoll
+
+[logic]
+cfg = scripts\zaton\zat_door_5.ltx
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_ship_high_l
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[9]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_a2_physic_door_0002
+position = 114.080001831055, -0.75, 187.570007324219
+direction = 0, 3.14159297943115, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22355
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+ignore_ragdoll
+
+[logic]
+cfg = scripts\zaton\zat_door_6.ltx
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_ship_high_l
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_b22_medic_physic_door
+position = 239.341979980469, 8.09385776519775, -0.144566997885704
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22356
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+
+[logic]
+cfg = scripts\zaton\zat_door_7.ltx
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_wood_130x245_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[11]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_a23_exit_door
+position = -415.454895019531, 32.5836372375488, -378.071258544922
+direction = 0, -3.14158391952515, 3.14159202575684
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22357
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+
+[logic]
+cfg = scripts\zaton\zat_door_8.ltx
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_metal_145_230_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[12]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_b38_ph_basement_door
+position = -415.931274414063, 0.640815019607544, 31.042724609375
+direction = 0, -39.2777061462402, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22358
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+
+
+[logic]
+cfg = scripts\zaton\zat_door_9.ltx
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_metal_150x260_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[13]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_b103_surge_door
+position = -142.37873840332, 26.1110324859619, -431.999114990234
+direction = -9.99999974737875e-006, 1.57122802734375, -3.14157795906067
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22359
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+
+[logic]
+cfg = scripts\zaton\zat_door_10.ltx
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_wood_130x250_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[14]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_lift
+position = -399.341522216797, 6.87548780441284, -12.8401880264282
+direction = 0, -40.840705871582, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22360
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+
+
+[logic]
+cfg = scripts\zaton\zat_lift.ltx
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_lift_001
+
+; cse_ph_skeleton properties
+skeleton_name = 
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 20
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[15]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_lift
+position = -399.341522216797, 6.87548780441284, -12.8401880264282
+direction = 0, -40.840705871582, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22361
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+
+
+[logic]
+cfg = scripts\zaton\zat_lift.ltx
+END
+
+; cse_visual properties
+visual_name = dynamics\door\door_lift_002
+
+; cse_ph_skeleton properties
+skeleton_name = 
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 20
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[16]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zaton_bottle_3l_0001
+position = 123.928489685059, -5.75253486633301, 175.571426391602
+direction = -0.000346999993780628, -1.0349999666214, -0.000255999999353662
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22362
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\bottle_3l
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[17]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_tarelka1
+position = 124.005111694336, -6.070876121521, 180.470413208008
+direction = 0, -0.691200017929077, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22363
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_tarelka1
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[18]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_bludo
+position = 123.273178100586, -6.43070983886719, 180.425643920898
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22364
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_bludo
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[19]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_teapot_1
+position = 122.473014831543, -6.17718601226807, 179.17350769043
+direction = 0, 2.12400007247925, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22365
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\teapot_1
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[20]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_krujka_0000
+position = 122.178527832031, -5.32057523727417, 180.158843994141
+direction = -0.00012599999899976, -1.78559994697571, 0.000579999992623925
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22366
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_krujka
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_kastrula
+position = 122.527519226074, -6.43070983886719, 180.449279785156
+direction = 0, 0.628199994564056, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22367
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_kastrula
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[22]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_kastrula_up
+position = 122.024345397949, -6.19555997848511, 180.313995361328
+direction = -0.171167001128197, -0.0428630001842976, 1.31689703464508
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22368
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_kastrula_up
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[23]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_krujka_0001
+position = 131.9150390625, -6.12089204788208, 181.850936889648
+direction = -3.9999998989515e-005, -1.54259705543518, -4.70000013592653e-005
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22369
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_krujka
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[24]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_bludo_0000
+position = 130.353897094727, -6.11943292617798, 188.715270996094
+direction = -9.99999997475243e-007, -3.00000010611257e-006, -9.99999997475243e-007
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22370
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_bludo
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[25]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_krujka_0002
+position = 131.067001342773, -6.12077283859253, 177.912231445313
+direction = -1.59999999596039e-005, 7.00000009601354e-006, -6.90000015310943e-005
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22371
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_krujka
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[26]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_miska
+position = 127.251724243164, -6.1106219291687, 188.995452880859
+direction = -6.00000021222513e-006, -1.30518996715546, 2.40000008489005e-005
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22372
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_miska
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[27]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_krujka_0003
+position = 100.302375793457, -3.08370590209961, 182.980041503906
+direction = -4.60000010207295e-005, -3.10983991622925, -8.3999999333173e-005
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22373
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_krujka
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[28]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_tarelka2
+position = 106.303871154785, -0.611084997653961, 187.861221313477
+direction = 0, -3.01438498497009, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22374
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_tarelka2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[29]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zaton_bottle_3l
+position = 232.245544433594, 9.71394443511963, -1.78631198406219
+direction = 9.99999997475243e-007, -0.89819997549057, 9.99999997475243e-007
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22375
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\bottle_3l
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[30]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_freezer
+position = 232.224761962891, 8.09346008300781, -2.86449599266052
+direction = -0.000222000002395362, 1.51924300193787, -4.99999987368938e-006
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22376
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\freezer
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = root
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[31]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zaton_bottle_3l_0000
+position = 232.239044189453, 10.138463973999, -3.02522993087769
+direction = 8.90000010258518e-005, -0.442799985408783, -0.000203999996301718
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22377
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\bottle_3l
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[32]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_krujka_0004
+position = 105.821014404297, -0.6110879778862, 187.566925048828
+direction = 0, 1.93320000171661, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22378
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_krujka
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[33]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0016
+position = -396.977111816406, 40.0001411437988, -339.786254882813
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22379
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_1a
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[34]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0017
+position = -400.045257568359, 40.0001373291016, -338.18701171875
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22380
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_1a
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[35]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0019
+position = -403.127868652344, 40.0000381469727, -339.5419921875
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22381
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\expl_dinamit
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[36]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0024
+position = -415.016418457031, 40.0001907348633, -312.162841796875
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22382
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\expl_dinamit
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[37]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0025
+position = -410.416412353516, 40.0000114440918, -319.261627197266
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22383
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\expl_dinamit
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[38]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0026
+position = -428.716369628906, 40.0001602172852, -313.262268066406
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22384
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\expl_dinamit
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[39]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0027
+position = -420.81640625, 39.9999771118164, -307.561676025391
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22385
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\expl_dinamit
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[40]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object
+position = -375.041442871094, 40.0001602172852, -344.198120117188
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22386
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[41]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0000
+position = -376.541534423828, 40.0001258850098, -323.198303222656
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22387
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[42]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0002
+position = -393.141387939453, 40.0002021789551, -310.298767089844
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22388
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[43]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0003
+position = -429.642059326172, 40.0001449584961, -355.898742675781
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22389
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[44]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0004
+position = -428.241973876953, 40.0002021789551, -357.899230957031
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22390
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[45]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0005
+position = -426.041809082031, 40.0001602172852, -356.598541259766
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22391
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[46]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0005
+position = -426.041809082031, 40.0001602172852, -356.598541259766
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22392
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[47]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0007
+position = -412.241729736328, 40.0001525878906, -349.498901367188
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22393
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[48]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0008
+position = -395.541687011719, 40.0002021789551, -351.199035644531
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22394
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[49]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0009
+position = -388.941650390625, 40.0001602172852, -347.398254394531
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22395
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[50]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0010
+position = -385.241455078125, 40.0001602172852, -361.09912109375
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22396
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[51]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0012
+position = -399.541412353516, 40.0001907348633, -326.099456787109
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22397
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[52]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0013
+position = -401.141448974609, 40.0001945495605, -323.099609375
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22398
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[53]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0014
+position = -425.987396240234, 40.0001335144043, -318.944305419922
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22399
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_metall_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[54]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0015
+position = -417.887390136719, 40.0002098083496, -324.345275878906
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22400
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_metall_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[55]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0016
+position = -413.102569580078, 40.0366477966309, -329.003295898438
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22401
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_metall_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[56]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0017
+position = -413.9873046875, 40.0002250671387, -344.745483398438
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22402
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_metall_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[57]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0019
+position = -414.886993408203, 40.0001678466797, -362.146118164063
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22403
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_metall_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[58]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0020
+position = -409.394622802734, 40.0248374938965, -325.374938964844
+direction = -0.00223199999891222, 1.99999999495049e-006, 0.00100000004749745
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22404
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_metall_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[59]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0021
+position = -391.386840820313, 40.0000114440918, -326.345031738281
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22405
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_metall_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[60]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0022
+position = -380.786560058594, 40.0000114440918, -350.944976806641
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22406
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_metall_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[61]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_physic_destroyable_object_0023
+position = -399.886413574219, 40.0001602172852, -359.945861816406
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22407
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_metall_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[62]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zat_b14_box_blocked_door
+position = 410.101196289063, -5.75064516067505, 230.310317993164
+direction = 0, 0.0872659981250763, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22408
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[63]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_box_bottle_1
+position = 122.446388244629, -6.51456594467163, 175.829681396484
+direction = -0.0275500006973743, -1.04026401042938, -0.00375399994663894
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22409
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_bottle_1
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[64]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_box_1a
+position = 119.123519897461, -3.03482604026794, 180.758651733398
+direction = 0, 0.178200006484985, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22410
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_1a
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[65]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_box_metall_01_0000
+position = 119.203369140625, -2.45804405212402, 178.806182861328
+direction = 0, -3.12238502502441, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22411
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_metall_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[66]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zaton_box_paper
+position = 232.148376464844, 8.87098789215088, -1.57996797561646
+direction = 0, -1.64699995517731, 9.99999997475243e-007
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22412
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = physics\box\box_paper
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[67]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_box_wood_01_0000
+position = 339.252319335938, 33.2768707275391, -362.033782958984
+direction = 0, 0.0900000035762787, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22413
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[68]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zaton_box_wood_01_0001
+position = 316.778411865234, 33.2427749633789, -386.137481689453
+direction = 0, -0.1925999969244, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22414
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[69]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_box_wood_01_0002
+position = 316.621215820313, 34.0358581542969, -386.032379150391
+direction = -0.0126889999955893, 0.163765996694565, -0.00269100000150502
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22415
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[70]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_box_wood_01_0003
+position = -361.133514404297, 18.1154804229736, 344.517333984375
+direction = 0, 0.143999993801117, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22416
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\box\box_wood_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[71]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zaton_box_paper_0000
+position = 105.01651763916, -1.33991694450378, 186.732360839844
+direction = -0.000323999993270263, 2.16909003257751, 1.80000006366754e-005
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22417
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = physics\box\box_paper
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[72]
+
+; cse_abstract properties
+section_name = inventory_box
+name = zat_b12_key_1_box
+position = 425.684020996094, 34.3052215576172, -168.874496459961
+direction = 0.000230999998166226, -0.715035021305084, -0.000265999988187104
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22418
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3b
+
+; cse_visual properties
+visual_name = dynamics\equipment_cache\equipment_box_02_case
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[73]
+
+; cse_abstract properties
+section_name = inventory_box
+name = zat_b12_key_2_box
+position = 428.171691894531, 13.4110288619995, -298.549560546875
+direction = -0.407977998256683, 2.63429188728333, -0.234676003456116
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22419
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3b
+
+; cse_visual properties
+visual_name = dynamics\equipment_cache\equipment_seif_03_case
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[74]
+
+; cse_abstract properties
+section_name = inventory_box
+name = zat_b12_millitary_box
+position = 430.133270263672, 33.9200630187988, -278.661956787109
+direction = 0.150288999080658, -0.323794007301331, 0.0921420007944107
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22420
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3b
+
+; cse_visual properties
+visual_name = dynamics\equipment_cache\equipment_box_02_case
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[75]
+
+; cse_abstract properties
+section_name = inventory_box
+name = zat_a2_actor_treasure
+position = 117.956199645996, -3.9348258972168, 175.505584716797
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22421
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3b
+
+; cse_visual properties
+visual_name = dynamics\equipment_cache\equipment_box_02_case
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[76]
+
+; cse_abstract properties
+section_name = inventory_box
+name = zat_inventory_box_0000
+position = -447.109985351563, -6.13000011444092, 183.639999389648
+direction = -0.062830001115799, -2.99324011802673, -0.169295996427536
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22422
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3b
+custom_data = <<END
+[spawn]
+wpn_pb
+ammo_9x18_pmm
+medkit_army
+END
+
+; cse_visual properties
+visual_name = dynamics\equipment_cache\equipment_box_02_case
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[77]
+
+; cse_abstract properties
+section_name = inventory_box
+name = zat_b12_container
+position = 430.559997558594, 34.7900009155273, -258.619995117188
+direction = -0.0383969992399216, -1.36833798885345, 0.045379001647234
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22423
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3b
+
+; cse_visual properties
+visual_name = dynamics\equipment_cache\equipment_box_03_case
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[78]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_b57_ph_balon_use
+position = -427.777099609375, 13.9238252639771, 55.5206909179688
+direction = 0.00896000023931265, -3.05425810813904, -0.000784999981988221
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22424
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = dynamics\equipment_cache\equipment_box_01_case
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[79]
+
+; cse_abstract properties
+section_name = inventory_box
+name = zat_b22_medic_inv_box
+position = 239.334854125977, 7.87286615371704, -8.01533794403076
+direction = 0, -2.98230910301209, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22425
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3b
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = dynamics\equipment_cache\equipment_seif_01_case
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[80]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_b40_physic_object
+position = 321.638702392578, 42.8115653991699, -404.608337402344
+direction = -0.0184220001101494, 2.88000988960266, 0.026715999469161
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22426
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\el_tehnika\transiver
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[81]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_a2_ph_rupor
+position = 139.289993286133, -5.75, 184.470001220703
+direction = 7.99999997980194e-006, 0, 1.57078802585602
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22427
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = dynamics\el_tehnika\speakerphone
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[82]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_priemnik_gorizont
+position = 136.444641113281, -6.11931896209717, 186.705184936523
+direction = 0, -1.37160003185272, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22428
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\el_tehnika\priemnik_gorizont
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[83]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_balon_02
+position = 112.965705871582, -3.9348258972168, 185.194473266602
+direction = 0, 2.84698510169983, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22429
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\balon\balon_02
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[84]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_bochka_close_4
+position = 346.716003417969, 32.9288291931152, 27.8205833435059
+direction = -0.0642950013279915, 0.742971003055573, -0.0627110004425049
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22430
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\balon\bochka_close_4
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[85]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_bochka_close_4_0000
+position = 356.663940429688, 36.5205116271973, -403.186706542969
+direction = 1.80000006366754e-005, -2.95318007469177, -1.10000000859145e-005
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22431
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\balon\bochka_close_4
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[86]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_bochka_close_2
+position = 245.027145385742, 32.725212097168, -368.362121582031
+direction = 0.0153430001810193, 0.959537029266357, 1.54402899742126
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22432
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\balon\bochka_close_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[87]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_bochka_close_2_0000
+position = 286.30419921875, 33.2427749633789, -385.019653320313
+direction = 0, -2.08800005912781, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22433
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\balon\bochka_close_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[88]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_bochka_close_4_0001
+position = 285.762969970703, 33.2427749633789, -384.407501220703
+direction = 0, 2.34838509559631, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22434
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\balon\bochka_close_4
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[89]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_bochka_close_2_0002
+position = 230.318008422852, 7.86100006103516, 4.47457122802734
+direction = 0, 1.14839994907379, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22435
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\balon\bochka_close_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[90]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_bochka_close_2_0003
+position = 148.356918334961, -4.41747093200684, -136.365478515625
+direction = 0.0791589990258217, -0.0907040014863014, 0.00719799986109138
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22436
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\balon\bochka_close_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[91]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_bochka_close_2_0001
+position = -294.006744384766, 18.0167140960693, 351.220306396484
+direction = 0.0103519996628165, 2.1006190776825, 0.00151299999561161
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22437
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\balon\bochka_close_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[92]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_bochka_close_4_0003
+position = -327.605499267578, 18.418888092041, 334.942291259766
+direction = 0, -0.356400012969971, 1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22438
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\balon\bochka_close_4
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[93]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_balon_02a
+position = -131.394104003906, 23.9987869262695, -396.480773925781
+direction = 0.202630996704102, 0.188930004835129, -0.299603998661041
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22439
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\balon\balon_02a
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[94]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_bochka_close_4_0004
+position = -130.830459594727, 24.0527896881104, -395.889556884766
+direction = -0.0394079983234406, -0.000758000009227544, -0.0192489996552467
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22440
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\balon\bochka_close_4
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[95]
+
+; cse_abstract properties
+section_name = explosive_barrel_low
+name = zaton_gaz_balon
+position = 122.467041015625, -7.32082986831665, 178.829956054688
+direction = -0.000146000005770475, 1.15919995307922, -6.09999988228083e-005
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22441
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3f
+
+; cse_visual properties
+visual_name = dynamics\balon\gaz_balon
+
+; cse_alife_inventory_item properties
+condition = 1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[96]
+
+; cse_abstract properties
+section_name = explosive_barrel
+name = zaton_explosive_fuelcan
+position = 337.084625244141, 33.277042388916, -354.029174804688
+direction = -6.29999994998798e-005, -1.57375001907349, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22442
+
+; cse_alife_object properties
+game_vertex_id = 3679
+distance = 51.799999
+level_vertex_id = 1528497
+object_flags = 0xffffffbf
+
+; cse_visual properties
+visual_name = dynamics\balon\balon_01
+
+; cse_alife_inventory_item properties
+condition = 1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[97]
+
+; cse_abstract properties
+section_name = explosive_barrel
+name = zaton_explosive_barrel
+position = 334.615783691406, 33.5847854614258, -389.871063232422
+direction = -1.57079601287842, -1.03323495388031, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22443
+
+; cse_alife_object properties
+game_vertex_id = 3679
+distance = 26.6
+level_vertex_id = 1524294
+object_flags = 0xffffffbf
+
+; cse_visual properties
+visual_name = dynamics\balon\bochka_fuel
+
+; cse_alife_inventory_item properties
+condition = 1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[98]
+
+; cse_abstract properties
+section_name = explosive_mobiltank
+name = zaton_explosive_mobiltank
+position = 375.387268066406, 36.5307388305664, -410.203948974609
+direction = 0.106394000351429, 0.909602999687195, -1.54372203350067
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22444
+
+; cse_alife_object properties
+game_vertex_id = 3679
+distance = 77.699997
+level_vertex_id = 1586070
+object_flags = 0xffffff3f
+
+; cse_visual properties
+visual_name = dynamics\balon\kanistra
+
+; cse_alife_inventory_item properties
+condition = 1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[99]
+
+; cse_abstract properties
+section_name = explosive_barrel
+name = zaton_explosive_barrel_0000
+position = 315.833679199219, 33.2427749633789, -386.227630615234
+direction = 0, 1.54799997806549, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22445
+
+; cse_alife_object properties
+game_vertex_id = 3679
+distance = 23.799999
+level_vertex_id = 1498303
+object_flags = 0xffffffbf
+
+; cse_visual properties
+visual_name = dynamics\balon\bochka_fuel
+
+; cse_alife_inventory_item properties
+condition = 1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[100]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_gaz_plita_small
+position = 122.50553894043, -6.42074584960938, 178.999847412109
+direction = 0, 1.62539994716644, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22446
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\gaz_plita_small
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[101]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_wheel_litter_01
+position = 114.943946838379, -3.9348258972168, 189.897888183594
+direction = 0, -0.106200002133846, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22447
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\medical_object\wheel_litter_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[102]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_med_stolik_01_0000
+position = 116.253486633301, -3.9348258972168, 191.166351318359
+direction = 0, 1.79460000991821, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22448
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\medical_object\med_stolik_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[103]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_med_stolik_01
+position = 232.505722045898, 8.08592796325684, -4.32381105422974
+direction = -3.70000016118865e-005, -2.86204409599304, -7.79999973019585e-005
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22449
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\medical_object\med_stolik_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[104]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_b38_ph_control_panel
+position = -402.174377441406, 8.00868034362793, -12.5906000137329
+direction = 0, -37.6991119384766, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22450
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = dynamics\el_tehnika\el_control_unit_1
+
+; cse_ph_skeleton properties
+skeleton_name = 
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[105]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0038
+position = -384.643432617188, 40.0001907348633, -333.01611328125
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22451
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\banka_kraski_1
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[106]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0039
+position = -380.443420410156, 40.0001945495605, -338.716125488281
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22452
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\banka_kraski_1
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[107]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0040
+position = -380.226715087891, 40.0000114440918, -331.871917724609
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22453
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\kanistra_02
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[108]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0041
+position = -382.226867675781, 40.0000839233398, -320.072418212891
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22454
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\kanistra_02
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[109]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0042
+position = -395.527496337891, 40.0000114440918, -370.871917724609
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22455
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\kanistra_02
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[110]
+
+; cse_abstract properties
+section_name = physic_object
+name = zat_physic_object_0043
+position = -377.473297119141, 40.000129699707, -356.829376220703
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22456
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\vedro_01
+
+; cse_ph_skeleton properties
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[111]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zaton_physic_destroyable_object_0000
+position = -142.279647827148, 25.5613079071045, -415.355224609375
+direction = -0.0612000003457069, 1.29240000247955, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22457
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\hammer
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[112]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_vedro_01
+position = 117.425216674805, -3.84546589851379, 191.469833374023
+direction = 0, 2.8037850856781, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22458
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\vedro_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[113]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = zaton_tiski
+position = 100.460662841797, -3.08225798606873, 183.29182434082
+direction = 0, 1.54260003566742, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22459
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\tiski
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[114]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_molot
+position = 99.7505569458008, -3.35780596733093, 181.154769897461
+direction = 1.26577305793762, 2.27612996101379, -2.37389802932739
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22460
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\molot
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[115]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_keyga
+position = 99.876106262207, -3.33204293251038, 181.769958496094
+direction = 0, 0.782999992370605, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22461
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\keyga
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[116]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_banka_kraski_1
+position = 99.3788146972656, -2.3931839466095, 183.260696411133
+direction = -0.0123929996043444, 2.99470710754395, 0.00981499999761581
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22462
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\banka_kraski_1
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[117]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_axe_0000
+position = 154.789627075195, -5.74298810958862, -142.561325073242
+direction = 0.626888990402222, 0.649434983730316, 1.87592697143555
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22463
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\axe
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[118]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_saw_0002
+position = 151.085815429688, -4.38532400131226, -136.18440246582
+direction = 0.0412960015237331, -0.779823005199432, 0.0576119981706142
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22464
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\saw
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[119]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_axe
+position = -345.416412353516, 19.0776748657227, 340.834747314453
+direction = 0.0188560001552105, 1.08598303794861, 0.0429879985749722
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22465
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\axe
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[120]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_banka_kraski_1_0000
+position = -345.981903076172, 19.9395332336426, 340.992553710938
+direction = 0, -3.01320004463196, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22466
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\banka_kraski_1
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[121]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_hammer
+position = -324.898193359375, 21.2884330749512, 353.9169921875
+direction = 0, 0.60479998588562, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22467
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\hammer
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[122]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_pick
+position = -353.809722900391, 18.1514797210693, 340.730010986328
+direction = 0, 1.53552603721619, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22468
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\pick
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[123]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_riffler
+position = -323.35205078125, 9.07594013214111, 399.302642822266
+direction = 0.116616003215313, -1.47623002529144, 0.0972499996423721
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22469
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\riffler
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[124]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_saw_0000
+position = -299.486022949219, 18.5943241119385, 351.90966796875
+direction = 0.0519080013036728, 1.46498799324036, -0.656230986118317
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22470
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\saw
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[125]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_vedro_01_0000
+position = -328.776397705078, 21.4536552429199, 354.509094238281
+direction = 1.42795598506927, -3.08723211288452, -0.153183996677399
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22471
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\vedro_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[126]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_banka_kraski_1_0001
+position = -136.720123291016, 25.3221302032471, -417.414215087891
+direction = 0, -1.13759994506836, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22472
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\banka_kraski_1
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[127]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_banka_kraski_1_0002
+position = -137.613952636719, 26.1340961456299, -417.326507568359
+direction = 0, 1.44900000095367, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22473
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\banka_kraski_1
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[128]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_riffler_0000
+position = -137.188400268555, 25.3401298522949, -417.354644775391
+direction = 0.0251839999109507, 2.06190800666809, -0.0360109992325306
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22474
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\riffler
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[129]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_keyga_0000
+position = -133.497467041016, 24.5687828063965, -407.692138671875
+direction = 0, -1.31760001182556, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22475
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\keyga
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[130]
+
+; cse_abstract properties
+section_name = physic_object
+name = zaton_lopata
+position = 239.389724731445, 8.09385585784912, -6.59855794906616
+direction = 0.309599995613098, 1.51559996604919, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22476
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\workshop_room\lopata
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[131]
+
+; cse_abstract properties
+section_name = physic_destroyable_object
+name = labx8_isparenie
+position = -402.217987060547, 32.3296966552734, -324.779418945313
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22477
+
+; cse_alife_object properties
+game_vertex_id = 3664
+level_vertex_id = 174183
+object_flags = 0xffffff3a
+custom_data = <<END
+[logic]
+cfg = scripts\zaton\sparks.ltx
+
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\decor2\invisible_man
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+fixed_bones = link
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[132]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#0
+position = 116.028877258301, -3.37270927429199, 205.186187744141
+direction = -0.100707858800888, 2.53576755523682, 1.65534245967865
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22478
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 0.657885551452637,0,0
+shape_0:axis_y = 0,0.0307350158691406,0
+shape_0:axis_z = 0,0,0.373100280761719
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[133]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#1
+position = 411.464263916016, -4.38793659210205, 214.9931640625
+direction = 0.000176913847099058, 3.14159274101257, 1.57079637050629
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22479
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.36271703243256,0,0
+shape_0:axis_y = 0,0,0
+shape_0:axis_z = 0,0,0.46026611328125
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[134]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#2
+position = 407.036560058594, -7.26436471939087, 245.392059326172
+direction = 0, 3.14159274101257, 1.57116723060608
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22480
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.63793325424194,0,0
+shape_0:axis_y = 0,0.0006103515625,0
+shape_0:axis_z = 0,0,0.46002197265625
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[135]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#3
+position = 415.095153808594, -7.26436471939087, 211.630950927734
+direction = 0, -2.99234318733215, -1.57079637050629
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22481
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.63793325424194,0,0
+shape_0:axis_y = 0,0.454910278320313,0
+shape_0:axis_z = 0,0,0.0684051513671875
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[136]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#4
+position = -313.605865478516, 11.6702728271484, 412.825439453125
+direction = -0.000816924322862178, -0.0860950276255608, 1.57071304321289
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22482
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.76762437820435,0,0
+shape_0:axis_y = 0,0.643951416015625,0
+shape_0:axis_z = 0,0,0.0570068359375
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[137]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#5
+position = 159.948287963867, 5.70505428314209, -140.003051757813
+direction = -0.0143335480242968, 0.0394393876194954, 1.22812533378601
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22483
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 4.05154991149902,0,0
+shape_0:axis_y = 0,0.0244369506835938,0
+shape_0:axis_z = 0,0,0.582077026367188
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[138]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#6
+position = 155.057601928711, 14.7953319549561, -140.842544555664
+direction = -4.12369954574388e-005, -3.12032890319824, -1.57079541683197
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22484
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 5.3371787071228,0,0
+shape_0:axis_y = 0,0.467010498046875,0
+shape_0:axis_z = 0,0,0.0101470947265625
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[139]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#7
+position = 201.043441772461, 4.92507839202881, 31.5082111358643
+direction = -1.03873453554115e-005, 3.12812781333923, 1.570796251297
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22485
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.14846706390381,0,0
+shape_0:axis_y = 0,0.00627899169921875,0
+shape_0:axis_z = 0,0,0.466257095336914
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[140]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#8
+position = 211.826797485352, 19.8925247192383, 24.3602771759033
+direction = 0, -0.00499983364716172, 1.57079637050629
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22486
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.15197277069092,0,0
+shape_0:axis_y = 0,0.515724182128906,0
+shape_0:axis_z = 0,0,0.00257778167724609
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[141]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#9
+position = 180.963073730469, -3.73468542098999, -58.8716201782227
+direction = -0.0565227679908276, 2.63999223709106, -1.34129667282104
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22487
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 0.660675048828125,0,0
+shape_0:axis_y = 0,0.378768920898438,0
+shape_0:axis_z = 0,0,0.0206336975097656
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[142]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#10
+position = 379.767761230469, 36.5028915405273, -9.98705291748047
+direction = 0.174255937337875, 3.13974332809448, -1.56928372383118
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22488
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.83470153808594,0,0
+shape_0:axis_y = 0,0.42864990234375,0
+shape_0:axis_z = 0,0,0.00127220153808594
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[143]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#11
+position = 429.158630371094, 38.1065483093262, -9.26897430419922
+direction = 0, 3.14159274101257, -1.56821191310883
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22489
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.77688789367676,0,0
+shape_0:axis_y = 0,0.426300048828125,0
+shape_0:axis_z = 0,0,3.814697265625e-006
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[144]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#12
+position = 413.339935302734, 38.1800155639648, -48.9766998291016
+direction = 0, 0, 1.56909477710724
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22490
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.70751190185547,0,0
+shape_0:axis_y = 0,0.367950439453125,0
+shape_0:axis_z = 0,0,1.9073486328125e-006
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[145]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#13
+position = 423.807159423828, 31.7944107055664, -212.979141235352
+direction = 0, 3.01910328865051, 1.57079637050629
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22491
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.857985496521,0,0
+shape_0:axis_y = 0,0.0567779541015625,0
+shape_0:axis_z = 0,0,0.461189270019531
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[146]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#14
+position = 423.806518554688, 28.5173015594482, -190.629180908203
+direction = -8.40484699438093e-006, -3.05166602134705, 1.5707038640976
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22492
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 5.14073276519775,0,0
+shape_0:axis_y = 0,0.042205810546875,0
+shape_0:axis_z = 0,0,0.462837219238281
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[147]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#15
+position = 423.796966552734, 30.0118160247803, -326.814758300781
+direction = 0, 3.14159274101257, 1.57124996185303
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22493
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 3.80397415161133,0,0
+shape_0:axis_y = 0,0.0017242431640625,0
+shape_0:axis_z = 0,0,0.469284057617188
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[148]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#16
+position = 425.534545898438, 36.0346717834473, -344.772094726563
+direction = -0.0010492205619812, -2.58803749084473, 1.57055199146271
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22494
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.40535354614258,0,0
+shape_0:axis_y = 0,0.148124694824219,0
+shape_0:axis_z = 0,0,0.241241455078125
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[149]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#17
+position = 425.534576416016, 36.0346717834473, -277.078979492188
+direction = -0.000379686709493399, 3.14154529571533, 1.57004141807556
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22495
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.40524482727051,0,0
+shape_0:axis_y = 0,0.0018310546875,0
+shape_0:axis_z = 0,0,0.281539916992188
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[150]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#18
+position = 425.534545898438, 36.0346755981445, -150.154357910156
+direction = -0.00025201978860423, -2.80424070358276, 1.57008481025696
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22496
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.40514183044434,0,0
+shape_0:axis_y = 0,0.0945892333984375,0
+shape_0:axis_z = 0,0,0.265426635742188
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[151]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#19
+position = 425.534576416016, 36.0346717834473, -192.462585449219
+direction = 0, 3.14159274101257, 1.57004141807556
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22497
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.4051399230957,0,0
+shape_0:axis_y = 0,0.0018157958984375,0
+shape_0:axis_z = 0,0,0.280632019042969
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[152]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#20
+position = 425.534545898438, 36.0346794128418, -234.770797729492
+direction = -0.00046815729001537, -2.4787061214447, 1.5702041387558
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22498
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.40514183044434,0,0
+shape_0:axis_y = 0,0.174118041992188,0
+shape_0:axis_z = 0,0,0.222320556640625
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[153]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#21
+position = 425.534545898438, 36.0346794128418, -302.4638671875
+direction = -0.000382034777430817, -3.14158082008362, 1.57154214382172
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22499
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.40524673461914,0,0
+shape_0:axis_y = 0,0.001800537109375,0
+shape_0:axis_z = 0,0,0.281524658203125
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[154]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#22
+position = 327.513061523438, 42.8432464599609, -413.879852294922
+direction = 0.202478170394897, -2.92217326164246, -1.61994051933289
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22500
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.34344863891602,0,0
+shape_0:axis_y = 0,0.548973083496094,0
+shape_0:axis_z = 0,0,0.295623779296875
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[155]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#23
+position = 330.677307128906, 37.6095924377441, -423.202392578125
+direction = 0, 3.14159274101257, -1.57064914703369
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22501
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 4.26568794250488,0,0
+shape_0:axis_y = 0,0.52203369140625,0
+shape_0:axis_z = 0,0,0
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[156]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#24
+position = -363.949981689453, 20.0217971801758, 386.352294921875
+direction = -0.000839479558635503, 0.052200011909008, 1.55821979045868
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22502
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 3.84458351135254,0,0
+shape_0:axis_y = 0,0.03717041015625,0
+shape_0:axis_z = 0,0,0.709915161132813
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[157]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#25
+position = -36.2642631530762, 26.7077827453613, 355.12060546875
+direction = 0.139827743172646, -3.03211140632629, -1.61192893981934
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22503
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.62540817260742,0,0
+shape_0:axis_y = 0,0.614238739013672,0
+shape_0:axis_z = 0,0,0.017425537109375
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[158]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#26
+position = -429.888214111328, 30.7897624969482, -370.845184326172
+direction = 0.000486749282572418, -0.190257638692856, 1.57045459747314
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22504
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.9752721786499,0,0
+shape_0:axis_y = 0,0.5260009765625,0
+shape_0:axis_z = 0,0,0.102554321289063
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[159]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#27
+position = -413.2958984375, 32.2774238586426, -357.754089355469
+direction = 0, 3.00244283676147, 1.57079637050629
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22505
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 4.30166625976563,0,0
+shape_0:axis_y = 0,0.074188232421875,0
+shape_0:axis_z = 0,0,0.529495239257813
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[160]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#28
+position = -413.2958984375, 28.7015209197998, -340.100189208984
+direction = -3.71716378140263e-005, -2.74889445304871, 1.57028484344482
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22506
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 4.0618200302124,0,0
+shape_0:axis_y = 0,0.2066650390625,0
+shape_0:axis_z = 0,0,0.494132995605469
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[161]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#29
+position = -413.315673828125, 30.6509418487549, -322.992462158203
+direction = -0.0010145123815164, 3.00247383117676, 1.57178342342377
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22507
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.71181011199951,0,0
+shape_0:axis_y = 0,0.0767669677734375,0
+shape_0:axis_z = 0,0,0.532241821289063
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[162]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#30
+position = -414.872222900391, 34.4206962585449, -321.105987548828
+direction = 0.000683838792610914, 3.05901885032654, -1.57073569297791
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22508
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.51341915130615,0,0
+shape_0:axis_y = 0,0.53302001953125,0
+shape_0:axis_z = 0,0,0.04583740234375
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[163]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#31
+position = -430.334228515625, 30.6509437561035, -322.992462158203
+direction = 0.000182333766133524, -0.0899309143424034, 1.57190597057343
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22509
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.71149921417236,0,0
+shape_0:axis_y = 0,0.0509796142578125,0
+shape_0:axis_z = 0,0,0.532989501953125
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[164]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#32
+position = -428.777648925781, 34.4207000732422, -321.105987548828
+direction = 0.000812119338661432, 2.93247246742249, -1.57135415077209
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22510
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.51379871368408,0,0
+shape_0:axis_y = 0,0.5244140625,0
+shape_0:axis_z = 0,0,0.11309814453125
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[165]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#33
+position = 0.602127075195313, 5.86554861068726, 34.1611328125
+direction = 0.00226044142618775, -2.9869179725647, -1.5643345117569
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22511
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.31569194793701,0,0
+shape_0:axis_y = 0,0.455599784851074,0
+shape_0:axis_z = 0,0,9.34600830078125e-005
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[166]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#34
+position = 0.602132797241211, 5.8655481338501, 38.6186103820801
+direction = 0.00223344378173351, -0.153998449444771, 1.56432890892029
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22512
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.31569409370422,0,0
+shape_0:axis_y = 0,0.455605268478394,0
+shape_0:axis_z = 0,0,0.000402450561523438
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[167]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#35
+position = -158.594619750977, 23.2380561828613, -154.997848510742
+direction = 0.000208532641408965, -3.13989448547363, 1.23305058479309
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22513
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.08091163635254,0,0
+shape_0:axis_y = 0,0.0032806396484375,0
+shape_0:axis_z = 0,0,0.426002502441406
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[168]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#36
+position = -158.900009155273, 21.1119365692139, -156.855941772461
+direction = 0.333555996417999, -3.11070823669434, -1.5819274187088
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22514
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.18298149108887,0,0
+shape_0:axis_y = 0,0.424949645996094,0
+shape_0:axis_z = 0,0,0.0142974853515625
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[169]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#37
+position = -390.5654296875, 9.32202434539795, -3.81136417388916
+direction = 4.18347781305783e-007, -3.13855385780334, 1.57034945487976
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22515
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.90544056892395,0,0
+shape_0:axis_y = 0,0.00225830078125,0
+shape_0:axis_z = 0,0,0.467068552970886
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[170]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#38
+position = -398.352416992188, 2.57158613204956, -16.1868438720703
+direction = -2.82967334896966e-006, -4.4196379889172e-009, 1.57089245319366
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22516
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.05347204208374,0,0
+shape_0:axis_y = 0,0.46728515625,0
+shape_0:axis_z = 0,0,5.7220458984375e-006
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[171]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#39
+position = -402.433471679688, 2.57158613204956, -16.1868438720703
+direction = -2.82967289422231e-006, -2.20981855036939e-009, 1.57084441184998
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22517
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.0534496307373,0,0
+shape_0:axis_y = 0,0.467178344726563,0
+shape_0:axis_z = 0,0,5.7220458984375e-006
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[172]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#40
+position = -408.324645996094, 9.30809783935547, -19.2270030975342
+direction = 1.38596433316707e-005, -3.14159250259399, -1.570561170578
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22518
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.91947674751282,0,0
+shape_0:axis_y = 0,0.467544555664063,0
+shape_0:axis_z = 0,0,2.6702880859375e-005
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[173]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#41
+position = 308.302276611328, 31.6339454650879, -405.27099609375
+direction = -0.00141136767342687, -3.00245141983032, 1.57035577297211
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22519
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.77011871337891,0,0
+shape_0:axis_y = 0,0.0594329833984375,0
+shape_0:axis_z = 0,0,0.421340942382813
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[174]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#42
+position = 281.121429443359, 33.5727577209473, -403.809936523438
+direction = 0, 3.14159274101257, 1.57093226909637
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22520
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 3.70836448669434,0,0
+shape_0:axis_y = 0,0.0005035400390625,0
+shape_0:axis_z = 0,0,0.422927856445313
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[175]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#43
+position = 297.704437255859, 34.1300086975098, -414.095642089844
+direction = 0, 3.14159274101257, 1.57097482681274
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22521
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 4.26561450958252,0,0
+shape_0:axis_y = 0,0.000762939453125,0
+shape_0:axis_z = 0,0,0.422927856445313
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[176]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#44
+position = 101.742370605469, 0.0112290140241385, 183.430999755859
+direction = 6.56520433039987e-006, -3.14159274101257, 1.57079041004181
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22522
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.35000395774841,0,0
+shape_0:axis_y = 0,7.62939453125e-006,0
+shape_0:axis_z = 0,0,0.613319396972656
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[177]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass
+position = -405.697998046875, 3.54484510421753, 2.43406009674072
+direction = 0, -6.09999988228083e-005, 1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22523
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[178]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0000
+position = -420.243072509766, 3.94375205039978, 38.5432090759277
+direction = 0, 0, 1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22524
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[179]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0001
+position = -420.491729736328, 2.37409090995789, 48.2421951293945
+direction = 0, -2.09999998332933e-005, 1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22525
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[180]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0002
+position = -415.284942626953, 2.18088006973267, 57.4274215698242
+direction = 0, 0, -1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22526
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[181]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0003
+position = -411.982604980469, 3.59464693069458, 21.0499973297119
+direction = 0, -1.57079601287842, -1.5707939863205
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22527
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[182]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_galogen_1_glass_0006
+position = -401.515411376953, 5.89635419845581, -10.8609676361084
+direction = 0, 0, 3.14159297943115
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22528
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_galogen_1_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 0.69999999
+main_color_animator = light\light_galogen_idle
+main_range = 8
+light_flags = 0x1a
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 3
+ambient_power = 0.5
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[183]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0006
+position = -437.63916015625, 8.06402778625488, 45.6100006103516
+direction = 0, -1.57079601287842, -1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22529
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[184]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0004
+position = -397.612457275391, 4.78852987289429, -15.570237159729
+direction = 0, 0, -1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22530
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[185]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_galogen_1_glass_0000
+position = -394.136810302734, 14.8762826919556, -8.45776653289795
+direction = 0, 0, -3.14159202575684
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22531
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_galogen_1_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 0.69999999
+main_color_animator = light\light_galogen_idle
+main_range = 8
+light_flags = 0x1a
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 3
+ambient_power = 0.5
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[186]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = lights_white_8m_glass_0002
+position = -402.673217773438, 9.46764087677002, -12.5747232437134
+direction = -3.14159202575684, -1.57079601287842, -1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22532
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_white_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffe3b5
+main_brightness = 0.80000001
+main_color_animator = light\light_point_white_idle
+main_range = 8
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2.5
+ambient_power = 0.60000002
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[187]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_galogen_1_glass_0003
+position = -408.033721923828, 14.8762826919556, -24.6677341461182
+direction = 0, 0, -3.14159297943115
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22533
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_galogen_1_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 0.69999999
+main_color_animator = light\light_galogen_br_idle
+main_range = 10
+light_flags = 0x1a
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 3
+ambient_power = 0.5
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[188]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = lights_white_8m_glass_0001
+position = -448.978729248047, 8.55507564544678, 52.3273429870605
+direction = -0.573346018791199, 1.57079803943634, 3.1415901184082
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22534
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_white_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffe3b5
+main_brightness = 0.80000001
+main_color_animator = light\light_point_white_idle
+main_range = 8
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2.5
+ambient_power = 0.60000002
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[189]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = lights_white_8m_glass_0003
+position = -439.311889648438, 7.97518587112427, 69.4600448608398
+direction = 9.99999997475243e-007, -1.5704699754715, 1.57244002819061
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22535
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_white_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffe3b5
+main_brightness = 0.80000001
+main_color_animator = light\light_point_white_idle
+main_range = 8
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2.5
+ambient_power = 0.60000002
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[190]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_galogen_1_glass_0001
+position = -455.522705078125, 8.09047794342041, 57.4975891113281
+direction = 0, 0, -3.14159297943115
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22536
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_galogen_1_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 0.69999999
+main_color_animator = light\light_galogen_br_idle
+main_range = 10
+light_flags = 0x1a
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 3
+ambient_power = 0.5
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[191]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = lights_wire_12m_glass
+position = -426.858856201172, 28.8001594543457, -376.774963378906
+direction = 0, -1.57079601287842, 1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22537
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_wire_1_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffe3b5
+main_brightness = 0.80000001
+main_range = 12
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2.5
+ambient_power = 0.60000002
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[192]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_galogen_1_glass_0002
+position = 125.957702636719, -2.82856607437134, 177.644973754883
+direction = 0, 0, -3.14159202575684
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22538
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_galogen_1_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 0.69999999
+main_color_animator = light\light_galogen_idle
+main_range = 8
+light_flags = 0x1a
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 3
+ambient_power = 0.5
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[193]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_galogen_1_glass_0004
+position = 135.745132446289, -2.82856607437134, 177.644973754883
+direction = 0, 0, -3.14159202575684
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22539
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_galogen_1_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 0.69999999
+main_color_animator = light\light_galogen_idle
+main_range = 8
+light_flags = 0x1a
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 3
+ambient_power = 0.5
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[194]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_galogen_1_glass_0010
+position = 125.957702636719, -2.82856607437134, 189.386138916016
+direction = 0, 0, -3.14159297943115
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22540
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_galogen_1_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 0.69999999
+main_color_animator = light\light_galogen_br_idle
+main_range = 8
+light_flags = 0x1a
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 3
+ambient_power = 0.5
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[195]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_galogen_1_glass_0007
+position = 133.810104370117, -2.82856702804565, 188.422378540039
+direction = 0, 0, -3.14159297943115
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22541
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_galogen_1_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 0.69999999
+main_color_animator = light\light_galogen_br_idle
+main_range = 8
+light_flags = 0x1a
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 3
+ambient_power = 0.5
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[196]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_gas_4m
+position = 237.878204345703, 9.45947265625, -8.03389835357666
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22542
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffcb81
+main_brightness = 0.60000002
+main_color_animator = koster
+main_range = 3
+light_flags = 0xa
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[197]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_gas_4m_0000
+position = 117.382011413574, -3.46920895576477, 175.86653137207
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22543
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffcb81
+main_brightness = 0.60000002
+main_color_animator = koster
+main_range = 3
+light_flags = 0xa
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[198]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_white_glass
+position = 101.688163757324, -1.69158697128296, 181.004379272461
+direction = 3.00000010611257e-006, -1.57454395294189, -1.57152795791626
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22544
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_white_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffceed9
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[199]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_white_glass_0000
+position = 108.964294433594, -1.724858045578, 176.157470703125
+direction = 1.99999999495049e-006, -1.73813498020172, -1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22545
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_white_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffceed9
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[200]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_white_glass_0001
+position = 119.495513916016, -1.71062195301056, 187.250137329102
+direction = 9.0000003183377e-006, -3.1415901184082, 1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22546
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_white_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffceed9
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[201]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_gas_4m_0001
+position = 118.024230957031, -2.55904006958008, 189.198287963867
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22547
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffcb81
+main_brightness = 0.60000002
+main_color_animator = koster
+main_range = 3
+light_flags = 0xa
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[202]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_gas_4m_0002
+position = 110.542457580566, -2.24844694137573, 188.895141601563
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22548
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffcb81
+main_brightness = 0.60000002
+main_color_animator = koster
+main_range = 3
+light_flags = 0xa
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[203]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0005
+position = 113.941299438477, -1.77879405021667, 187.955535888672
+direction = -0.165049999952316, -3.14145493507385, 1.5708190202713
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22549
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[204]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0007
+position = 111.930526733398, 0.951985001564026, 181.303619384766
+direction = 0, -1.57079601287842, -1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22550
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[205]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_white_glass_0002
+position = 108.451232910156, 0.762588977813721, 187.143737792969
+direction = 0.000731999985873699, 3.14159393310547, 1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22551
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_white_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffceed9
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[206]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0008
+position = 112.421745300293, 0.859430015087128, 189.926727294922
+direction = -4.09999993280508e-005, -1.49129700660706, 1.57028305530548
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22552
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[207]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_gas_4m_0003
+position = 125.276809692383, -5.65366077423096, 178.912612915039
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22553
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffcb81
+main_brightness = 0.60000002
+main_color_animator = koster
+main_range = 3
+light_flags = 0x8
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[208]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = lights_white_8m_glass_0004
+position = 311.830169677734, 35.893180847168, -396.149505615234
+direction = 0, 0, -1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22554
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_white_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffe3b5
+main_brightness = 0.80000001
+main_color_animator = light\light_point_white_idle
+main_range = 8
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2.5
+ambient_power = 0.60000002
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[209]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_galogen_1_glass_0005
+position = 324.900024414063, 48.4185104370117, -399.047180175781
+direction = -0.000422999990405515, 0, -3.14159297943115
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22555
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_galogen_1_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 0.69999999
+main_color_animator = light\light_galogen_br_idle
+main_range = 13
+light_flags = 0x1a
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 3
+ambient_power = 0.5
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[210]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0009
+position = 139.301239013672, -4.72535800933838, 184.482940673828
+direction = 0, 0, 1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22556
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[211]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_gas_4m_0004
+position = 0.408262014389038, 0.741891980171204, 40.7534561157227
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22557
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffcb81
+main_brightness = 0.60000002
+main_color_animator = koster
+main_range = 3
+light_flags = 0xa
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[212]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0010
+position = 6.13906621932983, 1.76123702526093, 34.2455596923828
+direction = 0, 0, -1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22558
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[213]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0011
+position = -2.07398104667664, 1.65585005283356, 39.9255447387695
+direction = 0, -1.57081294059753, 1.57079303264618
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22559
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[214]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0012
+position = -3.74160194396973, 1.69557595252991, 33.7856369018555
+direction = 3.00000010611257e-006, 3.14159297943115, -1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22560
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[215]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0013
+position = -422.004180908203, 38.7775611877441, -395.876281738281
+direction = 0, 0, -1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22561
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_color_animator = light\light_light_1_alarm_idle
+main_range = 6
+light_flags = 0xe
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[216]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_green_glass
+position = -422.004180908203, 38.7775611877441, -395.876281738281
+direction = 0, 0, -1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22562
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xff27fe24
+main_brightness = 1
+main_color_animator = light\light_light_1_alarm_green_idle
+main_range = 6
+light_flags = 0xe
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[217]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_flash_glass
+position = -422.004180908203, 38.7775611877441, -395.876281738281
+direction = 0, 0, -1.57079601287842
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22563
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_color_animator = light\light_light_1_alarm_flash
+main_range = 6
+light_flags = 0xe
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[218]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_galogen_1_glass_0008
+position = 129.876449584961, -2.62660789489746, 181.579360961914
+direction = 1.99999999495049e-006, 0, -3.14159202575684
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22564
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_galogen_1_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 0.69999999
+main_color_animator = light\light_galogen_idle
+main_range = 8
+light_flags = 0x1a
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 3
+ambient_power = 0.5
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[219]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_2m_no_shadow_0002
+position = 125.559265136719, -5.88327789306641, 178.574829101563
+direction = 0.448199987411499, 2.25, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22565
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffd7a0
+main_brightness = 0.80000001
+main_range = 2
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[220]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_2m_no_shadow_0000
+position = 125.297645568848, -5.61127805709839, 176.569274902344
+direction = 0.215999007225037, 0.961201012134552, 0.282599985599518
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22566
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffd7a0
+main_brightness = 0.80000001
+main_range = 2
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[221]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_orange_2m_no_shadow
+position = 110.583763122559, -2.42406392097473, 188.818069458008
+direction = 0, 2.37358498573303, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22567
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffdba6e
+main_brightness = 0.80000001
+main_color_animator = koster
+main_range = 2.5
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[222]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_2m_no_shadow_0001
+position = 110.418411254883, -2.25406408309937, 187.483917236328
+direction = -0.304199993610382, -0.0600120015442371, 0.00179999996908009
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22568
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffd7a0
+main_brightness = 0.80000001
+main_range = 2
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[223]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_2m_no_shadow_0003
+position = 117.826614379883, -2.75265789031982, 189.62077331543
+direction = 0, -0.453599989414215, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22569
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffd7a0
+main_brightness = 0.80000001
+main_range = 2
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[224]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_gas_4m_0005
+position = 154.786956787109, -5.74325799942017, -142.959503173828
+direction = 0.00486300000920892, -0.000266999995801598, 0.0548130013048649
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22570
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffcb81
+main_brightness = 0.60000002
+main_color_animator = koster
+main_range = 3
+light_flags = 0xa
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[225]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_2m_no_shadow_0004
+position = 154.657379150391, -5.88377523422241, -142.37825012207
+direction = 0, 0.540000021457672, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22571
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffd7a0
+main_brightness = 0.80000001
+main_range = 2
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[226]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_galogen_1_glass_0009
+position = 234.289993286133, 11.4139986038208, -7.28009605407715
+direction = 0, -1.57079601287842, -3.14159202575684
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22572
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_galogen_1_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 0.69999999
+main_color_animator = light\light_galogen_br_idle
+main_range = 8
+light_flags = 0x1a
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 3
+ambient_power = 0.5
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[227]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_2m_no_shadow_0005
+position = 237.838165283203, 9.40385341644287, -8.02048587799072
+direction = 9.99999997475243e-007, 1.18620002269745, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22573
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffd7a0
+main_brightness = 0.80000001
+main_range = 2
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[228]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_blue_2m_no_shadow_0001
+position = 234.591064453125, 10.1278553009033, -7.30875301361084
+direction = -1.52820003032684, 0.0719999969005585, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22574
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffd2e5ff
+main_brightness = 0.44999999
+main_range = 2
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[229]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_blue_2m_no_shadow_0002
+position = 235.39404296875, 10.3238506317139, -7.73928785324097
+direction = -0.484198987483978, -1.24379599094391, -0.154799997806549
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22575
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffd2e5ff
+main_brightness = 0.44999999
+main_range = 2
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[230]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_blue_2m_no_shadow
+position = 150.160446166992, -5.34377384185791, -140.31901550293
+direction = -0.343800008296967, -1.94760096073151, 0.0935999974608421
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22576
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffd2e5ff
+main_brightness = 0.44999999
+main_range = 2
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[231]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_blue_2m_no_shadow_0000
+position = 125.297142028809, -5.11791706085205, 189.8798828125
+direction = -1.57079601287842, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22577
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffd2e5ff
+main_brightness = 0.44999999
+main_range = 2
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[232]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_blue_2m_no_shadow_0003
+position = 101.025108337402, -2.52414608001709, 181.762008666992
+direction = -0.635725975036621, 0, 4.8999998398358e-005
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22578
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffd2e5ff
+main_brightness = 0.44999999
+main_range = 2
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[233]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_omni_blue_2m_no_shadow_0004
+position = 119.14469909668, -1.94082605838776, 187.250503540039
+direction = -0.828000009059906, 1.56780004501343, -0.138600006699562
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22579
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffd2e5ff
+main_brightness = 0.44999999
+main_range = 2
+light_flags = 0x1c
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 1
+ambient_power = 0.1
+main_cone_angle = 1.919862
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[234]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = light_alarm_glass_0014
+position = 121.865173339844, -4.964674949646, 186.197052001953
+direction = 0, 0.000220999994780868, -1.57105898857117
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 22580
+
+; cse_alife_object properties
+game_vertex_id = 3679
+level_vertex_id = 293223
+object_flags = 0xffffff3a
+custom_data = <<END
+[collide]
+ignore_static
+END
+
+; cse_visual properties
+visual_name = physics\light\new_light\light_alarm_glass
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xfffe8812
+main_brightness = 1
+main_range = 6
+light_flags = 0xa
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 2
+ambient_power = 0.2
+main_bone = bone_lamp
+main_cone_angle = 2.0943949
+glow_radius = 0.69999999
+ambient_bone = bone_omni
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+

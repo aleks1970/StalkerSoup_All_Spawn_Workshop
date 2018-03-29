@@ -1,0 +1,4128 @@
+[21748]
+
+; cse_abstract properties
+section_name = level_changer
+name = x14_to_jupund
+position = 38.3959999084473, -34.4850006103516, -36.9189987182617
+direction = 0.0450606308877468, 0.764543831348419, -0.0510500557720661
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17769
+
+; cse_alife_object properties
+game_vertex_id = 5386
+distance = 1.6000004
+level_vertex_id = 3476
+object_flags = 0xffffff3e
+custom_data = <<END
+[pt_move_if_reject]
+path = x14_way_if_reject_to_jupund
+END
+story_id = 284
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2,0,0
+shape_0:axis_y = 0,2,0
+shape_0:axis_z = 0,0,6
+shape_0:offset = 0,0,0
+
+; cse_alife_space_restrictor properties
+restrictor_type = 3
+
+; cse_alife_level_changer properties
+dest_game_vertex_id = 3794
+dest_level_vertex_id = 20809
+dest_position = 11.7419996261597, 4.28399991989136, -135.733001708984
+dest_direction = 0, -1.12671363353729, 0
+dest_level_name = jupiter_underground
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21749]
+
+; cse_abstract properties
+section_name = level_changer
+name = level_changer_lab_x14_to_sar
+position = -8, -34.5, -8
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17770
+
+; cse_alife_object properties
+game_vertex_id = 5374
+level_vertex_id = 1467
+object_flags = 0xffffff3e
+custom_data = <<END
+[pt_move_if_reject]
+path = x14_way_if_reject_sar
+END
+story_id = 6017
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.22939944267273,0,0
+shape_0:axis_y = 0,4.83859968185425,0
+shape_0:axis_z = 0,0,2.22939944267273
+shape_0:offset = 0,0,0
+
+; cse_alife_space_restrictor properties
+restrictor_type = 3
+
+; cse_alife_level_changer properties
+dest_game_vertex_id = 2424
+dest_level_vertex_id = 4172
+dest_position = 19, -4.5, 7
+dest_direction = 0.0111562451347709, -0.000250374461757019, 0.0224392339587212
+dest_level_name = l12u_sarcofag
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21750]
+
+; cse_abstract properties
+section_name = stalker
+name = glavny
+position = 24, -34.4000015258789, 13
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17771
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = glavny
+
+; cse_alife_object properties
+game_vertex_id = 5381
+distance = 5.5
+level_vertex_id = 2932
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = walker
+on_death = death
+
+[walker]
+path_look = glavny_look
+path_walk = glavny_walk
+meet = meet
+
+[meet]
+use = true
+use_wpn = true
+meet_talk_enabled = true
+
+[spawner]
+cond = {+x14_glavny_spawn +tb3d_collector}
+
+[death]
+on_info = %+x14_glavny_death%
+END
+
+; cse_visual properties
+visual_name = actors\unic\ucheniy\ucheniy_monolit
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 24, -34.4000015258789, 13
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21751]
+
+; cse_abstract properties
+section_name = space_restrictor
+name = glavny_restrictor
+position = -6, -34.2999992370605, 19
+direction = 0.111189842224121, -0.00129711860790849, 0.011689349077642
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17772
+
+; cse_alife_object properties
+game_vertex_id = 5378
+level_vertex_id = 1592
+object_flags = 0xffffff3e
+custom_data = <<END
+[logic]
+active = sr_idle
+
+[sr_idle]
+on_actor_inside = {+zat_kalter_bye_start} nil %+glavny_spawn%
+END
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1,0,0
+shape_0:axis_y = 0,2,0
+shape_0:axis_z = 0,0,19
+shape_0:offset = 0,0,0
+
+; cse_alife_space_restrictor properties
+restrictor_type = 3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21752]
+
+; cse_abstract properties
+section_name = m_poltergeist_strong_flame
+name = lab_x14_polter_1
+position = 36, -34.4000015258789, 6
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17773
+
+; cse_alife_object properties
+game_vertex_id = 5388
+distance = 2.0999999
+level_vertex_id = 3394
+object_flags = 0xffffffbf
+custom_data = <<END
+[logic]
+active = mob_home
+
+[mob_home]
+path_home = lab_x14_polter_home
+
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+x14_glavny_death +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = monsters\poltergeist\poltergeist
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 0
+g_group = 0
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_monster_base properties
+
+; se_monster properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 36, -34.4000015258789, 6
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21753]
+
+; cse_abstract properties
+section_name = m_poltergeist_strong_flame
+name = lab_x14_polter_2
+position = 36, -34.4000015258789, 13
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17774
+
+; cse_alife_object properties
+game_vertex_id = 5388
+distance = 2.0999999
+level_vertex_id = 3405
+object_flags = 0xffffffbf
+custom_data = <<END
+[logic]
+active = mob_home
+
+[mob_home]
+path_home = lab_x14_polter_home
+
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+x14_glavny_death +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = monsters\poltergeist\poltergeist
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 0
+g_group = 0
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_monster_base properties
+
+; se_monster properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 36, -34.4000015258789, 13
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21754]
+
+; cse_abstract properties
+section_name = m_poltergeist_strong_flame
+name = lab_x14_polter_3
+position = 32, -34.4000015258789, 13
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17775
+
+; cse_alife_object properties
+game_vertex_id = 5388
+distance = 2.0999999
+level_vertex_id = 3193
+object_flags = 0xffffffbf
+custom_data = <<END
+[logic]
+active = mob_home
+
+[mob_home]
+path_home = lab_x14_polter_home
+
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+x14_glavny_death +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = monsters\poltergeist\poltergeist
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 0
+g_group = 0
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_monster_base properties
+
+; se_monster properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 32, -34.4000015258789, 13
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21755]
+
+; cse_abstract properties
+section_name = m_poltergeist_strong_flame
+name = lab_x14_polter_4
+position = 27, -34.4000015258789, 13
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17776
+
+; cse_alife_object properties
+game_vertex_id = 5388
+distance = 2.0999999
+level_vertex_id = 3036
+object_flags = 0xffffffbf
+custom_data = <<END
+[logic]
+active = mob_home
+
+[mob_home]
+path_home = lab_x14_polter_home
+
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+x14_glavny_death +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = monsters\poltergeist\poltergeist
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 0
+g_group = 0
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_monster_base properties
+
+; se_monster properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 27, -34.4000015258789, 13
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21756]
+
+; cse_abstract properties
+section_name = inventory_box
+name = x14_monolith_box
+position = 19, -34.4000015258789, -22
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17777
+
+; cse_alife_object properties
+game_vertex_id = 5380
+distance = 2
+level_vertex_id = 2798
+object_flags = 0xffffff3b
+custom_data = <<END
+
+[spawn]
+medkit_army = 5
+medkit_scientic = 5
+bandage = 5
+antirad = 5
+kolbasa = 3
+conserva = 5
+bread = 5
+ammo_minigun = 3
+ammo_7.62x51_ap = 6
+grenade_shok = 5
+grenade_gravi = 5
+ammo_gauss = 8
+wpn_gauss_krayzis
+nano_scientific_outfit
+END
+
+; cse_visual properties
+visual_name = physics\box\seif_01
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21757]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_1
+position = 37, -34.2999992370605, -35
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17778
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_master
+
+; cse_alife_object properties
+game_vertex_id = 5386
+distance = 5.5
+level_vertex_id = 3413
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+
+[logic]
+active = kamp
+
+[kamp]
+center_point = x14_monolith_kamp_1
+radius = 2
+END
+
+; cse_visual properties
+visual_name = actors\monolit\inkvizitor_exolight
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 37, -34.2999992370605, -35
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21758]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_2
+position = 2, -34.4000015258789, -37
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17779
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_master
+
+; cse_alife_object properties
+game_vertex_id = 5375
+distance = 5.5
+level_vertex_id = 2101
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+
+[logic]
+active = kamp
+
+[kamp]
+center_point = x14_monolith_kamp_2
+radius = 2
+END
+
+; cse_visual properties
+visual_name = actors\monolit\inkvizitor_exolight
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 2, -34.4000015258789, -37
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21759]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_4
+position = 1, -34.5, -8
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17780
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_monster
+
+; cse_alife_object properties
+game_vertex_id = 5377
+distance = 5.5
+level_vertex_id = 2067
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+
+[logic]
+active = sleeper
+
+[sleeper]
+path_main = x14_monolith_sleep_2
+END
+
+; cse_visual properties
+visual_name = actors\monolit\inkvizitor_cherep
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 1, -34.5, -8
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21760]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_7
+position = -12, -34.4000015258789, 13
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17781
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_robot
+
+; cse_alife_object properties
+game_vertex_id = 5370
+distance = 5.5
+level_vertex_id = 1379
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+
+[logic]
+active = kamp
+
+[kamp]
+center_point = x14_monolith_kamp_1
+radius = 2
+END
+
+; cse_visual properties
+visual_name = actors\monolit\act_tank
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -12, -34.4000015258789, 13
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21761]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_8
+position = 26, -34.4000015258789, -23
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17782
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_robot
+
+; cse_alife_object properties
+game_vertex_id = 5384
+distance = 5.5
+level_vertex_id = 2984
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+
+[logic]
+active = kamp
+
+[kamp]
+center_point = x14_monolith_kamp_2
+radius = 2
+END
+
+; cse_visual properties
+visual_name = actors\monolit\act_tank
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 26, -34.4000015258789, -23
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21762]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_9
+position = -14, -34.4000015258789, -42
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17783
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_specnaz
+
+; cse_alife_object properties
+game_vertex_id = 5373
+distance = 5.5
+level_vertex_id = 1259
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+
+[logic]
+active = kamp
+
+[kamp]
+center_point = x14_monolith_kamp_1
+radius = 2
+END
+
+; cse_visual properties
+visual_name = actors\monolit\stalker_mo_elite_mask
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -14, -34.4000015258789, -42
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21763]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_10
+position = -12, -34.4000015258789, -42
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17784
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_specnaz
+
+; cse_alife_object properties
+game_vertex_id = 5373
+distance = 5.5
+level_vertex_id = 1364
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+
+[logic]
+active = kamp
+
+[kamp]
+center_point = x14_monolith_kamp_2
+radius = 2
+END
+
+; cse_visual properties
+visual_name = actors\monolit\stalker_mo_elite_mask
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -12, -34.4000015258789, -42
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21764]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_11
+position = 16, -34.4000015258789, -43
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17785
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_specnaz
+
+; cse_alife_object properties
+game_vertex_id = 5379
+distance = 5.5
+level_vertex_id = 2727
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+
+[logic]
+active = kamp
+
+[kamp]
+center_point = x14_monolith_kamp_1
+radius = 2
+END
+
+; cse_visual properties
+visual_name = actors\monolit\stalker_mo_elite_mask
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 16, -34.4000015258789, -43
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21765]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_13
+position = 36, -34.4000015258789, -13
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17786
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_robot
+
+; cse_alife_object properties
+game_vertex_id = 5387
+distance = 5.5
+level_vertex_id = 3377
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = walker
+
+[walker]
+path_walk = x14_mon_walker_2_walk
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\act_tank
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 36, -34.4000015258789, -13
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21766]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_14
+position = 37, -34.2999992370605, -9
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17787
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_android
+
+; cse_alife_object properties
+game_vertex_id = 5387
+distance = 5.5
+level_vertex_id = 3383
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = walker
+
+[walker]
+path_walk = x14_mon_walker_1_walk
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\nanosuit_new
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 37, -34.2999992370605, -9
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21767]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_15
+position = 36, -34.4000015258789, -37
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17788
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_monster
+
+; cse_alife_object properties
+game_vertex_id = 5386
+distance = 5.5
+level_vertex_id = 3277
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = walker
+
+[walker]
+path_walk = x14_mon_walker_3_walk
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\inkvizitor_cherep
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 36, -34.4000015258789, -37
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21768]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_16
+position = -2, -34.4000015258789, -37
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17789
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_monster
+
+; cse_alife_object properties
+game_vertex_id = 5375
+distance = 5.5
+level_vertex_id = 1774
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = walker
+
+[walker]
+path_walk = x14_mon_walker_4_walk
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\inkvizitor_cherep
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -2, -34.4000015258789, -37
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21769]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_17
+position = -1, -34.4000015258789, -38
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17790
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_monster
+
+; cse_alife_object properties
+game_vertex_id = 5375
+distance = 5.5
+level_vertex_id = 1950
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = walker
+
+[walker]
+path_walk = x14_mon_walker_5_walk
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\inkvizitor_cherep
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -1, -34.4000015258789, -38
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21770]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_18
+position = 36, -34.4000015258789, -13
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17791
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_robot
+
+; cse_alife_object properties
+game_vertex_id = 5387
+distance = 5.5
+level_vertex_id = 3309
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = walker
+
+[walker]
+path_walk = x14_mon_walker_6_walk
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\act_tank
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 36, -34.4000015258789, -13
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21771]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_21
+position = 3, -34.4000015258789, 14
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17792
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_nauch
+
+; cse_alife_object properties
+game_vertex_id = 5378
+distance = 5.5
+level_vertex_id = 2230
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = walker
+
+[walker]
+path_walk = x14_mon_walker_9_walk
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\stalker_mo_nauchniy
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 3, -34.4000015258789, 14
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21772]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_22
+position = 2, -34.4000015258789, 22
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17793
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_nauch
+
+; cse_alife_object properties
+game_vertex_id = 5378
+distance = 5.5
+level_vertex_id = 2198
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = walker
+
+[walker]
+path_walk = x14_mon_walker_10_walk
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\stalker_mo_nauchniy
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 2, -34.4000015258789, 22
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21773]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_27
+position = 41, -34.4000015258789, -29
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17794
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_android
+
+; cse_alife_object properties
+game_vertex_id = 5385
+distance = 5.5
+level_vertex_id = 3543
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = camper
+
+[camper]
+path_walk = x14_mon_camp_15_walk
+path_look = x14_mon_camp_15_look
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\nanosuit_new
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 41, -34.4000015258789, -29
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21774]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_31
+position = -11, -32.9000015258789, 20
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17795
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_nlo
+
+; cse_alife_object properties
+game_vertex_id = 5372
+distance = 5.5
+level_vertex_id = 1409
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = camper
+
+[camper]
+path_walk = x14_mon_camp_19_walk
+path_look = x14_mon_camp_19_look
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\stelsarmor_danekstalker
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -11, -32.9000015258789, 20
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21775]
+
+; cse_abstract properties
+section_name = physic_object
+name = event_horizont
+position = -16.1000003814697, -34.4000015258789, 27.5289993286133
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17796
+
+; cse_alife_object properties
+game_vertex_id = 5372
+distance = 0.69999999
+level_vertex_id = 1251
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = equipments\event_horiz
+visual_flags = 0x1
+
+; cse_ph_skeleton properties
+skeleton_name = idle
+skeleton_flags = 1
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 1000
+fixed_bones = joint1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21776]
+
+; cse_abstract properties
+section_name = zone_part_5
+name = zone_event
+position = -16.1000003814697, -32.7999992370605, 27.5289993286133
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17797
+
+; cse_alife_object properties
+game_vertex_id = 5372
+distance = 0.69999999
+level_vertex_id = 1251
+object_flags = 0xffffff3a
+
+; cse_shape properties
+shapes = 1
+shape_0:type = sphere
+shape_0:offset = 0,0,0
+shape_0:radius = 0.54640007019043
+
+; cse_alife_space_restrictor properties
+restrictor_type = 0
+
+; cse_alife_custom_zone properties
+max_power = 0.89999998
+
+; cse_alife_anomalous_zone properties
+offline_interactive_radius = 30
+artefact_spawn_count = 32
+artefact_position_offset = 0xa0ca
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21777]
+
+; cse_abstract properties
+section_name = level_changer
+name = level_changer_lab_x14_to_eprip
+position = 36.1860008239746, -34.4850006103516, 8.03699970245361
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17798
+
+; cse_alife_object properties
+game_vertex_id = 5388
+level_vertex_id = 3397
+object_flags = 0xffffff3e
+custom_data = <<END
+[pt_move_if_reject]
+path = x14_way_if_reject_eprip
+END
+story_id = 6018
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.22939944267273,0,0
+shape_0:axis_y = 0,4.83859968185425,0
+shape_0:axis_z = 0,0,2.22939944267273
+shape_0:offset = 0,0,0
+
+; cse_alife_space_restrictor properties
+restrictor_type = 3
+
+; cse_alife_level_changer properties
+dest_game_vertex_id = 3752
+dest_level_vertex_id = 77308
+dest_position = -117.686996459961, -11.125, -229.020004272461
+dest_direction = 0.0111562451347709, -0.000250374461757019, 0.0224392339587212
+dest_level_name = pripyat
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21778]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp
+position = -4.87025260925293, -30.9469299316406, -7.6271858215332
+direction = 0, 1.55339968204498, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17799
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_galogen_4
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link00,link01
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21779]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0000
+position = 38.5137634277344, -31.3521175384521, -24.3719730377197
+direction = 0, -1.52460026741028, 3.12778520584106
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17800
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21780]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0001
+position = 38.2455101013184, -31.4244041442871, -31.3403434753418
+direction = 0, -1.69740104675293, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17801
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_walls_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21781]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0002
+position = 25.0699119567871, -31.0822410583496, -36.8715400695801
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17802
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21782]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0003
+position = 18.5742721557617, -31.5321159362793, -38.8919448852539
+direction = 0, 3.1313853263855, -3.13678503036499
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17803
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21783]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0004
+position = 11.4692583084106, -31.0822410583496, -36.8715400695801
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17804
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21784]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0005
+position = 0.133112847805023, -31.0822410583496, -29.4555244445801
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17805
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link,plafon,provod
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21785]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0006
+position = -8.27841091156006, -33.0157089233398, 20.9503955841064
+direction = 0, 1.16100120544434, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17806
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_01_on
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21786]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0007
+position = -12.7250270843506, -31.4244041442871, 15.0344409942627
+direction = 0, -0.0450018905103207, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17807
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_walls_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = korpus,provod,sharnir,link,bone_ambient
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21787]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0008
+position = 0.0846352800726891, -28.9745235443115, 14.5617046356201
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17808
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_abajur_03
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21788]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0009
+position = -0.290384829044342, -28.9745235443115, 24.408296585083
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17809
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_abajur_03
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21789]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0010
+position = 36.7392616271973, -31.0822410583496, -13.0415859222412
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17810
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21790]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0011
+position = 19.356954574585, -31.0822410583496, -13.0415859222412
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17811
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21791]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0012
+position = 0.478089690208435, -31.0822410583496, -13.0415859222412
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17812
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21792]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0013
+position = -22.7525634765625, -31.0822410583496, -13.0415859222412
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17813
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21793]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0014
+position = -36.8808288574219, -31.0822410583496, -13.0415859222412
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17814
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21794]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0015
+position = -36.8980407714844, -31.0822410583496, -36.9382019042969
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17815
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21795]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0016
+position = -20.7570762634277, -31.0822410583496, -36.9242286682129
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17816
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21796]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0017
+position = 0.0931033194065094, -31.0822410583496, -36.9242286682129
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17817
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21797]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0018
+position = 36.7112655639648, -31.0822410583496, 13.0427083969116
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17818
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21798]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0019
+position = 19.7521629333496, -31.0822410583496, 13.0427083969116
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17819
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21799]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0020
+position = -36.3521194458008, -31.0822410583496, 13.0427083969116
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17820
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa_provod_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21800]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0021
+position = 31.2534942626953, -31.4061183929443, -15.9643030166626
+direction = 0, 3.1007866859436, -3.13678765296936
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17821
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21801]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0022
+position = 10.0791330337524, -31.2621212005615, -15.9643030166626
+direction = 0, 3.1007866859436, 3.14038634300232
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17822
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21802]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0023
+position = 19.8235683441162, -31.4421215057373, -18.6112785339355
+direction = 0, 1.55998682975769, 3.14099979400635
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17823
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21803]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0024
+position = 21.0815677642822, -31.4961185455322, -18.6160144805908
+direction = 0, -1.56599807739258, 3.13380002975464
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17824
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21804]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0025
+position = -11.9573173522949, -31.4241218566895, -38.8885040283203
+direction = 0, -3.11400175094604, -3.13498592376709
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17825
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21805]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0026
+position = -38.5399780273438, -31.4061222076416, -36.7756958007813
+direction = -0.00360005581751466, 1.59418487548828, -3.1205849647522
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17826
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21806]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0027
+position = -38.5399780273438, -31.6581077575684, -31.8471527099609
+direction = 0, 1.59418487548828, -3.12418508529663
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17827
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21807]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0028
+position = -38.5399780273438, -31.6581134796143, -19.2503623962402
+direction = 0, 1.59418487548828, -3.13858461380005
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17828
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21808]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0029
+position = -38.5399780273438, -31.7121162414551, 18.2099647521973
+direction = 0, 1.59418487548828, 3.13559937477112
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17829
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21809]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0030
+position = -31.1478977203369, -31.2441215515137, -15.9696702957153
+direction = 0, -3.12479877471924, -3.13740086555481
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17830
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21810]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0031
+position = -17.8148326873779, -31.4061164855957, -15.9696702957153
+direction = 0, -3.12479877471924, -3.13858532905579
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17831
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21811]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0032
+position = -18.7968006134033, -31.0641098022461, 18.9479312896729
+direction = -4.96745487907901e-005, -0.00421507610008121, 3.12659955024719
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17832
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21812]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0033
+position = -9.65811443328857, -31.7301063537598, 27.2343997955322
+direction = 0.00179769122041762, 1.54558515548706, 3.13748788833618
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17833
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21813]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0034
+position = -8.87171363830566, -31.7301063537598, 27.3128204345703
+direction = -0.00179894338361919, -1.57859802246094, -3.13324236869812
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17834
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21814]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0035
+position = -8.89637756347656, -31.7301082611084, 13.1437892913818
+direction = -0.00179894256871194, -1.57859802246094, 3.1373438835144
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17835
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21815]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0036
+position = -9.14902973175049, -31.7841014862061, 13.1437892913818
+direction = 0.00179935328196734, 1.57140409946442, -3.12234449386597
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17836
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21816]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0037
+position = 8.68070030212402, -31.8021106719971, 12.9818525314331
+direction = 0.00179935409687459, 1.57140409946442, -3.12054467201233
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17837
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21817]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0038
+position = 8.93354225158691, -31.8561038970947, 13.1252193450928
+direction = -0.0017989429179579, -1.57859802246094, -3.12244248390198
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17838
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21818]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = x14_lights_hanging_lamp_0039
+position = 0.700095415115356, -31.7301063537598, 5.65072917938232
+direction = -7.77070672484115e-005, -0.01979717053473, -3.13318753242493
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17839
+
+; cse_alife_object properties
+game_vertex_id = 5363
+level_vertex_id = 266
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = physics\light\lampa01_ugl_2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffffff
+main_brightness = 1
+main_range = 10
+light_flags = 0x1e
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21819]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_3
+position = -41, -34.4000015258789, -37
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17840
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_monster
+
+; cse_alife_object properties
+game_vertex_id = 5363
+distance = 5.5
+level_vertex_id = 67
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+
+[logic]
+active = sleeper
+
+[sleeper]
+path_main = x14_monolith_sleep_1
+END
+
+; cse_visual properties
+visual_name = actors\monolit\inkvizitor_cherep
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -41, -34.4000015258789, -37
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21820]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_5
+position = -34, -34.2999992370605, -13
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17841
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_android
+
+; cse_alife_object properties
+game_vertex_id = 5367
+distance = 5.5
+level_vertex_id = 593
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+
+[logic]
+active = sleeper
+
+[sleeper]
+path_main = x14_monolith_sleep_3
+END
+
+; cse_visual properties
+visual_name = actors\monolit\nanosuit_new
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -34, -34.2999992370605, -13
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21821]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_6
+position = -37, -34.4000015258789, 21
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17842
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_android
+
+; cse_alife_object properties
+game_vertex_id = 5366
+distance = 5.5
+level_vertex_id = 433
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+
+[logic]
+active = sleeper
+
+[sleeper]
+path_main = x14_monolith_sleep_4
+END
+
+; cse_visual properties
+visual_name = actors\monolit\nanosuit_new
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -37, -34.4000015258789, 21
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21822]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_12
+position = -40, -34.4000015258789, 21
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17843
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_specnaz
+
+; cse_alife_object properties
+game_vertex_id = 5366
+distance = 5.5
+level_vertex_id = 121
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+
+[logic]
+active = kamp
+
+[kamp]
+center_point = x14_monolith_kamp_2
+radius = 2
+END
+
+; cse_visual properties
+visual_name = actors\monolit\stalker_mo_elite_mask
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -40, -34.4000015258789, 21
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21823]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_19
+position = -36, -34.2999992370605, -35
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17844
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_robot
+
+; cse_alife_object properties
+game_vertex_id = 5363
+distance = 5.5
+level_vertex_id = 354
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = walker
+
+[walker]
+path_walk = x14_mon_walker_7_walk
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\act_tank
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -36, -34.2999992370605, -35
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21824]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_20
+position = -35, -34.4000015258789, 13
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17845
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_android
+
+; cse_alife_object properties
+game_vertex_id = 5366
+distance = 5.5
+level_vertex_id = 572
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = walker
+
+[walker]
+path_walk = x14_mon_walker_8_walk
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\nanosuit_new
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -35, -34.4000015258789, 13
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21825]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_23
+position = -41, -34.4000015258789, 18
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17846
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_nauch
+
+; cse_alife_object properties
+game_vertex_id = 5366
+distance = 5.5
+level_vertex_id = 84
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = walker
+
+[walker]
+path_walk = x14_mon_walker_11_walk
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\stalker_mo_nauchniy
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -41, -34.4000015258789, 18
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21826]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_24
+position = -42, -34.4000015258789, -17
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17847
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_android
+
+; cse_alife_object properties
+game_vertex_id = 5364
+distance = 5.5
+level_vertex_id = 56
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = camper
+
+[camper]
+path_walk = x14_mon_camp_12_walk
+path_look = x14_mon_camp_12_look
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\nanosuit_new
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -42, -34.4000015258789, -17
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21827]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_25
+position = -41, -34.4000015258789, -26
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17848
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_android
+
+; cse_alife_object properties
+game_vertex_id = 5363
+distance = 5.5
+level_vertex_id = 76
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = camper
+
+[camper]
+path_walk = x14_mon_camp_13_walk
+path_look = x14_mon_camp_13_look
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\nanosuit_new
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -41, -34.4000015258789, -26
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21828]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_26
+position = -40, -34.4000015258789, -36
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17849
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_nlo
+
+; cse_alife_object properties
+game_vertex_id = 5363
+distance = 5.5
+level_vertex_id = 93
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = camper
+
+[camper]
+path_walk = x14_mon_camp_14_walk
+path_look = x14_mon_camp_14_look
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\stelsarmor_danekstalker
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -40, -34.4000015258789, -36
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21829]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_28
+position = -16, -34.2999992370605, -24
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17850
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_android
+
+; cse_alife_object properties
+game_vertex_id = 5369
+distance = 5.5
+level_vertex_id = 1194
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = camper
+
+[camper]
+path_walk = x14_mon_camp_16_walk
+path_look = x14_mon_camp_16_look
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\nanosuit_new
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -16, -34.2999992370605, -24
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21830]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_29
+position = -25, -34.4000015258789, -21
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17851
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_android
+
+; cse_alife_object properties
+game_vertex_id = 5369
+distance = 5.5
+level_vertex_id = 822
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = camper
+
+[camper]
+path_walk = x14_mon_camp_17_walk
+path_look = x14_mon_camp_17_look
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\nanosuit_new
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -25, -34.4000015258789, -21
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[21831]
+
+; cse_abstract properties
+section_name = stalker
+name = x14_monolith_30
+position = -28, -34.4000015258789, -24
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 17852
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = monolith_android
+
+; cse_alife_object properties
+game_vertex_id = 5368
+distance = 5.5
+level_vertex_id = 759
+object_flags = 0xffffffbf
+custom_data = <<END
+[smart_terrains]
+none = true
+
+[logic]
+active = camper
+
+[camper]
+path_walk = x14_mon_camp_18_walk
+path_look = x14_mon_camp_18_look
+
+[spawner]
+cond = {+tb3d_desant_wave2 +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\nanosuit_new
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -28, -34.4000015258789, -24
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+

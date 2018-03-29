@@ -1,0 +1,811 @@
+[10361]
+
+; cse_abstract properties
+section_name = level_changer
+name = digger_stash_to_tech
+position = -21, 6, 5
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1597
+
+; cse_alife_object properties
+game_vertex_id = 5350
+level_vertex_id = 29
+object_flags = 0xffffff3e
+custom_data = <<END
+[pt_move_if_reject]
+path = digger_stash_pt_move1
+END
+story_id = 6015
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1,0,0
+shape_0:axis_y = 0,1,0
+shape_0:axis_z = 0,0,1
+shape_0:offset = 0,0,0
+
+; cse_alife_space_restrictor properties
+restrictor_type = 3
+
+; cse_alife_level_changer properties
+dest_game_vertex_id = 5037
+dest_level_vertex_id = 510260
+dest_position = 213.72200012207, 11.7370004653931, -92.6640014648438
+dest_level_name = promzone
+dest_graph_point = start_actor_01
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10362]
+
+; cse_abstract properties
+section_name = level_changer
+name = digger_stash_to_research
+position = 12.5, 0.400000005960464, 0.5
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1598
+
+; cse_alife_object properties
+game_vertex_id = 5362
+level_vertex_id = 151
+object_flags = 0xffffff3e
+custom_data = <<END
+[pt_move_if_reject]
+path = digger_stash_pt_move2
+END
+story_id = 6016
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1,0,0
+shape_0:axis_y = 0,1,0
+shape_0:axis_z = 0,0,1
+shape_0:offset = 0,0,0
+
+; cse_alife_space_restrictor properties
+restrictor_type = 3
+
+; cse_alife_level_changer properties
+dest_game_vertex_id = 4384
+dest_level_vertex_id = 207373
+dest_position = -71.9850006103516, -13.878999710083, 161.541000366211
+dest_level_name = yantar_old
+dest_graph_point = start_actor_01
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10363]
+
+; cse_abstract properties
+section_name = stalker
+name = digger_stash_killer_1
+position = -20, -10.1000003814697, 4.5
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1599
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = killer_specnaz
+
+; cse_alife_object properties
+game_vertex_id = 5351
+distance = 5.5
+level_vertex_id = 35
+object_flags = 0xffffffbf
+custom_data = <<END
+[logic]
+active = walker
+
+[walker]
+path_walk = digger_stash_killer_1_walk
+path_look = digger_stash_killer_1_look
+
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+datchik_dialog_start +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\killer\stalker_ki_head_1
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -20, -10.1000003814697, 4.5
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10364]
+
+; cse_abstract properties
+section_name = stalker
+name = digger_stash_killer_3
+position = -5, -8.10000038146973, -1
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1600
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = killer_general
+
+; cse_alife_object properties
+game_vertex_id = 5354
+distance = 5.5
+level_vertex_id = 95
+object_flags = 0xffffffbf
+custom_data = <<END
+[logic]
+active = walker
+
+[walker]
+path_walk = digger_stash_killer_3_walk
+path_look = digger_stash_killer_3_look
+
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+datchik_dialog_start +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\killer\stalker_ki_mask1
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -5, -8.10000038146973, -1
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10365]
+
+; cse_abstract properties
+section_name = space_restrictor
+name = digger_stash_restrictor
+position = -9.89999961853027, -8.10000038146973, -0.200000002980232
+direction = 0.111189842224121, -0.00129711860790849, 0.011689349077642
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1601
+
+; cse_alife_object properties
+game_vertex_id = 5353
+level_vertex_id = 71
+object_flags = 0xffffff3e
+custom_data = <<END
+[logic]
+active = sr_idle
+
+[sr_idle]
+on_actor_inside = nil %+killer_strag_spawn%
+END
+
+; cse_shape properties
+shapes = 1
+shape_0:type = sphere
+shape_0:offset = 0,0,0
+shape_0:radius = 3
+
+; cse_alife_space_restrictor properties
+restrictor_type = 3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10366]
+
+; cse_abstract properties
+section_name = stalker
+name = killer_strag
+position = 3.76999998092651, -2.5, 1.46000003814697
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1602
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = killer_strag
+
+; cse_alife_object properties
+game_vertex_id = 5357
+distance = 5.5
+level_vertex_id = 133
+object_flags = 0xffffffbf
+custom_data = <<END
+[logic]
+active = walker
+
+[walker]
+path_walk = killer_strag_walk
+path_look = killer_strag_look
+
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+killer_strag_spawn +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\killer\stalker_ki_head_2
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = 3.76999998092651, -2.5, 1.46000003814697
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10367]
+
+; cse_abstract properties
+section_name = inventory_box
+name = digger_stash_inventory_box
+position = -7.09999990463257, -8.10000038146973, 1
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1603
+
+; cse_alife_object properties
+game_vertex_id = 5354
+distance = 2
+level_vertex_id = 82
+object_flags = 0xffffff3b
+custom_data = <<END
+
+[spawn]
+medkit_army = 3
+bandage = 5
+ammo_9x19_fmj = 5
+ammo_5.56x45_ss190 = 4
+ammo_5.56x45_ap = 3
+ammo_7.62x51box = 3
+ammo_7.62x51_fmj = 6
+wpn_m240
+grenade_m61 = 5
+killer_gaz_outfit
+END
+
+; cse_visual properties
+visual_name = physics\yzik_derevo_big
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10368]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#0
+position = 1.1834545135498, -4.86539459228516, 0.634542346000671
+direction = 0.238393619656563, 2.89315485954285, -1.73189461231232
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1604
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 1.10875391960144,0,0
+shape_0:axis_y = 0,0.402642369270325,0
+shape_0:axis_z = 0,0,0.0039820671081543
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10369]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#1
+position = -23.9837551116943, -4.32758665084839, 5.40110397338867
+direction = 5.52720484847669e-005, 3.1413471698761, 1.36061930656433
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1605
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.63949728012085,0,0
+shape_0:axis_y = 0,9.918212890625e-005,0
+shape_0:axis_z = 0,0,0.311103582382202
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10370]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#2
+position = -20.8031196594238, 3.16702079772949, 5.01022672653198
+direction = 0.000570644217077643, -0.000468791608000174, 1.57079529762268
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1606
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 4.6871280670166,0,0
+shape_0:axis_y = 0,0.346774101257324,0
+shape_0:axis_z = 0,0,0.000164031982421875
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10371]
+
+; cse_abstract properties
+section_name = climable_object
+name = clmbl#3
+position = -22.4133319854736, 10.8155527114868, 4.48817205429077
+direction = -0.000675709219649434, -3.14159202575684, -1.57081139087677
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1607
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffffbf
+
+; cse_shape properties
+shapes = 1
+shape_0:type = box
+shape_0:axis_x = 2.98578858375549,0,0
+shape_0:axis_y = 0,0.346802711486816,0
+shape_0:axis_z = 0,0,1.00135803222656e-005
+shape_0:offset = 0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10372]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = digst_lights_hanging_lamp
+position = -5.02462673187256, -3.99663138389587, 1.05896699428558
+direction = 3.14159274101257, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1608
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffffba
+
+; cse_visual properties
+visual_name = dynamics\light\light_abajour_2_lowrez
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffffe991
+main_brightness = 1
+main_color_animator = light 40 hz
+main_range = 10
+light_flags = 0x1f
+lamp_fixed_bones = link
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_bone = bone_lamp
+main_cone_angle = 2.0943952
+glow_texture = glow\glow_blue
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10373]
+
+; cse_abstract properties
+section_name = physic_object
+name = digst_physic_object
+position = -3.98398017883301, -6.94107151031494, 3.26835989952087
+direction = 0, 0.585000038146973, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1609
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_miska
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10374]
+
+; cse_abstract properties
+section_name = physic_object
+name = digst_physic_object_0000
+position = -7.38261365890503, -7.21021509170532, 2.33799481391907
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1610
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = physics\decor\bottle_bar_stakan
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10375]
+
+; cse_abstract properties
+section_name = physic_object
+name = digst_physic_object_0001
+position = -7.4339542388916, -7.21021461486816, 2.51696991920471
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1611
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_tarelka2
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10376]
+
+; cse_abstract properties
+section_name = physic_object
+name = digst_physic_object_0002
+position = -7.32236433029175, -7.21021556854248, 2.22158002853394
+direction = 0, 1.89179909229279, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1612
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = dynamics\kitchen_room\kitchen_lojka
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10377]
+
+; cse_abstract properties
+section_name = physic_object
+name = digst_physic_object_0005
+position = -7.9631233215332, -8.18455410003662, 1.49562966823578
+direction = -0.0250556766986847, 2.19145703315735, -0.0137580232694745
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1613
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffff3a
+
+; cse_visual properties
+visual_name = physics\decor\vedro_01
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_physic properties
+physic_type = 0x3
+mass = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10378]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = digst_lights_hanging_lamp_0000
+position = -11.0900001525879, -7.23000001907349, 1.03999996185303
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1614
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffffba
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffff7521
+main_brightness = 1
+main_color_animator = koster_00
+main_range = 3
+light_flags = 0xa
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10379]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = digst_lights_hanging_lamp_0001
+position = -19.5799999237061, -9.11999988555908, 5.98999977111816
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1615
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffffba
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffff7521
+main_brightness = 1
+main_color_animator = koster_00
+main_range = 3
+light_flags = 0xa
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 10
+ambient_power = 0.1
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10380]
+
+; cse_abstract properties
+section_name = lights_hanging_lamp
+name = digst_lights_hanging_lamp_0002
+position = 4.57000017166138, -1.50200033187866, -0.0900000035762787
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1616
+
+; cse_alife_object properties
+game_vertex_id = 5343
+level_vertex_id = 2
+object_flags = 0xffffffba
+
+; cse_visual properties
+
+; cse_ph_skeleton properties
+
+; cse_alife_object_hanging_lamp properties
+main_color = 0xffff5021
+main_brightness = 2
+main_range = 1.5
+light_flags = 0x2a
+health = 100
+main_virtual_size = 0.1
+ambient_radius = 3
+ambient_power = 0.1
+main_cone_angle = 2.0943952
+glow_radius = 0.69999999
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[10381]
+
+; cse_abstract properties
+section_name = stalker
+name = digger_stash_killer_2
+position = -24.1000003814697, -6.90000009536743, 4.59999990463257
+direction = 0, 0, 0
+id = 65535
+version = 118
+script_version = 6
+spawn_id = 1617
+
+; cse_alife_trader_abstract properties
+money = 1000
+character_profile = killer_exo_unic
+
+; cse_alife_object properties
+game_vertex_id = 5344
+distance = 5.5
+level_vertex_id = 7
+object_flags = 0xffffffbf
+custom_data = <<END
+[logic]
+active = walker
+
+[walker]
+path_walk = digger_stash_killer_2_walk
+path_look = digger_stash_killer_2_look
+
+[smart_terrains]
+none = true
+
+[spawner]
+cond = {+datchik_dialog_start +tb3d_collector}
+END
+
+; cse_visual properties
+visual_name = actors\monolit\stalker_neytral_exoskeleton
+
+; cse_alife_creature_abstract properties
+g_team = 0
+g_squad = 1
+g_group = 2
+dynamic_out_restrictions = 
+dynamic_in_restrictions = 
+
+; cse_alife_monster_abstract properties
+equipment_preferences = 1, 2, 2, 1, 2
+main_weapon_preferences = 0, 1, 1, 1
+
+; cse_ph_skeleton properties
+
+; se_stalker properties
+upd:health = 1
+upd:timestamp = 0
+upd:creature_flags = 0
+upd:position = -24.1000003814697, -6.90000009536743, 4.59999990463257
+upd:g_squad = 1
+upd:g_group = 2
+
+; cse_alife_human_stalker properties
+upd:start_dialog = 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
