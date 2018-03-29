@@ -1,0 +1,2410 @@
+<!--======= TB3D 1.1.0.0.0.4 new 04/12/2012 from old stable_dialogs_wawka 3=============================================-->
+<!-- Reworked up to the end - Sword2012 - 06 Apr 17 -->
+<string_table>
+	<string id="start_update_outfit_barman_0">
+		<text>That you will tell, Barman...</text>
+	</string>
+	<string id="start_update_outfit_barman_1">
+		<text>Good job, Marked One... We've long suspected these Agroprom documents existed, but no one has actually found them until now... Look, if I can ever help you out with your gear, just let me know. Especially if you need your body armor modifying! I can fit night vision for you, and also reinforce some suits, which should improve their reliability...</text>
+	</string>
+	<string id="start_update_outfit_barman_2">
+		<text>Thank you. I'll bear that in mind...</text>
+	</string>
+	<string id="update_outfit_barman_0">
+		<text>Could you upgrade a suit for me, please?</text>
+	</string>
+	<string id="update_outfit_barman_1">
+		<text>I can install Pilot Night Vision onto any of these suits for you:\nThe 'Easy' Stalker suit\nThe Stalker suit\nThe Stalker 'Veteran-1' suit\nThe Stalker 'Veteran-2' suit\nThe Stalker 'Veteran-3' suit\nThe Scientific Stalker suit\nThe Improved Stalker 'Veteran-1' suit with gas mask\nThe Improved Stalker 'Veteran-2' suit with gas mask\nThe Improved Stalker 'Veteran-3' suit with gas mask\nThe Improved Stalker 'CSu-1' suit with gas mask\nThe Improved Stalker 'CSu-2k' suit with gas mask\nGhost's Stalker suit\nThe 'Tourist' suit\nStrelok's suit\nI can also reinforce any of these suits. What would you like?</text>
+	</string>
+	<string id="update_outfit_barman_1111">
+		<text>Night vision, please...</text>
+	</string>
+	<string id="update_outfit_barman_11111">
+		<text>Do you want it installed on a standard suit, or a reinforced one?</text>
+	</string>
+	<string id="update_outfit_barman_111111">
+		<text>On a standard suit...</text>
+	</string>
+	<string id="update_outfit_barman_1111111">
+		<text>Excellent... Onto which suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_barman_2">
+		<text>The 'Easy' Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_3">
+		<text>The Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_4">
+		<text>The Stalker suit 'Veteran-1'...</text>
+	</string>
+	<string id="update_outfit_barman_5">
+		<text>The Stalker suit 'Veteran-2'...</text>
+	</string>
+	<string id="update_outfit_barman_6">
+		<text>The Stalker suit 'Veteran-3'...</text>
+	</string>
+	<string id="update_outfit_barman_7">
+		<text>The Scientific Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_8">
+		<text>The Improved Stalker suit 'Veteran-1' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_9">
+		<text>The Improved Stalker suit 'Veteran-2' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_10">
+		<text>The Improved Stalker suit 'Veteran-3' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_11">
+		<text>The Improved Stalker suit 'CSu-1' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_12">
+		<text>The Improved Stalker suit 'CSu-2k' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_13">
+		<text>Ghost's Stalker suit</text>
+	</string>
+	<string id="update_outfit_barman_14">
+		<text>The 'Tourist' suit...</text>
+	</string>
+	<string id="update_outfit_barman_15">
+		<text>Strelok's suit...</text>
+	</string>
+	<string id="update_outfit_barman_02">
+		<text>For the 'Easy' Stalker suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0021">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0022">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0023">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0024">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0025">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0026">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0027">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0028">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_03">
+		<text>For the Stalker suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0031">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0032">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0033">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0034">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0035">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0036">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0037">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0038">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_04">
+		<text>For the Stalker suit 'Veteran-1' I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0041">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0042">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0043">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0044">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0045">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0046">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0047">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0048">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_05">
+		<text>For the Stalker suit 'Veteran-2' I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0051">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0052">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0053">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0054">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0055">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0056">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0057">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0058">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_06">
+		<text>For the Stalker suit 'Veteran-3' I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0061">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0062">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0063">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0064">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0065">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0066">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0067">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0068">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_07">
+		<text>For the Scientific Stalker suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0071">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0072">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0073">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0074">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0075">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0076">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0077">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0078">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_08">
+		<text>For the Improved Stalker suit 'Veteran-1' with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0081">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0082">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0083">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0084">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0085">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0086">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0087">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0088">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_09">
+		<text>For the Improved Stalker suit 'Veteran-2' with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0091">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0092">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0093">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0094">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0095">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0096">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0097">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0098">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_010">
+		<text>For the Improved Stalker suit 'Veteran-3' with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_00101">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_00102">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_00103">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_00104">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_00105">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_00106">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_00107">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_00108">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_011">
+		<text>For the Improved Stalker suit 'CSu-1' with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_00111">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_00112">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_00113">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_00114">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_00115">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_00116">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_00117">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_00118">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_012">
+		<text>For the Improved Stalker suit 'CSu-2k' with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_00121">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_00122">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_00123">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_00124">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_00125">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_00126">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_00127">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_00128">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_013">
+		<text>I can offer for Ghost's Stalker suit:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_00131">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_00132">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_00133">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_00134">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_00135">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_00136">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_00137">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_00138">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_014">
+		<text>For the 'Tourist' suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_00141">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_00142">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_00143">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_00144">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_00145">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_00146">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_00147">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_00148">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_015">
+		<text>For Strelok's suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_00151">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_00152">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_00153">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_00154">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_00155">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_00156">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_00157">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_00158">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_2100">
+		<text>Here's your 'Easy' Stalker suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_2200">
+		<text>Here's your 'Easy' Stalker suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_2300">
+		<text>Here's your 'Easy' Stalker suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_2400">
+		<text>Here's your 'Easy' Stalker suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_2500">
+		<text>Here's your 'Easy' Stalker suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_2600">
+		<text>Here's your 'Easy' Stalker suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_2700">
+		<text>Here's your 'Easy' Stalker suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_2800">
+		<text>Here's your 'Easy' Stalker suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_3100">
+		<text>Here's your Stalker suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_3200">
+		<text>Here's your Stalker suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_3300">
+		<text>Here's your Stalker suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_3400">
+		<text>Here's your Stalker suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_3500">
+		<text>Here's your Stalker suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_3600">
+		<text>Here's your Stalker suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_3700">
+		<text>Here's your Stalker suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_3800">
+		<text>Here's your Stalker suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_4100">
+		<text>Here's your Stalker suit 'Veteran-1'. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_4200">
+		<text>Here's your Stalker suit 'Veteran-1'. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_4300">
+		<text>Here's your Stalker suit 'Veteran-1'. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_4400">
+		<text>Here's your Stalker suit 'Veteran-1'. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_4500">
+		<text>Here's your Stalker suit 'Veteran-1'. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_4600">
+		<text>Here's your Stalker suit 'Veteran-1'. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_4700">
+		<text>Here's your Stalker suit 'Veteran-1'. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_4800">
+		<text>Here's your Stalker suit 'Veteran-1'. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_5100">
+		<text>Here's your Stalker suit 'Veteran-2'. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_5200">
+		<text>Here's your Stalker suit 'Veteran-2'. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_5300">
+		<text>Here's your Stalker suit 'Veteran-2'. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_5400">
+		<text>Here's your Stalker suit 'Veteran-2'. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_5500">
+		<text>Here's your Stalker suit 'Veteran-2'. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_5600">
+		<text>Here's your Stalker suit 'Veteran-2'. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_5700">
+		<text>Here's your Stalker suit 'Veteran-2'. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_5800">
+		<text>Here's your Stalker suit 'Veteran-2'. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_6100">
+		<text>Here's your Stalker suit 'Veteran-3'. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_6200">
+		<text>Here's your Stalker suit 'Veteran-3'. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_6300">
+		<text>Here's your Stalker suit 'Veteran-3'. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_6400">
+		<text>Here's your Stalker suit 'Veteran-3'. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_6500">
+		<text>Here's your Stalker suit 'Veteran-3'. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_6600">
+		<text>Here's your Stalker suit 'Veteran-3'. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_6700">
+		<text>Here's your Stalker suit 'Veteran-3'. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_6800">
+		<text>Here's your Stalker suit 'Veteran-3'. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_7100">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_7200">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_7300">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_7400">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_7500">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_7600">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_7700">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_7800">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_8100">
+		<text>Here's your Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_8200">
+		<text>Here's your Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_8300">
+		<text>Here's your Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_8400">
+		<text>Here's your Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_8500">
+		<text>Here's your Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_8600">
+		<text>Here's your Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_8700">
+		<text>Here's your Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_8800">
+		<text>Here's your Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_9100">
+		<text>Here's your Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_9200">
+		<text>Here's your Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_9300">
+		<text>Here's your Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_9400">
+		<text>Here's your Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_9500">
+		<text>Here's your Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_9600">
+		<text>Here's your Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_9700">
+		<text>Here's your Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_9800">
+		<text>Here's your Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_10100">
+		<text>Here's your Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_10200">
+		<text>Here's your Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_10300">
+		<text>Here's your Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_10400">
+		<text>Here's your Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_10500">
+		<text>Here's your Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_10600">
+		<text>Here's your Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_10700">
+		<text>Here's your Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_10800">
+		<text>Here's your Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_11100">
+		<text>Here's your Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_11200">
+		<text>Here's your Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_11300">
+		<text>Here's your Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_11400">
+		<text>Here's your Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_11500">
+		<text>Here's your Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_11600">
+		<text>Here's your Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_11700">
+		<text>Here's your Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_11800">
+		<text>Here's your Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_12100">
+		<text>Here's your Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_12200">
+		<text>Here's your Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_12300">
+		<text>Here's your Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_12400">
+		<text>Here's your Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_12500">
+		<text>Here's your Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_12600">
+		<text>Here's your Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_12700">
+		<text>Here's your Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_12800">
+		<text>Here's your Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_13100">
+		<text>Here's Ghost's Stalker suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_13200">
+		<text>Here's Ghost's Stalker suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_13300">
+		<text>Here's Ghost's Stalker suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_13400">
+		<text>Here's Ghost's Stalker suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_13500">
+		<text>Here's Ghost's Stalker suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_13600">
+		<text>Here's Ghost's Stalker suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_13700">
+		<text>Here's Ghost's Stalker suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_13800">
+		<text>Here's Ghost's Stalker suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_14100">
+		<text>Here's your 'Tourist' suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_14200">
+		<text>Here's your 'Tourist' suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_14300">
+		<text>Here's your 'Tourist' suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_14400">
+		<text>Here's your 'Tourist' suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_14500">
+		<text>Here's your 'Tourist' suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_14600">
+		<text>Here's your 'Tourist' suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_14700">
+		<text>Here's your 'Tourist' suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_14800">
+		<text>Here's your 'Tourist' suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_15100">
+		<text>Here's Strelok's suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_15200">
+		<text>Here's Strelok's suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_15300">
+		<text>Here's Strelok's suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_15400">
+		<text>Here's Strelok's suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_15500">
+		<text>Here's Strelok's suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_15600">
+		<text>Here's Strelok's suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_15700">
+		<text>Here's Strelok's suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_15800">
+		<text>Here's Strelok's suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_111112">
+		<text>A reinforced one, please...</text>
+	</string>
+	<string id="update_outfit_barman_1111121">
+		<text>Excellent... Onto which reinforced suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_barman_102">
+		<text>The 'Easy' Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_103">
+		<text>The Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_104">
+		<text>The Stalker suit 'Veteran-1'...</text>
+	</string>
+	<string id="update_outfit_barman_105">
+		<text>The Stalker suit 'Veteran-2'...</text>
+	</string>
+	<string id="update_outfit_barman_106">
+		<text>The Stalker suit 'Veteran-3'...</text>
+	</string>
+	<string id="update_outfit_barman_107">
+		<text>The Scientific Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_108">
+		<text>The Improved Stalker suit 'Veteran-1' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_109">
+		<text>The Improved Stalker suit 'Veteran-2' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_110">
+		<text>The Improved Stalker suit 'Veteran-3' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_111">
+		<text>The Improved Stalker suit 'CSu-1' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_112">
+		<text>The Improved Stalker suit 'CSu-2k' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_113">
+		<text>Ghost's Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_114">
+		<text>The 'Tourist' suit...</text>
+	</string>
+	<string id="update_outfit_barman_115">
+		<text>Strelok's suit...</text>
+	</string>
+	<string id="update_outfit_barman_1022">
+		<text>For the reinforced 'Easy' Stalker suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0121">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0122">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0123">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0124">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0125">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0126">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0127">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0128">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1033">
+		<text>For the reinforced Stalker suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0131">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0132">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0133">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0134">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0135">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0136">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0137">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0138">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1044">
+		<text>For the reinforced Stalker suit 'Veteran-1' I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0141">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0142">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0143">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0144">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0145">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0146">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0147">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0148">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1055">
+		<text>For the reinforced Stalker suit 'Veteran-2' I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0151">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0152">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0153">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0154">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0155">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0156">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0157">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0158">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1066">
+		<text>For the reinforced Stalker suit 'Veteran-3' I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0161">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0162">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0163">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0164">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0165">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0166">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0167">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0168">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1077">
+		<text>For the reinforced Scientific Stalker suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0171">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0172">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0173">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0174">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0175">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0176">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0177">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0178">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1088">
+		<text>For the reinforced Improved Stalker suit 'Veteran-1' with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0181">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0182">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0183">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0184">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0185">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0186">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0187">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0188">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1099">
+		<text>For the reinforced Improved Stalker suit 'Veteran-2' with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_0191">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_0192">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_0193">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_0194">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_0195">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_0196">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_0197">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_0198">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_10110">
+		<text>For the reinforced Improved Stalker suit 'Veteran-3' with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_01101">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_01102">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_01103">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_01104">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_01105">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_01106">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_01107">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_01108">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_10111">
+		<text>For the reinforced Improved Stalker suit 'CSu-1' with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_01111">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_01112">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_01113">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_01114">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_01115">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_01116">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_01117">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_01118">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_10112">
+		<text>For the reinforced Improved Stalker suit 'CSu-2k' with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_01121">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_01122">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_01123">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_01124">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_01125">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_01126">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_01127">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_01128">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_10113">
+		<text>For the reinforced Ghost's Stalker suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_01131">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_01132">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_01133">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_01134">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_01135">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_01136">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_01137">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_01138">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_10114">
+		<text>For the reinforced 'Tourist' suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_01141">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_01142">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_01143">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_01144">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_01145">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_01146">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_01147">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_01148">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_10115">
+		<text>For the reinforced Strelok's suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_barman_01151">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_01152">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_01153">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_01154">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_01155">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_01156">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_01157">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_01158">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1210">
+		<text>Here's your reinforced 'Easy' Stalker suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_1220">
+		<text>Here's your reinforced 'Easy' Stalker suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_1230">
+		<text>Here's your reinforced 'Easy' Stalker suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_1240">
+		<text>Here's your reinforced 'Easy' Stalker suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_1250">
+		<text>Here's your reinforced 'Easy' Stalker suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_1260">
+		<text>Here's your reinforced 'Easy' Stalker suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_1270">
+		<text>Here's your reinforced 'Easy' Stalker suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_1280">
+		<text>Here's your reinforced 'Easy' Stalker suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1310">
+		<text>Here's your reinforced Stalker suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_1320">
+		<text>Here's your reinforced Stalker suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_1330">
+		<text>Here's your reinforced Stalker suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_1340">
+		<text>Here's your reinforced Stalker suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_1350">
+		<text>Here's your reinforced Stalker suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_1360">
+		<text>Here's your reinforced Stalker suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_1370">
+		<text>Here's your reinforced Stalker suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_1380">
+		<text>Here's your reinforced Stalker suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1410">
+		<text>Here's your reinforced Stalker suit 'Veteran-1'. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_1420">
+		<text>Here's your reinforced Stalker suit 'Veteran-1'. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_1430">
+		<text>Here's your reinforced Stalker suit 'Veteran-1'. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_1440">
+		<text>Here's your reinforced Stalker suit 'Veteran-1'. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_1450">
+		<text>Here's your reinforced Stalker suit 'Veteran-1'. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_1460">
+		<text>Here's your reinforced Stalker suit 'Veteran-1'. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_1470">
+		<text>Here's your reinforced Stalker suit 'Veteran-1'. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_1480">
+		<text>Here's your reinforced Stalker suit 'Veteran-1'. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1510">
+		<text>Here's your reinforced Stalker suit 'Veteran-2'. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_1520">
+		<text>Here's your reinforced Stalker suit 'Veteran-2'. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_1530">
+		<text>Here's your reinforced Stalker suit 'Veteran-2'. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_1540">
+		<text>Here's your reinforced Stalker suit 'Veteran-2'. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_1550">
+		<text>Here's your reinforced Stalker suit 'Veteran-2'. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_1560">
+		<text>Here's your reinforced Stalker suit 'Veteran-2'. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_1570">
+		<text>Here's your reinforced Stalker suit 'Veteran-2'. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_1580">
+		<text>Here's your reinforced Stalker suit 'Veteran-2'. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1610">
+		<text>Here's your reinforced Stalker suit 'Veteran-3'. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_1620">
+		<text>Here's your reinforced Stalker suit 'Veteran-3'. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_1630">
+		<text>Here's your reinforced Stalker suit 'Veteran-3'. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_1640">
+		<text>Here's your reinforced Stalker suit 'Veteran-3'. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_1650">
+		<text>Here's your reinforced Stalker suit 'Veteran-3'. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_1660">
+		<text>Here's your reinforced Stalker suit 'Veteran-3'. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_1670">
+		<text>Here's your reinforced Stalker suit 'Veteran-3'. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_1680">
+		<text>Here's your reinforced Stalker suit 'Veteran-3'. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1710">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_1720">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_1730">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_1740">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_1750">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_1760">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_1770">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_1780">
+		<text>Here's your reinforced Scientific Stalker suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1810">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_1820">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_1830">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_1840">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_1850">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_1860">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_1870">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_1880">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_1910">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_1920">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_1930">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_1940">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_1950">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_1960">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_1970">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_1980">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_11010">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_11020">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_11030">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_11040">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_11050">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_11060">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_11070">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_11080">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_11110">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_11120">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_11130">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_11140">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_11150">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_11160">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_11170">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_11180">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_11210">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_11220">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_11230">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_11240">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_11250">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_11260">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_11270">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_11280">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_11310">
+		<text>Here's your reinforced Ghost's Stalker suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_11320">
+		<text>Here's your reinforced Ghost's Stalker suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_11330">
+		<text>Here's your reinforced Ghost's Stalker suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_11340">
+		<text>Here's your reinforced Ghost's Stalker suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_11350">
+		<text>Here's your reinforced Ghost's Stalker suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_11360">
+		<text>Here's your reinforced Ghost's Stalker suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_11370">
+		<text>Here's your reinforced Ghost's Stalker suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_11380">
+		<text>Here's your reinforced Ghost's Stalker suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_11410">
+		<text>Here's your reinforced 'Tourist' suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_11420">
+		<text>Here's your reinforced 'Tourist' suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_11430">
+		<text>Here's your reinforced 'Tourist' suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_11440">
+		<text>Here's your reinforced 'Tourist' suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_11450">
+		<text>Here's your reinforced 'Tourist' suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_11460">
+		<text>Here's your reinforced 'Tourist' suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_11470">
+		<text>Here's your reinforced 'Tourist' suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_11480">
+		<text>Here's your reinforced 'Tourist' suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_11510">
+		<text>Here's your reinforced Strelok's suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_11520">
+		<text>Here's your reinforced Strelok's suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_11530">
+		<text>Here's your reinforced Strelok's suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_11540">
+		<text>Here's your reinforced Strelok's suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_11550">
+		<text>Here's your reinforced Strelok's suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_11560">
+		<text>Here's your reinforced Strelok's suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_11570">
+		<text>Here's your reinforced Strelok's suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_11580">
+		<text>Here's your reinforced Strelok's suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_2222">
+		<text>I'd like to reinforce a suit...</text>
+	</string>
+	<string id="update_outfit_barman_22222">
+		<text>What kind of suit do you want reinforcing - a standard suit, or one already fitted with night vision?</text>
+	</string>
+	<string id="update_outfit_barman_222221">
+		<text>Standard...</text>
+	</string>
+	<string id="update_outfit_barman_2222211">
+		<text>Excellent... My quotations:\nThe 'Easy' Stalker suit - 10,000Ru and a Skin artefact\nThe Stalker suit - 15,000Ru and a Skin artefact\nThe Stalker suit 'Veteran-1' - 15,000Ru and a Skin artefact\nThe Stalker suit 'Veteran-2' - 15,000Ru and a Skin artefact\nThe Stalker suit 'Veteran-3' - 15,000Ru and a Skin artefact\nThe Scientific Stalker suit - 30,000Ru and a Scale artefact\nThe Improved Stalker suit 'Veteran- 1' with gas mask - 25,000Ru and a Skin artefact\nThe Improved Stalker suit 'Veteran-2' with gas mask - 25,000Ru and a Skin artefact\nThe Improved Stalker suit 'Veteran-3' with gas mask - 25,000Ru and a Skin artefact\nThe Improved Stalker suit 'CSu-1' - 20,000Ru and a Skin artefact\nThe Improved Stalker suit 'CSu-2k' - 25,000Ru and a Skin artefact\nGhost's Stalker suit - 15,000Ru and a Skin artefact\nThe 'Tourist' suit - 20,000Ru and a Skin artefact\nStrelok's suit - 20,000Ru and a Skin artefact\nOnto which suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_barman_202">
+		<text>The 'Easy' Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_203">
+		<text>The Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_204">
+		<text>The Stalker suit 'Veteran-1'...</text>
+	</string>
+	<string id="update_outfit_barman_205">
+		<text>The Stalker suit 'Veteran-2'...</text>
+	</string>
+	<string id="update_outfit_barman_206">
+		<text>The Stalker suit 'Veteran-3'...</text>
+	</string>
+	<string id="update_outfit_barman_207">
+		<text>The Scientific Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_208">
+		<text>The Improved Stalker suit 'Veteran-1' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_209">
+		<text>The Improved Stalker suit 'Veteran-2' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_210">
+		<text>The Improved Stalker suit 'Veteran-3' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_211">
+		<text>The Improved Stalker suit 'CSu-1' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_212">
+		<text>The Improved Stalker suit 'CSu-2k' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_213">
+		<text>Ghost's Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_214">
+		<text>The 'Tourist' suit...</text>
+	</string>
+	<string id="update_outfit_barman_215">
+		<text>Strelok's suit...</text>
+	</string>
+	<string id="update_outfit_barman_216">
+		<text>Here's your reinforced 'Easy' Stalker suit</text>
+	</string>
+	<string id="update_outfit_barman_217">
+		<text>Here's your reinforced Stalker suit</text>
+	</string>
+	<string id="update_outfit_barman_218">
+		<text>Here's your reinforced Stalker suit 'Veteran-1'</text>
+	</string>
+	<string id="update_outfit_barman_219">
+		<text>Here's your reinforced Stalker suit 'Veteran-2'</text>
+	</string>
+	<string id="update_outfit_barman_220">
+		<text>Here's your reinforced Stalker suit 'Veteran-3'</text>
+	</string>
+	<string id="update_outfit_barman_221">
+		<text>Here's your reinforced Scientific Stalker suit</text>
+	</string>
+	<string id="update_outfit_barman_222">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask</text>
+	</string>
+	<string id="update_outfit_barman_223">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask</text>
+	</string>
+	<string id="update_outfit_barman_224">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask</text>
+	</string>
+	<string id="update_outfit_barman_225">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask</text>
+	</string>
+	<string id="update_outfit_barman_226">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask</text>
+	</string>
+	<string id="update_outfit_barman_227">
+		<text>Here's your reinforced Ghost's Stalker suit</text>
+	</string>
+	<string id="update_outfit_barman_228">
+		<text>Here's your reinforced 'Tourist' suit</text>
+	</string>
+	<string id="update_outfit_barman_229">
+		<text>Here's your reinforced Strelok's suit</text>
+	</string>
+	<string id="update_outfit_barman_222222">
+		<text>With night vision...</text>
+	</string>
+	<string id="update_outfit_barman_2222221">
+		<text>Excellent... Onto which suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_barman_302">
+		<text>The 'Easy' Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_303">
+		<text>The Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_304">
+		<text>The Stalker suit 'Veteran-1'...</text>
+	</string>
+	<string id="update_outfit_barman_305">
+		<text>The Stalker suit 'Veteran-2'...</text>
+	</string>
+	<string id="update_outfit_barman_306">
+		<text>The Stalker suit 'Veteran-3'...</text>
+	</string>
+	<string id="update_outfit_barman_307">
+		<text>The Scientific Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_308">
+		<text>The Improved Stalker suit 'Veteran-1' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_309">
+		<text>The Improved Stalker suit 'Veteran-2' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_310">
+		<text>The Improved Stalker suit 'Veteran-3' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_311">
+		<text>The Improved Stalker suit 'CSu-1' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_312">
+		<text>The Improved Stalker suit 'CSu-2k' with gas mask...</text>
+	</string>
+	<string id="update_outfit_barman_313">
+		<text>Ghost's Stalker suit...</text>
+	</string>
+	<string id="update_outfit_barman_314">
+		<text>The 'Tourist' suit...</text>
+	</string>
+	<string id="update_outfit_barman_315">
+		<text>Strelok's suit...</text>
+	</string>
+	<string id="update_outfit_barman_3022">
+		<text>The cost to reinforce an 'Easy' Stalker suit, with fitted PNV, is 10,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_0321">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0322">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0323">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0324">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0325">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0326">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0327">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0328">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_3033">
+		<text>The cost to reinforce a Stalker suit, with fitted PNV, is 15,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_0331">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0332">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0333">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0334">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0335">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0336">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0337">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0338">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_3044">
+		<text>The cost to reinforce a Stalker suit 'Veteran-1', with fitted PNV, is 15,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_0341">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0342">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0343">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0344">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0345">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0346">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0347">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0348">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_3055">
+		<text>The cost to reinforce a Stalker suit 'Veteran-2', with fitted PNV, is 15,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_0351">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0352">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0353">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0354">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0355">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0356">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0357">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0358">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_3066">
+		<text>The cost to reinforce a Stalker suit 'Veteran-3', with fitted PNV, is 15,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_0361">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0362">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0363">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0364">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0365">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0366">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0367">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0368">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_3077">
+		<text>The cost to reinforce a Scientific Stalker suit, with fitted PNV, is 30,000Ru plus a Scale artefact...</text>
+	</string>
+	<string id="update_outfit_barman_0371">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0372">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0373">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0374">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0375">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0376">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0377">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0378">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_3088">
+		<text>Cost of reinforcing the Improved Stalker suit 'Veteran-1', with fitted PNV, is 25,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_0381">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0382">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0383">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0384">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0385">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0386">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0387">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0388">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_3099">
+		<text>Cost of reinforcing the Improved Stalker suit 'Veteran-2', with fitted PNV, is 25,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_0391">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0392">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0393">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0394">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0395">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0396">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0397">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_0398">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_30110">
+		<text>Cost of reinforcing the Improved Stalker suit 'Veteran-3', with fitted PNV, is 25,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_03101">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03102">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03103">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03104">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03105">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03106">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03107">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03108">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_30111">
+		<text>Cost of reinforcing the Improved Stalker suit 'CSu-1', with fitted PNV, is 20,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_03111">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03112">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03113">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03114">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03115">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03116">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03117">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03118">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_30112">
+		<text>Cost of reinforcing the Improved Stalker suit 'CSu-2k', with fitted PNV, is 25,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_03121">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03122">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03123">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03124">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03125">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03126">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03127">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03128">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_30113">
+		<text>The cost to reinforce Ghost's Stalker suit, with fitted PNV, is 15,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_03131">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03132">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03133">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03134">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03135">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03136">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03137">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03138">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_30114">
+		<text>The cost to reinforce a 'Tourist' suit, with fitted PNV, is 20,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_03141">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03142">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03143">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03144">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03145">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03146">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03147">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03148">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_30115">
+		<text>The cost to reinforce Strelok's suit, with fitted PNV, is 20,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_barman_03151">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03152">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03153">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03154">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03155">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03156">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03157">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_03158">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_barman_3210">
+		<text>Here's your reinforced 'Easy' Stalker suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_3220">
+		<text>Here's your reinforced 'Easy' Stalker suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_3230">
+		<text>Here's your reinforced 'Easy' Stalker suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_3240">
+		<text>Here's your reinforced 'Easy' Stalker suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_3250">
+		<text>Here's your reinforced 'Easy' Stalker suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_3260">
+		<text>Here's your reinforced 'Easy' Stalker suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_3270">
+		<text>Here's your reinforced 'Easy' Stalker suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_3280">
+		<text>Here's your reinforced 'Easy' Stalker suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_3310">
+		<text>Here's your reinforced Stalker suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_3320">
+		<text>Here's your reinforced Stalker suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_3330">
+		<text>Here's your reinforced Stalker suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_3340">
+		<text>Here's your reinforced Stalker suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_3350">
+		<text>Here's your reinforced Stalker suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_3360">
+		<text>Here's your reinforced Stalker suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_3370">
+		<text>Here's your reinforced Stalker suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_3380">
+		<text>Here's your reinforced Stalker suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_3410">
+		<text>Here's your reinforced Stalker suit 'Veteran-1' with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_3420">
+		<text>Here's your reinforced Stalker suit 'Veteran-1' with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_3430">
+		<text>Here's your reinforced Stalker suit 'Veteran-1' with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_3440">
+		<text>Here's your reinforced Stalker suit 'Veteran-1' with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_3450">
+		<text>Here's your reinforced Stalker suit 'Veteran-1' with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_3460">
+		<text>Here's your reinforced Stalker suit 'Veteran-1' with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_3470">
+		<text>Here's your reinforced Stalker suit 'Veteran-1' with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_3480">
+		<text>Here's your reinforced Stalker suit 'Veteran-1' with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_3510">
+		<text>Here's your reinforced Stalker suit 'Veteran-2' with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_3520">
+		<text>Here's your reinforced Stalker suit 'Veteran-2' with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_3530">
+		<text>Here's your reinforced Stalker suit 'Veteran-2' with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_3540">
+		<text>Here's your reinforced Stalker suit 'Veteran-2' with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_3550">
+		<text>Here's your reinforced Stalker suit 'Veteran-2' with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_3560">
+		<text>Here's your reinforced Stalker suit 'Veteran-2' with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_3570">
+		<text>Here's your reinforced Stalker suit 'Veteran-2' with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_3580">
+		<text>Here's your reinforced Stalker suit 'Veteran-2' with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_3610">
+		<text>Here's your reinforced Stalker suit 'Veteran-3' with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_3620">
+		<text>Here's your reinforced Stalker suit 'Veteran-3' with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_3630">
+		<text>Here's your reinforced Stalker suit 'Veteran-3' with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_3640">
+		<text>Here's your reinforced Stalker suit 'Veteran-3' with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_3650">
+		<text>Here's your reinforced Stalker suit 'Veteran-3' with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_3660">
+		<text>Here's your reinforced Stalker suit 'Veteran-3' with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_3670">
+		<text>Here's your reinforced Stalker suit 'Veteran-3' with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_3680">
+		<text>Here's your reinforced Stalker suit 'Veteran-3' with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_3710">
+		<text>Here's your reinforced Scientific Stalker suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_3720">
+		<text>Here's your reinforced Scientific Stalker suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_3730">
+		<text>Here's your reinforced Scientific Stalker suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_3740">
+		<text>Here's your reinforced Scientific Stalker suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_3750">
+		<text>Here's your reinforced Scientific Stalker suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_3760">
+		<text>Here's your reinforced Scientific Stalker suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_3770">
+		<text>Here's your reinforced Scientific Stalker suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_3780">
+		<text>Here's your reinforced Scientific Stalker suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_3810">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask and PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_3820">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask and PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_3830">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask and PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_3840">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask and PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_3850">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask and PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_3860">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask and PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_3870">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask and PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_3880">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-1' with gas mask and PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_3910">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask and PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_3920">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask and PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_3930">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask and PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_3940">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask and PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_3950">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask and PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_3960">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask and PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_3970">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask and PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_3980">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-2' with gas mask and PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_31010">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask and PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_31020">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask and PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_31030">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask and PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_31040">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask and PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_31050">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask and PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_31060">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask and PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_31070">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask and PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_31080">
+		<text>Here's your reinforced Improved Stalker suit 'Veteran-3' with gas mask and PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_31110">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask and PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_31120">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask and PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_31130">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask and PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_31140">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask and PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_31150">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask and PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_31160">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask and PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_31170">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask and PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_31180">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-1' with gas mask and PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_31210">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask and PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_31220">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask and PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_31230">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask and PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_31240">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask and PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_31250">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask and PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_31260">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask and PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_31270">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask and PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_31280">
+		<text>Here's your reinforced Improved Stalker suit 'CSu-2k' with gas mask and PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_31310">
+		<text>Here's your reinforced Ghost's Stalker suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_31320">
+		<text>Here's your reinforced Ghost's Stalker suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_31330">
+		<text>Here's your reinforced Ghost's Stalker suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_31340">
+		<text>Here's your reinforced Ghost's Stalker suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_31350">
+		<text>Here's your reinforced Ghost's Stalker suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_31360">
+		<text>Here's your reinforced Ghost's Stalker suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_31370">
+		<text>Here's your reinforced Ghost's Stalker suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_31380">
+		<text>Here's your reinforced Ghost's Stalker suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_31410">
+		<text>Here's your reinforced 'Tourist' suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_31420">
+		<text>Here's your reinforced 'Tourist' suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_31430">
+		<text>Here's your reinforced 'Tourist' suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_31440">
+		<text>Here's your reinforced 'Tourist' suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_31450">
+		<text>Here's your reinforced 'Tourist' suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_31460">
+		<text>Here's your reinforced 'Tourist' suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_31470">
+		<text>Here's your reinforced 'Tourist' suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_31480">
+		<text>Here's your reinforced 'Tourist' suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_31510">
+		<text>Here's your reinforced Strelok's suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_barman_31520">
+		<text>Here's your reinforced Strelok's suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_barman_31530">
+		<text>Here's your reinforced Strelok's suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_barman_31540">
+		<text>Here's your reinforced Strelok's suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_barman_31550">
+		<text>Here's your reinforced Strelok's suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_barman_31560">
+		<text>Here's your reinforced Strelok's suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_barman_31570">
+		<text>Here's your reinforced Strelok's suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_barman_31580">
+		<text>Here's your reinforced Strelok's suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_barman_999">
+		<text>Ah, sorry. Not at the moment, thanks...</text>
+	</string>
+</string_table>

@@ -1,0 +1,1079 @@
+;<!-- TB3D 1.0.9.9.5.0 immunities/damage,kalmyk to kalmyak, dav update 16Apr14
+
+[dolg_master]:stalker
+$spawn 				= "respawn\dolg_master"
+character_profile	= sim_dolg_master
+
+[dolg_veteran]:stalker
+$spawn				=  "respawn\dolg_veteran"
+character_profile	= sim_dolg_veteran
+
+[zombied_novice]:stalker_zombied
+$spawn				=  "respawn\zombied_novice"
+character_profile	= sim_zombied_novice
+
+[zombied_veteran]:stalker_zombied
+$spawn				=  "respawn\zombied_veteran"
+character_profile	= sim_zombied_veteran
+
+[zombied_master]:stalker_zombied
+$spawn				=  "respawn\zombied_master"
+character_profile	= sim_zombied_master
+
+[ecolog]:stalker
+$spawn				=  "respawn\ecolog"
+character_profile	= sim_ecolog
+
+[ecolog2]:stalker
+$spawn				=  "respawn\ecolog2"
+character_profile	= sim_ecolog
+
+[stalker_master]:stalker
+$spawn				=  "respawn\stalker_master"
+character_profile	= sim_stalker_master
+
+[stalker_novice]:stalker
+$spawn				=  "respawn\stalker_novice"
+character_profile	= sim_stalker_novice
+
+[bandit_novice]:stalker
+$spawn				=  "respawn\bandit_novice"
+character_profile	= sim_bandit_novice
+
+[bandit_veteran]:stalker
+$spawn				=  "respawn\bandit_veteran"
+character_profile	= sim_bandit_veteran
+
+[bandit_master]:stalker
+$spawn				=  "respawn\bandit_master"
+character_profile	= sim_bandit_master
+
+[soldier]:stalker
+$spawn 				= "respawn\soldier"
+character_profile	= sim_soldier_specnaz
+
+;***************************************************************************************
+;********************************  V92  ************************************************
+;***************************************************************************************
+;------------------------------Секции новых НПС для спавна-----------------------------
+
+[nebo_regular]:stalker		; Новичок Чистого Неба
+$spawn                 =  "respawn\forest_nebo_regular"
+character_profile       = esc_nebo2
+spec_rank = regular
+community = nebo
+
+[nebo_veteran]:stalker		; Ветеран Чистого Неба
+$spawn                 =  "respawn\forest_nebo_veteran"
+character_profile       = agr_nebo_sniper
+spec_rank = veteran
+community = nebo
+
+[nebo_master]:stalker		; Мастер Чистого Неба
+$spawn                 =  "respawn\forest_nebo_master"
+character_profile       = agr_nebo_zoneguard
+spec_rank = master
+community = nebo
+
+[killer_veteran]:stalker	; Ветеран Наемников
+$spawn 				= "respawn\forest_killer_veteran"
+character_profile	= sim_killer_veteran
+spec_rank = veteran
+community = killer
+
+[killer_regular]:stalker	; Новичок Наемников
+$spawn 				= "respawn\forest_killer_regular"
+character_profile	= sim_killer_general
+spec_rank = regular
+community = killer
+
+[killer_master]:stalker		; Мастер Наемников
+$spawn 				= "respawn\forest_killer_master"
+character_profile	= sim_killer_master
+spec_rank = master
+community = killer
+
+[ohotnik_regular]:stalker	; Новичок Охотников
+$spawn 				= "respawn\forest_ohotnik"
+character_profile	= forest_ohotnik
+spec_rank = regular
+community = green
+
+[ohotnik_veteran]:stalker	; Ветеран Охотников
+$spawn 				= "respawn\aver_hunter_respawn_1"
+character_profile	= sim_aver_hunter_regular
+spec_rank = regular
+community = green
+
+[ohotnik_master]:stalker	; Мастер Охотников
+$spawn 				= "respawn\forest_ohotnik2"
+character_profile	= forest_ohotnik2
+spec_rank = master
+community = green
+
+[freedom_veteran]:stalker	; Ветеран Свободы
+$spawn 				= "respawn\mil_freedom_respawn_1"
+character_profile	= mil_Svoboda_specnaz
+spec_rank = veteran
+community = freedom
+
+[freedom_regular]:stalker	; Новичок Свободы
+$spawn 				= "respawn\mil_freedom_respawn_2"
+character_profile	= mil_Svoboda_regular
+spec_rank = regular
+community = freedom
+
+[freedom_master]:stalker	; Мастер Свободы
+$spawn 				= "respawn\freedom_regular"
+character_profile	= rad_Svoboda_master
+spec_rank = master
+community = freedom
+
+[monolit_regular]:stalker	; Новичок Монолита
+$spawn 				= "respawn\pri_monolith_respawn_1"
+character_profile	= sim_monolith_regular
+spec_rank = regular
+community = monolith
+
+[monolit_veteran]:stalker	; Ветеран Монолита
+$spawn 				= "respawn\pri_monolith_respawn_2"
+character_profile	= sim_monolith_specnaz
+spec_rank = veteran
+community = monolith
+
+[monolit_master]:stalker	; Мастер Монолита
+$spawn 				= "respawn\pri_monolith_respawn_3"
+character_profile	= sim_monolith_master
+spec_rank = master
+community = monolith
+
+[monolit_master_black]:stalker_sniper		; Черный Монолитовец - Мастер
+$spawn 				= "respawn\blizn_krug"
+character_profile	= blizn_krug
+spec_rank = master
+community = monolith
+
+[sniper_regular]:stalker_sniper		; Новичок Мстителей
+$spawn                 =  "respawn\ros_sniper4"
+character_profile       = ros_sniper4
+spec_rank = regular
+community = sniper
+
+[sniper_veteran]:stalker	; Ветеран Мстителей
+$spawn                 =  "respawn\land_arhara_sniper_sp_1"
+character_profile       = sim_land_arhara_sniper_master
+spec_rank = veteran
+community = sniper
+
+[sniper_master]:stalker		; Мастер Мстителей
+$spawn                 =  "respawn\land_arhara_sniper_sp_7"
+character_profile       = sim_land_arhara_sniper_master
+spec_rank = master
+community = sniper
+
+[voen_black_regular]:stalker		; Новичок Военного Спецназа
+$spawn                 =  "respawn\agro_voen1_desant6"
+character_profile       = dark_sold_atak5
+spec_rank = regular
+community = military
+
+[voen_black_veteran]:stalker		; Ветеран Военного Спецназа
+$spawn                 =  "respawn\village_kapatel1"
+character_profile       = village_kapatel1
+spec_rank = veteran
+community = military
+
+[voen_black_master]:stalker		; Мастер Военного Спецназа
+$spawn                 =  "respawn\village_magazin_kapatel2"
+character_profile       = village_magazin_kapatel2
+spec_rank = master
+community = military
+
+[black_regular]:stalker		; Черный Сталкер - Новичок
+$spawn 			= "respawn\black_generators_respawn_1"
+character_profile	= sim_black_generators_regular
+spec_rank = regular
+community = stalker
+
+[black_veteran]:stalker		; Черный Сталкер - Ветеран
+$spawn 			= "respawn\black_generators_respawn_2"
+character_profile	= sim_black_generators_veteran
+spec_rank = veteran
+community = stalker
+
+[black_master]:stalker		; Черный Сталкер - Мастер
+$spawn 			= "respawn\black_generators_respawn_3"
+character_profile	= sim_black_generators_master
+spec_rank = master
+community = stalker
+
+[lastday_veteran]:stalker	; Последний день - Ветеран
+$spawn 				= "respawn\dcity_lastday_respawn_2"
+character_profile	= sim_dcity_lastday_veteran
+spec_rank = veteran
+community = lastday
+
+[lastday_master]:stalker	; Последний день - Мастер
+$spawn 				= "respawn\dcity_lastday_respawn_1"
+character_profile	= sim_dcity_lastday_master
+spec_rank = master
+community = lastday
+
+;------------Новые секции квестовиков и уникальных персонажей для спавна---------------
+
+[vitamin]:stalker_sakharov	; Витамин
+$spawn 				= "respawn\radar_vitamin"
+character_profile	= radar_vitamin
+spec_rank = master
+community = freedom
+
+[myxa]:stalker		; Муха
+$spawn 				= "respawn\devchonka"
+character_profile	= devchonka
+spec_rank = novice
+community = stalker
+
+[klenov]:stalker_sakharov	; Кленов
+$spawn 				= "respawn\warlab_stalker_oso"
+character_profile	= warlab_stalker_oso
+spec_rank = master
+community = stalker
+
+[boss]:stalker		; Босс Наемников
+$spawn 				= "respawn\warlab_boss"
+character_profile	= warlab_boss
+spec_rank = master
+community = killer
+
+[krot]:stalker		; Крот
+$spawn 				= "respawn\krot"
+character_profile	= agr_krot
+
+[borov]:stalker		; Боров
+$spawn 				= "respawn\borov"
+character_profile	= val_bandit_borov
+
+[osvedomitel]:stalker
+$spawn 				= "respawn\osved"
+character_profile	= bar_bar_osvedomitel
+
+[hunter]:stalker	; Охотник
+$spawn 				= "respawn\bar_hunter"
+character_profile	= bar_bar_hunter
+
+[lisiy]:stalker		; Лысый
+$spawn 				= "respawn\lisiy"
+character_profile	= bar_bar_lisiy
+
+[voronin]:stalker	; Воронин
+$spawn 				= "respawn\voronin"
+character_profile	= bar_dolg_leader
+
+[petrenko]:stalker	; Петренко
+$spawn 				= "respawn\petrenko"
+character_profile	= bar_dolg_petrenko
+
+[kruglov]:stalker	; Круглов
+$spawn 				= "respawn\kruglov"
+character_profile	= yan_ecolog_help
+
+[fanat]:stalker		; Фанат
+$spawn 				= "respawn\fanat"
+character_profile	= esc_fanat
+
+[arhara]:stalker	; Архара
+$spawn 				= "respawn\arhara"
+character_profile	= yakut_agro
+
+[zahar]:stalker		; Захар
+$spawn 				= "respawn\zahar"
+character_profile	= stalker_green_zahar
+
+[lukash]:stalker	; Лукаш
+$spawn 				= "respawn\lukash"
+character_profile	= mil_Svoboda_leader
+
+[fraer]:stalker		; Фраер
+$spawn 				= "respawn\fraer"
+character_profile	= sim_bandit_master_fraer
+
+[shade_monolit]:stalker		; Тень Монолита
+$spawn                 =  "respawn\labirint_shade_monolit"
+character_profile       = labirint_shade_monolit
+spec_rank = master
+community = monolith
+
+[acs_dezertir]:stalker		; Дезертир
+$spawn 				= "respawn\dez"
+character_profile	= agr_ratcatcher
+
+[acs_garik]:stalker		; Гарик
+$spawn 				= "respawn\garik"
+character_profile	= bar_stalker_guard
+
+[acs_vitek_voron]:stalker	; Ворон
+$spawn                 =  "respawn\vitek_voron"
+character_profile       = amk_vitek_voron
+
+[acs_kulinar]:stalker		; Кулинар
+$spawn                 =  "respawn\kulinar"
+character_profile       = amk_artem_kulinar
+
+[acs_drunk]:stalker		; Бром (пьяница в баре)
+$spawn 				= "respawn\drunk"
+character_profile	= bar_bar_drunk_dolg
+
+[acs_ivancov]:stalker	; Иванцов
+$spawn 				= "respawn\ivancov"
+character_profile	= bar_dolg_ivancov
+
+[acs_plichko]:stalker	; Пличко
+$spawn 				= "respawn\plichko"
+character_profile	= bar_dolg_guard_commander
+
+[acs_band_trader]:stalker	; Жила
+$spawn 				= "respawn\band_trader"
+character_profile	= val_bandit_trader
+
+[acs_freeman]:stalker	; Фримен
+$spawn 				= "respawn\freeman"
+character_profile	= bar_stalker_freeman
+
+[acs_prisoner]:stalker		; Сергей Лохматый (пленник бандитов в темной долине)
+$spawn 				= "respawn\prisoner"
+character_profile	= val_dolg_prisoner
+
+[acs_pulia]:stalker		; Пуля
+$spawn 				= "respawn\pulia"
+character_profile	= val_escort_nap1
+
+[acs_max_luber]:stalker		; Макс Любер
+$spawn 				= "respawn\max_luber"
+character_profile	= val_escort_captive
+
+[acs_sak]:stalker	; Сяк
+$spawn 				= "respawn\sak"
+character_profile	= sak
+
+[acs_doktor]:stalker	; Болотный доктор
+$spawn 				= "respawn\doktor"
+character_profile	= doktor
+
+[acs_krisyk]:stalker	; Крысюк
+$spawn 				= "respawn\krisyk"
+character_profile	= val_bandit_krisyk
+
+[acs_wolf]:stalker		; Волк
+$spawn 				= "respawn\wolf"
+character_profile	= esc_wolf
+
+[acs_fox]:stalker		; Лис
+$spawn 				= "respawn\fox"
+character_profile	= esc_fox
+
+[acs_tolik]:stalker		; Толик
+$spawn 				= "respawn\tolik"
+character_profile	= esc_tutorial_wounded
+
+[acs_shustryi]:stalker	; Шустрый
+$spawn 				= "respawn\shustryi"
+character_profile	= esc_shustryi
+
+[acs_petruha]:stalker	; Петруха
+$spawn 				= "respawn\petruha"
+character_profile	= esc_ranger
+
+[acs_dan]:stalker		; Дэн
+$spawn 				= "respawn\dan"
+character_profile	= esc_dan
+
+[acs_kuznecov]:stalker	; Кузнецов
+$spawn 				= "respawn\kuznecov"
+character_profile	= esc_soldier_commander
+
+[acs_provodnik]:stalker	; Проводник
+$spawn 				= "respawn\provodnik"
+character_profile	= esc_provodnik
+
+[acs_kostya]:stalker	; Костя
+$spawn 				= "respawn\kostya"
+character_profile	= esc_kostya
+
+[acs_seriy]:stalker		; Серый
+$spawn 				= "respawn\seriy"
+character_profile	= gar_seriy
+
+[acs_yurik]:stalker		; Юрик
+$spawn 				= "respawn\yurik"
+character_profile	= gar_dram_novice
+
+[acs_bes]:stalker		; Бес
+$spawn 				= "respawn\bes"
+character_profile	= gar_hellcar
+
+[acs_prapor]:stalker	; Прапор (командир блокпоста на Свалке)
+$spawn 				= "respawn\prapor"
+character_profile	= gar_dolg_blokpost_commander
+
+[acs_tambovskiy]:stalker	; Тамбовский
+$spawn 				= "respawn\tambovskiy"
+character_profile	= gar_stalker_flame_quest
+
+[acs_akim]:stalker		; Аким
+$spawn 				= "respawn\akim"
+character_profile	= esc_akim
+
+[acs_crest]:stalker		; Крест
+$spawn 				= "respawn\crest"
+character_profile	= crest
+
+[acs_adren]:stalker		; Адреналин
+$spawn 				= "respawn\adren"
+character_profile	= agro_adrenalin
+
+[acs_shurup]:stalker	; Шуруп
+$spawn 				= "respawn\shurup"
+character_profile	= mil_Svoboda_engineer
+
+[acs_skraga]:stalker	; Скряга
+$spawn 				= "respawn\skraga"
+character_profile	= mil_Svobosa_trader
+
+[acs_max]:stalker		; Макс
+$spawn 				= "respawn\max"
+character_profile	= mil_Svoboda_master_Max
+
+[acs_povar]:stalker		; Повар
+$spawn 				= "respawn\povar"
+character_profile	= mil_Svoboda_cook
+
+[acs_cap]:stalker		; Кэп
+$spawn 				= "respawn\cap"
+character_profile	= mil_Svoboda_blockpost_leader
+
+[acs_cherep]:stalker	; Череп
+$spawn 				= "respawn\cherep"
+character_profile	= mil_Dolg_specnaz_cherep
+
+[acs_gavr]:stalker		; Гавр
+$spawn 				= "respawn\gavr"
+character_profile	= mil_trader_gavr
+
+[acs_yakut]:stalker		; Якут
+$spawn 				= "respawn\yakut"
+character_profile	= yakut_agro2
+
+[acs_prizrak]:stalker	; Призрак
+$spawn 				= "respawn\prizrak"
+character_profile	= new_prizrak
+
+[acs_sysh]:stalker		
+$spawn 				= "respawn\sysh"
+character_profile	= stalker_rost_sysh
+
+[acs_tirex]:stalker		; Тирекс
+$spawn 				= "respawn\tirex"
+character_profile	= esc_tirex
+
+[acs_semenov]:stalker	; Семенов
+$spawn 				= "respawn\semenov"
+character_profile	= yan_Semenov
+
+[chernomor]:stalker_zombied		; Черномор
+$spawn 				= "respawn\chernomor"
+character_profile	= chernomor_zombi
+
+[semetskiy]:stalker_sakharov	; Семецкий
+$spawn 			= "respawn\stalk_semetskiy"
+character_profile	= stalk_semetskiy
+spec_rank = master
+community = stalker
+
+[lesnik]:stalker_sakharov		; Лесник
+$spawn 			= "respawn\forest_lesnik"
+character_profile	= forest_lesnik
+spec_rank = veteran
+community = stalker
+
+[botsman]:stalker_sakharov		; Боцман
+$spawn 				= "respawn\generators_udav"
+character_profile	= generators_udav
+spec_rank = veteran
+community = trader
+
+[kalmyak]:stalker		; Калмык
+$spawn 				= "respawn\kalmyak"
+character_profile	= kalmyak
+
+;---------------------------Новые секции монстров для спавна---------------------------
+
+[krovosos_normal]:m_bloodsucker_e	; Слабый кровосос
+$spawn        = "monsters\bloodsuckers\bloodsucker_02_normal"
+visual        = monsters\krovosos\krovosos
+icon        = ui_npc_monster_krovosos
+panic_threshold   = 0.1
+rank        = 401
+immunities_sect   = bloodsucker_immunities_normal
+attack_params   = bloodsucker_attack_params_normal
+spec_rank     = normal
+community     = bloodsucker
+
+[krovosos_strong]:m_bloodsucker_e	; Сильный кровосос
+$spawn        = "monsters\bloodsuckers\bloodsucker_03_strong"
+visual        = monsters\krovosos\krovosos_strong
+icon        = ui_npc_monster_krovosos_strong
+Predator_Visual   = monsters\krovosos\krovosos_strong_xray
+panic_threshold   = 0.01
+rank        = 401
+immunities_sect   = bloodsucker_immunities_strong
+attack_params   = bloodsucker_attack_params_strong
+spec_rank     = strong
+community     = bloodsucker
+
+[krovosos_sky]:bloodsucker_strong	; Болотная тварь от Меченого
+$spawn        = "monsters\military\bloodsucker_mil"
+visual        = clear_sky\bloodsucker_sky
+icon        = ui_npc_monster_krovosos
+panic_threshold   = 0.025
+
+[kaban_weak]:m_boar_e	; Мигрирующий кабан
+$spawn        = "monsters\boars\boar_01_weak"
+visual        = monsters\mutant_boar\mutant_boar
+icon        = ui_npc_monster_mutant_boar
+panic_threshold   = 0.5
+rank        = 0
+immunities_sect   = boar_immunities_weak
+attack_params   = boar_attack_params_weak
+spec_rank     = weak
+community     = boar
+
+[kaban_normal]:m_boar_e	; Молодой кабан
+$spawn        = "monsters\boars\boar_02_normal"
+visual        = monsters\mutant_boar\mutant_boar
+icon        = ui_npc_monster_mutant_boar
+panic_threshold   = 0.2
+rank        = 401
+immunities_sect   = boar_immunities_normal
+attack_params   = boar_attack_params_normal
+spec_rank     = normal
+community     = boar
+
+[kaban_strong]:m_boar_e	; Старый кабан
+$spawn        = "monsters\boars\boar_03_strong"
+visual        = monsters\mutant_boar\mutant_boar_strong
+icon        = ui_npc_monster_mutant_boar_strong
+panic_threshold   = 0.05
+rank        = 801
+immunities_sect   = boar_immunities_strong
+attack_params   = boar_attack_params_strong
+spec_rank     = strong
+community     = boar
+
+[bur_weak]:m_burer_e		; Мигрирующий бюрер
+$spawn		= "monsters\burers\burer_normal"
+monster_type		= indoor
+rank				= 0
+spec_rank			= weak
+community			= burer
+Tele_Time_To_Hold	= 200
+
+[bur_normal]:m_burer_e	; Молодой бюрер
+$spawn		= "monsters\burers\burer_normal"
+monster_type		= indoor
+rank				= 0
+spec_rank			= normal
+community			= burer
+Tele_Time_To_Hold	= 200
+
+[bur_strong]:m_burer_e	; Старый бюрер
+$spawn		= "monsters\burers\burer_normal"
+monster_type		= indoor
+rank				= 0
+spec_rank			= strong
+community			= burer
+Tele_Time_To_Hold	= 200
+
+[kot_weak]:m_cat_e	; Мигрирующий чернобыльский кот
+$spawn = "monsters\cat"	
+monster_type		= indoor
+rank = 0	
+spec_rank = weak	
+community = cat	
+Tele_Time_To_Hold	= 200
+
+[kot_normal]:m_cat_e	; Молодой чернобыльский кот
+$spawn = "monsters\cat"	
+monster_type		= indoor
+rank = 0	
+spec_rank = normal	
+community = cat	
+Tele_Time_To_Hold	= 200
+
+[kot_strong]:m_cat_e	; Старый чернобыльский кот
+$spawn = "monsters\cat"	
+monster_type		= indoor
+rank = 0	
+spec_rank = strong
+community = cat	
+Tele_Time_To_Hold	= 200
+
+[himera_weak]:m_chimera_e	; Мигрирующая химера
+$spawn               = "monsters\chimera"			; option for Level Editor
+monster_type		= indoor
+rank				= 0
+spec_rank			= weak
+community			= chimera
+Tele_Time_To_Hold	= 200
+
+[himera_normal]:m_chimera_e	; Молодая химера
+$spawn               = "monsters\chimera"			; option for Level Editor
+monster_type		= indoor
+rank				= 0
+spec_rank			= normal
+community			= chimera
+Tele_Time_To_Hold	= 200
+
+[himera_strong]:m_chimera_e	; Старая химера
+$spawn               = "monsters\chimera"   ; option for Level Editor
+visual     = monsters\chimera\chimera
+corpse_visual   = monsters\chimera\chimera
+monster_type  = indoor
+rank    = 0
+spec_rank   = strong
+community   = chimera
+Tele_Time_To_Hold = 200
+
+[electrohimera]:chimera_strong	; Электрохимера
+bones_particles = electro_chimera_particles
+immunities_sect	= electro_chimera_immunities
+;visual			 = monsters\el_chimera\el_chimera
+;corpse_visual		 = monsters\el_chimera\el_chimera
+icon = ui_npc_monster_chimera_new_electro
+
+[controller_normal]:m_controller_e	; Молодой контролер
+$spawn              = "monsters\old\controller_normal"
+visual				= monsters\kontroler\kontroler
+icon				= ui_npc_monster_kontroler
+spec_rank			= normal
+rank				= 401
+community			= controller
+
+[controller_normal_fat]:m_controller_e	; Жирный молодой контролер
+$spawn              = "monsters\old\controller_normal_fat"
+visual				= monsters\kontroler\kontroler_5
+icon				= ui_npc_monster_kontroler_5
+spec_rank			= normal
+rank				= 401
+community			= controller
+
+[controller_old]:m_controller_e	; Старый контролер
+$spawn              = "monsters\old\controller_old"
+visual				= monsters\kontroler\kontroler_3
+icon				= ui_npc_monster_kontroler_3
+spec_rank			= strong
+rank				= 801
+community			= controller
+
+[controller_old_fat]:m_controller_e	; Жирный старый контролер
+$spawn              = "monsters\old\controller_old_fat"
+visual				= monsters\kontroler\kontroler_4
+icon				= ui_npc_monster_kontroler_4
+spec_rank			= strong
+rank				= 801
+community			= controller
+
+[controler_tubeman]:m_controller_normal	; Подземный контролер
+$spawn              = "monsters\controllers\controller_tubeman"
+tube_at_once		= true
+tube_damage			= 0.50
+satiety_threshold	= 0.6
+
+[crow]	; Ворона
+$spawn                   = "monsters\crow"
+visual                   = monsters\crow\crow.ogf
+corpse_visual			 = monsters\crow\crow.ogf
+species			= bird
+
+[dogg_strong]:m_dog_e	; Старый слепой пес (альбинос)
+$spawn				= "monsters\dogs\dog_03_strong"
+visual				= monsters\dog\dog_white
+corpse_visual		= monsters\dog\dog_white_dead
+icon				= ui_npc_monster_dog_white
+panic_threshold		= 0.2
+rank				= 801
+immunities_sect		= dog_immunities_strong
+attack_params		= dog_attack_params_strong
+spec_rank			= strong
+community			= dog
+
+[dogg_normal]:m_dog_e	; Молодой слепой пес
+$spawn				= "monsters\dogs\dog_02_normal"
+visual				= monsters\dog\dog_red
+corpse_visual		= monsters\dog\dog_red_dead
+icon				= ui_npc_monster_dog_red
+panic_threshold		= 0.2
+rank				= 401
+immunities_sect		= dog_immunities_normal
+attack_params		= dog_attack_params_normal
+spec_rank			= normal
+community			= dog
+
+[dogg_weak]:m_dog_e	; Мигрирующий слепой пес
+$spawn				= "monsters\dogs\dog_01_weak"
+visual				= monsters\dog\dog
+corpse_visual		= monsters\dog\dog_dead
+icon				= ui_npc_monster_dog
+panic_threshold		= 0.2
+rank				= 0
+immunities_sect		= dog_immunities_weak
+attack_params		= dog_attack_params_weak
+spec_rank			= weak
+community			= dog
+
+[plot_strong]:m_flesh_e	; Старая плоть
+$spawn        = "monsters\fleshes\flesh_03_strong"
+visual        = monsters\flesh\flesh_strong
+icon        = ui_npc_monster_flesh_strong
+panic_threshold   = 0.05  
+rank        = 801
+immunities_sect   = flesh_immunities_strong
+attack_params   = flesh_attack_params_strong
+spec_rank     = strong
+community     = flesh
+
+[plot_normal]:m_flesh_e	; Молодая плоть
+$spawn        = "monsters\fleshes\flesh_02_normal"
+visual        = monsters\flesh\flesh
+corpse_visual   = monsters\flesh\flesh_dead
+icon        = ui_npc_monster_flesh
+panic_threshold   = 0.2
+rank        = 401
+immunities_sect   = flesh_immunities_normal
+attack_params   = flesh_attack_params_normal
+spec_rank     = normal
+community     = flesh
+
+[plot_weak]:m_flesh_e		; Мигрирующая плоть
+$spawn          = "monsters\fleshes\flesh_01_weak"
+visual          = monsters\flesh\flesh
+corpse_visual     = monsters\flesh\flesh_dead
+icon          = ui_npc_monster_flesh
+panic_threshold     = 0.2
+rank          = 0
+immunities_sect     = flesh_immunities_weak
+attack_params     = flesh_attack_params_weak
+spec_rank     = weak
+community     = flesh
+
+[izlom_weak]:m_fracture_e	; Мигрирующий излом
+$spawn               = "monsters\fracture"			; option for Level Editor
+monster_type		= indoor
+rank				= 0
+visual				 = monsters\izlom\izlom
+corpse_visual		 = monsters\izlom\izlom
+Spawn_Inventory_Item_Section = mutant_izlom_arm
+Spawn_Inventory_Item_Probability = 0.58
+spec_rank			= weak
+community			= fracture
+Tele_Time_To_Hold	= 200
+
+[izlom_normal]:m_fracture_e	; Молодой излом
+$spawn               = "monsters\fracture"				; option for Level Editor
+monster_type		= indoor
+rank				= 0
+visual				 = monsters\izlom\izlom
+corpse_visual		 = monsters\izlom\izlom
+Spawn_Inventory_Item_Section = mutant_izlom_arm
+Spawn_Inventory_Item_Probability = 0.65
+spec_rank			= normal
+community			= fracture
+Tele_Time_To_Hold	= 200
+
+[izlom_strong]:m_fracture_e	; Старый излом
+$spawn               = "monsters\fracture"				; option for Level Editor
+monster_type		= indoor
+rank				= 0
+visual				 = monsters\izlom\izlom
+corpse_visual		 = monsters\izlom\izlom
+Spawn_Inventory_Item_Section = mutant_izlom_arm
+Spawn_Inventory_Item_Probability = 0.8
+spec_rank			= strong
+community			= fracture
+Tele_Time_To_Hold	= 200
+
+[gig_normal]:m_gigant_e	; Молодой псевдогигант
+$spawn        = "monsters\gigants\gigant_normal"
+visual        = monsters\psevdogigant\psevdogigant
+icon        = ui_npc_monster_psevdogigant
+rank        = 401
+spec_rank     = normal
+community     = pseudo_gigant
+
+[gig_strong]:m_gigant_e	; Старый псевдогигант
+$spawn        = "monsters\gigants\gigant_strong"
+visual        = monsters\psevdogigant\psevdogigant_strong
+icon        = ui_npc_monster_psevdogigant
+rank        = 801
+spec_rank     = strong
+community     = pseudo_gigant
+immunities_sect       = giant_immunities_strong
+
+[gig_red_strong]:gigant_strong	; Красный псевдогигант
+$spawn        = "monsters\gigants\gigant_red_strong"
+visual        = monsters\psevdogigant\psevdogigant_red
+
+[pseudo_weak]:m_pseudodog_e	; Мигрирующий псевдопес
+$spawn				= "monsters\pseudodogs\pseudodog_01_weak"
+visual				= monsters\pseudodog\pseudodog
+icon				= ui_npc_monster_pseudodog
+panic_threshold		= 0.5
+rank				= 0
+immunities_sect		= pseudodog_immunities_weak
+attack_params		= pseudodog_attack_params_weak
+spec_rank			= weak
+community			= pseudodog
+
+[pseudo_normal]:m_pseudodog_e	; Молодой псевдопес
+$spawn				= "monsters\pseudodogs\pseudodog_02_normal"
+visual				= monsters\pseudodog\pseudodog
+icon				= ui_npc_monster_pseudodog
+panic_threshold		= 0.2
+rank				= 401
+immunities_sect		= pseudodog_immunities_normal
+attack_params		= pseudodog_attack_params_normal
+spec_rank			= normal
+community			= pseudodog
+
+[pseudo_strong]:m_pseudodog_e	; Старый псевдопес
+$spawn				= "monsters\pseudodogs\pseudodog_03_strong"
+visual				= monsters\pseudodog\pseudodog_grey
+corpse_visual		= monsters\pseudodog\pseudodog_grey_dead
+icon				= ui_npc_monster_pseudodog_grey
+panic_threshold		= 0.05	
+rank				= 801
+immunities_sect		= pseudodog_immunities_strong
+attack_params		= pseudodog_attack_params_strong
+spec_rank			= strong
+community			= pseudodog
+
+[psy_pseudo]:pseudodog_strong	; Старый пси-псевдопес
+$spawn				= "monsters\psy_dog\psy_dog"
+visual				= monsters\pseudodog\pseudodog_grey
+icon				= ui_npc_monster_pseudodog_grey
+class               = SM_DOG_P
+aura_effector		= psy_dog_aura_effector
+Max_Phantoms_Count	= 20
+Min_Phantoms_Count	= 1
+Time_Phantom_Appear = 5000
+
+[pseudo_phantom]:pseudodog_weak	; Псевдопес - фантом
+$spawn				= "monsters\psy_dog\psy_dog_phantom"
+visual				= monsters\pseudodog\pseudodog_grey
+icon				= ui_npc_monster_pseudodog_grey
+class               = SM_DOG_F
+appear_effector		= psy_dog_phantom_appear_effector
+particles_appear	= monsters\pseudo_phantom_birth_00
+particles_disappear	= monsters\pseudo_phantom_death_00
+
+[dog_friend]:m_pseudodogfrend_e	; Дружок Болотного Доктора
+$spawn				= "monsters\pseudodogsfrend\dogfrend"
+visual				= monsters\pseudodog\pseudodogfrend
+corpse_visual		= monsters\pseudodog\pseudodogfrend_dead
+icon				= ui_npc_monster_pseudodog_grey
+panic_threshold		= 0.05	
+rank				= 801
+immunities_sect		= pseudodogfrend_immunities_strong
+attack_params		= pseudodogfrend_attack_params_strong
+spec_rank			= strong
+community			= dogfrend
+
+[ratweak]:m_rat_e	; Крыса мигрирующая
+$spawn = "monsters\rat"	
+monster_type		= indoor
+rank = 0	
+;visual				 = monsters\rat\rat_1
+visual				 = monsters\rat\rat_weak
+corpse_visual		 = monsters\rat\rat_1
+spec_rank = weak
+community = rat
+panic_threshold		= 0.2
+immunities_sect		= rat_immunities
+icon				 = ui_npc_monster_rat_weak
+smart_terrain_choose_interval	= 00:15:00
+damage					        = m_rat_damage
+
+[ratnormal]:m_rat_e	; Крыса молодая
+$spawn = "monsters\rat\rat_1"	
+monster_type		= indoor
+rank = 0	
+;visual				 = monsters\rat\rat_1
+visual				 = monsters\rat\rat_normal.ogf
+corpse_visual		 = monsters\rat\rat_1
+spec_rank = normal	
+community = rat
+immunities_sect		= rat_strong_immunities
+
+
+[ratstrong]:m_rat_e	; Старая крыса
+$spawn = "monsters\rat\rat_1"	
+monster_type		= indoor
+rank = 0	
+visual				 = monsters\rat\rat_1
+corpse_visual		 = monsters\rat\rat_1
+spec_rank = strong	
+community = rat
+icon				 = ui_npc_monster_rat_strong
+immunities_sect		= rat_strong_immunities
+
+[snorkweak]:m_snork_e	; Мигрирующий снорк
+$spawn				= "monsters\snorks\snork_01_weak"
+visual				= monsters\snork\snork
+icon				= ui_npc_monster_snork
+panic_threshold		= 0.5
+rank				= 0
+immunities_sect		= snork_immunities_weak
+attack_params		= snork_attack_params_weak
+spec_rank			= weak
+community			= snork
+
+[snorknormal]:m_snork_e	; Молодой снорк
+$spawn				= "monsters\snorks\snork_02_normal"
+visual				= monsters\snork\snork
+icon				= ui_npc_monster_snork
+panic_threshold		= 0.2
+rank				= 401
+immunities_sect		= snork_immunities_normal
+attack_params		= snork_attack_params_normal
+spec_rank			= normal
+community			= snork
+
+[snorkstrong]:m_snork_e	; Старый снорк
+$spawn				= "monsters\snorks\snork_03_strong"
+visual				= monsters\snork\snork
+icon				= ui_npc_monster_snork
+panic_threshold		= 0.05
+rank				= 801
+immunities_sect		= snork_immunities_strong
+attack_params		= snork_attack_params_strong
+spec_rank			= strong
+community			= snork
+
+[snorkaes]:snork_strong	; Снорк с ЧАЭС
+$spawn				= "monsters\snorks\aes_snork"
+visual				= monsters\snork\snork
+icon				= ui_npc_monster_snork
+panic_threshold		= 0.0
+
+[snorkindoor]:snork_weak	; Подземный снорк
+$spawn			= "monsters\snorks\snork_indoor"
+monster_type	= indoor
+jump_min_distance			= 2.5
+jump_max_angle				= 0.4
+
+[snorkjumper]:snork_weak	; Снорк - прыгун
+$spawn			= "monsters\snorks\snork_jumper"
+monster_type	= outdoor
+panic_threshold		= 0.05
+jump_factor					= 1.2
+jump_min_distance			= 3
+jump_max_distance			= 30
+jump_max_angle				= 0.8
+
+[tushkanonormal]:m_tushkano_e	; Молодой тушкан
+$spawn				= "monsters\tushkanos\tushkano_normal"
+rank = 401
+spec_rank			= normal
+community			= tushkano
+
+[zomb_weak]:m_zombie_e	; Мигрирующий зомби
+$spawn				= "monsters\zombies\zombie_01_weak"
+visual				= monsters\zombi\zombi_2
+panic_threshold		= 0.5
+rank = 0
+spec_rank			= weak
+community			= zombie
+
+[zomb_normal]:m_zombie_e	; Молодой зомби
+$spawn				= "monsters\zombies\zombie_02_normal"
+visual				= monsters\zombi\zombi_1
+panic_threshold		= 0.3
+rank = 255
+spec_rank			= normal
+community			= zombie
+icon = ui_npc_monster_zomb1
+
+[zomb_strong]:m_zombie_e	; Старый зомби
+$spawn				= "monsters\zombies\zombie_03_strong"
+icon = ui_npc_monster_zombieg	
+panic_threshold		= 0.05	
+rank = 255
+spec_rank			= strong
+community			= zombie
+
+[zomb_trup]:zombie_weak	; Мигрирующий зомби-труп
+$spawn				= "monsters\zombies\zombie_immortal"
+visual				= monsters\zombi\zombi_trup
+panic_threshold		= 0.01
+icon = ui_npc_monster_zomb2
+FakeDeathCount					= 6		; max count of fake death
+StartFakeDeathHealthThreshold	= 0.7
+spec_rank			= weak
+community			= zombie
+
+[zomb_trup2]:zombie_weak	; Мигрирующий зомби-труп 2
+$spawn				= "monsters\zombies\zombie_immortal"
+visual				= monsters\zombi\zombi_trup_2
+panic_threshold		= 0.01
+icon = ui_npc_monster_zomb2
+FakeDeathCount					= 6		; max count of fake death
+StartFakeDeathHealthThreshold	= 0.7
+spec_rank			= weak
+community			= zombie
+
+[zomb_blow]:zombie_strong	; Взрывающийся зомби
+visual				= monsters\zombi\zombi_trup
+
+[zomb_beee]:zombie_strong
+visual				= monsters\zombi\zombi_trup_2
+MaxHealthValue		 = 200
+FakeDeathCount					= 1		; max count of fake death
+StartFakeDeathHealthThreshold	= 0.1
+
+[zomb_immortal]:zombie_strong		; Бессмертный зомби
+$spawn							= "monsters\zombies\zombie_immortal"
+visual							= monsters\zombi\zombi_trup
+panic_threshold					= 0.05	
+corpse_visual		 			= monsters\zombi\zombi_trup
+FakeDeathCount					= 10
+StartFakeDeathHealthThreshold	= 0.8
+
+
+[zomb_hell]:zombie_strong	; Адский зомби
+$spawn							= "monsters\zombies\zombie_hell"
+visual							= monsters\zombi\zombi_trup_2
+panic_threshold					= 0.05	
+corpse_visual					= monsters\zombi\zombi_trup_2
+FakeDeathCount					= 15
+StartFakeDeathHealthThreshold	= 0.8
+
+
+[zomb_ghost]:zombie_strong	; Зомби-призрак
+$spawn							= "monsters\zombies\zombie_ghost"
+visual							= monsters\zombi\zombi_1_ghost
+corpse_visual					= monsters\zombi\zombi_1_ghost
+panic_threshold					= 0.05	
+FakeDeathCount					= 10
+StartFakeDeathHealthThreshold	= 0.8
+
+
+; Работа мастеров из ОГСЕ
+[zomb_scelet_strong]:zombie_strong	; Зомби-скелет
+$spawn				= "monsters\zombies\zombie_03_strong"
+visual				= monsters\kosti\scelet
+icon                    = ui_npc_monster_skelet
+panic_threshold		= 0.0
+rank                    = 255
+spec_rank			     = strong
+community			     = zombie
+
+;-------------------- Квестовики (ACS) ---------------------

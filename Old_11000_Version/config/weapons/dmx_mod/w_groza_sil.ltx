@@ -1,0 +1,152 @@
+;;;; TB3D 1.1.0.0.0.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970, fire distance -->
+[wpn_groza_sil]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                      = "weapons\groza_sil"		; option for Level Editor
+$npc			 		    = on				; option for Level Editor
+$prefetch 		 		    = 8
+scheduled                   = off              	; option for ALife Simulator
+cform                       = skeleton
+class                       = WP_LR300
+min_radius                  = 0
+max_radius                  = 800
+description				    = enc_weapons_wpn_groza_sil
+
+ef_main_weapon_type		    = 2
+ef_weapon_type			    = 6
+;--- scope weapons -----------------------------------------------------------------
+holder_range_modifier	    = 2.15               ; во сколько раз увеличивается eye_range 
+holder_fov_modifier		    = 0.3              ; во сколько раз увеличивается eye_fov
+;-----------------------------------------------------------------------------------
+cost					    = 12000
+weapon_class			    = assault_rifle
+ammo_limit				    = 210
+ammo_current			    = 180
+ammo_elapsed			    = 20
+
+ammo_mag_size		 	    = 31
+ammo_class		 		    = ammo_5.56x45_ss190, ammo_5.56x45_ap
+fire_modes				    = 1, -1
+f_mode				        = 2
+sprint_allowed			    = true;  false
+;-----------------------------------------------------------------------------------
+;базовая дисперсия
+fire_dispersion_base		= 0.018 ;0.33 	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor		= 1.07f
+disp_rate                   = 1.75
+
+;отдача
+cam_relax_speed        		= 6.5;0.2	;скорость возврата в исходное положение
+cam_dispersion         		= 0.2	;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc			= 0.12	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac			= 0.4	;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle				= 6.0	;максимальный угол отдачи
+cam_max_angle_horz			= 9.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 0.4	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.003	;вероятность осечки при максимальном износе 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.0001 ;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+hand_dependence 		    = 1
+single_handed			    = 0
+slot 			 		    = 2		; // secondary
+animation_slot			    = 8		; type of the animation that will be used
+
+inv_name	         	    = wpn_groza_sil
+inv_name_short		 	    = wpn_groza_sil
+inv_weight		 		    = 3.5
+
+inv_grid_width			    = 5
+inv_grid_height			    = 2
+inv_grid_x				    = 34
+inv_grid_y				    = 71
+
+kill_msg_x			        = 0
+kill_msg_y			        = 59
+kill_msg_width		        = 80
+kill_msg_height		        = 26
+
+direction                   = 0, 0, 1
+fire_point                  = 0.0, 0.194, 0.274
+smoke_particles		   	    = weapons\generic_shoot_00
+rpm_empty_click 	 	    = 200
+
+shell_point		 		    = 0.1, 0.21, -0.14              ;право-лево,вверх-вниз,вперед-назад
+shell_dir		 		    = 0.0, 0.0, 0.6
+shell_particles	 		    = weapons\arsenal_shells1
+
+PDM_disp_base 			    = 1.0
+PDM_disp_vel_factor 		= 0.8
+PDM_disp_accel_factor 	    = 0.8
+PDM_crouch	 		        = 1.0
+PDM_crouch_no_acc 		    = 1.0
+
+;;;;;;  Для Народной солянки 2009
+hit_power                   = 2.32
+hit_impulse	                = 140
+hit_type 	                = fire_wound
+hit_rate	                = 1.95
+fire_distance               = 800					;;;110004 10:1
+bullet_speed		        = 820
+rpm                         = 900
+
+use_aim_bullet	            = true		;Поддерживается ли первая суппер пуля
+time_to_aim	                = 1.0	
+
+hud                         = wpn_sil_hud
+normal                      = 0, 1, 0
+position                    = -0.024, -0.146, 0.0
+orientation                 = 0, 0, 0
+;--STRAP PARAMETERS-----------------------------------------------------------------
+;под мишкой
+strap_position         		= -0.15,-0.38,0.35			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -10,-5,10					; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+startup_ammo                = 10
+visual                      = Aaz\OC-14\wpn_groza_silencer.ogf
+light_disabled				= true
+ph_mass			 		    = 3
+
+;addons
+scope_status			    = 1
+silencer_status			    = 0
+grenade_launcher_status	    = 0
+
+zoom_enabled			    = true
+scope_zoom_factor	        = 22.5		
+scope_texture				= wpn\crosshair\wpn_crosshair_un_an94_groza		
+
+;звуки
+snd_draw				= Aaz\OC-14\oc-14_draw
+snd_holster			    = Aaz\OC-14\oc-14_holster
+snd_shoot				= Aaz\OC-14\oc-14_shot
+snd_empty			    = Aaz\OC-14\oc-14_empty, 0.5
+snd_reload			    = Aaz\OC-14\oc-14_reload, 0.5, 0.92
+snd_close				= Aaz\OC-14\oc-14_close
+ 
+[wpn_sil_hud]
+shell_point     	   	= 0.00, 0.00, -0.3
+shell_dir			    = 0.0, 0.0, 0.0
+
+fire_point			    = -0.007,0.0,-0.02
+fire_bone               = wpn_body
+orientation             = 0, 0, 0
+position                = 0, 0, 0
+visual                  = Aaz\OC-14\wpn_groza_silencer_hud.ogf
+
+anim_idle				= idle
+anim_idle_aim			= idle_aim
+anim_reload			    = reload
+anim_draw				= draw
+anim_holster			= holster
+anim_shoot			    = shoot
+
+;смещения HUD для режима приближения
+zoom_offset			    = -0.1286,-0.03,-0.363                           ; право-лево, вверх-вниз, вперед-назад
+zoom_rotate_x		    = -0.0158           ; ?
+zoom_rotate_y		    = 0.0

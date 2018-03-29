@@ -1,0 +1,66 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[ammo_7.62x51_fmj]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			= "weapons\ammo\ammo_7.62x51_fmj" 
+class			= AMMO
+cform           = skeleton
+visual          = Arsenal_Mod\ammo\762x51_fmj.ogf
+description		= enc_arsenal_7.62x51_fmj
+$prefetch 		= 64
+
+cost			= 1200
+box_size		= 30
+inv_name		= ars-7.62x51_fmj
+inv_name_short	= ars-7.62x51_fmj_s
+inv_weight		= 0.78
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 16
+inv_grid_y			= 40
+
+k_dist     		        = 1.2
+k_disp            		= 0.8 
+k_hit            		= 1
+k_impulse        		= 0.7
+k_pierce        		= 0.65
+impair           		= 1
+buck_shot        		= 1
+tracer            		= on
+wm_size         		= 0.04
+explosive        		= off
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[ammo_7.62x51_ap]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			= "weapons\ammo\ammo_7.62x51_ap"
+class			= AMMO
+cform           = skeleton
+visual          = Arsenal_Mod\ammo\762x51_ap.ogf
+description		= enc_arsenal_7.62x51_ap
+$prefetch 		= 64
+
+cost			= 1600
+box_size		= 30
+inv_name		= ars-7.62x51_ap
+inv_name_short	= ars-7.62x51_ap_s
+inv_weight		= 0.8
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 18
+inv_grid_y			= 40
+
+k_dist     		        = 1.2
+k_disp            		= 0.8 
+k_hit            		= 1
+k_impulse        		= 0.7
+k_pierce        		= 0.74
+impair           		= 1
+buck_shot        		= 1
+tracer            		= on
+wm_size         		= 0.04
+explosive        		= off

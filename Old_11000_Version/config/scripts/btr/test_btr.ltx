@@ -1,0 +1,31 @@
+;TB3D 109999, used in hiding, pred and poly
+
+[logic]
+active = ph_car@idle
+;on_hit = hit
+
+[hit]
+
+[ph_car@idle]
+target=actor
+fire_range=50
+fire_time=20
+fire_repeat=50
+auto_fire=true
+track_target=true
+
+[ph_car@eliminate]
+target=actor
+fire_range=50
+fire_time=20
+fire_repeat=50
+auto_fire=true
+track_target=true
+
+[ph_car@no_fire_actor]
+target=nil
+fire_range=0
+fire_time = 20
+fire_repeat=50
+auto_fire=false
+track_target=false

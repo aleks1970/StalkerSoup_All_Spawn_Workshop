@@ -1,0 +1,317 @@
+<!-- ************ TB3D 1.0.9.9.7.0 *************** -->
+<window>
+	<!-- *************** PDA *************** -->
+	<btn_pda_exit x="320" y="0" width="67" height="20" hint="Turn_Off_PDA_hint_ui"/>
+	<btn_pda_options x="673" y="40" width="50" height="25" hint="S_advanced_options_hint_ui">
+		<text align="l" x="0" y="0" font="graffiti22" r="120" g="117" b="67">functions_ui</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="5" g="100" b="200"/>
+			<e r="5" g="100" b="200"/>
+			<h r="25" g="155" b="255"/>
+		</text_color>
+	</btn_pda_options>
+
+	<btn_pda_off x="320" y="0" width="67" height="20" hint="Turn_Off_PDA_hint_ui">
+ 		<texture_e>ui_pda_exit_e</texture_e>
+ 		<texture_h>ui_pda_exit_h</texture_h>
+ 		<texture_t>ui_pda_exit_t</texture_t>
+	</btn_pda_off>
+
+	<btn_pda_intreference_off x="320" y="0" width="67" height="20" hint="Turn_Off_PDA_hint_ui">
+<!-- 	<texture_e>ui_pda_inter_exit_e</texture_e>	-->
+ 		<texture_h>ui_pda_inter_exit_h</texture_h>
+ 		<texture_t>ui_pda_inter_exit_t</texture_t>
+	</btn_pda_intreference_off>
+
+	<btn_pda_timer_close x="368" y="12" width="48" height="20" hint="Close_timer_script">
+		<texture_e>ui_pda_selected_close_e</texture_e>
+ 		<texture_h>ui_pda_selected_close_h</texture_h>
+ 		<texture_t>ui_pda_selected_close_t</texture_t>
+	</btn_pda_timer_close>
+
+	<btn_pda_map_spot_close x="304" y="12" width="48" height="20" hint="Close_Mapspot_sel_script">
+		<texture_e>ui_pda_selected_close_e</texture_e>
+ 		<texture_h>ui_pda_selected_close_h</texture_h>
+ 		<texture_t>ui_pda_selected_close_t</texture_t>
+	</btn_pda_map_spot_close>
+
+	<!-- ************ Function page buttons *********** -->
+	<dmx_pda_button_btn_start_edit x="36" y="112" width="170" height="27">
+		<texture_e>ui_pda_select_e</texture_e>
+		<texture_h>ui_pda_select_h</texture_h>
+		<texture_t>ui_pda_select_t</texture_t>
+		<text font="graffiti19" r="120" g="117" b="67">start_typing_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="0" g="0" b="0"/>
+			<h r="255" g="255" b="255"/>
+		</text_color>
+	</dmx_pda_button_btn_start_edit>
+
+	<dmx_pda_button_btn_save x="36" y="175" width="170" height="27">
+		<texture_e>ui_pda_select_e</texture_e>
+		<texture_h>ui_pda_select_h</texture_h>
+		<texture_t>ui_pda_select_t</texture_t>
+		<text font="graffiti19" r="120" g="117" b="67">save_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="0" g="0" b="0"/>
+			<h r="255" g="255" b="255"/>
+		</text_color>
+	</dmx_pda_button_btn_save>
+
+	<dmx_pda_button_btn_clear x="36" y="235" width="170" height="27">
+		<texture_e>ui_pda_select_e</texture_e>
+		<texture_h>ui_pda_select_h</texture_h>
+		<texture_t>ui_pda_select_t</texture_t>
+		<text font="graffiti19" r="120" g="117" b="67">erase_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="0" g="0" b="0"/>
+			<h r="255" g="255" b="255"/>
+		</text_color>
+	</dmx_pda_button_btn_clear>
+
+	<dmx_pda_button_btn_send x="36" y="295" width="170" height="27">
+		<texture_e>ui_pda_select_e</texture_e>
+		<texture_h>ui_pda_select_h</texture_h>
+		<texture_t>ui_pda_select_t</texture_t>
+		<text font="graffiti19" r="120" g="117" b="67">send_network_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="0" g="0" b="0"/>
+			<h r="255" g="255" b="255"/>
+		</text_color>
+	</dmx_pda_button_btn_send>
+
+	<dmx_pda_button_run_script x="36" y="355" width="170" height="27">
+		<texture_e>ui_pda_select_e</texture_e>
+		<texture_h>ui_pda_select_h</texture_h>
+		<texture_t>ui_pda_select_t</texture_t>
+		<text font="graffiti19" r="120" g="117" b="67">run_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="0" g="0" b="0"/>
+			<h r="255" g="255" b="255"/>
+		</text_color>
+	</dmx_pda_button_run_script>
+
+	<dmx_pda_button_add_spot x="36" y="415" width="170" height="27">
+		<texture_e>ui_pda_select_e</texture_e>
+		<texture_h>ui_pda_select_h</texture_h>
+		<texture_t>ui_pda_select_t</texture_t>
+		<text font="graffiti19" r="120" g="117" b="67">mark_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="0" g="0" b="0"/>
+			<h r="255" g="255" b="255"/>
+		</text_color>
+	</dmx_pda_button_add_spot>
+
+	<dmx_pda_button_radio x="36" y="475" width="170" height="27">
+		<texture_e>ui_pda_select_e</texture_e>
+		<texture_h>ui_pda_select_h</texture_h>
+		<texture_t>ui_pda_select_t</texture_t>
+		<text font="graffiti19" r="120" g="117" b="67">zone_radio_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>	<!-- <t r="231" g="168" b="12"/> -->
+			<d r="18" g="70" b="148"/>	<!-- <d r="18" g="70" b="148"/> -->
+			<e r="0" g="0" b="0"/>	<!-- <e r="5" g="100" b="200"/> -->
+			<h r="255" g="255" b="255"/>	<!-- <h r="25" g="155" b="255"/> -->
+		</text_color>
+	</dmx_pda_button_radio>
+
+	<dmx_pda_button_btn_timer_text x="100" y="85" width="150" height="20">
+		<text font="letterica16" r="120" g="117" b="67">enter_a_time_script</text>
+		<text_color>
+			<t r="255" g="255" b="255"/>
+			<d r="255" g="255" b="255"/>
+			<e r="255" g="255" b="255"/>
+			<h r="255" g="255" b="255"/>
+		</text_color>
+	</dmx_pda_button_btn_timer_text>
+
+	<dmx_pda_button_btn_timer_start x="131" y="162" width="170" height="27">
+		<texture_e>ui_pda_select_e</texture_e>
+		<texture_h>ui_pda_select_h</texture_h>
+		<texture_t>ui_pda_select_t</texture_t>
+		<text font="graffiti22" r="120" g="117" b="67">start_the_timer_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="0" g="0" b="0"/>
+			<h r="255" g="255" b="255"/>
+		</text_color>
+	</dmx_pda_button_btn_timer_start>
+	<!-- ***************** GPS locator **************** -->
+
+	<dmx_pda_button_btn_habar_text x="42" y="50" width="75" height="25">
+		<texture_e>ui_pda_habar_e</texture_e>
+		<texture_h>ui_pda_habar_e</texture_h>
+		<texture_t>ui_pda_habar_e</texture_t>
+		<text align="l" x="38" y="0" font="letterica18" r="120" g="117" b="67">swag_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="5" g="100" b="200"/>
+		</text_color>
+	</dmx_pda_button_btn_habar_text>
+
+	<dmx_pda_button_btn_lager_text x="42" y="80" width="75" height="25">
+		<texture_e>ui_pda_lager_e</texture_e>
+		<text align="l" x="38" y="0" font="letterica18" r="120" g="117" b="67">camp_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="5" g="100" b="200"/>
+		</text_color>
+	</dmx_pda_button_btn_lager_text>
+
+	<dmx_pda_button_btn_anomal_text x="42" y="110" width="75" height="25">
+		<texture_e>ui_pda_anomal_e</texture_e>
+		<text align="l" x="38" y="0" font="letterica18" r="120" g="117" b="67">anomaly_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="5" g="100" b="200"/>
+		</text_color>
+	</dmx_pda_button_btn_anomal_text>
+
+	<dmx_pda_button_btn_monsters_text x="42" y="140" width="75" height="25">
+		<texture_e>ui_pda_monsters_e</texture_e>
+		<text align="l" x="38" y="0" font="letterica18" r="120" g="117" b="67">mutants_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="5" g="100" b="200"/>
+		</text_color>
+	</dmx_pda_button_btn_monsters_text>
+
+	<dmx_pda_button_btn_others_text x="42" y="170" width="75" height="25">
+		<texture_e>ui_pda_others_e</texture_e>
+		<text align="l" x="38" y="0" font="letterica18" r="120" g="117" b="67">plain_label_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="5" g="100" b="200"/>
+		</text_color>
+	</dmx_pda_button_btn_others_text>
+
+	<!-- ***************btn_pda_separator x="652" y="45" width="13" height="13">
+	    <texture x="63" y="770" width="14" height="14">ui\amk_pda</texture>
+		<text align="l" x="-16" y="-2" font="graffiti22" a="215" r="97" g="92" b="92"></text>
+	</btn_pda_separator*************** -->
+	<pda_bar_anim_static x="240" y="682" width="32" height="32" frames="16" duration="1000" columns="8" frame_width="32" frame_height="32" cyclic="1" autoplay="1">
+		<texture>ui\ui_pda_anims_04</texture>
+	</pda_bar_anim_static>
+	<pda_bar_reminder x="300" y="685" width="30" height="30" hint="use_text_as_reminder_hint_ui">
+<!--	<texture x="701" y="944" width="26" height="27">ui\ui_pda_notepad</texture> -->
+		<texture_e>ui_reminder_e</texture_e>
+		<text align="c" x="-2">notes_ui</text>
+		<text_color>
+			<t r="0" g="0" b="0"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="231" g="168" b="12"/>
+		</text_color>
+	</pda_bar_reminder>
+	<pda_bar_minus10 x="380" y="685" width="30" height="30" hint="ten_records_back_hint_ui">
+<!--	<texture x="701" y="944" width="26" height="27">ui\ui_pda_notepad</texture> -->
+		<texture_e>ui_minus10_e</texture_e>
+		<text align="c" x="-2"/>
+		<text_color>
+			<t r="0" g="0" b="0"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="231" g="168" b="12"/>
+		</text_color>
+	</pda_bar_minus10>
+	<pda_bar_minus1 x="410" y="685" width="30" height="30" hint="One_entry_back_hint_ui">
+<!--	<texture x="701" y="944" width="26" height="27">ui\ui_pda_notepad</texture> -->
+		<texture_e>ui_minus1_e</texture_e>
+		<text align="c" x="-2"/>
+		<text_color>
+			<t r="0" g="0" b="0"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="231" g="168" b="12"/>
+		</text_color>
+	</pda_bar_minus1>
+	<pda_bar_plus1 x="470" y="685" width="30" height="30" hint="One_entry_forward_hint_ui">
+<!--	<texture x="701" y="944" width="26" height="27">ui\ui_pda_notepad</texture> -->
+		<texture_e>ui_plus1</texture_e>
+		<text align="c" x="-2"/>
+		<text_color>
+			<t r="0" g="0" b="0"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="231" g="168" b="12"/>
+		</text_color>
+	</pda_bar_plus1>
+	<pda_bar_plus10 x="500" y="685" width="30" height="30" hint="ten_records_forward_hint_ui">
+<!--	<texture x="701" y="944" width="26" height="27">ui\ui_pda_notepad</texture> -->
+		<texture_e>ui_plus10_e</texture_e>
+		<text align="c" x="-2"/>
+		<text_color>
+			<t r="0" g="0" b="0"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="231" g="168" b="12"/>
+		</text_color>
+	</pda_bar_plus10>
+	<pda_bar_ruslat x="580" y="685" width="30" height="30" hint="Layout_hint_ui">
+<!--	<texture x="701" y="944" width="26" height="27">ui\ui_pda_notepad</texture> -->
+		<texture_e>ui_ruslat_e</texture_e>
+		<text align="c" x="-2"/>
+		<text_color>
+			<t r="0" g="0" b="0"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="231" g="168" b="12"/>
+		</text_color>
+	</pda_bar_ruslat>
+	<pda_bar_volume_down x="660" y="685" width="30" height="30" hint="Decrease_volume_hint_ui">
+<!--	<texture x="701" y="944" width="26" height="27">ui\ui_pda_notepad</texture> -->
+		<texture_e>ui_volume_down_e</texture_e>
+		<text align="c" x="-2">volume_1_ui</text>
+		<text_color>
+			<t r="0" g="0" b="0"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="231" g="168" b="12"/>
+		</text_color>
+	</pda_bar_volume_down>
+	<pda_bar_volume_up x="690" y="685" width="30" height="30" hint="Increase_volume_hint_ui">
+<!--	<texture x="701" y="944" width="26" height="27">ui\ui_pda_notepad</texture> -->
+		<texture_e>ui_volume_up_e</texture_e>
+		<text align="c" x="-2">volume_2_ui</text>
+		<text_color>
+			<t r="0" g="0" b="0"/>
+			<d r="18" g="70" b="148"/>
+			<e r="255" g="255" b="255"/>
+			<h r="231" g="168" b="12"/>
+		</text_color>
+	</pda_bar_volume_up>
+	<pda_bar_record_number x="438" y="685" width="30" height="30" hint="current_record_hint_ui"/>
+	<!-- *************** Pause after downloading *************** -->
+	<game_load_window x="0" y="0" width="1024" height="768" light_anim="ui_slow_blinking_alpha" la_texture="0" la_alpha="1">
+		<texture>ui\ui_load</texture>
+		<text y="695" align="c" font="graffiti22" r="159" g="142" b="126">enter_the_zone_ui</text>
+	</game_load_window>
+	<game_load_window_pause x="396" y="733" width="238" height="10">
+	<texture>ui_hud_load_pause</texture>
+	</game_load_window_pause>
+	
+</window>

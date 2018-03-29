@@ -1,0 +1,406 @@
+;<!-- TB3D 1.1.0.0.1.6, commented out "discovery_dependency", new monsters parts - aleks1970 -->
+
+;<!-- TUSHKANO'S HEAD -->
+[mutant_parts_base]:identity_immunities
+GroupControlSection  = spawn_group
+;discovery_dependency = ; aleks1970
+;$prefetch 			= 32
+class  				= II_ATTCH
+cform  				= skeleton
+radius 				= 1
+cost				= 50
+inv_weight			= 1.5
+can_trade       	= on
+inv_grid_width  	= 1
+inv_grid_height 	= 1
+belt            	= true
+
+[mutant_face_tushkano]:mutant_parts_base
+$spawn 				= "monster_items\mutant_face_tushkano"	;--;devices\, 110015 - aleks1970
+visual				= monster_items\face_tushkano.ogf
+
+inv_name			= mutant_face_tushkano
+inv_name_short		= mutant_face_tushkano
+description			= mutant_face_tushkano_description
+
+inv_weight			= 0.3
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 21
+inv_grid_y			= 5
+cost				= 250
+
+;<!-- CONTROLLER'S HAND -->
+[mutant_hand_kontroler]:mutant_parts_base
+$spawn 				= "monster_items\mutant_hand_kontroler"	;--;devices\, 110015 - aleks1970
+visual				= monster_items\hand_kontroler.ogf
+
+inv_name			= mutant_hand_kontroler
+inv_name_short		= mutant_hand_kontroler
+description			= mutant_hand_kontroler_description
+
+inv_weight			= 0.2
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 21
+inv_grid_y			= 6
+cost				= 1200
+
+;<!-- POLTERGEIST'S EYE -->
+[mutant_poltergeist_glas]:mutant_parts_base
+$spawn 				= "monster_items\mutant_poltergeist_glas"	;--;devices\, 110015 - aleks1970
+visual				= monster_items\poltergeist_glas.ogf
+
+inv_name			= mutant_poltergeist_glas
+inv_name_short		= mutant_poltergeist_glas
+description			= mutant_poltergeist_glas_description
+
+inv_weight			= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 21
+inv_grid_y			= 7
+cost				= 300
+
+;<!-- PSEUDOGIANT'S HAND -->
+[mutant_psevdogigant_hand]:mutant_parts_base
+$spawn 				= "monster_items\mutant_psevdogigant_hand"	;--;devices\, 110015 - aleks1970
+visual				= monster_items\psevdogigant_hand.ogf
+
+inv_name			= mutant_psevdogigant_hand
+inv_name_short		= mutant_psevdogigant_hand
+description			= mutant_psevdogigant_hand_description
+
+inv_weight			= 0.3
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 22
+inv_grid_y			= 5
+cost				= 700
+
+;<!-- FERAL CAT'S TAIL -->
+[mutant_tail_cat]:mutant_parts_base
+$spawn 				= "monster_items\mutant_tail_cat"	;--;devices\, 110015 - aleks1970
+visual				= monster_items\tail_cat.ogf
+
+inv_name			= mutant_tail_cat
+inv_name_short		= mutant_tail_cat
+description			= mutant_tail_cat_description
+
+inv_weight			= 0.2
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 22
+inv_grid_y			= 6
+cost				= 500
+
+;<!-- COLLECTABLE PARTS -->
+;<!-- CHIMERA TALONS -->
+[mutant_chimera_kogot]:mutant_parts_base
+$spawn 				= "monster_items\mutant_chimera_kogot"	;--;devices\, 110015 - aleks1970
+visual				= monster_items\chimera_kogot.ogf
+
+inv_name			= mutant_chimera_kogot
+inv_name_short		= mutant_chimera_kogot
+description			= mutant_chimera_kogot_description
+
+inv_weight			= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 22
+inv_grid_y			= 7
+cost				= 1000
+
+[mutant_werewolf_kogot]:mutant_chimera_kogot
+$spawn 				= "monster_items\mutant_werewolf_kogot"	;--;devices\, 110015 - aleks1970
+visual				= monster_items\werewolf_paws.ogf
+
+inv_name			= mutant_werewolf_kogot
+inv_name_short		= mutant_werewolf_kogot
+description			= mutant_werewolf_kogot_description
+
+inv_weight			= 1.2
+
+inv_grid_width		= 2	;new icon - aleks1970
+inv_grid_height		= 1
+inv_grid_x			= 70
+inv_grid_y			= 22
+cost				= 35000
+
+;<!-- Venom Claw(Raptor) -->
+[mutant_raptor_kogot]:mutant_parts_base
+$spawn 				= "monster_items\mutant_raptor_kogot"	;--;devices\, 110015 - aleks1970
+visual				= monster_items\chimera_kogot.ogf
+
+inv_name			= mutant_raptor_kogot
+inv_name_short		= mutant_raptor_kogot
+description			= enc_mutant_raptor_kogot_description
+
+inv_weight			= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 20
+inv_grid_y			= 66
+cost				= 12000
+
+;<!-- IZLOM'S HAND -->
+[mutant_fracture_hand]:mutant_parts_base
+$spawn 				= "monster_items\mutant_fracture_hand"	;--;devices\, 110015 - aleks1970
+visual				= monster_items\fracture_hand.ogf
+
+inv_name			= mutant_fracture_hand
+inv_name_short		= mutant_fracture_hand
+description			= mutant_fracture_hand_description
+
+inv_weight			= 0.3
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 17
+inv_grid_y			= 39
+cost				= 750
+
+;<!-- RAT'S SPLEEN -->
+[mutant_spleen_rat]:mutant_parts_base
+$spawn 				= "monster_items\mutant_spleen_rat"	;--;devices\, 110015 - aleks1970
+visual				= monster_items\rat_tail_normal.ogf
+
+inv_name			= mutant_spleen_rat
+inv_name_short		= mutant_spleen_rat
+description			= mutant_spleen_rat_description
+
+inv_weight			= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 15
+inv_grid_y			= 23
+cost				= 300
+
+;----------------------------;
+;--spare babusek----------;
+;----------------------------;
+;<!-- ZOMBIE'S TEETH -->
+[mutant_zombie_teeth]:mutant_parts_base
+$spawn 				= "monster_items\mutant_zombie_teeth"	;--;devices\, 110015 - aleks1970
+visual				= new_item\mutant_zombie_teeth.ogf
+
+;script_binding		= stalker.object_init
+
+inv_name			     = mutant_zombie_teeth
+inv_name_short		     = mutant_zombie_teeth
+description			= enc_mutant_zombie_teeth
+inv_weight			= 0.2
+
+inv_grid_width     = 1
+inv_grid_height    = 1
+inv_grid_x         = 25	;38 - aleks1970
+inv_grid_y         = 20	;50
+cost				= 1700
+
+;<!-- TARAKAN SHELL -->
+[part_tarakan]:mutant_parts_base
+$spawn 				= "monster_items\part_tarakan"	;--;devices\, 110015 - aleks1970
+visual				= new_item\part_tarakan.ogf
+
+;script_binding		= stalker.object_init
+
+inv_name			= part_tarakan
+inv_name_short		= part_tarakan
+description		= enc_part_tarakan
+inv_weight		= 0.2
+
+inv_grid_width     = 1
+inv_grid_height    = 1
+inv_grid_x         = 22	;46 - aleks1970
+inv_grid_y         = 26	;47
+cost				= 1000
+
+;<!-- AGED TARAKAN SHELL -->
+[part_tarakan_strong]:mutant_parts_base
+$spawn 				= "monster_items\part_tarakan_strong"	;--;devices\, 110015 - aleks1970
+visual				= new_item\part_tarakan_strong.ogf
+
+;script_binding		= stalker.object_init
+
+inv_name			     = part_tarakan_strong
+inv_name_short		     = part_tarakan_strong
+description			= enc_part_tarakan_strong
+inv_weight			= 0.2
+
+inv_grid_width     = 1
+inv_grid_height    = 1
+inv_grid_x         = 22	;45 - aleks1970
+inv_grid_y         = 25	;47
+cost				= 1800
+
+;<!-- FEMALE ZOMBIE'S BREAST -->
+[rudiment_big]:mutant_parts_base
+$spawn 				= "monster_items\rudiment_big"	;--;devices\, 110015 - aleks1970
+visual				= new_item\rudiment_babka_big.ogf
+
+;script_binding		= stalker.object_init
+quest_item			= false
+
+description			= enc_rudiment_big
+
+inv_name			     = rudiment_big
+inv_name_short		     = rudiment_big
+inv_weight			= 0.6
+inv_grid_width		     = 1
+inv_grid_height		= 1
+inv_grid_x			= 25	;39 - aleks1970
+inv_grid_y			= 21	;50
+cost				     = 7500
+
+;<!-- LIBRARIAN'S FUR -->
+[part_digitis_biblio]:mutant_parts_base
+$spawn 				= "monster_items\part_digitis_biblio"	;--;devices\, 110015 - aleks1970
+visual				= new_item\part_digitis_biblio.ogf
+;script_binding		= stalker.object_init
+
+inv_name			     = part_digitis_biblio
+inv_name_short		     = part_digitis_biblio
+description			= enc_part_digitis_biblio
+inv_weight			= 2.80
+
+inv_grid_width     = 3
+inv_grid_height    = 1
+inv_grid_x         = 79	;37 new icon - aleks1970
+inv_grid_y         = 14	;19
+cost				= 40000
+
+[mutant_deathclaw_antler]:mutant_parts_base
+$spawn 				= "monster_items\mutant_deathclaw_antler"	;--;devices\, 110015 - aleks1970
+visual				= monster_items\deathclaw_antler.ogf
+
+inv_name			= mutant_deathclaw_antler
+inv_name_short		= mutant_deathclaw_antler
+description			= enc_mutant_deathclaw_antler_description
+
+inv_weight			= 0.6
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 62
+inv_grid_y			= 57
+
+cost				= 18000
+;--;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-NEW Monsters parts - 110016 - aleks1970-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;--;
+[mutant_medwed_paw]:mutant_parts_base
+$spawn = "monster_items\mutant_medwed_paw"
+visual = monster_items\item_medwed_paw.ogf
+
+inv_name       = mutant_medwed_paw
+inv_name_short = mutant_medwed_paw
+description    = mutant_medwed_paw_desc
+
+inv_weight = 6
+inv_grid_x = 46
+inv_grid_y = 54
+cost       = 1100
+
+[mutant_medwed_dry_paw]:mutant_parts_base
+$spawn 				= "monster_items\medwed_dry_paw"
+visual				= monster_items\medwed_dry_paw.ogf
+
+inv_name			= mutant_medwed_dried_paw
+inv_name_short		= mutant_medwed_dried_paw
+description			= mutant_medwed_dried_paw_desc
+
+inv_weight			= 1.2
+inv_grid_x         = 41
+inv_grid_y         = 46
+cost				= 2200
+
+[mutant_ratlike_tail]:mutant_parts_base
+$spawn = "monster_items\mutant_ratlike_tail"
+visual = monster_items\item_ratlike_tail.ogf
+
+inv_name       = mutant_ratlike_tail
+inv_name_short = mutant_ratlike_tail
+description    = mutant_ratlike_tail_desc
+
+inv_weight = 0.5
+inv_grid_x = 46
+inv_grid_y = 51
+cost       = 1000
+
+[mutant_spider_part]:mutant_parts_base
+$spawn = "monster_items\mutant_spider_part"
+visual = monster_items\item_spider_leg.ogf
+
+inv_name       = mutant_spider_part
+inv_name_short = mutant_spider_part
+description    = mutant_spider_part_desc
+
+inv_weight = 1.3
+inv_grid_x = 46
+inv_grid_y = 52
+cost       = 30000
+
+[mutant_swamp_heart]:mutant_parts_base
+$spawn = "monster_items\mutant_swamp_heart"
+visual = monster_items\item_swamp_heart.ogf
+
+inv_name       = mutant_swamp_heart
+inv_name_short = mutant_swamp_heart
+description    = mutant_swamp_heart_descr
+
+inv_weight = 0.34
+inv_grid_x = 46
+inv_grid_y = 53
+cost       = 3300
+
+
+[mutant_karlik_ear]:mutant_parts_base
+$spawn						= "monster_items\mutant_karlik_ear"
+visual						= monster_items\item_karlik_ear.ogf
+
+inv_name					= mutant_karlik_ear_name
+inv_name_short				= mutant_karlik_ear_name
+description					= mutant_karlik_ear_descr
+inv_weight					= 0.1
+
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 22
+inv_grid_y					= 63
+cost						= 2000
+
+[mutant_izlom_arm]:mutant_parts_base
+$spawn						= "monster_items\mutant_izlom_arm"
+visual						= monster_items\fracture_hand.ogf
+
+inv_name					= mutant_izlom_arm_name
+inv_name_short				= mutant_izlom_arm_name
+description					= mutant_izlom_arm_descr
+inv_weight					= 0.2
+
+inv_grid_width				= 1
+inv_grid_height				= 2
+inv_grid_x					= 81
+inv_grid_y					= 61
+cost						= 1100
+
+[skelet_head]:mutant_parts_base
+$spawn 						= "devices\monster_items\skelet_head"
+visual						= monster_items\skelet_head.ogf
+
+inv_name					= skelet_head_name
+inv_name_short				= skelet_head_name
+description					= mutant_skelet_head_descr
+
+inv_weight					= 0.3
+inv_grid_width				= 2
+inv_grid_height				= 2
+inv_grid_x					= 62
+inv_grid_y					= 33
+cost						= 9800

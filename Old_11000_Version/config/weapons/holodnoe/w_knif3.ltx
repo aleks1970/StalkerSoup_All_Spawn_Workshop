@@ -1,0 +1,31 @@
+;;;; TB3D 1.1.0.0.1.3 - TB3D style weapons
+; Нож Ааза
+[wpn_knif3]:wpn_knife_base
+$spawn              = "weapons\knif3"
+description			= weapons_aaz
+visual				= weapons\knif3\wpn_knife.ogf
+inv_name		    = wpn_knif3
+inv_name_short		= wpn_knif3
+inv_weight			= 0.3
+inv_grid_x			= 10
+inv_grid_y			= 47
+hud				    = wpn_knif3_hud
+cost				= 2500
+
+hit_power                	= 3.5
+hit_power_2                	= 4.00
+fire_distance            	= 1.5
+
+[wpn_knif3_hud]:wpn_knife_base_hud
+visual              		= weapons\knif3\wpn_knife_hud.ogf
+
+[fake_wpn_knif3]:fake_wpn_knife_base
+visual          = weapons\knif3\wpn_knife.ogf
+description		          = weapons_aaz
+inv_name					= wpn_knif3
+inv_name_short				= wpn_knif3
+inv_weight			         = 0.3
+
+inv_grid_x					= 10
+inv_grid_y					= 47
+cost				        = 2500

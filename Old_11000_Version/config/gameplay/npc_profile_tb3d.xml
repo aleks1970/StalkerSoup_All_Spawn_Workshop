@@ -1,0 +1,796 @@
+<!-- ************ TB3D 1.1.0.0.1.0 temporary support of level spawns in new levels, predbannik_barman, glavny, bandit_master_rpg, krohobor -->
+<xml>
+<!-- ****************** characters in use **************** -->
+	<character id="ds_tweed">
+		<class>ds_tweed</class>
+	</character>
+	<character id="karina">
+		<class>karina</class>
+	</character>
+	<character id="tractorist">
+		<class>tractorist</class>
+	</character>
+	<character id="glavny">
+		<class>glavny</class>
+	</character>
+	<character id="predbannik_barman">
+		<class>predbannik_barman</class>
+		<specific_character>predbannik_barman</specific_character>
+	</character>
+	<character id="hr_afanasyev">
+		<class>hr_afanasyev</class>
+		<specific_character>hr_afanasyev</specific_character>
+	</character>
+	<character id="hr_liza">
+		<class>hr_liza</class>
+		<specific_character>hr_liza</specific_character>
+	</character>
+	<character id="pred_obmorok">
+		<class>pred_obmorok</class>
+		<specific_character>pred_obmorok</specific_character>
+	</character>
+	<character id="pred_karatel">
+		<class>pred_karatel</class>
+		<specific_character>pred_karatel</specific_character>
+	</character>
+	<character id="zika">
+		<class>f1_zika11</class>
+		<specific_character>f1_zika11</specific_character>
+	</character>
+	<character id="krohobor_new">						<!--109980, pred trader, underground like sid-->
+		<class>predbannik_m_trader</class>
+		<specific_character>predbannik_m_trader</specific_character>
+	</character>
+	<character id="krohobor">						<!--110007, pred trader, underground like sid-->
+		<class>predbannik_m_trader</class>
+		<specific_character>predbannik_m_trader</specific_character>
+	</character>
+	<character id="tb3dm_mon_regular">
+		<class>sim_monolith_master</class>
+	</character>
+	<character id="tb3dm_mon_nauch">
+		<class>sim_monolith_master</class>
+	</character>
+	<character id="tb3dm_mon_monster">
+		<class>sim_monolith_master</class>
+	</character>
+	<character id="tb3dm_mon_robot">
+		<class>sim_monolith_master</class>
+	</character>
+
+<!-- ****************** unverified  **************** -->
+	<character id="sim_bandit_novice11">
+		<class>sim_bandit_novice</class>
+	</character>
+	<character id="bandit_master">
+		<class>sim_bandit_master</class>
+	</character>
+	<character id="nato_sniper">
+		<class>sim_Svoboda_sniper</class>
+	</character>
+
+<!-- ****************** removed/renamed 110009  **************** -->
+	<!--character id="tweed">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="afanasyev">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="liza">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="obmorok">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="karatel">
+		<class>sim_stalker_master</class>
+	</character-->
+	<!--character id="kalinin">
+		<class>atp_kalinin</class>
+	</character>
+	<character id="suhov">
+		<class>sim_atp_brigada_novice</class>
+	</character>
+	<character id="suhov2">
+		<class>atp_gonets</class>
+	</character>
+	<character id="snira">
+		<class>sim_bandit_master</class>
+	</character>
+	<character id="koryaviy">
+		<class>sim_bandit_master</class>
+	</character>
+	<character id="sisiy">
+		<class>yantar_chernomor</class>
+	</character>
+	<character id="sim_ohotnik">
+		<class>bar_stalker_hunter</class>
+	</character>
+	<character id="aver_zahar">
+		<class>sim_aver_hunter_regular</class>
+	</character>
+	<character id="bofan">
+		<class>sim_aver_hunter_regular</class>
+	</character>
+	<character id="kruglik">
+		<class>sim_Stalker_veteran</class>
+	</character-->
+<!-- ******************************************************** -->
+
+	<character id="killer_specnaz">
+		<class>sim_killer_sniper</class>
+	</character>
+	<character id="killer_general">
+		<class>sim_killer_general</class>
+	</character>
+	<character id="killer_strag">
+		<class>cit_killer_exo</class>
+	</character>
+	<character id="killer_exo_unic">
+		<class>cit_killer_exo</class>
+	</character>
+	<character id="masha">
+		<class>sim_Stalker_veteran</class>
+	</character>
+	<character id="sim_stalker_veteran1">
+		<class>sim_stalker_veteran</class>
+	</character>
+	<character id="sim_stalker_veteran2">
+		<class>sim_Stalker_veteran</class>
+	</character>
+	<character id="stalker_master_pul">
+		<class>sim_Stalker_master</class>
+	</character>
+	<character id="soldier_regular_spec">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_commander">
+		<class>sim_Soldier_commander</class>
+	</character>
+	<character id="soldier_pul">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="soldier_3">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_rpg7">
+		<class>sim_Soldier_sniper</class>
+	</character>
+	<character id="soldier_2">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_1">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="bandit_novice">
+		<class>sim_bandit_novice</class>
+	</character>
+	<character id="sim_bandit_novice1">
+		<class>sim_bandit_novice</class>
+	</character>
+	<character id="bandit_veteran_snip">
+		<class>sim_bandit_veteran</class>
+	</character>
+	<character id="bandit_master_pul">
+		<class>sim_bandit_master</class>
+	</character>
+	<character id="bandit_veteran">
+		<class>sim_bandit_veteran</class>
+	</character>
+	<character id="zliden">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="stalker_novice2">
+		<class>sim_Stalker_novice</class>
+	</character>
+	<character id="kras_novice_gen">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="kras_master">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="kras_suhoi2">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="bandit_general">
+		<class>sim_bandit_general</class>
+	</character>
+	<character id="stockes">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="bandit_general_snip">
+		<class>sim_bandit_master</class>
+	</character>
+	<character id="bandit_master_rpg">
+		<class>sim_bandit_master</class>
+	</character>
+	
+	<character id="soldier_specnaz">
+		<class>sim_soldier_specnaz</class>
+	</character>
+	<character id="soldier_specnaz_snip">
+		<class>sim_soldier_specnaz</class>
+	</character>
+	<character id="monolith_android">
+		<class>sim_monolith_master</class>
+	</character>
+	<character id="monolith_robot">
+		<class>sim_monolith_master</class>
+	</character>
+	<character id="monolith_monster">
+		<class>sim_monolith_master</class>
+	</character>
+	<character id="monolith_nauch">
+		<class>sim_monolith_master</class>
+	</character>
+	<character id="monolith_master">
+		<class>sim_monolith_master</class>
+	</character>
+	<character id="monolith_nlo">
+		<class>sim_monolith_master</class>
+	</character>
+	<character id="sim_stalker_general2">
+		<class>sim_Stalker_general</class>
+	</character>
+	<character id="killer_master">
+		<class>sim_killer_master</class>
+	</character>
+	<character id="killer_ukr">
+		<class>sim_killer_master</class>
+	</character>
+	<character id="killer_deuch">
+		<class>sim_killer_master</class>
+	</character>
+	<character id="killer_franc">
+		<class>sim_killer_master</class>
+	</character>
+	<character id="killer_usa">
+		<class>sim_killer_master</class>
+	</character>
+	<character id="rpg_killer_master">
+		<class>sim_killer_master</class>
+	</character>
+	<character id="killer_posrednik">
+		<class>sim_killer_master</class>
+	</character>
+	<character id="stalker_master">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="svoboda_master">
+		<class>sim_Svoboda_master</class>
+	</character>
+	<character id="svoboda_specnaz">
+		<class>sim_Svoboda_specnaz</class>
+	</character>
+	<character id="svoboda_resp_master">
+		<class>sim_Svoboda_specnaz</class>
+	</character>
+	<character id="nato_pul">
+		<class>sim_Ecolog</class>
+	</character>
+	<character id="nato_regular">
+		<class>sim_Ecolog</class>
+	</character>
+	<character id="nato_veteran">
+		<class>sim_Ecolog</class>
+	</character>
+	<character id="nato_comand">
+		<class>sim_Ecolog</class>
+	</character>
+	<character id="nato_master">
+		<class>sim_Ecolog</class>
+	</character>
+	<character id="nato_master_snip">
+		<class>sim_Ecolog</class>
+	</character>
+	<character id="jdanov">
+		<class>cit_killer_exo</class>
+	</character>
+	<character id="yula">
+		<class>cit_killer_exo</class>
+	</character>
+	<character id="molnya">
+		<class>cit_killer_exo</class>
+	</character>
+	<character id="soldier_master2">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="monolith_regular">
+		<class>sim_monolith_regular</class>
+	</character>
+	<character id="monolith_specnaz">
+		<class>sim_monolith_specnaz</class>
+	</character>
+	<character id="monolith_snip">
+		<class>sim_monolith_sniper</class>
+	</character>
+	<character id="monolith_pul">
+		<class>sim_monolith_sniper</class>
+	</character>
+	<character id="monolith_rpg">
+		<class>sim_monolith_sniper</class>
+	</character>
+	<character id="killer_mil">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="monolith_sniper">
+		<class>sim_monolith_sniper</class>
+	</character>
+	<character id="zombied_regular">
+		<class>pri_zombied</class>
+	</character>
+	<character id="svoboda_regular">
+		<class>sim_Svoboda_regular</class>
+	</character>
+	<character id="anarhist">
+		<class>pri_zombied</class>
+	</character>
+	<character id="soldier_regular_pul">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_regular">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_commander_spec">
+		<class>sim_Svoboda_specnaz</class>
+	</character>
+	<character id="hr_uch_1">
+		<class>sim_Ecolog</class>
+	</character>
+	<character id="lihten">
+		<class>sim_Ecolog</class>
+	</character>
+	<character id="soldier_vdv">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_vdv1">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_vdv2">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_vdv3">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_vdv_rpg">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_vdv_pul">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="dolg_regular">
+		<class>sim_Dolg_regular</class>
+	</character>
+	<character id="dolg_veteran">
+		<class>sim_Dolg_specnaz</class>
+	</character>
+	<character id="dolg_master">
+		<class>sim_dolg_master</class>
+	</character>
+	<character id="dolg_sniper">
+		<class>sim_Dolg_sniper</class>
+	</character>
+	<character id="dolg_master_pul">
+		<class>sim_Dolg_sniper</class>
+	</character>
+	<character id="dolg_master_rpg">
+		<class>sim_Dolg_sniper</class>
+	</character>
+	<character id="killer_snip_master">
+		<class>sim_killer_sniper</class>
+	</character>
+	<character id="missiya">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="kislota">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="killer_nauch">
+		<class>cit_killer_nauchniy</class>
+	</character>
+	<character id="gektor">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="svoboda_reg_pul">
+		<class>sim_Svoboda_master</class>
+	</character>
+	<character id="zubr">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="svoboda_regular_snip">
+		<class>sim_killer_sniper</class>
+	</character>
+	<character id="killer_last_day">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="killer_last_day_pul">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="killer_last_day_rpg">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="killer_last_day_snip">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="gaiver">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="kostya">
+		<class>esc_kostya</class>
+	</character>
+	<character id="azot">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="suprun">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="gavaec">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="kluk">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="german">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="ariadna">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="wereskov">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="zatochka">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="zombied_veteran">
+		<class>sim_Zombied_veteran</class>
+	</character>
+	<character id="zombied_eco">
+		<class>sim_Zombied_veteran</class>
+	</character>
+	<character id="zombied_mil_nato">
+		<class>sim_Zombied_veteran</class>
+	</character>
+	<character id="fresh_zombied">
+		<class>sim_Zombied_veteran</class>
+	</character>
+	<character id="zombied_master">
+		<class>sim_Zombied_master</class>
+	</character>
+	<character id="vladimirsky">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="garik">
+		<class>bar_stalker_guard</class>
+	</character>
+	<character id="last_day_jarky">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="drin">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="nastya">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="henks">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="solwador">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="soldier_omon_snip">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_omon">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="kras_el">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="kras_suhoi">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="weapon_trader">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="dd_informator">
+		<class>dd_informator</class>
+	</character>
+	<character id="dd_dm_zaloz_1">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="dd_dm_zaloz_2">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="ecolog_resp_master">
+		<class>sim_Ecolog</class>
+	</character>
+	<character id="outfit_trader">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="dd_diez_trader">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="rinok_shustryi">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="sim_soldier_vdv">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_resp_vdv3">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="bandit_veteran_gas">
+		<class>sim_bandit_veteran</class>
+	</character>
+	<character id="sim_soldier_resp">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="pogost_oxranik">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="pogost_haker">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="vorobey">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="gusarov">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="umnik">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="barin">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="voronin">
+		<class>bar_dolg_leader</class>
+	</character>
+	<character id="edick">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="blyaha">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="borodach">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="taran">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="yem">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="volkodav">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="lukash">
+		<class>final_lukash</class>
+	</character>
+	<character id="kira">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="soldier_nato_deu">
+		<class>sim_Soldier_master</class>
+	</character>
+	<character id="stalker_resp">
+		<class>sim_Stalker_veteran</class>
+	</character>
+	<character id="zombied_mil">
+		<class>sim_Zombied_veteran</class>
+	</character>
+	<character id="yem_gas">
+		<class>sim_Zombied_veteran</class>
+	</character>
+	<character id="bronevik">
+		<class>sim_Zombied_veteran</class>
+	</character>
+	<character id="dolg_specnaz">
+		<class>mil_Dolg_specnaz</class>
+	</character>
+	<character id="svoboda_resp_regular">
+		<class>sim_Svoboda_master</class>
+	</character>
+	<character id="svoboda_resp_veteran">
+		<class>sim_Svoboda_master</class>
+	</character>
+	<character id="svoboda_sniper">
+		<class>sim_Svoboda_sniper</class>
+	</character>
+	<character id="soldier_resp_vdv2">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="soldier_resp_vdv1">
+		<class>sim_Soldier_regular</class>
+	</character>
+	<character id="stalker_master_res">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="wimpel_gas">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="wimpel_gas_snip">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="manohin_gas">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="osoznanie_ohrana">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="osoznanie_comandir">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="misterio">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="nato_grom">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="chehov">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="nato_potroshitel">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="kalter">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="dark_stalker_1">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="dark_stalker_2">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="dark_stalker_3">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="novice_gas">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="shram">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="furer">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="provodnik1">
+		<class>esc_provodnik</class>
+	</character>
+	<character id="provodnik2">
+		<class>esc_provodnik</class>
+	</character>
+	<character id="kalancha">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="zeleny">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="sim_stalker_nauch">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="svoboda_nauch">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="pokemon">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="pokemon1">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="razwedchik_pokemona">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="musor">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="sky_regular">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="sky_regular_res">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="sky_nauch">
+		<class>sky_nauch</class>
+	</character>
+	<character id="sky_veteran">
+		<class>sim_Ecolog</class>
+	</character>
+	<character id="sky_veteran_res">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="sky_master">
+		<class>sim_Ecolog</class>
+	</character>
+	<character id="clear_sky_exo">
+		<class>sim_Ecolog</class>
+	</character>
+	<character id="lokki">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="den">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="killer_leader">
+		<class>cit_killer_nauchniy</class>
+	</character>
+	<character id="datchik">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="last_day_lider">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="killer_last_day_nauc">
+		<class>sim_dcity_lastday_master</class>
+	</character>
+	<character id="dok_boloto">
+		<class>boloto_provodnik</class>
+	</character>
+	<character id="uch_mon1">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="sweta">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="bunker">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="bebi">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="ozerskiy">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="such_zat">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="bill">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="tremor">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="kardan">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="noy">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="ribak">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="ptaha">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="shulga">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="edik_brigada">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="luber">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="wanya">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="monolith_dok">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="monolith_dok2">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="wimpel">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="wimpel_snip">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="manohin">
+		<class>sim_stalker_master</class>
+	</character>
+	<character id="stalnoy">
+		<class>sim_stalker_master</class>
+	</character>
+</xml>

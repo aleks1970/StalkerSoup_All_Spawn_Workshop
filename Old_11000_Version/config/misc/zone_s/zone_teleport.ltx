@@ -1,0 +1,2566 @@
+;<!-- TB3D 1.1.0.0.1.1 edits by glowworm, argali to arhara, m_teleport_3 -->
+;<!-- aleks1970; excluded duplicates section, zone_teleport_red_
+[zone_teleport]
+GroupControlSection	= spawn_group_zone
+$spawn 			= "zones\teleport_horiz"
+$prefetch 		= 16
+class			= Z_MBALD
+
+ef_anomaly_type			= 1
+ef_weapon_type			= 13
+
+sound			= zone_mosquito_bald
+postprocess		= postprocess_electra
+
+artefacts			=
+BirthProbability	= 0.0
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.00
+max_start_power		= 0.00
+attenuation			= 1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 0
+
+
+idle_particles		= anomaly2\teleport_idle
+blowout_particles	= anomaly2\teleport 
+tearing_particles	= anomaly2\teleport_tear
+torn_particles      = anomaly2\teleport_tear
+
+hit_small_particles			= hit_fx\hit_metal_02
+hit_big_particles			= anomaly2\teleport_damage
+idle_small_particles		= anomaly2\teleport_damage_smoke_00
+idle_big_particles			= anomaly2\teleport_damage_smoke_00
+entrance_small_particles	= anomaly2\teleport_damage
+entrance_big_particles		= anomaly2\teleport_damage
+
+tele_particles_small		= anomaly2\gravity_damage_01_smoke	;anomaly2\gravity_damage_01_smoke
+tele_particles_big			= anomaly2\gravity_damage_02_smoke	
+
+
+idle_sound			= anomaly\teleport_idle;  gravi_idle01							;constant sound
+blowout_sound		= anomaly\teleport_work_2; anomaly_gravy_blast01	;during ejection (stroke) in the center of the anomaly	
+hit_sound			= anomaly\anomaly_gravy_hit1						;on the character when he gets hit
+body_tearing_sound	= anomaly\gravity_entrance					;sound of tearing of the corpse
+entrance_sound		= anomaly\gravi_idle01							;in contact with the object of an anomaly
+
+hit_type		    = strike
+hit_impulse_scale	= 0.0;0.5;0.1			;the ratio of the physical momentum and energy hit
+effective_radius	= 1 ;size range as a percentage of the original, which has a zone
+
+disable_time		= 5000	;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small	= 500		;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time	= 100;-1	;timeout idle partiklov
+
+ignore_nonalive		= false
+ignore_small		= false
+ignore_artefacts	= true
+
+blowout_light		= on
+light_color		    = 1.4,1.6,1.8
+light_range		    = 30.0
+light_time 		    = 0.8;0.35
+light_height		= 1.5			;rise to the height of the light source
+
+idle_light			= on
+idle_light_range			= 15.0
+idle_light_range_delta 		= 0.25
+idle_light_anim				= teleport_stancia_in_01
+idle_light_height			= 1.50			;rise to the height of the light source
+
+awaking_time		= 0;1000
+blowout_time		= 1000	
+accamulate_time		= 500
+
+
+blowout_light_time		= 800
+blowout_explosion_time	= 800
+
+;telekinesis parameters for the zone
+throw_in_impulse			= 4000	;retracting force for unit mass at a distance of one meter
+throw_out_impulse				= 1500			;ejection force blast
+throw_in_impulse_alive			= 600	;pulse power retracting the living
+;throw_in_atten					= 2.2	; excluded duplicates section aleks1970	;3;coeff. delays (less is more smoothly pulls)
+throw_in_atten				= 		8;8			;coeff. delays (less is more smoothly pulls)
+blowout_radius_percent		= 		0.8		;radius (as a percentage of the total radius), direct emissions
+actor_blowout_radius_percent=		0.5
+
+tele_height				= 0.05;	3.5	;height of telekinesis 
+time_to_tele			= 5000		;time derazhaniya object in the air
+tele_pause				= 5000		;pause before once again raise the fallen object
+
+visible_by_detector = on
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; wind
+blowout_wind		= on
+
+blowout_wind_time_start     = 0
+blowout_wind_time_peak      = 800
+blowout_wind_time_end		= 1001; 2499
+blowout_wind_power			= 0.5			; Wind power ups (from 0 to 1), at the moment blowout_wind_time_peak 
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during operation
+spawn_blowout_artefacts = off   ;on
+
+;-- as snow
+[zone_teleport_1]
+GroupControlSection	= spawn_group_zone
+$spawn 			= "zones\teleport_horiz"
+$prefetch 		= 16
+class			= Z_MBALD
+
+ef_anomaly_type			= 1
+ef_weapon_type			= 13
+
+sound			= zone_mosquito_bald
+postprocess		= postprocess_electra
+
+artefacts			=
+BirthProbability	= 0.0
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.00
+max_start_power		= 0.00
+attenuation			= 1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 0
+
+
+idle_particles		= amk\snow
+blowout_particles	= amk\snow_blow
+tearing_particles	= anomaly2\gravi_anomaly_shield_00
+torn_particles      = amk\blow_body
+
+hit_small_particles			= hit_fx\hit_metal_02
+hit_big_particles			= anomaly2\teleport_damage
+idle_small_particles		= anomaly2\teleport_damage_smoke_00
+idle_big_particles			= anomaly2\teleport_damage_smoke_00
+entrance_small_particles	= anomaly2\teleport_damage
+entrance_big_particles		= anomaly2\teleport_damage
+
+tele_particles_small		= anomaly2\gravity_damage_01_smoke	;anomaly2\gravity_damage_01_smoke
+tele_particles_big			= anomaly2\gravity_damage_02_smoke	
+
+
+idle_sound			= anomaly\teleport_idle;  gravi_idle01							;constant sound
+blowout_sound		= anomaly\teleport_work_2; anomaly_gravy_blast01	;during ejection (stroke) in the center of the anomaly	
+hit_sound			= anomaly\anomaly_gravy_hit1						;on the character when he gets hit
+body_tearing_sound	= anomaly\gravity_entrance					;sound of tearing of the corpse
+entrance_sound		= anomaly\gravi_idle01							;in contact with the object of an anomaly
+
+hit_type		    = strike
+hit_impulse_scale	= 0.0;0.5;0.1			;the ratio of the physical momentum and energy hit
+effective_radius	= 1 ;size range as a percentage of the original, which has a zone
+
+disable_time		= 5000	;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small	= 500		;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time	= 100;-1	;timeout idle partiklov
+
+ignore_nonalive		= false
+ignore_small		= false
+ignore_artefacts	= true
+
+blowout_light		= on
+light_color		    = 1.4,1.6,1.8
+light_range		    = 30.0
+light_time 		    = 0.8;0.35
+light_height		= 1.5			;rise to the height of the light source
+
+idle_light			= on
+idle_light_range			= 15.0
+idle_light_range_delta 		= 0.25
+idle_light_anim				= teleport_stancia_in_01
+idle_light_height			= 1.50			;rise to the height of the light source
+
+awaking_time		= 0;1000
+blowout_time		= 1000	
+accamulate_time		= 500
+
+
+blowout_light_time		= 800
+blowout_explosion_time	= 800
+
+;telekinesis parameters for the zone
+throw_in_impulse			= 4000	;retracting force for unit mass at a distance of one meter
+throw_out_impulse				= 1500			;ejection force blast
+throw_in_impulse_alive			= 600	;pulse power retracting the living
+;throw_in_atten					= 2.2	; excluded duplicates section aleks1970	;3;coeff. delays (less is more smoothly pulls)
+throw_in_atten				= 		8;8			;coeff. delays (less is more smoothly pulls)
+blowout_radius_percent		= 		0.8		;radius (as a percentage of the total radius), direct emissions
+actor_blowout_radius_percent=		0.5
+
+tele_height				= 0.05;	3.5	;height of telekinesis 
+time_to_tele			= 5000		;time derazhaniya object in the air
+tele_pause				= 5000		;pause before once again raise the fallen object
+
+visible_by_detector = on
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; wind
+blowout_wind		= on
+
+blowout_wind_time_start     = 0
+blowout_wind_time_peak      = 800
+blowout_wind_time_end		= 1001; 2499
+blowout_wind_power			= 0.5			; Wind power ups (from 0 to 1), at the moment blowout_wind_time_peak 
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during operation
+spawn_blowout_artefacts = off   ;on
+
+;-- as gravel
+[zone_teleport_2]
+GroupControlSection	= spawn_group_zone
+$spawn 			= "zones\teleport_horiz"
+$prefetch 		= 16
+class			= Z_MBALD
+
+ef_anomaly_type			= 1
+ef_weapon_type			= 13
+
+sound			= zone_mosquito_bald
+postprocess		= postprocess_electra
+
+artefacts			=
+BirthProbability	= 0.0
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.00
+max_start_power		= 0.00
+attenuation			= 1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 0
+
+
+idle_particles		= anomaly2\gravity_idle
+blowout_particles	= anomaly2\gravity_blast_final00 ;gravity_blast_03
+tearing_particles	=anomaly2\body_tear_00
+torn_particles      =anomaly2\body_tear_01
+
+hit_small_particles			= hit_fx\hit_metal_02
+hit_big_particles			= anomaly2\teleport_damage
+idle_small_particles		= anomaly2\teleport_damage_smoke_00
+idle_big_particles			= anomaly2\teleport_damage_smoke_00
+entrance_small_particles	= anomaly2\teleport_damage
+entrance_big_particles		= anomaly2\teleport_damage
+
+tele_particles_small		= anomaly2\gravity_damage_01_smoke	;anomaly2\gravity_damage_01_smoke
+tele_particles_big			= anomaly2\gravity_damage_02_smoke	
+
+
+idle_sound			= anomaly\teleport_idle;  gravi_idle01							;constant sound
+blowout_sound		= anomaly\teleport_work_2; anomaly_gravy_blast01	;during ejection (stroke) in the center of the anomaly	
+hit_sound			= anomaly\anomaly_gravy_hit1						;on the character when he gets hit
+body_tearing_sound	= anomaly\gravity_entrance					;sound of tearing of the corpse
+entrance_sound		= anomaly\gravi_idle01							;in contact with the object of an anomaly
+
+hit_type		    = strike
+hit_impulse_scale	= 0.0;0.5;0.1			;the ratio of the physical momentum and energy hit
+effective_radius	= 1 ;size range as a percentage of the original, which has a zone
+
+disable_time		= 5000	;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small	= 500		;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time	= 100;-1	;timeout idle partiklov
+
+ignore_nonalive		= false
+ignore_small		= false
+ignore_artefacts	= true
+
+blowout_light		= on
+light_color		    = 1.4,1.6,1.8
+light_range		    = 30.0
+light_time 		    = 0.8;0.35
+light_height		= 1.5			;rise to the height of the light source
+
+idle_light			= on
+idle_light_range			= 15.0
+idle_light_range_delta 		= 0.25
+idle_light_anim				= teleport_stancia_in_01
+idle_light_height			= 1.50			;rise to the height of the light source
+
+awaking_time		= 0;1000
+blowout_time		= 1000	
+accamulate_time		= 500
+
+
+blowout_light_time		= 800
+blowout_explosion_time	= 800
+
+;telekinesis parameters for the zone
+throw_in_impulse			= 4000	;retracting force for unit mass at a distance of one meter
+throw_out_impulse				= 1500			;ejection force blast
+throw_in_impulse_alive			= 600	;pulse power retracting the living
+;throw_in_atten					= 2.2	; excluded duplicates section aleks1970	;3;coeff. delays (less is more smoothly pulls)
+throw_in_atten				= 		8;8			;coeff. delays (less is more smoothly pulls)
+blowout_radius_percent		= 		0.8		;radius (as a percentage of the total radius), direct emissions
+actor_blowout_radius_percent=		0.5
+
+tele_height				= 0.05;	3.5	;height of telekinesis 
+time_to_tele			= 5000		;time derazhaniya object in the air
+tele_pause				= 5000		;pause before once again raise the fallen object
+
+visible_by_detector = on
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; wind
+blowout_wind		= on
+
+blowout_wind_time_start     = 0
+blowout_wind_time_peak      = 800
+blowout_wind_time_end		= 1001; 2499
+blowout_wind_power			= 0.5			; Wind power ups (from 0 to 1), at the moment blowout_wind_time_peak 
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during operation
+spawn_blowout_artefacts = off   ;on
+
+
+
+[zone_teleport_3]
+GroupControlSection	= spawn_group_zone
+$spawn 			= "zones\teleport_horiz"
+$prefetch 		= 16
+class			= Z_MBALD
+
+ef_anomaly_type			= 1
+ef_weapon_type			= 13
+
+sound			= zone_mosquito_bald
+postprocess		= postprocess_electra
+
+artefacts			=
+BirthProbability	= 0.0
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.00
+max_start_power		= 0.00
+attenuation			= 1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 0
+
+
+idle_particles		= anomaly2\gravity_idle
+blowout_particles	= anomaly2\gravity_blast_final00 ;gravity_blast_03
+tearing_particles	=anomaly2\body_tear_00
+torn_particles      =anomaly2\body_tear_01
+
+hit_small_particles			= hit_fx\hit_metal_02
+hit_big_particles			= anomaly2\teleport_damage
+idle_small_particles		= anomaly2\teleport_damage_smoke_00
+idle_big_particles			= anomaly2\teleport_damage_smoke_00
+entrance_small_particles	= anomaly2\teleport_damage
+entrance_big_particles		= anomaly2\teleport_damage
+
+tele_particles_small		= anomaly2\gravity_damage_01_smoke	;anomaly2\gravity_damage_01_smoke
+tele_particles_big			= anomaly2\gravity_damage_02_smoke	
+
+
+idle_sound			= anomaly\teleport_idle;  gravi_idle01							;constant sound
+blowout_sound		= anomaly\teleport_work_2; anomaly_gravy_blast01	;during ejection (stroke) in the center of the anomaly	
+hit_sound			= anomaly\anomaly_gravy_hit1						;on the character when he gets hit
+body_tearing_sound	= anomaly\gravity_entrance					;sound of tearing of the corpse
+entrance_sound		= anomaly\gravi_idle01							;in contact with the object of an anomaly
+
+hit_type		    = strike
+hit_impulse_scale	= 0.0;0.5;0.1			;the ratio of the physical momentum and energy hit
+effective_radius	= 1 ;size range as a percentage of the original, which has a zone
+
+disable_time		= 5000	;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small	= 500		;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time	= 100;-1	;timeout idle partiklov
+
+ignore_nonalive		= false
+ignore_small		= false
+ignore_artefacts	= true
+
+blowout_light		= on
+light_color		    = 1.4,1.6,1.8
+light_range		    = 30.0
+light_time 		    = 0.8;0.35
+light_height		= 1.5			;rise to the height of the light source
+
+idle_light			= on
+idle_light_range			= 15.0
+idle_light_range_delta 		= 0.25
+idle_light_anim				= teleport_stancia_in_01
+idle_light_height			= 1.50			;rise to the height of the light source
+
+awaking_time		= 0;1000
+blowout_time		= 1000	
+accamulate_time		= 500
+
+
+blowout_light_time		= 800
+blowout_explosion_time	= 800
+
+;telekinesis parameters for the zone
+throw_in_impulse			= 4000	;retracting force for unit mass at a distance of one meter
+throw_out_impulse				= 1500			;ejection force blast
+throw_in_impulse_alive			= 600	;pulse power retracting the living
+;throw_in_atten					= 2.2	; excluded duplicates section aleks1970	;3;coeff. delays (less is more smoothly pulls)
+throw_in_atten				= 		8;8			;coeff. delays (less is more smoothly pulls)
+blowout_radius_percent		= 		0.8		;radius (as a percentage of the total radius), direct emissions
+actor_blowout_radius_percent=		0.5
+
+tele_height				= 0.05;	3.5	;height of telekinesis 
+time_to_tele			= 5000		;time derazhaniya object in the air
+tele_pause				= 5000		;pause before once again raise the fallen object
+
+visible_by_detector = on
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; wind
+blowout_wind		= on
+
+blowout_wind_time_start     = 0
+blowout_wind_time_peak      = 800
+blowout_wind_time_end		= 1001; 2499
+blowout_wind_power			= 0.5			; Wind power ups (from 0 to 1), at the moment blowout_wind_time_peak 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during operation
+spawn_blowout_artefacts = off   ;on
+
+
+[zone_teleport_arhara]
+GroupControlSection	= spawn_group_zone
+$spawn 			= "zones\teleport_horiz"
+$prefetch 		= 16
+class			= Z_MBALD
+
+ef_anomaly_type			= 1
+ef_weapon_type			= 13
+
+sound			= zone_mosquito_bald
+postprocess		= postprocess_electra
+
+artefacts			=
+BirthProbability	= 0.0
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.00
+max_start_power		= 0.00
+attenuation			= 1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 0
+
+idle_particles		= anomaly2\generator\anomaly_teleport_00001
+blowout_particles	= anomaly2\electra2_blast ;gravity_blast_03
+tearing_particles	=anomaly2\body_tear_00
+torn_particles      =anomaly2\body_tear_01
+
+
+hit_small_particles			= hit_fx\hit_metal_02
+hit_big_particles			= anomaly2\gravity_damage_02_blood2
+idle_small_particles		= anomaly2\electra_damage_01_smoke
+idle_big_particles			= anomaly2\electra_damage_02_smoke
+entrance_small_particles	= anomaly2\gravi_anomaly_shield_00
+entrance_big_particles		= anomaly2\emi_entrance_big_00;
+
+tele_particles_small		= anomaly2\gravity_damage_01_smoke	;anomaly2\gravity_damage_01_smoke
+tele_particles_big			= anomaly2\gravity_damage_02_smoke	
+
+
+idle_sound			= anomaly\torrid_idle							;constant sound
+blowout_sound		= anomaly\electra_blast1; anomaly\gravi_blowout6; anomaly_gravy_blast01	;during ejection (stroke) in the center of the anomaly	
+hit_sound			= anomaly\electra_hit; anomaly\anomaly_gravy_hit1						;on the character when he gets hit
+body_tearing_sound	= anomaly\anomaly_body_tear_1						;sound of tearing of the corpse
+entrance_sound		= anomaly\gravi_idle01								;in contact with the object of an anomaly
+
+
+hit_type		    = strike
+hit_impulse_scale	= 0.0;0.5;0.1			;the ratio of the physical momentum and energy hit
+effective_radius	= 3 ;size range as a percentage of the original, which has a zone
+
+disable_time		= 5000	;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small	= 500		;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time	= 100;-1	;timeout idle partiklov
+
+ignore_nonalive		= false
+ignore_small		= false
+ignore_artefacts	= true
+
+blowout_light		= on
+light_color		    = 0.8,0.9,1
+light_range		    = 30.0
+light_time 		    = 1;0.35
+light_height		= 1.5			;rise to the height of the light source
+
+idle_light			= off
+idle_light_range			= 2.0
+idle_light_range_delta 		= 0.25
+idle_light_anim				= teleport_stancia_in_01
+idle_light_height			= 1.50			;rise to the height of the light source
+
+awaking_time		= 0;1000
+blowout_time		= 1000	
+accamulate_time		= 500
+
+
+blowout_light_time		= 800
+blowout_explosion_time	= 800
+
+;telekinesis parameters for the zone
+throw_in_impulse			= 4000	;retracting force for unit mass at a distance of one meter
+throw_out_impulse				= 1500			;ejection force blast
+throw_in_impulse_alive			= 600	;pulse power retracting the living
+;throw_in_atten					= 2.2	; excluded duplicates section aleks1970	;3;coeff. delays (less is more smoothly pulls)
+throw_in_atten				= 		8;8			;coeff. delays (less is more smoothly pulls)
+blowout_radius_percent		= 		0.8		;radius (as a percentage of the total radius), direct emissions
+actor_blowout_radius_percent=		0.5
+
+tele_height				= 0.05;	3.5	;height of telekinesis 
+time_to_tele			= 5000		;time derazhaniya object in the air
+tele_pause				= 5000		;pause before once again raise the fallen object
+
+visible_by_detector = on
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; wind
+blowout_wind		= on
+
+blowout_wind_time_start     = 0
+blowout_wind_time_peak      = 800
+blowout_wind_time_end		= 1001; 2499
+blowout_wind_power			= 0.5			; Wind power ups (from 0 to 1), at the moment blowout_wind_time_peak 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during operation
+spawn_blowout_artefacts = off   ;on
+
+
+
+[zone_teleport_out]
+GroupControlSection	= spawn_group_zone
+$spawn 			= "zones\teleport_out"
+$prefetch 		= 16
+class			= Z_MBALD
+hit_impulse_scale	= 0.0;0.5 ;0.1
+effective_radius	= 0.85 ;size range as a percentage of the original, which has a zone
+actor_blowout_radius_percent	= 0.75
+
+ef_anomaly_type			= 1
+ef_weapon_type			= 13
+
+sound			= monsters\biting\def_0
+
+postprocess		= postprocess_electra
+
+
+BirthProbability	= 0.0
+hit_type			= strike
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.00
+max_start_power		= 0.00
+attenuation			= 1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 0
+
+idle_particles		= anomaly2\teleport_damage
+blowout_particles	= anomaly2\teleport_out
+
+hit_small_particles			= hit_fx\hit_metal_02
+hit_big_particles			= anomaly2\teleport_damage
+idle_small_particles		= anomaly2\teleport_damage_smoke_00
+idle_big_particles			= anomaly2\teleport_damage_smoke_00
+entrance_small_particles	= anomaly2\teleport_damage
+entrance_big_particles		= anomaly2\teleport_damage
+
+idle_sound			= monsters\biting\def_0		;constant sound
+blowout_sound		= anomaly\teleport_work_2; anomaly_gravy_blast01	;during ejection (stroke) in the center of the anomaly	
+hit_sound			= monsters\biting\def_0								;on the character when he gets hit
+entrance_sound		= monsters\biting\def_0								;in contact with the object of an anomaly
+
+
+awaking_time		= 0;100
+blowout_time		= 500	
+accamulate_time		= 10000 ;10;200
+
+blowout_light_time		= 200
+blowout_explosion_time	= 200
+blowout_particles_time	= 50
+blowout_sound_time  	= 100
+
+disable_time		= 5000		;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small	= 5000		;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time	= 100		;timeout idle partiklov
+
+ignore_nonalive		= true
+ignore_small		= true
+ignore_artefacts	= true
+
+blowout_light		= on
+light_color		    = 0.5,0.6,0.8
+light_range		    = 30.0
+light_time 		    = 0.5;0.35
+light_height		= 1.5			;rise to the height of the light source
+
+
+idle_light			= off
+
+visible_by_detector = on
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts 
+
+artefacts		= 
+
+;;during the operation in online
+spawn_blowout_artefacts = off
+
+artefact_spawn_probability = 0.09				;the probability that during the operation of the anomalies will be born artifact
+artefact_spawn_particles = anomaly2\pux_blast	;partikly, who played in the birth place of the artifact (optional)
+artefact_born_sound =  anomaly\pux_blast		;sound, who played in the birth place of the artifact (optional)
+
+throw_out_power = 50			;momentum with which the artifact will be thrown out of the zone in any direction
+artefact_spawn_height = 3		;(м) height at the center of the area where the artifact will be born
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; wind
+blowout_wind		= on
+
+blowout_wind_time_start     = 0
+blowout_wind_time_peak      = 300
+blowout_wind_time_end		= 501; 899
+blowout_wind_power			= 0.5			; Wind power ups (from 0 to 1), at the moment blowout_wind_time_peak 
+
+
+
+[zone_teleport_monolith]
+GroupControlSection	= spawn_group_zone
+$spawn 			= "zones\teleport_monolith"
+$prefetch 		= 16
+class			= Z_ZONE
+hit_impulse_scale	= 0.0;0.5 ;0.1
+effective_radius	= 0.85 ;size range as a percentage of the original, which has a zone
+actor_blowout_radius_percent	= 0.75
+
+ef_anomaly_type			= 1
+ef_weapon_type			= 13
+
+sound			= monsters\biting\def_0
+
+postprocess		= postprocess_electra
+
+
+BirthProbability	= 0.0
+hit_type			= strike
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.00
+max_start_power		= 0.00
+attenuation			= 1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 0
+
+idle_particles		= ;anomaly2\teleport_damage
+blowout_particles	= anomaly2\teleport_out_00
+
+hit_small_particles			= hit_fx\hit_metal_02
+hit_big_particles			= anomaly2\emi_damage_big_smoke
+idle_small_particles		= anomaly2\electra_damage_01_smoke
+idle_big_particles			= anomaly2\emi_damage_big_smoke
+entrance_small_particles	= anomaly2\electra_entrance_small
+entrance_big_particles		= anomaly2\emi_entrance_big_00
+
+idle_sound			= monsters\biting\def_0								;constant sound
+blowout_sound		= anomaly\teleport_work_2; anomaly_gravy_blast01	;during ejection (stroke) in the center of the anomaly	
+hit_sound			= monsters\biting\def_0								;on the character when he gets hit
+entrance_sound		= monsters\biting\def_0								;in contact with the object of an anomaly
+
+
+awaking_time		= 0;100
+blowout_time		= 18000	
+accamulate_time		= 1000000 ;10;200
+
+blowout_light_time		= 200
+blowout_explosion_time	= 200
+blowout_particles_time	= 50
+blowout_sound_time  	= 100
+
+disable_time		= 5000		;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small	= 5000		;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time	= 100		;timeout idle partiklov
+
+ignore_nonalive		= true
+ignore_small		= true
+ignore_artefacts	= true
+
+blowout_light		= on
+light_color		    = 1.5,1.6,1.8
+light_range		    = 40.0
+light_time 		    = 16;0.35
+light_height		= 1.5			;rise to the height of the light source
+
+
+idle_light			= off
+
+visible_by_detector = on
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts 
+
+artefacts		= 
+
+;;during the operation in online
+spawn_blowout_artefacts = off
+
+artefact_spawn_probability = 0.09				;the probability that during the operation of the anomalies will be born artifact
+artefact_spawn_particles = anomaly2\pux_blast	;partikly, who played in the birth place of the artifact (optional)
+artefact_born_sound =  anomaly\pux_blast		;sound, who played in the birth place of the artifact (optional)
+
+throw_out_power = 50			;momentum with which the artifact will be thrown out of the zone in any direction
+artefact_spawn_height = 3		;(м) height at the center of the area where the artifact will be born
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; wind
+blowout_wind		= off
+
+blowout_wind_time_start     = 0
+blowout_wind_time_peak      = 300
+blowout_wind_time_end		= 501; 899
+blowout_wind_power			= 0.5			;Wind power raises (from 0 to 1), at the moment blowout_wind_time_peak 
+
+[m_teleport]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -222.32
+poz_y				= -12.27
+poz_z				= -165.67
+
+; Angle of view the appearance. If there is no option to change
+rotate = 2
+
+;---------------- Kostya teleport -----------------------
+
+[m_teleport_1]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -253.98846435547
+poz_y				= -6.6990642547607
+poz_z				= -163.65390014648
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_2]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -5.2418537139893
+poz_y				= -17.138227462769
+poz_z				= -150.68202209473
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_3]:zone_teleport_2
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 3	;2		;;;110011
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card), 110011 changed target location
+poz_x				= -249.094	;-253.61477661133		;;;;110011, changed target to not trigger boar
+poz_y				= -0.781	;-14.096055984497
+poz_z				= 11.293	;-22.930028915405
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_4]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -132.27835083008
+poz_y				= 13.479322433472
+poz_z				= 171.75326538086
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_5]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -44.090831756592
+poz_y				= -11.463594436646
+poz_z				= -37.045139312744
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_6]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -83.094696044922
+poz_y				= -14.114813804626
+poz_z				= -70.705665588379
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_7]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -176.07054138184
+poz_y				= -0.00041711330413818
+poz_z				= -190.01304626465
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_8]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 130.03305053711
+poz_y				= -4.5665783882141
+poz_z				= -235.49621582031
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_9]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 132.85217285156
+poz_y				= 4.3743858337402
+poz_z				= -180.54132080078
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_10]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 3
+;Height capture Teleport
+z_radius			= 3
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 124.56644439697
+poz_y				= 7.4917569160461
+poz_z				= 140.44309997559
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_11]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 3
+;Height capture Teleport
+z_radius			= 3
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 126.39921569824
+poz_y				= 14.141585350037
+poz_z				= 67.944648742676
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_12]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -167.61285400391
+poz_y				= -0.0021382868289948
+poz_z				= 98.135452270508
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_13]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -189.57202148438
+poz_y				= -0.0056307017803192
+poz_z				= 133.45692443848
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_14]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -215.88537597656
+poz_y				= 1.887785077095
+poz_z				= 86.532096862793
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_15]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 3
+;Height capture Teleport
+z_radius			= 3
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -243.01333618164
+poz_y				= -6.0041923522949
+poz_z				= 91.186836242676
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_16]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -56.402938842773
+poz_y				= -12.19490814209
+poz_z				= -255.72668457031
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_17]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 0.81471002101898
+poz_y				= 20.731266021729
+poz_z				= -9.5234422683716
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_18]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 3.9589490890503
+poz_y				= -21.779613494873
+poz_z				= 55.777442932129
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_19]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -7.6168823242188
+poz_y				= -18.195541381836
+poz_z				= 18.271100997925
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_20]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -280.92373657227
+poz_y				= -6.0000648498535
+poz_z				= 111.2054901123
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_21]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -200.47537231445
+poz_y				= 0.99320864677429
+poz_z				= 105.35250854492
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_22]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -201.04289245605
+poz_y				= 0.81523501873016
+poz_z				= 105.01114654541
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_23]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -208.63790893555
+poz_y				= 1.8941575288773
+poz_z				= 116.7557220459
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_24]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 70.933303833008
+poz_y				= 16.322538375854
+poz_z				= 28.747201919556
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_25]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -295.2509765625
+poz_y				= 25.836132049561
+poz_z				= -119.17073059082
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_26]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 0.5
+;Height capture Teleport
+z_radius			= 0.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -83.094696044922
+poz_y				= -14.114813804626
+poz_z				= -70.705665588379
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_27]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -83.094696044922
+poz_y				= -14.114813804626
+poz_z				= -70.705665588379
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_28]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 61.634780883789
+poz_y				= -0.7768167257309
+poz_z				= -0.50137794017792
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_29]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 66.615814208984
+poz_y				= -0.35119432210922
+poz_z				= -74.155479431152
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_30]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 39.50853729248
+poz_y				= 0.28160920739174
+poz_z				= -71.505111694336
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_31]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -16.617282867432
+poz_y				= 0.38296189904213
+poz_z				= -48.06713104248
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_32]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 5
+;Height capture Teleport
+z_radius			= 5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -27.402406692505
+poz_y				= 0.88993310928345
+poz_z				= -12.390110969543
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_33]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 5
+;Height capture Teleport
+z_radius			= 5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 25.821670532227
+poz_y				= -3.4107646942139
+poz_z				= -52.585494995117
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_34]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -16.617282867432
+poz_y				= 0.38296189904213
+poz_z				= -48.06713104248
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_35]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -29.667348861694
+poz_y				= -21.016641616821
+poz_z				= 53.271366119385
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_36]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -1.298624753952
+poz_y				= -7.4522504806519
+poz_z				= -73.977745056152
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_37]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -1.298624753952
+poz_y				= -7.4522504806519
+poz_z				= -73.977745056152
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_38]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -20.038606643677
+poz_y				= -9.5487794876099
+poz_z				= -16.482885360718
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_39]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -39.391010284424
+poz_y				= -9.4188079833984
+poz_z				= 19.587944030762
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_40]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -20.242233276367
+poz_y				= -9.5493612289429
+poz_z				= -35.664051055908
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_41]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -20.242233276367
+poz_y				= -9.5493612289429
+poz_z				= -35.664051055908
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_42]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -16.620134353638
+poz_y				= -8.7581615447998
+poz_z				= 10.482620239258
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_43]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 3
+;Height capture Teleport
+z_radius			= 3
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -25.296600341797
+poz_y				= -9.5514440536499
+poz_z				= -1.0292098522186
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_44]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -2.0915620326996
+poz_y				= -34.256320953369
+poz_z				= 22.307863235474
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_45]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -56.658172607422
+poz_y				= -23.496458053589
+poz_z				= 56.559768676758
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_46]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -45.370262145996
+poz_y				= -23.507738113403
+poz_z				= 56.489273071289
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_47]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -47.20841217041
+poz_y				= -23.589637756348
+poz_z				= -7.3583178520203
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_48]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 9.8884840011597
+poz_y				= -21.907335281372
+poz_z				= 54.991775512695
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_49]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -55.21545791626
+poz_y				= -21.893976211548
+poz_z				= 30.66382598877
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_50]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -2.1472589969635
+poz_y				= -9.2902154922485
+poz_z				= -41.073120117188
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_51]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -56.615043640137
+poz_y				= -23.493730545044
+poz_z				= -2.5916450023651
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_52]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -50.867290496826
+poz_y				= -23.524356842041
+poz_z				= 13.245141029358
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_53]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1.5
+;Height capture Teleport
+z_radius			= 1.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -12.269933700562
+poz_y				= -21.807025909424
+poz_z				= 55.379302978516
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[m_teleport_54]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -1.298624753952
+poz_y				= -7.4522504806519
+poz_z				= -73.977745056152
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+
+;Arhara exit 1 Teleport on the Pripyat
+[m_teleport_prip]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 191.09622192383
+poz_y				= 28.663299560547
+poz_z				= 202.00267028809
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;Arhara output 2 teleport at Pripyat
+[m_teleport_prip2]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -112.08181762695
+poz_y				= 28.662937164307
+poz_z				= 106.04278564453
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;Arhara out of teleports on the Pripyat
+[m_teleport_prip3]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 131.91609191895
+poz_y				= -3.0845770835876
+poz_z				= 140.14198303223
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5 
+
+;Arhara output of 1 and Maze Teleport
+[m_teleport_labirint1]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			    = 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -192.67993164063
+poz_y				= 56.319118499756
+poz_z				= 242.00090026855
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;Arhara yield of 2 teleport and the Labyrinth
+[m_teleport_labirint2]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -355.67926025391
+poz_y				= 96.461242675781
+poz_z				= 145.00477600098
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;Arhara way out 3 teleports and Labyrinth
+[m_teleport_labirint3]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -358.86218261719
+poz_y				= 95.910545349121
+poz_z				= 248.83148193359
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;Arhara out of the teleport at the entrance to the base in NC
+[m_teleport_aver_baza_vxod]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 0.5
+;Height capture Teleport
+z_radius			= 0.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -96.97452545166
+poz_y				= 25.692615509033
+poz_z				= -90.834945678711
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;Arhara exit teleporter to exit from the base in NC
+[m_teleport_land_baza_vuxod]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 219.31735229492
+poz_y				= 21.718353271484
+poz_z				= 345.07186889648
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 0.5 ;1.5
+
+;Arhara out of the teleport at the entrance to a cave in the 3 NC
+[m_teleport_aver_taynik]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -369.48736572266
+poz_y				= 72.502601623535
+poz_z				= 382.94622802734
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 0.5 ;1.5
+
+;Arhara output of 1 Teleport varlabe
+[m_teleport_warlab1]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 5.573823928833
+poz_y				= 1.0461001396179
+poz_z				= -1.9242951869965
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;Arhara exit teleporter sekretki varlaba
+[m_teleport_warlab_sekret]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 1.4417297840118
+poz_y				= -11.470038414001
+poz_z				= 0.49589514732361
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;Arhara exit teleporter in Old Village
+[m_teleport_village_plen]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 0.8
+;Height capture Teleport
+z_radius			= 0.8
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 47.937217712402
+poz_y				= 3.9315986633301
+poz_z				= 91.972854614258
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 3.0
+
+
+;Arhara exit 1teleporta on CHAES2 in crane cabin
+[m_teleport_1_chaes2]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 600.21020507813
+poz_y				= 90.634086608887
+poz_z				= 164.96006774902
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.0
+
+
+;Arhara exit 2teleporta CHAES2 at the top of the pipe
+[m_teleport_2_chaes2]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 554.922546386719
+poz_y				= 112.814521789551
+poz_z				= 206.691909790039
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+
+;Arhara exit 3teleporta on CHAES2 on the wagon
+[m_teleport_3_chaes2]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 348.29205322266
+poz_y				= 4.5327320098877
+poz_z				= 242.25701904297
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;Arhara exit 1teleporta on generators on the roof
+[m_teleport_1_generators]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 203.81860351563
+poz_y				= 35.846164703369
+poz_z				= -568.37811279297
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;Arhara exit 2teleporta on generators on the roof
+[m_teleport_2_generators]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 1
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 195.08850097656
+poz_y				= 29.160753250122
+poz_z				= -549.33319091797
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+
+;Arhara 1teleporta out of the hospital up to the left
+[m_teleport_1_hosp_verh1]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1.5
+;Height capture Teleport
+z_radius			= 1.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -74.533706665039
+poz_y				= 29.80418586731
+poz_z				= 603.99597167969
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = -1.5
+
+
+;Arhara 2teleporta out of the hospital at the top
+[m_teleport_2_hosp_verh2]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2.0
+;Height capture Teleport
+z_radius			= 2.0
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -82.070709228516
+poz_y				= 27.336978912354
+poz_z				= 558.05261230469
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = -1.5
+
+
+;Arhara exit teleporter entrance at 3 compartment
+[m_teleport_vhod_otsek]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2.2
+;Height capture Teleport
+z_radius			= 2.0
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -93.46231842041
+poz_y				= 31.959562301636
+poz_z				= 728.02227783203
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 0
+
+
+;Arhara exit from blocking the teleport to the exit at the junction of the 3 compartments
+[m_teleport_blok_vuhod_3otsek]:zone_teleport_2
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1.7
+;Height capture Teleport
+z_radius			= 1.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -72.69352722168
+poz_y				= 19.747552871704
+poz_z				= 567.17633056641
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = -1.5
+
+
+;Arhara exit from blocking the teleport to the entrance to the three compartment
+[m_teleport_blok_vhod_otsek]:zone_teleport_2
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1.5
+;Height capture Teleport
+z_radius			= 1.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -93.091659545898
+poz_y				= 24.829601287842
+poz_z				= 609.22155761719
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+
+;Arhara out of the body from the dock at Pripyat
+[m_teleport_dok_prip_vuhod]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2.5
+;Height capture Teleport
+z_radius			= 2.2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -114.94937133789
+poz_y				= -1.7310370206833
+poz_z				= 236.42469787598
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.7
+
+
+;Arhara exit from the body of the dock entrance to the Pripyat
+[m_teleport_prip_dok_vxod]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2.2
+;Height capture Teleport
+z_radius			= 2.6
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -47.815822601318
+poz_y				= -0.57642602920532
+poz_z				= 264.97540283203
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 4.5
+
+
+;Arhara exit from the body of the final gate
+[m_teleport_final_vorota]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2.2
+;Height capture Teleport
+z_radius			= 2.6
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 16.172096252441
+poz_y				= 29.447751998901
+poz_z				= 19.612520217896
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;Arhara exit from the body of the final pipe
+[m_teleport_final_truba]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 3.5
+;Height capture Teleport
+z_radius			= 3.0
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 127.33559417725
+poz_y				= 14.142761230469
+poz_z				= 66.561584472656
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;Arhara out of the body on the moor at the junction at Agra
+[m_teleport_bolota_u_agru]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 8.0  ;10.5
+;Height capture Teleport
+z_radius			= 5.0
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 175.13006591797
+poz_y				= 9.8468294143677
+poz_z				= 580.98419189453
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 3.0
+
+
+;Arhara exit from the body of antennas in Limansk
+[m_teleport_limansk_antena]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2.5
+;Height capture Teleport
+z_radius			= 2.2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 76.731834411621
+poz_y				= 3.2983255386353
+poz_z				= 277.98379516602
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 0.5
+
+
+;Arhara out of the body on the roof in Limansk
+[m_teleport_limansk_krusha]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2.8
+;Height capture Teleport
+z_radius			= 2.8
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 148.04167175293
+poz_y				= 14.629597663879
+poz_z				= 193.18035888672
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 0.5
+
+;Arhara out of television pictures in Sarcophagus
+[m_teleport_sarcofag_foto]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2.5
+;Height capture Teleport
+z_radius			= 2.2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -20.899192810059
+poz_y				= 69.642204284668
+poz_z				= -28.193389892578
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 3.5
+
+;Arhara out of the body over the brain
+[m_teleport_nad_mozgom]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2.2
+;Height capture Teleport
+z_radius			= 2.2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -45.551300048828
+poz_y				= 18.978731155396
+poz_z				= -12.347129821777
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.0
+
+
+;Arhara out of the body block. lever Limansk
+[m_teleport_blok_ruchag]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2.8
+;Height capture Teleport
+z_radius			= 2.8
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -51.541389465332
+poz_y				= -11.915229797363
+poz_z				= -162.72482299805
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 0.5
+
+
+;Arhara exit in the basement to sekretki Limansk
+[m_teleport_podval_ok]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 0.5
+;Height capture Teleport
+z_radius			= 0.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -52.331359863281
+poz_y				= -10.754566192627
+poz_z				= -178.78668212891
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 2.5
+
+
+;Arhara exit from the basement to sekretki Limansk
+[m_teleport_podv_vuxod]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 0.5
+;Height capture Teleport
+z_radius			= 0.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -51.942855834961
+poz_y				= -10.774474143982
+poz_z				= -177.09980773926
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 0
+
+
+;Arhara out of the body in a secret compartment in Agra
+[m_teleport_agro_norm_taynik]:zone_teleport_out
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1.0  
+;Height capture Teleport
+z_radius			= 1.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -39.483360290527
+poz_y				= -4.3316631317139
+poz_z				= 44.079212188721
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.0
+
+
+;Arhara out of the body from its hiding place in Agra, Norman
+[m_teleport_vnutri_norm_taynik]:zone_teleport_3
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 0.6  
+;Height capture Teleport
+z_radius			= 1.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -106.76210021973
+poz_y				= 0.35692921280861
+poz_z				= -143.65934753418
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.0
+
+
+;Архара выход из теле в канализацию МГ
+[m_teleport_dcity_kanaliy]:zone_teleport_3
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 0.6  
+;Height capture Teleport
+z_radius			= 1.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -90.852416992188
+poz_y				= -1.4655652046204
+poz_z				= -25.484413146973
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = -0.5
+
+;Arhara out of the body out of the sewer MG
+[m_teleport_izkanalii_dcity]:zone_teleport_arhara
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 0.6
+;Height capture Teleport
+z_radius			= 1.0
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -154.06355285645
+poz_y				= 1.2742960453033
+poz_z				= 46.897853851318
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 0.5
+
+
+[m_teleport_exit]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= 133.43295288086
+poz_y				= 38.803771972656
+poz_z				= 428.07092285156
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 0.5
+
+
+[m_teleport_hospital]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 2
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -74.7672271728516
+poz_y				= 28.6663703918457
+poz_z				= 861.699340820313
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[zone_teleport_new]:zone_teleport
+teleport = standart
+script_binding = bind_mteleport.bind
+;The parameters of our Teleport
+radius = 1.5
+;Height capture Teleport
+z_radius = 1.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = 21.928684234619
+poz_y = 1.5352756977081
+poz_z = -288.28698730469
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[zone_teleport_new_out]:zone_teleport
+teleport = standart
+script_binding = bind_mteleport.bind
+;The parameters of our Teleport
+radius = 1.5
+;Height capture Teleport
+z_radius = 1.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = -201.0417175293
+poz_y = 0.23154935240746
+poz_z = -280.466796875
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+[my_teleport]:zone_teleport
+teleport = standart
+script_binding = bind_mteleport.bind
+;The parameters of our Teleport
+radius = 1.5
+;Height capture Teleport
+z_radius = 1.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = -132.466934204102
+poz_y = 1.34497964382172
+poz_z = -277.250701904297
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+
+[lim_zone_teleport1]:zone_teleport
+teleport = standart
+script_binding = bind_mteleport.bind
+;The parameters of our Teleport
+radius = 3.5
+;Height capture Teleport
+z_radius = 12.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = 36.7756080627441
+poz_y = 28.5412578582764
+poz_z = 197.561050415039
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+
+[lim_zone_teleport2]:zone_teleport
+teleport = standart
+script_binding = bind_mteleport.bind
+;The parameters of our Teleport
+radius = 3.5
+;Height capture Teleport
+z_radius = 15.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = 36.7756080627441
+poz_y = 28.5412578582764
+poz_z = 197.561050415039
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+
+; teleport between 1 and 2 bay
+[hos_zone_teleport1]:zone_teleport_arhara
+teleport = standart
+script_binding = bind_mteleport.bind
+;The parameters of our Teleport
+radius = 1.5
+;Height capture Teleport
+z_radius = 1.5
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = -78.589324951172
+poz_y = 31.958097457886
+poz_z = 684.05407714844
+
+;Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+
+[hos_zone_teleport2]:zone_teleport
+teleport = standart
+script_binding = bind_mteleport.bind
+;The parameters of our Teleport
+radius = 1.0
+;Height capture Teleport
+z_radius = 1.0
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x				= -91.997482299805
+poz_y				= 31.961912155151
+poz_z				= 648.52990722656
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+
+; teleport exit 1otseka Hospital outside
+[hos_zone_teleport3]:zone_teleport_arhara
+teleport = standart
+script_binding = bind_mteleport.bind
+;The parameters of our Teleport
+radius = 1.7
+;Height capture Teleport
+z_radius = 1.7
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = -86.74690246582
+poz_y = 32.979202270508
+poz_z = 776.26892089844
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+
+;(-101.913,0.803,29.048),11929,3240)	--tunnels to hole by tank
+;(-104.120,0.557,21.834),11554,3240)	--tunnels from hole
+[zone_teleport_red_2]:zone_teleport
+teleport = standart
+script_binding = bind_mteleport.bind
+;The parameters of our Teleport
+radius = 1.07
+;Height capture Teleport
+z_radius = 1.07
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = -104.120
+poz_y = 0.557
+poz_z = 21.834
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.5
+
+;(203.672,4.200,109.121),132047,3319)	--hole from tunnels
+;(201.335,4.540,116.569),130978,3319)	--hole to tunnels
+[zone_teleport_red_1]:zone_teleport
+teleport = standart
+script_binding = bind_mteleport.bind
+;The parameters of our Teleport
+radius = 1.7
+;Height capture Teleport
+z_radius = 1.7
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = 203.672
+poz_y = 4.200
+poz_z = 109.121
+
+; Angle of view the appearance. If no parameter is not changed
+rotate = 1.55
+
+;;;;;;; TB3D portals ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[m_teleport_tb3d1]:zone_teleport
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = -238.924
+poz_y = 8.289
+poz_z = 94.924
+
+; Angle of view the appearance. If there is no option to change
+rotate = 2
+
+[m_teleport_tb3d2]:zone_teleport			;;x10 catwalk
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = -21.551
+poz_y = -17.683
+poz_z = 58.486
+
+; Angle of view the appearance. If there is no option to change
+rotate = 2
+
+[m_teleport_tb3d3]:zone_teleport			;;x10 elevator
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = -0.418
+poz_y = -8.837
+poz_z = 0.849
+
+; Angle of view the appearance. If there is no option to change
+rotate = 2
+
+[m_teleport_tb3d4]:zone_teleport			;;x10 exit
+teleport			= standart
+script_binding          	= bind_mteleport.bind
+;The parameters of our Teleport
+radius				= 1
+;Height capture Teleport
+z_radius			= 2
+
+;Where Teleport (Teleportation always goes within the card)
+poz_x = 3.201
+poz_y = -7.454
+poz_z = -55.374
+
+; Angle of view the appearance. If there is no option to change
+rotate = 2
+
+
+
+

@@ -1,0 +1,487 @@
+<!-- TB3D 1.1.0.0.0.4 new dialogs, st_found_new_pda, new levels, ep_jupu, path_pripyat_npp1,\n, new paths, zat to eprip, jupu to tunnels, removed "string_table" - aleks1970, Research Station -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 25 Jan 16 -->
+<!-- Changed two instances of 'Warehouses' to 'Army Warehouses'. Sword2012 09 Oct 16 -->
+	<string id="return_char">
+		<text>\n</text>
+	</string>
+	<string id="car_character_use">
+		<text>-USE-</text>
+	</string>
+	<string id="character_use">
+		<text>-USE-</text>
+	</string>
+	<string id="dead_character_use_or_drag">
+		<text>-SEARCH-</text>
+	</string>
+	<string id="dead_character_use">
+		<text>-SEARCH-</text>
+	</string>
+	<string id="general_complete_task">
+		<text>Task complete:</text>
+	</string>
+	<string id="general_fail_task">
+		<text>Task cancelled:</text>
+	</string>
+	<string id="general_help">
+		<text>Quick, I need a medkit! I'm dying here!</text>
+	</string>
+	<string id="general_in_item">
+		<text>Item received:</text>
+	</string>
+	<string id="general_in_money">
+		<text>Money received:</text>
+	</string>
+	<string id="general_new_diary">
+		<text>Diary updated...</text>
+	</string>
+	<string id="general_new_encyclopedy">
+		<text>Encyclopedia updated...</text>
+	</string>
+	<string id="general_new_task">
+		<text>New task received...</text>
+	</string>
+	<string id="general_out_item">
+		<text>Item removed:</text>
+	</string>
+	<string id="general_out_money">
+		<text>Money spent:</text>
+	</string>
+	<string id="general_update_task">
+		<text>Task updated:</text>
+	</string>
+	<string id="physic_shell_use">
+		<text>-USE-</text>
+	</string>
+	<string id="st_codelock">
+		<text>###$</text>
+	</string>
+	<string id="st_helmet_countdown">
+		<text>PROTECTION DEPLETED. SHUTDOWN IMMINENT</text>
+	</string>
+	<string id="st_psy_danger">
+		<text>PSI DANGER</text>
+	</string>
+	<string id="st_radiation_danger">
+		<text>RADIATION DANGER</text>
+	</string>
+	<string id="st_found_new_pda">
+		<text>New PDA intel received...</text>
+	</string>
+	<string id="to_labx16">
+		<text>Lab X-16</text>
+	</string>
+	<string id="to_labx10">
+		<text>Lab X-10</text>
+	</string>
+	<string id="bar_rostok">
+		<text>Wild Territory - Rostok</text>
+	</string>
+	<string id="to_escape">
+		<text>Cordon</text>
+	</string>
+	<string id="to_garbage">
+		<text>The Dump</text><!-- Was 'Garbage' - Sword2012 21 Jan 18 -->
+	</string>
+	<string id="to_agroprom">
+		<text>Agroprom</text>
+	</string>
+	<string id="to_agroprom_underground">
+		<text>Catacombs</text>
+	</string>
+	<string id="to_darkvalley">
+		<text>Dark Valley</text>
+	</string>
+	<string id="to_labx18">
+		<text>Lab X-18</text>
+	</string>
+	<string id="to_bar">
+		<text>Rostok area</text>
+	</string>
+	<string id="to_rostok">
+		<text>Wild Territory</text>
+	</string>
+	<string id="to_yantar">
+		<text>Yantar</text>
+	</string>
+	<string id="to_military">
+		<text>Army Warehouses</text>
+	</string>
+	<string id="to_radar">
+		<text>Radar</text>
+	</string>
+	<string id="to_bunker">
+		<text>Bunker</text>
+	</string>
+	<string id="to_pripyat">
+		<text>Pripyat</text>
+	</string>
+	<string id="to_pripyat_s">
+		<text>Southern Pripyat</text>
+	</string>
+	<string id="to_pripyat_n">
+		<text>Northern Pripyat</text>
+	</string>
+	<string id="to_aes">
+		<text>Chernobyl NPP1 (South)</text>
+	</string>
+	<string id="to_north_aes">
+		<text>Chernobyl NPP2 (North)</text>
+	</string>
+	<string id="to_sarcofag">
+		<text>Sarcophagus</text>
+	</string>
+	<string id="to_control">
+		<text>Monolith Control</text>
+	</string>
+	<string id="to_atp">
+		<text>The ATP</text>
+	</string>
+	<string id="to_cave">
+		<text>Caves</text>
+	</string>
+	<string id="to_maze">
+		<text>Labyrinth</text>
+	</string>
+	<string id="to_puzir">
+		<text>Forgotten Forest</text>
+	</string>
+	<string id="to_aver">
+		<text>Recon</text>
+	</string>
+	<string id="to_limansk">
+		<text>Limansk</text>
+	</string>
+	<string id="to_hospital">
+		<text>Hospital</text>
+	</string>
+	<string id="to_generators">
+		<text>Generators</text>
+	</string>
+	<string id="to_warlab">
+		<text>Military Lab</text>
+	</string>
+	<string id="to_redforest">
+		<text>Red Forest</text>
+	</string>
+	<string id="to_lostvillage">
+		<text>Old Village</text>
+	</string>
+	<string id="to_marsh">
+		<text>The Swamps</text>
+	</string>
+	<string id="to_deadcity">
+		<text>Dead City</text>
+	</string>
+	<string id="to_zaton">
+		<text>Backwater</text>
+	</string>
+	<string id="to_jupiter">
+		<text>Jupiter</text>
+	</string>
+	<string id="to_eprip">
+		<text>East Pripyat</text>
+	</string>
+	<string id="to_jupunder">
+		<text>Jupiter Underground</text>
+	</string>
+	<string id="to_labx8">
+		<text>Lab X-8</text>
+	</string>
+	<string id="to_tunnels">
+		<text>Tunnels</text>
+	</string>
+	<string id="to_pred">
+		<text>Waiting Room</text>
+	</string>
+	<string id="to_yanold">
+		<text>Research Station</text>
+	</string>
+	<string id="to_swampold">
+		<text>Dead Marshes</text>
+	</string>
+	<string id="to_hiding">
+		<text>Broken Road</text>
+	</string>
+	<string id="to_darkscape">
+		<text>Darkscape</text>
+	</string>
+	<string id="to_darkforest">
+		<text>Wasted Woodland</text>
+	</string>
+	<string id="to_f1">
+		<text>Facility F1</text>
+	</string>
+	<string id="to_prom">
+		<text>Techniques</text>
+	</string>
+	<string id="to_digger">
+		<text>Hole in the Ground</text>
+	</string>
+	<string id="to_kras">
+		<text>Distribution Center</text>
+	</string>
+	<string id="to_dd">
+		<text>Courtyard</text>
+	</string>
+	<string id="to_rinok">
+		<text>Black Market</text>
+	</string>
+	<string id="to_pogost">
+		<text>Cemetery</text>
+	</string>
+	<string id="to_vokzal">
+		<text>End Station</text>
+	</string>
+	<string id="to_labx14">
+		<text>Secret Lab</text>
+	</string>
+	<string id="to_poli">
+		<text>Firing Range</text>
+	</string>
+	<string id="path_new">
+		<text>New path</text>
+	</string>
+	<string id="path_cop_ep">
+		<text>Center of Pripyat to East Pripyat</text>
+	</string>
+	<string id="path_ep_x8">
+		<text>East Pripyat to Laboratory X-8</text>
+	</string>
+	<string id="path_rf_dc">
+		<text>Red Forest to Dead City</text>
+	</string>
+	<string id="path_bw_jp">
+		<text>Backwater to Jupiter</text>
+	</string>
+	<string id="path_jp_ep">
+		<text>Jupiter to East Pripyat</text>
+	</string>
+	<string id="path_ep_jp">
+		<text>East Pripyat to Jupiter</text>
+	</string>
+	<string id="path_ep_jpu">
+		<text>East Pripyat to Jupiter Underground</text>
+	</string>
+	<string id="path_jp_jpu">
+		<text>Jupiter to Jupiter Underground</text>
+	</string>
+	<string id="path_jpu_jp">
+		<text>Jupiter Underground to Jupiter</text>
+	</string>
+	<string id="path_jp_bw">
+		<text>Jupiter to Backwater</text>
+	</string>
+	<string id="path_jpu_lm">
+		<text>Jupiter Underground to Limansk</text>
+	</string>
+	<string id="path_ep_bar">
+		<text>East Pripyat to Rostok</text>
+	</string>
+	<string id="path_jp_yn">
+		<text>Jupiter to Yantar</text>
+	</string>
+	<string id="path_sc_bar">
+		<text>Sarcophagus to Bar</text>
+	</string>
+	<string id="path_sc_chs">
+		<text>Sarcophagus to NPP1 (South)</text>
+	</string>
+	<string id="path_sc_zat">
+		<text>NPP1 (South) to Backwater</text>
+	</string>
+	<!-- new paths -->
+	<string id="path_dv_ds">
+		<text>Old path from the Dark Valley to Darkscape</text>
+	</string>
+	<string id="path_ww_bar">
+		<text>Wasted Woodland to Rostok</text>
+	</string>
+	<string id="path_prip_vok">
+		<text>Pripyat to End Station</text>
+	</string>
+	<string id="path_jup_zat">
+		<text>Jupiter to Backwater</text>
+	</string>
+	<string id="path_jup_prip">
+		<text>Jupiter to Pripyat</text>
+	</string>
+	<string id="path_ds_esc">
+		<text>Southern route to the Cordon</text>
+	</string>
+	<string id="path_ds_poli">
+		<text>Darkscape to the Firing Range</text>
+	</string>
+	<string id="path_bar_ww">
+		<text>Rostok to Wasted Woodland</text>
+	</string>
+	<string id="path_zat_f1">
+		<text>Backwater to Facility F1</text>
+	</string>
+	<string id="path_zat_jup">
+		<text>Backwater to Jupiter</text>
+	</string>
+	<string id="path_zat_vil">
+		<text>Backwater to Old Village</text>
+	</string>
+	<string id="path_zat_prip">
+		<text>Backwater to Pripyat</text>
+	</string>
+	<string id="path_prip_jup">
+		<text>Pripyat to Jupiter</text>
+	</string>
+	<string id="path_prip_zat">
+		<text>Pripyat to Backwater</text>
+	</string>
+	<string id="path_eprip_kras">
+		<text>East Pripyat to Distribution Center</text>
+	</string>
+	<string id="path_dc_cem">
+		<text>Dead City to the Cemetery</text>
+	</string>
+	<string id="path_cem_dc">
+		<text>Cemetery to Dead City</text>
+	</string>
+	<string id="path_esc_ds">
+		<text>Cordon to Darkscape</text>
+	</string>
+	<string id="path_esc_fr">
+		<text>Cordon to the Firing Range</text>
+	</string>
+	<string id="path_vil_zat">
+		<text>Old Village to Backwater</text>
+	</string>
+	<string id="path_gen_dm">
+		<text>Generators to Dead Marshes</text>
+	</string>
+	<string id="path_gen_rs">
+		<text>Generators to Research Station</text>
+	</string>
+	<string id="path_gen_dc">
+		<text>Generators to Dead City</text>
+	</string>
+	<string id="path_dc_gen">
+		<text>Dead City to the Generators</text>
+	</string>
+	<string id="path_npp2_rs">
+		<text>NPP2 (North) to Research Station</text>
+	</string>
+	<string id="path_hosp_tunnels">
+		<text>Hospital to Tunnels</text>
+	</string>
+	<string id="path_rsch_hole">
+		<text>Research Station to Hole in the Ground</text>
+	</string>
+	<string id="path_rsch_wait">
+		<text>Research Station to Waiting Room</text>
+	</string>
+	<string id="path_tech_broken">
+		<text>Techniques to Broken Road</text>
+	</string>
+	<string id="path_eprip_x14">
+		<text>East Pripyat to Secret Lab</text>
+	</string>
+	<string id="path_x8_x14">
+		<text>Lab X-8 to Secret Lab</text>
+	</string>
+	<string id="path_jupu_x14">
+		<text>Jupiter Underground to Secret Lab</text>
+	</string>
+	<string id="path_kras_dm">
+		<text>Distribution Center to Dead Marshes</text>
+	</string>
+	<string id="path_prip_eprip">
+		<text>Pripyat to East Pripyat</text>
+	</string>
+	<string id="path_jupu_x10">
+		<text>Jupiter Underground to Lab X-10</text>
+	</string>
+	<string id="path_vok_lim">
+		<text>End Station to Limansk</text>
+	</string>
+	<string id="path_lim_vok">
+		<text>Limansk to End Station</text>
+	</string>
+	<string id="path_bm_kras">
+		<text>Black Market to Distribution Center</text>
+	</string>
+	<string id="path_dm_tech">
+		<text>Dead Marshes to Techniques</text>
+	</string>
+	<string id="path_tech_hole">
+		<text>Techniques to Hole in the Ground</text>
+	</string>
+	<string id="path_wait_broke">
+		<text>Waiting Room to Broken Road</text>
+	</string>
+	<string id="path_tech_wait">
+		<text>Techniques to Waiting Room</text>
+	</string>
+	<string id="path_npp1_npp2">
+		<text>NPP1 (South) to NPP2 (North)</text>
+	</string>
+	<string id="path_mil_npp1">
+		<text>Army Warehouses to NPP1 (South)</text>
+	</string>
+	<string id="path_dcity_gen">
+		<text>Dead City to Generators</text>
+	</string>
+	<string id="path_rsch_tech">
+		<text>Research Station to Techniques</text>
+	</string>
+	<string id="path_gen_hosp">
+		<text>Generators to the Hospital</text>
+	</string>
+	<string id="path_recon_npp1">
+		<text>NPP1 (South) to Recon</text>
+	</string>
+	<string id="path_pripyat_npp1">
+		<text>Pripyat to NPP1 (South)</text>
+	</string>
+	<string id="path_rad_red">
+		<text>Radar to the Red Forest</text>
+	</string>
+	<string id="path_res_ros">
+		<text>Research to Rostok</text>
+	</string>
+	<string id="path_prom_gen">
+		<text>Techniques to Generators</text>
+	</string>
+	<string id="path_radar_rostok">
+		<text>Radar to Wild Territory</text>
+	</string>
+	<string id="path_cem_gen">
+		<text>Cemetery to Generators</text>
+	</string>
+	<string id="path_jup_cem">
+		<text>Jupiter to Cemetery</text>
+	</string>
+	<string id="path_ww_hos">
+		<text>Wasted Woodland to Hospital</text>
+	</string>
+	<string id="path_hos_f1">
+		<text>Hospital to Facility F1</text>
+	</string>
+	<string id="path_hr_dm">
+		<text>Broken Road to Dead Marshes</text>
+	</string>
+	<string id="path_rsch_eprip">
+		<text>Research to East Pripyat</text>
+	</string>
+	<string id="path_eprip_npp1">
+		<text>East Pripyat to NPP1 (South)</text>
+	</string>
+	<string id="path_eprip_zaton">
+		<text>Backwater to East Pripyat</text>
+	</string>
+	<string id="path_npp2_x14">
+		<text>NPP2 (North) to a secret lab</text>
+	</string>
+	<string id="path_dark_npp">
+		<text>NPP1 (South) to Darkscape</text>
+	</string>
+	<string id="path_jupu_tunnels">
+		<text>Jupiter Underground to the Southern Tunnels</text>
+	</string>
+	<string id="path_redf_tunnels">
+		<text>Red Forest to the Southern Tunnels</text>
+	</string>

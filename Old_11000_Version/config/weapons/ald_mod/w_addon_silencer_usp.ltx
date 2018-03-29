@@ -1,0 +1,24 @@
+[wpn_addon_silencer_usp]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			= "weapons\addons\silencer_usp" ; option for Level Editor
+class			= W_SILENC
+cform           = skeleton
+visual          = weapons\upgrade\wpn_silencer_usp.ogf
+description		= enc_wpn_addon_sil_usp
+$prefetch 		= 32
+
+cost			= 700;150
+inv_name		= wpn_sil_usp
+inv_name_short	= wpn_sil_usp
+inv_weight		= .1
+
+inv_grid_width     = 2
+inv_grid_height    = 1
+inv_grid_x         = 42
+inv_grid_y         = 58
+
+bullet_hit_power_k	= 0.8
+bullet_speed_k	 	= 0.8
+fire_dispersion_base_k = 1.25;2
+cam_dispersion_k	= 0.8

@@ -1,0 +1,2315 @@
+<!-- TB3D 1.1.0.0.1.3 sms_pilot, _girl3_nachalo, sms_shadows_cube, sms_shadows_speech, sms_solvador, harsh environment,
+hunt_part2_message, sms_syac, sms_zaschita_portal, sms_foto_mozg_ok, sms_mina_pant, sms_pili_sdelal_psevdofoto - aleks1970,
+186 char limit to sms messages!!!!, barkeep, sms_kanal -->
+<!-- Names changed as commented below - Sword2012 - 31 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<!-- All lines checked and edited for no more than 186 text characters. Several names changed - Sword2012 - 13 Jun 17 -->
+<string_table>
+	<string id="nl_default">
+		<text>: %c[255,255,255,255]</text>
+	</string>
+	<string id="sms_player">
+		<text>Media Player</text>
+	</string>
+	<string id="sms_radio_playing">
+		<text>Playing Radio [</text>
+	</string>
+	<string id="sms_track_playing">
+		<text>Playing USB Track [</text>
+	</string>
+	<string id="sms_station_1">
+		<text>Duty]</text>
+	</string>
+	<string id="sms_station_2">
+		<text>Freedom]</text>
+	</string>
+	<string id="sms_station_3">
+		<text>STALKERS]</text>
+	</string>
+	<string id="sms_station_4">
+		<text>Military]</text>
+	</string>
+	<string id="sms_station_5">
+		<text>MIR-12]</text>
+	</string>
+	<string id="sms_station_6">
+		<text>Monolith]</text>
+	</string>
+	<string id="sms_station_7">
+		<text>Zone Underground [</text>
+	</string>
+	<string id="sms_tb3d">
+		<text>TB3D</text>
+	</string>
+	<string id="sms_incoming">
+		<text>INCOMING</text>
+	</string>
+	<string id="sms_incomming">
+		<text>INCOMING</text>
+	</string>
+	<string id="sms_intel">
+		<text>INTEL RECEIVED</text>
+	</string>
+	<string id="sms_arhara">
+		<text>ARHARA</text>
+	</string>
+	<string id="sms_sid">
+		<text>SIDOROVICH</text>
+	</string>
+	<string id="sms_fang">
+		<text>Fang</text>
+	</string>
+	<string id="sms_hermit">
+		<text>Hermit</text>
+	</string>
+	<string id="sms_adrenaline">
+		<text>ADRENALIN</text><!-- Was ADRENALINE' - Sword2012 - 13 Jun 17 -->
+	</string>
+	<string id="sms_panther">
+		<text>PANTHER</text>
+	</string>
+	<string id="sms_gynecologist">
+		<text>GYNECOLOGIST</text>
+	</string>
+	<string id="sms_unknown">
+		<text>UNKNOWN</text>
+	</string>
+	<string id="sms_chimera">
+		<text>CHIMERA</text>
+	</string>
+	<string id="sms_chimera_thief">
+		<text>Thief CHIMERA</text>
+	</string>
+	<string id="sms_cyclops">
+		<text>CYCLOPS</text>
+	</string>
+	<string id="sms_dharma">
+		<text>D.H.A.R.M.A.</text>
+	</string>
+	<string id="sms_bald">
+		<text>BALD</text>
+	</string>
+	<string id="sms_mihai">
+		<text>MIHAI</text>
+	</string>
+	<string id="sms_vitaly">
+		<text>VITALY ANIMAL</text>
+	</string>
+	<string id="sms_strelok">
+		<text>STRELOK</text>
+	</string>
+	<string id="sms_marked_one">
+		<text>MARKED ONE</text>
+	</string>
+	<string id="sms_kostylnoga">
+		<text>SERGEANT KOSTYLNOGA</text>
+	</string>
+	<!-- <string id="sms_barkeep">
+		<text>BARKEEP</text>
+	</string> -->
+	<string id="sms_barman">
+		<text>BARMAN</text>
+	</string>
+	<string id="sms_vetroply">
+		<text>LIEUTENANT VETROPLY</text>
+	</string>
+	<string id="sms_kolmogor">
+		<text>KOLMOGOROV</text>
+	</string>
+	<string id="sms_maple">
+		<text>MAPLES</text><!-- Was 'MAPLE' - Sword2012 - 13 Jun 17 -->
+	</string>
+	<string id="sms_piligrim">
+		<text>PILGRIM</text><!-- Was 'PILIGRIM' - Sword2012 - 13 Jun 17 -->
+	</string>
+	<string id="sms_gray">
+		<text>GRAY</text>
+	</string>
+	<string id="sms_delayed">
+		<text>Delayed SMS</text>
+	</string>
+	<string id="sms_black_doc">
+		<text>BLACK DOCTOR</text>
+	</string>
+	<string id="sms_black_affiliate">
+		<text>BLACK DOCTOR affiliate</text>
+	</string>
+	<string id="sms_black_guard">
+		<text>BLACK DOCTOR bodyguard</text>
+	</string>
+	<string id="sms_ghost">
+		<text>GHOST</text>
+	</string>
+	<string id="sms_countryman">
+		<text>COUNTRYMAN</text>
+	</string>
+	<string id="sms_pilot">
+		<text>PILOT</text>
+	</string>
+	<string id="sms_fritz">
+		<text>FRITZ</text>
+	</string>
+	<string id="sms_bosun">
+		<text>BOSUN</text>
+	</string>
+	<string id="sms_solvador">
+		<text>SOLVADOR</text>
+	</string>
+	<string id="sms_sapsan">
+		<text>SAPSAN</text>
+	</string>
+	<string id="sms_voronin">
+		<text>VORONIN</text>
+	</string>
+	<string id="sms_moscow">
+		<text>SMS FROM MOSCOW</text>
+	</string>
+	<string id="sms_fly">
+		<text>FLY</text>
+	</string>
+	<string id="sms_vitamin">
+		<text>VITAMIN</text>
+	</string>
+	<string id="sms_lan">
+		<text>LAN</text>
+	</string>
+	<string id="sms_freedom">
+		<text>FREEDOM</text>
+	</string>
+	<string id="sms_astrologer">
+		<text>ASTROLOGER</text>
+	</string>
+	<string id="sms_panther_dad">
+		<text>FATHER OF PANTHER</text>
+	</string>
+	<string id="sms_dealer">
+		<text>MOBILE DEALER</text>
+	</string>
+	<string id="sms_hoary">
+		<text>HOARY</text>
+	</string>
+	<string id="sms_lukash">
+		<text>LUKASH</text>
+	</string>
+	<string id="sms_hog">
+		<text>HOG</text>
+	</string>
+	<string id="sms_smonoliths">
+		<text>SHADOW MONOLITH</text><!-- Was 'SHADOW MONOLITHS' - Sword2012 - 13 Jun 17 -->
+	</string>
+	<string id="sms_sakharov">
+		<text>Sakharov</text>
+	</string>
+	<string id="sms_cold">
+		<text>COLD</text>
+	</string>
+	<string id="sms_kuznet">
+		<text>KUZNETSOV</text>
+	</string>
+	<string id="sms_ara">
+		<text>ARA</text>
+	</string>
+	<string id="sms_dan">
+		<text>DAN</text>
+	</string>
+	<string id="sms_shak">
+		<text>SHAKTAR</text>
+	</string>
+	<string id="sms_krot">
+		<text>KROT</text>
+	</string>
+	<string id="sms_akim">
+		<text>AKIM</text>
+	</string>
+	<string id="sms_petrenko">
+		<text>PETRENKO</text>
+	</string>
+	<string id="sms_marsh_doc">
+		<text>SWAMP DOCTOR</text><!-- Was 'MARSH DR' - Sword2012 - 13 Jun 17 -->
+	</string>
+	<string id="sms_lightning">
+		<text>LIGHTNING</text>
+	</string>
+	<string id="sms_max">
+		<text>MAXIMILIAN</text>
+	</string>
+	<string id="sms_gunner">
+		<text>GUNNER</text>
+	</string>
+	<string id="sms_forester">
+		<text>FORESTER</text>
+	</string>
+	<string id="sms_sanych">
+		<text>SAN SANYCH</text>
+	</string>
+	<string id="sms_time">
+		<text>TIME</text>
+	</string>
+	<string id="sms_black_sea">
+		<text>BLACK SEA</text>
+	</string>
+	<string id="sms_malicious">
+		<text>MALICIOUS</text>
+	</string>
+	<string id="sms_perfumer">
+		<text>PERFUMER</text>
+	</string>
+	<string id="sms_norman">
+		<text>NORMAN</text>
+	</string>
+	<string id="sms_omborok">
+		<text>OBMOROK</text><!-- Was 'OMBOROK' - Sword2012 - 07 Jul 17 -->
+	</string>
+	<string id="sms_sahkarov">
+		<text>SAKHAROV</text><!-- Was 'SAHKAROV' - Sword2012 - 07 Jul 17 -->
+	</string>
+	<string id="sms_duda">
+		<text>DUDA</text>
+	</string>
+	<string id="sms_spark">
+		<text>SPARK</text>
+	</string>
+	<string id="sms_sentry">
+		<text>SENTRY</text>
+	</string>
+	<string id="sms_lastday">
+		<text>MEMBER OF LAST DAY</text>
+	</string>
+	<string id="sms_system">
+		<text>SYSTEM PROTECTION</text>
+	</string>
+	<string id="sms_system_comm">
+		<text>COMMUNICATION SYSTEM</text>
+	</string>
+	<string id="sms_get_info">
+		<text>GET INFORMATION</text>
+	</string>
+	<string id="sms_teleport">
+		<text>Teleport</text>
+	</string>
+	<string id="sms_tweed">
+		<text>TWEED</text>
+	</string>
+	<string id="sms_associate">
+		<text>Associate</text>
+	</string>
+	<string id="sms_syac">
+		<text>SYAK</text>
+	</string>
+	<!-- TB3D -->
+	<string id="sms_coll_greet">
+		<text>Marked One.. made it this far eh, look like crap though! Well... come on in then before the military come back... Oh, and watch your back... your reputation precedes you!</text>
+	</string>
+	<string id="sms_plenty_ammo">
+		<text>Hope you have plenty of ammo.. things have changed since you first came through here!</text>
+	</string>
+	<string id="sms_being_hunted">
+		<text>Keep vigilant Marked One.. you are being hunted..</text>
+	</string>
+	<string id="sms_tunnel_rat">
+		<text>Marked One... there was an old man here claiming to be a gunsmith from the Red Forest... Said he was making a special weapon for a new faction.</text>
+	</string>
+	<string id="sms_tunnel_rat_2">
+		<text>He claims it was stashed in a blocked tunnel when his workshop was raided by bandits, might be worth a look..</text>
+	</string>
+	<string id="sms_osoznanie_call">
+		<text>MARKED ONE.. why are you back?... Let us be... let us sleep.</text>
+	</string>
+	<string id="sms_bandranen_pda">
+		<text>BANDITS... Beware of the MARKED ONE... You'll find no mercy there!</text>
+	</string>
+	<string id="sms_arena">
+		<text>ARENA</text>
+	</string>
+	<string id="sms_mod_deleted">
+		<text>MOD DELETED</text>
+	</string>
+	<string id="sms_potap">
+		<text>Potap</text>
+	</string>
+	<string id="sms_pda_restored">
+		<text>Local network services resumed. Best of luck!</text>
+	</string>
+	<string id="sms_pda_reminder">
+		<text>PDA Reminder</text>
+	</string>
+	<string id="sms_pda_bullseye">
+		<text>Bullseye, take my legs - you may have noticed!</text>
+	</string>
+	<string id="sms_babah">
+		<text>Detonator</text>
+	</string>
+	<string id="sms_babah_not_explode">
+		<text>Explosives failed to detonate! Target not found...</text>
+	</string>
+	<string id="sms_babah_not_explode2">
+		<text>Explosives failed to detonate! Position unstable...</text>
+	</string>
+	<string id="sms_babah_expl">
+		<text>Explosives</text>
+	</string>
+	<string id="sms_babah_another">
+		<text>Blown up at another location</text>
+	</string>
+	<string id="sms_babah_strange">
+		<text>Here a strange place...</text>
+	</string>
+	<string id="sms_babah_error">
+		<text>Detonator Error!</text>
+	</string>
+	<string id="sms_babah_boom">
+		<text>Explosives detonated!</text>
+	</string>
+	<string id="sms_babah_dud">
+		<text>Nothing has blown up!</text>
+	</string>
+	<string id="sms_babah_timer">
+		<text>Timer is running! Urgent need to put it and retreat to a safe distance.</text>
+	</string>
+	<string id="sms_babah_nil">
+		<text>babah obj == nil: id</text>
+	</string>
+	<string id="sms_babah_name">
+		<text>, name</text>
+	</string>
+	<string id="sms_car_blowout">
+		<text>Radio transmission and reception will not work during a blowout!</text>
+	</string>
+	<string id="sms_car_repair">
+		<text>You need to be inside the car to use the repair kit!</text>
+	</string>
+	<string id="sms_car_found">
+		<text>You have found one of the Zone's unique vehicles! More remain to be found...</text>
+	</string>
+	<string id="sms_car_found_all">
+		<text>You've found all the unique vehicles! Received award: M-134 Minigun 'Plus', and one carton of FMJ 5.56x45mm</text>
+	</string>
+	<string id="sms_car_total">
+		<text>out of 6.</text>
+	</string>
+	<string id="sms_finish_goldbars">
+		<text>I went to the attic but could not find the bars!\nI will hunt down and kill the person that took them!</text>
+	</string>
+	<string id="sms_finish_tweedbook">
+		<text>Marked One, are you still alive? Are you bringing my book?\nHope I see you soon, please be careful out there!</text>
+	</string>
+	<string id="sms_finish_secretlab">
+		<text>What about that tunnel and those gold bars?\nWhy have the energy levels gone up near the NPP, and not inside it?\nSomething is...</text>
+	</string>
+	<!-- arhara_dialog -->
+	<string id="sms_baza_vxod">
+		<text>to the entrance of the base is disabled</text>
+	</string>
+	<string id="sms_baza_vuxod">
+		<text>to the exit of the base is disabled</text>
+	</string>
+	<string id="sms_taynik">
+		<text>to the entrance of the secret cave is disabled</text>
+	</string>
+	<string id="sms_otkl">
+		<text>to the entrance of the secret cave in Recon will close within a few hours</text>
+	</string>
+	<string id="sms_del_plen">
+		<text>trap disabled</text>
+	</string>
+	<string id="sms_vhod_otsek">
+		<text>to the entrance of the hospital three compartment disabled</text>
+	</string>
+	<string id="sms_blok_vhod_otsek">
+		<text>blocking exit from the compartment disabled</text>
+	</string>
+	<string id="sms_otshelnik_1">
+		<text>Strelok, I've heard some news. You need to check it out...</text>
+	</string>
+	<string id="sms_adrenalin_1">
+		<text>Strelok, I've heard some news. You need to check it out. Seems that someone came for the casket...</text>
+	</string>
+	<string id="sms_medik_1">
+		<text>Strelok, Victor has opened the safe. It's heree waiting for you...</text>
+	</string>
+	<string id="sms_medik_2">
+		<text>Strelok, there's been a change in orders. You need to find a floppy disk...</text><!-- Was 'Arrows' - Sword2012 - 13 Jun 17 -->
+	</string>
+	<string id="sms_nekto">
+		<text>Strelok, the old card you have. Make a copy of it, but remove my marked transitions first. Then give the copy to Astrologer....</text>
+	</string>
+	<string id="sms_piligrim_2">
+		<text>Sent to you Novis - let's see what he can tell us about the mercenaries he decided to join..</text>
+	</string>
+	<string id="sms_medik_3">
+		<text>Sidorovich, you ordered. If you want to live - the photos, Strelok, came from the front and in profile.</text>
+	</string>
+	<string id="sms_ziklop_1">
+		<text>Strelok, is heading for Taynichok, come...</text>
+	</string>
+	<string id="sms_kluk_1">
+		<text>Strelok, is not a divorce. Do not be surprised... We must meet, to hide more makes no sense. I'm waiting for you at the Pilgrim on our new database, make haste.</text>
+	</string>
+	<string id="sms_delete_teleport_warlab">
+		<text>Teleport to the secret area within the War Lab has been deactivated...</text>
+	</string>
+	<string id="sms_bolot_tv">
+		<text>You got yourself involved, soldier. Now you'll pay the piper...</text>
+	</string>
+	<string id="sms_kanal">
+		<text>You guys are full of shit! I've been carrying these stupid artefacts on my belt for three months now - and nothing. Absolutely fuck all...</text>	<!-- 110013, size limit exceeded -->
+	</string>
+	<string id="sms_kanal_2">
+		<text>I hope you are happy, and that the same misfortune awaits you. Be warned, Stalker!</text>
+	</string>
+	<string id="sms_pant_zveri">
+		<text>Strelok... we have left the War Lab. A large pack of Pseudodogs attacked in the night... we lost three good men... I will meet you at the Bar... you know the drill...</text>
+	</string>
+	<string id="sms_vitamin_reyd_zadan">
+		<text>Strelok... There is news going around, turn yourself...</text>
+	</string>
+	<string id="sms_vitamin_reyd_zadan2">
+		<text>Teleport to the secret area within the War Lab has been deactivated... not sure how... or why...</text>
+	</string>
+	<string id="sms_band_yantar">
+		<text>Receiving signal from Yantar - looking good so far... will report back in once the test phase is complete... switching coordinates to 4-8-15-16-23-42...</text>
+	</string>
+	<string id="sms_razvod">
+		<text>Marked One... you're just visiting the area, so nobody knows you yet... there's a farm nearby some ruins - come across it yet?</text>
+	</string>
+	<string id="sms_razvod_2">
+		<text>This guy needs to travel to the perimeter and bring me something back. I promised to pay for his trip. Give him 70,000Ru on my behalf, then come and see me. I'll repay you with interest...</text>
+	</string>
+	<string id="sms_gar_naemn_grup1">
+		<text>I saw a group of Mercenaries in the Dump - perhaps on a job or doing reconaissance. Be careful...</text>
+	</string>
+	<string id="sms_dark_btr1">
+		<text>Just spotted a motorized group of Spetsnaz moving through the Cordon... Looked as if they're searching for someone...</text>
+	</string>
+	<string id="sms_dark_sidor">
+		<text>Sidorovich, you'd better have something useful for me when I get back, or it's your head on a platter... Do we understand each other?</text>
+	</string>
+	<string id="sms_garbage_adren">
+		<text>I can offer upgrades for various weapons, and jobs for those who wish to earn favours, and discounted prices. Soon I will be in Agroprom</text>
+	</string>
+	<string id="sms_lysyi">
+		<text>I'm at the Bar. Need somebody to find something for me. I'll pay generously for the work... come see me</text>
+	</string>
+	<string id="sms_art_negoden">
+		<text>I'm having the same problem as the rest of you - some of my best artefacts have changed into fucking Cobblestones... This is bullshit!</text>
+	</string>
+	<string id="sms_art_negoden1">
+		<text>Looking forward to meeting up with you at the Bar in Rostok.. make sure you have my money... and the map..</text>
+	</string>
+	<string id="sms_pant_kord1">
+		<text>The soldier, you're on the spot. Look carefully in the direction of the Military Outpost. He's yours. Look, do not kill him...</text>
+	</string>
+	<string id="sms_dolbannn">
+		<text>Comrade!!... Major Kuznetsov sends his regards... I have your flash drive with me...Meet me at the Research Institute two days from now... bring the photos!!</text>
+	</string>
+	<string id="sms_sidor_piyn">
+		<text>Marked One... What the hell do you want? If you've not been checked by the Doctor you may still be infected, or worse...</text>
+	</string>
+	<string id="sms_sidor_piyn_2">
+		<text>Go and talk with the Doctor, and take his special medicine - then come and see me. We'll have ourselves a little chat...</text>
+	</string>
+	<string id="sms_sidor_piyn_done">
+		<text>Welcome back, Stalker... That medicine seems to have helped... Well, except for your looks though. Too bad...</text>
+	</string>
+	<string id="sms_kluk3">
+		<text>Good to hear from you Strelok...did you find that Lab you went looking for without us? See you at the Bar... we'll have some drinks...</text>
+	</string>
+	<string id="sms_kluk3_2">
+		<text>You'll find us at one of the fires in the far warehouse behind the Arena</text>
+	</string>
+	<string id="sms_gg_1">
+		<text>FANG. The teleport to a secret part of the Lab, I disabled it... I'll explain later</text>
+	</string>
+	<string id="sms_kluk2">
+		<text>Strelok, how are things going? Switching to a private channel...</text>
+	</string>
+	<string id="sms_yan_barmen">
+		<text>Barman, I'm at Yantar. Found two of my predecessors down here... You can send a death notice to their relatives if you like. They won't be coming home...</text>
+	</string>
+	<string id="sms_yan_barmen_2">
+		<text>I will be back to settle up with you soon... Ticket Number: 89115683244.</text>
+	</string>
+	<string id="sms_yan_barmen_otvet">
+		<text>Marked One... I sent death notices to those relatives, and a little bit of money - 50,000Ru. Thanks for the information. Best of luck to you...</text>
+	</string>
+	<string id="sms_plen">
+		<text>Captain! We've caught another Eccentric. Looted him thoroughly. Left for you, since you were the one that suggested the trap in the first place. Let's throw a party when you get back</text>
+	</string>
+	<string id="sms_village_kapitan">
+		<text>Marked One! Take out my troops, will you? See you in the village when I return soon. For you, I'll prepare a special enema with napalm and Tabasco Sauce... Ha ha!!!</text>
+	</string>
+	<string id="sms_village_pantera">
+		<text>Panther, where are you? Any news, we must see.</text>
+	</string>
+	<string id="sms_village_obsledovanie">
+		<text>Kolmogor, the village surveyed. Return.</text>
+	</string>
+	<string id="sms_village_pantera_otvet">
+		<text>Hello, krasavcheg. I have a problem, had to quickly make his feet. I'm on the bogs, some cape. Where exactly - I do not know, but here is visible some sort of observation tower.</text>
+	</string>
+	<string id="sms_village_pantera_otvet_2">
+		<text>Throw off the approximate coordinates space in your PDA - see map Bolow.</text>
+	</string>
+	<string id="sms_kolm_stroy">
+		<text>Well, eagles, are you ready? I know for many this will be the last battle. We must punish them! Many lives in your hands. Takes the position turntables on approach. Good luck.</text>
+	</string>
+	<string id="sms_pobeda">
+		<text>Hey, guys... If anyone still alive... This is a victory! We kicked their ass! Strelok, great job. I'm waiting for you at headquarters.</text>
+	</string>
+	<string id="sms_strelok_kluk_vopros1">
+		<text>Fang, here is the deal... Look at the map, or both may know - need trail through swamps in the direction of the old village.</text>
+	</string>
+	<string id="sms_strelok_kluk_vopros1_2">
+		<text>I'll not be alone. I fear my companion does not get through the whole Zone... Piligrim helped - he still remains in the Village.</text>
+	</string>
+	<string id="sms_kluk_perexod_derevny">
+		<text>Strelok, listen carefully. Map of wetlands has changed. Previously was a transition towards the village of dilapidated railway bridge, where the cave. But now there does not pass.</text>
+	</string>
+	<string id="sms_kluk_perexod_derevny_2">
+		<text>Not sure, but the path is now to start somewhere before the bridge... Approximate coordinates I throw off. Next - look in the box.</text>
+	</string>
+	<string id="sms_kluk_pili_lovushka">
+		<text>Strelok, there is an urgent matter. Pilgrim was trapped in the new territory.</text>
+	</string>
+	<string id="sms_kluk_pili_lovushka_2">
+		<text>Details I do not know. Sending the coordinates - he was in Pripyat, now... go see the Black Doctor in Limansk, should help you find him... so move quickly!</text>
+	</string>
+	<string id="sms_vill_klenov">
+		<text>Strelok, there are problems in your case. You cannot do without the aid. If you're near the War Lab - have a look.</text>
+	</string>
+	<string id="sms_warl_kolmogor">
+		<text>Strelok, we have problems - or rather me. Panther and along with him Pilgrim have vanished. Hell knows where they disappeared to - in the village until it feels calm. You do not know?</text>
+	</string>
+	<string id="sms_warl_gg_pili">
+		<text>Pilgrim, what's going on? Where are you and Panther?</text>
+	</string>
+	<string id="sms_warl_pili_gg_otvet">
+		<text>Girlfriend has fled. I have pre-planted a bug, but radius is just a couple of kilometres. Lost signa, not walking.. must be by vehicle, I even run on shortcuts but could not catch up..</text>
+	</string>
+	<string id="sms_warl_pili_gg_otvet_2">
+		<text>Judging by everything - no one is - met with someone. The last signal is caught from the Red Forest. Wait a village in return, you must inform Kolmogor</text>
+	</string>
+	<string id="sms_agro_torgash">
+		<text>Please do not open fire on my helicopter. This is a legal mobile commerce in the Zone. If you have bulk items to sell, we'll be landing shortly near the Agroprom railway tunnel...</text>
+	</string>
+	<string id="sms_gg_black_doc1">
+		<text>I know that Panther needs me alive. You should not try to blackmail me, I am much like you, but I still have a conscience and the notion of friendship, which makes me doubly dangerous.</text>
+	</string>
+	<string id="sms_otsroch">
+		<text>Hi, this is Panther. I hope the message will come after my escape, because I know that you stop me if I told you this before. I sent a SMS with the threat against his older brother...</text>
+	</string>
+	<string id="sms_otsroch_2">
+		<text>I do not want to lose, so go to this meeting. With whom, and what they want from me, and what will happen next - is unknown. Sorry... Kolmogor not need to say anything...</text>
+	</string>
+	<string id="sms_gg_black_doc2">
+		<text>The chief said that you were mistaken. We have no girlfriend - neither one nor the second. The approximate location of one of them - Generators.</text>
+	</string>
+	<string id="sms_gg_black_doc2_2">
+		<text>The chief also said thank you to you - the one dish that you bring Maples - it was stolen two days ago, just with a generator. End of line.</text>
+	</string>
+	<string id="sms_gg_black_doc3">
+		<text>Fang, hello. Need a trail in the direction of the generators. Help me out.</text>
+	</string>
+	<string id="sms_gg_black_doc4">
+		<text>Hello. It was the path from the station. Ghost expert on that area, now get back to him.</text>
+	</string>
+	<string id="sms_gg_black_doc5">
+		<text>Strelok, hello, old man. There is a path with NPP1, though there's a long time I did not used to go.</text>
+	</string>
+	<string id="sms_gg_black_doc5_2">
+		<text>Let's go together. I'll wait for you to NPP1 at the exit trail from NPP2 - this transition you must know. Prior to the meeting.</text>
+	</string>
+	<string id="sms_gg_black_doc6">
+		<text>Yes, I know this place. Ge... You have decided to take a walk with me? See you soon.</text>
+	</string>
+	<string id="sms_ubit_glavar">
+		<text>Strelok, things were bad. I do not see the leader of punishers. Low vertuha went for a second landing on the other side of the village, and he is obviously there.</text>
+	</string>
+	<string id="sms_ubit_glavar_2">
+		<text>While we're holding the fort - your task to clean up. A man. Your cannon will help you in this</text>
+	</string>
+	<string id="sms_pili_zayti_after_antenna">
+		<text>Strelok, I still remained in the country. You'll be close - sign - to discuss a plan of action.</text>
+	</string>
+	<string id="sms_actor_trup">
+		<text>Strelok, buzz off from there, quick! Another few seconds and you're dead!!</text>
+	</string>
+	<string id="sms_uchenuy_pobeg">
+		<text>Keith, hello, it's Countryman. Tonight the base generators scientist and I escaped.</text>
+	</string>
+	<string id="sms_uchenuy_pobeg_2">
+		<text>Do you have a head light, you will close - sign - think about what to do. What would have followed him in the guest to Monolith</text>
+	</string>
+	<string id="sms_pipets_vert_zadanie">
+		<text>Looks like a Stalker, you failed my mission. Time out. Come.</text>
+	</string>
+	<string id="sms_hit_heli_hit1">
+		<text>Pipets. Some idiot to shoot at us. Suicide.</text>
+	</string>
+	<string id="sms_hit_heli_hit2">
+		<text>I spotted the enemy that was firing at our helicopter. Blast his ass!</text>
+	</string>
+	<string id="sms_hit_heli_hit3">
+		<text>All data transfers have finished. To hell with this freak. Up out lest that Schwarzenegger get the bottom of the Bazooka.</text>
+	</string>
+	<string id="sms_hit_heli_hit4">
+		<text>That blah, this asshole has struck turbine... We're on fire!!</text>
+	</string>
+	<string id="sms_hit_heli_hit5">
+		<text>I gave this android a piece of the monolith in the well... stuffed!!</text>
+	</string>
+	<string id="sms_frits1">
+		<text>Wait, Stalker. Without permission of our elder you can not miss. Go to the countryman - he's in charge here.</text>
+	</string>
+	<string id="sms_frits2">
+		<text>I may be dumb, but I have excellent hearing. I heard your conversation. Can you pass..</text>
+	</string>
+	<string id="sms_frits3">
+		<text>Countryman, here with us guests arrived. Send one to you. Wait.</text>
+	</string>
+	<string id="sms_frits4">
+		<text>Something you often to the scientist. Skorifanilis? Okay, okay, kidding. Come.</text>
+	</string>
+	<string id="sms_frits5">
+		<text>Well you give! Do you have in there, bees to honey? You walk in 5 minutes! Okay, moving on.</text>
+	</string>
+	<string id="sms_doc_letit">
+		<text>Please do not worry and all remain on the ground. We will be landing a chopper with guests. They reported that they fly with peaceful purposes.</text>
+	</string>
+	<string id="sms_dok_ot_andersena_letit">
+		<text>Strelok, I finished the conversation with Andersen. Tell this to the true Aryans, who it protects, so I let it go.</text>
+	</string>
+	<string id="sms_sekretnuy_vuhod">
+		<text>The men, who are alive - let the subway - the leader leaves!!</text>
+	</string>
+	<string id="sms_sekretnuy_vuhod_1">
+		<text>It seems there is another chopper. Here blah...</text>
+	</string>
+	<string id="sms_boloto_k_doku">
+		<text>Doctor, I have here a hitch. Man found, but he was drunk and did not reach the generators. Ruin, curse, but for us send a chopper to the Swamps</text>
+	</string>
+	<string id="sms_ot_doka_o_verte">
+		<text>A helicopter was sent. Put forward side of the cemetery on a hill near the old church.</text>
+	</string>
+	<string id="sms_boloto_k_prizraku">
+		<text>Ghost, this Strelok. Soon I will. This Bosun drunk as a boa constrictor. Any news?</text>
+	</string>
+	<string id="sms_boloto_ot_prizraka">
+		<text>Yes, Strelok, news is, and besides amusing. Waiting.</text>
+	</string>
+	<string id="sms_70m_vert">
+		<text>I'm on approach. Go up the hill, where the cemetery.</text>
+	</string>
+	<string id="sms_letchik_1">
+		<text>I noticed a group of bandits just under the clasp. You will have to deal with them - landing in front of them too dangerous. The helicopter is not armed. Before we pick-up.</text>
+	</string>
+	<string id="sms_rugan_gg">
+		<text>Here blah. All something that is not so. Bosun, hide nearby, your drunken body needs me alive. And I'll deal with the Bandits.</text>
+	</string>
+	<string id="sms_letchik_2">
+		<text>Looks like everything is clear. Was a tall tale? I'll go for a second landing. Check just in case.</text>
+	</string>
+	<string id="sms_udav_v_vert">
+		<text>Bosun, spinner landed. Blow quickly in the helicopter!</text>
+	</string>
+	<string id="sms_udav_sel">
+		<text>I'm here in the helicopter. Well technically here. Oh, hell, I forgot to piss. I hope that does not fly for too long, otherwise.</text>
+	</string>
+	<string id="sms_marsh_udav_pogib">
+		<text>Doc, Bosun died... I know that there is no alternative... Do not disable us without a psy-antenna.</text>
+	</string>
+	<string id="sms_udav_antenna_1">
+		<text>First one disabled. It is set at the gates of the base. I walked.</text>
+	</string>
+	<string id="sms_udav_antenna_2">
+		<text>The second antenna is also turned off - it is a bunker. Then look at me like an idiot - can be seen can not understand how I passed.</text>
+	</string>
+	<string id="sms_udav_antenna_2_2">
+		<text>There must have been twenty people on the towers, all in white scientific costumes, and all well-armed. I needed to see a scientist who repairs antennae...</text>
+	</string>
+	<string id="sms_udav_antenna_3">
+		<text>Third antenna is not working. Girls nowhere in sight. Since scientists do not talk. I see chopper, preparing to take off, obviously. Now sit back for a moment at the campfire.</text>
+	</string>
+	<string id="sms_udav_antenna_4">
+		<text>Ghost, while the psi-field is still active. I'll wait for the return of Bosun near the border of the field, have a couple of questions. Will have to agree how we will proceed.</text>
+	</string>
+	<string id="sms_priz_bomz">
+		<text>Ghost, brought to you by the homeless education. A couple of hours he must be sober and adequate.</text>
+	</string>
+	<string id="sms_fritz_shturm_mat">
+		<text>Banzai! Urine freaks! Ept... What s... here min guided, n... to! Hey, guys, who are close! Reassure the monkey on the tower! This is from...</text>
+	</string>
+	<string id="sms_fritz_shturm_mat_2">
+		<text>My head does not pick up! That bitch, I told him now, his spacesuit on ass bent, goat. Astronaut, his mother!!</text>
+	</string>
+	<string id="sms_fritz_shturm_mat_1">
+		<text>Ghost, you hear? Here is a question... Can robots swear like a cobbler?</text>
+	</string>
+	<string id="sms_black_heli">
+		<text>Hey, world! I see you there stormed the Reichstag? In carefully - go to land, no hook - Black Doctor sent reinforcements.</text>
+	</string>
+	<string id="sms_solvador_1">
+		<text>They went through an underground tunnel and the girl was led away. Entrance to the tunnel located between the fire and the tower.</text>
+	</string>
+	<string id="sms_ne_strelyt">
+		<text>Guys, an the second chopper don't shoot! Panther, probably there.</text>
+	</string>
+	<string id="sms_mu_opozdaly">
+		<text>Boss, it looks like we're too late. The girl is dead. Did everything they could.</text>
+	</string>
+	<string id="sms_mu_opozdaly_1">
+		<text>Sapsan, send me a helicopter. I'm arriving in person. Maybe even something you can do.</text>
+	</string>
+	<string id="sms_mu_opozdaly_2">
+		<text>Strelok, stay in place, I will soon arrive to the scene.</text>
+	</string>
+	<string id="sms_boy_1">
+		<text>Guys, hold on - chopper skyrocketed, now would be ironed.</text>
+	</string>
+	<string id="sms_boy_2">
+		<text>It seems that she is not alone - see the second helicopter - comes from the village. We decided to clamp pliers. It is necessary to disperse. I will come from the right flank.</text>
+	</string>
+	<string id="sms_boy_2_1">
+		<text>Yes, you understand. Come to the right, and I am going through a broken gate.</text>
+	</string>
+	<string id="sms_boy_3">
+		<text>E. You just take a look, what they are doing - it seems the second propeller is on our side.</text>
+	</string>
+	<string id="sms_plan_zahvata_1">
+		<text>Ghost. All ok, we go back. Need a plan to capture. Together, we will not do. I plan Fritz team up with his abilities.</text>
+	</string>
+	<string id="sms_plan_zahvata_2">
+		<text>Well, you gave. He did not... Well, I told you. Strong risk. Okay, come have a chat.</text>
+	</string>
+	<string id="sms_podgotovka_zahvata_1">
+		<text>The doctor is again Strelok. Without your support we cannot take the base alone. I hope you get the hint. We are not heroes of the Matrix, with time to spare.</text>
+	</string>
+	<string id="sms_podgotovka_zahvata_2">
+		<text>Fritz, a business proposal - there is an opportunity to polish your skills. We plan to walk to the base of the monolith, you're among those invited.</text>
+	</string>
+	<string id="sms_podgotovka_zahvata_2_2">
+		<text>Going? For now, Andersen is a serious security, and you have the rare opportunity to blow the dust off your gun.</text>
+	</string>
+	<string id="sms_podgotovka_zahvata_3">
+		<text>Sapsan here. The chief said that will help you.</text>
+	</string>
+	<string id="sms_podgotovka_zahvata_4">
+		<text>Well, I'll stroll along with you. What exactly do you want? I've been on this basis.</text>
+	</string>
+	<string id="sms_podgotovka_zahvata_5">
+		<text>That's fine. Once visited, you know that the other base has no fence. Stop there and wait for the signal. Do not sunk prematurely.</text>
+	</string>
+	<string id="sms_podgotovka_zahvata_5_2">
+		<text>How will the noise - Check slaughtered his machine gun at anything that moves, except me, Ghost and girls. I hope you know what a girl looks like?</text>
+	</string>
+	<string id="sms_podgotovka_zahvata_6">
+		<text>Got it, do it. How are the girls - I forget, but before I kill someone - I will ask about this.</text>
+	</string>
+	<string id="sms_mat_1">
+		<text>Oh, boy, do not joke, otherwise I'll turn you into a cloud of molecules.</text>
+	</string>
+	<string id="sms_pony_1">
+		<text>Got it, Strelok.</text>
+	</string>
+	<string id="sms_spasibo_frits_1">
+		<text>Fritz, thank you for your help. While I do not know how to repay you, but I sure will. You can stay at the base, if you want.</text>
+	</string>
+	<string id="sms_spasibo_frits_2">
+		<text>And not for that. I was quite enough thank you. Yes, I still stay on the base. I would need - find.</text>
+	</string>
+	<string id="sms_sapsan_ulet">
+		<text>All boss is gone. I wait with a group to protect the base.</text>
+	</string>
+	<string id="sms_dok_podvox_1">
+		<text>I write to you myself, though not very fond of this occupation. Looks like someone duped us. Found a corpse, but not hers. Although for you - it is probably very good news. Not for me.</text>
+	</string>
+	<string id="sms_dok_podvox_2">
+		<text>Doc, your base that you are not satisfied? It's in my pile of problems and issues. Yes, I am glad that Panther alive, and glad you told me the truth.</text>
+	</string>
+	<string id="sms_dok_podvox_3">
+		<text>I want my stolen artefact. That girl who dragged him, still not found. The second problem - I need energy, and two working generators are not enough.</text>
+	</string>
+	<string id="sms_dok_podvox_3_2">
+		<text>In addition, control panels are located in War Lab. The door there is encrypted and who are now in the laboratory - is unknown</text>
+	</string>
+	<string id="sms_dok_podvox_4">
+		<text>The code I know, and the door will open. I even know who is now in War Lab. And I know that your people there cannot go without protection.</text>
+	</string>
+	<string id="sms_dok_podvox_4_2">
+		<text>I can contribute, but I need some information - namely, all that you have on the Astrologer - I understand that until recently he was your man.</text>
+	</string>
+	<string id="sms_dok_podvox_5">
+		<text>All right. Try to open the door to War Lab. When - not in a hurry to leave - I will send to you my man. Meet him at the transition into the hospital.</text>
+	</string>
+	<string id="sms_dok_podvox_5_2">
+		<text>You know where it is located - at the barrier, which is an old military road in the concrete generators. I'll give a file on the Astrologer. The rest - at the meeting.</text>
+	</string>
+	<string id="sms_dok_podvox_6">
+		<text>Ghost, I contacted the doctor, rather, he contacted me. He was honored in the issue with Panther.</text>
+	</string>
+	<string id="sms_dok_podvox_6_2">
+		<text>In short, I check the code, inspect the crossing and walk towards the transition to the hospital - there hands full of - Doc promised to send a dossier on the Astrologer.</text>
+	</string>
+	<string id="sms_dok_trupak">
+		<text>Doc, I'm sorry, but your people hankering for a good artefact climbed into the anomalous zone. He was dead. The documents close, but getting them is now a problem.</text>
+	</string>
+	<string id="sms_idu_na_nz_1">
+		<text>Ghost, I'm on Undiscovered Land. Stay in here. You will see an Astrologer, do not touch him - I'll strangle him. Do not worry, Fang will help me..</text>
+	</string>
+	<string id="sms_idu_na_nz_2">
+		<text>Understand you. As for Black Doctors Think, I'm almost sure: it not strange that an eminent scientist distinguished stuffed corpse just arriving at the hospital?</text>
+	</string>
+	<string id="sms_idu_na_nz_2_2">
+		<text>I still cannot believe that the Peregrine Falcon in his mask did not see Fritz, that women don't see.. But the doctor? That's for your meditation while walking. Give Fang my greetings.</text>
+	</string>
+	<string id="sms_idu_na_nz_3">
+		<text>FANG, hello. It smells of roasted Astrologer. We must find the secret cave on Recon. I will try do it. Bury snaryagu, meet at our new headquarters. Yeah, Ghost offers you greetings.</text>
+	</string>
+	<string id="sms_idu_na_nz_4">
+		<text>Hello. Long time no news from you, I really thought that the Maldives rest. I understand you, I'll be in the headquarters of Reconnoitered Territory. Try to find out where this cave is...</text>
+	</string>
+	<string id="sms_peshera_naydena_1">
+		<text>Fang, I found a cave. In it there is someone, it seems - neutral. Probably Astrologer. Check can not - Teleport is still active.</text>
+	</string>
+	<string id="sms_peshera_naydena_2">
+		<text>I understand you - I am in the headquarters, come, let us discuss what to do. Alone in a cave not poke your nose - neutral-neutral, as you know what's on his mind.</text>
+	</string>
+	<string id="sms_kluk_na_meste_1">
+		<text>We came. Occupy a position somewhere in the stones - in the case of uninvited guests.</text>
+	</string>
+	<string id="sms_kluk_shuher_1">
+		<text>Strelok, what have you got? What is so creepy screams? Something I can not recall such a crybaby.</text>
+	</string>
+	<string id="sms_kluk_shuher_2">
+		<text>Yes it would be better mutant... Do not believe it - we found the girl who stole the artefact. Only fit for her - it happens in the Zone.</text>
+	</string>
+	<string id="sms_kluk_shuher_3">
+		<text>Leave until it and Blow up - it seems we have guests. I knew it would be...</text>
+	</string>
+	<string id="sms_na_predesant">
+		<text>We will fit. Prepare, but do not shoot too soon - look at the guests first.</text>
+	</string>
+	<string id="sms_posadka_pant_1">
+		<text>And here is the company... Look, Strelok, looks like your girl goes willingly, at least she has a weapon. Now I'll shoot them a couple of shots of both.</text>
+	</string>
+	<string id="sms_posadka_pant_2">
+		<text>It's not mine, and her chance to be missed. But I had fun, the master send-up. Shooting wait. Let's see what happens next, at least until they are only two.</text>
+	</string>
+	<string id="sms_posadka_pant_3">
+		<text>It seems they want to talk, and obviously with you. Go and find out their last wishes, and I'll cover you. One hint of aggression on their part - and they are both dead.</text>
+	</string>
+	<string id="sms_pant_proschay_1">
+		<text>Forgive me for troubling you again. I'm confused. Don't worry, not asking for help, do I have the most to understand all. Much of what is happening to me.. is not entirely clear.</text>
+	</string>
+	<string id="sms_pant_proschay_1_2">
+		<text>Meanwhile, listen to what I do know: There is no draft O-consciousness, as well as not the Black Doctors.</text>
+	</string>
+	<string id="sms_pant_proschay_2">
+		<text>Not passed for 5 minutes and you tortured my conscience? Or is this another trick? What kind of fiction you write? As this is not a Black Doctor?</text>
+	</string>
+	<string id="sms_pant_proschay_2_2">
+		<text>My eyes still see something, however much they do not want to see - and this applies to you.</text>
+	</string>
+	<string id="sms_pant_proschay_3">
+		<text>You set strongly against me, and my job required me to get the artefact is not feasible. With this I will have to resign. That's why I told you what I know.</text>
+	</string>
+	<string id="sms_pant_proschay_3_2">
+		<text>Maybe this will help you find the true answer to the mystery of the Zone. And believe it or not - it's your business. Goodbye.</text>
+	</string>
+	<string id="sms_pant_proschay_3_3">
+		<text>You're a good Stalker and I'm glad you were my friend. And even more than the other...</text>
+	</string>
+	<string id="sms_pant_proschay_4">
+		<text>Fang, all, I set sail on War Lab - to Maples. Here interesting information came at the expense of Black Doctors - must then be verified.</text>	<!-- Changed 'Klenow' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="sms_muha_bazar">
+		<text>Strelok, you have not yet gone that far? Come back, like a girlfriend wants to talk. Seize the moment. By the way, her name is Fly.</text>
+	</string>
+	<string id="sms_muha_bazar_1">
+		<text>That's not the road... Okay, back.</text>
+	</string>
+	<string id="sms_voronin_voen_1">
+		<text>Strelok, I contacted the military. It was something... Stirring citizens in uniform. We will send accurate information, wait. Yes, and energy not to aggravate.</text>
+	</string>
+	<string id="sms_voronin_voen_2">
+		<text>Now - listen carefully. According to available data from the military side of the number 124 was shot down or hit by strong emissions over NPP2.</text>
+	</string>
+	<string id="sms_voronin_voen_2_2">
+		<text>At the same time it has lost two helicopters - is evidence - in the same area. The exact location can be set getting a black box with this 124-th.</text>
+	</string>
+	<string id="sms_voronin_voen_2_3">
+		<text>However, it is extremely problematic - the signal from the flight recorder comes from a roof destroyed 4 blocks...</text>
+	</string>
+	<string id="sms_voronin_voen_3">
+		<text>Well, General, puzzled. Crap knows that now and do. In the area of radiation bulbs burn without electricity...</text>
+	</string>
+	<string id="sms_voronin_voen_4">
+		<text>Decide. When you go, no one hero to think you will not - probably would be called crazy. Do you have any hint, where the girlfriend, if you still make up your mind to this madness.</text>
+	</string>
+	<string id="sms_voronin_voen_4_2">
+		<text>Just in case, throw off your PDA in the photo of this aircraft.</text>
+	</string>
+	<string id="sms_voronin_voen_5">
+		<text>Fang, beard with a recorder. Wert 124 on the roof disaster. Stop there - otherwise there. You take care of the girlfriend, but Panther together - let them weep, if I do not return.</text>
+	</string>
+	<string id="sms_voronin_voen_6">
+		<text>Strelok, you have the roof torn off. Today the people have truth and to not go near a stall, and you go on the roof of a reactor. It's worth it? If you believe, go. You'd give to know.</text>
+	</string>
+	<string id="sms_chaes2_kluk_1">
+		<text>FANG, I found this damn recorder. I went back to Voronin - let's decode.</text>
+	</string>
+	<string id="sms_chaes2_kluk_2">
+		<text>Strelok, now that you're there. This can not be done - what are you, the military did not know? Return after decoding back to the station, they are checking all the coordinates.</text>
+	</string>
+	<!-- corrected: "sms_chaes2_kluk_2" to a "sms_chaes2_kluk_2_2" - 109999 - aleks1970 -->
+	<string id="sms_chaes2_kluk_2_2">
+		<text>Only one way out - look for yourself knocked chopper - they should not be so much. Pay attention to those where there are dead bodies in black Armor, it must be exactly the turntables.</text>
+	</string>
+	<string id="sms_chaes2_kluk_3">
+		<text>Yes, you're right. First, he examined all lined helicopters.</text>
+	</string>
+	<string id="sms_iz_moskvy_1">
+		<text>Hey, how are you... A. Strelok. Where's my granddaughter? Answer, mmmat!!</text>
+	</string>
+	<string id="sms_iz_moskvy_2">
+		<text>Well, and how are you... General. I have your granddaughter, do not worry.</text>
+	</string>
+	<string id="sms_iz_moskvy_3">
+		<text>Okay, not dust. Sorry. Thank you found her, if it's true. Where can she be picked up?</text>
+	</string>
+	<string id="sms_iz_moskvy_4">
+		<text>True. Here's the coordinates for landing the helicopter. Dragonfly should be one, otherwise the rest of us wings alone, usual case for the Zone. Yes, Voronin, do not forget to thank.</text>
+	</string>
+	<string id="sms_iz_moskvy_5">
+		<text>Understood. Do not worry, gratitude, and do not forget about you. The helicopter flew from its base in 5 minutes.</text>
+	</string>
+	<string id="sms_dosvidanie_devchonka">
+		<text>Boys goodbye!! I love you and wait for a visit to Moscow!</text>
+	</string>
+	<string id="sms_pilot_muhi">
+		<text>Tob. General, the operation was successful. The girl was taken away, a box with a present left. We return to base.</text>
+	</string>
+	<string id="sms_vzruv_aver_vert_1">
+		<text>DAMN, burning! What a hell of bazooka fired. Ah, I see them! In the fishing line on a hill - group of Stalkers. That bitch! Move toward the cabin.</text>
+	</string>
+	<string id="sms_vzruv_aver_vert_2">
+		<text>The machine does not obey the helm. Pull of the marsh, girlfriend need to push the water, can survive...</text>
+	</string>
+	<string id="sms_vzruv_aver_vert_3">
+		<text>The machine does not obey the helm. Pull of the marsh, girlfriend need to push the water, can survive...</text>
+	</string>
+	<string id="sms_vzruv_aver_vert_4">
+		<text>A Mmat, now ragged! Everybody jump overboard, alive! Fucking kitten...</text>
+	</string>
+	<string id="sms_after_die_muha_1">
+		<text>What the fuck is going on there, soldiers?!</text>
+	</string>
+	<string id="sms_after_die_muha_2">
+		<text>Poor thing, General. Heli shot down. Your granddaughter... she... she was heavily wounded. I send her and another soldier survived to the doctor.</text>
+	</string>
+	<string id="sms_after_die_muha_2_2">
+		<text>It's not my fault. I will do everything in my power. I understand your feelings, but if there will be news - I'll contact you. Finish connection.</text>
+	</string>
+	<string id="sms_after_die_muha_3">
+		<text>Doctor, here's coordinates. Need your help. Man died. A simple man, far from the Zone and from the mud of life. Try to do something. Objections will not be accepted.</text>
+	</string>
+	<string id="sms_after_die_muha_3_2">
+		<text>I have things that interest you. But I think that life is expensive these wrappers.</text>
+	</string>
+	<string id="sms_after_die_muha_4">
+		<text>All right. Helicopter crash. But I want to warn you of stasis - to adequately secure the camera on the resurrection I need energy. Now it is not enough.</text>
+	</string>
+	<string id="sms_after_die_muha_4_2">
+		<text>You need to communicate with scientists at the generators and help them to start the third generator. After, if all goes well, will be another request.</text>
+	</string>
+	<string id="sms_after_die_muha_5">
+		<text>Fang, Fly died. I am sending the body to the Black Doctor. He survived one of the soldiers - gave me a couple of photos of that knocked copter. This is a Monolith. And commanded them.</text>
+	</string>
+	<string id="sms_after_die_muha_5_2">
+		<text>Our mutual friend - Astrologer.. They fired from the cave, where Fly was. Put forward there' can succeed this jerk kettle immediately loosen. As for cabin? Like Monolith to see you go.</text>
+	</string>
+	<string id="sms_after_die_muha_6">
+		<text>Perished? I have attached to it a good girlfriend was... Everything is quiet so far. Look here... Do not touch her, if you see. I beg you. For this bitch I'll settle accounts.</text>
+	</string>
+	<string id="sms_after_die_muha_6_2">
+		<text>Was Panther with him at the same time?? If so - they decided both. Word of prison detainees, even though I had long and tied up. These people have no right to life..</text>
+	</string>
+	<string id="sms_after_die_muha_6_3">
+		<text>and our humane Court, which will seat 10 years for stealing the money, and the murder would conditionally couple of years will not help here. In the Zone - it's laws.</text>
+	</string>
+	<string id="sms_mono_netu_1">
+		<text>Fang, I'm on the spot. It seems, went to the children. Good luck to them. Do you still stay in the cabin, suddenly kids playground where, but I'm on generators with scientists</text>
+	</string>
+	<string id="sms_mono_netu_1_2">
+		<text>Need help to start the third generator. Yes, you see Panther - Do not touch her, plox.</text>
+	</string>
+	<string id="sms_mono_netu_2">
+		<text>Understood. There will be news - will tell. Say hello to Ghost.</text>
+	</string>
+	<string id="sms_mono_netu_3">
+		<text>Lucas, hello. Ask your intelligence - if you see Astrologer, let advised.</text>
+	</string>
+	<string id="sms_mono_netu_4">
+		<text>Voronin, hello, sir. We got no-go - you've probably aware of. Tell your people - see Astrologer - let advised.</text>
+	</string>
+	<string id="sms_mono_netu_5">
+		<text>Panther, answer.</text>
+	</string>
+	<string id="sms_mono_netu_6">
+		<text>PDA device switched off or out of network coverage...</text>
+	</string>
+	<string id="sms_vitamin_posrednik_1">
+		<text>Vitamin, hello. Here is the thing that is important for me. It is necessary to miss a couple of scientists from the surface to the control panel generators in War Lab.</text>
+	</string>
+	<string id="sms_vitamin_posrednik_1_2">
+		<text>These neutrals, and the people for whom they work - too</text>
+	</string>
+	<string id="sms_vitamin_posrednik_2">
+		<text>Hello, Strelok. Keeping in mind your help - I will say one thing - option acceptable to us, but these people will be a number of conditions.</text>
+	</string>
+	<string id="sms_vitamin_posrednik_2_2">
+		<text>Exit onto the surface of War Lab function - can send a man to negotiate. Waiting for your signal.</text>
+	</string>
+	<string id="sms_vitamin_posrednik_3">
+		<text>Doctor, please send your man to Generators.. freedom, those that are at War Lab, put forward a number of conditions for the passage of the scientists. Must discuss these conditions.</text>
+	</string>
+	<string id="sms_vitamin_posrednik_4">
+		<text>No problem. Tell Freedom, that we agree to discuss terms. Let him send a representative. Black Doctor will represent me.</text>
+	</string>
+	<string id="sms_vitamin_posrednik_4_2">
+		<text>The meeting will be at the entrance to War Lab from the generators, so that means you do not have to go.</text>
+	</string>
+	<string id="sms_vitamin_posrednik_5">
+		<text>Vitamin, dispatches one representative. Waiting.</text>
+	</string>
+	<string id="sms_sv_chern_peregovor_1">
+		<text>Hello masters of Freedom. The essence of the negotiations, you know. Your environment?</text>
+	</string>
+	<string id="sms_sv_chern_peregovor_2">
+		<text>Mutual greetings. I have been instructed to propose the following: We miss your scientists and provide unrestricted access to virtually all the necessary facilities.</text>
+	</string>
+	<string id="sms_sv_chern_peregovor_2_2">
+		<text>Their protection also take care of our people. In exchange, you need half a million in cash and access to our soldiers on the surface</text>
+	</string>
+	<string id="sms_sv_chern_peregovor_2_3">
+		<text>Preferably a barrier in the old concrete strip would like to organize a small camp to relax people and access control to a nearby transition. Naturally, your people have free access.</text>
+	</string>
+	<string id="sms_sv_chern_peregovor_3">
+		<text>Been instructed to take all of your conditions. From finance, without any problems. As for the camp: this area is not yet under our supervision, to my knowledge just remnants fanatics.</text>
+	</string>
+	<string id="sms_sv_chern_peregovor_3_2">
+		<text>But I have a solution - we send Strelok on the trimming of the territory, after which you can easily go Okay...</text>
+	</string>
+	<string id="sms_sv_chern_peregovor_4">
+		<text>Eh.. Young people... Sorry, if this breaks your cute bartering, but why the hell I should do it? Or do you like the Pros not having the courage to clear himself his own territory?</text>
+	</string>
+	<string id="sms_sv_chern_peregovor_5">
+		<text>Well, you see, Strelok... As long as you like in arrears at the Black Doctor. You're much to all of us did, but the work must be brought to the finish..</text>
+	</string>
+	<string id="sms_sv_chern_peregovor_5_2">
+		<text>the more you're interested in it. However, you can refuse, at this stage we can agree without you.</text>
+	</string>
+	<string id="sms_sv_chern_peregovor_6">
+		<text>Sapsan, if you do not know, I long to spit on the quantity and quality of my enemies. I hope you do not want to fill up a list of my victims, so no need to put my conditions.</text>
+	</string>
+	<string id="sms_sv_chern_peregovor_6_2">
+		<text>No problem, I reconnoiter the situation at the barrier, but in Troy ass added a splinter, if you're going to continue to decide for me what to do and what not.</text>
+	</string>
+	<string id="sms_sv_chern_peregovor_6_3">
+		<text>I hope you gentlemen agreed. Can diverge. SCIENTISTS I say, let them go in War Lab, and after'll get more needful for you business.</text>
+	</string>
+	<string id="sms_u_shlagbauma_1">
+		<text>Sapsan, issues have been decided at the barrier. You can proudly announce to freedom - they can send people.</text>
+	</string>
+	<string id="sms_u_shlagbauma_2">
+		<text>Solvador, as there are you doing?</text>
+	</string>
+	<string id="sms_u_shlagbauma_3">
+		<text>We have everything ready. It is necessary to monitor the launch.</text>
+	</string>
+	<string id="sms_u_shlagbauma_3_2">
+		<text>Go to the field generators, look for a third, semi-workers - he should stand repair boxes. How come - let me know, will try to start.</text>
+	</string>
+	<string id="sms_u_tretego_generatora_1">
+		<text>Solvador, I'm on the spot. What's next?</text>
+	</string>
+	<string id="sms_u_tretego_generatora_2">
+		<text>Nothing. Just stop and look. Generator is muffled, try at once to activate - the wires should go to current, and over the generator will be an electric field. Well?</text>
+	</string>
+	<string id="sms_u_tretego_generatora_3">
+		<text>And it does.</text>
+	</string>
+	<string id="sms_u_tretego_generatora_4">
+		<text>It does? That ept... Andes, mmat, you do not bungle???</text>
+	</string>
+	<string id="sms_u_tretego_generatora_5">
+		<text>Wow, Pundits have mastered the thieves' vocabulary. Well Dyk that there?</text>
+	</string>
+	<string id="sms_u_tretego_generatora_6">
+		<text>All, the order of the peasants, earned!</text>
+	</string>
+	<string id="sms_u_tretego_generatora_7">
+		<text>Strelok, hello. Astrologer has resurfaced. We must punish the monster! If you want to participate, I'll be waiting for you at the plant with running generators, you should know.</text>
+	</string>
+	<string id="sms_u_tretego_generatora_7_2">
+		<text>Look at the map NPP2 - trying to send label, where I am now. But, I warn you right away - if I see Panther - wetting the both of you!</text>
+	</string>
+	<string id="sms_mesto_gg_na_chaes2">
+		<text>Fang, In position. I can see the gate, through which must pass this jerk of all time.</text>
+	</string>
+	<string id="sms_kluk_pogib_1">
+		<text>Strelok, it seems we were wrong. Most of the group, apparently, changed the route. I see a chopper - landing near the group. They go, they go! You will not be able to make the chopper.</text>
+	</string>
+	<string id="sms_kluk_pogib_1_2">
+		<text>I will not shoot it down. Return to their places of our meeting, may still have time. Although there is an idea - see the APCs, such as another worker.</text>
+	</string>
+	<string id="sms_kluk_pogib_1_3">
+		<text>Ah, finally Tryahnu Antiquity. Farewell, Strelok, to all's ride with the breeze...</text>
+	</string>
+	<string id="sms_kluk_pogib_2">
+		<text>Fang, what are you thinking about? Eh, is that your drop - to hell with this Zvezdochet! Fang? Fang? That blah...</text>
+	</string>
+	<string id="sms_kluk_pogib_3">
+		<text>Fang, Get out of the BTR! I do not have time... Fang!!!</text>
+	</string>
+	<string id="sms_kluk_pogib_4">
+		<text>Quickly take off! Throw off the fuel, otherwise we can not manage!</text>
+	</string>
+	<string id="sms_kluk_pogib_5">
+		<text>Ah, the gun jammed... But you Zvezdochet, Chmoshnaya Shrimp in vain you rejoice. Catafalque already going. Pampers me, Elk, if have time..</text>
+	</string>
+	<string id="sms_after_kluk_pogib_1">
+		<text>Ghost, hello... I'm in NPP2 (North). Fang killed him... No more, nothing even to bury...</text>
+	</string>
+	<string id="sms_after_kluk_pogib_2">
+		<text>Strelok, are you serious? That blah, how come? Get out there, but then you are rubbish curve had to play the fool and he himself sguemish... I'm also not so good</text>
+	</string>
+	<string id="sms_after_kluk_pogib_2_2">
+		<text>Panther yours went to the hospital - to the Black Doctor. I went with her - she was like a cat - no, they say, one go... You would find out how things are.</text>
+	</string>
+	<string id="sms_after_kluk_pogib_3">
+		<text>Oh, is not easy... Ghost - Pilgrim... I'm in the hospital, we must finish the deal.</text>
+	</string>
+	<string id="sms_after_kluk_pogib_4">
+		<text>Doctor, what's new?</text>
+	</string>
+	<string id="sms_after_kluk_pogib_5">
+		<text>And, Strelok! You are very welcome. Here is your little girl arranged debauch. Agree with it unrealistic, more hard-bitten monster...</text>
+	</string>
+	<string id="sms_after_kluk_pogib_5_2">
+		<text>sorry, I have people in the Zone have not yet seen. Hurry to the hospital, otherwise it will be too late. Yes, and do not forget to bring the necessary artefacts.</text>
+	</string>
+	<string id="sms_nachalo_bazara_otsek">
+		<text>Ah, there you are, first of all ask soothe your girl. She brings insane demands and is too dangerous to handle weapons.</text>
+	</string>
+	<string id="sms_poshel_bazar_otsek">
+		<text>Yes, that's me. Let your people also lower the gun. Panther, this applies to you. Calm down, force here will not solve the problem, but to what end is heroism?</text>
+	</string>
+	<string id="sms_poshel_bazar_otsek_2">
+		<text>No, I would rather then take away the gun. Look, look at it - it is calm on the balcony. I have it tracked down..</text>
+	</string>
+	<string id="sms_poshel_bazar_otsek_2_2">
+		<text>it's not Black Doctor, just a manipulated hologram, but he himself is somewhere nearby. There is another reason - he was a second piece of Monolith...</text>
+	</string>
+	<string id="sms_poshel_bazar_otsek_3">
+		<text>If this is even true, then you were just lucky you're still alive. And why should he give a second heart Poltergeist if it had? It's like trying to take it from me.</text>
+	</string>
+	<string id="sms_poshel_bazar_otsek_4">
+		<text>He knows why. This artefact my father found a long time ago. With him, then began the story of O-consciousness of the zone.</text>
+	</string>
+	<string id="sms_poshel_bazar_otsek_4_2">
+		<text>But there was a second artefact, which, as it turned out, you proved to have... The Black Doctor picked up the first artefact from my father, his heavy radiation disease.</text>
+	</string>
+	<string id="sms_poshel_bazar_otsek_4_3">
+		<text>It is time to return the debt, the more so because he did not help him... I'll take the artefact and will give it to you - and you yourself decide what to do next.</text>
+	</string>
+	<string id="sms_poshel_bazar_otsek_5">
+		<text>Doctor, it's true?</text>
+	</string>
+	<string id="sms_poshel_bazar_otsek_6">
+		<text>Partly - yes, it's true. But - only at the expense of the hologram. Leave the girl at the bottom and rise here - teleport right.</text>
+	</string>
+	<string id="sms_poshel_bazar_otsek_7">
+		<text>Father? Is that you? How is it so and I... And you... So, do not hurt you quite...</text>
+	</string>
+	<string id="sms_poshel_bazar_otsek_8">
+		<text>Daughter... I have until this last moment not known that you were in the Zone and looking for me, this artefact... otherwise, everything would be different.</text>
+	</string>
+	<string id="sms_poshel_bazar_otsek_8_2">
+		<text>Now I come down to you, just say a couple words to your friend - do the rest should definitely finish.</text>
+	</string>
+	<string id="sms_sidor_mina">
+		<text>There's a mine under his foot and his comrade is already crippled. Somehow I was drawn to this sad romance...</text>
+	</string>
+	<string id="sms_k_generalu">
+		<text>General, hello. This is Strelok. With your grandaughter. See you soon.</text>
+	</string>
+	<string id="sms_k_prizraku">
+		<text>Ghost, hello. I, like, all happened. I'm going to fly to Agroprom. The trail opens somewhere near a village. Come.</text>
+	</string>
+	<string id="sms_k_prizraku_1">
+		<text>Ghost, hello. I am at Agro. The trail opens somewhere near a village.</text>
+	</string>
+	<string id="sms_k_muhe">
+		<text>Fly, let's go. Have to go far - to Agroprom.</text>
+	</string>
+	<string id="sms_atp_torgovetz">
+		<text>Marked One, a gray-haired man, if you remember this. I immediately noticed what you were noticeably less shred radishes... Tough as nuts, the tank directly.</text>
+	</string>
+	<string id="sms_atp_torgovetz_2">
+		<text>In short, Rambo, ended the genocide there, paused, eat the, so to speak Tviks... Not Tveks... I fuck knows, head and share it, pancake garbage abroad, fig pronounce.</text>
+	</string>
+	<string id="sms_atp_torgovetz_3">
+		<text>Better paused rubai Russian gematogen. You have a minute to collect odds and ends - my helicopter is landing at the bus stop that you have at hand. Parking as usual - 6-8 minutes.</text>
+	</string>
+	<string id="sms_sedoy_poka">
+		<text>Marked One, goodbye, yet meet. Uh, barely chopper in thy long loafs flew...</text>
+	</string>
+	<string id="sms_tu_sdurel">
+		<text>Hey, bro, are you crazy? This helicopter is the mobile merchant.</text>
+	</string>
+	<string id="sms_agro_muxa_1">
+		<text>Oh, we have gathered. Fly, let's go, quickly now.</text>
+	</string>
+	<string id="sms_agro_replika_1">
+		<text>Well, what, come on, went down, not wood you taking...</text>
+	</string>
+	<string id="sms_agro_boltobny_1">
+		<text>Fuck behold, gathered tops. Di... And how many truncated - Dad, truncated chiefs.</text>
+	</string>
+	<string id="sms_agro_boltobny_2">
+		<text>You're the tops. You're the dead man long ago, Row Otseda.</text>
+	</string>
+	<string id="sms_agro_boltobny_3">
+		<text>Sam you look dead. Get a mirror and look. Spit too?</text>
+	</string>
+	<string id="sms_agro_boltobny_4">
+		<text>Eh, the slope, not the politica? Who have gathered some here who would've talked first?</text>
+	</string>
+	<string id="sms_agro_boltobny_5">
+		<text>And let Kuznetsov talk. So to say - give the last word - and after I shot him, bribe-taker and a drunkard.</text>
+	</string>
+	<string id="sms_agro_boltobny_6">
+		<text>I'll shoot myself right now, cha, christmas tree, lesovichek, blah... informals all gathered here...</text>
+	</string>
+	<string id="sms_agro_boltobny_7">
+		<text>Young people, let us finish the introductory part of the negative. I see that you gathered here to share spheres of influence. Science does not care who is in charge of the Zone..</text>
+	</string>
+	<string id="sms_agro_boltobny_7_2">
+		<text>it's concern with only one question is: Will it remain in the general area after the recent events in the hospital? Rumored that she was man-made.</text>
+	</string>
+	<string id="sms_agro_boltobny_8">
+		<text>Hmm. Let us behave properly. All of us gathered here are good people, and it's clear that the accumulation of artefacts, money, and other possessions is not our goal. It was not the target.</text>
+	</string>
+	<string id="sms_agro_boltobny_8_2">
+		<text>We already have everything in sufficient quantity. We will provide these challenges for newcomers to profit, young pine stands.</text>
+	</string>
+	<string id="sms_agro_boltobny_8_3">
+		<text>For us - the Zone - it's a lifestyle, and we do not want it to disappear. And so - I address this question to the Marked One.</text>
+	</string>
+	<string id="sms_agro_boltobny_9">
+		<text>As far as I now know, nothing happens in the Zone - as it was, and will remain - at least - in the near future. Those who think that it is investigated are wrong. Enigmas still abound.</text>
+	</string>
+	<string id="sms_agro_boltobny_10">
+		<text>This is what we wanted to hear. And at the expense of zones of influence - we'll see after.</text>
+	</string>
+	<string id="sms_agro_boltobny_11">
+		<text>Well, then scatters. I've already warmed vodka under the bridge...</text>
+	</string>
+	<string id="sms_agro_boltobny_12">
+		<text>Wino...</text>
+	</string>
+	<string id="sms_agro_boltobny_13">
+		<text>Uncle Strelok, Shall I fly with these hucksters, and where's Uncle Fang?</text>
+	</string>
+	<string id="sms_agro_boltobny_14">
+		<text>Oh, girlfriend... We've been looking for him...</text>
+	</string>
+	<string id="sms_agro_boltobny_15">
+		<text>Oh, white and fluffy... Yes, and wearing glasses too. Come with us, he's fine...</text>
+	</string>
+	<string id="sms_agro_boltobny_16">
+		<text>Ara, Hog. You are already late. Fly with my friends. AH Fang... I'll tell him hello from you. Ghost, Doc, Pilgrim - do not say goodbye. I know where to find you.</text>
+	</string>
+	<string id="sms_agro_boltobny_16_2">
+		<text>The main thing - look after Fly, make sure nothing happens - I promised Fang... Yes, Kuznetsov - in front of a glass - to deliver the girl, her boss from Moscow - behold, became a Col.</text>
+	</string>
+	<string id="sms_agro_boltobny_17">
+		<text>Everything flew on home. But - again half an hour as a sprat bank will have to sit.</text>
+	</string>
+	<string id="sms_agro_boltobny_18">
+		<text>The last issue to the crowd: someone knows Who is Fritz? He is a German as far as the helmet goes.</text>
+	</string>
+	<string id="sms_agro_boltobny_19">
+		<text>No, definitely not ours - the Germans I don't know. Mercenary probably.</text>
+	</string>
+	<string id="sms_agro_boltobny_20">
+		<text>No, not ours. Yes, and where is a mercenary in a helmet going? Maybe he's a miner?</text>
+	</string>
+	<string id="sms_agro_boltobny_21">
+		<text>I do not have those. I do not like German helmets. We must ask a scientist.</text>
+	</string>
+	<string id="sms_agro_boltobny_22">
+		<text>Well, I cannot say, but it's not one of my prototypes... well, ie, I do not know of such.</text>
+	</string>
+	<string id="sms_agro_boltobny_23">
+		<text>In-in, the doctor, all you have there experimental. Schas, an hour later, we will hopefully change roles.</text>
+	</string>
+	<string id="sms_agro_boltobny_24">
+		<text>It seems, Strelok - or someone or something did not finish, or none of the audience does not really know.</text>
+	</string>
+	<string id="sms_agro_boltobny_24_2">
+		<text>A. Maybe he is from a new group? Nobody knows how far stretches the Chernobyl Zone, and who dwells there. Probably, Strelok, you'll have to figure it out yourself.</text>
+	</string>
+	<string id="sms_agro_boltobny_25">
+		<text>Okay, people, Hare Bazaar - see you again on the specifics drawn. Get into choppers, it's time to fly. And then, it seems, your deputies are waiting nervously that you do not arrive.</text>
+	</string>
+	<string id="sms_agro_boltobny_26">
+		<text>Yes, it's time.</text>
+	</string>
+	<string id="sms_agro_boltobny_27">
+		<text>Tuck, yet sit down - all anticipate - who me sunsets in the Dark Valley, in the dark and arrange.</text>
+	</string>
+	<string id="sms_agro_boltobny_28">
+		<text>Now arrival - I have their eagles send you to visit. with gifts in the form of demolition bombs. Gifts'll throw over the fence, and only then - will go to congratulate themselves.</text>
+	</string>
+	<string id="sms_agro_boltobny_29">
+		<text>Well, rushed... You fly so quickly that I... Intellectuals...</text>
+	</string>
+	<string id="sms_agro_boltobny_30">
+		<text>Strelok, I'll see you over a glass of tea. I'm in Pripyat until and then - we'll meet there. Fly! Come on, do not fall behind - we will not wait.</text>
+	</string>
+	<string id="sms_agro_boltobny_31">
+		<text>Yes, I'll go... Strelok, so long, and thanks! I'll be waiting for you and Fang!</text>
+	</string>
+	<string id="sms_agro_boltobny_32">
+		<text>Well, we must go. For happiness is not enough just to get it from the backpack and a Bazooka to shoot down a just flown away helicopter.</text>
+	</string>
+	<string id="sms_agro_boltobny_33">
+		<text>I've now the chopper turned around, but you comb out of minigun - but then I look at the covert your skull there is no place - on the face slid into a scar.</text>
+	</string>
+	<string id="sms_agro_boltobny_34">
+		<text>So long, Strelok! I'll be seeing you.</text>
+	</string>
+	<string id="sms_arh_finish_1">
+		<text>See, Strelok. We'll always meet. Turn around. Your Teleport, and the one you have lost - at the gates.</text>
+	</string>
+	<string id="sms_proschalnoe_1">
+		<text>See, Strelok. Maybe we'll meet again.</text>
+	</string>
+	<string id="sms_proschalnoe_2">
+		<text>Goodbye, Strelok. Truth Zone yet remained a secret for you.</text>
+	</string>
+	<string id="sms_proschalnoe_3">
+		<text>Be well, do not forget. Give us warm greetings to the ocean.</text>
+	</string>
+	<string id="sms_proschalnoe_4">
+		<text>Goodbye, Strelok. See you in the Zone...</text>
+	</string>
+	<string id="sms_td_preduprezhdenie1">
+		<text>Laboratory Quarantine Protection System activated. Please leave all artefacts at stages 1, 2, and 3 of development, plus absolutes, at the entrance before entering the laboratory.</text>
+	</string>
+	<string id="sms_td_preduprezhdenie1_2">
+		<text>Enabling Laboratory Quarantine Protection from possible negative impact of these artefacts.</text>
+	</string>
+	<string id="sms_td_preduprezhdenie2">
+		<text>Laboratory Protection System repeat warning: Please leave all artefacts at stages 1, 2, and 3 of development, plus absolutes, at the entrance before entering the laboratory.</text>
+	</string>
+	<string id="sms_td_preduprezhdenie2_2">
+		<text>Otherwise, these artefacts will be decontaminated, and their properties neutralized.</text>
+	</string>
+	<string id="sms_laba_skan_arts_1">
+		<text>Quarantine Protection System scanning laboratory for artefacts potentially dangerous to equipment and environment.</text>
+	</string>
+	<string id="sms_laba_skan_arts_2">
+		<text>Laboratory Quarantine Protection System re-scanning your person for artefacts potentially dangerous to equipment and environment.</text>
+	</string>
+	<string id="sms_von">
+		<text>GAG... What a stink... Even the filtration system does not suit decaying flesh. Inhabitants are dead or something exceptionally nasty...</text>
+	</string>
+	<string id="sms_sark_art_negoden">
+		<text>Shit! Not again...</text>
+	</string>
+	<string id="sms_bomba_vzruv">
+		<text>No shit... What are they transporting? A nuclear weapon or something?</text>
+	</string>
+	<string id="sms_spezdetektor">
+		<text>RFID tag detected. You are within 10m of a specific type of thermoplastic</text>
+	</string>
+	<string id="sms_pda_slom_1">
+		<text>PDA navigation module out of order. Connection to all displays and indicators damaged, possibly due to water ingress</text>
+	</string>
+	<string id="sms_pda_slom_2">
+		<text>Fuck it... This is not a good time...</text>
+	</string>
+	<string id="sms_pda_slom_3">
+		<text>Barman, I need to get my PDA fixed quickly... The display's gone...</text>
+	</string>
+	<string id="sms_pda_slom_4">
+		<text>I talked with the techies. They'll be at the Bar waiting for you. They say they'll fix your PDA while you wait. For a small fee of course, heh heh...</text>
+	</string>
+	<string id="sms_pda_slom_5">
+		<text>Shit, I'll need to see the techies at Bar. Even the digital lock on my backpack's fucked...</text>
+	</string>
+	<string id="sms_pda_slom_6">
+		<text>PDA navigation module cannot adequately display coordinates in some areas...</text>
+	</string>
+	<string id="sms_pda_sdelan_1">
+		<text>PDA Navigation module is running, but with possible repetition of a fatal error. Contact service department...</text>
+	</string>
+	<string id="sms_pda_sdelan_2">
+		<text>PDA navigation module working. Synchronising now...</text>
+	</string>
+	<string id="sms_girl3_nachalo">
+		<text>Hello. Do not be surprised, it is not your Panther. I overheard your last dialog with Fang. A mutual meeting would be useful, but.. remove the bug from your PDA before we talk more.</text>
+	</string>
+	<string id="sms_girl3_nachalo_1">
+		<text>Doctor, hello. Somehow wrong turns... In my PDA your bug... We, like, decided to major issues...</text>
+	</string>
+	<string id="sms_girl3_nachalo_2">
+		<text>Yes, the bug to be installed in your PDA before the famous visit to the machine of death. But this idea, we refused - then it was quite enough monitoring by the Astrologer.</text>
+	</string>
+	<string id="sms_girl3_nachalo_2_2">
+		<text>So the bug - is not mine. Remember to whom you gave your PDA - from that and ask.</text>
+	</string>
+	<string id="sms_girl3_nachalo_3">
+		<text>Doc, thank you. I thought - one in Rostok repaired my PDA... Now I'll visit him and...</text>
+	</string>
+	<string id="sms_molniy_bar">
+		<text>All. HMA clean. However, to find out who behind all this is worth listening to - have not yet been.</text>
+	</string>
+	<string id="sms_molniy_bar_1">
+		<text>Throw off the image space, where I am now, in your PDA. I problems, make haste. I'm not sure where I am...</text>
+	</string>
+	<string id="sms_molniy_bar_1_2">
+		<text>It looks like many corridors, there was once about something like a control center... Coordinates will not be used until a full confidence in the absence of bugs.</text>
+	</string>
+	<string id="sms_strannik_lima">
+		<text>Lightning, it's Strelok. Your torarischem seems tried to eat a group of local cannibals. The device does not see, but there is a notebook with a fire at the man... I'll try to find.</text>
+	</string>
+	<string id="sms_strannik_lima_1">
+		<text>Bad. Without the detector we can not cope. Please - look, there Do it at home, on the roof of which was teleport.</text>
+	</string>
+	<string id="sms_strannik_lima_2">
+		<text>Yes, I've already been there... Well, Look again. It's all a fence. And what has brought him here... Somewhere must be a way.</text>
+	</string>
+	<string id="sms_after_semetskiy">
+		<text>Ghost, brother, hello. I walked in your direction. You could not see where the case of one-legged Stalker? Semetsky tip-off given. It is necessary in order colliding talk.</text>
+	</string>
+	<string id="sms_after_semetskiy_1">
+		<text>Hello. Yes, just lit up in the village this Stalker. He went into the hills, which left the village, close to the concrete strip. People talking of a tent there with him.</text>
+	</string>
+	<string id="sms_preduprezhdenie">
+		<text>Hey, what do you want? I do not advise coming nearer, I'm nervous, yet I'll shoot...</text>
+	</string>
+	<string id="sms_preduprezhdenie_1">
+		<text>There's something all the nerves of steel. Gun- do not spoil, it sometimes shoots, if you do not know, cause I have to you.</text>
+	</string>
+	<string id="sms_preduprezhdenie_2">
+		<text>Good. What are you... wait here, and I'll be back...</text>
+	</string>
+	<string id="sms_preduprezhdenie_3">
+		<text>Hey Stalker, come back. I do not shoot back, but I think that of Gauss with 20 metres I can get into the prosthesis. What then shall we do?</text>
+	</string>
+	<string id="sms_preduprezhdenie_4">
+		<text>Ghost, thank you, unprotected. Something I has a lot of people believe, but in vain...</text>
+	</string>
+	<string id="sms_odnon_proval">
+		<text>You missed or came too close to the Monolith and the film is lit up...</text>
+	</string>
+	<string id="sms_foto_ok">
+		<text>The shot was successful. Bring back the photo...</text>
+	</string>
+	<string id="sms_vopros_k_prizraku">
+		<text>Ghost, fate brought me to the old village. I have a camera gun and photos of the Monolith, but it seems the whole buzz is that after taking the photo, some strange figures appeared...</text>
+	</string>
+	<string id="sms_vopros_k_prizraku_1">
+		<text>You know better than I what to do with the gun - put it away. On figures - remember them or write them, and after, once you're in the countryside..</text>
+	</string>
+	<string id="sms_vopros_k_prizraku_1_2">
+		<text>and there Pilgrim - go see him, even removes the photos of these figures - it is like in school deuce from the diary without problems removed.</text>
+	</string>
+	<string id="sms_pili_sdelal_psevdofoto">
+		<text>Strelok, such as the photo is ready. Take.</text>
+	</string>
+	<string id="sms_molniy_posle_foto">
+		<text>Lightning, hello. I got a detector isomorphic. What more?</text>
+	</string>
+	<string id="sms_molniy_posle_foto_1">
+		<text>It is already good. But - bad both. Area is large, and isomorphs can be anywhere and from anyone. The fact that the energy balance must find a few key caps.</text>
+	</string>
+	<string id="sms_molniy_posle_foto_1_2">
+		<text>Not sure how they look, but probably not like the simple things. Isomorphs and others are less valuable and not are required to return, but part may well emerge we need the capsule.</text>
+	</string>
+	<string id="sms_molniy_posle_foto_1_3">
+		<text>Your friend tried to find the bomb and who makes them. Two options: either get in touch with him and find out how things are going, or found out the truth in that, who had a detector.</text>
+	</string>
+	<string id="sms_molniy_posle_foto_2">
+		<text>With a man who had a detector - the work already underway. By the way, your dead comrade had a notebook, from which it was clear he was looking for this man.</text>
+	</string>
+	<string id="sms_molniy_posle_foto_2_2">
+		<text>And, it seems that earlier in your bill got one more person... Well, get back to Fang, I ask, how is he doing.</text>
+	</string>
+	<string id="sms_molniy_posle_foto_3">
+		<text>Fang, hello. How are you doing? I have a lot of news.</text>
+	</string>
+	<string id="sms_molniy_posle_foto_4">
+		<text>Hello. I also have news and job of work for you. I'll see you yet it does not, so listen: at x-10 showed up some weird people.</text>
+	</string>
+	<string id="sms_molniy_posle_foto_4_2">
+		<text>My detector determines their affiliation to Monolith, but... they are invisible. Quite invisible. Note can only be at night, when they include flashlights.</text>
+	</string>
+	<string id="sms_molniy_posle_foto_5">
+		<text>Yes, I know of - but they still visible.</text>
+	</string>
+	<string id="sms_molniy_posle_foto_6">
+		<text>No, this is not the same.. In the room with the breaker switch is a door with a code. Well, they're holding another bomb... I was there, but open the door even I could not.</text>
+	</string>
+	<string id="sms_molniy_posle_foto_6_2">
+		<text>Have a plan.Get in close, gift to send, hide there and wait. They come, they are there every day... Look at the two... As the door opens, try to get them before they close the door.</text>
+	</string>
+	<string id="sms_molniy_posle_foto_7">
+		<text>And you?</text>
+	</string>
+	<string id="sms_molniy_posle_foto_8">
+		<text>I do not dispare, and I flunked venture. Walk in their footsteps - also will not work - we lit up, they leave hourly. So at this time - you have to work alone.</text>
+	</string>
+	<string id="sms_molniy_posle_foto_8_2">
+		<text>Image, where better to take a seat for observing. No, do not even try to go there - a mess of things. Remember - single shot, until they open the door. I'll try to help you, if I can.</text>
+	</string>
+	<string id="sms_pozisiy_bunker_gg">
+		<text>Fang, I'm in position. So far all is quiet.</text>
+	</string>
+	<string id="sms_pozisiy_bunker_gg_1">
+		<text>Excellent. I hope you're in mashalate reviews... Wait, they been in the bunker, watch for entrance to the hall. I'm going after them. This is not a Monolith...</text>
+	</string>
+	<string id="sms_pozisiy_bunker_gg_1_2">
+		<text>There is a neutral with a radio, he has to be taken alive, otherwise we will not know anything except what is in the cache. Remember - it's wrong to kill even after opening the door.</text>
+	</string>
+	<string id="sms_bunker_fotik_artu">
+		<text>Under the influence of an unknown component of the artefacts in a backpack can undergo transmutation into a Spiral artefact.</text>
+	</string>
+	<string id="sms_bunker_fotik_artu_1">
+		<text>Well... things just would not absolutes, but not absolutes... and Maples said spiral - the only mistake experimental...</text>
+	</string>
+	<string id="sms_ozhivil_radista">
+		<text>Strelok, then such things... I had a stash - Live heart - heard about this, I guess. I took a sin - enlivened radioman... Let him live, can be a good asset...</text>
+	</string>
+	<string id="sms_ozhivil_radista_1">
+		<text>Well things... Well, if the conversation - otstuchi. I'm in Pripyat.</text>
+	</string>
+	<string id="sms_nashel_sadik_taynik">
+		<text>Fang, it seems, I found this fucking stash. Of course, even the fanatics do not slip out the door, on which plate Director.</text>
+	</string>
+	<string id="sms_seif_zakrut">
+		<text>There is safe. View can not - need a code. Shake it Radioman - let Prickly...</text>
+	</string>
+	<string id="sms_seif_zakrut_1">
+		<text>It's you yourself will soon ask him - we went from bunker behind as you have to Pripyat, we move along the path that, after entering the radar, go to a meeting..</text>
+	</string>
+	<string id="sms_seif_zakrut_1_2">
+		<text>if the radio operator dies - will have to open the safe with a blowtorch. He runs fast, goes first, not shot on the way to Park your vehicle.</text>
+	</string>
+	<string id="sms_seif_sadik_otkrut">
+		<text>All safe open. There were some papers, more - nothing. One of them took Maximilian...</text>
+	</string>
+	<string id="sms_otkroem_bez_radista">
+		<text>Well, Radioman died... What now with the safe?</text>
+	</string>
+	<string id="sms_otkroem_bez_radista_1">
+		<text>Stick to your guns. Postrelyaem in the castle, and may be opened.</text>
+	</string>
+	<string id="sms_forest_pozisiy_na_dome">
+		<text>I'm, like, at the spot.</text>
+	</string>
+	<string id="sms_forest_pozisiy_na_dome_1">
+		<text>Well... Do you have a little time to look around. When and where it appears - is unknown, but you have to detect it earlier than anyone can - something to kill again.</text>
+	</string>
+	<string id="sms_forest_pozisiy_na_dome_1_2">
+		<text>Once a sniper - the fire will keep a distance. Let's see what you're capable of, master.</text>
+	</string>
+	<string id="sms_pogib_stalk">
+		<text>DAMN! Again, this fucking sniper sure screwed. That bastard!</text>
+	</string>
+	<string id="sms_pogib_stalk_1">
+		<text>Damn... And where he shot, parasite?</text>
+	</string>
+	<string id="sms_ozhivil2_radista2">
+		<text>Hello. already got? I'm here might've been stupid - in short, revive I was a radio operator let him live... The latest stash in a 'Living Heart' spent...</text>
+	</string>
+	<string id="sms_ozhivil2_radista2_1">
+		<text>Something you're good... you become there any chance, do not fall in love with him? Ge-n-n. Okay, let live - and may come in useful more.</text>
+	</string>
+	<string id="sms_superzhekan">
+		<text>Under the influence of an unknown component of the ammunition in a backpack can be altered.</text>
+	</string>
+	<string id="sms_superzhekan_1">
+		<text>Fang, I have a Maples in War Lab. I learned interesting details of the little one's notes...</text>
+	</string>
+	<string id="sms_superzhekan_1_2">
+		<text>Yeah, for the information - in one of pescherok that on a hillside near the crippled tank - the trail begins in War Lab. This is very handy. now I'll try to find her.</text>
+	</string>
+	<string id="sms_foto_mozg_ok">
+		<text>Photoshoot was a success. View photo obtained.</text>
+	</string>
+	<string id="sms_vodka_dly_kepa">
+		<text>Hey, you Stalker! What woman? Turn around, otherwise I'll make a sieve out of you.</text>
+	</string>
+	<string id="sms_vodka_dly_kepa_1">
+		<text>Wait a minute before you shoot. Make me to see you there.</text>
+	</string>
+	<string id="sms_kuznets">
+		<text>Hey, Major took the time... vodka went to the fire... What more</text>
+	</string>
+	<string id="sms_kuznets_1">
+		<text>I told you... occupy a position, take your binoculars and watch... Let the people drink, eat...</text>
+	</string>
+	<string id="sms_kuznets_1_2">
+		<text>Previously, what people do not start fooling around to take a leak in the bushes sharitsya - do not poke your nose to the fire - shoot.</text>
+	</string>
+	<string id="sms_narod_napilsy">
+		<text>Everything seems people get drunk... oh. a little vodka for the same military happiness need... and why I was carrying ten bottles - and one would be enough...</text>
+	</string>
+	<string id="sms_narod_napilsy_1">
+		<text>If you're sure, move towards the fire and look around. If there's no case, ask the captain. But don't even think about shooting or bribing them...</text>
+	</string>
+	<string id="sms_yntar_k_molnii1">
+		<text>Lightning, hello. I've got a few obscure items lumped... It looks like - it isomorphs. I am now in War Lab, then plan to you.</text>
+	</string>
+	<string id="sms_yntar_k_molnii1_1">
+		<text>It is good. I'm waiting, you know where to find me.</text>
+	</string>
+	<string id="sms_mina_pant">
+		<text>Damn... It's mine... Where she's here... A bomb detonated...\n</text>
+	</string>
+	<string id="sms_mina_pant_1">
+		<text>Ah... Father, what are you doing, as well, giving up... Let's go to the fire, we'll talk. Before I die, you must learn to find and eliminate... Dunno how many more people may die...</text>
+	</string>
+	<string id="sms_mina_pant_2">
+		<text>How so? Yes, and why live now...</text>
+	</string>
+	<string id="sms_mina_pant_3">
+		<text>Yes, I think you're right... First, to find and eliminate. We'll talk in the camp.</text>
+	</string>
+	<string id="sms_pantera_stop1">
+		<text>Hey, Panther, carefully put the backpack and come to me!!</text>
+	</string>
+	<string id="sms_pantera_stop2">
+		<text>Yes, yes, everything is under control. Timer will only work 10 hours. A little further away I'll take it...</text>
+	</string>
+	<string id="sms_bazar_s_klenovum1">
+		<text>Doctor, hello. Something we found out on the photogun?</text>
+	</string>
+	<string id="sms_bazar_s_klenovum2">
+		<text>A little, but the result is. And most importantly, as previously confirmed my film to him suitable.</text>
+	</string>
+	<string id="sms_bazar_s_klenovum3">
+		<text>Oh, I mean you are a drag... I'm a long way from the Cordon something...</text>
+	</string>
+	<string id="sms_bazar_s_klenovum4">
+		<text>Mnozhno try another option. I made a trial version TELEPORTING for small items. You can just try and..</text>
+	</string>
+	<string id="sms_bazar_s_klenovum5">
+		<text>Not... Doctor, but can not be? Thing exotic, teleported somewhere wrong...</text>
+	</string>
+	<string id="sms_bazar_s_klenovum6">
+		<text>Do not worry. Where are you now? The Cordon? First, to verify - I will send you a test version - a brief description of my research and cheapest artefact.</text>
+	</string>
+	<string id="sms_bazar_s_klenovum6_2">
+		<text>If everything comes well - send me an SMS. Go into the bunker of the local dealer and see - on the stairs dolzhet appear notebook and artefact.</text>
+	</string>
+	<string id="sms_kl_pos_est">
+		<text>Everything is Okay. Making reached. Photogun Send.</text>
+	</string>
+	<string id="sms_kl_pos_est_1">
+		<text>Excellent. Some go away - suddenly, because of you coordinates they crowd or object lands in the head... The camera is charged film. Do not waste it in vain.</text>
+	</string>
+	<string id="sms_kl_pos_est_2">
+		<text>,Doctor, you categorically not discouraged from leaving the Zone on the mainland - you will kill workers-mail... you will leave them without jobs, no income.</text>
+	</string>
+	<string id="sms_prizrak_ranen">
+		<text>Strelok, hello. How are you going? I've got trouble... night chmoshniki attacked... 6-7 men. You know what it's like to fight people in invisible suits...</text>
+	</string>
+	<string id="sms_prizrak_ranen_22">
+		<text>If it were not Freedom with concrete strip - Crantit to me. Oh, nothing I legged on the base is not gone... Two of the attackers put in effort and then find the body..</text>
+	</string>
+	<string id="sms_prizrak_ranen_23">
+		<text>These are people from the clan yesterday. equipped cool. So, grouping together the money again, despite the fact that I had once been their last leader was put out, a nasty little man.</text>
+	</string>
+	<string id="sms_prizrak_ranen_1">
+		<text>Hello. himself then at least well? Skills also cause trash, Panther died, a bomb would take out of the Village of newcomers, but on mine exploded... So there... in front of her father.</text>
+	</string>
+	<string id="sms_prizrak_ranen_2">
+		<text>Yeah.. that's the stuff life is shit.. You see as if her father did not lynch vderevne Uchino, let himself out of grief is not.. I've decided, so much so scratched a couple of times.</text>
+	</string>
+	<string id="sms_prizrak_ranen_2_2">
+		<text>It is very complicated because one leg is gone. While the commotion was, not before.. But after a glance, neither he nor his corpse.. Traitor on the generators, knocking someone.</text>
+	</string>
+	<string id="sms_prizrak_ranen_3">
+		<text>But to hell with it, with one-legged cripple, the main thing; he's alive.. Get well, I feel we've got this masochist from the last day to arrange the last day...</text>
+	</string>
+	<string id="sms_prizrak_ranen_3_22">
+		<text>Panthera's Father, I reassured him, as he could, though I never understand the feelings of the father, who lost a daughter. He will wait for news from him...</text>
+	</string>
+	<string id="sms_prizrak_ranen_3_23">
+		<text>to avenge the one who planted the bombs and mines, and so suicide and lynching, I hope, not satisfied. I'm at Yantar, to see a man need, a former fighter from the last day...</text>
+	</string>
+	<string id="sms_prizrak_ranen_3_24">
+		<text>Yes, Fang warned, and perhaps even to him people want to come back. He is now in Pripyat...</text>
+	</string>
+	<string id="sms_perehov_na_yantar">
+		<text>I'm in position. I'm waiting for the opening of a teleport. Ah, not fly away if only for the entire area of the molecules...</text>
+	</string>
+	<string id="sms_perehov_na_yantar_1">
+		<text>Do not fly away. Heh... How is your slang - something something like - your ass is useful to me? Or not so?</text>
+	</string>
+	<string id="sms_perehov_na_yantar_2">
+		<text>Lightning, tying, and I on our slang will answer you on the full - a couple of days you'll think what I said...</text>
+	</string>
+	<string id="sms_pantera_na_kordone">
+		<text>Strelok, hello. My father and I decided to take a vacation from the Zone, month or two. We are now at the Cordon, in village. Rest a little - and on the mainland. vacation not want?</text>
+	</string>
+	<string id="sms_pantera_na_kordone_1">
+		<text>I hope you come back. I'm close - in Garbage - soon will be - wait. No I do not go for the perimeter. You have something to talk.</text>
+	</string>
+	<string id="sms_poslednie_pantera">
+		<text>Panther, listen carefully. It seems that a couple of hours back to Cordon dragged the bomb...</text>
+	</string>
+	<string id="sms_poslednie_pantera_2">
+		<text>I have seen one such instance in the work - horrible thing. Warn Senior Novice camp, take your father and go... I'll soon be there.</text>
+	</string>
+	<string id="sms_poslednie_pantera_1">
+		<text>I've found it. It is in a backpack, in one of the cellars in the rookie Village. Heavy. Now I'll pull it. Who put - could not see many people here goes...</text>
+	</string>
+	<string id="sms_poslednie_pantera_1_2">
+		<text>Do not worry - with bombs is the timer - it works through a 10.5-hour, so that time I fully.</text>
+	</string>
+	<string id="sms_moroz">
+		<text>Take note Stalker... the current backpacks are without signs of quality - when you carry heavy loads they may simply break and drop your crap everywhere.</text>
+	</string>
+	<string id="sms_pomosch_ot_chernomora">
+		<text>Chernomor, hello. I'm at an impasse, and more do not ask anyone. I want information on Photogun. You, by chance, have not heard of such?</text>
+	</string>
+	<string id="sms_pomosch_ot_chernomora_1">
+		<text>Come on, get started.</text>
+	</string>
+	<string id="sms_nashel_gada">
+		<text>Father, I found a scoundrel. Now you put his pic.</text>
+	</string>
+	<string id="sms_otez_poreshil">
+		<text>Died Stalker nix. Cordon. throttled.</text>
+	</string>
+	<string id="sms_otez_poreshil_1">
+		<text>The father, well, you gave... I reached the point Boiling?</text>
+	</string>
+	<string id="sms_otez_poreshil_2">
+		<text>There are people who harassed period, stole a sack of potatoes. There is nothingness who steal millions and live in clover at large.</text>
+	</string>
+	<string id="sms_otez_poreshil_2_2">
+		<text>There are people who are rotting in prison for a regular fight, and there are freaks who are our humane state can not get the electric chair, but life is feeding.</text>
+	</string>
+	<string id="sms_otez_poreshil_2_3">
+		<text>This applies to the last hell-raisers katerogii. In the Zone - its rules. If he has repented - I would have forgiven. My little girl has no return. Everyone - its boiling point.</text>
+	</string>
+	<string id="sms_otez_poreshil_3">
+		<text>I agree, my father, there were falling and the road. Only because he's - a simple pawn...</text>
+	</string>
+	<string id="sms_otez_poreshil_4">
+		<text>Are pawns becoming queens a problem. I'm going on foot - and you deal with others. waiting for news.</text>
+	</string>
+	<string id="sms_na_kamne">
+		<text>Well, it seems this is the stone... We'll have to wait. The main thing - do not go out of hearing range - otherwise I do not hear.</text>
+	</string>
+	<string id="sms_razgovor_sxod_nz">
+		<text>I hope the tail for you was not there. Where are you off his feet, rather leg painted with a generator? We're behind you came from. And what is there for the pros you pass?</text>
+	</string>
+	<string id="sms_razgovor_sxod_nz_1">
+		<text>Where? Yes there is such a rush job began, that only run could have been saved. A time for me came - nakoy sluggard grenades hurled in a tent? If one veteran that I guard was killed</text>
+	</string>
+	<string id="sms_razgovor_sxod_nz_1_2">
+		<text>all of you krantets - believe me. And if alive - and then even better. could and notify me that you come. And what are you wearing an invisible suit?</text>
+	</string>
+	<string id="sms_razgovor_sxod_nz_2">
+		<text>Well, at the expense krantets - you got a little excited... armor damage, but here safely and without it. Okay, to the point. Remains of the group is now in army warehouses.</text>
+	</string>
+	<string id="sms_razgovor_sxod_nz_2_2">
+		<text>You knew where you want isomorphic?</text>
+	</string>
+	<string id="sms_razgovor_sxod_nz_3">
+		<text>Yes. But there did not get nothing. By the way - where the money for previous work?</text>
+	</string>
+	<string id="sms_razgovor_sxod_nz_4">
+		<text>Will the money will be. That's another get them is isomorphic to - and will. If not - then do not get anything.</text>
+	</string>
+	<string id="sms_razgovor_sxod_nz_5">
+		<text>Is isomorphic in X16? But it does not get. There is a teleport, Sakharov knows. But he will not say anything at any price, and check maps, verified. Even if you kill him.</text>
+	</string>
+	<string id="sms_razgovor_sxod_nz_6">
+		<text>Sakharov, That's luck.. He will tell you for sure. Making the case. I'm moving towards stores. Will secure place, you'll throw off the coordinates..</text>
+	</string>
+	<string id="sms_razgovor_sxod_nz_6_2">
+		<text>I'll take out the object and hand it to Sakharov. If you say that if he did not say where the teleport, krantets. He realizes he's smart..</text>
+	</string>
+	<string id="sms_razgovor_sxod_nz_6_3">
+		<text>Isomorphic, to keep a while, we will come after him, or simply open the teleport, you send it to us, and we want you to be paid for the work.</text>
+	</string>
+	<string id="sms_taynik_zlobnuy">
+		<text>So, I am safe. We're leaving. trying to find a tree in one of the buildings inside the perimeter of military bases in the Agroprom. As you climb there and get through..</text>
+	</string>
+	<string id="sms_taynik_zlobnuy_2">
+		<text>it is already yours - the money you want? So find. The backpack is there for a week - just with us in the military his chelovechik, and on its base - the very place for caches.</text>
+	</string>
+	<string id="sms_taynik_zlobnuy_1">
+		<text>Well, Strelok, do you know where the stash. Thank God that I do not have to go there to climb. As you say - I zalyagu at the bottom. If that - send SMS.</text>
+	</string>
+	<string id="sms_ynt_after_perexod">
+		<text>Chernomor, you're still at Yantar? We'll visit - need advice.</text>
+	</string>
+	<string id="sms_ynt_after_perexod_1">
+		<text>Strelok, hello. How are you going? Found something more?</text>
+	</string>
+	<string id="sms_ynt_after_perexod_2">
+		<text>Lightning, hello. Something is. We talked with a friend - and to you.</text>
+	</string>
+	<string id="sms_preplastilin">
+		<text>Under the influence of unknown factors the artefacts in the backpack were subjected to transmutation.</text>
+	</string>
+	<string id="sms_dialog_oborvan">
+		<text>It seems that I went too far and can not hear anything, and also - arouse suspicion in speaking and a man of the clan last day left.</text>
+	</string>
+	<string id="sms_poluchenie_klucha">
+		<text>The code is entered correctly. The field for the key is activated, it is in front of the stairs. Prepare the desired item to delete teleport</text>
+	</string>
+	<string id="sms_del_blok_and_restr">
+		<text>Passkey received. An attempt to deactivate the locking lever activated a teleport.</text>
+	</string>
+	<string id="sms_zaschita_portal">
+		<text>Protection of the teleport is activated.</text>
+	</string>
+	<string id="sms_pervoe_dsity">
+		<text>Hey, meatbag! Lower your weapon now, or you're dead, then come here. And no joking - we don't welcome newcomers to our village.</text>
+	</string>
+	<string id="sms_parfumer1">
+		<text>Hey, Stalker! I do not know your name... Check your PDA - you will find me on the marker - at the exit of the old livnevki. Waiting.</text>
+	</string>
+	<string id="sms_zaschita_mg">
+		<text>Stranger in the area of the protective screen. Destruction in 6 seconds.</text>
+	</string>
+	<string id="sms_parfum_kontrik1">
+		<text>Stalker, whatever you... Strelok... You still alive out there? It is.</text>
+	</string>
+	<string id="sms_parfum_kontrik2">
+		<text>Hi. The cases with the prosecutor - among ordinary people - dealings. My answer is - then still alive... What is the problem</text>
+	</string>
+	<string id="sms_parfum_kontrik3">
+		<text>Then listen carefully. Somewhere near the Black farms a zombie lives, is the controller. A special controller... I have just learned that some of the last day were sent to destroy it.</text>
+	</string>
+	<string id="sms_parfum_kontrik3_2">
+		<text>This controller knows much. In your own interest, eliminate the group of Last Day and try to communicate with this creature, if possible.</text>
+	</string>
+	<string id="sms_parfum_kontrik3_3">
+		<text>I think that the mutants on the farm are attacking this group, so that you need do very little. Coordinates, I'll send. Then, on-site make anything out. To help or not, you decide...</text>
+	</string>
+	<string id="sms_netu_kontrolera">
+		<text>Hey, you Stalker! I knew it was a bunch from the Last Day and went to the village close to the perimeter. There I was, and find, I see that you are a brave man, if you clear this farm.</text>
+	</string>
+	<string id="sms_obmorok1">
+		<text>Hey, Obmorok, answer. We must even the score - there is a proposal that would benefit us both.</text>
+	</string>
+	<string id="sms_obmorok2">
+		<text>Who's that brown? Checking the connection from the mercenaries? Well Duc I repeat - all you goats.</text>
+	</string>
+	<string id="sms_obmorok3">
+		<text>It's not mercenaries. This neutrals. One idea as to carry away from this leg. You've been dreaming about this?</text>
+	</string>
+	<string id="sms_obmorok3_2">
+		<text>At stake - the transition from the territory in exchange for your help. We will meet at a neutral ground. Locate.</text>
+	</string>
+	<string id="sms_obmorok4">
+		<text>Oh no... There is no neutral ground here... Will draw from our camp, which at the pump - closer to perimeter, in a ravine lies the old fuel truck. There and see you.</text>
+	</string>
+	<string id="sms_obmorok4_2">
+		<text>Come along spines - light up at my eagles camp - shoot. But do not start mnya diluted.</text>
+	</string>
+	<string id="sms_strelka_obmorok1">
+		<text>Obmorok, I'm on the spot.</text>
+	</string>
+	<string id="sms_strelka_obmorok2">
+		<text>I see. Stay where you are. Now I will.</text>
+	</string>
+	<string id="sms_dcity_zenter_doza">
+		<text>You enter the forbidden zone A. You have no permission. Immediately step back for a dangerous perimeter, otherwise you will be eliminated.</text>
+	</string>
+	<string id="sms_dcity_zenter_doza_otkl">
+		<text>Zone A center is disabled. Warning!</text>
+	</string>
+	<string id="sms_dcity_gorod2_doza2">
+		<text>You are in the protection Zone B of the city on the Rights of the guest. Your time presence is limited to 10 minutes.</text>
+	</string>
+	<string id="sms_dcity_gorod2_doza2_2">
+		<text>During this period, you have to finish their business and leave the area B. The entrance to the city center in the Zone A, without a special permit is strictly forbidden.</text>
+	</string>
+	<string id="sms_dcity_gorod_doza">
+		<text>Protective shield of the city activated. Stranger in a Zone B. Destruction in 4 seconds.</text>
+	</string>
+	<string id="sms_poziciy_cherdak_zanyta">
+		<text>Position occupied. Eh, not enough time... I now you'll Saint Bartholomew's Day... Where's the frog in the green kombeze??</text>
+	</string>
+	<string id="sms_hand_hoh">
+		<text>Hey Rookie! Raise your hands slowly and turn around!</text>
+	</string>
+	<string id="sms_suki_rasstrel">
+		<text>Here stsuki... Now I'll nalimonyu one place...</text>
+	</string>
+	<string id="sms_zlobnomu_rasstrel">
+		<text>Hey, Angry, guten morgen... I see your people lawlessness... Not good. I here some of your insects punished for it.</text>
+	</string>
+	<string id="sms_zlobnomu_rasstrel_2">
+		<text>I'm going with the territory, but I'll be back. And yet - Goodbye my boy, Goodbye my dear...</text>
+	</string>
+	<string id="sms_zlobnomu_rasstrel1">
+		<text>Malicious, privati... My people are just seen as a neutral gone through neizvesny transition toward ATP.</text>
+	</string>
+	<string id="sms_zlobnomu_rasstrel2">
+		<text>Towards the ATP say... That factor... How did he know the transition and horseradish if your people had not shot</text>
+	</string>
+	<string id="sms_zlobnomu_rasstrel3">
+		<text>You yourself know that we do not have the sniper rifle... And besides - Why were you I know that this is not your agent?</text>
+	</string>
+	<string id="sms_zlobnomu_rasstrel4">
+		<text>Okay, passed. That brow to be destroyed.</text>
+	</string>
+	<string id="sms_zlobnomu_rasstrel4_1">
+		<text>Now go to the strontium group ATP, see the shooting did not arrange. I opened the crossing.</text>
+	</string>
+	<string id="sms_zlobnomu_rasstrel5">
+		<text>Strelok, hurry up. Moving yet active. Look at the map and prospered, he soon closed. If that happens - you get stuck here forever.</text>
+	</string>
+	<string id="sms_zlobnomu_rasstrel5_2">
+		<text>How to go over - they meet a group of killers - they are sent there too. Will contact you later.</text>
+	</string>
+	<string id="sms_zlobnomu_rasstrel6">
+		<text>Activated teleport on the ATP. Time - 2 minutes.</text>
+	</string>
+	<string id="sms_zlobnomu_rasstrel7">
+		<text>Teleport to the territory of ATP after the group is deactivated.</text>
+	</string>
+	<string id="sms_agro_tainik_norman">
+		<text>Hey, Strelok, are you alive? Hold coordinates teleport in hiding. It is somewhere in the Agroprom...</text>
+	</string>
+	<string id="sms_agro_tainik_norman_2">
+		<text>With the device, that I gave you, and these coordinates will find a teleporter. And then - in a secret compartment will find what you need.</text>
+	</string>
+	<string id="sms_k_normany1">
+		<text>Norman, hello. In my opinion, everything was done with caches and transitions. With on and stash it somewhere?? I am in these parts long lived, but did not know...</text>
+	</string>
+	<string id="sms_k_normany2">
+		<text>This is a cache of my former comrades. It also looks like a controller, but then he got more than me - he was partially paralyzed... I do not know whether he was alive at all...</text>
+	</string>
+	<string id="sms_k_normany2_2">
+		<text>You've got to get better weapons - as far as I know, at teleport from the basement in Limansk must take your weapons. Follow teleport - are possible with him. And most importantly..</text>
+	</string>
+	<string id="sms_k_normany2_3">
+		<text>take a camouflage coat, stem not particularly noticeable, such as abnormal M-16, but more money...</text>
+	</string>
+	<string id="sms_k_normany2_4">
+		<text>How do you come back - Find Perfumer - I noted on the map where to find him. Get ready for unpleasant surprises - good group of Last Day wait is not necessary.</text>
+	</string>
+	<string id="sms_dcity_otvet_ok_obmor1">
+		<text>Hey, Obmorok, child mafia... I came back and opened the transitions, as promised. You can fade out of the city...</text>
+	</string>
+	<string id="sms_dcity_otvet_ok_obmor2">
+		<text>Individual news. Prenepremenno Take advantage of your service, mise. But - Maltz later</text>
+	</string>
+	<string id="sms_dcity_otvet_ok_obmor3">
+		<text>Strelok. Sorry, that distracts you from work, but failed Do you know anything about my wife?</text>
+	</string>
+	<string id="sms_dcity_otvet_ok_obmor4">
+		<text>No, professor, yet nothing. I saw the helicopter crashed on the border of the territory, but it's empty. Clues yet. In the city itself has not yet hit. There will be news, will tell.</text>
+	</string>
+	<string id="sms_dcity_duda_zvonok1">
+		<text>Hey, Duda, old crocodile, hello. This is Perfumer, if you remember this. I hear you went up the hill... But just in the wrong.</text>
+	</string>
+	<string id="sms_dcity_duda_zvonok1_2">
+		<text>Is there a way to bypass the hill, cut down vodka and hit the road here. And more ass licking no one will have. What do you think?</text>
+	</string>
+	<string id="sms_dcity_duda_zvonok2">
+		<text>And it's you, a lover of cologne... What way? Or is this another test?</text>
+	</string>
+	<string id="sms_dcity_duda_zvonok3">
+		<text>The point in the city smells fried. Transitions are open. And the right kind of kid that opened them, very angry. Sooner or later he will find a way to stir the hornet's nest some.</text>
+	</string>
+	<string id="sms_dcity_duda_zvonok3_2">
+		<text>No difference will be alive a hostage, whom you protect, or not. Duc, behold, this lad tenderly asked me to ask how much you have vodka, to Dohtera entogo release.</text>
+	</string>
+	<string id="sms_dcity_duda_zvonok3_3">
+		<text>When, will now unscrew from here to hell.. But this concession will not be long, he might change his mind. Do not order. Pavlik Morozov now are not of interest, except for necrophilia.</text>
+	</string>
+	<string id="sms_dcity_duda_zvonok4">
+		<text>Seems to me that you also have that secret purpose... Well - attendants would need several hundred thousand.</text>
+	</string>
+	<string id="sms_dcity_duda_zvonok4_2">
+		<text>Exactly how many, will decide in a personal meeting, shall come. I'm in a house with columns, a former school, on the second floor. Protection temporarily take off, the fighters warn.</text>
+	</string>
+	<string id="sms_dcity_duda_zvonok4_3">
+		<text>APPROACH YARD TO THE PLACE UNSEEN. Just let the square is not vanity, a party will not enter. Well, if he has not vodka will - let wreath bring along - to the grave he just put.</text>
+	</string>
+	<string id="sms_dcity_iskra_zvonok1">
+		<text>Spark, hello. I know what I'm doing stupid, but this is our last chance... Cut down the security system center.</text>
+	</string>
+	<string id="sms_dcity_iskra_zvonok2">
+		<text>Hello. I asked you not communicate... You know that if I disable protection, then after 5 minutes will know who did it.</text>
+	</string>
+	<string id="sms_dcity_iskra_zvonok2_2">
+		<text>What's next - I hope you do not have to explain to you that school has already passed - at his face in the mirror and look. Well, that's alive at all...</text>
+	</string>
+	<string id="sms_dcity_iskra_zvonok3">
+		<text>We must take the risk. Do it. Second case will not be. I'll come for you, girl.</text>
+	</string>
+	<string id="sms_otkl_zona1">
+		<text>Perfumer, I was able, after a few minutes protection Zone will be completely disabled. Farewell.. After the alarm is unlikely to leave me alive. I had already prepared a letter to you.</text>
+	</string>
+	<string id="sms_otkl_zona2">
+		<text>Spark, what a sad thought... Get out of there!</text>
+	</string>
+	<string id="sms_otkl_zona3">
+		<text>Yes, I knew that all end badly... I was taken through the subway in an unknown direction...</text>
+	</string>
+	<string id="sms_otkl_zona4">
+		<text>That factor... Strelok, where are you there?? Please - Blow headquarters - it seems things are bad... Find it... I'll soon be..</text>
+	</string>
+	<string id="sms_otkl_zona5">
+		<text>Hey, krasavcheg! Yes, I am to you, Strelok... Do not know? The headquarters is not no hurry - you're still late.</text>
+	</string>
+	<string id="sms_otkl_zona5_2">
+		<text>Waiting for you in the building opposite the headquarters - on the second floor. If you can get. Smack-smack.</text>
+	</string>
+	<string id="sms_vylozhit_oruzhie">
+		<text>You first protected teleport. In order to protect - to put all automatic, sniper, and the anomalous arms, as well as semi-automatic weapons, large calibre guns, scopes, hand teleports</text>
+	</string>
+	<string id="sms_vylozhit_oruzhie_2">
+		<text>and other means of teleportation in the safe, which is located behind your back. Otherwise, the protection system will permanently delete them.</text>
+	</string>
+	<string id="sms_remen_dialog1">
+		<text>Hey, Strelok! Do not be shy, drop his weapon and come in, I do not bite. Just do not come close - I love you and so well see</text>
+	</string>
+	<string id="sms_remen_dialog2">
+		<text>Shy, I stopped in the second grade school. I see you at the parade, Strap beautiful, pleased to unbutton that after ask you a good thrashing. But I think this case will not be limited.</text>
+	</string>
+	<string id="sms_remen_dialog3">
+		<text>Ha-ha. You're not only naive, you're still sexy joker. But I met you again, forgive me, in fact I was not here. You spoiled our plans..</text>
+	</string>
+	<string id="sms_remen_dialog3_2">
+		<text>but it did place - in this city there is nothing interesting. But this is our town - take it useless. My people will return and will not let anyone rest - remember that.</text>
+	</string>
+	<string id="sms_remen_dialog3_3">
+		<text>Do not try to find something - we are waiting for you and all the most valuable thing is already taken..</text>
+	</string>
+	<string id="sms_remen_dialog4">
+		<text>was born into tracker - look, too. And the deception, the more terrorism will not tolerate. So get ready - come and find you..</text>
+	</string>
+	<string id="sms_remen_dialog5">
+		<text>Do not try. My people gave mistake with your Doctor, but I gained experience ha-ha-ha... I have someone who you want - or rather, do not you... But you love to help people?</text>
+	</string>
+	<string id="sms_remen_dialog5_2">
+		<text>Spark - this traitor, which I believe... She'll die if you do not stop their naive attempts to find us and stop them. This conversation is over. Goodbye.</text>
+	</string>
+	<string id="sms_remen_dialog6">
+		<text>Strelok, must find the headquarters of a note from Sparks... Perhaps, it is important info.</text>
+	</string>
+	<string id="sms_otkr_perex_zaton1">
+		<text>Hey, Perfumer, catch up... it seems - there is a teleport... See you after the teleport.</text>
+	</string>
+	<string id="sms_otkr_perex_zaton2">
+		<text>Hey, guys! I'm with you! I've nothing more to do here.</text>
+	</string>
+	<string id="sms_nashel_listok1">
+		<text>Looks like I found a note... Vladimir Ilyich able to keep secrets...</text>
+	</string>
+	<string id="sms_nashel_listok2">
+		<text>Strelok, which Lenin? I was at the entrance to the headquarters, meet.</text>
+	</string>
+	<string id="sms_operator_babki_otdat">
+		<text>Your mobile carrier needs to upgrade your equipment. Leave your PDA switched on and it will update automatically. 3,000Ru will be debited from your account</text>
+	</string>
+	<string id="sms_operator_babki_otdat1">
+		<text>Bastards! This is what happens when Duty run the network!</text>
+	</string>
+	<string id="sms_operator_babki_otdat2">
+		<text>WTF? I didn't budget for this. And I've not been paid this month!</text>
+	</string>
+	<string id="sms_operator_babki_otdat3">
+		<text>That stupid box is always causing trouble...</text>
+	</string>
+	<string id="sms_operator_babki_otdat4">
+		<text>3,000Ru has been debited from your account. Thank you for your continued custom...</text>
+	</string>
+	<string id="sms_bland">
+		<text>Hey, neutral! I see you have the bast outfit! For the ladder that you climbed, the average person, and even with your little ruksak not be able to climb. For flash here?</text>
+	</string>
+	<string id="sms_bland_2">
+		<text>And who snitched on her and the gathering? Wait for me at the top level.</text>
+	</string>
+	<string id="sms_bland_1">
+		<text>Hey, neutral! I see you've been imagined... Probably came to me... Wait at the top level, now rising.</text>
+	</string>
+	<string id="sms_sborr">
+		<text>Hey, guys! Who is left alive... It's time to mosey. We are going at the pump</text>
+	</string>
+	<string id="sms_nachalnik_zvonok_1">
+		<text>Hey, watch! Now to your neutral suit - skip it, as agreed. He has made donations to the hungry. Once - you can leave his post.</text>
+	</string>
+	<string id="sms_nachalnik_zvonok_2">
+		<text>Hockey, chief...</text>
+	</string>
+	<string id="spot_boloto_provodnik">
+		<text>The orientation of the transition in the Village</text>
+	</string>
+	<string id="spot_esc_trupak_antenna">
+		<text>Orientation on the psy-antenna signal</text>
+	</string>
+	<string id="sms_boloto_provod_vstrecha">
+		<text>Panther, like the way free. I'm going to meet tyabya. You can be nominated to meet him. Throw off the coordinates.</text>
+	</string>
+	<string id="sms_village_kap_pda">
+		<text>Well, where are you? Look, do not lay an egg at this time. I need only girlfriend, her second brother safely soak along with his thugs. This idiot Strelok preferably not extinguish...</text><!-- Changed 'Arrow' to 'Strelok'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="sms_village_kap_pda_2">
+		<text>Although - in charge it if the girl will be ours. He has otigral role.</text>
+	</string>
+	<string id="sms_village_kap_pda2">
+		<text>Already flies. Understood. Girlfriend is already in the country. After the operation - with you double fee.</text>
+	</string>
+	<string id="sms_village_kap_pda3">
+		<text>Fee? Blah, you did it first, for what has already been paid in full. Before communication.</text>
+	</string>
+	<string id="sms_voronin_samopisez_done">
+		<text>Fang, hello. All ok, I'm coming to you. Must fly chopper, Fly</text>
+	</string>
+	<string id="sms_gen_zone_emi1">
+		<text>Anomalous Zone Deactivated</text>
+	</string>
+	<string id="spot_kluk_chaes2">
+		<text>Fang must be here somewhere</text>
+	</string>
+	<string id="sms_priz_pamt">
+		<text>Ghost, hello. There are things... I am sending to you Panther - look after a girl - she was a little muddled. And I'll quickly move on NPP2 - Fang waiting. Damn news, if anything.</text>
+	</string>
+	<string id="sms_hosp_taik_new_art">
+		<text>Several artefacts have changed their properties.</text>
+	</string>
+	<string id="sms_del_baza_doza_timer">
+		<text>Deadly Zone Defense Base deactivated</text>
+	</string>
+	<string id="sms_del_podstanziy_doza_timer">
+		<text>Deadly protection Zone Substation Base deactivated</text>
+	</string>
+	<string id="sms_delete_dt_zone_zvuk">
+		<text>Found videotape</text>
+	</string>
+	<string id="sms_delete_blok_and_restr">
+		<text>Teleport, the locking lever is disabled</text>
+	</string>
+	<string id="spot_city_parfumer">
+		<text>last known location of the Stalker</text>
+	</string>
+	<string id="spot_city_norman">
+		<text>approximate location of the Dark Farm</text>
+	</string>
+	<string id="spot_owl_group">
+		<text>Owl's group</text>
+	</string>
+	<string id="sms_transmutat_bezoar">
+		<text>bezoar required</text>
+	</string>
+	<string id="sms_transmutat_fail">
+		<text>There are not enough components to carry out Transmutation</text>
+	</string>
+	<string id="sms_look_elsewhere">
+		<text>Look elsewhere</text>
+	</string>
+	<string id="sms_msg_uploaded">
+		<text>Look for the way... message uploaded... you can find it.</text>
+	</string>
+	<string id="sms_water_tower">
+		<text>Marked One, come to Yantar and talk to Kuglov... he may know where Ghost's diary is.</text>
+	</string>
+	<string id="sms_shadows_speech">
+		<text>Be on guard... as it can appear at any moment...</text>
+	</string>
+	<!-- OGSE style companions -->
+	<string id="sms_your_companion">
+		<text>Your companion</text>
+	</string>
+	<string id="sms_companion_dead">
+		<text>has died!</text>
+	</string>
+	<string id="sms_companion_dead_2">
+		<text>has died, too. Your reputation with Stalkers has been damaged!</text>
+	</string>
+	<string id="sms_is_enemy">
+		<text>has become your enemy!</text>
+	</string>
+	<string id="sms_no_info">
+		<text>No information [</text>
+	</string>
+	<string id="sms_cook_arts">
+		<text>cooking artefacts</text>
+	</string>
+	<string id="sms_minigun">
+		<text>Minigun</text>
+	</string>
+	<string id="sms_repbox">
+		<text>Repair kit</text>
+	</string>
+	<string id="sms_teleport_released">
+		<text>Teleport Released</text>
+	</string>
+	<string id="sms_cache_unlocked">
+		<text>Unlocked</text>
+	</string>
+	<!-- eprip apartment -->
+	<string id="sms_x8_doc1">
+		<text>I'm in the apartment. No Cube, but Shadows and Pavel have been here. And I found a diary detailing that night's incident in the laboratory...</text>
+	</string>
+	<string id="sms_x8_doc1_2">
+		<text>Apparently, after all that happened, our friend went back to the lab. But he didn't come back out...</text>
+	</string>
+	<string id="sms_x8_doc1_3">
+		<text>By the way, there's something strange - a radio message is being repeated constantly. It's definitely Military, but I can't make it out...\nWhat do you think?</text>
+	</string>
+	<string id="sms_x8_doc2">
+		<text>I think that's what... You have to move. Now. We're in trouble... Our last conversation was overheard. Someone else knows about the Cube... Maybe even the one who tipped you off...</text>
+	</string>
+	<string id="sms_x8_doc2_2">
+		<text>East Pripyat is now occupied by a well-armed squad of Mercenaries. They know what you're looking for in the apartment...\nWe need to put them off the scent...</text>
+	</string>
+	<string id="sms_x8_doc2_3">
+		<text>You need to send out some false info on the Stalker network...\nQuickly, type this out in your PDA's chat window: 'Cube for sale, belonged to Shadows.</text>
+	</string>
+	<string id="sms_x8_doc2_4">
+		<text>The Cordon around the Perimeter, in 8 hours'.\nType exactly what I wrote and send it out on the network, so they'll think you've already found the Cube... Now!</text>
+	</string>
+	<string id="sms_shadows_cube1">
+		<text>Excellent! They fell for it... Now, let them wait for you at the edge of the Zone. Heh... So, what's in the apartment? Just Pavel's diary?</text>
+	</string>
+	<string id="sms_shadows_cube2">
+		<text>You need to find some local Stalkers. Try the old laundry, it was used as a base a while back. They may know about the lab...</text>
+	</string>
+	<string id="sms_companion_sig_found">
+		<text>Your companion's PDA signal found.</text>
+	</string>
+	<string id="sms_companion_sig_proximity">
+		<text>is in proximity!</text>
+	</string>
+	<string id="sms_sak_cube">
+		<text>Shadows... shplb... oul cube i.. sssssssnnnnt.. sst.. ange..</text>
+	</string>
+	<!-- harsh environment -->
+	<string id="harsh_environment_title">
+		<text>ENVIRONMENT WARNING</text>
+	</string>
+	<string id="harsh_environment_msg">
+		<text>You are in a dangerous area of high radiation. Leave immediately!</text>
+	</string>
+</string_table>

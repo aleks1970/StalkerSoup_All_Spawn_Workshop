@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!--TB3D 1.1.0.0.1.7 added new autosaves and sms messages, barman, sid, more content, tb3d_sms_bars_found, tb3d_sms_chaes_start, dialog imp, new dialogs, additional content -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 07 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16, sim_chuchelo_ax_, f1, sms_actor_coward -->
+<string_table>
+	<!-- autosaves -->
+	<string id="start_storm">
+		<text>The Storm has begun</text>
+	</string>
+	<string id="storm_over">
+		<text>The Storm has ended</text>
+	</string>
+	<string id="find_storm_suit">
+		<text>Find the artefact for Lanky</text>
+	</string>
+	<!-- pda messages -->
+	<string id="tb3d_sms_storm_comment">
+		<text>Lucius, I can't see... It's some kind of blowout I've never seen before... I'm heading underground. I can't stay out here for long. I'll send you the coordissssssssssssss...</text>
+	</string>
+	<string id="tb3d_sms_storm_receded01">
+		<text>The storm's changed direction! It looks like some areas are now safe to re-enter! I can't wait to see what's out there!</text>
+	</string>
+	<string id="tb3d_sms_storm_receded02">
+		<text>The storm's changed again. Looks like only the NPP area's still affected!</text>
+	</string>
+	<string id="tb3d_sms_storm_over">
+		<text>The storm's finally passed! All readings indicate that everywhere's clear - even the NPP! I'm on my way there now!</text>
+	</string>
+	<string id="tb3d_sms_repair_done">
+		<text>Marked One, your repair has been completed, and is ready for collection</text>
+	</string>
+	<string id="tb3d_sms_bars_found">
+		<text>You've found all the bars. An important entry has been added to your diary!</text>
+	</string>
+	<string id="tb3d_sms_chaes_start">
+		<text>You think it is so easy, Marked One? Distinguishing what is real, and what is just in your mind?</text>
+	</string>
+	<string id="tb3d_sms_chaes_start2">
+		<text>Run! Run as fast as you can through the rooftop portals! You may just make it...</text>
+	</string>
+	<string id="tb3d_sms_doc_book">
+		<text>Don't forget Doc's book. It might be around here somewhere...</text>
+	</string>
+	<!-- ZEP dialogs -->
+	<string id="pred_trader_name">
+		<text>Krohobor</text>
+	</string>
+	<string id="pred_trader_bio">	<!-- corrected "pred_barmen_bio" to the "pred_trader_bio" - aleks1970 -->
+		<text>Hardcore trader in the far northeast of the Zone. Very little else is known about him</text>
+	</string>
+	<string id="barman_zep6_0">	<!-- before lanky suit, about the storm -->
+		<text>Any news of the storm?</text>
+	</string>
+	<string id="barman_zep6_1">
+		<text>Just that it's engulfed all the regions around the NPP. I've not talked to anyone who's been there yet...</text>
+	</string>
+	<string id="barman_zep6_2">
+		<text>I really need to get into the storm areas. Got any ideas?</text>
+	</string>
+	<string id="barman_zep6_3">
+		<text>Maybe the underground, but that's all I can suggest, sorry</text>
+	</string>
+	<string id="barman_zep6_4">
+		<text>That's no use to me. I need to be above ground to find what I'm looking for</text>
+	</string>
+	<string id="barman_zep6_5">
+		<text>Well, maybe Lanky could put a special suit together for you. It might protect your ass. Wouldn't want your brains to fry, would we?</text>
+	</string>
+	<string id="barman_zep6_6">
+		<text>You know, that's what I like about you, Barkeep. You don't say much, but when you do, it's usually shit. Don't you agree?</text>
+	</string>
+	<string id="barman_zep7_0">	<!-- after lanky suit -->
+		<text>This storm is really starting to get on my nerves!</text>
+	</string>
+	<string id="barman_zep7_1">
+		<text>Hmm, you look like you've been on vacation to the Riviera...</text>
+	</string>
+	<string id="barman_zep7_2">
+		<text>Yeah, and you haven't changed a bit. You're still the same old grumpy old bastard...</text>
+	</string>
+	<string id="barman_zep7_3">
+		<text>Say, you heard the news? Seems that that AX guy got himself caught out in the open for too long...</text>
+	</string>
+	<string id="barman_zep7_4">
+		<text>What happened to him - and where?</text>
+	</string>
+	<string id="barman_zep7_5">
+		<text>I've no idea if he's dead, or worse, but I know he was trying to get something from the generators up North when it happened...</text>
+	</string>
+	<string id="barman_zep7_6">
+		<text>Shit, I need to find out what happened to him, and if he was after my Soul Cube! Back into the storm once more...</text>
+	</string>
+	<string id="barman_zep8_0">	<!-- after storm -->
+		<text>How's life these days, old friend?</text>
+	</string>
+	<string id="barman_zep8_1">
+		<text>Pretty dull. But that's how I like it nowadays. And you?</text>
+	</string>
+	<string id="barman_zep8_2">
+		<text>Same as always. Finding trouble in all the wrong places...</text>
+	</string>
+	<string id="barman_zep8_3">
+		<text>Hmm. Well, try and keep it out of here, will you?</text>
+	</string>
+	<string id="barman_zep8_4">
+		<text>You serious? This has always been one of those Wrong Places! But I'll let you off the hook this time...</text>
+	</string>
+	<string id="barman_zep8_5">
+		<text>You're still an asshole...</text>
+	</string>
+	<string id="barman_zep8_6">
+		<text>Ah, and to think I always took you for the insensitive type...</text>
+	</string>
+	<!-- suit dialogs -->
+	<string id="lanky_suit_0">	<!-- mushroom art for suit -->
+		<text>Is there any way I can get a suit that'll protect me from this storm?</text>
+	</string>
+	<string id="lanky_suit_1">
+		<text>I do have one I've just finished, using a special artefact</text>
+	</string>
+	<string id="lanky_suit_2">
+		<text>You interested in selling it?</text>
+	</string>
+	<string id="lanky_suit_3">
+		<text>Well, I can't sell it if it's not fully proven - but if you're happy to replace the expensive artefact I used, then I'd be happy to let you test it!</text>
+	</string>
+	<string id="lanky_suit_4">
+		<text>You mean you don't know if it works? Shit, what artefact do you need?</text>
+	</string>
+	<string id="lanky_suit_5">
+		<text>It's a very unusual one - a Mushroom artefact. Last time I heard of one was near a rare anti-gravity anomaly in Facility F1. A Stalker told me he'd seen one there but, as much as he tried, he couldn't get it out. He was really pissed about that... You might try some of the old Labs too, you never know...\nAnyway, get me one of those and the suit's yours, providing you bring back a full field report on it. I'll give you a form...</text>
+	</string>
+	<string id="lanky_suit_6">
+		<text>Okay, I'll get you one, but that suit had better be fricking gold plated!</text>
+	</string>
+	<string id="lanky_suit2_0">	<!-- have mushroom -->
+		<text>I'm here for the storm suit...</text>
+	</string>
+	<string id="lanky_suit2_1">
+		<text>Ah, you have the Mushroom artefact. Well done! Here's the suit, and don't forget your form...</text>
+	</string>
+	<string id="lanky_suit2_2">
+		<text>You must know how much a Mushroom artefact goes for, which makes this a hellishly expensive prototype! It'd better work!</text>
+	</string>
+	<string id="lanky_suit2_3">
+		<text>Hey, nobody's forcing you to do this. You can get around in that area through the underground passages...</text>
+	</string>
+	<string id="lanky_suit2_4">
+		<text>Crap. I don't have that option...</text>
+	</string>
+	<string id="lanky_suit2_5">
+		<text>As you wish, but be warned - There's a maximum amount of time you can be in this kind of storm before the suit will start to weaken, so please make your excursion brief. Otherwise, we'll never know if it worked...</text>
+	</string>
+	<string id="lanky_suit2_6">
+		<text>Thanks. I'll be sure to come back alive to let you know...</text>
+	</string>
+	<string id="lanky_suit3_0">	<!-- need fix suit, not have mushroom -->
+		<text>I need my suit repaired, please</text>
+	</string>
+	<string id="lanky_suit3_1">
+		<text>Let's see... Oh, you need a new Mushroom artefact. We've none here, but if you can find one I can fix it for you</text>
+	</string>
+	<string id="lanky_suit3_2">
+		<text>Thanks. I'll see what I can do...</text>
+	</string>
+	<!-- <string id="lanky_suit4_0"> -->	<!-- need fix suit, have mushroom 110016.2, not need duplicate -->
+		<!-- <text>I need my suit repaired, please</text>
+	</string> -->
+	<string id="lanky_suit4_1">
+		<text>You have a Mushroom artefact? Good, then let me have the suit</text>
+	</string>
+	<string id="lanky_suit4_2">
+		<text>When will it be ready?</text>
+	</string>
+	<string id="lanky_suit4_3">
+		<text>It's a specialist job - not to be rushed. It'll be done when it's done...</text>
+	</string>
+	<string id="lanky_suit4_4">
+		<text>Okay, but don't take forever on it. I need it ASAP</text>
+	</string>
+	<string id="lanky_suit4_5">
+		<text>Don't worry. We're on top of our game here!</text>
+	</string>
+	<string id="lanky_suit4_6">
+		<text>Thanks, just let me know as soon as it's finished...</text>
+	</string>
+	<string id="lanky_suit5_0">	<!-- suit fixed -->
+		<text>Thank you very much. I need to leave now...</text>
+	</string>
+	<string id="lanky_suit5_1">
+		<text>Okay. Fare thee well, Spartacus...</text>
+	</string>
+	<string id="lanky_suit5_2">
+		<text>Yeah, I salute you too. Will the one finger do? Thanks for the repair, though. I do appreciate it...</text>
+	</string>
+	<!-- storm dialogs -->
+	<string id="barman_zep9_0">	<!-- during storm -->
+		<text>Why the bad mood?</text>
+	</string>
+	<string id="barman_zep9_1">
+		<text>This storm is costing me a lot of business, that's why!</text>
+	</string>
+	<string id="barman_zep9_2">
+		<text>Ah. Money. Of course...</text>
+	</string>
+	<string id="barman_zep9_3">
+		<text>Hey, did the suit work? I have a job for you, if you're able to get into the NPP...</text>
+	</string>
+	<string id="barman_zep9_4">
+		<text>That's right in the center of the storm. What's there that's so valuable?</text>
+	</string>
+	<string id="barman_zep9_5">
+		<text>Mushroom artefacts of course! The ones spawned by the NPP Generators have been charged by the storm, making them extremely powerful. They're selling at unbelievable prices!</text>
+	</string>
+	<string id="barman_zep9_6">
+		<text>I need some myself, but if there are any spare I'll get them for you... For a slightly more believable price, of course!</text>
+	</string>
+	<string id="barman_zep10_0">	<!-- has arts -->
+		<text>Still on the lookout for Mushroom artefacts?</text>
+	</string>
+	<string id="barman_zep10_1">
+		<text>Sure. I'll take as many as you've got!</text>
+	</string>
+	<string id="barman_zep10_2">
+		<text>Here's one for you...</text>
+	</string>
+	<string id="barman_zep10_3">
+		<text>Excellent, and here's your cash</text>
+	</string>
+	<string id="barman_zep11_0">	<!-- storm recedes -->
+		<text>I'm glad the storm has finally weakened!</text>
+	</string>
+	<string id="barman_zep11_1">
+		<text>Yeah, but that crazy gold rush into the outer edges is causing mayhem...</text>
+	</string>
+	<string id="barman_zep11_2">
+		<text>Most of them have no idea what's in there. They're in for a nightmare...</text>
+	</string>
+	<string id="barman_zep11_3">
+		<text>Keep the nightmares to yourself. Have a drink...</text>
+	</string>
+	<string id="tb3d_sid_storm_0">	<!-- comment during storm -->
+		<text>Hey, Sid, any news?</text>
+	</string>
+	<string id="tb3d_sid_storm_1">
+		<text>Only thing anyone cares about around here is that storm...</text>
+	</string>
+	<string id="tb3d_sid_storm_2">
+		<text>Yes, it's really strange. I wonder what caused it...</text>
+	</string>
+	<string id="tb3d_sid_storm_3">
+		<text>I don't know, but I sure hope it burns itself out soon, and doesn't come this way!</text>
+	</string>
+	<!-- reclamation dialogs -->
+	<string id="tb3d_sid_after_0">	<!-- comment after storm -->
+		<text>Sid, old friend. How's life in the afterstorm?</text>
+	</string>
+	<string id="tb3d_sid_after_1">
+		<text>Marked One! Good to see you! What have you been up to?</text>
+	</string>
+	<string id="tb3d_sid_after_2">
+		<text>Same old stuff. I probably saved the world a couple times but, hey, who's counting?</text>
+	</string>
+	<string id="tb3d_sid_after_3">
+		<text>I was going to offer you a drink, but I think maybe you had enough already!</text>
+	</string>
+	<string id="garb2_info_0">	<!-- 109996, new info about F1 -->
+		<text>What are you guarding, way out here?</text>
+	</string>
+	<string id="garb2_info_1">	<!-- 109996, new info about F1 -->
+		<text>Nothing. Just waiting for some friends of mine</text>
+	</string>
+	<string id="garb2_info_2">	<!-- 109996, new info about F1 -->
+		<text>Looks like you've been stood up... Heard any news lately?</text>
+	</string>
+	<string id="garb2_info_3">	<!-- 109996, new info about F1 -->
+		<text>Ha! Good one... But actually, I did hear something really strange. Somebody stole a troop carrier in F1, and it's rumored to be loaded down with gold bars...</text>
+	</string>
+	<string id="garb2_info_4">	<!-- 109996, new info about F1 -->
+		<text>Hmm. Where do you think it went? Aren't you interested in looking for it?</text>
+	</string>
+	<string id="garb2_info_5">	<!-- 109996, new info about F1 -->
+		<text>Hell, no! I wouldn't go anywhere near that hotbed. It's probably a lie, anyway...</text>
+	</string>
+	<string id="garb2_info_6">	<!-- 109996, new info about F1 -->
+		<text>Yes, very likely. See you around...</text>
+	</string>
+	<!-- new in 110000, moved from stable_dialogs_tb3d.xml 110010 -->
+	<string id="tb3d_crest1_0">
+		<text>Nice to see some old faces still kickin!</text>
+	</string>
+	<string id="tb3d_crest1_1">
+		<text>Salutations to you too, what you doing around here?</text>
+	</string>
+	<string id="tb3d_crest1_2">
+		<text>Keeping the hell out of that storm!</text>
+	</string>
+	<string id="tb3d_crest1_3">
+		<text>Heard chatter about a storm around the NPP, got any idea what happened?</text>
+	</string>
+	<string id="tb3d_crest1_4">
+		<text>Not a clue... ahhhh... how's life around here these days?</text>
+	</string>
+	<string id="tb3d_crest1_5">
+		<text>Same old crap... somehow I bet your involved with what happened up North aren't you..</text>
+	</string>
+	<string id="tb3d_crest1_6">
+		<text>Me?!... why would you say that?</text>
+	</string>
+	<string id="tb3d_crest1_7">
+		<text>Not too long ago a group of Soldiers the likes of which I have never seen before were through here looking for you, 'Marked One'..\nThey were the kind you don't mess with but I still played dumb. Told them I had heard that you bought it in the Radar</text>
+	</string>
+	<string id="tb3d_crest1_8">
+		<text>Appreciate it... you take care</text>
+	</string>
+	<string id="tb3d_crest2_0">
+		<text>Glad to see you survived the storm!</text>
+	</string>
+	<string id="tb3d_crest2_1">
+		<text>Luckily it never made it this far</text>
+	</string>
+	<string id="tb3d_crest2_2">
+		<text>Any news from around here?</text>
+	</string>
+	<string id="tb3d_crest2_3">
+		<text>Been several loners and factions passing through here on their way to the NPP since the storm stopped</text>
+	</string>
+	<string id="tb3d_crest2_4">
+		<text>Seen anything from that group that was looking for me earlier?</text>
+	</string>
+	<string id="tb3d_crest2_5">
+		<text>As a matter of fact they just passed through yesterday and were still asking about you</text>
+	</string>
+	<string id="tb3d_crest2_6">
+		<text>Well I guess I should avoid the NPP for awhile, eh..</text>
+	</string>
+	<string id="tb3d_crest2_7">
+		<text>By the looks of them I would stay away for good!</text>
+	</string>
+	<string id="tb3d_crest2_8">
+		<text>Well... thanks for the advice, see ya</text>
+	</string>
+	<string id="sim_chuchelo_ax_1">
+		<text>Greetings Scarecrow, any chance you saw a Military person with a strange patch?</text>
+	</string>
+	<string id="sim_chuchelo_ax_2">
+		<text>Yes I did! He wanted to know where a safe sleeping place was, I told him the underpass just over there was his best bet.</text>
+	</string>
+	<string id="sim_chuchelo_ax_3">
+		<text>Thanks, I owe you one.</text>
+	</string>
+	<!-- 110016.2 cube and mush art additions -->
+	<string id="floating_island_hint">
+		<text>Area where a Mushroom Artifact was last seen</text>
+	</string>
+	<string id="tb3d_cube_f1_message">
+		<text>Marked One, that was crap about the cube! Just found out it was part of the explosion way up North, good luck!</text>
+	</string>
+	<string id="f1_cube_hint">
+		<text>Could the Soul Cube be here?</text>
+	</string>
+	<!-- 110016.2 chuck and gek coll info additions -->
+	<string id="bandit1_info_0">
+		<text>Anything interesting lately?</text>
+	</string>
+	<string id="bandit1_info_1">
+		<text>Same old fantasies as usual.</text>
+	</string>
+	<string id="bandit1_info_2">
+		<text>Like what?</text>
+	</string>
+	<string id="bandit1_info_3">
+		<text>How about the explosion way up North, something about a crystal of some sort.</text>
+	</string>
+	<string id="bandit1_info_4">
+		<text>Anything else about it?</text>
+	</string>
+	<string id="bandit1_info_5">
+		<text>What.. do I look like a news reporter to you?  Bug Off!</text>
+	</string>
+	<string id="bandit1_info_6">
+		<text>Out of Vodka eh..</text>
+	</string>
+	<string id="bandit2_info_0">
+		<text>Heard any strange chatter?</text>
+	</string>
+	<string id="bandit2_info_1">
+		<text>Some nut was around a bit back ranting about Gold Bars, really obsessed with it!</text>
+	</string>
+	<string id="bandit2_info_2">
+		<text>What was he saying?</text>
+	</string>
+	<string id="bandit2_info_3">
+		<text>Something about them being special.</text>
+	</string>
+	<string id="bandit2_info_4">
+		<text>Special?</text>
+	</string>
+	<string id="bandit2_info_5">
+		<text>Strange markings, secret tunnels, Alien teleports..  sick in the head from the radiation!</text>
+	</string>
+	<string id="bandit2_info_6">
+		<text>Pretty far out there, Later..</text>
+	</string>
+	<string id="bandit3_info_0">
+		<text>You ever been to the old Research Institute?</text>
+	</string>
+	<string id="bandit3_info_1">
+		<text>Hell No! A friend of mine came back from there totally bonkers!</text>
+	</string>
+	<string id="bandit3_info_2">
+		<text>Why do you say that?</text>
+	</string>
+	<string id="bandit3_info_3">
+		<text>He was talking gibberish about these weird places that held treasures but were surrounded by huge monsters. Things floating around, little gremlins...</text>
+	</string>
+	<string id="bandit3_info_4">
+		<text>Sounds like he really got the crap scared out of him eh..</text>
+	</string>
+	<string id="bandit3_info_5">
+		<text>Poor guy decided to jump into an anomaly up the hill back there and ended it all.</text>
+	</string>
+	<string id="bandit3_info_6">
+		<text>WOW..   I better stay clear of there! Thanks!</text>
+	</string>
+	<!-- storm started -->
+	<string id="bandit4_info_0">
+		<text>Heard about the big storm up North?</text>
+	</string>
+	<string id="bandit4_info_1">
+		<text>Probably some Monolith trick to keep us out!</text>
+	</string>
+	<string id="bandit4_info_2">
+		<text>Why the Monolith?</text>
+	</string>
+	<string id="bandit4_info_3">
+		<text>Who else would create something like that?</text>
+	</string>
+	<string id="bandit4_info_4">
+		<text>Got a point.</text>
+	</string>
+	<string id="bandit4_info_5">
+		<text>Yep! Trying to monopolize on all the rare artifacts there no doubt!</text>
+	</string>
+	<string id="bandit4_info_6">
+		<text>That storm won't keep me out!</text>
+	</string>
+	<string id="bandit5_info_0">
+		<text>What do you know about the OC?</text>
+	</string>
+	<string id="bandit5_info_1">
+		<text>Bunch of crap.. fireside stories is all.</text>
+	</string>
+	<string id="bandit5_info_2">
+		<text>Really think so?</text>
+	</string>
+	<string id="bandit5_info_3">
+		<text>A collective conscious controlling the zone, come on..</text>
+	</string>
+	<string id="bandit5_info_4">
+		<text>You don't find it strange that the storm is centered over the NPP?</text>
+	</string>
+	<string id="bandit5_info_5">
+		<text>Probably some kind of aftershock caused it.</text>
+	</string>
+	<string id="bandit5_info_6">
+		<text>Maybe so..</text>
+	</string>
+	<string id="bandit6_info_0">
+		<text>Ever seen a Mushroom Artifact?</text>
+	</string>
+	<string id="bandit6_info_1">
+		<text>Heard of em but never seen one myself.</text>
+	</string>
+	<string id="bandit6_info_2">
+		<text>Did you hear where they might have been seen?</text>
+	</string>
+	<string id="bandit6_info_3">
+		<text>Some stranger awhile back said he saw one in the F1 area.</text>
+	</string>
+	<string id="bandit6_info_4">
+		<text>Why didn't he get it?</text>
+	</string>
+	<string id="bandit6_info_5">
+		<text>Said something about a floating Island surrounded by anti-grav anomalies and many monsters.</text>
+	</string>
+	<string id="bandit6_info_6">
+		<text>Sounds like he had a few too many if you ask me!</text>
+	</string>
+	<!-- added 110017 -->
+	<string id="tb3d_pred_distress">
+		<text>MAYDAY, MAYDAY...  Landing site has been invaded! Evacuating to Site BR01, notify agent AX immediately, over.</text>
+	</string>
+	<string id="sms_actor_coward">
+		<text>What happened to our support?! Let all know that Marked One is a COWARD and has left us to die!</text>
+	</string>
+</string_table>

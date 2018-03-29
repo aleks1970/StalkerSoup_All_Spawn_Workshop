@@ -1,0 +1,167 @@
+<!-- TB3D 1.1.0.0.1.7 new .7.0, desolation, zep_start_entry, additional entries, tb3d_mush_arts_quest_entry, tb3d_warlab_desc, levelup2_get_suit_entry -->
+<!-- Names changed as commented below - Sword2012 - 31 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<!-- Reworked and proofed all text - Sword2012 - 07 Feb 17 -->
+<!-- tb3d_glavny_entry 5 May 17, tb3d_zep4_article -->
+<string_table>
+	<string id="tb3d_journal">
+		<text>Collector Entries</text>
+	</string>
+	<string id="tb3d_journal_entry">
+		<text>New data stored in Collector Journal</text>
+	</string>
+	<string id="tb3d_gbar_info">
+		<text>Important Note</text>
+	</string>
+	<string id="tb3d_collector_info">
+		<text>Personal Entry</text>
+	</string>
+	<string id="tb3d_collector_entry">
+		<text>Not sure what happened in the Dead City, but now I'm back in Cordon. I've no idea what to do next, but I feel a strong sense of urgency.\nThere's something unfinished here, like... an energy building up all around me. I need to see Sid to get the latest on what's happening in the Zone...</text>
+	</string>
+	<string id="tb3d_zep_docs">
+		<text>ZEP Documents</text>
+	</string>
+	<string id="zep_start_entry">
+		<text>After talking to Sid I'm even more concerned. I need to explore this Darkscape region, and see what I can dig up...</text>
+	</string>
+	<string id="zep_sid2_entry">
+		<text>Well, Sid and Tweed seem to know each other, so what's that all about? Sid gave me a sniper rifle and ammo for Tweed. This should help her fight off the military that keeps trying to move in there...</text>
+	</string>
+	<string id="zep_bar1_entry">
+		<text>Well, Darkscape turned up a document that may indicate what the stranger's looking for. This guy seems to be a well-educated scientist, looking for something very important. I also appear to be part of his search, but I haven't a clue why. I'm going to follow him into the Wasted Woodland - see if I can find out what he's looking for...</text>
+	</string>
+	<string id="tb3d_zep4_article1">
+		<text>This 'AX' guy is getting on my nerves! He must be getting desperate, otherwise why would he take such a risk?\nI need to check out the Wild Territory - see if I can find him or, hopefully, his body...</text>
+	</string>
+	<string id="tb3d_zep4_article2">
+		<text>This 'AX' guy is getting on my nerves! He must be getting desperate, otherwise why would he take such a risk?\nI need to check out the Warehouses - see if I can find him or, hopefully, his body...</text>
+	</string>
+	<string id="tb3d_zep2_article">
+		<text>Nice to know my PDA isn't trackable unless I've communicated privately, and then only by that person...\nI'm back on the trail of my Soul Cube, which may be somewhere in the NPP...</text>
+	</string>
+	<string id="tb3d_zep1_article">
+		<text>Voronin has become a total nut job! Anything I get from him now is bound to be worthless...\nI've no idea where to find these codes, though. Maybe Petrenko or Ivantsov will know something...</text><!-- Changed 'Ivantsyov' to 'Ivantsov'- Sword2012 - 05 Feb 17-->
+	</string>
+	<string id="tb3d_zep5_article">
+		<text>Petrenko said that Voronin chased 'AX' into the Wild Territory. He also described his faction patch to me - a helix over a silver cloud, with a small round symbol like a radiation sign. I've never seen that before, so where's he from, and why the hell is he after me?</text>
+	</string>
+	<string id="tb3d_turret_article">
+		<text>Turret guns... How the hell did he get those, and how many does he have? I must be getting close, and he knows it...</text>
+	</string>
+	<string id="tb3d_karina_trade_article">
+		<text>Karina has offered to trade the rare items and remedies she finds in the swamps for the food I have. She says she'll only take a certain portion at any one time - so I don't starve...</text>
+	</string>
+	<string id="tb3d_x14_article1">
+		<text>Received an SMS from a secret lab in the north-east region of the NPP. I need to check this out immediately. A scientist there is calling for help and, by the sound of it, I may find answers about AX!</text>
+	</string>
+	<string id="secret_tunnels_info">
+		<text>Tunnel Teleport Activation Sequence</text>
+	</string>
+	<string id="tb3d_tunnels_desc">
+		<text>Intel has been extrapolated for the unusual portals here, which are activated by placing a specific set of gold bars into the appropriate slots in the correct sequence\n \nOn each bar is stamped a code, indicating the slot to which it belongs. The sequence appears to be:\nWS-6, WN-5, WS-3, WN-2, ES-6, ES-4, EN-3, ES-2, W-0, E-0, C-C Centre.\n.\nThe center slots can be identified by the large valve hanging overhead. Activation of these portals has never been done before, so the consequences are as yet unknown...\n \nThe AX scientific teams collated a list of the portal targets which need to be activated:\nWS-6 Marshes\nWN-5 Facility F1\nWS-3 Cordon\nWN-2 Broken Road\nES-6 Darkscape\nES-4 Black Market\nEN-3 Generators\nES-2 NPP2 (North)\nW-0 Waiting Room\nE-0 Recon</text>
+	</string>
+	<string id="tb3d_warlab_desc">
+		<text>The Barman sent a message informing me that a stranger was recently spotted in the Warlab. Might it be 'AX' or one of his men? I need to check it out...</text>
+	</string>
+	<string id="tb3d_agentax_info">
+		<text>Unknown operative: Agent X, also referred to as 'AX'. Apparently, his team is searching for research material and objects being worked on when the Zone first erupted.\nIt also seems that he's looking for a particular person who was known to be at the NPP when it happened - a guy with a 'S.T.A.L.K.E.R.' tattoo on his arm... Rumor has it that he's becoming increasingly ruthless in getting answers quickly...</text>
+	</string>
+	<string id="tb3d_final_zep_info">
+		<text>The trail for 'AX' has gone cold. Chatter about a raid from the north. Vague information on a secret underground lab, and a 'working' alien object.\nA message from Syak at Radar about the Cube, which I need to check out immediately!\nSeems like a good time to go south - see what's happening at the bar in Rostok. Hmm, maybe check on Tweed as well...</text>	<!-- Changed 'Syac' to 'Syak' - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tb3d_contact_info">
+		<text>Important Contact</text>
+	</string>
+	<string id="tb3d_notes">
+		<text>Important Notes</text>
+	</string>
+	<string id="tb3d_tweed_entry">
+		<text>Tweed is a wannabe trader in the Darkscape region. She's asked me to find her missing book: 'For Women with an Adventurous Notion to Explore the Zone' by L. D. Tweed.\nIt should be somewhere around the old bar, right up in the north-east...</text>
+	</string>
+	<string id="tb3d_karina_entry">
+		<text>Karina Zetraphonic is a technician hiding out in the Dead Marshes, hoping that her colleagues will return. So far she's been very helpful, and is certainly a good source of info on that region</text>
+	</string>
+	<string id="zep_purged_tunnel">
+		<text>Well, that was fun... Not sure exactly what they were here for, since there's nothing in the Distribution Center. I should go back and tell Karina that the tunnel's clear. Looks like I need to pass through the Generators to get to the old research station. Seems that 'AX' was messing with the comms center there...</text>
+	</string>
+	<string id="tb3d_tractorist_entry">
+		<text>Had to abandon the geek in the Broken Road area. But he did mention an attic in the old town, and the possibility of gold bars hidden there...</text>
+	</string>
+	<string id="tb3d_glavny_entry">
+		<text>The Scientist didn't make it unfortunately. It was determined from his PDA that the strange Generator in the Secret Lab can be destroyed with a negative energy Anomaly.</text>	<!-- 110013 -->
+	</string>
+	<string id="tb3d_informer_entry">
+		<text>Hah! The informant from Rostok is now a deserter in the old Distribution Center, and looking for a way out through the north. Maybe they'll take him in at the old bar in the north-east. I should get around to asking someone...</text>
+	</string>
+	<string id="tb3d_hunt_info">
+		<text>Caesier's Treasures</text>
+	</string>
+	<string id="tb3d_hunt_name">
+		<text>Important note</text>
+	</string>
+	<string id="tb3d_treasure_hunt_entry">
+		<text>Sid described a man who used to wander the Zone, collecting rare artefacts and other items. Supposedly, the guy hung around the old red house all the time, looking for something.\nSid suggested I search around there - he might have left something behind...</text>
+	</string>
+	<string id="tb3d_hunt0_entry">
+		<text>"Stalker, if you're reading this it means that I may already be dead. It all started when I was on a job near Radar for the Initiative. They wanted me to find a couple of rare artefacts that only turn up there. I found myself hiding for my life from those Monolith freaks. I ducked down behind some bushes, and got immediately enveloped in this thick fog that just formed out of the air. It was only for a few seconds but my Geiger counter and anomaly detector went wild, and I felt really strange. Then I lost consciousness...\nI woke up feeling absolutely fine, rejuvenated even... Soon after, I started to notice something. I could sense artefacts nearby. So I started looking and, well, I found those artefacts for the order with ease\nI made it to the Chernobyl NPP, but I couldn't find the Sarcophagus. I'd found loads of rare, and even unknown artefacts, plus several unusual mushroom mutations. These local mushrooms are interesting because they have really high levels of Caesium-137, Strontium-90, Barium-137, Iodine-131, Tellurium and Rubidium isotopes, Plutonium, and other heavy elements - all naturally absorbed, which is what mushrooms do...\nEach time I returned to the Cordon, I hid caches in the areas I travelled through, as well as notes with reminders of my other locations. With my fading health and memory, I knew I'd need these cryptic clues. Now I realize that, with each passing day, the cumulative effect of all those isotopes has been killing me. Each time I look at my reflection I've become significantly older. Only a few months after that incident at Radar, my life has been used up...\nBut you have found my last note so - good luck to you Stalker, in pursuit of my treasures..."\n.\nSo has he gone? If so, where's his body? And are there more of his treasures still out there? I'll need to have a more careful look around when I'm in those areas...</text>
+	</string>
+	<string id="tb3d_hunt1_entry">
+		<text>After a difficult search I've been able to find Caesier's treasure stashes as far as Radar.\nWhy did he opt for so many portals? He must have been really paranoid by this time...\nThe trail ends abruptly here, so I'm not sure if he's gone or if there are still treasures of his to find.\nI'll keep going for a while, and watch and listen out for clues...</text>
+	</string>
+	<string id="levelup2_desolation_entry">
+		<text>After destroying that generator in the Secret Lab, I ended up down in the underground complex at Jupiter. I must have been responsible for the storm around the NPP. It seems to be affecting these areas, too:\nRadar\nDead City\nEast Pripyat\nRecon\nGenerators\nBlack Market\nThe Old Cemetery\nI hear warnings advising everyone to stay out of those areas, due to the high radiation. The undergrounds of those areas seem to be safe, but there's been no official confirmation of that.\nI need to talk to the Barman and the techies about it - see what they've got to say...</text>
+	</string>
+	<string id="levelup3_reclemation_entry">
+		<text>The Storm has dissipated, and now it seems that every faction wants to get there first to see what's there. But how much damage did it do to those areas, and can it be dealt with?\nAre these so-called 'treasures' there worth the risk? Well, I'm certainly going to find out!\nBut first I need to plan my way back to the center, avoid any nasties, and find out what the Zone's got in store for us this time...</text>
+	</string>
+	<!-- 109982 -->
+	<string id="levelup2_get_suit_entry">
+		<text>Now what? The storm has made the areas around the NPP and beyond impassable, so how can I get to them?\nMaybe the geeks at the bar can give me help because there's no telling how long this storm will last. Maybe forever...</text>
+	</string>
+	<string id="syslov_items_quest_opisanie_entry">
+		<text>Syslov at the Clear Sky base has asked me to get him a few things. In exchange, he's promised to give me Shadows' Soul Cube, which I've heard has incredible properties. Here's the list:\nDegtyarev's Light Machinegun 'RPD', which he sold to some merchant in Agroprom\nA Mercenary researcher suit\nFive bottles of 'Nemiroff' vodka\nThree cans of 'Chernigov' beer\nFive cans of 'Adrenaline Rush'\nTwo green military ration packs\nThree 'Yantar' cheeses\nFive cans of nuts</text>	<!-- Changed 'Suslov' to 'Syslov'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="cop_prip_info_lab_opisanie_entry">
+		<text>Grozny said he saw a map of Pripyat in a room of the old hospital. That it was marked with a complex of underground facilities. This map could turn out useful...</text>
+	</string>
+	<string id="cop_prip_instr_quest_opisanie_entry">
+		<text>Sage, at the Stalker base in East Pripyat, needs tools. If I can find some for him, then he'll be able to repair stuff, including my own. Never underestimate the value of a repairman in a remote place like this...</text>
+	</string>
+	<string id="soulcube_quest_opisanie_entry">
+		<text>Well, after all my efforts, the Soul Cube was a fake... According to Shadows, the real one should be located in East Pripyat. The first place to look is the top floor of an apartment block. Another Stalker said that it was near the cinema, and has a large vine up its side, so I can't miss it. It's a start, at least...</text>
+	</string>
+	<string id="outfit_blockpost_quest_opisanie_entry">
+		<text>I need to find a Military suit, in order to dupe the military and get through the checkpoint...</text>
+	</string>
+	<string id="find_railroad_passage_text">
+		<text>Before I go deeper into the Zone, I need to cross an old railway embankment, but the only safe pass is protected by the military. However, there's a small tunnel to their left that the rookies usually go through. There should be a guide there, who'll help me through and give me some tips on surviving the Zone...</text>
+	</string>
+	<string id="find_mil_pda_entry">
+		<text>Found this dead Military guy. Appears to have been shot in the back at close range...\nThe note he left said that he was carrying a special PDA with important info. It might be an idea to find this PDA, and the 'good friend' who betrayed him...</text>
+	</string>
+	<string id="find_five_tails_entry">
+		<text>Tolik asked me to get him five blind dog tails. Said he tried to collect them himself, but came off the worse for it... But if I do this simple job for him he'll share a valuable artefact recipe with me. Can't be bad...</text>
+	</string>
+	<string id="find_artifact_entry">
+		<text>Sidorovich gave me a small job to earn some money, while he tries to figure out my situation. He told me some rich jerk outside the Zone wants a Night Star artefact for who knows what, and Sid promised to get him one.\nSome Loners reported seeing a Night Star in the local area. Because it's highly radioactive, Sid gave me a special container to put it in...</text>
+	</string>
+	<string id="jaw_for_prapor_entry">
+		<text>Prapor, one of the Duty officers guarding the Duty checkpoint, asked me to find him a Bloodsucker jaw in exchange for Fox' parcel. Apparently Prapor has a sickness, and a Doctor he knows wants to extract a medicine from the jaw. Well, I'd better find a Bloodsucker before it finds me...</text>
+	</string>
+	<string id="find_desert_eagle_entry">
+		<text>Freeman at the Bar asked me to find his Desert Eagle handgun. He thinks he may have lost it in a tunnel in the Wild Territory, or somewhere around there...</text>
+	</string>
+	<string id="val_come_to_trader_entry">
+		<text>I need to get back to the Barman, but the path to the Garbage is blocked by the Military. I've heard there's a path south of the Cordon that should be clear...</text>
+	</string>
+	<string id="case_to_freeman_entry">
+		<text>Freeman has asked me to go to the Wild Territory, and meet up with this DeJames character. I'm to get a case from him, and return it to Freeman at the Bar</text>
+	</string>
+	<string id="tb3d_mush_arts_quest_entry">
+		<text>The storm may have actually brought some benefits - the Barman's saying he'll pay big money for Mushroom artefacts that have been cooked in the storm around the NPP Generators...</text>
+	</string>
+	<string id="tb3d_lanky_mush_art_quest_entry">
+		<text>Lanky has offered to lend me a prototype suit that he believes will protect me from the storm - for testing, of course, and only after I find him a unique Mushroom artefact from F1. Or maybe one of the old research labs up north...</text>
+	</string>
+</string_table>

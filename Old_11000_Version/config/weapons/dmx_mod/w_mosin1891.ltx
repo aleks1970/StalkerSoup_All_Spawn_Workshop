@@ -1,0 +1,204 @@
+;;;; TB3D 1.1.0.0.1.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+; Винтовка Мосина. Автор Aaz
+[wpn_mosin1891]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                  = "weapons\wpn_mosin1891"		; option for Level Editor
+$npc			 		= on				; option for Level Editor
+$prefetch 		 		= 8
+scheduled               = off              	; option for ALife Simulator
+cform                   = skeleton
+class                   = WP_SVU	; WP_SHOTG ;aleks1970
+min_radius              = 0
+max_radius              = 800
+
+inv_name	        = wpn_mosin1891_name							; name in inventory	
+inv_name_short		= wpn_mosin1891_name
+description		    = enc_wpn_mosin1891
+ef_main_weapon_type		 = 3
+ef_weapon_type			 = 8
+
+;--- scope weapons -----------------------------------------------------------------
+holder_range_modifier	= 2.15               
+holder_fov_modifier		= 0.3            
+;-----------------------------------------------------------------------------------
+
+cost					= 14000
+weapon_class			= sniper_rifle
+tri_state_reload			= on
+
+ammo_limit				= 60
+ammo_current			= 5
+ammo_elapsed			= 0
+
+ammo_mag_size			= 5
+ammo_class			= ammo_7.62x54_7h1, ammo_7.62x54_7h14, ammo_7.62x54_ap, ammo_7.62x54_izomorf, ammo_7.62x54r
+
+sprint_allowed			= true
+;-----------------------------------------------------------------------------------
+;базовая дисперсия
+fire_dispersion_base		= 0.005	
+control_inertion_factor		= 2.2f
+	
+cam_relax_speed         	= 12;4.5	
+
+cam_dispersion          	= 3.0	
+
+cam_dispersion_inc		= 0.5	
+
+cam_dispertion_frac	= 1.0	
+cam_max_angle			= 18.5	
+cam_max_angle_horz		= 4.5	
+cam_step_angle_horz		= 0.35	
+
+fire_dispersion_condition_factor = 2.0	
+misfire_probability 		= 0.00001 
+misfire_condition_k		= 0.00001
+condition_shot_dec 		= 0.000001 
+;-----------------------------------------------------------------------------------
+
+hand_dependence 		= 1
+single_handed			= 0
+
+slot 				= 2		
+animation_slot		= 3		
+
+inv_weight			= 5.1
+
+
+inv_grid_width     = 6
+inv_grid_height    = 2
+inv_grid_x         = 15
+inv_grid_y         = 69
+
+kill_msg_x			= 0
+kill_msg_y			= 0
+kill_msg_width		= 98
+kill_msg_height		= 23
+
+direction               = 0, 0, 1
+
+fire_point              = 0.0, 0.129, 0.942
+
+;flame_particles		    = weapons\generic_weapon05
+smoke_particles		   	= weapons\generic_shoot_00
+rpm_empty_click 		= 200
+
+shell_point		 		= 0.0, 0.129, 0.192	
+shell_dir		 		= 0.0, 0.0, 0.4
+
+PDM_disp_base = 1.5
+PDM_disp_vel_factor = 0.6
+PDM_disp_accel_factor = 0.9
+PDM_crouch = 1.0
+PDM_crouch_no_acc = 1.0
+
+; ttc
+hit_power           = 2.92
+hit_impulse		 	= 140
+hit_type 			= fire_wound
+fire_distance           	= 600					;;;109974 10:1
+bullet_speed		 	= 850	
+rpm                     	= 25
+; end ttc
+
+use_aim_bullet				= true		
+time_to_aim					= 1.0	
+
+hud                     = wpn_mosin1891_hud
+normal                  = 0, 1, 0
+position                = -0.026, -0.2, 0.00
+orientation             = 0, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.23,-0.13,0.1 ;-0.15,-0.15,0.45			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -15,-9,110 ;-25,-189,65				; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+startup_ammo            = 10
+visual                  = Aaz\wpn_mosin.ogf
+
+light_color		 		= 0.6,0.5,0.3
+light_range		 		= 4.0
+light_var_color		 	= 0.05
+light_var_range		 	= 0.5
+light_time 		 		= 0.2
+
+ph_mass			 		= 3
+
+;addons
+scope_status				= 0
+silencer_status				= 2
+grenade_launcher_status		= 0
+
+silencer_name  				= wpn_addon_sil_bramit
+silencer_x 					= 287						
+silencer_y 					= 15	
+
+
+zoom_enabled			= true
+scope_zoom_factor	    = 10
+scope_texture			= wpn\G-36-AMK_1280-T
+
+;-----------------------------------------------------------
+snd_draw				= weapons\mosin\generic_draw, 0.4
+snd_holster				= weapons\mosin\generic_holster, 0.4
+snd_shoot				= weapons\mosin\m1891_shot			
+snd_empty				= weapons\mosin\gen_empty, 0.4
+snd_reload				= weapons\mosin\m1891_reload2, 0.6
+snd_shoot_duplet		= weapons\mosin\toz34_shoot_both
+snd_open_weapon			= weapons\mosin\m1891_open		
+snd_add_cartridge		= weapons\mosin\m1891_load		
+snd_close_weapon		= weapons\mosin\m1891_close	
+snd_silncer_shot		= weapons\mosin\m1891_shot_sil
+;----------------------------------------------------------
+silencer_light_color		= 1.0, 0.1, 0.0
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+[wpn_mosin1891_hud]
+fire_point			= 0.0,0.0,0.0
+fire_bone               = muzzle	;wpn_body  ; - aleks1970
+orientation             = 0, 0, 0
+position                = 0.12,-0.1,-0.095
+visual                  = Aaz\wpn_mosin_hud.ogf
+
+anim_idle		= idle
+anim_idle_aim	= idle_aim
+anim_draw		= draw
+anim_holster	= holster
+anim_shoot		= shoot
+anim_reload	= draw
+anim_idle_sprint			= idle_sprint
+anim_shoot_both 			= shoot
+anim_open_weapon			= reload1
+anim_add_cartridge			= reload2
+anim_close_weapon			= reload3
+
+;смещение HUD для режима приближения
+zoom_offset = -0.12,0.0231,0.05 
+zoom_rotate_x = 0 
+zoom_rotate_y = 0.001;
+
+;+++++++++++++++++++++++++++++Aaz+++++++++++++++++++++++++++++++++++++
+[wpn_addon_sil_bramit]:wpn_addon_silencer
+$spawn			= "weapons\addons\sil_bramit" ; option for Level Editor
+visual          = weapons\addons\bramit.ogf
+description		= enc_weapons1_wpn-silencer_bramit
+
+cost			= 450
+inv_name		= wpn-silencer_bramit
+inv_name_short	= wpn-silencer_bramit
+inv_grid_width     = 1
+inv_grid_height    = 1
+inv_grid_x         = 21
+inv_grid_y         = 66
+
+bullet_hit_power_k	= 0.9
+bullet_speed_k	 	= 0.9
+fire_dispersion_base_k = 1.0
+cam_dispersion_k	= 0.8

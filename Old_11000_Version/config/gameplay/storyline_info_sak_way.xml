@@ -1,0 +1,486 @@
+<!-- ************ TB3D 1.0.9.9.8.9 five tails, added sacharov_pda, line 197 *************** -->
+	<article article_type="journal" group="kodes" id="ways_info_door_sak" name="Code_from_door_radar_pda_name">
+		<text>ways_info_door_sak_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="strelok_pda_info_w2" name="Information_Arrow_PDA_pda_name">
+		<text>strelok_pda_info_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way100a" name="the_agricultural_industry_Cordon_pda_name">
+		<text>ways_info_way100a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way101a" name="The_cordon_on_Agroprom_pda_name">
+		<text>ways_info_way101a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way102a" name="With_agricultural_industry_Amber_pda_name">
+		<text>ways_info_way102a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way103a" name="From_Amber_Agroprom_pda_name">
+		<text>ways_info_way103a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way104a" name="wilderness_areas_the_Warehouses_pda_name">
+		<text>ways_info_way104a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way105a" name="With_army_warehouses_Wild_Territory_pda_name">
+		<text>ways_info_way105a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way106a" name="From_the_radar_Amber_pda_name">
+		<text>ways_info_way106a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way107a" name="With_the_radar_dark_valley_pda_name">
+		<text>ways_info_way107a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way108a" name="From_the_radar_Amber_2_pda_name">
+		<text>ways_info_way108a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way109a" name="From_the_Dark Valley_Radar_pda_name">
+		<text>ways_info_way109a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way110a" name="From_Dark_Valley_Army_Warehouses_pda_name">
+		<text>ways_info_way110a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way111a" name="With_army_warehouses_dark_valley_pda_name">
+		<text>ways_info_way111a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way112a" name="With_radar_Army_Warehouses_pda_name">
+		<text>ways_info_way112a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way113a" name="The_bar_at_Army_Warehouses_pda_name">
+		<text>ways_info_way113a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way114a" name="The_marshes_the_old_village_pda_name">
+		<text>ways_info_way114a_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="ways_info_way_false" name="Leap_of_Chernobyl_pda_name">
+		<text>ways_info_way_false_text</text>
+	</article>
+	<article article_type="journal" group="enc_ways" id="strelok_pda_info" name="the_sarcophagus_Chernobyl_nuclear_power_south_pda_name">
+		<text>strelok_pda_info_text</text>
+	</article>
+	<article id="tex_saharov_pda" name="Find_the_PDA_Ghost_pda_name" article_type="task">
+		<text>tex_saharov_pda</text>
+	</article>
+	<article id="tex_borov_11" name="Check_the_helicopter_crash_pda_name" article_type="task">
+		<text>tex_borov_11</text>
+	</article>
+	<article id="tex_bandit_krisyk" name="Return_Hogs_PDA_Krysyuk_pda_name" article_type="task">
+		<texture x="300" y="650" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_bandit_krisyk</text>
+	</article>
+	<article id="tex_agroprom_vodka" name="Exchange_vodka_on_papers_pda_name" article_type="task">
+		<texture x="250" y="100" width="50" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_agroprom_vodka</text>
+	</article>
+	<article id="tex_docent_detector1" name="Collect_details_detector_bloodsuckers_pda_name" article_type="task">
+		<texture x="250" y="700" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_docent_detector1</text>
+	</article>
+	<article id="tex_docent_detector2" name="Collect_details_detector_psevdogigantov_pda_name" article_type="task">
+		<texture x="250" y="700" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_docent_detector2</text>
+	</article>
+	<article id="tex_docent_detector3" name="Collect_details_detector_monitors_pda_name" article_type="task">
+		<texture x="250" y="700" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_docent_detector3</text>
+	</article>
+<!-- text for the new tasks about mutant minimap detector - aleks1970 -->
+	<article id="tex_docent_detector4" name="Collect_details_detector_werewolf_pda_name" article_type="task">
+		<texture x="250" y="700" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_docent_detector4</text>
+	</article>
+	<article id="tex_docent_detector5" name="Collect_details_detector_chimera_pda_name" article_type="task">
+		<texture x="250" y="700" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_docent_detector5</text>
+	</article>
+	<article id="tex_docent_detector6" name="Collect_details_detector_burer_pda_name" article_type="task">
+		<texture x="250" y="700" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_docent_detector6</text>
+	</article>
+	<article id="tex_docent_detector7" name="Collect_details_detector_librarian_pda_name" article_type="task">
+		<texture x="250" y="700" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_docent_detector7</text>
+	</article>
+<!-- text for the new tasks about mutant minimap detector -END- - aleks1970 -->
+	<article id="tex_about_life_heart" name="Determine_recipe_artifact_Beating_Heart_pda_name" article_type="task">
+		<texture x="600" y="450" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_about_life_heart</text>
+	</article>
+	<article id="tex_life_heart_sahar" name="Set_unit_of_Chernobyl_pda_name" article_type="task">
+		<texture x="800" y="1650" width="100" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_life_heart_sahar</text>
+	</article>
+	<article id="tex_life_heart_sidor" name="Get_container_with_artifact_pda_name" article_type="task">
+		<texture x="1900" y="300" width="150" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_life_heart_sidor</text>
+	</article>
+	<article id="tex_life_heart_barman" name="Find_Bartender_the_PDA_Pripyat_pda_name" article_type="task">
+		<texture x="150" y="950" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_life_heart_barman</text>
+	</article>
+	<article id="tex_strelok_pda" name="Find_Arrows_PDA_pda_name" article_type="task">
+		<texture x="300" y="650" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_strelok_pda</text>
+	</article>
+	<article id="tex_strelok_pda2" name="Find_the_Emerald_Jellyfish_pda_name" article_type="task">
+		<texture x="250" y="1750" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_strelok_pda2</text>
+	</article>
+	<article id="tex_doctor_drug" name="Find_Doctors_dog_pda_name" article_type="task">
+		<texture x="660" y="0" width="165" height="107">ui\ui_npc_monster</texture>
+		<text>tex_doctor_drug</text>
+	</article>
+	<article id="tex_yan_scientist_teleport_01" name="Install_the_device_pda_name" article_type="task">
+		<texture x="800" y="1650" width="100" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_yan_scientist_teleport_01</text>
+	</article>
+	<article id="tex_yan_scientist_teleport_02" name="Install_the_device_pda_name" article_type="task">
+		<texture x="800" y="1650" width="100" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_yan_scientist_teleport_02</text>
+	</article>
+	<article id="tex_yan_scientist_teleport_03" name="Install_the_device_pda_name" article_type="task">
+		<texture x="800" y="1650" width="100" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_yan_scientist_teleport_03</text>
+	</article>
+	<article id="tex_fanat_teleport_04" name="Find_fans_of_laptop_pda_name" article_type="task">
+		<texture x="900" y="1650" width="100" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_fanat_teleport_04</text>
+	</article>
+	<article id="tex_fanat_teleport_05" name="Find_fans_diplomat_with_cards_pda_name" article_type="task">
+		<texture x="900" y="1750" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_fanat_teleport_05</text>
+	</article>
+	<article id="tex_fanat_teleport_06" name="Find_computer_Pripyat_pda_name" article_type="task">
+		<texture x="900" y="1800" width="100" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_fanat_teleport_06</text>
+	</article>
+	<article id="tex_mil_trader_teleport_07" name="Collect_seven_claws_chimeras_pda_name" article_type="task">
+		<texture x="1100" y="350" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_mil_trader_teleport_07</text>
+	</article>
+	<article id="tex_mil_max_teleport_08" name="Bring_PlayBoy_magazines_pda_name" article_type="task">
+		<texture x="900" y="1900" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_mil_max_teleport_08</text>
+	</article>
+	<article id="tex_mil_cook_teleport_09" name="Gather_snacks_Chef_pda_name" article_type="task">
+		<texture x="1050" y="250" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_mil_cook_teleport_09</text>
+	</article>
+	<article id="tex_doktor_teleport_12" name="Bring_an_artifact_pda_name" article_type="task">
+		<texture x="250" y="1700" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_doktor_teleport_12</text>
+	</article>
+	<article id="tex_doktor_teleport_10" name="Bring_an_artifact_pda_name" article_type="task">
+		<texture x="300" y="1700" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_doktor_teleport_10</text>
+	</article>
+	<article id="tex_doktor_teleport_11" name="Bring_an_artifact_pda_name" article_type="task">
+		<texture x="350" y="1700" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_doktor_teleport_11</text>
+	</article>
+	<article id="tex_esc_provodnik_groza" name="Find_weapons_Explorer_pda_name" article_type="task">
+		<texture x="0" y="700" width="200" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_esc_provodnik_groza</text>
+	</article>
+	<article id="tex_esc_bridge_vodka" name="Bring_the_case_vodka_pda_name" article_type="task">
+		<texture x="250" y="100" width="50" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_esc_bridge_vodka</text>
+	</article>
+	<article id="tex_escape_lager_volk_document" name="Find_lost_document_pda_name" article_type="task">
+		<texture x="300" y="900" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_escape_lager_volk_document</text>
+	</article>
+	<article id="tex_bar_ivancov_playboy" name="Find_PlayBoy_Ivancova_pda_name" article_type="task">
+		<texture x="900" y="1900" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_bar_ivancov_playboy</text>
+	</article>
+	<article id="tex_mil_volk_resiver" name="Find_the_station_pda_name" article_type="task">
+		<texture x="800" y="1650" width="100" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_mil_volk_resiver</text>
+	</article>
+	<article id="tex_gar_dram_novice_mp5_m1" name="Get_modified_MR5_pda_name" article_type="task">
+		<texture x="250" y="1650" width="150" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_gar_dram_novice_mp5_m1</text>
+	</article>
+	<article id="tex_gar_dram_novice_burer_hand" name="Get_a_Burer_Paw_pda_name" article_type="task">
+		<texture x="650" y="600" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_gar_dram_novice_burer_hand</text>
+	</article>
+	<article id="tex_bar_dolg_base_guard_art" name="Find_unusual_artifact_pda_name" article_type="task">
+		<texture x="300" y="1750" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_bar_dolg_base_guard_art</text>
+	</article>
+	<article id="tex_gar_hellcar_outfit" name="Bring_Demon_good_Bronicas_pda_name" article_type="task">
+		<texture x="300" y="750" width="100" height="150">ui\ui_icon_equipment</texture>
+		<text>tex_gar_hellcar_outfit</text>
+	</article>
+	<article id="tex_ratcatcher_order" name="Bring_illegal_order_Deserters_pda_name" article_type="task">
+		<texture x="300" y="950" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_ratcatcher_order</text>
+	</article>
+	<article id="tex_gar_dolg_flesh_eye" name="Get_Eye_of_Flesh_pda_name" article_type="task">
+		<texture x="400" y="950" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_gar_dolg_flesh_eye</text>
+	</article>
+	<article id="tex_val_pula_boar_leg" name="Get_hoofs_wild_boars_pda_name" article_type="task">
+		<texture x="550" y="050" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_val_pula_boar_leg</text>
+	</article>
+	<article id="tex_gar_dolg_krovosos_jaw" name="Get_Bloodsucker_tentacles_pda_name" article_type="task">
+		<texture x="900" y="350" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_gar_dolg_krovosos_jaw</text>
+	</article>
+	<article id="tex_gar_dolg_psevdodog_tail" name="Get_pseudodogs_tails_pda_name" article_type="task">
+		<texture x="450" y="950" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_gar_dolg_psevdodog_tail</text>
+	</article>
+	<article id="tex_esc_fox_medkit" name="Bring_ten_kits_Fox_pda_name" article_type="task">
+		<texture x="300" y="700" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_esc_fox_medkit</text>
+	</article>
+	<article id="tex_esc_petruha_toz" name="Find_Petruha_TOZ_34_pda_name" article_type="task">
+		<texture x="600" y="100" width="300" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_esc_petruha_toz</text>
+	</article>
+	<article id="tex_esc_shustryi_medusa" name="Get_Medusa_Nimble_pda_name" article_type="task">
+		<texture x="450" y="200" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_esc_shustryi_medusa</text>
+	</article>
+	<article id="tex_yan_kruglov_green_art" name="Ecologist_Emerald_Blood_Stone_artifact_pda_name" article_type="task">
+		<texture x="350" y="1750" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_yan_kruglov_green_art</text>
+	</article>
+	<article id="tex_esc_tolik_five_teily" name="Find_Tolik_five_dog_tails_pda_name" article_type="task">
+		<texture x="450" y="50" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_esc_tolik_five_teily</text>
+	</article>
+	<article id="tex_mil_Svoboda_trader_outfit" name="Stealing_unique_costumes_Miser_pda_name" article_type="task">
+		<texture x="300" y="0" width="280" height="200">ui\ui_sak</texture>
+		<text>tex_mil_Svoboda_trader_outfit</text>
+	</article>
+	<article id="tex_mil_Svoboda_trader_ammo" name="Buy_cartridges_Sidorovich_Svobodov_pda_name" article_type="task">
+		<texture x="500" y="1300" width="100" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_mil_Svoboda_trader_ammo</text>
+	</article>
+	<article id="tex_mil_Svoboda_trader_plan" name="Work_couriers_pda_name" article_type="task">
+		<texture x="800" y="1550" width="100" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_mil_Svoboda_trader_plan</text>
+	</article>
+	<article id="tex_agr_krot_PDA" name="Find_Moles_PDA_pda_name" article_type="task">
+		<texture x="300" y="650" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_agr_krot_PDA</text>
+	</article>
+	<article id="tex_val_pula_ammo" name="Deliver_munitions_pda_name" article_type="task">
+		<texture x="500" y="1300" width="100" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_val_pula_ammo</text>
+	</article>
+	<article id="tex_val_escort_PDA" name="Return_the_PDA_pda_name" article_type="task">
+		<texture x="300" y="650" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_val_escort_PDA</text>
+	</article>
+	<article id="tex_bar_dolg_petrenko_gaussgan" name="Find_Petrenko_Gauss_Pistol_pda_name" article_type="task">
+		<texture x="0" y="0" width="280" height="200">ui\ui_sak</texture>
+		<text>tex_bar_dolg_petrenko_gaussgan</text>
+	</article>
+	<article id="tex_bar_dolg_petrenko_electra_flash" name="Find_a_Flash_pda_name" article_type="task">
+		<texture x="200" y="400" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_bar_dolg_petrenko_electra_flash</text>
+	</article>
+	<article id="tex_bar_dolg_petrenko_exo" name="Exchange_artifact_Exoskeleton_pda_name" article_type="task">
+		<texture x="500" y="1500" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_bar_dolg_petrenko_exo</text>
+	</article>
+	<article id="tex_sak_repair_box" name="Deliver_tool_to_Shakus_pda_name" article_type="task">
+		<texture x="500" y="1400" width="100" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_sak_repair_box</text>
+	</article>
+	<article id="tex_sak_gold_fish" name="Find_Goldfish_artifact_Syaka_pda_name" article_type="task">
+		<texture x="800" y="0" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_sak_gold_fish</text>
+	</article>
+	<article id="tex_sak_find_seif" name="Drag_safe_from_X_18_pda_name" article_type="task">
+		<texture x="450" y="1650" width="150" height="150">ui\ui_icon_equipment</texture>
+		<text>tex_sak_find_seif</text>
+	</article>
+	<article id="tex_sak_reward_outfit" name="Bring_new_Armor_pda_name" article_type="task">
+		<texture x="900" y="850" width="100" height="150">ui\ui_icon_equipment</texture>
+		<text>tex_sak_reward_outfit</text>
+	</article>
+	<article id="tex_yan_kruglov_decoder" name="Find_the_decoder_for_Ecologist_pda_name" article_type="task">
+		<texture x="550" y="150" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_yan_kruglov_decoder</text>
+	</article>
+	<article id="tex_yan_kruglov_art" name="Sell_artifact_Sidorovich_pda_name" article_type="task">
+		<texture x="500" y="1500" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_yan_kruglov_art</text>
+	</article>
+	<article id="tex_yan_scientist_books" name="Collect_documents_for_Sakharov_pda_name" article_type="task">
+		<texture x="650" y="1150" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_yan_scientist_books</text>
+	</article>
+	<article id="tex_bar_ivancov_rg6" name="Pass_grenade_Miser_pda_name" article_type="task">
+		<texture x="0" y="400" width="200" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_bar_ivancov_rg6</text>
+	</article>
+	<article id="tex_yan_scientist_find_af_dummy_glassbeads" name="Find_Artifact_pda_name" article_type="task">
+		<texture x="300" y="1950" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_yan_scientist_find_af_dummy_glassbeads</text>
+	</article>
+	<article id="tex_yan_scientist_find_case" name="Find_documents_pda_name" article_type="task">
+		<texture x="400" y="900" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_yan_scientist_find_case</text>
+	</article>
+	<article id="tex_bar_dolg_leader_find_case" name="Find_Case_of_documents_pda_name" article_type="task">
+		<texture x="400" y="900" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_bar_dolg_leader_find_case</text>
+	</article>
+	<article id="tex_mil_lukash_find_dinamit" name="Find_Lukas_dynamite_pda_name" article_type="task">
+		<texture x="200" y="900" width="100" height="100">ui\ui_icon_equipment</texture>
+		<text>tex_mil_lukash_find_dinamit</text>
+	</article>
+	<article id="tex_esc_reward_case" name="Transfer_case_pda_name" article_type="task">
+		<texture x="400" y="900" width="100" height="50">ui\ui_icon_equipment</texture>
+		<text>tex_esc_reward_case</text>
+	</article>
+	<article article_type="journal" id="price_sidor" name="Sidorovich_offers_pda_name" group="enc_price">
+		<text>price_sidor_text</text>
+	</article>
+	<article article_type="journal" id="price_barman" name="The_bartender_offers_pda_name" group="enc_price">
+		<text>price_barman_text</text>
+	</article>
+	<article article_type="journal" id="price_petrenko" name="Petrenko_offers_pda_name" group="enc_price">
+		<text>price_petrenko_text</text>
+	</article>
+	<article article_type="journal" id="price_scraga" name="Miser_offers_pda_name" group="enc_price">
+		<text>price_scraga_text</text>
+	</article>
+	<article article_type="journal" id="price_sak" name="Syak_offers_pda_name" group="enc_price">
+		<text>price_sak_text</text>
+	</article>
+	<article article_type="journal" id="price_doktor" name="Doctor_offers_pda_name" group="enc_price">
+		<text>price_doktor_text</text>
+	</article>
+	<article article_type="journal" id="price_jila" name="Vein_suggests_pda_name" group="enc_price">
+		<text>price_jila_text</text>
+	</article>
+	<article article_type="journal" id="price_kuznezov" name="Kuznetsov_offers_pda_name" group="enc_price">
+		<text>price_kuznezov_text</text>
+	</article>
+	<article article_type="journal" id="price_sherstuk" name="Sherstyuk_offers_pda_name" group="enc_price">
+		<text>price_sherstuk_text</text>
+	</article>
+	<article article_type="journal" id="price_sakharov" name="Sakharov_suggests_pda_name" group="enc_price">
+		<text>price_sakharov_text</text>
+	</article>
+	<!-- ***************DMX MOD. Barter with a cold - INFA *************** -->
+	<article article_type="journal" id="price_holod_barter" name="Chill_offers_pda_name" group="enc_price">
+		<text>holod_barter_text_pda</text>
+	</article>
+	<article article_type="journal" id="artmod_mincer_meat_mosquito_bald" name="Slice_Meat_from_jumping_pda_name" group="enc_artmod">
+		<texture x="900" y="800" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>artmod_mincer_meat_mosquito_bald_text</text>
+	</article>
+	<article article_type="journal" id="artmod_electra_sparkler_mosquito_bald" name="Bengal_Fire_from_jumping_pda_name" group="enc_artmod">
+		<text>artmod_electra_sparkler_mosquito_bald_text</text>
+	</article>
+	<article article_type="journal" id="artmod_ameba_slug_mosquito_bald" name="Slither_from_jumping_pda_name" group="enc_artmod">
+		<text>artmod_ameba_slug_mosquito_bald_text</text>
+	</article>
+	<article article_type="journal" id="artmod_cristall_mosquito_bald" name="Crystal_from_jumping_pda_name" group="enc_artmod">
+		<text>artmod_cristall_mosquito_bald_text</text>
+	</article>
+	<article article_type="journal" id="artmod_rusty_sea-urchin_mosquito_bald" name="Sea_Urchin_from_jumping_pda_name" group="enc_artmod">
+		<text>artmod_rusty_sea-urchin_mosquito_bald_text</text>
+	</article>
+	<article article_type="journal" id="artmod_dummy_dummy_mosquito_bald" name="Dummy_from_jumping_pda_name" group="enc_artmod">
+		<text>artmod_dummy_dummy_mosquito_bald_text</text>
+	</article>
+	<article article_type="journal" id="artmod_ameba_slug_gravi_zone" name="Slither_from_the_funnel_pda_name" group="enc_artmod">
+		<text>artmod_ameba_slug_gravi_zone_text</text>
+	</article>
+	<article article_type="journal" id="artmod_ameba_slime_gravi_zone" name="Slime_from_the_funnel_pda_name" group="enc_artmod">
+		<text>artmod_ameba_slime_gravi_zone_text</text>
+	</article>
+	<article article_type="journal" id="artmod_electra_flash_gravi_zone" name="Flash_from_the_funnel_pda_name" group="enc_artmod">
+		<text>artmod_electra_flash_gravi_zone_text</text>
+	</article>
+	<article article_type="journal" id="artmod_night_star_gravi_zone" name="Night_Star_out_of_crater_pda_name" group="enc_artmod">
+		<text>artmod_night_star_gravi_zone_text</text>
+	</article>
+	<article article_type="journal" id="artmod_soul_gravi_zone" name="Soul_from_the_funnel_pda_name" group="enc_artmod">
+		<text>artmod_soul_gravi_zone_text</text>
+	</article>
+	<article article_type="journal" id="artmod_dummy_pellicle_gravi_zone" name="Film_out_of_crater_pda_name" group="enc_artmod">
+		<text>artmod_dummy_pellicle_gravi_zone_text</text>
+	</article>
+	<article article_type="journal" id="artmod_cristall_flower_mincer" name="The_Stone_Flower_from_Carousel_pda_name" group="enc_artmod">
+		<text>artmod_cristall_flower_mincer_text</text>
+	</article>
+	<article article_type="journal" id="artmod_drops_mincer" name="Drop_from_Carousel_pda_name" group="enc_artmod">
+		<text>artmod_drops_mincer_text</text>
+	</article>
+	<article article_type="journal" id="artmod_rusty_kristall_mincer" name="Crystal_from_Carousel_pda_name" group="enc_artmod">
+		<texture x="450" y="500" width="50" height="50">ui\ui_icon_equipment</texture>
+		<text>artmod_rusty_kristall_mincer_text</text>
+	</article>
+	<article article_type="journal" id="artmod_electra_moonlight_mincer" name="Moonlight_from_Carousel_pda_name" group="enc_artmod">
+		<text>artmod_electra_moonlight_mincer_text</text>
+	</article>
+	<article article_type="journal" id="artmod_ameba_slug_mincer" name="Grind_from_Carousel_pda_name" group="enc_artmod">
+		<text>artmod_ameba_slug_mincer_text</text>
+	</article>
+	<article article_type="journal" id="artmod_dummy_glassbeads_mincer" name="Mamas_Beads_from_Carousel_pda_name" group="enc_artmod">
+		<text>artmod_dummy_glassbeads_mincer_text</text>
+	</article>
+	<article article_type="journal" id="artmod_rusty_kristall_buzz" name="Crystal_Bur_Aspic_pda_name" group="enc_artmod">
+		<text>artmod_rusty_kristall_buzz_text</text>
+	</article>
+	<article article_type="journal" id="artmod_rusty_thorn_buzz" name="Bur_in_Aspic_pda_name" group="enc_artmod">
+		<text>artmod_rusty_thorn_buzz_text</text>
+	</article>
+	<article article_type="journal" id="artmod_fireball_buzz" name="Fireball_in_Aspic_pda_name" group="enc_artmod">
+		<text>artmod_fireball_buzz_text</text>
+	</article>
+	<article article_type="journal" id="artmod_cristall_buzz" name="Crystal_in_Aspic_pda_name" group="enc_artmod">
+		<text>artmod_cristall_buzz_text</text>
+	</article>
+	<article article_type="journal" id="artmod_night_star_buzz" name="Gold_Fish_in_Aspic_pda_name" group="enc_artmod">
+		<text>artmod_night_star_buzz_text</text>
+	</article>
+	<article article_type="journal" id="artmod_fuzz_kolobok_buzz" name="Gingerbread_Man_Aspic_pda_name" group="enc_artmod">
+		<text>artmod_fuzz_kolobok_buzz_text</text>
+	</article>
+	<article article_type="journal" id="artmod_electra_flash_zharka" name="Flash_from_Frying_pda_name" group="enc_artmod">
+		<text>artmod_electra_flash_zharka_text</text>
+	</article>
+	<article article_type="journal" id="artmod_ameba_slime_zharka" name="Slime_from_Frying_pda_name" group="enc_artmod">
+		<text>artmod_ameba_slime_zharka_text</text>
+	</article>
+	<article article_type="journal" id="artmod_gravi_zharka" name="Gravel_from_Frying_pda_name" group="enc_artmod">
+		<text>artmod_gravi_zharka_text</text>
+	</article>
+	<article article_type="journal" id="artmod_night_star_zharka" name="Night_Star_from_Frying_pda_name" group="enc_artmod">
+		<text>artmod_night_star_zharka_text</text>
+	</article>
+	<article article_type="journal" id="artmod_electra_moonlight_zharka" name="Moonlight_from_Frying_pda_name" group="enc_artmod">
+		<text>artmod_electra_moonlight_zharka_text</text>
+	</article>
+	<article article_type="journal" id="artmod_dummy_battery_zharka" name="Battery_from_Frying_pda_name" group="enc_artmod">
+		<text>artmod_dummy_battery_zharka_text</text>
+	</article>
+	<article article_type="journal" id="artmod_fireball_galant" name="Fireball_from_Elektra_pda_name" group="enc_artmod">
+		<text>artmod_fireball_galant_text</text>
+	</article>
+	<article article_type="journal" id="artmod_cristall_flower_galant" name="Stone_Flower_from_Electrical_pda_name" group="enc_artmod">
+		<text>artmod_cristall_flower_galant_text</text>
+	</article>
+	<article article_type="journal" id="artmod_ameba_mica_galant" name="Grind_from_Electrical_pda_name" group="enc_artmod">
+		<text>artmod_ameba_mica_galant_text</text>
+	</article>
+	<article article_type="journal" id="artmod_electra_moonlight_galant" name="Soul_from_Electrical_pda_name" group="enc_artmod">
+		<text>artmod_electra_moonlight_galant_text</text>
+	</article>
+	<article article_type="journal" id="artmod_gold_fish_galant" name="Goldfish_from_Elektra_pda_name" group="enc_artmod">
+		<text>artmod_gold_fish_galant_text</text>
+	</article>
+	<article article_type="journal" id="artmod_dummy_spring_galant" name="Spring_from_Elektra_pda_name" group="enc_artmod">
+		<text>artmod_dummy_spring_galant_text</text>
+	</article>

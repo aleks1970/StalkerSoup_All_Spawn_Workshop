@@ -1,0 +1,43 @@
+;; TB3D 1.0.9.9.7.0 
+
+;;!!!!TB3D - DO NOT CHANGE - Set for future on-line mode
+;; should match with TB3D_Services.dm_flag_version
+[script] 
+current_server_entity_version = 7			;;;;(6 in 135)
+
+[custom_script_object]
+GroupControlSection   = spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn          = "scripts\custom_object"
+cform                   = skeleton
+class         = NW_ATTCH
+visual                  = equipments\item_fmradio.ogf
+cost          = 0
+inv_name        = "custom_script_object"
+inv_name_short      = "custom_script_object"
+inv_weight        = .5
+inv_grid_width      = 2
+inv_grid_height     = 1
+inv_grid_x        = 16
+inv_grid_y        = 12
+attach_angle_offset   = 0, 0, 0
+attach_position_offset  = 0.08, 0.04, 0.03
+attach_bone_name    = bip01_r_hand
+
+[script_zone]
+;GroupControlSection =    TB3D 109928
+$spawn      = "ai\script zone"
+;$prefetch    = 4
+class     = SCRIPTZN
+script_binding  = xr_zones.bind
+
+[script_object]
+GroupControlSection     = spawn_group
+$spawn            = "script\script object"            ; option for Level Editor
+$npc            = on                      ; option for Level Editor
+; $prefetch           = 32                    ;
+Scheduled         = on                      ; option for ALife Simulator
+Human             = off                     ; option for ALife Simulator
+cform                       = skeleton                    ; collision class
+class                       = SCRPTOBJ                    ; AI class
+

@@ -1,0 +1,41 @@
+<ui_texture>
+	<!-- ************ TB3D 109970 added DMX and new levels *************** -->
+	<!-- *************** icon textures for LDK's by dAVROs*************** -->
+	<file_name>ui\ui_npc_ldk</file_name>
+	<texture id="ui_npc_ldk1_master" x="0" y="216" width="165" height="108"/>
+	<texture id="ui_npc_ldk2_master" x="165" y="216" width="165" height="108"/>
+	<texture id="ui_npc_ldk3_master" x="330" y="216" width="165" height="108"/>
+	<texture id="ui_npc_ldk4_master" x="495" y="0" width="165" height="108"/>
+	<texture id="ui_npc_ldk5_master" x="0" y="108" width="165" height="108"/>
+	<texture id="ui_npc_ldk6_master" x="165" y="108" width="165" height="108"/>
+	<texture id="ui_npc_ldk7_master" x="330" y="108" width="165" height="108"/>
+	<texture id="ui_npc_ldk8_master" x="825" y="918" width="165" height="108"/>
+	<texture id="ui_npc_ldk9_master" x="825" y="918" width="165" height="108"/>
+	<texture id="ui_npc_ldk1_troop" x="495" y="0" width="165" height="108"/>
+	<texture id="ui_npc_ldk1_nano" x="165" y="324" width="165" height="108"/>
+	<texture id="ui_npc_ldk2_nano" x="660" y="216" width="165" height="108"/>
+	<texture id="ui_npc_ldk3_nano" x="825" y="216" width="165" height="108"/>
+	<texture id="ui_npc_ldk4_nano" x="165" y="324" width="165" height="108"/>
+	<texture id="ui_npc_nano_master1" x="165" y="324" width="165" height="108"/>
+	<texture id="ui_npc_nano_master2" x="660" y="216" width="165" height="108"/>
+	<texture id="ui_npc_nano_master3" x="825" y="216" width="165" height="108"/>
+	<texture id="ui_npc_nano_master4" x="165" y="324" width="165" height="108"/>
+	<texture id="ui_npc_troop_master1" x="495" y="0" width="165" height="108"/>
+	<texture id="ui_npc_ldk_commander" x="660" y="0" width="165" height="108"/>
+	<texture id="ui_npc_blue_troop" x="825" y="108" width="165" height="108"/>
+	<texture id="ui_npc_last_day" x="0" y="432" width="165" height="108"/>
+	<!-- ************ TB3D 109940 *************** -->
+	<texture id="ui_npc_tweed" x="0" y="0" width="165" height="108"/>
+	<texture id="ui_npc_karina" x="165" y="0" width="165" height="108"/>
+	<!-- *************** DMX_MOD*************** -->
+	<texture id="ui_npc_u_syslov" x="165" y="108" width="165" height="108"/>
+	<texture id="ui_npc_u_vasya" x="330" y="108" width="165" height="108"/>
+	<texture id="ui_npc_kombat" x="330" y="0" width="165" height="108"/>
+	<!--texture id="ui_npc_predb_barmen" x="495" y="108" width="165" height="108"/-->
+	<texture id="ui_npc_predb_krohobor"	x="0" y="324" width="165" height="108"/>
+	<texture id="ui_npc_shadows" x="660" y="108" width="165" height="108"/>
+	<texture id="ui_npc_alex" x="495" y="0" width="165" height="108"/>
+	<texture id="ui_npc_grozn" x="660" y="0" width="165" height="108"/>
+	<texture id="ui_npc_mudri" x="825" y="0" width="165" height="108"/>
+	<texture id="ui_npc_pavel_serg" x="0" y="108" width="165" height="108"/>
+</ui_texture>

@@ -1,0 +1,411 @@
+<!-- TB3D 1.1.0.0.0.4 The Doctor, something, Crest -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 07 Oct 16 -->
+ <!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+	<string id="escape_meceniy_start_0">
+		<text>Greetings. Who are you?</text>
+	</string>
+	<string id="escape_meceniy_start_1">
+		<text>Greetings to you. I'm ex-Military. I do a little trading, but my product is very specific - embryos for activating mutants. I also sell Psi-antidotes and serum - very rare and useful items in the Zone!</text>
+	</string>
+	<string id="escape_meceniy_start_2">
+		<text>Yes, I've heard of military men becoming dealers. It can't have been easy in the Ukrainian army, but I bet you've seen a lot. What's your name? I'm known as 'Marked One'</text>
+	</string>
+	<string id="escape_meceniy_start_3">
+		<text>My name is Akim. I'm pleased to be acquainted. Yes, it's a rough life in the military, and the retirement pension is even worse. So now I buy, trade, and resell. I charge what I believe something is worth, and I don't bargain, so please don't ask. I've come to the Zone to make some money, then I'll get out of this hellhole. Stalkers sometimes sell artefacts in the form of a Shell - they can activate anomalies. Look at your PDA - there should be some information there for you. Oh, I have a colleague in the Agroprom northern complex who sells wares similar to mine - he's full of of useful information. And if you're looking for work, there's a guy I know who's settled down by the helicopter in the Forgotten Forest</text>
+	</string>
+	<string id="arhara_halat_nayti_0">
+		<text>Listen, I heard about an amazing suit. When you're wearing it you can sneak up real close to an enemy - close enough to even steal from them. Have you heard of it?</text>
+	</string>
+	<string id="arhara_halat_nayti_1">
+		<text>Yes, I know of it. Only, it's not a suit - it's an Exoskeleton. I know it went missing after the last scientific expedition to the Zone's center. You can safely assume that it's now in the possession of the Bandits. My intelligence officer told me it's in the ATP. I sent a squad there once to retrieve it, but I never heard from them again. I can't spare any more men at the moment, but I do know that it's in the attic of one of the buildings. If you could find this exoskeleton for me, I would be very grateful!</text>
+	</string>
+	<string id="arhara_halat_nayti_2">
+		<text>I can't guarantee anything, but if I'm in that area I'll have a look around for it. If I do find it, though, I may need to use it for a while, if you don't mind...</text>
+	</string>
+	<string id="arhara_halat_nayti_3">
+		<text>A whole squad? It sounds like a dangerous area. You'd be better finding someone else. I have other business - like staying alive...</text>
+	</string>
+	<string id="arhara_halat_otdat_0">
+		<text>I found your Exoskeleton. It's as good as you described!</text>
+	</string>
+	<string id="arhara_halat_otdat_1">
+		<text>Yes! You've brought it?</text>
+	</string>
+	<string id="arhara_halat_otdat_2">
+		<text>Here you go...</text>
+	</string>
+	<string id="arhara_halat_otdat_3">
+		<text>Well done, my friend! And here's something to express my gratitude!</text>
+	</string>
+	<string id="escape_adrenalin_start_0">
+		<text>Greetings, and who are you?</text>
+	</string>
+	<string id="escape_adrenalin_start_1">
+		<text>Greetings to you. I'm known as Adrenalin, the local dealer. I specialise in unique items such as capsules, which create anomalies. I also sell rare serums, and antidotes for Psi-related illnesses</text>
+	</string>
+	<string id="escape_adrenalin_start_2">
+		<text>Ah yes, Akim yold me about you. He asks if you still jack up all your prices?</text>
+	</string>
+	<string id="escape_adrenalin_start_3">
+		<text>So Akim hasn't forgotten his old friend! You'll be pleased to know that my prices are decent. You'll also find that my goods are quite specific, and out of the ordinary...</text>
+	</string>
+	<string id="atp_0">
+		<text>Greetings, Adrenalin. I'm looking for better weapons to help me get to the center of the Zone. Can you help?</text>
+	</string>
+	<string id="atp_1">
+		<text>Greetings. I can't offer much in weaponry, other than a really good sniper rifle</text>
+	</string>
+	<string id="atp_2">
+		<text>Sounds expensive. My money and artefacts are in quite short supply at the moment...</text>
+	</string>
+	<string id="atp_3">
+		<text>Money wouldn't be enough for this rifle! But if you're willing, there's a way you can earn it...</text>
+	</string>
+	<string id="atp_4">
+		<text>I'm interested. What do you need?</text>
+	</string>
+	<string id="atp_5">
+		<text>I need you to visit Sakharov, the chief scientist in Yantar. Mention the Military commander who does business with him. I have an order for a minigun I need you to collect. It's a simple enough job, but a heavy weapon to carry...</text>
+	</string>
+	<string id="atp_6">
+		<text>I could really use a decent sniper rifle, and this doesn't sound too dangerous. Okay, I'm up for it</text>
+	</string>
+	<string id="atp_7">
+		<text>I don't want to give myself a hernia, dragging that thing across the Zone. I mean, if we only had a wheelbarrow, that would be something - but by myself, no way!</text>
+	</string>
+	<string id="arhara_atp_propusk_0">
+		<text>Hi, Adrenalin</text>
+	</string>
+	<string id="arhara_atp_propusk_1">
+		<text>Did you bring the weapon?</text>
+	</string>
+	<string id="arhara_atp_propusk_2">
+		<text>Yes, and you weren't joking about the weight. I must have lost several kilos myself...</text>
+	</string>
+	<string id="arhara_atp_propusk_3">
+		<text>Excellent, Marked One! Here's your sniper rifle, and an artefact as a bonus for keeping your word so quickly</text>
+	</string>
+	<string id="trader_toha_0">
+		<text>I'm looking for work. Do you have any jobs?</text>
+	</string>
+	<string id="trader_toha_1">
+		<text>Work? You've definitely come to the right place - I've got plenty of it. First, though, let's see if you've got the stomach for what I need. Bring me 10 intact zombie hands. You up for that?</text>
+	</string>
+	<string id="trader_toha_2">
+		<text>Oh! I've not been asked for those before. What line of work are you in?</text>
+	</string>
+	<string id="trader_toha_3">
+		<text>It's a strange old strange world, Stalker, and by the look of you I'd say you're financially challenged at the moment</text>
+	</string>
+	<string id="trader_toha_4">
+		<text>It certainly is a strange world - even more so if you can't remember who you are...</text>
+	</string>
+	<string id="trader_toha_5">
+		<text>Well, Stalker, do I have a new runner? If you want advice on zombie hunting, the time-honoured method is to shoot 'em in the head. Works every time!</text>
+	</string>
+	<string id="trader_toha_6">
+		<text>Ah, where have I heard that before? Yeah, I'll take the job</text>
+	</string>
+	<string id="trader_toha_7">
+		<text>Zombie hunting? That wasn't the kind of work I had in mind. No way...</text>
+	</string>
+	<string id="trader_toha1_0">
+		<text>I've got your ten zombie hands. It was somewhat disconcerting watching the nails continue to grow while they were in my backpack...</text>
+	</string>
+	<string id="trader_toha1_1">
+		<text>Oh yes, they'll be a good inch longer by now! I'll have to give them a manicure before I ship them out! Thanks, and here's your reward</text>
+	</string>
+	<string id="trader_toha1_2">
+		<text>If you don't mind, while you're doing your nails, I'd like to wash out my backpack...</text>
+	</string>
+	<string id="trader_toha1_3">
+		<text>Sure, go ahead. Oh, and you really need to buy a new knife - it looks like the hands have been chewed off...</text>
+	</string>
+	<string id="doc_qeast_0">
+		<text>I'm ready for my next job, Mr. Frankenstein</text>
+	</string>
+	<string id="doc_qeast_1">
+		<text>Oh! Have you acquired some new armor, or have you just had a shower? You're starting to look like a normal Stalker!\nThere is a job, now you mention it. I've learned of some documents that'll enable me to create something really useful...</text>
+	</string>
+	<string id="doc_qeast_2">
+		<text>No body parts, then. It sounds good already. What do I need to do?</text>
+	</string>
+	<string id="doc_qeast_3">
+		<text>No body parts this time. That was just to see how determined you were. Now, I just need these documents</text>
+	</string>
+	<string id="doc_qeast_4">
+		<text>Okay. Where are they?</text>
+	</string>
+	<string id="doc_qeast_5">
+		<text>They've been hidden on top of something, somewhere in the Garbage. Could be a building, a bus, a shipping container - I've no idea, since I can't read the other part of the note I came across...</text>
+	</string>
+	<string id="doc_qeast_6">
+		<text>Paper? On top of something? Wouldn't it be easier to say 'somewhere in the Garbage'? This could take some time...</text>
+	</string>
+	<string id="doc_qeast_7">
+		<text>An old piece of paper on top of something in the Garbage? Have you seen the size of that junk pile? There's fucking paper everywhere! No way...</text>
+	</string>
+	<string id="doc_qeast01_0">
+		<text>I risked my life for this piece of paper. I hope it was worth it...</text>
+	</string>
+	<string id="doc_qeast01_1">
+		<text>I said it was on top of something. Surely that must have made it safer?</text>
+	</string>
+	<string id="doc_qeast01_2">
+		<text>You sound like a politician. Anyway, the job's done</text>
+	</string>
+	<string id="doc_qeast01_3">
+		<text>I'm very grateful, and here's your payment</text>
+	</string>
+	<string id="doc_qeast_p_0">
+		<text>I need resources for a long journey into the Zone, so I've come for more work, if you have any. The barman's got none, and won't give me credit either...</text>
+	</string>
+	<string id="doc_qeast_p_1">
+		<text>You'll get none from me either. Stalkers are not exactly a good insurance risk. Especially ones like you...\nI do need your help, though, and you've proved yourself good at this. Those documents you brought from the Dump are only the first half of the complete file. There's another part...</text>
+	</string>
+	<string id="doc_qeast_p_2">
+		<text>And you need that, too?</text>
+	</string>
+	<string id="doc_qeast_p_3">
+		<text>You catch on quickly...</text>
+	</string>
+	<string id="doc_qeast_p_4">
+		<text>Okay, where are they hidden?</text>
+	</string>
+	<string id="doc_qeast_p_5">
+		<text>They'll be in the Agroprom underground. Knowing the guy who stashed them, they'll probably be in a very safe but dangerous area...</text>
+	</string>
+	<string id="doc_qeast_p_6">
+		<text>I'll do my best to find them, but I think I should be paid more than last time...</text>
+	</string>
+	<string id="doc_qeast_p_7">
+		<text>You're ex-military, Akim, and probably know the area, and the risks, better than I do. You should go yourself...</text>
+	</string>
+	<string id="doc_qeast_p1_0">
+		<text>Here are your documents. A more precise location would have helped. I may not know my name, but I'm pretty sure it's not Sherlock...</text>
+	</string>
+	<string id="doc_qeast_p1_1">
+		<text>Oh, you've crinkled them. Next time please fold them neatly, and put them carefully into a waterproof compartment in your backpack. Don't just stuff them into your pockets! Here's your reward, anyway...</text>
+	</string>
+	<string id="doc_qeast_p1_2">
+		<text>What the f...? Have you ever been in those tunnels? Seen how fucking creepy they are? And the things living down there in the dark? Even the Military are too sca... you're winding me up, aren't you?</text>
+	</string>
+	<string id="doc_qeast_p1_3">
+		<text>Calm down, my friend. You're very easy to wind up!</text>
+	</string>
+	<string id="doc_qeast_s_0">
+		<text>Hey, how's business? I thought I'd see many Stalkers lining up to buy your goods, but it seems I'm the first in the queue. And the last...</text>
+	</string>
+	<string id="doc_qeast_s_1">
+		<text>Greetings, Marked One. It's not about the quantity, but the quality of the sale, and of the customer.\nOnce again, I could use your help. Lab X-18 in the Dark Valley. I can't find anybody willing to go there. I'd go myself, but I'd lose business...</text>
+	</string>
+	<string id="doc_qeast_s_2">
+		<text>X-18! You know that area is Mecca for all Bandits? Do you have a plan for me getting me in and out of there? And will it pay enough to cover my aftercare?</text>
+	</string>
+	<string id="doc_qeast_s_3">
+		<text>There's a lot of money involved here, Marked One. At least, potentially. Help me out with this, and I promise to do whatever I can to help you fulfil your own goals...</text>
+	</string>
+	<string id="doc_qeast_s_4">
+        <text>Okay. Let's have the details...</text>
+	</string>
+	<string id="doc_qeast_s_5">
+		<text>Well, studying the second part of the documents has led me to believe there's a third part. Somebody named Korchagin previously had this third document, but he divided it discretely into four parts, no three of which are any use without the fourth. In X-18 there should be three of these parts. The fourth is somewhere outside the lab, but still within the compound. That's all I know, but I need them all. I promise you my gratitude will have no limits!</text>
+	</string>
+	<string id="doc_qeast_s_6">
+		<text>No limits, eh? Okay, leave it with me...</text>
+	</string>
+	<string id="doc_qeast_s_7">
+		<text>The last underground lab was bad enough, even knowing the document was inside. This is impossible. You're going to have to find someone else</text>
+	</string>
+	<string id="doc_qeast_s1_0">
+		<text>Here are your documents. It wasn't easy, and took far longer than I expected</text>
+	</string>
+	<string id="doc_qeast_s1_1">
+		<text>Excellent work. Now I can start processing the contents...</text>
+	</string>
+	<string id="doc_qeast_s1_2">
+		<text>Akim, I'm very pleased for you, but aren't you forgetting something? Like your limits?</text>
+	</string>
+	<string id="doc_qeast_s1_3">
+		<text>Ah, my sincere apologies. My enthusiasm got the better of my manners. Please take this - you certainly earned it!</text>
+	</string>
+	<string id="doc_qeast_q_0">
+		<text>Greetings, Akim. I trust you've caught up with all your bedtime reading?</text>
+	</string>
+	<string id="doc_qeast_q_1">
+		<text>Greetings, Marked One. I see your worry lines from X-18 have almost disappeared!\nI need your services again. This time to Lab X-16, for one more document. And to find a PDA from Borov's base in the Dark Valley</text>
+	</string>
+	<string id="doc_qeast_q_2">
+		<text>You gonna tell me why you need all these documents? I mean, what's my motivation?</text>
+	</string>
+	<string id="doc_qeast_q_3">
+		<text>Let's just say that I have my reasons, and you'll find out in due course. In the meantime, you can regard it a test of faith...</text>
+	</string>
+	<string id="doc_qeast_q_4">
+		<text>Okay, but if I'm going to put my life on the line, I'd like to know it's for a just cause, that's all. What are the details?</text>
+	</string>
+	<string id="doc_qeast_q_5">
+		<text>My mistake. I thought that after X-18 you were not on good terms with your mind. Now I can see it's a condition you've had since birth...\nOn to the business at hand - the documents you brought back from X-18 appear not to be the final part after all. But it did shed light on another document, plus a PDA holding the associated data.\nThe document should be in the control room of Lab X-16, and the PDA was stuffed somewhere around the crane at the front of Borov's base.\nOne last thing - I need one of each of these protection suits: \na Military SKAT10, a Stalker Exoskeleton, a Bandit Exoskeleton, and a Duty PZ9D Universal. Can you do all this?</text>
+	</string>
+	<string id="doc_qeast_q_6">
+		<text>A document somewhere underground, a PDA somewhere outside, and you want me to update your shop as well? You sure you don't want to add Cinderella's slipper to the list? Okay, but it's going to take a lot longer...</text>
+	</string>
+	<string id="doc_qeast_q_7">
+		<text>That's at least two jobs, not one, and in Bandit territory. Sorry, but no...</text>
+	</string>
+	<string id="doc_qeast_q1_0">
+		<text>Right, where would you like all this gear?</text>
+	</string>
+	<string id="doc_qeast_q1_1">
+		<text>Wow! I didn't expect you to find it all! Well, you've earned the right to know what I've learned. The documents should help me obtain a new type of Exoskeleton. There's a prototype hidden somewhere in the Zone. I'll give you the details, but don't lose them, sell them, or tell anyone. This is incredibly confidential information - and when you find the item, you'll understand why! Good luck!</text>
+	</string>
+	<string id="doc_qeast_q1_2">
+		<text>Thank you! I do appreciate clear instructions. Not the gobbledegook you often get in this game...</text>
+	</string>
+	<string id="doc_qeast_q1_3">
+		<text>Then we understand each other. When you find it, let me know how well it works...</text>
+	</string>
+	<string id="doc_tvar_0">
+		<text>Greetings, my friend. Have you sold anything since I saw you last?</text>
+	</string>
+	<string id="doc_tvar_1">
+		<text>Greetings, Marked One, and I'm still of the opinion that you had multiple problems as a child...\nLook. Do you think you could find me a part of every common mutant in the Zone? Everything except zombie hands, that is - I have enough of them for now. This should be a relatively easy task for you</text>
+	</string>
+	<string id="doc_tvar_2">
+		<text>One of each? Are you opening a museum? Or a 'Throw up as much as you want' buffet for your clients?</text>
+	</string>
+	<string id="doc_tvar_3">
+		<text>One day, one way or another, you will leave the Zone. When you do, may I suggest that you save time and not apply for the job of stand-up comedian? In your own interests, of course...</text>
+	</string>
+	<string id="doc_tvar_4">
+		<text>By the time I leave the Zone, I'd expect to be prepared and equipped for anything and everything...</text>
+	</string>
+	<string id="doc_tvar_5">
+		<text>Not a hostile audience at a night club in Kiev, you won't. Trust me on this...\nListen, it's about time you visited the Doctor. You need a good enema to clear out the brains that are clogging up your arse. I'll recommend you to him - after you've brought back those body parts</text>
+	</string>
+	<string id="doc_tvar_6">
+		<text>I've a Whirligig capsule here that'd make a really good enema for you. I'd even be happy to administer it!\n Don't worry, I'll get your mutant parts</text>
+	</string>
+	<string id="doc_tvar_7">
+		<text>No, I'm fed up with all this running about like a fucking rookie</text>
+	</string>
+	<string id="doc_tvar1_0">
+		<text>Greetings, Akim. You now have a full set of mutant parts, and I need to wash my backpack again...</text>
+	</string>
+	<string id="doc_tvar1_1">
+		<text>What's this? I asked you to bring parts, not the whole mutant. Didn't you get yourself a new knife?</text>
+	</string>
+	<string id="doc_tvar1_2">
+		<text>Look, it's easier to slice the main joint, and pull the whole thing off by the lower limb. That way, the part you want doesn't get damaged. I aim to do a good job...</text>
+	</string>
+	<string id="doc_tvar1_3">
+		<text>Yes, you certainly do... Here, take your reward</text>
+	</string>
+	<string id="qeast_q_0">
+		<text>Greetings. What the hell are you doing way out here by yourself?</text>
+	</string>
+	<string id="qeast_q_1">
+		<text>Greetings, Stalker. My name is Crest. I'm here for the peace and quiet. And the artefacts, which are beautiful but not bountiful - but since very few people come here, I'm happy with the ones I find each day. You know that each area produces its own types of artefact? Well, there are several that don't grow well here - most notably the Medusa, Stone Flower, and Fireball. I'm trying to collect five of each type. Would you be interested in helping me find them, maybe even from elsewhere? I know it's a big job, but I'll make it worth your while...</text>
+	</string>
+	<string id="qeast_q_2">
+		<text>Fifteen artefacts? That's a big task for any Stalker, and not the kind of long term job I'd normally take on...</text>
+	</string>
+	<string id="qeast_q_3">
+		<text>Yes, it's a big job, but I promise you the reward will be worthwhile. After all, artefacts are my speciality...</text>
+	</string>
+	<string id="qeast_q_4">
+		<text>I don't know. It's a lot of radiation to be carrying around in one go...</text>
+	</string>
+	<string id="qeast_q_5">
+		<text>Well, there is another thing. Look around you. Other than the mutants, I'm the only one here, and I know this place like the back of my hand. If you ever need to come here for any reason, I'm someone you can trust - and that's an uncommon thing in the Zone. Make the right friends, and you never know how useful they might be in the future</text>
+	</string>
+	<string id="qeast_q_6">
+		<text>You're right about the deceit and betrayal in the Zone, and I can understand why you spend your time alone. Don't worry - I'll find those artefacts for you...</text>
+	</string>
+	<string id="qeast_q_7">
+		<text>I really think you'd be better travelling a bit further afield, and collecting them yourself...</text>
+	</string>
+	<string id="qeast_q1_0">
+		<text>Greetings, Crest. Here are the artefacts I promised. To be honest, I'm glad to be finally rid of them...</text>
+	</string>
+	<string id="qeast_q1_1">
+		<text>Thank you, Marked One! I hope you stashed them while collecting them all. That much radiation can cause problems, including impotence...</text>
+	</string>
+	<string id="qeast_q1_2">
+		<text>So I've heard, but also that most Stalkers don't live long enough to marry!</text>
+	</string>
+	<string id="qeast_q1_3">
+		<text>True. Many come here to get rich, to become powerful, to see themselves immortalised in some manner, but in the end the Zone takes them in one way or another.\nAs I said, I'm a man of my word. Here's the reward I promised you</text>
+	</string>
+	<string id="m_qeast_0">
+		<text>Greetings</text>
+	</string>
+	<string id="m_qeast_1">
+		<text>Greetings, my friend. Listen - yesterday, the Military came here and took all my artefacts! Well, at least the ones I didn't have stashed! They also took my vodka! I'd like to punish them in some way - make them realise what they've done...</text>
+	</string>
+	<string id="m_qeast_2">
+		<text>Those bastards are supposed to protect the place from scumbags, but most of the time they're the problem. But it's not that simple - they didn't harm you, and I'm not a killer for hire...</text>
+	</string>
+	<string id="m_qeast_3">
+		<text>Oh, I'm not asking you to kill anyone! I just need some of their weapons. Six Anomalous Bisons should be enough, then I can hire some men to give them something to think about next time they plan to raid anyone!</text>
+	</string>
+	<string id="m_qeast_4">
+		<text>Anomalous Bisons aren't cheap, and I don't kill people just for their weapons. How quickly do you want them?</text>
+	</string>
+	<string id="m_qeast_5">
+		<text>There's no rush. I'll give you 40,000Ru, plus an additional reward. How you get them is up to you...</text>
+	</string>
+	<string id="m_qeast_6">
+		<text>Okay, I'll do it. That's a lot of money, and I think I've seen a couple of those Bisons on my travels already. Most likely I'll find more...</text>
+	</string>
+	<string id="m_qeast_7">
+		<text>No, I'm not messing with the military. Any sign of trouble and these bastards call in helicopter support. Then there's no escape...</text>
+	</string>
+	<string id="m_qeast1_0">
+		<text>Here are your Bisons. I hope they do what you wanted</text>
+	</string>
+	<string id="m_qeast1_1">
+		<text>Fantastic, Marked One! Here's your reward</text>
+	</string>
+	<string id="m_qeast1_2">
+		<text>Thank you, Hey, those weapons are really something! Trust me, I've been in their sights more times than I care to remember!</text>
+	</string>
+	<string id="m_qeast1_3">
+		<text>I'm just glad you survived it. There's a shortage of good men in the Zone...</text>
+	</string>
+	<string id="s_qeast_0">
+		<text>You have no weapons, yet you're still alive. Do you some kind of connection with the Zone, or were you raised by Werewolves?</text>
+	</string>
+	<string id="s_qeast_1">
+		<text>I like your sense of humour, Marked One. Good to see the Zone hasn't taken it yet. I have another task for you. Ah, your eyes just lit up!</text>
+	</string>
+	<string id="s_qeast_2">
+		<text>What can I say? I'm fond of artefacts. What do you need?</text>
+	</string>
+	<string id="s_qeast_3">
+		<text>There's a military guy who went missing in these woods. He has a teleporter I'd like to examine. I know he stayed around here last night because the teleporter's defective. On his radio he described his position as being next to some large stones and a newly-abandoned car. I met a Stalker yesterday who said his car had broken down in the northern part of the woods. It's not far from here. If you can find the soldier and bring me the teleporter, I'll reward you as usual for it...</text>
+	</string>
+	<string id="s_qeast_4">
+		<text>Hang on! If it's not far from here, why are you sending me? What's up there?</text>
+	</string>
+	<string id="s_qeast_5">
+		<text>Look, I don't travel to that area. People go missing there. This teleporter is very important to me. It's a necessary risk...</text>
+	</string>
+	<string id="s_qeast_6">
+		<text>You mean a necessary risk for somebody else? Don't worry, I'll try to find it for you...</text>
+	</string>
+	<string id="s_qeast_7">
+		<text>I thought you knew this place like the back of your hand. You really should do this yourself...</text>
+	</string>
+	<string id="s_qeast1_0">
+		<text>I've found the teleporter, only it doesn't work. Here...</text>
+	</string>
+	<string id="s_qeast1_1">
+		<text>I knew you'd try to use it, and I did say that it didn't work. I'll repair it. What happened to the military guy?</text>
+	</string>
+	<string id="s_qeast1_2">
+		<text>Looks like he was killed by mutants, and recently too...</text>
+	</string>
+	<string id="s_qeast1_3">
+		<text>Thanks, Marked One, and here's your reward. By the way, under the teleporter's cover is a stamp that says 'Prototype 2'. Meaning there's another one somewhere, and probably still in the Zone. If you find and recognise it, it's yours. Judging by the markings, both devices were made in the ATP, so that's where I'd start looking. There's something else - by monitoring the local Bandits' radio frequency, they're expecting to be raided by the Military soon, so they've hidden their best loot. You might want look in the rubbish containers in the ATP - you're bound to find find something there...</text>
+	</string>

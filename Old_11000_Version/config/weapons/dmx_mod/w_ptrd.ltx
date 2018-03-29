@@ -1,0 +1,202 @@
+;;;; TB3D 1.1.0.0.1.4 - TB3D style weapons, PTRD
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[wpn_ptrd]:identity_immunities
+GroupControlSection			= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                   	= "weapons\wpn_ptrd"					; option for Level Editor
+$npc			 			= on		; option for Level Editor
+$prefetch 					= 8
+scheduled            		= off              ; option for ALife Simulator
+cform                    	= skeleton
+class                    	= WP_SVD	;WP_PM ;aleks1970
+min_radius               	= 0
+max_radius               	= 1500
+description					= wpn-ptrd_desc
+
+ef_weapon_type				= 5
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0               ; во сколько раз увеличивается eye_range 
+holder_fov_modifier		= 1.0              ; во сколько раз увеличивается eye_fov
+;-----------------------------------------------------------------------------------
+cost					 	= 41000
+weapon_class                = heavy_weapon
+ammo_limit		 			= 120
+ammo_current		 		= 96
+ammo_elapsed		 		= 8
+
+ammo_mag_size		 		= 1
+ammo_class		 			= ammo_14.5x114_ap
+sprint_allowed			    = false
+
+hand_dependence			 	= 1
+slot 				 		= 2
+animation_slot		 		= 2 		; type of the animation that will be used
+single_handed				= 0
+
+inv_name					= wpn-ptrd
+inv_name_short				= wpn-ptrd
+inv_weight					= 17.3
+
+inv_grid_width				= 6
+inv_grid_height				= 2
+inv_grid_x					= 51
+inv_grid_y					= 67
+
+kill_msg_x			= 227
+kill_msg_y			= 82
+kill_msg_width		= 27
+kill_msg_height		= 23
+;-----------------------------------------------------------------------------------
+;базовая дисперсия
+fire_dispersion_base		= 0.004 	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor		= 4.16f
+
+;отдача					
+cam_relax_speed         = 3.606		;скорость возврата в исходное положение
+cam_dispersion          = 0.044		;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 0.009		;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 0.050		;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle		    = 0.137	    	;максимальный угол отдачи
+cam_max_angle_horz		= 0.137		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 0.044		;(degree) size of step camera moved in horizontal position while shooting
+					
+fire_dispersion_condition_factor = 5	    	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 	= 0.005		;вероятность осечки при максимальном износе 
+misfire_condition_k		= 0.05		
+condition_shot_dec 		= 0.0001		;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------										
+PDM_disp_base 		    = 30.0 	
+PDM_disp_vel_factor 	= 1.0		
+PDM_disp_accel_factor 	= 1.0		
+PDM_crouch	 	        = 1.0		
+PDM_crouch_no_acc 		= 1.0		
+
+direction                	= 0, 0, 1
+fire_point               	= 0.0, 0.217, 0.927
+flame_particles				= weapons\generic_weapon_btr ;explosions\expl_bullet_01 ;weapons\generic_weapon03
+smoke_particles				= explosions\expl_bullet_00 ;weapons\generic_shoot_00
+shell_point		 			= 0.00, 0.127, 0.03
+shell_dir		 			= 0.0, 0.0, 0.
+
+rpm_empty_click 	 		= 100
+
+; ttc
+hit_power               = 20	;;110003, 11.2
+hit_impulse		 		= 300	;;110003, 270
+hit_type = fire_wound
+
+fire_distance           = 1000					;;;109974 10:1
+bullet_speed			= 850 ;начальная скорость пули
+rpm                     = 100
+; end ttc
+
+use_aim_bullet				= true		;Поддерживается ли первая суппер пуля
+time_to_aim					= 1.0	
+
+hud                      	= wpn_ptrd_hud
+normal                   	= 0, 1, 0
+position                 	= -0.021, -0.18, 0.63
+orientation              	= 0, -5, 0
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.2,0.35,0.1			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= 1.57,150,0						; (3rd person view)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+visual                   	= weapons\ptrd\wpn_ptrd.ogf
+
+light_color		 			= 0.6,0.5,0.3
+light_range		 			= 3.0
+light_var_color		 		= 0.05
+light_var_range		 		= 0.5
+light_time 		 			= 0.2
+ph_mass			 			= 1
+
+;addons
+scope_status				= 0
+silencer_status				= 0
+grenade_launcher_status		= 0
+
+zoom_enabled				= true
+scope_zoom_factor	        = 90
+
+;звуки
+snd_draw					= weapons\generic_draw
+snd_holster					= weapons\generic_holster
+snd_shoot					= weapons\ptrd_shoot
+snd_empty					= weapons\pistol_empty, 0
+snd_reload					= weapons\ptrd_reload, 1, 0.6
+snd_close					= weapons\generic_close, 0
+
+weapon_remove_time			= 5000
+silencer_name  				= wpn_addon_sil_9_p		; section name for the attachable silencer
+silencer_x 					= 37						; offset in inventory icon
+silencer_y 					= -15					
+
+
+;silencer_flame_particles 	= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+snd_silncer_shot			= weapons\w_ak74_shot1 
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+[wpn_ptrd_hud]
+shell_point					= 0.0,0.0,0.0
+fire_point					= 0.0,0.0,0.0
+fire_bone                	= wpn_fire
+orientation              	= 0,0,0
+position                 	= 0,0,0.2
+visual                   	= weapons\ptrd\wpn_ptrd_hud.ogf
+
+anim_holster				= holster
+anim_draw					= draw
+anim_draw_empty				= draw_empty
+anim_idle					= idle
+anim_idle_aim				= idle_aim
+anim_idle_sprint			= idle_sprint
+anim_empty					= idle_empty
+anim_shoot					= shoot_last
+anim_shot_last				= shoot_last
+anim_close					= close
+anim_reload					= reload
+anim_reload_empty			= reload
+
+;смещения HUD для режима приближения
+zoom_offset			= 0.0,0.0,0.0
+zoom_rotate_x		= 0.0
+zoom_rotate_y		= 0.0
+zoom_hide_crosshair	= true						;to hide crosshair in zoom 
+
+[ammo_14.5x114_ap]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			= "weapons\ammo\ammo_145x114_ap" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = weapons\ptrd\ammo_145x114_ap.ogf
+description		= ammo-14.5x114_ap_desc
+$prefetch 		= 64
+
+cost			= 1350
+box_size		= 10
+
+inv_name		= ammo-14.5x114_ap
+inv_name_short	= ammo-14.5x114_ap_s
+inv_weight		= 2.0
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 7
+inv_grid_y			= 64
+
+k_dist			= 1
+k_disp			= 1.84
+k_hit			= 14.3
+k_impulse		= 1
+k_pierce		= 1.5
+impair			= 1.05
+buck_shot		= 1
+tracer			= on
+wm_size         = 0.145

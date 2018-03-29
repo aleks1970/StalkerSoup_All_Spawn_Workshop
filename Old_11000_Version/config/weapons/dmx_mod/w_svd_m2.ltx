@@ -1,0 +1,49 @@
+;;;; TB3D 1.1.0.0.1.6 - TB3D style weapons
+;Снайперская винтовка СВД "Тигр". Модификация DMX MOD.
+[wpn_svd_m2]:wpn_svd
+$spawn                  = "weapons\svd_m2"
+class                = WP_BINOC
+description				= enc_weapons_wpn_svd_m2
+cost					= 22000
+ammo_mag_size			= 16
+condition_shot_dec 		= 0.0 ;увеличение износа при каждом выстреле
+
+inv_name				= wpn_svd_m2
+inv_name_short			= wpn_svd_m2
+inv_weight				= 3.9
+inv_grid_x				= 37
+inv_grid_y				= 69
+
+snd_gyro            = characters_voice\human_01\bandit\no_music\no_sound_1
+snd_zoomin            = weapons\arm_binoc\arm_binoculars_pnv_on
+snd_zoomout            = weapons\arm_binoc\arm_binoculars_pnv_off
+vision_present        = true
+vis_frame_speed        = 4                        ; скорость, с которой наводится рамка на цель
+vis_frame_color        = 0.7,0.7,0.7,1.0        ; цвет рамки RGBA (A) Не учитывается
+found_snd            = detectors\DA-2_beep1
+
+;addons
+scope_status				= 1
+silencer_status				= 0	;aleks1970
+grenade_launcher_status		= 0
+
+hit_power           = 3.22
+hit_rate	        = 2.0
+fire_distance       = 600					;;;109974 10:1 = 6000m, tested and proved !!!!!
+bullet_speed		= 840  ; иначе не будет работать "снайпер аддон"
+rpm                 = 240
+
+use_aim_bullet				= true 		;Поддерживается ли первая супер пуля
+time_to_aim					= 0.85	
+
+zoom_enabled			= true
+scope_zoom_factor	    = 5.25	;1P21-AMK 10X
+scope_texture			= wpn\crosshair\wpn_crosshair_sks ;--;wpn_crosshair_svd_svu
+
+hud                     = wpn_svd_m2_hud
+visual                  = weapons\svd_m2\wpn_svd_m2.ogf
+snd_shoot		        = weapons\svd_m2\shot
+
+[wpn_svd_m2_hud]:wpn_svd_hud
+visual                  = weapons\svd_m2\wpn_svd_m2_hud.ogf
+fire_bone               = wpn_body	;muzzle  ; - aleks1970

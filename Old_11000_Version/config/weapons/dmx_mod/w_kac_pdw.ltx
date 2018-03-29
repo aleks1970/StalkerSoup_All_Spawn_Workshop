@@ -1,0 +1,171 @@
+;;;; TB3D 1.1.0.0.0.2 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[wpn_kac_pdw]:identity_immunities
+GroupControlSection         = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                      = "weapons\kac_pdw"
+$npc                     	= on
+$prefetch 		         	= 8
+scheduled                	= off
+cform                    	= skeleton
+class                    	= WP_LR300
+min_radius               	= 0
+max_radius               	= 800
+
+inv_name                    = wpn_kac_pdw
+inv_name_short              = wpn_kac_pdw
+description                 = enc_wpn_kac_pdw
+
+cost						= 6700
+weapon_class                = assault_rifle
+inv_weight					= 2.5
+visual                   	= weapons\kac_pdw\wpn_kac_pdw.ogf
+
+ef_main_weapon_type			= 2
+ef_weapon_type				= 6
+holder_range_modifier		= 1
+holder_fov_modifier			= 1
+
+hand_dependence		    	= 1
+single_handed				= 0
+sprint_allowed				= true
+
+slot 			         	= 2
+animation_slot			 	= 8
+
+inv_grid_width			= 4
+inv_grid_height			= 2
+inv_grid_x				= 16
+inv_grid_y				= 62
+
+kill_msg_x					= 0
+kill_msg_y					= 28
+kill_msg_width				= 84
+kill_msg_height				= 28
+
+ammo_limit		         	= 210
+ammo_current		     	= 90
+ammo_elapsed		     	= 30
+ph_mass						= 5
+
+hit_power                	= 2.3
+hit_impulse		        	= 140
+hit_type 					= fire_wound
+fire_distance            	= 600					;;;109974 10:1
+bullet_speed				= 970
+rpm                      	= 700
+
+
+ammo_mag_size				= 31
+fire_modes					= 1, -1
+ammo_class		 		    = ammo_5.56x45_ss190, ammo_5.56x45_ap
+	
+tri_state_reload			= off
+control_inertion_factor		= 1.05f
+
+fire_dispersion_base		= 0.02
+handling_factor				= 1.00
+use_aim_bullet				= true
+time_to_aim					= 0.50
+
+PDM_disp_base 				= 2.00
+PDM_disp_vel_factor 		= 0.75
+PDM_disp_accel_factor 		= 1.75
+PDM_crouch	 				= 0.50
+PDM_crouch_no_acc 			= 0.50
+
+cam_relax_speed        	 	= 8.5
+cam_relax_speed_ai      	= 360
+cam_dispersion         	 	= 0.3
+cam_step_angle_horz			= 1.25
+cam_dispersion_inc			= 0.2
+cam_dispertion_frac			= 0.9
+cam_max_angle				= 11.0
+cam_max_angle_horz			= 30.0
+
+fire_dispersion_condition_factor 	= 2.000
+misfire_probability 				= 0.0085
+misfire_condition_k					= 0.15
+condition_shot_dec 					= 0.00045
+
+zoom_enabled				= true
+scope_zoom_factor           = 90
+
+scope_status				= 0
+silencer_status				= 2
+grenade_launcher_status		= 0
+
+silencer_name               = wpn_addon_sil_556_ar
+silencer_x 					= 176
+silencer_y 					= 11
+
+snd_draw			= weapons\lr300\lr300_draw ;weapons\generic_draw, 0.5
+snd_holster			= weapons\lr300\lr300_holster ;weapons\generic_avtomat_holster, 0.5
+snd_shoot			= weapons\kac_pdw\kac_pdw_shoot
+snd_empty			= weapons\lr300\lr300_empty, 0.8 ;weapons\gen_empty, 0.5
+snd_reload			= weapons\kac_pdw\kac_pdw_reload
+snd_silncer_shot	= weapons\kac_pdw\kac_pdw_shoot_sil
+
+rpm_empty_click 	 		= 200
+light_disabled				= false
+
+light_color					= 1.0,1.0,0.4
+light_range					= 1.0
+light_var_color				= 0.0
+light_var_range				= 0.5
+light_time 					= 0.1
+
+silencer_light_color		= 0.0,0.0,0.0
+silencer_light_range		= 0.00
+silencer_light_var_color	= 0.00
+silencer_light_var_range	= 0.0
+silencer_light_time 		= 0.0
+
+flame_particles				= weapons\generic_weapon05
+smoke_particles				= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+shell_point                 = 0,0.235,0.084
+shell_dir                   = 0.0, 1.0, 0.0
+
+hud                      	= wpn_kac_pdw_hud
+normal                      = 0, 1, 0
+position                    = -0.026, -0.129, 0.0
+orientation                 = 0, 0, 0
+
+direction                   = 0, 0, 1
+fire_point                  = 0,0.170,0.429
+weapon_remove_time			= 1000
+
+strap_position         		= -0.16,-0.36,0.15
+strap_orientation      		= -10,-5,10
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+[wpn_kac_pdw_hud]
+shell_point = 0,0.90,0.3
+shell_dir = 0.0, 0.0, 0.0
+
+fire_point = 0,0.004,-0.65
+fire_point2             	= 0,0,-0.6
+fire_bone                	= muzzle	;wpn_body  ; - aleks1970
+grenade_bone            	= wpn_grenade
+orientation              	= 0, 0, 0
+position                	= 0.15,-0.06,-0.0
+visual                   	= weapons\kac_pdw\wpn_kac_pdw_hud.ogf
+
+anim_idle					= idle
+anim_idle_aim				= idle_aim
+anim_reload					= reload
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= shoot
+anim_idle_sprint			= idle_sprint
+
+zoom_hide_crosshair			= true
+zoom_rotate_time            = 0.30
+
+zoom_offset			= -0.145400,0.050000,-0.065000
+zoom_rotate_x		= -0.002000
+zoom_rotate_y		= -0.005000

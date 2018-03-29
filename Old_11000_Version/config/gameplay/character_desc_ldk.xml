@@ -1,0 +1,892 @@
+<!-- ************ TB3D 1.1.0.0.1.4 new inventory, dav updates, inventories, lines:305, 326, 346 - formatting error - aleks1970 *************** -->
+<xml>
+<!-- *************** -->
+<!-- ***************Last Day Killers by dAVROs*************** -->
+<!-- *************** -->
+	
+<!-- ***************Black Exo Blue belt*************** -->
+	<specific_character id="ldk1_master" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_ldk1_master</icon>
+		<map_icon x="1" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>ldk1_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>890</rank>
+        <reputation>-970</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>actors\ldk\last_day_killer1</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer1_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- ***************Black Exo with breastplate buttons and white face respirator*************** -->
+	<specific_character id="ldk2_master" team_default="1">
+		<name>GENERATE_NAME_lieutenant</name>
+		<icon>ui_npc_ldk2_master</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>pri_monolith_exo_bio</bio>
+		<class>ldk2_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>-800</reputation>
+        <snd_config>characters_voice\ldk\</snd_config>
+  		<crouch_type>0</crouch_type>
+		<visual>actors\ldk\last_day_killer2</visual>
+		#include "inventory\lastday_killer2_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- ***************Black light duty Exo with soft sunglassed helmet*************** -->
+	<specific_character id="ldk3_master" team_default="1">
+		<name>GENERATE_NAME_lieutenant</name>
+		<icon>ui_npc_ldk3_master</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>pri_monolith_exo_bio</bio>
+		<class>ldk3_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>-700</reputation>
+        <snd_config>characters_voice\ldk\</snd_config>
+  		<crouch_type>0</crouch_type>
+		<visual>actors\ldk\last_day_killer3</visual>
+		#include "inventory\lastday_killer3_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+		
+<!-- ***************Black Stalker suit with black hood respirator*************** -->
+	<specific_character id="ldk4_master" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_ldk4_master</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>pri_monolith_exo_bio</bio>
+		<class>ldk4_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>414</rank>
+		<reputation>-550</reputation>
+        <snd_config>characters_voice\ldk\</snd_config>
+  		<crouch_type>0</crouch_type>
+		<visual>actors\ldk\last_day_killer4</visual>
+		include "inventory\lastday_killer4_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- ***************Black Exo with breast plate buttons and Black face respirator*************** -->
+	<specific_character id="ldk5_master" team_default="1">
+		<name>GENERATE_NAME_lieutenant</name>
+		<icon>ui_npc_ldk5_master</icon>
+		<map_icon x="1" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>ldk5_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>902</rank>
+        <reputation>-460</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>actors\ldk\last_day_killer5</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer5_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- ***************Black medium duty Exo Purple trim*************** -->
+    <specific_character id="ldk6_master" team_default = "1">
+        <name>GENERATE_NAME_sergeant</name>
+        <icon>ui_npc_ldk6_master</icon>
+		<map_icon x="3" y="2"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+        <class>ldk6_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>867</rank>
+        <reputation>-390</reputation>
+        <visual>actors\ldk\last_day_killer6</visual>
+        <snd_config>characters_voice\ldk\</snd_config>
+	  	<crouch_type>0</crouch_type>
+		#include "inventory\lastday_killer6_items.xml"
+		#include "gameplay\character_criticals_1.xml"
+		#include "dialogs\bandit_dialogs.xml"
+    </specific_character>
+	
+<!-- ***************Nano suit with glass visor*************** -->
+    <specific_character id="ldk7_master" team_default = "1">
+        <name>GENERATE_NAME_sergeant</name>
+        <icon>ui_npc_ldk7_master</icon>
+        <map_icon x="3" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+        <class>ldk7_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>822</rank>
+        <reputation>-644</reputation>
+        <visual>actors\ldk\last_day_killer7</visual>
+        <snd_config>characters_voice\ldk\</snd_config>
+	  	<crouch_type>0</crouch_type>
+		#include "inventory\lastday_killer7_items.xml"
+		#include "gameplay\character_criticals_1.xml"
+		#include "dialogs\bandit_dialogs.xml"
+    </specific_character>
+
+<!-- ***************Full Invisible stealth*************** -->
+	<specific_character id="ldk8_master" team_default="1">
+		<name>The_undead_name_gameplay</name>
+		<icon>ui_npc_ldk8_master</icon>
+		<map_icon x="3" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>ldk8_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>522</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>actors\ldk\last_day_killer8</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer8_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- ***************Part Invisible stealth*************** -->
+	<specific_character id="ldk9_master" team_default="1">
+		<name>Patch_name_gameplay</name>
+		<icon>ui_npc_ldk9_master</icon>
+		<map_icon x="3" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>ldk9_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>522</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>actors\ldk\last_day_killer9</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer9_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- *************** -->
+<!-- *************** Not so tough killers*************** -->
+	<!-- *************** CS old style body armor and Helmet*************** -->
+	<specific_character id="ldk1_troop" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_ldk1_troop</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>ldk1_troop</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+          <visual>actors\ldk\black_troop1</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer_troop1_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- *************** -->
+<!-- *************** Grey Nano 1 bodysuit with orange trim*************** -->
+		<specific_character id="ldk1_nano" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_ldk1_nano</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>ldk1_nano</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>actors\ldk\last_day_nano1</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer_nano5_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- *************** Grey Nano 2 bodysuit with orange trim*************** -->
+		<specific_character id="ldk2_nano" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_ldk2_nano</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>ldk2_nano</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>actors\ldk\last_day_nano2</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer_nano6_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+	<!-- *************** -->
+	<!-- *************** Black Nano bodysuit 3 with grey trim*************** -->
+		<specific_character id="ldk3_nano" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_ldk3_nano</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>ldk3_nano</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>actors\ldk\last_day_nano3</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer_nano7_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+	<!-- *************** Black Nano bodysuit 4 with grey trim*************** -->
+		<specific_character id="ldk4_nano" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_ldk4_nano</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>ldk4_nano</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>actors\ldk\last_day_nano4</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer_nano8_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+	<!-- *************** -->
+	<!-- ***************Tough nano LDKs - random *************** -->
+	<!-- *************** -->
+	
+	<!-- *************** Grey Nano 1 bodysuit with orange trim*************** -->
+		<specific_character id="sim_nano_master" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_nano_master1</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>sim_nano_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>actors\ldk\last_day_nano1</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer_nano1_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- *************** Grey Nano 2 bodysuit with orange trim*************** -->
+		<specific_character id="sim_nano_master2" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_nano_master2</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>sim_nano_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>actors\ldk\last_day_nano2</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer_nano2_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+	<!-- *************** -->
+	<!-- *************** Black Nano bodysuit 3 with grey trim*************** -->
+		<specific_character id="sim_nano_master3" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_nano_master3</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>sim_nano_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>actors\ldk\last_day_nano3</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer_nano3_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+	<!-- *************** Black Nano bodysuit 4 with grey trim*************** -->
+		<specific_character id="sim_nano_master4" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_nano_master4</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>sim_nano_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>actors\ldk\last_day_nano4</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer_nano4_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- *************** CS old style body armor and Helmet*************** -->
+	<specific_character id="sim_troop_master" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_troop_master1</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>sim_troop_master</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+          <visual>actors\ldk\black_troop1</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer_troop2_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+		
+<!-- *************** -->
+<!-- ***************Lastday Killers - REALLY Tough Exo's - dont use elsewhere*************** -->
+<!-- *************** -->
+	
+<!-- ***************LDK Commander 1*************** -->             
+	<specific_character id="ldk_commander1" team_default = "1">
+		<name>Commander_Demogorgon_name_gameplay</name>
+		<icon>ui_npc_ldk_commander</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>ldk_exp_bio</bio>
+		<class>ldk1_commander</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>956</rank>
+		<reputation>-982</reputation>
+        <snd_config>characters_voice\ldk\</snd_config>
+  		<crouch_type>-1</crouch_type>
+		<visual>actors\ldk\ldk_beast</visual>
+		#include "gameplay\characterc1_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- *************** -->             
+<!-- ***************LDK Commander 2*************** -->             
+	<specific_character id="ldk_commander2" team_default = "1">
+		<name>Commander_Chernobog_name_gameplay</name>
+		<icon>ui_npc_ldk_commander</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>ldk_exp_bio</bio>
+		<class>ldk2_commander</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>966</rank>
+		<reputation>-984</reputation>
+        <snd_config>characters_voice\ldk\</snd_config>
+  		<crouch_type>-1</crouch_type>
+		<visual>actors\ldk\ldk_beast</visual>
+		#include "gameplay\characterc2_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+
+<!-- ***************LDK Commander 3*************** -->             
+	<specific_character id="ldk_commander3" team_default = "1">
+		<name>Commander_Diabolos_name_gameplay</name>
+		<icon>ui_npc_ldk_commander</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>ldk_exp_bio</bio>
+		<class>ldk3_commander</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>976</rank>
+		<reputation>-985</reputation>
+        <snd_config>characters_voice\ldk\</snd_config>
+  		<crouch_type>-1</crouch_type>
+		<visual>actors\ldk\ldk_beast</visual>
+		#include "gameplay\characterc3_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+
+<!-- ***************LDK Commander 4*************** -->             
+	<specific_character id="ldk_commander4" team_default = "1">
+		<name>Commander_Sutekh_name_gameplay</name>
+		<icon>ui_npc_ldk_commander</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>ldk_exp_bio</bio>
+		<class>ldk4_commander</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>980</rank>
+		<reputation>-989</reputation>
+        <snd_config>characters_voice\ldk\</snd_config>
+  		<crouch_type>-1</crouch_type>
+		<visual>actors\ldk\ldk_beast</visual>
+		#include "gameplay\characterc4_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- ***************LDK Commander 5*************** -->             
+	<specific_character id="ldk_commander5" team_default = "1">
+		<name>Commander_Crnobog_name_gameplay</name>
+		<icon>ui_npc_ldk_commander</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>ldk_exp_bio</bio>
+		<class>ldk5_commander</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>980</rank>
+		<reputation>-989</reputation>
+        <snd_config>characters_voice\ldk\</snd_config>
+  		<crouch_type>-1</crouch_type>
+		<visual>actors\ldk\ldk_beast</visual>
+		#include "gameplay\characterc5_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- ***************LDK Supreme Commander *************** -->             
+	<specific_character id="ldk_commander6" team_default = "1">
+		<name>Commander_Ahriman_name_gameplay</name>
+		<icon>ui_npc_ldk_commander</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>ldk_cmdr_bio</bio>
+		<class>ldk6_commander</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>999</rank>
+		<reputation>-999</reputation>
+        <snd_config>characters_voice\ldk\</snd_config>
+  		<crouch_type>-1</crouch_type>
+		<visual>actors\ldk\ldk_beast</visual>
+		#include "gameplay\characterc6_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+	
+<!-- *************** -->
+<!-- ***************LDK Respawns by dAVROs*************** -->
+<!-- *************** -->
+	
+<!-- *************** LDK respawn Veterans - pretty easy kills *************** -->
+
+	<specific_character id="dav_ldk_veteran_respawn1" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_lastday_wayt_polumaska</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>rad_monolith_specnaz_bio</bio>
+		<class>dav_ldk_veteran_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>659</rank>
+		<reputation>-658</reputation>
+        <money min="50" max="1530" infinitive="0"></money>
+		<visual>new\lastday_wayt_polumaska</visual>
+        <snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer1_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+
+	
+	<specific_character id="dav_ldk_veteran_respawn2" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_lastday_wayt_polumaska</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>rad_monolith_specnaz_bio</bio>
+		<class>dav_ldk_veteran_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>659</rank>
+		<reputation>-658</reputation>
+        <money min="50" max="600" infinitive="0"></money>
+		<visual>new\lastday_wayt_polumaska</visual>
+        <snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer2_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+
+	
+	<!--specific_character id="dav_ldk_veteran_respawn3" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_lastday_wayt_maska</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>rad_monolith_specnaz_bio</bio>
+		<class>dav_ldk_veteran_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>659</rank>
+		<reputation>-658</reputation>
+        <money min="50" max="600" infinitive="0"></money>
+		<visual>new\lastday_wayt_maska</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer3_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+
+	
+	<specific_character id="dav_ldk_veteran_respawn4" team_default = "1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_ki_nauchniy</icon>
+		<map_icon x="2" y="0"></map_icon>
+		<bio>sim_killer_veteran_bio</bio>
+		<class>dav_ldk_veteran_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="600" infinitive="0"></money>
+		<rank>659</rank>
+		<reputation>-658</reputation>
+		<visual>actors\killer\stalker_ki_nauchniy</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+		<crouch_type>-1</crouch_type>
+		#include "inventory\lastday_killer4_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+
+	
+	<specific_character id="dav_ldk_veteran_respawn5" team_default = "1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_ki_nauchniy</icon>
+		<map_icon x="2" y="0"></map_icon>
+		<bio>sim_killer_veteran_bio</bio>
+		<class>dav_ldk_veteran_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="600" infinitive="0"></money>
+		<rank>659</rank>
+		<reputation>-658</reputation>
+		<visual>actors\killer\stalker_ki_nauchniy</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+		<crouch_type>-1</crouch_type>
+		#include "inventory\lastday_killer5_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+
+	
+	<specific_character id="dav_ldk_veteran_respawn6" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_lastday_wayt_polumaska</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>rad_monolith_specnaz_bio</bio>
+		<class>dav_ldk_veteran_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>659</rank>
+		<reputation>-658</reputation>
+        <money min="50" max="1530" infinitive="0"></money>
+		<visual>new\lastday_wayt_polumaska</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer6_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+
+	
+	<specific_character id="dav_ldk_veteran_respawn7" team_default = "1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_ki_nauchniy</icon>
+		<map_icon x="2" y="0"></map_icon>
+		<bio>sim_killer_veteran_bio</bio>
+		<class>dav_ldk_veteran_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="600" infinitive="0"></money>
+		<rank>659</rank>
+		<reputation>-658</reputation>
+		<visual>actors\killer\stalker_ki_nauchniy</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+		<crouch_type>-1</crouch_type>
+		#include "inventory\lastday_killer7_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+
+    
+	<specific_character id="dav_ldk_veteran_respawn8" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_lastday_wayt_maska</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>rad_monolith_specnaz_bio</bio>
+		<class>dav_ldk_veteran_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>659</rank>
+		<reputation>-658</reputation>
+        <money min="50" max="600" infinitive="0"></money>
+		<visual>new\lastday_wayt_maska</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer8_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character-->
+	
+<!-- *************** LDK respawn Masters - not so easy kills *************** -->
+	
+	<specific_character id="dav_ldk_master_respawn1" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_lastday_helmet</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>dav_ldk_master_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>new\ekzo_and_helmet</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer1_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+
+	
+	<specific_character id="dav_ldk_master_respawn2" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_lastday_helmet</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>dav_ldk_master_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>new\ekzo_and_helmet</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer2_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+
+	
+	<!--specific_character id="dav_ldk_master_respawn3" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_lastday_helmet</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>dav_ldk_master_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>new\ekzo_and_helmet</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer3_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character-->
+
+	
+	<specific_character id="dav_ldk_master4" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_lastday_helmet</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>dav_ldk_master_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>new\ekzo_and_helmet</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer4_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+
+	
+    <specific_character id="dav_ldk_master5" team_default = "1">
+        <name>GENERATE_NAME_bandit</name>
+        <icon>ui_npc_u_stalker_mo_exo</icon>
+        <map_icon x="3" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+        <class>dav_ldk_master_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <visual>actors\monolit\stalker_mo_exo</visual>
+        <snd_config>characters_voice\ldk\</snd_config>
+	  	<crouch_type>0</crouch_type>
+		#include "inventory\lastday_killer5_items.xml"
+		#include "gameplay\character_criticals_1.xml"
+		#include "dialogs\generic_dialogs.xml"
+    </specific_character>
+
+	
+    <!--specific_character id="dav_ldk_master_respawn6" team_default = "1">
+        <name>GENERATE_NAME_bandit</name>
+        <icon>ui_npc_u_stalker_mo_exo</icon>
+        <map_icon x="3" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+        <class>dav_ldk_master_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <visual>actors\monolit\stalker_mo_exo</visual>
+        <snd_config>characters_voice\ldk\</snd_config>
+	  	<crouch_type>0</crouch_type>
+		#include "inventory\lastday_killer6_items.xml"
+		#include "gameplay\character_criticals_1.xml"
+		#include "dialogs\generic_dialogs.xml"
+    </specific_character>
+
+	
+    <specific_character id="dav_ldk_master_respawn7" team_default = "1">
+        <name>GENERATE_NAME_bandit</name>
+        <icon>ui_npc_u_stalker_mo_exo</icon>
+        <map_icon x="3" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+        <class>dav_ldk_master_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <visual>actors\monolit\stalker_mo_exo</visual>
+        <snd_config>characters_voice\ldk\</snd_config>
+	  	<crouch_type>0</crouch_type>
+		#include "inventory\lastday_killer7_items.xml"
+		#include "gameplay\character_criticals_1.xml"
+		#include "dialogs\generic_dialogs.xml"
+    </specific_character>
+
+	
+	<specific_character id="dav_ldk_master_respawn8" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_lastday_helmet</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>dav_ldk_master_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>new\ekzo_and_helmet</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer8_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character-->
+
+	
+	<specific_character id="dav_ldk_master9" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_lastday_helmet</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>dav_ldk_master_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>new\ekzo_and_helmet</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer9_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+
+	
+	<!--specific_character id="dav_ldk_master_respawn10" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_lastday_helmet</icon>
+		<map_icon x="2" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+		<class>dav_ldk_master_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <money min="50" max="730" infinitive="0"></money>
+		<visual>new\ekzo_and_helmet</visual>
+		<snd_config>characters_voice\ldk\</snd_config>
+        <panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+		#include "inventory\lastday_killer_nano1_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\generic_dialogs.xml"
+	</specific_character-->
+
+	
+    <specific_character id="dav_ldk_master11" team_default = "1">
+        <name>GENERATE_NAME_bandit</name>
+        <icon>ui_npc_u_stalker_mo_exo</icon>
+        <map_icon x="3" y="0"></map_icon>
+        <bio>pri_monolith_exo_bio</bio>
+        <class>dav_ldk_master_respawn1</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>922</rank>
+        <reputation>-890</reputation>
+        <visual>actors\monolit\stalker_mo_exo</visual>
+        <snd_config>characters_voice\ldk\</snd_config>
+	  	<crouch_type>0</crouch_type>
+		#include "inventory\lastday_killer_nano2_items.xml"
+		#include "gameplay\character_criticals_1.xml"
+		#include "dialogs\generic_dialogs.xml"
+    </specific_character>
+	
+<!-- ***************LDK legacy spawns *************** -->             
+	<specific_character id="charactercommander4" team_default = "1">
+		<name>Commander_Ahriman_name_gameplay</name>
+		<icon>ui_npc_ldk_commander</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>ldk_cmdr_bio</bio>
+		<class>ldk6_commander</class>
+		<community>lastday</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>999</rank>
+		<reputation>-999</reputation>
+        <snd_config>characters_voice\ldk\</snd_config>
+  		<crouch_type>-1</crouch_type>
+		<visual>actors\ldk\ldk_beast</visual>
+		#include "gameplay\characterc6_items.xml"
+		#include "gameplay\character_criticals_4.xml"
+		#include "dialogs\bandit_dialogs.xml"
+	</specific_character>
+
+	</xml>

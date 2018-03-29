@@ -1,0 +1,119 @@
+;<!-- TB3D 1.0.1e -->
+;----------- SOUND OF FIRE-----------------------
+
+[zone_flame_small_stove]
+GroupControlSection			= spawn_group_zone
+$spawn 						= "zones\campfire"
+$prefetch 					= 16
+class						= Z_MBALD
+
+hit_impulse_scale			= 0.0
+effective_radius			= 0.0 ;size range as a percentage of the original, which has a zone
+
+ef_anomaly_type				= 1
+ef_weapon_type				= 13
+
+sound						= 
+;postprocess					= postprocess_flame
+	
+artefacts					= 
+BirthProbability 			= 0.0
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.39
+max_start_power		= 0.40
+attenuation			= 1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 0
+
+idle_particles				= destroy_fx\group_items\destroy_smoke_00
+blowout_particles			= destroy_fx\group_items\destroy_smoke_00
+
+hit_small_particles			= destroy_fx\group_items\destroy_smoke_00
+hit_big_particles			= destroy_fx\group_items\destroy_smoke_00
+idle_small_particles		= destroy_fx\group_items\destroy_smoke_00
+idle_big_particles			= destroy_fx\group_items\destroy_smoke_00
+
+idle_particles_dont_stop	= true;
+
+idle_sound					= ambient\fire2		;constant sound
+blowout_sound				= ambient\fire2		;during ejection (stroke) in the center of the anomaly	
+hit_sound					= ambient\fire2		;on the character when he gets hit
+entrance_sound				= ambient\fire2		;in contact with the object of an anomaly
+
+hit_type					= burn
+
+disable_time				= 10000	;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small			= -1	;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time			= 50000	;timeout idle partiklov
+
+ignore_nonalive				= true
+ignore_small				= true
+ignore_artefacts			= true
+
+blowout_light				= off
+light_color		    		= 0.0
+light_animation             = koster
+light_range		    		= 0
+light_time 		    		= 0.0
+light_height				= 0.0			;rise to the height of the light source
+
+
+idle_light					= off
+idle_light_range			= 0.0
+idle_light_range_delta 		= 0.0
+idle_light_anim				= koster_00
+idle_light_height			= 0.0			;rise to the height of the light source
+
+awaking_time				= 0
+blowout_time				= 1000	
+accamulate_time				= 0
+
+visible_by_detector 		= off
+
+blowout_wind				= off
+
+blowout_wind_time_start 	= 0
+blowout_wind_time_peak  	= 600
+blowout_wind_time_end		= 899
+blowout_wind_power			= 0.0			;Wind power raises (from 0 to 1), at the moment blowout_wind_time_peak 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during the operation
+spawn_blowout_artefacts = off
+
+;----------- SOUND GENERATOR-----------------------
+
+[zone_generator1]:zone_flame_small_stove
+GroupControlSection			= spawn_group_zone
+$spawn 						= "zones\campfire"
+$prefetch 					= 16
+class						= Z_MBALD
+
+idle_sound					= apc_run_gen		;constant sound
+blowout_sound				= $no_sound		;during ejection (stroke) in the center of the anomaly	
+hit_sound					= $no_sound		;on the character when he gets hit
+entrance_sound				= $no_sound		;in contact with the object of an anomaly
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;рождение артефактов во время срабатывания
+spawn_blowout_artefacts = off
+
+;----------- ЗВУК ЧАСОВ-----------------------
+
+[zone_tik_tak]:zone_flame_small_stove
+GroupControlSection			= spawn_group_zone
+$spawn 						= "zones\campfire"
+$prefetch 					= 16
+class						= Z_MBALD
+
+idle_sound					= sound_tik_tak		;constant sound
+blowout_sound				= $no_sound		;during ejection (stroke) in the center of the anomaly	
+hit_sound					= $no_sound		;on the character when he gets hit
+entrance_sound				= $no_sound		;in contact with the object of an anomaly
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during the operation
+spawn_blowout_artefacts = off
+

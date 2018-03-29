@@ -1,0 +1,45 @@
+[tark]:cat_strong
+$spawn              = "monsters\tark"			; option for Level Editor
+visual				= monsters\tark\tark
+corpse_visual		= monsters\tark\tark
+ph_mass 		     = 50;30						; also it's the food
+icon = ui_npc_monster_tark
+
+cform                = skeleton					; collision class
+class                = SM_CAT_S					; AI class
+
+ef_creature_type	 = 2				; option for evaluation functions
+ef_weapon_type		 = 2
+ef_detector_type			 = 1
+panic_threshold			= 0.0
+rank				= 801
+
+; Sounds
+sound_idle				= monsters\tark\tark_idle_1
+sound_eat				= monsters\tark\tark_eat
+sound_aggressive		= monsters\tark\tark_attack_1
+sound_attack_hit		= monsters\tark\tark_attack_2
+sound_take_damage		= monsters\tark\tark_hit
+sound_die				= monsters\tark\tark_die_1
+sound_threaten			= monsters\tark\tark_threat_2
+sound_landing			= monsters\tark\tark_idle_2
+sound_steal				= monsters\tark\tark_attack_3
+sound_panic				= monsters\tark\tark_threat_1
+sound_growling			= monsters\tark\tark_attack_4
+sound_die_in_anomaly	= monsters\tark\tark_die_2
+
+killer_clsids				= Z_MINCER,Z_GALANT,ZS_BFUZZ,ZS_MBALD,ZS_GALAN,ZS_MINCE
+
+
+idle_sound_delay		= 55000
+eat_sound_delay			= 3000
+attack_sound_delay		= 6000
+
+sound_distant_idle			= monsters\tark\tark_idle_1
+distant_idle_sound_delay	= 80000
+distant_idle_sound_range	= 100.0	
+
+DamagedThreshold		= 0.4
+
+
+

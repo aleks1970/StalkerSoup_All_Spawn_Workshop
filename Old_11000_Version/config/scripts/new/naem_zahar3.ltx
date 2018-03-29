@@ -1,0 +1,16 @@
+[smart_terrains]
+none = true
+
+[logic]
+active=camper
+on_death = death@zahar3
+
+[camper]
+sniper = true
+def_state_campering = threat_na
+radius = 60
+path_walk = naem_zahar3_walk
+path_look = naem_zahar3_look
+
+[death@zahar3]
+on_info = %+naem_zahar3_dead%

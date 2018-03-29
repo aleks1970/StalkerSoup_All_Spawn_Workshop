@@ -1,0 +1,19 @@
+;;;TB3D 109971
+
+[logic]
+active = ph_idle
+
+[ph_idle]
+tips = tip_monolith
+on_info = {+tb3d_wish_granted} ph_idle3
+on_use = ph_idle2 %+sar2_monolith_miracle =sar_monolith_miracle%
+
+[ph_idle2]
+on_info = {+tb3d_wish_granted} ph_idle3
+
+[ph_idle3]
+tips = tip_monolith
+on_use = ph_idle4 %+tb3d_sar_toggled =sar_monolith_send% 
+
+[ph_idle4]
+on_info = {-tb3d_sar_toggled} ph_idle3

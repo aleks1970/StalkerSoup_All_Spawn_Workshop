@@ -1,0 +1,3153 @@
+;-- TB3D 1.0.9.9.9.8 edits by glowworm,  excluded duplicates sections aleks1970, dav update 16Apr14, attach_bone_name must exist, adjustments -->
+;  dAVROs weapons and other items for the Collector CS134 extended                   Rev 1         Aug 2011
+;==================================================================================================
+
+
+; Electric Grenade - by dAVROs
+[grenade_rgd6]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn 				= "weapons\grenades\rgd5"
+$prefetch			= 128
+class				= G_RGD5
+cform				= skeleton
+visual				= dav\grenade\wpn_rgd6.ogf
+inv_name			= electric_grenade
+inv_name_short			= electric_grenade_s
+inv_weight			= 0.85	;.1
+description			= desc_grenade-rgd6
+
+;belt				= true
+ef_weapon_type		= 10
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 57
+inv_grid_y			= 3
+
+kill_msg_x			= 240
+kill_msg_y			= 123
+kill_msg_width		= 14
+kill_msg_height		= 23
+
+animation_slot		= 7
+single_handed		= 1
+
+slot				= 3
+hud					= grenade_rgd6_hud
+force_min				= 10	
+force_const				= 25;20
+force_max				= 60
+force_grow_speed		= 35;2 ;30
+
+destroy_time		= 2000
+
+cost				= 4100	;40
+
+;-----------------------------------------------------------------------------------
+blast				= 6
+blast_r				= 10
+blast_impulse		= 0
+;delete
+blast_impulse_factor = 0
+
+frags				= 15
+frags_r				= 15
+frag_hit			= 1.0
+frag_hit_impulse	= 240
+
+hit_type_blast		= shock
+hit_type_frag		= shock
+
+
+up_throw_factor		 = 1.2
+;-----------------------------------------------------------------------------------
+
+explode_particles	= anomaly2\electra2_blast
+
+
+light_color		         = 0.8,0.9,1
+light_range		         = 30.0
+light_time 		         = 1
+
+;трассы от осколков
+fragment_speed				= 200
+
+explode_duration		 = 100		
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+snd_explode  = anomaly\electra_hit     
+snd_checkout = weapons\generic_checkout
+;------------------------------------------------------------------------------------------
+
+attach_position_offset	= -0.053,-0.089,0.0
+attach_angle_offset		= 0,0,0
+attach_bone_name		= bip01_r_hand
+
+;// should be deleted after update
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+throw_point				 = 0,0.3,0.2
+throw_dir				 = 0,0,1
+wm_size                  = 0.1
+;wallmarks
+wallmark_section		 = explosion_marks
+
+[grenade_rgd6_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = grenade_0
+orientation         = 0,0,0
+position            = 0,0,0
+visual              = dav\grenade\wpn_rgd6_hud.ogf
+
+throw_point				 = 0.0,0.4,0.3
+;throw_point			= -0.05,-0.10,0.05
+throw_dir			= 0,0,1
+
+anim_show			= draw
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end
+
+
+
+;=================================================================================================
+
+; Thermal Grenade - by dAVROs
+[grenade_rgd7]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn 				= "weapons\grenades\rgd5"
+$prefetch			= 128
+class				= G_RGD5
+cform				= skeleton
+visual				= dav\grenade\wpn_rgd7.ogf
+inv_name			= thermal_grenade
+inv_name_short			= thermal_grenade_s
+inv_weight			= 0.95	;.1
+description			= desc_grenade-rgd7
+
+;belt				= true
+ef_weapon_type		= 10
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 58
+inv_grid_y			= 3
+
+kill_msg_x			= 240
+kill_msg_y			= 123
+kill_msg_width		= 14
+kill_msg_height		= 23
+
+animation_slot		= 7
+single_handed		= 1
+
+slot				= 3
+hud					= grenade_rgd7_hud
+force_min				= 10	
+force_const				= 25;20
+force_max				= 30
+force_grow_speed		= 15;2 ;30
+
+destroy_time		= 2000;3500
+
+cost				= 3350	;40
+
+;-----------------------------------------------------------------------------------
+blast				= 20
+blast_r				= 20
+blast_impulse		= 250
+;delete
+blast_impulse_factor = 1
+
+frags				= 15
+frags_r				= 45
+frag_hit			= 0.5
+frag_hit_impulse	= 200
+
+hit_type_blast		= burn    ;explosion
+hit_type_frag		= fire_wound
+
+up_throw_factor		 = 1.2
+;-----------------------------------------------------------------------------------
+
+explode_particles	= a_ufp_particles\flame_grenade
+
+
+light_color		         = 1.9,0.5,0.5
+light_range		         = 14.0
+light_time 		         = 0.85
+
+;трассы от осколков
+fragment_speed				= 200
+
+explode_duration		 = 10		
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+snd_explode  = weapons\heli_explosion     
+snd_checkout = weapons\generic_checkout
+;------------------------------------------------------------------------------------------
+
+attach_position_offset	= -0.053,-0.089,0.0
+attach_angle_offset		= 0,0,0
+attach_bone_name		= bip01_r_hand
+
+;// should be deleted after update
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+throw_point				 = 0,0.3,0.2
+throw_dir				 = 0,0,1
+wm_size                  = 0.1
+;wallmarks
+wallmark_section		 = explosion_marks
+
+[grenade_rgd7_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = grenade_0
+orientation         = 0,0,0
+position            = 0,0,0
+visual              = dav\grenade\wpn_rgd7_hud.ogf
+
+throw_point				 = 0.0,0.4,0.3
+;throw_point			= -0.05,-0.10,0.05
+throw_dir			= 0,0,1
+
+anim_show			= draw
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end
+
+
+
+;================================================================================================
+
+; Gravic Grenade - by dAVROs
+[grenade_rgd8]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn 				= "weapons\grenades\rgd5"
+$prefetch			= 128
+class				= G_RGD5
+cform				= skeleton
+visual				= dav\grenade\wpn_rgd8.ogf
+inv_name			= gravic_grenade
+inv_name_short			= gravic_grenade_s
+inv_weight			= 0.35	;.1
+description			= desc_grenade-rgd8
+
+;belt				= true
+ef_weapon_type		= 10
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 59
+inv_grid_y			= 3
+
+kill_msg_x			= 240
+kill_msg_y			= 123
+kill_msg_width		= 14
+kill_msg_height		= 23
+
+animation_slot		= 7
+single_handed		= 1
+
+slot				= 3
+hud					= grenade_rgd8_hud
+force_min				= 10	
+force_const				= 25;20
+force_max				= 30
+force_grow_speed		= 30
+
+destroy_time		= 2500;3500
+
+cost				= 2500	;40
+
+;-----------------------------------------------------------------------------------
+blast				= 30
+blast_r				= 2
+blast_impulse		= 10
+;delete
+blast_impulse_factor = 0
+
+frags				= 25
+frags_r				= 15
+frag_hit			= 2.0
+frag_hit_impulse	= 0
+
+hit_type_blast		= strike
+hit_type_frag		= strike
+
+up_throw_factor		 = 1.2
+;-----------------------------------------------------------------------------------
+
+explode_particles	= anomaly2\gravity_blast_final00
+
+
+light_color		         = 1.4,1.6,1.3
+light_range		         = 30.0
+light_time 		         = 0.85
+
+;трассы от осколков
+fragment_speed				= 200
+
+explode_duration		 = 15		
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+snd_explode  = anomaly\anomaly_gravy_hit1       ;anomaly_gravy_blast1     
+snd_checkout = weapons\generic_checkout
+;------------------------------------------------------------------------------------------
+
+attach_position_offset	= -0.053,-0.089,0.0
+attach_angle_offset		= 0,0,0
+attach_bone_name		= bip01_r_hand
+
+;// should be deleted after update
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+throw_point				 = 0,0.3,0.2
+throw_dir				 = 0,0,1
+wm_size                  = 0.1
+;wallmarks
+wallmark_section		 = explosion_marks
+
+[grenade_rgd8_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = grenade_0
+orientation         = 0,0,0
+position            = 0,0,0
+visual              = dav\grenade\wpn_rgd8_hud.ogf
+
+throw_point				 = 0.0,0.4,0.3
+;throw_point			= -0.05,-0.10,0.05
+throw_dir			= 0,0,1
+
+anim_show			= draw
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end
+
+
+
+;================================================================================================
+
+; Mini Nuke grenade - by dAVROs
+[grenade_rgd9]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn 				= "weapons\grenades\rgd5"
+$prefetch			= 128
+class				= G_RGD5
+cform				= skeleton
+visual				= dav\grenade\wpn_rgd9.ogf
+inv_name			= mini_nuke
+inv_name_short			= mini_nuke_s
+inv_weight			= 3.2	;.1
+description			= desc_grenade-rgd9
+
+;belt				= true
+ef_weapon_type		= 10
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 61
+inv_grid_y			= 3
+
+kill_msg_x			= 240
+kill_msg_y			= 123
+kill_msg_width		= 14
+kill_msg_height		= 23
+
+animation_slot		= 7
+single_handed		= 1
+
+slot				= 3
+hud					= grenade_rgd9_hud
+force_min				= 10	
+force_const				= 25;20
+force_max				= 60
+force_grow_speed		= 45;2 ;30
+
+destroy_time		= 3500;3500
+
+cost				= 8300	;40
+
+;-----------------------------------------------------------------------------------
+blast				= 55
+blast_r				= 100
+blast_impulse		= 450
+;delete
+blast_impulse_factor = 1
+
+frags				= 15
+frags_r				= 15
+frag_hit			= 1.5
+frag_hit_impulse	= 290
+
+hit_type_blast		= explosion
+hit_type_frag		= fire_wound
+
+up_throw_factor		 = 1.2
+;-----------------------------------------------------------------------------------
+
+explode_particles	= a_ufp_particles\atom_blow
+
+
+light_color		         = 0.3,1.8,0.3
+light_range		         = 24.0
+light_time 		         = 0.85
+
+;трассы от осколков
+fragment_speed				= 250
+
+explode_duration		 = 10		
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+snd_explode  = weapons\nucleus_blast     ;anomaly\stancia_thunder     
+snd_checkout = weapons\generic_checkout
+;------------------------------------------------------------------------------------------
+
+attach_position_offset	= -0.053,-0.089,0.0
+attach_angle_offset		= 0,0,0
+attach_bone_name		= bip01_r_hand
+
+;// should be deleted after update
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+throw_point				 = 0,0.3,0.2
+throw_dir				 = 0,0,1
+wm_size                  = 0.1
+;wallmarks
+wallmark_section		 = explosion_marks
+
+[grenade_rgd9_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = grenade_0
+orientation         = 0,0,0
+position            = 0,0,0
+visual              = dav\grenade\wpn_rgd9_hud.ogf
+
+throw_point				 = 0.0,0.4,0.3
+;throw_point			= -0.05,-0.10,0.05
+throw_dir			= 0,0,1
+
+anim_show			= draw
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end
+
+
+
+;================================================================================================
+
+; Quantum Grenade - by dAVROs
+[grenade_rgd10]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn 				= "weapons\grenades\rgd5"
+$prefetch			= 128
+class				= G_RGD5
+cform				= skeleton
+visual				= dav\grenade\wpn_rgd10.ogf
+inv_name			= quantum_grenade
+inv_name_short			= quantum_grenade_s
+inv_weight			= 0.75	;.1
+description			= desc_grenade-rgd10
+
+;belt				= true
+ef_weapon_type		= 10
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 60
+inv_grid_y			= 3
+
+kill_msg_x			= 240
+kill_msg_y			= 123
+kill_msg_width		= 14
+kill_msg_height		= 23
+
+animation_slot		= 7
+single_handed		= 1
+
+slot				= 3
+hud					= grenade_rgd10_hud
+force_min				= 10	
+force_const				= 25;20
+force_max				= 60
+force_grow_speed		= 30
+
+destroy_time		= 2500;3500
+
+cost				= 4500	;40
+
+;-----------------------------------------------------------------------------------
+blast				= 30
+blast_r				= 35
+blast_impulse		= 400
+;delete
+blast_impulse_factor = 1
+
+frags				= 25
+frags_r				= 15
+frag_hit			= 2.0
+frag_hit_impulse	= 300
+
+hit_type_blast		= explosion
+hit_type_frag		= fire_wound
+
+up_throw_factor		 = 1.2
+;-----------------------------------------------------------------------------------
+
+explode_particles	= anomaly2\teleport
+
+
+light_color		         = 1.9,1.4,0.5
+light_range		         = 20.0
+light_time 		         = 0.85
+
+;трассы от осколков
+fragment_speed				= 200
+
+explode_duration		 = 5		
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+snd_explode  = anomaly\teleport_work_2       ;anomaly_gravy_blast1     
+snd_checkout = weapons\generic_checkout
+;------------------------------------------------------------------------------------------
+
+attach_position_offset	= -0.053,-0.089,0.0
+attach_angle_offset		= 0,0,0
+attach_bone_name		= bip01_r_hand
+
+;// should be deleted after update
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+throw_point				 = 0,0.3,0.2
+throw_dir				 = 0,0,1
+wm_size                  = 0.1
+;wallmarks
+wallmark_section		 = explosion_marks
+
+[grenade_rgd10_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = grenade_0
+orientation         = 0,0,0
+position            = 0,0,0
+visual              = dav\grenade\wpn_rgd10_hud.ogf
+
+throw_point				 = 0.0,0.4,0.3
+;throw_point			= -0.05,-0.10,0.05
+throw_dir			= 0,0,1
+
+anim_show			= draw
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end
+
+
+
+;=================================================================================================
+
+; Time delay grenade - by dAVROs
+[grenade_rgd11]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn 				= "weapons\grenades\rgd5"
+$prefetch			= 128
+class				= G_RGD5
+cform				= skeleton
+visual				= dav\grenade\wpn_rgd11.ogf
+inv_name			= time_delay_grenade
+inv_name_short			= time_delay_grenade_s
+inv_weight			= 0.35	;.1
+description			= desc_grenade-rgd11
+
+;belt				= true
+ef_weapon_type		= 10
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 62
+inv_grid_y			= 3
+
+kill_msg_x			= 240
+kill_msg_y			= 123
+kill_msg_width		= 14
+kill_msg_height		= 23
+
+animation_slot		= 7
+single_handed		= 1
+
+slot				= 3
+hud					= grenade_rgd11_hud
+force_min				= 10	
+force_const				= 25;20
+force_max				= 30
+force_grow_speed		= 15;2 ;30
+
+destroy_time		= 25000;3500
+
+cost				= 900	;40
+
+;-----------------------------------------------------------------------------------
+blast				= 15
+blast_r				= 20
+blast_impulse		= 145
+;delete
+blast_impulse_factor = 1
+
+frags				= 10
+frags_r				= 15
+frag_hit			= 1.5
+frag_hit_impulse	= 240
+
+hit_type_blast		= explosion
+hit_type_frag		= fire_wound
+
+up_throw_factor		 = 1.2
+;-----------------------------------------------------------------------------------
+
+explode_particles	= explosions\explosion_01
+
+
+light_color		         = 1.9,1.4,0.5
+light_range		         = 14.0
+light_time 		         = 0.85
+
+;трассы от осколков
+fragment_speed				= 200
+
+explode_duration		 = 5		
+explode_hide_duration	      = 35
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+snd_explode  = weapons\explo\t_rgd5_explosion     
+snd_checkout = weapons\generic_checkout
+;------------------------------------------------------------------------------------------
+
+attach_position_offset	= -0.053,-0.089,0.0
+attach_angle_offset		= 0,0,0
+attach_bone_name		= bip01_r_hand
+
+;// should be deleted after update
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+throw_point				 = 0,0.3,0.2
+throw_dir				 = 0,0,1
+wm_size                  = 0.1
+;wallmarks
+wallmark_section		 = explosion_marks
+
+[grenade_rgd11_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = grenade_0
+orientation         = 0,0,0
+position            = 0,0,0
+visual              = dav\grenade\wpn_rgd11_hud.ogf
+
+throw_point				 = 0.0,0.4,0.3
+;throw_point			= -0.05,-0.10,0.05
+throw_dir			= 0,0,1
+
+anim_show			= draw
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end
+
+
+
+;=================================================================================================
+
+; Enhanced Grenade
+[grenade_rgd12]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn 				= "weapons\grenades\rgd5"
+$prefetch			= 128
+class				= G_RGD5
+cform				= skeleton
+visual				= dav\grenade\wpn_rgd12.ogf
+inv_name			= enhanced_grenade
+inv_name_short			= enhanced_grenade_s
+inv_weight			= 0.65	;.1
+description			= desc_grenade-rgd12
+
+;belt				= true
+ef_weapon_type		= 10
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 63
+inv_grid_y			= 3
+
+kill_msg_x			= 240
+kill_msg_y			= 123
+kill_msg_width		= 14
+kill_msg_height		= 23
+
+animation_slot		= 7
+single_handed		= 1
+
+slot				= 3
+hud					= grenade_rgd12_hud
+force_min				= 10	
+force_const				= 25;20
+force_max				= 30
+force_grow_speed		= 15;2 ;30
+
+destroy_time		= 2500;3500
+
+cost				= 1700	;40
+
+;-----------------------------------------------------------------------------------
+blast				= 45
+blast_r				= 30
+blast_impulse		= 345
+;delete
+blast_impulse_factor = 1
+
+frags				= 20
+frags_r				= 35
+frag_hit			= 1.5
+frag_hit_impulse	= 240
+
+hit_type_blast		= explosion
+hit_type_frag		= fire_wound
+
+up_throw_factor		 = 1.2
+;-----------------------------------------------------------------------------------
+
+explode_particles	= explosions\explosion_barrel     ;explosions\explosion_01
+
+
+light_color		         = 0.2,1.6,1.6
+light_range		         = 34.0
+light_time 		         = 4.85
+
+;трассы от осколков
+fragment_speed				= 400
+
+explode_duration		 = 5		
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+snd_explode  = weapons\explo\barrel_boom             ;weapons\explo\t_rgd5_explosion     
+snd_checkout = weapons\generic_checkout
+;------------------------------------------------------------------------------------------
+
+attach_position_offset	= -0.053,-0.089,0.0
+attach_angle_offset		= 0,0,0
+attach_bone_name		= bip01_r_hand
+
+;// should be deleted after update
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+throw_point				 = 0,0.3,0.2
+throw_dir				 = 0,0,1
+wm_size                  = 0.1
+;wallmarks
+wallmark_section		 = explosion_marks
+
+[grenade_rgd12_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = grenade_0
+orientation         = 0,0,0
+position            = 0,0,0
+visual              = dav\grenade\wpn_rgd12_hud.ogf
+
+throw_point				 = 0.0,0.4,0.3
+;throw_point			= -0.05,-0.10,0.05
+throw_dir			= 0,0,1
+
+anim_show			= draw
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end
+
+
+
+
+
+
+
+;=================================================================================================
+;=================================================================================================
+;  WEAPONS
+;=================================================================================================
+
+[wpn_oicw_cs]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                  = "weapons\scar"					; option for Level Editor
+$npc			 		= on				; option for Level Editor
+$prefetch 		 		= 8
+scheduled               = off              ; option for ALife Simulator
+cform                   = skeleton
+class                   = WP_AK74
+min_radius              = 0
+max_radius              = 50
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0		       ;  eye_range 
+holder_fov_modifier		= 0.7              ;  eye_fov
+;-----------------------------------------------------------------------------------
+
+
+weapon_class			= assault_rifle
+cost				= 28000
+
+ammo_limit		 	= 210
+ammo_current			= 30
+ammo_elapsed		 	= 30
+
+ammo_mag_size		 	= 30
+ammo_class		 	= ammo_5.56x45_ss190, ammo_5.56x45_ap
+grenade_class			= ammo_20x85a
+fire_modes			= 1,  -1
+launch_speed = 0
+
+hand_dependence		 	= 1
+single_handed			= 0
+
+description				= enc_wpn_xm_29_oicw_dav_descr
+inv_name				= wpn_xm_29_oicw_dav
+inv_name_short			= wpn_xm_29_oicw_dav_s
+inv_weight			= 6.8
+
+inv_grid_width     = 5
+inv_grid_height    = 2
+inv_grid_x         = 60
+inv_grid_y         = 8
+
+
+kill_msg_x			= 175
+kill_msg_y			= 0
+kill_msg_width		= 82
+kill_msg_height		= 28
+
+slot 					= 2		; // secondary
+animation_slot			= 2		; type of the animation that will be used
+
+;-----------------------------------------------------------------------------------
+;params of weapon recoil
+fire_dispersion_base		= 0.084 	 
+control_inertion_factor		= 1.10f  
+disp_rate 			= 1.9 
+
+cam_relax_speed         	= 3	
+cam_relax_speed_ai        	= 120.75    
+cam_dispersion          	= 0.02		
+cam_dispersion_inc			= 0.02		
+cam_dispertion_frac			= 0.29		;cam_dispersion*cm_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle				= 4.0		
+cam_max_angle_horz			= 3.0		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 1.1		;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	 
+misfire_probability 			= 0.0003	 
+condition_shot_dec 			= 0.00002	
+misfire_condition_k			= 0.05
+;--------------------------------------------------------------------------------
+
+direction               = 0, 0, 1
+
+fire_point               	= 0.0, 0.199, 0.575
+
+shell_particles	 		= weapons\arsenal_shells1
+flame_particles			= weapons\generic_weapon05
+grenade_flame_particles		= weapons\generic_weapon01
+
+shell_point		 			= 0.0, 0.199, 0.09
+shell_dir		 		= 0.0, 1.0, 0.0
+
+rpm_empty_click 	 	= 200
+
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 		= 0.8
+PDM_disp_accel_factor 		= 0.8
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+; ttc
+hit_power                	= 1.5	;0.76
+hit_impulse		        	= 110	;75			 
+hit_type 					= fire_wound	
+hit_rate					= 2.5	;1.85				     
+
+fire_distance            	= 350	;280			
+bullet_speed				= 1100	;920		
+rpm                      	= 1000	;750	
+grenade_vel					= 120
+; end ttc
+
+use_aim_bullet				= true		
+time_to_aim					= 1.0
+
+silencer_hit_power       	= 1.25	;0.71
+silencer_hit_impulse	 	= 100	;68
+silencer_fire_distance   	= 300	;240
+silencer_bullet_speed	 	= 1000	;880
+
+hud                     	= wpn_oicw_cs_hud
+normal                  	= 0, 1, 0
+position                 	= -0.026, -0.130, 0.0
+orientation              	= 0.0, 0.0, 0.0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.15,-0.37,0.2			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -10,-5,10					; (3rd person view in degrees)
+strap_bone0			= bip01_spine2
+strap_bone1			= bip01_spine1
+
+startup_ammo            	= 1000
+visual                   	= dav\oicw\wpn_oicw_cs.ogf
+
+light_color		 	= 0.6,0.5,0.3
+light_range		 	= 5
+light_var_color		 	= 0.05
+light_var_range		 	= 0.1
+light_time 		 	= 0.2
+
+ph_mass			 	= 4
+
+;addons
+scope_status			= 1
+silencer_status			= 2
+grenade_launcher_status		= 1
+
+scope_name 			    = wpn_addon_acog
+scope_x                     	= 80		; offset in inventory icon
+scope_y                     	= -2
+
+silencer_name  		    	= wpn_addon_sil_556_ar
+silencer_x                 	= 218		; offset in inventory icon
+silencer_y                  	= 34
+
+grenade_launcher_name 		= wpn_addon_grenade_launcher_m203
+grenade_launcher_x 		= 128
+grenade_launcher_y 		= 28
+
+
+silencer_light_color		= 1.0, 0.1, 0.0
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+zoom_enabled			= true			 
+scope_zoom_factor	 	= 15			 
+scope_texture			= wpn\wpn_crosshair_fn2000-comp 	;wpn\wpn_crosshair_fn2000_p
+
+
+snd_draw				= weapons\oicw\draw
+snd_holster				= weapons\oicw\holster
+snd_shoot				= weapons\oicw\scar_shot
+snd_empty				= weapons\oicw\empty
+snd_reload				= weapons\oicw\reload
+snd_shoot_grenade		= weapons\oicw\grenshoot
+snd_reload_grenade		= weapons\oicw\grenload
+snd_switch				= weapons\oicw\switch
+snd_gyro				= characters_voice\human_01\bandit\no_music\no_sound_1
+snd_zoomin				= weapons\arm_binoc\arm_binoculars_pnv_on
+snd_zoomout				= weapons\arm_binoc\arm_binoculars_pnv_off
+
+;params when silencer is attached 
+;similar to corresponding params without prefix silencer_
+
+;silencer_flame_particles 	= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+snd_silncer_shot	= weapons\oicw\aug_a3_silent, 0.5
+
+
+vision_present		= true
+vis_frame_speed		= 2			            
+vis_frame_color		= 0.7,0.7,0.7,1.0	    ;  RGBA 
+found_snd			= detectors\DA-2_beep1
+
+[wpn_oicw_cs_hud]
+
+shell_point          		= 0,0,-0.6
+shell_dir		 			= 0.0, 1.0, 0.0
+
+fire_point       	        = 0,0,-0.6
+fire_bone        	        = muzzle
+orientation             = 0, 0, 0
+position         	        = 0.15,-0.08,-0.0
+visual                  = dav\oicw\wpn_oicw_cs_hud.ogf
+
+grenade_bone            	= grenade
+
+; animation names
+
+anim_idle					= idle
+anim_idle_aim				= idle_aim
+anim_reload					= reload
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= shoot
+anim_idle_sprint			= idle_sprint
+
+
+anim_idle_g					= idle
+anim_idle_g_aim				= idle_aim
+anim_reload_g					= holster
+anim_shoot_g				= shoot
+anim_switch_grenade_on			= draw
+anim_switch_grenade_off			= draw
+anim_draw_g					= draw
+anim_holster_g				= holster
+
+			  
+anim_idle_gl					= idle
+anim_idle_gl_aim				= idle_aim
+anim_reload_gl					= reload
+anim_draw_gl					= draw
+anim_holster_gl				= holster
+anim_shoot_gl				= shoot
+
+
+;zoom_offset             = -0.136,0.043,-0.05	;  excluded duplicates sections aleks1970
+;zoom_rotate_x		= 0	;  excluded duplicates sections aleks1970
+;zoom_rotate_y		= 0.0	;  excluded duplicates sections aleks1970
+
+
+zoom_hide_crosshair	= true
+
+
+zoom_offset             = -0.149,0.043,-0.05
+zoom_rotate_x           = 0.0
+zoom_rotate_y           = 0.0
+
+
+grenade_zoom_offset			= 0,0,0
+grenade_zoom_rotate_x		= 0
+grenade_zoom_rotate_y		= 0
+
+grenade_normal_zoom_offset		= -0.15,0.043,-0.05
+grenade_normal_zoom_rotate_x	= 0
+grenade_normal_zoom_rotate_y	= 0
+
+[wpn_oicw_cs_repair]
+tech_complication = 1000
+repair_compatibility = oicw
+
+
+
+;==================================================================================================
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[wpn_bizon_cs]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn              	= "weapons\bizon"	; name and section in level editor
+$npc					= on				
+$prefetch 				= 8
+scheduled				= off               ;[] option for ALife Simulator
+cform               	= skeleton
+class               	= WP_LR300
+min_radius          	= 1			
+max_radius          	= 100
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0		       ; eye_range 
+holder_fov_modifier		= 0.7              ; eye_fov
+;-----------------------------------------------------------------------------------
+
+cost					= 14000
+weapon_class			= assault_rifle		
+	
+ammo_limit				= 210
+ammo_elapsed			= 64	
+	
+ammo_mag_size			= 64	
+fire_modes				= 1, 3, -1
+
+ammo_class				= ammo_9x19_fmj, ammo_9x19_pbp, ammo_9x19_super
+
+hand_dependence			= 1
+single_handed			= 0
+	
+slot 					= 1
+animation_slot			= 2  ;8
+
+description				= enc_wpn_wpn_bizon_dav_descr
+inv_name	        	= wpn_wpn_bizon_dav
+inv_name_short			= wpn_wpn_bizon_dav_s
+inv_weight			= 2.1
+
+inv_grid_width			= 5
+inv_grid_height			= 2
+inv_grid_x				= 60
+inv_grid_y				= 4
+
+kill_msg_x	= 0
+kill_msg_y	= 28
+kill_msg_width	= 84
+kill_msg_height	= 28
+
+;-----------------------------------------------------------------------------------
+;params of weapon recoil
+fire_dispersion_base			= 0.2		
+control_inertion_factor			= 1.25f
+
+
+cam_relax_speed         		= 8.5;3.5; 0.15		
+cam_dispersion          		= 0.15		
+cam_dispersion_inc			= 0.13		
+cam_dispertion_frac			= 0.39		;cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle				= 5.0	    	
+cam_max_angle_horz			= 8.0		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 0.5;1		;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor 	= 5	    	
+misfire_probability 		= 0.0003	 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.00007	
+;-----------------------------------------------------------------------------------
+
+fire_point             		=  0,0.235,0.434			; position (3rd person view) for particles of fire 
+
+flame_particles				= weapons\generic_weapon05
+smoke_particles				= weapons\generic_shoot_00
+
+shell_point		 			= 0,0.216,0.174
+shell_particles	 			= weapons\arsenal_shells1  ;shell_particles	 			= weapons\generic_shells	; 
+
+PDM_disp_base 				= 1.0
+PDM_disp_vel_factor 		= 1.3
+PDM_disp_accel_factor 		= 1.3
+PDM_crouch	 				= 1.0
+PDM_crouch_no_acc 			= 1.0
+
+; ttc
+hit_power                	=  0.66
+hit_impulse		 			= 54
+hit_type 					= fire_wound
+hit_rate	        = 1.85
+fire_distance            	= 420
+bullet_speed				= 480
+rpm                      	= 680
+
+use_aim_bullet				= true		
+time_to_aim					= 1.0	
+
+
+silencer_hit_power       	= 0.63
+silencer_hit_impulse	 	= 120
+silencer_fire_distance   	= 200
+silencer_bullet_speed	 	= 450
+
+hud                      	= wpn_bizon_cs_hud
+
+position         	        = -0.026,-0.172,0
+orientation      	        = 0,0,0	
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.16,-0.40,0.15
+strap_orientation      		= -10,-5,10
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+visual         		        = dav\bizon\wpn_bizon_cs.ogf
+
+light_color					= 0.6,0.5,0.3
+light_range					= 5		
+light_var_color				= 0.05						
+light_var_range				= 0.5
+light_time 					= 0.2						
+ph_mass						= 5
+
+;addons
+scope_status				= 2
+silencer_status				= 1
+grenade_launcher_status		= 0
+
+zoom_enabled				= true						; (on,off)zoom mode (right mouse button)
+scope_zoom_factor	    	= 50						; fov for zoom mode
+
+scope_name 					= wpn_tulip_cs_scope			; section name for the attachable scope
+scope_x 					= 132						; offset in inventory icon
+scope_y 					= -5
+silencer_name  				= wpn_addon_sil_9_p		; section name for the attachable silencer
+silencer_x 					= 205						; offset in inventory icon
+silencer_y 					= 16					
+
+;sounds (name of the sound, volume (0.0 - 1.0), delay (sec))
+
+snd_draw					= weapons-new\bizon\draw, 0.5
+snd_holster					= weapons\generic_holster, 0.3
+snd_shoot					= weapons-new\bizon\shoot	
+snd_empty					= weapons\gen_empty, 0.5
+snd_reload					= weapons-new\bizon\reload, 0.4
+snd_silncer_shot			      	= weapons-new\bizon\bizon_sil_shot
+
+silencer_flame_particles 	= weapons\generic_weapon01	;aleks1970
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+
+;-----------------------------------------------------------------------------
+;-- HUD DESCRIPTION
+;-----------------------------------------------------------------------------
+[wpn_bizon_cs_hud]
+allow_inertion				= true
+
+shell_point     	   	 	= 0.04,0,-0.7
+shell_dir			     	= 0.0, 1.0, 0.0
+
+fire_point					= 0,-0.015,-0.6
+
+fire_bone               	= muzzle
+
+orientation             	= 0, 1, 0 
+position                	= 0.1,-0.04,-0.01
+
+visual                  	= dav\bizon\wpn_bizon_cs_hud.ogf
+
+anim_idle           = idle
+anim_idle_aim       = idle_aim
+anim_reload         = reload
+anim_draw           = draw
+anim_holster        = holster
+anim_shoot          = shoot
+anim_idle_sprint    = idle_sprint
+
+
+zoom_offset			= -0.10,0.023,-0.1
+zoom_rotate_x		= 0 
+zoom_rotate_y		= 0
+zoom_hide_crosshair	= true
+
+fire_dispersion_condition_factor 	= 1	    	
+misfire_probability 				= 0.000003	
+misfire_condition_k					= 0.0005
+condition_shot_dec 					= 0.0000007	
+
+;----------------------------------------------------------------------------
+;----------------------------------------------------------------------------
+
+[wpn_bizon_cs_kol]:wpn_bizon_cs	;;;;wpn_bizon ;109998, aleks1970
+
+ammo_mag_size				= 60
+ammo_class					= ammo_9x19_fmj, ammo_9x19_pbp, ammo_9x19_super
+
+inv_grid_width				= 5
+inv_grid_height				= 2
+inv_grid_x					= 60
+inv_grid_y					= 4
+
+inv_name	        		= wpn_wpn_bizon_kol_dav
+inv_name_short				= wpn_wpn_bizon_kol_dav_s
+inv_weight					= 2.78 
+description					= enc_wpn_wpn_bizon_kol_dav_descr
+
+fire_modes					= 1, 3, 5
+
+cost						= 18500			;109998
+hit_power                	=  2	;0.65
+hit_impulse					= 80	;50	
+fire_distance            	 = 200	;120
+bullet_speed				 = 380	;480
+rpm                      	= 1500	;750
+hud                      	= wpn_bizon_cs_kol_hud
+visual                  	= dav\bizon\wpn_bizon_cs_kol.ogf
+
+;scope_status				= 0	;109998, aleks1970
+silencer_status				= 1
+
+snd_shoot					=weapons\bizon\bizon_shot_sil
+
+[wpn_bizon_cs_kol_hud]:wpn_bizon_hud
+shell_point     	   	 	= 0.04,0,-0.7
+shell_dir			     	= 0.0, 1.0, 0.0
+fire_point					= 0,-0.015,-0.6
+fire_bone               	= muzzle
+orientation             	= 0, 1, 0 
+position                	= 0.1,-0.04,-0.01
+visual                  	= dav\bizon\wpn_bizon_cs_kol_hud.ogf
+zoom_offset					= -0.1005,0.002,-0.1 
+zoom_rotate_x				= -0.0
+zoom_rotate_y				= 0.00025
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	WEAPON ADDON
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[wpn_tulip_cs_scope]:identity_immunities
+GroupControlSection			= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn						= "weapons\addons\scope" ; option for Level Editor
+class						= WP_SCOPE
+cform           			= skeleton
+visual          			= dav\upgrades\upg_1p29.ogf		;aleks1970
+$prefetch 					= 32
+description					= desc_tulip_cs_scope
+cost						= 200
+
+holder_range_modifier		= 1.2
+holder_fov_modifier			= 0.3
+
+inv_name					= tulip_cs_scope
+inv_name_short				= tulip_cs_scope_s
+inv_weight					= .8
+
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 54
+inv_grid_y					= 29
+scope_texture				= wpn\wpn_crosshair_1p21
+scope_zoom_factor			= 20		
+
+
+;=============================================================================================================================
+;=============================================================================================================================
+
+;;;;;;;;;;;;;Ironsighted SBR;;;;;;;;;;;;;;;; 
+[wpn_sbr_cs]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn                   	= "weapons\sbr"					; option for Level Editor
+$npc			 	= on				; option for Level Editor
+$prefetch 		 	= 8
+scheduled                	= off              ; option for ALife Simulator
+cform                    	= skeleton
+class                    	= WP_AK74
+min_radius               	= 0
+max_radius               	= 50
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier		= 1.0		       ; eye_range 
+holder_fov_modifier		= 0.7              ; eye_fov
+;-----------------------------------------------------------------------------------
+
+cost				= 6800
+weapon_class			= assault_rifle
+
+ammo_limit		 	= 210
+ammo_current		 	= 30
+ammo_elapsed		 	= 30
+
+ammo_mag_size		 	= 30
+ammo_class		 	= ammo_5.56x45_ss190, ammo_5.56x45_ap
+grenade_class			= ammo_m209
+fire_modes			= 1, 3, -1
+launch_speed = 0
+
+hand_dependence		 	= 1
+single_handed			= 0
+
+description			= desc_dav_sbr_cs_descr
+inv_name			= dav_sbr_cs
+inv_name_short			= dav_sbr_cs_s
+inv_weight			= 2.7
+
+inv_grid_width			= 5
+inv_grid_height			= 2
+inv_grid_x			= 60
+inv_grid_y			= 10
+
+kill_msg_x			= 175
+kill_msg_y			= 0
+kill_msg_width			= 82
+kill_msg_height			= 28
+
+slot 			 	= 1		; // secondary
+animation_slot			= 2		; type of the animation that will be used
+
+;-----------------------------------------------------------------------------------
+
+fire_dispersion_base			= 0.15 	
+control_inertion_factor			= 1.2f
+
+cam_relax_speed        			= 12.5;0.15	
+cam_dispersion         			= 0.15	
+cam_dispersion_inc				= 0.15	
+cam_dispertion_frac				= 0.5	;cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle					= 6	
+cam_max_angle_horz				= 5.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz				= 0.35;0.4	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	
+misfire_probability 			= 0.00075 
+misfire_condition_k				= 0.05 
+condition_shot_dec 				= 0.000045 
+;-----------------------------------------------------------------------------------
+
+direction                	= 0, 0, 1
+
+fire_point               	= 0.0, 0.2285, 0.431
+
+flame_particles				= weapons\generic_weapon05
+smoke_particles         	= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
+
+shell_point		 			= 0.0, 0.212, 0.081
+shell_dir		 			= 0.0, 1.0, 0.0
+shell_particles	 			= weapons\arsenal_shells1
+
+rpm_empty_click 	 		= 200
+
+PDM_disp_base 				= 1.0
+PDM_disp_vel_factor 		= 1.2
+PDM_disp_accel_factor 		= 1.2
+PDM_crouch	 				= 1.0
+PDM_crouch_no_acc 			= 1.0
+
+; ttc
+hit_power        			= 0.74
+hit_impulse		 			= 54
+hit_type 					= fire_wound
+
+fire_distance            	= 280
+bullet_speed				= 930	
+rpm                      	= 750
+; end ttc	
+
+use_aim_bullet				= true		
+time_to_aim					= 1.0	
+
+hud                      	= wpn_sbr_cs_hud
+normal                   	= 0, 1, 0
+position                 	= -0.0240, -0.150, -0.025
+orientation              	= 1.5, -9.0, 0.0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.15,-0.37,0.2			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -10,-5,10					; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+startup_ammo             	= 1000
+visual                   	= dav\sbr\sbr_cs.ogf
+
+light_color		 			= 0.6,0.5,0.3
+light_range		 			= 5
+light_var_color		 		= 0.05
+light_var_range		 		= 0.1
+light_time 		 			= 0.2
+
+ph_mass			 			= 3
+;cost			 			= 2500
+
+;addons
+scope_status				= 2
+silencer_status				= 2
+grenade_launcher_status		= 0
+
+zoom_enabled				= true
+scope_zoom_factor	    	= 50
+;scope_texture				= Arsenal_Mod\crosshairs\scope_acog
+
+scope_name 					= wpn_addon_acog
+scope_x 					= 60
+scope_y 					= -12
+
+silencer_name  				= wpn_addon_sil_556_ar
+silencer_x 					= 188
+silencer_y 					= 8
+
+grenade_launcher_name 		      = wpn_addon_grenade_launcher_m203
+grenade_launcher_x 			= 128
+grenade_launcher_y 			= 28
+
+snd_draw					= weapons\sbr\draw
+snd_holster					= weapons\generic_holster
+snd_shoot					= weapons\sbr\sbr_shoot
+snd_empty					= weapons\sbr\empty, 0.5
+snd_reload					= weapons\sbr\sbr_reload, 0.6, 0.4
+snd_shoot_grenade			= weapons\gen_grenshoot
+snd_reload_grenade			= weapons\gen_grenload, 1.0, 0.8
+snd_switch					= weapons\groza_switch, 1.0, 0.5
+
+
+silencer_hit_power       	= 0.7
+silencer_hit_impulse	 	= 48
+silencer_fire_distance   	= 220
+silencer_bullet_speed	 	= 850
+
+;silencer_flame_particles 	= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+snd_silncer_shot			= weapons\sbr\sbr_shoot_sil 
+
+silencer_light_color		= 0.58
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+
+[wpn_sbr_cs_hud]
+
+shell_point          		= 0.05, -0.031, -0.1535
+shell_dir		 			= 0.0, 1.0, 0.0
+
+fire_point       	        = 0.0005,-0.0138,-0.0025
+fire_bone        	        = wpn_body
+orientation      	        = 0, 0, 0
+position         	        = 0.12,-0.027,0.07
+visual           	        = dav\sbr\wpn_sbr_cs_hud.ogf
+
+grenade_bone            	= wpn_grenade
+
+anim_idle					= idle
+anim_idle_aim				= idle_aim
+anim_reload					= reload
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= shoot
+anim_idle_sprint			= idle_sprint
+
+; attached grenade launcher [NORMAL fire mode]
+anim_idle_gl				= idle_w_gl
+anim_idle_gl_aim			= idle_w_gl_aim
+anim_reload_gl				= reload_w_gl
+anim_draw_gl				= draw_w_gl
+anim_holster_gl				= holster_w_gl
+anim_shoot_gl				= shoot_w_gl
+;anim_idle_sprint			= idle_sprint	;  excluded duplicates sections aleks1970
+
+anim_idle_g					= idle_grenade
+anim_idle_g_aim				= idle_grenade_aim
+anim_reload_g				= reload_grenade
+anim_shoot_g				= shoot_grenade ;idle_grenade 
+anim_switch_grenade_on		= switch_on
+anim_switch_grenade_off		= switch_off
+anim_draw_g					= draw_grenade
+anim_holster_g				= holster_grenade
+
+zoom_offset					= -0.1206,0.02105,-0.16
+zoom_rotate_x				= -0.0142
+zoom_rotate_y				= -0.002
+
+
+zoom_hide_crosshair			= true
+
+grenade_zoom_offset			= -0.155700,-0.185800,0.000000
+grenade_zoom_rotate_x		= -0.188400
+grenade_zoom_rotate_y		= 0.035500
+
+grenade_normal_zoom_offset		= -0.1206,0.02105,-0.16
+grenade_normal_zoom_rotate_x	= -0.0142
+grenade_normal_zoom_rotate_y	= -0.002
+
+;=============================================================================================================================
+;=============================================================================================================================
+
+[wpn_vihlop_cs]:wpn_fn2000
+GroupControlSection			= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 						= "weapons\fn-2000_snip"		; option for Level Editor
+$npc						= on			; option for Level Editor
+$prefetch 					= 8
+scheduled 					= off 			; option for ALife Simulator
+cform 						= skeleton
+class 						= WP_BINOC
+min_radius 					= 5
+max_radius 					= 200
+ef_main_weapon_type			= 3
+ef_weapon_type				= 8
+
+;--- scope weapons -----------------------------------------------------------------
+holder_range_modifier		= 2.15               ; eye_range 
+holder_fov_modifier			= 0.3              ; eye_fov
+;-----------------------------------------------------------------------------------
+
+cost						= 75000
+weapon_class				= WP_BINOC		
+
+ammo_limit					= 60
+ammo_current				= 60
+ammo_elapsed				= 10
+ammo_mag_size				= 10
+ammo_class					= ammo_12.7x108, ammo_130vps
+
+fire_modes					= 1
+hand_dependence 			= 2
+single_handed				= 0
+slot 						= 2			; secondary
+animation_slot				= 2			; type of the animation that will be used
+
+description					= desc_vihlop_cs
+inv_name					= vihlop_cs
+inv_name_short				= vihlop_cs_s
+inv_weight					= 7
+
+inv_grid_width     			= 6
+inv_grid_height    			= 2
+inv_grid_x         			= 59
+inv_grid_y         			= 12
+
+auto_spawn_ammo				= false
+
+sprint_allowed				= true
+
+;-----------------------------------------------------------------------------------
+
+;dispersion_start			= 0
+fire_dispersion_base		= 0.000229 		
+control_inertion_factor		= 1.6f
+
+cam_relax_speed 			= 4.25			
+cam_relax_speed_ai 			= 120.75		
+cam_dispersion 				= 0.3			
+cam_dispersion_inc			= 0.1			; cam_dispersion
+cam_dispertion_frac			= 1.0			;cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle				= 2.0			
+cam_max_angle_horz			= 1.0			; (degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 1.8			; (degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor= 5			
+misfire_probability 		= 0.0006			
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.00001	 	
+;-----------------------------------------------------------------------------------
+
+direction 					= 0, 0, 1
+fire_point              	= 0.0, 0.2, 0.551 		;fire_point 			
+fire_point2             	= 0.0, 0.128, 0.522 	;fire_point2 			
+
+smoke_particles		 		= weapons\generic_shoot_00
+
+shell_point		 			= 0.0, 0.19, 0.1785 	;shell_point		 
+shell_dir		 			= 0.0, 0.0, 0.4
+;shell_particles	 		= weapons\generic_shells
+
+PDM_disp_base 				= 1.0
+PDM_disp_vel_factor 		= 1.7
+PDM_disp_accel_factor 		= 1.8
+PDM_crouch	 				= 0.9
+PDM_crouch_no_acc 			= 0.8
+
+; ttc
+hit_power           		= 1.8
+hit_impulse		 			= 110
+hit_type 					= fire_wound
+hit_rate					= 2.0
+
+fire_distance           	= 1000
+bullet_speed		 		= 1500
+rpm                     	= 1200
+; end ttc
+
+use_aim_bullet				= true			
+time_to_aim					= 1.0	
+
+hud 						= wpn_vihlop_cs_hud
+normal 						= 0, 1, 0
+position 					= -0.0246, -0.164, 0.0
+orientation 				= 0, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position 				= -0.26,-0.11,0.25	; position (offset) and orientation of the weapon when it is strapped
+strap_orientation 			= -15,-9,110		; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+visual 						= dav\vihlop\wpn_vihlop_cs_new.ogf
+
+light_disabled				= true
+ph_mass			 			= 5
+
+;addons
+scope_status				= 1
+silencer_status				= 2
+grenade_launcher_status		= 0
+
+zoom_enabled				= true
+scope_zoom_factor			= 10		
+scope_texture				= wpn\wpn_crosshair_fn2000-comp		
+
+silencer_name  				= wpn_addon_sil_762_ar
+silencer_x                  = 220		; offset in inventory icon
+silencer_y                  = 9
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+snd_gyro					= characters_voice\human_01\bandit\no_music\no_sound_1
+snd_zoomin					= weapons\arm_binoc\arm_binoculars_pnv_on
+snd_zoomout					= weapons\arm_binoc\arm_binoculars_pnv_off
+snd_draw					= weapons\vintorez\vintorez_draw
+snd_holster					= weapons\rifle_holster
+snd_shoot					= weapons\silshot\45cal-2	;weapons\groza_shoot_silence 
+snd_shoot1					= weapons\silshot\45cal-2  
+snd_shoot2					= weapons\silshot\45cal-2  
+snd_shoot3					= weapons\silshot\45cal-2   
+snd_empty					= weapons\ak_empty, 0.5
+snd_reload					= weapons\vintorez\vintorez_reload, 1.0, 1.5
+snd_close					= weapons\generic_close
+snd_silncer_shot			= weapons\fn2000\fn2000_shot_sil
+;------------------------------------------------------------------------------------------
+
+;silencer_flame_particles 	= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+silencer_hit_power 			=  1.6
+silencer_hit_impulse	 	= 90
+silencer_fire_distance 		= 840
+silencer_bullet_speed	 	= 1150
+
+silencer_light_color		= 0.6, 0.5, 0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+hit_probability_gd_novice	= 0.80			      
+hit_probability_gd_stalker	= 0.85			
+hit_probability_gd_veteran	= 0.90			 
+hit_probability_gd_master	= 0.95			         
+
+
+vision_present				= true
+vis_frame_speed				= 2			            
+vis_frame_color				= 0.7,0.7,0.7,1.0	    ; RGBA 
+found_snd					= detectors\DA-2_beep1
+
+;-----------------------------------------------------------------------------
+;-- HUD DESCRIPTION
+;-----------------------------------------------------------------------------
+[wpn_vihlop_cs_hud]
+
+allow_inertion				= true
+
+shell_point			        = -0.140000,-0.030000,-0.0800 		;shell_point 			
+shell_dir		 			= 0.0, 1.0, 0.0
+
+fire_point				    = -0.063,0.0,0.0 					;fire_point			
+fire_bone 					= wpn_body
+orientation 				= 0, 0, 0
+position 					= 0, 0, 0
+visual 						= dav\vihlop\wpn_vihlop_cs_new_hud.ogf
+
+anim_holster				= holster
+anim_idle					= idle
+anim_idle_aim				= idle
+anim_reload					= reload
+anim_draw					= draw
+anim_shoot					= shoot
+anim_idle_sprint			= idle_sprint
+
+;-----------------------------------------------------------------------------
+
+zoom_offset			        = -0.115,0.06499,-0.363 	;zoom_offset			
+zoom_rotate_x		        = 0.01732 					;zoom_rotate_x			
+zoom_rotate_y		        = 0.0 						;zoom_rotate_y			
+
+;-----------------------------------------------------------------------------
+zoom_hide_crosshair			= true
+
+zoom_rotate_time			= 0.5
+rotate_time					= 0.5
+
+[wpn_vihlop_cs_repair]
+tech_complication = 800
+repair_compatibility = vihlop
+
+
+;=============================================================================================================================
+;=============================================================================================================================
+
+
+;--dAVROs laser-----------------------------------------------------------------
+
+
+;NOT USED ---- yet, displays beam aiming north only, 109982
+[wpn_laser]:wpn_ognemet			
+
+ammo_limit					= 50000
+ammo_current				= 50000
+ammo_mag_size				= 50000
+
+ammo_class					= ammo_laser
+
+description					= enc_wpn_laser_dav_descr
+inv_name					= wpn_laser_dav
+inv_name_short				= wpn_laser_dav_s
+
+inv_grid_width				= 5
+inv_grid_height				= 2
+inv_grid_x					= 15	;40 - aleks1970
+inv_grid_y					= 57	;50
+
+hit_power               	= 250
+hit_impulse					= 240
+hit_type 					= burn
+hit_rate	        		= 1.85
+
+flame_particles         	= weapons\generic_weapon05
+smoke_particles	 			= weapons\generic_weapon07
+
+;-----------------------------------------------------------------------------------
+;базовая дисперсия
+fire_dispersion_base		= 0.001	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor		= 1.05f
+
+;отдача
+cam_relax_speed         	= 0.001	;скорость возврата в исходное положение
+cam_dispersion          	= 0.003	;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc			= 0.0012	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac			= 0.0075	;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle				= 0.001	;максимальный угол отдачи
+cam_max_angle_horz			= 0.001	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 0.001	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.0001	;вероятность осечки при максимальном износе 
+misfire_condition_k			= 0.0001
+condition_shot_dec 			= 0.00001 ;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+
+
+
+
+
+
+explosive					= off
+tracer						= on
+tracer_color_ID				= 1
+fire_distance           	= 1000
+bullet_speed				= 1000	;начальная скорость пули
+rpm                     	= 10000
+
+
+light_color					= 0.6,0.5,0.3		
+light_range					= 1	;5					
+light_var_color				= 0.05						
+light_var_range				= 0.5
+light_time 					= 0.01	
+
+hud                     	= wpn_laser_hud
+visual                  	= dav\gauss\wpn_laser.ogf
+ 
+ 
+[wpn_laser_hud]
+visual                  	= dav\gauss\wpn_laser_hud.ogf
+position                	= 0.15,-0.06,-0.05
+fire_point					= 0,0,-0.8
+fire_bone               	= wpn_body
+orientation             	= 0, 0, 0
+
+shell_point					= 0,0,-0.6
+zoom_offset					= -0.15,0.06,-0.3
+zoom_rotate_x				= -0
+zoom_rotate_y				= -0
+anim_holster				= holster
+anim_idle					= idle
+anim_idle_aim				= idle
+anim_reload					= reload
+anim_draw					= draw
+anim_shoot					= shoot
+
+
+[ammo_laser]:ammo_9x18_pmm
+inv_weight					= 0.001
+
+hit_type 					= burn
+
+k_dist						= 2.5
+k_disp						= 0.2
+k_hit						= 0.6
+k_impulse					= 0.2 
+k_pierce					= 1.25
+impair						= 1.2
+
+tracer						= on
+wm_size         			= 0.001
+
+
+
+
+
+
+
+
+
+
+
+;=================================================================================================
+
+; Гладкоствольное ружье (автоматический карабин) AA-12 
+;--------------------------------------
+[wpn_aa12_cs]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                  	= "weapons\aa12"					; option for Level Editor
+$npc			 			= on				; option for Level Editor
+$prefetch 		 			= 8
+scheduled              		= off              ; option for ALife Simulator
+cform                   	= skeleton
+class                   	= WP_LR300
+min_radius              	= 1
+max_radius              	= 40
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier		= 0.9
+holder_fov_modifier		= 1.3
+;-----------------------------------------------------------------------------------
+
+weapon_class			= shotgun
+
+cost				= 34000
+
+ammo_elapsed			= 7
+ammo_mag_size		 	= 20
+ammo_class		 	= ammo_12x70_buck, ammo_12x70_kart, ammo_12x76_zhekan, ammo_12x76_dart, ammo_zhekan_izomorf, ammo_xrep1, ammo_xrep2, ammo_xrep3
+fire_modes			= 1, -1
+
+
+grenade_class			= ammo_vog-25, ammo_vog-25p
+launch_speed			= 0
+
+hand_dependence		 	= 1
+single_handed			= 0
+
+description				= desc_aa12_cs_descr
+inv_name				= desc_aa12_cs
+inv_name_short			= desc_aa12_cs_s
+inv_weight				= 5.2
+
+inv_grid_width     		= 5
+inv_grid_height    		= 2
+inv_grid_x         		= 60
+inv_grid_y         		= 6
+
+kill_msg_x			= 72
+kill_msg_y			= 82
+kill_msg_width			= 56
+kill_msg_height			= 23
+
+slot 				= 2		; // secondary
+animation_slot			= 2		; type of the animation that will be used
+
+;-----------------------------------------------------------------------------------
+;params of weapon recoil
+fire_dispersion_base		= 0.05		;0.22		;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor		= 1.25f
+
+;отдача
+cam_relax_speed         	= 8.5		;скорость возврата в исходное положение
+cam_relax_speed_ai         	= 120.75
+cam_dispersion          	= 0.3		;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 0.3		;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 0.9		;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle			= 6.0	    	;максимальный угол отдачи
+cam_max_angle_horz		= 8.0		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 0.67;1		;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor 	= 6		;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 	= 0.0005	;вероятность осечки при максимальном износе 
+misfire_condition_k		= 0.05
+condition_shot_dec 		= 0.000025	;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+
+direction               = 0, 0, 1
+
+fire_point             	=  0,0.2315,0.4637
+flame_particles			= weapons\generic_weapon05
+shell_particles	 		= weapons\arsenal_shells1
+smoke_particles			= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
+
+shell_point		 		= 0,0.236,0.064
+shell_dir		 		= 0.0, 1.0, 0.0
+
+rpm_empty_click 	 	= 200
+
+PDM_disp_base 			= 2.25
+PDM_disp_vel_factor 		= 0.8
+PDM_disp_accel_factor 		= 0.8
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+hit_power                	= 3			;0.74		; size of damage by bullet
+hit_impulse		 			= 90		;80		; size of physic impulse by bullet	
+hit_type 					= fire_wound 	; [] type of the wound
+fire_distance            	= 150		;100		; maximum fire distance that bullet can fly
+bullet_speed				= 650		;350		; starting bullet speed
+rpm                      	= 500		;300		; max round per minute
+
+use_aim_bullet			= true		;Поддерживается ли первая суппер пуля
+time_to_aim					= 0.5
+
+silencer_hit_power       	= 2.7		;0.7
+silencer_hit_impulse	 	= 80		;67
+silencer_fire_distance   	= 140		;90
+silencer_bullet_speed	 	= 450		;280
+
+hud                     	= wpn_aa12_cs_hud
+normal                  	= 0, 1, 0
+position         	    	= -0.026,-0.169,0.0068
+orientation             	= 0, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.16,-0.36,0.15			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -10,-5,10					; (3rd person view in degrees)
+strap_bone0			= bip01_spine2
+strap_bone1			= bip01_spine1
+
+visual                  	=  dav\aa12\wpn_aa12_cs.ogf
+
+light_color		 	= 0.6,0.5,0.3
+light_range		 	= 5
+light_var_color		 	= 0.05
+light_var_range		 	= 0.1
+light_time 		 		= 0.2
+
+;addons
+scope_status			= 1
+silencer_status			= 1
+grenade_launcher_status		= 0
+
+scope_name 					= wpn_addon_scope 		; section name for the attachable scope
+scope_x 					= 64						; offset in inventory icon
+scope_y 					= -11
+
+silencer_name  				= wpn_addon_silencer
+silencer_x 					= 194
+silencer_y 					= 8
+
+grenade_launcher_name 		= wpn_addon_grenade_launcher 
+grenade_launcher_x 			= 85						; offset in inventory icon
+grenade_launcher_y 			= -1
+
+;silencer_flame_particles 	= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+silencer_light_color		= 1.0, 0.1, 0.0
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+zoom_enabled		= true
+scope_zoom_factor  	= 20
+scope_texture		= swmt\aa12\elcano
+
+;------------------------------ O.G.S.E. sound remake ------------------------
+snd_draw					= weapons\generic_draw
+snd_holster					= weapons\generic_holster
+snd_shoot					= weapons\aa12\aa12_shoot
+snd_empty					= weapons\gen_empty, 0.5
+snd_reload					= weapons\aa12\aa12_reload, 0.7
+;-----------------------------------------------------------------------------
+;-- HUD DESCRIPTION
+;----------------------------------------------------------------------------- 
+[wpn_aa12_cs_hud]
+shell_point		 			= 0,0,-0.6
+shell_dir				 	= 0.0, 0.0, 0.0
+
+fire_point			= -0.0075,0.02500,0.0085
+fire_bone                	= wpn_body
+orientation              	= 3, 2, 0
+position             	   	= 0.125,-0.0375,0.0385
+visual                  	= dav\aa12\wpn_aa12_cs_hud.ogf
+
+anim_idle					= idle
+anim_idle_aim				= idle
+anim_reload					= reload
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= shoot
+anim_idle_sprint			      = idle_sprint
+
+zoom_hide_crosshair			= true
+zoom_rotate_time		= 0.30
+zoom_offset			= -0.114910,0.048000,-0.099100
+zoom_rotate_x		= 0.049776
+zoom_rotate_y		= 0.028300
+
+ 
+;=================================================================================================
+
+;NOT USED
+[wpn_colt_m4_cs]:identity_immunities
+GroupControlSection     = spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn                  = "weapons\colt_m4"               ; option for Level Editor
+$npc                     	= on
+$prefetch 		         	= 8
+scheduled                	= off
+cform                    	= skeleton
+class                    	= WP_LR300
+min_radius               	= 0
+max_radius               	= 100
+
+inv_name 					= colt_m4_cs
+inv_name_short 				= colt_m4_cs_s
+description 				= desc_colt_m4_cs_descr 
+
+upg = nil
+upg_last = nil
+
+cost						= 18300
+weapon_class                = assault_rifle
+inv_weight					= 3.0
+
+visual                   	= dav\colt_m4\wpn_m4_cs.ogf
+
+ef_main_weapon_type			= 2
+ef_weapon_type				= 6
+
+holder_range_modifier		= 1
+holder_fov_modifier			= 1
+
+hand_dependence		    	= 1
+single_handed				= 0
+
+sprint_allowed				= true
+
+slot 			         	= 2
+animation_slot			 	= 8
+
+inv_grid_width				= 5
+inv_grid_height				= 2
+inv_grid_x					= 52
+inv_grid_y					= 17
+
+kill_msg_x					= 0
+kill_msg_y					= 28
+kill_msg_width				= 84
+kill_msg_height				= 28
+
+ammo_limit		         	= 210
+ammo_current		     	= 90
+ammo_elapsed		     	= 30
+
+ph_mass						= 5
+
+
+;-----Ballistics, Handling & Accuracy-----;
+hit_power                	= 0.78
+hit_impulse		        	= 70
+hit_type 				= fire_wound
+fire_distance            	= 280
+bullet_speed			= 905
+rpm                      	= 750
+
+silencer_hit_power       	= 0.73
+silencer_hit_impulse	 	= 62
+silencer_fire_distance   	= 230
+silencer_bullet_speed	 	= 875
+
+ammo_mag_size				= 30
+fire_modes					= 1, -1
+
+ammo_class		 		= ammo_5.56x45_ap, ammo_5.56x45_ss190 
+	
+tri_state_reload			= off
+
+control_inertion_factor		= 1.05f
+
+fire_dispersion_base		= 0.12
+handling_factor				= 1.00
+use_aim_bullet				= true
+time_to_aim					= 0.50
+
+PDM_disp_base 				= 2.00
+PDM_disp_vel_factor 		= 0.75
+PDM_disp_accel_factor 		= 1.75
+PDM_crouch	 				= 0.50
+PDM_crouch_no_acc 			= 0.50
+
+cam_relax_speed        	 	= 8.5
+cam_relax_speed_ai      	= 360
+cam_dispersion         	 	= 0.15
+cam_step_angle_horz			= 0.35
+cam_dispersion_inc			= 0.15
+cam_dispertion_frac			= 0.39
+cam_max_angle				= 6.0
+cam_max_angle_horz			= 8.0
+
+fire_dispersion_condition_factor 	= 2.000
+misfire_probability 				= 0.0005
+misfire_condition_k					= 0.15
+condition_shot_dec 					= 0.000045
+
+
+;-----Sights & Attachments-----;
+;--Scope & Sight--
+zoom_enabled				= true
+scope_status				= 1
+;--Silencer--
+silencer_status				= 2
+;--Grenade Launcher--
+grenade_launcher_status		= 0
+scope_zoom_factor	 	= 15
+scope_texture		= wpn\anti_terror_scope.dds
+
+scope_name 					= wpn_addon_acog
+scope_x 					= 86
+scope_y 					= -5
+
+silencer_name  				= wpn_addon_sil_556_ar
+silencer_x 					= 212
+silencer_y 					= 14
+
+grenade_launcher_name 		      = wpn_addon_grenade_launcher_m203
+grenade_launcher_x 			= 128
+grenade_launcher_y 			= 28
+
+;-----Sounds, Particles, Muzzleflash & Miscellaneous-----;
+
+snd_draw			= weapons\generic_draw, 0.5
+snd_holster			= weapons\generic_holster, 0.5
+snd_shoot			= weapons\Colt_M4\M4_shoot
+snd_empty			= weapons\gen_empty, 0.5
+snd_reload			= weapons\Colt_M4\M4_reload
+snd_silncer_shot	      = weapons\Colt_M4\M4_shoot_sil
+
+
+rpm_empty_click 	 		= 200
+
+light_disabled				= false
+
+light_color					= 1.0,1.0,0.4
+light_range					= 1.0
+light_var_color				= 0.0
+light_var_range				= 0.5
+light_time 					= 0.1
+
+silencer_light_color		= 0.0,0.0,0.0
+silencer_light_range		= 0.00
+silencer_light_var_color	= 0.00
+silencer_light_var_range	= 0.0
+silencer_light_time 		= 0.0
+
+flame_particles				= weapons\generic_weapon05
+smoke_particles				= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+shell_point = 0,0.235,0.084
+shell_dir = 0.0, 1.0, 0.0
+shell_particles	 		= weapons\arsenal_shells1
+
+hud                      	= wpn_colt_m4_cs_hud
+normal                   	= 0, 1, 0
+position                 	= -0.026, -0.130, 0.0
+orientation              	= 0.0, 0.0, 0.0
+
+direction = 0, 0, 1
+
+fire_point = 0,0.192,0.669
+
+weapon_remove_time			= 1000
+
+strap_position         		= -0.16,-0.36,0.15
+strap_orientation      		= -10,-5,10
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+[wpn_colt_m4_cs_hud]
+shell_point = 0.019,-0.036,-0.873
+shell_dir = 0.0, 0.0, 0.0
+
+fire_point = 0,0.004,-0.52
+fire_point2             	= 0,0,-0.6
+fire_bone                	= muzzle
+grenade_bone            	= wpn_grenade
+orientation              	= 0, 0, 0
+position                	= 0.15,-0.06,-0.0
+visual                   	= dav\colt_m4\wpn_m4_cs_hud.ogf
+
+anim_idle					= idle
+anim_idle_aim				= idle_aim
+anim_reload					= reload
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= shoot
+anim_idle_sprint			= idle_sprint
+
+
+zoom_hide_crosshair			= true
+zoom_rotate_time = 0.30
+zoom_offset = -0.1454,0.05,-0.05
+zoom_rotate_x = 0.043
+zoom_rotate_y = -0.0021
+
+
+
+
+; dAVROs misc items
+;=================================================================================================
+
+
+;Handheld teleport devices
+
+[dav_htd_rft]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn 				= "devices\arhara_items\arhara_obman"
+class				= II_ANTIR	;II_ATTCH
+cform				= skeleton
+visual				= dav\equipments\item_htd_rft.ogf
+radius				= 1
+quest_item			= false
+
+description			= desc_htd_rft
+
+inv_name			= htd_rft
+inv_name_short			= htd_rft_s
+inv_weight			= 0.05
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x			= 66
+inv_grid_y			= 3
+cost				= 42000
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+eat_alcohol = 0.3
+animation_slot			= 4
+hud = wpn_vodka_hud
+
+
+[dav_htd_npp]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn 				= "devices\arhara_items\arhara_obman"
+class				= II_ANTIR	;II_ATTCH
+cform				= skeleton
+visual				= dav\equipments\item_htd_npp.ogf
+radius				= 1
+quest_item			= false
+
+description			= desc_htd_npp
+
+inv_name			= htd_npp
+inv_name_short			= htd_npp_s
+inv_weight			= 0.05
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x			= 65
+inv_grid_y			= 3
+cost				= 45000
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+eat_alcohol = 0.3
+animation_slot			= 4
+hud = wpn_vodka_hud
+
+
+[dav_htd_lmk]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn 				= "devices\arhara_items\arhara_obman"
+class				= II_ANTIR	;II_ATTCH
+cform				= skeleton
+visual				= dav\equipments\item_htd_lmk.ogf
+radius				= 1
+quest_item			= false
+
+description			= desc_htd_lmk
+
+inv_name			= htd_lmk
+inv_name_short			= htd_lmk_s
+inv_weight			= 0.05
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x			= 64
+inv_grid_y			= 3
+cost				= 39000
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+eat_alcohol = 0.3
+animation_slot			= 4
+hud = wpn_vodka_hud
+
+
+
+[dav_z5]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn 				= "devices\arhara_items\arhara_obman"
+class				= II_ANTIR	;II_ATTCH
+cform				= skeleton
+visual				= dav\equipments\item_htd_lmk.ogf
+radius				= 1
+quest_item			= false
+
+description			= desc_htd_z_lmk
+
+inv_name			= htd_lmk_z
+inv_name_short			= htd_lmk_z_s
+inv_weight			= 0.05
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x			= 64
+inv_grid_y			= 3
+cost				= 39000
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+eat_alcohol = 0.3
+animation_slot			= 4
+hud = wpn_vodka_hud
+
+
+
+;==================================================================================================
+
+; Document with photos
+
+
+
+[dav_cspics1]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn 				= "devices\arhara_items\neizv_zapiska"
+;$prefetch 			= 32
+class				= II_ATTCH
+cform				= skeleton
+visual				= dav\equipments\item_cspics1.ogf
+radius				= 1
+;script_binding			= stalker.object_init
+quest_item			= false
+
+description			= desc_cs_pics1_descr
+inv_name			= doc_cs_pics1
+inv_name_short			= doc_cs_pics1_s
+inv_weight			= 0.01
+inv_grid_width		     	= 2
+inv_grid_height			= 1
+inv_grid_x			= 53
+inv_grid_y			= 65
+cost				= 0
+
+
+; Document - X marks the spot
+
+[cs_docx]:ammo_base
+GroupControlSection 		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      			= "devices\quest_items\yan_x16_documents" ; option for Level Editor
+class     			= AMMO
+cform                   	= skeleton
+visual                  	= dav\equipments\item_davdocx.ogf
+description       		= desc_cs_docx_descr
+$prefetch     			= 64
+
+radius=1
+cost           			= 100
+
+inv_name    			= doc_cs_docx
+inv_name_short   		= doc_cs_docx_s
+inv_weight    			= 1
+
+inv_grid_width    		= 2
+inv_grid_height   		= 1
+inv_grid_x      		= 6
+inv_grid_y      		= 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+
+
+;=================================================================================================================
+;=================================================================================================================
+;;;;;;;  Flare Gun  ;;;;;;;;
+
+ 
+ 
+[wpn_bm16_flare]:wpn_bm16
+
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                   	= "weapons\bm16"					; option for Level Editor
+$npc			 	= on				; option for Level Editor
+$prefetch 		 	= 8
+scheduled                	= off              ; option for ALife Simulator
+cform                    	= skeleton
+class                    	= WP_BM16
+min_radius               	= 0
+max_radius               	= 50
+
+ef_main_weapon_type		= 1
+ef_weapon_type			= 7
+
+cost				= 1500	
+weapon_class			= shotgun
+
+ammo_limit		 	= 60
+ammo_current		 	= 10
+ammo_elapsed		 	= 0
+
+ammo_mag_size		 	= 2
+ammo_class		 	= ammo_12x70_flare
+
+fire_dispersion_base		= 0.5  	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor		= 1.0f
+
+;отдача
+cam_relax_speed         	= 7.0	;скорость возврата в исходное положение
+cam_dispersion          	= 4.0	;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 4.0	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 1.0	;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle			= 8.0	;максимальный угол отдачи
+cam_max_angle_horz		= 20.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 2.5	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.003	;вероятность осечки при максимальном износе
+misfire_condition_k			= 0.05 
+condition_shot_dec 			= 0.001 ;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+
+hand_dependence 	 		= 1
+single_handed				= 0
+
+slot 						= 2		; // secondary
+animation_slot				= 3 ;2 ;3		; type of the animation that will be used
+
+description					= desc_dav_bm16_flare_descr
+inv_name					= desc_dav_bm16_flare
+inv_name_short				= desc_dav_bm16_flare_s
+
+inv_grid_width				= 3
+inv_grid_height				= 1
+inv_grid_x					= 65
+inv_grid_y					= 24
+ 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[ammo_12x70_flare]:ammo_base
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			= "weapons\ammo\ammo_12x76_dart" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = weapons\ammo\ammo_12x76_dart.ogf
+description		= desc_ammo-12x70-flare_descr
+$prefetch 		= 64
+
+cost			= 150
+
+box_size		= 10
+
+inv_name		= desc_ammo-12x70-flare
+inv_name_short		= desc_ammo-12x70-flare_s
+inv_weight		= .50
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x		= 65
+inv_grid_y		= 11
+
+k_dist			= 2.5
+k_disp			= 0.2
+k_hit			= 0.6
+k_impulse		= 0.2 ;0.4
+k_pierce		= 1.25
+impair			= 1.2
+buck_shot		= 1
+tracer			= on
+wm_size         	= 0.07
+explosive		= on ;off
+
+
+
+;=================================================================================================
+
+[ammo_20x85a]:ammo_m209
+$spawn			= "weapons\ammo\ammo_m209" ; option for Level Editor
+description		= desc_ammo_20x85a
+
+cost			= 2660
+
+box_size		= 6
+inv_name		= ammo_20x85a	;;"20x85HE" 
+inv_name_short	= ammo_20x85a_s	;;"20x85HE" 
+inv_weight		= 0.9
+
+inv_grid_width     	= 2
+inv_grid_height    	= 1
+inv_grid_x         	= 65
+inv_grid_y         	= 7
+
+kill_msg_x		= 61
+kill_msg_y		= 232
+kill_msg_width		= 19
+kill_msg_height		= 22
+
+
+k_dist			= 8
+k_disp			= 1
+k_hit			= 1.2
+k_impulse		= 1
+k_pierce		= 1.25
+impair			= 1
+buck_shot		= 0
+tracer			= on
+wm_size         	= 0.1
+
+visual          = dav\Ammo\ammo_20x85_mag.ogf
+
+fake_grenade_name = wpn_fake_missile28a
+
+[wpn_fake_missile28a]:wpn_fake_missile2
+visual          = dav\Ammo\ammo_20x85_mag.ogf
+
+cost			= 660
+
+blast			= 8
+blast_r			= 8
+blast_impulse	= 150; 250
+blast_impulse_factor = 1
+
+frags			= 25
+frags_r			= 15
+frag_hit		= 2.50
+frag_hit_impulse	= 120
+
+hit_type_blast	= explosion
+hit_type_frag	= fire_wound
+
+up_throw_factor	= 0.7
+
+;trail			= weapons\rpg_trail_01, weapons\rpg_trail_02
+
+explode_particles	= explosions\explosion_04b
+dynamic_explosion_particles 	= true
+
+light_color		= 1.9,1.4,0.5
+light_range		= 14.0
+light_time 		= 0.85
+
+;engine_f		= 530
+;engine_u		= 90
+
+jump_height = 1
+
+;трассы от осколков
+fragment_speed	= 100
+;wallmarks
+wallmark_section			= explosion_marks
+wm_size			= 0.1
+
+explode_duration			 = 5		;подолжительность взрыва (с)
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+;звуки
+snd_explode = weapons\explo\grenade_m406_boom
+;------------------------------------------------------------------------------------------
+;свойства которые читаются, но не используются
+inv_name		= ammo_20x85a	;;"20x85HE "
+inv_name_short	= ammo_20x85a_s	;;"20x85HE "
+inv_weight		= 0.2
+inv_grid_x			= 65
+inv_grid_y			= 7
+
+kill_msg_x			= 61
+kill_msg_y			= 232
+kill_msg_width		= 19
+kill_msg_height		= 22
+
+trail_light_color 	= 0.6,0.5,0.3
+trail_light_range 	= 8.0
+force_explode_time  = 10000
+inv_grid_width = 2
+
+
+;=================================================================================================
+
+[ammo_xrep1]:ammo_base
+
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn			= "weapons\ammo\ammo_12x76_dart" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = dav\ammo\ammo_16x70_xrep1.ogf
+description		= desc_ammo-16x70-xrep1	;;enc_weapons1_ammo_ammo_16x70_xrep1
+$prefetch 		= 64
+
+cost			= 550
+
+box_size		= 10
+
+inv_name		= ammo-16x70-xrep1	;;"XREP stun shells"
+inv_name_short		= ammo-16x70-xrep1_s	;;"XREP stun shells"
+inv_weight		= .58
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x		= 65
+inv_grid_y		= 4
+hit_type 		= shock1
+
+k_dist			= 2.5
+k_disp			= 0.2
+k_hit			= 0.6
+k_impulse		= 0.2 
+k_pierce		= 1.25
+impair			= 1.2
+buck_shot		= 1
+tracer			= on
+wm_size         	= 0.07
+explosive		= off
+
+
+;=================================================================================================
+
+[ammo_xrep2]:ammo_base
+
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn			= "weapons\ammo\ammo_12x76_dart" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = dav\ammo\ammo_16x70_xrep2.ogf
+description		= desc_ammo-16x70-xrep2	;;enc_weapons1_ammo_ammo_16x70_xrep2
+$prefetch 		= 64
+
+cost			= 750
+
+box_size		= 10
+
+inv_name		= ammo-16x70-xrep2	;;"XREP kill shells"
+inv_name_short		= ammo-16x70-xrep2_s	;;"XREP kill shells"
+inv_weight		= .67
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x		= 65
+inv_grid_y		= 5
+hit_type 		= shock2
+
+k_dist			= 2.5
+k_disp			= 0.2
+k_hit			= 0.6
+k_impulse		= 0.2 
+k_pierce		= 1.25
+impair			= 1.2
+buck_shot		= 1
+tracer			= on
+wm_size         	= 0.07
+explosive		= off
+
+
+
+;=================================================================================================
+
+[ammo_xrep3]:ammo_base
+
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn			= "weapons\ammo\ammo_12x76_dart" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = dav\ammo\ammo_16x70_xrep3.ogf
+description		= desc_ammo-16x70-xrep3	;;enc_weapons1_ammo_ammo_16x70_xrep3
+$prefetch 		= 64
+
+cost			= 2760
+
+box_size		= 10
+
+inv_name		= ammo-16x70-xrep3	;;"XREP revive shells"
+inv_name_short		= ammo-16x70-xrep3_s	;;"XREP revive shells"
+inv_weight		= .74
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x		= 65
+inv_grid_y		= 6
+hit_type 		= shock3
+
+k_dist			= 2.5
+k_disp			= 0.2
+k_hit			= 0.6
+k_impulse		= 0.2 
+k_pierce		= 1.25
+impair			= 1.2
+buck_shot		= 1
+tracer			= on
+wm_size         	= 0.07
+explosive		= off
+
+
+
+;=================================================================================================================
+; for caesiers bizon_kol
+[ammo_9x19_super]:ammo_base
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn					= "weapons\ammo\ammo_9x19_fmj" ; option for Level Editor
+class					= AMMO
+cform                   = skeleton
+visual                  = dav\Ammo\ammo_9x19_super.ogf
+description				= desc_ammo-9x19-super_descr
+$prefetch 				= 64
+
+cost					= 1550
+
+box_size				= 50
+
+inv_name				= ammo-9x19-super
+inv_name_short			= ammo-9x19-super_s
+inv_weight				= .72
+
+inv_grid_width			= 2
+inv_grid_height			= 1
+inv_grid_x				= 65
+inv_grid_y				= 8
+
+k_dist					= 2
+k_disp					= 2.5
+k_hit					= 2
+k_impulse				= 2
+k_pierce				= 2
+impair					= 2
+buck_shot				= 1
+wm_size 				= 0.06
+tracer					= on
+tracer_color_ID		   	= 3
+explosive				= on
+
+
+; for caesiers vihlop
+[ammo_130vps]:ammo_base
+GroupControlSection   	 	= spawn_group
+; discovery_dependency = ; aleks1970
+class			      		= AMMO
+cform                    	= skeleton
+$prefetch 		      		= 64
+$spawn			      		= "weapons\ammo\ammo_12.7x108" 
+visual                   	= dav\Ammo\ammo_sts130vps.ogf
+description		      		= desc_ammo-STs-130vps_descr
+
+cost			           	= 3800
+box_size		           	= 20
+
+inv_name		      		= desc_ammo-STs-130vps
+inv_name_short   	  		= desc_ammo-STs-130vps_s
+inv_weight		     		= 0.97
+
+inv_grid_width	      		= 2
+inv_grid_height	      		= 1
+inv_grid_x		      		= 65
+inv_grid_y		      		= 9
+
+k_dist			      		= 4
+k_disp			      		= 2
+k_hit			      		= 20
+k_impulse		      		= 2
+k_pierce		      		= 50
+tracer			      		= on
+wm_size               		= 2
+explosive		      		= on
+impair			      		= 2
+buck_shot		      		= 1
+
+
+
+[ammo_railgun]:ammo_gauss
+visual                  = dav_wpn_xp1\ammo\railgun_battery.ogf
+description				= desc_ammo_railgun_descr
+cost					= 81500
+box_size				= 20
+
+inv_name				= ammo_railgun
+inv_name_short			= ammo_railgun_s
+inv_weight				= 3.75
+
+inv_grid_x				= 58
+inv_grid_y				= 12
+
+k_dist					= 1
+k_disp					= 1
+k_hit					= 1
+k_impulse				= 0.3
+k_pierce				= 0.78
+
+tracer					= on
+wm_size         		= 2.0
+explosive				= on
+tracer_color_ID			= 5
+
+
+;;===========================================================================================================================
+;;===========================================================================================================================
+
+
+;dAVROs Shield Artifacts for LDK Commanders
+; do not use - these are unique items
+
+;;===========================================================
+[af_shield_health]:af_buliz
+description			= enc_zone_artifact_af_shield_health
+inv_name			= af_shield_health
+inv_name_short		= af_shield_health_s
+inv_grid_x			= 60
+inv_grid_y			= 2
+cost				= 5000
+visual				= dav\equipments\item_shield.ogf
+
+health_restore_speed = 0.001			
+bleeding_restore_speed = 0.003
+
+;;===========================================================
+
+[af_shield_electric]:af_buliz
+description			= enc_zone_artifact_af_shield_electric
+inv_name			= af_shield_electric
+inv_name_short		= af_shield_electric_s
+inv_grid_x			= 61
+inv_grid_y			= 2
+cost				= 5000
+visual				= dav\equipments\item_shield.ogf
+
+hit_absorbation_sect	= af_shield_electric_absorbation
+
+[af_shield_electric_absorbation]:af_buliz_absorbation
+shock_immunity			= 0.1
+
+;;===========================================================
+
+[af_shield_radiation]:af_buliz
+description			= enc_zone_artifact_af_shield_radiation
+inv_name			= af_shield_radiation
+inv_name_short		= af_shield_radiation_s
+inv_grid_x			= 63
+inv_grid_y			= 2
+cost				= 5000
+visual				= dav\equipments\item_shield.ogf
+
+radiation_restore_speed = -0.0095
+
+;;===========================================================
+
+[af_shield_heat]:af_buliz
+description			= enc_zone_artifact_af_shield_heat
+inv_name			= af_shield_heat
+inv_name_short		= af_shield_heat_s
+inv_grid_x			= 62
+inv_grid_y			= 2
+cost				= 5000
+visual				= dav\equipments\item_shield.ogf
+
+hit_absorbation_sect	= af_shield_heat_absorbation
+
+[af_shield_heat_absorbation]:af_buliz_absorbation
+burn_immunity			= 0.009
+
+;;===========================================================
+
+[af_shield_endurance]:af_buliz
+description			= enc_zone_artifact_af_shield_endurance
+inv_name			= af_shield_endurance
+inv_name_short		= af_shield_endurance_s
+inv_grid_x			= 64
+inv_grid_y			= 2
+cost				= 5000
+visual				= dav\equipments\item_shield.ogf
+
+power_restore_speed = 0.026
+
+;;===========================================================
+
+[af_shield_armor]:af_buliz
+description			= enc_zone_artifact_af_shield_armor
+inv_name			= af_shield_armor
+inv_name_short		= af_shield_armor_s
+inv_grid_x			= 65
+inv_grid_y			= 2
+cost				= 5000
+visual				= dav\equipments\item_shield.ogf
+
+hit_absorbation_sect	= af_shield_armor_absorbation
+
+[af_shield_armor_absorbation]:af_buliz_absorbation
+explosion_immunity		= 0.05
+fire_wound_immunity		= 0.1
+strike_immunity			= 0.1
+wound_immunity			= 0.1
+wound_2_immunity		= 0.1
+
+;;========================================================================================================================
+;;  These items used to provide a step up to cant reach areas
+
+[dav_box1]:bomba_big
+visual = physics\box\konteyner_01 
+can_take				= false
+ph_mass					= 300
+inv_name				= ""
+inv_name_short			= ""
+
+immunities_sect			= dav_box1_immunities_sect
+
+[dav_box1_immunities_sect]
+burn_immunity			= 0.001
+strike_immunity			= 0.001
+shock_immunity			= 0.001
+wound_immunity			= 0.001
+radiation_immunity		= 0.001
+telepatic_immunity		= 0.001
+chemical_burn_immunity	= 0.001
+explosion_immunity		= 0.001
+fire_wound_immunity		= 0.001
+
+
+
+[dav_concrete_slab]:dav_box1
+visual = physics\large_trash\shifer_03 
+
+
+[dav_ufo]:dav_box1
+visual = dav\vehicles\ufo_ussr 
+
+
+[island1]:dav_box1
+visual = dav\fly_island.ogf 
+
+
+[island2]:dav_box1
+visual = dav\laputa.ogf 
+
+
+[event]:dav_box1
+visual = event\event_horiz
+custom_data = scripts\no_collide.ltx
+
+
+
+[dav_dozer]:bomba_big
+;visual					= physics\vehicles\zaz\veh_zaz_u_01 
+;visual					= dynamics\box\box_wood_01
+visual					= objects\trash_buldozer
+can_take				= false
+ph_mass					= 5000
+inv_name				= ""
+inv_name_short			= ""
+
+immunities_sect			= dav_dozer_immunities_sect
+
+[dav_dozer_immunities_sect]
+burn_immunity			= 0.0001
+strike_immunity			= 0.0001
+shock_immunity			= 0.0001
+wound_immunity			= 0.0001
+radiation_immunity		= 0.0001
+telepatic_immunity		= 0.0001
+chemical_burn_immunity	= 0.0001
+explosion_immunity		= 0.0001
+fire_wound_immunity		= 0.0001
+
+
+;;missing ogf, 109982
+[dav_laser_psu]:bomba_big
+visual 					= dav\laser\war_laser.ogf 						;dav\equipments\item_anomaly_generator 
+can_take				= false
+ph_mass					= 300
+inv_name				= ""
+inv_name_short			= ""
+
+
+;; ============================================================================================================================
+;;      dAVROs turrets
+
+
+;;crashes with: particle error, 109982
+[ldk_laser1]:turret_mgun
+visual							= dav\laser\ldk_laser_turret.ogf
+ammo_class						= ammo_laser
+snd_shoot						= weapons\lr300_shoot2
+rpm								= 3000
+fire_dispersion_base			= 0.014		
+hit_power						= 1				
+hit_impulse						= 18				
+fire_distance					= 600			
+bullet_speed					= 920			
+
+immunities_sect					= ldk_laser_immunities
+
+
+
+
+[ldk_laser_immunities]
+burn_immunity					= 0.02
+strike_immunity					= 0.05
+shock_immunity					= 0.08
+wound_immunity					= 0.01
+radiation_immunity				= 0.005
+telepatic_immunity				= 0.0
+chemical_burn_immunity			= 0.01
+fire_wound_immunity				= 0.06			
+explosion_immunity				= 0.055			
+
+

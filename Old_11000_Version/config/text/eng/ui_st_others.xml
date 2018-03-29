@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- TB3D 1.1.0.0.0.4, Removed duplicated string id's: "ui_st_conn_version_differs", "ui_st_conn_cdkey_invalid", "ui_st_conn_cdkey_in_use", "ui_st_conn_cdkey_disabled", "ui_st_conn_new_patch" and "ui_st_conn_no_new_patch",
+new subtitles and SMS repair kit text - aleks1970 -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 04 Mar 16 -->
+	<string id="recipi_bpb_scr">
+		<text>I've finally got hold of this recipe! It's so easy - just throw an Elder Beads artefact into a Burner anomaly, and leave it for five minutes. Three times out of four, you'll get the 'Ancient Beads' artefact - an absolute one!\nNow I'm off to visit Zahar. Time to start hunting! I'll use this place as a temporary stash, and leave my notes here\n Sepator</text>
+	</string>
+	<string id="dosye_zvez_scr">
+		<text>The 'Astrologer' file:\nAstrologer is an ex-Mercenary, sent out to the 'Death Truck' to look for Strelok. The route of this truck was planned meticulously, as was the crash. Strelok, as an unwitting agent of the C-Consciousness, had inadvertently been given the task to kill himself, and carried a photo of Ghost in his PDA.\nThe meeting with Doc and Fang had also been prearranged. Everything was set up so he could find the Monolith base. However, everything took longer than expected, causing more and more complications to arise.\nOther measures had to be taken, and Panther was kidnapped in order to blackmail Strelok. You know the rest...\nObviously Strelok was used from the beginning, as an instrument for searching out the Monolith base, but due to the conflicts in his mind he kept messing up the plan without knowing why.\nIt's very likely what provoked interest from those on the outside, but also someone from the 'old' Zone as well.\nI'm sensing an attack... Better take defensive measures immediately.\n Agent 'XYZ'</text>
+	</string>
+	<string id="stukach_book_scr">
+		<text>Informant's notebook:\nThe Mercs have held on to their money again, and have only given us artefact info. At least it's better than nothing, and 'Crystals' may come in handy...\nRecipe: Throw one of each of these items into a 'Fountain' anomaly:\nBloodsucker tentacles\nFireball\nMedusa\nStone Flower\nWait for 5 minutes, and receive a free 'Crystal'. Let all those other idiots try to find them in the wild...</text>
+	</string>
+	<string id="bloknot_pantera_scr">
+		<text>Panther's notebook:\nDon't trust anyone. Don't believe anyone. Don't be afraid.\nCode to the Warlab door: 25-19-04-56\nCoordinates to the path: 1704, 2154, 4504\nGood luck, Panther</text><!-- Changed coordinates and code from 25-14-04-56 to 25-19-04-56. Sword2012 - 26 Mar 16 -->
+	</string>
+	<string id="razved_karta_scr">
+		<text>Map Fragments:\nPassage from Agroprom to the Swamps. It's unfortunate that the exit's in a radioactive area, but it's only for about ten metres. Stock up on antirads, and you'll be okay...</text>
+	</string>
+	<string id="pilot_zapiska_scr">
+		<text>To Captain Zimin:\nI don't know what made us fly over the power station. All three choppers got stuck there, right in the middle of an emission.\nOne fell right onto the roof of the NPP, the other got stuck on a pipe and was left hanging there. We got lucky - we crash landed, but got out alive.\nRadiation's off the charts. To get down from the chopper, you'd need to jump down to a cistern below, but we're out of time...</text>
+	</string>
+	<!-- Added revamped repair kit SMS text - aleks1970 -->
+	<string id="rec_revampa10_3">
+		<text>Received:\n - 25 spare parts for armor...</text>
+	</string>
+	<string id="rec_revampw10_3">
+		<text>Received:\n - 5 spare parts for small arms, and 15 for the rifle...</text>
+	</string>
+	<string id="rec_revampa10">
+		<text>Received:\n - 10 spare parts for armor...</text>
+	</string>
+	<string id="rec_revampw10">
+		<text>Received:\n - 3 spare parts for small arms, and 5 for the rifle...</text>
+	</string>
+	<!-- New text for the onscreen report - aleks1970 -->
+	<string id="game_gd_novice">
+		<text>Cadet</text>
+	</string>
+	<string id="game_gd_stalker">
+		<text>Advanced</text>
+	</string>
+	<string id="game_gd_veteran">
+		<text>Elite</text>
+	</string>
+	<string id="game_gd_markedone">
+		<text>Marked One</text>
+	</string>
+	<string id="game_gd_collector">
+		<text>Collector Freeplay</text>
+	</string>
+	<string id="version_scr">
+		<text>Version:</text>
+	</string>
+	<string id="release_scr">
+		<text>Release:</text>
+	</string>
+	<string id="revision_scr">
+		<text>Revision:</text>
+	</string>
+	<string id="network_info">
+		<text>Network Info</text>
+	</string>

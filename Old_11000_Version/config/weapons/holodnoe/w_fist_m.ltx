@@ -1,0 +1,37 @@
+;;;; TB3D 1.1.0.0.1.3 - TB3D style weapons
+; Бойцовские перчатки
+[wpn_fist_m]:wpn_knife_base
+$spawn              		= "weapons\wpn_fist_m"
+description					= weapons_wpn-hand_m
+inv_name					= wpn_fist_m
+inv_name_short				= wpn_fist_m
+inv_weight					= 0.15
+inv_grid_x                  = 25
+inv_grid_y                  = 43
+
+hud							= wpn_fist_m_hud	
+cost						= 300
+	
+hit_power                	= 2.5
+hit_impulse		            = 220
+hit_power_2                	= 3.5
+hit_impulse_2	          	= 240
+hit_type_2				 	= wound_2
+fire_distance            	= 1
+
+min_radius               	= 100
+max_radius               	= 100
+
+[wpn_fist_m_hud]:wpn_knife_base_hud
+position            		= 0,-0.1,0.3
+visual              		= weapons\hand\wpn_hand_m_hud.ogf
+
+[fake_wpn_fist_m]:fake_wpn_knife_base
+description		            = weapons_wpn-hand_m
+inv_name					= wpn_fist_m
+inv_name_short				= wpn_fist_m
+inv_weight			        = 0.15
+
+inv_grid_x                       = 25
+inv_grid_y                       = 43
+cost				             = 300

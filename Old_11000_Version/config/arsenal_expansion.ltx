@@ -1,0 +1,42 @@
+;; TB3D 1.0.9.9.8.7 ------------------------ARENA_EXTENSION_MOD---------------
+;---------------------------------ARENA_EXTENSION_MOD-----------------------------------------
+; aem_ui_npc
+; aem_info
+; aem_profile
+; aem_characters
+;-------------------------------ARENA_EXTENSION_MOD------------------------------------
+
+#include "creatures\aem_monsters.ltx"
+#include "creatures\aem_stalkers.ltx"
+
+[aem_sound]:space_restrictor
+GroupControlSection		= spawn_group_restrictor
+$spawn				= ;"ai\space_restrictor"
+;$prefetch 			= 64
+class				= SPC_RS_S
+script_binding          	= bind_restrictor.bind
+custom_data			= scripts\aem\sound.ltx
+
+[aem_timer]:space_restrictor
+GroupControlSection		= spawn_group_restrictor
+;$spawn				= ;"ai\space_restrictor"
+;$prefetch 			= 64
+class				= SPC_RS_S
+script_binding          	= bind_restrictor.bind
+custom_data			= scripts\aem\timer.ltx
+
+[aem_lamp]:lights_hanging_lamp	;;;;TB3D  causes actor freezes when used
+class				= AEM_LAMP
+
+[tmp_decor_min_box]:script_object
+visual        			= physics\decor\min_box.ogf
+[tmp_decor_mid_box]:script_object
+visual        			= physics\decor\mid_box.ogf
+[tmp_decor_big_box]:script_object
+visual        			= physics\decor\big_box.ogf
+
+[tb3d_aem_sign]:lights_hanging_lamp						;;109987
+class				= AEM_LAMP
+
+[tb3dm_firelight]:lights_hanging_lamp						;;109996
+class				= AEM_LAMP

@@ -1,0 +1,1782 @@
+<!-- TB3D 1.1.0.0.0.5 fixed kluk_chaes2_bazar, prizrak_chaes_say, Prapor, aleks edits, gen prizrak, zemlyk_zadanie_00, strelok to mo, dok_arh_say -->
+<!-- Names changed as commented below - Sword2012 - 31 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<string_table>
+	<!-- ECOLOGISTS -->
+	<string id="ekolog_lentyi_say_0">
+		<text>Is this your lab, is there a girl here?</text>
+	</string>
+	<string id="ekolog_lentyi_say_1">
+		<text>There's no girl here, that I'm certain of. I am just a simple Ecologist, my speciality is butterflies and flowers. I don't know much about chemical formulae and complicated experiments. I help out the best I can, but I'm not much help here</text>
+	</string>
+	<string id="ekolog_lentyi_say_2">
+		<text>What is this, a huge brain? What kind of creature did this come from?</text>
+	</string>
+	<string id="ekolog_lentyi_say_3">
+		<text>It's the brain of a controller. Maples has managed to grow it and now uses it for a generator of energy. He's a genius - a bit odd, but all great scientists are like that...</text>
+	</string>
+	<string id="ekolog_lentyi_say_4">
+		<text>And what kind of experiments is this this genius conducting here?</text>
+	</string>
+	<string id="ekolog_lentyi_say_5">
+		<text>I'm not precisely sure, I think he is trying to make new artefacts and studies there affects on organisms. Listen, you were able disconnect the teleport. This means that you must know another smart scientist. Can you convince him to come here and help Maples? I'm tired of getting bitched at</text>
+	</string>
+	<string id="ekolog_lentyi_say_6">
+		<text>I do know of one, but he's recovering from an illness. I will talk to Maples first and then see if my friend wants to join your team</text>
+	</string>
+	<string id="ekolog_lentyi_say_7">
+		<text>I will wait your return</text>
+	</string>
+	<string id="pantera_fone_nayti_0">
+		<text>Oh, my, you're a sight for sore eyes! I can feel my heart thumping! Its your lucky day sweetheart, I've come to join your crew. My experience should be obvious</text>
+	</string>
+	<string id="pantera_fone_nayti_1">
+		<text>You feel your heart thumping? Are you sure its not just your lice moving around? You look like you have not washed in a month. It looks like rats have been nesting in your hair, oh, wait, they are!!!. However, down to business. We are recruiting and I have noticed your Signet ring. So it's time to see if you have half a brain, like the rest of us!</text>
+	</string>
+	<string id="pantera_fone_nayti_2">
+		<text>But wait a second I...</text>
+	</string>
+	<string id="pantera_fone_nayti_3">
+		<text>But! Tis' something under the tails of horses! Time is already ticking away on your first verification. The next fifteen minutes will determine if there is a brain in your head that matchs your ability to move your back-end</text>
+	</string>
+	<string id="pantera_fone_nayti_4">
+		<text>What? fifteen minutes? You think your Bob Barker or something??.</text>
+	</string>
+	<string id="pantera_fone_nayti_5">
+		<text>You must find a Phone in this Laboratory within fifteen minutes. Since your already wasting time I will give you a hint, the phone lies in a backpack. There are several backpacks in the Lab. Only don't search the bottom levels of the Lab, it's not there. So get moving and use your head. It takes brains to join this crew, POINDEXTER!</text>
+	</string>
+	<string id="pantera_fone_nayti_6">
+		<text>A woman wants me to find her phone, this will be much easier than working for Chimera</text>
+	</string>
+	<string id="pantera_fone_ok_0">
+		<text>My Lioness, here's your phone. Perhaps you should write down your number for me</text>
+	</string>
+	<string id="pantera_fone_ok_1">
+		<text>The last time I gave my number to a man, he was dead. I wrote it on his cold naked heels with a black marker. Alright, you have executed the first task. Your dirty face is starting to look pleasant to me</text>
+	</string>
+	<string id="pantera_fone_ok_2">
+		<text>I'm flattered. I think your two bodyguards are already getting jealous</text>
+	</string>
+	<string id="pantera_fone_ok_3">
+		<text>That's not jealousy, you retrobate! They feel sorry for you. Here's a reward, go on, take a smoke break, a swig of vodka. By the way, one of my guards needs a favor from you. He is retiring from the Zone soon, give him the respect that a Master deserves. Talk with him</text>
+	</string>
+	<string id="pantera_fone_proval_0">
+		<text>I couldn't find the phone in time. Now I am threatened with execution?</text>
+	</string>
+	<string id="pantera_fone_proval_1">
+		<text>No execution, just a slow death from stupidity! No phone means no reward</text>
+	</string>
+	<string id="pantera_fone_proval_2">
+		<text>Do I still have a chance?</text>
+	</string>
+	<string id="pantera_fone_proval_3">
+		<text>There is always a chance. Are you four years old,or just very blissfull? zip up your pants already! Take a short break and speak with one of my guards. He is leaving the Zone soon and needs a favor</text>
+	</string>
+	<string id="body_pantera_talk_0">
+		<text>Greetings Master, so soon you will fly out of here, eh? I thought the only retirement here was a permanent one!</text>
+	</string>
+	<string id="body_pantera_talk_1">
+		<text>Yes, seems like it! Both of us have put in our time and we have enough money to live the high life in Miami! But I'm worried about our Chief, she is tough but still young and naive. She needs somebody to watch her back when we leave. There's too many low-lifes ready to betray their own mother for a small amount of money!</text>
+	</string>
+	<string id="body_pantera_talk_2">
+		<text>I hate treacherous people myself. If the need arises, I will come to her aid</text>
+	</string>
+	<string id="body_pantera_talk_3">
+		<text>That's good to hear. I have a request to make of you, I want to take a souvenier to America from the Zone. At the Army warehouse they have a stuffed Pseudo-dog. Its located somewhere in Lukash's HQ. Could you grab it for me on your travels? But don't make it a priority</text>
+	</string>
+	<string id="body_pantera_talk_4">
+		<text>I will get it for you. How you get it into America is another problem</text>
+	</string>
+	<string id="body_pantera_talk_5">
+		<text>Here are the coordinates of a transition from Warlab to the base of Freedom. A tunnel leads from this lab to the entrance of a collapsed tunnel at the Freedom base. Once again I repeat, don't hurry up and do this task. Later Panther will have another task that will take you to the Freedom base, so wait and kill two birds with one stone</text>
+	</string>
+	<string id="body_pantera_talk_6">
+		<text>Thanks, for the advice. I will look in Lukash's HQ for a stuffed animal for you. Only problem is Freedom like to shoot Mercenaries</text>
+	</string>
+	<string id="body_pantera_prines_0">
+		<text>I have brought your stuffed animal, this will be quite a conversation piece in Miami, got some fleas though</text>
+	</string>
+	<string id="body_pantera_prines_1">
+		<text>Excellent! I will show the Americans a real monster</text>
+	</string>
+	<string id="body_pantera_prines_2">
+		<text>A stuffed Chimera would have been a better choice in my opinion</text>
+	</string>
+	<string id="body_pantera_prines_3">
+		<text>The Chimera is a good choice, but would maybe scare the ladies too much, Hah</text>
+	</string>
+	<string id="pantera_zadanie2_0">
+		<text>Im ready for the next task</text>
+	</string>
+	<string id="pantera_zadanie2_1">
+		<text>You carried out the first task easily. The second will be slightly more difficult, I'm not sure if you are up to it. You are more like an Orangutan in a survival suit, than a Mercenary</text>
+	</string>
+	<string id="pantera_zadanie2_2">
+		<text>My sweet naive Panther, You can't see what's in front of you. By myself I could deliver a heap of trouble to you and your number of standing invalids in Exoskeletons. Now what is the task?</text>
+	</string>
+	<string id="pantera_zadanie2_3">
+		<text>So, I See that your mind has small dimensions, therefore I will explain in detail: data has arrived that soldiers from the Kuznetsova Sqaud (which guards the bridge in the Cordon) have come into possession of some vital information. This intel will be arriving by messenger, which should be intercepted. You understand?</text>
+	</string>
+	<string id="pantera_zadanie2_4">
+		<text>What is this messenger carrying? Lipstick and a Pocket Mirror? A manicure set?</text>
+	</string>
+	<string id="pantera_zadanie2_5">
+		<text>You make jokes, well funny man it's time to see how good you really are. This next mission you will find more difficult. The messenger is transporting a disk that contains information on every Mercenary base in the Zone! Without question, this clearly threatens us. The disk should be taken away from the soldier, but don't kill him. We have our hands full fighting off the Monolithians at the moment, so we don't want any military reprisals. The plan is this: you go to the Cordon, you get on the destroyed bridge (I will send a picture to your PDA) and you wait. The messenger will be arriving from the north, so pay attention. I warn you, if you fail this task I will take away your ring and your money. If you execute the plan succesfully then you gain my recognition and the fee in the for of sixty Slantings</text>
+	</string>
+	<string id="pantera_zadanie2_6">
+		<text>This will require some thinking, but I can handle it</text>
+	</string>
+	<string id="pantera_zadanie2_7">
+		<text>I'm to take a disk from the enemy without killing? I can't do it, not my nature</text>
+	</string>
+	<string id="pantera_zadanie2_ok_0">
+		<text>Greetings, my Princess. I Have brought the disk without killing the messenger</text>
+	</string>
+	<string id="pantera_zadanie2_ok_1">
+		<text>This is remarkable. I have a vague feeling that you're not so stupid after all. Here is your fee, you earned it. Is that cologne I smell?</text>
+	</string>
+	<string id="pantera_zadanie2_ok_2">
+		<text>Well, a blind dog pissed on my leg, or it might be the Chimera crap I stepped in. As a bonus, how about a kiss on the cheek?</text>
+	</string>
+	<string id="pantera_zadanie2_ok_3">
+		<text>You're about the three hundredth guy to hit on me in the Zone. For now have a rest, there will be one more task for you</text>
+	</string>
+	<string id="pantera_zadanie2_proval_0">
+		<text>Greetings. I have brought the disk</text>
+	</string>
+	<string id="pantera_zadanie2_proval_1">
+		<text>You don't need to say it, I can tell something went wrong. I promised to take away your ring. For the first time I will change the rules, you can keep it. But you have disappointed me, so I will take away money for moral indemnification</text>
+	</string>
+	<string id="pantera_zadanie2_proval_2">
+		<text>I understand. Can I do something to make up for it?</text>
+	</string>
+	<string id="pantera_zadanie2_proval_3">
+		<text>There will be another chance for you to change my mind</text>
+	</string>
+	<string id="pantera_talk_ud_0">
+		<text>You have something else for me, my kitten?</text>
+	</string>
+	<string id="pantera_talk_ud_1">
+		<text>Don't fool yourself, I'm no kitten. Let's be honest with each other now. I have some questions to ask and this is for your ears only</text>
+	</string>
+	<string id="pantera_talk_ud_2">
+		<text>I've been wanting to speak to you alone. But seriously I have questions, speaking in confidence</text>
+	</string>
+	<string id="pantera_talk_ud_3">
+		<text>I will share information with you, just between us</text>
+	</string>
+	<string id="pantera_talk_neud_0">
+		<text>You have something else for me, my kitten?</text>
+	</string>
+	<string id="pantera_talk_neud_1">
+		<text>Don't fool yourself, I'm no kitten. Let's be honest with each other now. I have some questions to ask and this is for your ears only</text>
+	</string>
+	<string id="pantera_talk_neud_2">
+		<text>I've been wanting to speak to you alone. But seriously I have questions, speaking in confidence</text>
+	</string>
+	<string id="pantera_talk_neud_3">
+		<text>I will share information with you, just between us</text>
+	</string>
+	<string id="pantera_zadanie3_0">
+		<text>About what is it you wanted to ask?</text>
+	</string>
+	<string id="pantera_zadanie3_1">
+		<text>You know the Zone is no place for women. I agree with that, but need has forced me to come here. I am not here for the money. I have more important things to worry about than expensive houses. I could tell when we first met that you were no rookie, and certainly not a Merc. You wouldn't happen to go by the name of the Marked One?</text>
+	</string>
+	<string id="pantera_zadanie3_2">
+		<text>Yea, I'm not a mercenary. The Task for me is to find out where the daughter of a boss from the O-Consciousness is located</text>
+	</string>
+	<string id="pantera_zadanie3_3">
+		<text>I've heard of this girl, but she is not here. Mercenaries also search for her, the reward for finding this girl is great. Only, as far as I know, she is not the daughter of anyone from O-Consciousness. There is something else going on here. What exactly that is, I don't know. But, what I do know is she is being held captive. It's not the Mercenaries who have her. Who they are and where she is held I don't know</text>
+	</string>
+	<string id="pantera_zadanie3_4">
+		<text>Interesting information, but this doesn't bring me any closer to finding her. What is on the top floor of the Laboratory? The entrance there is blocked by a teleport</text>
+	</string>
+	<string id="pantera_zadanie3_5">
+		<text>I don't have access to that part of the facility. I don't know where a key is located either. I do know that two important scientists work up there. One of them I've been told is from the O-Consciousness. They work in secret and are guarded day and night. Only my boss knows what goes on up there. If you consider the recent attack by the Monolithians, these scientists must be up to something serious. Well, now it's your turn to share information</text>
+	</string>
+	<string id="pantera_zadanie3_6">
+		<text>What is it you want to know?</text>
+	</string>
+	<string id="pantera_zadanie3_7">
+		<text>It's too early to tell you why, but I'm searching for three pieces of the Monolith</text>
+	</string>
+	<string id="pantera_zadanie3_8">
+		<text>There are three? I know only of one, and I know where it is. I don't have any information on where the other two are but together we can find out. So now that you know who I am, are you going to give me another task? I heard it's necessary to pay Lukash a visit?</text>
+	</string>
+	<string id="pantera_zadanie3_9">
+		<text>This is great news! I agree, together we will find the other two pieces. I will keep your true identity a secret. I would do anything for those Monolith pieces! He, he, within limits of course. Now, about your next task. The boss demands that you steal a backpack that is stored in the Freedom base armory. The task is simple, but will positively affect your reputation. Bring everything from the backpack. I will loan you an Invisible Exoskeleton to make things easier for you</text>
+	</string>
+	<string id="pantera_zadanie3_ok_0">
+		<text>I brought everything from the backpack. I hope my trial period is now finished?</text>
+	</string>
+	<string id="pantera_zadanie3_ok_1">
+		<text>There was one more task, but it's been postponed. There has been something going on while you were gone. There's been a lot of questions about you, I think someone has blown your cover</text>
+	</string>
+	<string id="pantera_zadanie3_ok_2">
+		<text>Who? did you tell anyone about me?</text>
+	</string>
+	<string id="pantera_zadanie3_ok_3">
+		<text>I promise it was not me, you know I need your help finding those pieces of the Monolith. Take my advice Marked One, leave now and quickly. Damn! I just got a message the boss has already arrived. Your going to have to speak with him. Keep your gun in readiness, I won't be able to help you. There he is, behind you, speak with him</text>
+	</string>
+	<string id="boss_talk_0">
+		<text>You wanted to see me?</text>
+	</string>
+	<string id="boss_talk_1">
+		<text>I think your a fraud! I have reliable information that your responsible for our recent setbacks!</text>
+	</string>
+	<string id="boss_talk_2">
+		<text>Who has been spewing such nonsense?</text>
+	</string>
+	<string id="boss_talk_3">
+		<text>A source that has cooperated with us for a long time. The Marksman, you know that name? Give me the Signet ring of the Mercenaries, otherwise I will take it away by force and simply remove it from your corpse!</text>
+	</string>
+	<string id="boss_talk_4">
+		<text>You're a piece of stinking goat shit to think you can make demands of me! You have not given it to me and you will not to take it away. If you're a Merc then act like one! Or it'll be your corpse that gets looted!</text>
+	</string>
+	<string id="boss_talk_5">
+		<text>You had a choice and you have made it. Farewell scum!</text>
+	</string>
+	<string id="pantera_neutral_say_0">
+		<text>Why did you get involved, I thought you worked for them?</text>
+	</string>
+	<string id="pantera_neutral_say_1">
+		<text>Be silent. It is not necessary to ask questions. I have my own problems that are no burden of yours. For my men, don't worry, tomorrow they will remove their armor and leave the Zone, they are long time veterans and have earned a new life. Help them to finish off any Mercs left in the Laboratory. And then I'll leave. And For me, don't worry, I will find you when the time is right</text>
+	</string>
+	<string id="pantera_neutral_say_2">
+		<text>Thanks for the help. I will return the favor. I must travel to the Bar now and meet a comrade</text>
+	</string>
+	<string id="pantera_neutral_say_3">
+		<text>Goodbye Marked One, Go, I don't love farewell scenes. And obviously someone close to you has sold you out! I wanted to give you a small farewell gift</text>
+	</string>
+	<string id="body_pant_neutral_say_0">
+		<text>Thanks for the help</text>
+	</string>
+	<string id="body_pant_neutral_say_1">
+		<text>Thank the Panther. We are fanatics but loyal. We have not had this much fun in a long time. One good last fight for our memories!</text>
+	</string>
+	<string id="body_pant_neutral_say_2">
+		<text>I didn't expect to see you guys fight the boss!</text>
+	</string>
+	<string id="body_pant_neutral_say_3">
+		<text>The boss became chicken-shit, I've wanted to shoot him myself for a longtime. Farewell Marked One, we will not see each other again. Here's for the memories, it's quite good. Look after the Panther or we will return and find you! Ha! A Joke</text>
+	</string>
+	<string id="klenov_gol_nayti_0">
+		<text>Hello</text>
+	</string>
+	<string id="klenov_gol_nayti_1">
+		<text>At once a question, how was it possible to disconnect my teleport? For it's deactivation only two people can make the device. And since recent time the only one is myself. But I didn't give it to you. Excuse me, I have forgotten to introduce myself, Doctor Klyonov. Earlier I was engaged in research of the Zone as a part of a group of scientists of O-Consciousness. Likely, about such you've already heard. But, since recent time, in connection with obvious disagreements with the management of this group, I started to work alone. Truth is every day I risk being killed by the people from this group</text>
+	</string>
+	<string id="klenov_gol_nayti_2">
+		<text>The key to the teleport was given to me by a Stalker, but I know someone who can make a similar one. But what do you do here that needs to be so secret? I will tell you that I seek two things - the missing daughter of one of the leaders of the O-Consciousness, so it's interesting that you've just mentioned this group of scientists - and an artefact called The Heart of the Poltergeist, or you may know it by another name, the Monolith piece...</text>
+	</string>
+	<string id="klenov_gol_nayti_3">
+		<text>I after all, know you, your Marked One, and in recent times I've witnessed one curious conversation with one of my former colleagues. Explanations about what I am engaged here, won't make sense to you. I will simply tell you, I investigate artefacts and conduct experiments for their artificial creation. I will answer the other question: The missing 'daughter' of the representative of the O-Consciousness is not here, but the girl exists. She managed to gain the trust of the scientists. I will tell you that she's just a naive child. Most likely a victim of someone's secret game. But the girl and the artefact have gone missing. On your piece of the Monolith, I will reveal to you a small secret. If you've still not remembered, your PDA the task 'to Kill Strelok' is not an error. Your true purpose was to return to the O-Consciousness this piece of the Monolith which you have, or had, but you know where it is. As for the key to the teleport, you deceive me. That scientist, the one you call Victor, was killed!</text>
+	</string>
+	<string id="klenov_gol_nayti_4">
+		<text>Doctor, your data is really invaluable. And that scientist is alive, he's ill but very much alive, he became translucent and now his name is Golograma, better know as Hologram. Victor Hologram. I hope he will recover. Do you know the location of the other parts of the Monolith? I have data that it's not one, but three</text>
+	</string>
+	<string id="klenov_gol_nayti_5">
+		<text>Actually, the Heart of the Poltergeist is singular. If you assert that there are three then you've heard about the recipe. If you connect three pieces of the Monolith, it is possible to create a Mega-Absolute that has abilities you can only dream of! All is not so difficult, it is only necessary to have in stock two of the Heart of the Poltergeist and the artefact that the daughter of the representative of O-Consciousness has taken. The trouble is that the second Heart of the Poltergeist does not exist. I have attempted to create it artificially. And you spoke of Victor, he's alive? That's good luck! It changes the situation a little. With his abilities my experiment will go much faster, and his ailment probably holds the key to recreating the second Heart of the Poltergeist. Can you assist me in this research? I will give you a reward of the first Heart of the Poltergeist I create...</text>
+	</string>
+	<string id="klenov_gol_nayti_6">
+		<text>What do you want me to do?</text>
+	</string>
+	<string id="klenov_gol_nayti_7">
+		<text>I have divided your task into two parts. They are not difficult, considering your recent history. I will tell you only about the first: Without Victor I cannot continue the experiment. Try to persuade him to work with me. The troubles between us in the past were not my fault, It was the management that used us. To work with my current assistant is simply impossible - he's both lazy and stupid!\nOkay?</text>
+	</string>
+	<string id="klenov_gol_nayti_8">
+		<text>I agree, I will help you</text>
+	</string>
+	<string id="klenov_gol_nayti_9">
+		<text>Doctor, I'm not a truce envoy. It's not in my interest to try and persuade Victor Hologram...</text>
+	</string>
+	<string id="klenov_art_0">
+		<text>Here, I have brought your assistant. What is still required?</text>
+	</string>
+	<string id="klenov_art_1">
+		<text>Fantastic! The second part of the task is simple. To try to make an artificial Heart of the poltergeist, bring me the original and ten Cobblestone artefacts. Where to find the original? I don't know, but it is assured that you will find it</text>
+	</string>
+	<string id="klenov_art_2">
+		<text>Fantastically simple task!</text>
+	</string>
+	<string id="klenov_art_3">
+		<text>Yes, don't forget about the Cobblestones. They are necessary for the work! To cheer you up, I will tell you something. All Laboratories of the Zone were once connected to each other by a network of tunnels. And so I will show you one more transition to this Lab. It begins behind a door at the bottom level of laboratory X-18, you have probably already visited there. On your map I have left a mark</text>
+	</string>
+	<string id="klenov_vse_ok_0">
+		<text>I Have brought everything that you asked. Take the Cobblestones</text>
+	</string>
+	<string id="klenov_vse_ok_1">
+		<text>This is excellent. Today we will begin the experiment. I hope we have everything we need. Truth is, I don't know how much time it will take to produce a result</text>
+	</string>
+	<string id="klenov_vse_ok_2">
+		<text>You're not sure? I hope you don't ruin my artefact?</text>
+	</string>
+	<string id="klenov_vse_ok_3">
+		<text>Don't worry, even with a negative result your artefact will not suffer. When there are results from our experiments, I will inform you</text>
+	</string>
+	<string id="klenov_vse_ok_4">
+		<text>While you work, I have other tasks that require my attention</text>
+	</string>
+	<string id="gologr_tehnik_0">
+		<text>I See the treatment has done you good</text>
+	</string>
+	<string id="gologr_tehnik_1">
+		<text>Yes, I have recovered! And now I am able to give treatment to the men. I Wanted to thank you for the help. I hope Cyclops has given you a tip-off on a cache?</text>
+	</string>
+	<string id="gologr_tehnik_2">
+		<text>Yes, I will find out about the cache. What are your plans now? I have an offer from Doctor Maples</text>	<!-- Changed 'Klyonova' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="gologr_tehnik_3">
+		<text>Maples? He still works? So, that means you have visited that Laboratory. I don't want to work for either the Mercenaries, or the Monolith</text>
+	</string>
+	<string id="gologr_tehnik_4">
+		<text>In Warlab the Monolith and the Mercenaries have been wiped out. The Freedom Faction has set up a base there. Maples is trying to make an artificial artefact, says that without you he can't do it.</text>	<!-- Changed 'Klyonova' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="gologr_tehnik_5">
+		<text>Okay, I will assist in this experiment. Im not a good fighter so I will need to be escorted to the Army Warehouse transition</text>
+	</string>
+	<string id="gologr_tehnik_6">
+		<text>I will escort you to the transition then..</text>
+	</string>
+	<string id="gologr_tehnik_7">
+		<text>I just need escorting to the transition. From there I can get to the lab by myself, I know a shortcut</text>
+	</string>
+	<string id="gologr_tehn_ok_0">
+		<text>We made it. Here's the path to the warehouses</text>
+	</string>
+	<string id="gologr_tehn_ok_1">
+		<text>Thanks Marked One, don't worry, I will be okay on my own from here. You meanwhile, need to look for the cache that Cyclops spoke about. We will meet again in Warlab</text>
+	</string>
+	<string id="gologr_tehn_ok_2">
+		<text>Farewell for now</text>
+	</string>
+	<string id="gologr_tehn_ok_3">
+		<text>For a reward I want to share with you information. I don't know whether it is important to you or not, in this region is one more cave and the entrance there is closed by a teleport. I made a key for this teleport. One month ago I sold it to a Stalker. I don't know his name, but I know that he is neutral. A second key to this teleport is impossible to make, only the original will work. The action of this key is delayed. It won't unlock immediately, it takes several hours. Here take this pair of stones I found on the path, for me they are useless, but I know that they will be useful to you</text>
+	</string>
+	<string id="ziklop_escho_taynik_0">
+		<text>Greetings Cyclops. I see the medicine already operates</text>
+	</string>
+	<string id="ziklop_escho_taynik_1">
+		<text>Yes, Vitkas has already recovered, and it is obvious that some of us need much more treament. It would be easier to be in a coffin, but I have hope. I have another cache for you</text>
+	</string>
+	<string id="ziklop_escho_taynik_2">
+		<text>As always with a riddle?</text>
+	</string>
+	<string id="ziklop_escho_taynik_3">
+		<text>Well, it's free only for babes! Listen:\nthe Cache is on a tree near to that,\nWhere the service was born once by the sentry.\nNearby the car empty costs\nOn rails coming to an end\nAnd the district all there dazzles with hills,\nWhere the Geiger counter squeals mad</text>
+	</string>
+	<string id="ziklop_escho_taynik_4">
+		<text>Again I play the role of Watson! Thanks, I will take a look. I will talk to Victor Hologram, he has gotten prettier with the fight-coloring of Indians stuck on his forehead!</text>
+	</string>
+	<string id="ziklop_escho_taynik_5">
+		<text>We will meet again, Marked One</text>
+	</string>
+	<string id="bar_kluk_say_0">
+		<text>Greetings, do you have any new info?</text>
+	</string>
+	<string id="bar_kluk_say_1">
+		<text>We have reconnoitered a little, but nothing new yet. How are you?</text>
+	</string>
+	<string id="bar_kluk_say_2">
+		<text>I have a sea of Information. I have found the girl, not the missing one, the Panther</text>
+	</string>
+	<string id="bar_kluk_say_3">
+		<text>What? Another woman? Was she also lost?</text>
+	</string>
+	<string id="bar_kluk_say_4">
+		<text>At first I thought she was a Merc boss. But she had other reasons for being there, I'm not sure what though. She did try to warn me about my cover being blown and helped me fight the Mercs who came to kill me. It wasn't possible for me to get past the teleport though</text>
+	</string>
+	<string id="bar_kluk_say_5">
+		<text>Sounds like she saved your ass. We really need to find a way inside that Lab</text>
+	</string>
+	<string id="bar_kluk_say_6">
+		<text>There was no key present and I don't know where to get one. I will try to find out. By the way, where is the Astrologer?</text>
+	</string>
+	<string id="bar_kluk_say_7">
+		<text>He is in the Cordon. You will need to go and see him and deliver the copy of my map. We will stay here a little longer. But first, you need to return the Signet ring to Lukash, and collect your reward. We will scout for paths to new territories and two other things. We will try to find the location of the girl and also the identity of the person who informed the Merc boss about you. From me to you a small gift, a useful blade. It is of more use to you. I here have recently killed a Samurai, Ha! Joke, I will be in touch by PDA</text>
+	</string>
+	<string id="warlab_gologr_doshel_0">
+		<text>You made it</text>
+	</string>
+	<string id="warlab_gologr_doshel_1">
+		<text>I will have a little rest first, then it will be possible to start work. Go and talk to Maples</text>
+	</string>
+	<string id="warlab_gologr_doshel_2">
+		<text>Well I hope you are able to help with the experiment</text>
+	</string>
+	<string id="warlab_gologr_doshel_3">
+		<text>I Hope so, we will meet again</text>
+	</string>
+	<string id="karta_zvez_say_0">
+		<text>Greetings, you looking for me?</text>
+	</string>
+	<string id="karta_zvez_say_1">
+		<text>Mmm, yes, It's easier to stop a flesh at full charge during mating season than to catch up with you in the Zone! Have you brought the map?</text>
+	</string>
+	<string id="karta_zvez_say_2">
+		<text>Yes I've brought it. Fang has told me to give it to you. Listen, about the missing girl, have you heard anything?</text>
+	</string>
+	<string id="karta_zvez_say_3">
+		<text>Heard! How could I not have heard. Everybody is searching for her, for different reasons</text>
+	</string>
+	<string id="karta_zvez_say_4">
+		<text>Do you have a plan?</text>
+	</string>
+	<string id="karta_zvez_say_5">
+		<text>I will stay here another day, it's necessary for me to study the map. I will leave for new territories and I will look for the girl there. I need you to track down and destroy a little man for me. The name of this little man is the Panther. Can you do that for me?.</text>
+	</string>
+	<string id="karta_zvez_say_6">
+		<text>Listen, I am not an asassin. It is possible to track down, but to kill? I will think about my decision. For now, I SHOULD VISIT Sidorovich -.</text>
+	</string>
+	<string id="kluk_na_limu_0">
+		<text>Fang, listen, have you already checked up on a path to Limansk? Zahara, by the way, sends you his greetings. I don't think he knows your here at the Bar</text>
+	</string>
+	<string id="kluk_na_limu_1">
+		<text>Yes, we checked up on this track, it works. I would have told you earlier, but I had not found a return path yet. I will go see Zahara and pass the evening emptying a bottle with him</text>
+	</string>
+	<string id="kluk_na_limu_2">
+		<text>It would have been a disaster if I was stuck there, but I do have some business there</text>
+	</string>
+	<string id="kluk_na_limu_3">
+		<text>I still have other news</text>
+	</string>
+	<string id="kluk_na_limu_4">
+		<text>What else did you find out?</text>
+	</string>
+	<string id="kluk_na_limu_5">
+		<text>The Pilgrim and I have checked up on one more path to the Red Forest. I need you to go there for a task</text>
+	</string>
+	<string id="kluk_na_limu_6">
+		<text>To the Red Forest? What kind of business could we have there?</text>
+	</string>
+	<string id="kluk_na_limu_7">
+		<text>There is information that a group of hunters has found some documents in the Red Wood. We need to get them. You after all have already had dealings with hunters. While you'r there reconniter the area. You will find the hunters easily, I will put a mark on your map. You can take care of your business in Limansk while you are there, up to you really. Communication will be as usual, through PDA. I will remain here in the Bar, the Pilgrim will go and reconnoiter a path into the Lost Village</text>
+	</string>
+	<string id="escape_boloto_perehod_0">
+		<text>Well, how was it in captivity?</text>
+	</string>
+	<string id="escape_boloto_perehod_1">
+		<text>I thought I was a goner! God was merciful. Listen, once again you have helped me. I will, absolutely free of charge, share with you some information. All the same, you would learn it sooner or later, but let me be the first who tells you about it</text>
+	</string>
+	<string id="escape_boloto_perehod_2">
+		<text>What kind of info? I hope it's not weather reports from South America</text>
+	</string>
+	<string id="escape_boloto_perehod_3">
+		<text>This is something really good. Near to the bunker of Sidorovich, there is a transition. It's a path to the Swamps. None of the rookies knows about it, but I've marked it on your map</text>
+	</string>
+	<string id="escape_razvod_gg_0">
+		<text>Hi, are you the guy doing business with Sidorovich?</text>
+	</string>
+	<string id="escape_razvod_gg_1">
+		<text>Yeah, that's me. He said he'd pay me 70,000Ru for some rare artefacts I brought him and he sold on. I was on my way to pick up the cash but there's too many soldiers around today. He said he'd send a trusted Stalker to pay me. Is that you?</text>
+	</string>
+	<string id="escape_razvod_gg_2">
+		<text>Yes, I'm the Stalker he called. He sent me an SMS to meet you here. Here's your money...</text>
+	</string>
+	<string id="escape_razvod_gg_3">
+		<text>Thank you, my friend. I thought Sidorovich had forgotten about me! Well, now I can leave the Zone tonight...</text>
+	</string>
+	<string id="sidor_razvod_raschet_0">
+		<text>Hi, Sidorovich. I helped the guy out as you asked. May I have my money back with the interest, please?</text>
+	</string>
+	<string id="sidor_razvod_raschet_1">
+		<text>What? What are you on about? What money? And what interest?</text>
+	</string>
+	<string id="sidor_razvod_raschet_2">
+		<text>You sent me an SMS asking me to pay a Stalker 70,000 in cash, and that you'd pay me back me with interest...</text>
+	</string>
+	<string id="sidor_razvod_raschet_3">
+		<text>Ah, so you're you're the latest victim. A couple of guys appeared in the Zone recently. One's a hacker and the other's a conman. They send fake SMS messages, supposedly from honest dealers, to rip off unsuspecting Stalkers. Don't feel bad, you're not the first to fall for it...</text>
+	</string>
+	<string id="sidor_razvod_raschet_4">
+		<text>Shit! I'm going to put a bullet through that bastard's head!</text>
+	</string>
+	<string id="sidor_razvod_raschet_5">
+		<text>Hey! Calm down. Don't you think he's taken that into account? His partner probably had a car close by, and they'll be far away by now. Look, it was my reputation he used to trick you, so I'll give something as compensation. Here's a couple of medkits and a decent artefact detector. You should be able to make your money back with those, okay?</text>
+	</string>
+	<string id="derevny_plen_0">
+		<text>Greetings, Pilgrim. I see you decided to grow back the beard. What's going on here with that portal?</text>
+	</string>
+	<string id="derevny_plen_1">
+		<text>A group of special troops has ambushed the village. They have set a trap for anybody coming into the territory. There is no way out</text>
+	</string>
+	<string id="derevny_plen_2">
+		<text>When they come to capture us I will kill them all</text>
+	</string>
+	<string id="derevny_plen_3">
+		<text>No!, these are not regular soldiers, such as in the Cordon. These are elite troops who have billeted here. Their mission is the physical elimination of all living beings in this chosen square of the Zone. There's been fighting in the village, a group of Stalkers have withdrawn to a former shop. I think they are trapped</text>
+	</string>
+	<string id="derevny_plen_4">
+		<text>You must be exaggerating, things can't be that bad here</text>
+	</string>
+	<string id="derevny_plen_5">
+		<text>You don't trust me? The bulk of the special troops are on a raid in the next village. That maybe gives us another day to live. We will still be stuck in here when they return. We can't get out, try for yourself!</text>
+	</string>
+	<string id="derevny_plen_6">
+		<text>Damn! So why didn't you warn me?</text>
+	</string>
+	<string id="derevny_plen_7">
+		<text>I did send a warning, I told Fang that I was in a trap. He has badly missunderstood what the situation really is</text>
+	</string>
+	<string id="kolmogor_say_0">
+		<text>Are you Special Forces? Is this a trick?.</text>
+	</string>
+	<string id="kolmogor_say_1">
+		<text>I am a neutral. I have come to help my brother, he sent a message that he was caught in an ambush. I got the key off a guard we killed outside. I can see that my brother is not here. Alright, I will search further, I know this village</text>
+	</string>
+	<string id="kolmogor_say_2">
+		<text>Pilgrim just told me a group of Stalkers were taking refuge in the former shop. However, I don't know where the shop is</text>
+	</string>
+	<string id="kolmogor_say_3">
+		<text>I know where it is. I see you are armed well and look experienced with weapons. I will be in your debt if you will help us</text>
+	</string>
+	<string id="kolmogor_say_4">
+		<text>Of course I will help, we wouldn't have got out of this trap if you didn't arrive</text>
+	</string>
+	<string id="kolmogor_say_5">
+		<text>Well then, let's not waste time. The shop is located at the edge of the village. When we get to the road go at once to the right</text>
+	</string>
+	<string id="kolmogor_say1_0">
+		<text>I sympathize with your loss. We were not in time. I hope you have other relatives?</text>
+	</string>
+	<string id="kolmogor_say1_1">
+		<text>I have a sister. But thank God she is not in the Zone. Though she is a fighter like me. Her nickname always seemed to fit her personality, 'Panther'</text>
+	</string>
+	<string id="kolmogor_say1_2">
+		<text>What? And how old would she be? Has it been a long time since you last saw her?</text>
+	</string>
+	<string id="kolmogor_say1_3">
+		<text>She is still young, just recently turned twentysix. It's been over a year since I saw her</text>
+	</string>
+	<string id="kolmogor_say1_4">
+		<text>If I am not mistaken, I think your sister is here in the Zone. I know her, but I don't know where she is at present. She was in good health last time I saw her. But it seems many people are starting to take interest in her. I could try to arrange a meeting for you</text>
+	</string>
+	<string id="kolmogor_say1_5">
+		<text>She is in the Zone? Are you sure you'r not mistaken? Please help me find her. And still I have another request: we need to eliminate the military staff that has set up a HQ in the central house on the hill. There should not be very many of them. They need to be taught a lesson, they just can't go around killing innocent people. I only have a few men so your help is required. After that we will have a conversation</text>
+	</string>
+	<string id="kolmogor_obsledovanie_0">
+		<text>Looks like they were planing to stay awhile</text>
+	</string>
+	<string id="kolmogor_obsledovanie_1">
+		<text>I have picked up a PDA of a Lieutenant, I will send a message to their commander and tell him his men now rot in hell! Take the Pilgrim and survey the village, see if any soldiers remain. When you get my message, comeback for your gift</text>
+	</string>
+	<string id="kolmogor_obsledovanie_2">
+		<text>This should be interesting</text>
+	</string>
+	<string id="kolmogor_obsledov_ok_0">
+		<text>All's clear in the village...</text>
+	</string>
+	<string id="kolmogor_obsledov_ok_1">
+		<text>Were there any problems?</text>
+	</string>
+	<string id="kolmogor_obsledov_ok_2">
+		<text>Other than some light resistance from some Spetsnaz zombies, and a few mutants, not really...</text>
+	</string>
+	<string id="kolmogor_obsledov_ok_3">
+		<text>Well, thanks for your help. Try to find my sister if you can, and I hope there's no further attack here before you return. Leave Pilgrim, if you would. He'll be useful here. As for a reward, it looks like you're already armed with better than anything I could give you, so please accept the transition coordinates from this village to Limansk, with my gratitude...</text>
+	</string>
+	<string id="kolmogor_sestra_ok_0">
+		<text>I've found your sister...</text>
+	</string>
+	<string id="kolmogor_sestra_ok_1">
+		<text>A huge thank you! I need to have a serious talk with her about why she's in the Zone!</text>
+	</string>
+	<string id="kolmogor_sestra_ok_2">
+		<text>No thanks is necessary. What's the situation with the military? Have they returned?</text>
+	</string>
+	<string id="kolmogor_sestra_ok_3">
+		<text>You've arrived just in time. We've been monitoring their communications and they are on there way to attack the village with a formidable air assault force. We need your help if we're to stand a chance against these bastards. Please take Panther into the cellar - the entrance is in the middle of the courtyard in front of this building. She'll be safe there from the fighting. After that, find yourself a defensive position...</text>
+	</string>
+	<string id="derevny_zashita_est_0">
+		<text>I don't think they'll be returning here. They don't have anyone left...</text>
+	</string>
+	<string id="derevny_zashita_est_1">
+		<text>I think you're right. Many lives have been lost, but even more have been saved...</text>
+	</string>
+	<string id="derevny_zashita_est_2">
+		<text>I will talk to Pilgrim and have him remain here to help protect Panther. Meanwhile, I will travel to Warlab, I have business to take care of there. I have found the PDA of their captain. They knew your sister would be here and were planning to wipe out the entire village</text>
+	</string>
+	<string id="derevny_zashita_est_3">
+		<text>I will examine the information on the PDA and let you know if I find any further data. I wonder why they are so interested in my sister? And once again I thank you, here take these coordinates for a transition from the Village to the Hospital</text>
+	</string>
+	<string id="marsh_pantera_say_0">
+		<text>This is quite a hiding place you found. By the way, do you have any brothers?</text>
+	</string>
+	<string id="marsh_pantera_say_1">
+		<text>Coming here was necessary. There have been several attempts on my life, someone is obviously hunting for me. I miss my two bodyguards. Yes, I do have two brothers. I have not seen them for over a year. Has there been any progress in finding the artefacts?</text>
+	</string>
+	<string id="marsh_pantera_say_2">
+		<text>I managed to meet a scientist who wants to try and make a copy of the Heart of the Poltergeist. But I have some more important news. First the bad news: It seems that you have only one brother now. One has been killed! Both of them have been working in the Zone. Kolmogor is alive and waits for you in the Lost Village. He was very surprised to learn that you were in the Zone</text>
+	</string>
+	<string id="marsh_pantera_say_3">
+		<text>Kolmogor is my older brother. And my younger, is no more. I will cry! But not now, later! For now we must go to the Lost Village and see my brother. I hope it will be quieter there. You know, recently, I have been receiving some strange SMS messages from someone trying to set up a meeting. They hinted that if I refused, they would kill my brothers. The meeting dead line just passed the day before yesterday. I thought it was just a hoax, but now I know it was real</text>
+	</string>
+	<string id="marsh_pantera_say_4">
+		<text>SMS? Extremely strange. From the data I found on your younger brother, nobody could even know you were related. Though recently I have ceased to be surprised by the turn of events. Someone has extensive communication access throughout the Zone, and this someone is obviously an enemy. Alright, we will go to the village. Then I will untangle this ball of riddles. Better for you to wait there. I have been sent an approximate location of a transition from the Marshes directly to the Village. I hope it's not hard to find: you remain here, and I will reconnoiter ahead. If all is clear, I will send you a signal</text>
+	</string>
+	<string id="boloto_provod_vstrecha_0">
+		<text>Hello swamp dweller, are we spawning mutants to create chaos? I search for a path towards the Lost Village. My comrade has given this area as an aproximate place to find the transition</text>
+	</string>
+	<string id="boloto_provod_vstrecha_1">
+		<text>Greetings Stalker, sometimes spawning creatures keeps the other artefact hunters away from this part of the swamp. There is a path but it's not at this spot</text>
+	</string>
+	<string id="boloto_provod_vstrecha_2">
+		<text>Can you tell me where it is?</text>
+	</string>
+	<string id="boloto_provod_vstrecha_3">
+		<text>Easily. But there are two conditions: I will tell you about the first one. Nearby, on the farm behind my back, quite often zombies appear with a controller. I have information that there is a stash of mutant embryos there. They are in one of the three or four backpacks hidden around the farm. These embyos are great for spreading panic and causing distractions, if you don't already know. Bring me a couple of the Zombie embryos and then we will talk about the second condition. If you can't find them, I won't show you the transition</text>
+	</string>
+	<string id="boloto_provod_vstrecha_5">
+		<text>If it was only me I wouldn't care about this transition, but I've got a girl to look after. She can fight but I want to take the shortest possible route for her safety</text>
+	</string>
+	<string id="boloto_provod_vstrecha_6">
+		<text>You're traveling with a female!??? I've not seen a woman in a long time. And I don't see one now, do we have an imaginary friend?</text>
+	</string>
+	<string id="boloto_provod_vstrecha_7">
+		<text>She waits, while I reconnoiter the path. Alright, I will go find the backpack on the farm</text>
+	</string>
+	<string id="boloto_provodnik_say_0">
+		<text>I have taken out the controller and found the backpack, what's next?</text>
+	</string>
+	<string id="boloto_provodnik_say_1">
+		<text>The second request is only monetary compensation. Local business, you understand. The price is 40,000Ru. Its usually 50,000, but I'm offering a discount. Considering the successful decision of the first problem and the presence of a woman. By the way, I still don't see her. was it a joke?</text>
+	</string>
+	<string id="boloto_provodnik_say_2">
+		<text>This better not be a rip off, do you even know of a path?</text>
+	</string>
+	<string id="boloto_provodnik_say_3">
+		<text>There are no problems I assure you. This is the first time I have shown this path to anyone. You can't find it without me</text>
+	</string>
+	<string id="boloto_provodnik_say_5">
+		<text>Here's your money. I will go and get the girl now</text>
+	</string>
+	<string id="boloto_provodnik_say_6">
+		<text>I will wait for you here and then we will go together. It's nearby, As soon as we approach the area of the transition give me the embryos and the mark will be put in your PDA</text>
+	</string>
+	<string id="boloto_provodnik_say_7">
+		<text>Screw this, she can find her own way out</text>
+	</string>
+	<string id="provodnik_v_put_0">
+		<text>We are ready, let's go. We are in a hurry</text>
+	</string>
+	<string id="provodnik_v_put_1">
+		<text>You really do have a woman! HUBA, HUBA!, follow me</text>
+	</string>
+	<string id="boloto_provodnik_say1_0">
+		<text>Are we here?</text>
+	</string>
+	<string id="boloto_provodnik_say1_1">
+		<text>Yes, this is the place. The transition is behind my back, use in good health. Good luck, and protect the girl. The Zone is full of morons and scum</text>
+	</string>
+	<string id="boloto_provodnik_say1_2">
+		<text>Thanks, morons are not in short supply outside the perimeter that's for sure! Farewell swamp dweller</text>
+	</string>
+	<string id="oxrana_pantera_say_0">
+		<text>That was quite a fight Pilgrim, you really can fight. You are to remain here and protect Panther. She is quite the fighter herself, but needs someone to watch her back while I'm gone</text>
+	</string>
+	<string id="oxrana_pantera_say_1">
+		<text>Great job, I get to babysit your girlfriend. I'm ready to kick some more ass and now I'm stuck in this village</text>
+	</string>
+	<string id="oxrana_pantera_say_2">
+		<text>Quit complaining and clean that macaroni out of your beard. But seriously, she needs someone to watch her back. There have already been attempts on her life...</text>
+	</string>
+	<string id="oxrana_pantera_say_3">
+		<text>Mmm, macaroni... Why did you have to bring up food? I will watch the girl - now let's see what these peasants have to eat...</text>
+	</string>
+	<string id="klenov_antena_0">
+		<text>Hello, is the artefact ready? I would have gotten here earlier but I've been busy with a lot of problems</text>
+	</string>
+	<string id="klenov_antena_1">
+		<text>Hello, It seems that I to will add one more problem to your list. We cannot produce a copy of the Heart of the Poltergeist without one more piece of equipment. I would have informed you by SMS, but I didn't want to risk our message being intercepted</text>
+	</string>
+	<string id="klenov_antena_2">
+		<text>Again something to bring, what is it?</text>
+	</string>
+	<string id="klenov_antena_3">
+		<text>My former colleagues of O-Consciousness made several mobile Psi-generators. They are extremely dangerous to any living thing in the surrounding area without special protection. This device generates not only Psi-energy, but it is also something like a teleport. It also can transfer mutants to or from its location. Without the energy source from this piece of equipment the experiment can't be completed</text>
+	</string>
+	<string id="klenov_antena_4">
+		<text>This no secret to me. I have talked to your former chief and have learned some things about such Aerials. Where do I find one?</text>
+	</string>
+	<string id="klenov_antena_5">
+		<text>You saw the Black Doctor and you still live? I don't know what he told you about me, but that he has not killed you, directs me to other thoughts. Even the fact that I am still alive makes me wonder if what we are doing is actually our free will. But this is only a theory. In practice: these devices are only used on the Generators, but paths to there are blocked to us so we don't know what's going on there. But my sensors have picked up a signal from one of these Psi-Aerials not from the region of the Generators. It comes from the Cordon strangely enough!</text>
+	</string>
+	<string id="klenov_antena_6">
+		<text>From the Cordon? I know this territory well</text>
+	</string>
+	<string id="klenov_antena_7">
+		<text>It means someone or some group from the O-Consciousness has visited the Cordon. Or someone knowing about this installation, has brought it and activated it. For what purpose? I can only assume it's for the zombifying and recruitment of Stalkers and catching and teleportation of mutants for research. Be careful, to disconnect it is almost impossible, but it has to be done. Unfortunately, I cannot give you a protective suit, there's not one ready. The only thing that I can give you is quite a good artefact. I will put a mark in your PDA about the approximate location of the antenna</text>
+	</string>
+	<string id="klenov_antena_8">
+		<text>I thought I had seen it all. But I have no idea what's waiting for me in the Cordon</text>
+	</string>
+	<string id="klenov_antena_est_0">
+		<text>Here's your aerial. I hope you will make a protective suit before you ask me to do something like that again. Theres enough mutant meat in the Cordon now to feed all the starving population of Africa!</text>
+	</string>
+	<string id="klenov_antena_est_1">
+		<text>You are alive? Forgive me, I didn't want you to be killed. Simply put, it's a miracle you were able to survive. Now we have everything we need to make the generator of artefacts</text>
+	</string>
+	<string id="klenov_antena_est_2">
+		<text>I hope so, contact me as soon as you acheive a result. I now go to the Lost Village, I need to find out what's going on there</text>
+	</string>
+	<string id="klenov_antena_est_3">
+		<text>Yes, yes. I was simply afraid that having learned that I'm interested in this aerial, the people from the O-Consciousness would take it away before you could get it. Unfortunately, it will take some time before we can finish the experiment. We will work as fast as possible</text>
+	</string>
+	<string id="mobil_torgash_vstrecha_0">
+		<text>Wow! A flying trader... Just like in America!</text>
+	</string>
+	<string id="mobil_torgash_vstrecha_1">
+		<text>Greetings. I'm Hoary, the mobile dealer. I lease this helicopter, with the pilot, from the military - with a large fee paid to a general, of course - and I specialize in bulk purchases. The local dealers aren't too happy about me taking some of their business, but I fill a niche they can't, and I never complain about them...</text>
+	</string>
+	<string id="mobil_torgash_vstrecha_2">
+		<text>What do you trade in?</text>
+	</string>
+	<string id="mobil_torgash_vstrecha_3">
+		<text>Anything. I'm a buyer. I can't compete with the ground dealers on trade-in prices, not with my 'overheads', but it saves you having to haul all your loot bit by bit to a local dealer. If we end up working well together, I can arrive on call when you have a lot of gear to dispose of quickly. I offer a fair price, and can also bring in items or weapons to order. I can also get other things for you, rare artefacts for example. Just bear in mind that the price of anything will need to include personal delivery by air, I'll need a large deposit on anything you order, and you'll need to have cash ready on collection...</text>
+	</string>
+	<string id="mobil_torgash_vstrecha_4">
+		<text>You don't get what you don't pay for, eh? So, can I order something right away?</text>
+	</string>
+	<string id="mobil_torgash_vstrecha_5">
+		<text>No, I don't know you well enough yet. The first few times we'll bargain, to get a measure of each other. If all goes well, I won't need to ask you for a deposit in future. For now, just dump the cheap stuff that you don't need. If you need to sell a pile of equipment quickly, or place an order, bear in mind how many others want to do the same thing. Also, that once I land I can't stay long - five to seven minutes tops. A military helicopter on the ground is on dangerous terrain, and I'm not just talking about mutants. There are many who'd like to plunder my shop and start a small war. Finally, if I land, and you're not there, I won't wait. Those are my rules, and they're based upon my experience...</text>
+	</string>
+	<string id="mobil_torgash_vstrecha_6">
+		<text>Understood. When's the next time you'll arrive?</text>
+	</string>
+	<string id="mobil_torgash_vstrecha_7">
+		<text>Consider this meeting a first trial, for acquaintance's sake. You know how I operate, so it's up to you when and where we meet next...</text>
+	</string>
+	<string id="sey_after_pobeg_0">
+		<text>Pilgrim, how does a veteran of the Zone screw up a simple task?</text>
+	</string>
+	<string id="sey_after_pobeg_1">
+		<text>Well, you didn't say I could tie her up. And I have to sleep some time, you know. I've informed Kolmogor. He's not in a good mood, and it's best to avoid him at the moment...</text>
+	</string>
+	<string id="sey_after_pobeg_2">
+		<text>I received an SMS from Panther. It was a delayed message, sent before she ran away, so I don't know where she is now, or whether she's even alive. Though I can guess who is involved. I'll send a message to the Chief of the Zone, and see what he has to say...</text>
+	</string>
+	<string id="sey_after_pobeg_3">
+		<text>The Chief of the Zone? The Black Doctor? This just keeps getting worse</text>
+	</string>
+	<string id="gener_prizrak_nachalo_0">
+		<text>What has happened here?</text>
+	</string>
+	<string id="gener_prizrak_nachalo_1">
+		<text>For a long time now, it is difficult for me to remember. It is not possible to approach the base, carefully, at first we will go to the village, there is where the scientists serving the Generators lived, recently a group of neutrals has located there. It is necessary to discuss the situation with them</text>
+	</string>
+	<string id="gener_prizrak_nachalo_2">
+		<text>I agree</text>
+	</string>
+	<string id="gener_prizrak_nachalo_3">
+		<text>I will go first. To begin with we will set away from the Lab, further to the left, around the bog</text>
+	</string>
+	<string id="gener_prizrak_nachalo_4">
+		<text>Lead the way..</text>
+	</string>
+	<string id="gener_prizrak_prishli_0">
+		<text>Why stop here?</text>
+	</string>
+	<string id="gener_prizrak_prishli_1">
+		<text>Davenko was not here. Neutrals, apparently, still in village. It pleases! We do so, I will be engaged with Bikes, and at the same time inquire of the private soldiers I meet. And you, try to communicate with the main entity, truth is I do not know who it is. It is necessary to pry into the account of the base of O-Consciousness, and markups, any data will be useful</text>
+	</string>
+	<string id="gener_prizrak_prishli_2">
+		<text>Ok, and we will do our part. Have a 'run in the sun'!</text>
+	</string>
+	<string id="gener_prizrak_prishli_3">
+		<text>I will go to the fires, if that, Whistle</text>
+	</string>
+	<string id="zemlyk_zadanie_00">
+		<text>I need to see whoever's in charge...</text>
+	</string>
+	<string id="zemlyk_zadanie_0">
+		<text>That will be me. What reason do you have for seeing the strange nonconformist in a helmet? In what warehouse of the Third Reich has it been dug out of? Is silent, instead of conversation SMS has sent. With a gun too by the way, German it is played. Well that's fine, I'm not about to ask. To me, the information you get you must hold. We with or friend should make way to the base which is here. There is data here that holds captive one good person</text>
+	</string>
+	<string id="zemlyk_zadanie_01">
+		<text>Which friend, and what information?</text>
+	</string>
+	<string id="zemlyk_zadanie_001">
+		<text>I don't know anything now, but come back in the morning...</text>
+	</string>
+	<string id="zemlyk_zadanie_1">
+		<text>The all people call it Frits. It's mutated! It has made all transformations correctly, the person it protects, you, here, so himself and conducts. The muzhik it good, responsible, it is masterful owns PDA. And Impress at it, especialy, any Stalker in the Zone will envy. A helmet, most abnormal. I do not know, where it has got to, but it gives almost 100% protection against wounds and damages against anomalies. But it's most important advantage, it forms a screen round the owner, if you have had time to notice, it is not designed for the living person but for devices and other technics. To define it, is possible only by Vizualko, by means of eyes. Now, for the account on the disk: there are more subcentral Zones, though it is more expensive. A joke. I will only tell of one, to pass to the base is impossible! The territory is that of the O-Consciousness. They have included new installations and have created something of a type of protective barrier. More detailed information you need to earn...</text>
+	</string>
+	<string id="zemlyk_zadanie_2">
+		<text>Earn?</text>
+	</string>
+	<string id="zemlyk_zadanie_3">
+		<text>You have two choices: either you pay 100,000 cash, or you prove your combat training. Bring down the helicopter that flies around the old lab. But it's not that simple, because you need to do it within eleven minutes. That's all you'll get before before the helicopter sends out an alarm signal! It is, seemingly, the original transferring antenna for base of the O-Consciousness, and the signalling session lasts just about eleven minutes. I can tell you one thing, though. The helicopter flies high, so to bring it down even with heavy arms is unrealistic. Use small arms first, just to piss off the pilots. They'll come and search for you, which will bring them lower. Then it's you or them. Succeed, and I'll give you a useful path from the Generators...</text>
+	</string>
+	<string id="zemlyk_zadanie_4">
+		<text>Here's your money. I'm not messing with an attack helicopter...</text>
+	</string>
+	<string id="zemlyk_zadanie_5">
+		<text>Money, ah, money. A good choice. I will tell you, to disconnect anybody from strangers is impossible! Telling that a protective field is there, never! Yesterday on base were Zavarushku, someone from them has arrived by helicopter, disabling the protective field for some minutes. At this time one of the scientists managed to run away from base, is now with us, and Frits just protects it. The hearing is excellent, it for certain hears our conversation, approach it, and it will pass you to the scientist. All you will learn. And into the transition account, excuse me, this information is not for sale</text>
+	</string>
+	<string id="zemlyk_zadanie_6">
+		<text>It's fine, I will try to keep within range for eleven minutes. I already communicated with chopper, happened simultaneously</text>
+	</string>
+	<string id="zemlyk_zadanie1_0">
+		<text>Greetings. I see, you're here for the Senior. To get hold of the information for me. We with our friend should make the way on base here. There is data that they hold captive one good person</text>
+	</string>
+	<string id="zemlyk_zadanie1_1">
+		<text>Greetings. There are more subcentral Zones, the most expensive info ever! A joke already! I will tell you about only one: Proiti, there an impossibly tough base of O-Consciousness. They have constructed installations and have created something of a type of a protective barrier. More detailed information need to be be earned</text>
+	</string>
+	<string id="zemlyk_zadanie1_2">
+		<text>Earn?</text>
+	</string>
+	<string id="zemlyk_zadanie1_3">
+		<text>You have two choices: either you pay 100,000 cash, or you prove your combat training. Bring down the helicopter that flies around the old lab. But it's not that simple, because you need to do it within eleven minutes. That's all you'll get before before the helicopter sends out an alarm signal! It is, seemingly, the original transferring antenna for base of the O-Consciousness, and the signalling session lasts just about eleven minutes. I can tell you one thing, though. The helicopter flies high, so to bring it down even with heavy arms is unrealistic. Use small arms first, just to piss off the pilots. They'll come and search for you, which will bring them lower. Then it's you or them. Succeed, and I'll give you a useful path from the Generators...</text>
+	</string>
+	<string id="zemlyk_zadanie1_4">
+		<text>Here's your money. I do not want to risk tangling with a military chopper, such an extremely dangerous endeavor!</text>
+	</string>
+	<string id="zemlyk_zadanie1_5">
+		<text>Money, ah, money. A good choice. I will tell you, to disconnect anybody from strangers is impossible! Telling that a protective field is there, never! Yesterday on base were Zavarushku, someone from them has arrived by helicopter, disabling the protective field for some minutes. At this time one of the scientists managed to run away from base, is now with us, and Frits just protects it. The hearing is excellent, it for certain hears our conversation, approach it, and it will pass you to the scientist. All you will learn. And into the transition account, excuse me, this information is not for sale</text>
+	</string>
+	<string id="zemlyk_zadanie1_6">
+		<text>Fine, I will try to keep within for eleven minutes. I already communicated with the chopper, happened simultaneously</text>
+	</string>
+	<string id="zemlyk_zadanie1_ok_0">
+		<text>Everything, I have destroyed the helicopter. And in time!</text>
+	</string>
+	<string id="zemlyk_zadanie1_ok_1">
+		<text>It is laudable. For me, payback. As for the information account: I will tell you, to disconnect anybody from strangers is impossible! Telling that a protective field is there, never! Yesterday on base were Zavarushku, someone from them has arrived by helicopter, disabling the protective field for some minutes. At this time one of the scientists managed to run away from base, is now with us. Look for Frits, the nonconformist local, it just protects him, he'll pass it to you. Pay attention, do not turn special, ther is a seperate theme. I will tell only the following: the Muzhik is good, responsible, masterful, owns PDA. A helmet, abnormal it is. I do not know, where he has gotten it, but it gives him almost 100% protection against wounds and damages from anomalies. But it's most important advantage, it forms a kind of screen round the owner, if you have had time to notice, it is not defined for a living person but for devices and other technics. To define it, is possible only by Vizualko, by means of the eyes. So here. from the runaway scientist you will also receive information</text>
+	</string>
+	<string id="zemlyk_zadanie1_ok_2">
+		<text>Already something. Thanks</text>
+	</string>
+	<string id="zemlyk_zadanie1_ok_3">
+		<text>Yes, here still: hold coordinates to Perehodik? in Hospital. Unequivocally, to you and your companion it WILL be useful</text>
+	</string>
+	<string id="zemlyk_zadanie1_neud_0">
+		<text>I Was at war with choppers! Time was not sufficiant, was late. Exhausted a heap of Cartridges!</text>
+	</string>
+	<string id="zemlyk_zadanie1_neud_1">
+		<text>Well. This result, truth is, price has gone up, 50,000Ru, still, less than twice, considering your efforts but if you do not have such a sum, or conversation will cease</text>
+	</string>
+	<string id="zemlyk_zadanie1_neud_2">
+		<text>Take about being Fleeced!. Here, I'm related to the Rockafelers anyway, Douche</text>
+	</string>
+	<string id="zemlyk_zadanie1_neud_3">
+		<text>Huh? Who? Never mind. Here's the Information: I will tell you, to disconnect anybody from strangers is impossible! Telling that a protective field is there, never! Yesterday on base were Zavarushku, someone from them has arrived by helicopter, disabling the protective field for some minutes. At this time one of the scientists managed to run away from base, is now with us. Look for Frits, the nonconformist local, it just protects him, he'll pass it to you. Pay attention, do not turn special, ther is a seperate theme. I will tell only the following: the Muzhik is good, responsible, masterful, owns PDA. A helmet, abnormal it is. I do not know, where he has gotten it, but it gives him almost 100% protection against wounds and damages from anomalies. But it's most important advantage, it forms a kind of screen round the owner, if you have had time to notice, it is not defined for a living person but for devices and other technics. To define it, is possible only by Vizualko, by means of the eyes. So here. from the runaway scientist you will also receive information</text>
+	</string>
+	<string id="andersen_vstrecha_0">
+		<text>Greetings. That's an unusual surname you have. Are you related to Hans Christian?</text>
+	</string>
+	<string id="andersen_vstrecha_1">
+		<text>Greetings. Yes, Hans, the great protector of street corners everywhere! And correspondingly be impressed, but am only one! Yea, does that alone force some to come? Yea, THEY will for sure come! But time, it has silently slipped by you, mean while all's well here. What brings you, to discuss?</text>
+	</string>
+	<string id="andersen_vstrecha_2">
+		<text>Not presently. We'll wait for our chat in the FSB. I am simply curious. Recent gossip from the base suggests the girl may be there. We should get on base with the use of your friend. It's necessary to gain entrance</text>
+	</string>
+	<string id="andersen_vstrecha_3">
+		<text>h?.. Where all the Cheese-Pine forest also has gone. Yes, really, a neutral named Kombez and the girl arrived yesterday by helicopter. Ther was a time they could land without problems, access to them was always available. Things are different now, we would be defeated at once! Psi-antenae are used against any strangers. Further, after conversation with the senior Monolithian of Protection, there was some kind of conflict, reason is unknown, but there was gun fire. Three Monolithians have been killed. Whether the girl is alive, I do not know. Further, while he was there my friend, Solvador was in on Zavarushku. Managing to disconnect the aerial on pairs of minutes. I have made from this a base of movement. Here I'll sit, nothing to do further. There is no place to go. I am afraid, they will come for me</text>
+	</string>
+	<string id="andersen_vstrecha_4">
+		<text>No place to go? How about disconnecting these Aerials? With one, I have already gotten acquainted, were mixed impressions!</text>
+	</string>
+	<string id="andersen_vstrecha_5">
+		<text>Strange things recently began to occur. We worked on O-Consciousness. In the bunker under the base, Warlab it is called. But some time ago it was necessary to be urgently evacuated. There it became dangerous, the bunker was grasped by Mercenaries and who's there now I do not know. The door code has been blocked. Because of loss of workers, the bunker is only powered by two generators. And on the base something similar, the power was replaced somehow. We are held here under protection by Fanatics, and we are alive only because we keep watch and in time will reprogram those Psi-aerials. To disconnect them from a distance is unrealistic. Ah, do you hear?? The helicopter!!!! I know it's for me!!!! My God, death has come for me! A-aaa!</text>
+	</string>
+	<string id="andersen_vstrecha_6">
+		<text>the Helicopter? Yes, I hear it. Geez, don't have to panic! I'll go see what's up. LOOK, you are important to me ALIVE, not cold meat. So just calm down and wait here without shitting yourself!</text>
+	</string>
+	<string id="black_dok_gener_say_0">
+		<text>Now that's something like it. Chief of Chukotka welcomes you. Moreover and not one</text>
+	</string>
+	<string id="black_dok_gener_say_1">
+		<text>Your sarcasm to me is clear. After you have visited me in the Hospital, could not be kept from a reciprocal visit. Not one? Yes, I have employed new children. It's not Mercenaries and not Monolithians. Real Pros! How more faithfull only a terminator with a chip in the head can be! Expensive to manage, but time demands victims. These people, are not experts, from the poor countries, work for pennies! Some idea that it's for the 'Native land and heroism', morons. Grandiosely handing over to Destruction of the Posthumous Ordenok, and after, the memory of their families in Nischite. My eagles work only for money and only for themselves and the native. The family, is more important than the Native land, whether not so? If they are lost, that know that their families will be provided for all their life. Therefore they work unquestioning. I have arrived to you with a Mercenary motive, I hope for understanding</text>
+	</string>
+	<string id="black_dok_gener_say_2">
+		<text>Yes, simple, population control</text>
+	</string>
+	<string id="black_dok_gener_say_3">
+		<text>Our needs at present go in parallel so mutual cooperation will be advantageous. The girl is necessary to you, my base back is necessary to me. Without the last two working generators under my control, the base has passed under control to one person. Someone whom both of us know all too well!</text>
+	</string>
+	<string id="black_dok_gener_say_4">
+		<text>Yes? And who's this mysterious Mr. H.? Eh. I wanted to tell YKS, instead said involuntarily. Forgive</text>
+	</string>
+	<string id="black_dok_gener_say_5">
+		<text>Anything. Slang with the Ukrainian accent I have gotten used to Russian. Learn who this person is, once on base. But now neither me nor you can pass, Psi-aerials have been reprogrammed. But there is a way to disconnect them. I know that Andersen has run away, remarkable!, one of my best employees! It had a universal key for switching off the Aerials. One snag, this key operates in a radius of two metres from the Aerialb but there's a hook. There is in the Zone a person to whom, forgive, 'like a moth to light' follows this radiation. To these Aerials, truth be, as far as I know, it goes untested. Whoever this person is certainly must be the former dealer from the Forgotten Village. Boatswain, they call it. Where it's now I do not know, you should find out and report back here. I know only that he drinks like camel!</text>
+	</string>
+	<string id="black_dok_gener_say_6">
+		<text>Where I will find it? I've been in the Zone for a long time, but such a name I've never heard</text>
+	</string>
+	<string id="black_dok_gener_say_7">
+		<text>You have friends. You havn't off'd em all yet have you? No, good, certainly somebody knows something. Without it we'r not getting on that base! It is necessary to search for this person, Andensen will wait. I will leave a pair of my men for it's protection. I will talk personally with them. Only, please, tell to this relict of Germany that I have passed. My fighters have different problems</text>
+	</string>
+	<string id="black_dok_gener_say_8">
+		<text>Good, I will ask Ghost, maybe Navryat later. Yes, let's go, Frits will pass you</text>
+	</string>
+	<string id="gener_prizr_udav_0">
+		<text>Well, getting accustomed? Who has arrived? Black Dock?</text>
+	</string>
+	<string id="gener_prizr_udav_1">
+		<text>Yeh, sorta. I'm starting to begin information gathering. Something seems unpleasant about this Dock. Judging by it's kind, vague guesses come to me Prisledov. How closed are the eyes of the people! The representative of O-Consciousness is embracing the PEOPLE to VOTE, vote for new deputies! Who, just a couple of months back almost annihilated us!</text>
+	</string>
+	<string id="gener_prizr_udav_2">
+		<text>Situation has changed little. Meanwhile, I compell you to cooperate with us. By the way, you do not know Boatswain?</text>
+	</string>
+	<string id="gener_prizr_udav_3">
+		<text>Boatswain? I heard about him, never met him. Semetsky said that it's our former shopkeeper! still a vagabond and a drunk! And you, what're you here for?</text>
+	</string>
+	<string id="gener_prizr_udav_4">
+		<text>I should find this vagabond, moreover and a dust from it to blow off - that anything with it does not happen. You not in a course, it are live?</text>
+	</string>
+	<string id="gener_prizr_udav_5">
+		<text>I do not know. Semetsky it has come across casually - in old cave that at near The rail-bridge on Marshes. But it was one month ago</text>
+	</string>
+	<string id="gener_prizr_udav_6">
+		<text>Appears so. You here info collect, have a rest, and I should be winded on a Marsh. Lines this Boatswain fought. I will go with Black Dock I will communicate - can on the chopper will throw. One shit while on base of Monolithians to us not to make the way</text>
+	</string>
+	<string id="black_dok_gener_polet_0">
+		<text>Well, Doctor, have calmed the former employee?</text>
+	</string>
+	<string id="black_dok_gener_polet_1">
+		<text>Why were? Soon I from here will take away it, he agrees. Protection additional I will leave - so more easy. What you, have new data?</text>
+	</string>
+	<string id="black_dok_gener_polet_2">
+		<text>Yes. It is necessary to be winded on a Marsh. Will throw on a revolving object?</text>
+	</string>
+	<string id="black_dok_gener_polet_3">
+		<text>it is good, I will throw. But I will land outside of territory - to fly by the helicopter over bogs dangerously. So dress on a belt all that is from radiation - Fonit will be strong. Otherwise you will die. I ask, sit down in the helicopter and it is departed</text>
+	</string>
+	<string id="udav_vstrecha_0">
+		<text>Faugh... Well and Bomzhatnik you here have arranged. Moreover also it is drunk as a cobbler. And Vidon at you corresponding - last shirt has sold - alas the controller. Apparently you also are the Boatswain. Business at me to you</text>
+	</string>
+	<string id="udav_vstrecha_1">
+		<text>Well, I the Boatswain also what? I drink also a grief I do not know. What for Pritopal?</text>
+	</string>
+	<string id="udav_vstrecha_2">
+		<text>is shorter, gather and have gone, on road I will tell - can you will sober up it is sensitive. We go on Generators</text>
+	</string>
+	<string id="udav_vstrecha_3">
+		<text>the Fig to itself. That I there have forgotten it? I will not go, to me and here it is good. And generally - give on 100g, can and I will walk, if a gun yes cartridges you will give - I have spent on drink the, one old PM remained</text>
+	</string>
+	<string id="udav_vstrecha_4">
+		<text>Eh is not present... On hundred gram we with you on arrival will pass. And that feet at you and so are braided more purely language. And it is dangerous to Down to give that to you, though it is necessary - though in air for Otpugivanichya you will do some shooting</text>
+	</string>
+	<string id="udav_vstrecha_5">
+		<text>If so when we will come - on a bottle we will drink. And in general, on which I to you have surrendered? Strange. You like are not similar to the gay person... All right, I will go on air I will leave - stirs up something</text>
+	</string>
+	<string id="udav_vstrecha_6">
+		<text>It is a pity at me a mirror is not present, and I would show that, to whom you are similar. And fuck to you the weapon - a stench such that their gas masks will not help snorks, and Vidon at you such that controllers Porazbegutsya. I too on air - in yours Bomzhatnike such aroma, what even flies all have died. Channel 5, a pancake. Eh, and I thought that I know that such a stench. I will go SMS to the Black Doctor I will send - can chopper will send, and that not to drag to me you</text>
+	</string>
+	<string id="udav_vstrecha_poshli_0">
+		<text>Everything, we are put forward. We go to area of a cemetery at church. Will arrive a chopper for us</text>
+	</string>
+	<string id="udav_vstrecha_poshli_1">
+		<text>Well, we will go. Good luck</text>
+	</string>
+	<string id="udav_vstrecha_poshli_2">
+		<text>do not lag behind and keep nearby, and that will presoak, God forbid</text>
+	</string>
+	<string id="udav_vstrecha_poshli_3">
+		<text>it is good, only overland we will go - I am afraid some water, and very much do not hurry - from a hang-over heavy long to go</text>
+	</string>
+	<string id="udav_na_generatorah_0">
+		<text>Glory to eggs, we have reached. The poor pilot - chopper became Grub on the floor, yes Fume there such that eyes cuts</text>
+	</string>
+	<string id="udav_na_generatorah_1">
+		<text>Well, I not purposely. But - almost already sober</text>
+	</string>
+	<string id="udav_na_generatorah_2">
+		<text>it is fine, move to fires - you will find there Ghost - it from almost sober absolutely sober will make you. And I while will visit Andersen, there is to it pair of questions</text>
+	</string>
+	<string id="udav_na_generatorah_3">
+		<text>it is good, with your Ghost we Wait a on a small bottle and VMAVHEM!</text>
+	</string>
+	<string id="ander_joystik_say_0">
+		<text>Hello. I see after dialogue with the Black Doctor you has calmed down a little</text>
+	</string>
+	<string id="ander_joystik_say_1">
+		<text>Greetings. Yes, he has told that will take away us with Solvadorom to itself, we will work in safety. Protection has left</text>
+	</string>
+	<string id="ander_joystik_say_2">
+		<text>Last time we have not finished conversation. Me interests, as it is possible to disconnect psi-aerials</text>
+	</string>
+	<string id="ander_joystik_say_3">
+		<text>Is, was more true at me Priborchik one. The game console. Well, during free time from work we with a companion in the Stalker liked to be cut - game such is... And so, for convenience I in this game console have built in the chip for reprogramming of these aerials. But there is one but - during our last research campaign on territory of Generators I put it down somewhere. We then investigated soil on possibility of a lining of cables and connection of the third generator. Itinerary and halts where I could put this game console at me is. Without it - the psi-antenna not to disconnect</text>
+	</string>
+	<string id="ander_joystik_say_4">
+		<text>Well - all is better, than anything. Throw off to me in PDA your route - I will be run, I will look - can and I will find</text>
+	</string>
+	<string id="ander_joystik_say_5">
+		<text>Here, hold. And still something. To search better during dark time - I know that it is more dangerous, but the game console - small... It has a feature - it causes easy fluctuations of air and radiates a reddish luminescence within a two metre radius - it should be visible much better, than in the afternoon at its night. Yes, also I advise to go precisely on our route - I could put it down somewhere and not on a halt. If you will find - bring - I will make to the program of the chip of change and it will be possible to disconnect Psi-antennae</text>
+	</string>
+	<string id="ander_joystik_say_6">
+		<text>So. All right. Itinerary at me in PDA. I will go I will look, as my friend, Ghost lives, I will wait darkness and I will go to search</text>
+	</string>
+	<string id="ander_joystik_ok_0">
+		<text>Here your game console. What further?</text>
+	</string>
+	<string id="ander_joystik_ok_1">
+		<text>Yes, it it. And further - all is simple. Now I activate it on switching-off of aerials. Will work not at once - through any time. That they will be disconnected are it is conclusive, only there is one hitch: radius of action of the game console - about two metres. ?????? it is necessary to approach to the disconnected antenna almost closely. I could go, but you in a course, than it will end - after all I the fugitive</text>
+	</string>
+	<string id="ander_joystik_ok_2">
+		<text>In this respect - do not worry, there is a variant. How many all aerials?</text>
+	</string>
+	<string id="ander_joystik_ok_3">
+		<text>All their three - two workers, one on repair at Solvador. I hope that he has not had time to repair it. If all turns out, I ask, when will begin working, to track, that it was not lost - it the good person, but also, it has a helpful information</text>
+	</string>
+	<string id="ander_joystik_ok_4">
+		<text>I'll try, certainly... But - at me slightly other purpose for base capture. At least - I will do the utmost</text>
+	</string>
+	<string id="prizrak_frits_talk_0">
+		<text>Hello. How affairs? Judging by SMS there are news?</text>
+	</string>
+	<string id="prizrak_frits_talk_1">
+		<text>Greetings. Yes, is which-that. In the first, has found out about a path one - here co-ordinates. Conducts to Pripyat. Is and still info, truth unchecked. It seems that that guy that protects the scientist, at all the guy</text>
+	</string>
+	<string id="prizrak_frits_talk_2">
+		<text>Eh.???</text>
+	</string>
+	<string id="prizrak_frits_talk_3">
+		<text>Here and I at first Eh...??? It seems that it is a fruit of imagination of any advanced and inflamed mind of one of scientific husbands. The illegitimate son...</text>
+	</string>
+	<string id="prizrak_frits_talk_4">
+		<text>Ghost, you give, is easier - I in degrees of relationship and illegitimate conception badly I understand</text>
+	</string>
+	<string id="prizrak_frits_talk_5">
+		<text>It is possible and is easier - a cyborg it, android. The car? Detectors do not define it, SMS it rivets without getting PDA... I here have observed - on need does not go, does not eat, vodka does not drink. Has tried even to arrange provocation - at own risk - from a colt in it fired - any reaction. Asked at local children - the mute has come here very long ago, type. Is not rude, on roagon does not climb. And in general - we already time 10 saw it, and it conversation constantly begins with one phrase - type at us newcomers, go to the Fellow countryman... To Protect the scientist himself it was caused. More shortly, the ear should be held Vostro - H.Z. What the task at it and who operates it</text>
+	</string>
+	<string id="prizrak_frits_talk_6">
+		<text>Here it is news. It seems that a handwork of the Black Doctor. This local Old man-hottabych - still that bigwig. All right, I will leave for a short while, a thing it is necessary to find for one, and you while Bomzhika mine Vporyadok result - that it was sober as a cucumber - it will be extremely necessary to us - it appears, on this dealer psi-radiation does not operate - as I have understood, on it these psi-aerials and tested</text>
+	</string>
+	<string id="udav_pabota_0">
+		<text>Greetings. I see Ghost has returned you interest not only to vodka, but also to life. Give, the uncle, it is necessary to work</text>
+	</string>
+	<string id="udav_pabota_1">
+		<text>Well. To work so to work. What it is necessary to make?</text>
+	</string>
+	<string id="udav_pabota_2">
+		<text>the Problem simple, but only you can make it. Here's the game console. Push it in a backpack. Everything that is required, it to reach base of Monolithians and as you the former dealer, and nowadays the vagabond - suspicions should not to cause special your occurrence. You should pass simply near to two psi-aerials - you will notice them at once, and can be and earlier already saw. It is all. After - you can come back in village. I will mark you - that you were displayed on screen PDA and I spend to border of an operative range of psi-aerials - further anybody, except you cannot pass. Yes, also look - how many approximately there at Monolithians and whether there is a girl...</text>
+	</string>
+	<string id="udav_pabota_3">
+		<text>the Girl? All right-all right, any more I do not ask. Saw I already earlier these aerials. Give the device, and we will go. It is necessary to walk - means, we will walk</text>
+	</string>
+	<string id="udav_pabota_4">
+		<text>We go. But remember, if that - help I to you cannot... Be more careful. I will wait for you at border of a deadly Zone</text>
+	</string>
+	<string id="udav_pabota_ok_0">
+		<text>the Boatswain, you have perfectly worked. Go to a fire, have a rest, further - already our problems</text>
+	</string>
+	<string id="udav_pabota_ok_1">
+		<text>If the old scent to me does not change, it seems that there not one chopper. The second I did not see truth so I can not confirm. Yes, here still that - on base precisely there are two ways - one - through gate as there was I - they are opened. There is also a second way - on the other hand the fence is destroyed - there bags with sand, towers and good protection</text>
+	</string>
+	<string id="udav_pabota_ok_2">
+		<text>Mda, I feel, will get to us on nuts. But what there is our life? Correctly... Means - we will risk and help out of trouble the person. We will go, while radiation from aerials still actively, there is time to think, as it is better to get on this base</text>
+	</string>
+	<string id="udav_pabota_ok_3">
+		<text>Yes, it agree. We are necessary to nobody, at least - I. And if to whom are necessary - so it only to the native. I will specify: not to the Native land, and native. In life there should be a core for which and it is necessary to keep. To the death. My help is necessary?</text>
+	</string>
+	<string id="udav_pabota_ok_4">
+		<text>Is not present, thanks. Have a rest. After if it is live I will remain - we will talk</text>
+	</string>
+	<string id="prizrak_shturm_say_0">
+		<text>Well, our time, the brother has come. The question price - only one saved life, the information and the sea of the ruined lives... Can also ours with you. It of that costs? Or to spit and easy to collect Arty and to drink vodka, and then till the end of life to carry a stone on a Soul and to deny assistance to the one who needs it? It will be difficult. Quietly to make the way not Udast'sya, to wait for the help especially there is no place - anybody from sane will not get under helicopters</text>
+	</string>
+	<string id="prizrak_shturm_say_1">
+		<text>Can to Fang and to the Pilgrim Malyavu to send? Will help, unequivocally</text>
+	</string>
+	<string id="prizrak_shturm_say_2">
+		<text>So so but while they will approach - probably, will be already late. The people on base too not fools, though also fanatics. I offer: to send SMS to the Black Doctor - let will help and to try to persuade to go with us of this tank by name of Frits - at the same time and we will check up it</text>
+	</string>
+	<string id="prizrak_shturm_say_3">
+		<text>As though this check by our death has not ended. Figs knows that at it in a head or in the chip, which in a head. On the other hand - even if it and not the person make it your Black Doctor whom it is correct about it could only holds back - there is nobody more. Talk over with this Doctor if he promises support also this Frits with us will go</text>
+	</string>
+	<string id="prizrak_shturm_say_4">
+		<text>And we will make. If it will turn out - I will send it bypassing base - there where according to the Boatswain of a fence is not present - if fire do not help, so though the attention Otvleket will make a noise yes. Well, and to us - gate remain. There and broken as the turmoil will begin</text>
+	</string>
+	<string id="prizrak_shturm_say_5">
+		<text>Eh, through gate, so through gate. Only let rustles more feasibly, Russian should die with noise and music...</text>
+	</string>
+	<string id="prizrak_shturm_say_6">
+		<text>Yes, it is better with music... Unaided, but with hope - and it is all in a root changes. All right, patch Bron'ka, and I have gone SMS to send - with Fritsem not to talk - only through SMS - it mute type... Yes, by the way - anybody also is not going to die - we necessarily will make it. If I will settle a problem - on hundred gramme and in a way</text>
+	</string>
+	<string id="prizrak_shturm_say_7">
+		<text>Well... I Wait for a signal. You will approach, as all you will settle</text>
+	</string>
+	<string id="priz_shturm_say1_0">
+		<text>Well... The Dock like will help, a question - when. Jerry has unexpectedly quickly agreed and has left to take of a position. We will go also on the sly, the psi-field like was already disconnected. Our purpose - to get on base through the main gate</text>
+	</string>
+	<string id="priz_shturm_say1_1">
+		<text>Then - on Ryumahe for bravery and in a way</text>
+	</string>
+	<string id="ch_dok_proval_0">
+		<text>Your Base. What from me it is necessary to you?</text>
+	</string>
+	<string id="ch_dok_proval_1">
+		<text>I will take away the Body. Do not worry, not for experiments. Death - concept rather relative. We not Gods, but also not Gods burnt pots - can, yet late, it is possible to undertake something else. And in this case objections of you are not accepted</text>
+	</string>
+	<string id="ch_dok_proval_2">
+		<text>Why you have kept silent about the originator of events? And, by the way, about Fritse too?</text>
+	</string>
+	<string id="ch_dok_proval_3">
+		<text>The matter is that I am the indirect originator of this drama. When there was our second conversation, to correct anything already it was impossible. But I hoped for the best outcome. You searched for truth? Soon you learn it, and at all that that as it seemed to you, you have learnt in Chernobyl. And who such Frits? ?. It is that silly Nazis? No, I am not hold such people. Why you have asked?</text>
+	</string>
+	<string id="ch_dok_proval_4">
+		<text>Yes, seemingly, that both of us do not know all truth. But we learn, at least I. The situation is similar to life for Perimertom - all and all have wallowed in lies and corruption. Take away a body of the Panther and keep me informed. If your inspection reveals impossibility something to undertake in respect of revival - inform, it will be necessary to bury the girl on Russian custom. And we... And we while will go to village and we will remember those who with us already is not present and never will be. And after - I will find the geek who is all have arranged</text>
+	</string>
+	<string id="ch_dok_proval_5">
+		<text>Well... I will inform you on results. Yes, I have taken away the people from village - to Andersen now threatens nothing, it will return on base itself</text>
+	</string>
+	<string id="priz_after_proval_0">
+		<text>Here it, bitter salt of life. All that, good that comes, and then here so disappears - leaves deep wounds which you will not take medkits - they in a shower, and us will pursue all life...</text>
+	</string>
+	<string id="priz_after_proval_1">
+		<text>Feelings - they, the brother, only in separation are learnt, and only time heals such wounds. Yes... To the girl has got before death... Geeks - they and in the Zone geeks. I Syshal, Black Dock want to take away a body?</text>
+	</string>
+	<string id="priz_after_proval_2">
+		<text>Yes, but I do not think that at it something will turn out. And no Live Heart here will help. We will go, we will find the Boatswain and Vmazhem for the peace of soul... And after - and after I will find it Schmuck I will presoak. No, it is too easy. I will think up something</text>
+	</string>
+	<string id="priz_after_proval_3">
+		<text>You have learnt it?</text>
+	</string>
+	<string id="priz_after_proval_4">
+		<text>Certainly. Only here to learn, where he has moved and where on this Earth guilty for truth to search. Also that then - after when I will find it...</text>
+	</string>
+	<string id="priz_after_proval_5">
+		<text>the Question of Philosophy. We will go to village, let the Black Doctor takes away a body. We will drink - I will tell you one thing, now yet time while. Yes, Fritsa should be thanked</text>
+	</string>
+	<string id="botsman_say_0">
+		<text>Greetings, the seaman. Failure at us... We are live, and it is not present. And the originator is not punished. No, we were not afraid, though and not men of courage, we were not in time a little. Give, whether we will drink that... I after all your debtor</text>
+	</string>
+	<string id="botsman_say_1">
+		<text>Brave it not the one who is not afraid, and the one who is afraid, but does. About a duty forget. To me are not necessary neither money, nor things, especially - for a good deed worked. It is a pity that so at you it has turned out. With binge I have fastened, but a bittern together with you. Such situation is familiar to me</text>
+	</string>
+	<string id="botsman_say_2">
+		<text>Br... Vodka, an infection Is strong, but treats it is a little. Can about itself Raskazhesh?</text>
+	</string>
+	<string id="botsman_say_3">
+		<text>Yes there is nothing to tell especially. That Prapor and I were, the submariner. My boat and crew - were lost. There was no I then together with them... Heard about Kursk? After lies concerning destruction of a submarine - I have washed down, have not sustained. The insult for Russia and for seamen took. Well, would tell truth - all would be easier. Here, where cowardice. Has come to the Zone - and more and there was no place to go, here the laws - cruel, but more fair. Tried to trade - yes what dealer from the seaman... And further - further you know</text>
+	</string>
+	<string id="botsman_say_4">
+		<text>Eh... The Second glass has even worse gone... What were you silent?</text>
+	</string>
+	<string id="botsman_say_5">
+		<text>Yes I not especially from the talkative... Seamen - they the people silent. Here, video at me remains about that submarine, truth quality - itself understand... And if do not know about the true reasons of its destruction - look on the Internet - for certain, in the Zone it is... Remember, Marked One: always it is necessary to tell and search for truth, instead of Schmuckritsya, as some. Otherwise - a penny to you the price... Those who die for the Native land, should not be forgotten, however behind perimetre - all not so...</text>
+	</string>
+	<string id="botsman_say_6">
+		<text>Ufff, the third Shkalik has gone... Well, something vodka here the jet... Or was tired... Ghost go more close, we will look that for video at the Boatswain remains... Yes same Shevchyuk sings... The Good muzhik... Well, stirs up something me...</text>
+	</string>
+	<string id="priz_after_video_0">
+		<text>Oh... The Head heavy, as well as video from the Boatswain... And by the way, where it?</text>
+	</string>
+	<string id="priz_after_video_1">
+		<text>Has left</text>
+	</string>
+	<string id="priz_after_video_2">
+		<text>As has left? Where? The Vagabond has appeared the decent Russian person...</text>
+	</string>
+	<string id="priz_after_video_3">
+		<text>To itself has left, on a Marsh. Speaks, to water it pulls... The Bog - not the sea, but nevertheless. I gave money to it - did not take. Hardly the weapon managed to be persuaded to take - and that did not take. To me, speaks, all the same - time then was not lost, and here I will survive. And that on destiny it is written, also the tonic with pride. In that the Zone with people does</text>
+	</string>
+	<string id="priz_after_video_4">
+		<text>It not the Zone. It there, behind perimetre. And the Zone of the such treats. It will be necessary to visit necessarily it - to thank. Both for work and for Fleet Russian. Yes, it is remembered, you something wanted to tell to me?</text>
+	</string>
+	<string id="priz_after_video_5">
+		<text>There is a such. While you broke on base through the tunnel to the chopper, I which that have found. A backpack. In it - a note and, seemingly, for you. I have read also... I Think, you will understand sense, and will precisely define from what figures - a door here one... And my belief only have got stronger - the Panther is live. I to in such a way used in ?-16, even with accuracy I can tell, who did a stuffed animal... Here only I will not understand - what for all it and in a captivity it or of own will</text>
+	</string>
+	<string id="priz_after_video_6">
+		<text>Ah you blah... And you have not told, seeing as to me crappy?</text>
+	</string>
+	<string id="priz_after_video_7">
+		<text>To me too was crappy. However, the old soldier - the wise soldier, instead of marasmic. First, you have learnt, who such Boatswain - I think that have not regretted about acquaintance to it. In the second - we will check up Black Dock - if it is fair, will send SMS that a corpse - not a corpse. If it is his hands circus - it on you will press, laying down in a condition revival of the Panther. There is also one more guess - but it will be possible to tell about it only after the message from Doctor. For now - read a note and descend check up a door - whether from it a code</text>
+	</string>
+	<string id="priz_after_video_8">
+		<text>Well you and Fox... All right, I will walk to base. And there - it will be visible</text>
+	</string>
+	<string id="kluk_sekretka_pohod_0">
+		<text>Greetings. Well as, has had a rest in the Bar? Time to us business has come to be engaged in together. Here, esteem is a short file on the Astrologer. It is assured - far not full</text>
+	</string>
+	<string id="kluk_sekretka_pohod_1">
+		<text>Hmm... it seems that rotten it has appeared. I am surprised, how it to me in a back has not thrust a feather... However and we not a bast yesterday to it has highlighted nothing. Has broken off, blah</text>
+	</string>
+	<string id="kluk_sekretka_pohod_2">
+		<text>I am am disturbed by one - if it is in a cave, where the Panther?</text>
+	</string>
+	<string id="kluk_sekretka_pohod_3">
+		<text>You ask me that One man's guess is as good as another's. And I know only that in an any way it is necessary to get into a cave and all to find out. Though is can be a trap - I think that a key from a teleport to you have specially thrown - to lose it simply not could. We will come into a cave - crack - the teleport will join still - and remember a way back</text>
+	</string>
+	<string id="kluk_sekretka_pohod_4">
+		<text>Yes, such it is easily possible if to think that in a cave it holds the Panther. Eh to know for certain - all would be simple, as in the war - at first to steam Gren in this cave, and after - questions to set, who there is</text>
+	</string>
+	<string id="kluk_sekretka_pohod_5">
+		<text>Eh. It to you not Afgan. Therefore, we will make so: I will get into a cave, and you outside remain - if it is a trap then, you will gain</text>
+	</string>
+	<string id="kluk_sekretka_pohod_6">
+		<text>Yes, and we will make, there I only will get, and you on a chickie will remain. Everything, we stamp</text>
+	</string>
+	<string id="muha_vstrecha_0">
+		<text>Greetings. They call me the Marked One. Did not expect to see teenagers in the Zone. Kombeza the Stalker to obviously you Velikovat. I so understand, you and are that girl what has pulled down a valuable artefact?</text>
+	</string>
+	<string id="muha_vstrecha_1">
+		<text>Can and so. Only to you it all the same not to find. Two already tried to make it</text>
+	</string>
+	<string id="muha_vstrecha_2">
+		<text>Well, it is not necessary to pretend that you Zoe Kosmodemjansky. In the first I also did not ask you to tell, where it, and in the second, you in dolls have not played enough, judging by these Igrush...</text>
+	</string>
+	<string id="muha_vstrecha_3">
+		<text>?... Give, return me it!!!!!! And!!!!!</text>
+	</string>
+	<string id="muha_vstrecha_4">
+		<text>is more silent, what you have started to yell? I not physical hands from high school to calm Dvoechnits. And then - I of anything bad have not told...</text>
+	</string>
+	<string id="muha_vstrecha_5">
+		<text>And!!!!!! ?????!!!!!!</text>
+	</string>
+	<string id="muha_vstrecha_6">
+		<text>the Fuck-up. Kranty to you, Marked One. Now most that bananas into ears to insert, it is a pity that they in the Zone are not present... Sharap!!!! The girl, to you is only three requests: sit down, shut up and calm down. After you you will tell, whom you should return</text>
+	</string>
+	<string id="aver_pantera_say_0">
+		<text>I look you with it of own will... And after all it did the order for you. As quickly all changes. Well... I have got used To setups and divorces, but from you did not expect. But you know, I am not sorry - I have gained invaluable experience of dialogue with women</text>
+	</string>
+	<string id="aver_pantera_say_1">
+		<text>This order was only check. If you have agreed, a penny there would be to you a price. Be silent and listen. Yes, I am guilty. Yes, it has turned out extremely badly, but believe, it not a setup. Otherwise it was impossible...</text>
+	</string>
+	<string id="aver_pantera_say_2">
+		<text>It is impossible? The typical female answer. I look, you had a new friend, and I am assured, he will solve all your problems. The only thing that is not clear to me - the purpose of all this circus</text>
+	</string>
+	<string id="aver_pantera_say_3">
+		<text>Aim you you know - the mesoartefact is necessary to me. Without you it could not be got. And the Astrologer - it really friend - but only the friend, no more if you this party of a question interests</text>
+	</string>
+	<string id="aver_pantera_say_4">
+		<text>Listen, after all I to you have believed, and Privilege few people use this only. You perfectly know that I would give you fragments of the Monolith and that Art that the girl whom you, by the way, have finished to a psychosis condition has dragged off. So means, this setup has begun with Warlab when chief of mercenaries has vigorously shot half of people?</text>
+	</string>
+	<string id="aver_pantera_say_5">
+		<text>Yes, stolen Art it is necessary for a transmutation, but and it it is not enough two your parts of the Monolith. By the way is it us has finished to a psychosis condition, instead of we it. Besides, you hold communication with the Black Doctor - our direct competitor. And into the account of Warlab - there the plan part was crossed with personal feelings, and I am not sorry about the act</text>
+	</string>
+	<string id="aver_pantera_say_6">
+		<text>Unlike you, the Dock arrives while fairly though operates in the interests... It is a pity To me. But not you, it is a pity to me of I risked what life also whom have killed, carrying out a role of a pawn in your game. And still Kolmogora is a pity to me. He yet does not know, what his sister</text>
+	</string>
+	<string id="aver_pantera_say_7">
+		<text>He knows. Actually it to me not the brother, and the friend and the assistant</text>
+	</string>
+	<string id="aver_pantera_say_8">
+		<text>the Friend? One more? So, I mean in lists of friends slowly have moved on the third place of honour. The friend of the Swedish family, blah. At least with them you were fair, in difference from me. Forget about our relations. They were not. Also rejoice that you and your friends remained are alive. While are live. Farewell</text>
+	</string>
+	<string id="aver_pantera_say_9">
+		<text>Farewell. But know that you for me were and is more than the friend, and I awfully worried about you and your friends. This mesoartefact is necessary not to me - life of one person which to me is extremely expensive also which hours of life depends on it are considered</text>
+	</string>
+	<string id="aver_pantera_say_10">
+		<text>One more friend? You had no right to risk life of other people even for the sake of such good purpose. I hope, our ways more will not be crossed also you will find behind what you here have come. But already without me</text>
+	</string>
+	<string id="kluk_after_razbor_0">
+		<text>Everything, have solved a problem peacefully. Let live</text>
+	</string>
+	<string id="kluk_after_razbor_1">
+		<text>It seems that you Odogo and the same person twice for two days have lost... I Sympathize, but simply I establish the fact - one problem less though I am assured - you still will meet. For now it is necessary to learn from the girl where Art and while to take away it... Well, at least to the Eremite - there it is rather safe, if that - Stalkers help. To conduct it to Shure to the Gynecologist - it is not necessary, to practice on an old speciality, and the collective there at it such suddenly will want that it is better to appear among monsters. In our staff after switching-off of teleports - too it is unsafe, and caves, likely, have bothered it. That further - I while vaguely represent</text>
+	</string>
+	<string id="kluk_after_razbor_2">
+		<text>Devil's art... Looks like we got into the confrontation, if not groups, the teams, each with its own aims. For me, probably hang tail. If you think so, then the only weak spot - is Maples. Thank God that there are anarchists - would help if someone sunetsya. Vitamin hope not including interest. Doing so: girlfriend better yet take to the hermit. I'm going to Maples, something he did not send the news quite a while, and you pobudesh a nanny and you will know what should this girl. What's her name, I never asked... Come on, bring you up to the cabin.</text>	<!-- Changed 'Klenow' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="kluk_after_razbor_3">
+		<text>Apprx. I will go ahead - whether a little that, and you with the girl - go trace. We will go on location edge - so more safely</text>
+	</string>
+	<string id="muha_kukla_0">
+		<text>Has calmed down? Here and perfectly. Tell to the uncle that it is necessary to you and as you here have appeared</text>
+	</string>
+	<string id="muha_kukla_1">
+		<text>My parents once worked in one of local laboratories. There where five aerials. I then was still small. We lived in one of houses, those that in territory of this laboratory. We were protected by military men. Then something happens, I precisely do not remember - someone shot, someone shouted... I Have regained consciousness already at the grandfather in Moscow region - it at me General... Has passed many years, and I all this time wanted to visit my old house where I lived. You will not believe - I very much would like to take away therefrom one thing, unique that I have remembered since then... I have asked the grandfather to take for a drive me on the helicopter over the Zone. Just at this time its people sent the helicopter with equipment in this area - to any general Voroninu from group whether Duty, whether the Friend...</text>
+	</string>
+	<string id="muha_kukla_2">
+		<text>I know this place, and about this helicopter I would hear</text>
+	</string>
+	<string id="muha_kukla_3">
+		<text>Means, you know that it have brought down. After landing to pilots any animals, similar that in horror films have attacked. I was terrible also was hammered under a stone near the helicopter. How many I there have stayed - badly I remember. But hunger and thirst have got the best - something was necessary is. I have seen that one more helicopter has nearby landed, therefrom there were strange people in white survival suits...</text>
+	</string>
+	<string id="muha_kukla_4">
+		<text>it is probable, it were scientists from the Monolith</text>
+	</string>
+	<string id="muha_kukla_5">
+		<text>While they surveyed our helicopter, I managed to pull down from their helicopter a backpack - it would be desirable to eat... However meal in it it has not appeared - there there was a strange dark blue shone flower</text>
+	</string>
+	<string id="muha_kukla_6">
+		<text>the Flower? Tell, where this backpack?</text>
+	</string>
+	<string id="muha_kukla_7">
+		<text>you promised to return me that is necessary to me. It is my doll. Yes-yes, a usual old doll. It remained in that house from which me have once taken away. It seems to you it is strange, but it is everything that at me Osalos from parents. RETURN me my DOLL!!!!!!</text>
+	</string>
+	<string id="muha_kukla_8">
+		<text>is more silent, it is not necessary hysterics. In that cave where I have found you was and so many dolls...</text>
+	</string>
+	<string id="muha_kukla_9">
+		<text>It not those, not those dolls!!!! That person who there held me brought them much... But all of them not those!!!!! Here, take - at me is it photograph</text>
+	</string>
+	<string id="muha_kukla_10">
+		<text>it is fine. I will return you a doll. I hope, I saw that doll. For now the kind uncle Fang with you here will stay - a little-whether that. I to IT NOW WILL tell</text>
+	</string>
+	<string id="muha_kukla_vernul_0">
+		<text>Greetings. Here, look is your doll?</text>
+	</string>
+	<string id="muha_kukla_vernul_1">
+		<text>Yes, daaaaaa!!!!!! It it, it!!!! Give me it</text>
+	</string>
+	<string id="muha_kukla_vernul_2">
+		<text>Pogodi. You know, the doll is not necessary to me. You will receive it, only tell, where you have hidden a backpack</text>
+	</string>
+	<string id="muha_kukla_vernul_3">
+		<text>I did not hide it. I have put it back in Vetolet, whence took. After one more helicopter - the military man has arrived - I precisely know it - I a lot of such saw. There there were members of Spetsnaz, but it were any unusual ????? - in black bulletproof vests. They began to shoot at all - and in me too. I have run... Behind the back shot, but soon all has abated. And when I have turned back, have seen, from that place have flied up two helicopters - possibly, these military men have stolen the first helicopter with that backpack. It is all. Every other day I was found by the person who has taken away in that cave where you have found me</text>
+	</string>
+	<string id="muha_kukla_vernul_4">
+		<text>Eh, and after all you, as a matter of fact, have deceived me. Where now you will find this helicopter...</text>
+	</string>
+	<string id="muha_kukla_vernul_5">
+		<text>If I to you have told at once, you never would bring to me a doll. I know only a call sign or number of that, the second helicopter on which the special troops have arrived - constantly heard the radio operator who tried to outvoice roar of the battle in a portable radio set: 78, it is 124. Have landed, we go on capture! And what, you will throw me now, yes?</text>
+	</string>
+	<string id="muha_kukla_vernul_6">
+		<text>Yes, not densely. Here your doll. You while should remain in here - places here much, rather safely, and the uncle Fang while here. I see you have made friends. Now I will consult to it what to do further, and after I will try to forward you for perimetre</text>
+	</string>
+	<string id="kluk_ohrana_0">
+		<text>the Plan such: I stamp on the Radar behind a doll... In vain you smile is it is necessary to make. To mine, I saw this damn a doll in one of houses when collected parts for Perfuzora the Shury-gynecologist. The astrologer, it is visible has picked up not that. On the way I will glance to Klyonovu. And you - you in nurses, at you turn out to find common language with teenagers. Yes, now still to Ghost Stukanov - let it will be tightened - with the girl should happen nothing</text>
+	</string>
+	<string id="kluk_ohrana_1">
+		<text>Not, Ghost do not tell. I will consult. You know, too many cooks spoil the broth. And it is ridiculous - pair of masters in nurses... Though is even more ridiculous - Marked One, going with a doll on the Zone. Ge-ge-ge...</text>
+	</string>
+	<string id="kluk_ohrana_2">
+		<text>Eh. Well, similar the Astrologer went with dolls and to me, yes not with one. It even a horse in a cave Pritaranil. And you and itself look not is better - I can to you for ease of dialogue to steam Chupa-Chupsov bring. Ge-ge... It is good. If that - knock, I will try to return quickly</text>
+	</string>
+	<string id="kluk_ohrana_3">
+		<text>Yes, here that I want to tell - there in one of houses - the strange funnel is with an abnormal zone. This Zone was formed recently. It is said that it produces mutants...</text>
+	</string>
+	<string id="kluk_ohrana_4">
+		<text>Eh where we did not vanish - the main thing that the doll of that that is necessary has appeared</text>
+	</string>
+	<string id="klenov_neydacha_0">
+		<text>Hello, Doctor. You have forgotten Something about me. How affairs with artefacts?</text>
+	</string>
+	<string id="klenov_neydacha_1">
+		<text>Hello. I have not forgotten, simply did not know, how to you to inform - experiment with Heart of the Poltergeist has ended with a failure. This artefact cannot be recreated. As a result of experience the second artefact which has taken away a part Radioactive influences of the first has turned out, but it is far from the original...</text>
+	</string>
+	<string id="klenov_neydacha_2">
+		<text>you joke???? If you have spoilt the original it threatens with global consequences for me...</text>
+	</string>
+	<string id="klenov_neydacha_3">
+		<text>do not worry, with its internal structure everything is all right. On the contrary, it has lost more a part of radiation. However, as well as parts of useful properties</text>
+	</string>
+	<string id="klenov_neydacha_4">
+		<text>Well... Doctor, give that has turned out. And I too will take a copy. Eh. Doctor is that for terrible Izvratsenie? It something should become a copy of Heart of the Poltergeist???</text>
+	</string>
+	<string id="klenov_neydacha_5">
+		<text>It is the first my experience of synthesis of artefacts. Yes, appearance is terrible... But - there are useful properties. Likely, I should to start try from simple artefacts</text>
+	</string>
+	<string id="klenov_neydacha_6">
+		<text>Yes... Rare freak. However, we will check up its properties. All right, Doctor, is time to me. To a meeting</text>
+	</string>
+	<string id="kluk_sovet_0">
+		<text>Well, the brother, things look bad. Not to find to us that mysterious Art. There are some guesses, but a branch deadlock. Judging by the story of Fly, chopper scientists of the O-Consciousness were taken away by special troops. Black Bronicas were only at chasteners, that we have put those in a Lost Village. In live remained, probably, only pilots by helicopters. Where now these helicopters - One man's guess is as good as another's</text>
+	</string>
+	<string id="kluk_sovet_1">
+		<text>it is not dense. I will tell one. The majority of local military men fly?? has airborne recorders which fix everything, including conversations of pilots. To decipher such recorder for local craftsmen - not a problem - this only on a TV set on Continent their months decipher - for solidity. It is enough to find only one helicopter - that, Spetsnaz, steal from it a recorder and no pilots are necessary. And here where for it to search...</text>
+	</string>
+	<string id="kluk_sovet_2">
+		<text>The exit on military men is necessary. You do not have there communications? Number of pilots is known - 124</text>
+	</string>
+	<string id="kluk_sovet_3">
+		<text>Communications with military men are at Voronin. He knows you. I think, for the grandma or for Arty will agree to help. Besides - at us the grand daughter of one of the big military ranks. Smekaesh?</text>
+	</string>
+	<string id="kluk_sovet_4">
+		<text>Fang, turnip for the present works for you excellent! You while should remain here - you will not throw after all the girl one in the Zone. Eh, has forgotten Chupa-Chups to bring... Ge-ge-ge. I go to Voroninu</text>
+	</string>
+	<string id="voronin_samopisez_0">
+		<text>Greetings, General. Very long ago did not see. Business at me to you. There is no big secret - it is known that you hold communication with military men</text>
+	</string>
+	<string id="voronin_samopisez_1">
+		<text>Hello. Can and be insolent. And what? Epaulets has wanted to try on? And I to you can hang up a snivel of the corporal</text>
+	</string>
+	<string id="voronin_samopisez_2">
+		<text>Is not present. A snivel it is not necessary, the exit on military men is necessary. The reasons two: data on all gone or brought down helicopters over the Zone for last two months and still are necessary to me...</text>
+	</string>
+	<string id="voronin_samopisez_3">
+		<text>you Can not continue. Such data military men even to the American president will not tell, not that to us with you</text>
+	</string>
+	<string id="voronin_samopisez_4">
+		<text>You Nedoslushal. Will tell - I have data on the gone grand daughter of one general...</text>
+	</string>
+	<string id="voronin_samopisez_5">
+		<text>You are serious? From me half of people are occupied by search of this maiden. Whether you have withdrawn it? All right-all right, I know, what not you. It changes business. I think, you will obtain the exhaustive data, and I - the next asterisk on epaulets. So where the girl? There people serious if it is divorce - the Bar will level with the earth</text>
+	</string>
+	<string id="voronin_samopisez_6">
+		<text>Stars on epaulets from heavens simply so do not fall. It is necessary to you to me to believe and risk to convince military men. I not the fool to speak, where the girl. In half an hour will fly there dragonflies - and write-read the erased letters on a sepulchral cross. You here that - settle a problem, and I to Barman will come - on Ryumashke we will pass... Power. Ge-ge-ge. Number Ineresuyuschego first of all boards - 124</text>
+	</string>
+	<string id="vor_samopisez_ok_0">
+		<text>Here, General, your recorder, take away. I hope, the award will be?</text>
+	</string>
+	<string id="vor_samopisez_ok_1">
+		<text>Long you went. I on the bad have thought... The Award? It after all the data from this box is necessary to you, instead of me. That look, servicemen from us and money will ask for decoding. And the girl where?</text>
+	</string>
+	<string id="vor_samopisez_ok_2">
+		<text>Long? Yes so, has walked as to a stall behind beer, not further. General - for you I will personally explain: a Chernobyl far, and a roof at a Chernobyl further away. The recorder is not necessary to me, can present its military man. Yes tell that for the girl too it is necessary nothing to me - only let without noise one and only a chopper behind it will arrive, instead of a squadron. Co-ordinates I will give a bit later - as I will check up that with it all apprx. Yes, you can tell that you in this business have taken the most active part - can also to Duty of that from fighters will get as a gift</text>
+	</string>
+	<string id="vor_samopisez_ok_3">
+		<text>it is fine. Military men with you will communicate. And from them for the people I will beat out a gift</text>
+	</string>
+	<string id="vor_samopisez_ok_4">
+		<text>Apprx. even we will meet. Thanks for the help</text>
+	</string>
+	<string id="prizrak_chaes_say_0">
+		<text>Greetings, quickly you have reached. You look well. All at Art?? the abrupt. And Bronicas it is obvious from Yudashkin</text>
+	</string>
+	<string id="prizrak_chaes_say_1">
+		<text>Greetings, a smoking-room. Bronicas not from Yudashkin, and from Barman. And what, Yudashkin in Stalkers has moved? Here the poor creature... The Job is necessary to us. It seems that is absolutely close we to the true reasons of all of these Zavarushek on the Zone we steal up, and the personal interest on Generators - about the girl should be learnt one from me</text>
+	</string>
+	<string id="prizrak_chaes_say_2">
+		<text>About the girl? Look - personal sympathies - a hindrance in our business. The friendship is yes, but no more and not more close. Everything, we sail away, to go nearby - transition should be at a mobile post of military men</text>
+	</string>
+	<string id="prizrak_chaes_say_3">
+		<text>Well, the brother, the friendship is more than sympathies and to help the person it is necessary - to difficultly it in the Zone... For what we live - not only to eat yes to have a sleep. We go, show the way</text>
+	</string>
+	<string id="prizrak_chaes_say1_0">
+		<text>Have come? Yes, I know this place, but did not think that behind collars - a track on Generators...</text>
+	</string>
+	<string id="prizrak_chaes_say1_1">
+		<text>Yes, have reached. Earlier these gate have been opened, why I and have found a path. Would be closed - too would not get to look. Now they were closed by Monolithians or military men. It is necessary through a fence. Give, blow the first, and I for you</text>
+	</string>
+	<string id="prizrak_chaes_say1_2">
+		<text>Frets, through a fence so through a fence, we will remember youth</text>
+	</string>
+	<string id="muha_vertuha_letit_0">
+		<text>Greetings, a dragonfly. I see, all at you is normal. Has come SMS from military men, for you the helicopter - and there - to the grandfather, on Continent now will arrive</text>
+	</string>
+	<string id="muha_vertuha_letit_1">
+		<text>That's great!!!! You are a good person, just as my father... And the friend at you - too good</text>
+	</string>
+	<string id="muha_vertuha_letit_2">
+		<text>All right-all right, do not overpraise. Tell better - here this strange flower you saw in that backpack?</text>
+	</string>
+	<string id="muha_vertuha_letit_3">
+		<text>Yes-yes, it it. Precisely. Beautiful, only Zhgetsya it is a little</text>
+	</string>
+	<string id="muha_vertuha_letit_4">
+		<text>Excellent. And, here and the chopper rustles - somewhere on approach already. We will plant you, and then at us still is full with Fang has put...</text>
+	</string>
+	<string id="kluk_vert_sbit_0">
+		<text>Fang, old pepper, heard? Prepare suitcases, you love and wait in Moscow. And than it you so to it have attracted???</text>
+	</string>
+	<string id="kluk_vert_sbit_1">
+		<text>Well, pepper means yet old and not. It she in my opinion not to one me has told - so you too were stuck. Something somehow all has well ended - it is not pleasant to me. Show Art because of which all cheese-pine forest</text>
+	</string>
+	<string id="kluk_vert_sbit_2">
+		<text>Here it. A handsome man. Judging by that together with Heart of the Poltergeist no updating has occurred there is no still something</text>
+	</string>
+	<string id="kluk_vert_sbit_3">
+		<text>Well, be not upset, we learn it. Eh. You heard? Here lines, look-look!!!</text>
+	</string>
+	<string id="kluk_vert_sbit_4">
+		<text>Yes same...</text>
+	</string>
+	<string id="soldier_ranen_say_0">
+		<text>Well, how are you? That at you happens???</text>
+	</string>
+	<string id="soldier_ranen_say_1">
+		<text>Fugasku from Bazooka have caught... Management have lost almost... Have held on to a bog, and there - in anomaly have pleased... The Girl is live? Here lines...</text>
+	</string>
+	<string id="soldier_ranen_say_2">
+		<text>Is not present... The Fly has died... But the diagnosis is not final still... Here the Zone - so, much is possible also much not as behind perimeter. We do so - minutes through 5-10 the revolving object will arrive and will take away you in one place - Doctor there is. But - Doctor especial. If something else also can be made - something it can make that it only. It is a pity the girl - it in what it is not guilty, and life yet did not see. Whence shot???</text>
+	</string>
+	<string id="soldier_ranen_say_3">
+		<text>Has understood, I will wait the helicopter. And shot - from hills that to the south... Had time to make with pilot? pair of pictures - truth, quality bad - but, the place can learn... Here, take</text>
+	</string>
+	<string id="soldier_ranen_say_4">
+		<text>Wait pilot. Can eat chance still... I - will verify co-ordinates with photos and ?????? - I will check up - swine should be punished</text>
+	</string>
+	<string id="solvador_say_0">
+		<text>Privet Lomonosovym. It is glad that the scientific brotherhood has survived in this turmoil. I suspect that dressing gowns at you armor. It is entrusted to me to help to you to include the third generator</text>
+	</string>
+	<string id="solvador_say_1">
+		<text>Greetings. Yes, the help is required. Behind base there is a substation distributing an electricity. There one companion has arranged large Podlyanku - he has established 5 generators of hindrances - these pieces create strong electromagnetic hindrances, stimulating generation of a special kind of abnormal zones. While them not to disconnect - there is nothing and to dream of generator start. Besides, there the psi-antenna blocking pass is established. I have disconnected it, and here you should disconnect generators of hindrances most - all five pieces and to bring to me. After - there will be one more small commission</text>
+	</string>
+	<string id="solvador_say_2">
+		<text>Well... The Purpose is, stimulus - too. Is necessary task to carry out as I am interested in it</text>
+	</string>
+	<string id="solvador_say_ok_0">
+		<text>Work is made. However, likely, now I became as the generator of hindrances...</text>
+	</string>
+	<string id="solvador_say_ok_1">
+		<text>Yes, judging by sounds and floor-mats, dono from that party, we have understood that all goes according to plan. Ge-ge-ge... I Joke. Work is made perfectly well. Now listen further: it is necessary for us to get in Warlab - there, at top level there is a room managements of work of generators. However, Warlab now not under control of people of the Black Doctor. To arrange storm and bloodshed very much it would not be desirable. Try will agree with people on Warlab that to us have given the chance to work there - surrenders to me that you know these people. Or try to organise to us a meeting - we are ready to mutually advantageous cooperation with these people</text>
+	</string>
+	<string id="solvador_say_ok_2">
+		<text>Here I understand it, here and it is not necessary to go far. Now I will contact Vitamin and I learn, whether probably such</text>
+	</string>
+	<string id="solv_talk_varlab_0">
+		<text>Well here, uncles from different groupings have agreed. Bright at them it has turned out, truth they amicably and unanimously have found for me still work... Deputies from one faction, blah... It is necessary to be winded on old fart to a barrier and to reconnoiter there conditions. And you while can already go in Warlab and prepare equipment</text>
+	</string>
+	<string id="solv_talk_varlab_1">
+		<text>it is remarkable. We will wait for news. After check it will be possible to try to start the third generator</text>
+	</string>
+	<string id="solv_talk_varlab_2">
+		<text>it is fine, I will inform, how I will finish investigation</text>
+	</string>
+	<string id="solv_na_varlabe_say_0">
+		<text>Privet Kulibinym. All works?</text>
+	</string>
+	<string id="solv_na_varlabe_say_1">
+		<text>Still as! Without you to us not to cope. Thanks!</text>
+	</string>
+	<string id="solv_na_varlabe_say_2">
+		<text>Well it is fine, though here all is good</text>
+	</string>
+	<string id="gen_pant_say_0">
+		<text>?-?... The Lascivious daughter of the Zone. What good luck. To whom or to that it is obliged by such honour? And where your friend? Very much, whether know, hunting to talk to it</text>
+	</string>
+	<string id="gen_pant_say_1">
+		<text>Marked One, cease. The role Podporutchika from imperial army to you does not go. There is no Astrologer. He has deceived me and has run away... More truly, I have run away... I have read its records in PDA. You used - with one purpose - to find Heart of the Poltergeist, and then - and that Art that the girl has pulled down. Only he dealt doubly - blackmailed you and deceived the Black Doctor and me with Kolmogorom. It is necessary to guess its purpose only, though and so all is clear - the boundless power and immortality... And they have inflated me together with Doctor, promising to help with treatment of my father...</text>
+	</string>
+	<string id="gen_pant_say_2">
+		<text>the Father? At first imaginary brothers, now the father. Listen, relatives so do not joke. And your guy, Druzhek, blah, kills in what not guilty people, the swine. Well anything, it is short to it air in the Zone it is necessary to spoil...</text>
+	</string>
+	<string id="gen_pant_say_3">
+		<text>Listen, I to you have told that me have spent. Promised to help with treatment of the father... This devil's artefact was necessary... My father now at the Black Doctor. It - local. I was born not in these edges, but happened here repeatedly</text>
+	</string>
+	<string id="gen_pant_say_4">
+		<text>I have artefacts necessary to you, but - it is not enough of them, at least - no reaction between them occurs</text>
+	</string>
+	<string id="gen_pant_say_5">
+		<text>Last Art is at the Black doctor. Only it is not known, who it and where is. That you saw - only the hologramme... I will find it and I will force to give this Art - I have with interest fulfilled it...</text>
+	</string>
+	<string id="gen_pant_say_6">
+		<text>So means, Ghost scent into the account of Dock has not brought... Mine to you council - go to Ghost to village that nearby - I will inform it. Doctor to blackmail it is useless - at it abrupt protection and with it it is simple so will not consult. Yes it also is not necessary - it is possible to try will agree, as at it now the Fly - remember that girl from Reconnoitered Territory - and so, its Astrologer, and Dock has killed - tries to recover... Go to Ghost, then I will find you. But at first - I will make that for a long time it was necessary to make</text>
+	</string>
+	<string id="kluk_chaes2_bazar_0">
+		<text>Greetings. Whence the data, what this shithead on Chernobyl-2?</text>
+	</string>
+	<string id="kluk_chaes2_bazar_1">
+		<text>Greetings. You in time. One scout from Pripyat has sent info - the group of Monolithians goes with Chernobyl1. They know short road. Possibly, the Astrologer with them. Here, hold a picture of a site of Station - there dark blue your position - recon the gate with Chernobyl - there is designated and there should be Monolithians. Take of a position and do not reduce eyes from these gate. And I while - will bypass this place from flank. Under my data, for the Astrologer the helicopter should arrive</text>
+	</string>
+	<string id="kluk_chaes2_bazar_2">
+		<text>Has understood. I am put forward on a position. Hear - you more accurately, frets?. Yes, a panther at Ghost not Generators. Like as and this Kolmogora Microcephal used it in the purposes...</text>
+	</string>
+	<string id="gospit_oxran_say_0">
+		<text>Greetings. What you black... I should pass</text>
+	</string>
+	<string id="gospit_oxran_say_1">
+		<text>Greetings. I heard about you, however pass you cannot for two reasons: the owner now is not present, and on an entrance - a teleport which me not to disconnect. You can try. Next time come on a visit only when will invite</text>
+	</string>
+	<string id="gospit_oxran_say_2">
+		<text>Has understood. It is a pity. But - I can come and without the invitation if it is required. Good luck</text>
+	</string>
+	<string id="real_chernuy_dok_say_0">
+		<text>So means here is how the real Black Doctor looks? I in another way represented you. Or it is the next duck?</text>
+	</string>
+	<string id="real_chernuy_dok_say_1">
+		<text>the Titmouse in the sky, than a duck under a bed is better. Your girl it is hardly real it has not earned, thanks you and her father. Now to business. Artefacts at you?</text>
+	</string>
+	<string id="real_chernuy_dok_say_2">
+		<text>Yes, Dock, do not worry, they at me. What with the Fly? It was possible to make something - I saw, it is dead...</text>
+	</string>
+	<string id="real_chernuy_dok_say_3">
+		<text>Everything that I while managed to make is to keep its body without frosts. I have covered with its operated anomalies. To recover it yet it is not possible - internal damages are too serious. Now about my business. I think before continuing conversation, you should talk to the father of this Panther to dismiss from me its unreasonable charges and to release daddy to communicate to the child</text>
+	</string>
+	<string id="real_chernuy_dok_say_4">
+		<text>it is good</text>
+	</string>
+	<string id="real_chernuy_dok_say_5">
+		<text>Is not present, I have forgotten them to take from Nychki...</text>
+	</string>
+	<string id="real_chernuy_dok_say_6">
+		<text>Well... In that case to you they should be brought - I warned you through SMS - we businessmen and we will speak about real things. Bring artefacts and we will continue dialogue</text>
+	</string>
+	<string id="father_pant_say_0">
+		<text>you also are the father of the Panther? For what you it so is cruel... It after all really could be lost some times, the Zone has come to the Zone - not for women a place for you, and...</text>
+	</string>
+	<string id="father_pant_say_1">
+		<text>I till today was not in a course of its presence here. Last time we saw more 5 years ago - she was engaged any special assignment, infinitely was absent at home... I was ill then - a tumour... Before I already happened in the Zone - from local I... Then - for perimetre has left, thought - has fastened, but illness and loneliness have sent on errands back... The Note to it has written and has left</text>
+	</string>
+	<string id="father_pant_say_2">
+		<text>That further?</text>
+	</string>
+	<string id="father_pant_say_3">
+		<text>And further - it is simple - places to me acquaintances. While forces were - Stalker on the sly. Once behind station territory has found a body of the Stalker. In a backpack at it it has appeared Art is and there was a Heart of the Poltergeist. There was still a note with the short description and properties. Radiaktiven the artefact was very much, to carry away far I it not could - has put by, and a note of visors. Further - Monolithians have caught me - wanted to kill, but having read a note have dragged to the senior, and that is has sent me to the scientist is and there was a Black Doctor. While me dragged there-here, yes while people of Doctor went for mine Nychkoy in which I Art have hidden, it, Art? and the trace has caught a cold - it has appeared that had time Nychku to clean</text>
+	</string>
+	<string id="father_pant_say_4">
+		<text>And where that artefact?</text>
+	</string>
+	<string id="father_pant_say_5">
+		<text>As where? Unless you do not know? You Nychku - that also have cleaned... However, into the account of this moment I not especially in a course, but Art was at you - you about it to Doctor and admitted, when it hypnotised you in a room of management of a monolith. And further - you in a course - you have sent by the Death Truck to search for this Art, but under supervision of the person of the Black Doctor - as it... And, the Astrologer. That was further - I do not know, and whence and when in the Zone there was a Panther - I and for a long time did not know - Doctor has held back it... Otherwise I would defeat its plans</text>
+	</string>
+	<string id="father_pant_say_6">
+		<text>I will not remember Something that found such Art in Nychke... And what in that note was?</text>
+	</string>
+	<string id="father_pant_say_7">
+		<text>It is visible that its knowing person has left - the recipe there was - it was possible from this Hearts of the Poltergeist other artefact, even more valuable to make - "the Good luck Stone". One more artefact was for this purpose necessary. Still co-ordinates any were...</text>
+	</string>
+	<string id="father_pant_say_8">
+		<text>So means, one Heart of the Poltergeist is required only???? Here it is news... Yes, and how now at you with health?</text>
+	</string>
+	<string id="father_pant_say_9">
+		<text>Illness, incurable out of the Zone, has receded. I so while also remained with the Black Doctor... You know the Rest. I hope, you make the correct decision - a unique artefact at you, and the second component - too. The rest to you will tell the Black Doctor, and it is time to me to a daughter - there will be a difficult conversation for me - independent it at me through Chur</text>
+	</string>
+	<string id="father_pant_say_10">
+		<text>I have already noticed... Certainly, go - so much years did not see. Tell to it... No, speak nothing, I will tell</text>
+	</string>
+	<string id="real_dok_say2_0">
+		<text>Yes, I have learnt truth. But only partially. Why you have not told to it what his daughter here? And about the astrologer it is not still known</text>
+	</string>
+	<string id="real_dok_say2_1">
+		<text>I did not know that this brisk maiden - his daughter - I have learnt about it simultaneously together with it. And the Astrologer - it at any stage, obviously, is already closer to an outcome of all this history, me has betrayed. It is possible to understand it - the received artefact promised if not immortality, the big, biggest money... Now about business. You have two variants - or you give me "Heart of the Poltergeist" - more truly - change, sell - as to you will like, or will try to receive so-called "the Good luck Stone". The third variant, alas, at you is not present - I have blocked exits - even if you here will kill all, including me what I doubt, leave from here you cannot</text>
+	</string>
+	<string id="real_dok_say2_2">
+		<text>Here it, a dirty trick... What will be, if I try to receive "the Good luck Stone" itself?</text>
+	</string>
+	<string id="real_dok_say2_3">
+		<text>Then listen. "Heart of the Poltergeist" - really one, at least, the second such artefact is not found. That Art that at me the girl has stolen is necessary to transfer only to "Heart of the Poltergeist" a part of the energy necessary for a transmutation - further it is not necessary. It is necessary to wait, while this transmission of energy will take place</text>
+	</string>
+	<string id="real_dok_say2_4">
+		<text>It has already taken place</text>
+	</string>
+	<string id="real_dok_say2_5">
+		<text>cannot be!!!! ?. Means, we were not mistaken. Then things are easy - I have calculated a place which co-ordinates are specified in a note. It here, behind your back also is led round by white circle. In this point are crossed set of abnormal and power fields. Further - it is simple - rise in a circle, face a door, and throw "Heart of the Poltergeist". Solely responsible for to occur the transmutation. After - we will talk about the further actions</text>
+	</string>
+	<string id="real_dok_say2_6">
+		<text>And what your price for Art? Also what will be with the Fly?</text>
+	</string>
+	<string id="real_dok_say2_7">
+		<text>I will give you a credit card "Bank of America" for the sum in 5000000$. Will take away the Panther, her father, the friends and comfortably will spend the life rest somewhere to California... On the Fly - it is possible, in due course, something and Udast'sya to make. But while I am powerless to it to help. I am going to investigate and use the received artefact for maintenance and Zone expansion. It is possible and without it but then it is necessary long and a tough job on restoration of generators and, probably, to start of the muffled power units a Chernobyl</text>
+	</string>
+	<string id="real_dok_say2_8">
+		<text>I will cook "the Good luck Stone" itself</text>
+	</string>
+	<string id="real_dok_say2_9">
+		<text>I will accept the second variant - here yours Art</text>
+	</string>
+	<string id="real_dok_say2_10">
+		<text>the Excellent choice. Here your credit card. Teleports are unblocked. An exit will find in a distant compartment of Hospital - it is noted in yours PDA and conducts on a location Agroprom</text>
+	</string>
+	<string id="real_dok_say2_11">
+		<text>Then to a meeting</text>
+	</string>
+	<string id="say_dok_after_varka_0">
+		<text>Doctor, at me it has turned out! Look, here it! Its vital and energitic properties simply amaze!</text>
+	</string>
+	<string id="say_dok_after_varka_1">
+		<text>Yes, all has turned out. You the good fellow. However, we should finish our dialogue. I still offer you money. I know that it not is a good variant, but take out from here this Art you cannot. Yes-yes, I in a course, not to kill you now and force an artefact not to select, but anybody and is not going to do it. Besides, I dare to assure you that without appropriate supervision and storage this Art will live not so long. Yes, it is not eternal... I can prolong his life indefinitely, taking away from it its energy and Energizing energy of manual anomalies</text>
+	</string>
+	<string id="say_dok_after_varka_2">
+		<text>Tell, and the Fly it probably to recover??</text>
+	</string>
+	<string id="say_dok_after_varka_3">
+		<text>Want on-truth - yes, it is real, but it is a reckless act. So, from two variants you still had only one - to give to me Art and to provide itself(himself) and the friends</text>
+	</string>
+	<string id="say_dok_after_varka_4">
+		<text>Is not present, dock. Full life not for me is for oligarchs and officials</text>
+	</string>
+	<string id="say_dok_after_varka_5">
+		<text>That you offer?</text>
+	</string>
+	<string id="say_dok_after_varka_6">
+		<text>I will recover the Fly and I will return to the friends. I am simply obliged it to make</text>
+	</string>
+	<string id="say_dok_after_varka_7">
+		<text>Well... As the scientist I will tell to you - your act is mad - to use such artefact for revival only one person, especially - to you not the acquaintance almost... The Second such artefact can not be any more. The most part of my works to go to a garbage box. However as the person, I deeply understand you and I should approve your act. Probably, me Udast'sya to adjust communication with Maples and together we will manage to receive something similar... However, a choice for you. If have resolved to recover - throw Art on a body of the girl...</text>	<!-- Changed 'Maple' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="say_dok_after_varka_8">
+		<text>And you, Dock, have appeared the fair person... And Kakzhe O-Consciousness?</text>
+	</string>
+	<string id="say_dok_after_varka_9">
+		<text>And that O-Consciousness... Yes was never such... There was a group of scientists, a part from which Porazbezhalas after explosion on Generators, the part - simply was frightened to include the muffled reactors in Chernobyl. There is no space energy and other fables. A Zone fueled artificially generated emissions energy for which develop my generators and partially - generators of the station. Really you have not noticed - after your violence in Chernobyl and destruction of a part of my power installations - emissions have for a while stopped? And that some preach about restoration ostensibly normal life here after Zone liquidation - are mistaken doubly - will pass not less than several centuries before here will be as before failure. Whether so is easier to study the Zone, to move a science and in passing to benefit? I am am disturbed only by one - I precisely am not assured, but still someone in the Zone actively is engaged in its research. Direct acknowledgement at me while are not present, but will be, I assure you, will be</text>
+	</string>
+	<string id="say_dok_after_varka_10">
+		<text>Well... I'll be glad to you to help, if it is required, in your researches</text>
+	</string>
+	<string id="say_dok_after_varka_11">
+		<text>Well... I agree, the choice is insignificant...</text>
+	</string>
+	<string id="say_dok_after_varka_12">
+		<text>Here and remarkably. Here your credit card. We Prodotvorno Posotrudnichali. I hope that this cooperation and further will be same productive. Teleports are unblocked. An exit will find in a distant compartment of Hospital - it is noted in yours PDA and conducts on a location Agroprom</text>
+	</string>
+	<string id="say_dok_after_varka_13">
+		<text>Then to a meeting</text>
+	</string>
+	<string id="muha_hosp_say_0">
+		<text>Greetings. How are you? All is normal?</text>
+	</string>
+	<string id="muha_hosp_say_1">
+		<text>Yes, all is good, only the head is ill... What happens? We fell from the helicopter... Then I do not remember... And where the uncle Fang?</text>
+	</string>
+	<string id="muha_hosp_say_2">
+		<text>Fang... It. Well, Vobschem... It Is occupied a little now... You here that - go down downwards, there there is a transition - a path on other territory. Go and wait me there - it is necessary to send all the same you to the grandfather, I promised. Eh... And Fang promised... I while will talk over with the Panther - you know it already, and we will go on other location</text>
+	</string>
+	<string id="hosp_pantera_ok_0">
+		<text>Well, Has how are you doing? calmed down and has learnt truth?</text>
+	</string>
+	<string id="hosp_pantera_ok_1">
+		<text>Yes, I am almost happy. After so many tortures the true has won. The father is almost healthy, you are live also any Heart of the Poltergeist to me more it is not necessary. I think, we while remain here - the father should finish course of treatment, and further - it will be visible further</text>
+	</string>
+	<string id="hosp_pantera_ok_2">
+		<text>It is glad for you... And at me - at me not all so cheerfully... Fang was lost...</text>
+	</string>
+	<string id="hosp_pantera_ok_3">
+		<text>it is a pity To me... You the remarkable person, and even the simple person to be difficult. I know... To Lose much and many, but to save at least one life is a feat, instead of the statistican. It is more valuable, than all those asterisks which sometimes grandiosely are distributed by our statesmen. To a Bolshej part from them to give on a broom and a shovel in hands - and at streets - an order to direct</text>
+	</string>
+	<string id="hosp_pantera_ok_4">
+		<text>Tell, you always such brisk? It is difficult to cope with your energy...</text>
+	</string>
+	<string id="hosp_pantera_ok_5">
+		<text>At you it will turn out. And if you hint at the relations closer, than friendship I will quote to you words of one my acquaintance: "Generally I the warm and fuzzy and correct girl". I will tell to you in secret, experience of similar relations at me is insignificant, but I quickly study, and you can quite become my teacher...</text>
+	</string>
+	<string id="hosp_pantera_ok_6">
+		<text>Eh. Well... Well, we will start employment right after how I will send the Fly to Moscow... We Will begin with alphabet studying. We will look at speed of your training. After the theory we will pass to practice. I will let to you know as I will be released</text>
+	</string>
+	<string id="hosp_pantera_ok_7">
+		<text>Here and remarkably. To the father I will not tell yet - suddenly with heart it becomes bad - hardly?</text>
+	</string>
+	<string id="hosp_pantera_ok_8">
+		<text>the Gay... I after all will remember that you here have promised to me, then not Helicopters. All right, I joke. I on Agroprom</text>
+	</string>
+	<string id="hosp_pant_proval_0">
+		<text>Well, Has how are you doing? calmed down and has learnt truth?</text>
+	</string>
+	<string id="hosp_pant_proval_1">
+		<text>Yes, I am almost happy. After so many tortures the true has won. The father is almost healthy also any Heart of the Poltergeist to me more it is not necessary. I think, we while remain here - the father should finish course of treatment, and further - it will be visible further</text>
+	</string>
+	<string id="hosp_pant_proval_2">
+		<text>It is glad for you... And at me - at me not all so cheerfully... Listen, can we will spit everything, yes to America?</text>
+	</string>
+	<string id="hosp_pant_proval_3">
+		<text>To America? No... I, of course, am grateful to you for all, but your choice not for me. I will remain here... At us is not worse, than in America, here if only army of officials of times in 5 to reduce - and it is quite possible to live. To leave the most fair - and the rest - on a broom in hands and an order to direct... You have made the choice, and I do not condemn you. At everyone - the destiny and the truth</text>
+	</string>
+	<string id="hosp_pant_proval_4">
+		<text>Chtozh... It is a pity...</text>
+	</string>
+	<string id="atp_mobil_say_0">
+		<text>Greetings mobile nightman. I see, you on the helicopter Ponakleil - the humanitarian help distribute crosses? Or you mark with asterisks quantity of the deceived investors?</text>
+	</string>
+	<string id="atp_mobil_say_1">
+		<text>Mobile who? The nightman? I from constant flights began to hear Something badly. You the nightman. And into the account of the help you were mistaken is I for morons crosses have drawn - after all I speak, I write SMS: the DEALER flies! And some moral invalids start to shoot from all weapons. All right, to business. I see, you here as Tarzan on jungle have walked - mountains of the goods at radishes have free of charge confiscated. Spread - you have 6-7 minutes, no more, and time already goes. Yes, I hope, you too have dispersed opposite mutants. Allaire. allergy. Well, more shortly, they are not pleasant to me, and I to them</text>
+	</string>
+	<string id="atp_mobil_say_2">
+		<text>And how on account to order something?</text>
+	</string>
+	<string id="atp_mobil_say_3">
+		<text>And here while it is necessary to wait a little with it - works too much - itself you know, the people already start to rage - I am not in time anything. That there, then... It is sensitive Poosvobozhus - here then also orders will be</text>
+	</string>
+	<string id="atp_mobil_say_4">
+		<text>it is fine, accept breakage...</text>
+	</string>
+	<string id="atp_mobil_say_5">
+		<text>Eee... Have conscience - you that, me half-zones here Pritaranil? Well and the backpack at you, at me will not take away the helicopter so much... Father Frost New Year's bag anything in comparison with it. Listen, whether at you a jack that in back... Well, how at Vasi Alekseeva - weightlifter was such known?</text>
+	</string>
+	<string id="atp_mobil_say_6">
+		<text>the Hardware... About a jack - do not speak to anybody, all right? At me usual, a backpack, tiddly the such... Yes, listen, and at you the auto-loader is not present in the helicopter? Is not present? It is bad - get necessarily when to me next time you will arrive - and you my goods of half-day in chopper will stack that</text>
+	</string>
+	<string id="atp_mobil_say_7">
+		<text>Is not present, I am better to the following meeting the railway to you I will lay. Here and the squadron of helicopters will not suffice... Not-not, it is not necessary to me COBASE and stew boxes! Nobody will buy them! And furthermore long loafs. You not from bakery hold a way hour? My God, in life did not see so much rolls... So, in connection with a current situation I prolong parking time</text>
+	</string>
+	<string id="atp_mobil_say_8">
+		<text>Yes it is fine to you, take away. In vain Chtol dragged. Will not buy - itself notch, you know, what sausage in the Zone useful and tasty? And long loafs? Where you such behind perimeter still will buy? At the same time and hearing you will correct</text>
+	</string>
+	<!-- <string id="dok_arh_say_00">
+		<text>Hello Marked One</text>
+	</string> -->
+	<string id="dok_arh_say_0">
+		<text>Doctor? What the hell are you doing here, in the Monolith base?</text>
+	</string>
+	<string id="dok_arh_say_1">
+		<text>Yes, I know how dangerous it is, but I lost my notebook and thought that one of them had probably picked it up. I need it back. Come, there's a Teleport anomaly near here - it looks like a large bubble - and it leads to my safe house. Let's use it, then we can talk safely...</text>
+	</string>
+	<string id="dok_arh_say_2">
+		<text>Sounds good. Let's go, and then I'll give you some good news...</text>
+	</string>
+</string_table>

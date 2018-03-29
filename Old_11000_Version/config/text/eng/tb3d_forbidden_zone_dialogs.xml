@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.1.3 ==>> -->
+<!-- New file for the new StalkerSoup game levels (2->3) dialogues, editing this file is allowed only for the TB3D - aleks1970 -->
+	<string id="esc_provodnik">
+		<text>Guide</text>
+	</string>
+	<!-- Bone fracture dialogue text part - aleks1970 -->
+	<string id="pain_in_leg">
+		<text>Pain in the leg</text>
+	</string>
+	<string id="pain_in_arm">
+		<text>Pain in the hand</text>
+	</string>
+	<string id="leg_fracture_text">
+		<text>Severe damage to the feet. Leg fracture</text>
+	</string>
+	<string id="leg_fracture_crack_text">
+		<text>Weak leg injury. Crack</text>
+	</string>
+	<string id="actor_pda_name">
+		<text>Marked One PDA</text>
+	</string>
+	<string id="actor_pda_error_name">
+		<text>Marked One damaged PDA</text>
+	</string>
+	<string id="enc_actor_pda_desc">
+		<text>Marked One personal PDA</text>
+	</string>
+	<string id="actor_pda_col_name">
+		<text>Collector PDA</text>
+	</string>
+	<string id="actor_pda_col_error_name">
+		<text>Collector damaged PDA</text>
+	</string>
+	<string id="enc_actor_pda_col_desc">
+		<text>Collector personal PDA</text>
+	</string>
+	<string id="actor_pda_conn_error">
+		<text>Critical error</text>
+	</string>
+	<string id="actor_pda_conn_error_desc">
+		<text>Connection to personal PDA failed</text>
+	</string>
+	<string id="actor_pda_device_missing">
+		<text>Personal PDA device missing...</text>
+	</string>
+	<string id="actor_pda_barmen_news">
+		<text>Marked One.\n Somebody found your lost PDA. Come around if you're interested...</text>
+	</string>
+
+	<!-- Following dialogs to be created, 110010 -->
+	<!-- Karina in Dead Marshes -->
+	<string id="karina_dialog_food_0">
+		<text>food 1</text>
+	</string>
+	<string id="karina_dialog_food_1">
+		<text>food 2</text>
+	</string>
+	<string id="karina_dialog_food_2">
+		<text>food 3</text>
+	</string>
+	<string id="karina_dialog_food_3">
+		<text>food 4</text>
+	</string>
+	<string id="karina_dialog_food_4">
+		<text>food 5</text>
+	</string>
+	<string id="karina_dialog_food_5">
+		<text>food 6</text>
+	</string>
+	<string id="karina_dialog_food_6">
+		<text>food 7</text>
+	</string>
+	<string id="karina_dialog_food_7">
+		<text>food 8</text>
+	</string>
+	<string id="karina_dialog_food_8">
+		<text>food 9</text>
+	</string>
+	<string id="karina_dialog_food_9">
+		<text>food 10</text>
+	</string>
+	<string id="karina_dialog_food_10">
+		<text>food 11</text>
+	</string>
+	<string id="karina_dialog_food_11">
+		<text>food 12</text>
+	</string>
+	<string id="karina_dialog_arts_0">
+		<text>arts 1</text>
+	</string>
+	<string id="karina_dialog_arts_1">
+		<text>arts 2</text>
+	</string>
+	<string id="karina_dialog_arts_2">
+		<text>arts 3</text>
+	</string>
+	<string id="karina_dialog_arts_3">
+		<text>arts 4</text>
+	</string>
+	<string id="karina_dialog_arts_4">
+		<text>arts 5</text>
+	</string>
+	<string id="karina_dialog_arts_5">
+		<text>arts 6</text>
+	</string>
+	<string id="karina_dialog_arts_6">
+		<text>arts 7</text>
+	</string>
+	<string id="karina_dialog_arts_7">
+		<text>arts 8</text>
+	</string>
+	<string id="karina_dialog_arts_8">
+		<text>arts 9</text>
+	</string>
+	<string id="karina_dialog_arts_9">
+		<text>arts 10</text>
+	</string>
+	<string id="karina_dialog_arts_10">
+		<text>arts 11</text>
+	</string>
+	<string id="karina_dialog_arts_11">
+		<text>arts 12</text>
+	</string>	
+	<!-- Liza in hr -->
+	<string id="liza_dialog1_1">
+		<text>liza1</text>
+	</string>
+	<string id="liza_dialog1_2">
+		<text>liza2</text>
+	</string>
+	<string id="liza_dialog1_3">
+		<text>liza3</text>
+	</string>
+	<string id="liza_dialog1_4">
+		<text>liza4</text>
+	</string>
+	<string id="liza_dialog1_5">
+		<text>liza5</text>
+	</string>
+	<string id="liza_dialog1_6">
+		<text>liza6</text>
+	</string>
+	<string id="liza_dialog1_7">
+		<text>liza7</text>
+	</string>
+	<string id="liza_dialog1_8">
+		<text>liza8</text>
+	</string>
+	<string id="liza_dialog1_9">
+		<text>liza9</text>
+	</string>
+	<string id="liza_dialog2_1">
+		<text>liza1</text>
+	</string>
+	<string id="liza_dialog2_2">
+		<text>liza2</text>
+	</string>
+	<string id="liza_dialog2_3">
+		<text>liza3</text>
+	</string>
+	<string id="liza_dialog2_4">
+		<text>liza4</text>
+	</string>
+	<string id="liza_dialog2_5">
+		<text>liza5</text>
+	</string>	
+	<!-- Afanasyev in hr -->
+	<string id="afanasyev_dialog1_1">
+		<text>afanasyev1</text>
+	</string>
+	<string id="afanasyev_dialog1_2">
+		<text>afanasyev2</text>
+	</string>
+	<string id="afanasyev_dialog1_3">
+		<text>afanasyev3</text>
+	</string>
+	<string id="afanasyev_dialog1_4">
+		<text>afanasyev4</text>
+	</string>
+	<string id="afanasyev_dialog1_5">
+		<text>afanasyev5</text>
+	</string>
+	<string id="afanasyev_dialog1_6">
+		<text>afanasyev6</text>
+	</string>
+	<string id="afanasyev_dialog1_7">
+		<text>afanasyev7</text>
+	</string>
+	<string id="afanasyev_dialog1_8">
+		<text>afanasyev8</text>
+	</string>
+	<string id="afanasyev_dialog1_9">
+		<text>afanasyev9</text>
+	</string>
+	<string id="afanasyev_dialog2_1">
+		<text>afanasyev1</text>
+	</string>
+	<string id="afanasyev_dialog2_2">
+		<text>afanasyev2</text>
+	</string>
+	<string id="afanasyev_dialog2_3">
+		<text>afanasyev3</text>
+	</string>
+	<string id="afanasyev_dialog2_4">
+		<text>afanasyev4</text>
+	</string>
+	<string id="afanasyev_dialog2_5">
+		<text>afanasyev5</text>
+	</string>	
+	<!-- Obmorok in pred -->
+	<string id="obmorok_dialog1_1">
+		<text>obmorok1</text>
+	</string>
+	<string id="obmorok_dialog1_2">
+		<text>obmorok2</text>
+	</string>
+	<string id="obmorok_dialog1_3">
+		<text>obmorok3</text>
+	</string>
+	<string id="obmorok_dialog1_4">
+		<text>obmorok4</text>
+	</string>
+	<string id="obmorok_dialog1_5">
+		<text>obmorok5</text>
+	</string>
+	<string id="obmorok_dialog1_6">
+		<text>obmorok6</text>
+	</string>
+	<string id="obmorok_dialog1_7">
+		<text>obmorok7</text>
+	</string>
+	<string id="obmorok_dialog1_8">
+		<text>obmorok8</text>
+	</string>
+	<string id="obmorok_dialog1_9">
+		<text>obmorok9</text>
+	</string>
+	<string id="obmorok_dialog2_1">
+		<text>obmorok1</text>
+	</string>
+	<string id="obmorok_dialog2_2">
+		<text>obmorok2</text>
+	</string>
+	<string id="obmorok_dialog2_3">
+		<text>obmorok3</text>
+	</string>
+	<string id="obmorok_dialog2_4">
+		<text>obmorok4</text>
+	</string>
+	<string id="obmorok_dialog2_5">
+		<text>obmorok5</text>
+	</string>	
+	<!-- Karatel in pred spawns after Obmorok killed, if killed by actor: pred_karatel_deat-->
+	<string id="karatel_dialog1_1">
+		<text>karatel1</text>
+	</string>
+	<string id="karatel_dialog1_2">
+		<text>karatel2</text>
+	</string>
+	<string id="karatel_dialog1_3">
+		<text>karatel3</text>
+	</string>
+	<string id="karatel_dialog1_4">
+		<text>karatel4</text>
+	</string>
+	<string id="karatel_dialog1_5">
+		<text>karatel5</text>
+	</string>
+	<string id="karatel_dialog1_6">
+		<text>karatel6</text>
+	</string>
+	<string id="karatel_dialog1_7">
+		<text>karatel7</text>
+	</string>
+	<string id="karatel_dialog1_8">
+		<text>karatel8</text>
+	</string>
+	<string id="karatel_dialog1_9">
+		<text>karatel9</text>
+	</string>
+	<string id="karatel_dialog2_1">
+		<text>karatel1</text>
+	</string>
+	<string id="karatel_dialog2_2">
+		<text>karatel2</text>
+	</string>
+	<string id="karatel_dialog2_3">
+		<text>karatel3</text>
+	</string>
+	<string id="karatel_dialog2_4">
+		<text>karatel4</text>
+	</string>
+	<string id="karatel_dialog2_5">
+		<text>karatel5</text>
+	</string>	
+	<!-- Zika in F1 -->
+	<string id="zika_dialog1_1">
+		<text>zika1</text>
+	</string>
+	<string id="zika_dialog1_2">
+		<text>zika2</text>
+	</string>
+	<string id="zika_dialog1_3">
+		<text>zika3</text>
+	</string>
+	<string id="zika_dialog1_4">
+		<text>zika4</text>
+	</string>
+	<string id="zika_dialog1_5">
+		<text>zika5</text>
+	</string>
+	<string id="zika_dialog1_6">
+		<text>zika6</text>
+	</string>
+	<string id="zika_dialog1_7">
+		<text>zika7</text>
+	</string>
+	<string id="zika_dialog1_8">
+		<text>zika8</text>
+	</string>
+	<string id="zika_dialog1_9">
+		<text>zika9</text>
+	</string>
+	<string id="zika_dialog2_1">
+		<text>zika1</text>
+	</string>
+	<string id="zika_dialog2_2">
+		<text>zika2</text>
+	</string>
+	<string id="zika_dialog2_3">
+		<text>zika3</text>
+	</string>
+	<string id="zika_dialog2_4">
+		<text>zika4</text>
+	</string>
+	<string id="zika_dialog2_5">
+		<text>zika5</text>
+	</string>

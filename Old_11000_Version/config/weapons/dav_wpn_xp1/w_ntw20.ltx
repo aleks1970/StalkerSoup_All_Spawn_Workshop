@@ -1,0 +1,160 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+[wpn_ntw20]:identity_immunities
+GroupControlSection				= spawn_group
+;;discovery_dependency 			= 
+$spawn                  		= "weapons\ntw20"
+$npc			 				= on
+$prefetch 		 				= 8
+scheduled               		= off
+cform                   		= skeleton
+class                   		= WP_SVD
+min_radius              		= 0
+max_radius              		= 50
+description						= desc_ntw20_descr
+
+ef_main_weapon_type		 		= 3
+ef_weapon_type			 		= 8
+;--- scope weapons -----------------------------------------------------------------
+holder_range_modifier			= 2.15
+holder_fov_modifier				= 0.3
+;-----------------------------------------------------------------------------------
+cost							= 150000
+weapon_class					= sniper_rifle
+
+ammo_limit						= 60
+ammo_current					= 10
+ammo_elapsed					= 0
+
+ammo_mag_size					= 3
+ammo_class						= ammo_50_bmg 
+
+sprint_allowed					= false
+;-----------------------------------------------------------------------------------
+fire_dispersion_base			= 0.03	
+control_inertion_factor			= 2.2f
+	
+cam_relax_speed         		= 4.5	
+cam_relax_speed_ai         		= 10
+cam_dispersion          		= 2.0	
+cam_dispersion_inc				= 0.5			; cam_dispersion 
+cam_dispertion_frac				= 1.0			; cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle					= 15.0	
+cam_max_angle_horz				= 3.0			;(degree) maximum shot horizontal degree 
+cam_step_angle_horz				= 0.25			;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	
+misfire_probability 			= 0.005 
+misfire_condition_k				= 0.05
+condition_shot_dec 				= 0.0002 
+;-----------------------------------------------------------------------------------
+hand_dependence 				= 1
+single_handed					= 0
+
+slot 							= 2
+animation_slot					= 2
+
+inv_name						= desc_ntw20
+inv_name_short					= desc_ntw20_s
+inv_weight						= 26
+
+inv_grid_width					= 6
+inv_grid_height					= 2
+inv_grid_x						= 65
+inv_grid_y						= 27
+
+kill_msg_x						= 0
+kill_msg_y						= 0
+kill_msg_width					= 98
+kill_msg_height					= 23
+
+direction               		= 0, 0, 1
+
+fire_point              		= 0.0, 0.129, 0.942
+
+flame_particles		    		= weapons\generic_weapon06
+smoke_particles		   			= weapons\generic_shoot_00
+rpm_empty_click 				= 200
+
+shell_point		 				= 0.0, 0.129, 0.192	
+shell_dir		 				= 0.0, 0.0, 0.4
+shell_particles	 				= weapons\generic_shells
+
+PDM_disp_base 					= 6.0
+PDM_disp_vel_factor 			= 0.9
+PDM_disp_accel_factor 			= 1.0
+PDM_crouch	 					= 1.0
+PDM_crouch_no_acc 				= 1.0
+
+
+hit_power           			= 0.99		;5.98
+hit_impulse		 				= 190
+hit_type 						= fire_wound
+
+fire_distance           		= 150					;;;109974 10:1
+bullet_speed		 			= 1000
+rpm                     		= 80
+
+use_aim_bullet					= true
+time_to_aim						= 1.0	
+
+hud                     		= wpn_ntw20_hud
+normal                  		= 0, 1, 0
+position                		= -0.026, -0.077, 0.00
+orientation             		= 0, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         			= -0.15,-0.15,0.45
+strap_orientation      			= -25,-189,65
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+
+startup_ammo            		= 10
+visual                  		= dav_wpn_xp1\sniper\ntw20\wpn_ntw20.ogf
+
+light_color		 				= 0.6,0.5,0.3
+light_range		 				= 4.0
+light_var_color		 			= 0.05
+light_var_range		 			= 0.5
+light_time 		 				= 0.2
+
+ph_mass			 				= 3
+
+;addons
+scope_status					= 1
+silencer_status					= 0
+grenade_launcher_status			= 0
+
+zoom_enabled					= true
+scope_zoom_factor	    		= 5
+scope_texture					= death_mod\crosshair\crosshair_4
+
+
+snd_draw						= death_mod\sr\ntw20\draw
+snd_holster						= death_mod\holster\heavy_holster
+snd_shoot						= death_mod\sr\ntw20\shoot
+snd_empty						= death_mod\sr\ntw20\empty
+snd_reload						= death_mod\sr\ntw20\reload
+
+[wpn_ntw20_hud]
+
+shell_point						= -0.140000,-0.030000,0.080000
+shell_dir		 				= 0.0, 1.0, 0.0
+
+fire_point						= 0.200000,-0.070000,0.090000
+fire_bone           			= wpn_body
+orientation         			= 0, 0, 0
+position            			= 0.1, -0.1, 0.3
+visual              			= dav_wpn_xp1\sniper\ntw20\wpn_ntw20_hud.ogf
+
+anim_holster					= holster
+anim_idle						= idle
+anim_idle_aim					= idle
+anim_reload						= reload
+anim_draw						= draw
+anim_shoot						= shoot1
+
+
+zoom_offset						= -0.020000,-0.030000,0.030000
+zoom_rotate_x					= 0.000000
+zoom_rotate_y					= -0.020000
+

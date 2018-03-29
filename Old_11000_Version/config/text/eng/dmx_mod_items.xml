@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.4 additional items, fixed typos, added 135 items, corrected text and strings aleks1970, det_art_super -->
+<!-- Text editing as commented below - Sword2012 - 16 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<!-- Reworked descriptions up to Line 273, plus description of Mine Detector - Sword2012 - 14 Mar 17 -->
+<!--;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+FOOD AND PROVISIONS 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-->
+<string_table>
+	<string id="medic_overdose">
+		<text>Overdose!</text>
+	</string>
+	<string id="medic_several">
+		<text>Administering several drugs simultaneously can be lethal!</text>
+	</string>
+	<string id="medic_can_overdose">
+		<text>This drug must be used sparingly to avoid overdosing...</text>
+	</string>
+	<string id="medic_not_finished">
+		<text>The first medical treatment has not run its course!</text>
+	</string>
+	<string id="pivo">
+		<text>'Chernigov' beer</text>
+	</string>
+	<string id="enc_equipment_pivo">
+		<text>No one knows who first brought this Ukrainian beer into the Zone, but it quickly became a firm favorite amongst Stalkers. Now, it's stocked by practically every trader throughout the Zone...</text>
+	</string>
+	<string id="irp-b">
+		<text>Military Rations</text>
+	</string>
+	<string id="enc_equipment_irp-b">
+		<text>Dry rations developed specifically for military personnel serving in the Zone. Like everything else in the Zone, however, large quantities made their way into the hands of various traders, and are now commonly available over the counter everywhere. The can is sealed in such a way that that the contents can remain untainted and edible for years. Tasty, nutritious, and light - a Stalker's dream - albeit an expensive one...</text>
+	</string>
+	<string id="mechta">
+		<text>'Dream' cigarettes</text>
+	</string>
+	<string id="enc_equipment_mechta">
+		<text>Looks like a normal cigarette, although the ingredients can only be guessed at by how Stalkers refer to them. Common sobriquets include 'Butchers Sawdust', 'Camel Socks', and 'Dog Turds'. None of which stop them from being smoked pandemically throughout the Zone...</text>
+	</string>
+	<string id="voda">
+		<text>'Crystal' mineral water</text>
+	</string>
+	<string id="enc_equipment_voda">
+		<text>Branded mineral water. Provides natural hydration, satisfies thirst, and improves every function of the human body, thus increasing stamina. Also has a factory-sealed top. What more could you ask?</text>
+	</string>
+	<string id="tuchenka">
+		<text>Canned meat</text>
+	</string>
+	<string id="enc_equipment_tuchenka">
+		<text>'Mystery meat' from military warehouses throughout the Zone that are raided by experienced Stalkers on a regular basis. The 'USE BY' date hasn't expired, so what's to complain about?...</text>
+	</string>
+	<string id="sardina">
+		<text>Sardines</text>
+	</string>
+	<string id="enc_equipment_sardina">
+		<text>While fresh fish is preferred all over the world, tinned sardines continue to retain their popularity everywhere as a long-life meal in a can. Sardines are first cleaned before the heads, gills and viscera are removed. The cleaned pieces are then cooked by steaming or deep frying, dried, and then mixed with olive or soy oil, tomato or mustard sauce, or brine before canning</text>
+	</string>
+	<string id="sholad">
+		<text>Chocolate</text>
+	</string>
+	<string id="enc_equipment_sholad">
+		<text>Dark chocolate is well known for its health benefits, possessing antioxidants that reduce the formation of free radicals in the body. How it came into the Zone in the first place is unknown, but nobody's complaining...</text>
+	</string>
+	<string id="ogursi">
+		<text>Marinated pickles</text>
+	</string>
+	<string id="enc_equipment_ogursi">
+		<text>Often used to compensate for the effects of strong vodka, these exquisite pickles were liberated from a broken-down delivery truck on its way to a small grocery chain just outside Pripyat. The electrolytes in brine can help reduce the effects of a hangover</text>
+	</string>
+	<string id="yantar">
+		<text>'Yantar' processed cheese</text>
+	</string>
+	<string id="enc_equipment_yantar">
+		<text>'Yantar' (amber) was a low-priced Russian competitor to 'Viola' processed cheese, introduced to the Soviet market in the 1950's by Finnish company Valio Ltd. According to local lore it was created by the factory's research and development division to 'promote friendship among all peoples of the Soviet Union and the world'</text>
+	</string>
+	<string id="nuts">
+		<text>Mixed nuts</text>
+	</string>
+	<string id="st_nuts_descr">
+		<text>A healthy snack food rich in natural oils, usually consisting of Brazil nuts, cashews, hazelnuts, walnuts and pecans. Cheaper peanuts (not actually a nut, but a legume) are often added for economy. The nuts can be raw, salted, roasted, or blanched. Can also be used for cooking or baking</text>
+	</string>
+	<string id="olives">
+		<text>Olives</text>
+	</string>
+	<string id="st_olives_descr">
+		<text>Olives are high in monounsaturated fat, iron, Vitamin E, and dietary fiber. Naturally ripened purple or 'black' olives contain healthy anthocyanins, although processing tends to reduce their effect. Artificially ripened 'black olives' are frequently canned and sent to grocery stores. Useful as a quick, nutritious snack, and to quickly satisfy hunger pangs</text>
+	</string>
+	<string id="kolbasadmx">
+		<text>'Doctor's Sausage'</text>
+	</string>
+	<string id="enc_equipment_dmx_kolbasa">
+		<text>A mild-tasting sausage produced using traditional technology, consisting mainly of high-quality low-fat pork and beef, with the addition of eggs, powdered cows' milk, and a dash of nutmeg</text>
+	</string>
+	<string id="absolut_vodka">
+		<text>'Absolut' vodka</text>
+	</string>
+	<string id="enc_equipment_vodka_absolut">
+		<text>Absolut is the third largest brand of alcoholic spirits in the world after Bacardi and Smirnoff, and is produced near Ehus in southern Sweden. Since March 2008, the company has been owned by the French firm Pernod Ricard, having been bought directly from the Swedish state for 5.63 billion euros</text>
+	</string>
+	<string id="nemiroff_vodka">
+		<text>'Nemiroff' vodka</text>
+	</string>
+	<string id="enc_equipment_vodka_nemiroff">
+		<text>Nemiroff is a popular Ukrainian producer of alcoholic beverages. The English advertising describes this as 'a stylish, truly masculine vodka with a bright personality and sense of dignity. Discover the unusual flavour of this vodka. Feel its distinctive self-assertive taste. Appreciate its complete and bold composition, which includes caraway and honey'</text>
+	</string>
+	<string id="smirnoff_vodka">
+		<text>'Smirnoff' vodka</text>
+	</string>
+	<string id="enc_equipment_vodka_smirnoff">
+		<text>Now distributed in 130 countries, the Smirnoff brand began with a vodka distillery founded in Moscow by Pyotr Arsenievich Smirnov (1831-1898), the son of illiterate Russian peasants. In March 2006, Smirnoff vodka was deemed the best-selling distilled spirit brand in the entire world</text>
+	</string>
+	<string id="mineral_water">
+		<text>Mineral water</text>
+	</string>
+	<string id="enc_equipment_vodka_water">
+		<text>Water infused with naturally-occuring volcanic minerals or other dissolved substances which alter its taste or give it therapeutic value. Usually (but not always) obtained from a natural spring, mineral water can be bought as still (natural), sparkling (with added CO2), or even artificially flavoured...</text>
+	</string>
+	<string id="energy_stalker">
+		<text>'Stalker Brew'</text>
+	</string>
+	<string id="enc_equipment_energy_st">
+		<text>Powerful energy drink containing methylxanthines, vitamin B, and herbs. Also includes acai, guarana, ginseng, ginkgo biloba, taurine, maltodextrin, carbonated water, and sugar. The central ingredient is caffeine, the world's most popular addictive stimulant...</text>
+	</string>
+	<string id="energy_non_stop">
+		<text>'Non-Stop' energy drink</text>
+	</string>
+	<string id="enc_equipment_energy_stop">
+		<text>'Non-Stop' contains toning up substances and stimulants such as caffeine, a vitamin complex, and white sugar. Restores energy after a long jog, or escaping an anomaly...</text>
+	</string>
+	<string id="energy_ad_rush">
+		<text>Adrenaline Rush</text>
+	</string>
+	<string id="enc_equipment_energy_ad_rush">
+		<text>'Adrenaline Rush' has a bold, sparkling citrus taste enhanced with energizing amino acids and sugars, including D-ribose, L-carnitine and taurine</text>
+	</string>
+	<string id="energy_red_bull">
+		<text>Red Bull energy drink</text>
+	</string>
+	<string id="enc_equipment_energy_red_bull">
+		<text>In 2009, batches of Red Bull cola drinks imported from Austria were found to contain between 0.1 to 0.3 micrograms of cocaine per litre according to officials, who found that this was due to a product launch campaign the next day. Importing cocaine to some countries is an offence punishable by a life sentence in prison, or even death. By June that year, eleven out of sixteen German states had banned the drink outright</text>
+	</string>
+	<string id="energy_non_stop_lite">
+		<text>'Non-Stop Lite'</text>
+	</string>
+	<string id="enc_equipment_energy_non_stop_lite">
+		<text>Essentially the same as regular 'Non-Stop', but with the sugar replaced with artificial sweeteners...</text>
+	</string>
+	<string id="sok">
+		<text>Juice</text>
+	</string>
+	<string id="enc_equipment_sok">
+		<text>Tasty, nutritious juice. The package says 'multi-fruit', so consequently contains a variety of vitamins. It restores energy and satisfies thirst</text>
+	</string>
+	<string id="syh_pay_gde_3">
+		<text>Military rations GDE-3</text>
+	</string>
+	<string id="enc_equipment_food_syh_pay_gde_3">
+		<text>Dry army-ration (GDE-3) manufactured in America. Not as nutritious as the Russian equivalent, but weighs less and tastes better...</text>
+	</string>
+	<string id="syh_pay_spp5">
+		<text>Military rations SSP5</text>
+	</string>
+	<string id="enc_equipment_food_syh_pay_spp5">
+		<text>Russian dry-ration (SSP5). This advanced 'complete meal' diet has been specially developed for heavy field conditions. More nutritious than its NATO counterpart</text>
+	</string>
+	<string id="pivo_baltika">
+		<text>'Baltika 9' beer</text>
+	</string>
+	<string id="enc_equipment_pivo_baltika">
+		<text>Baltika Extra (Strong) from Baltika Breweries in the Russian Federation, and sold in 1.5 litre plastic bottles for safety reasons. Though sold as a 'strong lager', this 8.00% strength dark beer kicks like a malt liquor. It doesn’t go down easily, and fights you every step of the way until you finally piss it out. But hey, it's beer, and it's cheap...</text>
+	</string>
+	<!-- MEDICINE -->
+	<string id="antiseptic">
+		<text>Antiseptic Bandage</text>
+	</string>
+	<string id="enc_equipment_medi_antiseptic">
+		<text>%c[255,238,153,26]  %c[default]Health:%c[255,1,255,1] 5%\n%c[255,238,153,26]  %c[default]Haemostasis:%c[255,1,255,1] 90%\n%c[255,238,153,26]  %c[default]Number:%c[255,1,255,1] 1\n%c[255,238,153,26]  %c[default]Side effects: Mild fatigue\nContains a fast-acting chemical agent that destroys or inhibits the growth of pathogenic bacteria and other micro-organisms, but is non-toxic to skin and mucous membranes. Helps with haemorrhaging, disinfecting the wound, and improving the general condition of the patient</text>
+	</string>
+	<string id="zhgut">
+		<text>Wound dressing</text>
+	</string>
+	<string id="enc_equipment_medi_zhgut">
+		<text>%c[255,238,153,26]  %c[default]Haemostasis:%c[255,1,255,1] 100%\n%c[255,238,153,26]  %c[default]Number of applications:%c[255,1,255,1] 5\n%c[default]Developed within Russia's Space Biotechnology Programme, the Myramistin wound dressing contains a preparation that fights microorganisms without producing adverse effects on the human organism. This long, narrow dressing is designed to overlap the wound to protect it from further damage, temporarily stem bleeding from large blood vessels by clamping them close to the bone and reducing its lumen, and heal subsequent inflammation</text>
+	</string>
+	<string id="pervitin">
+		<text>'Pervitin'</text>
+	</string>
+	<string id="enc_equipment_medi_pervitin">
+		<text>%c[255,238,153,26]  %c[default]Increased stamina:%c[255,1,255,1] 190%\n%c[255,238,153,26]  %c[default]Reduced appetite:%c[255,1,255,1] 50%\n%c[255,238,153,26]  %c[default]Side effects: Slight deterioration of general condition\n%c[255,238,153,26]  %c[default]Number of tablets:%c[255,1,255,1] 2\n%c[default]Used in the treatment of narcolepsy, psychogenic depression, depressive alcoholism, and dizziness associated with exhaustion, lethargy, and asthenia. Also used to temporarily reduce fatigue, and improve physical and mental performance. WARNING: Overdosing can swiftly lead to cardiac arrest!</text>
+	</string>
+	<string id="amfetamin">
+		<text>Amphetamine</text>
+	</string>
+	<string id="enc_equipment_medi_amfetamin">
+		<text>%c[255,238,153,26]  %c[default]Increased stamina:%c[255,1,255,1] 180%\n%c[255,238,153,26]  %c[default]Reduced appetite:%c[255,1,255,1] 40%\n%c[255,238,153,26]  %c[default]Side effects: Slight deterioration of general condition\n%c[255,238,153,26]  %c[default]Number of tablets:%c[255,1,255,1] 2\n%c[default]This widely used central nervous system stimulant has long been used in the treatment of ADHD, narcolepsy, nasal congestion, depression, and even obesity. Amphetamine is also used to enhance athletic performance and cognitive abilities, and recreationally as an aphrodisiac and euphoriant. A prescription drug in many countries, unauthorized possession and distribution are often tightly controlled due to the significant health risks associated with it. WARNING! Overdose can lead to heart failure!</text>
+	</string>
+	<string id="medkit_elite10">
+		<text>'Elite' medkit</text>
+	</string>
+	<string id="medkit_elite10_s">
+		<text>Medkit</text>
+	</string>
+	<string id="medkit_elite">
+		<text>'Elite' medkit</text>
+	</string>
+	<string id="medkit_elite_s">
+		<text>Medkit</text>
+	</string>
+	<string id="enc_equipment_medkit_elite">
+		<text>The 'Elite' medkit developed by Zone scientists for working conditions in the Zone. Kit includes:\n  2 x Alice clips and set of military stencils\n  1 x Bandage gauze 5cm x 4m \n  2 x Sterile dressing 10cm x 10cm \n  5 x Bandage strip 2.5cm x 7.5cm \n  1 x Field dressing\n  3 x Knuckle bandages\n  2 x Ammonia inhalant ampoules\n  2 x Butterfly strips\n  1 x First Aid instructions\n  1 x Triple antibiotic 1\n  2.5cm tape\n  4 x Alcohol wipes\n  3 x Iodine wipes\n  3 x Antiseptic wipes\n  3 x Sterile wipes\n  3 x After bite wipes</text>
+	</string>
+	<string id="bandage_dmx">
+		<text>Special dressing</text>
+	</string>
+	<string id="enc_equipment_bandage_dmx">
+		<text>Special dressing treated with an anti-radiation compound. Typically used used by the Military in order to treat wounds while on manoeuvres throughout the Zone</text>
+	</string>
+	<string id="tab">
+		<text>Antipohmelin tablets</text>
+	</string>
+	<string id="enc_equipment_tab">
+		<text>%c[255,238,153,26]  %c[default]Reduce hangover:%c[255,1,255,1] 95%\n%c[default]'Hangovers' are caused by the toxic effects of acetaldehyde, a product of ethanol oxidation.\nAntipohmelin tablets reduce this in three ways: Slowing down the oxidation of ethanol to acetaldehyde, speeding up the utilization of acetaldehyde and acetic acid into harmless carbon dioxide and water, and supporting energy metabolism in the liver, heart, and brain. While in effect, these fast-acting tablets actually increase the body's tolerance to alcohol</text>
+	</string>
+	<string id="radioprotector">
+		<text>Radioprotector</text>
+	</string>
+	<string id="enc_radioprotector">
+		<text>%c[255,238,153,26]  %c[default]Duration:%c[255,1,255,1] 60 sec\n%c[255,238,153,26]  %c[default]Protection:%c[255,1,255,1] +150\n%c[default]Radioprotector 'Indralin-B190' was included in the personal protection kits issued to the Chernobyl nuclear power plant staff, and appeared in the Zone as a substitute to the more toxic cysteamine hydrochloride FC1.\nB-190 reduces the effects of gamma radiation on the tissues of a living organism, saving the lives of nine out of ten patients subjected to lethal doses of radiation. Though long-acting, the effects of B-190 are not immediate, and needs to be administered pre-emptively in anticipation of radiation exposure</text>
+	</string>
+	<string id="st_drug_anabiotic">
+		<text>Anabiotic</text>
+	</string>
+	<string id="st_drug_anabiotic_descr">
+		<text>%c[255,238,153,26]  %c[default]Duration:%c[255,1,255,1] 5 mins\n%c[default]Anabiotic, aka 'Zombie powder' is a powerful experimental drug issued to research groups operating within the Zone. Based on the neurotoxin Tetrodotoxin, it is designed to protect the mind and body from overexposure to Psi-radiation by causing complete paralysis of the central nervous system. The drug has not been tested in field conditions, and has failed all clinical trials, which not only casts doubt on its efficacy, but also raises medical and ethical questions about the potential side effects of such an extreme measure. Only use as a last resort if the onset of terminal 'zombification' is suspected, and get plenty of rest afterwards...</text>
+	</string>
+	<string id="st_drug_psy_blockade">
+		<text>Psi-block</text>
+	</string>
+	<string id="st_drug_psy_blockade_descr">
+		<text>%c[255,238,153,26]  %c[default]Duration:%c[255,1,255,1] 60 sec\n%c[255,238,153,26]  %c[default]Psi-defense:%c[255,1,255,1] +240\n%c[default]Narcotic drug that blocks nerve impulses to avalanche level. Protects against psychic radiation exposure, especially that from Controllers, for up to a minute after ingestion. An interesting side effect is that, after treatment, there is a total lack of feeling of any emotion whatsoever until the drug passes through the system. Used within the Zone to counteract abnormal fields of increased Psi-activity. There are no known applications outside the Zone</text>
+	</string>
+	<string id="st_drug_coagulant">
+		<text>Vicasol</text>
+	</string>
+	<string id="st_drug_coagulant_descr">
+		<text>%c[255,238,153,26]  %c[default]Duration:%c[255,1,255,1] 20 s\n%c[255,238,153,26]  %c[default]Healing:%c[255,1,255,1] +30\n%c[default]Vicasol (menadione) is the water-soluble salt of vitamin K3. Its chief use among Stalkers is to boost one's rate of blood coagulation to avoid haemorraging to death</text>
+	</string>
+	<string id="st_drug_yadulin">
+		<text>Yadulin</text>
+	</string>
+	<string id="st_drug_yadulin_descr">
+		<text>%c[255,238,153,26]  %c[default]Health:%c[255,1,255,1] +45\n%c[255,238,153,26]  %c[default]Reduce hangover:%c[255,1,255,1] 50%\n%c[255,238,153,26]  %c[default]Side effects: Severe fatigue\n%c[default]The cheapest and widespread medication in the Zone for the accelerated healing of minor wounds, and withdrawal from the symptoms of alcohol poisoning. Although fast acting, side effects are to be expected when destabilizing the body's natural means of achieving balance. Intense mood swings and depression are one. Debilitating fatigue is another...</text>
+	</string>
+	<string id="st_drug_booster">
+		<text>Hercules</text>
+	</string>
+	<string id="st_drug_booster_descr">
+		<text>%c[255,238,153,26]  %c[default]Duration:%c[255,1,255,1] 120 sec\n%c[255,238,153,26]  %c[default]Body Strength:%c[255,1,255,1] +160%\n%c[default]The main component of this muscle stimulant is an anabolic androgen, an artificial steroid resembling testosterone. Often used by Stalkers during long raids to reduce muscle fatigue, or to temporarily increase their weight-carrying capacity. The effects of the drug are long-lasting, as are those from broken bones, muscle tearing, joint dislocation, and other injuries resulting from forcing the human body beyond its natural capacity...</text>
+	</string>
+	<!-- OTHER ITEMS -->
+	<string id="wpn_arm_binoc">
+		<text>Army binoculars</text>
+	</string>
+	<string id="wpn_arm_binoc_s">
+		<text>Army binoculars PNV</text>
+	</string>
+	<string id="enc_equipment_dmx_binocul">
+		<text>Lightweight army field binoculars with an improved range-finding grid. Also equipped with night vision capabilities, which make this a well sought-after model throughout the Zone. Manufactured strictly for military use in the late 1980's, extensive field research has proven time and time again that this model outmatches its Zeiss predecessor in every way</text>
+	</string>
+	<!-- NOT USED -->
+	<string id="item_svarog">
+		<text>'Svarog' Artefact detector</text>
+	</string>
+	<string id="item_svarog_info">
+		<text>'Svarog' artefact detector, the latest (and quickly becoming the new standard) in this field. To use, simply put it in your first weapon slot, even if you're holding a larger weapon. Thanks to nanotechnology, the sensitivity of the detector covers up to 1.5 miles, and a GPS system displays the type and location of artefacts on the user's mini-map</text>
+	</string>
+	<!-- AS OF YET UNUSED -->
+	<string id="item_razgruzka">
+		<text>Tactical Vest</text>
+	</string>
+	<string id="enc_item_razgruzka">
+		<text>Convenience: 100\nStrength class: 1\nWeight: 1kg\nA light personal load carrying equipment (PLCE) system intended to expedite access to ammunition and first aid. Used by the military for incursions into the most dangerous parts of the Zone</text>
+	</string>
+	<string id="timer">
+		<text>Watch</text>
+	</string>
+	<string id="enc_timer">
+		<text>Digital clock timer. Specially developed for special units of Russian Army. Shockproof and water resistant, can withstand immersion to 300 metres. Equipped with a timer and sundomerom. New Party were repeatedly stolen hours Stalkers Scout warehouse database D-3 Special Forces colonel Bibik and sold wholesale traders in the Zone. Scout for these crimes was three times sentenced to death, but thanks to the notorious syndrome "Fear of Death," the Stalker managed to survive the enforcement of sentences</text>
+	</string>
+	<string id="mine_1_name">
+		<text>Mine</text>
+	</string>
+	<string id="mine_1_name_s">
+		<text>Mine</text>
+	</string>
+	<string id="mine_1_description">
+		<text>Blast radius: 1 metre\n  Capacity: 20\n  Detonation time: 10 seconds\n A mine used by the Military in order to defend a perimeter</text>
+	</string>
+	<string id="mine_2_name">
+		<text>'Enhanced' mine</text>
+	</string>
+	<string id="mine_2_name_s">
+		<text>Mine</text>
+	</string>
+	<string id="mine_2_description">
+		<text>Blast radius: 3 metres\n  Capacity: 35\n  Detonation time: 10 seconds\n An improved version of the standard military mine with a larger blast radius capable of inflicting severe damage</text>
+	</string>
+	<string id="mine_3_name">
+		<text>Electric mine</text>
+	</string>
+	<string id="mine_3_name_s">
+		<text>Mine</text>
+	</string>
+	<string id="mine_3_description">
+		<text>Blast radius: 6 metres\n  capacity: 60\n  Detonation time: 10 seconds\n Developed by military scientists, this explosive device generates a severe electrical discharge, causing nervous disruption to any creature caught within its blast radius</text>
+	</string>
+	<string id="enc_guitar_name">
+		<text>Acoustic Guitar</text>
+	</string>
+	<string id="enc_guitar_name_s">
+		<text>Guitar</text>
+	</string>
+	<string id="enc_guitar_descr">
+		<text>A simple, cheaply made model from the Czech Republic, brought into the Zone by an unknown importer. Most Stalkers enjoy the fellowship that music brings, when relaxing with their vodka at campfires throughout the Zone</text>
+	</string>
+	<string id="enc_harmonica_name">
+		<text>Harmonica</text>
+	</string>
+	<string id="enc_harmonica_name_s">
+		<text>Harmonica</text>
+	</string>
+	<string id="enc_harmonica_descr">
+		<text>A small, cheap, but cheery musical instrument, probably smuggled in by the same importer that supplied all the acoustic guitars now seen at campfires throughout the Zone</text>
+	</string>
+	<string id="wpn_smoking">
+		<text>Cigarette</text>
+	</string>
+	<string id="enc_wpn_smoking">
+		<text>A simple cigarette. Nobody actually knows where these cigarettes come from...</text>
+	</string>
+	<string id="item_racya">
+		<text>Portable Radio</text>
+	</string>
+	<string id="item_racya_s">
+		<text>Radio</text>
+	</string>
+	<string id="enc_item_racya">
+		<text>Military issue hand-radio. Reception coverage is limited to 10 kilometres within clear line of sight. Useful for communicating with others throughout the Zone, but it's anyone's guess who might be listening in...</text>
+	</string>
+	<string id="wpn_fuck">
+		<text>The Finger</text>
+	</string>
+	<string id="enc_wpn_fuck">
+		<text>Also known as the middle finger, the highway salute, and 'the bird' (as in flicking, flipping or flying 'the bird'), to 'flip someone off' is an obscene gesture, commonly signalling 'Up yours...' or 'Fuck you...'\nIf you use decide to use this singularly distasteful hand signal in the Zone, you can expect an equally offensive response, usually involving a cartridge...</text>
+	</string>
+	<string id="fosfor">
+		<text>Glow Stick</text>
+	</string>
+	<string id="fosfor_descr">
+		<text>A small, disposable, translucent plastic tube containing chemiluminescent materials that can be used as a temporary source of light in dark, wet spaces. Completely waterproof, and not requiring batteries, it is totally safe in the presence of petrochemicals and explosive materials. Once activated by bending the tube and agitating, it cannot be turned off. The light it produces diminishes over time, but offers useful illumination for several hours</text>
+	</string>
+	<string id="car_key">
+		<text>Car Key</text>
+	</string>
+	<string id="car_key_s">
+		<text>Car Key</text>
+	</string>
+	<string id="enc_car_key">
+		<text>A standard car key with added wards. May fit some of the vehicles left around the Zone...</text>
+	</string>
+	<string id="car_key_2">
+		<text>Master Key</text>
+	</string>
+	<string id="car_key_2_s">
+		<text>Master Key</text>
+	</string>
+	<string id="enc_car_key_2">
+		<text>A small car key with added wards and a military symbol embedded into it. Might it fit some of the vehicles left around the Zone?</text>
+	</string>
+	<string id="bolt_detector_otclik">
+		<text>'Response' Artefact Detector</text>
+	</string>
+	<string id="bolt_detector_otclik_s">
+		<text>Response</text>
+	</string>
+	<string id="enc_bolt_detector_otclik">
+		<text>An outdated detector that emits an audible fixed pitch sound of increasing frequency as you get closer to an artefact. To use, simply put it in your first weapon slot, even if you're holding a larger weapon. Unfortunately, the simple design allows it to find only the most common artefacts</text>
+	</string>
+	<string id="bolt_detector_medved">
+		<text>'Bear' Artefact detector</text>
+	</string>
+	<string id="bolt_detector_medved_s">
+		<text>'The Bear'</text>
+	</string>
+	<string id="enc_bolt_detector_medved">
+		<text>A last generation detector that emits an audible fixed pitch sound of increasing frequency as you get closer to an artefact, and a varying speed LED display to indicate the direction and proximity of the nearest artefact. To use, simply put it in your first weapon slot, even if you're holding a larger weapon. Unfortunately, the range of detectable artefacts hard-coded into its firmware is out of date, and the cheap LED display usually failed prematurely in the harsh and demanding conditions of the Zone...</text>
+	</string>
+	<string id="bolt_detector_veles">
+		<text>'Veles' Artefact Detector</text>
+	</string>
+	<string id="bolt_detector_veles_s">
+		<text>Veles</text>
+	</string>
+	<string id="enc_bolt_detector_veles">
+		<text>A new generation scanner-detector developed and used by scientists. In addition to the standard fixed pitch sound that increases in frequency as you get closer to an artefact, multi-frequency echo location can display the position of several artefacts at a time on its LED screen. To use, simply put it in your first weapon slot, even if you're holding a larger weapon. Although the unit is able to detect all artefacts currently known to science, its cheap imported LED display was not up to the rigours of the Zone, and is prone to early failure...</text>
+	</string>
+	<string id="helmet_stalker">
+		<text>Gas Mask</text>
+	</string>
+	<string id="enc_helmet_stalker">
+		<text>Radiation protection +60\nA standard gas mask designed to filter radioactive dust and poisonous gasses from the air you're about to breath. Widely used by novices and veterans of all armed groups because of its functional indispensability. Offers no protection whatsoever from bullets, shrapnel or impact of any kind</text>
+	</string>
+	<string id="radiation_detector">
+		<text>Research dosimeter</text>
+	</string>
+	<string id="enc_radiation_detector">
+		<text>This personal device continually monitors its wearer for radiation exposure, accurately displaying the dosage and dose rate in uSv per second. Used mainly by scientists, but occasionally by experienced 'once-bitten' Stalkers</text>
+	</string>
+	<string id="m_dmx_box">
+		<text>My stuff</text>
+	</string>
+	<string id="enc_m_dmx_box">
+		<text>Backpack with my belongings</text>
+	</string>
+	<string id="silencers_box">
+		<text>Set of suppressors</text>
+	</string>
+	<string id="enc_silencers_box">
+		<text>A set of suppressors for most common weapons</text>
+	</string>
+	<string id="zombie_antiradiation">
+		<text>Antiradin Device</text>
+	</string>
+	<string id="enc_zombie_antiradiation">
+		<text>The Antiradin is intended to protect humans from the radiation emitted by zombies. Works directly from your backpack to completely absorb radiation, channelling it into a built-in chamber made of the same material used in artefact storage containers. A highly specialized device, the 'Antiradin' is not cheap, but absolutely essential for those working in areas of high Psi and zombie activity</text>
+	</string>
+	<string id="device_warning_module">
+		<text>Hacking Module</text>
+	</string>
+	<string id="enc_device_warning_module">
+		<text>This close-proximity skimming and decoding module connects wirelessly to your PDA, and allows you to hack funds from the electronic bank accounts of dead Stalkers before the ravens take them. Why let the banks keep it?</text>
+	</string>
+	<string id="mine_detector">
+		<text>Mine detector</text>
+	</string>
+	<string id="enc_mine_detector">
+		<text>Compact auto-scanning detector combining ground penetrating radar (GPR) with highly sensitive metal and chemical detection systems using advanced data fusion algorithms. These technologies enable the unit to reliably detect and warn of anti-personnel (AP) mines, anti-tank (AT) mines, and even I.E.D.s within a 7m radius, while rejecting spurious surface and buried metallic clutter.\nWarning is via a series of beeps that increase in frequency relative to the proximity of a suspected device\n \nCare must be taken when deploying this unit within the Zone because of its apparent sensitivity to invisible anomalous teleports. As such, it will audibly indicate the anomaly's presence as if it was an explosive device, and is incapable of distinguishing the difference...</text>
+	</string>
+	<string id="item_ammo_flame_transfer">
+		<text>Generator flame mixture</text>
+	</string>
+	<string id="enc_item_ammo_flame_transfer">
+		<text>This device allows you to create a mixture of colloidal gas and gasoline, which can then be used in a flamethrower. To generate the flame mixture must have a gas cylinder, a gas canisters and most flamethrower. After using the generator, Flamethrower is fully charged</text>
+	</string>
+	<string id="bolt_box">
+		<text>Box of fasteners</text>
+	</string>
+	<string id="enc_bolt_box">
+		<text>A small box of common metric bolts, nuts, and washers</text>
+	</string>
+	<string id="device_torch_bad">
+		<text>Broken Flashlight</text>
+	</string>
+	<string id="enc_device_torch_bad">
+		<text>These old flashlights are often rendered useless due to self-discharge of the batteries. You might be lucky to find one that's not leaked everywhere...</text>
+	</string>
+	<string id="item_car_repair">
+		<text>Automobile repair kit</text>
+	</string>
+	<string id="enc_item_car_repair">
+		<text>Full set of tools enabling you to fix all the usual car problems. Use the set directly from inside the car</text>
+	</string>
+	<!-- Quest items -->
+	<string id="item_doc_x8">
+		<text>Pavel's diary</text><!-- Was Aleksandrov's Diary - Sword2012 - 08 Jun 17 -->
+	</string>
+	<string id="enc_item_doc_x8">
+		<text>Our lab work did not cease after the second explosion, and we were not asked to create 'live' weapons as other laboratories were. We were tasked to create a compact, stand-alone weapon, which was known as Shadow's 'Soul Cube'. The technology came about from the discovery of a single substance, which we found on an expedition near the fourth power unit of the Chernobyl NPP. This previously unknown material proved to be thousands of times stronger than steel. We were to learn that it had other, more interesting properties...\n\nFour years later, we had created the first working prototype of Shadow's Cube. I will not describe its working principle and features, other than to say that a Cube can instantly absorb the life energy of any living creature, and convey it to the Cube's owner...\n\nShadow's Cube is one of the most profound developments in the history of Lab X-8. But it was not without its own extremely peculiar production history. In the course of a procedure in the test room came an explosion. More precisely, it was a very loud, sharp bang... I was not involved in this experiment, but was very close by so, without thinking, I entered the room to see what had happened. Inside, I saw the bodies of many colleagues - all in their white medical gowns - all of them dead. Oddly, I did not feel the need to check them - it was clear that they were perfectly dead... And standing in the middle of them was a ghost. The most real, substantial ghost I never want to experience again! It was both dead and alive at the same time...\n\nI ran out of the room, slamming the door behind me in terror, but knowing that it would not help. I gave the command to evacuate the building, as quickly as possible. Then all the lights went out - even the battery powered ones... I could hear running, screaming, more of the same 'bangs'...\n\nJust nine people survived, including myself and five soldiers. Others simply did not have enough time - they simply crumpled, one by one, with each loud bang...\n\nI returned here to wait for a decision from the authorities... \n\nI have done a lot of thinking since - it wasn't long after the tests began that we realized Shadow's Cubes are very strange things indeed... Perhaps the phantom was already a part of the energy sector of the Cube, and our testing freed it... But there is so much I do not understand about this subject, and so little information from which to learn...\n\nI've made my decision. I will take all the necessary equipment, and precautions, and return to the laboratory, because somebody needs to do this...</text>
+	</string>
+	<string id="dmx_military_map">
+		<text>Map of Army Warehouses</text>
+	</string>
+	<string id="dmx_military_map_s">
+		<text>Army Warehouses</text>
+	</string>
+	<string id="enc_dmx_military_map">
+		<text>An old map of the Army Warehouses. Apparently created before the second explosion at Chernobyl. In some places on the map are a few notes without names...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="fake_cube">
+		<text>Shadows' Cube</text>
+	</string>
+	<string id="enc_fake_cube">
+		<text>Well-made copy of Shadows' Cube. Looks just like the real Cube...</text>
+	</string>
+	<string id="dmx_pripyat_map">
+		<text>Map of East Pripyat</text>
+	</string>
+	<string id="dmx_pripyat_map_s">
+		<text>East Pripyat</text>
+	</string>
+	<string id="enc_dmx_pripyat_map">
+		<text>Map of the BWC 'Jubilee' building, marked with the evacuation point of Laboratory X-8.\nOn the back, in barely legible handwriting, is written\n "To expedite the opening of exit doors, the code is a single digit - 1"\n \nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="mudrec_instruments">
+		<text>Repair Tools</text>
+	</string>
+	<string id="enc_mudrec_instruments">
+		<text>A decent set of tools, carefully chosen and looked after by a craftsman. Old, but still in good condition...</text>
+	</string>
+	<string id="item_doc_x8_2">
+		<text>Documents from laboratory X-8</text>
+	</string>
+	<string id="enc_item_doc_x8_2">
+		<text>The documents indicate the technical characteristics of an antenna-radiator and how they differ from predicted. Apparently it is in X-8 developed a plan to create a 'Rainbow' radiator (aka 'Brain Scorcher'). On the reverse side is marked - it shows that this documentation is designed in the laboratory X-10</text>
+	</string>
+	<string id="item_certificate">
+		<text>Military ID</text>
+	</string>
+	<string id="enc_item_certificate">
+		<text>Document certifying that the holder is operating inside the Zone legally</text>
+	</string>
+	<string id="bipsizon_ogse">
+		<text>'Psihodelin'</text>
+	</string>
+	<string id="enc_equipment_bipsizon">
+		<text>Strange chemical concoction made specifically for abnormal conditions within the Zone. Protects from psi-radiation and the incapacitating influence of Controllers for a short duration, and has been known to be able to disable their influence completely. Developed exclusively for Sciuentific Division Leaders conducting field tests inside of Zone's perimeter. Invented by Dr. Bibik Voenstalov and given the codename 'Xanth-83'. Extremely rare</text>
+	</string>
+	<string id="yod_ogse">
+		<text>Preparation A-190</text>
+	</string>
+	<string id="enc_equipment_yod">
+		<text>Preparation A-190 (190-kilodaton) has been identified in several multidrug-resistant (MDR) cell lines that show decreased drug accumulation without expression of P-glycoprotein. It is not clear whether this 190k protein is involved directtly in drug efflux. Recently, a gene for a putative transporter protein, MRP (multidrug resistance-assiciated protein) has been sequenced and localized to chromosome 16. The protein encoded by this gene contains a 7-amino-acid sequence present in the synthetic peptide used to generate the antiserum recognizing the 190k protein.Purpose:The study was undertaken to clarify the relationship of the 190k protein to MRP gene expression in non-P-glycoprotein-containing MDR cells of the large-cell and adenocarcinoma cancer lines</text>
+	</string>
+	<!-- THE ADDITIONAL DESCRIPTION TO SUBJECT MATTERS OF SALT !TB3D not in 134-->
+	<string id="mushroom">
+		<text>'Magic' mushroom</text>
+	</string>
+	<string id="enc_equipment_mushroom">
+		<text>%c[255,255,255,255]Radiation %c[255,255,1,1]+10\n%c[default]'Amanita Muscaria' ( commonly known as 'Fly Agaric') is a poisonous and psychoactive basidiomycete fungus, one of many in the genus Amanita. Native throughout the temperate and boreal regions of the Northern Hemisphere. Known for the unpredictability of their effects. Depending on habitat and the amount ingested per body weight, effects can range from nausea and twitching to drowsiness, cholinergic crisis-like effects (low blood pressure, sweating and salivation), auditory and visual distortions, mood changes, euphoria, relaxation, ataxia, and loss of equilibrium. It was referred to as the 'Flesh of the Gods', or 'Food of the Gods' because those who ingested it believed that they were in direct communication with the Earth and the Universe when they consumed this fungi. The Fly-Agaric was commonly used by the Druids and other 'Magic' users. It was considered too powerful for those not trained in the higher levels of the mind</text>
+	</string>
+	<string id="mushroom2">
+		<text>Halucenogenic mushroom</text>
+	</string>
+	<string id="enc_equipment_mushroom2">
+		<text>2   Purple. A special mushroom that has mutated due to the affects of close proximity to rare artefacts</text>
+	</string>
+	<string id="mushroom3">
+		<text>Radiated Mushroom</text>
+	</string>
+	<string id="enc_equipment_mushroom3">
+		<text>3    Green. A special mushroom that has mutated due to the affects of close proximity to rare artefacts</text>
+	</string>
+	<string id="mushroom4">
+		<text>Power Mushroom</text>
+	</string>
+	<string id="enc_equipment_mushroom4">
+		<text>4    Red top. A special mushroom that has mutated due to the affects of close proximity to rare artefacts</text>
+	</string>
+	<string id="mushroom5">
+		<text>Wealth Mushroom</text>
+	</string>
+	<string id="enc_equipment_mushroom5">
+		<text>5    Blue fluoro top. A special mushroom that has mutated due to the affects of close proximity to rare artefacts</text>
+	</string>
+	<!-- !TB3D -->
+	<string id="bolt_descr">
+		<text>Bolt '32h100'. A Stalker's best friend...</text>
+	</string>
+	<string id="rover_bot_stancion">
+		<text>Station for a mobile robot</text>
+	</string>
+	<!-- !TB3D -->
+	<string id="cigara">
+		<text>Cuban cigar</text>
+	</string>
+	<string id="cigara_s">
+		<text>Cuban cigar</text>
+	</string>
+	<string id="enc_cigara">
+		<text>Cuban cigars are rolled from tobacco leaves found throughout the country of Cuba. The filler, binder, and wrapper may come from different portions of the island. All cigar production in Cuba is controlled by the Cuban government, and each brand may be rolled in several different factories in Cuba. Cuban cigar rollers or "torcedores" are claimed by cigar experts to be the most skilled rollers in the world. Torcedores are highly respected in Cuban society and culture and travel worldwide displaying their art of hand rolling cigars. These are a rare find in the Zone... and can be worth a lot of roubles to the right buyer</text>
+	</string>
+	<!--	<string id="cigara">
+		<text>Cuba Cigar</text>
+	</string>
+	<string id="enc_cigara">
+		<text>This Cuban cigar. In the Zone gets smuggled. According to this, local merchants to sell cigars can be bought and they can not be the same. Tobacco natural, strength and flavor excellent. Complementing the picture beautiful form of cigars, which makes smoking a real pleasure when you consider that we are in the Zone</text>
+	</string> -->
+	<string id="fake_cigara">
+		<text>This needs to be fixed</text>
+	</string>
+	<string id="sandwich">
+		<text>Sandwich</text>
+	</string>
+	<string id="sandwich_s">
+		<text>Sandwich</text>
+	</string>
+	<string id="enc_sandwich">
+		<text>A very basic sandwich using any available meat, or sausage product. The bread doesn't seem to be too stale to eat... will satisfy hunger for the time being, or until something more nutritious comes along</text>
+	</string>
+	<!--	<string id="sandwich">
+		<text>Sandwich</text>
+	</string>
+	<string id="enc_sandwich">
+		<text>The most common sausage sandwich. Prepared in advance, so that you can eat on the go, without a knife uncovered and not digging in his backpack in search of food ingredients</text>
+	</string> -->
+	<string id="beer_a">
+		<text>Zone Beer</text>
+	</string>
+	<string id="beer_a_s">
+		<text>Beer</text>
+	</string>
+	<string id="enc_beer_a">
+		<text>Apparently, this beer is brewed right here in the Zone. No-one knows where, but no-one complains, either...</text>
+	</string>
+	<!--	<string id="beer_a">
+		<text>Beer</text>
+	</string>
+	<string id="enc_beer_a">
+		<text>Beer of local production. Composition of the course has been written. A good way to get drunk to the blue tomato</text>
+	</string> -->
+	<string id="flaska">
+		<text>Flask</text>
+	</string>
+	<string id="flaska_s">
+		<text>Flask</text>
+	</string>
+	<string id="enc_flaska">
+		<text>A flask filled with clean, spring water... possibly just re-filled from the 'Crystal' brand water found throughout the Zone. Good for replenishing stamina...</text>
+	</string>
+	<!--	<string id="flaska">
+		<text>Flask</text>
+	</string>
+	<string id="enc_flaska">
+		<text>Flask, filled to the edge of water from a pure spring. Cleaner water in these places do not find</text>
+	</string> -->
+	<string id="sweetness">
+		<text>'Alenka' Chocolate Bar</text>
+	</string>
+	<string id="sweetness_s">
+		<text>'Alenka'</text>
+	</string>
+	<string id="enc_sweetness">
+		<text>First produced in 1966 in Moscow's Red October factory, following a Kremlin directive to create a new brand of milk chocolate, 'Alenka' became a sign of the good times, and a favorite snack of generations to follow, due to it having the same ratio of fats to sugar as human breast milk, and so creating an artificially induced euphoric effect on the brain. For a Stalker's purposes, however, by 'tricking' the body's blood sugar monitoring it can alleviate the symptoms of hunger, while supplying no appreciable form of nutrition whatsover...</text>
+	</string>
+	<!--	<string id="sweetness">
+		<text>Bar of chocolate</text>
+	</string>
+	<string id="enc_sweetness">
+		<text>A delicious chocolate bar. Soybeans in excess, the presence of natural cocoa is doubtful. Well satisfies hunger and positive effect on brain activity</text>
+	</string> -->
+	<string id="box_cigara">
+		<text>Box of cigars</text>
+	</string>
+	<string id="box_cigara_s">
+		<text>Box of cigars</text>
+	</string>
+	<string id="enc_box_cigara">
+		<text>A box of Cuban cigars... worth a lot of money in a place like this!</text>
+	</string>
+	<!--	<string id="box_cigara">
+		<text>Cigar Box</text>
+	</string>
+	<string id="enc_box_cigara">
+		<text>A box with Cuban cigars. Very expensive thing</text>
+	</string> -->
+	<string id="balalaika_a">
+		<text>Balalaika</text>
+	</string>
+	<string id="balalaika_a_s">
+		<text>Balalaika</text>
+	</string>
+	<string id="enc_balalaika_a">
+		<text>A stringed instrument of Russian origin, with a characteristic triangular body and three strings. The balalaika family of instruments includes, from the highest-pitched to the lowest, the prima balalaika, sekunda balalaika, alto balalaika, bass balalaika and contrabass balalaika. Although the earliest mention of the term 'balalaika' dates back to a 1688 Russian document, the word became widely used in 18th century Ukrainian language documents. According to one theory, the term was picked up in Russian, where it first appeared in 'Elysei', a poem by V. Maikov in 1771</text>
+	</string>
+	<!--	<string id="balalaika_a">
+		<text>Balalaika</text>
+	</string>
+	<string id="enc_balalaika_a">
+		<text>Normal balalaika. A wonderful Russian folk instrument. In the Zone, too, lacks the masters of playing</text>
+	</string> -->
+	<string id="det_artefact_indy">
+		<text>'Echo' Artefact Detector</text>
+	</string>
+	<string id="det_art_indy_info">
+		<text>An effective combination of sensitivity and stability, this detector was carefully developed by the Zone's scientific community for serious usage. While still using advanced multi-frequency echo location to detect all known artefacts within a 40 metre radius, it does away with unreliable LED drivers, using the familiar audible fixed-pitch sound of increasing frequency as you get closer to an artefact. Vastly superior to most other available models, it's an expensive but valuable acquisition that will quickly pay for itself in the right hands\nTo use, simply put it in your first weapon slot, even if you're holding a larger weapon</text>
+	</string>
+	<!--	<string id="det_artefact_indy">
+		<text>Detector artefacts</text>
+	</string>
+	<string id="det_art_indy_info">
+		<text>This is the first detector artefacts, designed by local craftsmen. The device is ineffective because it does not reach over and 40 meters, and the presence of an artefact is recognized only an audible signal. But in its time, with the help of this device has been found so many artefacts</text>
+	</string> -->
+	<string id="det_art_ultra_super">
+		<text>'Svarog' Artefact Detector</text>
+	</string>
+	<string id="det_art_ultra_super_s">
+		<text>'Svarog'</text>
+	</string>
+	<string id="enc_det_art_ultra_info">
+		<text>Named after the Slavic mythological god of the sky, sun, and fire, this is the last known invention from the Zone's Scientific Research Institute. Using advanced nanotechnology, this sensitive detector can detect all known artefacts as far away as 1.5km and display them simultaneously on the user's map. Besides their precise location (even under the ground), this superb detector can accurately distinguish the type of artefact, which alone sets it apart from all other models...</text>
+	</string>
+	<string id="detektor_amorf">
+		<text>Isomorphic Detector</text>
+	</string>
+	<string id="detektor_amorf_s">
+		<text>Isomorphic Detector</text>
+	</string>
+	<string id="detektor_amorf_info">
+		<text>Detector able to detect items containing particles of an Alien power and display these items on the map within a radius of fifty to sixty metres, also beeps. It is also possible to locate artefacts. Activated when in the pistol slot</text>
+	</string>
+	<string id="detector_elite_john">
+		<text>'Ultra' Anomaly Detector</text>	<!-- Was 'Hologram Detector' -->
+	</string>
+	<string id="detector_elite_john_s">
+		<text>'Ultra' Anomaly Detector</text>	<!-- Was 'Hologram Detector' -->
+	</string>
+	<!--	<string id="detector_elite_john">
+		<text>Detector Holograms</text>
+	</string> -->
+	<!-- DOCUMENTS AKIM -->
+	<string id="doc_garbage">
+		<text>Old documents from the Dump</text>
+	</string>
+	<string id="doc_garbage_s">
+		<text>Old documents 1</text>
+	</string>
+	<string id="enc_doc_garbage">
+		<text>Documents found at the Dump. Scientific formulae in an incomprehensible language, or the senseless scribblings of a lunatic?</text>
+	</string>
+	<!--	<string id="doc_garbage">
+		<text>Old paper from the landfill</text>
+	</string>
+	<string id="enc_doc_garbage">
+		<text>Documents found in the Garbage. Formula, write a foreign language. By type - ravings of a madman</text>
+	</string> -->
+	<string id="doc_agro">
+		<text>Old documents 2 from Agroprom</text>
+	</string>
+	<string id="doc_agro_">
+		<text>Old documents 2</text>
+	</string>
+	<string id="enc_doc_agro">
+		<text>A stack of documents found in the catacombs beneath the Agroprom Institute. Some sort of formula in a language I don't recognize. What does Akim want with these?</text>
+	</string>
+	<!--	<string id="doc_agro">
+		<text>Old paper with Agroprom</text>
+	</string>
+	<string id="enc_doc_agro">
+		<text>A stack of documents found in the catacombs of Agroprom. Formula, write a foreign language. By type - not very much like the previous</text>
+	</string> -->
+	<string id="doc_x18_1">
+		<text>Old Document 3 - Part I</text>
+	</string>
+	<string id="doc_x18_1_s">
+		<text>Part I</text>
+	</string>
+	<string id="enc_doc_x18_1">
+		<text>The first part of a set of documents left in the Dark Valley. Appears to be the introduction to something before going into much more depth...</text>
+	</string>
+	<!--	<string id="doc_x18_1">
+		<text>The old document. Part I</text>
+	</string>
+	<string id="enc_doc_x18_1">
+		<text>Documents found in Dark Valley. By all appearances this is the first part</text>
+	</string> -->
+	<string id="doc_x18_2">
+		<text>Old Document 3 - Part II</text>
+	</string>
+	<string id="doc_x18_2_s">
+		<text>Part II</text>
+	</string>
+	<string id="enc_doc_x18_2">
+		<text>The second part of a series of documents left in Laboratory X-18</text>
+	</string>
+	<!--	<string id="doc_x18_2">
+		<text>The old document. Part II</text>
+	</string>
+	<string id="enc_doc_x18_2">
+		<text>The second part doumentov found in the laboratory X-18</text>
+	</string> -->
+	<string id="doc_x18_3">
+		<text>Old Document 3 - Part III</text>
+	</string>
+	<string id="doc_x18_3_s">
+		<text>Part III</text>
+	</string>
+	<string id="enc_doc_x18_3">
+		<text>The third part of a series of documents left in Laboratory X-18</text>
+	</string>
+	<!--	<string id="doc_x18_3">
+		<text>The old document. Part III</text>
+	</string>
+	<string id="enc_doc_x18_3">
+		<text>The third part doumentov found in the laboratory X-18</text>
+	</string> -->
+	<string id="doc_x18_4">
+		<text>Old Document 3 - Part IV</text>
+	</string>
+	<string id="doc_x18_4_s">
+		<text>Part IV</text>
+	</string>
+	<string id="enc_doc_x18_4">
+		<text>The fourth part of a series of documents left in Laboratory X-18</text>
+	</string>
+	<!--	<string id="doc_x18_4">
+		<text>The old document. Part IV</text>
+	</string>
+	<string id="enc_doc_x18_4">
+		<text>Last quarter of doumentov found in the laboratory X-18</text>
+	</string> -->
+	<string id="doc_x16">
+		<text>Old Document from Laboratory X-16</text>
+	</string>
+	<string id="doc_x16_s">
+		<text>Old X-16 Document</text>
+	</string>
+	<string id="enc_doc_x16">
+		<text>Documentation found inside Laboratory X-16. A series of scientific formulae written in a language I don't recognize. Apparently this is the last few sheets of a series of documents making up a Report on Secret Experiments throughout the Zone... It's signed by a 'Benjamin Linus' of the Dharma Initiative... So what does this mean? And what's this Dharma Initiative I keep coming across?</text>
+	</string>
+	<!--	<string id="doc_x16">
+		<text>Old document from the X-16</text>
+	</string>
+	<string id="enc_doc_x16">
+		<text>Documents found in the laboratory X-16. Formula, write a foreign language. Apparently this is the last part of the documents found</text>
+	</string> -->
+	<string id="pda_info">
+		<text>Broken PDA</text>
+	</string>
+	<string id="pda_info_s">
+		<text>PDA</text>
+	</string>
+	<string id="enc_pda_info">
+		<text>A common PDA in the Zone, but knocked about and non-functional.  It is seen that the former owner was with him, not very thrifty. Activate the PDA can not be due to a broken screen. Flash cards do not. So not worth anything...</text>
+	</string>
+	<!--	<string id="pda_info">
+		<text>Broken PDA</text>
+	</string>
+	<string id="enc_pda_info">
+		<text>A typical PDA, which many in the Zone. Besides - a non-working and bruised. It is evident that the former owner was with him not very frugal. Insert a PDA can not be due to a broken screen. Flash card no. In general, nothing can fuck</text>
+	</string> -->
+	<string id="hand_teleporter_arhara">
+		<text>Defective hand teleporter</text>
+	</string>
+	<string id="hand_teleporter_arhara_s">
+		<text>Defective teleporter</text>
+	</string>
+	<!--	<string id="hand_teleporter_arhara">
+		<text>Faulty manual teleportator</text>
+	</string> -->
+	<string id="hand_teleporter">
+		<text>Hand teleporter</text>
+	</string>
+	<string id="hand_teleporter_s">
+		<text>Hand teleporter</text>
+	</string>
+	<!--	<string id="hand_teleporter">
+		<text>Hand teleportator</text>
+	</string> -->
+	<!-- Documents on the Hood -->
+	<string id="bloknot_pantera">
+		<text>Panther's notebook</text>
+	</string>
+	<string id="bloknot_pantera_s">
+		<text>Notebook</text>
+	</string>
+	<string id="enc_equipment_bloknot_pantera">
+		<text>Panther's personal notebook. It contains several indecipherable phrases, and the following code: 25190456...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="dosye_zvez">
+		<text>The 'Astrologer' file</text>
+	</string>
+	<string id="dosye_zvez_s">
+		<text>Astrologer Profile</text>
+	</string>
+	<string id="enc_equipment_dosye_zvez">
+		<text>A file containing information on the 'Astrologer'...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="foto_kukla">
+		<text>Photo of a doll</text>
+	</string>
+	<string id="foto_kukla_s">
+		<text>Photo</text>
+	</string>
+	<string id="enc_equipment_foto_kukla">
+		<text>An old photograph of a child's toy doll...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="pilot_zapiska">
+		<text>The Pilot's letter</text>
+	</string>
+	<string id="pilot_zapiska_s">
+		<text>Letter</text>
+	</string>
+	<string id="enc_equipment_pilot_zapiska">
+		<text>The helicopter pilot's letter, which contains some very important information...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="foto_chaes_truba">
+		<text>Photo of the pilot</text>
+	</string>
+	<string id="foto_chaes_truba_s">
+		<text>Photo</text>
+	</string>
+	<string id="enc_equipment_foto_chaes_truba">
+		<text>The photograph of the burned helicopter taken by the pilot. In it, the large pipe alongside the burned helicopter can be seen clearly...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="foto_aver_mono">
+		<text>Group Photo</text>
+	</string>
+	<string id="foto_aver_mono_s">
+		<text>Photo</text>
+	</string>
+	<string id="enc_equipment_foto_aver_mono">
+		<text>Photograph of the group that burned the helicopter...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="foto_aver_zvezd">
+		<text>Photo of the Group Leader</text>
+	</string>
+	<string id="foto_aver_zvezd_s">
+		<text>Photo</text>
+	</string>
+	<string id="enc_equipment_foto_aver_zvezd">
+		<text>Photograph of the leader of the group that burned the helicopter...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="chaes2_karta_kluk">
+		<text>Photo of the NPP</text>
+	</string>
+	<string id="chaes2_karta_kluk_s">
+		<text>Chernobyl</text>
+	</string>
+	<string id="enc_equipment_chaes2_karta_kluk">
+		<text>Photograph of the northern side of the Chernobyl NPP. There is a mark on it possibly indicating the way to the southern side of the NPP...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="kreditka">
+		<text>Credit card</text>
+	</string>
+	<string id="kreditka_s">
+		<text>Credit card</text>
+	</string>
+	<string id="enc_equipment_kreditka">
+		<text>A credit card with a $5,000,000 limit, issued from the Bank of America!...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="razved_karta">
+		<text>Map fragments</text>
+	</string>
+	<string id="razved_karta_s">
+		<text>Map fragments</text>
+	</string>
+	<string id="enc_equipment_razved_karta">
+		<text>Old scraps of a map containing directions, or coordinates of some sort...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="karta_peschera">
+		<text>Cave map</text>
+	</string>
+	<string id="karta_peschera_s">
+		<text>Map</text>
+	</string>
+	<string id="enc_equipment_karta_peschera">
+		<text>Old map of the caves... Someone has scribbled some directions on it... Hard to decipher, though... Maybe the way out of here?\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="recipi_bpb">
+		<text>Stalker's note</text>
+	</string>
+	<string id="recipi_bpb_s">
+		<text>Stalker's note</text>
+	</string>
+	<string id="enc_equipment_recipi_bpb">
+		<text>Unidentified Stalker's note... There's information here about modifying certain artefacts. Looks interesting...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+	<string id="stukach_book">
+		<text>Informant's notebook</text>
+	</string>
+	<string id="stukach_book_s">
+		<text>Notebook</text>
+	</string>
+	<string id="stukach_book_desc">
+		<text>Notebook belonging to the 'Freedom' informant, and containing information on modifying artefacts...\n\nCan be viewed from the first weapon slot</text>
+	</string>
+</string_table>

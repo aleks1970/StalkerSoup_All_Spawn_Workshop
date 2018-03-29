@@ -1,0 +1,291 @@
+<!-- ************ TB3D 1.1.0.0.1.6 updated to 135, trade, tb3d_escort_task_use, bone fracture, Actor PDA - aleks1970 *************** -->
+<game_information_portions>
+	<info_portion id="storyline_actor_start">
+		<task>storyline_eliminate_gunslinger</task>
+		<!-- ***************	<action>dmx_mod.dmx_start_spawn</action>	 !!!!TB3D  in 134 *************** -->
+	</info_portion>
+	<info_portion id="global_dialogs">
+		<dialog>actor_break_dialog</dialog>
+		<!-- ***************    <dialog>actor_help_wounded</dialog>   *************** -->
+	</info_portion>
+	<!-- ***************  <info_portion id="terrain_test">
+  </info_portion> *************** -->
+	<!-- *************** special info portion that sends to actor when it
+    use in-game UI (PDA, Inventory, etc)*************** -->
+	<info_portion id="ui_pda">
+		<disable>ui_pda_hide</disable>
+	</info_portion>
+	<info_portion id="ui_pda_hide">
+		<disable>ui_pda</disable>
+	</info_portion>
+	<info_portion id="ui_pda_contacts"/>
+	<info_portion id="ui_pda_contacts_hide"/>
+	<info_portion id="ui_pda_map_local"/>
+	<info_portion id="ui_pda_map_global"/>
+	<info_portion id="ui_pda_news"/>
+	<info_portion id="ui_pda_news_hide"/>
+	<info_portion id="ui_pda_jobs_failed"/>
+	<info_portion id="ui_pda_jobs_accomplished"/>
+	<info_portion id="ui_pda_jobs_current"/>
+	<info_portion id="ui_pda_jobs">
+		<disable>ui_pda_jobs_hide</disable>
+	</info_portion>
+	<info_portion id="ui_pda_jobs_hide">
+		<disable>ui_pda_jobs</disable>
+	</info_portion>
+	<info_portion id="ui_pda_contracts"/>
+	<info_portion id="ui_pda_diary"/>
+	<info_portion id="ui_pda_diary_hide"/>
+	<info_portion id="ui_pda_encyclopedia"/>
+	<info_portion id="ui_pda_encyclopedia_hide"/>
+	<info_portion id="ui_pda_actor_info"/>
+	<info_portion id="ui_pda_ranking"/>
+	<info_portion id="ui_pda_events"/>
+	<info_portion id="ui_inventory">
+		<disable>ui_inventory_hide</disable>
+	</info_portion>
+	<info_portion id="ui_inventory_hide">
+		<disable>ui_inventory</disable>
+	</info_portion>
+	<info_portion id="ui_talk">
+		<disable>ui_talk_hide</disable>
+	</info_portion>
+	<info_portion id="ui_talk_hide">
+		<disable>ui_talk</disable>
+	</info_portion>
+	<info_portion id="ui_trade">
+		<disable>ui_trade_hide</disable>
+	</info_portion>
+	<info_portion id="ui_trade_hide">
+		<disable>ui_trade</disable>
+	</info_portion>
+	<info_portion id="ui_car_body">
+		<disable>ui_car_body_hide</disable>
+	</info_portion>
+	<info_portion id="ui_car_body_hide">
+		<disable>ui_car_body</disable>
+	</info_portion>
+	<info_portion id="tutorial_part_15_hide_weapon"/>
+	<info_portion id="autojump_enabled"/>
+	<!-- ***************  kostya level  *************** -->
+	<info_portion id="peshera_code_door_unlocked"/>
+	<info_portion id="peshera_code_door_unlocked2"/>
+	<info_portion id="peshera_code_door_unlocked3"/>
+	<info_portion id="peshera_code_door_unlocked4"/>
+	<info_portion id="spawn_teleport_exit"/>
+	<info_portion id="spawn_teleport_hospital"/>
+	<info_portion id="krovosos_spawn"/>
+	<info_portion id="krovosos_spawn2"/>
+	<info_portion id="generators_code_door_unlocked"/>
+	<info_portion id="red_forest_open"/>
+	<info_portion id="red_forest_open2"/>
+	<info_portion id="red_polter_spawn"/>
+	<info_portion id="red_krovosos_spawn"/>
+	<!-- **** new difficulty info on game start/load - aleks1970 **** -->
+	<!--info_portion id="game_difficulty"/-->
+	<info_portion id="game_gd_novice"/>
+	<info_portion id="game_gd_stalker"/>
+	<info_portion id="game_gd_veteran"/>
+	<info_portion id="game_gd_markedone"/>
+	<info_portion id="game_gd_collector"/>
+	<!-- **** new trader info on buy/sell/supplay - aleks1970 **** -->
+	<!-- info_portion id="trader_buy_tier_1"/ -->
+	<info_portion id="trader_buy_tier_1">
+		<disable>trader_buy_tier_2</disable>
+		<disable>trader_buy_tier_3</disable>
+	</info_portion>
+	<!-- info_portion id="trader_buy_tier_2"/ -->
+	<info_portion id="trader_buy_tier_2">
+		<disable>trader_buy_tier_1</disable>
+		<disable>trader_buy_tier_3</disable>
+	</info_portion>
+	<!-- info_portion id="trader_buy_tier_3"/ -->
+	<info_portion id="trader_buy_tier_3">
+		<disable>trader_buy_tier_1</disable>
+		<disable>trader_buy_tier_2</disable>
+	</info_portion>
+	<!-- info_portion id="trader_sell_tier_1"/ -->
+	<info_portion id="trader_sell_tier_1">
+		<disable>trader_sell_tier_2</disable>
+		<disable>trader_sell_tier_3</disable>
+	</info_portion>
+	<!-- info_portion id="trader_sell_tier_2"/ -->
+	<info_portion id="trader_sell_tier_2">
+		<disable>trader_sell_tier_1</disable>
+		<disable>trader_sell_tier_3</disable>
+	</info_portion>
+	<!-- info_portion id="trader_sell_tier_3"/ -->
+	<info_portion id="trader_sell_tier_3">
+		<disable>trader_sell_tier_1</disable>
+		<disable>trader_sell_tier_2</disable>
+	</info_portion>
+	
+	<!-- 110016, info for Actor PDA function - aleks1970 -->
+	<info_portion id="have_pda_temp_screen"/>
+	<info_portion id="have_actor_pda">
+		<disable>actor_pda_missing</disable>
+		<disable>have_actor_error_pda</disable>
+		<disable>have_pda_temp_screen</disable>
+	</info_portion>
+	<info_portion id="have_actor_error_pda">
+		<disable>have_actor_pda</disable>
+		<disable>actor_pda_missing</disable>
+	</info_portion>
+	<info_portion id="actor_pda_missing">
+		<disable>have_actor_pda</disable>
+		<disable>have_actor_error_pda</disable>
+		<disable>have_pda_temp_screen</disable>
+	</info_portion>
+	<!-- *********** Collector PDA section ************ -->
+	<info_portion id="have_collector_pda">
+		<disable>collector_pda_missing</disable>
+		<disable>have_collector_error_pda</disable>
+		<disable>have_pda_temp_screen</disable>
+		<disable>have_actor_pda</disable>
+		<disable>actor_pda_missing</disable>
+		<disable>have_actor_error_pda</disable>
+	</info_portion>
+	<info_portion id="have_collector_error_pda">
+		<disable>have_collector_pda</disable>
+		<disable>collector_pda_missing</disable>
+		<disable>have_actor_pda</disable>
+		<disable>actor_pda_missing</disable>
+		<disable>have_actor_error_pda</disable>
+	</info_portion>
+	<info_portion id="collector_pda_missing">
+		<disable>have_collector_pda</disable>
+		<disable>have_collector_error_pda</disable>
+		<disable>have_pda_temp_screen</disable>
+		<disable>have_actor_pda</disable>
+		<disable>actor_pda_missing</disable>
+		<disable>have_actor_error_pda</disable>
+	</info_portion>
+	
+	<!-- **** test TRADER - inventory elements - aleks1970 -->
+<!-- <info_portion id="traders_inventory_elements_1">
+	 	<disable>traders_inventory_elements_2</disable>
+	 	<disable>traders_inventory_elements_3</disable>
+		<disable>traders_inventory_elements_4</disable>
+		<disable>traders_inventory_elements_5</disable>
+		<disable>traders_inventory_elements_6</disable>
+		<disable>traders_inventory_elements_7</disable>
+		<disable>traders_inventory_elements_8</disable>
+		<disable>traders_inventory_elements_new</disable>
+	</info_portion>
+	<info_portion id="traders_inventory_elements_2">
+	 	<disable>traders_inventory_elements_1</disable>
+	 	<disable>traders_inventory_elements_3</disable>
+		<disable>traders_inventory_elements_4</disable>
+		<disable>traders_inventory_elements_5</disable>
+		<disable>traders_inventory_elements_6</disable>
+		<disable>traders_inventory_elements_7</disable>
+		<disable>traders_inventory_elements_8</disable>
+		<disable>traders_inventory_elements_new</disable>
+	</info_portion>
+	<info_portion id="traders_inventory_elements_3">
+	 	<disable>traders_inventory_elements_1</disable>
+		<disable>traders_inventory_elements_2</disable>
+		<disable>traders_inventory_elements_4</disable>
+		<disable>traders_inventory_elements_5</disable>
+		<disable>traders_inventory_elements_6</disable>
+		<disable>traders_inventory_elements_7</disable>
+		<disable>traders_inventory_elements_8</disable>
+		<disable>traders_inventory_elements_new</disable>
+	</info_portion>
+	<info_portion id="traders_inventory_elements_4">
+	 	<disable>traders_inventory_elements_1</disable>
+		<disable>traders_inventory_elements_2</disable>
+	 	<disable>traders_inventory_elements_3</disable>
+		<disable>traders_inventory_elements_5</disable>
+		<disable>traders_inventory_elements_6</disable>
+		<disable>traders_inventory_elements_7</disable>
+		<disable>traders_inventory_elements_8</disable>
+		<disable>traders_inventory_elements_new</disable>
+	</info_portion>
+	<info_portion id="traders_inventory_elements_5">
+	 	<disable>traders_inventory_elements_1</disable>
+		<disable>traders_inventory_elements_2</disable>
+	 	<disable>traders_inventory_elements_3</disable>
+		<disable>traders_inventory_elements_4</disable>
+		<disable>traders_inventory_elements_6</disable>
+		<disable>traders_inventory_elements_7</disable>
+		<disable>traders_inventory_elements_8</disable>
+		<disable>traders_inventory_elements_new</disable>
+	</info_portion>
+	<info_portion id="traders_inventory_elements_6">
+	 	<disable>traders_inventory_elements_1</disable>
+		<disable>traders_inventory_elements_2</disable>
+	 	<disable>traders_inventory_elements_3</disable>
+		<disable>traders_inventory_elements_4</disable>
+		<disable>traders_inventory_elements_5</disable>
+		<disable>traders_inventory_elements_7</disable>
+		<disable>traders_inventory_elements_8</disable>
+		<disable>traders_inventory_elements_new</disable>
+	</info_portion>
+	<info_portion id="traders_inventory_elements_7">
+	 	<disable>traders_inventory_elements_1</disable>
+		<disable>traders_inventory_elements_2</disable>
+	 	<disable>traders_inventory_elements_3</disable>
+		<disable>traders_inventory_elements_4</disable>
+		<disable>traders_inventory_elements_5</disable>
+		<disable>traders_inventory_elements_6</disable>
+		<disable>traders_inventory_elements_8</disable>
+		<disable>traders_inventory_elements_new</disable>
+	</info_portion>
+	<info_portion id="traders_inventory_elements_8">
+	 	<disable>traders_inventory_elements_1</disable>
+		<disable>traders_inventory_elements_2</disable>
+	 	<disable>traders_inventory_elements_3</disable>
+		<disable>traders_inventory_elements_4</disable>
+		<disable>traders_inventory_elements_5</disable>
+		<disable>traders_inventory_elements_6</disable>
+		<disable>traders_inventory_elements_7</disable>
+		<disable>traders_inventory_elements_new</disable>
+	</info_portion>
+	<info_portion id="traders_inventory_elements_new">
+	 	<disable>traders_inventory_elements_1</disable>
+		<disable>traders_inventory_elements_2</disable>
+	 	<disable>traders_inventory_elements_3</disable>
+		<disable>traders_inventory_elements_4</disable>
+		<disable>traders_inventory_elements_5</disable>
+		<disable>traders_inventory_elements_6</disable>
+		<disable>traders_inventory_elements_7</disable>
+		<disable>traders_inventory_elements_8</disable>
+	</info_portion>  -->
+	
+	<!-- info on the use of special outfits - aleks1970 -->
+	<info_portion id="advanced_outfit_used"/>
+	<!-- info for temporarily disable random dialogs - aleks1970 -->
+	<info_portion id="random_dialogue_enabled"/>
+	<!-- info for disable the dmx_pp_effector - aleks1970 -->
+	<info_portion id="dmx_pp_effector_info"/>
+	<!-- Information during a fracture, when giving a loop of exhaustion - aleks1970 -->
+	<info_portion id="actor_limit_hit"></info_portion>
+	<info_portion id="actor_broke_leg">
+		<disable>actor_broke_green_leg</disable>
+		<disable>actor_limit_fatique_timer</disable>
+	</info_portion>
+	<info_portion id="actor_broke_green_leg">
+		<disable>actor_broke_leg</disable>
+		<disable>actor_limit_fatique_timer</disable>
+	</info_portion>
+	<info_portion id="actor_limit_fatique_timer"></info_portion>
+	<!-- Information for activate the debug on-screen stats - aleks1970 -->
+	<info_portion id="sdata_stats_debug"/>
+	<info_portion id="sdata_stats_position_on"/>
+	<info_portion id="sdata_stats_actor_on"/>
+	<info_portion id="sdata_stats_infoportion_on"/>
+	<info_portion id="sdata_stats_info_show_true"/>
+	<info_portion id="sdata_stats_gulags_on"/>
+	<info_portion id="sdata_stats_zones_on"/>
+	<!-- Smartterrain and Waypoint - aleks1970 -->
+	<info_portion id="smart_debug_on"/>
+	
+	<!-- 110007, prevent escort scientists task until it is fixed -->
+	<info_portion id="tb3d_escort_task_use"/>
+	<!-- 110007, keep obmorok and smoker away until levelup 4, reclamation -->
+	<info_portion id="tb3d_obmorok_start"/>
+	<!-- 110007, will allow sid to use old join dialog until new join system completed -->
+	<info_portion id="tb3d_sid_join_dialogs"/>
+	
+</game_information_portions>

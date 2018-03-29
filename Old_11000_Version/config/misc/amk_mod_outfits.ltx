@@ -1,0 +1,2527 @@
+;<!-- TB3D 1.1.0.0.1.3, discovery_dependency aleks1970 -->
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;AMK 1.4.1 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;AMK Outfits (Based on Lexx Antigas Mod)
+
+;##########################################################################
+;# Neutrals
+;##########################################################################
+
+[neytral_novice_outfit_m1]:outfit_base
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "outfit\novice_outfit"
+;$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\neytral_novice_suit
+actor_visual	= actors\novice\green_stalker_1.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= neytral_novice_outfit_m1_name
+inv_name_short		= neytral_novice_outfit_m1_name
+description			= neytral_novice_outfit_m1_description
+inv_weight			= 3.0
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 14
+inv_grid_y			= 27
+
+full_icon_name		= npc_icon_neytral_novice_outfit_m1
+
+cost				= 1000
+power_loss		 	= 0.80
+slot				= 6
+full_scale_icon		= 0,11
+
+immunities_sect			= sect_neytral_novice_outfit_m1_immunities
+
+; NO RESISTANCE
+burn_protection 				= 0.1
+strike_protection 				= 0.05
+shock_protection 				= 0.05
+wound_protection				= 0.05
+radiation_protection 			= 0.0
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.1
+explosion_protection 			= 0.1
+fire_wound_protection  			= 0.05
+
+bones_koeff_protection = kurtka_mask_damage
+
+[sect_neytral_novice_outfit_m1_immunities]
+burn_immunity				= 0.04
+strike_immunity				= 0.01
+shock_immunity				= 0.04
+wound_immunity				= 0.025
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.04
+explosion_immunity			= 0.04
+fire_wound_immunity			= 0.015
+
+[neytral_novice_outfit_m1_bad]:neytral_novice_outfit_m1
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 3.5
+cost				= 3000
+inv_name			= neytral_novice_outfit_m1_bad_name
+inv_name_short			= neytral_novice_outfit_m1_bad_name
+
+[neytral_novice_outfit_m1_plus]:neytral_novice_outfit_m1
+inv_weight			= 4.5
+cost				= 2000
+immunities_sect			= sect_upgrade_immunities
+inv_name			= neytral_novice_outfit_m1_plus_name
+inv_name_short			= neytral_novice_outfit_m1_plus_name
+
+[neytral_novice_outfit_m1_badplus]:neytral_novice_outfit_m1
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 5.0
+cost				= 4000
+immunities_sect			= sect_upgrade_immunities
+inv_name			= neytral_novice_outfit_m1_badplus_name
+inv_name_short			= neytral_novice_outfit_m1_badplus_name
+
+
+[neytral_novice_outfit_cam]:neytral_novice_outfit_m1
+visual          = equipments\novice_outfit_cam_suit
+actor_visual	= actors\novice\green_stalker_4.ogf
+
+inv_grid_x			= 38
+inv_grid_y			= 30
+
+full_icon_name		= npc_icon_neytral_novice_outfit_cam
+
+[neytral_novice_outfit_cam_bad]:neytral_novice_outfit_cam
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 3.5
+cost				= 3000
+inv_name			= neytral_novice_outfit_cam_bad_name
+inv_name_short			= neytral_novice_outfit_cam_bad_name
+
+[neytral_novice_outfit_cam_plus]:neytral_novice_outfit_cam
+inv_weight			= 4.5
+cost				= 2000
+immunities_sect			= sect_upgrade_immunities
+inv_name			= neytral_novice_outfit_cam_plus_name
+inv_name_short			= neytral_novice_outfit_cam_plus_name
+
+[neytral_novice_outfit_cam_badplus]:neytral_novice_outfit_cam
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 5.0
+cost				= 4000
+immunities_sect			= sect_upgrade_immunities
+inv_name			= neytral_novice_outfit_cam_badplus_name
+inv_name_short			= neytral_novice_outfit_cam_badplus_name
+
+
+[neytral_novice_outfit_new]:neytral_novice_outfit_m1
+
+visual          = equipments\novice_new_suit
+actor_visual	= actors\novice\green_stalker_11.ogf
+
+inv_grid_x			= 34
+inv_grid_y			= 24
+
+full_icon_name		= npc_icon_neytral_novice_outfit_new
+
+[neytral_novice_outfit_new_bad]:neytral_novice_outfit_new
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 3.5
+cost				= 3000
+inv_name			= neytral_novice_outfit_new_bad_name
+inv_name_short			= neytral_novice_outfit_new_bad_name
+
+[neytral_novice_outfit_new_plus]:neytral_novice_outfit_new
+inv_weight			= 4.5
+cost				= 2000
+immunities_sect			= sect_upgrade_immunities
+inv_name			= neytral_novice_outfit_new_plus_name
+inv_name_short			= neytral_novice_outfit_new_plus_name
+
+[neytral_novice_outfit_new_badplus]:neytral_novice_outfit_new
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 5.0
+cost				= 4000
+immunities_sect			= sect_upgrade_immunities
+inv_name			= neytral_novice_outfit_new_badplus_name
+inv_name_short			= neytral_novice_outfit_new_badplus_name
+
+
+[neytral_novice_outfit_cam_1]:neytral_novice_outfit_m1
+visual          = equipments\novice_cam_1_suit
+actor_visual	= actors\novice\green_stalker_10.ogf
+
+inv_grid_x			= 36
+inv_grid_y			= 22
+
+full_icon_name		= npc_icon_neytral_novice_outfit_cam_1
+
+[neytral_novice_outfit_cam_1_bad]:neytral_novice_outfit_cam_1
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 3.5
+cost				= 3000
+inv_name			= neytral_novice_outfit_cam_1_bad_name
+inv_name_short			= neytral_novice_outfit_cam_1_bad_name
+
+[neytral_novice_outfit_cam_1_plus]:neytral_novice_outfit_cam_1
+inv_weight			= 4.5
+cost				= 2000
+immunities_sect			= sect_upgrade_immunities
+inv_name			= neytral_novice_outfit_cam_1_plus_name
+inv_name_short			= neytral_novice_outfit_cam_1_plus_name
+
+[neytral_novice_outfit_cam_1_badplus]:neytral_novice_outfit_cam_1
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 5.0
+cost				= 4000
+immunities_sect			= sect_upgrade_immunities
+inv_name			= neytral_novice_outfit_cam_1_badplus_name
+inv_name_short			= neytral_novice_outfit_cam_1_badplus_name
+
+
+[neytral_novice_outfit_cam_2]:neytral_novice_outfit_m1
+visual          = equipments\novice_cam_2_suit
+actor_visual	= actors\novice\green_stalker_7.ogf
+
+inv_grid_x			= 38
+inv_grid_y			= 22
+
+full_icon_name		= npc_icon_neytral_novice_outfit_cam_2
+
+[neytral_novice_outfit_cam_2_bad]:neytral_novice_outfit_cam_2
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 3.5
+cost				= 3000
+inv_name			= neytral_novice_outfit_cam_2_bad_name
+inv_name_short			= neytral_novice_outfit_cam_2_bad_name
+
+[neytral_novice_outfit_cam_2_plus]:neytral_novice_outfit_cam_2
+inv_weight			= 4.5
+cost				= 2000
+immunities_sect			= sect_upgrade_immunities
+inv_name			= neytral_novice_outfit_cam_2_plus_name
+inv_name_short			= neytral_novice_outfit_cam_2_plus_name
+
+[neytral_novice_outfit_cam_2_badplus]:neytral_novice_outfit_cam_2
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 5.0
+cost				= 4000
+immunities_sect			= sect_upgrade_immunities
+inv_name			= neytral_novice_outfit_cam_2_badplus_name
+inv_name_short			= neytral_novice_outfit_cam_2_badplus_name
+
+
+[neytral_novice_outfit_cam_3]:neytral_novice_outfit_m1
+visual          = equipments\novice_cam_3_suit
+actor_visual	= actors\novice\green_stalker_8.ogf
+
+inv_grid_x			= 38
+inv_grid_y			= 24
+
+full_icon_name		= npc_icon_neytral_novice_outfit_cam_3
+
+[neytral_novice_outfit_cam_3_bad]:neytral_novice_outfit_cam_3
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 3.5
+cost				= 3000
+inv_name			= neytral_novice_outfit_cam_3_bad_name
+inv_name_short			= neytral_novice_outfit_cam_3_bad_name
+
+[neytral_novice_outfit_cam_3_plus]:neytral_novice_outfit_cam_3
+inv_weight			= 4.5
+cost				= 2000
+immunities_sect			= sect_upgrade_immunities
+inv_name			= neytral_novice_outfit_cam_3_plus_name
+inv_name_short			= neytral_novice_outfit_cam_3_plus_name
+
+[neytral_novice_outfit_cam_3_badplus]:neytral_novice_outfit_cam_3
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 5.0
+cost				= 4000
+immunities_sect			= sect_upgrade_immunities
+inv_name			= neytral_novice_outfit_cam_3_badplus_name
+inv_name_short			= neytral_novice_outfit_cam_3_badplus_name
+
+;========================================================================================
+;							 SUIT 'GAZ' START
+;========================================================================================
+
+[neytral_novice_gaz_outfit_m1]:outfit_base
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "outfit\novice_outfit"
+;$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\novice_antigas_suit
+actor_visual	= actors\novice\green_stalker_antigas.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= novice_gaz_outfit_m1_name
+inv_name_short		= novice_gaz_outfit_m1_name
+description			= novice_gaz_outfit_m1_description
+inv_weight			= 2.5
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 38
+inv_grid_y			= 28
+
+full_icon_name		= npc_icon_neytral_novice_gaz_outfit_m1
+
+cost				= 1500
+power_loss		 	= 0.75
+slot				= 6
+full_scale_icon		= 0,11
+
+immunities_sect			= sect_neytral_novice_gaz_outfit_m1_immunities
+
+; NO RESISTANCE
+burn_protection 				= 0.1
+strike_protection 				= 0.05
+shock_protection 				= 0.05
+wound_protection				= 0.05
+radiation_protection 			= 0.1
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.1
+explosion_protection 			= 0.1
+fire_wound_protection  			= 0.05
+
+bones_koeff_protection = kurtka_mask_damage
+
+[sect_neytral_novice_gaz_outfit_m1_immunities]
+burn_immunity				= 0.04
+strike_immunity				= 0.01
+shock_immunity				= 0.04
+wound_immunity				= 0.025
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.04
+explosion_immunity			= 0.04
+fire_wound_immunity			= 0.015
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[neytral_novice_gaz_outfit_m1_vision]:neytral_novice_gaz_outfit_m1
+inv_grid_x			= 38
+inv_grid_y			= 28
+inv_weight			= 3.0
+cost				= 3500
+power_loss		 	= 0.70
+
+burn_protection 		 = 0.11	;0.10 + 10%
+radiation_protection 	 = 0.17	;0.15 + 15%
+telepatic_protection 	 = 0.0	;0.0 + 10%
+chemical_burn_protection = 0.11	;0.10 + 12%
+fire_wound_protection 	 = 0.06	;0.05 + 20%
+
+;============================== - "plus" - immunities part - ===============================
+[neytral_novice_gaz_outfit_m1_plus_protect]:neytral_novice_gaz_outfit_m1
+inv_grid_x			= 38
+inv_grid_y			= 28
+inv_weight			= 4.0
+cost				= 3000
+power_loss		 	= 0.70
+additional_inventory_weight		= 5	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 0	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.06	;0.05 + 13% - aleks1970
+shock_protection 		 = 0.06	;0.05 + 15%
+wound_protection 		 = 0.06	;0.05 + 13%
+explosion_protection 	 = 0.11	;0.10 + 9%
+;=========================================================================================
+
+[neytral_novice_gaz_outfit_m1_bad]:neytral_novice_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= novice_gaz_outfit_m1_bad_name
+inv_name_short			= novice_gaz_outfit_m1_bad_name
+
+[neytral_novice_gaz_outfit_m1_plus]:neytral_novice_gaz_outfit_m1_plus_protect
+inv_name			= novice_gaz_outfit_m1_plus_name
+inv_name_short			= novice_gaz_outfit_m1_plus_name
+
+[neytral_novice_gaz_outfit_m1_badplus]:neytral_novice_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 4.5
+cost				= 5500
+inv_name			= novice_gaz_outfit_m1_badplus_name
+inv_name_short			= novice_gaz_outfit_m1_badplus_name
+
+
+;#######################################################################################
+
+[neytral_gaz_outfit_m1]:stalker_outfit
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "outfit\stalker_outfit"
+;$prefetch 			= 32
+class				= E_STLK
+cform           	= skeleton
+visual          	= equipments\stalker_suit_m1g
+actor_visual		= actors\neytral\stalker_neytral_hood_92.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= neytral_gaz_outfit_m1_name
+inv_name_short		= neytral_gaz_outfit_m1_name
+description			= neytral_gaz_outfit_m1_description
+inv_weight			= 4.0
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 34
+inv_grid_y			= 29
+full_icon_name		= npc_icon_neytral_gaz_outfit_m1
+
+cost				= 14000
+power_loss		 	= 0.75
+slot				= 6
+full_scale_icon		= 14,11			
+
+immunities_sect		= sect_neytral_gaz_outfit_m1_immunities
+
+
+; LOW RESISTANCE
+burn_protection 				= 0.3
+strike_protection 				= 0.25
+shock_protection 				= 0.25
+wound_protection				= 0.2
+radiation_protection 			= 0.25
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.25
+explosion_protection 			= 0.15
+fire_wound_protection  			= 0.15
+
+
+bones_koeff_protection = gilet_antigas_damage
+
+[sect_neytral_gaz_outfit_m1_immunities]
+burn_immunity				= 0.03
+strike_immunity				= 0.01
+shock_immunity				= 0.03
+wound_immunity				= 0.010
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.02
+explosion_immunity			= 0.03
+fire_wound_immunity			= 0.01
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[neytral_gaz_outfit_m1_vision]:neytral_gaz_outfit_m1
+inv_grid_x			= 34
+inv_grid_y			= 29
+inv_weight			= 4.5
+cost				= 17000
+power_loss		 	= 0.65
+
+burn_protection 		 = 0.33	;0.30 + 10%
+radiation_protection 	 = 0.29	;0.25 + 15%
+telepatic_protection 	 = 0.05	;0.0 + 10%
+chemical_burn_protection = 0.28	;0.25 + 12%
+fire_wound_protection 	 = 0.18	;0.15 + 20%
+
+;============================== - "plus" - immunities part - ===============================
+[neytral_gaz_outfit_m1_plus_protect]:neytral_gaz_outfit_m1
+inv_grid_x			= 34
+inv_grid_y			= 29
+inv_weight			= 6.5
+cost				= 31000
+power_loss		 	= 0.60
+additional_inventory_weight		= 5	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 5	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.28	;0.25 + 13% - aleks1970
+shock_protection 		 = 0.29	;0.25 + 15%
+wound_protection 		 = 0.23	;0.20 + 13%
+explosion_protection 	 = 0.16	;0.15 + 9%
+;=========================================================================================
+
+[neytral_gaz_outfit_m1_bad]:neytral_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= neytral_gaz_outfit_m1_bad_name
+inv_name_short			= neytral_gaz_outfit_m1_bad_name
+
+[neytral_gaz_outfit_m1_good]:neytral_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_good
+inv_name			= neytral_gaz_outfit_m1_good_name
+inv_name_short			= neytral_gaz_outfit_m1_good_name
+
+[neytral_gaz_outfit_m1_default]:neytral_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_default
+inv_name			= neytral_gaz_outfit_m1_default_name
+inv_name_short			= neytral_gaz_outfit_m1_default_name
+
+[neytral_gaz_outfit_m1_static]:neytral_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_static
+inv_name			= neytral_gaz_outfit_m1_static_name
+inv_name_short			= neytral_gaz_outfit_m1_static_name
+
+[neytral_gaz_outfit_m1_kat_eye]:neytral_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= neytral_gaz_outfit_m1_kat_eye_name
+inv_name_short			= neytral_gaz_outfit_m1_kat_eye_name
+
+[neytral_gaz_outfit_m1_psy]:neytral_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_psy
+inv_name			= neytral_gaz_outfit_m1_psy_name
+inv_name_short			= neytral_gaz_outfit_m1_psy_name
+
+[neytral_gaz_outfit_m1_blackwhite]:neytral_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= neytral_gaz_outfit_m1_blackwhite_name
+inv_name_short			= neytral_gaz_outfit_m1_blackwhite_name
+[neytral_gaz_outfit_m1_bast]:neytral_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bast
+inv_name			= neytral_gaz_outfit_m1_bast_name
+inv_name_short			= neytral_gaz_outfit_m1_bast_name
+
+[neytral_gaz_outfit_m1_plus]:neytral_gaz_outfit_m1_plus_protect
+inv_name			= neytral_gaz_outfit_m1_plus_name
+inv_name_short			= neytral_gaz_outfit_m1_plus_name
+
+[neytral_gaz_outfit_m1_badplus]:neytral_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_name			= neytral_gaz_outfit_m1_badplus_name
+inv_name_short			= neytral_gaz_outfit_m1_badplus_name
+
+[neytral_gaz_outfit_m1_goodplus]:neytral_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_good
+inv_name			= neytral_gaz_outfit_m1_goodplus_name
+inv_name_short			= neytral_gaz_outfit_m1_goodplus_name
+
+[neytral_gaz_outfit_m1_defaultplus]:neytral_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_default
+inv_name			= neytral_gaz_outfit_m1_defaultplus_name
+inv_name_short			= neytral_gaz_outfit_m1_defaultplus_name
+
+[neytral_gaz_outfit_m1_staticplus]:neytral_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_static
+inv_name			= neytral_gaz_outfit_m1_staticplus_name
+inv_name_short			= neytral_gaz_outfit_m1_staticplus_name
+
+[neytral_gaz_outfit_m1_kat_eyeplus]:neytral_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= neytral_gaz_outfit_m1_kat_eyeplus_name
+inv_name_short			= neytral_gaz_outfit_m1_kat_eyeplus_name
+
+[neytral_gaz_outfit_m1_psyplus]:neytral_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_psy
+inv_name			= neytral_gaz_outfit_m1_psyplus_name
+inv_name_short			= neytral_gaz_outfit_m1_psyplus_name
+
+[neytral_gaz_outfit_m1_blackwhiteplus]:neytral_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= neytral_gaz_outfit_m1_blackwhiteplus_name
+inv_name_short			= neytral_gaz_outfit_m1_blackwhiteplus_name
+
+[neytral_gaz_outfit_m1_bastplus]:neytral_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bast
+inv_name			= neytral_gaz_outfit_m1_bastplus_name
+inv_name_short			= neytral_gaz_outfit_m1_bastplus_name
+
+
+[neytral_gaz_outfit_m2]:stalker_outfit
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "outfit\stalker_outfit"
+;$prefetch 			= 32
+class				= E_STLK
+cform           	= skeleton
+visual          	= equipments\stalker_suit_m2g
+actor_visual		= actors\neytral\stalker_neytral_hood_9.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= neytral_gaz_outfit_m2_name
+inv_name_short		= neytral_gaz_outfit_m2_name
+description			= neytral_gaz_outfit_m2_description
+inv_weight			= 4.5
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 36
+inv_grid_y			= 29
+full_icon_name		= npc_icon_neytral_gaz_outfit_m1
+
+cost				= 20000
+power_loss		 	= 0.70
+slot				= 6
+full_scale_icon		= 14,11			
+
+immunities_sect		= sect_neytral_gaz_outfit_m2_immunities
+
+
+; LOW RESISTANCE
+burn_protection 				= 0.40
+strike_protection 				= 0.25
+shock_protection 				= 0.25
+wound_protection				= 0.2
+radiation_protection 			= 0.35
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.40
+explosion_protection 			= 0.15
+fire_wound_protection  			= 0.15
+
+
+bones_koeff_protection = gilet_antigas_damage
+
+[sect_neytral_gaz_outfit_m2_immunities]
+burn_immunity				= 0.03
+strike_immunity				= 0.01
+shock_immunity				= 0.03
+wound_immunity				= 0.010
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.02
+explosion_immunity			= 0.03
+fire_wound_immunity			= 0.01
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[neytral_gaz_outfit_m2_vision]:neytral_gaz_outfit_m2
+inv_grid_x			= 36
+inv_grid_y			= 29
+inv_weight			= 5.0
+cost				= 21000
+power_loss		 	= 0.55
+
+burn_protection 		 = 0.44	;0.40 + 10%
+radiation_protection 	 = 0.40	;0.35 + 15%
+telepatic_protection 	 = 0.10	;0.0 + 10%
+chemical_burn_protection = 0.45	;0.40 + 12%
+fire_wound_protection 	 = 0.18	;0.15 + 20%
+
+;============================== - "plus" - immunities part - ===============================
+[neytral_gaz_outfit_m2_plus_protect]:neytral_gaz_outfit_m2
+inv_grid_x			= 36
+inv_grid_y			= 29
+inv_weight			= 7.5
+cost				= 40000
+power_loss		 	= 0.40
+additional_inventory_weight		= 10	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 5	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.28	;0.25 + 13% - aleks1970
+shock_protection 		 = 0.29	;0.25 + 15%
+wound_protection 		 = 0.23	;0.20 + 13%
+explosion_protection 	 = 0.16	;0.15 + 9%
+;=========================================================================================
+
+[neytral_gaz_outfit_m2_bad]:neytral_gaz_outfit_m2_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= neytral_gaz_outfit_m2_bad_name
+inv_name_short			= neytral_gaz_outfit_m2_bad_name
+
+[neytral_gaz_outfit_m2_good]:neytral_gaz_outfit_m2_vision
+nightvision_sect					= effector_nightvision_good
+inv_name			= neytral_gaz_outfit_m2_good_name
+inv_name_short			= neytral_gaz_outfit_m2_good_name
+
+[neytral_gaz_outfit_m2_default]:neytral_gaz_outfit_m2_vision
+nightvision_sect					= effector_nightvision_default
+inv_name			= neytral_gaz_outfit_m2_default_name
+inv_name_short			= neytral_gaz_outfit_m2_default_name
+
+[neytral_gaz_outfit_m2_static]:neytral_gaz_outfit_m2_vision
+nightvision_sect					= effector_nightvision_static
+inv_name			= neytral_gaz_outfit_m2_static_name
+inv_name_short			= neytral_gaz_outfit_m2_static_name
+
+[neytral_gaz_outfit_m2_kat_eye]:neytral_gaz_outfit_m2_vision
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= neytral_gaz_outfit_m2_kat_eye_name
+inv_name_short			= neytral_gaz_outfit_m2_kat_eye_name
+
+[neytral_gaz_outfit_m2_psy]:neytral_gaz_outfit_m2_vision
+nightvision_sect					= effector_nightvision_psy
+inv_name			= neytral_gaz_outfit_m2_psy_name
+inv_name_short			= neytral_gaz_outfit_m2_psy_name
+
+[neytral_gaz_outfit_m2_blackwhite]:neytral_gaz_outfit_m2_vision
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= neytral_gaz_outfit_m2_blackwhite_name
+inv_name_short			= neytral_gaz_outfit_m2_blackwhite_name
+
+[neytral_gaz_outfit_m2_bast]:neytral_gaz_outfit_m2_vision
+nightvision_sect					= effector_nightvision_bast
+inv_name			= neytral_gaz_outfit_m2_bast_name
+inv_name_short			= neytral_gaz_outfit_m2_bast_name
+
+[neytral_gaz_outfit_m2_plus]:neytral_gaz_outfit_m2_plus_protect
+inv_name			= neytral_gaz_outfit_m2_plus_name
+inv_name_short			= neytral_gaz_outfit_m2_plus_name
+
+[neytral_gaz_outfit_m2_badplus]:neytral_gaz_outfit_m2_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_name			= neytral_gaz_outfit_m2_badplus_name
+inv_name_short			= neytral_gaz_outfit_m2_badplus_name
+
+[neytral_gaz_outfit_m2_goodplus]:neytral_gaz_outfit_m2_plus_protect
+nightvision_sect					= effector_nightvision_good
+inv_name			= neytral_gaz_outfit_m2_goodplus_name
+inv_name_short			= neytral_gaz_outfit_m2_goodplus_name
+
+[neytral_gaz_outfit_m2_defaultplus]:neytral_gaz_outfit_m2_plus_protect
+nightvision_sect					= effector_nightvision_default
+inv_name			= neytral_gaz_outfit_m2_defaultplus_name
+inv_name_short			= neytral_gaz_outfit_m2_defaultplus_name
+
+[neytral_gaz_outfit_m2_staticplus]:neytral_gaz_outfit_m2_plus_protect
+nightvision_sect					= effector_nightvision_static
+inv_name			= neytral_gaz_outfit_m2_staticplus_name
+inv_name_short			= neytral_gaz_outfit_m2_staticplus_name
+
+[neytral_gaz_outfit_m2_kat_eyeplus]:neytral_gaz_outfit_m2_plus_protect
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= neytral_gaz_outfit_m2_kat_eyeplus_name
+inv_name_short			= neytral_gaz_outfit_m2_kat_eyeplus_name
+
+[neytral_gaz_outfit_m2_psyplus]:neytral_gaz_outfit_m2_plus_protect
+nightvision_sect					= effector_nightvision_psy
+inv_name			= neytral_gaz_outfit_m2_psyplus_name
+inv_name_short			= neytral_gaz_outfit_m2_psyplus_name
+
+[neytral_gaz_outfit_m2_blackwhiteplus]:neytral_gaz_outfit_m2_plus_protect
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= neytral_gaz_outfit_m2_blackwhiteplus_name
+inv_name_short			= neytral_gaz_outfit_m2_blackwhiteplus_name
+
+[neytral_gaz_outfit_m2_bastplus]:neytral_gaz_outfit_m2_plus_protect
+nightvision_sect					= effector_nightvision_bast
+inv_name			= neytral_gaz_outfit_m2_bastplus_name
+inv_name_short			= neytral_gaz_outfit_m2_bastplus_name
+
+
+[neytral_gaz_outfit_v1]:neytral_gaz_outfit_m2
+visual          	= equipments\stalker_suit_v1g
+actor_visual		= actors\neytral\stalker_2_gas.ogf
+
+inv_name			= neytral_gaz_outfit_v1_name
+inv_name_short		= neytral_gaz_outfit_v1_name
+description			= neytral_gaz_outfit_v1_description
+inv_weight			= 4.5
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 32
+inv_grid_y			= 26
+power_loss		 	= 0.60
+full_icon_name		= npc_icon_neytral_gaz_outfit_v1g
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[neytral_gaz_outfit_v1_vision]:neytral_gaz_outfit_v1
+inv_grid_x			= 32
+inv_grid_y			= 26
+inv_weight			= 5.0
+cost				= 24000
+power_loss		 	= 0.50
+
+burn_protection 		 = 0.46	;0.40 + 15%
+radiation_protection 	 = 0.43	;0.35 + 22%
+telepatic_protection 	 = 0.12	;0.0 + 18%
+chemical_burn_protection = 0.48	;0.40 + 20%
+fire_wound_protection 	 = 0.19	;0.15 + 25%
+
+;============================== - "plus" - immunities part - ===============================
+[neytral_gaz_outfit_v1_plus_protect]:neytral_gaz_outfit_v1
+inv_grid_x			= 32
+inv_grid_y			= 26
+inv_weight			= 7.5
+cost				= 41000
+power_loss		 	= 0.45
+additional_inventory_weight		= 10	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 10	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.31	;0.25 + 21% - aleks1970
+shock_protection 		 = 0.30	;0.25 + 19%
+wound_protection 		 = 0.24	;0.20 + 20%
+explosion_protection 	 = 0.17	;0.15 + 14%
+;=========================================================================================
+
+[neytral_gaz_outfit_v1_bad]:neytral_gaz_outfit_v1_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= neytral_gaz_outfit_v1_bad_name
+inv_name_short			= neytral_gaz_outfit_v1_bad_name
+
+[neytral_gaz_outfit_v1_good]:neytral_gaz_outfit_v1_vision
+nightvision_sect					= effector_nightvision_good
+inv_name			= neytral_gaz_outfit_v1_good_name
+inv_name_short			= neytral_gaz_outfit_v1_good_name
+
+[neytral_gaz_outfit_v1_default]:neytral_gaz_outfit_v1_vision
+nightvision_sect					= effector_nightvision_default
+inv_name			= neytral_gaz_outfit_v1_default_name
+inv_name_short			= neytral_gaz_outfit_v1_default_name
+
+[neytral_gaz_outfit_v1_static]:neytral_gaz_outfit_v1_vision
+nightvision_sect					= effector_nightvision_static
+inv_name			= neytral_gaz_outfit_v1_static_name
+inv_name_short			= neytral_gaz_outfit_v1_static_name
+
+[neytral_gaz_outfit_v1_kat_eye]:neytral_gaz_outfit_v1_vision
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= neytral_gaz_outfit_v1_kat_eye_name
+inv_name_short			= neytral_gaz_outfit_v1_kat_eye_name
+
+[neytral_gaz_outfit_v1_psy]:neytral_gaz_outfit_v1_vision
+nightvision_sect					= effector_nightvision_psy
+inv_name			= neytral_gaz_outfit_v1_psy_name
+inv_name_short			= neytral_gaz_outfit_v1_psy_name
+
+[neytral_gaz_outfit_v1_blackwhite]:neytral_gaz_outfit_v1_vision
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= neytral_gaz_outfit_v1_blackwhite_name
+inv_name_short			= neytral_gaz_outfit_v1_blackwhite_name
+
+[neytral_gaz_outfit_v1_bast]:neytral_gaz_outfit_v1_vision
+nightvision_sect					= effector_nightvision_bast
+inv_name			= neytral_gaz_outfit_v1_bast_name
+inv_name_short			= neytral_gaz_outfit_v1_bast_name
+
+[neytral_gaz_outfit_v1_plus]:neytral_gaz_outfit_v1_plus_protect
+inv_name			= neytral_gaz_outfit_v1_plus_name
+inv_name_short			= neytral_gaz_outfit_v1_plus_name
+
+[neytral_gaz_outfit_v1_badplus]:neytral_gaz_outfit_v1_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_name			= neytral_gaz_outfit_v1_badplus_name
+inv_name_short			= neytral_gaz_outfit_v1_badplus_name
+
+[neytral_gaz_outfit_v1_goodplus]:neytral_gaz_outfit_v1_plus_protect
+nightvision_sect					= effector_nightvision_good
+inv_name			= neytral_gaz_outfit_v1_goodplus_name
+inv_name_short			= neytral_gaz_outfit_v1_goodplus_name
+
+[neytral_gaz_outfit_v1_defaultplus]:neytral_gaz_outfit_v1_plus_protect
+nightvision_sect					= effector_nightvision_default
+inv_name			= neytral_gaz_outfit_v1_defaultplus_name
+inv_name_short			= neytral_gaz_outfit_v1_defaultplus_name
+
+[neytral_gaz_outfit_v1_staticplus]:neytral_gaz_outfit_v1_plus_protect
+nightvision_sect					= effector_nightvision_static
+inv_name			= neytral_gaz_outfit_v1_staticplus_name
+inv_name_short			= neytral_gaz_outfit_v1_staticplus_name
+
+[neytral_gaz_outfit_v1_kat_eyeplus]:neytral_gaz_outfit_v1_plus_protect
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= neytral_gaz_outfit_v1_kat_eyeplus_name
+inv_name_short			= neytral_gaz_outfit_v1_kat_eyeplus_name
+
+[neytral_gaz_outfit_v1_psyplus]:neytral_gaz_outfit_v1_plus_protect
+nightvision_sect					= effector_nightvision_psy
+inv_name			= neytral_gaz_outfit_v1_psyplus_name
+inv_name_short			= neytral_gaz_outfit_v1_psyplus_name
+
+[neytral_gaz_outfit_v1_blackwhiteplus]:neytral_gaz_outfit_v1_plus_protect
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= neytral_gaz_outfit_v1_blackwhiteplus_name
+inv_name_short			= neytral_gaz_outfit_v1_blackwhiteplus_name
+
+[neytral_gaz_outfit_v1_bastplus]:neytral_gaz_outfit_v1_plus_protect
+nightvision_sect					= effector_nightvision_bast
+inv_name			= neytral_gaz_outfit_v1_bastplus_name
+inv_name_short			= neytral_gaz_outfit_v1_bastplus_name
+
+
+[neytral_gaz_outfit_v2]:neytral_gaz_outfit_m2
+visual          	= equipments\stalker_suit_v2g
+actor_visual		= actors\neytral\stalker_3_gas.ogf
+
+inv_name			= neytral_gaz_outfit_v2_name
+inv_name_short		= neytral_gaz_outfit_v2_name
+description			= neytral_gaz_outfit_v2_description
+inv_weight			= 4.5
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 32
+inv_grid_y			= 29
+power_loss		 	= 0.55
+full_icon_name		= npc_icon_neytral_gaz_outfit_v2g
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[neytral_gaz_outfit_v2_vision]:neytral_gaz_outfit_v2
+inv_grid_x			= 32
+inv_grid_y			= 29
+inv_weight			= 5.0
+cost				= 21000
+power_loss		 	= 0.45
+
+burn_protection 		 = 0.48	;0.40 + 20%
+radiation_protection 	 = 0.47	;0.35 + 33%
+telepatic_protection 	 = 0.20	;0.0 + 25%
+chemical_burn_protection = 0.50	;0.40 + 25%
+fire_wound_protection 	 = 0.20	;0.15 + 32%
+
+;============================== - "plus" - immunities part - ===============================
+[neytral_gaz_outfit_v2_plus_protect]:neytral_gaz_outfit_v2
+inv_grid_x			= 32
+inv_grid_y			= 29
+inv_weight			= 7.5
+cost				= 40000
+power_loss		 	= 0.40
+additional_inventory_weight		= 10	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 10	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.32	;0.25 + 29% - aleks1970
+shock_protection 		 = 0.32	;0.25 + 29%
+wound_protection 		 = 0.27	;0.20 + 35%
+explosion_protection 	 = 0.19	;0.15 + 25%
+;=========================================================================================
+
+[neytral_gaz_outfit_v2_bad]:neytral_gaz_outfit_v2_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= neytral_gaz_outfit_v2_bad_name
+inv_name_short			= neytral_gaz_outfit_v2_bad_name
+
+[neytral_gaz_outfit_v2_good]:neytral_gaz_outfit_v2_vision
+nightvision_sect					= effector_nightvision_good
+inv_name			= neytral_gaz_outfit_v2_good_name
+inv_name_short			= neytral_gaz_outfit_v2_good_name
+
+[neytral_gaz_outfit_v2_default]:neytral_gaz_outfit_v2_vision
+nightvision_sect					= effector_nightvision_default
+inv_name			= neytral_gaz_outfit_v2_default_name
+inv_name_short			= neytral_gaz_outfit_v2_default_name
+
+[neytral_gaz_outfit_v2_static]:neytral_gaz_outfit_v2_vision
+nightvision_sect					= effector_nightvision_static
+inv_name			= neytral_gaz_outfit_v2_static_name
+inv_name_short			= neytral_gaz_outfit_v2_static_name
+
+[neytral_gaz_outfit_v2_kat_eye]:neytral_gaz_outfit_v2_vision
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= neytral_gaz_outfit_v2_kat_eye_name
+inv_name_short			= neytral_gaz_outfit_v2_kat_eye_name
+
+[neytral_gaz_outfit_v2_psy]:neytral_gaz_outfit_v2_vision
+nightvision_sect					= effector_nightvision_psy
+inv_name			= neytral_gaz_outfit_v2_psy_name
+inv_name_short			= neytral_gaz_outfit_v2_psy_name
+
+[neytral_gaz_outfit_v2_blackwhite]:neytral_gaz_outfit_v2_vision
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= neytral_gaz_outfit_v2_blackwhite_name
+inv_name_short			= neytral_gaz_outfit_v2_blackwhite_name
+
+[neytral_gaz_outfit_v2_bast]:neytral_gaz_outfit_v2_vision
+nightvision_sect					= effector_nightvision_bast
+inv_name			= neytral_gaz_outfit_v2_bast_name
+inv_name_short			= neytral_gaz_outfit_v2_bast_name
+
+[neytral_gaz_outfit_v2_plus]:neytral_gaz_outfit_v2_plus_protect
+inv_name			= neytral_gaz_outfit_v2_plus_name
+inv_name_short			= neytral_gaz_outfit_v2_plus_name
+
+[neytral_gaz_outfit_v2_badplus]:neytral_gaz_outfit_v2_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_name			= neytral_gaz_outfit_v2_badplus_name
+inv_name_short			= neytral_gaz_outfit_v2_badplus_name
+
+[neytral_gaz_outfit_v2_goodplus]:neytral_gaz_outfit_v2_plus_protect
+nightvision_sect					= effector_nightvision_good
+inv_name			= neytral_gaz_outfit_v2_goodplus_name
+inv_name_short			= neytral_gaz_outfit_v2_goodplus_name
+
+[neytral_gaz_outfit_v2_defaultplus]:neytral_gaz_outfit_v2_plus_protect
+nightvision_sect					= effector_nightvision_default
+inv_name			= neytral_gaz_outfit_v2_defaultplus_name
+inv_name_short			= neytral_gaz_outfit_v2_defaultplus_name
+
+[neytral_gaz_outfit_v2_staticplus]:neytral_gaz_outfit_v2_plus_protect
+nightvision_sect					= effector_nightvision_static
+inv_name			= neytral_gaz_outfit_v2_staticplus_name
+inv_name_short			= neytral_gaz_outfit_v2_staticplus_name
+
+[neytral_gaz_outfit_v2_kat_eyeplus]:neytral_gaz_outfit_v2_plus_protect
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= neytral_gaz_outfit_v2_kat_eyeplus_name
+inv_name_short			= neytral_gaz_outfit_v2_kat_eyeplus_name
+
+[neytral_gaz_outfit_v2_psyplus]:neytral_gaz_outfit_v2_plus_protect
+nightvision_sect					= effector_nightvision_psy
+inv_name			= neytral_gaz_outfit_v2_psyplus_name
+inv_name_short			= neytral_gaz_outfit_v2_psyplus_name
+
+[neytral_gaz_outfit_v2_blackwhiteplus]:neytral_gaz_outfit_v2_plus_protect
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= neytral_gaz_outfit_v2_blackwhiteplus_name
+inv_name_short			= neytral_gaz_outfit_v2_blackwhiteplus_name
+
+[neytral_gaz_outfit_v2_bastplus]:neytral_gaz_outfit_v2_plus_protect
+nightvision_sect					= effector_nightvision_bast
+inv_name			= neytral_gaz_outfit_v2_bastplus_name
+inv_name_short			= neytral_gaz_outfit_v2_bastplus_name
+
+
+[neytral_gaz_outfit_v3]:neytral_gaz_outfit_m2
+visual          	= equipments\stalker_suit_v3g
+actor_visual		= actors\neytral\stalker_4_gas.ogf
+
+inv_name			= neytral_gaz_outfit_v3_name
+inv_name_short		= neytral_gaz_outfit_v3_name
+description			= neytral_gaz_outfit_v3_description
+inv_weight			= 4.5
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 36
+inv_grid_y			= 32
+power_loss		 	= 0.50
+full_icon_name		= npc_icon_neytral_gaz_outfit_v3g
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[neytral_gaz_outfit_v3_vision]:neytral_gaz_outfit_v3
+inv_grid_x			= 36
+inv_grid_y			= 32
+inv_weight			= 5.0
+cost				= 25000
+power_loss		 	= 0.40
+
+burn_protection 		 = 0.54	;0.40 + 35%
+radiation_protection 	 = 0.50	;0.35 + 43%
+telepatic_protection 	 = 0.28	;0.0 + 25%
+chemical_burn_protection = 0.54	;0.40 + 35%
+fire_wound_protection 	 = 0.22	;0.15 + 42%
+
+;============================== - "plus" - immunities part - ===============================
+[neytral_gaz_outfit_v3_plus_protect]:neytral_gaz_outfit_v3
+inv_grid_x			= 36
+inv_grid_y			= 32
+inv_weight			= 7.5
+cost				= 44000
+power_loss		 	= 0.30
+additional_inventory_weight		= 15	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 10	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.33	;0.25 + 33% - aleks1970
+shock_protection 		 = 0.34	;0.25 + 35%
+wound_protection 		 = 0.29	;0.20 + 42%
+explosion_protection 	 = 0.22	;0.15 + 45%
+;=========================================================================================
+
+[neytral_gaz_outfit_v3_bad]:neytral_gaz_outfit_v3_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= neytral_gaz_outfit_v3_bad_name
+inv_name_short			= neytral_gaz_outfit_v3_bad_name
+
+[neytral_gaz_outfit_v3_good]:neytral_gaz_outfit_v3_vision
+nightvision_sect					= effector_nightvision_good
+inv_name			= neytral_gaz_outfit_v3_good_name
+inv_name_short			= neytral_gaz_outfit_v3_good_name
+
+[neytral_gaz_outfit_v3_default]:neytral_gaz_outfit_v3_vision
+nightvision_sect					= effector_nightvision_default
+inv_name			= neytral_gaz_outfit_v3_default_name
+inv_name_short			= neytral_gaz_outfit_v3_default_name
+
+[neytral_gaz_outfit_v3_static]:neytral_gaz_outfit_v3_vision
+nightvision_sect					= effector_nightvision_static
+inv_name			= neytral_gaz_outfit_v3_static_name
+inv_name_short			= neytral_gaz_outfit_v3_static_name
+
+[neytral_gaz_outfit_v3_kat_eye]:neytral_gaz_outfit_v3_vision
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= neytral_gaz_outfit_v3_kat_eye_name
+inv_name_short			= neytral_gaz_outfit_v3_kat_eye_name
+
+[neytral_gaz_outfit_v3_psy]:neytral_gaz_outfit_v3_vision
+nightvision_sect					= effector_nightvision_psy
+inv_name			= neytral_gaz_outfit_v3_psy_name
+inv_name_short			= neytral_gaz_outfit_v3_psy_name
+
+[neytral_gaz_outfit_v3_blackwhite]:neytral_gaz_outfit_v3_vision
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= neytral_gaz_outfit_v3_blackwhite_name
+inv_name_short			= neytral_gaz_outfit_v3_blackwhite_name
+
+[neytral_gaz_outfit_v3_bast]:neytral_gaz_outfit_v3_vision
+nightvision_sect					= effector_nightvision_bast
+inv_name			= neytral_gaz_outfit_v3_bast_name
+inv_name_short			= neytral_gaz_outfit_v3_bast_name
+
+[neytral_gaz_outfit_v3_plus]:neytral_gaz_outfit_v3_plus_protect
+inv_name			= neytral_gaz_outfit_v3_plus_name
+inv_name_short			= neytral_gaz_outfit_v3_plus_name
+
+[neytral_gaz_outfit_v3_badplus]:neytral_gaz_outfit_v3_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_name			= neytral_gaz_outfit_v3_badplus_name
+inv_name_short			= neytral_gaz_outfit_v3_badplus_name
+
+[neytral_gaz_outfit_v3_goodplus]:neytral_gaz_outfit_v3_plus_protect
+nightvision_sect					= effector_nightvision_good
+inv_name			= neytral_gaz_outfit_v3_goodplus_name
+inv_name_short			= neytral_gaz_outfit_v3_goodplus_name
+
+[neytral_gaz_outfit_v3_defaultplus]:neytral_gaz_outfit_v3_plus_protect
+nightvision_sect					= effector_nightvision_default
+inv_name			= neytral_gaz_outfit_v3_defaultplus_name
+inv_name_short			= neytral_gaz_outfit_v3_defaultplus_name
+
+[neytral_gaz_outfit_v3_staticplus]:neytral_gaz_outfit_v3_plus_protect
+nightvision_sect					= effector_nightvision_static
+inv_name			= neytral_gaz_outfit_v3_staticplus_name
+inv_name_short			= neytral_gaz_outfit_v3_staticplus_name
+
+[neytral_gaz_outfit_v3_kat_eyeplus]:neytral_gaz_outfit_v3_plus_protect
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= neytral_gaz_outfit_v3_kat_eyeplus_name
+inv_name_short			= neytral_gaz_outfit_v3_kat_eyeplus_name
+
+[neytral_gaz_outfit_v3_psyplus]:neytral_gaz_outfit_v3_plus_protect
+nightvision_sect					= effector_nightvision_psy
+inv_name			= neytral_gaz_outfit_v3_psyplus_name
+inv_name_short			= neytral_gaz_outfit_v3_psyplus_name
+
+[neytral_gaz_outfit_v3_blackwhiteplus]:neytral_gaz_outfit_v3_plus_protect
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= neytral_gaz_outfit_v3_blackwhiteplus_name
+inv_name_short			= neytral_gaz_outfit_v3_blackwhiteplus_name
+
+[neytral_gaz_outfit_v3_bastplus]:neytral_gaz_outfit_v3_plus_protect
+nightvision_sect					= effector_nightvision_bast
+inv_name			= neytral_gaz_outfit_v3_bastplus_name
+inv_name_short			= neytral_gaz_outfit_v3_bastplus_name
+
+
+;#######################################################################################
+
+[neytral_exo_gaz_outfit_m1]:outfit_base
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "outfit\exo_outfit"
+$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\exoskelet	
+actor_visual	= actors\neytral\stalker_neytral_exoskeleton.ogf
+
+ef_equipment_type	= 5
+
+inv_name			= neytral_exo_gaz_outfit_m1_name
+inv_name_short		= neytral_exo_gaz_outfit_m1_name
+description			= neytral_exo_gaz_outfit_m1_description
+inv_weight			= 12.0
+slot				= 6
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 14
+inv_grid_y			= 29
+full_icon_name		= npc_icon_neytral_exo_gaz_outfit_m1
+
+cost				= 49000
+full_scale_icon		= 2,11
+
+immunities_sect			= sect_neytral_exo_gaz_outfit_m1_immunities
+
+; MEDIUM RESISTANCE
+burn_protection 				= 0.2
+strike_protection 				= 0.3
+shock_protection 				= 0.25
+wound_protection				= 0.3
+radiation_protection 			= 0.15
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.25
+explosion_protection 			= 0.25
+fire_wound_protection  			= 0.30
+
+sprint_allowed					= true
+power_loss		 				= 0.50
+additional_inventory_weight		= 5
+additional_inventory_weight2	= 5
+bones_koeff_protection			= exo_helmet_damage
+
+[sect_neytral_exo_gaz_outfit_m1_immunities]
+burn_immunity				= 0.03
+strike_immunity				= 0.01
+shock_immunity				= 0.03
+wound_immunity				= 0.020
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.04
+explosion_immunity			= 0.04
+fire_wound_immunity			= 0.010
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[neytral_exo_gaz_outfit_m1_vision]:neytral_exo_gaz_outfit_m1
+inv_grid_x			= 14
+inv_grid_y			= 29
+inv_weight			= 12.5
+cost				= 51000
+power_loss		 	= 0.35
+
+burn_protection 		 = 0.22	;0.20 + 10%
+radiation_protection 	 = 0.17	;0.15 + 15%
+telepatic_protection 	 = 0.10	;0.0 + 10%
+chemical_burn_protection = 0.28	;0.25 + 12%
+fire_wound_protection 	 = 0.36	;0.30 + 20%
+
+;============================== - "plus" - immunities part - ===============================
+[neytral_exo_gaz_outfit_m1_plus_protect]:neytral_exo_gaz_outfit_m1
+inv_grid_x			= 14
+inv_grid_y			= 29
+inv_weight			= 18.5
+cost				= 85000
+power_loss		 				= 0.25
+additional_inventory_weight		= 10	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 10	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_exo_immunities
+
+strike_protection 		 = 0.34	;0.30 + 13% - aleks1970
+shock_protection 		 = 0.29	;0.25 + 15%
+wound_protection 		 = 0.34	;0.30 + 13%
+explosion_protection 	 = 0.27	;0.25 + 9%
+;=========================================================================================
+
+[neytral_exo_gaz_outfit_m1_bad]:neytral_exo_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= neytral_exo_gaz_outfit_m1_bad_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_bad_name
+
+[neytral_exo_gaz_outfit_m1_good]:neytral_exo_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_good
+inv_name			= neytral_exo_gaz_outfit_m1_good_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_good_name
+
+[neytral_exo_gaz_outfit_m1_default]:neytral_exo_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_default
+inv_name			= neytral_exo_gaz_outfit_m1_default_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_default_name
+
+[neytral_exo_gaz_outfit_m1_static]:neytral_exo_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_static
+inv_name			= neytral_exo_gaz_outfit_m1_static_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_static_name
+
+[neytral_exo_gaz_outfit_m1_kat_eye]:neytral_exo_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= neytral_exo_gaz_outfit_m1_kat_eye_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_kat_eye_name
+
+[neytral_exo_gaz_outfit_m1_psy]:neytral_exo_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_psy
+inv_name			= neytral_exo_gaz_outfit_m1_psy_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_psy_name
+
+[neytral_exo_gaz_outfit_m1_blackwhite]:neytral_exo_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= neytral_exo_gaz_outfit_m1_blackwhite_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_blackwhite_name
+
+[neytral_exo_gaz_outfit_m1_bast]:neytral_exo_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bast
+inv_name			= neytral_exo_gaz_outfit_m1_bast_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_bast_name
+
+[neytral_exo_gaz_outfit_m1_plus]:neytral_exo_gaz_outfit_m1_plus_protect
+immunities_sect			= sect_upgrade_exo_immunities
+inv_name			= neytral_exo_gaz_outfit_m1_plus_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_plus_name
+
+[neytral_exo_gaz_outfit_m1_badplus]:neytral_exo_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_name			= neytral_exo_gaz_outfit_m1_badplus_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_badplus_name
+
+[neytral_exo_gaz_outfit_m1_goodplus]:neytral_exo_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_good
+inv_name			= neytral_exo_gaz_outfit_m1_goodplus_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_goodplus_name
+
+[neytral_exo_gaz_outfit_m1_defaultplus]:neytral_exo_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_default
+inv_name			= neytral_exo_gaz_outfit_m1_defaultplus_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_defaultplus_name
+
+[neytral_exo_gaz_outfit_m1_staticplus]:neytral_exo_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_static
+inv_name			= neytral_exo_gaz_outfit_m1_staticplus_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_staticplus_name
+
+[neytral_exo_gaz_outfit_m1_kat_eyeplus]:neytral_exo_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= neytral_exo_gaz_outfit_m1_kat_eyeplus_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_kat_eyeplus_name
+
+[neytral_exo_gaz_outfit_m1_psyplus]:neytral_exo_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_psy
+inv_name			= neytral_exo_gaz_outfit_m1_psyplus_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_psyplus_name
+
+[neytral_exo_gaz_outfit_m1_blackwhiteplus]:neytral_exo_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= neytral_exo_gaz_outfit_m1_blackwhiteplus_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_blackwhiteplus_name
+
+[neytral_exo_gaz_outfit_m1_bastplus]:neytral_exo_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bast
+inv_name			= neytral_exo_gaz_outfit_m1_bastplus_name
+inv_name_short			= neytral_exo_gaz_outfit_m1_bastplus_name
+
+
+;##########################################################################
+;# Bandits
+;##########################################################################
+
+[bandit_gaz_outfit_m1]:bandit_outfit
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "outfit\bandit_outfit"
+;$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\bandit_suit
+actor_visual	= actors\bandit\stalker_bandit_8.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= bandit_gaz_outfit_m1_name
+inv_name_short		= bandit_gaz_outfit_m1_name
+description			= bandit_gaz_outfit_m1_description
+inv_weight			= 3.5
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 14
+inv_grid_y			= 21
+full_icon_name		= npc_icon_bandit_gaz_outfit_m1
+
+cost				= 4000
+power_loss		 	= 0.80
+slot				= 6
+full_scale_icon		= 0,6
+
+immunities_sect			= sect_bandit_gaz_outfit_m1_immunities
+
+; NO RESISTANCE
+burn_protection 				= 0.1
+strike_protection 				= 0.1
+shock_protection 				= 0.1
+wound_protection				= 0.15
+radiation_protection 			= 0.2
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.1
+explosion_protection 			= 0.1
+fire_wound_protection  			= 0.08
+
+bones_koeff_protection = kurtka_antigas_damage
+
+[sect_bandit_gaz_outfit_m1_immunities]
+burn_immunity				= 0.04
+strike_immunity				= 0.01
+shock_immunity				= 0.04
+wound_immunity				= 0.025
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.04
+explosion_immunity			= 0.04
+fire_wound_immunity			= 0.015
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[bandit_gaz_outfit_m1_vision]:bandit_gaz_outfit_m1
+inv_grid_x			= 14
+inv_grid_y			= 21
+inv_weight			= 4.0
+cost				= 6000
+power_loss		 	= 0.75
+
+burn_protection 		 = 0.11	;0.10 + 10%
+radiation_protection 	 = 0.23	;0.20 + 15%
+telepatic_protection 	 = 0.0	;0.0 + 10%
+chemical_burn_protection = 0.11	;0.10 + 12%
+fire_wound_protection 	 = 0.10	;0.08 + 20%
+
+;============================== - "plus" - immunities part - ===============================
+[bandit_gaz_outfit_m1_plus_protect]:bandit_gaz_outfit_m1
+inv_grid_x			= 14
+inv_grid_y			= 21
+inv_weight			= 5.0
+cost				= 8000
+power_loss		 	= 0.60
+additional_inventory_weight		= 5	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 0	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.11	;0.10 + 13% - aleks1970
+shock_protection 		 = 0.12	;0.10 + 15%
+wound_protection 		 = 0.17	;0.15 + 13%
+explosion_protection 	 = 0.11	;0.10 + 9%
+;=========================================================================================
+
+[bandit_gaz_outfit_m1_bad]:bandit_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= bandit_gaz_outfit_m1_bad_name
+inv_name_short			= bandit_gaz_outfit_m1_bad_name
+
+[bandit_gaz_outfit_m1_plus]:bandit_gaz_outfit_m1_plus_protect
+inv_name			= bandit_gaz_outfit_m1_plus_name
+inv_name_short			= bandit_gaz_outfit_m1_plus_name
+
+[bandit_gaz_outfit_m1_badplus]:bandit_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 5.5
+cost				= 10000
+inv_name			= bandit_gaz_outfit_m1_badplus_name
+inv_name_short			= bandit_gaz_outfit_m1_badplus_name
+
+
+;#######################################################################################
+
+[bandit_veteran_outfit_m1]:outfit_base
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "outfit\bandit_outfit"
+;$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\bandit_suit
+actor_visual	= actors\bandit\stalker_bandit_veteran.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= bandit_veteran_outfit_m1_name
+inv_name_short		= bandit_veteran_outfit_m1_name
+description			= bandit_veteran_outfit_m1_description
+inv_weight			= 3.5
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 22
+inv_grid_y			= 29
+full_icon_name		= npc_icon_bandit_veteran_outfit
+
+cost				= 4500
+power_loss		 	= 0.80
+slot				= 6
+full_scale_icon		= 0,6
+
+immunities_sect			= sect_bandit_veteran_outfit_m1_immunities
+
+; NO RESISTANCE
+burn_protection 				= 0.2
+strike_protection 				= 0.1
+shock_protection 				= 0.1
+wound_protection				= 0.2
+radiation_protection 			= 0.0
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.1
+explosion_protection 			= 0.1
+fire_wound_protection  			= 0.1
+
+bones_koeff_protection = kurtka_antigas_damage
+
+[sect_bandit_veteran_outfit_m1_immunities]
+burn_immunity				= 0.04
+strike_immunity				= 0.01
+shock_immunity				= 0.04
+wound_immunity				= 0.025
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.04
+explosion_immunity			= 0.04
+fire_wound_immunity			= 0.015
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[bandit_veteran_outfit_m1_vision]:bandit_veteran_outfit_m1
+inv_grid_x			= 22
+inv_grid_y			= 29
+inv_weight			= 4.0
+cost				= 6500
+
+burn_protection 		 = 0.22	;0.20 + 10%
+radiation_protection 	 = 0.15	;0.0 + 15%
+telepatic_protection 	 = 0.0	;0.0 + 10%
+chemical_burn_protection = 0.11	;0.10 + 12%
+fire_wound_protection 	 = 0.12	;0.10 + 20%
+
+;============================== - "plus" - immunities part - ===============================
+[bandit_veteran_outfit_m1_plus_protect]:bandit_veteran_outfit_m1
+inv_grid_x			= 22
+inv_grid_y			= 29
+inv_weight			= 5.0
+cost				= 9000
+additional_inventory_weight		= 5	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 5	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.11	;0.10 + 13% - aleks1970
+shock_protection 		 = 0.12	;0.10 + 15%
+wound_protection 		 = 0.23	;0.20 + 13%
+explosion_protection 	 = 0.11	;0.10 + 9%
+;=========================================================================================
+
+[bandit_veteran_outfit_m1_bad]:bandit_veteran_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= bandit_veteran_outfit_m1_bad_name
+inv_name_short			= bandit_veteran_outfit_m1_bad_name
+
+[bandit_veteran_outfit_m1_plus]:bandit_veteran_outfit_m1_plus_protect
+inv_name			= bandit_veteran_outfit_m1_plus_name
+inv_name_short			= bandit_veteran_outfit_m1_plus_name
+
+[bandit_veteran_outfit_m1_badplus]:bandit_veteran_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_weight			= 5.5
+cost				= 11000
+inv_name			= bandit_veteran_outfit_m1_badplus_name
+inv_name_short			= bandit_veteran_outfit_m1_badplus_name
+
+
+;##########################################################################
+;# Freedom
+;##########################################################################
+
+[svoboda_gaz_outfit_m1]:svoboda_light_outfit
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "outfit\svoboda_light_outfit"
+$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\svoboda_light_suit
+actor_visual	= actors\svoboda\stalker_sv_hood_91.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= outfit_svoboda_gaz_m1_name
+inv_name_short		= outfit_svoboda_gaz_m1_name
+description			= outfit_svoboda_gaz_m1_description
+inv_weight			= 5.0
+slot				= 6
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 12
+inv_grid_y			= 24
+cost				= 10500
+power_loss		 	= 0.70
+full_scale_icon		= 10,11		
+
+full_icon_name		= npc_icon_svoboda_gaz_outfit_m1
+
+immunities_sect			= sect_svoboda_gaz_outfit_m1_immunities
+
+; LOW RESISTANCE
+burn_protection 				= 0.15
+strike_protection 				= 0.25
+shock_protection 				= 0.25
+wound_protection				= 0.15
+radiation_protection 			= 0.3
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.3
+explosion_protection 			= 0.15
+fire_wound_protection  			= 0.15
+
+bones_koeff_protection = gilet_mask_damage
+
+[sect_svoboda_gaz_outfit_m1_immunities]
+burn_immunity				= 0.04			;coefficients of the suit immunity
+strike_immunity				= 0.01
+shock_immunity				= 0.04
+wound_immunity				= 0.020
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.04
+explosion_immunity			= 0.04
+fire_wound_immunity			= 0.012
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[svoboda_gaz_outfit_m1_vision]:svoboda_gaz_outfit_m1
+inv_grid_x			= 12
+inv_grid_y			= 24
+inv_weight			= 5.5
+cost				= 12500
+power_loss		 	= 0.60
+
+burn_protection 		 = 0.17	;0.15 + 10%
+radiation_protection 	 = 0.35	;0.30 + 15%
+telepatic_protection 	 = 0.0	;0.0 + 10%
+chemical_burn_protection = 0.34	;0.30 + 12%
+fire_wound_protection 	 = 0.18	;0.15 + 20%
+
+;============================== - "plus" - immunities part - ===============================
+[svoboda_gaz_outfit_m1_plus_protect]:svoboda_gaz_outfit_m1
+inv_grid_x			= 12
+inv_grid_y			= 24
+inv_weight			= 8.0
+cost				= 23000
+power_loss		 	= 0.50
+additional_inventory_weight		= 10	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 10	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.28	;0.25 + 13% - aleks1970
+shock_protection 		 = 0.29	;0.25 + 15%
+wound_protection 		 = 0.17	;0.15 + 13%
+explosion_protection 	 = 0.16	;0.15 + 9%
+;=========================================================================================
+
+[svoboda_gaz_outfit_m1_bad]:svoboda_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= outfit_svoboda_gaz_m1_bad_name
+inv_name_short			= outfit_svoboda_gaz_m1_bad_name
+[svoboda_gaz_outfit_m1_good]:svoboda_gaz_outfit_m1_vision
+
+nightvision_sect					= effector_nightvision_good
+inv_name			= outfit_svoboda_gaz_m1_good_name
+inv_name_short			= outfit_svoboda_gaz_m1_good_name
+
+[svoboda_gaz_outfit_m1_default]:svoboda_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_default
+inv_name			= outfit_svoboda_gaz_m1_default_name
+inv_name_short			= outfit_svoboda_gaz_m1_default_name
+
+[svoboda_gaz_outfit_m1_static]:svoboda_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_static
+inv_name			= outfit_svoboda_gaz_m1_static_name
+inv_name_short			= outfit_svoboda_gaz_m1_static_name
+
+[svoboda_gaz_outfit_m1_kat_eye]:svoboda_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= outfit_svoboda_gaz_m1_kat_eye_name
+inv_name_short			= outfit_svoboda_gaz_m1_kat_eye_name
+
+[svoboda_gaz_outfit_m1_psy]:svoboda_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_psy
+inv_name			= outfit_svoboda_gaz_m1_psy_name
+inv_name_short			= outfit_svoboda_gaz_m1_psy_name
+
+[svoboda_gaz_outfit_m1_blackwhite]:svoboda_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= outfit_svoboda_gaz_m1_blackwhite_name
+inv_name_short			= outfit_svoboda_gaz_m1_blackwhite_name
+
+[svoboda_gaz_outfit_m1_bast]:svoboda_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bast
+inv_name			= outfit_svoboda_gaz_m1_bast_name
+inv_name_short			= outfit_svoboda_gaz_m1_bast_name
+
+[svoboda_gaz_outfit_m1_plus]:svoboda_gaz_outfit_m1_plus_protect
+inv_name			= outfit_svoboda_gaz_m1_plus_name
+inv_name_short			= outfit_svoboda_gaz_m1_plus_name
+
+[svoboda_gaz_outfit_m1_badplus]:svoboda_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_name			= outfit_svoboda_gaz_m1_badplus_name
+inv_name_short			= outfit_svoboda_gaz_m1_badplus_name
+
+[svoboda_gaz_outfit_m1_goodplus]:svoboda_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_good
+inv_name			= outfit_svoboda_gaz_m1_goodplus_name
+inv_name_short			= outfit_svoboda_gaz_m1_goodplus_name
+
+[svoboda_gaz_outfit_m1_defaultplus]:svoboda_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_default
+inv_name			= outfit_svoboda_gaz_m1_defaultplus_name
+inv_name_short			= outfit_svoboda_gaz_m1_defaultplus_name
+
+[svoboda_gaz_outfit_m1_staticplus]:svoboda_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_static
+inv_name			= outfit_svoboda_gaz_m1_staticplus_name
+inv_name_short			= outfit_svoboda_gaz_m1_staticplus_name
+
+[svoboda_gaz_outfit_m1_kat_eyeplus]:svoboda_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= outfit_svoboda_gaz_m1_kat_eyeplus_name
+inv_name_short			= outfit_svoboda_gaz_m1_kat_eyeplus_name
+
+[svoboda_gaz_outfit_m1_psyplus]:svoboda_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_psy
+inv_name			= outfit_svoboda_gaz_m1_psyplus_name
+inv_name_short			= outfit_svoboda_gaz_m1_psyplus_name
+
+[svoboda_gaz_outfit_m1_blackwhiteplus]:svoboda_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= outfit_svoboda_gaz_m1_blackwhiteplus_name
+inv_name_short			= outfit_svoboda_gaz_m1_blackwhiteplus_name
+
+[svoboda_gaz_outfit_m1_bastplus]:svoboda_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bast
+inv_name			= outfit_svoboda_gaz_m1_bastplus_name
+inv_name_short			= outfit_svoboda_gaz_m1_bastplus_name
+
+
+;#######################################################################################
+
+[svoboda_heavy_gaz_outfit_m1]:outfit_base
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "outfit\svoboda_heavy_outfit"
+;$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\svoboda_heavy_suit
+actor_visual	= actors\svoboda\stalker_sv_hood_9.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= svoboda_heavy_gaz_outfit_m1_name
+inv_name_short		= svoboda_heavy_gaz_outfit_m1_name
+description			= svoboda_heavy_gaz_outfit_m1_description
+inv_weight			= 6.5
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 18
+inv_grid_y			= 27
+full_icon_name		= npc_icon_svoboda_heavy_gaz_outfit_m1
+
+cost				= 13000
+power_loss		 	= 0.65
+slot				= 6
+full_scale_icon		= 2,6
+
+immunities_sect			= sect_svoboda_heavy_gaz_outfit_m1_immunities
+
+; MEDIUM RESISTANCE
+burn_protection 				= 0.25
+strike_protection 				= 0.3
+shock_protection 				= 0.25
+wound_protection				= 0.25
+radiation_protection 			= 0.3
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.25
+explosion_protection 			= 0.25
+fire_wound_protection  			= 0.2
+
+bones_koeff_protection = kombez_antigas_damage
+
+[sect_svoboda_heavy_gaz_outfit_m1_immunities]
+burn_immunity				= 0.03
+strike_immunity				= 0.01
+shock_immunity				= 0.03
+wound_immunity				= 0.015
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.03
+explosion_immunity			= 0.03
+fire_wound_immunity			= 0.01
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[svoboda_heavy_gaz_outfit_m1_vision]:svoboda_heavy_gaz_outfit_m1
+inv_grid_x			= 18
+inv_grid_y			= 27
+inv_weight			= 7.0
+cost				= 14000
+
+burn_protection 		 = 0.27	;0.25 + 10%
+radiation_protection 	 = 0.35	;0.30 + 15%
+telepatic_protection 	 = 0.0	;0.0 + 10%
+chemical_burn_protection = 0.28	;0.25 + 12%
+fire_wound_protection 	 = 0.24	;0.20 + 20%
+
+;============================== - "plus" - immunities part - ===============================
+[svoboda_heavy_gaz_outfit_m1_plus_protect]:svoboda_heavy_gaz_outfit_m1
+inv_grid_x			= 18
+inv_grid_y			= 27
+inv_weight			= 10.0
+cost				= 31000
+additional_inventory_weight		= 15	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 10	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.34	;0.30 + 13% - aleks1970
+shock_protection 		 = 0.29	;0.25 + 15%
+wound_protection 		 = 0.28	;0.25 + 13%
+explosion_protection 	 = 0.27	;0.25 + 9%
+;=========================================================================================
+
+[svoboda_heavy_gaz_outfit_m1_bad]:svoboda_heavy_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= svoboda_heavy_gaz_outfit_m1_bad_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_bad_name
+
+[svoboda_heavy_gaz_outfit_m1_good]:svoboda_heavy_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_good
+inv_name			= svoboda_heavy_gaz_outfit_m1_good_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_good_name
+
+[svoboda_heavy_gaz_outfit_m1_default]:svoboda_heavy_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_default
+inv_name			= svoboda_heavy_gaz_outfit_m1_default_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_default_name
+
+[svoboda_heavy_gaz_outfit_m1_static]:svoboda_heavy_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_static
+inv_name			= svoboda_heavy_gaz_outfit_m1_static_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_static_name
+
+[svoboda_heavy_gaz_outfit_m1_kat_eye]:svoboda_heavy_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= svoboda_heavy_gaz_outfit_m1_kat_eye_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_kat_eye_name
+
+[svoboda_heavy_gaz_outfit_m1_psy]:svoboda_heavy_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_psy
+inv_name			= svoboda_heavy_gaz_outfit_m1_psy_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_psy_name
+
+[svoboda_heavy_gaz_outfit_m1_blackwhite]:svoboda_heavy_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= svoboda_heavy_gaz_outfit_m1_blackwhite_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_blackwhite_name
+
+[svoboda_heavy_gaz_outfit_m1_bast]:svoboda_heavy_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bast
+inv_name			= svoboda_heavy_gaz_outfit_m1_bast_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_bast_name
+
+[svoboda_heavy_gaz_outfit_m1_plus]:svoboda_heavy_gaz_outfit_m1_plus_protect
+inv_name			= svoboda_heavy_gaz_outfit_m1_plus_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_plus_name
+
+[svoboda_heavy_gaz_outfit_m1_badplus]:svoboda_heavy_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_name			= svoboda_heavy_gaz_outfit_m1_badplus_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_badplus_name
+
+[svoboda_heavy_gaz_outfit_m1_goodplus]:svoboda_heavy_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_good
+inv_name			= svoboda_heavy_gaz_outfit_m1_goodplus_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_goodplus_name
+
+[svoboda_heavy_gaz_outfit_m1_defaultplus]:svoboda_heavy_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_default
+inv_name			= svoboda_heavy_gaz_outfit_m1_defaultplus_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_defaultplus_name
+
+[svoboda_heavy_gaz_outfit_m1_staticplus]:svoboda_heavy_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_static
+inv_name			= svoboda_heavy_gaz_outfit_m1_staticplus_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_staticplus_name
+
+[svoboda_heavy_gaz_outfit_m1_kat_eyeplus]:svoboda_heavy_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= svoboda_heavy_gaz_outfit_m1_kat_eyeplus_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_kat_eyeplus_name
+
+[svoboda_heavy_gaz_outfit_m1_psyplus]:svoboda_heavy_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_psy
+inv_name			= svoboda_heavy_gaz_outfit_m1_psyplus_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_psyplus_name
+
+[svoboda_heavy_gaz_outfit_m1_blackwhiteplus]:svoboda_heavy_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= svoboda_heavy_gaz_outfit_m1_blackwhiteplus_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_blackwhiteplus_name
+
+[svoboda_heavy_gaz_outfit_m1_bastplus]:svoboda_heavy_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bast
+inv_name			= svoboda_heavy_gaz_outfit_m1_bastplus_name
+inv_name_short			= svoboda_heavy_gaz_outfit_m1_bastplus_name
+
+
+;#######################################################################################
+
+[svoboda_yellow_exo_outfit_m1]:outfit_base
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "outfit\exo_outfit"
+$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\exoskelet_sv_skunk
+actor_visual	= actors\svoboda\stalker_sv_exoskeleton.ogf
+
+ef_equipment_type	= 5
+
+inv_name			= svoboda_yellow_exo_outfit_m1_name
+inv_name_short		= svoboda_yellow_exo_outfit_m1_name
+description			= svoboda_yellow_exo_outfit_m1_description
+inv_weight			= 14.0
+slot				= 6
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 24
+inv_grid_y			= 38
+full_icon_name		= npc_icon_svoboda_yellow_exo_outfit_m1
+
+cost				= 60000
+full_scale_icon		= 2,11
+
+immunities_sect			= sect_svoboda_yellow_exo_outfit_m1_immunities
+
+; MEDIUM RESISTANCE
+burn_protection 				= 0.25
+strike_protection 				= 0.45
+shock_protection 				= 0.25
+wound_protection				= 0.4
+radiation_protection 			= 0.35
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.25
+explosion_protection 			= 0.4
+fire_wound_protection  			= 0.30
+
+sprint_allowed					= true
+power_loss		 				= 0.40
+additional_inventory_weight		= 40
+additional_inventory_weight2	= 40
+bones_koeff_protection			= exo_helmet_damage
+
+[sect_svoboda_yellow_exo_outfit_m1_immunities]
+burn_immunity				= 0.03
+strike_immunity				= 0.01
+shock_immunity				= 0.03
+wound_immunity				= 0.01
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.03
+explosion_immunity			= 0.03
+fire_wound_immunity			= 0.005
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[svoboda_yellow_exo_outfit_m1_vision]:svoboda_yellow_exo_outfit_m1
+inv_grid_x			= 24
+inv_grid_y			= 14
+inv_weight			= 14.5
+cost				= 62000
+power_loss		 	= 0.30
+
+burn_protection 		 = 0.27	;0.25 + 10%
+radiation_protection 	 = 0.40	;0.35 + 15%
+telepatic_protection 	 = 0.0	;0.0 + 10%
+chemical_burn_protection = 0.28	;0.25 + 12%
+fire_wound_protection 	 = 0.36	;0.30 + 20%
+
+;============================== - "plus" - immunities part - ===============================
+[svoboda_yellow_exo_outfit_m1_plus_protect]:svoboda_yellow_exo_outfit_m1
+inv_grid_x			= 24
+inv_grid_y			= 14
+inv_weight			= 21.5
+cost				= 122000
+power_loss		 				= 0.15
+additional_inventory_weight		= 55	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 50	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_exo_immunities
+
+strike_protection 		 = 0.51	;0.45 + 13% - aleks1970
+shock_protection 		 = 0.29	;0.25 + 15%
+wound_protection 		 = 0.45	;0.40 + 13%
+explosion_protection 	 = 0.44	;0.40 + 9%
+;=========================================================================================
+
+[svoboda_yellow_exo_outfit_m1_bad]:svoboda_yellow_exo_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= svoboda_yellow_exo_outfit_m1_bad_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_bad_name
+
+[svoboda_yellow_exo_outfit_m1_good]:svoboda_yellow_exo_outfit_m1_vision
+nightvision_sect					= effector_nightvision_good
+inv_name			= svoboda_yellow_exo_outfit_m1_good_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_good_name
+
+[svoboda_yellow_exo_outfit_m1_default]:svoboda_yellow_exo_outfit_m1_vision
+nightvision_sect					= effector_nightvision_default
+inv_name			= svoboda_yellow_exo_outfit_m1_default_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_default_name
+
+[svoboda_yellow_exo_outfit_m1_static]:svoboda_yellow_exo_outfit_m1_vision
+nightvision_sect					= effector_nightvision_static
+inv_name			= svoboda_yellow_exo_outfit_m1_static_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_static_name
+
+[svoboda_yellow_exo_outfit_m1_kat_eye]:svoboda_yellow_exo_outfit_m1_vision
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= svoboda_yellow_exo_outfit_m1_kat_eye_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_kat_eye_name
+
+[svoboda_yellow_exo_outfit_m1_psy]:svoboda_yellow_exo_outfit_m1_vision
+nightvision_sect					= effector_nightvision_psy
+inv_name			= svoboda_yellow_exo_outfit_m1_psy_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_psy_name
+
+[svoboda_yellow_exo_outfit_m1_blackwhite]:svoboda_yellow_exo_outfit_m1_vision
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= svoboda_yellow_exo_outfit_m1_blackwhite_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_blackwhite_name
+
+[svoboda_yellow_exo_outfit_m1_bast]:svoboda_yellow_exo_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bast
+inv_name			= svoboda_yellow_exo_outfit_m1_bast_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_bast_name
+
+[svoboda_yellow_exo_outfit_m1_plus]:svoboda_yellow_exo_outfit_m1_plus_protect
+inv_name			= svoboda_yellow_exo_outfit_m1_plus_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_plus_name
+
+[svoboda_yellow_exo_outfit_m1_badplus]:svoboda_yellow_exo_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_name			= svoboda_yellow_exo_outfit_m1_badplus_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_badplus_name
+
+[svoboda_yellow_exo_outfit_m1_goodplus]:svoboda_yellow_exo_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_good
+inv_name			= svoboda_yellow_exo_outfit_m1_goodplus_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_goodplus_name
+
+[svoboda_yellow_exo_outfit_m1_defaultplus]:svoboda_yellow_exo_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_default
+inv_name			= svoboda_yellow_exo_outfit_m1_defaultplus_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_defaultplus_name
+
+[svoboda_yellow_exo_outfit_m1_staticplus]:svoboda_yellow_exo_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_static
+inv_name			= svoboda_yellow_exo_outfit_m1_staticplus_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_staticplus_name
+
+[svoboda_yellow_exo_outfit_m1_kat_eyeplus]:svoboda_yellow_exo_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= svoboda_yellow_exo_outfit_m1_kat_eyeplus_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_kat_eyeplus_name
+
+[svoboda_yellow_exo_outfit_m1_psyplus]:svoboda_yellow_exo_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_psy
+inv_name			= svoboda_yellow_exo_outfit_m1_psyplus_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_psyplus_name
+
+[svoboda_yellow_exo_outfit_m1_blackwhiteplus]:svoboda_yellow_exo_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= svoboda_yellow_exo_outfit_m1_blackwhiteplus_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_blackwhiteplus_name
+
+[svoboda_yellow_exo_outfit_m1_bastplus]:svoboda_yellow_exo_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bast
+inv_name			= svoboda_yellow_exo_outfit_m1_bastplus_name
+inv_name_short			= svoboda_yellow_exo_outfit_m1_bastplus_name
+
+;##########################################################################
+;# Debt
+;##########################################################################
+
+[dolg_gaz_outfit_m1]:dolg_outfit
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "outfit\dolg_outfit"
+;$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\dolg_suit
+actor_visual	= actors\dolg\stalker_do_antigas.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= dolg_outfit_gaz_m1_name
+inv_name_short		= dolg_outfit_gaz_m1_name
+description			= dolg_outfit_gaz_m1_description
+inv_weight			= 5.5
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 16
+inv_grid_y			= 21
+full_icon_name		= npc_icon_dolg_gaz_outfit_m1
+
+cost				= 14000
+power_loss		 	= 0.65
+slot				= 6
+full_scale_icon		= 8,11			
+
+immunities_sect			= sect_dolg_gaz_outfit_m1_immunities
+
+; LOW RESISTANCE
+burn_protection 				= 0.25
+strike_protection 				= 0.25
+shock_protection 				= 0.25
+wound_protection				= 0.25
+radiation_protection 			= 0.35
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.25
+explosion_protection 			= 0.2
+fire_wound_protection  			= 0.2
+
+bones_koeff_protection = kombez_antigas_damage
+
+[sect_dolg_gaz_outfit_m1_immunities]
+burn_immunity				= 0.02
+strike_immunity				= 0.01
+shock_immunity				= 0.03
+wound_immunity				= 0.015
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.02
+explosion_immunity			= 0.03
+fire_wound_immunity			= 0.01
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[dolg_gaz_outfit_m1_vision]:dolg_gaz_outfit_m1
+inv_grid_x			= 16
+inv_grid_y			= 21
+inv_weight			= 6.0
+cost				= 16000
+power_loss		 	= 0.60
+
+burn_protection 		 = 0.28	;0.25 + 10%
+radiation_protection 	 = 0.40	;0.35 + 15%
+telepatic_protection 	 = 0.0	;0.0 + 10%
+chemical_burn_protection = 0.28	;0.25 + 12%
+fire_wound_protection 	 = 0.24	;0.20 + 20%
+
+;============================== - "plus" - immunities part - ===============================
+[dolg_gaz_outfit_m1_plus_protect]:dolg_gaz_outfit_m1
+inv_grid_x			= 16
+inv_grid_y			= 21
+inv_weight			= 9.0
+cost				= 32000
+power_loss		 	= 0.50
+additional_inventory_weight		= 10	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 5	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.28	;0.25 + 13% - aleks1970
+shock_protection 		 = 0.29	;0.25 + 15%
+wound_protection 		 = 0.28	;0.25 + 13%
+explosion_protection 	 = 0.22	;0.20 + 9%
+;=========================================================================================
+
+[dolg_gaz_outfit_m1_bad]:dolg_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= dolg_outfit_gaz_m1_bad_name
+inv_name_short			= dolg_outfit_gaz_m1_bad_name
+
+[dolg_gaz_outfit_m1_good]:dolg_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_good
+inv_name			= dolg_outfit_gaz_m1_good_name
+inv_name_short			= dolg_outfit_gaz_m1_good_name
+
+[dolg_gaz_outfit_m1_default]:dolg_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_default
+inv_name			= dolg_outfit_gaz_m1_default_name
+inv_name_short			= dolg_outfit_gaz_m1_default_name
+
+[dolg_gaz_outfit_m1_static]:dolg_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_static
+inv_name			= dolg_outfit_gaz_m1_static_name
+inv_name_short			= dolg_outfit_gaz_m1_static_name
+
+[dolg_gaz_outfit_m1_kat_eye]:dolg_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= dolg_outfit_gaz_m1_kat_eye_name
+inv_name_short			= dolg_outfit_gaz_m1_kat_eye_name
+
+[dolg_gaz_outfit_m1_psy]:dolg_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_psy
+inv_name			= dolg_outfit_gaz_m1_psy_name
+inv_name_short			= dolg_outfit_gaz_m1_psy_name
+
+[dolg_gaz_outfit_m1_blackwhite]:dolg_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= dolg_outfit_gaz_m1_blackwhite_name
+inv_name_short			= dolg_outfit_gaz_m1_blackwhite_name
+
+[dolg_gaz_outfit_m1_bast]:dolg_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bast
+inv_name			= dolg_outfit_gaz_m1_bast_name
+inv_name_short			= dolg_outfit_gaz_m1_bast_name
+
+[dolg_gaz_outfit_m1_plus]:dolg_gaz_outfit_m1_plus_protect
+inv_name			= dolg_outfit_gaz_m1_plus_name
+inv_name_short			= dolg_outfit_gaz_m1_plus_name
+
+[dolg_gaz_outfit_m1_badplus]:dolg_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_name			= dolg_outfit_gaz_m1_badplus_name
+inv_name_short			= dolg_outfit_gaz_m1_badplus_name
+
+[dolg_gaz_outfit_m1_goodplus]:dolg_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_good
+inv_name			= dolg_outfit_gaz_m1_goodplus_name
+inv_name_short			= dolg_outfit_gaz_m1_goodplus_name
+
+[dolg_gaz_outfit_m1_defaultplus]:dolg_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_default
+inv_name			= dolg_outfit_gaz_m1_defaultplus_name
+inv_name_short			= dolg_outfit_gaz_m1_defaultplus_name
+
+[dolg_gaz_outfit_m1_staticplus]:dolg_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_static
+inv_name			= dolg_outfit_gaz_m1_staticplus_name
+inv_name_short			= dolg_outfit_gaz_m1_staticplus_name
+
+[dolg_gaz_outfit_m1_kat_eyeplus]:dolg_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= dolg_outfit_gaz_m1_kat_eyeplus_name
+inv_name_short			= dolg_outfit_gaz_m1_kat_eyeplus_name
+
+[dolg_gaz_outfit_m1_psyplus]:dolg_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_psy
+inv_name			= dolg_outfit_gaz_m1_psyplus_name
+inv_name_short			= dolg_outfit_gaz_m1_psyplus_name
+
+[dolg_gaz_outfit_m1_blackwhiteplus]:dolg_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= dolg_outfit_gaz_m1_blackwhiteplus_name
+inv_name_short			= dolg_outfit_gaz_m1_blackwhiteplus_name
+
+[dolg_gaz_outfit_m1_bastplus]:dolg_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bast
+inv_name			= dolg_outfit_gaz_m1_bastplus_name
+inv_name_short			= dolg_outfit_gaz_m1_bastplus_name
+
+
+;##########################################################################
+;# Mercenaries
+;##########################################################################
+
+[killer_gaz_outfit_m1]:killer_outfit
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "outfit\uniq\outfit_killer_m1"
+;$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\stalker_killer_suit
+actor_visual	= actors\killer\stalker_ki_antigas.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= killer_gaz_outfit_m1_name
+inv_name_short		= killer_gaz_outfit_m1_name
+description			= killer_gaz_outfit_m1_description
+inv_weight			= 5.5
+slot				= 6
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 18
+inv_grid_y			= 21
+full_icon_name		= npc_icon_killer_gaz_outfit_m1
+
+cost				= 6500
+power_loss		 	= 0.70
+full_scale_icon		= 4,11
+
+immunities_sect			= sect_killer_gaz_outfit_m1_immunities
+
+; LOW RESISTANCE
+burn_protection 				= 0.15
+strike_protection 				= 0.1
+shock_protection 				= 0.15
+wound_protection				= 0.1
+radiation_protection 			= 0.25
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.1
+explosion_protection 			= 0.15
+fire_wound_protection  			= 0.1
+
+bones_koeff_protection = gilet_antigas_damage
+
+[sect_killer_gaz_outfit_m1_immunities]
+burn_immunity				= 0.04
+strike_immunity				= 0.01
+shock_immunity				= 0.04
+wound_immunity				= 0.020
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.04
+explosion_immunity			= 0.04
+fire_wound_immunity			= 0.012
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[killer_gaz_outfit_m1_vision]:killer_gaz_outfit_m1
+inv_grid_x			= 18
+inv_grid_y			= 21
+inv_weight			= 6.0
+cost				= 8500
+power_loss		 	= 0.75
+
+burn_protection 		 = 0.17	;0.15 + 10%
+radiation_protection 	 = 0.29	;0.25 + 15%
+telepatic_protection 	 = 0.0	;0.0 + 10%
+chemical_burn_protection = 0.11	;0.10 + 12%
+fire_wound_protection 	 = 0.12	;0.10 + 20%
+
+;============================== - "plus" - immunities part - ===============================
+[killer_gaz_outfit_m1_plus_protect]:killer_gaz_outfit_m1
+inv_grid_x			= 18
+inv_grid_y			= 21
+inv_weight			= 9.0
+cost				= 16000
+power_loss		 	= 0.60
+additional_inventory_weight		= 10	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 5	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.11	;0.10 + 13% - aleks1970
+shock_protection 		 = 0.17	;0.15 + 15%
+wound_protection 		 = 0.11	;0.10 + 13%
+explosion_protection 	 = 0.16	;0.15 + 9%
+;=========================================================================================
+
+[killer_gaz_outfit_m1_bad]:killer_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= killer_gaz_outfit_m1_bad_name
+inv_name_short			= killer_gaz_outfit_m1_bad_name
+
+[killer_gaz_outfit_m1_good]:killer_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_good
+inv_name			= killer_gaz_outfit_m1_good_name
+inv_name_short			= killer_gaz_outfit_m1_good_name
+
+[killer_gaz_outfit_m1_default]:killer_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_default
+inv_name			= killer_gaz_outfit_m1_default_name
+inv_name_short			= killer_gaz_outfit_m1_default_name
+
+[killer_gaz_outfit_m1_static]:killer_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_static
+inv_name			= killer_gaz_outfit_m1_static_name
+inv_name_short			= killer_gaz_outfit_m1_static_name
+
+[killer_gaz_outfit_m1_kat_eye]:killer_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= killer_gaz_outfit_m1_kat_eye_name
+inv_name_short			= killer_gaz_outfit_m1_kat_eye_name
+
+[killer_gaz_outfit_m1_psy]:killer_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_psy
+inv_name			= killer_gaz_outfit_m1_psy_name
+inv_name_short			= killer_gaz_outfit_m1_psy_name
+
+[killer_gaz_outfit_m1_blackwhite]:killer_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= killer_gaz_outfit_m1_blackwhite_name
+inv_name_short			= killer_gaz_outfit_m1_blackwhite_name
+
+[killer_gaz_outfit_m1_bast]:killer_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bast
+inv_name			= killer_gaz_outfit_m1_bast_name
+inv_name_short			= killer_gaz_outfit_m1_bast_name
+
+[killer_gaz_outfit_m1_plus]:killer_gaz_outfit_m1_plus_protect
+inv_name			= killer_gaz_outfit_m1_plus_name
+inv_name_short			= killer_gaz_outfit_m1_plus_name
+
+[killer_gaz_outfit_m1_badplus]:killer_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_name			= killer_gaz_outfit_m1_badplus_name
+inv_name_short			= killer_gaz_outfit_m1_badplus_name
+
+[killer_gaz_outfit_m1_goodplus]:killer_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_good
+inv_name			= killer_gaz_outfit_m1_goodplus_name
+inv_name_short			= killer_gaz_outfit_m1_goodplus_name
+
+[killer_gaz_outfit_m1_defaultplus]:killer_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_default
+inv_name			= killer_gaz_outfit_m1_defaultplus_name
+inv_name_short			= killer_gaz_outfit_m1_defaultplus_name
+
+[killer_gaz_outfit_m1_staticplus]:killer_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_static
+inv_name			= killer_gaz_outfit_m1_staticplus_name
+inv_name_short			= killer_gaz_outfit_m1_staticplus_name
+
+[killer_gaz_outfit_m1_kat_eyeplus]:killer_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= killer_gaz_outfit_m1_kat_eyeplus_name
+inv_name_short			= killer_gaz_outfit_m1_kat_eyeplus_name
+
+[killer_gaz_outfit_m1_psyplus]:killer_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_psy
+inv_name			= killer_gaz_outfit_m1_psyplus_name
+inv_name_short			= killer_gaz_outfit_m1_psyplus_name
+
+[killer_gaz_outfit_m1_blackwhiteplus]:killer_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= killer_gaz_outfit_m1_blackwhiteplus_name
+inv_name_short			= killer_gaz_outfit_m1_blackwhiteplus_name
+
+[killer_gaz_outfit_m1_bastplus]:killer_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bast
+inv_name			= killer_gaz_outfit_m1_bastplus_name
+inv_name_short			= killer_gaz_outfit_m1_bastplus_name
+
+
+;##########################################################################
+;# Monolith fucking
+;##########################################################################
+
+[monolit_gaz_outfit_m1]:outfit_base
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "outfit\monolit_outfit"
+;$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\monolit_suit
+actor_visual	= actors\monolit\stalker_mo_hood_9.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= monolit_gaz_outfit_m1_name
+inv_name_short		= monolit_gaz_outfit_m1_name
+description			= monolit_gaz_outfit_m1_description
+inv_weight			= 5.5
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 18
+inv_grid_y			= 30
+full_icon_name		= npc_icon_monolit_gaz_outfit_m1
+
+cost				= 15000
+power_loss		 	= 0.50
+slot				= 6
+full_scale_icon		= 6,11
+
+immunities_sect			= sect_monolit_gaz_outfit_m1_immunities
+
+; LOW RESISTANCE
+burn_protection 				= 0.5
+strike_protection 				= 0.6
+shock_protection 				= 0.6
+wound_protection				= 0.4
+radiation_protection 			= 0.6
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.25
+explosion_protection 			= 0.2
+fire_wound_protection  			= 0.25
+
+bones_koeff_protection = kombez_mask_damage
+
+[sect_monolit_gaz_outfit_m1_immunities]
+burn_immunity				= 0.03
+strike_immunity				= 0.01
+shock_immunity				= 0.03
+wound_immunity				= 0.015
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.03
+explosion_immunity			= 0.03
+fire_wound_immunity			= 0.01
+
+;========================= - "NightVision" - part - aleks1970 - ===========================
+[monolit_gaz_outfit_m1_vision]:monolit_gaz_outfit_m1
+inv_grid_x			= 38
+inv_grid_y			= 28
+inv_weight			= 3.0
+cost				= 3500
+power_loss		 	= 0.40
+
+burn_protection 		 = 0.55	;0.50 + 10%
+radiation_protection 	 = 0.69	;0.60 + 15%
+telepatic_protection 	 = 0.20	;0.0 + 10%
+chemical_burn_protection = 0.28	;0.25 + 12%
+fire_wound_protection 	 = 0.30	;0.25 + 20%
+
+;============================== - "plus" - immunities part - ===============================
+[monolit_gaz_outfit_m1_plus_protect]:monolit_gaz_outfit_m1
+inv_grid_x			= 38
+inv_grid_y			= 28
+inv_weight			= 4.0
+cost				= 3000
+power_loss		 	= 0.30
+additional_inventory_weight		= 5	;0 + 15%	;30% - compensation for weight - aleks1970
+additional_inventory_weight2	= 0	;0 + 15%	;30%
+immunities_sect		= sect_upgrade_immunities
+
+strike_protection 		 = 0.68	;0.60 + 13% - aleks1970
+shock_protection 		 = 0.69	;0.60 + 15%
+wound_protection 		 = 0.45	;0.40 + 13%
+explosion_protection 	 = 0.22	;0.20 + 9%
+;=========================================================================================
+
+[monolit_gaz_outfit_m1_bad]:monolit_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bad
+inv_name			= monolit_gaz_outfit_m1_bad_name
+inv_name_short			= monolit_gaz_outfit_m1_bad_name
+
+[monolit_gaz_outfit_m1_good]:monolit_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_good
+inv_name			= monolit_gaz_outfit_m1_good_name
+inv_name_short			= monolit_gaz_outfit_m1_good_name
+
+[monolit_gaz_outfit_m1_default]:monolit_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_default
+inv_name			= monolit_gaz_outfit_m1_default_name
+inv_name_short			= monolit_gaz_outfit_m1_default_name
+
+[monolit_gaz_outfit_m1_static]:monolit_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_static
+inv_name			= monolit_gaz_outfit_m1_static_name
+inv_name_short			= monolit_gaz_outfit_m1_static_name
+
+[monolit_gaz_outfit_m1_kat_eye]:monolit_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= monolit_gaz_outfit_m1_kat_eye_name
+inv_name_short			= monolit_gaz_outfit_m1_kat_eye_name
+
+[monolit_gaz_outfit_m1_psy]:monolit_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_psy
+inv_name			= monolit_gaz_outfit_m1_psy_name
+inv_name_short			= monolit_gaz_outfit_m1_psy_name
+
+[monolit_gaz_outfit_m1_blackwhite]:monolit_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= monolit_gaz_outfit_m1_blackwhite_name
+inv_name_short			= monolit_gaz_outfit_m1_blackwhite_name
+
+[monolit_gaz_outfit_m1_bast]:monolit_gaz_outfit_m1_vision
+nightvision_sect					= effector_nightvision_bast
+inv_name			= monolit_gaz_outfit_m1_bast_name
+inv_name_short			= monolit_gaz_outfit_m1_bast_name
+
+[monolit_gaz_outfit_m1_plus]:monolit_gaz_outfit_m1_plus_protect
+inv_name			= monolit_gaz_outfit_m1_plus_name
+inv_name_short			= monolit_gaz_outfit_m1_plus_name
+
+[monolit_gaz_outfit_m1_badplus]:monolit_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bad
+inv_name			= monolit_gaz_outfit_m1_badplus_name
+inv_name_short			= monolit_gaz_outfit_m1_badplus_name
+
+[monolit_gaz_outfit_m1_goodplus]:monolit_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_good
+inv_name			= monolit_gaz_outfit_m1_goodplus_name
+inv_name_short			= monolit_gaz_outfit_m1_goodplus_name
+
+[monolit_gaz_outfit_m1_defaultplus]:monolit_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_default
+inv_name			= monolit_gaz_outfit_m1_defaultplus_name
+inv_name_short			= monolit_gaz_outfit_m1_defaultplus_name
+
+[monolit_gaz_outfit_m1_staticplus]:monolit_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_static
+inv_name			= monolit_gaz_outfit_m1_staticplus_name
+inv_name_short			= monolit_gaz_outfit_m1_staticplus_name
+
+[monolit_gaz_outfit_m1_kat_eyeplus]:monolit_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_kat_eye
+inv_name			= monolit_gaz_outfit_m1_kat_eyeplus_name
+inv_name_short			= monolit_gaz_outfit_m1_kat_eyeplus_name
+
+[monolit_gaz_outfit_m1_psyplus]:monolit_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_psy
+inv_name			= monolit_gaz_outfit_m1_psyplus_name
+inv_name_short			= monolit_gaz_outfit_m1_psyplus_name
+
+[monolit_gaz_outfit_m1_blackwhiteplus]:monolit_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_blackwhite
+inv_name			= monolit_gaz_outfit_m1_blackwhiteplus_name
+inv_name_short			= monolit_gaz_outfit_m1_blackwhiteplus_name
+
+[monolit_gaz_outfit_m1_bastplus]:monolit_gaz_outfit_m1_plus_protect
+nightvision_sect					= effector_nightvision_bast
+inv_name			= monolit_gaz_outfit_m1_bastplus_name
+inv_name_short			= monolit_gaz_outfit_m1_bastplus_name
+
+
+[sect_upgrade_immunities]
+burn_immunity				= 0.005
+strike_immunity				= 0.005
+shock_immunity				= 0.005
+wound_immunity			= 0.005
+radiation_immunity			= 0.001
+telepatic_immunity			= 0.001
+chemical_burn_immunity		= 0.005
+explosion_immunity			= 0.003
+fire_wound_immunity			= 0.002
+
+[sect_upgrade_exo_immunities]
+burn_immunity				= 0.005
+strike_immunity				= 0.001
+shock_immunity				= 0.005
+wound_immunity			= 0.001
+radiation_immunity			= 0.001
+telepatic_immunity			= 0.001
+chemical_burn_immunity		= 0.005
+explosion_immunity			= 0.001
+fire_wound_immunity			= 0.001

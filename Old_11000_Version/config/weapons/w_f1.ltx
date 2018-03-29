@@ -1,0 +1,354 @@
+;;;; TB3D 1.0.9.9.9.8 - TB3D style weapons, grenades shok and gravi
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+; ручна€ оборонительна€ граната ‘-1
+[grenade_f1]:identity_immunities
+grenade_remove_time		= 60000
+detonation_threshold_hit= 200
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 					= "weapons\grenades\f1"
+$prefetch				= 128
+class					= G_F1
+cform					= skeleton
+visual					= weapons\grenade\wpn_f_1.ogf
+inv_name				= grenade-f1
+inv_name_short			= grenade-f1_s
+inv_weight				= 0.63
+description				= enc_weapons1_grenade-f1
+;belt					= true
+ef_weapon_type			= 10
+
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 9
+inv_grid_y				= 9
+
+kill_msg_x				= 1
+kill_msg_y				= 232
+kill_msg_width			= 13
+kill_msg_height			= 23
+
+animation_slot			= 7
+single_handed			= 1
+
+slot					= 3
+hud						= grenade_f1_hud
+force_min				= 10	; ~30% от максимума
+force_const				= 25;20
+force_max				= 30
+force_grow_speed		= 15 ;2 ;30
+
+destroy_time			= 2500 ;3500
+
+cost					= 210
+
+;-----------------------------------------------------------------------------------
+blast					= 5
+blast_r					= 12
+blast_impulse			= 140
+blast_impulse_factor	= 1
+
+frags					= 24
+frags_r					= 50
+frag_hit				= 1.50
+frag_hit_impulse		= 6
+
+hit_type_blast			= explosion
+hit_type_frag			= fire_wound
+
+up_throw_factor			= 1.2
+explode_particles       = amik\explosion\explosion_f1
+
+light_color		         = 1.9,1.4,0.5
+light_range		         = 25.0
+light_time 		         = 0.85
+
+;трассы от осколков
+fragment_speed				= 50
+explode_duration			= 3		;подолжительность взрыва (с)
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+;звуки
+snd_explode  = weapons\explo\t_f1_explosion         
+snd_checkout = weapons\generic_checkout
+;------------------------------------------------------------------------------------------
+
+attach_position_offset	= -0.053,-0.089,0.0
+attach_angle_offset		= 0,0,0
+attach_bone_name		= 
+
+bone_name				= bip01_r_hand
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+throw_point				 = 0,0.3,0.2
+throw_dir				 = 0,0,1
+wm_size                  = 0.1
+wallmark_section		 = explosion_marks
+
+[grenade_f1_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = grenade_0
+
+orientation         = 0,0,0
+position            = 0,0,0.1
+visual              = weapons\grenade\wpn_f_1_hud.ogf
+
+throw_point				 = 0.0,0.4,0.3
+throw_dir				 = 0,0,1
+
+anim_show			= draw
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end
+
+
+
+; –учна€ дымова€ граната √ƒ-05 системы јћ 
+[grenade_gd-05]:grenade_f1
+$spawn 				= "weapons\grenades\gd-05"
+visual				= weapons\grenade\wpn_gd_05.ogf
+inv_name			     = st_grenade_gd5
+inv_name_short		     = st_grenade_gd5
+description			= enc_weapons1_grenade-gd05
+inv_weight				= 0.48
+inv_grid_width			= 1
+inv_grid_height		= 1
+inv_grid_x			= 19
+inv_grid_y			= 3
+hud					= grenade_gd-05_hud
+
+blast				= 0 ;150
+blast_r				= 0 ;8
+blast_impulse		     = 0
+;delete
+blast_impulse_factor    = 0
+
+frags				= 0  ;12
+frags_r				= 0
+frag_hit			     = 0 ;50
+frag_hit_impulse	     = 0
+
+hit_type_blast		     = strike
+hit_type_frag		     = fire_wound
+
+up_throw_factor		= 0
+
+cost			         = 150
+
+;explode_particles		 = explosions\explosion_dym
+explode_particles = amik\explosion\explosion_dym
+
+light_color		         = 0.9,0.6,0.5
+light_range		         = 2.0
+light_time 		         = 2.85
+
+;трассы от осколков
+fragment_speed		           = 50
+
+hide_in_explosion	           = false
+explode_duration	           = 20		;подолжительность взрыва (с)
+explode_hide_duration	      = 20	     ;врем€, через которое гранату надо сделать невидимой (с)
+dynamic_explosion_particles   = true
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+snd_explode = weapons\explo\grenade_gd05
+;------------------------------------------------------------------------------------------
+
+[grenade_gd-05_hud]
+fire_point		= 0.05, 0.0, 0.1
+fire_bone		= grenade_0
+
+orientation		= 0,0,0
+position		= 0,0,0.1
+
+visual			= weapons\grenade\wpn_gd_05_hud.ogf
+
+throw_point		= 0.0,0.4,0.3
+throw_dir		= 0,0,1
+
+anim_show		= draw
+anim_hide		= holster_0
+anim_idle		= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end
+
+;-----------------------------------------------------------------------------------
+;€дерна€ бомба. ’абарыч
+;-----------------------------------------------------------------------------------
+[yadrena_bomba]:grenade_f1
+grenade_remove_time		= 60000
+detonation_threshold_hit= 200
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 					= "weapons\grenades\f1"
+$prefetch				= 128
+class					= G_F1
+cform					= skeleton
+visual					= weapons\grenade\yadrena_bomba.ogf
+inv_name				= enc_bomba_item
+inv_name_short			= enc_bomba_item
+inv_weight				= 12.00	;.1
+description				= enc_weapons1_grenade-f1
+;belt					= true
+ef_weapon_type			= 10
+
+inv_grid_width		= 3	;1 ;aleks1970
+inv_grid_height		= 2	;1
+inv_grid_x			= 34 ;9
+inv_grid_y			= 45 ;9
+
+kill_msg_x				= 1
+kill_msg_y				= 232
+kill_msg_width			= 13
+kill_msg_height			= 23
+
+animation_slot			= 7
+single_handed			= 1
+
+slot					= 3
+hud						= grenade_f1_hud
+force_min				= 10	; ~30% от максимума
+force_const				= 250;20
+force_max				= 300
+force_grow_speed		= 15000;2 ;30
+destroy_time			= 3500 ;через сколько взрыв
+
+cost					= 1;80
+
+;-----------------------------------------------------------------------------------
+blast					= 1
+blast_r					= 1500
+blast_impulse			= 1
+;delete
+blast_impulse_factor	 = 1
+
+frags					= 1
+frags_r					= 3000
+frag_hit				= 1
+frag_hit_impulse		= 1
+
+hit_type_blast			= explosion
+hit_type_frag			= fire_wound
+
+up_throw_factor			= 1.2
+;-----------------------------------------------------------------------------------
+
+
+explode_particles		 = a_ufp_particles\atom_blow
+
+
+light_color		         = 1.9,1.4,0.5
+light_range		         = 25.0
+light_time 		         = 0.85
+
+;трассы от осколков
+fragment_speed				= 1500
+explode_duration			= 20		;подолжительность взрыва (с)
+
+;звуки
+snd_explode = weapons\nucleus_blast        ; t_f1_explosion ; f1_explode
+snd_checkout = weapons\generic_checkout
+
+attach_position_offset	= -0.053,-0.089,0.0
+attach_angle_offset		= 0,0,0
+attach_bone_name		= 
+
+// should be deleted after update
+bone_name				= bip01_r_hand
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+
+throw_point				 = 0,0.3,0.2
+throw_dir				 = 0,0,1
+wm_size                  = 0.1
+
+wallmark_section		 =explosion_marks
+
+;-----in levels--------------------------------------------------------------
+[grenade_gravi]:grenade_f1
+$spawn             				= "weapons\uniq\granade_gravi"	
+visual					= weapons\grenade\anom\wpn_f_1.ogf
+inv_grid_width     = 1
+inv_grid_height    = 1
+inv_grid_x         = 23
+inv_grid_y         = 63
+description						= enc_weapons1_grenade_gravi
+inv_name						= wpn_grenade_gravi
+inv_name_short					= wpn_grenade_gravi
+explode_particles		 =  anomaly2\gravity_blast_final00
+hide_in_explosion = true
+explode_duration			= 6
+snd_explode = anomaly\gravi_blowout6
+animation_slot			= 7
+single_handed			= 1
+hud						= grenade_he_hud
+
+[grenade_he_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = grenade_0
+
+orientation         = 0,0,0
+position            = 0,0,0.1
+
+visual              = weapons\grenade\anom\wpn_f_1_hud.ogf
+
+throw_point				 = 0.0,0.4,0.3
+throw_dir				 = 0,0,1
+
+anim_show			= draw
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end
+
+[grenade_shok]:grenade_f1
+$spawn             				= "weapons\uniq\granade_shok"
+visual				= weapons\grenade\anom\wpn_f_1.ogf	
+description						= enc_weapons1_grenade_shok
+inv_name						= wpn_grenade_shok
+inv_name_short					= wpn_grenade_shok
+explode_particles		 =  anomaly2\electra2_blast
+hide_in_explosion = true
+explode_duration			= 5
+snd_explode = anomaly\electra_blast1
+animation_slot			= 7
+single_handed			= 1
+hud					= grenade_shok_hud
+inv_grid_width     = 1
+inv_grid_height    = 1
+inv_grid_x         = 63
+inv_grid_y         = 3
+
+[grenade_shok_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = grenade_0
+
+orientation         = 0,0,0
+position            = 0,0,0.1
+
+visual              = weapons\grenade\anom\wpn_f_1_hud.ogf
+
+throw_point				 = 0.0,0.4,0.3
+throw_dir				 = 0,0,1
+
+anim_show			= draw
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end
+

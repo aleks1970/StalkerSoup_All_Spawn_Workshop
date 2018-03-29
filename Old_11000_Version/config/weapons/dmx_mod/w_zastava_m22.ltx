@@ -1,0 +1,152 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+; Zastava CZN-M22
+[wpn_zastava]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn              	= "weapons\wpn_zastava"	
+$npc					= on				
+$prefetch 				= 8
+scheduled				= off               
+cform               	= skeleton
+class               	= WP_LR300			
+min_radius          	= 0			
+max_radius          	= 200				
+description		= enc_weapons1_wpn-zastava_m22
+	
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+holder_range_modifier	= 1.0		        
+holder_fov_modifier	    = 0.7              
+cost					= 9150				
+weapon_class			= assault_rifle		
+	
+ammo_limit			= 300				
+ammo_elapsed		= 50				
+ammo_mag_size		= 36
+fire_modes			= 1, -1
+ammo_class			= ammo_5.7x28_ss190, ammo_5.7x28_fmj, ammo_5.7x28_ap
+
+hand_dependence			= 1									
+single_handed			= 0
+slot 					= 2								
+animation_slot			= 8									
+
+inv_name	        = wpn-zastava_m22								
+inv_name_short		= wpn-zastava_m22	
+inv_weight			= 2.6								
+
+inv_grid_width		= 4	 
+inv_grid_height		= 2	  
+inv_grid_x			= 74	 
+inv_grid_y			= 71
+
+kill_msg_x			= 0
+kill_msg_y			= 123
+kill_msg_width		= 69
+kill_msg_height		= 30
+
+fire_dispersion_base		= 0.019		
+control_inertion_factor		= 1.1f
+
+cam_relax_speed         	= 4.5	
+cam_dispersion          	= 0.3		
+cam_dispersion_inc			= 0.20		
+cam_dispertion_frac			= 0.9		
+cam_max_angle				= 4.0		
+cam_max_angle_horz			= 4.0		
+cam_step_angle_horz			= 0.5		
+
+fire_dispersion_condition_factor 	= 5		 
+misfire_probability 			= 0.003	 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.00001	
+
+fire_point             		= 0.0, 0.262, 0.27		
+flame_particles				= weapons\generic_weapon06	
+smoke_particles				= weapons\generic_shoot_00
+shell_point		 			= 0.00, 0.262, -0.05			
+shell_particles	 			= weapons\generic_shells
+
+PDM_disp_base 		    = 1.2
+PDM_disp_vel_factor 	= 1.1
+PDM_disp_accel_factor 	= 1.0
+PDM_crouch	 			= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+hit_power               = 1.2	
+hit_impulse		 		= 140			
+hit_type 				= fire_wound 	
+fire_distance            	= 100					;;;109974 10:1
+bullet_speed				= 520	
+rpm                      	= 800		
+
+use_aim_bullet				= true		
+time_to_aim					= 1.0	
+
+hud                      	= wpn_zastava_m22_hud				
+position         	        = -0.026, -0.205, -0.0
+orientation      	        = 0,0,0						
+
+strap_position         		= -0.18,-0.45,0.2			
+strap_orientation      		= -10,-5,10					
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+visual         		        = weapons\zastava\wpn_zastava.ogf	
+
+light_color					= 0.6,0.5,0.3				
+light_range					= 5							
+light_var_color				= 0.05						
+light_var_range				= 0.5
+light_time 					= 0.2						
+ph_mass						= 5							
+
+scope_status				= 0							
+silencer_status				= 2 							
+grenade_launcher_status		= 0							
+
+zoom_enabled				= true						
+scope_zoom_factor	    	= 90					
+
+silencer_name  			= wpn_addon_sil_57			
+silencer_x 				= 162				
+silencer_y 				= 7					
+
+snd_draw					= weapons\zastava\zastava_draw
+snd_holster					= weapons\zastava\zastava_holster
+snd_shoot					= weapons\zastava\zastava_shoot, 0.6
+snd_empty					= weapons\zastava\zastava_empty, 0.5
+snd_reload					= weapons\zastava\zastava_reload
+snd_switch					= weapons\zastava\zastava_switch, 1.0, 0.5
+snd_silncer_shot			= weapons\zastava\zastava_silent
+
+silencer_smoke_particles 	= weapons\generic_shoot_00
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+ 
+[wpn_zastava_m22_hud]
+shell_point          	= 0, 0, -0.62
+shell_dir		 		= 0.0, 1.0, 0.0
+
+fire_point       	        = -0.2345,-0.05,-0.02
+fire_bone               	= wpn_body
+
+orientation             	= 0, 0, 0		
+position                	= 0, 0, 0.25
+visual                  	= weapons\zastava\wpn_zastava_hud.ogf
+
+anim_idle				= idle
+anim_idle_aim			= idle_aim
+anim_reload				= reload
+anim_draw				= draw
+anim_holster			= holster
+anim_shoot				= shoot
+anim_idle_sprint		= idle_sprint
+
+zoom_offset         = -0.1635,0.034,-0.3
+zoom_rotate_x		= 0.035
+zoom_rotate_y		= 0.035
+zoom_hide_crosshair	= true

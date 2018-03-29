@@ -1,0 +1,32 @@
+;;;; TB3D 1.1.0.0.1.3 - TB3D style weapons
+; Нож военного хирурга
+[wpn_knife_n]:wpn_knife_base
+$spawn              		= "weapons\wpn_knife_n"
+description					= weap_knife_n
+visual						= weapons\knife\wpn_knife_n.ogf
+inv_name					= wpn_knife_n
+inv_name_short				= wpn_knife_n
+inv_weight					= 0.4
+inv_grid_x					= 6
+inv_grid_y					= 47
+
+hud							= wpn_knife_n_hud
+cost						= 18000
+
+hit_power                	= 5.3
+hit_power_2                	= 7.1
+fire_distance            	= 1.6
+
+[wpn_knife_n_hud]:wpn_knife_base_hud
+visual              		= weapons\knife\wpn_knife_n_hud.ogf
+
+[fake_wpn_knife_n]:fake_wpn_knife_base
+visual          = weapons\knife\wpn_knife_n.ogf
+description		= weap_knife_n
+inv_name				    = wpn_knife_n
+inv_name_short				= wpn_knife_n
+inv_weight			        = 0.4
+
+inv_grid_x				= 6
+inv_grid_y				= 47
+cost				    = 18000

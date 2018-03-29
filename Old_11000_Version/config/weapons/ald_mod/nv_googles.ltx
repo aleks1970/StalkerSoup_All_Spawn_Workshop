@@ -1,0 +1,190 @@
+;;;; TB3D 1.1.0.0.1.6 - new night vision googles - aleks1970
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[device_nvgog]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "food and drugs\antirad"
+$prefetch 			= 32
+class				= II_ANTIR
+cform           	= skeleton
+visual				= equipments\light_night.ogf
+description			= enc_equipment_devic_nightvision_goggles_m1
+inv_name			= equip_device_nightvision_goggles_m1
+inv_name_short		= equip_device_nightvision_goggles_m1_s
+
+inv_weight			= 0.45
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 44
+inv_grid_y			= 53
+
+cost				= 2500
+
+;nightvision_sect = effector_nightvision_good
+;pnv_discharge_hours = 12
+ppe = nightvision_good
+light_amp = 2.5
+
+; eatable item
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+
+; food item
+animation_slot		= 4
+belt				= false
+default_to_ruck		= false
+
+;hud item
+hud = wpn_vodka_hud
+;--;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;--;
+[device_nvgog_best]:device_nvgog
+description			= enc_equipment_devic_nightvision_goggles_m2
+inv_name			= equip_device_nightvision_goggles_m2
+inv_name_short		= equip_device_nightvision_goggles_m2_s
+inv_weight			= 0.13
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 42
+inv_grid_y			= 53
+cost				= 4500
+;nightvision_sect = effector_nightvision_bast
+;pnv_discharge_hours = 8
+ppe 				 = bast						;Ёффект прицела - об€зательный параметр
+light_amp 			 = 3.0					;ƒоп усиление света - не об€зательно, 1 по умолчанию
+;--;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;--;
+;--;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;--;
+[wpn_addon_1p78]:identity_immunities	;;,scope.2_8x
+GroupControlSection		 = spawn_group
+;discovery_dependency =
+$spawn					 = "weapons\addons\scope" ; option for Level Editor
+class					 = WP_SCOPE
+cform					 = skeleton
+visual					 = weapons\upgrade\upg_scope_1p78.ogf
+$prefetch				 = 32
+description				 = enc_1p78_desc
+cost					 = 1200
+holder_range_modifier	 = 1.2
+holder_fov_modifier		 = 0.3
+inv_name				 = enc_1p78
+inv_name_short			 = enc_1p78
+inv_weight				 = 0.7
+inv_grid_width			 = 1
+inv_grid_height			 = 1
+inv_grid_x				 = 44
+inv_grid_y				 = 54
+scope_texture			 = wpn\wpn_crosshair_1p78
+belt					 = true
+;--;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;--;
+
+;--;[nv_bad]:identity_immunities
+;--;GroupControlSection	= spawn_group
+;--;discovery_dependency =
+;--;$spawn 			= "food and drugs\antirad"
+;--;$prefetch 		= 32
+;--;class			= II_ANTIR
+;--;cform           = skeleton
+;--;visual          = equipments\light_night.ogf
+;--;description		= nv_bad_descr
+
+;--;inv_name			= nv_bad
+;--;inv_name_short		= nv_bad
+;--;inv_weight			= 0.2
+
+;--;inv_grid_width		= 2
+;--;inv_grid_height		= 1
+;--;inv_grid_x			= 60
+;--;inv_grid_y			= 15
+;--;cost				= 2500
+;--;ppe = nightvision_bad			;Ёффект прицела - об€зательный параметр
+;--;light_amp = 1.5					;ƒоп усиление света - не об€зательно, 1 по умолчанию
+
+;--;; eatable item
+;--;eat_health = 0
+;--;eat_satiety = 0
+;--;eat_power = 0
+;--;eat_radiation = 0
+;--;wounds_heal_perc = 0
+;--;eat_portions_num = 1
+
+;--;; food item
+;--;animation_slot		= 4
+;--;belt				= false
+;--;default_to_ruck		= false
+
+;--;;hud item
+;--;hud = wpn_vodka_hud
+
+;--;[nv_good]:nv_bad
+;--;description		= nv_good_descr
+;--;inv_name			= nv_good
+;--;inv_name_short		= nv_good
+;--;inv_weight			= 0.15
+;--;inv_grid_x			= 60
+;--;inv_grid_y			= 14
+;--;cost				= 12500
+;--;ppe = nightvision_good			;Ёффект прицела - об€зательный параметр
+;--;light_amp = 2.5					;ƒоп усиление света - не об€зательно, 1 по умолчанию
+
+;--;[nv_bast]:nv_bad
+;--;description		= nv_bast_descr
+;--;inv_name			= nv_bast
+;--;inv_name_short		= nv_bast
+;--;inv_weight			= 0.13
+;--;inv_grid_width		= 2
+;--;inv_grid_height		= 2
+;--;inv_grid_x			= 60
+;--;inv_grid_y			= 12
+;--;cost				= 45000
+;--;ppe = bast						;Ёффект прицела - об€зательный параметр
+;--;light_amp = 3.0					;ƒоп усиление света - не об€зательно, 1 по умолчанию
+
+;--;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;--;
+;--;[device_nvgog]:identity_immunities
+;--;GroupControlSection	= spawn_group
+;--;; discovery_dependency = ; aleks1970
+;--;$spawn				= "devices\torch"
+;--;$prefetch 			= 32
+;--;class				= TORCH_S
+;--;cform				= skeleton
+;--;visual				= equipments\light_night.ogf
+;--;description			= enc_equipment_devic_nightvision_goggles_m1
+;--;cost				= 2500
+;--;inv_name			= equip_device_nightvision_goggles_m1
+;--;inv_name_short		= equip_device_nightvision_goggles_m1_s
+;--;inv_weight			= 0.45
+;--;inv_grid_width		= 2
+;--;inv_grid_height		= 1
+;--;inv_grid_x			= 12
+;--;inv_grid_y			= 34
+
+;--;;thing can not be traded
+;--;;;can_trade			= true
+
+;--;position			= 0.35,0.25,0.0
+;--;light_trace_bone	= cone_bone
+;--;attach_angle_offset	 = 0, 3.14, 1.6						;;;;flipped for halogen   TB3D
+;--;attach_position_offset	 = 0.10, 0.00, 0.074			;;;;height, side/side, depth  was 0.115, 0.0, 0.03
+;--;attach_bone_name	 = bip01_head
+;--;auto_attach				= false
+
+;--;night_vision				= on
+;--;night_vision_texture		= wpn\wpn_night
+;--;night_vision_effector		= postprocess_night
+
+;--;snd_night_vision_on			= weapons\nv_start
+;--;snd_night_vision_off		= weapons\nv_off
+;--;snd_night_vision_idle		= weapons\nv_loop_silent		;use nv_loop  for the default loop sound
+;--;snd_night_vision_broken		= weapons\nv_off
+
+;--;night_vision_recharge_time			= 6		;(C) charging akkamulyatora
+;--;night_vision_recharge_time_min		= 2		;(c) min. charging akkamulyatora, after which the mouth-in may already be working
+;--;night_vision_discharge_time			= 20	;(c) discharge time (work) device after a full charge
+;--;slot								= 9
+;--;disabled_maps						= ai_test,ai_test2, andy_test_
+
+;--;;;nightvision_sect	        = effector_nightvision_good
+;--;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;--;

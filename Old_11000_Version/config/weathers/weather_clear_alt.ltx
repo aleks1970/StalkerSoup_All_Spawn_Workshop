@@ -1,0 +1,907 @@
+[sect_clear_alt_weather]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Kiev ; Ukraine ; 01.05.2012 ;
+
+; sunrise 	at 5.36
+; sunset  	at 20.23
+; noon		at 12.59
+
+;14h 40min
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+00:00:00		=	clear_alt_weather_00	
+01:00:00 		=	clear_alt_weather_01	
+02:00:00		=	clear_alt_weather_02	
+03:00:00		=	clear_alt_weather_03_00	
+03:10:00		=	clear_alt_weather_03			; rotation_fix_1
+03:20:00		=	clear_alt_weather_04			; rotation_fix_2
+03:30:00		=	clear_alt_weather_05
+
+;day
+
+04:30:00		=	clear_alt_weather_06		; sunrise_phase1
+05:30:00		=	clear_alt_weather_06_00		; sunrise_phase1.5
+06:00:00		=	clear_alt_weather_06_01		; sunrise_phase2
+06:30:00		=	clear_alt_weather_07		; sunrise_phase3 	; sunrise
+07:00:00		=	clear_alt_weather_07_00
+;07:30:00		=	clear_alt_weather_07_01
+08:00:00		=	clear_alt_weather_08
+09:00:00		=	clear_alt_weather_09
+10:00:00		=	clear_alt_weather_10	
+11:00:00		=	clear_alt_weather_11	
+12:00:00		=	clear_alt_weather_12
+13:00:00		=	clear_alt_weather_13			
+14:00:00		=	clear_alt_weather_14	
+15:00:00		=	clear_alt_weather_15	
+16:00:00		=	clear_alt_weather_16		
+17:00:00		=	clear_alt_weather_17	
+18:00:00		=	clear_alt_weather_18
+18:30:00		=	clear_alt_weather_18_01			
+19:30:00		=	clear_alt_weather_19		
+19:50:00		=	clear_alt_weather_19_00
+20:10:00		=	clear_alt_weather_19_01			; sunset_phase_1
+20:20:00		=	clear_alt_weather_20			; sunset_phase_2
+20:35:00		=	clear_alt_weather_20_01			; sunset_phase_3	; sunset
+20:40:00		=	clear_alt_weather_20_02			; for_transition_start_only
+
+;night
+
+22:00:00		=	clear_alt_weather_21			; sunset_end
+22:20:00		=	clear_alt_weather_21_01			; sun_dir_bufor
+22:40:00		=	clear_alt_weather_22
+23:00:00		=	clear_alt_weather_23	
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[clear_alt_weather_00]					
+flares		=	flares_moon
+sky_texture		=	sky\sky_24_2_cube_ss_darker_ff
+sky_rotation		=	64
+sky_color		=	0.38, 0.38, 0.38
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 0.9932, 0.9932, 0.9932, 0.001, 0.001
+far_plane		=	135
+fog_distance	=	250
+fog_color		= 0.0000, 0.0000, 0.0000
+fog_density		=	1.0
+rain_density	=	0.0
+rain_color		= 0.2700, 0.2807, 0.3021
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0075, 0.0088, 0.0116
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.1490, 0.1765, 0.2314
+sun_color		=	0.190,	0.190,	0.190
+sun_dir		=	-33, -223
+env_ambient		=	ambient_env_night
+
+[clear_alt_weather_01]
+flares		=	flares_moon
+sky_texture		=	sky\sky_24_2_cube_ss_darker_ff
+sky_rotation		=	64
+sky_color		=	0.38, 0.38, 0.38
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 0.9932, 0.9932, 0.9932, 0.001, 0.001
+far_plane		=	135
+fog_distance	=	250
+fog_color		= 0.0000, 0.0000, 0.0000
+fog_density		=	1.0
+rain_density	=	0.0
+rain_color		= 0.2700, 0.2807, 0.3021
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0075, 0.0088, 0.0116
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.1490, 0.1765, 0.2314
+sun_color		=	0.190,	0.190,	0.190
+sun_dir		=	-33, -223
+env_ambient		=	ambient_env_night
+
+[clear_alt_weather_02]					
+flares		=	flares_moon
+sky_texture		=	sky\sky_24_2_cube_ss_darker_ff
+sky_rotation		=	64
+sky_color		=	0.38, 0.38, 0.38
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 0.9932, 0.9932, 0.9932, 0.001, 0.001
+far_plane		=	135
+fog_distance	=	250
+fog_color		= 0.0000, 0.0000, 0.0000
+fog_density		=	1.0
+rain_density	=	0.0
+rain_color		= 0.2700, 0.2807, 0.3021
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0075, 0.0088, 0.0116
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.1490, 0.1765, 0.2314
+sun_color		=	0.190,	0.190,	0.190
+sun_dir		=	-33, -223
+env_ambient		=	ambient_env_night
+
+[clear_alt_weather_03_00]					
+flares		=	flares_moon
+sky_texture		=	sky\sky_13_1_cube_night_90_darker2_ff
+sky_rotation		=	64
+sky_color		=	0.38, 0.38, 0.38
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 0.7356, 0.7356, 0.7356, 0.001, 0.001
+far_plane		=	135
+fog_distance	=	250
+fog_color		= 0.0062, 0.0062, 0.0062
+fog_density		=	1.0
+rain_density	=	0.0
+rain_color		= 0.1832, 0.2105, 0.2651
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0075, 0.0088, 0.0116
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.1490, 0.1765, 0.2314
+sun_color		=	0.001,	0.001,	0.001
+sun_dir		=	-33, -223
+env_ambient		=	ambient_env_night
+
+[clear_alt_weather_03]					; rotation_fix_1
+flares			=
+sky_texture		=	sky\sky_black_fix
+sky_rotation		=	64
+sky_color		=	0.38, 0.38, 0.38
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 0.6679, 0.6679, 0.6679, 0.001, 0.001
+far_plane		=	135
+fog_distance	=	250
+fog_color		= 0.0000, 0.0000, 0.0000
+fog_density		=	1.0
+rain_density	=	0.0
+rain_color		= 0.1676, 0.1909, 0.2494
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0067, 0.0078, 0.0108
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.1333, 0.1569, 0.2157
+sun_color		=	0.001,	0.001,	0.001
+sun_dir		=	-33, -223
+env_ambient		=	ambient_env_night
+
+[clear_alt_weather_04]					; rotation_fix_2	
+flares		=
+sky_texture		=	sky\sky_black_fix
+sky_rotation		=	-88
+sky_color		=	0.38, 0.38, 0.38
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 0.6679, 0.6679, 0.6679, 0.001, 0.001
+far_plane		=	135
+fog_distance	=	250
+fog_color		= 0.0000, 0.0000, 0.0000
+fog_density		=	1.0
+rain_density	=	0.0
+rain_color		= 0.1676, 0.1909, 0.2494
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0067, 0.0078, 0.0108
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.1333, 0.1569, 0.2157
+sun_color		=	0.001,	0.001,	0.001
+sun_dir			=	0, 127
+env_ambient		=	ambient_env_night
+
+[clear_alt_weather_05]
+flares			= 	flares_clear
+sky_texture		=	sky\sky_24_1_cube_ss_darker_ff
+sky_rotation		=	-88
+sky_color		=	0.38, 0.38, 0.38
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 0.7356, 0.7356, 0.7356, 0.001, 0.001
+far_plane		=	135
+fog_distance	=	250
+fog_color		= 0.0000, 0.0000, 0.0000
+fog_density		=	1.0
+rain_density	=	0.0
+rain_color		= 0.1832, 0.2105, 0.2651
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0075, 0.0088, 0.0116
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.1490, 0.1765, 0.2314
+sun_color		=	0.001,	0.001,	0.001
+sun_dir			=	0, 127
+env_ambient		=	ambient_env_night
+
+[clear_alt_weather_06]						; key_start		; sunrise_phase1
+flares			=	flares_clear
+sky_texture		=	sky\sky_60_1_cube
+sky_rotation		=	-88
+sky_color		=	0.60, 0.60, 0.60
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.150, 0.400
+far_plane		=	190
+fog_distance	=	300
+fog_color		= 0.1750, 0.1420, 0.1680
+fog_density		=	0.9
+rain_density	=	0.0
+rain_color		= 0.3478, 0.3243, 0.4064
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0157, 0.0145, 0.0186
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.3137, 0.2902, 0.3725
+sun_color		=	0.001,	0.001,	0.001
+sun_dir			=	-4, 127
+env_ambient		=	ambient_env_morning
+
+[clear_alt_weather_06_00]					; key_end		; sunrise_phase1.5
+flares			=	flares_clear
+sky_texture		=	sky\sky_60_1_cube
+sky_rotation		=	-76
+sky_color		=	0.65, 0.65, 0.65
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.150, 0.400
+far_plane		=	190
+fog_distance	=	300
+fog_color		= 0.2060, 0.1720, 0.2100
+fog_density		=	0.9
+rain_density	=	0.0
+rain_color		= 0.3478, 0.3243, 0.4064
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0157, 0.0145, 0.0186
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.3137, 0.2902, 0.3725
+sun_color		=	0.001,	0.001,	0.001
+sun_dir			=	-11, 120
+env_ambient		=	ambient_env_morning
+
+[clear_alt_weather_06_01]								; sunrise_phase2
+flares			=	flares_clear2
+sky_texture		=	sky\sky_60_2_cube
+sky_rotation		=	-64
+sky_color		=	0.7,    0.7,  0.7
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.150, 0.900
+far_plane		=	195
+fog_distance	=	320
+fog_color		= 0.2600, 0.2400, 0.2550
+fog_density		=	0.85
+rain_density	=	0.0
+rain_color		= 0.4614, 0.4536, 0.4262
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0214, 0.0210, 0.0196
+lmap_color		=	1.0, 1.0, 1.0
+hemi_color		= 0.4275, 0.4196, 0.3922
+sun_color		=   	0.510, 	0.220, 	0.150
+sun_dir			=	-14, 112
+env_ambient		=	ambient_env_morning
+
+[clear_alt_weather_07]								; sunrise_phase3
+flares			=	flares_clear2
+sky_texture		=	sky\sky_60_3_cube
+sky_rotation		=	-55
+sky_color		=	0.75,    0.75,  0.75
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.150, 0.900
+far_plane		=	290
+fog_distance	=	420
+fog_color		= 0.3150, 0.3080, 0.2950
+fog_density		=	0.8
+rain_density	=	0.0
+rain_color		= 0.6549, 0.6473, 0.6286
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0286, 0.0280, 0.0265
+lmap_color		=	1.0, 	1.0, 	1.0
+hemi_color		= 0.5725, 0.5608, 0.5294
+sun_color		=   	0.640, 	0.580, 	0.440
+sun_dir			=	-15, 105
+env_ambient		=	ambient_env_morning
+
+[clear_alt_weather_07_00]
+flares			=	flares_clear2
+sky_texture		=	sky\sky_60_4_cube
+sky_rotation		=	-42
+sky_color		=	0.8,    0.79,  0.75
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.150, 0.900
+far_plane		=	332
+fog_distance	=	480
+fog_color		= 0.4329, 0.4272, 0.4124
+fog_density		=	0.9
+rain_density	=	0.0
+rain_color		= 0.6368, 0.6214, 0.5982
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0306, 0.0298, 0.0286
+lmap_color		=	1.0, 	1.0, 	1.0
+hemi_color		= 0.6118, 0.5961, 0.5725
+sun_color		=   	0.68, 	0.645, 	0.545
+sun_dir 		= 	-16, 97
+env_ambient		=	ambient_env_morning
+
+[clear_alt_weather_08]					
+flares			= 	flares_clear2
+sky_texture		=	sky\sky_6_dx9_cube_ss_180_lighter_ff
+sky_rotation		=	-24
+sky_color		=	0.64,	0.64,	0.63
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.250, 0.900
+far_plane		=	375
+fog_distance	=	540
+fog_color		= 0.3937, 0.4062, 0.4224
+fog_density		=	0.7
+rain_density	=	0.0
+rain_color		= 0.6701, 0.6625, 0.6430
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0243, 0.0241, 0.0239
+lmap_color		=	1, 1, 1
+hemi_color		= 0.4863, 0.4824, 0.4784
+sun_color		=	0.815, 	0.795, 	0.745
+sun_dir 		= 	-21, 75
+env_ambient		=	ambient_env_day
+
+[clear_alt_weather_09]
+flares			= 	flares_clear2	
+sky_texture		=	sky\sky_6_dx9_cube_ss_180_lighter_ff
+sky_rotation		=	-8
+sky_color		=	0.65,	0.65,	0.64
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.250, 0.900
+far_plane		=	375
+fog_distance	=	540
+fog_color		= 0.3999, 0.4126, 0.4291
+fog_density		=	0.7
+rain_density	=	0.0
+rain_color		= 0.6793, 0.6718, 0.6582
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0247, 0.0245, 0.0243
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.4941, 0.4902, 0.4863
+sun_color		=	0.815, 	0.795, 	0.785
+sun_dir			=	-26, 60
+env_ambient		=	ambient_env_day
+
+[clear_alt_weather_10]					
+flares			= 	flares_clear2	
+sky_texture		=	sky\sky_7_dx9_cube_ss_180_lighter_ff	
+sky_rotation		=	-2
+sky_color		=	0.66,	0.66,	0.65
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.250, 0.900
+far_plane		=	375
+fog_distance	=	540
+fog_color		= 0.4130, 0.4160, 0.4270
+fog_density		=	0.7
+rain_density	=	0.0
+rain_color		= 0.6951, 0.6892, 0.6743
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0263, 0.0263, 0.0259
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.5255, 0.5255, 0.5176
+sun_color		=	0.835, 	0.825, 	0.805
+sun_dir			=	-30, 55
+env_ambient		=	ambient_env_day
+
+[clear_alt_weather_11]					
+flares			= 	flares_clear2	
+sky_texture		=	sky\sky_7_dx9_cube_ss_180_lighter_ff	
+sky_rotation		=	14
+sky_color		=	0.67,	0.67,	0.66
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.250, 0.900
+far_plane		=	375
+fog_distance	=	540
+fog_color		= 0.4130, 0.4160, 0.4270
+fog_density		=	0.9
+rain_density	=	0.0
+rain_color		= 0.7041, 0.6983, 0.6833
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0267, 0.0267, 0.0263
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.5333, 0.5333, 0.5255
+sun_color		=	0.835, 	0.825, 	0.805
+sun_dir			=	-34, 40
+env_ambient		=	ambient_env_day
+
+[clear_alt_weather_12]
+flares			= 	flares_clear2
+sky_texture		=	sky\sky_19_180_cube_lighter_ff
+sky_rotation		=	41
+sky_color		=	0.77,	0.77,	0.76
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.250, 0.900
+far_plane		=	375
+fog_distance	=	540
+fog_color		= 0.4336, 0.4361, 0.4477
+fog_density		=	0.7
+rain_density	=	0.0
+rain_color		= 0.6954, 0.6864, 0.6845
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0294, 0.0290, 0.0294
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.5882, 0.5804, 0.5882
+sun_color		=	0.80, 	0.79, 	0.76
+sun_dir			=	-38, 25
+env_ambient		=	ambient_env_day
+
+[clear_alt_weather_13]					
+flares			= 	flares_clear2
+sky_texture		=	sky\sky_19_180_cube_lighter_ff	
+sky_rotation		=	53
+sky_color		=	0.77,	0.77,	0.76
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.250, 0.800
+far_plane		=	375
+fog_distance	=	540
+fog_color		= 0.4336, 0.4361, 0.4477
+fog_density		=	0.7
+rain_density	=	0.0
+rain_color		= 0.6954, 0.6864, 0.6845
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0294, 0.0290, 0.0294
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.5882, 0.5804, 0.5882
+sun_color		=	0.80, 	0.79, 	0.76
+sun_dir			=	-42, 10
+env_ambient		=	ambient_env_day
+
+[clear_alt_weather_14]					
+flares			= 	flares_clear
+sky_texture		=	sky\sky_10_90_cube_lighter_ff
+sky_rotation		=	60
+sky_color		=	0.77, 0.77, 0.77
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.550, 0.900
+far_plane		=	315
+fog_distance	=	480
+fog_color		= 0.3559, 0.3684, 0.3835
+fog_density		=	0.7
+rain_density	=	0.0
+rain_color		= 0.6852, 0.6778, 0.6752
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	20.0
+wind_direction	=	0.0
+ambient		= 0.0263, 0.0261, 0.0265
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.5255, 0.5216, 0.5294
+sun_color		=	0.6, 	0.595, 	0.585
+sun_dir			=	-38, -5
+env_ambient		=	ambient_env_day
+
+[clear_alt_weather_15]
+flares			= 	flares_clear
+sky_texture		=	sky\sky_10_90_cube_lighter_ff
+sky_rotation		=	0
+sky_color		=	0.77, 0.77, 0.77
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.550, 0.900
+far_plane		=	315
+fog_distance	=	480
+fog_color		= 0.3559, 0.3684, 0.3835
+fog_density		=	0.7
+rain_density	=	0.0
+rain_color		= 0.6290, 0.6245, 0.6225
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	20.0
+wind_direction	=	0.0
+ambient		= 0.0263, 0.0261, 0.0265
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.5255, 0.5216, 0.5294
+sun_color		=	0.6, 	0.595, 	0.585
+sun_dir			=	-34, -20
+env_ambient		=	ambient_env_day
+
+[clear_alt_weather_16]					
+flares			= 	flares_clear2 	
+sky_texture		=	sky\sky_6_cube_ss_lighter_ff
+sky_rotation		=	-20
+sky_color		=	0.7, 0.69, 0.66
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.350, 0.700
+far_plane		=	370
+fog_distance	=	520
+fog_color		= 0.5156, 0.5143, 0.4898
+fog_density		=	0.7
+rain_density	=	0.0
+rain_color		= 0.6865, 0.6667, 0.6602
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	20.0
+wind_direction	=	0.0
+ambient		= 0.0290, 0.0280, 0.0282
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.5804, 0.5608, 0.5647
+sun_color		=	0.6, 	0.575, 0.555
+sun_dir			=	-30, -35
+env_ambient		=	ambient_env_day
+
+[clear_alt_weather_17]					
+flares			= 	flares_clear2 	
+sky_texture		=	sky\sky_6_cube_ss_lighter_ff
+sky_rotation		=	-14
+sky_color		=	0.645, 0.64, 0.605
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.350, 0.700
+far_plane		=	370
+fog_distance	=	520
+fog_color		= 0.4801, 0.4817, 0.4544
+fog_density		=	0.75
+rain_density	=	0.0
+rain_color		= 0.6656, 0.6475, 0.6373
+thunderbolt		=	
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	50.0
+wind_direction	=	0.0
+ambient		= 0.0271, 0.0263, 0.0261
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.5412, 0.5255, 0.5216
+sun_color		=	0.58,	0.555, 	0.525
+sun_dir			=	-26, -50
+env_ambient		=	ambient_env_day
+
+[clear_alt_weather_18]
+flares			= 	flares_clear2	
+sky_texture		=	sky\sky_7_1_cube_ss_lighter_ff
+sky_rotation		= 0
+sky_color		=	0.7, 0.7, 0.7
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.300, 0.700
+far_plane		=	315
+fog_distance	=	480
+fog_color		= 0.3076, 0.3051, 0.3003
+fog_density		=	0.8
+rain_density	=	0.0
+rain_color		= 0.6751, 0.6481, 0.6418
+thunderbolt		=	
+bolt_period		=	7.f
+bolt_duration	=	0.35f
+wind_velocity	=	20.0
+wind_direction	=	0.0
+ambient		= 0.0249, 0.0241, 0.0255
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.4980, 0.4824, 0.5098
+sun_color		=	0.51, 	0.49, 	0.465
+sun_dir			=	-22, -65
+env_ambient		=	ambient_env_day
+
+[clear_alt_weather_18_01]					
+flares			= 	flares_clear2	
+sky_texture		=	sky\sky_7_1_cube_ss_lighter_ff
+sky_rotation		=	12
+sky_color		=	0.71, 0.68, 0.628
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.300, 0.700
+far_plane		=	300
+fog_distance	=	460
+fog_color		= 0.3117, 0.2950, 0.2650
+fog_density		=	0.85
+rain_density	=	0.0
+rain_color		= 0.5725, 0.4885, 0.4485
+thunderbolt		=	
+bolt_period		=	7.f
+bolt_duration	=	0.35f
+wind_velocity	=	20.0
+wind_direction	=	0.0
+ambient		= 0.0253, 0.0233, 0.0225
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.5059, 0.4667, 0.4510
+sun_color		=	0.47, 	0.37, 	0.305
+sun_dir			=	-18, -72
+env_ambient		=	ambient_env_day
+
+[clear_alt_weather_19]					
+flares			= 	flares_clear2
+sky_texture		=	sky\sky_7_2_cube_ss_lighter_ff
+sky_rotation		=	28
+sky_color		=	0.7,    0.645,  0.593
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.300, 0.700
+far_plane		=	280
+fog_distance	=	420
+fog_color		= 0.3023, 0.2621, 0.2344
+fog_density		=	0.9
+rain_density	=	0.0
+rain_color		= 0.4100, 0.3846, 0.3887
+thunderbolt		=
+bolt_period		=	7.f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0216, 0.0202, 0.0208
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.4314, 0.4039, 0.4157
+sun_color		=	0.11, 	0.094, 	0.062
+sun_dir			=	-12.8, -89
+env_ambient		=	ambient_env_evening
+
+[clear_alt_weather_19_00]
+flares			= 	flares_clear2
+sky_texture		=	sky\sky_7_3_cube_ss_lighter_ff
+sky_rotation		=	33
+sky_color		=	0.72,    0.59,  0.47
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.350, 0.700
+far_plane		=	260
+fog_distance	=	400
+fog_color		= 0.3023, 0.2343, 0.1836
+fog_density		=	0.85
+rain_density	=	0.0
+rain_color		= 0.4169, 0.3537, 0.3205
+thunderbolt		=
+bolt_period		=	7.f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0216, 0.0180, 0.0163
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.4314, 0.3608, 0.3255
+sun_color		=	0.08, 	0.062, 	0.041
+sun_dir			=	-12, -92
+env_ambient		=	ambient_env_evening
+
+[clear_alt_weather_19_01]							; sunset_phase_1
+flares			= 	flares_clear2	 
+sky_texture		=	sky\sky_2_1_cube_darker_ff
+sky_rotation		=	41
+sky_color		=	0.78,    0.66,  0.52
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.450, 0.700
+far_plane		=	260
+fog_distance	=	390
+fog_color		= 0.3681, 0.2191, 0.1625
+fog_density		=	0.85
+rain_density	=	0.0
+rain_color		= 0.6659, 0.4928, 0.3509
+thunderbolt		=
+bolt_period		=	7.f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0204, 0.0182, 0.0155
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.4078, 0.3647, 0.3098
+sun_color		=	0.57,	0.36,	0.225
+sun_dir			=	-11.4, -97
+env_ambient		=	ambient_env_evening
+
+[clear_alt_weather_20]							; sunset_phase_2
+flares			= 	flares_clear2	 
+sky_texture		=	sky\sky_2_2_cube_darker_ff
+sky_rotation		=	43
+sky_color		=	0.77,    0.65,  0.51
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.450, 0.700
+far_plane		=	260	
+fog_distance	=	390
+fog_color		= 0.3634, 0.2158, 0.1594
+fog_density		=	0.85
+rain_density	=	0.0
+rain_color		= 0.6493, 0.4646, 0.3374
+thunderbolt		=
+bolt_period		=	7.f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0202, 0.0178, 0.0153
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.4039, 0.3569, 0.3059
+sun_color		=	0.57,	0.36,	0.225
+sun_dir			=	-11, -99
+env_ambient		=	ambient_env_evening
+
+[clear_alt_weather_20_01]							; sunset_phase_3
+flares			= 	flares_clear2	 
+sky_texture		=	sky\sky_2_3_cube_darker_ff
+sky_rotation		=	45
+sky_color		=	0.76,    0.63,  0.5
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.450, 0.700
+far_plane		=	260	
+fog_distance	=	390
+fog_color		= 0.2990, 0.2000, 0.1840
+fog_density		=	0.85
+rain_density	=	0.0
+rain_color		= 0.4144, 0.3691, 0.3107
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0204, 0.0180, 0.0149
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.4078, 0.3608, 0.2980
+sun_color		=	0.05, 	0.025, 	0.017
+sun_dir			=	-9, -102
+env_ambient		=	ambient_env_evening
+
+[clear_alt_weather_20_02]							; sunset_phase_3
+flares			= 	flares_clear2	 
+sky_texture		=	sky\sky_2_3_cube_darker_ff
+sky_rotation		=	46
+sky_color		=	0.76,    0.63,  0.5
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 1.0000, 1.0000, 1.0000, 0.450, 0.700
+far_plane		=	260	
+fog_distance	=	390
+fog_color		= 0.2990, 0.2000, 0.1840
+fog_density		=	0.85
+rain_density	=	0.0
+rain_color		= 0.4144, 0.3691, 0.3107
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0204, 0.0180, 0.0149
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.4078, 0.3608, 0.2980
+sun_color		=	0.001,	0.001,	0.001
+sun_dir			=	-8, -102
+env_ambient		=	ambient_env_evening
+
+[clear_alt_weather_21]							; sunset_end
+flares			= 	flares_clear2  
+sky_texture		=	sky\sky_24_1_cube_ss_darker_ff
+sky_rotation		=	64
+sky_color		=	0.38, 0.38, 0.38
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 0.7356, 0.7356, 0.7356, 0.200, 0.700
+far_plane		=	135
+fog_distance	=	250
+fog_color		= 0.0000, 0.0000, 0.0000
+fog_density		=	0.9
+rain_density	=	0.0
+rain_color		= 0.1832, 0.2105, 0.2651
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0075, 0.0088, 0.0116
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.1490, 0.1765, 0.2314
+sun_color		=	0.001,	0.001,	0.001
+sun_dir			=	-2, -122
+env_ambient		=	ambient_env_night
+
+[clear_alt_weather_21_01]							; sun_dir_bufor
+flares			=    	flares_moon
+sky_texture		=	sky\sky_13_1_cube_night_90_darker2_ff
+sky_rotation		=	64
+sky_color		=	0.38, 0.38, 0.38
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 0.7356, 0.7356, 0.7356, 0.001, 0.001
+far_plane		=	135
+fog_distance	=	250
+fog_color		= 0.0062, 0.0062, 0.0062
+fog_density		=	1.0
+rain_density	=	0.0
+rain_color		= 0.1832, 0.2105, 0.2651
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0075, 0.0088, 0.0116
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.1490, 0.1765, 0.2314
+sun_color		=	0.001,	0.001,	0.001
+sun_dir		=	-33, -223
+env_ambient		=	ambient_env_night
+
+[clear_alt_weather_22]
+flares			=    	flares_moon
+sky_texture		=	sky\sky_24_2_cube_ss_darker_ff
+sky_rotation		=	64
+sky_color		=	0.38, 0.38, 0.38
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 0.9932, 0.9932, 0.9932, 0.001, 0.001
+far_plane		=	135
+fog_distance	=	250
+fog_color		= 0.0000, 0.0000, 0.0000
+fog_density		=	1.0
+rain_density	=	0.0
+rain_color		= 0.2700, 0.2807, 0.3021
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0075, 0.0088, 0.0116
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.1490, 0.1765, 0.2314
+sun_color		=	0.190,	0.190,	0.190
+sun_dir		=	-33, -223
+env_ambient		=	ambient_env_night
+
+[clear_alt_weather_23]					
+flares			= 	flares_moon	
+sky_texture		=	sky\sky_24_2_cube_ss_darker_ff
+sky_rotation		=	64
+sky_color		=	0.38, 0.38, 0.38
+clouds_texture	=	sky\sky_oblaka_cs_darker
+clouds_color	= 0.9932, 0.9932, 0.9932, 0.001, 0.001
+far_plane		=	135
+fog_distance	=	250
+fog_color		= 0.0000, 0.0000, 0.0000
+fog_density		=	1.0
+rain_density	=	0.0
+rain_color		= 0.2700, 0.2807, 0.3021
+thunderbolt		=
+bolt_period		=	3.5f
+bolt_duration	=	0.35f
+wind_velocity	=	80
+wind_direction	=	0.0
+ambient		= 0.0075, 0.0088, 0.0116
+lmap_color		=	1.0,	1.0,	1.0
+hemi_color		= 0.1490, 0.1765, 0.2314
+sun_color		=	0.190,	0.190,	0.190
+sun_dir		=	-33, -223
+env_ambient		=	ambient_env_night

@@ -1,0 +1,1393 @@
+;<!-- TB3D 1.1.0.0.1.3 fixed bear detector, commented out "discovery_dependency" aleks1970, changed addrs to addx as addrs is a quest item, tb3d_gspot, sorter --> 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;---------------------- SUBJECTS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; - "exo_mil_exoskeleton_addx" and "exo_mil_exoskeleton_dmx" is been moved to "meceniy_outfits.ltx" file! - aleks1970 - ;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[car_key]:identity_immunities   ; Car Keys
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "equipments\car_key"
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\key_2.ogf
+radius				= 1
+quest_item			= true
+description			= enc_car_key
+inv_name			= car_key
+inv_name_short		= car_key_s
+inv_weight			= 0.01
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 34 ;60
+inv_grid_y			= 65 ;66
+cost				= 5000
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[fosfor]:af_base    ; Phosphoric stick (ALEX BOY)
+GroupControlSection = spawn_group
+$spawn    = "artifacts\fosfor"
+$npc      = on    
+cform     = skeleton
+class     = ARTEFACT
+visual    = arsenal_mod\addons\sil_762_p.ogf
+description    = fosfor_descr
+inv_name       = fosfor
+inv_name_short = fosfor
+inv_weight     = 0.15
+inv_grid_width		= 2
+inv_grid_x     = 61
+inv_grid_y     = 64
+jump_height  = .0
+cost         = 400
+particles    = anomaly2\artefact\artefact_zharka
+lights_enabled    = true
+trail_light_color = 0.1,1.5,0.1
+trail_light_range = 5.0
+belt = false
+ 
+health_restore_speed     = 0.0   
+radiation_restore_speed  = 0.0 
+satiety_restore_speed    = 0.0    
+power_restore_speed      = 0.0    
+bleeding_restore_speed   = 0.0
+inventory_radiation      = 0.0
+hit_absorbation_sect     = imitator_absorbation
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[radiation_detector]:antirad   ; The device is accurate measurement of radiation
+visual				= equipments\item_datchik1.ogf
+description			= enc_radiation_detector
+inv_name			= radiation_detector
+inv_name_short		= radiation_detector
+inv_weight			= 0.2
+cost				= 350
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 26; 60
+inv_grid_y			= 21 ;65
+eat_health			= 0
+eat_satiety			= 0
+eat_power			= 0
+eat_radiation		= 0
+eat_alcohol			= 0
+wounds_heal_perc	= 0	
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[silencers_box]:radiation_detector   ; Bag with silencers
+visual				= equipments\sumka_chemodan.ogf
+description			= enc_silencers_box
+inv_name			= silencers_box
+inv_name_short		= silencers_box
+inv_weight			= 2.5
+cost				= 12000
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 77
+inv_grid_y			= 58
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[zombie_antiradiation]:identity_immunities   ; The device "Antiradin"
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "equipments\zombie_antiradiation"
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\item_datchik1.ogf
+radius				= 1
+quest_item			= false
+description			= enc_zombie_antiradiation
+inv_name			= zombie_antiradiation
+inv_name_short		= zombie_antiradiation
+inv_weight			= 0.85
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 69
+inv_grid_y			= 58
+cost				= 15000
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[device_warning_module]:identity_immunities   ; Module Decoder
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "equipments\device_warning_module"
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\item_pda.ogf
+radius				= 1
+quest_item			= false
+description			= enc_device_warning_module
+inv_name			= device_warning_module
+inv_name_short		= device_warning_module
+inv_weight			= 0.2
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 71
+inv_grid_y			= 58
+cost				= 5800
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[mine_detector]:identity_immunities   ; Mine detector
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$prefetch 			= 32
+class				= D_SIMDET
+cform				= skeleton
+visual				= equipments\item_datchik3.ogf
+description			= enc_mine_detector
+radius				= 7
+buzzer_radius		= 1.5
+noise				= detectors\geiger_noise_loop
+buzzer				= detectors\DA-2_alarm_loop
+ef_detector_type	= 1
+inv_name			= mine_detector
+inv_name_short		= mine_detector
+inv_weight			= 0.45
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 60 ;58
+inv_grid_y			= 66 ;65
+cost				= 8500
+belt				= true
+default_to_ruck		= true
+
+zone_class_1        = zone_mine_field
+zone_sound_1_       = detectors\mine_detector
+zone_min_freq_1     = 1
+zone_max_freq_1     = 50
+
+zone_class_2		= zone_mine_electra
+zone_sound_2_		= detectors\mine_detector
+zone_min_freq_2		= 1
+zone_max_freq_2		= 50
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[item_ammo_flame_transfer]:radiation_detector   ; Generator flame mixture
+visual				= equipments\nevidimka.ogf
+description			= enc_item_ammo_flame_transfer
+inv_name			= item_ammo_flame_transfer
+inv_name_short		= item_ammo_flame_transfer
+inv_weight			= 3.8
+cost				= 9800
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 55
+inv_grid_y			= 62
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[razgruzka]:radiation_detector  ; Discharge Vest
+visual          = equipments\rain_stalker_1_suit.ogf
+description  	= enc_item_razgruzka
+inv_name   		= item_razgruzka
+inv_name_short  = item_razgruzka
+inv_weight   	= 1.0			
+inv_grid_width	= 2
+inv_grid_height	= 2
+inv_grid_x		= 75
+inv_grid_y		= 58	
+cost            = 5000	
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[wristwatch]:radiation_detector    ; Wristwatch with a timer
+visual          = equipments\clocki.ogf
+description  	= enc_timer
+inv_name   		= timer
+inv_name_short  = timer
+inv_weight   	= 0.1
+inv_grid_x      = 13
+inv_grid_y      = 46
+cost            = 4000
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[bolt_box]:radiation_detector   ; Box with screws
+visual				= equipments\item_box_01_visual.ogf
+description			= enc_bolt_box
+inv_name			= bolt_box
+inv_name_short		= bolt_box
+inv_weight			= 2.2
+cost				= 300
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 79
+inv_grid_y			= 58
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[device_torch_bad]:dar_document1 ; Spoiled flashlight
+visual				= equipments\light_night.ogf
+quest_item			= false
+description			= enc_device_torch_bad
+inv_name			= device_torch_bad
+inv_name_short		= device_torch_bad
+inv_weight			= 0.1
+cost				= 0
+inv_grid_x			= 16
+inv_grid_y			= 12
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[item_car_repair]:radiation_detector   ; Repair Kit for Cars
+visual				= equipments\item_box_01_visual.ogf
+description			= enc_item_car_repair
+inv_name			= item_car_repair
+inv_name_short		= item_car_repair
+inv_weight			= 4.8
+cost				= 3200
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 63
+inv_grid_y			= 58
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;---------------------- QUEST FOR
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[item_doc_x8]:dar_document1 ; Aleksandrov's Diary
+visual				= equipments\item_book_01.ogf
+description			= enc_item_doc_x8
+inv_name			= item_doc_x8
+inv_name_short		= item_doc_x8
+inv_weight			= 0.05
+cost				= 0
+inv_grid_x			= 49
+inv_grid_y			= 64
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[fake_cube]:dar_document1 ; Layout Cuba Shadows
+visual				= weapons\soul_cube\soul_cube_ready0.ogf
+description			= enc_fake_cube
+inv_name			= fake_cube
+inv_name_short		= fake_cube
+inv_weight			= 0.5
+cost				= 0
+inv_grid_height		= 2    
+inv_grid_x			= 80
+inv_grid_y			= 74
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[item_doc_x8_2]:dar_document1 ; Documents from the X-8
+quest_item			= false
+description			= enc_item_doc_x8_2
+inv_name			= item_doc_x8_2
+inv_name_short		= item_doc_x8_2
+inv_weight			= 0.05
+cost				= 0
+inv_grid_x			= 47
+inv_grid_y			= 64
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[cop_base_music]:identity_immunities ; The receiver is based on the Pripyat River in the east
+GroupControlSection     = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			        = "food and drugs\cop_base_music"
+cform                   = skeleton
+class			        = P_DSTRBL
+visual                  = physics\decor\priemnik_gorizont.ogf
+custom_data             = scripts\dmx_mod\cop_pripyat_base_sound.ltx
+attach_angle_offset     = -1.651084, -1.341824, 1.200789
+attach_position_offset	= 0.077492, -0.030020, 0.090059
+attach_bone_name	    = bip01_l_hand
+auto_attach		        = false
+remove_time		        = 60
+script_binding          = bind_physic_object.init
+
+[cop_kvartira_music]:cop_base_music ; The receiver in the flat
+visual                  = equipments\nevidimka.ogf
+custom_data             = scripts\dmx_mod\cop_pripyat_kvartira_sound.ltx
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[mudrec_instruments]:dar_document1 ; Tools for Sage
+visual				= equipments\box_toolkit_small_tools.ogf
+description			= enc_mudrec_instruments
+inv_name			= mudrec_instruments
+inv_name_short		= mudrec_instruments
+inv_weight			= 0.8
+cost				= 1400  
+inv_grid_x			= 59
+inv_grid_y			= 64
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[item_certificate]:dar_document1 ; Military Identity
+visual				= equipments\nevidimka.ogf
+description			= enc_item_certificate
+inv_name			= item_certificate
+inv_name_short		= item_certificate
+inv_weight			= 0.05
+cost				= 0  
+inv_grid_x			= 63
+inv_grid_y			= 64
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;---------------------- DETECTORS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Response
+[fake_bolt_detector_otclik]:identity_immunities
+GroupControlSection	= spawn_group
+$spawn			= "devices\detector_otclik"
+$prefetch		= 64
+cform			= skeleton
+class			= ARTEFACT
+visual			= equipments\detector_otclik.ogf
+description			= enc_bolt_detector_otclik
+inv_name			= bolt_detector_otclik
+inv_name_short		= bolt_detector_otclik_s
+inv_weight			= 0.25
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 9 ;58						;!!!!TB3D
+inv_grid_y			= 64 ;66						;!!!!TB3D
+cost			= 200
+jump_height		= 0
+particles		= 
+lights_enabled		= false
+artefact_activation_seq = af_activation_bold
+hud							= detector_otclik_hud
+animation_slot		= 11
+allow_inertion		= true
+slot			    = 1
+attach_angle_offset	    = 0, 0, 270
+attach_position_offset  = 0.0, 0.0, 0.08
+attach_bone_name	= bone01
+belt			    = false
+af_actor_properties	= on
+actor_properties	= on
+health_restore_speed	= 0.0     
+radiation_restore_speed = 0.0
+satiety_restore_speed	= 0.0
+power_restore_speed		= 0.0
+bleeding_restore_speed  = 0.0
+hit_absorbation_sect  = mine_absorbation 
+
+[detector_otclik_hud]
+shell_point					= 0.0, 0.0, 0.0
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = wpn_body
+orientation         = -0.5,1.0,0.0
+position            = 0.0,-0.2,0.2
+visual                  	= equipments\detector_otclik_hud.ogf
+zoom_offset					= -0.238600,0.153600,0.000000
+zoom_rotate_x				= -0.014000
+zoom_rotate_y				= 0.324000
+anim_idle			= idle
+anim_idle_sprint	= idle
+anim_hide			= holster
+anim_show			= draw
+anim_activate		= holster
+
+; Bear
+[fake_bolt_detector_medved]:identity_immunities
+GroupControlSection	= spawn_group
+$spawn			= "devices\detector_otclik"
+$prefetch		= 64
+cform			= skeleton
+class			= ARTEFACT
+visual			= equipments\detector_medved.ogf
+description			= enc_bolt_detector_medved
+inv_name			= bolt_detector_medved
+inv_name_short		= bolt_detector_medved_s
+inv_weight			= 0.3
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 10 ;59
+inv_grid_y			= 64 ;66
+cost			= 400
+jump_height		= 0
+particles		= 
+lights_enabled		= false
+artefact_activation_seq = af_activation_bold
+hud							= detector_medved_hud
+animation_slot		= 11
+allow_inertion		= true
+slot			    = 1
+attach_angle_offset	    = 0, 0, 270
+attach_position_offset  = 0.0, 0.0, 0.08
+attach_bone_name	= bone01
+belt			    = false
+af_actor_properties	= on
+actor_properties	= on
+health_restore_speed	= 0.0     
+radiation_restore_speed = 0.0
+satiety_restore_speed	= 0.0
+power_restore_speed		= 0.0
+bleeding_restore_speed  = 0.0
+hit_absorbation_sect  = mine_absorbation 
+
+[detector_medved_hud]
+shell_point					= 0.0, 0.0, 0.0
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = wpn_body
+orientation         = -0.5,1.0,0.0
+position            = 0.0,-0.2,0.2
+visual                  	= equipments\detector_medved_hud.ogf
+zoom_offset					= -0.238600,0.153600,0.000000
+zoom_rotate_x				= -0.014000
+zoom_rotate_y				= 0.324000
+anim_idle			= idle
+anim_idle_sprint	= idle
+anim_hide			= holster
+anim_show			= draw
+anim_activate		= holster
+
+; Velez
+[fake_bolt_detector_veles]:identity_immunities
+GroupControlSection	= spawn_group
+$spawn			= "devices\detector_otclik"
+$prefetch		= 64
+cform			= skeleton
+class			= ARTEFACT
+visual			= equipments\detector_veles.ogf
+description			= enc_bolt_detector_veles
+inv_name			= bolt_detector_veles
+inv_name_short		= bolt_detector_veles_s
+inv_weight			= 0.35
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 11 ;59									;!!!!TB3D
+inv_grid_y			= 64 ;65									;!!!!TB3D
+cost			= 900
+jump_height		= 0
+particles		= 
+lights_enabled		= false
+artefact_activation_seq = af_activation_bold
+hud							= detector_veles_hud
+animation_slot		= 11
+allow_inertion		= true
+slot			    = 1
+attach_angle_offset	    = 0, 0, 270
+attach_position_offset  = 0.0, 0.0, 0.08
+attach_bone_name	= bone01
+belt			    = false
+af_actor_properties	= on
+actor_properties	= on
+health_restore_speed	= 0.0     
+radiation_restore_speed = 0.0
+satiety_restore_speed	= 0.0
+power_restore_speed		= 0.0
+bleeding_restore_speed  = 0.0
+hit_absorbation_sect  = mine_absorbation 
+
+[detector_veles_hud]
+shell_point					= 0.0, 0.0, 0.0
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = wpn_body
+orientation         = -0.5,1.0,0.0
+position            = 0.0,-0.2,0.2
+visual                  	= equipments\detector_veles_hud.ogf
+zoom_offset					= -0.238600,0.153600,0.000000
+zoom_rotate_x				= -0.014000
+zoom_rotate_y				= 0.324000
+anim_idle			= idle
+anim_idle_sprint	= idle
+anim_hide			= holster
+anim_show			= draw
+anim_activate		= holster
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;---------------------- HELMETS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[helmet_stalker]:identity_immunities   ; Helmet stalkers
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "equipments\helmet_stalker"
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\nevidimka.ogf
+radius				= 1
+quest_item          = true
+description			= enc_helmet_stalker
+inv_name			= helmet_stalker
+inv_name_short		= helmet_stalker
+inv_weight			= 0.6
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 71  ; 71
+inv_grid_y			= 60  ; 60
+cost				= 1500
+
+[fake_helmet_stalker]:antirad   
+visual				= equipments\nevidimka.ogf
+description			= enc_helmet_stalker
+inv_name			= helmet_stalker
+inv_name_short		= helmet_stalker
+inv_weight			= 0.6
+cost				= 1500
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 71
+inv_grid_y			= 60
+eat_health			= 0
+eat_satiety			= 0
+eat_power			= 0
+eat_radiation		= 0
+eat_alcohol			= 0
+wounds_heal_perc	= 0	
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;---------------------- FOOD
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[pivo]:vodka        ; Beer "Chernigov"
+$spawn 				= "food and drugs\pivo"
+inv_name			= pivo
+inv_name_short		= pivo
+visual				= fd\pivo.ogf
+description			= enc_equipment_pivo
+cost				= 75
+inv_grid_width      = 1
+inv_grid_height     = 1
+inv_grid_x          = 7
+inv_grid_y          = 39
+inv_weight			= 0.3
+eat_health			= 0
+eat_satiety			= 0.05
+eat_alcohol			= 0.15
+eat_radiation		= -0.5
+eat_portions_num	= 1
+eat_max_power		= 0.2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[irp-b]:medkit      ; Suhpaek PRI-B
+$spawn 				= "food and drugs\irp-b"
+visual				= fd\item_irp-b.ogf
+description			= enc_equipment_irp-b
+inv_name			= irp-b
+inv_name_short		= irp-b
+inv_weight			= 0.3	
+inv_grid_x          = 77
+inv_grid_y          = 65
+cost				= 700
+eat_health			= 0.5
+eat_satiety			= 0.5
+eat_power			= 0.5
+eat_radiation		= -1.0
+wounds_heal_perc	= 1.0
+eat_max_power		= 0.1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[mechta]:antirad    ; Cigarettes "Dream"
+$spawn 				= "food and drugs\mechta"
+inv_name			= mechta
+inv_name_short		= mechta
+visual				= fd\sigarets.ogf
+description			= enc_equipment_mechta
+cost				= 25
+inv_grid_width      = 1
+inv_grid_height     = 1
+inv_grid_x          = 69
+inv_grid_y          = 66
+inv_weight		    = 0.08
+eat_health			= -0.01
+eat_satiety			= 0
+eat_power			= -0.70
+eat_alcohol			= 0
+eat_radiation		= -0.10
+wounds_heal_perc	= 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[voda]:vodka        ; Mineral water "Crystal"
+$spawn 				= "food and drugs\voda"
+visual				= fd\vodka.ogf
+description			= enc_equipment_voda
+inv_name			= voda
+inv_name_short		= voda
+inv_weight			= 0.5	
+inv_grid_x          = 72
+inv_grid_y          = 65
+cost				= 100
+eat_health		    = 0.0
+eat_satiety		    = 0.15
+eat_power		    = 0.5
+eat_radiation	    = 0.0
+eat_alcohol		    = 0.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[tuchenka]:conserva ; Bully
+$spawn 				= "food and drugs\tuchenka"
+visual				= fd\conserv1.ogf
+description			= enc_equipment_tuchenka
+inv_name			= tuchenka
+inv_name_short		= tuchenka
+inv_weight			= 0.35
+inv_grid_x          = 68
+inv_grid_y          = 66
+cost				= 100
+eat_satiety         = 0.35
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[yantar]:conserva   ; Cheese "Amber"
+$spawn 				= "food and drugs\yantar"
+visual				= food\konserva_yantar.ogf
+description			= enc_equipment_yantar
+inv_name			= yantar
+inv_name_short		= yantar
+inv_weight			= 0.25
+inv_grid_x          = 66
+inv_grid_y          = 66
+cost				= 100
+eat_satiety         = 0.3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[sardina]:conserva  ; Sardines
+$spawn 				= "food and drugs\sardina"
+visual				= food\konserva_sardina.ogf
+description			= enc_equipment_sardina
+inv_name			= sardina
+inv_name_short		= sardina
+inv_weight			= 0.35
+inv_grid_x          = 65
+inv_grid_y          = 66
+cost			    = 100
+eat_satiety         = 0.25
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[ogursi]:conserva   ; Pickles
+$spawn 				= "food and drugs\ogursi"
+inv_name			= ogursi
+inv_name_short		= ogursi
+visual				= fd\ogursi.ogf
+description			= enc_equipment_ogursi
+cost				= 75
+inv_grid_x          = 67
+inv_grid_y          = 66
+inv_weight		    = 0.3
+eat_satiety			= 0.4
+eat_alcohol			= -1.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[sholad]:conserva   ; Chocolate
+$spawn 				= "food and drugs\sholad"
+visual				= fd\sholad.ogf
+description			= enc_equipment_sholad
+inv_name			= sholad
+inv_name_short		= sholad
+inv_weight			= 0.1	
+inv_grid_width		= 2
+inv_grid_x          = 66
+inv_grid_y          = 65
+cost			    = 20
+eat_satiety         = 0.1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[kolbasadmx]:kolbasa ; Sausage "Doctor"
+$spawn 				= "food and drugs\kolbasadmx"
+description			= enc_equipment_dmx_kolbasa
+inv_name			= kolbasadmx
+inv_name_short		= kolbasadmx
+inv_weight			= 0.4
+inv_grid_x			= 61
+inv_grid_y			= 66
+cost				= 85
+eat_satiety         = 0.3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[olives]:conserva   ; Olives
+$spawn 				= "food and drugs\conserva"
+visual				= food\konserva_olives.ogf
+description			= st_olives_descr
+inv_name			= olives
+inv_name_short		= olives
+inv_weight			= 0.45
+inv_grid_x			= 64
+inv_grid_y			= 66
+cost				= 70
+eat_satiety         = 0.3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[nuts]:conserva     ; Nuts
+$spawn 				= "food and drugs\nuts"
+visual				= food\konserva_orehi.ogf
+description			= st_nuts_descr
+inv_name			= nuts
+inv_name_short		= nuts
+inv_weight			= 0.2
+inv_grid_x			= 63
+inv_grid_y			= 66
+cost				= 50
+eat_satiety         = 0.4
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[absolut_vodka]:vodka       ; Vodka Absolut
+visual						= fd\absolut
+description					= enc_equipment_vodka_absolut
+inv_name					= absolut_vodka
+inv_name_short			    = absolut_vodka
+inv_weight					= 0.65
+inv_grid_x					= 75
+inv_grid_y					= 65
+cost						= 110
+eat_health					= 0.0000
+eat_satiety					= 0.0001
+eat_radiation				= -1.1
+eat_alcohol					= 0.3
+hud                         = absolut_vodka_hud
+[absolut_vodka_hud]:wpn_vodka_hud
+visual		= fd\absolut_hud.ogf
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[nemiroff_vodka]:vodka      ; Vodka "Nemiroff"
+visual						= fd\nemiroff
+description					= enc_equipment_vodka_nemiroff
+ef_weapon_type			    = 0
+inv_name					= nemiroff_vodka
+inv_name_short			    = nemiroff_vodka
+inv_weight					= 0.5
+inv_grid_x					= 73
+inv_grid_y					= 65
+cost						= 150
+eat_health					= 0.0000
+eat_satiety					= 0.0002
+eat_radiation				= -1.5
+eat_alcohol					= 0.25
+hud                         = nemiroff_vodka_hud
+[nemiroff_vodka_hud]:wpn_vodka_hud
+visual			= fd\nemiroff_hud.ogf
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[smirnoff_vodka]:vodka      ; Vodka "Smirnov"
+visual						= fd\smirnoff
+description					= enc_equipment_vodka_smirnoff
+inv_name					= smirnoff_vodka
+inv_name_short			    = smirnoff_vodka
+inv_weight					= 0.5
+inv_grid_x					= 74
+inv_grid_y					= 65
+cost						= 115
+eat_health					= 0.0000
+eat_satiety					= 0.0001
+eat_radiation				= -1.2
+eat_alcohol					= 0.3
+hud                         = smirnoff_vodka_hud
+[smirnoff_vodka_hud]:wpn_vodka_hud
+visual			= fd\smirnoff_hud.ogf
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[mineral_water]:vodka       ; Mineral water "May"
+visual						= fd\water
+description					= enc_equipment_vodka_water
+inv_name					= mineral_water
+inv_name_short			    = mineral_water
+inv_weight					= 0.4
+inv_grid_x					= 76
+inv_grid_y					= 65
+cost						= 40
+eat_health					= 0.004
+eat_satiety					= -0.1000
+eat_radiation				= 0.0
+eat_alcohol					= 0.0
+hud                         = mineral_water_hud
+[mineral_water_hud]:wpn_vodka_hud  
+visual			= fd\smirnoff_hud.ogf
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[energy_stalker]:energy_drink ; Energetic Stalker
+$spawn 				= "food and drugs\energy_stalker"
+inv_name			= energy_stalker
+inv_name_short		= energy_stalker
+visual				= fd\drink_dmx_stalker.ogf
+description			= enc_equipment_energy_st
+cost				= 60
+inv_grid_x			= 69
+inv_grid_y			= 65
+inv_weight			= 0.35
+eat_power			= 0.4
+eat_alcohol			= 0.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[energy_non_stop]:energy_drink  ; Energetic Non Stop
+$spawn 				= "food and drugs\energy_non_stop"
+inv_name			= energy_non_stop
+inv_name_short		= energy_non_stop
+visual				= fd\drink_dmx_non_stop.ogf
+description			= enc_equipment_energy_stop
+cost				= 70
+inv_grid_x			= 19
+inv_grid_y			= 7
+inv_weight			= 0.3
+eat_power			= 0.5
+eat_alcohol			= 0.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[energy_ad_rush]:energy_drink  ; Energetic Adrenalin Rush
+$spawn 				= "food and drugs\energy_ad_rush"
+inv_name			= energy_ad_rush
+inv_name_short		= energy_ad_rush
+visual				= fd\drink_dmx_ad_rush.ogf
+description			= enc_equipment_energy_ad_rush
+cost				= 85
+inv_grid_x			= 70
+inv_grid_y			= 65
+inv_weight			= 0.3
+eat_power			= 0.9
+eat_alcohol			= 0.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[energy_red_bull]:energy_drink  ; Energetic Red Bull
+$spawn 				= "food and drugs\energy_red_bull"
+inv_name			= energy_red_bull
+inv_name_short		= energy_red_bull
+visual				= fd\drink_dmx_red_bull.ogf
+description			= enc_equipment_energy_red_bull
+cost				= 80
+inv_grid_x			= 68 ;11
+inv_grid_y			= 65 ;0
+inv_weight			= 0.35
+eat_satiety			= 0.1
+eat_power			= 0.8
+eat_alcohol			= 0.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[pivo_baltika]:vodka        ; Beer "Baltika"
+visual						= fd\pivo_baltika
+description					= enc_equipment_pivo_baltika
+inv_name					= pivo_baltika
+inv_name_short			    = pivo_baltika
+inv_weight					= 0.4
+inv_grid_x					= 71
+inv_grid_y					= 65
+cost						= 60
+eat_health					= 0.0
+eat_satiety					= 0.2
+eat_alcohol					= 0.05
+eat_radiation	            = 0.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[sok]:energy_drink  ; Juice
+$spawn 				= "food and drugs\sok"
+inv_name			= sok
+inv_name_short		= sok
+visual				= fd\sok.ogf
+description			= enc_equipment_sok
+cost				= 42
+inv_grid_x			= 65
+inv_grid_y			= 65
+inv_weight			= 0.5
+eat_health			= 0.05
+eat_satiety			= 0.15
+eat_power			= 0.5
+eat_max_power		= 0.1
+eat_alcohol			= 0.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[syh_pay_gde_3]:medkit ; Suhpaek GDE-3
+$spawn 				= "food and drugs\syh_pay_gde_3"
+visual				= fd\gde3.ogf
+description			= enc_equipment_food_syh_pay_gde_3
+inv_name			= syh_pay_gde_3
+inv_name_short		= syh_pay_gde_3
+inv_weight			= 0.4	
+inv_grid_x          = 79
+inv_grid_y          = 65
+cost			    = 1200
+eat_health			= 0.8
+eat_satiety			= 0.7
+eat_power			= 0.9
+eat_radiation		= -1.0
+wounds_heal_perc	= 1.0
+eat_portions_num	= 1
+eat_max_power		= 0.1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[syh_pay_spp5]:medkit ; Suhpaek SPP-5
+$spawn 				= "food and drugs\syh_pay_spp5"
+visual				= fd\spp5.ogf
+description			= enc_equipment_food_syh_pay_spp5
+inv_name			= syh_pay_spp5
+inv_name_short		= syh_pay_spp5
+inv_weight			= 0.5	
+inv_grid_x          = 79
+inv_grid_y          = 66
+cost				= 1400
+eat_health			= 1.0
+eat_satiety			= 1.0
+eat_power			= 1.0
+eat_radiation		= -1.0
+wounds_heal_perc	= 1.0
+eat_portions_num	= 1
+eat_max_power		= 0.1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;---------------------- MEDICATIONS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[pervitin]:antirad ; Methamphetamine
+$spawn 			   = "food and drugs\pervitin"
+visual             = equipments\item_antirad.ogf
+description		   = enc_equipment_medi_pervitin
+inv_name		   = pervitin
+inv_name_short	   = pervitin
+inv_weight		   = 0.01
+inv_grid_x         = 3  ; 72
+inv_grid_y         = 36  ; 64
+cost			   = 250
+eat_health          = 0.9
+eat_satiety         = 0.5
+eat_power           = 1.9
+eat_radiation       = 0.0
+eat_alcohol         = 0.05
+eat_portions_num    = 2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[amfetamin]:antirad ; Amphetamine
+$spawn 			    = "food and drugs\antirad"
+visual              = equipments\item_antirad.ogf
+description		    = enc_equipment_medi_amfetamin
+inv_name			= amfetamin
+inv_name_short		= amfetamin
+inv_weight			= 0.01
+inv_grid_x          = 62 ;59 ;71
+inv_grid_y          = 65 ;66 ;64
+cost			    = 200
+eat_health          = -0.1
+eat_satiety         = 0.4
+eat_power           = 1.8
+eat_radiation       = -1.0
+eat_portions_num    = 2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[zhgut]:bandage     ; Tourniquet
+$spawn 				= "food and drugs\zhgut"
+visual				= equipments\item_bandage.ogf
+description			= enc_equipment_medi_zhgut
+inv_name			= zhgut
+inv_name_short		= zhgut
+inv_weight			= 0.15	
+inv_grid_x          = 64
+inv_grid_y          = 65
+cost			    = 250
+eat_health          = 0.0
+eat_power           = 0.0
+eat_alcohol         = 0.00
+wounds_heal_perc    = 1.0
+eat_portions_num    = 5	
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[antiseptic]:bandage  ; Antiseptic dressing
+$spawn 				= "food and drugs\antiseptic"
+visual				= equipments\item_antiseptic.ogf
+description			= enc_equipment_medi_antiseptic
+inv_name			= antiseptic
+inv_name_short		= antiseptic
+inv_weight			= 0.01	
+inv_grid_x          = 57 ;73
+inv_grid_y          = 66 ;64
+cost			    = 300
+eat_health          = 0.05
+wounds_heal_perc    = 0.9
+eat_portions_num    = 1	
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[medkit_elite]:medkit_scientic  ; Elite kit
+$spawn 				= "food and drugs\medkit_scientic"
+visual				= fd\medkit_elite.ogf
+description			= enc_equipment_medkit_elite
+inv_name			= medkit_elite
+inv_name_short		= medkit_elite
+inv_weight			= 0.25	
+inv_grid_x			= 77
+inv_grid_y			= 66
+cost				= 500
+eat_health			= 1.0
+eat_satiety			= 0
+eat_power			= 0.3
+eat_radiation		= -1.0
+eat_alcohol			= -1.5
+eat_max_power		= 0.1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[bandage_dmx]:bandage ; Special bint
+$spawn 				= "food and drugs\bandage"
+visual				= fd\dmx_bandage.ogf
+description			= enc_equipment_bandage_dmx
+inv_name			= bandage_dmx
+inv_name_short		= bandage_dmx
+inv_weight			= 0.1	
+inv_grid_x			= 63 ;57
+inv_grid_y			= 65 ;66
+cost				= 150
+eat_health          = 0.05
+eat_power           = 0.0
+eat_radiation       = -0.2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[tab]:vodka         ; Tablets Antipohmelin
+$spawn 				= "food and drugs\tab"
+inv_name			= tab
+inv_name_short		= tab
+visual				= equipments\item_anti_alcohol.ogf
+description			= enc_equipment_tab
+cost				= 400
+inv_grid_width      = 1
+inv_grid_height     = 1
+inv_grid_x          = 37  ; 57
+inv_grid_y          = 9  ; 66
+inv_weight		    = 0.05
+eat_health			= 0
+eat_satiety			= 0
+eat_alcohol			= -1.5
+eat_radiation		= 0
+eat_portions_num	= 1
+eat_max_power		= 0.2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[radioprotector]:antirad  ; Radioprotector
+visual				= equipments\item_radioprotector.ogf
+description			= enc_radioprotector
+inv_name			= radioprotector
+inv_name_short		= radioprotector
+inv_weight			= 0.05
+cost				= 600
+inv_grid_x			= 34  ; 61 ;76
+inv_grid_y			= 66 ;65 ;64
+eat_health			= 0
+eat_satiety			= 0
+eat_power			= 0
+eat_radiation		= 0
+eat_alcohol			= 0
+wounds_heal_perc	= 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[anabiotic]:antirad  ; Anabiotik
+visual				= equipments\item_anabiotic.ogf
+description			= st_drug_anabiotic_descr
+inv_name			= st_drug_anabiotic
+inv_name_short		= st_drug_anabiotic
+inv_weight			= 0.05
+cost				= 20000	;-;110013, old-(1500) - aleks1970
+inv_grid_x			= 61
+inv_grid_y			= 65
+eat_health			= 0
+eat_satiety			= 0
+eat_power			= 0
+eat_radiation		= 0
+eat_alcohol			= 0
+wounds_heal_perc	= 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[psy_blockade]:antirad  ; Psi-blockade
+visual				= equipments\item_psy_blockade.ogf
+description			= st_drug_psy_blockade_descr
+inv_name			= st_drug_psy_blockade
+inv_name_short		= st_drug_psy_blockade
+inv_weight			= 0.05
+cost				= 850
+inv_grid_x			= 80  ; 61 ;77
+inv_grid_y			= 64  ; 65 ;64
+eat_health			= 0
+eat_satiety			= 0
+eat_power			= 0
+eat_radiation		= 0
+eat_alcohol			= 0
+wounds_heal_perc	= 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[barvinok]:antirad  ; Periwinkle
+visual				= equipments\item_barvinok.ogf
+description			= st_drug_coagulant_descr
+inv_name			= st_drug_coagulant
+inv_name_short		= st_drug_coagulant
+inv_weight			= 0.05
+cost				= 700
+inv_grid_x			= 70
+inv_grid_y			= 66
+eat_health			= 0
+eat_satiety			= 0
+eat_power			= 0
+eat_radiation		= 0
+eat_alcohol			= 0
+wounds_heal_perc	= 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[yadulin]:antirad  ; Yadulin
+visual				= medic\item_yad.ogf
+description			= st_drug_yadulin_descr
+inv_name			= st_drug_yadulin
+inv_name_short		= st_drug_yadulin
+inv_weight			= 0.1
+cost				= 110
+inv_grid_x			= 59
+inv_grid_y			= 65
+eat_health			= 0.45
+eat_satiety			= 0
+eat_power			= 0
+eat_radiation		= 0
+eat_alcohol			= -0.5
+wounds_heal_perc	= 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[gercules]:antirad  ; Ăĺđęóëĺń
+visual				= equipments\item_gercules.ogf
+description			= st_drug_booster_descr
+inv_name			= st_drug_booster
+inv_name_short		= st_drug_booster
+inv_weight			= 0.2
+cost				= 650
+inv_grid_x			= 37
+inv_grid_y			= 10
+eat_health			= 0
+eat_satiety			= 0
+eat_power			= 0
+eat_radiation		= 0
+eat_alcohol			= 0
+wounds_heal_perc	= 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;---------------------- MISCELLANEOUS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[m_dmx_box]:treasure_item
+description			= enc_m_dmx_box
+inv_name			= m_dmx_box
+inv_name_short		= m_dmx_box
+[dmx_box_nevedimka]:m_inventory_box
+visual	= equipments\nevidimka.ogf
+[dmx_box_sorter]:m_inventory_box
+visual	= equipments\nevidimka.ogf
+
+[place_of_sleep]:identity_immunities 
+$spawn = "physics\object" 
+visual = objects\matras_nevidimka.ogf
+class  = O_PHYS_S
+remove_time = 60000
+script_binding = dmx_sleep_binder.init
+[place_of_sleep_vid]:place_of_sleep
+visual = objects\matras.ogf
+
+[fake_bolt]:antirad
+visual				= weapons\bolt\wpn_bolt.ogf
+inv_name			= st_bolt
+inv_name_short		= st_bolt
+cost				= 20
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 57
+inv_grid_y			= 65
+inv_weight			= 0.01
+description         = bolt_descr
+eat_health			= 0
+eat_satiety			= 0
+eat_power			= 0
+eat_radiation		= 0
+eat_alcohol			= 0
+wounds_heal_perc	= 0	
+[bolt_fix]:bolt
+slot                = 8
+
+[fake_device_torch]:antirad
+visual				= equipments\light_night.ogf
+description			= enc_equipment_devic_device-torch1
+inv_name			= device-torch
+inv_name_short		= device-torch
+inv_weight			= 0.1
+cost				= 500
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 16
+inv_grid_y			= 12
+eat_health			= 0
+eat_satiety			= 0
+eat_power			= 0
+eat_radiation		= 0
+eat_alcohol			= 0
+wounds_heal_perc	= 0
+
+[rover_bot_stancion]:identity_immunities ; Station for a mobile robot
+$spawn = "physics\object" 
+visual = physics\vehicles\rover_bot\rover_bot_stancion.ogf
+class  = O_PHYS_S
+remove_time = 60000
+
+[barvinok_action]:bandage
+visual	            = equipments\nevidimka.ogf
+inv_weight			= 0
+inv_grid_width		= 0
+inv_grid_height		= 0
+eat_power           = 0
+eat_portions_num    = 20
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;---------------------- AMMUNITION FOR THE BELT
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Fake cartridges
+[ammo_9x18_fmj_fake]:ammo_9x18_fmj
+[ammo_9x18_pbp_fake]:ammo_9x18_pbp
+[ammo_9x18_pmm_fake]:ammo_9x18_pmm
+[ammo_9x19_pbp_fake]:ammo_9x19_pbp
+[ammo_9x19_fmj_fake]:ammo_9x19_fmj
+[ammo_5.45x39_ap_fake]:ammo_5.45x39_ap
+[ammo_5.45x39_fmj_fake]:ammo_5.45x39_fmj
+[ammo_5.56x45_ap_fake]:ammo_5.56x45_ap
+[ammo_5.56x45_ss190_fake]:ammo_5.56x45_ss190
+[ammo_5.7x28_fmj_fake]:ammo_5.7x28_fmj
+[ammo_5.7x28_ap_fake]:ammo_5.7x28_ap
+[ammo_7.62x54_ap_fake]:ammo_7.62x54_ap
+[ammo_7.62x54_7h14_fake]:ammo_7.62x54_7h14
+[ammo_7.62x54_7h1_fake]:ammo_7.62x54_7h1
+[ammo_9x39_sp5_fake]:ammo_9x39_sp5
+[ammo_9x39_ap_fake]:ammo_9x39_ap
+[ammo_9x39_pab9_fake]:ammo_9x39_pab9
+[ammo_gauss_fake]:ammo_gauss
+[ammo_11.43x23_fmj_fake]:ammo_11.43x23_fmj
+[ammo_11.43x23_hydro_fake]:ammo_11.43x23_hydro
+[ammo_12x76_dart_fake]:ammo_12x76_dart
+[ammo_12x76_zhekan_fake]:ammo_12x76_zhekan
+[ammo_12x70_buck_fake]:ammo_12x70_buck
+[ammo_og-7b_fake]:ammo_og-7b
+[ammo_vog-25p_fake]:ammo_vog-25p
+[ammo_vog-25_fake]:ammo_vog-25
+[ammo_m209_fake]:ammo_m209
+
+[ammo_5.45x39_izomorf_fake]:ammo_5.45x39_izomorf
+[ammo_7.62x54_izomorf_fake]:ammo_7.62x54_izomorf
+[ammo_9x39_izomorf_fake]:ammo_9x39_izomorf
+[ammo_7.62x54r_fake]:ammo_7.62x54r
+[ammo_5.7x28_ss190_fake]:ammo_5.7x28_ss190
+[ammo_super_gauss_fake]:ammo_super_gauss
+[ammo_zhekan_izomorf_fake]:ammo_zhekan_izomorf
+[ammo_7.62x39_fmj_fake]:ammo_7.62x39_fmj
+[ammo_7.62x39_ap_fake]:ammo_7.62x39_ap
+[ammo_7.62x25_p_fake]:ammo_7.62x25_p
+inv_grid_x = 32
+[ammo_7.62x25_ps_fake]:ammo_7.62x25_ps
+[ammo_arbolt_fake]:ammo_arbolt
+[ammo_samopal_fake]:ammo_samopal
+[ammo_igl_fake]:ammo_igl
+[ammo_igl_new_fake]:ammo_igl_new
+[ammo_7.62x51box_fake]:ammo_7.62x51box
+[ammo_12.7x108_fake]:ammo_12.7x108
+[ammo_minigun_fake]:ammo_minigun
+
+[ammo_8.6x70_fake]:ammo_8.6x70
+[ammo_balon_rg10_fake]:ammo_balon_rg10
+[ammo_50_bmg_fake]:ammo_50_bmg
+[ammo_50ae_fake]:ammo_50ae
+[ammo_16x70_kart_fake]:ammo_16x70_kart
+[ammo_16x70_zhekan_fake]:ammo_16x70_zhekan
+[ammo_16x70_buck_fake]:ammo_16x70_buck
+[ammo_m209_smoke_fake]:ammo_m209_smoke
+[ammo_super_arbolt_fake]:ammo_super_arbolt
+[ammo_14.5x114_ap_fake]:ammo_14.5x114_ap
+
+; Fake grenades
+[af_1]:af_rusty_sea_urchin		;!!!!TB3D
+af_actor_properties	    = on
+actor_properties	    = on
+jump_height			    = .0
+particles			    =
+radiation_restore_speed	= 0.0
+bleeding_restore_speed  = 0.0
+
+[fake_grenade_f1]:af_1
+inv_grid_x			= 9
+inv_grid_y			= 9
+visual				= weapons\grenade\wpn_f_1.ogf
+inv_name			= grenade-f1
+inv_name_short		= grenade-f1
+inv_weight			= 0.63
+cost				= 210
+description			= enc_weapons1_grenade-f1
+
+[fake_grenade_rgd5]:af_1
+inv_grid_x			= 10
+inv_grid_y			= 9
+visual				= weapons\grenade\wpn_rgd_5.ogf
+inv_name			= grenade-rgd5
+inv_name_short		= grenade-rgd5
+inv_weight			= 0.35
+cost				= 100
+description			= enc_weapons1_grenade-rgd5
+
+[fake_grenade_gd-05]:af_1
+inv_grid_x			= 19
+inv_grid_y			= 3
+visual				= weapons\grenade\wpn_gd_05.ogf
+inv_name			= st_grenade_gd5
+inv_name_short		= st_grenade_gd5
+inv_weight			= 0.63
+cost				= 150
+description			= enc_weapons1_grenade-gd05
+
+[fake_grenade_7643b]:af_1
+inv_grid_x			= 15
+inv_grid_y			= 66
+visual				= raider\7643b_world.ogf
+inv_name			= raider_7643b
+inv_name_short		= raider_7643b
+inv_weight			= 0.5
+cost				= 250
+description			= raider_enc_7643b
+
+[fake_grenade_an_m14]:af_1
+inv_grid_x			= 21
+inv_grid_y			= 65
+visual				= weapons\grm14\wpn_an_m14.ogf
+inv_name			= grenade-m14
+inv_name_short		= grenade-m14
+inv_weight			= 0.7
+cost				= 200
+description			= enc_weapons1_grenade-m14
+
+[fake_grenade_m61]:af_1
+inv_grid_x			= 15
+inv_grid_y			= 65
+visual				= raider\m61_world.ogf
+inv_name			= raider_m61
+inv_name_short		= raider_m61
+inv_weight			= 0.45
+cost				= 280
+description			= raider_enc_m61
+
+[fake_grenade_m67]:af_1
+inv_grid_x			= 14
+inv_grid_y			= 66
+visual				= raider\m67_world.ogf
+inv_name			= raider_m67
+inv_name_short		= raider_m67
+inv_weight			= 0.39
+cost				= 310
+description			= raider_enc_m67
+
+[fake_w_dynamite]:af_1
+inv_grid_x			= 6
+inv_grid_y			= 64
+visual				= weapons\dynamite\wpn_dynamite.ogf
+inv_name			= w_dynamite
+inv_name_short		= w_dynamite
+inv_weight			= 0.2
+cost				= 340
+description			= enc_weapons1_dynamite
+
+[grenade_rgd5_1]:grenade_rgd5
+inv_weight	= 0.0
+quest_item	= true
+[grenade_f1_1]:grenade_f1
+inv_weight	= 0.0
+quest_item	= true
+[grenade_gd-05_1]:grenade_gd-05
+inv_weight	= 0.0
+quest_item	= true
+[grenade_7643b_1]:grenade_7643b
+inv_weight	= 0.0
+quest_item	= true
+[grenade_an_m14_1]:grenade_an_m14
+inv_weight	= 0.0
+quest_item	= true
+[grenade_m61_1]:grenade_m61
+inv_weight	= 0.0
+quest_item	= true
+[grenade_m67_1]:grenade_m67
+inv_weight	= 0.0
+quest_item	= true
+[w_dynamite_1]:w_dynamite
+inv_weight	= 0.0
+quest_item	= true
+
+[tb3d_gspot]:medkit_scientic  ; Elite kit
+$spawn 				= "food and drugs\medkit_scientic"
+visual				= fd\medkit_elite.ogf
+description			= enc_equipment_medkit_elite
+inv_name			= medkit_elite10
+inv_name_short		= medkit_elite10_s
+inv_weight			= 0.25	
+inv_grid_x			= 77
+inv_grid_y			= 66
+cost				= 500
+eat_health			= 1.0
+eat_satiety			= 0
+eat_power			= 0.3
+eat_radiation		= -1.0
+eat_alcohol			= -1.5
+eat_max_power		= 0.1

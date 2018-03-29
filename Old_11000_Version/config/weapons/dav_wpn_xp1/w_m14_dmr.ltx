@@ -1,0 +1,171 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+[wpn_m14_dmr]:identity_immunities
+GroupControlSection	= spawn_group
+;;discovery_dependency = 
+$spawn                  		= "weapons\m14_dmr"		; option for Level Editor
+$npc			 				= on				; option for Level Editor
+$prefetch 		 				= 8
+scheduled               		= off              	; option for ALife Simulator
+cform                   		= skeleton
+class                   		= WP_SVU
+min_radius              		= 0
+max_radius              		= 50
+description						= desc_m14dmr_descr
+
+ef_main_weapon_type		 		= 3
+ef_weapon_type			 		= 8
+
+;--- scope weapons -----------------------------------------------------------------
+holder_range_modifier			= 2.15             ; eye_range 
+holder_fov_modifier				= 0.3              ; eye_fov
+;-----------------------------------------------------------------------------------
+
+cost							= 36000
+weapon_class					= sniper_rifle
+
+ammo_limit		 				= 60
+ammo_current					= 10
+ammo_elapsed		 			= 0
+
+ammo_mag_size		 			= 20
+ammo_class		 				= ammo_7.62x51_fmj, ammo_7.62x51_ap
+
+sprint_allowed					= true
+;-----------------------------------------------------------------------------------
+
+fire_dispersion_base			= 0.05	
+control_inertion_factor			= 1.6f
+
+	
+cam_relax_speed         		= 4.0	
+cam_relax_speed_ai         		= 10
+cam_dispersion          		= 2.5	
+cam_dispersion_inc				= 0.5	
+cam_dispertion_frac				= 1.0	;cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle					= 12.0	
+cam_max_angle_horz				= 3.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz				= 0.6	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	
+misfire_probability 			= 0.005	
+misfire_condition_k				= 0.05
+condition_shot_dec 				= 0.0002 
+;-----------------------------------------------------------------------------------
+
+hand_dependence 				= 1
+single_handed					= 0
+
+slot 			 				= 2		; // secondary
+animation_slot					= 2		; type of the animation that will be used
+
+inv_name		 				= desc_m14dmr
+inv_name_short		 			= desc_m14dmr_s
+inv_weight		 				= 5.1
+
+inv_grid_width     				= 5
+inv_grid_height    				= 2
+inv_grid_x         				= 67
+inv_grid_y         				= 6
+
+kill_msg_x						= 0
+kill_msg_y						= 59
+kill_msg_width					= 80
+kill_msg_height					= 26
+
+direction                		= 0, 0, 1
+fire_point               		= 0,0.26,0.747
+fire_point2               		= 0,0.24,0.643
+
+flame_particles		   			= weapons\generic_weapon05
+smoke_particles		   			= weapons\generic_shoot_00
+rpm_empty_click 	 			= 200
+
+shell_point		 				= 0,0.257,0.083
+shell_dir		 				= 0.0, 1.0, 0.0
+shell_particles	 				= weapons\arsenal_shells1
+
+
+PDM_disp_base 					= 2.0
+PDM_disp_vel_factor 			= 0.8
+PDM_disp_accel_factor 			= 1.0
+PDM_crouch	 					= 1.0
+PDM_crouch_no_acc 				= 1.0
+
+; ttc
+hit_power          				= 0.80
+hit_impulse	       				= 120
+hit_type 		   				= fire_wound
+
+fire_distance           		= 90					;;;109974 10:1
+bullet_speed					= 850	
+rpm                     		= 700
+; end ttc
+
+use_aim_bullet					= true		
+time_to_aim						= 1.0	
+
+hud                     		= wpn_m14_dmr_hud
+normal                   		= 0, 1, 0
+position         	    		= -0.026,-0.172,0
+orientation              		= 0, 0, 0
+
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+
+strap_position         			= -0.16,-0.36,0.15
+strap_orientation      			= -10,-5,10
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+
+startup_ammo            		= 10
+visual                  		= dav_wpn_xp1\assault\m14_dmr\wpn_m14_dmr.ogf
+
+light_disabled					= true
+
+ph_mass			 				= 3
+;cost			 				= 900
+
+;addons		
+scope_status					= 1
+silencer_status					= 0
+grenade_launcher_status			= 0
+
+scope_texture					= Arsenal_Mod\crosshairs\wpn_cross_m14
+zoom_enabled					= true
+scope_zoom_factor	    		= 15		;SUSAT 4X
+
+snd_draw						= weapons\m14_dmr\draw
+snd_holster						= weapons\m14_dmr\holster
+snd_shoot						= weapons\sn_m14_1
+snd_empty						= weapons\m14_dmr\empty
+snd_reload						= weapons\m14_dmr\reload
+snd_close						= weapons\generic_close
+
+;snd_silncer_shot				= weapons\w_ak74_shoot_2
+ 
+[wpn_m14_dmr_hud]
+
+shell_point          			= 0.00, 0.00, 0.00
+shell_dir			 			= 0.0, 0.0, 0.0
+
+fire_point               		= 0,0,-0.54
+fire_bone                		= muzzle
+
+orientation              		= 0, 0, 0
+position                		= 0.10,-0.06,-0.05
+visual                  		= dav_wpn_xp1\assault\m14_dmr\wpn_m14_dmr_hud.ogf
+
+anim_idle						= idle
+anim_idle_aim					= idle_aim
+anim_reload						= reload
+anim_draw						= draw
+anim_holster					= holster
+anim_shoot						= shoot
+anim_idle_sprint				= s_idle_sprint
+
+
+zoom_offset						= -0.070000,0.000000,0.000000
+zoom_rotate_x					= 0.020000
+zoom_rotate_y					= -0.040000
+
+

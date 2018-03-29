@@ -1,0 +1,881 @@
+<!-- TB3D 1.1.0.0.0.4 changed lottery amounts and translated Cyrillic text, fixed soul cube dialog, added names, \ \n, syslov books, zaz695, saharov storm
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; DMX 1.3.5
+;;;; DIALOGUES ON VEHICLES 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-->
+<!-- Names changed as commented below - Sword2012 - 31 Oct 16 -->
+<!-- Partial reworking of text, mainly Soul Cube and SKAT15 dialogues - Sword2012 - 15 Mar 17 -->
+<!-- Steve2000 to fix Lines 836 to 860 - Sword2012 - 16 June 17 -->
+<string_table>
+	<string id="rul_cars_000">
+		<text>Do you deal in vehicles?</text>
+	</string>
+	<string id="rul_cars_001">
+		<text>Sure thing. Here's what I have available at the moment:</text>
+	</string>
+	<string id="rul_cars_011">
+		<text>at the Rookie Camp by the Cordon</text>
+	</string>
+	<string id="rul_cars_012">
+		<text>in a field near the Dump</text>
+	</string>
+	<string id="rul_cars_013">
+		<text>at the Scientific Institute in Agroprom</text>
+	</string>
+	<string id="rul_cars_021">
+		<text>Okay, it's yours. I'll arrange to have it left near the Rookie Camp for you</text>
+	</string>
+	<string id="rul_cars_022">
+		<text>Look for it near the Dump, in a field. I'll make sure the Bandits don't mess with it either. They owe me some favors</text>
+	</string>
+	<string id="rul_cars_023">
+		<text>The car is somewhere in the central complex, but be very cautious. When I spoke with the Colonel he was quite drunk, and may have forgotten to inform his men that you'll be collecting it</text>
+	</string>
+	<string id="rul_cars_002">
+		<text>Understood. Thanks</text>
+	</string>
+	<string id="rul_cars_005">
+		<text>Screw that! Your prices are outrageous!</text>
+	</string>
+	<string id="rul_cars_006">
+		<text>You don't have that kind of money, so piss off...</text>
+	</string>
+	<string id="rul_cars_100">
+		<text>I need a vehicle of some sort. Do you have anything?</text>
+	</string>
+	<string id="rul_cars_101">
+		<text>I can provide you with a vehicle, but they don't come cheap, understood?\n Here's what I have working at the moment:</text>
+	</string>
+	<string id="rul_cars_114">
+		<text>A Kama3 truck in the Dark Valley</text>
+	</string>
+	<string id="rul_cars_116">
+		<text>A military field car at the Army Warehouses</text>
+	</string>
+	<string id="rul_cars_124">
+		<text>A truck like this is hard to come by. I can arrange for it to be left at the abandoned gas station, across from the Bandit Base in the Dartk Valley. Get there quickly, before someone comes along and steals it, or simply strips it down for spare parts!</text>
+	</string>
+	<string id="rul_cars_126">
+		<text>The Freedom faction has somehow managed to get their hands on a working military field Car. They have no use for it themselves, so they've asked me to sell it for them. You can pick it up at their base of operations inside the Army Warehouses. Good luck...</text>
+	</string>
+	<string id="rul_cars_200">
+		<text>Are there any cars available nearby?</text>
+	</string>
+	<string id="rul_cars_201">
+		<text>Now that's information you need to pay for. There may be one prospective option nearby. What do you say?</text>
+	</string>
+	<string id="rul_cars_215">
+		<text>A YA-3 in the Red Forest</text>
+	</string>
+	<string id="rul_cars_225">
+		<text>When you exit the bunker, it'll be on your right. You'll want to be careful though - such a vehicle is a rare and expensive commodity so far north in the Zone...</text>
+	</string>
+	<string id="rul_cars_206">
+		<text>Unfortunately, you don't have enough cash. Sorry...</text>
+	</string>
+	<string id="vehicle_btr">
+		<text>BTR-80 Armored Personnel Carrier</text>
+	</string>
+	<string id="vehicle_tr13">
+		<text>Farm tractor</text>
+	</string>
+	<string id="vehicle_niva">
+		<text>Niva field car</text>
+	</string>
+	<string id="vehicle_uaz">
+		<text>UAZ van</text>
+	</string>
+	<string id="vehicle_zaz">
+		<text>Zaporozhets economy car</text>
+	</string>
+	<string id="vehicle_zaz965">
+		<text>ZAZ-965 Hunchback</text>
+	</string>
+	<string id="vehicle_kamaz">
+		<text>Kama3 truck</text>
+	</string>
+	<!-- NEW VEHICLE DIALOGUES (DMX MOD) -->
+	<string id="rul_cars_300">
+		<text>Do you know where there's a car I can use? I'm not keen on walking through the swamps...</text>
+	</string>
+	<string id="rul_cars_301">
+		<text>A car here is a luxury most people can't afford. Just be cautious when navigating through anomalies. And mutants, who don't give a shit whether you're in a vehicle or not. For transportation, I can offer you the following:</text>
+	</string>
+	<string id="rul_cars_315">
+		<text>'Dodge Charger' in the Swamps</text>
+	</string>
+	<string id="rul_cars_415">
+		<text>'Hummer' located in the Cordon</text>
+	</string>
+	<string id="rul_cars_325">
+		<text>Okay, listen up. As you pass by the nearest farm where the Stalkers have set up camp, you'll see a ruined building. Behind it, you'll find the car of your dreams! I've marked the location on your map</text>
+	</string>
+	<string id="rul_cars_425">
+		<text>The Hummer is a very sought after vehicle, both beyond the perimeter and within the Zone itself. So please look after it. Avoid anomalies, and it should last you a while longer.\nI've marked its location on your map</text>
+	</string>
+	<string id="rul_cars_305">
+		<text>Sorry, brother. Not enough money...</text>
+	</string>
+	<string id="vehicle_dodge">
+		<text>Dodge Charger</text>
+	</string>
+	<string id="vehicle_hammer">
+		<text>Hummer</text>
+	</string>
+	<!-- <string id="TEST_hammer">
+		<text>Your Hummer has driven to the ends of the Earth and to be perfectly honest, should be parked, and scrapped for parts.</text>
+	</string> -->
+	<!-- DIALOGUE ABOUT BOOKS -->
+	<string id="syslov_book1">
+		<text>Hey, I've heard you sell eBooks that can be uploaded to my PDA</text>
+	</string>
+	<string id="syslov_book2">
+		<!--text>Yes! Very few people read them these days. Everyone is so obsessed with Artefacts, and just simply trying to stay alive. But, if you are interested in some I can certainly provide them for you. Check your PDA. They are located in the "information" section.</text	109990-->
+		<text>Yes, but it won't cost you anything! Very few people read books these days, even through they're a gold mine of information, but everyone's so obsessed with artefacts and staying alive. If you're interested, though, I can point you to a secure website outside the Zone: www.tecnobacon.com\syslov_books.html. You can trust this guy. He and his team fight for Stalkers everywhere...</text>
+	</string>
+	<string id="syslov_book3">
+		<text>Thank you very much. I appreciate it!</text>
+	</string>
+	<!-- DIALOGUE ABOUT LOCATIONS -->
+	<string id="syslov_locations1">
+		<text>I need information on all the different territories within the Zone</text>
+	</string>
+	<string id="syslov_locations2">
+		<text>You're asking a lot! This information was hard-earned, so you'll need to pay for it, okay? There are some secret locations I don't have much data on, so you'll have to figure them out on your own.\nI've information on the Dead City, Limansk, and the Generators. Anything else you need?</text>
+	</string>
+	<string id="syslov_yes_locations">
+		<text>What else do you have?</text>
+	</string>
+	<string id="syslov_no_locations">
+		<text>No thanks. I need to get going</text>
+	</string>
+	<string id="syslov_locations3">
+		<text>There's information on Labs X-10, X-16, X-18, a secret Military lab, and an unclassified laboratory. All this will cost, let's say, 1,500Ru. Are you interested?</text>
+	</string>
+	<string id="syslov_kachat">
+		<text>That's a lot more reasonable than I'd have expected. Here's the money, and my PDA details</text>
+	</string>
+	<string id="syslov_ne_kachat">
+		<text>That's a bit expensive for me. I'll find out what I need by myself</text>
+	</string>
+	<!-- DIALOGUE ABOUT STORM, 110003 -->
+	<string id="syslov_storm1">
+		<text>What the hell is this storm all about?</text>
+	</string>
+	<string id="syslov_storm2">
+		<text>I don't have any information on it, but it's sure got me worried!</text>
+	</string>
+	<string id="syslov_storm3">
+		<text>Why are you worried?</text>
+	</string>
+	<string id="syslov_storm4">
+		<text>I'm afraid there'll be another influx of Military soon, to try and control us!</text>
+	</string>
+	<string id="syslov_storm5">
+		<text>Well, there's no way they'll be controlling me!</text>
+	</string>
+	<!-- UNIQUE PURCHASES WITH SYSLOV -->
+	<string id="syslov_uniq1">
+		<text>Do you sell any specialized items?</text>
+	</string>
+	<string id="syslov_uniq2">
+		<text>I sell special weapons, if that's what you mean. Plus ammunition that no one else can supply. Interested?</text>
+	</string>
+	<string id="upgrade_skat">
+		<text>Upgrade block #3 for SKAT15-M</text>
+		<!-- Customized SCAT-15M Armour -->
+	</string>
+	<string id="no_uniq">
+		<text>Not at the moment, thanks. Maybe later.</text>
+	</string>
+	<string id="syslov_upgrade_skat">
+		<text>I have an upgrade module for a SKAT15 suit. This kind of tech normally needs Black Energy to run it, but this'll fix it so that it doesn't\nInterestingly, it was left here by a guy who wanted it kept in safe hands for the right buyer, so I helped him out...\nAnyway, it's a one-off, hence the price tag of 45,000Ru plus a Soul Drops artefact. Are you interested?</text>
+	</string>
+	<string id="yes_upgrade_skat">
+		<text>Sounds good to me. You've got a deal!</text>
+	</string>
+	<string id="no_upgrade_skat">
+		<text>45,000 is a hell of a lot for an encapsulated module that you can't get into, and Black Energy's not hard to find when you know what you're doing. Thanks, but not interested...</text>
+	</string>
+	<string id="shadows_cube">
+		<text>I've heard rumors that you may have information regarding something known as the 'Soul Cube'. Is this true?</text>
+	</string>
+	<string id="shadows_cube1">
+		<text>Ah, this is a very rare and precious thing, and nobody knows where it came from. Whatever it's actually designed for, it will... how can I put it?... draw and disengage the vital life energy from any creature. In other words, it will kill anything or anyone, quickly, regardless of size or protection. They'll die from absence of life. From death itself. Is this what you're looking for?</text>
+	</string>
+	<string id="shadows_cube2">
+		<text>Yes, it is. How much?</text>
+	</string>
+	<string id="shadows_cube3">
+		<text>I don't want any money for it. It's not the kind thing you sell, or pay for with money. If you'd like it, there are some things you can do to help me, in order for it to change hands...\nFirstly, our small group is very low on ammunition\nWe also need a more powerful weapon, like the one the trader near Agroprom sells\nWe desperately need to improve our Scientific outfits, too. As far as I know, the Mercs have some suits equipped with advanced filtering, heavy-duty glass, and durable protective plates. If you bring us one of these, Vasily can take it apart and reverse-engineer it into our own suits\nWe're also short of food for our Scouts. Find us five bottles of vodka - Nemiroff, please! Two of those green IRP-B Military dry-ration packs, three Yantar cheeses, five cans of nuts, three cans of Chernigov beer, and five cans of Adrenaline Rush.\nHelp us out with this, and I will happily bequeath ownership of the Soul Cube to you. Does this sound fair, Stalker?</text>
+	</string>
+	<string id="shadows_cube_yes">
+		<text>I'd be happy to accept your offer, and help you out as well. Everybody gains...</text>
+	</string>
+	<string id="shadows_cube_no">
+		<text>Sorry. You want me to buy all these things for you at my own expense, and I've no way of knowing if you're telling the truth about what this Soul Cube does...</text>
+	</string>
+	<string id="shadows_cube_prines">
+		<text>Here's everything you asked for...</text>
+	</string>
+	<string id="shadows_cube_prines1">
+		<text>Thank you, friend. This will certainly help us out in defending this place from attackers!</text>
+	</string>
+	<string id="shadows_cube_prines2">
+		<text>Thank you. Do you have the Cube?</text>
+	</string>
+	<string id="shadows_cube_prines3">
+		<text>Well, I don't actually have it here...\nPlease, let me explain...</text>
+	</string>
+	<string id="shadows_cube_prines4">
+		<text>You said we had a deal. A deal in good faith...\nWhat's going on here?</text>
+	</string>
+	<string id="shadows_cube_prines5">
+		<text>Well, I said that I would transfer ownership to you...\nBut you'll need to collect it...</text>
+	</string>
+	<string id="shadows_cube_prines6">
+		<text>You've left it a little late to tell me this, and you could have collected it yourself. What's the problem?</text>
+	</string>
+	<string id="shadows_cube_prines7">
+		<text>Look, I sent my men to check the hiding place where the Cube is hidden. When they got there, there was this Stalker there, a real weird bastard, and well-armed too! My guys were a bit confused at first, but one kept him talking while the other went to check the hiding spot, and it was empty! So they both confronted the son of a bitch, and of course he denied all knowledge of it. My men weren't well equipped enough to take him on, so they came back. I'll tell you exactly where he is, and I'm sure he'll tell you, or maybe you can convince him to part with it on mutual terms, if you know what I mean! This isn't the way I normally do business, and it's my reputation on the line so, if you succeed, I'll give you 25,000Ru to square us up. Okay?</text>
+	</string>
+	<string id="shadows_cube_prines_yes">
+		<text>Okay, tell me where I can find this Stalker...\nAnything else I need to know about him?</text>
+	</string>
+	<string id="shadows_cube_prines_no">
+		<text>Fuck off! You'll pay me now for everything I bought, plus the 25,000 for my work. Then we'll forget it...</text>
+	</string>
+	<string id="shadows_cube_prines_yes1">
+		<text>Near the old tower to the west of our base, the one with the light still on...\nPersonally, I wouldn't go near there myself. Not with this asshole wandering about the place. So good luck...</text>
+	</string>
+	<string id="shadows_cube_prines_yes2">
+		<text>Okay, I'll check it out. But if it turns out to be a dead end, you're going to have more than that guy to worry about...</text>
+	</string>
+	<!-- !!!!TB3D new 134 -->
+	<string id="start_shadows_dialog0">
+		<text>Another one... So what do YOU want?</text>
+	</string>
+	<string id="start_shadows_dialog1">
+		<text>You must be Shadows! It's an honour to meet you and, I must say, your suit is amazing... I've come about the Soul Cube. I understand you've been looking after it for me. I'm its rightful owner...</text>
+	</string>
+	<string id="start_shadows_dialog2">
+		<text>Yes, I have. I've been protecting it from the wrong kind of people - those who'd misuse it. But I'm not sure that you're the right kind...</text>
+	</string>
+	<string id="start_shadows_dialog3">
+		<text>The Cube now belongs to me. I've earned it, and I'd like it, please...</text>
+	</string>
+	<string id="start_shadows_dialog4">
+		<text>Do you know what you're dealing with here? Do you even know what to do with this Cube?</text>
+	</string>
+	<string id="start_shadows_dialog4_good">
+		<text>I earned the Cube honestly and honorably, helping out Syslov and his party. Do you still doubt me?</text>
+	</string>
+	<string id="start_shadows_dialog4_bad">
+		<text>I'll figure it out. It's mine, so hand it over...</text>
+	</string>
+	<string id="start_shadows_dialog5">
+		<text>You won't be able to use the Cube...</text>
+	</string>
+	<string id="start_shadows_dialog6">
+		<text>Why not?</text>
+	</string>
+	<string id="start_shadows_dialog7">
+		<text>Here, check it out yourself. Catch...</text>
+	</string>
+	<string id="start_shadows_dialog9_bad">
+		<text>We're finished, Stalker. I have nothing more to say to you...</text>
+	</string>
+	<string id="shadows_quest_cube_bad0">
+		<text>Give me the fucking Cube!</text>
+	</string>
+	<string id="shadows_quest_cube_bad1">
+		<text>Go away, Stalker. Our conversation is over...</text>
+	</string>
+	<string id="shadows_quest_cube0">
+		<text>Well? What does this mean? I don't understand...</text>
+	</string>
+	<string id="shadows_quest_cube1">
+		<text>The Cube I had was a fake. Very well made, but still a fake...</text>
+	</string>
+	<string id="shadows_quest_cube2">
+		<text>So is there an original?</text>
+	</string>
+	<string id="shadows_quest_cube3">
+		<text>Most likely. Yes. I can even tell you where it was produced...</text>
+	</string>
+	<string id="shadows_quest_cube4">
+		<text>Thank you. This conversation is going in the right direction. I'm listening...</text>
+	</string>
+	<string id="shadows_quest_cube5">
+		<text>The project was very costly. I got to know a guy from the Cube team, Pavel Sergeevich. At the time I'd report to the authorities at Chernobyl Main Control. You probably heard that a second large sarcophagus would be built over the fourth reactor? Well, I was one of those who sent down into the reactor to assess and measure the radiation damage from the first explosion. This costume I'm wearing - the latest development from the American scientists - was supposed to withstand 'unprecedented and destructive' doses of radiation but, as usual, things didn't go according to plan.\nDuring the descent from the roof of the reactor building, the cable snapped and I fell the last six metres to the bottom of the sarcophagus. I landed badly, on top of all the old fuel rods. I could barely stand up but, with no cable, I knew that nobody was coming after me. They kept talking to me on my comms, said they were going outside the perimeter to get a new cable, but it was obvious I couldn't stay here, at the base of the reactor, even in this 'super' suit...</text>
+	</string>
+	<string id="shadows_quest_cube6">
+		<text>Go on...</text>
+	</string>
+	<string id="shadows_quest_cube7">
+		<text>I began to look for another way. Getting up a bit, I noticed a doorway piled up with sand. It was unlocked, and I forced it open. I ended up wandering the corridors of the underground, before finding a manhole to climb out through in Pripyat. I felt so dizzy I was staggering every few steps, so I knew I had first degree radiation sickness...\nFortunately it was raining heavily, so I lay down in the street and let it decontaminate me. I spent the rest of the night in the doorway of someone's home...\nThe next day I picked up a military detachment, which was accompanied by a few scientists. One of them I talked to was interested in my suit. As a result, they took me to the home of my new friend, Pavel. He lived in one of the high-rises in Pripyat, on the top floor. I remember there was a cinema next to it... His apartment was actually in very good condition, considering that the whole town had been looted, then occupied by the Monolith. Oh, and mutants too... Most likely it was one of the few habitable apartments left after the second explosion...\nAnyway, after examining me and my suit, I was offered a job in the laboratory in the city, but I refused - seeing as my work with the old one hadn't worked out so well...\nSoon after that I left Pavel's hospitality, since he barely had enough non-radiated food for himself\nShortly afterwards, I heard reports that his lab had been attacked by an unknown creature, with nearly everyone dead... An organized military unit went there, to track down the surviving scientists in Pripyat. Amongst them was Pavel but, soon after, he disappeared again, this time without a trace...\nI wanted to go looking for him myself, but I didn't know which area. I guess he's still stuck there somewhere...</text>
+	</string>
+	<string id="shadows_quest_cube8">
+		<text>Wow, that's a hell of a story... So how can we help each other?</text>
+	</string>
+	<string id="shadows_quest_cube9">
+		<text>While I was in Pavel's apartment for a few days, I noticed documents that described the Cube. Even the pictures were, well...\nMost likely they're still in his lab where it was created. Although after the second explosion, they were probably all destroyed... But I wonder there's any information still in his apartment? You need to go to Pripyat, don't you?\nI can't go back there. Not now. But if you were to, it would certainly help put my mind at rest...</text>
+	</string>
+	<string id="shadows_quest_cube10">
+		<text>Sure. Where's the apartment located?</text>
+	</string>
+	<string id="shadows_quest_cube11">
+		<text>In the eastern part of Pripyat, next to the cinema. The top floor. That large vine outside the window may still be there...</text>
+	</string>
+	<string id="shadows_quest_cube12">
+		<text>Okay, I'll go and see what I can find for you...</text>
+	</string>
+	<string id="shadows_quest_cube13">
+		<text>Excellent. I'll keep you informed through PDA messages. Just remember that others can read them too, and may also be interested in what you find...</text>
+	</string>
+	<string id="shadows_quest_cube14">
+		<text>Okay, but be as discrete as you can with your messages...</text>
+	</string>
+	<string id="shadows_final_cube_dialog0">
+		<text>Hi, I've been there...</text>
+	</string>
+	<string id="shadows_final_cube_dialog1">
+		<text>You did? What did you find? Anything about Pavel?</text>
+	</string>
+	<string id="shadows_final_cube_dialog2">
+		<text>I found his laboratory. It's the most horrible place I've seen in the Zone. There are still ghosts there. Mutants, too... I found the Cube, and you were right - it's a thing of terrible beauty. It works just as Pavel wrote. It looked like he was still holding on to it when he fell. I got the impression that, if not for him, it would have fallen right through the Zone...</text>
+	</string>
+	<string id="shadows_final_cube_dialog3">
+		<text>Was he still... alive?</text>
+	</string>
+	<string id="shadows_final_cube_dialog4">
+		<text>I'm afraid not. He'd been dead a long time. Immediately I got inside where his body was, there was a scream, and from the records I'd say it was the same spirit that destroyed the entire laboratory... But Pavel chose his fate. I'm sorry, but he was literally playing with death, and no one forced him to work alone in that lab...</text>
+	</string>
+	<string id="shadows_final_cube_dialog5">
+		<text>Shit! Shit! Damn! I just knew it'd come to this. He just kept on going back... Okay, did you bring any of those records with you? Documents, plans, any other information from the lab? And would you be happy to part with Pavel's diary? Naturally, I'd pay you for finding it...</text>
+	</string>
+	<string id="shadows_final_cube_dialog_yes_dnev">
+		<text>Yes, of course. Please take it...</text>
+	</string>
+	<string id="shadows_final_cube_dialog_no_dnev">
+		<text>No, I'd prefer to hang on to it for now</text>
+	</string>
+	<string id="shadows_final_cube_dialog_no_dnev_1">
+		<text>Okay. Maybe you have something else you found?</text>
+	</string>
+	<string id="shadows_final_cube_dialog_yes_dnev_1">
+		<text>Thank you for the diary - it means a lot to me. I want nothing to do with the Cube itself, so it looks like you're its new owner - although that's not the way it works... Just be careful with it. Do you have any other information you don't need?</text>
+	</string>
+	<string id="shadows_final_cube_dialog_as_plan">
+		<text>A plan of the Army Warehouses, with a lot of unknown markings...</text>
+	</string>
+	<string id="shadows_final_cube_dialog_pripyat">
+		<text>A map of East Pripyat, with Lab X-8 marked on it...</text>
+	</string>
+	<string id="shadows_final_cube_dialog_doc_x8">
+		<text>Other documents from Lab X-8...</text>
+	</string>
+	<string id="shadows_final_cube_dialog_not">
+		<text>No, nothing else...</text>
+	</string>
+	<string id="shadows_final_cube_dialog_aga">
+		<text>Thank you. Anything else?</text>
+	</string>
+	<string id="shadows_final_cube_dialog_yes_smotri">
+		<text>Yes, here...</text>
+	</string>
+	<string id="shadows_final_cube_dialog_aga_2">
+		<text>Okay...</text>
+	</string>
+	<string id="shadows_final_cube_dialog6">
+		<text>Okay, thank you. At least I've learned of Pavel, and I'm grateful to you for that. Now I must leave here for the perimeter, finally...</text>
+	</string>
+	<string id="shadows_final_cube_dialog7">
+		<text>May your roads be quiet ones. Farewell, my friend...</text>
+	</string>
+	<!-- FRAMEWORK Pripyat-->
+	<!--=============================Stalker Sanya at the door==================-->
+	<string id="alex_start_dialog0">
+		<text>Wow, still kickin', eh?</text>
+	</string>
+	<string id="alex_start_dialog1">
+		<text>Hi there... Are there many of you here?</text>
+	</string>
+	<string id="alex_start_dialog2">
+		<text>Just a few... When the Scorcher was switched off, we all rushed to the center. Now we've got a small base organized here...</text>
+	</string>
+	<string id="alex_start_dialog3">
+		<text>I see... Well, who's in charge?</text>
+	</string>
+	<string id="alex_start_dialog4">
+		<text>That'll be Formidable - he's on the floor above...</text>
+	</string>
+	<string id="alex_start_dialog5">
+		<text>Formidable? I see... Well, can I go inside?</text>
+	</string>
+	<string id="alex_start_dialog6">
+		<text>Of course. Come in. There're never enough guns in this place!</text>
+	</string>
+	<string id="alex_dialog_1_1">
+		<text>I talked with Formidable. He's a good guy, and very helpful...</text>
+	</string>
+	<string id="alex_dialog_1_2">
+		<text>Yes, he's totally dependable, and I'd rather have him on my side than the other. That's how he got his nickname...</text>
+	</string>
+	<string id="alex_dialog_1_3">
+		<text>I believe it. Thank you...</text>
+	</string>
+	<!--=============================Formidable==================-->
+	<string id="grozn_start_dialog0">
+		<text>Where did you come from, Stalker? What brings you here?</text>
+	</string>
+	<string id="grozn_start_dialog1">
+		<text>I'm headed north, but hadn't realized how lonely it'd be. I heard the music from your base and had to check it out. How long have you been here?</text>
+	</string>
+	<string id="grozn_start_dialog2">
+		<text>Just a short while... After the Scorcher shut down, we planned to go to Chernobyl. We heard there are Klondike artefacts there... But there was so much shit happening, we set up camp here in the meantime...</text>
+	</string>
+	<string id="grozn_start_dialog3">
+		<text>Is this all there is of you?</text>
+	</string>
+	<string id="grozn_start_dialog4">
+		<text>Almost immediately we broke through to Pripyat, we were attacked by a group of Monolith. They pinned us down by the bus station, so I suggested Hawaiian go east to the hotel, but he kept insisting that we had to get through the stadium to Chernobyl, so we parted ways. That left just Sanya, Sledgehammer, Sage, and myself...</text>
+	</string>
+	<string id="grozn_start_dialog5">
+		<text>So what happened next?</text>
+	</string>
+	<string id="grozn_start_dialog6">
+		<text>Well, when we approached the hotel we spotted some lunatic on a hill with a Gauss rifle. That thing'll give you the mother of all headaches... We couldn't touch him, and he took out three of our guys! Fucking bastard.  How the hell do they get these weapons?\nWe couldn't go any further, so we decided to pull back and regroup. We crossed the road in front of a sniper, turned into a neighborhood to the east, and came to the CCD. But we saw silhouettes in the building, probably more Monolith, so we carried on until we got to the Laundry...\nOh, and not far from here, in one of the courtyards, you'll find the Kamaz military on the move!</text>
+	</string>
+	<string id="grozn_start_dialog7">
+		<text>Woo, I'm glad I came across you first instead of them!</text>
+	</string>
+	<string id="grozn_start_dialog8">
+		<text>So, what exactly are you are looking for?</text>
+	</string>
+	<string id="grozn_start_dialog9">
+		<text>Any underground facilities, laboratories, anything like that. Do you know of any, and ways to get in?</text>
+	</string>
+	<string id="grozn_start_dialog10">
+		<text>Sorry, I've not heard anything. But when we searched the hospital area, north of the laundry, in one of the rooms were some torn maps of Pripyat. I think there was an underground facility marked on one of them. Sorry, but we were looking for trauma kits, not paperwork. Maybe they'll be of some use to you...</text>
+	</string>
+	<string id="grozn_start_dialog11">
+		<text>Thanks! I'll go take a look at this place...</text>
+	</string>
+	<!--=============================Sage==================-->
+	<string id="mydrec_start_dialog0">
+		<text>Hello, my friend. I congratulate you for finding your way here...</text>
+	</string>
+	<string id="mydrec_start_dialog1">
+		<text>Are you Sage?</text>
+	</string>
+	<string id="mydrec_start_dialog2">
+		<text>Yes, and I heard you were looking for someone...</text>
+	</string>
+	<string id="mydrec_start_dialog3">
+		<text>Well, word gets around fast! Do you mind if I get my breath back a little first?</text>
+	</string>
+	<string id="mydrec_start_dialog4">
+		<text>I'm sorry. My friend Sledgehammer just died...</text>
+	</string>
+	<string id="mydrec_start_dialog_jal">
+		<text>Oh. I'm really sorry to hear that. Would you like to drink to him?</text>
+	</string>
+	<string id="mydrec_start_dialog_vodka_go">
+		<text>Yes, let's do that...</text>
+	</string>
+	<string id="mydrec_start_dialog5">
+		<text>What a pity. He was a good friend. Too many good people die here. For no good reason...</text>
+	</string>
+	<string id="mydrec_start_dialog6">
+		<text>Yes, but there's nothing more we can do except honor them...</text>
+	</string>
+	<string id="mydrec_start_dialog7">
+		<text>So, what is it you wanted? Why are you here?</text>
+	</string>
+	<string id="mydrec_start_dialog8">
+		<text>Actually, I was looking for someone. A scientist named Pavel. Have you heard of him?</text>
+	</string>
+	<string id="mydrec_start_dialog9">
+		<text>Pavel, eh? Only rumors... I'm sick of rumors, with no coherent facts...</text>
+	</string>
+	<string id="mydrec_start_dialog10">
+		<text>So what do you do?</text>
+	</string>
+	<string id="mydrec_start_dialog11">
+		<text>Me? I repair stuff. I can make anything out of nothing, but there are limits. There's no spare parts here, and very few decent tools. It's like trying to cook without a stove. Nor ingredients. I'm thinking of checking out the neighborhood, and see if I can find anything useful or adaptable...</text>
+	</string>
+	<string id="mydrec_start_dialog12">
+		<text>When are you planning to go?</text>
+	</string>
+	<string id="mydrec_start_dialog13">
+		<text>Why do you ask? In a few days, maybe. I need to prepare. You never know what you'll find out there. Or what'll find you...</text>
+	</string>
+	<string id="mydrec_start_dialog_yes_nabor">
+		<text>I need to look around for some stuff. I can look out for tools while I'm at it...</text>
+	</string>
+	<string id="mydrec_start_dialog14">
+		<text>Well, that would be very helpful, and I could help you out in return. Since you've made it here, you probably know the area better than I do anyway...</text>
+	</string>
+	<string id="mydrec_start_dialog15_yes">
+		<text>Okay</text>
+	</string>
+	<string id="mydrec_start_dialog15_no">
+		<text>Actually, I changed my mind...</text>
+	</string>
+	<string id="mydrec_start_dialog_no_nabor">
+		<text>Right. I'll start looking...</text>
+	</string>
+	<string id="mudrec_instruments0">
+		<text>I'll see if I can find any tools for you</text>
+	</string>
+	<string id="mudrec_instruments1">
+		<text>What? Have you changed your mind again?</text>
+	</string>
+	<string id="mudrec_instruments2">
+		<text>Yes, you could say that...</text>
+	</string>
+	<string id="mudrec_instruments_prines0">
+		<text>Here are some tools I found...</text>
+	</string>
+	<string id="mudrec_instruments_prines1">
+		<text>Wow! These are superb! You've done really well. Right, let's have a look at your kit so I can try out my new toys. This should be fun...\nLook, a good job takes time to do properly, so feel free to avail yourself of our facilities for a few days</text>
+	</string>
+	<string id="mudrec_instruments_prines2">
+		<text>Okay, but I'd appreciate it if you could speed it up a little...</text>
+	</string>
+	<!-- TRADING FOOD WITH COLD -->
+	<string id="holod_dmx_food1">
+		<text>May I do an exchange with you?</text>
+	</string>
+	<string id="holod_dmx_food2">
+		<text>Certainly! I exchange certain consumables for others. For a small commission, of course...</text>
+	</string>
+	<string id="holod_sigaret">
+		<text>I'm looking for Death's Head cigarettes</text>
+	</string>
+	<string id="holod_sigaret1">
+		<text>I can give you a pack, in exchange for two packs of Dream cigarettes, or three Cigars</text>
+	</string>
+	<string id="holod_sigaret_mechta">
+		<text>Here are the cigarettes</text>
+	</string>
+	<string id="holod_sigaret_sigara">
+		<text>Here are the cigars</text>
+	</string>
+	<string id="holod_vodka">
+		<text>I need some Cossacks vodka</text>
+	</string>
+	<string id="holod_vodka1">
+		<text>Either two bottles of Absolut, or one bottle of Smirnov plus 100Ru</text>
+	</string>
+	<string id="holod_2_absol">
+		<text>Here's two bottles of Absolut</text>
+	</string>
+	<string id="holod_smirnov_and_many">
+		<text>Here, take the Smirnov, and the money</text>
+	</string>
+	<string id="holod_kolbasa">
+		<text>I'd like a Doctor's Sausage, please</text>
+	</string>
+	<string id="holod_kolbasa1">
+		<text>Either two sticks of standard sausage, or one bottle of Chernigov beer</text>
+	</string>
+	<string id="holod_kolbasa_doctor">
+		<text>Here, take the sausage sticks</text>
+	</string>
+	<string id="holod_chernigov">
+		<text>Here, take the beer</text>
+	</string>
+	<string id="holod_no_barter">
+		<text>Sorry, no deal...</text>
+	</string>
+	<string id="holod_barter_text_pda">
+		<text>Cold's deals:\n \nOne pack of Death's Head cigarettes - for two packs of Dream cigarettes, or three cigars;\n \nOne bottle of Cossacks vodka - for two bottles of Absolut, or one bottle of Smirnoff plus 100Ru;\n \nOne Doctor's Sausage - for two standard sausages, or one bottle of Chernigov beer...</text>
+	</string>
+	<!-- INTRODUCTORY DIALOGUE WITH COLD-->
+	<string id="holod_start_dialog0">
+		<text>Hello, Stalker. How can I help you?</text>
+	</string>
+	<string id="holod_start_dialog1">
+		<text>Hello. I heard that you were the Bartender in these parts. Any chance of a drink?</text>
+	</string>
+	<string id="holod_start_dialog2">
+		<text>Yes, I would be the Bartender. I see that you're not just wandering for the sake of it. We don't see many Loners here in the Swamplands. We're more used to Bandits, and travelling Avengers looking to trade.\nA drink? Sure thing - have some vodka on the house! Sit down, let's chat...</text>
+	</string>
+	<string id="holod_start_dialog_nem">
+		<text>Nemiroff...</text>
+	</string>
+	<string id="holod_start_dialog_abs">
+		<text>Absolut...</text>
+	</string>
+	<string id="holod_start_dialog_smir">
+		<text>Smirnov...</text>
+	</string>
+	<string id="holod_start_dialog_history">
+		<text>It used to be much quieter here. Trails were safe, and people could come and go as they pleased. Not the type of place you'd bring a date to, the Swamps, but life was good... But just like everywhere else in the Zone, the emissions, the anomalies, the crime, it all changed. Folks left home to find their fortune in the Zone, only to return totally broken. But here, out in the sticks, we've managed to survive. And it will get better, somehow...</text>
+	</string>
+	<string id="holod_start_dialog3">
+		<text>And you then, yourself, what's your story?</text>
+	</string>
+	<string id="holod_start_dialog4">
+		<text>There was no place for me in that world. So, I made a life for myself here. It was hard going, but I managed. The Clear Sky Faction needed a Trader, and I fit that role. It has been good, so far. As long as I can provide them with the goods they need, they will keep me fed, and maybe someday I will settle here for good. That would be nice. By the way, they call me Cold.</text>
+	</string>
+	<string id="holod_start_dialog5">
+		<text>Yeah, you guys seem to have a good thing going here, what could go wrong?!</text>
+	</string>
+	<string id="holod_start_dialog6">
+		<text>We are protected from any unwanted visitors by a Teleport. They cannot enter it. But, as you can see, our Base is a modest, romantic farm in the middle of these vast wetlands. We are the last, all the rest have been overrun by Outsiders, like yourself. This is somewhere you can meet real people. Those who don't shoot you on sight, and who would share what they have with you, understand?!</text>
+	</string>
+	<string id="holod_start_dialog_over">
+		<text>Thank you for the information. I'll have a good look around.</text>
+	</string>
+	<!-- !!!!TB3D new 134 ============================================================-->
+	<!-- TALK ABOUT U SIDOROVICH Armor-->
+	<string id="sidorovich_outfit_blockpost_dialog0">
+		<text>Wow, I got the Military armor...</text>
+	</string>
+	<string id="sidorovich_outfit_blockpost_dialog1">
+		<text>Excellent. Now, most likely warriors believe that you are the one colonel. Karoche, the military is waiting for you Uazik near the farm, south of the broken bridge... Go...</text>
+	</string>
+	<string id="sidorovich_outfit_blockpost_dialog2">
+		<text>Clear.</text>
+	</string>
+	<!-- CONDUCTOR-->
+	<string id="kombat_start0">
+		<text>Oh, another new face...</text>
+	</string>
+	<string id="kombat_start1">
+		<text>Hello. Do you own one?</text>
+	</string>
+	<string id="kombat_start2">
+		<text>And you care about it a lot?</text>
+	</string>
+	<string id="kombat_start3">
+		<text>Yes, in fact not very... Just wondering.</text>
+	</string>
+	<string id="kombat_start4">
+		<text>If interested, I would say. I - conductor. I drive people to their places of interest. Can you and somewhere to reduce... Not for free of course...</text>
+	</string>
+	<string id="kombat_start5">
+		<text>Yes, I'll still do not know... How can I be sure that you do not shoot me in the back as soon as possible and not zaberesh swag?</text>
+	</string>
+	<string id="kombat_start6">
+		<text>My dear, I have many who know his reputation, I cherish. I taught myself Explorer ferret out safe paths and trust "sixth sense". Throughout my practice, there was no overlap. All clients are alive and well, at least after my delivery of them in place. Heh-heh. Karoche you something concrete to?</text>
+	</string>
+	<string id="kombat_start7">
+		<text>While there is no vprintsepi. But if you need you, will turn.</text>
+	</string>
+	<string id="kombat_start8">
+		<text>Immediately tell - I drive to where my client was at least once. Or if he has some important job in the locality. Perhaps you will say - but then why all the conductors, if you can get yourself? And then, what do they know much shorter and safer paths. And walk with a guide can garazdo faster than its own. In any case, it's you.</text>
+	</string>
+	<string id="kombat_start9">
+		<text>I realized.</text>
+	</string>
+	<!-- Tote has SUSLOVA-->
+	<string id="totalizator_0">
+		<text>I've heard of an underground sweepstake in this area. I have funds I'm prepared to invest, if you know what I mean...</text>	<!-- Changed 'Suslov' to 'Syslov'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="totalizator_1">
+		<text>Well there is such a thing here, but remember you're paying for the excitement, the luck of the draw: you can bet 50Ru and win 500, or bet 500Ru and win 50. Either way you've got to pay your debts, and these swamps are full of guys who didn't. That's what happens when you get, you know, carried away...</text>
+	</string>
+	<string id="totalizator_2">
+		<text>I see. He who doesn't pay the piper gets a bullet in the head... So, where do I find the bookmaker?</text>
+	</string>
+	<string id="totalizator_3">
+		<text>You're looking at him...</text>
+	</string>
+	<string id="totalizator_4">
+		<text>Okay, what are the rules?</text>
+	</string>
+	<string id="totalizator_5">
+		<text>Your initial bid climbs and will not be refunded. Whether you win or lose I'll inform you over the Stalker network. You might go into debt, and I'll expect it back. You can play while in debt, but the debt will then be considered a loan, and accrue compound interest every 12 hours. If you win you can leave the money with me for safekeeping, and I'll give you a good percentage in interest. Finally, you can make as many initial bids as you want, and anything you make or lose on the initial bet will go into your account, to go into the next draw. Clear?</text>
+	</string>
+	<string id="totalizator_6">
+		<text>Okay, I agree. What odds?</text>
+	</string>
+	<string id="totalizator_7">
+		<text>Odds? The odds, my friend, change like the wind on the Pripyat River. Even I don't know what they'll be today. That's what makes it so compelling...</text>
+	</string>
+	<string id="totalizator_8">
+		<text>Bid: 100Ru</text>
+	</string>
+	<string id="totalizator_9">
+		<text>Bid: 500Ru</text>
+	</string>
+	<string id="totalizator_10">
+		<text>Bid: 1,000Ru</text>
+	</string>
+	<string id="totalizator_11">
+		<text>Bid: 1,500Ru</text>
+	</string>
+	<string id="totalizator_12">
+		<text>Bid: 2,000Ru</text>
+	</string>
+	<string id="totalizator_13">
+		<text>Bid: 2,500Ru</text>
+	</string>
+	<string id="totalizator_14">
+		<text>Bid: 3,000Ru</text>
+	</string>
+	<string id="totalizator_15">
+		<text>Bid: 3,500Ru</text>
+	</string>
+	<string id="totalizator_16">
+		<text>Bid: 4,000Ru</text>
+	</string>
+	<string id="totalizator_17">
+		<text>Bid: 5,000Ru</text>
+	</string>
+	<string id="totalizator_18">
+		<text>Cancel bid</text>
+	</string>
+	<string id="totalizator_19">
+		<text>Everything's okay - your bid is accepted. Now please wait for the message. Good luck, dude!</text>
+	</string>
+	<string id="totalizator_20">
+		<text>Okay, I'll go...</text>
+	</string>
+	<string id="totalizator_21">
+		<text>You Labelled with oak fell chtoli? You've got more than a hundred pieces, and you are prohibited from making bids. Come on tomatoes moving away.</text>
+	</string>
+	<string id="totalizator_22">
+		<text>The evil you...</text>
+	</string>
+	<string id="give_prize_0">
+		<text>I'm good. I'd like to check my winnings, please...</text>	<!-- Changed 'Suslov' to 'Syslov'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="give_prize_1">
+		<text>Okay. Let's see what's owed to you...</text>
+	</string>
+	<string id="give_prize_2">
+		<text>Any problems?</text>
+	</string>
+	<string id="give_prize_3">
+		<text>I'm just sending you the information now...</text>
+	</string>
+	<string id="give_prize_4">
+		<text>Withdraw your winnings</text>
+	</string>
+	<string id="give_prize_5">
+		<text>Leave your winnings as a deposit</text>
+	</string>
+	<string id="give_dolg_0">
+		<text>Syslov - this is payback came to give.</text>	<!-- Changed 'Suslov' to 'Syslov'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="give_dolg_1">
+		<text>Okay - debt for you no more. Single.</text>
+	</string>
+	<string id="take_deposit_0">
+		<text>Withdraw your winnings</text>
+	</string>
+	<string id="take_deposit_1">
+		<text>Choose how much you want to withdraw</text>
+	</string>
+	<string id="take_deposit_2">
+		<text>Withdraw 10% of the total</text>
+	</string>
+	<string id="take_deposit_3">
+		<text>Withdraw half of the total</text>
+	</string>
+	<string id="take_deposit_4">
+		<text>Withdraw the entire amount</text>
+	</string>
+	<string id="take_deposit_5">
+		<text>Here's your money...</text>
+	</string>
+	<string id="take_deposit_6">
+		<text>Thanks for taking care of it...</text>	<!-- Changed 'Suslov' to 'Syslov'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="news_1">
+		<text>Looks like it's not your lucky day, Marked One. Either bid again or don't play - MNT zero gain...</text>
+	</string>
+	<string id="news_2">
+		<text>Win 50Ru</text>
+	</string>
+	<string id="news_3">
+		<text>Win 100Ru</text>
+	</string>
+	<string id="news_4">
+		<text>Win 500Ru</text>
+	</string>
+	<string id="news_5">
+		<text>Win 1,000Ru</text>
+	</string>
+	<string id="news_6">
+		<text>Win 1,500Ru</text>
+	</string>
+	<string id="news_7">
+		<text>Win 2,000Ru</text>
+	</string>
+	<string id="news_8">
+		<text>Win 2,500Ru</text>
+	</string>
+	<string id="news_9">
+		<text>Win 5,000Ru</text>
+	</string>
+	<string id="news_10">
+		<text>Win 10,000Ru</text>
+	</string>
+	<string id="news_11">
+		<text>Win 20,000Ru</text>
+	</string>
+	<string id="news_12">
+		<text>Win 30,000Ru</text>
+	</string>
+	<string id="news_13">
+		<text>Win 40,000Ru</text>
+	</string>
+	<string id="news_14">
+		<text>Win 50,000Ru</text>
+	</string>
+	<string id="news_15">
+		<text>Jackpot! You win 100,000Ru!</text>
+	</string>
+	<string id="dolg_1">
+		<text>Labeled here you asked about dolzhka...\nYou would have looked, and gave - a penny remained the same.</text>
+	</string>
+	<string id="dolg_2">
+		<text>Aya-ay I'm tagging, then the term has passed, and you do not bring a payback in a hurry. Let's hurry up.</text>
+	</string>
+	<string id="dolg_3">
+		<text>And what does it mean Spot? You have given time?\nDali. The term came out - Dui here with money.</text>
+	</string>
+	<string id="dolg_4">
+		<text>So, so tagging, so we love to play, but give no debts.\nIt is not good. Even vice-versa - it is bad. Hands for this tear is necessary. Understood?</text>
+	</string>
+	<string id="dolg_5">
+		<text>Labelled you even brazen. What the hell are you I ask you carry no debt?\nThen the guys came and promised to cut you to the British flag, and what's left - the flesh to feed. Come see me alive.</text>
+	</string>
+	<string id="dolg_6">
+		<text>I do not understand human. We like dogovarilivalis?\nDuty for three days - and no, "but I could not, I'm sorry".\nDo what you want, but the debt is returned immediately. Otherwise - you kranty.</text>
+	</string>
+	<string id="dolg_7">
+		<text>Come quickly labeled on the base 'Pure Heaven' by Syslov.\nYou expect'... On the bottle. Otherwise, blame yourself - axe is sharpened.</text>	<!-- Changed 'Suslov' to 'Syslov'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="dolg_8">
+		<text>Well, you and Spot pig - you're a bitch I expose that money do not give.\nIf the evening did not bring back the debt - the entrance to the base you will be closed forever.</text>
+	</string>
+	<string id="dolg_9">
+		<text>Last warning Chinese Spot:\nall the time went, and you even lifted a finger!\nYes, you will enscribe, if you loot will not come back.</text>
+	</string>
+	<string id="dolg_10">
+		<text>Tagged - you're dead...</text>
+	</string>
+	<!-- added 109919 -->
+	<string id="net_pda">
+		<text>netpacket PDA</text>
+	</string>
+	<string id="desc_net_pda">
+		<text>Please keep your hands off this device!</text>
+	</string>
+	<string id="bolt_pda">
+		<text>Bolt's PDA</text>
+	</string>
+	<string id="desc_bolt_pda">
+		<text>Bolt's PDA. Contains extremely damning information about the activities of certain individuals...</text>
+	</string>
+	<string id="sci_flash">
+		<text>Scientist's flash drive</text>
+	</string>
+</string_table>

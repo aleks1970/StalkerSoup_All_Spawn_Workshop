@@ -1,0 +1,17 @@
+<!--TB3D 1.1.0.0.1.3 new removed meds to not help fox -->
+<supplies>
+	[spawn] \n
+	wpn_vintorez = 1, 1, 1, 0 \n
+	ammo_9x39_ap = 1 \n
+	<!-- medkit_scientic \n -->
+	ammo_5.45x39_fmj = 2, prob = 0.05 \n
+	ammo_12.7x108 = 2, prob = 0.03 \n
+	ammo_5.56x45_ap = 2, prob = 0.05 \n
+	ammo_9x39_pab9 = 2, prob = 0.03 \n
+	ammo_12x70_buck = 2, prob = 0.05 \n
+	<!-- medkit = 1, prob = 0.05 \n
+	medkit_army = 1, prob = 0.04 \n
+	bandage_dmx = 1, prob = 0.05 \n
+	yadulin = 1, prob = 0.01 \n -->
+	cigara = 1, prob = 0.01 \n
+</supplies>

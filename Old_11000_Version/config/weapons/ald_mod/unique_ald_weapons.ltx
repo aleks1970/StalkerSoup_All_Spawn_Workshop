@@ -1,0 +1,125 @@
+;;;; TB3D 1.0.9.9.9.8 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[wpn_ump45_m1]:wpn_ump45
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                  = "ALD-weapons\unique_ALD-wepons\wpn_ump45_m1"	; option for Level Editor
+$npc			 		= off				; option for Level Editor
+$prefetch 		 		= 8
+scheduled               = off              ; option for ALife Simulator
+cform                   = skeleton
+class                   = WP_LR300
+min_radius              = 0
+max_radius              = 200
+description				= enc_weapons1_wpn_ump45_Taktikal
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0		       ; how many times the increase eye_range
+holder_fov_modifier		= 0.7              ; how many times the increase eye_fov
+;-----------------------------------------------------------------------------------
+
+
+cost					= 6200
+
+ammo_limit		 		= 210
+ammo_current			= 60
+ammo_elapsed		 	= 45
+
+ammo_mag_size		 	= 45
+ammo_class		 		= ammo_11.43x23_fmj, ammo_11.43x23_hydro
+fire_modes				= 1, 2, 3, -1
+
+hand_dependence		 	= 1
+single_handed			= 0
+
+inv_name				= wpn_ump45_Taktik
+inv_name_short			= wpn_ump45_Taktik_s
+inv_weight				= 2.5
+
+inv_grid_width			= 4
+inv_grid_height			= 2
+inv_grid_x				= 78
+inv_grid_y				= 31
+
+
+slot 					= 1		; // secondary
+animation_slot			= 2		; type of the animation that will be used
+
+;-----------------------------------------------------------------------------------
+
+fire_dispersion_base		= 0.02
+control_inertion_factor		= 1.07f
+direction               = 0, 0, 1
+
+fire_point              = 0.0, 0.188, 0.392
+
+
+shell_point		 		= 0.0, 0.188, 0.082
+shell_dir		 		= 0.0, 1.0, 0.0
+
+rpm_empty_click 	 	= 200
+
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 		= 0.8
+PDM_disp_accel_factor 		= 0.8
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+; ttc
+hit_power        	= 2.12
+hit_impulse		 	= 140
+hit_type 			= fire_wound
+
+fire_distance          	= 100					;;;109974 10:1
+bullet_speed		= 390 
+rpm                     = 720
+; end ttc
+
+use_aim_bullet				= true		;Поддерживается ли первая супер пуля
+time_to_aim					= 1.0	
+
+silencer_hit_power       	= 1.65	
+silencer_hit_impulse	 	= 140
+silencer_fire_distance   	= 85					;;;109974 10:1
+silencer_bullet_speed	 	= 340
+
+
+ph_mass			 		= 3
+
+;addons
+scope_status			= 1        ; 0 - нет аддона, 1 - встроенный, 2 - можно поставить
+silencer_status			= 1
+grenade_launcher_status	= 0
+
+scope_name 				= wpn_addon_optik			; section name for the attachable scope
+scope_x 					= 64						; offset in inventory icon
+scope_y 					= -2
+scope_texture			    = wpn\crosshair\wpn_eotech2
+silencer_name  				= wpn_9mm_nato_silencer
+silencer_x 					= 160
+silencer_y 					= 8
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+zoom_enabled			= true
+scope_zoom_factor	    = 70
+
+;;;;;;;;;;;;;;;;;;;;;;звуки;;;;;;;;;;;;;;;;;;;;;;;;;
+snd_draw			= weapons\ump45\draw
+snd_holster			= weapons\ump45\holster
+snd_shoot			= weapons\ump45\sil_shot
+snd_shoot1			= weapons\ump45\sil_shot
+snd_shoot2			= weapons\ump45\sil_shot
+snd_shoot3			= weapons\ump45\sil_shot   
+snd_empty			= weapons\ump45\empty
+snd_reload			= weapons\ump45\reload
+snd_silncer_shot	        = weapons\ump45\sil_shot
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

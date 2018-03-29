@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.4 updated to 134, removed "string_table" - aleks1970 -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 22 Jan 16 -->
+<!-- Changed all instances of 'Sprinting' to 'Running' - Sword2012. 16 Feb 17 -->
+	<string id="binoc_tutorial">
+		<text>To use your binoculars, select them ($$ACTION_wpn_5$$) and press your fire button to raise them</text>
+	</string>
+	<string id="binocular">
+		<text>Binoculars</text>
+	</string>
+	<string id="item_binocular">
+		<text>Binoculars</text>
+	</string>
+	<string id="crouch">
+		<text>Crouching</text>
+	</string>
+	<string id="crouch_down_tutorial">
+		<text>To crouch down low, to avoid being seen, or manoeuvre under low obstructions, press ($$ACTION_crouch$$) + (Shift)</text>
+	</string>
+	<string id="crouch_tutorial">
+		<text>In order to crouch, to move low and quietly, press ($$ACTION_crouch$$). To sit down press ($$ACTION_crouch$$) + ($$ACTION_accel$$).</text>
+	</string>
+	<string id="hide_weapon">
+		<text>Holstering weapons</text>
+	</string>
+	<string id="hide_weapon_tutorial">
+		<text>Stalkers usually take offence at idiots who point their weapon at them. To holster your weapon, press ($$ACTION_wpn_6$$)</text>
+	</string>
+	<string id="jump">
+		<text>Jumping</text>
+	</string>
+	<string id="jump_tutorial">
+		<text>Jumping helps you climb onto or over things. To jump, press ($$ACTION_jump$$)</text>
+	</string>
+	<string id="move_tutorial">
+		<text>Moving safely</text>
+	</string>
+	<string id="overload">
+		<text>Overloading</text>
+	</string>
+	<string id="overload_tutorial">
+		<text>You can only carry so much weight. Keep your baggage low, and you can run with ease. The more you carry, the more rapidly you'll lose stamina, reducing you to a walking pace. Carry too much, and you'll find yourself unable to move at all</text>
+	</string>
+	<string id="radiation">
+		<text>Radiation</text>
+	</string>
+	<string id="radiation_tutorial">
+		<text>When you're in an area with a high level of background radiation, or touch something radioactive, or carry radioactive artefacts; unless you're wearing or carrying protection, you'll exhibit signs of radiation poisoning, and your health will diminish. To counter this, you can take antirad medication or, at a push, vodka, which has its own well-known side effect...</text>
+	</string>
+	<string id="relation">
+		<text>Relations and reputation</text>
+	</string>
+	<string id="relation_tutorial">
+		<text>When you help somone, your relationship with them improves, along with your reputation in general. Recognising a good reputation, dealers will usually sell you goods at a discount. If your reputation is poor, then expect to pay higher prices...</text>
+	</string>
+	<string id="sleep_tutorial">
+		<text>This is an established safe area recommended by other Stalkers. You can sleep here, wait overnight, or simply rest until an appointed hour. Just set the time on your 'alarm clock' to sleep for a specified time, although you'll always be woken by a Blowout. In this event, you should usually be safe staying where you are. These areas are often conducive to lucid dreaming. There are rumors of Stalkers having died in their sleep, usually through not having paid enough attention to their wounds, their radiation levels, and their state of nourishment before losing consciousness...</text>
+	</string>
+	<string id="sprint">
+		<text>Running</text>
+	</string>
+	<string id="sprint_tutorial">
+		<text>Running can save your life, and there is no shame in this. Press ($$ACTION_sprint_toggle$$). While running you'll be able to jump higher, but you won't be able to fire a weapon, and you'll tire more quickly...</text>
+	</string>
+	<string id="starvation_tutorial">
+		<text>If you don't eat regularly, you'll obviously become hungry and tired, slowing your pace. If you go without food for too long, your health will slowly decrease. Although there's plenty of food in the Zone, brought in by traders, your biggest problem will be finding it if you're a long way from a trading post. Hunting an animal may yield something edible if you're lucky. You can also appease your hunger for a while with drugs or meds...</text>
+	</string>
+	<string id="tutorial">
+		<text>Survival manual</text>
+	</string>
+	<string id="weakness">
+		<text>Tiredness</text>
+	</string>
+	<string id="weakness_tutorial">
+		<text>If you're running, or heavily weighed down, you'll become tired and your pace will slow. If you're exhausted you'll need to stay still for a few seconds, since you'll not be able to move at all until you get your breath back...</text>
+	</string>
+	<string id="weapon">
+		<text>Weapon condition</text>
+	</string>
+	<string id="weapon_tutorial">
+		<text>Over time, every weapon will degrade in power and reliability through use. The worse its condition, the higher its tendency will be to jam. To release a trapped round, you'll need to reload ($$ACTION_wpn_reload$$). As your weapon condition deteriorates still further through wear, you take the risk of it actually exploding on you. Many complacent Stalkers have been lost to the Zone, or disfigured for life, by a weapon blowing up in their face...</text>
+	</string>
+	<string id="wound">
+		<text>Open wounds</text>
+	</string>
+	<string id="wound_tutorial">
+		<text>Lacerations caused within the Zone almost always cause bleeding, resulting in an immediate threat to health. Hence your blood loss indicator (Green - slight bleeding, Yellow - serious blood loss, Red - severe blood loss) showing you how fast you'll die. In time, natural clotting and coagulation will staunch your blood loss if it's not too copious, but medkits and bandages will do the job much faster...</text>
+	</string>
+	<string id="pda_diary_tutorial">
+		<text>Many, many Stalkers, both rookie and experienced, have met their ends having discovered, quite suddenly, the laws governing the appearance, movements, and properties of dangerous anomalies. You'll find the information to which they've posthumously contributed in the 'Encyclopedia' section of your PDA</text>
+	</string>

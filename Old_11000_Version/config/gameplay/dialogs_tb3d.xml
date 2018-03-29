@@ -1,0 +1,2715 @@
+<!-- ************ TB3D 1.1.0.0.1.7 tweed in ds, baldy, karin and dd_inform, tractorist, predbannik_barman,
+ more content, barman, sid, glavny_dialog_3, coll_bandit dialogs, scarecrow_ax_dialog -->
+<game_dialogs>
+
+	<!--  ZEP - Zone Expansion Project, 24 documents  -->
+	<dialog id="tb3d_zep_start">								<!-- ZEP 1: sid's first dialog -->
+		<has_info>tb3d_collector</has_info>
+		<dont_has_info>tb3d_start_zep</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sid_zep1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>sid_zep1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>sid_zep1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>sid_zep1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>sid_zep1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>sid_zep1_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>sid_zep1_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>sid_zep1_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>sid_zep1_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>sid_zep1_9</text>
+				<give_info>tb3d_start_zep</give_info>
+				<action>tb3d_dialog.open_dv_to_ds</action>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>sid_zep1_10</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- Cordon -->
+	<dialog id="sid_dialog_zep3">									<!-- ZEP 3: return to Sid  -->
+		<dont_has_info>sid_zep2_start</dont_has_info>
+		<has_info>tweed_zep1_start</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sid_dialog_zep2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>sid_dialog_zep2_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>sid_dialog_zep2_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>sid_dialog_zep2_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>sid_dialog_zep2_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>sid_dialog_zep2_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>sid_dialog_zep2_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>sid_dialog_zep2_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>sid_dialog_zep2_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>sid_dialog_zep2_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>sid_dialog_zep2_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>sid_dialog_zep2_11</text>
+				<give_info>sid_zep2_start</give_info>
+				<action>tb3d_dialog.sid_give_weapon</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="tb3d_sid_storm_dialog">									<!-- during storm -->
+		<has_info>tb3d_sms_storm</has_info>
+		<dont_has_info>tb3d_sms_storm_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tb3d_sid_storm_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tb3d_sid_storm_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>tb3d_sid_storm_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>tb3d_sid_storm_3</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="tb3d_sid_after_dialog">									<!-- after storm -->
+		<has_info>tb3d_sms_storm_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tb3d_sid_after_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tb3d_sid_after_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>tb3d_sid_after_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>tb3d_sid_after_3</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- ============================ TWEED DIALOGS =============================  -->
+	<dialog id="tweed_dialog_zep2">										<!--  ZEP 2: Darkscape tweed in farmhouse  -->
+		<has_info>tb3d_start_zep</has_info>
+		<dont_has_info>tweed_zep1_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tweed_dialog_zep1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tweed_dialog_zep1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>tweed_dialog_zep1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>tweed_dialog_zep1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>tweed_dialog_zep1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>tweed_dialog_zep1_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>tweed_dialog_zep1_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>tweed_dialog_zep1_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>tweed_dialog_zep1_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>tweed_dialog_zep1_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>tweed_dialog_zep1_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>tweed_dialog_zep1_11</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>tweed_dialog_zep1_12</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="13">
+				<text>tweed_dialog_zep1_13</text>
+				<next>14</next>
+				<next>15</next>
+			</phrase>
+			<phrase id="14">
+				<text>tweed_dialog_zep1_14</text>
+				<give_info>tweed_zep1_start</give_info>
+				<action>tb3d_dialog.spawn_zep_0</action>
+			</phrase>
+			<phrase id="15">
+				<text>tweed_dialog_zep1_15</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="tweed_dialog_zep4">											<!--  weapon: return to Tweed  -->
+		<precondition>tb3d_dialog.tweed_weapon_have</precondition>
+		<dont_has_info>tweed_zep2_start</dont_has_info>
+		<has_info>sid_zep2_start</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tweed_dialog_zep4_0</text>
+				<action>tb3d_dialog.tweed_weapon_done</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tweed_dialog_zep4_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>tweed_dialog_zep4_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>tweed_dialog_zep4_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>tweed_dialog_zep4_4</text>
+				<give_info>tweed_zep2_start</give_info>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>tweed_dialog_zep4_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!--  found the book in old bar and finally returning it: reward is access to firing range  -->
+	<dialog id="tweed_dialog_zep1">
+		<precondition>tb3d_dialog.tweed_book_have</precondition>
+		<dont_has_info>tweed_zep1_done</dont_has_info>
+		<has_info>tweed_zep1_start</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tweed_dialog_zep3_0</text>
+				<action>tb3d_dialog.tweed_book_done</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tweed_dialog_zep3_1</text>
+				<action>tb3d_dialog.open_ds_to_fr</action>
+				<give_info>tweed_zep1_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="tweed_dialog_zep5">										<!--  ZEP 5 Tweed after trip to firing range  -->
+		<dont_has_info>tweed_zep3_start</dont_has_info>
+		<has_info>tweed_zep2_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tweed_dialog_zep5_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tweed_dialog_zep5_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>tweed_dialog_zep5_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>tweed_dialog_zep5_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>tweed_dialog_zep5_4</text>
+				<give_info>tweed_zep3_start</give_info>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>tweed_dialog_zep5_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<!--  ======================= BARMAN DIALOGS ==========================   -->
+	<dialog id="barman_dialog_zep1">												<!-- ZEP 6: barman about stranger -->
+		<has_info>zep00_have</has_info>
+		<dont_has_info>barman_zep1_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>barman_zep1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>barman_zep1_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>barman_zep1_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>barman_zep1_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>barman_zep1_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>barman_zep1_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>barman_zep1_10</text>
+				<give_info>barman_zep1_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="barman_dialog_zep2">												<!-- follow up after talk to dolg and associate -->
+		<has_info>associate_zep1_start</has_info>
+		<has_info>voronin_zep1_start</has_info>
+		<dont_has_info>barman_zep2_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep2_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep2_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep2_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>barman_zep2_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>barman_zep2_5</text>
+				<action>tb3d_dialog.open_bar_to_ww</action>
+				<give_info>barman_zep2_start</give_info>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>barman_zep2_6</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="barman_dialog_zep3">												<!-- if talked to tweed  -->
+		<has_info>tweed_zep1_start</has_info>
+		<dont_has_info>barman_zep3_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep3_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep3_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep3_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep3_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>barman_zep3_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>barman_zep3_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>barman_zep3_6</text>
+				<give_info>barman_zep3_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="barman_dialog_zep4a">												<!-- back from research station  -->
+		<has_info>zep12_have</has_info>
+		<dont_has_info>zep13_have</dont_has_info>
+		<dont_has_info>barman_zep4_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep4a_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep4a_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep4a_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep4a_3</text>
+				<give_info>barman_zep4_start</give_info>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>barman_zep4a_4</text>
+				<!--action>dialogs.break_dialog</action-->
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="barman_dialog_zep4b">												<!-- already been to wild  -->
+		<has_info>zep13_have</has_info>
+		<dont_has_info>zep14_have</dont_has_info>
+		<dont_has_info>barman_zep4_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep4a_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep4a_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep4b_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep4b_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>barman_zep4b_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>barman_zep4b_5</text>
+				<give_info>barman_zep4_start</give_info>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>barman_zep4b_6</text>
+				<!--action>dialogs.break_dialog</action-->
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="barman_dialog_zep5a">												<!-- has book, has not seen tweed  -->
+		<dont_has_info>tb3d_x14_done</dont_has_info>
+		<has_info>tweed_book_have</has_info>
+		<dont_has_info>tweed_zep1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep5a_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep5a_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep5a_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep5a_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>barman_zep5a_4</text>
+				<!--action>dialogs.break_dialog</action-->
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="barman_dialog_zep5b">												<!-- after zep24, already seen tweed  -->
+		<dont_has_info>tb3d_x14_done</dont_has_info>
+		<has_info>tweed_zep1_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep5a_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep5a_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep5b_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep5b_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>barman_zep5b_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>barman_zep5b_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>barman_zep5b_6</text>
+				<!--action>dialogs.break_dialog</action-->
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="barman_dialog_zep6">												<!-- don't have suit, comment about the storm -->
+		<has_info>tb3d_sms_storm</has_info>
+		<dont_has_info>tb3d_sms_storm_over</dont_has_info>
+		<dont_has_info>tb3d_got_lanky_suit</dont_has_info>
+		<dont_has_info>tb3d_lanky_suit_talk</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep6_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep6_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep6_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep6_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>barman_zep6_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>barman_zep6_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>barman_zep6_6</text>
+				<!--action>dialogs.break_dialog</action-->
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="barman_dialog_zep7">												<!-- has suit, comment about the storm -->
+		<has_info>tb3d_sms_storm</has_info>
+		<dont_has_info>tb3d_sms_storm_over</dont_has_info>
+		<has_info>tb3d_got_lanky_suit</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep7_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep7_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep7_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep7_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>barman_zep7_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>barman_zep7_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>barman_zep7_6</text>
+				<!--action>dialogs.break_dialog</action-->
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="barman_dialog_zep8">												<!-- after the storm -->
+		<has_info>tb3d_sms_storm_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep8_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep8_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep8_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep8_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>barman_zep8_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>barman_zep8_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>barman_zep8_6</text>
+				<!--action>dialogs.break_dialog</action-->
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="barman_dialog_zep9">												<!-- task during the storm -->
+		<has_info>tb3d_sms_storm</has_info>
+		<has_info>tb3d_got_lanky_suit</has_info>
+		<dont_has_info>tb3d_mush_arts_quest</dont_has_info>
+		<dont_has_info>tb3d_sms_storm_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep9_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep9_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep9_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep9_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>barman_zep9_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>barman_zep9_5</text>
+				<give_info>tb3d_mush_arts_quest</give_info>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>barman_zep9_6</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="barman_dialog_zep10">													<!-- has arts -->
+		<has_info>tb3d_mush_arts_quest</has_info>
+		<precondition>tb3d_dialog.mush_art_have</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep10_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep10_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep10_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep10_3</text>
+				<action>tb3d_dialog.mush_art_done</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="barman_dialog_zep11">													<!-- storm receded -->
+		<has_info>tb3d_sms_storm</has_info>
+		<has_info>tb3d_block_1</has_info>
+		<dont_has_info>tb3d_sms_storm_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_zep11_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_zep11_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_zep11_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_zep11_3</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<!-- ============================== LISIY DIALOGS ====================== -->
+	<dialog id="lisiy_dialog_zep1">														<!--  ZEP extra info about stranger  -->
+		<has_info>zep00_have</has_info>
+		<dont_has_info>zep02_have</dont_has_info>
+		<dont_has_info>lisiy_zep1_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>lisiy_dialog_zep1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>lisiy_dialog_zep1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>lisiy_dialog_zep1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>lisiy_dialog_zep1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>lisiy_dialog_zep1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>lisiy_dialog_zep1_5</text>
+				<give_info>lisiy_zep1_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- ============================ VARONIN DIALOGS ====================== -->
+	<dialog id="voronin_dialog_zep1">												<!--  ZEP required info about stranger before 2nd barman dialog -->
+		<has_info>barman_zep1_start</has_info>
+		<dont_has_info>voronin_zep1_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>voronin_dialog_zep1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>voronin_dialog_zep1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>voronin_dialog_zep1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>voronin_dialog_zep1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>voronin_dialog_zep1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>voronin_dialog_zep1_5</text>
+				<give_info>voronin_zep1_start</give_info>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>voronin_dialog_zep1_6</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="voronin_dialog_zep2">												<!--  ZEP required info after ww doc found  -->
+		<has_info>zep02_have</has_info>
+		<has_info>voronin_zep1_start</has_info>
+		<dont_has_info>voronin_zep2_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>voronin_dialog_zep2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>voronin_dialog_zep2_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>voronin_dialog_zep2_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>voronin_dialog_zep2_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>voronin_dialog_zep2_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>voronin_dialog_zep2_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>voronin_dialog_zep2_6</text>
+				<give_info>voronin_zep2_start</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- ============================== ASSOCIATE DIALOGS ====================== -->
+	<dialog id="associate_dialog_zep1">													<!--  ZEP required info about stranger before 2nd barman dialog -->
+		<has_info>barman_zep1_start</has_info>
+		<dont_has_info>associate_zep1_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>associate_dialog_zep1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>associate_dialog_zep1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>associate_dialog_zep1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>associate_dialog_zep1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>associate_dialog_zep1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>associate_dialog_zep1_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>associate_dialog_zep1_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>associate_dialog_zep1_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>associate_dialog_zep1_8</text>
+				<give_info>associate_zep1_start</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="associate_dialog_recorder">													<!--  flight recorder for geek  -->
+		<has_info>tb3d_start_zep</has_info>
+		<precondition>tb3d_dialog.has_swamp_recorder</precondition>
+		<dont_has_info>associate_zep2_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>associate_dialog_zep2_0</text>
+				<action>tb3d_dialog.swamp_recorder_done</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>associate_dialog_zep2_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>associate_dialog_zep2_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>associate_dialog_zep2_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>associate_dialog_zep2_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>associate_dialog_zep2_5</text>
+				<give_info>associate_zep2_start</give_info>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>associate_dialog_zep2_6</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- ============================== IVANCOV DIALOGS ====================== -->
+	<dialog id="ivancov_dialog_zep1">														<!--  ZEP extra info  -->
+		<has_info>zep12_have</has_info>
+		<dont_has_info>zep14_have</dont_has_info>
+		<dont_has_info>ivancov_zep1_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>ivancov_dialog_zep1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>ivancov_dialog_zep1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>ivancov_dialog_zep1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>ivancov_dialog_zep1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>ivancov_dialog_zep1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>ivancov_dialog_zep1_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>ivancov_dialog_zep1_6</text>
+				<give_info>ivancov_zep1_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- ============================== PETRENCO DIALOGS ====================== -->
+	<dialog id="petrenko_dialog_zep1">														<!--  ZEP extra info  -->
+		<has_info>zep12_have</has_info>
+		<dont_has_info>zep14_have</dont_has_info>
+		<dont_has_info>petrenko_zep1_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>petrenko_dialog_zep1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>petrenko_dialog_zep1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>petrenko_dialog_zep1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>petrenko_dialog_zep1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>petrenko_dialog_zep1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>petrenko_dialog_zep1_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>petrenko_dialog_zep1_6</text>
+				<give_info>petrenko_zep1_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- ============================== KARINA DIALOGS ====================== -->
+	<dialog id="karina_dialog_zep1">													<!-- ZEP 1: Dead Marshes learn about ax  -->
+		<dont_has_info>karina_zep1_start</dont_has_info>
+		<has_info>zep10_have</has_info>
+		<dont_has_info>zep11_have</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>karina_dialog_zep1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>karina_dialog_zep1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>karina_dialog_zep1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>karina_dialog_zep1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>karina_dialog_zep1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>karina_dialog_zep1_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>karina_dialog_zep1_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>karina_dialog_zep1_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>karina_dialog_zep1_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>karina_dialog_zep1_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>karina_dialog_zep1_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>karina_dialog_zep1_11</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>karina_dialog_zep1_12</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="13">
+				<text>karina_dialog_zep1_13</text>
+				<give_info>karina_zep1_start</give_info>
+				<next>14</next>
+			</phrase>
+			<phrase id="14">
+				<text>karina_dialog_zep1_14</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="karina_dialog_zep2">													<!-- ZEP 2: after tunnel  -->
+		<dont_has_info>karina_zep2_start</dont_has_info>
+		<has_info>zep11_have</has_info>
+		<has_info>karina_zep1_start</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>karina_dialog_zep2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>karina_dialog_zep2_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>karina_dialog_zep2_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>karina_dialog_zep2_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>karina_dialog_zep2_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>karina_dialog_zep2_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>karina_dialog_zep2_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>karina_dialog_zep2_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>karina_dialog_zep2_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>karina_dialog_zep2_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>karina_dialog_zep2_10</text>
+				<give_info>karina_zep2_start</give_info>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>karina_dialog_zep2_11</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="karina_dialog_zep3">											<!--ZEP 3: before gold bar 11 -->
+		<dont_has_info>karina_zep3_start</dont_has_info>
+		<has_info>tb3d_goldbar_10</has_info>
+		<dont_has_info>tb3d_goldbar_11</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>karina_dialog_zep3_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>karina_dialog_zep3_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>karina_dialog_zep3_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>karina_dialog_zep3_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>karina_dialog_zep3_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>karina_dialog_zep3_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>karina_dialog_zep3_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>karina_dialog_zep3_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>karina_dialog_zep3_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>karina_dialog_zep3_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+			<text>karina_dialog_zep3_10</text>
+				<give_info>karina_zep3_start</give_info>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>karina_dialog_zep3_11</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="karina_dialog_zep4">											<!--ZEP 4: after gold bar 11 -->
+		<dont_has_info>karina_zep4_start</dont_has_info>
+		<has_info>tb3d_goldbar_10</has_info>
+		<dont_has_info>tb3d_goldbar_11</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>karina_dialog_zep4_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>karina_dialog_zep4_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>karina_dialog_zep4_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>karina_dialog_zep4_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>karina_dialog_zep4_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>karina_dialog_zep4_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>karina_dialog_zep4_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>karina_dialog_zep4_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>karina_dialog_zep4_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>karina_dialog_zep4_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>karina_dialog_zep4_10</text>
+				<give_info>karina_zep4_start</give_info>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>karina_dialog_zep4_11</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="karina_dialog_zep5">												<!--ZEP 5: on way to tech -->
+	<has_info>zep21_have</has_info>
+	<dont_has_info>zep22_have</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>karina_dialog_zep5_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>karina_dialog_zep5_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>karina_dialog_zep5_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>karina_dialog_zep5_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>karina_dialog_zep5_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>karina_dialog_zep5_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>karina_dialog_zep5_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>karina_dialog_zep5_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>karina_dialog_zep5_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>karina_dialog_zep5_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>karina_dialog_zep5_10</text>
+				<next>11</next>
+			</phrase>
+				<phrase id="11">
+				<text>karina_dialog_zep5_11</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="karina_dialog_food">												<!--trade for food -->
+		<has_info>tb3d_karina_trade</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>karina_dialog_food_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>karina_dialog_food_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>karina_dialog_food_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>karina_dialog_food_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>karina_dialog_food_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>karina_dialog_food_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>karina_dialog_food_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>karina_dialog_food_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>karina_dialog_food_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>karina_dialog_food_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>karina_dialog_food_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>karina_dialog_food_11</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="karina_dialog_arts">													<!--trade for artifacts -->
+		<has_info>tb3d_karina_trade</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>karina_dialog_arts_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>karina_dialog_arts_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>karina_dialog_arts_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>karina_dialog_arts_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>karina_dialog_arts_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>karina_dialog_arts_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>karina_dialog_arts_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>karina_dialog_arts_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>karina_dialog_arts_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>karina_dialog_arts_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>karina_dialog_arts_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>karina_dialog_arts_11</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+	<!-- ============================== INFORMER DIALOGS ====================== -->
+	<dialog id="dd_inform_dialog_zep1">													<!-- ZEP 1: Courtyards more about AX  -->
+		<dont_has_info>dd_inform_zep1_start</dont_has_info>
+		<dont_has_info>zep23_have</dont_has_info>
+		<has_info>tb3d_collector</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>dd_inform_dialog_zep1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>dd_inform_dialog_zep1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>dd_inform_dialog_zep1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>dd_inform_dialog_zep1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>dd_inform_dialog_zep1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>dd_inform_dialog_zep1_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>dd_inform_dialog_zep1_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>dd_inform_dialog_zep1_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>dd_inform_dialog_zep1_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>dd_inform_dialog_zep1_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>dd_inform_dialog_zep1_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>dd_inform_dialog_zep1_11</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>dd_inform_dialog_zep1_12</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="13">
+				<text>dd_inform_dialog_zep1_13</text>
+				<give_info>dd_inform_zep1_start</give_info>
+				<next>14</next>
+			</phrase>
+			<phrase id="14">
+				<text>dd_inform_dialog_zep1_14</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="dd_inform_dialog_zep2">													<!-- ZEP 2: black market setup said yes -->
+		<dont_has_info>dd_inform_zep2_start</dont_has_info>
+		<has_info>wr_barman_informer_yes</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>dd_inform_dialog_zep2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>dd_inform_dialog_zep2_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>dd_inform_dialog_zep2_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>dd_inform_dialog_zep2_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>dd_inform_dialog_zep2_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>dd_inform_dialog_zep2_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>dd_inform_dialog_zep2_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>dd_inform_dialog_zep2_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>dd_inform_dialog_zep2_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>dd_inform_dialog_zep2_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>dd_inform_dialog_zep2_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>dd_inform_dialog_zep2_11</text>
+				<give_info>dd_inform_zep2_start</give_info>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>dd_inform_dialog_zep2_12</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="dd_inform_dialog_zep3">														<!-- ZEP 3: black market setup said no -->
+		<dont_has_info>dd_inform_zep2_start</dont_has_info>
+		<has_info>wr_barman_informer_no</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>dd_inform_dialog_zep2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>dd_inform_dialog_zep2_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>dd_inform_dialog_zep3_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>dd_inform_dialog_zep3_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>dd_inform_dialog_zep3_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>dd_inform_dialog_zep2_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>dd_inform_dialog_zep2_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>dd_inform_dialog_zep2_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>dd_inform_dialog_zep2_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>dd_inform_dialog_zep2_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>dd_inform_dialog_zep2_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>dd_inform_dialog_zep2_11</text>
+				<give_info>dd_inform_zep2_start</give_info>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>dd_inform_dialog_zep3_12</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- ============================== TRACTORIST DIALOGS ====================== -->
+	<dialog id="tractorist_dialog_zep1">
+		<dont_has_info>tractorist_zep1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tractorist_dialog_zep1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tractorist_dialog_zep1_1</text>
+				<give_info>tractorist_zep1_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="tractorist_dialog_zep2">
+		<dont_has_info>tractorist_zep2_done</dont_has_info>
+		<has_info>tractorist_zep1_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tractorist_dialog_zep2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tractorist_dialog_zep2_1</text>
+				<give_info>tractorist_zep2_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="tractorist_dialog_zep3">
+		<dont_has_info>tractorist_zep3_done</dont_has_info>
+		<has_info>tractorist_zep2_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tractorist_dialog_zep3_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tractorist_dialog_zep3_1</text>
+				<give_info>tractorist_zep3_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="tractorist_dialog_zep4">
+		<dont_has_info>tractorist_zep4_done</dont_has_info>
+		<has_info>zep22_have</has_info>
+		<has_info>tractorist_zep3_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tractorist_dialog_zep4_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tractorist_dialog_zep4_1</text>
+				<give_info>tractorist_zep4_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="tractorist_dialog_zep5">
+		<dont_has_info>tractorist_zep5_done</dont_has_info>
+		<has_info>tractorist_zep4_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tractorist_dialog_zep5_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tractorist_dialog_zep5_1</text>
+				<give_info>tractorist_zep5_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- ============================== BARKEEP DIALOGS ====================== -->
+	<dialog id="pred_barkeep_dialog_zep0">	<!-- Waiting Room -->
+		<dont_has_info>dd_inform_zep1_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>pred_barmen_zep0_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>pred_barmen_zep0_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>pred_barmen_zep0_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>pred_barmen_zep0_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="pred_barkeep_dialog_zep1">
+		<dont_has_info>pred_barkeep_zep1_done</dont_has_info>
+		<has_info>dd_inform_zep1_start</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>pred_barmen_zep1_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>pred_barmen_zep1_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>pred_barmen_zep1_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>pred_barmen_zep1_4</text>
+				<give_info>pred_barkeep_zep1_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="pred_barkeep_dialog_zep2">
+		<dont_has_info>pred_barkeep_zep2_done</dont_has_info>
+		<has_info>pred_barkeep_zep1_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>pred_barmen_zep2_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>pred_barmen_zep2_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>pred_barmen_zep2_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>pred_barmen_zep2_4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>pred_barmen_zep2_5</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>pred_barmen_zep2_6</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>pred_barmen_zep2_7</text>
+				<give_info>pred_barkeep_zep2_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="pred_barkeep_dialog_zep3">
+		<dont_has_info>pred_barkeep_zep3_done</dont_has_info>
+		<has_info>pred_barkeep_zep2_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>pred_barmen_zep1_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>pred_barmen_zep1_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>pred_barmen_zep1_3</text>
+				<give_info>pred_barkeep_zep3_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="pred_barkeep_dialog_zep4">
+		<has_info>pred_barkeep_zep3_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>pred_barmen_zep4_1</text>
+				<precondition>tb3d_dialog.pred_vodka_have</precondition>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>pred_barmen_zep4_2</text>
+				<action>tb3d_dialog.take_pred_vodka</action>
+			</phrase>
+			<phrase id="2">
+				<text>pred_barmen_zep4_3</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="pred_barkeep_dialog_zep5">
+		<has_info>pred_barkeep_zep3_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>pred_barmen_zep5_1</text>
+				<precondition>tb3d_dialog.pred_beer_have</precondition>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>pred_barmen_zep5_2</text>
+			</phrase>
+			<phrase id="2">
+				<text>pred_barmen_zep5_3</text>
+				<action>tb3d_dialog.take_pred_beer</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- ============================== GLAVNY DIALOGS ====================== -->
+	<dialog id="glavny_dialog_1">															<!-- x14 -->
+		<dont_has_info>glavny_dialog1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>glavny_dialog1_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>glavny_dialog1_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>glavny_dialog1_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>glavny_dialog1_4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>glavny_dialog1_5</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>glavny_dialog1_6</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>glavny_dialog1_7</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>glavny_dialog1_8</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>glavny_dialog1_9</text>
+				<give_info>glavny_dialog1_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="glavny_dialog_2">
+		<has_info>glavny_dialog1_done</has_info>
+		<precondition>tb3d_dialog.glavney_art_not_have</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>glavny_dialog2_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>glavny_dialog2_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>glavny_dialog2_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>glavny_dialog2_4</text>
+				<action>tb3d_dialog.spawn_accum_npp2</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>glavny_dialog2_5</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="glavny_dialog_3">
+		<has_info>glavny_dialog1_done</has_info>
+		<precondition>tb3d_dialog.glavney_art_have</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>glavny_dialog3_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>glavny_dialog3_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>glavny_dialog3_3</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- ============================== LIZA DIALOGS ====================== -->
+	<dialog id="liza_dialog_1">														<!-- hr -->
+		<dont_has_info>liza_dialog1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>liza_dialog1_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>liza_dialog1_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>liza_dialog1_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>liza_dialog1_4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>liza_dialog1_5</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>liza_dialog1_6</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>liza_dialog1_7</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>liza_dialog1_8</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>liza_dialog1_9</text>
+				<give_info>liza_dialog1_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="liza_dialog_2">
+		<has_info>liza_dialog1_done</has_info>
+		<dont_has_info>liza_dialog2_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>liza_dialog2_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>liza_dialog2_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>liza_dialog2_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>liza_dialog2_4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>liza_dialog2_5</text>
+				<give_info>liza_dialog2_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<!-- ============================== AFANASYEV DIALOGS ====================== -->
+	<dialog id="afanasyev_dialog_1">
+		<dont_has_info>afanasyev_dialog1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>afanasyev_dialog1_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>afanasyev_dialog1_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>afanasyev_dialog1_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>afanasyev_dialog1_4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>afanasyev_dialog1_5</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>afanasyev_dialog1_6</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>afanasyev_dialog1_7</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>afanasyev_dialog1_8</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>afanasyev_dialog1_9</text>
+				<give_info>afanasyev_dialog1_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="afanasyev_dialog_2">
+		<has_info>afanasyev_dialog1_done</has_info>
+		<dont_has_info>afanasyev_dialog2_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>afanasyev_dialog2_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>afanasyev_dialog2_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>afanasyev_dialog2_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>afanasyev_dialog2_4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>afanasyev_dialog2_5</text>
+				<give_info>afanasyev_dialog2_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- ============================== OBMOROK DIALOGS ====================== -->
+	<dialog id="obmorok_dialog_1">														<!-- pred -->
+		<dont_has_info>obmorok_dialog1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>obmorok_dialog1_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>obmorok_dialog1_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>obmorok_dialog1_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>obmorok_dialog1_4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>obmorok_dialog1_5</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>obmorok_dialog1_6</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>obmorok_dialog1_7</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>obmorok_dialog1_8</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>obmorok_dialog1_9</text>
+				<give_info>obmorok_dialog1_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="obmorok_dialog_2">
+		<has_info>obmorok_dialog1_done</has_info>
+		<dont_has_info>obmorok_dialog2_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>obmorok_dialog2_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>obmorok_dialog2_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>obmorok_dialog2_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>obmorok_dialog2_4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>obmorok_dialog2_5</text>
+				<give_info>obmorok_dialog2_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<!-- ============================== KARATEL DIALOGS ====================== -->
+	<dialog id="karatel_dialog_1">
+		<dont_has_info>karatel_dialog1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>karatel_dialog1_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>karatel_dialog1_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>karatel_dialog1_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>karatel_dialog1_4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>karatel_dialog1_5</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>karatel_dialog1_6</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>karatel_dialog1_7</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>karatel_dialog1_8</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>karatel_dialog1_9</text>
+				<give_info>karatel_dialog1_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="karatel_dialog_2">
+		<has_info>karatel_dialog1_done</has_info>
+		<dont_has_info>karatel_dialog2_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>karatel_dialog2_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>karatel_dialog2_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>karatel_dialog2_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>karatel_dialog2_4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>karatel_dialog2_5</text>
+				<give_info>karatel_dialog2_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+	<!-- ============================== ZIKA DIALOGS ====================== -->
+	<dialog id="zika_dialog_1">														<!-- Broken road -->
+		<dont_has_info>zika_dialog1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zika_dialog1_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>zika_dialog1_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>zika_dialog1_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>zika_dialog1_4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>zika_dialog1_5</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>zika_dialog1_6</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>zika_dialog1_7</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>zika_dialog1_8</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>zika_dialog1_9</text>
+				<give_info>zika_dialog1_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="zika_dialog_2">
+		<has_info>zika_dialog1_done</has_info>
+		<dont_has_info>zika_dialog2_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zika_dialog2_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>zika_dialog2_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>zika_dialog2_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>zika_dialog2_4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>zika_dialog2_5</text>
+				<give_info>zika_dialog2_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<!-- ============================== LANKY DIALOGS ====================== -->
+	<dialog id="tb3d_storm_suit_1">													<!-- Lanky, about special suit for mushroom art-->
+		<has_info>tb3d_sms_storm</has_info>
+		<dont_has_info>tb3d_sms_storm_over</dont_has_info>
+		<dont_has_info>tb3d_got_lanky_suit</dont_has_info>
+		<dont_has_info>tb3d_lanky_suit_talk</dont_has_info>
+		<precondition>tb3d_dialog.lanky_arts_not_have</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>lanky_suit_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>lanky_suit_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>lanky_suit_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>lanky_suit_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>lanky_suit_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>lanky_suit_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>lanky_suit_6</text>
+				<action>tb3d_dialog.spawn_f1_mushart</action>
+				<give_info>tb3d_lanky_suit_talk</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="tb3d_storm_suit_2">													<!-- Lanky, have mushroom art so get special suit -->
+		<has_info>tb3d_sms_storm</has_info>
+		<dont_has_info>tb3d_sms_storm_over</dont_has_info>
+		<dont_has_info>tb3d_got_lanky_suit</dont_has_info>
+		<precondition>tb3d_dialog.lanky_arts_have</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>lanky_suit2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>lanky_suit2_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>lanky_suit2_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>lanky_suit2_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>lanky_suit2_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>lanky_suit2_5</text>
+				<action>tb3d_dialog.lanky_arts_done</action>
+				<give_info>tb3d_got_lanky_suit</give_info>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>lanky_suit2_6</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="tb3d_storm_suit_3">														<!-- Lanky, need fix special suit -->
+		<has_info>tb3d_got_lanky_suit</has_info>
+		<dont_has_info>tb3d_lanky_suit_repairing</dont_has_info>
+		<precondition>tb3d_dialog.lanky_suit_have</precondition>
+		<precondition>tb3d_dialog.lanky_arts_not_have</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>lanky_suit3_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>lanky_suit3_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>lanky_suit3_2</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="tb3d_storm_suit_4">														<!-- Lanky, have mushroom need fix suit -->
+		<has_info>tb3d_got_lanky_suit</has_info>
+		<dont_has_info>tb3d_lanky_suit_repairing</dont_has_info>
+		<precondition>tb3d_dialog.lanky_suit_have</precondition>
+		<precondition>tb3d_dialog.lanky_arts_have</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>lanky_suit3_0</text>												<!--110016.2 duplicate -->
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>lanky_suit4_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>lanky_suit4_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>lanky_suit4_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>lanky_suit4_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>lanky_suit4_5</text>
+				<action>tb3d_dialog.lanky_repair_start</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>lanky_suit4_6</text>
+				<!--action>dialogs.break_dialog</action-->
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="tb3d_storm_suit_5">														<!-- Lanky, repair done -->
+		<has_info>tb3d_got_lanky_suit</has_info>
+		<has_info>tb3d_lanky_suit_fixed</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>lanky_suit5_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>lanky_suit5_1</text>
+				<action>tb3d_dialog.lanky_repair_done</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>lanky_suit5_2</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<!-- ============================== MISC DIALOGS ====================== -->
+	<dialog id="stalk_garb_coll_1_dialog">												<!-- 109996, camp behind veh graveyard -->
+		<has_info>tb3d_collector</has_info>
+		<dont_has_info>tb3d_garb2_had_info</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>garb2_info_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>garb2_info_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>garb2_info_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>garb2_info_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>garb2_info_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>garb2_info_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>garb2_info_6</text>
+				<give_info>tb3d_garb2_had_info</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+<!-- 110016.2 additions -->
+	<dialog id="coll_bandit1_dialog">												<!-- about f1 explosion  -->
+		<has_info>sid_zep2_start</has_info>
+		<dont_has_info>tb3d_bandit1_had_info</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit1_info_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit1_info_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit1_info_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>bandit1_info_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>bandit1_info_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>bandit1_info_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>bandit1_info_6</text>
+				<give_info>tb3d_bandit1_had_info</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="coll_bandit2_dialog">												<!-- about gold bars -->
+		<has_info>sid_zep2_start</has_info>
+		<has_info>tb3d_bandit1_had_info</has_info>
+		<dont_has_info>tb3d_bandit2_had_info</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit2_info_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit2_info_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit2_info_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>bandit2_info_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>bandit2_info_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>bandit2_info_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>bandit2_info_6</text>
+				<give_info>tb3d_bandit2_had_info</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="coll_bandit3_dialog">												<!-- about old research center -->
+		<has_info>sid_zep2_start</has_info>
+		<has_info>tb3d_bandit2_had_info</has_info>
+		<dont_has_info>tb3d_bandit3_had_info</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit3_info_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit3_info_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit3_info_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>bandit3_info_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>bandit3_info_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>bandit3_info_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>bandit3_info_6</text>
+				<give_info>tb3d_bandit3_had_info</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="coll_bandit4_dialog">												<!-- comment about storm -->
+		<has_info>tb3d_sms_storm</has_info>
+		<dont_has_info>tb3d_storm_over</dont_has_info>
+		<dont_has_info>tb3d_bandit4_had_info</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit4_info_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit4_info_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit4_info_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>bandit4_info_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>bandit4_info_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>bandit4_info_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>bandit4_info_6</text>
+				<give_info>tb3d_bandit4_had_info</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="coll_bandit5_dialog">												<!-- comment about storm -->
+		<has_info>tb3d_sms_storm</has_info>
+		<has_info>tb3d_bandit4_had_info</has_info>
+		<dont_has_info>tb3d_storm_over</dont_has_info>
+		<dont_has_info>tb3d_bandit5_had_info</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit5_info_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit5_info_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit5_info_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>bandit5_info_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>bandit5_info_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>bandit5_info_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>bandit5_info_6</text>
+				<give_info>tb3d_bandit5_had_info</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="coll_bandit6_dialog">												<!-- comment about storm -->
+		<has_info>tb3d_sms_storm</has_info>
+		<has_info>tb3d_bandit5_had_info</has_info>
+		<dont_has_info>tb3d_storm_over</dont_has_info>
+		<dont_has_info>tb3d_bandit6_had_info</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit6_info_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit6_info_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit6_info_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>bandit6_info_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>bandit6_info_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>bandit6_info_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>bandit6_info_6</text>
+				<give_info>tb3d_bandit6_had_info</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="scarecrow_ax_dialog">												<!--110017, about ax in tunnel -->
+		<has_info>barman_zep4_start</has_info>
+		<dont_has_info>zep13_have</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sim_chuchelo_ax_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>sim_chuchelo_ax_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>sim_chuchelo_ax_3</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+</game_dialogs>

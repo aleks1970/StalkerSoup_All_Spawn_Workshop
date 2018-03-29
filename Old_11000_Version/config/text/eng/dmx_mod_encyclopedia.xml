@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.1.4 zaton to backwater, ui text formating aleks1970-->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<!-- Reworked and proofed all text - Sword2012 - 14 Feb 17, dark scape -->
+<string_table>
+	<!-- ====================================== -->
+	<!--              LOCATIONS                 -->
+	<!-- ====================================== -->
+	<string id="zone_locations_deadcity">
+		<text>Dead City</text>
+	</string>
+	<string id="enc_zone_locations_deadcity">
+		<text>In the west of the Zone, just two kilometres from the Army Warehouses, is a small Soviet-era town that came to be known as the Dead City. Once home to many employees of the Agroprom Research Institute, in 2009 it became a haven for Mercenary groups. However, the Freedom faction had also claimed it as their own, which led to constant conflict between the two factions. Eventually, those occupying the area came to an agreement, and united into a single clan with a singular purpose - to keep all others out, at any cost. Which makes the Dead City a far more dangerous place to visit than ever before...</text>
+	</string>
+	<string id="zone_locations_limansk">
+		<text>Limansk</text>
+	</string>
+	<string id="enc_zone_locations_limansk">
+		<text>This bleak, abandoned 'ghost town' quickly became occupied by the Monolith faction, although Bandits also found safe haven there. A myth surrounding Limansk tells of its capacity to disappear off the map completely, only to reappear at random - the facts of which have never been proven nor disproved... It can be reached from the Red Forest, but the gates are well-protected by Monolithians and their Bandit symbionts</text>
+	</string>
+	<string id="zone_locations_darklab">
+		<text>Laboratory X-18</text>
+	</string>
+	<string id="enc_zone_locations_darklab">
+		<text>One of the first genetic experimentation laboratories created inside the Zone was given the code name X-18. It was constructed in early 2001, and resides somewhere in the Dark Valley. All surviving information on this grisly place points to the entrance being in a cellar of the long-abandoned factory</text>
+	</string>
+	<string id="zone_locations_brainlab">
+		<text>Laboratory X-16</text>
+	</string>
+	<string id="enc_zone_locations_brainlab">
+		<text>An enigmatic facility of which, in the complete absence of any official quantifiable details, scientists discuss the 'psychological danger' associated with the area. The factory complex itself is rumored to house the source of these Psi-emissions, and to go anywhere near there without intensive Psi-protection is regarded as reckless, if not madness...</text>
+	</string>
+	<string id="zone_locations_labx10">
+		<text>Laboratory X-10</text>
+	</string>
+	<string id="enc_zone_locations_labx10">
+		<text>While experienced Stalkers talk of the laboratory codenamed X-10, none claim to have been inside its thick, fortress-like walls. This massive bunker is located in the infamous Radar district, north of the Red Forest. Heavily fortified, and under constant watch by the Monolith faction, no-one dares to even attempt entry, let alone explore. Especially as the entire surrounding area is blanketed with high levels of radiation, and teems with mutants of every description</text>
+	</string>
+	<string id="zone_locations_warlab">
+		<text>Laboratory X-8</text>
+	</string>
+	<string id="enc_zone_locations_warlab">
+		<text>Former underground facility which reputedly supplied power to the bizarre-looking generators on the surface. Rumors say that military scientists there worked on a project named 'The C-Consciousness', but when one of the transmitters shorted, the ensuing explosion and blowback killed everyone working there. After this disastrous incident the location became simply known as 'the Military lab', and nothing more was ever heard about it</text>
+	</string>
+	<string id="zone_locations_secretlab">
+		<text>Secret Laboratory</text>
+	</string>
+	<string id="enc_zone_locations_secretlab">
+		<text>This highly secretive lab is supposedly well-concealed beneath the Sarcophagus at the Chernobyl NPP. Rumored to be occupied by the Monolith Elite, there's just one entrance with a unique decoder required to gain access. No more information is available...</text>
+	</string>
+	<string id="zone_locations_generators">
+		<text>Generators</text>
+	</string>
+	<string id="enc_zone_locations_generators">
+		<text>An area so completely devoid of life, even the trees have given up and died. This was the epicenter of the second massive explosion that took place in 2006. Experienced Stalkers claim to have seen large, sphere-shaped generators that no longer function, since everything that once controlled them was destroyed</text>
+	</string>
+	<string id="zone_locations_zaton">
+		<text>Backwater</text>
+	</string>
+	<string id="enc_zone_locations_zaton">
+		<text>Located to the east of the NPP, this large district once known as Zaton lies across the dried up river. To the south-east, the Preobrazhensky railway bridge spans the river and its collection of abandoned sea-vessels, while to the west are the large circular 'Crystal Oscillators'. In the center of this area lies the rusting hulk of a ship, the 'Skadovsk', which was converted into a drinking establishment by industrious Stalkers. This unusual meeting place services the nearby settlement of Emerald, an increasingly unwelcoming area due to its rising radiation levels and growing population of mutants</text>
+	</string>
+	<string id="zone_locations_jupiter">
+		<text>Jupiter</text>
+	</string>
+	<string id="enc_zone_locations_jupiter">
+		<text>The only place of any interest here is a large disused industrial factory located in the south-east. At its center, the 'Jani' railway station. Just off to the side lies the disused strip-mine, from which the lowlands spread out towards Letnik. The concrete factory to the north has also been long abandoned. There are stories of a white light emanating from the factory at night, which a group of Stalkers once went to investigate, and never returned...</text>
+	</string>
+	<string id="zone_locations_predbannik">
+		<text>Waiting Room</text>
+	</string>
+	<string id="enc_zone_locations_predbannik">
+		<text>This joylessly named region of the Zone serves as a 'vestibule' between the perimeter and the outside world. The territory has a small accumulation of anomalies, and is sparsely populated by mutants. The background radiation here can exceed the recommended safe limit 10-20 times over, making it increasingly dangerous to stay here any longer than absolutely necessary. In the north-east is a settlement where you can find a Bar, as well as a local trader. In the south, on a hill overlooking the NPP, there have been reported Bloodsucker sightings. A village lies to the south-west, and an abandoned military base in the center. The main road leads to the checkpoint, beyond which the Waiting Room officially ends...</text>
+	</string>
+	<!-- ====================================== -->
+	<!--              MONSTERS                  -->
+	<!-- ====================================== -->
+	<string id="Swamp_thing">
+		<text>Swamp Thing</text>
+	</string>
+	<string id="enc_Swamp_thing">
+		<text>Carelessly navigating the Swamps' twisting, concealed paths will most likely bring you face to face, quite literally, with this extremely dangerous creature. A sub-species of the common Bloodsucker, its habits and physical appearance differ significantly from its terranean cousin. While still capable of invisibility, even when uncloaked its dark-skinned, muddy body makes it difficult to discern against the natural background of the swamps. In addition, perfectly developed leg and arm muscles enable it to make silent leaps through long grass upon unwitting Stalkers, unexpectedly and without warning, striking them to the ground with its larger claws before dragging them to its lair. Very few who encounter this beast live long enough to tell of it...\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]400 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]150kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Fast (10m ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]90%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]80%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]99%</text>
+	</string>
+	<string id="Psi_dog">
+		<text>Psi-Dog</text>
+	</string>
+	<string id="enc_Psi_dog">
+		<text>The most fascinating and alarming characteristic of this creature is its psychic ability to generate, and communicate with, a succession of spectral clones that mimic its own behaviour. Although only the commanding Psi-Dog can feed off a victim, it is the clones that prepare the way. Fed by the psychic energy of their progenitor, they can cause just as much harm despite having incorporeal form, making them even more dangerous than the commanding Psi-Dog, the only one that can be killed as such, depriving the clones of energy and causing them to dissipate. The Psi-field this creature generates often makes it difficult to discern the original from the clones and, although it will never be far away, the commanding Psi-Dog has been known to retreat a considerable distance from its clones as they weaken the victim for its attack. Visually, the Psi-Dog is similar in many ways to the common Pseudo-dog, although its fur is stiffer and lighter colored. They usually make their den close to strong sources of Psi-radiation. As such, they are to be found primarily in the northern reaches of the Zone. But make no mistake - they will travel far in their search for a meal...\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]250 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]78kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Slow (5 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]99%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]20%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]60%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]50%</text>
+	</string>
+	<string id="Psi_burer">
+		<text>Burer</text>
+	</string>
+	<string id="enc_Psi_burer">
+		<text>The pitiful result of genetic experiments conducted by Army Special Forces scientists on Death Row criminals, as part of the 'Program of Progress in the form of Telekinetic Capabilities' (or PPTC for obfuscation). The Burer is all that remains of an essentially human creature with hypertrophied features dressed in filthy prison overalls. Short, stocky, and almost dwarf-like, they are unparallelled in close quarters combat, in which they use various forms of gravitational 'weaponry'. They are able to draw upon the earth's energies to repel opponents with such force as to cause serious internal and external physical injuries. They can levitate heavy objects and use them in a projectile attack. And by means of a focused gravitational impulse, they can drag a weapon suddenly from your hands from a distance. A powerful creature, they are vulnerable to gunfire, especially to the head, and the best defence against one is to remain in constant motion, not getting too close as to be affected by its 'force of gravity' onslaughts. Although they tend to avoid bright light, choosing to dwell in dark, gloomy caves or underground vaults, they are often found on the surface, usually in pairs or groups, feeding upon the corpses of dead Stalkers...\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]400 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]70kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Slow (6 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Psychokinetic / Telekinetic\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]40%</text>
+	</string>
+	<string id="Electro_himera">
+		<text>Electric Chimera</text>
+	</string>
+	<string id="enc_Electro_himera">
+		<text>Unusually for a warm-blooded creature, the Electric Chimera possesses a total immunity to electricity. Moreover, its attack deals comparable damage to that of an Electro anomaly. This fast and powerful mutant is to be avoided at all costs, with a slightly higher chance of survival if equipped with electrical protection...\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]800 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]220kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]fast (10-12 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical/Electrical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]99.8%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]98%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]85%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]98%</text>
+	</string>
+	<!-- ====================================== -->
+	<!--               ADDITIONAL               -->
+	<!-- ====================================== -->
+	<string id="rostok_factory">
+		<text>Rostok factory</text>
+	</string>
+	<string id="predbannik">
+		<text>Waiting Room</text>
+	</string>
+	<string id="garbage_old">
+		<text>Garbage</text>	<!-- 110014 Was: Cemetery Techniques - aleks1970 -->
+	</string>
+	<string id="yantar_old">
+		<text>Research Station</text>
+	</string>
+	<string id="swamp_old">
+		<text>Dead Marshes</text>
+	</string>
+	<string id="darkscape">
+		<text>Dark Scape</text>
+	</string>
+	<string id="history_bibliotekar">
+		<text>History of the 'Librarian'</text>
+	</string>
+	<string id="enc_history_bibliotekar">
+		<text>Beneath the library in Pripyat was a clandestine laboratory that experimented exclusively and extensively on animals, especially gorillas.\nJust before the second Zone incident of 2006, an accident took place there - Extract from the official transcript of the recorded statement of Gustavo Marakina, a Special Forces operative:\n"I heard the alarm signal, and went to investigate. Upon entering the main hall just outside the Research Library, I very nearly dropped my weapon to run for my life... The remains of at least seven members of our scientific staff lay on the floor, ripped to shreds. Everywhere and everything was streaked with blood. From further down the corridor I could hear heavy, plodding footsteps, coming closer and closer to me. Then suddenly it was there... just under two metres in height, round-shouldered, and extremely hairy. It reminded me of a giant ape. It howled a horrible, pitiful, bellowing noise at me and... I broke... I just turned around for the main entrance and ran as fast as I could, not looking back... I could feel it chasing after me - thud, thud, thud on the ground, terrifying me with its cries. I made it to the exit, frantically opened the coded security door, and just kept on running...\nI know now that I should have stopped to close the door, sealing the exit behind me... but I didn't... couldn't think. I am so sorry. I cannot change the past, and I must live with my mistake, and its consequences, for the rest of my life. But the worst part of all is that, whenever I think back to that time, I feel more and more that it wanted my help... (at this point Comrade Marakina stops speaking and starts to cry)"</text>
+	</string>
+	<string id="pogremushka_infa_to_pda">
+		<text>Data from the Miner</text>
+	</string>
+	<string id="enc_pogremushka_infa_to_pda">
+		<text>I'm copying this data into your PDA so that you don't forget it. This is important!\nIt's about me and my buddy Zhal exploring some some caves known locally as 'The Labyrinth'. Believe me, it's well-named... So, at the very deepest part of it, we were attacked by Rats. Loads of big, fucking Rats. Filthy, fucking disease-ridden bastards! We ran away as fast as we could until the ground suddenly disappeared and we fell into a large cavern. They followed us down, so we climbed onto a ledge and tried to shoot them from there, but they just seemed to keep on coming... more and more of the fucking things... as if they were multiplying on the spot! I had an artefact on my belt known as a 'Simbion' and, all of a sudden, Zhal grabs it and jumps down right into the swarm of Rats below... I couldn't believe it! What the hell was he doing? But then I saw that some kind of anomaly had begun to form where he'd landed... First, it was invisible, then blue, and then a bright, white flash... Then I lost consciousness...\nWhen I came to I could see a new artefact hovering in front of me, surrounded by a shitload of dead Rats... and lying in the middle of pile was the skeleton of my friend, Zhal...\nHe was a good man. Always willing to give what he had to help someone out. Not corrupt like most people you meet. He was a good friend, and I'll never be able to repay what he did for me that day...\nIt turns out that the Simbion artefact is the result of a transmutation in a Fruit Punch anomaly. But if you throw a Simbion into a Fruit Punch, about ten minutes later you get a new artefact called a 'Rattle', because of its shape.\nI don't know any more about it, except that I wouldn't sell that Rattle for all the riches in the Zone... The information is now yours, Stalker. Use it well, and good luck...</text>
+	</string>
+</string_table>

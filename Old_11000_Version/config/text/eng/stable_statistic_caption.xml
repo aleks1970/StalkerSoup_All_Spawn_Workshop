@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.8 targets, lastday -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 07 Oct 16 -->
+	<string id="speed_kmh">
+		<text>Km/H</text>
+	</string>
+	<string id="fire_emerg">
+		<text>!!! FIRE ONBOARD - EVACUATE AT ONCE !!!</text>
+	</string>
+	<string id="ammo_emerg">
+		<text>!!! AMMUNITION DISRUPTION PROBABLE !!!</text>
+	</string>
+	<string id="has_target">
+		<text>LOCK</text>
+	</string>
+	<string id="current_target">
+		<text>- CURRENT TARGET:</text>
+	</string>
+	<string id="unknown_target">
+		<text>- TARGET NOT RECOGNIZED -</text>
+	</string>
+	<string id="range_target">
+		<text>- TARGET BEYOND RANGE -</text>
+	</string>
+	<string id="no_target">
+		<text>- NO TARGET ACQUIRED -</text>
+	</string>
+	<string id="weapon_malfunc">
+		<text>- WEAPON MALFUNCTION -</text>
+	</string>
+	<string id="system_malfunc">
+		<text>- SYSTEM MALFUNCTION -</text>
+	</string>
+	<string id="armor_cond">
+		<text>ARMOR DURABILITY:</text>
+	</string>
+	<string id="heli_target">
+		<text>HELICOPTER</text>
+	</string>
+	<string id="turret_target">
+		<text>TURRET</text>
+	</string>
+	<string id="btr_target">
+		<text>APC</text>
+	</string>
+	<string id="chimera_weak">
+		<text>CHIMERA</text>
+	</string>
+	<string id="tushkano_normal">
+		<text>TUSHKANO</text>
+	</string>
+	<string id="rat_normal">
+		<text>RAT</text>
+	</string>
+	<string id="fracture_weak">
+		<text>IZLOM</text>
+	</string>
+	<string id="cat_weak">
+		<text>CAT</text>
+	</string>
+	<string id="crow_weak">
+		<text>CROW</text>
+	</string>
+	<string id="bandit_target">
+		<text>BANDIT</text>
+	</string>
+	<string id="bandit_experienced">
+		<text>Bandit, experienced</text>
+	</string>
+	<string id="bandit_master">
+		<text>Bandit, master</text>
+	</string>
+	<string id="bandit_novice">
+		<text>Bandit, rookie</text>
+	</string>
+	<string id="bandit_veteran">
+		<text>Bandit, veteran</text>
+	</string>
+	<string id="blood_target">
+		<text>BLOODSUCKER</text>
+	</string>
+	<string id="bloodsucker_normal">
+		<text>sub Bloodsucker</text>
+	</string>
+	<string id="bloodsucker_strong">
+		<text>dark Bloodsucker</text>
+	</string>
+	<string id="bloodsucker_weak">
+		<text>Bloodsucker</text>
+	</string>
+	<string id="boar_target">
+		<text>BOAR</text>
+	</string>
+	<string id="boar_normal">
+		<text>adult boar</text>
+	</string>
+	<string id="boar_strong">
+		<text>mature boar</text>
+	</string>
+	<string id="boar_weak">
+		<text>young boar</text>
+	</string>
+	<string id="burer_target">
+		<text>BURER</text>
+	</string>
+	<string id="burer_weak">
+		<text>burer</text>
+	</string>
+	<string id="controller_target">
+		<text>CONTROLLER</text>
+	</string>
+	<string id="controller_weak">
+		<text>controller</text>
+	</string>
+	<string id="pseudodog_target">
+		<text>PSEUDODOG</text>
+	</string>
+	<string id="dog_target">
+		<text>DOG</text>
+	</string>
+	<string id="dog_normal">
+		<text>rat hound</text>
+	</string>
+	<string id="dog_strong">
+		<text>albino dog</text>
+	</string>
+	<string id="dog_weak">
+		<text>wild dog</text>
+	</string>
+	<string id="dolg_target">
+		<text>STALKER - DUTY</text>
+	</string>
+	<string id="dolg_experienced">
+		<text>Duty, experienced</text>
+	</string>
+	<string id="dolg_master">
+		<text>Duty, master</text>
+	</string>
+	<string id="dolg_veteran">
+		<text>Duty, veteran</text>
+	</string>
+	<string id="ecolog_target">
+		<text>SCIENTIST</text>
+	</string>
+	<string id="ecolog_experienced">
+		<text>Scientist, experienced</text>
+	</string>
+	<string id="ecolog_novice">
+		<text>Scientist, novice</text>
+	</string>
+	<string id="flesh_target">
+		<text>FLESH</text>
+	</string>
+	<string id="flesh_normal">
+		<text>forest flesh</text>
+	</string>
+	<string id="flesh_strong">
+		<text>swamp flesh</text>
+	</string>
+	<string id="flesh_weak">
+		<text>prairie flesh</text>
+	</string>
+	<string id="freedom_target">
+		<text>STALKER - FREEDOM</text>
+	</string>
+	<string id="freedom_experienced">
+		<text>Freedom, experienced</text>
+	</string>
+	<string id="freedom_master">
+		<text>Freedom, master</text>
+	</string>
+	<string id="freedom_veteran">
+		<text>Freedom, veteran</text>
+	</string>
+	<string id="killer_target">
+		<text>MERCENARY</text>
+	</string>
+	<string id="killer_experienced">
+		<text>Merc, experienced</text>
+	</string>
+	<string id="killer_master">
+		<text>Merc, master</text>
+	</string>
+	<string id="killer_veteran">
+		<text>Merc, veteran</text>
+	</string>
+	<string id="lastday_experienced">
+		<text>Last Day, experienced</text>
+	</string>
+	<string id="lastday_master">
+		<text>Last Day, master</text>
+	</string>
+	<string id="lastday_veteran">
+		<text>Last Day, veteran</text>
+	</string>
+	<string id="mil_target">
+		<text>SOLDIER</text>
+	</string>
+	<string id="military_experienced">
+		<text>Soldier, Sergeant</text>
+	</string>
+	<string id="military_master">
+		<text>Soldier, Captain</text>
+	</string>
+	<string id="military_novice">
+		<text>Soldier, Private</text>
+	</string>
+	<string id="military_veteran">
+		<text>Soldier, Lieutenant</text>
+	</string>
+	<string id="mono_target">
+		<text>STALKER - MONOLITH</text>
+	</string>
+	<string id="monolith_experienced">
+		<text>Monolith, experienced</text>
+	</string>
+	<string id="monolith_master">
+		<text>Monolith, expert</text>
+	</string>
+	<string id="monolith_novice">
+		<text>Monolith, rookie</text>
+	</string>
+	<string id="monolith_veteran">
+		<text>Monolith, veteran</text>
+	</string>
+	<string id="stalker_target">
+		<text>STALKER - LONER</text>
+	</string>
+	<string id="neutral_experienced">
+		<text>Stalker, experienced</text>
+	</string>
+	<string id="neutral_master">
+		<text>Stalker, master</text>
+	</string>
+	<string id="neutral_novice">
+		<text>Stalker, rookie</text>
+	</string>
+	<string id="neutral_veteran">
+		<text>Stalker, veteran</text>
+	</string>
+	<string id="poltergeist_target">
+		<text>POLTERGEIST</text>
+	</string>
+	<string id="poltergeist_weak">
+		<text>poltergeist</text>
+	</string>
+	<string id="pseudo_gigant_target">
+		<text>PSEUDOGIANT</text>
+	</string>
+	<string id="pseudo_gigant_weak">
+		<text>pseudogiant</text>
+	</string>
+	<string id="pseudodog_normal">
+		<text>mature pseudodog</text>
+	</string>
+	<string id="pseudodog_strong">
+		<text>grey pseudodog</text>
+	</string>
+	<string id="pseudodog_weak">
+		<text>pseudodog</text>
+	</string>
+	<string id="psy_dog">
+		<text>dusky pseudodog</text>
+	</string>
+	<string id="snork_target">
+		<text>SNORK</text>
+	</string>
+	<string id="snork_normal">
+		<text>scavenger snork</text>
+	</string>
+	<string id="snork_strong">
+		<text>man-eating snork</text>
+	</string>
+	<string id="snork_weak">
+		<text>snork</text>
+	</string>
+	<string id="tushkano_weak">
+		<text>tushkano</text>
+	</string>
+	<string id="zombie_target">
+		<text>ZOMBIE</text>
+	</string>
+	<string id="zombie_normal">
+		<text>zombie</text>
+	</string>
+	<string id="zombie_strong">
+		<text>zombie, phantom</text>
+	</string>
+	<string id="zombie_weak">
+		<text>zombie, weak</text>
+	</string>
+	<string id="zombied_target">
+		<text>ZOMBIFIED STALKER</text>
+	</string>
+	<string id="zombied_experienced">
+		<text>zombified Stalker, experienced</text>
+	</string>
+	<string id="zombied_master">
+		<text>zombified Stalker, master</text>
+	</string>
+	<string id="zombied_novice">
+		<text>zombified Stalker, rookie</text>
+	</string>
+	<string id="zombied_veteran">
+		<text>zombified Stalker, veteran</text>
+	</string>
+	<string id="stranger_target">
+		<text>STRANGER</text>
+	</string>
+	<string id="trader_target">
+		<text>TRADER</text>
+	</string>
+	<string id="csky_target">
+		<text>STALKER - CLEAR SKY</text>
+	</string>
+	<!-- New mutants 110015 - aleks1970 -->
+	<string id="bibliotekar_stat">
+		<text>Librarian</text>
+	</string>
+	<string id="fracture_stat">
+		<text>Fracture</text>
+	</string>
+	<string id="ghoul_stat">
+		<text>Ghoul</text>
+	</string>
+	<string id="medwed_stat">
+		<text>The Bear</text>
+	</string>
+	<string id="ratlike_stat">
+		<text>Krysovolk</text>
+	</string>
+	<string id="spider_stat">
+		<text>Spiders</text>
+	</string>
+	<string id="swamp_stat">
+		<text>Pinnipeds</text>
+	</string>

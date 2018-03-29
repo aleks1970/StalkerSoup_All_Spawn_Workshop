@@ -1,0 +1,756 @@
+<!-- ************ TB3D 1.0.9.9.8.4 new inventory and dialogs, reduced money, Max to Syak aleks1970, treasure dilogs to includes *************** -->
+<xml>
+	<specific_character id="escape_trader" no_random="1">
+		<name>escape_trader_name</name>
+		<icon>ui_npc_u_trader</icon>
+		<bio>escape_trader_bio</bio>
+		<class>trader</class>
+		<community>trader</community>
+		<visual>actors\trader\trader</visual>
+		<rank>330</rank>
+		<reputation>23</reputation>
+		<money min="1000000" max="1000000" infinitive="1"/> 
+#include "inventory\sid_items.xml"
+#include "dialogs\sid_esc.xml"
+	</specific_character>
+	<!-- ***************esc_Sak*************** -->
+	<specific_character id="Sak" team_default="1">
+		<name>Syak_name_gameplay</name>
+		<icon>ui_npc_u_stalker_sv_syak</icon>
+		<bio>Sak_bio</bio>
+		<class>Sak</class>
+		<community>trader</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>502</rank>
+		<reputation>10</reputation>
+		<money min="1000000" max="1100000" infinitive="1"/>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\svoboda\stalker_sv_sak</visual>
+#include "inventory\sak_items.xml"
+#include "dialogs\sak_esc.xml"
+	</specific_character>
+	<!-- ***************Doktor*************** -->
+	<specific_character id="doktor" team_default="1">
+		<name>Marsh_Doctor_name_gameplay</name>
+		<icon>ui_npc_u_doktor</icon>
+		<bio>Sak_bio</bio>
+		<class>doktor</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>911</rank>
+		<reputation>91</reputation>
+		<money min="10000" max="110000" infinitive="1"/>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\izgoy\izgoy</visual>
+#include "inventory\doc_items.xml"
+#include "dialogs\doc_esc.xml"
+	</specific_character>
+	<!-- ***************Doktor1*************** -->
+	<specific_character id="doktor1" team_default="1">
+		<name>Marsh_Doctor_name_gameplay</name>
+		<icon>ui_npc_u_doktor</icon>
+		<bio>Sak_bio</bio>
+		<class>doktor1</class>
+		<community>stranger</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>911</rank>
+		<reputation>91</reputation>
+		<money min="100" max="1000" infinitive="0"/>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\izgoy\izgoy</visual>
+#include "inventory\doc_items.xml"
+#include "dialogs\swampdoc_esc.xml"
+	</specific_character>
+	<!-- ***************dolgovazyi*************** -->
+	<specific_character id="dolgovazyi" team_default="1">
+		<name>dolgovazyi_name</name>
+		<icon>ui_npc_u_dolgovazyi</icon>
+		<bio>esc_wolf_bio</bio>
+		<class>dolgovazyi</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>434</rank>
+		<reputation>5</reputation>
+		<money min="600" max="200" infinitive="0"/>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\ucheniy\ucheniy_4</visual>
+#include "inventory\dolg_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\dolvat_esc.xml"
+	</specific_character>
+	<!-- ***************docent*************** -->
+	<specific_character id="bar_docent" team_default="1">
+		<name>bar_docent_name</name>
+		<icon>ui_npc_u_bar_docent</icon>
+		<bio>esc_wolf_bio</bio>
+		<class>bar_docent</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>434</rank>
+		<reputation>5</reputation>
+		<money min="20" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\ucheniy\ucheniy_3</visual>
+#include "inventory\dolg_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\docent_esc.xml"
+	</specific_character>
+	<!-- ***************krisyk*************** -->
+	<specific_character id="val_bandit_krisyk" team_default="1">
+		<name>val_bandit_krisyk_name</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="3" y="2"/>
+		<bio>val_bandit_veteran_bio</bio>
+		<class>val_bandit_krisyk</class>
+		<community>trader</community>
+		<terrain_sect>stalker_bandit_terrain</terrain_sect>
+		<rank>808</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>1</crouch_type>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\krysik_esc.xml"
+	</specific_character>
+	<!-- ***************esc_wolf*************** -->
+	<specific_character id="esc_wolf" team_default="1">
+		<name>esc_wolf_name</name>
+		<icon>ui_npc_u_stalker_neytral_balon_1</icon>
+		<bio>esc_wolf_bio</bio>
+		<class>esc_wolf</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>434</rank>
+		<reputation>5</reputation>
+		<money min="20" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\stalker_neytral_wolf</visual>
+#include "inventory\wolf_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\wolf_esc.xml"
+	</specific_character>
+	<!-- ***************esc_fanat*************** -->
+	<specific_character id="esc_fanat" team_default="1">
+		<name>esc_fanat_name</name>
+		<icon>ui_npc_u_stalker_neytral_rukzak_3</icon>
+		<bio>esc_fanat_bio</bio>
+		<class>esc_fanat</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>502</rank>
+		<reputation>10</reputation>
+		<money min="20" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\neytral\stalker_neytral_fanatic</visual>
+#include "inventory\fanat_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\fanat_esc.xml"
+			</specific_character>
+	<!-- ***************esc_fox*************** -->
+	<specific_character id="esc_fox" team_default="1">
+		<name>esc_fox_name</name>
+		<icon>ui_npc_u_stalker_neytral_balon_4</icon>
+		<bio>esc_fox_bio</bio>
+		<class>esc_fox</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>338</rank>
+		<reputation>-3</reputation>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\neytral\stalker_neytral_fox</visual>
+#include "inventory\fox_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\fox_esc.xml"
+	</specific_character>
+	<!-- ***************esc_tutorial_wounded*************** -->
+	<specific_character id="esc_tutorial_wounded" team_default="1">
+		<name>esc_tolik_name</name>
+		<!-- ***************<icon>ui_npc_u_green_stalker_2</icon>*************** -->
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<icon>ui_npc_tolyn</icon>
+		<bio>esc_tolik_bio</bio>
+		<class>esc_tutorial_wounded</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>196</rank>
+		<reputation>6</reputation>
+		<money min="200" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_01\newbie\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<!-- ***************<visual>actors\novice\green_stalker_2</visual>*************** -->
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<visual>new\stalker_tolik</visual>
+#include "inventory\tolik_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\tolik_esc.xml"
+	</specific_character>
+	<!-- ***************esc_shustryi*************** -->
+	<specific_character id="esc_shustryi" team_default="1">
+		<name>esc_shustryi_name</name>
+		<icon>ui_npc_u_green_stalker_1</icon>
+		<bio>esc_shustryi_bio</bio>
+		<class>esc_shustryi</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>196</rank>
+		<reputation>6</reputation>
+		<money min="200" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_01\newbie\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\novice\stalker_no_nimble</visual>
+#include "inventory\shustri_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\shustri_esc.xml"
+	</specific_character>
+	<!-- ***************killer_specnaz*************** -->
+	<specific_character id="esc_killer_specnaz" team_default="1">
+		<terrain_sect_>stalker_terrain</terrain_sect_>
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_ki_head_1</icon>
+		<bio>esc_killer_specnaz_bio</bio>
+		<team>Killer_specnaz</team>
+		<class>esc_killer_specnaz</class>
+		<community>killer</community>
+		<terrain_sect>stalker_killer_terrain</terrain_sect>
+		<rank>585</rank>
+		<reputation>-85</reputation>
+		<snd_config>characters_voice\human_02\killer\</snd_config>
+		<crouch_type>0</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\killer\stalker_ki_head_1</visual>
+#include "inventory\specnaz_killer_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************BANDIT NOVICE*************** -->
+	<specific_character id="esc_bandit_novice_default1" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_3</icon>
+		<bio>esc_bandit_novice_bio</bio>
+		<class>esc_bandit_novice</class>
+		<community>bandit</community>
+		<terrain_sect>stalker_bandit_terrain</terrain_sect>
+		<rank>32</rank>
+		<reputation>-56</reputation>
+		<snd_config>characters_voice\human_01\bandit\</snd_config>
+		<crouch_type>1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\bandit\stalker_bandit_3</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_3.xml"
+#include "dialogs\bandit_dialogs.xml"
+</specific_character>
+	<!-- *************** -->
+	<specific_character id="esc_bandit_novice_default2" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_4</icon>
+		<bio>esc_bandit_novice_bio</bio>
+		<class>esc_bandit_novice</class>
+		<community>bandit</community>
+		<terrain_sect>stalker_bandit_terrain</terrain_sect>
+		<rank>59</rank>
+		<reputation>-60</reputation>
+		<snd_config>characters_voice\human_01\bandit\</snd_config>
+		<crouch_type>1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<!-- ***************<visual>actors\bandit\stalker_bandit_piyn</visual>*************** -->
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<visual>actors\bandit\stalker_bandit_3</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_3.xml"		
+#include "dialogs\bandit_dialogs.xml"	
+	</specific_character>
+	<!-- *************** -->
+	<specific_character id="esc_bandit_novice_default3" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_5</icon>
+		<bio>esc_bandit_novice_bio</bio>
+		<class>esc_bandit_novice</class>
+		<community>bandit</community>
+		<terrain_sect>stalker_bandit_terrain</terrain_sect>
+		<rank>81</rank>
+		<reputation>-67</reputation>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\bandit\stalker_bandit_5</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_3.xml"
+#include "dialogs\bandit_dialogs.xml"	
+</specific_character>
+	<!-- ***************STALKER NOVICE*************** -->
+	<specific_character id="esc_stalker_novice_default1" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_green_stalker_2</icon>
+		<bio>esc_stalker_novice_bio</bio>
+		<class>esc_stalker_novice</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>140</rank>
+		<reputation>12</reputation>
+		<money min="200" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_01\newbie\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\novice\green_stalker_2</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_3.xml"
+#include "dialogs\generic_nt1_dialogs.xml"		
+	</specific_character>
+	<!-- *************** -->
+	<specific_character id="esc_stalker_novice_default2" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_green_stalker_2</icon>
+		<bio>esc_stalker_novice_bio</bio>
+		<class>esc_stalker_novice</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>127</rank>
+		<reputation>-8</reputation>
+		<money min="200" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_01\newbie\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\novice\green_stalker_2</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_3.xml"
+#include "dialogs\generic_nt2_dialogs.xml"
+	</specific_character>
+	<!-- *************** -->
+	<specific_character id="esc_stalker_novice_default3" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_green_stalker_3</icon>
+		<bio>esc_stalker_novice_bio</bio>
+		<class>esc_stalker_novice</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>214</rank>
+		<reputation>9</reputation>
+		<money min="200" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\novice\green_stalker_3</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_3.xml"
+#include "dialogs\generic_nt3_dialogs.xml"
+	</specific_character>
+	<!-- *************** -->
+	<specific_character id="esc_stalker_novice_default4" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_green_stalker_3</icon>
+		<bio>esc_stalker_novice_bio</bio>
+		<class>esc_stalker_novice</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>175</rank>
+		<reputation>8</reputation>
+		<money min="200" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\novice\green_stalker_3</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_3.xml"
+#include "dialogs\generic_nt4_dialogs.xml"
+	</specific_character>
+	<!-- *************** -->
+	<specific_character id="esc_stalker_novice_default5" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_green_stalker_4</icon>
+		<bio>esc_stalker_novice_bio</bio>
+		<class>esc_stalker_novice</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>268</rank>
+		<reputation>-10</reputation>
+		<money min="200" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_02\newbie\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\novice\green_stalker_4</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_3.xml"
+#include "dialogs\generic_nt1_dialogs.xml"
+	</specific_character>
+	<!-- *************** -->
+	<specific_character id="esc_stalker_novice_default6" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_green_stalker_4</icon>
+		<bio>esc_stalker_novice_bio</bio>
+		<class>esc_stalker_novice</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>133</rank>
+		<reputation>6</reputation>
+		<money min="200" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_02\newbie\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\novice\green_stalker_4</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_3.xml"
+#include "dialogs\generic_nt2_dialogs.xml"
+	</specific_character>
+	<!-- *************** -->
+	<specific_character id="esc_stalker_novice_default9" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_green_stalker_5</icon>
+		<bio>esc_stalker_novice_bio</bio>
+		<class>esc_stalker_novice</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>224</rank>
+		<reputation>18</reputation>
+		<money min="200" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_02\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\novice\green_stalker_5</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_3.xml"
+#include "dialogs\generic_nt3_dialogs.xml"
+	</specific_character>
+	<!-- *************** -->
+	<specific_character id="esc_stalker_novice_default10" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_green_stalker_5</icon>
+		<bio>esc_stalker_novice_bio</bio>
+		<class>esc_stalker_novice</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>58</rank>
+		<reputation>-2</reputation>
+		<money min="200" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_02\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\novice\green_stalker_5</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_3.xml"
+#include "dialogs\generic_nt4_dialogs.xml"
+	</specific_character>
+	<!-- ***************ranger*************** -->
+	<specific_character id="esc_ranger" team_default="1">
+		<name>esc_petruha_name</name>
+		<icon>ui_npc_u_green_stalker_8</icon>
+		<bio>esc_petruha_bio</bio>
+		<class>esc_ranger</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>279</rank>
+		<reputation>16</reputation>
+		<money min="200" max="600" infinitive="0"/>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\novice\green_stalker_8</visual>
+#include "inventory\ranger_items.xml"
+#include "gameplay\character_criticals_3.xml"
+#include "dialogs\petruha_esc.xml"
+	</specific_character>
+	<!-- ***************  dan ************ -->
+	<!-- *************** !!!!TB3D 134 *************** -->
+	<specific_character id="marsh_dan" team_default="1">
+		<name>Dan_name_gameplay</name>
+		<icon>ui_npc_u_hunter_5_novice</icon>
+		<map_icon x="0" y="0"/>
+		<bio>sim_marsh_ohotnik_regular_bio</bio>
+		<class>marsh_dan</class>
+		<community>green</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="50000" max="60000" infinitive="0"/>
+		<rank>259</rank>
+		<reputation>100</reputation>
+		<visual>actors\hunters\hunter5</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\marsh_dan_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\dan_esc.xml"
+</specific_character>
+	<!-- *************** !!!!TB3D 134 *************** -->
+	<!-- ***************soldier_commander*************** -->
+	<specific_character id="esc_soldier_commander" team_default="1">
+		<name>esc_soldier_commander_name</name>
+		<icon>ui_npc_u_soldier_beret_1</icon>
+		<bio>esc_soldier_commander_bio</bio>
+		<class>esc_soldier_commander</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>764</rank>
+		<reputation>-15</reputation>
+		<money min="2500" max="80000" infinitive="0"/>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\soldier\stalker_so_kuznetsov</visual>		
+#include "inventory\soldier_commander_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\soldat_esc.xml"
+	</specific_character>
+	<!-- ***************soldier_regular*************** -->
+	<specific_character id="esc_soldier_regular_default1" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_obichniy</icon>
+		<bio>esc_soldier_regular_bio</bio>
+		<class>esc_soldier_regular</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>223</rank>
+		<reputation>6</reputation>
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\soldier\soldier_obichniy</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"					
+	</specific_character>
+	<!-- ***************soldier_regular*************** -->
+	<specific_character id="esc_soldier_regular_default2" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_bandana_9</icon>
+		<bio>esc_soldier_regular_bio</bio>
+		<class>esc_soldier_regular</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>476</rank>
+		<reputation>9</reputation>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\bandit\stalker_arhara1</visual>
+		<!-- *************** !!!!TB3D 134 *************** -->
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"					
+	</specific_character>
+	<!-- ***************soldier_regular*************** -->
+	<specific_character id="esc_soldier_regular_default3" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_bandana_2</icon>
+		<bio>esc_soldier_regular_bio</bio>
+		<class>esc_soldier_regular</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>207</rank>
+		<reputation>10</reputation>
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\soldier\soldier_bandana_2</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"					
+	</specific_character>
+	<!-- ***************soldier_regular*************** -->
+	<specific_character id="esc_soldier_regular_default4" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_bandana_3</icon>
+		<bio>esc_sergant_regular_bio</bio>
+		<class>esc_soldier_regular</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>263</rank>
+		<reputation>-18</reputation>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\soldier\soldier_bandana_3</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"					
+	</specific_character>
+	<!-- ***************soldier_regular*************** -->
+	<specific_character id="esc_soldier_regular_default5" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_bandana_4</icon>
+		<bio>esc_sergant_regular_bio</bio>
+		<class>esc_soldier_regular</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>481</rank>
+		<reputation>12</reputation>
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\soldier\soldier_bandana_4</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************blockpost_commander*************** -->
+	<specific_character id="esc_soldier_blockpost_commander" team_default="1">
+		<name>GENERATE_NAME_captain</name>
+		<icon>ui_npc_u_soldier_beret_1</icon>
+		<bio>esc_captain_bio</bio>
+		<class>esc_soldier_blockpost_commander</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>906</rank>
+		<reputation>20</reputation>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\soldier\soldier_beret_1</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"		
+	</specific_character>
+	<!-- ***************soldier_blokpost*************** -->
+	<specific_character id="esc_soldier_blokpost_default1" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_obichniy</icon>
+		<bio>esc_soldier_regular_bio</bio>
+		<class>esc_soldier_blokpost</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>205</rank>
+		<reputation>0</reputation>
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\soldier\soldier_obichniy</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************soldier_blokpost*************** -->
+	<specific_character id="esc_soldier_blokpost_default2" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_bandana_5</icon>
+		<bio>esc_soldier_regular_bio</bio>
+		<class>esc_soldier_blokpost</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>237</rank>
+		<reputation>-6</reputation>
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\soldier\soldier_bandana_5</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************soldier_blokpost*************** -->
+	<specific_character id="esc_soldier_blokpost_default3" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_bandana</icon>
+		<bio>esc_soldier_regular_bio</bio>
+		<class>esc_soldier_blokpost</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>355</rank>
+		<reputation>11</reputation>
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\soldier\soldier_bandana</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************soldier_specnaz*************** -->
+	<specific_character id="esc_soldier_specnaz_default1" team_default="1">
+		<name>GENERATE_NAME_lieutenant</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<bio>esc_specnaz_bio</bio>
+		<class>esc_soldier_specnaz</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>809</rank>
+		<reputation>0</reputation>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\soldier\soldier_spetsnaz</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************soldier_specnaz*************** -->
+	<specific_character id="esc_soldier_specnaz_default2" team_default="1">
+		<name>GENERATE_NAME_lieutenant</name>
+		<icon>ui_npc_u_soldier_bandana_9</icon>
+		<bio>esc_specnaz_bio</bio>
+		<class>esc_soldier_specnaz</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>830</rank>
+		<reputation>-4</reputation>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\bandit\stalker_arhara1</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************killer_master*************** -->
+	<specific_character id="esc_killer_master" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_ki_antigas</icon>
+		<bio>esc_specnaz_killer_bio</bio>
+		<class>esc_killer_master</class>
+		<community>killer</community>
+		<terrain_sect>stalker_killer_terrain</terrain_sect>
+		<rank>599</rank>
+		<reputation>-109</reputation>
+		<snd_config>characters_voice\human_03\killer\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\killer\stalker_ki_antigas</visual>
+#include "inventory\specnaz_killer_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************provodnik*************** -->
+	<specific_character id="esc_provodnik" team_default="1">
+		<name>esc_provodnik_name</name>
+		<icon>ui_npc_u_stalker_neytral_rukzak_1</icon>
+		<bio>esc_provodnik_bio</bio>
+		<class>esc_provodnik</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>593</rank>
+		<reputation>0</reputation>
+		<money min="600" max="20000" infinitive="0"/>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\stalker_neytral_guide</visual>
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\prod1_esc.xml"
+	</specific_character>
+	<!-- *************** !!!!TB3D 134 *************** -->
+	<specific_character id="sak_military_stalker" team_default="1">
+		<name>sak_military_stalker</name>
+		<icon>ui_npc_u_soldier_beret_3</icon>
+		<bio>esc_specnaz_killer_bio</bio>
+		<class>sak_military_stalker</class>
+		<community>military</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>599</rank>
+		<reputation>0</reputation>
+		<money min="1450" max="250000" infinitive="0"/>
+		<snd_config>characters_voice\human_03\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\soldier\soldier_beret_3</visual>
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\prod2_esc.xml"
+	</specific_character>
+	<!-- ***************kostya*************** -->
+	<specific_character id="esc_kostya" team_default="1">
+		<name>Kostya_name_gameplay</name>
+		<icon>ui_npc_kostyarik</icon>
+		<map_icon x="0" y="0"/>
+		<bio>sim_stalker_master_bio</bio>
+		<class>esc_kostya</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="250" max="25000" infinitive="0"/>
+		<rank>570</rank>
+		<reputation>100</reputation>
+		<visual>new\stalker_kostya</visual>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\kostya_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\kostya_esc.xml"
+    </specific_character>
+</xml>

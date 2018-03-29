@@ -1,0 +1,8 @@
+[trader]
+buy_condition = generic_buy
+sell_condition = {+pred_barkeep_zep3_done} generic_sell_3, generic_sell_2
+buy_supplies = {+pred_barkeep_zep3_done} supplies_after_darkvalley, supplies_start
+
+#include "TB3D_generic_buy_2.ltx"
+#include "TB3D_generic_sell.ltx"
+#include "shop_pred\pred_barman_supl.ltx"

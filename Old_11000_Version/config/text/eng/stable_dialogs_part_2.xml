@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1252" standalone="yes"?>
+<!-- TB3D 1.1.0.0.0.4, text from "stable_dialogs" + other files with dialogs - aleks1970 -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 17 Jan 16 -->
+<string_table>
+#include "text\eng\stable_dialogs_aes.xml"
+#include "text\eng\stable_dialogs_military.xml"
+#include "text\eng\stable_dialogs_deadcity.xml"
+#include "text\eng\stable_dialogs_darkvalley.xml"
+	<string id="actor_help_wounded_131">
+		<text>What? Not one medkit? How the hell do you get around the Zone? What if you're attacked, injured, infected - anything? The Zone'll just take you, like so many others...</text>
+	</string>
+	<string id="actor_help_wounded_14">
+		<text>Sorry, friend, but if I give you mine I won't have one left for myself</text>
+	</string>
+	<string id="actor_help_wounded_141">
+		<text>It's your decision, but it won't do you any good...</text>
+	</string>
+	<string id="hello_dialog_2">
+		<text>Yes?</text>
+	</string>
+	<string id="hello_dialog_3">
+		<text>Help me out, would you?</text>
+	</string>
+</string_table>

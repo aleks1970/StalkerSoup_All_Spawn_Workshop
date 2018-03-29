@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<!-- TB3D 1.1.0.0.1.1 -->
+<!-- AMK Dialogs -->
+<!-- Added dialogue with the Informant(Snitch) about recipes - aleks1970 -->
+<!-- 05.02.2017 Reformatted Snitch receipt info dialogues - aleks1970 -->
+	<!-- Dialogue with the Culinary Specialist -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 07 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+	<string id="artem_kulinar_0">
+		<text>Welcome! I have some specialities on offer. Would you like to look?</text>
+	</string>
+	<string id="artem_kulinar_1">
+		<text>Well, I admire your entrepreneurial attitude - a snack bar in the Zone. Right next to mountains of radioactive dust...</text>
+	</string>
+	<string id="artem_kulinar_2">
+		<text>This is my home and, for some, the Garbage is a hard place to reach. They're hungry when they get here, and there's been no food for miles</text>
+	</string>
+	<string id="artem_kulinar_3">
+		<text>But there's a Bar not far from here. The Barkeep buys up all your loot and sells better weapons. Here, you have Bandits and all sorts of scum that'll just kill you for it...</text>
+	</string>
+	<string id="artem_kulinar_4">
+		<text>The Bar has its own problems. It's a crowded area. People are too serious and take offence easily, so be careful not to make a fuss there. Also, the Bar is a dead end for many Stalkers. They just reach there and stop. \nThe Garbage is somewhat wilder, with a different kind of action. It's a place where rookies find out if they can handle the Zone. Fighting Bandits and gangsters isn't real combat - it's training! \nDid you know that most rookies die within a week? They either walk into an anomaly, or become a mutant's happy meal. They need a few old timers here to teach them a thing or two...</text>
+	</string>
+	<string id="artem_kulinar_5">
+		<text>That's a sobering thought. Who are you, and where are you from?</text>
+	</string>
+	<string id="artem_kulinar_6">
+		<text>I was brought up in the forest. Then I traveled around Europe working as a cook. Did you know that all the leftover food from restaurants is given to stray dogs and cats, while the homeless walk around hungry? But in the Zone, how many starving dogs and cats do you see? Yes, very few, because there's a plentiful supply of rookies!</text>
+	</string>
+	<string id="artem_kulinar_7">
+		<text>Your food is good. Do you do weapons and ammo?</text>
+	</string>
+	<string id="artem_kulinar_8">
+		<text>Talk to Vitek Voron just outside. He's your man, and quite an interesting guy...</text>
+	</string>
+	<string id="artem_kulinar_9">
+		<text>Can you tell me about him?</text>
+	</string>
+	<string id="artem_kulinar_10">
+		<text>Do you know what the most comfortable creature is in the Zone?\nRavens. They have no natural predators here, and if they have one survival skill amongst them it's knowing where and when death is going to strike next. They just fly around safely, just waiting for fresh dead meat. That's how Vitek got his nickname, Raven. He makes his living from the dying. All those rookies in the Dump...</text>
+	</string>
+	<string id="artem_kulinar_11">
+		<text>I see. Thanks for telling me about this 'Raven'</text>
+	</string>
+	<!-- dialogue with Vitek Voron the Raven -->
+	<string id="vitek_voron_0">
+		<text>Hello. How can I help you?</text>
+	</string>
+	<string id="vitek_voron_1">
+		<text>Hi. Nice place you have here</text>
+	</string>
+	<string id="vitek_voron_2">
+		<text>It's just right for what I call home</text>
+	</string>
+	<string id="vitek_voron_3">
+		<text>I've been looking around for you. For a trader, you're not exactly easy to find...</text>
+	</string>
+	<string id="vitek_voron_4">
+		<text>I prefer it that way. I'm here to do business, not discuss awkward questions about it...</text>
+	</string>
+	<string id="vitek_voron_5">
+		<text>I see your point. So what are you offering?</text>
+	</string>
+	<string id="vitek_voron_6">
+		<text>To start with, I don't know you, and you don't know me, so there'll be no discussing discounts or favours until we establish a healthy working relationship. Okay?</text>
+	</string>
+	<string id="vitek_voron_7">
+		<text>That's fine with me. Let's get down to business. What do you have?</text>
+	</string>
+	<!-- Dialogue with the Informant Snitch about recipes start -->
+	<string id="informer_recipt1">
+		<text>Holy shit! Did your calculator add some extra zeroes to that price? It had better be worth it. Here, take your money...</text>
+	</string>
+	<string id="informer_recipt2">
+		<text>Whew, that's more than I was expecting... Okay, I'll give it a try...</text>
+	</string>
+	<string id="dialog_amk_00_recipt">
+		<text>May I ask a question?</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_02_recipt">
+		<text>Do you have any transmutation recipes?</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_03_recipt">
+		<text>You sure? This is valuable information...</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_41_recipt">
+		<text>No, perhaps not</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_42_recipt">
+		<text>How much will this 'information' cost?</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_05_recipt">
+		<text>The usual 30,000... What do you say?</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_61_recipt">
+		<text>No, it's too much for me. I'll manage without it</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_07_recipt">
+		<text>Good choice...</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_08_recipt">
+		<text>I'm hoping so...</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_01_recipt">
+		<text>What do you need?</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_10_recipt">
+		<text>Do you have any Recipes?</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_12_recipt">
+		<text>Sorry, something's come up. We'll talk later...</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_11_recipt">
+		<text>Yes I do, at 30,000 roubles each. Agreed?</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_142_recipt">
+		<text>That's a little pricey for me right now...</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_15_recipt">
+		<text>I've transferred the data to your PDA...</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_16_recipt">
+		<text>Excellent...</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_12_18_recipt">
+		<text>Yes, for the standard 30,000 roubles...</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_12_181_recipt">
+		<text>Okay, here's your money. 30,000 roubles...</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_12_19_recipt">
+		<text>Do you have any Recipes for absolute artefacts?</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_12_20_recipt">
+		<text>Yes I do. 30,000 roubles for a Sphere recipe. Okay?</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_12_21_recipt">
+		<text>Okay. I agree...</text><!-- !!!!TB3D 134 -->
+	</string>
+	<string id="dialog_amk_12_22_recipt">
+		<text>Do you have any other Recipes?</text><!-- !!!!TB3D 134 -->
+	</string>
+	<!-- Dialogue with the Informant Snitch about recipes end -->

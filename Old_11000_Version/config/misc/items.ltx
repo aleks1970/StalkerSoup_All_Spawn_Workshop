@@ -1,0 +1,1636 @@
+;<!-- TB3D 1.1.0.0.1.6 edits by glowworm, adjusted torch position, argali to arhara, device_pda -->    
+;<!-- aleks1970; excluded duplicates section and commented out "discovery_dependency" aleks1970 --> 
+;added testsak_l12_stancia_2, car_key_2, bread_a and vodka_a consumable, added Repair Kit Revamped - aleks1970,
+;detector simple, can_trade, device_pda, Actor PDA
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	FOOD		
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; BIG MUSHROOMS
+[mushroom]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970  
+$spawn 				= "food and drugs\mushroom"
+;$prefetch 			= 32
+class				= II_FOOD
+cform				= skeleton
+visual				= equipments\mushroom_5.ogf
+radius				= 1
+;script_binding		= stalker.object_init
+
+inv_name			        = amanita_mushroom
+inv_name_short		        = amanita_mushroom_s
+description			= enc_equipment_amanita_mushroom
+inv_weight			= 0.1
+can_trade			= on
+inv_grid_width     = 2
+inv_grid_height    = 2
+inv_grid_x         = 41
+inv_grid_y         = 11
+cost				= 500
+
+; eatable item
+eat_health = 0
+eat_satiety = 0.4
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = -1
+
+; food item
+slot				= 4
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+attach_angle_offset		= 0.440521, 1.378287, -0.644026
+attach_position_offset	= 0.104196, -0.010821, 0.076969
+attach_bone_name		= bip01_r_hand
+auto_attach				= false
+
+;// should be deleted after update
+bone_name				= bip01_r_hand
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+[bread]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970  
+$spawn 				= "food and drugs\bread"
+;$prefetch 			= 32
+class				= II_FOOD
+cform				= skeleton
+visual				= weapons\bred\bred.ogf
+description			= enc_equipment_food_bread1
+
+inv_name			= Bread
+inv_name_short		= Bread_s
+inv_weight			= 0.1	;0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 11
+inv_grid_y			= 9
+cost				= 20
+
+attach_angle_offset		= -0.287979, 1.560923, 1.544060
+attach_position_offset	= 0.096910, -0.013594, 0.107925
+attach_bone_name		= bip01_r_hand
+auto_attach				= false
+
+;// should be deleted after update
+bone_name				= bip01_r_hand
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+; eatable item
+eat_health = 0
+eat_satiety = 0.2
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = -1
+
+; food item
+slot				= 4
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+[bread_a]:bread
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970  
+$spawn					= "food and drugs\bread_a"
+visual                  = weapons\bred\bre1.ogf
+cost					= 0
+inv_name				= food_bread_rad
+inv_name_short			= food_bread_rad_s
+description				= enc_food_bread_rad
+;inv_weight				= .3
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 20
+inv_grid_y				= 37
+
+eat_radiation = 0.7
+
+[kolbasa]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970  
+$spawn 				= "food and drugs\kolbasa"
+$prefetch 			= 8
+class				= II_FOOD
+cform				= skeleton
+visual				= weapons\kolbasa\kolbasa.ogf
+description			= enc_equipment_food_kolbasa1
+
+inv_name			= item_Kolbasa3
+inv_name_short		= item_Kolbasa3_s
+inv_weight			= 0.2
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 19
+inv_grid_y			= 12
+cost				= 50
+
+attach_angle_offset		= 0.440521, 1.378287, -0.644026
+attach_position_offset	= 0.104196, -0.010821, 0.076969
+attach_bone_name		= bip01_r_hand
+auto_attach				= false
+
+;// should be deleted after update
+bone_name				= bip01_r_hand
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+; eatable item
+eat_health = 0
+eat_satiety = 0.3
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = -1
+
+; food item
+slot				= 4
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+[kolbasa_a]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970  
+$spawn					= "food and drugs\kolbasa_a"
+cform                   = skeleton
+class					= II_ATTCH
+visual                  = weapons\kolbasa\kolbasa.ogf
+cost					= 50
+inv_name				= item_Kolbasa4
+inv_name_short			= item_Kolbasa4_s
+inv_weight				= .45
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 19
+inv_grid_y				= 12
+
+attach_angle_offset		= 0.440521, 1.378287, -0.644026
+attach_position_offset	= 0.104196, -0.010821, 0.076969
+attach_bone_name		= bip01_r_hand
+auto_attach				= false
+
+;// should be deleted after update
+bone_name				= bip01_r_hand
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+[conserva]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970  
+$spawn 				= "food and drugs\conserva"
+;$prefetch 			= 32
+class				= II_FOOD
+cform				= skeleton
+visual				= food\conserv1.ogf
+description			= enc_equipment_food_conserva1
+
+inv_name			= Conserva
+inv_name_short		= Conserva_s
+inv_weight			= 0.2
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 9
+inv_grid_y			= 13
+cost				= 100
+
+; eatable item
+eat_health = 0
+eat_satiety = 0.4
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = -1
+
+; food item
+slot				= 4
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+attach_angle_offset		= 0.440521, 1.378287, -0.644026
+attach_position_offset	= 0.104196, -0.010821, 0.076969
+attach_bone_name		= bip01_r_hand
+auto_attach				= false
+
+;// should be deleted after update
+bone_name				= bip01_r_hand
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+[vodka]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970  
+$spawn 				= "food and drugs\vodka"
+;$prefetch 			= 32
+class				= II_BOTTL
+cform				= skeleton
+visual				= weapons\vodka\vodka
+description			= enc_equipment_food_vodka1
+
+ef_weapon_type		= 0
+
+inv_name			= Vodka5
+inv_name_short		= Vodka5_s
+inv_weight			= 0.2	;0.2
+
+inv_grid_width		= 1
+inv_grid_height		= 2
+inv_grid_x			= 5
+inv_grid_y			= 2
+cost				= 100
+
+attach_angle_offset		= 0.000000, 0.000000, 0.000000
+attach_position_offset	= 0.087266, -0.078540, 0.052360
+attach_bone_name		= bip01_r_hand
+auto_attach				= false
+
+;// should be deleted after update
+bone_name				= bip01_r_hand
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+;slot				= 4	; excluded duplicates section aleks1970
+
+; eatable item
+eat_health		= -0.1
+eat_satiety		= 0.01
+eat_power		= 0
+eat_radiation	= -0.8
+eat_alcohol		= 0.2
+wounds_heal_perc 	= 0
+eat_portions_num 	= -1
+
+; food item
+slot				= 4
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+break_particles		= explosions\explosion_bottle
+break_sound			= material\bottle\collide\bottle_break_1
+
+[vodka_a]:vodka
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970  
+$spawn					= "food and drugs\vodka_a"
+visual                  = weapons\vodka\vodka
+cost					= 0
+inv_name				= vodka_rad
+inv_name_short			= vodka_rad_s
+description				= vodka_rad_descr
+;inv_weight				= .5
+inv_grid_width			= 1
+inv_grid_height			= 2
+inv_grid_x				= 50
+inv_grid_y				= 6
+
+eat_radiation = 1.0
+
+[guitar_a]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn					= "food and drugs\guitar_a"
+cform                   = skeleton
+class					= II_ATTCH
+visual                  = Equipments\item_guitar.ogf
+description			    = enc_guitar_descr
+cost					= 1200
+inv_name				= enc_guitar_name
+inv_name_short			= enc_guitar_name_s
+inv_weight				= 1.5
+inv_grid_width			= 4
+inv_grid_height			= 2
+inv_grid_x				= 10
+inv_grid_y				= 19
+attach_angle_offset		= -1.651084, -1.341824, 1.200789
+attach_position_offset	= 0.077492, -0.030020, 0.090059
+attach_bone_name		= bip01_l_hand
+auto_attach				= false
+
+[harmonica_a]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn					= "food and drugs\harmonica_a"
+cform                   = skeleton
+class					= II_ATTCH
+visual                  = Equipments\item_harmonica.ogf
+cost					= 35
+description				= enc_harmonica_descr
+inv_name				= enc_harmonica_name
+inv_name_short			= enc_harmonica_name_s
+inv_weight				= 0.35
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 11
+inv_grid_y				= 2
+attach_angle_offset		= 0.000000, -1.204452, -1.262921
+attach_position_offset	= 0.081856, -0.035081, 0.011694
+attach_bone_name		= bip01_l_hand
+auto_attach				= false
+can_trade				= on	;-;off, 110014 - aleks1970
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	MEDICAL
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[antirad]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "food and drugs\antirad"
+$prefetch 		= 32
+class			= II_ANTIR
+cform           = skeleton
+visual          = equipments\item_antirad.ogf
+description		= enc_equipment_medi_antirad1
+
+inv_name			= Antirad
+inv_name_short		= Antirad_s
+inv_weight			= 0.01
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 18
+inv_grid_y			= 12
+cost				= 300
+
+; eatable item
+eat_health = 0.0
+eat_satiety = -0.25
+eat_power = 0
+eat_radiation = -1.0
+
+wounds_heal_perc = 0
+eat_portions_num = 1
+
+; food item
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+
+[medkit]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "food and drugs\medkit"
+$prefetch 			= 8
+class			= II_MEDKI
+cform				= skeleton
+visual				= equipments\item_aptechka.ogf
+description			= enc_equipment_medi_medkit1
+inv_name			= Medkit
+inv_name_short		= Medkit_s
+inv_weight			= 0.1
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 6
+inv_grid_y			= 14
+cost				= 150
+
+; eatable item
+eat_health			= 0.3
+eat_satiety			= 0
+eat_power			= -0.3
+eat_radiation		= -0.1
+
+wounds_heal_perc	= 0.3
+eat_portions_num	= 1
+eat_max_power		= 0.1
+
+; food item
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+[medkit_army]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "food and drugs\medkit_army"
+$prefetch 			= 8
+class			= II_MEDKI
+cform				= skeleton
+visual				= equipments\item_aptechka3.ogf
+description			= enc_equipment_medi_medkit2
+inv_name			= Medkit_army4
+inv_name_short		= Medkit_army4_s
+inv_weight			= 0.1
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 16
+inv_grid_y			= 20
+cost				= 230
+
+; eatable item
+eat_health			= 0.6
+eat_satiety			= 0
+eat_power			= -0.3
+eat_radiation		= -0.1
+
+wounds_heal_perc	= 1.0
+eat_portions_num	= 1
+eat_max_power		= 0.1
+
+; food item
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+[medkit_scientic]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "food and drugs\medkit_scientic"
+$prefetch 			= 8
+class			= II_MEDKI
+cform				= skeleton
+visual				= equipments\item_aptechka2.ogf
+description			= enc_equipment_medi_medkit3
+inv_name			= Medkit_scientific
+inv_name_short		= Medkit_scientific_s
+inv_weight			= 0.1
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 14
+inv_grid_y			= 20
+cost				= 310
+
+; eatable item
+eat_health			= 1.0
+eat_satiety			= 0
+eat_power			= -0.3
+eat_radiation		= -0.5
+
+wounds_heal_perc	= 0.3
+eat_portions_num	= 1
+eat_max_power		= 0.1
+
+; food item
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+
+;;;;;;;;;;;___FRACTURE N?G MOD____;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;MORPHINE;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[morphine]:medkit
+$spawn 				= "food and drugs\morphine"
+
+visual				= equipments\morphine.ogf
+description			= enc_equipment_morphine
+inv_name			= itm_morphine
+inv_name_short		= itm_morphine
+inv_weight			= 0.2	;0.1
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 68
+inv_grid_y			= 64
+cost				= 550
+
+; eatable item
+eat_health			= 0.35
+eat_power			= 0.65
+wounds_heal_perc	= 0.3
+eat_portions_num	= 1
+eat_max_power		= 0.25	;--;0.0
+
+
+[energy_drink]:vodka
+$spawn 				= "food and drugs\energy_drink"
+inv_name			= energy_drink_name
+inv_name_short		= energy_drink_short_name
+visual				= equipments\drink_stalker.ogf
+description			= enc_equipment_energydrink
+cost				= 90
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 11
+inv_grid_y			= 0
+inv_weight			= 0.1
+
+eat_health			= 0
+eat_satiety			= 0
+eat_power			= 1.0
+eat_alcohol			= 0.05
+eat_radiation		= 0
+wounds_heal_perc	= 0
+eat_portions_num	= 1
+eat_max_power		= 0.2
+
+attach_angle_offset		= 0.000000, 0.000000, 0.000000
+attach_position_offset	= 0.087266, -0.078540, 0.052360
+attach_bone_name		= bip01_r_hand
+auto_attach				= false
+
+
+[bandage]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "food and drugs\bandage"
+$prefetch 			= 8
+class				= II_BANDG
+cform				= skeleton
+visual				= equipments\item_bandage.ogf
+description			= enc_equipment_medi_bandage1
+
+inv_name			= bandage
+inv_name_short		= bandage_s
+inv_weight			= 0.01	
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 3
+inv_grid_y			= 18
+cost				= 20
+
+; eatable item
+eat_health = 	0.025
+eat_satiety = 	0
+eat_power = 	-0.2
+eat_radiation = 0.0
+wounds_heal_perc = 0.7
+eat_portions_num = 1	;100
+
+; food item
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	DEVICES
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[binocular_a]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn					= "devices\binocular_a"
+cform                   = skeleton
+class					= II_ATTCH
+visual                  = weapons\binoculars\wpn_binoculars.ogf
+cost					= 0
+inv_name				= item_binocular
+inv_name_short			= item_binocular
+inv_weight				= .5
+inv_grid_width			= 2
+inv_grid_height			= 1
+inv_grid_x				= 16
+inv_grid_y				= 8
+attach_angle_offset		= 3.080506,-1.493053,-1.202040   ;is set to radians Angle*PI/180
+attach_position_offset	= 0.080000,0.021273,0.100000
+attach_bone_name		= bip01_r_hand
+auto_attach				= false
+
+[device_pda]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "devices\pda"
+$prefetch 			= 16
+class				= D_PDA
+cform				= skeleton
+visual				= equipments\item_pda.ogf
+description			= enc_equipment_device_pda1
+radius				= 50;0 ;75
+slot				= 7
+script_binding      = game_totalizator.init		;;;;TB3D!!!!    marsh lottery system
+can_trade			= off	;; -110015, should be the _npc version. new disabled - aleks1970
+
+inv_name			= device_pda1
+inv_name_short		= device_pda1_s
+inv_weight			= 0.0	;0.2
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 6
+inv_grid_y			= 13
+cost				= 20
+attach_angle_offset		= 3.080506,-1.493053,-1.202040   ;is set to radians Angle*PI/180
+attach_position_offset	= 0.080000,0.021273,0.100000
+attach_bone_name		= bip01_r_hand
+auto_attach				= false
+
+; eatable item
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+
+[device_torch]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn				= "devices\torch"
+$prefetch 			= 32
+class				= TORCH_S
+cform				= skeleton
+visual				= equipments\light_night.ogf
+description			= enc_equipment_devic_device-torch1
+cost				= 500
+inv_name			= device-torch
+inv_name_short		= device-torch_s
+inv_weight			= 0.0
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 16
+inv_grid_y			= 12
+
+;thing can not be traded
+can_trade			= true
+
+position			= 0.35,0.25,0.0
+light_trace_bone	= cone_bone
+attach_angle_offset	 = 0, 3.14, 1.6						;;;;flipped for halogen   TB3D
+attach_position_offset	 = 0.10, 0.00, 0.074			;;;;height, side/side, depth  was 0.115, 0.0, 0.03
+attach_bone_name	 = bip01_head
+auto_attach				= false
+
+night_vision				= on
+night_vision_texture		= wpn\wpn_night
+night_vision_effector		= postprocess_night
+
+snd_night_vision_on			= weapons\nv_start
+snd_night_vision_off		= weapons\nv_off
+snd_night_vision_idle		= weapons\nv_loop_silent		;use nv_loop  for the default loop sound
+snd_night_vision_broken		= weapons\nv_off
+
+night_vision_recharge_time			= 6		;(C) charging akkamulyatora
+night_vision_recharge_time_min		= 2		;(c) min. charging akkamulyatora, after which the mouth-in may already be working
+night_vision_discharge_time			= 20	;(c) discharge time (work) device after a full charge
+slot								= 9
+disabled_maps						= ai_test,ai_test2, andy_test_
+
+
+; Start the description of detectors
+
+[detector_simple]:identity_immunities ; Dosimeter
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "devices\detector_simple"
+$prefetch 			= 32
+class				= D_SIMDET
+cform				= skeleton
+visual				= equipments\item_datchik1.ogf
+description			= st_detector_descr1	;enc_equipment_devic_detect1
+radius				= 10	;15
+buzzer_radius		= 1.5
+noise				= zone_mosquito_bald       ;detectors\geiger_noise_loop
+buzzer				= zone_mosquito_bald       ;detectors\DA-2_alarm_loop
+;slot				= 3
+ef_detector_type	= 1
+
+inv_name			= st_detector
+inv_name_short		= st_detector_s
+inv_weight			= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 9
+inv_grid_y			= 14
+cost				= 2000
+belt				= true
+default_to_ruck		= true
+
+;description of recognizable detector zones
+zone_class_1		= zone_mosquito_bald
+
+zone_sound_1_		= $no_sound
+zone_sound_1_1		= $no_sound
+zone_sound_1_2		= $no_sound
+zone_sound_1_3		= $no_sound
+
+zone_min_freq_1		= 0.1	;0.5
+zone_max_freq_1		= 40
+
+zone_class_2		= zone_mincer
+zone_sound_2_		= $no_sound
+zone_min_freq_2		= 0.1
+zone_max_freq_2		= 20
+
+zone_class_3		= zone_radioactive
+;zone_sound_3_		= detectors\DA-2_beep1
+zone_sound_3_		= detectors\geiger_1
+zone_sound_3_1		= detectors\geiger_2
+zone_sound_3_2		= detectors\geiger_3
+zone_sound_3_3		= detectors\geiger_4
+zone_sound_3_4		= detectors\geiger_5
+zone_sound_3_5		= detectors\geiger_6
+zone_sound_3_6		= detectors\geiger_1
+zone_sound_3_7		= detectors\geiger_1
+zone_sound_3_8		= detectors\geiger_1
+zone_min_freq_3		= 1
+zone_max_freq_3		= 20
+
+zone_class_4		= zone_gravi_zone
+zone_sound_4_		= $no_sound
+zone_min_freq_4		= 0.5
+zone_max_freq_4		= 30
+
+
+
+
+[detector_advances]:identity_immunities ;Simple anomaly detector
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "devices\detector_advanced"
+$prefetch 			= 32
+class				= D_SIMDET
+cform				= skeleton
+visual				= equipments\item_datchik2.ogf
+description			= enc_equipment_devic_detect2
+radius				= 10	;15
+buzzer_radius		= 1.5
+noise				= zone_mosquito_bald       ;detectors\geiger_noise_loop
+buzzer				= zone_mosquito_bald       ;detectors\DA-2_alarm_loop
+;slot				= 9
+ef_detector_type	= 1
+
+inv_name			= st_detector2
+inv_name_short		= st_detector2_s
+inv_weight			= 0.15
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 15
+inv_grid_y			= 7
+cost				= 5000
+belt				= true;
+default_to_ruck		= true
+
+;description of recognizable detector zones
+zone_class_1		= zone_mosquito_bald
+zone_sound_1_		= detectors\DA-2_beep1
+zone_min_freq_1		= 0.1	;0.5
+zone_max_freq_1		= 40
+
+zone_class_2		= zone_mincer
+zone_sound_2_		= detectors\DA-2_beep1
+zone_min_freq_2		= 0.1
+zone_max_freq_2		= 20
+
+zone_class_3		= zone_radioactive
+zone_sound_3_		= detectors\geiger_1
+zone_sound_3_1		= detectors\geiger_2
+zone_sound_3_2		= detectors\geiger_3
+zone_sound_3_3		= detectors\geiger_4
+zone_sound_3_4		= detectors\geiger_5
+zone_sound_3_5		= detectors\geiger_6
+zone_sound_3_6		= detectors\geiger_1
+zone_sound_3_7		= detectors\geiger_1
+zone_sound_3_8		= detectors\geiger_1
+zone_min_freq_3		= 1
+zone_max_freq_3		= 20
+
+zone_class_4		= zone_gravi_zone
+zone_sound_4_		= detectors\DA-2_beep1
+zone_min_freq_4		= 0.5
+zone_max_freq_4		= 30
+
+
+
+[detector_elite]:identity_immunities ;Elite detector
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "devices\detector_elite"
+$prefetch 			= 32
+class				= D_SIMDET
+cform				= skeleton
+visual				= equipments\item_datchik3.ogf
+radius				= 10	;15
+buzzer_radius		= 1.5
+noise				= zone_mosquito_bald       ;detectors\geiger_noise_loop
+buzzer				= zone_mosquito_bald       ;detectors\DA-2_alarm_loop
+;slot				= 9
+ef_detector_type	= 1
+
+inv_name			= st_detector3
+inv_name_short		= st_detector3_s
+description			= enc_equipment_devic_detect3 ;st_detector_descr3 ;aleks1970
+inv_weight			= 0.25
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 5
+inv_grid_y			= 14
+cost				= 25000
+belt				= true;
+default_to_ruck		= true
+
+;description of recognizable detector zones
+zone_class_1		= zone_mosquito_bald
+zone_sound_1_		= detectors\DA-2_beep1
+zone_min_freq_1		= 0.1	;0.5
+zone_max_freq_1		= 40
+zone_map_location_1 = anomaly_zone_location
+
+zone_class_2		= zone_mincer
+zone_sound_2_		= detectors\DA-2_beep1
+zone_min_freq_2		= 0.1
+zone_max_freq_2		= 20
+zone_map_location_2 = anomaly_zone_location
+
+zone_class_3		= zone_radioactive
+zone_sound_3_		= detectors\geiger_1
+zone_sound_3_1		= detectors\geiger_2
+zone_sound_3_2		= detectors\geiger_3
+zone_sound_3_3		= detectors\geiger_4
+zone_sound_3_4		= detectors\geiger_5
+zone_sound_3_5		= detectors\geiger_6
+zone_sound_3_6		= detectors\geiger_1
+zone_sound_3_7		= detectors\geiger_1
+zone_sound_3_8		= detectors\geiger_1
+zone_min_freq_3		= 1
+zone_max_freq_3		= 20
+zone_map_location_3 = anomaly_zone_location
+
+zone_class_4		= zone_gravi_zone
+zone_sound_4_		= detectors\DA-2_beep1
+zone_min_freq_4		= 0.5
+zone_max_freq_4		= 30
+zone_map_location_4 = anomaly_zone_location
+
+
+attach_angle_offset		= -0.160570,-1.425061,-0.361283
+attach_position_offset	= 0.160570,-0.060214,0.020071
+attach_bone_name		= bip01_l_hand
+auto_attach				= false
+
+
+[detector_elite_sak]:identity_immunities ;Universal Detector
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "devices\detector_elite_sak"
+$prefetch 			= 32
+class				= D_SIMDET
+cform				= skeleton
+visual				= equipments\item_datchik3.ogf
+radius				= 10	;15
+buzzer_radius		= 1.5
+noise				= zone_mosquito_bald       ;detectors\geiger_noise_loop
+buzzer				= zone_mosquito_bald       ;detectors\DA-2_alarm_loop
+slot				= 9
+ef_detector_type	= 1
+inv_name			= st_detector_sak
+inv_name_short		= st_detector_sak_s
+description			= enc_equipment_devic_detect_sak	;st_detector_descr3 ;aleks1970
+inv_weight			= 0.3
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 14
+inv_grid_y			= 40
+cost				= 38000
+belt				= true;
+default_to_ruck		= true
+;description of recognizable detector zones
+;Springboard
+zone_class_1        = zone_mosquito_bald
+zone_sound_1_        = detectors\DA-2_beep1
+zone_min_freq_1        = 0.1    ;0.5
+zone_max_freq_1        = 40
+zone_map_location_1     = anomaly_bald_location
+;Carousel
+zone_class_2        = zone_mincer
+zone_sound_2_        = detectors\DA-2_beep1
+zone_min_freq_2        = 0.1
+zone_max_freq_2        = 20
+zone_map_location_2     = anomaly_minc_location
+;Fireplace radioactivity
+zone_class_3        = zone_radioactive
+zone_sound_3_        = detectors\geiger_1
+zone_sound_3_1        = detectors\geiger_2
+zone_sound_3_2        = detectors\geiger_3
+zone_sound_3_3        = detectors\geiger_4
+zone_sound_3_4        = detectors\geiger_5
+zone_sound_3_5        = detectors\geiger_6
+zone_sound_3_6        = detectors\geiger_1
+zone_sound_3_7        = detectors\geiger_1
+zone_sound_3_8        = detectors\geiger_1
+zone_min_freq_3        = 1
+zone_max_freq_3        = 20
+zone_map_location_3     = anomaly_rad_location
+;Воронка
+zone_class_4        = zone_gravi_zone
+zone_sound_4_        = detectors\DA-2_beep1
+zone_min_freq_4        = 0.5
+zone_max_freq_4        = 30
+zone_map_location_4     = anomaly_grav_location
+;Электра
+zone_class_5        = zone_witches_galantine
+zone_sound_5_        = detectors\DA-2_beep1
+zone_min_freq_5        = 0.1
+zone_max_freq_5        = 30
+zone_map_location_5     = anomaly_elec_location
+;Жарка
+zone_class_6        = zone_zharka_static
+zone_sound_6_        = detectors\DA-2_beep1
+zone_min_freq_6        = 0.1
+zone_max_freq_6        = 30
+zone_map_location_6     = anomaly_burn_location
+;ICE
+zone_class_7        = zone_ice
+zone_sound_7_        = detectors\DA-2_beep1
+zone_min_freq_7        = 0.1
+zone_max_freq_7        = 30
+zone_map_location_7     = anomaly_ice_location
+attach_angle_offset		= -0.160570,-1.425061,-0.361283
+attach_position_offset	= 0.160570,-0.060214,0.020071
+attach_bone_name		= bip01_l_hand
+auto_attach				= false
+
+
+; ===============
+; === Johnson ===
+; ===============
+[detector_elite_john]:identity_immunities ;Detector Holograms
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+;$spawn 				= "devices\detector_elite_john"
+$prefetch 			= 32
+class				= D_SIMDET
+cform				= skeleton
+visual				= equipments\item_datchik3.ogf
+radius				= 10
+buzzer_radius		= 1.5
+noise				= detectors\geiger_noise_loop
+buzzer				= detectors\DA-2_alarm_loop
+slot				= 9
+ef_detector_type	= 1
+description			= detect_john
+inv_name			= detector_elite_john
+inv_name_short		= detector_elite_john_s
+inv_weight			= 0.35
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 12
+inv_grid_y			= 45
+cost				= 50000
+belt				= true
+default_to_ruck		= true
+
+;description of recognizable detector zones
+
+;Springboard
+zone_class_1        = zone_mosquito_bald
+zone_sound_1_        = detectors\DA-2_beep1
+zone_min_freq_1        = 0.1    ;0.5
+zone_max_freq_1        = 40
+zone_map_location_1     = anomaly_bald_location
+
+;Carousel
+zone_class_2        = zone_mincer
+zone_sound_2_        = detectors\DA-2_beep1
+zone_min_freq_2        = 0.1
+zone_max_freq_2        = 20
+zone_map_location_2     = anomaly_minc_location
+
+;Fireplace radioactivity
+zone_class_3        = zone_radioactive
+zone_sound_3_        = detectors\geiger_1
+zone_sound_3_1        = detectors\geiger_2
+zone_sound_3_2        = detectors\geiger_3
+zone_sound_3_3        = detectors\geiger_4
+zone_sound_3_4        = detectors\geiger_5
+zone_sound_3_5        = detectors\geiger_6
+zone_sound_3_6        = detectors\geiger_1
+zone_sound_3_7        = detectors\geiger_1
+zone_sound_3_8        = detectors\geiger_1
+zone_min_freq_3        = 1
+zone_max_freq_3        = 20
+zone_map_location_3     = anomaly_rad_location
+
+;Funnel
+zone_class_4        = zone_gravi_zone
+zone_sound_4_        = detectors\DA-2_beep1
+zone_min_freq_4        = 0.5
+zone_max_freq_4        = 30
+zone_map_location_4     = anomaly_grav_location
+
+;Electra
+zone_class_5        = zone_witches_galantine
+zone_sound_5_        = detectors\DA-2_beep1
+zone_min_freq_5        = 0.1
+zone_max_freq_5        = 30
+zone_map_location_5     = anomaly_elec_location
+
+;Fry-up
+zone_class_6        = zone_zharka_static
+zone_sound_6_        = detectors\DA-2_beep1
+zone_min_freq_6        = 0.1
+zone_max_freq_6        = 30
+zone_map_location_6     = anomaly_burn_location
+
+;ICE
+zone_class_7        = zone_ice
+zone_sound_7_        = detectors\DA-2_beep1
+zone_min_freq_7        = 0.1
+zone_max_freq_7        = 30
+zone_map_location_7     = anomaly_ice_location
+
+;Arhara Amoeba
+zone_class_8        = zone_ameba
+zone_sound_8_        = detectors\art_beep1
+zone_min_freq_8        = 0.1
+zone_max_freq_8        = 25
+zone_map_location_8     = anomaly_ameba_location
+
+;Novaya1 Arkhara
+;zone_class_8        = zone_ameba	; excluded duplicates section aleks1970
+;zone_sound_9_        = detectors\art_beep1	; excluded duplicates section aleks1970
+;zone_min_freq_9        = 0.1	; excluded duplicates section aleks1970
+;zone_max_freq_9        = 25	; excluded duplicates section aleks1970
+;zone_map_location_9     = anomaly_ameba_location	; excluded duplicates section aleks1970
+
+;Kissel Syaka
+zone_class_9		= zone_sakbuzz
+zone_sound_9_		= detectors\art_beep1
+zone_min_freq_9		= 0.5
+zone_max_freq_9		= 30
+zone_map_location_9 	= anomaly_sakbuzz_location
+
+;Fool
+zone_class_10		= zone_buzz
+zone_sound_10_		= detectors\art_beep1
+zone_min_freq_10		= 0.1
+zone_max_freq_10		= 25
+;zone_map_location_10 	= anomaly_buzz_location
+attach_angle_offset		= -0.160570,-1.425061,-0.361283
+attach_position_offset	= 0.160570,-0.060214,0.020071
+attach_bone_name		= bip01_l_hand
+auto_attach				= false
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Detectors artifacts Author fashion: Singapur22
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;SUPER;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[det_artefact_super]:identity_immunities
+GroupControlSection	= spawn_group
+$spawn			= "devices\detector_advanced"
+$prefetch		= 64
+cform			= skeleton
+class			= ARTEFACT
+visual			= equipments\item_datchik3.ogf
+description			= enc_det_art_ultra_info	;det_art_ultra_info	; aleks1970
+inv_name			= det_art_ultra_super	;det_artefact_super
+inv_name_short		= det_art_ultra_super_s	;det_artefact_super_s
+inv_weight			= 0.25
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 18
+inv_grid_y			= 45
+cost			= 30000
+jump_height		= 0
+particles		= 
+lights_enabled		= false
+artefact_activation_seq = af_activation_bold
+hud							= det_artefact_super_hud
+animation_slot		= 11
+allow_inertion		= true
+slot			    = 1
+attach_angle_offset	    = 0, 0, 270
+attach_position_offset  = 0.0, 0.0, 0.08
+attach_bone_name	= bone01
+belt			    = false
+af_actor_properties	= on
+actor_properties	= on
+health_restore_speed	= 0.0     
+radiation_restore_speed = 0.0
+satiety_restore_speed	= 0.0
+power_restore_speed		= 0.0
+bleeding_restore_speed  = 0.0
+hit_absorbation_sect  = mine_absorbation 
+
+[det_artefact_super_hud]
+shell_point					= 0.0, 0.0, 0.0
+fire_point              	= 0.05, 0.0, 0.1
+fire_bone               	= bip01_neck
+orientation         		= 0,0,0
+position            		= 0,0,0
+visual                  	= equipments\detector_super_hud.ogf
+zoom_offset					= -0.238600,0.153600,0.000000
+zoom_rotate_x				= -0.014000
+zoom_rotate_y				= 0.324000
+anim_idle			= idle
+anim_idle_sprint	= idle
+anim_hide			= holster
+anim_show			= draw
+anim_activate		= holster
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AMORF;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[detektor_amorf]:identity_immunities
+GroupControlSection	= spawn_group
+$spawn			= "devices\detector_advanced"
+$prefetch		= 64
+cform			= skeleton
+class			= ARTEFACT
+visual			= equipments\iphone.ogf
+description			= detektor_amorf_info
+inv_name			= detektor_amorf
+inv_name_short		= detektor_amorf_s
+inv_weight			= 0.35
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 34
+inv_grid_y			= 43
+cost			= 25000
+jump_height		= 0
+particles		= 
+lights_enabled		= false
+artefact_activation_seq = af_activation_bold
+hud							= det_amorf_hud
+animation_slot		= 11
+allow_inertion		= true
+slot			    = 1
+attach_angle_offset	    = 0, 0, 270
+attach_position_offset  = 0.0, 0.0, 0.08
+attach_bone_name	= bone01
+belt			    = false
+af_actor_properties	= on
+actor_properties	= on
+health_restore_speed	= 0.0     
+radiation_restore_speed = 0.0
+satiety_restore_speed	= 0.0
+power_restore_speed		= 0.0
+bleeding_restore_speed  = 0.0
+hit_absorbation_sect  = mine_absorbation 
+
+[det_amorf_hud]
+shell_point					= 0.0, 0.0, 0.0
+fire_point              	= 0.05, 0.0, 0.1
+fire_bone               	= bip01_neck
+orientation         		= 0,0,0
+position            		= 0,0,0
+visual                  	= equipments\detector_amorf_hud.ogf
+zoom_offset					= -0.238600,0.153600,0.000000
+zoom_rotate_x				= -0.014000
+zoom_rotate_y				= 0.324000
+anim_idle			= idle
+anim_idle_sprint	= idle
+anim_hide			= holster
+anim_show			= draw
+anim_activate		= holster
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;INDY;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[det_artefact_indy]:identity_immunities
+GroupControlSection	= spawn_group
+$spawn			= "devices\detector_advanced"
+$prefetch		= 64
+cform			= skeleton
+class			= ARTEFACT
+visual			= equipments\item_datchik1.ogf
+description			= det_art_indy_info
+inv_name			= det_artefact_indy
+inv_name_short		= det_artefact_indy
+inv_weight			= 0.2
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 12
+inv_grid_y			= 47
+cost			= 15000
+jump_height		= 0
+particles		= 
+lights_enabled		= false
+artefact_activation_seq = af_activation_bold
+hud							= det_artefact_indy_hud
+animation_slot		= 11
+allow_inertion		= true
+slot			    = 1
+attach_angle_offset	    = 0, 0, 270
+attach_position_offset  = 0.0, 0.0, 0.08
+attach_bone_name	= bone01
+belt			    = false
+af_actor_properties	= on
+actor_properties	= on
+health_restore_speed	= 0.0     
+radiation_restore_speed = 0.0
+satiety_restore_speed	= 0.0
+power_restore_speed		= 0.0
+bleeding_restore_speed  = 0.0
+hit_absorbation_sect  = mine_absorbation 
+
+[det_artefact_indy_hud]
+shell_point					= 0.0, 0.0, 0.0
+fire_point              	= 0.05, 0.0, 0.1
+fire_bone               	= bip01_neck
+orientation             	= 25, -35, 0
+position                	= 0.4, 0.4, 0.4 
+visual                  	= equipments\detector_indy_hud.ogf
+zoom_offset					= -0.238600,0.153600,0.000000
+zoom_rotate_x				= -0.014000
+zoom_rotate_y				= 0.324000
+anim_idle			= idle
+anim_idle_sprint	= idle
+anim_hide			= holster
+anim_show			= draw
+anim_activate		= holster
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;110016, Actor-PDA-aleks1970-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[actor_pda]:identity_immunities
+GroupControlSection		= spawn_group
+;discovery_dependency	=
+$spawn					= "devices\pda"
+;$prefetch				= 32
+class					= II_ATTCH
+cform					= skeleton
+visual					= balkanzona\item_pda_1.ogf
+description				= enc_actor_pda_desc
+
+ef_weapon_type			= 0
+
+inv_name				= actor_pda_name
+inv_name_short			= actor_pda_name
+inv_weight				= 0.3	;0.2
+
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 45
+inv_grid_y				= 47
+cost					= 1200
+
+animation_slot			= 4
+can_trade				= on	;--; 110016 test aleks1970
+;hud item
+hud = wpn_vodka_hud
+;;---------------------------------------------------------------------------------------;;
+[actor_pda_error]:actor_pda
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 45
+inv_grid_y				= 48
+inv_name				= actor_pda_error_name
+inv_name_short			= actor_pda_error_name
+cost					= 0
+visual					= balkanzona\item_pda_2.ogf
+can_trade				= off	;--; 110016 test aleks1970
+;;---------------------------------------------------------------------------------------;;
+[actor_pda_collector]:actor_pda
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 46
+inv_grid_y				= 47
+description				= enc_actor_pda_col_desc
+inv_name				= actor_pda_col_name
+inv_name_short			= actor_pda_col_name
+cost					= 3200
+visual					= balkanzona\item_pda_1.ogf
+;;---------------------------------------------------------------------------------------;;
+[actor_pda_error_collector]:actor_pda_collector
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 46
+inv_grid_y				= 48
+inv_name				= actor_pda_col_error_name
+inv_name_short			= actor_pda_col_error_name
+cost					= 0
+visual					= balkanzona\item_pda_2.ogf
+can_trade				= off	;--; 110016 test aleks1970
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	OTHERS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[wpn_vodka_hud]:identity_immunities
+fire_point               = 0.0, 0.0, 0.06
+fire_bone                = bip01_head
+orientation              = 0, 0, 0
+position                 = 0, 0, 0
+visual                   = weapons\vodka\vodka_hud.ogf
+
+anim_idle			= vodka_2
+anim_show			= vodka_1
+anim_hide			= vodka_4
+anim_play			= vodka_5
+anim_prepare		= vodka_5
+anim_eat			= vodka_3
+
+[sigaret]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn					= "food and drugs\sigaret"
+cform                   = skeleton
+class					= II_ATTCH
+visual                  = weapons\sigaret\sigaret.ogf
+description				= enc_sigaret
+cost					= 100
+inv_name				= sigaret
+inv_name_short			= sigaret_s
+inv_weight				= 0.1
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 2
+inv_grid_y				= 36
+
+attach_angle_offset		= 9.0, 0.0, 0.0
+attach_position_offset	= 0.025, -0.02, 0.0
+attach_bone_name		= bip01_r_finger11
+auto_attach				= false
+
+; eatable item
+eat_health = 0.05
+eat_satiety = 0.2
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = -1
+
+; food item
+slot				= 4
+animation_slot		= 4
+
+;hud item
+hud = wpn_sigaret_hud
+
+[wpn_sigaret_hud]:identity_immunities
+fire_point               = 0.0, 0.0, 0.06
+fire_bone                = bip01_head
+orientation              = 0, 0, 0
+position                 = 0, 0, 0
+visual                   = weapons\sigaret\sigaret_hud.ogf
+
+anim_idle			= kurit_2
+anim_show			= kurit_1
+anim_hide			= kurit_4
+anim_play			= kurit_5
+anim_prepare		= kurit_5
+anim_eat			= kurit_3
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	Cigar
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[cigara]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn					= "food and drugs\cigara"
+cform                   = skeleton
+class					= II_ATTCH
+visual                  = new_item\cigara.ogf
+description				= enc_cigara
+cost					= 100
+inv_name				= cigara
+inv_name_short			= cigara_s
+
+inv_weight				= 0.1
+inv_grid_width			     = 1
+inv_grid_height			= 1
+inv_grid_x				= 56
+inv_grid_y				= 2
+
+attach_angle_offset		= 9.0, 0.0, 0.0
+attach_position_offset	= 0.025, -0.02, 0.0
+attach_bone_name		      = bip01_r_finger11
+auto_attach				= false
+
+; eatable item
+eat_health = 0.05
+eat_satiety = 0.2
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = -1
+
+; food item
+slot				= 4
+animation_slot		= 4
+
+;hud item
+hud = wpn_cigara_hud
+
+[wpn_cigara_hud]:identity_immunities
+fire_point               = 0.0, 0.0, 0.06
+fire_bone                = bip01_head
+orientation              = 0, 0, 0
+position                 = 0, 0, 0
+visual                   = weapons\sigaret\sigaret_hud.ogf
+
+anim_idle			= kurit_2
+anim_show			= kurit_1
+anim_hide			= kurit_4
+anim_play			= kurit_5
+anim_prepare		= kurit_5
+anim_eat			= kurit_3
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	Sandwich
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[sandwich]:conserva
+$spawn 				= "food and drugs\sandwich"
+visual				= new_item\sandwich.ogf
+inv_name			= sandwich
+inv_name_short		= sandwich_s
+description		    = enc_sandwich
+inv_weight			= 0.1	
+inv_grid_x          = 53
+inv_grid_y          = 3
+cost			    = 80
+eat_health          = 0.05
+eat_satiety         = 0.2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	BEER
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[beer_a]:vodka
+$spawn 				= "food and drugs\beer_a"
+inv_name			= beer_a
+inv_name_short		= beer_a_s
+visual				= new_item\drink_beer.ogf
+description			= enc_beer_a
+cost				= 75
+inv_grid_width     = 1
+inv_grid_height    = 1
+inv_grid_x         = 53
+inv_grid_y         = 2
+inv_weight			= 0.2
+eat_health			= 0
+eat_satiety			= 0
+eat_power			= 1.0
+eat_alcohol			= 0.10
+eat_radiation		= 0
+wounds_heal_perc	= 0
+eat_portions_num	= 1
+eat_max_power		= 0.2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	flask with water
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[flaska]:vodka
+$spawn 				= "food and drugs\flaska"
+visual				= new_item\flaska
+description			= enc_flaska
+inv_name			= flaska
+inv_name_short		= flaska_s
+inv_grid_height     = 1
+inv_grid_x          = 55
+inv_grid_y          = 2
+cost				= 90
+eat_health		    = 0
+eat_satiety		    = 0
+eat_power		    = 0.5
+eat_radiation	    = 0
+eat_alcohol		    = 0
+break_particles		= 
+break_sound			= material\hoof\step_hoof_asphalt2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	sweetness
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[sweetness]:conserva
+$spawn 				= "food and drugs\sweetness"
+visual			    = new_item\sweetness.ogf
+description		    = enc_sweetness
+inv_name			= sweetness
+inv_name_short		= sweetness_s
+inv_weight			= 0.2
+inv_grid_x          = 54
+inv_grid_y          = 2
+cost				= 50
+eat_satiety         = 0.3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	Cigar box
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[box_cigara]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn					= "food and drugs\box_cigara"
+cform                   = skeleton
+class					= II_ATTCH
+visual                  = new_item\box_cigara.ogf
+cost					= 1250
+description			    = enc_box_cigara
+inv_name				= box_cigara
+inv_name_short			= box_cigara_s
+inv_weight				= 0.4
+inv_grid_width			     = 2
+inv_grid_height			= 1
+inv_grid_x				= 54
+inv_grid_y				= 3
+attach_angle_offset		= -1.651084, -1.341824, 1.200789
+attach_position_offset	= 0.077492, -0.030020, 0.090059
+attach_bone_name		= bip01_l_hand
+auto_attach				= false
+
+[fake_cigara]:identity_immunities						;;;;;CS34   !!!!TB3D
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn					= "food and drugs\box_cigara"
+cform                   = skeleton
+class					= II_ATTCH
+visual                  = new_item\box_cigara.ogf
+cost					= 1250
+description			    = enc_box_cigara
+inv_name				= box_cigara
+inv_name_short			= box_cigara_s
+inv_weight				= 0.4
+inv_grid_width			     = 2
+inv_grid_height			= 1
+inv_grid_x				= 54
+inv_grid_y				= 3
+attach_angle_offset		= -1.651084, -1.341824, 1.200789
+attach_position_offset	= 0.077492, -0.030020, 0.090059
+attach_bone_name		= bip01_l_hand
+auto_attach				= false
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	Balalaika
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[balalaika_a]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn					= "food and drugs\balalaika_a"
+cform                   = skeleton
+class					= II_ATTCH
+visual                  = new_item\item_balalaika.ogf
+cost					= 185
+description			    = enc_balalaika_a
+inv_name				= balalaika_a
+inv_name_short			= balalaika_a_s
+inv_weight				= 1.5
+inv_grid_width			= 4
+inv_grid_height			= 2
+inv_grid_x				= 53
+inv_grid_y				= 0
+attach_angle_offset		= -1.651084, -1.341824, 1.200789
+attach_position_offset	= 0.077492, -0.030020, 0.090059
+attach_bone_name		= bip01_l_hand
+auto_attach				= false
+
+[car_key_2]:identity_immunities   ; TB3D Car Keys
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "equipments\car_key"
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\key_2.ogf
+radius				= 1
+quest_item			= true
+description			= enc_car_key_2
+inv_name			= car_key_2
+inv_name_short		= car_key_2_s
+inv_weight			= 0.01
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 34 ;60
+inv_grid_y			= 65 ;66
+cost				= 1000
+
+[btr_key]:car_key_2
+description			= enc_item_btr_key_descr
+inv_name			= item_btr_key
+inv_name_short		= item_btr_key_s
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;109998							 - Repair Kit Revamped Start - 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[repair_kit]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency	=
+$spawn				= "devices\quest_items\repair_kit"
+$prefetch			= 32
+class				= II_ANTIR
+cform				= skeleton
+visual				= equipments\revamped_repair_box.ogf
+radius				= 1
+description			= enc_equipment_repair_kit
+inv_name			= revamped_repair_kit
+inv_name_short		= revamped_repair_kit
+inv_weight			= 2.50
+quest_item			= false	;true	;aleks1970
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 57
+inv_grid_y			= 17
+cost				= 12500
+eat_health			= 0
+eat_satiety			= 0
+eat_power			= 0
+eat_radiation		= 0
+eat_alcohol			= 0
+wounds_heal_perc	= 0
+eat_portions_num	= 1
+animation_slot		= 4
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;							 - Repair Kit Revamped End - 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

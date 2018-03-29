@@ -1,0 +1,39 @@
+;<!-- TB3D 1.0.1e -->
+;--------------------------------------
+; Module facer
+; Rulix aka Bak
+;--------------------------------------
+
+[main]
+enabled = true
+check_period = 1500 ;ms, the time between inspections
+forbidden_weapons = none ; forbidden to use weapons
+forbidden_factions = zombied
+forbidden_npcs = bar_barman
+max_dist = 2
+
+[experienced]
+power = 30			; impact force
+; coefficients
+k_mutant = 1.4 		; beat monster
+k_friend = 0.1 		; beat the other (neutral)
+k_stalker = 0.6 	; beat NPCs
+k_actor = 1 		; he beat
+
+[veteran]
+power = 45
+k_mutant = 1.5
+k_friend = 0.1
+k_stalker = 0.7
+k_actor = 1
+
+
+[master]
+power = 80
+k_mutant = 1.6
+k_friend = 0.05
+k_stalker = 0.8
+k_actor = 1
+
+
+

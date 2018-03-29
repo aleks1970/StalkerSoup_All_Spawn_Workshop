@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ************ TB3D 1.0.9.9.7.0 *************** -->
+<encyclopedia>
+	<!-- *************** LIST OF ENCYCLOPEDIA ENTRIES *************** -->
+	<article id="one" name="wpn-ak74" group="Diary/Weapons/Machineguns" article_type="1">
+		<ltx>wpn_lr300</ltx>
+		<text>ak_74_desc</text>
+	</article>
+	<article id="bbb" name="AK-74_info" group="Diary/Weapons/Machineguns" article_type="1">
+		<texture x="250" y="250" width="250" height="100">ui\ui_icon_equipment</texture>
+		<text>ak_74_info</text>
+	</article>
+	<article id="two" name="Groza_pda_name" group="Diary/Weapons/Machineguns" article_type="1">
+		<texture x="0" y="700" width="200" height="100">ui\ui_icon_equipment</texture>
+		<text>Groza_TTX_encyclopedia_gameplay</text>
+	</article>
+	<article id="three" name="wpn-svu" group="Diary/Weapons/Sniper_rifles" article_type="1">
+		<texture x="250" y="300" width="250" height="100">ui\ui_icon_equipment</texture>
+		<text>SVU_Sniper_rifle_encyclopedia_gameplay</text>
+	</article>
+	<article id="four" name="wpn-pm" group="Diary/Weapons/Pistols" article_type="1">
+		<texture x="0" y="100" width="250" height="100">ui\ui_icon_equipment</texture>
+		<text>PM_Pistolet_Makarova_encyclopedia_gameplay</text>
+	</article>
+	<article id="five" name="Zombie" group="Diary/Creatures" article_type="1">
+		<texture x="0" y="600" width="250" height="100">ui\ui_icon_equipment</texture>
+		<text>Zombies_are_very_angry_encyclopedia_gameplay</text>
+	</article>
+	<article id="six" name="Pseudo_dog_pda_name" group="Diary/Creatures" article_type="journal">
+		<texture x="0" y="300" width="250" height="100">ui\ui_icon_equipment</texture>
+		<text>Pseudo_dogs_is_evil_encyclopedia_gameplay</text>
+	</article>
+	<article id="andy_task_article" name="aaaaa_pda_name" group="andy_task_1" article_type="task">
+		<texture x="0" y="100" width="250" height="100">ui\ui_icon_equipment</texture>
+		<text>manually_define_map_spots_encyclopedia_gameplay</text>
+	</article>
+	<article id="andy_task_article_1" name="aaaaa_pda_name" group="andy_task_1/2" article_type="task">
+		<!-- *************** <texture_ x="0" y="600" width="250" height="100">ui\ui_icon_equipment</texture_> *************** -->
+		<texture x="0" y="600" width="250" height="100">ui\ui_icon_equipment</texture>
+		<text>Zombies_are_very_angry_2_encyclopedia_gameplay</text>
+	</article>
+	<article id="andy_task_article_2" name="aaaaa_pda_name" group="andy_task_1/2" article_type="task">
+		<texture x="0" y="600" width="250" height="100">ui\ui_icon_equipment</texture>
+		<text>Zombies_are_very_angry_3_encyclopedia_gameplay</text>
+	</article>
+	<article id="andy_task_article_3" name="aaaaa_pda_name" group="andy_task_1/3" article_type="task">
+		<texture x="0" y="600" width="250" height="100">ui\ui_icon_equipment</texture>
+		<text>Zombies_are_very_angry_4_encyclopedia_gameplay</text>
+	</article>
+</encyclopedia>

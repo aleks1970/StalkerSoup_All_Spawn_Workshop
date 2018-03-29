@@ -1,0 +1,24 @@
+<!-- ************ TB3D 1.0.9.9.7.0 moved tasks to tasks_minquests to make clearer, added tasks_tb3d*************** -->
+<game_tasks_data>
+
+#include "gameplay\tasks_escape.xml"
+#include "gameplay\tasks_garbage.xml"
+#include "gameplay\tasks_agroprom.xml"
+#include "gameplay\tasks_bar.xml"
+#include "gameplay\tasks_military.xml"
+#include "gameplay\tasks_darkvalley.xml"
+#include "gameplay\tasks_deadcity.xml"
+#include "gameplay\tasks_radar.xml"
+#include "gameplay\tasks_aes.xml"
+#include "gameplay\tasks_yantar.xml"
+#include "gameplay\tasks_sarcofag.xml"
+#include "gameplay\game_tasks_by_vendor.xml"
+#include "gameplay\tasks_flame.xml"
+#include "gameplay\tasks_new.xml"<!-- *************** !!!!TB3D 134 *************** -->
+#include "gameplay\tasks_wawka.xml"<!-- *************** !!!!TB3D 134 *************** -->
+#include "gameplay\tasks_arhara.xml"<!-- *************** !!!!TB3D 134 *************** -->
+#include "gameplay\meceniy_task.xml"<!-- *************** !!!!TB3D 134 *************** -->
+#include "gameplay\tasks_minquests.xml"<!-- *************** !!!!TB3D moved tasks from here to this file for clarity*************** -->
+	<!-- ***************#include "gameplay\tasks_tb3d.xml" -->
+	<!-- *************** !!!!TB3D *************** -->
+</game_tasks_data>

@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.4 aleks edits, something-->
+<string_table>
+	<string id="list_trader_repair_0">
+		<text>Cost of repairing your sidearm:</text>
+	</string>
+	<string id="list_trader_repair_1">
+		<text>Cost of repairing primary weapon:</text>
+	</string>
+	<string id="list_trader_repair_2">
+		<text>Cost of repairing your armor:</text>
+	</string>
+	<!-- Sidorovich with complication. Repair of weapons -->
+	<string id="release_repair_weapon_0">
+		<text>Well, is my weapon ready?</text>
+	</string>
+	<string id="release_repair_weapon_1">
+		<text>Weapon? What weapon?\nAaahh... That weapon... I thought you had forgotten about it... my mistake... Ha-ha... just kidding. Here, take it... it's as good as new.</text>
+	</string>
+	<!--********************************-->
+	<!-- Sidorovich Repair dialog start -->
+	<!--********************************-->
+	<string id="escape_trader_repair_0">
+		<text>Sidorovich, do you repair weapons?</text>
+	</string>
+	<!-- <string id="escape_trader_repair_0">	- 133    !!!!TB3D -
+		<text>Sidorovich, can you repair Weapons?.. Armour?</text>
+	</string> -->
+	<string id="escape_trader_repair_1">
+		<text>You're asking about that weapon in the jig out back? Nice, isn't it? However, it needs new parts, which is the biggest problem out here. So, what do you want repaired? I'll tell you in advance - it won't be cheap. The more damage, the more expensive it'll be. If you bring me something for repair you'll need to bring a compatible weapon that you don't need for spares. Check your PDA now - there's a weapons compatibility chart in there. And don't give me a unique weapon for spare parts, because you'll never see it again. Things have a habit of disappearing around here, if you get my drift... Also, you need to allow enough time for the repair - don't expect a while-you-wait job. The more complex the mechanism, the more time it'll take. I aim for half a day, but it's sometimes longer. And just so you know, I don't do repairs on body armor. You'll need to find someone else for that, or buy a specialized Repair kit and do it yourself - if you have the skills and tools, that is...</text>
+	</string>
+	<!-- <string id="escape_trader_repair_1">	- 133    !!!!TB3D -
+		<text>You're asking about that piece out back in the vice?! The 'Groza'.. yes, it's a fine weapon. However, Im waiting on some parts to finish repairing it. So, do you need something repaired? I can also fix Armour. I warn you though, its not cheap work. The more damaged the Armour is, the more expensive the repairs will be...\n \nHere is a list of possible repairs:</text>
+	</string> -->
+	<string id="escape_trader_repair_2">
+		<text>Repair my sidearm:</text>
+	</string>
+	<!-- <string id="escape_trader_repair_2">	- 133    !!!!TB3D -
+		<text>Repair my Sidearm:</text>
+	</string> -->
+	<string id="escape_trader_repair_3">
+		<text>Repair my primary weapon:</text>
+	</string>
+	<!-- <string id="escape_trader_repair_3">	- 133    !!!!TB3D -
+		<text>Repair my Primary Weapon:</text>
+	</string> -->
+	<string id="escape_trader_repair_4">
+		<text>Repair my armor:</text>
+	</string>
+	<string id="escape_trader_repair_5">
+		<text>Nothing for now, thanks. Maybe later...</text>
+	</string>
+	<!-- <string id="escape_trader_repair_5">	- 133    !!!!TB3D -
+		<text>Im a bit short on cash.. I'll come back later...</text>
+	</string> -->
+	<string id="escape_trader_repair_6">
+		<text>When the repair is finished - I'll inform you via your PDA. It's not a lot of work, about half an hour's work or so...</text>
+	</string>
+	<!-- <string id="escape_trader_repair_6">	- 133    !!!!TB3D -
+		<text>I'll perform the repairs...\n \nWhen it's ready, I'll contact you...</text>
+	</string> -->
+	<string id="escape_trader_repair_62">
+		<text>When the repair is finished - I'll inform you via your PDA. It's a bit of damage. About an hour's work or so...</text>
+	</string>
+	<string id="escape_trader_repair_63">
+		<text>When the repair is complete - I'll inform you via your PDA. There's quite a bit of damage... It's going to take at least an hour and a half...</text>
+	</string>
+	<string id="escape_trader_repair_64">
+		<text>When I've finished the repairs - I'll inform you via your PDA. There is some serious damage done here - about 3 hours work... don't bother to wait.</text>
+	</string>
+	<string id="escape_trader_repair_65">
+		<text>When I've finished the repairs - I'll inform you via your PDA. There is some serious damage done here - I have to replace the firing mechanism - about 4 hours work... don't bother to wait.</text>
+	</string>
+	<string id="escape_trader_repair_66">
+		<text>When the repair is finished - I'll inform you via your PDA. It will take about 6 hours or so... use another weapon for now.</text>
+	</string>
+	<string id="escape_trader_repair_7">
+		<text>Yes, Marked One, all the repairs are complete...\n \nUse it well.</text>
+	</string>
+	<string id="escape_trader_repair_8">
+		<text>What kind of business are you running here anyways!? - I give you two weapons to have one fixed, and then you tell me to wait... I don't think so...</text>
+	</string>
+	<!-- <string id="escape_trader_repair_8">	- 133    !!!!TB3D -
+		<text>Excellent work. You are quite skilled...</text>
+	</string> -->
+	<string id="escape_trader_repair_9">
+		<text>Masterful work. You know your small arms well...</text>
+	</string>
+	<!-- <string id="escape_trader_repair_9">	- 133    !!!!TB3D -
+		<text>Masterful work!! Well worth the money.</text>
+	</string> -->
+	<string id="escape_trader_repair_10">
+		<text>Can you repair something else for me?</text>
+	</string>
+	<!-- <string id="escape_trader_repair_10">	- 133    !!!!TB3D -
+		<text>Can you repair something else?</text>
+	</string> -->
+	<string id="escape_trader_repair_11">
+		<text>Stop wasting my time, come back when you have something that has actually been damaged.</text>
+	</string>
+	<!-- <string id="escape_trader_repair_11">	- 133    !!!!TB3D -
+		<text>What else needs repairs?\n \nHere is a list of possible repairs:</text>
+	</string> -->
+	<string id="escape_trader_repair_12">
+		<text>That's fine, thank you. I've been ripped-off, but at least the weapon has been repaired.</text>
+	</string>
+	<string id="escape_trader_repair_13">
+		<text>Well its better than nothing at all... Here, take it.</text>
+	</string>
+	<string id="escape_trader_repair_14">
+		<text>Here, take the money... What?! not enough? This is more than State employees receive in a month! Take it now... before I change my mind.</text>
+	</string>
+	<string id="escape_trader_repair_21">
+		<text>I'll take whatever I can get. Still... it's a rip-off though!!</text>
+	</string>
+	<string id="escape_trader_repair_31">
+		<text>Okay.. give me the money. Here in these parts, Traders make huge profits from the work of S.T.A.L.K.E.R.s... lol!!</text>
+	</string>
+	<!--****************************-->
+	<!-- Vasily Repair dialog start -->
+	<!--****************************-->
+	<!-- Vasily with complication. Repair of weapons and usual repair of the armor -->
+	<string id="finish_repair_weapon_0">
+		<text>I received your message... is the repair job finished?</text>
+	</string>
+	<string id="finish_repair_weapon_1">
+		<text>Yes... get it out of my sight. I've wasted a ton of spare parts on this thing... it was hardly even worth it..</text>
+	</string>
+	<string id="march_trader_repair_0">
+		<text>Vasily, can you repair my equipment!?</text>
+	</string>
+	<string id="march_trader_repair_1">
+		<text>I certainly can... I warn you though... its not cheap work. The more damage, the more expensive it will be. Besides, for repair I need a similar weapon for spare parts. It's a necessary to requirment. Check your PDA. There is a weapons compatibility chart listed there. And look here... do not give me a unique weapon for spare parts - I'll keep it, and you will never see it again. Also, you should consider the time it takes to repair things. The more complex the repair, the more time it will take. Sometimes half a day... perhaps longer. - the majority of the work is replacing damaged parts... So?</text>
+	</string>
+	<string id="march_trader_repair_2">
+		<text>Repair my sidearm:</text>
+	</string>
+	<string id="march_trader_repair_3">
+		<text>Repair my primary weapon:</text>
+	</string>
+	<string id="march_trader_repair_4">
+		<text>Repair my body armor:</text>
+	</string>
+	<string id="march_trader_repair_5">
+		<text>That's too expensive for now... I'll have to come back later.</text>
+	</string>
+	<string id="march_trader_repair_6">
+		<text>When I finish the repairs - I'll send you a message. Its not a lot of work... in about half an hour it will be ready for you...</text>
+	</string>
+	<string id="march_trader_repair_62">
+		<text>When I finish the repairs - I'll inform you via your PDA. I think about an hour should suffice...</text>
+	</string>
+	<string id="march_trader_repair_63">
+		<text>When the repair is complete - I'll inform you via your PDA. There's quite a bit of damage... It's going to take at least an hour and a half...</text>
+	</string>
+	<string id="march_trader_repair_64">
+		<text>When I've finished the repairs - I'll inform you via your PDA. There is some serious damage done here - about 3 hours work... don't bother to wait.</text>
+	</string>
+	<string id="march_trader_repair_65">
+		<text>When I've finished the repairs - I'll inform you via your PDA. There is some serious damage done here - I have to replace the firing mechanism - about 4 hours work... don't bother to wait.</text>
+	</string>
+	<string id="march_trader_repair_66">
+		<text>When I finish the repairs - I'll inform you via your PDA. This weapon here is almost ruined... It will take about 6 hours, get some sleep or have a drink... this repair will take some serious work...</text>
+	</string>
+	<string id="march_trader_repair_7">
+		<text>I'll send you a message when its done. Its not damaged too badly. It will take about an hour or two...</text>
+	</string>
+	<string id="march_trader_repair_71">
+		<text>When I finish the repairs I'll send you a message. Quite a bit of damage here, about 4 hours work, I'd say...</text>
+	</string>
+	<string id="march_trader_repair_72">
+		<text>What is this garbage?!!... if you really insist on getting it repaired, it's going to take at least 8 hours. I'll send you a message via your PDA when it's done.</text>
+	</string>
+	<string id="march_trader_repair_73">
+		<text>When the repair is finished I'll contact you. This is going to take some time to sort out... I hope you have enough cash to pay for it!! It's going to take around 12 hours repair time.</text>
+	</string>
+	<string id="march_trader_repair_74">
+		<text>Are you fucking serious!!?.. this thing belongs in the garbage!!... well, if you insist, I'll repair it for you...  I'll send you a message when it's done... this is going to take me all day.</text>
+	</string>
+	<string id="march_trader_repair_75">
+		<text>When I finish the repairs - I'll send you a message. What the hell happened to this armor!? It's going to take days to find the right parts for this...</text>
+	</string>
+	<string id="march_trader_repair_8">
+		<text>Vasily, you crook: I gave you 2 weapons, and a lot of cash... and, yet I still have to wait?!...</text>
+	</string>
+	<string id="march_trader_repair_81">
+		<text>Vasily, These repairs are important... take all the time you need.</text>
+	</string>
+	<string id="march_trader_repair_9">
+		<text>Nice job!!.. Did you work at a small-arms factory before all this?</text>
+	</string>
+	<string id="march_trader_repair_10">
+		<text>Can you repair something else for me?</text>
+	</string>
+	<string id="march_trader_repair_11">
+		<text>Well then, give it back... I'll make do.</text>
+	</string>
+	<string id="march_trader_repair_12">
+		<text>Its a deal.. thank you... Here's your cash.</text>
+	</string>
+	<string id="march_trader_repair_13">
+		<text>Just like new... thank you... Here, take the money.</text>
+	</string>
+	<string id="march_trader_repair_14">
+		<text>Here, take it before I change my mind...</text>
+	</string>
+	<string id="march_trader_repair_21">
+		<text>I'll take whatever I can get for this sidearm...</text>
+	</string>
+	<string id="march_trader_repair_31">
+		<text>It's a deal. Here, us Shopkeepers make a huge profit from you people...</text>
+	</string>
+	<!--****************************-->
+	<!-- lanky Repair dialog start  -->
+	<!--****************************-->
+	<!-- lanky with complication. Repair of weapons and usual repair of the armor -->
+	<string id="final_repair_weap_0">
+		<text>I received your message. Is the repair work finished?</text>
+	</string>
+	<string id="final_repair_weap_1">
+		<text>It's all ready for you. Here, take it away...</text>
+	</string>
+	<string id="dlinnuy_repair_0">
+		<text>Hello, Master Weaponsmith, can you fix something for me?</text>
+	</string>
+	<string id="dlinnuy_repair_1">
+		<text>I certainly can... I warn you though... its not cheap work. The more damage, the more expensive it will be. Besides, for repair I need a similar weapon for spare parts. It's a necessary to requirment. Check your PDA. There is a weapons compatibility chart listed there. And look here... do not give me a unique weapon for spare parts - I'll keep it, and you will never see it again. Also, you should consider the time it takes to repair things. The more complex the repair, the more time it will take. Sometimes half a day... perhaps longer. - the majority of the work is replacing damaged parts..  So?!...</text>
+	</string>
+	<string id="dlinnuy_repair_2">
+		<text>Repair my sidearm:</text>
+	</string>
+	<string id="dlinnuy_repair_3">
+		<text>Repair my primary weapon:</text>
+	</string>
+	<string id="dlinnuy_repair_4">
+		<text>Repair my armor:</text>
+	</string>
+	<string id="dlinnuy_repair_5">
+		<text>Okay. I'll come back later...</text>
+	</string>
+	<string id="dlinnuy_repair_6">
+		<text>When I finish the repairs - I'll send you a message. Its not a lot of work... in about half an hour it will be ready for you... Have a drink at the bar.</text>
+	</string>
+	<string id="dlinnuy_repair_62">
+		<text>When I finish the repairs - I'll inform you via your PDA. I think about an hour should suffice...</text>
+	</string>
+	<string id="dlinnuy_repair_63">
+		<text>When the repair is complete - I'll inform you via your PDA. There's quite a bit of damage... It's going to take at least an hour and a half...</text>
+	</string>
+	<string id="dlinnuy_repair_64">
+		<text>When I've finished the repairs - I'll inform you via your PDA. There is some serious damage done here - about 3 hours work... don't bother to wait.</text>
+	</string>
+	<string id="dlinnuy_repair_65">
+		<text>When I finish the repair I'll inform you via your PDA. Many parts to change here... At least 4 hours work. It would be cheaper to simply buy a new weapon. But, nevertheless...</text>
+	</string>
+	<string id="dlinnuy_repair_66">
+		<text>When I finish the repair I'll inform you via your PDA. This is badly damaged, but I can fix it. It will take around 6 hours...</text>
+	</string>
+	<string id="dlinnuy_repair_660">
+		<text>When I finish the repair I'll inform you via your PDA. It's a small job. Simply needs a few small adjustments. An hour and a half, maybe a bit longer.</text>
+	</string>
+	<string id="dlinnuy_repair_661">
+		<text>When I finish the repair I'll inform you via your PDA. Not too much damage, but I need to re-check and tweak all of the non-standard additions. Come back in about 5 hours...</text>
+	</string>
+	<string id="dlinnuy_repair_662">
+		<text>When I finish the repair I'll inform you via your PDA. This will take about five and a half hours...</text>
+	</string>
+	<string id="dlinnuy_repair_663">
+		<text>What pile of Burer shit did you find this in!? This will take at least seven hours to repair! I'll inform you via your PDA when it's finished, so do not switch it off...</text>
+	</string>
+	<string id="dlinnuy_repair_664">
+		<text>This is a piece of junk. I hope you brought another weapon for spare parts? This will take about eight hours. When I finish the repair I'll inform you via your PDA.</text>
+	</string>
+	<string id="dlinnuy_repair_665">
+		<text>When I finish the repair I'll inform you via your PDA. This is going to take a while, and its going to cost you some serious money... 10 hours work, perhaps more...</text>
+	</string>
+	<string id="dlinnuy_repair_7">
+		<text>When I finish - I'll send you a message:\nThis is not much work - two hours.</text>
+	</string>
+	<string id="dlinnuy_repair_71">
+		<text>When I finish - I'll contact you:\nNot too much damage - four hours.</text>
+	</string>
+	<string id="dlinnuy_repair_72">
+		<text>When I finish - I'll send you a message:\nThis is a serious repair - eight hours.</text>
+	</string>
+	<string id="dlinnuy_repair_73">
+		<text>When I finish - I'll contact you:\nThis is a big job - twelve hours.</text>
+	</string>
+	<string id="dlinnuy_repair_74">
+		<text>When I finish - I'll send you a message:\nLooks like I won't be getting much sleep tonight...</text>
+	</string>
+	<string id="dlinnuy_repair_75">
+		<text>When I finish - I'll send you a message:\nYou seriously want this fixed? This will take days! Oh well... it's your money...</text>
+	</string>
+	<string id="dlinnuy_repair_8">
+		<text>Pay up front, and supply my own parts... and then I still have to wait!!!</text>
+	</string>
+	<string id="dlinnuy_repair_81">
+		<text>Sometimes waiting is necessary, I must make all of the necessary repairs.</text>
+	</string>
+	<string id="dlinnuy_repair_9">
+		<text>Masterful work. Your the best damn Weaponsmith in the Zone!</text>
+	</string>
+	<string id="dlinnuy_repair_10">
+		<text>Can you repair something else for me?</text>
+	</string>
+	<string id="dlinnuy_repair_11">
+		<text>Well, let us see... what needs fixing?</text>
+	</string>
+	<string id="dlinnuy_repair_12">
+		<text>It will be fine... thanks... now that you have all my money anyways...</text>
+	</string>
+	<string id="dlinnuy_repair_13">
+		<text>Well, it's better than nothing... Here, take it.</text>
+	</string>
+	<string id="dlinnuy_repair_14">
+		<text>Here, take it before I change my mind...</text>
+	</string>
+	<string id="dlinnuy_repair_21">
+		<text>Give me the money... stop complaining...</text>
+	</string>
+	<string id="dlinnuy_repair_31">
+		<text>I'll take your money... no problem. Here in the Zone, Traders profit from people such as yourself...</text>
+	</string>
+	<!--****************************-->
+	<!-- lanky upgrade dialog start  -->
+	<!--****************************-->
+	<!-- lanky with an upgrade of weapons -->
+	<string id="dlinnuy_upgrade_0">
+		<text>Hi, boss. Do you do weapon upgrades?</text>
+	</string>
+	<string id="dlinnuy_upgrade_1">
+		<text>Yes, I can perform upgrades for certain weapons, but I warn you... it's not cheap. I'm the only tech in the Zone that can do this kind of work... so don't complain about the price!! I don't, however, work on pistols - check your PDA... I have uploaded a list of available upgrades. Also... all upgrades take about 3 hours. Any weapons to be modified that also require repairs will cost more, and it will be necessary to wait even longer for the work to be completed.</text>
+	</string>
+	<string id="start_wnd_upgrade">
+		<text>Let's proceed to upgrade.</text>
+	</string>
+	<string id="dlinnuy_upgrade_2">
+		<text>Upgrade my sidearm:</text>
+	</string>
+	<string id="dlinnuy_upgrade_21">
+		<text>What type of upgrade would you like?</text>
+	</string>
+	<string id="dlinnuy_upgrade_211">
+		<text>Change the calibre of the weapon to an ammunition type which is more commonly available...</text>
+	</string>
+	<string id="dlinnuy_upgrade_212">
+		<text>Tighten up the weapons grouping... a mere miss of a few centimetres could cost me my life out here.</text>
+	</string>
+	<string id="dlinnuy_upgrade_213">
+		<text>Reduce the weight of the weapon - it will be easier to carry, and make for a steadier aim.</text>
+	</string>
+	<string id="dlinnuy_upgrade_214">
+		<text>Don't do anything yet...</text>
+	</string>
+	<string id="dlinnuy_upgrade_3">
+		<text>Upgrade my primary weapon:</text>
+	</string>
+	<string id="dlinnuy_upgrade_31">
+		<text>What type of upgrade would you like me to perform?</text>
+	</string>
+	<string id="dlinnuy_upgrade_311">
+		<text>Change the calibre of the weapon to an ammunition type which is more commonly available...</text>
+	</string>
+	<string id="dlinnuy_upgrade_312">
+		<text>Tighten up the weapons grouping... a mere miss of a few centimetres could cost me my life out here.</text>
+	</string>
+	<string id="dlinnuy_upgrade_313">
+		<text>Reduce the weight of the weapon - it will be easier to carry. My name's not Arnie!</text>
+	</string>
+	<string id="dlinnuy_upgrade_314">
+		<text>Don't do anything just yet...</text>
+	</string>
+	<string id="dlinnuy_upgrade_5">
+		<text>I'll come back later...</text>
+	</string>
+	<string id="dlinnuy_upgrade_6">
+		<text>When the upgrade is complete, I'll send  you a message.\nIt will take at least 3 hours.</text>
+	</string>
+	<string id="dlinnuy_upgrade_8">
+		<text>You want me to wait?!... even after I've paid you that much!?</text>
+	</string>
+	<string id="dlinnuy_upgrade_9">
+		<text>Masterful work. Are you the best weaponsmith in the Zone?</text>
+	</string>
+	<string id="dlinnuy_upgrade_10">
+		<text>Can you upgrade something else for me?</text>
+	</string>
+	<string id="dlinnuy_upgrade_11">
+		<text>Well hand it over... I'll see what I can do...</text>
+	</string>
+	<string id="dlinnuy_upgrade_12">
+		<text>It's fine, thank you... If I have any problems with it, I'll come again.</text>
+	</string>
+	<string id="dlinnuy_upgrade_13">
+		<text>It's better than nothing... Here take it.</text>
+	</string>
+	<string id="dlinnuy_upgrade_14">
+		<text>Here... What, not enough?! Take it before I change my mind!!</text>
+	</string>
+	<!--****************************-->
+	<!-- Sjak Repair dialog start   -->
+	<!--****************************-->
+	<!-- Sjak with complication. Repair of weapons and simple the armor -->
+	<string id="skryga_konez_repair_weap_0">
+		<text>Hello there... how is my repair coming along?</text>
+	</string>
+	<string id="skryga_konez_repair_weap_1">
+		<text>The work is done. Here, take it away...</text>
+	</string>
+	<string id="skryga_repair_weap_0">
+		<text>Do you perform repairs?</text>
+	</string>
+	<string id="skryga_repair_weap_1">
+		<text>I certainly can, but I'll warn you now that it's not cheap work. The more damage, the more expensive it'll be. And you'll need to supply a similar weapon for spare parts - as you can see, I don't have much space here. Check your PDA - there's a weapons compatibility chart in there. And another thing - don't give me a unique weapon for spares - it'll disappear and you'll never see it again, if you get my drift.... Also, consider how long it takes to repair things. The worse it is, the longer it'll take. Sometimes half a day, sometimes longer - the bulk of the work is replacing damaged parts. Repairing armor is much easier though. The parts are all standardized, and I keep them in stock... So what'll it be?</text>
+	</string>
+	<string id="skryga_repair_weap_2">
+		<text>Repair my sidearm:</text>
+	</string>
+	<string id="skryga_repair_weap_3">
+		<text>Repair my primary weapon:</text>
+	</string>
+	<string id="skryga_repair_weap_4">
+		<text>Repair my armor:</text>
+	</string>
+	<string id="skryga_repair_weap_5">
+		<text>Sorry, too expensive for me. Maybe another time...</text>
+	</string>
+	<string id="skryga_repair_weap_6">
+		<text>I'll repair it for you, and text you when it's completed.\nIt should only take about half an hour...</text>
+	</string>
+	<string id="skryga_repair_weap_62">
+		<text>I'll text you when I've finished the repair.\nHmm, it doesn't look too bad...\nThis will take about an hour or so...</text>
+	</string>
+	<string id="skryga_repair_weap_63">
+		<text>I'll text you when I've finished the repair\nBut it'll take an hour and a half at least...</text>
+	</string>
+	<string id="skryga_repair_weap_64">
+		<text>When I finish the repairs I'll send you a text.\nDid you drop this weapon in an anomaly or something?... This will take about 3 hours.</text>
+	</string>
+	<string id="skryga_repair_weap_65">
+		<text>When I finish the repairs I'll send you a text.\nWhat's that smell!? Did you drop this in some Snork shit?! At least 4 hours of work, and a good cleaning...</text>
+	</string>
+	<string id="skryga_repair_weap_66">
+		<text>When I finish the repairs I'll send you a text.\nThis weapon is almost ruined... At least 6 hours worth of repair time for this one.</text>
+	</string>
+	<string id="skryga_repair_weap_7">
+		<text>When I finish the repairs- I'll send you a message when it's done... or you can wait.\nThis is not going to be much work. It should be ready in a couple of hours time.</text>
+	</string>
+	<string id="skryga_repair_weap_71">
+		<text>When I finish the repairs I'll send you a text.\nI will be able to fix this in 4 hours time...</text>
+	</string>
+	<string id="skryga_repair_weap_72">
+		<text>When I finish the repairs I'll send you a text.\nThere is some serious work to be done here... about 8 hours work...</text>
+	</string>
+	<string id="skryga_repair_weap_73">
+		<text>When I finish the repairs I'll send you a text.\nDid you find this in a Chimera's den!? This will take at least twelve hours!!</text>
+	</string>
+	<string id="skryga_repair_weap_74">
+		<text>When I finish the repairs I'll send you a text.\nYou can't be serious... this is a joke right?! This is going to take at least 18 hours....</text>
+	</string>
+	<string id="skryga_repair_weap_75">
+		<text>When I finish the repairs I'll send you a text.\nThis is the worst one you've brought me yet! This is going to take a few days!</text>
+	</string>
+	<string id="skryga_repair_weap_8">
+		<text>Syak, are you related to 'Miser' at the Warehouses? I give you two weapons, pay cash up front, and then I have to wait for it... Are you trying to pull a fast one?</text>
+	</string>
+	<string id="skryga_repair_weap_81">
+		<text>Syak, please do what's necessary. I can wait...</text>
+	</string>
+	<string id="skryga_repair_weap_9">
+		<text>Thanks...</text>
+	</string>
+	<string id="skryga_repair_weap_10">
+		<text>Can you repair something else?</text>
+	</string>
+	<string id="skryga_repair_weap_11">
+		<text>Well, let's see what else needs some work... I hope you didn't lose your wallet...</text>
+	</string>
+	<string id="skryga_repair_weap_12">
+		<text>I'll come back later... see you.</text>
+	</string>
+	<string id="skryga_repair_weap_13">
+		<text>Well, it's better than nothing, I suppose.</text>
+	</string>
+	<string id="skryga_repair_weap_14">
+		<text>What? that's not nearly enough for this piece of scrap metal!!</text>
+	</string>
+	<string id="skryga_repair_weap_21">
+		<text>I'll take the cash for the first weapon. I see trying to bargain with you is quite pointless...</text>
+	</string>
+	<string id="skryga_repair_weap_31">
+		<text>I'll take cash for the second weapon. Here in the Zone, us Shopkeepers make a good profit from folks such as you... HaHa!!</text>
+	</string>
+	<!--****************************-->
+	<!-- Barist Repair dialog start -->
+	<!--****************************-->
+	<string id="bar_trader_repair_0">
+		<text>Can you repair weapons?</text>
+	</string>
+	<string id="bar_trader_repair_1">
+		<text>I can repair almost anything, and my colleague offers PDA upgrades.\n So, what will it be?\n \nList of possible repairs:</text>
+	</string>
+	<string id="bar_trader_repair_2">
+		<text>Repair my sidearm:</text>
+	</string>
+	<string id="bar_trader_repair_3">
+		<text>Repair my primary weapon:</text>
+	</string>
+	<string id="bar_trader_repair_4">
+		<text>Repair my armor:</text>
+	</string>
+	<string id="bar_trader_repair_5">
+		<text>I don't have enough money... another time perhaps?</text>
+	</string>
+	<string id="bar_trader_repair_6">
+		<text>Here, all is fixed and greased as was necessary!!</text>
+	</string>
+	<string id="bar_trader_repair_7">
+		<text>Here. All the necessary repairs were made.</text>
+	</string>
+	<string id="bar_trader_repair_8">
+		<text>You are indeed the Master of repairs. Thank you.</text>
+	</string>
+	<string id="bar_trader_repair_9">
+		<text>Indeed. excellent work!!</text>
+	</string>
+	<string id="bar_trader_repair_10">
+		<text>Can you repair something else for me?</text>
+	</string>
+	<string id="bar_trader_repair_11">
+		<text>Certainly. I'm always looking for some work.\n \nList of possible repairs:</text>
+	</string>
+	<!--****************************-->
+	<!-- Doctor Repair dialog start -->
+	<!--****************************-->
+	<string id="yantar_trader_repair_0">
+		<text>Do you do repair work?</text>
+	</string>
+	<string id="yantar_trader_repair_1">
+		<text>I'll take a look. I have all of the necessary equipment.\n \nList of possible repairs:</text>
+	</string>
+	<string id="yantar_trader_repair_2">
+		<text>Repair my sidearm:</text>
+	</string>
+	<string id="yantar_trader_repair_3">
+		<text>Repair my primary weapon:</text>
+	</string>
+	<string id="yantar_trader_repair_4">
+		<text>Repair my armor:</text>
+	</string>
+	<string id="yantar_trader_repair_5">
+		<text>I don't have enough money. I'll come back later.</text>
+	</string>
+	<string id="yantar_trader_repair_6">
+		<text>This will take a little while...\n \nThen you can come back to pick it up.</text>
+	</string>
+	<string id="yantar_trader_repair_7">
+		<text>This armor is certainly damaged, but I have materials in stock. Won't take long...\n \nI will repair it as if it's my very own.</text>
+	</string>
+	<string id="yantar_trader_repair_8">
+		<text>Excellent work!!</text>
+	</string>
+	<string id="yantar_trader_repair_9">
+		<text>This will take about five hours...</text>
+	</string>
+	<string id="yantar_trader_repair_10">
+		<text>Repair something else?</text>
+	</string>
+	<string id="yantar_trader_repair_11">
+		<text>Well, let's just see what needs adjusting...\n \nList of possible repairs:</text>
+	</string>
+	<!--***************************-->
+	<!-- Screw Repair dialog start -->
+	<!--***************************-->
+	<string id="mil_trader_repair_0">
+		<text>I see you have tools, Do you perform repairs?</text>
+	</string>
+	<string id="mil_trader_repair_1">
+		<text>Yes, I can fix almost anything. What do you need? This work doesn't come cheap though. The more damage, the more expensive the repair.\n \nList of possible repairs:</text>
+	</string>
+	<string id="mil_trader_repair_2">
+		<text>Repair my sidearm:</text>
+	</string>
+	<string id="mil_trader_repair_3">
+		<text>Repair my primary weapon:</text>
+	</string>
+	<string id="mil_trader_repair_4">
+		<text>Repair my armor:</text>
+	</string>
+	<string id="mil_trader_repair_5">
+		<text>I don't have that kind of money... another time perhaps?</text>
+	</string>
+	<string id="mil_trader_repair_6">
+		<text>I have replaced some precision parts, also greased it, and cleaned it as well...Use it in good health...</text>
+	</string>
+	<string id="mil_trader_repair_7">
+		<text>Fuck me, Marked One... Are you walking around with a target painted on you? Come on, hand it over... I'll fix it up as good as new!</text>
+	</string>
+	<string id="mil_trader_repair_8">
+		<text>As good as it gets!! Excellent work!!</text>
+	</string>
+	<string id="mil_trader_repair_9">
+		<text>Nice work!!</text>
+	</string>
+	<string id="mil_trader_repair_10">
+		<text>Can you repair something else?</text>
+	</string>
+	<string id="mil_trader_repair_11">
+		<text>Certainly, show me the cash... I don't work for free, you know...\n \nHere's a list of repairs I can do:</text>
+	</string>
+	<!--********************-->
+	<!-- Repair dialogs end -->
+	<!--********************-->
+	<!-- the table of the compatible weapon for PDA-->
+	<string id="text_tabl_stvol">
+		<text>List of weapons using compatible spares:\n \n
+1. AS 'Val' BCC 'Vintorez' VSK-94 / AK-9\n \n
+2. Winchester 1300 / W1300 'Chaser' / Winchester 1200 / Franchi SPAS-12 / SPAS-12 'Hunter' / SPAS-12 'Storm' / Prototype 'Protecta' / Protecta 'Assault' / Benelli M4 Scoped / Benelli M4 Super 90 / Scattergun Benelli M3 / Mossberg 590 / Scattergun Remington 870 / Remington 870 / TDS-194 / USAS-12\n \n
+3. AEK-971 / AK-74 / AKS-74 'Archer' / AKS-74U / AK-101 / AK-104 / AK-108 / RPK-74 PP-19 'Bison' / PP-20 'Bison' / OTS -14 'Thunderstorm' / OTs-14 'Groza' 5.45mm / OC-14 'Groza' 5.56mm / OC-14 Groza 'Lynx' / OC-14 Groza 'Flame' / VZ-58 / FN FNC Para\n \n
+4. BM-16 / TOZ-34 / Browning Auto-5\n \n
+5. AK-47 / AKM / AKM 'Ghost' / AR-F rifle / RPD / PKM / SKS\n \n
+6. AN-94 'Abakan' / AN-2012\n \n
+7. Heckler-Koch MG-36 / H-K XM8 Para / XM8 Sharpshooter / H-K G36 'Aimpoint' / H-K G36\n \n
+8. Enfield L85A2 / Enfield L86A1 / Enfield L86A2 LSW / Steyr AUG A1 / Steyr AUG A3 / Steyr AUG BMK\n \n
+9. LR-300ML / Colt M16A2 / M4A1 SOPMOD / M4A1 Modded / Diemaco C7 / M4 Compact / Ironsighted SBR / Heckler-Koch 416 / Heckler-Koch 417 'Sniper' / Knights SR-25 / FN FAL C1\n \n
+10. SIG SG-550 / SIG SG-552 'Commando' / SIG SG-552 'Anaconda' / SCAR 'Crysis' / FN SCAR-L / FN SCAR-H / Heckler-Koch G3A3 / Magpul Masada\n \n
+11. Saiga-12C / Saiga-12K / Tactical Saiga / Saiga Tactical 'Sniper'\n \n
+12. HK MP5 / HK MP5M / HK MP5K-PDW / HK MP5-SD / HK MP7 / IMI UZI / Micro-Uzi / ScorpionVz.61 / Steyr TMP / Ingram MAC-10 / Heckler-Koch 53A3 / Heckler-Koch UMP-45 / PP-2000 PP-9 'Wedge'\n \n
+13. SVD / SVD-S / PRS 'Tiger' IRS 'Hawk' / IED / IED / AC / Arctic Warfare Police / 'Iglomet' B-94 / VSSK 'exhaust' KSVK / Mosin Rifle / Rifle Mosin 'Sniper' / Cutting Mosin rifle / Zastava M76 / M-14 / M-14 DMR / M-21 / Barrett M82 / MSG-90 / Sako TRG-42 / Sako TRG-41 / Remington 700 / M-21 'Warfare' / Walther WA-2000 'Warfare'\n \n
+14. Gauss-Pistol M72-GG / Gauss M72-GR / Gauss M72-G1 / Gauss M72-G2 / Gauss M72 'Ghost' / Anomalous Gauss-SPAS\n \n
+15. FN F2000 / FN F2000 'Sniper' / FN-2000 'Executioner' / FN F2000 'Duo' / XM-29 OICW\n \n
+16. RG-6 / RG-6 'Bulldog' / M-79\n \n
+17. RPG-7 / RPG-7 'Bumblebee' / MANPADS 'Needle'\n \n
+18. Beretta 92FS / Beretta M9A1 / Beretta Cleric / Beretta 8000 / Beretta PX4 / Beretta 93R / Beretta Stars / FN Browning HP-SA / Walther P99 / Walther P100 / Walther PPK / Glock 17 / Glock 18 / Glock 19 / Heckler-Koch P7 / Bernardelli P-018 / SIG-Sauer 226 / SW MK-22 / Intratec TEC DC-9\n \n
+19. APS / OC-33 'Pernach' / Fort 12 / Fort 14 / PB / PM / Special PM / PM 'Award' / Army PM / CT-33 / MP-444 'Bagheera'\n \n
+20. SIG-Sauer P220 / HK USP / Colt M1911 / Desert Eagle / Desert Eagle 'Magnum' / Desert Eagle 'Steppe Eagle' / Desert Eagle 9x19mm / Desert Eagle Mark XIX / Glock 35 / FN Five-Seven\n \n
+21. Kriss super V / Kriss Waper PRO\n \n
+22. FAMAS Prototype / Tavor TAR 21 / FW-900K / QBZ-97 / KAC PDW\n \n
+23. FN P90 / Zastava CZN-M22\n \n
+24. Taurus Raging Bull / Colt Anaconda\n \n
+25. Maschinengewehr 42 / FN Minimi / Minigun M-134SM / Minigun M-134 'Plus' / PTRD\n \n
+26. SCD-40 / PPS-41 / Thompson / MR-40 / Mauser C96\n \n \n
+28. Flamethrower\n \n
+29. Crossbow\n \n
+		</text>
+	</string>
+	<!-- upgrade realisation-->
+	<string id="upgrade_tabl_stvol">
+		<text>
+			List of available upgrades and restrictive variants:\n
+			Note that after weight reduction, further upgrades are not possible\n \n
+			1. Weapons suitable for changing calibre (base models only):\n
+			* AK-74 / AKS-74 'Cobra' / AK-74U / AN-94 'Abakan' - 5.45x39mm to 5.56x45mm\n
+			* PP-19 'Bizon' / Scorpion SA Vz 82 - 9x18mm to 9x19mm\n
+			* HK MP5A3 / HK MP-5K-PDW / HK MP-7a3 / IMI UZI - 9x19mm to 9x18mm\n
+			* FN F2000 / HK G36 / LR-300ML / SIG SG-550 / SIG SG552 'Commando' / Enfield L85A2 / FAMAS Prototype3 / Colt M16A2 / M4A1 SOPMOD / Tavor STAR 21 - 5.56x45mm to 5.45x39mm\n \n
+			2. Weapons suitable for lower return and to increase precision (base models only):\n
+			AK-74 / AKS-74 'Cobra' / AKS-74U / AN-94 'Abakan' / AK-47 / PP-19 'Bizon' / Scorpion Vz.61 / HK MP5A3 / HK MP-5K-PDW / HK MP-7A3 / IMI UZI / FN F2000 / HK G36 / LR-300ML / SIG SG-550 / SIG SG552 'Commando' / Enfield L85A2 / FAMAS Prototype3 / Colt M16A2 / M4A1 SOPMOD / Tavor STAR 21 / HK 417 'Sniper' / Knights SR25 Mk.11\n \n
+			4. Weapons suitable for weight reduction (no further upgrades possible):\n
+			AK-74 / AKS-74 'Cobra' / AKS-74U / AN-94 'Abakan' / AK-47 / PP-19 'Bizon' / Scorpion Vz.61 / OC-14-4 'Thunderstorm' / AS 'Val' / BCC 'Vintorez' / SVD / SVU-A / Mosin Rifle / B-94 / 'Iglomet' / HK MP5A3 / HK MP-5K-PDW / HK MP-7A3 / IMI UZI / FN F2000 / HK G36 / LR-300ML / SIG SG-550 / SIG SG552 'Commando' / Enfield L85A2 / FAMAS Prototype3 / Colt M16A2 / M4A1 SOPMOD / Tavor STAR 21 / HK 417 'Sniper' / Knights SR25 Mk.11 / Saiga-12C / Winchester 1300 / Franchi SPAS-12 / BM16 (sawn-off) / TOXZ-34 / M4 SUPER 90 / Protekta / PPSH-41 / Kriss Super V / FN P90 / PKM / M79 Grenade-Launcher\n
+		</text>
+	</string>
+</string_table>

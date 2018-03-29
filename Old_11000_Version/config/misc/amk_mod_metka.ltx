@@ -1,0 +1,60 @@
+;<!-- TB3D 1.0.1e, discovery_dependency aleks1970 -->
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;AMK 1.4.1  
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+[amk_metka]:ammo_base
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			= "weapons\ammo\ammo_9x18_pbp" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = equipments\item_amk_gps.ogf
+description		= enc_amk_metka
+$prefetch 		= 64
+
+cost					 = 500
+
+box_size		= 1	;50
+
+inv_name		= amk_metka
+inv_name_short		= amk_metka_s
+inv_weight		= 0.05
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 44
+inv_grid_y			= 47
+
+k_dist			= 1
+k_disp			= 3
+k_hit			= 1.4
+k_impulse		= 1.2
+k_pierce		= 1.35
+impair			= 1.15
+buck_shot		= 1
+tracer			= off
+wm_size         = 0.05
+
+[repair_item_outfit]:amk_metka
+
+description		= repair_item_outfit_desc
+box_size		= 1	;50
+inv_name		= repair_item_outfit_name
+inv_name_short		= repair_item_outfit_name
+inv_grid_width	= 3
+inv_grid_height	= 2
+inv_grid_x		= 34
+inv_grid_y		= 37
+
+[repair_item_weapon]:amk_metka
+
+description		= repair_item_weapon_desc
+box_size		= 1	;50
+inv_name		= repair_item_weapon_name
+inv_name_short		= repair_item_weapon_name
+inv_grid_width	= 3
+inv_grid_height	= 2
+inv_grid_x		= 37
+inv_grid_y		= 37

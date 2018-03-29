@@ -1,0 +1,316 @@
+<!-- TB3D 1.1.0.0.0.4 controller vice comptroller, snorks, fixed formatting -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 13 Mar 16 -->
+<!-- Fixed by Aleks1970 and re-edited by Sword2012 for clarity in-game. 23 Mar 16 -->
+<!-- Replaced 17 instances of 'Improbable information' with 'Indecipherable text' - Sword2012. 28 Mar 16 -->
+<!-- Text editing as commented below (phenomenon) - Sword2012 - 26 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<!-- Replaced 17 instances of 'Indecipherable text' with 'Handwritten notes' - Sword2012 - 29 Apr 17 -->
+<string_table>
+	<string id="infusomat_vkl">
+		<text>Autostimulator</text>
+	</string>
+	<string id="infusomat_vkl_s">
+		<text>Autostimulator</text>
+	</string>
+	<string id="enc_infusomat_vkl">
+		<text>Autostimulator: Current condition at the moment - ON. In this mode, the device constantly monitors the overall health status of the user, compares it to a preset desired state, and injects into the bloodstream a precise, carefully measured amount of the bio-synthetic heart stimulant 'Black Speed', a potent adrenalin-based drug more appropriate for the severe conditions inside the Zone</text>
+	</string>
+	<string id="enc_infusomat_vikl">
+		<text>Autostimulator: Current condition at the moment - OFF. When switched on, the device constantly monitors the overall health status of the user, compares it to a preset desired state, and injects into the bloodstream a precise, carefully measured amount of the bio-synthetic heart stimulant 'Black Speed', a potent adrenalin-based drug more appropriate for the severe conditions inside the Zone</text>
+	</string>
+	<string id="infusomat_vikl">
+		<text>Auto-Stimulator switched off</text>
+	</string>
+	<string id="item_bioradar">
+		<text>Bioradar</text>
+	</string>
+	<string id="item_bioradar_s">
+		<text>Bioradar</text>
+	</string>
+	<string id="enc_item_bioradar_descr">
+		<text>This unique device detects all warm and cold-blooded life forms larger than a mouse within a radius of approximately 50 metres.\nThe principle of its operation is described in detail in Professor Bolshakov's monograph 'A practical application of the unique properties of Artefact ZX-232 (aka Crystal Ball) in the field', as well as in Assistant Semenov's thesis 'Biological organisms as natural radio transmitters'. The following briefly describes the operation of the device:\nThe vast majority of living organisms, during their normal activities, emit detectable electromagnetic waves. Moreover, their frequency, amplitude and origin can be measured and tracked, determining the position of the source in space. During their activities, nerve fibres send and receive electrical impulses to and from the muscle bundle, by way of neural commands and feedback. Thus the tissues around these fibres, which conduct these nano-currents, become EMF micro-transmitters.\nFor a long time it was believed that, due to the extreme weakness of these signals, they could only be detected under laboratory conditions using bulky amplification equipment, which measured the bionic or 'auric' field of living creatures by way of electromagnetic radiation detectors held close to the living body.\nHowever, during research on various artefacts, Zone scientists came across an unusual phenomenon in one of the subjects - the artefact Crystal Ball. Using a small handheld radio, Assistant Semenov quite unexpectedly picked up the signal of a private radio station in Spanish. Thinking that he was receiving an unlikely signal from Western Europe, nearly 4,000km away, he investigated further. To his astonishment, he discovered that the station he was tuning into was actually located in one of the provincial areas of Argentina, some 13,000km away!\nAfter extensive research, the scientific staff came to the only plausible explanation - that a Crystal Ball receives, amplifies, and filters out interference and noise from an EMF signal, or in this case a radio signal, of a particular frequency.\nObviously, the Argentinian signal must have been present at the site of the camp, but was so small that not even the most powerful Military receivers could be tuned to receive it. However, one only had to bring a Crystal Ball close to any receiver to be able to hear a clear signal - the most distant of which has, so far, been located over 17,000 kilometres away!\nFurthermore, the specific frequency was different for each Crystal Ball artefact tested. However, by carefully machining the size and shape, and thus the resonant frequency, of each Crystal Ball, reception of virtually any specific electromagnetic frequency could be achieved.\nThe development of the project Crystal Interception soon received Top Secret status by the Military, who wanted to test it outside of the Zone's possible influence, but not before a few devices had been made with previously unheard of detection properties, and which are now in the public domain.\n
+	\nThe Bioradar device receives the EMF signals from nearby living organisms, filtering them by frequency and distance, and displaying them on a standard LCD array as dots of different colors. Since the unit was created primarily for exploration in the Zone, Assistant Semenov uploaded to its database information on the frequencies of the most oft-encountered representatives of the local fauna.\nUnfortunately, organisms within the Zone mutate so quickly that, within a few months, the list of frequencies had to be updated. In addition, the Zone would change the background carrier frequencies of the mutants, who were effectively a part of the Zone itself, after every Emission.\nFortunately, the resourceful Stalkers who were the first owners of this valuable device came up with a simple, though somewhat barbaric method of creating updated reference frequencies for mutants. They would wear the device on their belt, attach recent samples of biological tissue from the mutants they wanted to detect next to it, and reset the unit so it found the frequencies closest to the originals.\nWidely considered to be one of the most useful items within the Zone's environment, the only disadvantages of Bioradar can be said to be its rarity, and its exceptionally high cost</text>
+	</string>	<!-- Spelling error fixed - Sword2012 - 26 Oct 16 -->
+	<string id="bioradar">
+		<text>BioRadar</text>
+	</string>
+	<string id="infusomat_vikl_s">
+		<text>Autostimulator switched off</text>
+	</string>
+	<string id="enc_steroids_black">
+		<text>Combat stimulants have existed in one form or another for as long as there has been war. Before a fight, the Vikings would ingest mushrooms, beer and brandy to go into a state of 'Berserker', becoming a fearsome warrior demon possessing incredible strength, stamina, endurance, and immunity to pain. Today, Berserkerstvo (aka 'combat madness') is the ability to go into the fury of combat, breaking through the ranks and morale of the enemy, and destroying everything in one's path. It's no surprise that this is considered the highest military valour, to fight without thought for oneself.\nA recent state of the art stimulant is known as 'Black Speed', a blend of painkillers, ephedrin (for mental acuity), mood-altering drugs to eliminate fear, and hormonal steroids used for rapid-doping in sports. It finds a place in military units, where its use is strictly regulated and only allowed as a last resort in extreme situations, when the need to mobilize all the body's resources for a short time is paramount.\nAlthough the sixth-generation (PCB-6) of combat stimulants now includes an effective combination of barbiturates, amphetamines and benzodiazepines working in synergy with the original formula to produce a more sustained 'adrenalin effect', it is still known colloquially amongst Special Forces as 'Black Speed', its main ingredient.\nFirst hand reports from users of PCB-6, and those who have witnessed them, describe how they became an unstoppable death-dealing machine, immune to pain, fear, shock, and exhibiting the strength of several men. Only after the stimulant wears off (usually within a few minutes) is there a price to pay. Sharp and blunt force weapon-inflicted injuries, torn muscles and cartilage, and broken bones are just the start, as the heavily depleted resources of the human body need to be restored. There is an immediate drop in blood pressure, a slowness of breath, an abnormally slow heartbeat, and sometimes a short-term loss of consciousness as the body tries to regroup its own forces.\nAfter use, the user requires several days of complete rest, during which they may experience sudden headaches, convulsions, and swings in blood pressure - both up and down. It's normal for cases of heart attacks and strokes to be reported, even in younger people. Although classified drug PCB-6 is a prohibited substance, it can still be found on the black market, and in the possession of SWAT, SAS and Spetsnaz troops worldwide</text>
+	</string>
+	<string id="steroids_black">
+		<text>'Black Speed' Stimulator</text>
+	</string>
+	<string id="steroids_black_s">
+		<text>'Black Speed' Stimulator</text>
+	</string>
+	<string id="art_box_special">
+		<text>Container for three artefacts</text>
+	</string>
+	<string id="art_box_special_s">
+		<text>Container for three artefacts</text>
+	</string>
+	<string id="art_box_1special">
+		<text>Container for one artefact</text>
+	</string>
+	<string id="art_box_1special_s">
+		<text>Container for one artefact</text>
+	</string>
+	<string id="art_box_8special">
+		<text>Container for eight artefacts</text>
+	</string>
+	<string id="art_box_8special_s">
+		<text>Container for eight artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic">
+		<text>Standard research container for artefacts. Designed for hand-carrying several artefacts of medium radiation. Despite its small size, it provides much-needed protection from anomalous radioactivity. Made from heavy-duty ABS lined with radiation-retardant alloy, it is very popular with professional artefact hunters</text>
+	</string>
+	<string id="enc_arc_art_box_8basic">
+		<text>Light duty container for artefacts. Designed for hand-carrying weak radioactive artefacts. Despite its small size and light weight, it provides protection from the build-up of low anomalous radioactivity. Made from heavy-duty ABS lined with radiation-retardant alloy, it's the first choice of semi-pro artefact hunters</text>
+	</string>
+	<string id="enc_arc_art_1box_basic">
+		<text>Heavy duty research container for artefacts. Designed for hand-carrying highly radioactive and dangerous artefacts. The same size as the Standard version, but slightly heavier, it provides a high level of protection from extreme anomalous radioactivity. Made from heavy-duty ABS lined with a thick layer of radiation-retardant alloy, it's the popular choice of advanced artefact hunters. The manufacture of these cases is of the highest quality, and their popularity in the Zone is testament to their ability to completely screen the user from the intense radiation within</text>
+	</string>
+	<string id="enc_arc_art_box_basic_1">
+		<text>Special researcher container for artefacts. Holds a single artefact</text>
+	</string>
+	<string id="enc_arc_art_box_basic_2">
+		<text>Special researcher container for artefacts. Holds two artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic_3">
+		<text>Special researcher container for artefacts. Holds three artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic_4">
+		<text>Special researcher container for artefacts. Holds four artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic_5">
+		<text>Special researcher container for artefacts. Holds five artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic_6">
+		<text>Special researcher container for artefacts. Holds six artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic_7">
+		<text>Special researcher container for artefacts. Holds seven artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic_8">
+		<text>Special researcher container for artefacts. Holds eight artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic_9">
+		<text>Special researcher container for artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic_10">
+		<text>Special researcher container for artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic_11">
+		<text>Special researcher container for artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic_12">
+		<text>Special researcher container for artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic_13">
+		<text>Special researcher container for artefacts</text>
+	</string>
+	<string id="enc_arc_art_box_basic_14">
+		<text>Special researcher container for artefacts</text>
+	</string>
+	<string id="enc_kontrolers_diarys">
+		<text>Diaries found...</text>
+	</string>
+	<string id="arc_diary_1_name">
+		<text>Diary - Experiments</text>
+	</string>
+	<string id="arc_diary_1_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_2_name">
+		<text>Scientific notes</text>
+	</string>
+	<string id="arc_diary_2_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_3_name">
+		<text>Pile of secret letters</text>
+	</string>
+	<string id="arc_diary_3_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_4_name">
+		<text>A Stalker's notes</text>
+	</string>
+	<string id="arc_diary_4_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_5_name">
+		<text>Young specialist's report </text>
+	</string>
+	<string id="arc_diary_5_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_6_name">
+		<text>A Stalker's diary</text>
+	</string>
+	<string id="arc_diary_6_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_7_name">
+		<text>Zombie Entries</text>
+	</string>
+	<string id="arc_diary_7_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_8_name">
+		<text>Records found</text>
+	</string>
+	<string id="arc_diary_8_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_9_name">
+		<text>A Stalker's diary</text>
+	</string>
+	<string id="arc_diary_9_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_10_name">
+		<text>Diary - author unknown</text>
+	</string>
+	<string id="arc_diary_10_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_11_name">
+		<text>Diary of experiments</text>
+	</string>
+	<string id="arc_diary_11_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_12_name">
+		<text>Diary entries - author now deceased</text>
+	</string>
+	<string id="arc_diary_12_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_13_name">
+		<text>Military records</text>
+	</string>
+	<string id="arc_diary_13_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_14_name">
+		<text>Notes on experiments</text>
+	</string>
+	<string id="arc_diary_14_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_15_name">
+		<text>Report on the experiment</text>
+	</string>
+	<string id="arc_diary_15_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_16_name">
+		<text>Duty officer's diary</text>
+	</string>
+	<string id="arc_diary_16_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_17_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_17_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_18_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_18_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_19_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_19_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_20_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_20_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_21_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_21_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_22_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_22_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_23_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_23_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_24_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_24_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_25_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_25_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_26_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_26_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_27_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_28_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_28_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_29_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_29_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_30_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_30_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_31_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_31_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_32_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_32_descr">
+		<text>All entries encoded</text>
+	</string>
+	<string id="arc_diary_33_name">
+		<text>Handwritten notes</text>
+	</string>
+	<string id="arc_diary_33_descr">
+		<text>All entries encoded</text>
+	</string>
+</string_table>

@@ -1,0 +1,194 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+[wpn_pps43]:identity_immunities
+GroupControlSection				= spawn_group
+;;discovery_dependency 			= 
+$spawn                  		= "weapons\pps43"					; option for Level Editor
+$npc			 				= on				; option for Level Editor
+$prefetch 		 				= 8
+scheduled               		= off              ; option for ALife Simulator
+cform                   		= skeleton
+class                   		= WP_LR300
+min_radius              		= 0
+max_radius              		= 50
+description						= dav_wpn_xp1_pps43
+
+ef_main_weapon_type				= 2
+ef_weapon_type					= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier			= 1.0		       ; eye_range 
+holder_fov_modifier				= 0.7              ; eye_fov
+;-----------------------------------------------------------------------------------
+
+
+weapon_class					= assault_rifle
+
+cost							= 4990
+
+ammo_limit		 				= 320
+ammo_current					= 32
+ammo_elapsed		 			= 32
+
+ammo_mag_size		 			= 35
+ammo_class		 				= ammo_7.62x25_p, ammo_7.62x25_ps 
+fire_modes						= -1
+
+hand_dependence		 			= 1
+single_handed					= 0
+
+inv_name						= ars-pps43
+inv_name_short					= ars-pps43
+inv_weight						= 4.03
+
+inv_grid_width					= 4
+inv_grid_height					= 2
+inv_grid_x						= 56
+inv_grid_y						= 8
+
+kill_msg_x						= 72
+kill_msg_y						= 82
+kill_msg_width					= 56
+kill_msg_height					= 23
+
+slot 							= 2				; // secondary
+animation_slot					= 8				; type of the animation that will be used
+
+;-----------------------------------------------------------------------------------
+;params of weapon recoil
+fire_dispersion_base			= 0.03		
+control_inertion_factor			= 1.25f
+
+
+cam_relax_speed         		= 5		
+cam_relax_speed_ai         		= 10
+cam_dispersion          		= 0.15		
+cam_dispersion_inc				= 0.3			; cam_dispersion 
+cam_dispertion_frac				= 0.9			; cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle					= 10.0	    	
+cam_max_angle_horz				= 20.0			;(degree) maximum shot horizontal degree 
+cam_step_angle_horz				= 1.1			;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor 	= 5	    	
+misfire_probability 			= 0.003
+misfire_condition_k				= 0.05
+condition_shot_dec 				= 0.0001	
+;-----------------------------------------------------------------------------------
+
+direction               		= 0, 0, 1
+fire_point             			=  0,  0.0992,  0.988
+flame_particles					= weapons\generic_weapon05
+smoke_particles         		= weapons\generic_shoot_00
+
+shell_point		 				= 0,  0.216,  0.174
+shell_dir		 				= 0.0, 1.0, 0.0
+
+rpm_empty_click 	 			= 200
+
+PDM_disp_base 					= 1.0
+PDM_disp_vel_factor 			= 0.8
+PDM_disp_accel_factor 			= 0.8
+PDM_crouch	 					= 1.0
+PDM_crouch_no_acc 				= 1.0
+
+hit_power        				= 0.39
+hit_impulse		 				= 20
+hit_type 						= fire_wound
+
+fire_distance          			= 20					;;;109974 10:1
+bullet_speed					= 480 
+rpm                     		= 650
+
+use_aim_bullet					= true		
+time_to_aim						= 1.0
+
+silencer_hit_power       		= 0.39
+silencer_hit_impulse	 		= 15
+silencer_fire_distance   		= 20					;;;109974 10:1
+silencer_bullet_speed	 		= 480
+
+hud                     		= wpn_pps43_hud
+normal                  		= 0, 1, 0
+position         	    		= -0.026,-0.030,-0.37     
+orientation             		= 0, 0, 0
+
+;------------STRAP PARAMETERS----------------------------------------
+strap_position         			= -0.24,  -0.24,  -0.35	   
+strap_orientation      			= -10,  -2,  10					; (3rd person view in degrees)
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+
+startup_ammo            		= 1000
+visual                  		= dav_wpn_xp1\SMG\pps43\wpn_pps43.ogf
+
+light_color		 				= 0.6,0.5,0.3
+light_range		 				= 5
+light_var_color		 			= 0.05
+light_var_range		 			= 0.1
+light_time 		 				= 0.2
+
+ph_mass			 				= 5
+
+;-----------------------------------addons----------------------------
+scope_status					= 0
+silencer_status					= 2
+grenade_launcher_status			= 0
+
+scope_name 						= wpn_zf4				; section name for the attachable scope
+scope_x 						= 42					; offset in inventory icon
+scope_y 						= 3
+
+silencer_name  					= wpn_addon_sil_pps43
+silencer_x 						= 186
+silencer_y 						= -1
+
+silencer_light_color			= 1.0, 0.1, 0.0
+silencer_light_range			= 0.01
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_light_time 			= 0.2
+
+zoom_enabled					= true
+scope_zoom_factor	    		= 50
+
+snd_draw						= weapons\mp40_draw
+snd_holster						= weapons\generic_holster
+snd_shoot						= weapons\mp40_shoot
+snd_empty						= weapons\mp40_empty
+snd_reload						= weapons\pps43_reload
+snd_close		    			= weapons\generic_holster
+
+
+;params when silencer is attached 
+;similar to corresponding params without prefix silencer_
+
+;silencer_flame_particles 		= weapons\generic_weapon01
+silencer_smoke_particles 		= weapons\generic_shoot_00
+
+snd_silncer_shot				= weapons\ak47_silent
+
+
+[wpn_pps43_hud]
+shell_point          			= 0.00,   0.00,   0.00
+shell_dir		 				= 0.0, 0.0, 0.0
+
+fire_point              		=  0.075000,  0.000000,  -0.100000
+fire_bone               		= wpn_body
+orientation             		= 0.0, 2.2, 0.0
+position                		= 0.1591, -0.189, 0.08      
+
+visual                  		= dav_wpn_xp1\SMG\pps43\wpn_pps43_hud.ogf
+
+anim_idle						= idle
+anim_idle_aim					= idle_aim
+anim_reload						= reload
+anim_draw						= draw
+anim_holster					= holster
+anim_shoot						= shoot
+anim_idle_sprint				= idle_sprint
+
+
+
+zoom_offset		    			=  -0.1555   ,0.108,   -0.04      
+zoom_rotate_x					=   0.043061             
+zoom_rotate_y					=   -0.001600    
+         

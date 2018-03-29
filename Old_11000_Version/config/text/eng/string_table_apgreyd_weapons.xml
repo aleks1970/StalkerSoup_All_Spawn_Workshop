@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.4 minor edits -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<string_table>
+	<string id="uprgade_stvol">
+		<text>Weapon upgrades</text>
+	</string>
+	<string id="remont_stvol">
+		<text>Weapon repairs</text>
+	</string>
+	<!-- CALIBRE CHANGES -->
+	<string id="wpn-ak74_kalibr">
+		<text>AK-74M re-chambered for 5.56x45mm</text>
+	</string>
+	<string id="enc_kalibr_wpn_ak74">
+		<text>\n• 5.56x45mm, 5.56x45mm BP\n• Effective Range: 600 metres\n• Rate of Fire: 600m/sec\n• Magazine capacity: 30 rounds\nThe AK-74 is the offspring of the AK-47, and the AKM. Following the worldwide trend towards small-calibre and small-impulse ammo, M.T. Kalashnikov 'reinvented" the AK rifle to fit with the new ammunition. In comparison with an M16A2, the AK-74 shows a bit tighter grouping and shooting accuracy, but proves itself much more reliable in combat situations. This version of the venerable AK74 has been modified to make use of 5.56x45mm rounds. it can only be serviced by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-ak74u_kalibr">
+		<text>AKS-74U chambered for 5.56x45</text>
+	</string>
+	<string id="enc_kalibr_wpn_ak74u">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 200m\n • Effective range 400 m\n • rate of 650-735/m\n • Magazine capacity 30 rounds\nAKS-74U is close to a submachine gun. However, due to the applied intermediate cartridge and the mechanisms of regular machine, it is considered a shorter gun. Dignity AKS-74U-mobility in crowded conditions, the possibility of covert, high penetration. Disadvantages - small sighting range, low stopping power, overheating when firing.\nThis modification is intended to fire cartridges 5.56x45.\nThis upgrade (and repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-abakan_kalibr">
+		<text>AN-94 Abakan chambered for 5.56x45</text>
+	</string>
+	<string id="enc_kalibr_wpn_abakan">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 650m\n • Effective range 1000 m\n • rate of 1800/600 V/m\n • Magazine capacity 30 rounds\nAutomatic Nikonov 'Abakan' (AN-94 ) of 1994 on the basis of Kalashnikov. The main distinguishing feature of the AN-94 to AK-74 in terms of military use - this is the introduction of additional modes of fire bursts of 2 cartridge with a high rate. This mode of fire provides high precision and accuracy of the hit - according to people firing from the AN-94, an experienced shooter can put two bullets through one hole in the target at 100 metres. This greatly increases the chances of shooting defeats the purpose of comparison with a single firing range, greatly increasing the killing, stopping and armor-piercing effect of the bullet.\nThis version is adapted to fire 5.56x45 cartridges.\nSuch upgrades (as well as repair of such weapons) in the area capable of doing only Long</text>
+	</string>
+	<string id="wpn-bizon_kalibr">
+		<text>PP-19 Bizon chambered for 9x19</text>
+	</string>
+	<string id="enc_kalibr_wpn_bizon">
+		<text>Machine pistol PP-19 Bizon was designed to arm the Ministry of Internal Affairs on the basis of a broad commonality with an AK-74. On the 'Bison' is set to the original worm store high capacity to 64 cartridges. The shop is located very conveniently and concurrently serves as a forearm.\nAmmunition:\nosnovnoy 9x18 mm\nuluchshenny 9x18 mm P.\nThis version is adapted for firing ammunition 9x19.\nsuch revisions (as well as repair of such weapons) in the area capable of do just Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-mp5_kalibr">
+		<text>HK MP5A3 chambered for 9x18</text>
+	</string>
+	<string id="enc_kalibr_wpn_mp5">
+		<text>\n • 9x19mm Parabellum, 9x19mm P\n • effective range of 25-100m\n • rate of 800 a/m\n • Magazine capacity 30 rounds\nHeckler und Koch MP5N - especially popular MP-5 began after the whole world saw them in the hands of the British commandos from the SAS during counterterrorism operations to liberate the Iranian Embassy in Britain in the 1970s and another in a number of others. Currently, MP-5 in various modifications is in service with police forces in many European countries, including Spain, Britain, West Germany. MP-5 is in the U.S. police, the Navy and Marine Corps, and many more where.\nThis version is adapted for firing ammunition 9x18.\nsimilar upgrade (and repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-mp7a3_kalibr">
+		<text>HK MP-7a3 chambered for 9x18</text>
+	</string>
+	<string id="enc_kalibr_wpn_mp7a3">
+		<text>Submachine Gun MP-7a3 PDW (Personal Self Defense Weapon) was developed by Heckler &amp; Koch weapons for soldiers who are on staff did not put a complete machine.\nPP developed under a progressive 4.6h30mm cartridge, but that small ubiquitous patron forced the makers to release a modification of a standard under the 9x19 mm Parabellum, though, the patron of most of its advantages the PP lost.\nAmmunition:\nthe main 9x19 mm Parabellum,\nimproved 9x19 mm PBP.\nThis version is adapted for firing ammunition 9x18.\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-uzi_kalibr">
+		<text>IMI UZI chambered for 9x18</text>
+	</string>
+	<string id="enc_kalibr_wpn_uzi">
+		<text>Ammunition:\n • 9x19 (Fmj, Pbp)\n • effective range of 200m\n • Rate of 600 V/m\n • Magazine capacity 32 rounds\nsubmachine gun Uzi (Uzi) was established in Israel, the army lieutenant Uzielem Gal in 1949. It is usually assumed that the basic idea of the layout of his submachine gun Gal borrowed from Czech Model PP 23 and 25 designs Holec. However, probably the fact that the layout Gal 'spied on' in the experimental British submachine gun MCEM-2 has been developed in 1944. It is also possible, and that he 'invented' the layout of machine pistol with a magazine in the handle of the fire control and incident on the trunk of the gate - after all, a pistol similar arrangement is used since the late 19 th century. Whatever it was, Gal has created quite an original and manufacturable design. Was carried out Uzi submachine gun izrailskkim weapons company IMI (now - IWI Ltd), now release Uzi in Israel ceased, it produced only a smaller version of Mini-and Micro-Uzi. Uzi submachine gun was or is in service in more than 90 countries, including Israel, Germany, Belgium. Options for Mini-and Micro-Uzi is very popular with special operations forces and security services worldwide. Uzi was produced under license in Belgium by FN Herstal, unlicensed copies of it were made in China and Croatia.\nThis version is adapted for firing ammunition 9x18.\nSuch modification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-fn2000_kalibr">
+		<text>FN F2000 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_wpn_fn2000">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope (x1.6)\n • effective range of 400m\n • sighting range of 540 m\n • rate of 850/m\n • Magazine capacity 30 rounds\n • grenade M209\nFabrique Nationale Herstal F2000 --automatic grenade launcher with computerized Belgian gun-fire control module, and 40mm grenade launcher.\nThis version is adapted to fire 5.45x39 cartridges.\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-g36_kalibr">
+		<text>HK G36 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_wpn_g36">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope (x3.5)\n • effective range of 440m\n • Effective range 800 m\n • rate of 750 a/m\n • Magazine capacity 30 rounds\nHeckler und Koch G36 - In 1995, the G36 was adopted by the Bundeswehr (Federal Republic of Germany), and in 1999 - on the armaments of the armed forces of Spain. In addition, G36 is used by the police of Great Britain and exported to the United States and other countries for sale there the law enforcement and military structures. This is a first class piece of modern weapons - easy, reliable and ergonomic combat rifle.\nThis version is adapted to fire 5.45x39 cartridges.\nSuch upgrades (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-lr300_kalibr">
+		<text>LR-300ML chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_wpn_lr300">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • effective range of 300m\n • Rate of 910 V/m\n • Magazine capacity 30 rounds\nAssault Rifle LR-300ML - a new stage in the development of the family of the famous M-16. The name literally means 'light rifle with a range of effective fire up to 300 metres of the military/police stations modification (Military/Law)'. Thanks to the exceptionally smooth gradient, high ergonomics and low weight of the weapon is highly accurate battlefield, although the high sensitivity to pollution makes it not always suitable for use in difficult field conditions.\nThis version is adapted to fire 5.45x39 cartridges.\nsuch revisions ( as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sig550_kalibr">
+		<text>SIG SG-550 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_wpn_sig550">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • effective range 100-500m\n • rate of 700 a/m\n • Magazine capacity 20 rounds\nSIG SG-550 in 1983 was officially adopted for the Swiss army. In general, the automata family SIG SG-550 are among the best in its class, distinguished by high reliability, precision shooting and ease of handling.\nThis version is adapted to fire 5.45x39 cartridges.\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sg552_sk1_kalibr">
+		<text>SIG SG552 Commando chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_wpn_sg552_sk1">
+		<text>Shortened version of the machine SIG SG550.\nKalibr 5.56x45mm\nLength (stock decomposed/composed) 730/504 mm\nBarrel length 226 mm\nWeight empty 3.0 kg empty\ncapacity stores 20 or 30 rounds\nRate of fire 780 rounds/min.\nThis version is adapted to fire 5.45x39 cartridges.\nthis type of work (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-l85_kalibr">
+		<text>Enfield L85A2 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_wpn_l85">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope SUSAT (x4)\n • effective range of 500m\n • sighting range of 900 m\n • rate of 610-775/m\n • Magazine capacity 30 rounds\nAfter this Enfield SA-80: L85A2 was replaced by British army on the German G36, it has emerged in large numbers on the black market and then in the Zone. The main advantage of L85A2 are full-time 4-time sight and high accuracy of the first shot. Accuracy when firing bursts battle falls sharply, and the reliability of the basic mechanisms of the rifle is not high enough.\nThis version is adapted to fire 5.45x39 cartridges.\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-famas_p3_sk1_kalibr">
+		<text>FAMAS Prototype3 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_wpn_famas_p3_sk1">
+		<text>Prototype of a new machine in a series of FAMAS. A very rare weapon in the Zone. A further modification of the line machines. Equipped with a standard NATO-vskim shop on M16 30 rounds. High rate and the scheme 'bullpup' made him quite popular, but a rare example of small arms.\nKalibr 5.56x45 mm\nDlina 757 mm/488 mm Barrel Dlina\nKolichestvo rifling of the barrel 3 pravostr.\nInitial bullet velocity 960 m/sec\nMassa empty 3.98 kg\nRate of fire 900 in/m\nsighting range of 300 metres\nEmkost store 30 rounds.\nThis version is adapted to fire 5.45x39 cartridges.\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-m16a2_sk1_kalibr">
+		<text>Colt M16A2 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_wpn_m16a2_sk1">
+		<text>Modification of the rifle M16A1. Has a heavier barrel, put fire mode cutoff on three cartridges, instead of fully automatic fire, as well as a bigger store on 30 rounds.\nThis version is adapted to fire 5.45x39 cartridges.\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-tavor_kalibr">
+		<text>Tavor TAR-21 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_wpn_tavor">
+		<text>'Tavor' TAR-21 - a new automatic rifle, calibre 5.56mm, developed by Israeli Military Industry (IMI - Taas) under the 'bullpup' (Bullpup; shop is located behind the operating handle). Development began in 1992 (according to other sources - in 1993), only a few months after in the IDF, it was decided that the American M16 will become the main weapon for all infantry units (both special and linear) instead of the Israeli 'Galil'. • Effective range 550 m\n • rate of 750-900/m\n • Magazine capacity 30 rounds\nThis version is adapted to fire 5.45x39 cartridges.\nsuch revisions (as well as repair of such weapons) in the Zone can only do Lanky, the weapons technician in Rostok</text>
+	</string>
+	<!-- IMPROVED ACCURACY -->
+	<string id="wpn-ak74_otdaca">
+		<text>AK-74M, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_ak74">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 600m\n • Effective range 800 m\n • Rate of 600 V/m\n • Magazine capacity 30 rounds\nAK-74M has now become the most recent and major option, entering the Russian Army since the early 1990s. This machine differs mainly in that replaces the right AK-74 AKS-74 and AK-74N, due to the fact that we have folding the left side of the stock of black plastic, as well as the universal benchmark for mounting scopes (like night and day) on the left side of the receiver.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy. This is especially manifested in the conduct of single shots.\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-ak74u_otdaca">
+		<text>AKS-74U, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_ak74u">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 200m\n • Effective range 400 m\n • rate of 650-735/m\n • Magazine capacity 30 rounds\nAKS-74U is close to a submachine gun. However, due to the applied intermediate cartridge and the mechanisms of regular machine, it is considered a shorter gun. Dignity AKS-74U-mobility in crowded conditions, the possibility of covert, high penetration. Disadvantages - small sighting range, low stopping power, overheating when firing.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy.\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-abakan_otdaca">
+		<text>AN-94 'Abakan', with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_abakan">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 650m\n • Effective range 1000 m\n • rate of 1800/600 V/m\n • Magazine capacity 30 rounds\nAutomatic Nikonov 'Abakan' (AN-94 ) of 1994 on the basis of Kalashnikov. The main distinguishing feature of the AN-94 to AK-74 in terms of military use - this is the introduction of additional modes of fire bursts of 2 cartridge with a high rate. This mode of fire provides high precision and accuracy of the hit - according to people firing from the AN-94, an experienced shooter can put two bullets through one hole in the target at 100 metres. This greatly increases the chances of shooting defeats the purpose of comparison with a single firing range, greatly increasing the killer, stopping and armor-piercing effect bullet.\nThis modification by precise fitting of parts and careful balance has improved accuracy. This is especially manifested in the conduct of fire single shots.\nModification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-bizon_otdaca">
+		<text>PP-19 'Bison', with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_bizon">
+		<text>Machine pistol PP-19 Bizon was designed to arm the Ministry of Internal Affairs on the basis of a broad commonality with an AK-74. On the 'Bison' is set to the original worm store high capacity to 64 cartridges. The shop is located very conveniently and concurrently serves as a forearm.\nAmmunition:\nosnovnoy 9x18 mm\nuluchshenny 9x18 mm P.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy, especially in single-shot mode\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-mp5_otdaca">
+		<text>HK MP5A3, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_mp5">
+		<text>\n • 9x19mm Parabellum, 9x19mm P\n • effective range of 25-100m\n • rate of 800 a/m\n • Magazine capacity 30 rounds\nHeckler und Koch MP5N - especially popular MP-5 began after the whole world I saw them in the hands of the British commandos from the SAS during counterterrorism operations to liberate the Iranian Embassy in Britain in the 1970s and another in a number of others. Currently, MP-5 in various modifications is in service with police forces in many European countries, including Spain, Britain, West Germany. MP-5 is in the U.S. police, the Navy and Marine Corps, and many more where.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy.\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-mp7a3_otdaca">
+		<text>HK MP-7a3, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_mp7a3">
+		<text>Submachine Gun MP-7a3 PDW (Personal Self Defense Weapon) was developed by Heckler &amp; Koch weapons for soldiers who are on staff did not put a complete machine.\nPP developed under a progressive 4.6h30mm cartridge, but that small ubiquitous patron forced the makers to release a modification of a standard under the 9x19 mm Parabellum, though, the patron of most of its advantages the PP lost.\nAmmunition:\nosnovnoy 9x19 mm Parabellum,\nuluchshenny 9x19 mm PBP.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy, especially in single-shot mode\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-uzi_otdaca">
+		<text>IMI UZI, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_uzi">
+		<text>Ammunition:\n • 9x19 (Fmj, Pbp)\n • effective range of 200m\n • Rate of 600 V/m\n • Magazine capacity 32 rounds\n submachine gun Uzi (Uzi) was established in Israel, the army lieutenant Uzielem Gal in 1949. It is usually assumed that the basic idea of the layout of his submachine gun Gal borrowed from Czech Model PP 23 and 25 designs Holec. However, probably the fact that the layout Gal 'spied on' in the experimental British submachine gun MCEM-2 has been developed in 1944. It is also possible, and that he 'invented' the layout of machine pistol with a magazine in the handle of the fire control and incident on the trunk of the gate - after all, a pistol similar arrangement is used since the late 19 th century. Whatever it was, Gal has created quite an original and manufacturable design. Was carried out Uzi submachine gun izrailskkim weapons company IMI (now - IWI Ltd), now release Uzi in Israel ceased, it produced only a smaller version of Mini-and Micro-Uzi. Uzi submachine gun was or is in service in more than 90 countries, including Israel, Germany, Belgium. Options for Mini-and Micro-Uzi is very popular with special operations forces and security services worldwide. Uzi was produced under license in Belgium by FN Herstal, unlicensed copies of it were made in China and Croatia.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy.\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-fn2000_otdaca">
+		<text>FN F2000, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_fn2000">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope (x1.6)\n • effective range of 400m\n • sighting range of 540 m\n • rate of 850/m\n • Magazine capacity 30 rounds\n • grenade M209\nFabrique Nationale Herstal F2000 --automatic grenade launcher with computerized Belgian gun-fire control module, and 40mm grenade launcher.\nThis modification by precise fitting of parts and careful balance has improved accuracy.\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-g36_otdaca">
+		<text>HK G36, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_g36">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope (x3.5)\n • effective range of 440m\n • Effective range 800 m\n • rate of 750 a/m\n • Magazine capacity 30 rounds\nHeckler und Koch G36 - In 1995, the G36 was adopted by the Bundeswehr (Federal Republic of Germany), and in 1999 - on the armaments of the armed forces of Spain. In addition, G36 is used by the police of Great Britain and exported to the United States and other countries for sale there the law enforcement and military structures. This is a first class piece of modern weapons - easy, reliable and ergonomic combat rifle.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-lr300_otdaca">
+		<text>LR-300ML, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_lr300">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • effective range of 300m\n • Rate of 910 V/m\n • Magazine capacity 30 rounds\nAssault Rifle LR-300ML - a new stage in the development of the family of the famous M-16. The name literally means 'light rifle with a range of effective fire up to 300 metres of the military/police stations modification (Military/Law)'. Thanks to the exceptionally smooth gradient, high ergonomics and low weight of the weapon is highly accurate battlefield, although the high sensitivity to pollution makes it not always suitable for use in difficult field conditions.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy, especially in single-shot mode\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sig550_otdaca">
+		<text>SIG SG-550, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_sig550">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • effective range 100-500m\n • rate of 700 a/m\n • Magazine capacity 20 rounds\nSIG SG-550 in 1983 was officially adopted for the Swiss army. In general, the automata family SIG SG-550 are among the best in its class, distinguished by high reliability, precision shooting and ease of handling.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy, especially in single-shot mode\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sg552_sk1_otdaca">
+		<text>SIG SG552 Commando, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_sg552_sk1">
+		<text>Shortened version of the machine SIG SG550.\nKalibr 5.56x45mm\nLength (stock decomposed/composed) 730/504 mm\nBarrel length 226 mm\nWeight empty 3.0 kg empty\ncapacity stores 20 or 30 rounds\nRate of fire 780 rounds/min.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-l85_otdaca">
+		<text>Enfield L85A2, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_l85">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope SUSAT (x4)\n • effective range of 500m\n • sighting range of 900m\n • rate of 610-775/m\n • Magazine capacity 30 rounds\nAfter this Enfield SA-80: L85A2 was replaced by British army on the German G36, it has emerged in large numbers on the black market and then in the Zone. The main advantage of L85A2 are full-time 4-time sight and high accuracy of the first shot. With fire in bursts shooting accuracy drops sharply, and reliability of the main mechanisms of the rifle is not high enough.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-famas_p3_sk1_otdaca">
+		<text>FAMAS Prototype3, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_famas_p3_sk1">
+		<text>Prototype of a new machine in a series of FAMAS. A very rare weapon in the Zone. A further modification of the line machines. Equipped with a standard NATO-vskim shop on M16 30 rounds. High rate and the scheme 'bullpup' made him quite popular, but a rare example of small arms. Calibre 5.56x45 mm\nDlina 757 mm/488 mm Barrel Dlina\nKolichestvo rifling of the barrel 3 pravostr.\nNachalnaya bullet velocity 960m/sec\nMassa empty 3.98 kg\nRate of fire 900 in/m\nSighting range Shooting 300 metres\n Magazine capacity 30 rounds.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-m16a2_sk1_otdaca">
+		<text>Colt M16A2, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_m16a2_sk1">
+		<text>Modification of the rifle M16A1. Has a heavier barrel, put fire mode cutoff on three cartridges, instead of fully automatic fire, as well as a bigger store on 30 rounds.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy, especially in single-shot mode\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-tavor_otdaca">
+		<text>Tavor TAR-21, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_tavor">
+		<text>'Tavor' TAR-21 - a new automatic rifle, calibre 5.56mm, developed by Israeli Military Industry (IMI - Taas) under the 'bullpup' (Bullpup; shop is located behind the operating handle). Development began in 1992 (according to other sources - in 1993), only a few months after in the IDF, it was decided that the American M16 will become the main weapon for all infantry units (both special and linear) instead of the Israeli 'Galil'. • Effective range 550 m\n • rate of 750-900/m\n • Magazine capacity 30 rounds\nThis modification is due to the exact fit of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-ak47_otdaca">
+		<text>AKM-47, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_ak47">
+		<text>\n • 7.62x39mm, 7.62x39mm BP\n • effective range of 400m\n • Effective range 800 m\n • rate of 660 in/m\n • Magazine capacity 30 rounds\nKalashnikov model 1947 (release of the mid-1950s). Is a simple and reliable weapon, even though the cheapness in the production of multiple impact on usability and accuracy in battlefield. In the Zone is a rare weapon.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy, especially in single-shot mode\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-hk417_sk1_otdaca">
+		<text>HK 417 Sniper, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_hk417_sk1">
+		<text>HK 417 rifle calibre 7.62mm NATO developed based on an automatic rifle Heckler-Koch HK 416 5.56mm NATO. Development of a rifle NC 417 was launched in 2005 based on the experience gained international coalition forces in Afghanistan and Iraq, where under certain conditions, weapons 5.56mm showed a lack of effective range and the lack of a breakdown and stops the action of small-calibre bullets. Rifles Series NC 417 went into production in 2007 or 2008, and offered to arm the army and police forces. HK 417 rifle has a modular design, largely repeating the construction of an American M16 rifles, with one important difference - the German HK 417 rifle has a modified vapor system automation that uses a conventional gas piston with short stroke. There are also other differences. However, all the basic controls and the method of disassembly and assembly of weapons inherited from the M16. Equipped with a telescopic sight multiplicity 6x.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy.\nsuch revisions (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sr25_mk11_mod0_sk1_otdaca">
+		<text>Snaperska Knights SR25 Mk.11 Mod.0, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_sr25_mk11_mod0_sk1">
+		<text>SR-25 rifle was designed by Eugene Stoner (co-creator of the rifle Ar-15/M16) in the early 1990s when he collaborated with the American company Knight's Armaments Co. The basis of SR-25 rifle (Stoner Rifle model 25) went to design the AR-15 rifle, which was modified under the cartridge 7.62x51 NATO. The main purpose of rifles Mk.11 Mod.0 and XM110 - aimed fire on the manpower of the enemy at ranges of up to 800 metres. From a tactical point of view, these rifles are analogues of the Dragunov SVD sniper rifle. However, they are distinguished by a higher shooting accuracy (including due to the presence of better rounds) and more tactical flexibility.\nThis modification is due to the exact fit of parts and careful balance has improved accuracy in battle, especially in single-shot mode\n Such modification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<!-- REDUCTION IN WEIGHT + CALIBRE CHANGE -->
+	<string id="wpn-ak74_kalibr_ves">
+		<text>Lightweight AK-74M under the cartridge 5.56x45</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_ak74">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 600m\n • Effective range 800 m\n • Rate of 600 V/m\n • Magazine capacity 30 rounds\nAK-74M has now become the most recent and major option, entering the Russian Army since the early 1990s. This machine differs mainly in that replaces the right AK-74 AKS-74 and AK-74N, due to the fact that we have folding the left side of the stock of black plastic, as well as the universal benchmark for mounting scopes (like night and day) on the left side of the receiver.\nThis modification has been adapted for firing ammunition 5.56x45.\nFor through the use of parts made of light alloys could significantly reduce the weight\nUpgrades (and repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-ak74u_kalibr_ves">
+		<text>Lightweight AKS-74U under the cartridge 5.56x45</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_ak74u">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 200m\n • Effective range 400 m\n • rate of 650-735/m\n • Magazine capacity 30 rounds\nAKS-74U is close to a submachine gun. However, due to the applied intermediate cartridge and the mechanisms of regular machine, it is considered a shorter gun. Dignity AKS-74U-mobility in crowded conditions, the possibility of covert, high penetration. Disadvantages - small sighting range, low stopping power, overheating when firing.\nThis version is adapted to fire 5.56x45 cartridges.\n Through the use of parts made of light alloys could significantly reduce the weight\nModification (as well as repair of such weapons) Zone is capable of doing just Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-abakan_kalibr_ves">
+		<text>Lightweight AN-94 'Abakan' under the cartridge 5.56x45</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_abakan">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 650m\n • Effective range 1000 m\n • rate of 1800/600 V/m\n • Magazine capacity 30 rounds\nAutomatic Nikonov 'Abakan' (AN-94 ) of 1994 on the basis of Kalashnikov. The main distinguishing feature of the AN-94 to AK-74 in terms of military use - this is the introduction of additional modes of fire bursts of 2 cartridge with a high rate. This mode of fire provides high precision and accuracy of the hit - according to people firing from the AN-94, an experienced shooter can put two bullets through one hole in the target at 100 metres. This greatly increases the chances of shooting defeats the purpose of comparison with a single firing range, greatly increasing the killer, stopping and armor-piercing effect bullet.\nThis modification has been adapted for firing ammunition 5.56x45.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-bizon_kalibr_ves">
+		<text>Lightweight PP-19 Bizon chambered for 9x19</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_bizon">
+		<text>Machine pistol PP-19 Bizon was designed to arm the Ministry of Internal Affairs on the basis of a broad commonality with an AK-74. On the 'Bison' is set to the original worm store high capacity to 64 cartridges. The shop is located very conveniently and concurrently serves as a forearm.\nAmmunition:\nosnovnoy 9x18 mm\nuluchshenny 9x18 mm P.\nThis modification has been adapted for firing ammunition 9x19.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-mp5_kalibr_ves">
+		<text>Lightweight HK MP5A3 chambered 9x18</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_mp5">
+		<text>\n • 9x19mm Parabellum, 9x19mm P\n • effective range of 25-100m\n • rate of 800 a/m\n • Magazine capacity 30 rounds\nHeckler und Koch MP5N - especially popular MP-5 began after the whole world I saw them in the hands of the British commandos from the SAS during counterterrorism operations to liberate the Iranian Embassy in Britain in the 1970s and another in a number of others. Currently, MP-5 in various modifications is in service with police forces in many European countries, including Spain, Britain, West Germany. MP-5 is in the U.S. police, the Navy and Marine Corps, and many more where.\nThis modification has been adapted for firing ammunition 9x18.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-mp7a3_kalibr_ves">
+		<text>Lightweight HK MP-7a3 chambered 9x18</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_mp7a3">
+		<text>Submachine Gun MP-7a3 PDW (Personal Self Defense Weapon) was developed by Heckler &amp; Koch weapons for soldiers who are on staff did not put a complete machine.\nPP developed under a progressive 4.6h30mm cartridge, but that small ubiquitous patron forced the makers to release a modification of a standard under the 9x19 mm Parabellum, though, the patron of most of its advantages the PP lost.\nAmmunition:\nosnovnoy 9x19 mm Parabellum,\nuluchshenny 9x19 mm PBP.\nThis modification has been adapted for firing ammunition 9x18.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-uzi_kalibr_ves">
+		<text>Lightweight IMI UZI chambered 9x18</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_uzi">
+		<text>Ammunition:\n • 9x19 (Fmj, Pbp)\n • effective range of 200m\n • Rate of 600 V/m\n • Magazine capacity 32 rounds\n submachine gun Uzi (Uzi) was established in Israel, the army lieutenant Uzielem Gal in 1949. It is usually assumed that the basic idea of the layout of his submachine gun Gal borrowed from Czech Model PP 23 and 25 designs Holec. However, probably the fact that the layout Gal 'spied on' in the experimental British submachine gun MCEM-2 has been developed in 1944. It is also possible, and that he 'invented' the layout of machine pistol with a magazine in the handle of the fire control and incident on the trunk of the gate - after all, a pistol similar arrangement is used since the late 19 th century. Whatever it was, Gal has created quite an original and manufacturable design. Was carried out Uzi submachine gun izrailskkim weapons company IMI (now - IWI Ltd), now release Uzi in Israel ceased, it produced only a smaller version of Mini-and Micro-Uzi. Uzi submachine gun was or is in service in more than 90 countries, including Israel, Germany, Belgium. Options for Mini-and Micro-Uzi is very popular with special operations forces and security services worldwide. Uzi was produced under license in Belgium by FN Herstal, unlicensed copies of it were made in China and Croatia.\nThis modification has been adapted for firing ammunition 9x18.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-fn2000_kalibr_ves">
+		<text>Lightweight FN F2000 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_fn2000">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope (x1.6)\n • effective range of 400m\n • sighting range of 540 m\n • rate of 850/m\n • Magazine capacity 30 rounds\n • grenade M209\nFabrique Nationale Herstal F2000 --automatic grenade launcher with computerized Belgian gun-fire control module, and 40mm grenade launcher.\nThis modification has been adapted for firing 5.45x39 cartridges.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-g36_kalibr_ves">
+		<text>Lightweight HK G36 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_g36">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope (x3.5)\n • effective range of 440m\n • Effective range 800 m\n • rate of 750 a/m\n • Magazine capacity 30 rounds\nHeckler und Koch G36 - In 1995, the G36 was adopted by the Bundeswehr (Federal Republic of Germany), and in 1999 - on the armaments of the armed forces of Spain. In addition, G36 is used by the police of Great Britain and exported to the United States and other countries for sale there the law enforcement and military structures. This is a first class piece of modern weapons - easy, reliable and ergonomic combat rifle.\nThis modification has been adapted for firing 5.45x39 cartridges .\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-lr300_kalibr_ves">
+		<text>Lightweight LR-300ML chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_lr300">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • effective range of 300m\n • Rate of 910 V/m\n • Magazine capacity 30 rounds\nAssault Rifle LR-300ML - a new stage in the development of the family of the famous M-16. The name literally means 'light rifle with a range of effective fire up to 300 metres of the military/police stations modification (Military/Law)'. Thanks to the exceptionally smooth gradient, high ergonomics and low weight of the weapon is highly accurate battlefield, although the high sensitivity to pollution makes it not always suitable for use in difficult field conditions.\nThis modification has been adapted for firing 5.45x39 cartridges.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sig550_kalibr_ves">
+		<text>Lightweight SIG SG-550 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_sig550">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • effective range 100-500m\n • rate of 700 a/m\n • Magazine capacity 20 rounds\nSIG SG-550 in 1983 was officially adopted for the Swiss army. In general, the automata family SIG SG-550 are among the best in its class, distinguished by high reliability, precision shooting and ease of use.\nThis modification has been adapted for firing 5.45x39 cartridges.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sg552_sk1_kalibr_ves">
+		<text>Lightweight SIG SG552 Commando chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_sg552_sk1">
+		<text>Shortened version of the machine SIG SG550.\nKalibr 5.56x45mm\nLength (stock decomposed/composed) 730/504 mm\nBarrel length 226 mm\nWeight empty 3.0 kg empty\ncapacity stores 20 or 30 rounds\nRate of fire 780 rounds/min.\nThis modification has been adapted for firing 5.45x39 cartridges.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-l85_kalibr_ves">
+		<text>Lightweight Enfield L85A2 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_l85">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope SUSAT (x4)\n • effective range of 500m\n • sighting range of 900 m\n • rate of 610-775/m\n • Magazine capacity 30 rounds\nAfter this Enfield SA-80: L85A2 was replaced by British army on the German G36, it has emerged in large numbers on the black market and then in the Zone. The main advantage of L85A2 are full-time 4-time sight and high accuracy of the first shot. Accuracy when firing bursts battle falls sharply, and the reliability of the basic mechanisms of the rifle is not high enough.\nThis modification has been adapted for firing 5.45x39 cartridges.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-famas_p3_sk1_kalibr_ves">
+		<text>Lightweight FAMAS Prototype3 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_famas_p3_sk1">
+		<text>Prototype of a new machine in a series of FAMAS. A very rare weapon in the Zone. A further modification of the line machines. Equipped with a standard NATO-vskim shop on M16 30 rounds. High rate and the scheme 'bullpup' made him quite popular, but a rare example of small arms.\nKalibr 5.56x45 mm\nDlina 757 mm/488 mm Barrel Dlina\nKolichestvo rifling of the barrel 3 pravostr.\n Initial bullet velocity 960 m/sec\nMassa empty 3.98 kg\nRate of fire 900 in/m\n sighting range of 300 metres\nEmkost store 30 rounds.\nThis modification has been adapted for firing 5.45x39 cartridges.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-m16a2_sk1_kalibr_ves">
+		<text>Lightweight Colt M16A2 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_m16a2_sk1">
+		<text>Modification of the rifle M16A1. Has a heavier barrel, put fire mode cutoff on three cartridges, instead of fully automatic fire, as well as a bigger store on 30 rounds.\nThis modification has been adapted for firing 5.45x39 cartridges.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-tavor_kalibr_ves">
+		<text>Lightweight Tavor TAR-21 chambered 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_tavor">
+		<text>'Tavor' TAR-21 - a new automatic rifle, calibre 5.56mm, developed by Israeli Military Industry (IMI - Taas) under the 'bullpup' (Bullpup; shop is located behind the operating handle). Development began in 1992 (according to other sources - in 1993), only a few months after in the IDF, it was decided that the American M16 will become the main weapon for all infantry units (both special and linear) instead of the Israeli 'Galil'. • Effective range 550 m\n • rate of 750-900/m\n • Magazine capacity 30 rounds\nThis modification has been adapted for firing 5.45x39 cartridges.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<!-- IMPROVEED ACCURACY + REDUCTION IN WEIGHT -->
+	<string id="wpn-ak74_otdaca_ves">
+		<text>Lightweight AK-74M, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_ak74">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 600m\n • Effective range 800 m\n • Rate of 600 V/m\n • Magazine capacity 30 rounds\nAK-74M has now become the most recent and major option, entering the Russian Army since the early 1990s. This machine differs mainly in that replaces the right AK-74 AKS-74 and AK-74N, due to the fact that we have folding the left side of the stock of black plastic, as well as the universal benchmark for mounting scopes (like night and day) on the left side of the receiver.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-ak74u_otdaca_ves">
+		<text>Lightweight AKS-74U, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_ak74u">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 200m\n • Effective range 400 m\n • rate of 650-735/m\n • Magazine capacity 30 rounds\nAKS-74U is close to a submachine gun. However, due to the applied intermediate cartridge and the mechanisms of regular machine, it is considered a shorter gun. Dignity AKS-74U-mobility in crowded conditions, the possibility of covert, high penetration. Disadvantages - small sighting range, low stopping power, overheating when firing.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-abakan_otdaca_ves">
+		<text>Lightweight AN-94 'Abakan', with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_abakan">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 650m\n • Effective range 1000 m\n • rate of 1800/600 V/m\n • Magazine capacity 30 rounds\nAutomatic Nikonov 'Abakan' (AN-94 ) of 1994 on the basis of Kalashnikov. The main distinguishing feature of the AN-94 to AK-74 in terms of military use - this is the introduction of additional modes of fire bursts of 2 cartridge with a high rate. This mode of fire provides high precision and accuracy of the hit - according to people firing from the AN-94, an experienced shooter can put two bullets through one hole in the target at 100 metres. This greatly increases the chances of shooting defeats the purpose of comparison with a single firing range, greatly increasing the killer, stopping and armor-piercing effect bullet.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-bizon_otdaca_ves">
+		<text>Lightweight PP-19 'Bison', with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_bizon">
+		<text>Machine pistol PP-19 Bizon was designed to arm the Ministry of Internal Affairs on the basis of a broad commonality with an AK-74. On the 'Bison' is set to the original worm store high capacity to 64 cartridges. The shop is located very conveniently and concurrently serves as a forearm.\nAmmunition:\nosnovnoy 9x18 mm\nuluchshenny 9x18 mm P.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-mp5_otdaca_ves">
+		<text>Lightweight HK MP5A3, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_mp5">
+		<text>\n • 9x19mm Parabellum, 9x19mm P\n • effective range of 25-100m\n • rate of 800 a/m\n • Magazine capacity 30 rounds\nHeckler und Koch MP5N - especially popular MP-5 began after the whole world I saw them in the hands of the British commandos from the SAS during counterterrorism operations to liberate the Iranian Embassy in Britain in the 1970s and another in a number of others. Currently, MP-5 in various modifications is in service with police forces in many European countries, including Spain, Britain, West Germany. MP-5 is in the U.S. police, the Navy and Marine Corps, and many more where.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-mp7a3_otdaca_ves">
+		<text>Lightweight HK MP-7a3, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_mp7a3">
+		<text>Submachine Gun MP-7a3 PDW (Personal Self Defense Weapon) was developed by Heckler &amp; Koch weapons for soldiers who are on staff did not put a complete machine.\nPP developed under a progressive 4.6h30mm cartridge, but that small ubiquitous patron forced the makers to release a modification of a standard under the 9x19 mm Parabellum, though, the patron of most of its advantages the PP lost.\nAmmunition:\nosnovnoy 9x19 mm Parabellum,\nuluchshenny 9x19 mm PBP.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-uzi_otdaca_ves">
+		<text>Lightweight IMI UZI, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_uzi">
+		<text>Ammunition:\n • 9x19 (Fmj, Pbp)\n • effective range of 200m\n • Rate of 600 V/m\n • Magazine capacity 32 rounds\n submachine gun Uzi (Uzi) was established in Israel, the army lieutenant Uzielem Gal in 1949. It is usually assumed that the basic idea of the layout of his submachine gun Gal borrowed from Czech Model PP 23 and 25 designs Holec. However, probably the fact that the layout Gal 'spied on' in the experimental British submachine gun MCEM-2 has been developed in 1944. It is also possible, and that he 'invented' the layout of machine pistol with a magazine in the handle of the fire control and incident on the trunk of the gate - after all, a pistol similar arrangement is used since the late 19 th century. Whatever it was, Gal has created quite an original and manufacturable design. Was carried out Uzi submachine gun izrailskkim weapons company IMI (now - IWI Ltd), now release Uzi in Israel ceased, it produced only a smaller version of Mini-and Micro-Uzi. Uzi submachine gun was or is in service in more than 90 countries, including Israel, Germany, Belgium. Options for Mini-and Micro-Uzi is very popular with special operations forces and security services worldwide. Uzi was produced under license in Belgium by FN Herstal, unlicensed copies of it were made in China and Croatia.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-fn2000_otdaca_ves">
+		<text>Lightweight FN F2000, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_fn2000">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope (x1.6)\n • effective range of 400m\n • sighting range of 540 m\n • rate of 850/m\n • Magazine capacity 30 rounds\n • grenade M209\nFabrique Nationale Herstal F2000 --automatic grenade launcher with computerized Belgian gun-fire control module, and 40mm grenade launcher.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-g36_otdaca_ves">
+		<text>Lightweight HK G36, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_g36">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope (x3.5)\n • effective range of 440m\n • Effective range 800 m\n • rate of 750 a/m\n • Magazine capacity 30 rounds\nHeckler und Koch G36 - In 1995, the G36 was adopted by the Bundeswehr (Federal Republic of Germany), and in 1999 - on the armaments of the armed forces of Spain. In addition, G36 is used by the police of Great Britain and exported to the United States and other countries for sale there the law enforcement and military structures. This is a first class piece of modern weapons - easy, reliable and ergonomic combat rifle.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-lr300_otdaca_ves">
+		<text>Lightweight LR-300ML, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_lr300">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • effective range of 300m\n • Rate of 910 V/m\n • Magazine capacity 30 rounds\nAssault Rifle LR-300ML - a new stage in the development of the family of the famous M-16. The name literally means 'light rifle with a range of effective fire up to 300 metres of the military/police stations modification (Military/Law)'. Thanks to the exceptionally smooth gradient, high ergonomics and low weight of the weapon is highly accurate battlefield, although the high sensitivity to pollution makes it not always suitable for use in difficult field conditions.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sig550_otdaca_ves">
+		<text>Lightweight SIG SG-550, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_sig550">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • effective range 100-500m\n • rate of 700 a/m\n • Magazine capacity 20 rounds\nSIG SG-550 in 1983 was officially adopted for the Swiss army. In general, the automata family SIG SG-550 are among the best in its class, distinguished by high reliability, precision shooting and ease of use.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sg552_sk1_otdaca_ves">
+		<text>Lightweight SIG SG552 Commando, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_sg552_sk1">
+		<text>Shortened version of the machine SIG SG550.\nKalibr 5.56x45mm\nLength (stock decomposed/composed) 730/504 mm\nBarrel length 226 mm\nWeight empty 3.0 kg empty\ncapacity stores 20 or 30 rounds\nRate of fire 780 rounds/min.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-l85_otdaca_ves">
+		<text>Lightweight Enfield L85A2, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_l85">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope SUSAT (x4)\n • effective range of 500m\n • sighting range of 900 m\n • rate of 610-775/m\n • Magazine capacity 30 rounds\nAfter this Enfield SA-80: L85A2 was replaced by British army on the German G36, it has emerged in large numbers on the black market and then in the Zone. The main advantage of L85A2 are full-time 4-time sight and high accuracy of the first shot. Accuracy when firing bursts battle falls sharply, and the reliability of the basic mechanisms of the rifle is not high enough.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-famas_p3_sk1_otdaca_ves">
+		<text>Lightweight FAMAS Prototype3, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_famas_p3_sk1">
+		<text>Prototype of a new machine in a series of FAMAS. Rare weapon in the Zone. A further modification of the line machines. Equipped with a standard NATO-vskim shop on M16 30 rounds. High rate and the scheme 'bullpup' made him quite popular, but a rare example of small arms. Calibre 5.56x45 mm\nDlina 757 mm/488 mm Barrel Dlina\nKolichestvo rifling of the barrel 3 pravostr.\nNachalnaya bullet velocity 960 m/sec\nMassa empty 3.98 kg\nRate of fire 900 in/m\nSighting range Shooting 300 metres\nEmkost store 30 rounds.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-m16a2_sk1_otdaca_ves">
+		<text>Lightweight Colt M16A2, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_m16a2_sk1">
+		<text>Modification of the rifle M16A1. Has a heavier barrel, put fire mode cutoff on three cartridges, instead of fully automatic fire, as well as a bigger store on 30 rounds.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-tavor_otdaca_ves">
+		<text>Lightweight Tavor TAR-21, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_tavor">
+		<text>'Tavor' TAR-21 - a new automatic rifle, calibre 5.56mm, developed by Israeli Military Industry (IMI - Taas) under the 'bullpup' (Bullpup; shop is located behind the operating handle). Development began in 1992 (according to other sources - in 1993), only a few months after in the IDF, it was decided that the American M16 will become the main weapon for all infantry units (both special and linear) instead of the Israeli 'Galil'. • Effective range 550 m\n • rate of 750-900/m\n • Magazine capacity 30 rounds\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-ak47_otdaca_ves">
+		<text>Lightweight AKM-47, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_ak47">
+		<text>\n • 7.62x39mm, 7.62x39mm BP\n • effective range of 400m\n • Effective range 800 m\n • rate of 660 in/m\n • Magazine capacity 30 rounds\nKalashnikov model 1947 (release of the mid-1950s). Is a simple and reliable weapon, even though the cheapness in the production of multiple impact on usability and accuracy in battlefield. In the Zone is a rare weapon.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-hk417_sk1_otdaca_ves">
+		<text>Lightweight HK 417 Sniper, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_hk417_sk1">
+		<text>HK 417 rifle calibre 7.62mm NATO developed based on an automatic rifle Heckler-Koch HK 416 5.56mm NATO. Development of a rifle NC 417 was launched in 2005 based on the experience gained international coalition forces in Afghanistan and Iraq, where under certain conditions, weapons 5.56mm showed a lack of effective range and the lack of a breakdown and stops the action of small-calibre bullets. Rifles Series NC 417 went into production in 2007 or 2008, and offered to arm the army and police forces. HK 417 rifle has a modular design, largely repeating the construction of an American M16 rifles, with one important difference - the German HK 417 rifle has a modified vapor system automation that uses a conventional gas piston with short stroke. There are also other differences. However, all the basic controls and the method of disassembly and assembly of weapons inherited from the M16. Equipped with a telescopic sight multiplicity 6x.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sr25_mk11_mod0_sk1_otdaca_ves">
+		<text>Lightweight Knights SR25 Mk.11 Mod.0, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_sr25_mk11_mod0_sk1">
+		<text>SR-25 rifle was designed by Eugene Stoner (co-creator of the rifle Ar-15/M16) in the early 1990s when he collaborated with the American company Knight's Armaments Co. The basis of SR-25 rifle (Stoner Rifle model 25) went to design the AR-15 rifle, which was modified under the cartridge 7.62x51 NATO. The main purpose of rifles Mk.11 Mod.0 and XM110 - aimed fire on the manpower of the enemy at ranges of up to 800 metres. From a tactical point of view, these rifles are analogues of the Dragunov SVD sniper rifle. However, they are distinguished by a higher shooting accuracy (including due to the presence of better rounds) and more tactical flexibility.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<!-- WEIGHT REDUCTION (basic models) -->
+	<string id="wpn-ak74_ves">
+		<text>Lightweight AK-74M</text>
+	</string>
+	<string id="enc_ves_wpn_ak74">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 600m\n • Effective range 800 m\n • Rate of 600 V/m\n • Magazine capacity 30 rounds\nAK-74M has now become the most recent and major option, entering the Russian Army since the early 1990s. This machine differs mainly in that replaces the right AK-74 AKS-74 and AK-74N, due to the fact that we have folding the left side of the stock of black plastic, as well as the universal benchmark for mounting scopes (like night and day) on the left side of the receiver.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-ak74u_ves">
+		<text>Lightweight AKS-74U</text>
+	</string>
+	<string id="enc_ves_wpn_ak74u">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 200m\n • Effective range 400 m\n • rate of 650-735/m\n • Magazine capacity 30 rounds\nAKS-74U is close to a submachine gun. However, due to the applied intermediate cartridge and the mechanisms of regular machine, it is considered a shorter gun. Dignity AKS-74U-mobility in crowded conditions, the possibility of covert, high penetration. Disadvantages - small sighting range, low stopping power, overheating when firing.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-abakan_ves">
+		<text>Lightweight AN-94 'Abakan'</text>
+	</string>
+	<string id="enc_ves_wpn_abakan">
+		<text>\n • 5.45x39mm, 5.45x39mm BP\n • effective range of 650m\n • Effective range 1000 m\n • rate of 1800/600 V/m\n • Magazine capacity 30 rounds\nAutomatic Nikonov 'Abakan' (AN-94 ) of 1994 on the basis of Kalashnikov. The main distinguishing feature of the AN-94 to AK-74 in terms of military use - this is the introduction of additional modes of fire bursts of 2 cartridge with a high rate. This mode of fire provides high precision and accuracy of the hit - according to people firing from the AN-94, an experienced shooter can put two bullets through one hole in the target at 100 metres. This greatly increases the chances of shooting defeats the purpose of comparison with a single firing range, greatly increasing the killer, stopping and armor-piercing effect bullet.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-bizon_ves">
+		<text>Lightweight PP-19 Bizon</text>
+	</string>
+	<string id="enc_ves_wpn_bizon">
+		<text>Machine pistol PP-19 Bizon was designed to arm the Ministry of Internal Affairs on the basis of a broad commonality with an AK-74. On the 'Bison' is set to the original worm store high capacity to 64 cartridges. The shop is located very conveniently and concurrently serves as a forearm.\nAmmunition:\nosnovnoy 9x18 mm\nuluchshenny 9x18 mm P.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-mp5_ves">
+		<text>Lightweight HK MP5A3</text>
+	</string>
+	<string id="enc_ves_wpn_mp5">
+		<text>\n • 9x19mm Parabellum, 9x19mm P\n • effective range of 25-100m\n • rate of 800 a/m\n • Magazine capacity 30 rounds\nHeckler und Koch MP5N - especially popular MP-5 began after the whole world I saw them in the hands of the British commandos from the SAS during counterterrorism operations to liberate the Iranian Embassy in Britain in the 1970s and another in a number of others. Currently, MP-5 in various modifications is in service with police forces in many European countries, including Spain, Britain, West Germany. MP-5 is in the U.S. police, the Navy and Marine Corps, and many more where.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-mp7a3_ves">
+		<text>Lightweight HK MP-7a3</text>
+	</string>
+	<string id="enc_ves_wpn_mp7a3">
+		<text>Submachine Gun MP-7a3 PDW (Personal Self Defense Weapon) was developed by Heckler &amp; Koch weapons for soldiers who are on staff did not put a complete machine.\nPP developed under a progressive 4.6h30mm cartridge, but that small ubiquitous patron forced the makers to release a modification of a standard under the 9x19 mm Parabellum, though, the patron of most of its advantages the PP lost.\nAmmunition:\nosnovnoy 9x19 mm Parabellum,\nuluchshenny 9x19 mm PBP.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-uzi_ves">
+		<text>Lightweight IMI UZI</text>
+	</string>
+	<string id="enc_ves_wpn_uzi">
+		<text>Ammunition:\n • 9x19 (Fmj, Pbp)\n • effective range of 200m\n • Rate of 600 V/m\n • Magazine capacity 32 rounds\n submachine gun Uzi (Uzi) was established in Israel, the army lieutenant Uzielem Gal in 1949. It is usually assumed that the basic idea of the layout of his submachine gun Gal borrowed from Czech Model PP 23 and 25 designs Holec. However, probably the fact that the layout Gal 'spied on' in the experimental British submachine gun MCEM-2 has been developed in 1944. It is also possible, and that he 'invented' the layout of machine pistol with a magazine in the handle of the fire control and incident on the trunk of the gate - after all, a pistol similar arrangement is used since the late 19 th century. Whatever it was, Gal has created quite an original and manufacturable design. Was carried out Uzi submachine gun izrailskkim weapons company IMI (now - IWI Ltd), now release Uzi in Israel ceased, it produced only a smaller version of Mini-and Micro-Uzi. Uzi submachine gun was or is in service in more than 90 countries, including Israel, Germany, Belgium. Options for Mini-and Micro-Uzi is very popular with special operations forces and security services worldwide. Uzi was produced under license in Belgium by FN Herstal, unlicensed copies of it were made in China and Croatia.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-fn2000_ves">
+		<text>Lightweight FN F2000</text>
+	</string>
+	<string id="enc_ves_wpn_fn2000">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope (x1.6)\n • effective range of 400m\n • sighting range of 540 m\n • rate of 850/m\n • Magazine capacity 30 rounds\n • grenade M209\nFabrique Nationale Herstal F2000 --automatic grenade launcher with computerized Belgian gun-fire control module, and 40mm grenade launcher.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-g36_ves">
+		<text>Lightweight HK G36</text>
+	</string>
+	<string id="enc_ves_wpn_g36">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope (x3.5)\n • effective range of 440m\n • Effective range 800 m\n • rate of 750 a/m\n • Magazine capacity 30 rounds\nHeckler und Koch G36 - In 1995, the G36 was adopted by the Bundeswehr (Federal Republic of Germany), and in 1999 - on the armaments of the armed forces of Spain. In addition, G36 is used by the police of Great Britain and exported to the United States and other countries for sale there the law enforcement and military structures. This is a first class piece of modern weapons - easy, reliable and ergonomic combat rifle.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-lr300_ves">
+		<text>Lightweight LR-300ML</text>
+	</string>
+	<string id="enc_ves_wpn_lr300">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • effective range of 300m\n • Rate of 910 V/m\n • Magazine capacity 30 rounds\nAssault Rifle LR-300ML - a new stage in the development of the family of the famous M-16. The name literally means 'light rifle with a range of effective fire up to 300 metres of the military/police stations modification (Military/Law)'. Thanks to the exceptionally smooth gradient, high ergonomics and low weight of the weapon is highly accurate battlefield, although the high sensitivity to pollution makes it not always suitable for use in difficult field conditions.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sig550_ves">
+		<text>Lightweight SIG SG-550</text>
+	</string>
+	<string id="enc_ves_wpn_sig550">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • effective range 100-500m\n • rate of 700 a/m\n • Magazine capacity 20 rounds\nSIG SG-550 in 1983 was officially adopted for the Swiss army. In general, the automata family SIG SG-550 are among the best in its class, distinguished by high reliability, precision shooting and ease of use.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sg552_sk1_ves">
+		<text>Lightweight SIG SG552 Commando</text>
+	</string>
+	<string id="enc_ves_wpn_sg552_sk1">
+		<text>Shortened version of the machine SIG SG550.\nKalibr 5.56x45mm\nLength (stock decomposed/composed) 730/504 mm\nBarrel length 226 mm\nWeight empty 3.0 kg empty\ncapacity stores 20 or 30 rounds\nRate of fire 780 rounds/min.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-l85_ves">
+		<text>Lightweight Enfield L85A2</text>
+	</string>
+	<string id="enc_ves_wpn_l85">
+		<text>\n • 5.56x45mm SS109, 5.56x45mm AR\n • riflescope SUSAT (x4)\n • effective range of 500m\n • sighting range of 900 m\n • rate of 610-775/m\n • Magazine capacity 30 rounds\nAfter this Enfield SA-80: L85A2 was replaced by British army on the German G36, it has emerged in large numbers on the black market and then in the Zone. The main advantage of L85A2 are full-time 4-time sight and high accuracy of the first shot. Accuracy when firing bursts battle falls sharply, and the reliability of the basic mechanisms of the rifle is not high enough.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-famas_p3_sk1_ves">
+		<text>Lightweight FAMAS Prototype3</text>
+	</string>
+	<string id="enc_ves_wpn_famas_p3_sk1">
+		<text>Prototype of a new machine in a series of FAMAS. A very rare weapon in the Zone. A further modification of the line machines. Equipped with a standard NATO-vskim shop on M16 30 rounds. High rate and the scheme 'bullpup' made him quite popular, but a rare example of small arms. Calibre 5.56x45 mm\nDlina 757 mm/488 mm Barrel Dlina\nKolichestvo rifling of the barrel 3 pravostr.\nNachalnaya bullet velocity 960 m/sec\nMassa empty 3.98 kg\nRate of fire 900 in/m\nSighting range Shooting 300 metres\nEmkost store 30 rounds.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-m16a2_sk1_ves">
+		<text>Lightweight Colt M16A2</text>
+	</string>
+	<string id="enc_ves_wpn_m16a2_sk1">
+		<text>Modification of the rifle M16A1. Has a heavier barrel, put fire mode cutoff on three cartridges, instead of fully automatic fire, as well as a bigger store on 30 rounds.\nFor through the use of parts made of light alloys could significantly reduce the weight\nModification (as well as repair of such weapons) in Zone is capable of doing just Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-tavor_ves">
+		<text>Lightweight Tavor TAR-21</text>
+	</string>
+	<string id="enc_ves_wpn_tavor">
+		<text>'Tavor' TAR-21 - a new automatic rifle, calibre 5.56mm, developed by Israeli Military Industry (IMI - Taas) under the 'bullpup' (Bullpup; shop is located behind the operating handle). Development began in 1992 (according to other sources - in 1993), only a few months after in the IDF, it was decided that the American M16 will become the main weapon for all infantry units (both special and linear) instead of the Israeli 'Galil'. • Effective range 550 m\n • rate of 750-900/m\n • Magazine capacity 30 rounds\nFor through the use of parts made of light alloys could significantly reduce the weight\nModification (as well as repair of such weapons) in the Zone can only do Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-ak47_ves">
+		<text>Lightweight AKM-47</text>
+	</string>
+	<string id="enc_ves_wpn_ak47">
+		<text>\n • 7.62x39mm, 7.62x39mm BP\n • effective range of 400m\n • Effective range 800 m\n • rate of 660 in/m\n • Magazine capacity 30 rounds\nKalashnikov model 1947 (release of the mid-1950s). Is a simple and reliable weapon, even though the cheapness in the production of multiple impact on usability and accuracy in battlefield. In the Zone is a rare weapon.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-hk417_sk1_ves">
+		<text>Lightweight HK 417 Sniper</text>
+	</string>
+	<string id="enc_ves_wpn_hk417_sk1">
+		<text>HK 417 rifle calibre 7.62mm NATO developed based on an automatic rifle Heckler-Koch HK 416 5.56mm NATO. Development of a rifle NC 417 was launched in 2005 based on the experience gained international coalition forces in Afghanistan and Iraq, where under certain conditions, weapons 5.56mm showed a lack of effective range and the lack of a breakdown and stops the action of small-calibre bullets. Rifles Series NC 417 went into production in 2007 or 2008, and offered to arm the army and police forces. HK 417 rifle has a modular design, largely repeating the construction of an American M16 rifles, with one important difference - the German HK 417 rifle has a modified vapor system automation that uses a conventional gas piston with short stroke. There are also other differences. However, all the basic controls and the method of disassembly and assembly of weapons inherited from the M16. Equipped with a telescopic sight multiplicity 6x.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-sr25_mk11_mod0_sk1_ves">
+		<text>Lightweight Knights SR25 Mk.11</text>
+	</string>
+	<string id="enc_ves_wpn_sr25_mk11_mod0_sk1">
+		<text>SR-25 rifle was designed by Eugene Stoner (co-creator of the rifle Ar-15/M16) in the early 1990s when he collaborated with the American company Knight's Armaments Co. The basis of SR-25 rifle (Stoner Rifle model 25) went to design the AR-15 rifle, which was modified under the cartridge 7.62x51 NATO. The main purpose of rifles Mk.11 Mod.0 and XM110 - aimed fire on the manpower of the enemy at ranges of up to 800 metres. From a tactical point of view, these rifles are analogues of the Dragunov SVD sniper rifle. However, they are distinguished by a higher shooting accuracy (including due to the presence of better rounds) and more tactical flexibility.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-groza_ves">
+		<text>Lightweight OTs-14-4 'Thunderstorm'</text>
+	</string>
+	<string id="enc_ves_wpn_groza">
+		<text>\n • 9x39mm PAB9, SP-5 SP-6\n • effective range of 400m\n • sighting range of 600 m\n • rate of 700 a/m\n • Magazine capacity 20 rounds\n • grenade VOG-25 and VOG 25P-\nautomatic grenade launcher OTs-14 'Groza' - The task of developers was to create a compact weapon for fighting in small and medium distances (do300m). Poet as a basis for weapons was taken miniature AKS-74U 5.45mm and 40 mm grenade launcher GP-25. The original version of 'Thunderstorm' was 5.45mm. However, the specificity of tasks, forcing designers to change the calibre of weapon, using 9 mm ammunition and SP-5 SP-6, which combine low-impact-resistant with heavy bullets at a fairly high trajectory and penetrative action.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-val_ves">
+		<text>Lightweight AU 'Val'</text>
+	</string>
+	<string id="enc_ves_wpn_val">
+		<text>\n • 9x39mm PAB9, SP-5 SP-6\n • effective range of 250m\n • Magazine capacity 20 rounds\nAutomatic special speaker 'Shaft' (6P30) is based on noiseless sniper rifle VSS 'Vintorez' from which different folding stock, the ability to fire bursts, as well as more capacious store. Originally intended for use in special forces attack requiring noiseless and flameless fire.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-svd_ves">
+		<text>Lightweight SVD</text>
+	</string>
+	<string id="enc_ves_wpn_svd">
+		<text>\n • 7.62x54 (7N1, BP, 7N14)\n • optical sight PSO-1 (x4)\n • effective range of 800m\n • Magazine capacity 10 rounds\n Dragunov Sniper Rifle (SVD). Widely used in all military operations conducted by the Soviet and Russian armies in 1960. Has established itself as an exceptionally reliable and easy to handle weapons. Sight PSO-1M2 - 4x optical zoom. Sighting Scale is designed for shooting from 100 metres to 1300 metres in the 'Zone' it is particularly preferred group experienced Stalkers 'Debt'.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-svu_ves">
+		<text>Lightweight SVU-A</text>
+	</string>
+	<string id="enc_ves_wpn_svu">
+		<text>\n • 7.62x54 (7N1, BP, 7N14)\n • optical sight PSO-1 (x4)\n • effective range of 640m\n • Effective range 800 m\n • Magazine capacity 10 rounds\nSniper Rifle Short folds automatically (SVU-AS). Development of a shortened version of the SVD sniper rifle for airborne weapons the Soviet Union was started in 70 of the 20 th century, to reduce the size of weapons, due to the layout 'Bullpup' diagram of weapons, in which the store trigger and the bolt located behind the handle. Sight PSO-1M2 - 4x optical zoom. Sighting Scale is designed for firing from 100 m to 1300 m.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-m1891_30_scope_ves">
+		<text>Lightweight Sniper Rifle Mosin obr.1891/30</text>
+	</string>
+	<string id="enc_ves_wpn_m1891_30_scope">
+		<text>Ammunition:\n • 7.62x54 (7N1, BP, 7N14)\n • effective range of 1000m\n • Magazine Capacity 5 rounds\nLegendarnaya three-line rifle Mosin sample 1891/30 year - an excellent and reliable weapon. Has a very accurate battle and unpretentious in operation.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-vintorez_ves">
+		<text>WBU lightweight 'Vintorez'</text>
+	</string>
+	<string id="enc_ves_wpn_vintorez">
+		<text>\n • 9x39mm PAB9, SP-5 SP-6\n • optical sight PSO-1 (x4)\n • Effective range 400 m\n • Magazine capacity 10 rounds\n • optical sight PSO-1\nSniper Rifle Special 'Vintorez (ARIA' Vintorez '), is designed for quiet and flameless sniper shooting and is equipped with an integrated' silenced. ' Scope - PSO-1M2-01 - 4x optical zoom. Sighting Scale is designed for firing from 100 m to 400 m. At the distance of 400 metres pierces body armor of any degree of protection. Really appreciate Stalkers any level weapon.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-b94_ves">
+		<text>Lightweight sniper rifle in-94</text>
+	</string>
+	<string id="enc_ves_wpn_b94">
+		<text>Severe self-loading large-calibre sniper rifle. Intended for use against lightly armored and unarmored targets at distances up to 1500 m, as well as personnel of the enemy after the shelters and personal protective equipment at distances up to 1000 m.\noriginal design decision - for easy transportation of arms can be folded in half (the official section of the trunk and receiver overlap to prevent clogging). Recoil when firing is greatly reduced by setting an effective muzzle brake and recoil pad cushioning.\nWhen shooting with sniper rounds at a distance of 100 metres in series of 4-5 shots width of dispersion does not exceed 50 mm (from IRS this figure is approximately one and a half times worse). The initial energy of a bullet at strelyue from B-94 greater than that of SVD is about five times. One of the drawbacks of a rifle - too loud shot.\nFeatures\n • Calibre 12.7 mm\n • Patron 12.7 x108\n • Weight 11.7 kg\n • Length: 1700mm in firing position\n • Length: the complex. position 1100 mm\n • Barrel length 1100 mm\n • Muzzle velocity 900m/s\n • Rate of 15-20c/m\n • Capacity 5patronov \n • Effective range 2000m.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-awm_ves">
+		<text>Lightweight 'Iglomet'</text>
+	</string>
+	<string id="enc_ves_wpn_awm">
+		<text>Rare stealth weapon by Accuracy International with enormous punching power and range, due to an integral anomalous ring at the end of the barrel that produces further acceleration after a bolt's initial thrust. Includes an optical sight, and an upgraded capacity to 35 self-loading bolts.\nAmmunition:\nSpecial self-powered arrows (bolts)\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-saiga12c_ves">
+		<text>Lightweight Saiga-12S</text>
+	</string>
+	<string id="enc_ves_wpn_saiga12c">
+		<text>\n • 12x70 buckshot, 12x76 slug/dart\n • range shot 35-70m\n • Range 50-100m\n • Magazine capacity 8 rounds\n • Fighting skorostr. 100 min\n \nAvtomatichesky gladskostvolny carbine 'Saiga-12C'. Is used as a melee assault weapon. Proven to be a reliable, powerful and accurate weapon.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-spas12_ves">
+		<text>Lightweight Franchi SPAS-12</text>
+	</string>
+	<string id="enc_ves_wpn_spas12">
+		<text>\n • 12x70 buckshot, 12x76 slug/dart\n • effective range 85m\n • magazine capacity 8 rounds\nshotgun Franchi SPAS-12 was developed in the late 1970's as a universal military weapons for the police and army assault units. The weapon is distinguished by high reliability and flexibility. C on the other hand, it's pretty massive, difficult and expensive in the device. Perhaps the best barrel for close combat in the Zone not found.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-wincheaster1300_ves">
+		<text>Lightweight Winchester 1300</text>
+	</string>
+	<string id="enc_ves_wpn_wincheaster1300">
+		<text>\n • 12x70 buckshot, 12x76 slug/dart\n • Effective range 80m\n • magazine capacity 7 rounds\n smoothbore shotgun Winchester 1300 American production, created for use in the most neblagopritnyh conditions and is highly reliable. All details are provided with corrosion-resistant coating.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-bm16_ves">
+		<text>Lightweight Scattergun BM16</text>
+	</string>
+	<string id="enc_ves_wpn_bm16">
+		<text>\n • 12x70 buckshot, 12x76 slug/dart\n • Effective range 60m\n Cut with a hunting rifle BM-16 is much smaller and lighter the new shotgun, but is only effective in close combat. One of the most common weapons for beginners.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-toz34_ves">
+		<text>Lightweight TOZ-34</text>
+	</string>
+	<string id="enc_ves_wpn_toz34">
+		<text>\n • 12x70 buckshot, 12x76 slug/dart\n • Effective range 100m\n • vertical layout trunk\nHunting rifle TOZ-34 is a widespread and nothing special, but their knockdown ability, not remarkable hunting rifle, 'vertikalka.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-ppsh41_sk2_ves">
+		<text>Lightweight PCA-41</text>
+	</string>
+	<string id="enc_ves_wpn_ppsh41_sk2">
+		<text>Submachine gun Shpagina sample of 1941 (PCA-41) under the cartridge 7.62 x25 mm. Simple and reliable, but it has pretty good performance. In the Zone hardly occurs.\nIt is said that patrons haggling Bartender\nAmmunition:\nobychny 7.62 x25 mm TT,\n7, 62x39 mm with a steel bullet PS.\nKalibr: 7.62 x25 mm TT\nVes: 5.45 kg with a drum of 71 cartridge, 4.3 kg with the horn for 35 rounds, 3.63 kg empty\nDlina: 843 mm\nDlina barrel: 269 mm\nTemp fire: 900 rounds per minute\nEmkost Store: 71 drum cartridge in store or 35 rounds in the locust (box-shaped) Store\nEffektivnaya range: 200 metres.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-kriss_super_v_ves">
+		<text>Lightweight Kriss super V</text>
+	</string>
+	<string id="enc_ves_wpn_kriss_super_v">
+		<text>Submachine gun chambered for 11.43 mm. designed by TDI so that the barrel is very low, almost in a straight line with a hand. With this in spite of using such a powerful cartridge has a unique stability and accuracy when firing. The disadvantages are the use of a standard magazine from the pistol Glock-21 for 13 rounds.\nBoepripasy:\nobychny .45 ACP,\nuluchshenny .45 ACP Gidroshok.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-p90_ves">
+		<text>Lightweight FN P90</text>
+	</string>
+	<string id="enc_ves_wpn_p90">
+		<text>\n • 5.7x28mm SS190\n • Collimator Sight\n • effective range of 25-100m\n • sighting range of 200 m\n • rate of 715/m\n • Magazine capacity 50 rounds\nFN P90-Belgian submachine gun developed in 1980 by FN Herstal. Was designed primarily for the tank and drivers of combat vehicles. Despite the unusual appearance, it's pretty effective weapon. For FN P90 developed a special patron-5.7x28mm SS190, a little smaller 5.56mm NATO has more penetrative power than other pistol cartridges. This develops a muzzle velocity of 715 m/s and can pierce body armor.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn-pkm_ves">
+		<text>Lightweight RMB (6P6)</text>
+	</string>
+	<string id="enc_ves_wpn_pkm">
+		<text>\n • 7.62x53R\n • effective range of 800m\n • Effective range 1500 m\n • rate of 650/m\n • Capacity Box 100 rounds\n Upgraded single PKM adopted into service in 1969, differs from the one gun pc mainly changing technology of manufacturing of parts. For example, the PKM barrel outside a round without the grooves that are available on the trunks of the PC. Such weapons are usually fitted with heavily armed detachments of military Stalkers.\n Machineguns Series PC/PCM are highly reliable and are popular among the troops, despite a few pereuslozhnennuyu two-stage delivery system from a tape cartridge into the barrel. Quick-change barrel, has a carrying handle, is also used to replace the hot trunk. Powered bullets - from nerassypnoy metal band with a closed link. The nominal capacity of 100 tapes (in the manual version), rounds of ammunition. Direction of tape - from right to left, windows to feed and exit belt equipped with dust covers, as well as a window to eject spent cartridges. Filing rounds of two-tape - first a special grip for recoil zavtornoy frame pulls back from the tape cartridge, cartridge and then descends to the chambering line and reel at the gate shall be sent to the trunk. Shooting is conducted with an open shutter only automatic fire. Standard controls include an infantry version of the pistol grip, trigger, manual safety and a framework butt.\nFor through the use of parts made of light alloys could significantly reduce the weight\nUpgrades (and repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_m4_kalibr">
+		<text>M4 'SOPMOD' 5.45x39</text>
+	</string>
+	<string id="enc_kalibr_weapons_wpn-m4">
+		<text>Ammunition:\n • 5.56x45mm SS109, 5.56x45mm AP\nKarabin M4 rifle differs from M16A2 only a short barrel with a correspondingly shortened forearm and telescopic stock, which has 4 fixed positions. This model was converted using parts company SOPMOD\nThis modification has been adapted for firing ammunition 5.45x39.\nModification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_m4_kalibr_ves">
+		<text>Lightweight M4 'SOPMOD' 5.45x39mm</text>
+	</string>
+	<string id="enc_kalibr_ves_weapons_wpn-m4">
+		<text>Ammunition:\n • 5.56x45mm SS109, 5.56x45mm AP\nKarabin M4 rifle differs from M16A2 only a short barrel with a correspondingly shortened forearm and telescopic stock, which has 4 fixed positions. This model was converted using parts company SOPMOD.\nThis modification has been adapted for firing ammunition 5.45x39.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_m4_otdaca">
+		<text>M4 'SOPMOD', with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_weapons_wpn-m4">
+		<text>Ammunition:\n • 5.56x45mm SS109, 5.56x45mm AP\nKarabin M4 rifle differs from M16A2 only a short barrel with a correspondingly shortened forearm and telescopic stock, which has 4 fixed positions. This model was converted using parts company SOPMOD\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nModification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_m4_otdaca_ves">
+		<text>Lightweight M4 'SOPMOD', with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_weapons_wpn-m4">
+		<text>Ammunition:\n • 5.56x45mm SS109, 5.56x45mm AP\nKarabin M4 rifle differs from M16A2 only a short barrel with a correspondingly shortened forearm and telescopic stock, which has 4 fixed positions. This model was converted using parts company SOPMOD.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_m4_ves">
+		<!-- TB3D 10992 -->
+		<text>Lightweight M4 'SOPMOD'</text>
+	</string>
+	<string id="enc_ves_weapons_wpn-m4">
+		<text>Ammunition:\n • 5.56x45mm SS109, 5.56x45mm AP\nKarabin M4 rifle differs from M16A2 only a short barrel with a correspondingly shortened forearm and telescopic stock, which has 4 fixed positions. This model was converted using parts company SOPMOD.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_m4super90_ves">
+		<text>Lightweight Benelli M4 'Scoped'</text>
+	</string>
+	<string id="enc_ves_weapons_wpn-m4super90">
+		<text>Smooth-bore shotgun American production, created for use in the most neblagopritnyh conditions and is highly reliable. All details are provided with corrosion-resistant coating. Has an integrated suppressor and sighting device.\nAmmunition\n Jacques, javelin, shot\n Magazine capacity 7 rounds.\nFor through the use of parts made of light alloys could significantly reduce the weight\nModification (as well as repair of such weapons) in the area capable of doing only Long</text>
+	</string>
+	<string id="wpn_m79_ves">
+		<text>Lightweight M-79 grenade launcher</text>
+	</string>
+	<string id="enc_ves_weapons_wpn-m79">
+		<text>Is a lightweight single-shot rifle with a rifled barrel. The buttstock and forend wood, mounted on the butt rubber recoil pad, recoil absorber. To charge the barrel tipped down thrower puts the barrel of a grenade, and locks the trunk. Management node locking barrel by the type of hunting rifles. M-79 is designed to engage manpower, transport and lightly armored vehicles, the enemy at ranges of up to 400 m\nAmmunition:\n • Grenades for grenade podsvolnyh class m209.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_mp5k_kalibr">
+		<text>HK MP5K-PDW 9x18mm</text>
+	</string>
+	<string id="enc_kalibr_weapons1_wpn-mp5k">
+		<text>Ammunition:\n • 9x19mm Parabellum, 9x19 P HK\nMP-5K-PDW (Personal Defense Weapon), with a folding plastic butt and red-dot sight. Install the suppressor is not available.\nThis modification has been adapted for firing ammunition 9x18.\nModification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_mp5k_kalibr_ves">
+		<text>Lightweight HK MP5K-PDW 9x18mm</text>
+	</string>
+	<string id="enc_kalibr_ves_weapons1_wpn-mp5k">
+		<text>Ammunition:\n • 9x19mm Parabellum, 9x19 P HK\nMP-5K-PDW (Personal Defense Weapon), with a folding plastic butt and red-dot sight. Install the suppressor is not available.\nThis modification has been adapted for firing ammunition 9x18.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_mp5k_otdaca">
+		<text>HK MP5K-PDW improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_weapons1_wpn-mp5k">
+		<text>Ammunition:\n • 9x19mm Parabellum, 9x19 P HK\nMP-5K-PDW (Personal Defense Weapon), with a folding plastic butt and red-dot sight. Install the suppressor is not available.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nModification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_mp5k_otdaca_ves">
+		<text>Lightweight HK MP5K-PDW, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_weapons1_wpn-mp5k">
+		<text>Ammunition:\n • 9x19mm Parabellum, 9x19 P HK\nMP-5K-PDW (Personal Defense Weapon), with a folding plastic butt and red-dot sight. Install the suppressor is not available.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_mp5k_ves">
+		<text>Lightweight HK MP5K-PDW</text>
+	</string>
+	<string id="enc_ves_weapons1_wpn-mp5k">
+		<text>Ammunition:\n • 9x19mm Parabellum, 9x19 P HK\nMP-5K-PDW (Personal Defense Weapon), with a folding plastic butt and red-dot sight. Install the suppressor is not available.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_protecta_ves">
+		<text>Lightweight Prototype 'Protecta'</text>
+	</string>
+	<string id="enc_ves_weapons_wpn-protecta">
+		<text>'Protect' - the gun of the South African production of 12-calibre (chamber length 70 mm). Capacity drum magazine -12 rounds. 'Protect' is equipped with a folding stock. In the stowed position the stock is above the barrel weapons. The trigger gun is extremely simple and structurally related to self-cocking lever trigger. Use this gun is most appropriate in self-defense. 'Protector' of South Africa (protect - in English to 'defend') as his 'evil' appearance, and more than adequate for self defense 12 calibre from anyone once and will stop the hunt to encroach on your life. Simplicity of the device provides ruggedness gun in operation.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_scorpion_kalibr">
+		<text>ScorpionVz.61 9x19mm</text>
+	</string>
+	<string id="enc_kalibr_weapons_wpn-scorpion">
+		<text>Ammunition:\n • 9x18mm, PBM\nRazrabotka new submachine gun for the Czechoslovak Army, designed to be self-defense weapon for the military in return is not too effective pistols was launched in the late fifties. In 1959 appeared the first prototypes of new weapons, and in 1961 sub-machine gun Scorpion Vz.61 (Skorpion in the Czech notation; Scorpio) was adopted by the Czechoslovak Army (hence the designation Vz.61 - Vzor 61, that is, a sample of 1961). As the ammunition used cartridges 7.65x17. In 1982, due to the rearmament of the Czechoslovak army in the 9x18 calibre pistols, the Scorpion was redesigned under a new, more powerful cartridge 9x18. Scorpion is exported to Egypt, Libya, Angola and some other countries. In addition, the Scorpions have been used a number of terrorist groups in carrying out some high-profile terrorist attacks in 1970-1980s.\nThis modification has been adapted for firing ammunition 9x19.\nModification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_scorpion_kalibr_ves">
+		<text>Lightweight ScorpionVz.61 9x19mm</text>
+	</string>
+	<string id="enc_kalibr_ves_weapons_wpn-scorpion">
+		<text>Ammunition:\n • 9x18mm, PBM\nRazrabotka new submachine gun for the Czechoslovak Army, designed to be self-defense weapon for the military in return is not too effective pistols was launched in the late fifties. In 1959 appeared the first prototypes of new weapons, and in 1961 sub-machine gun Scorpion Vz.61 (Skorpion in the Czech notation; Scorpio) was adopted by the Czechoslovak Army (hence the designation Vz.61 - Vzor 61, that is, a sample of 1961). As the ammunition used cartridges 7.65x17. In 1982, due to the rearmament of the Czechoslovak army in the 9x18 calibre pistols, the Scorpion was redesigned under a new, more powerful cartridge 9x18. Scorpion is exported to Egypt, Libya, Angola and some other countries. In addition, the Scorpions have been used a number of terrorist groups in carrying out some high-profile terrorist attacks in 1970-1980s.\nThis modification has been adapted for firing ammunition 9x19.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_scorpion_otdaca">
+		<text>ScorpionVz.61, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_weapons_wpn-scorpion">
+		<text>Ammunition:\n • 9x18mm, PBM\nRazrabotka new submachine gun for the Czechoslovak Army, designed to be self-defense weapon for the military in return is not too effective pistols was launched in the late fifties. In 1959 appeared the first prototypes of new weapons, and in 1961 sub-machine gun Scorpion Vz.61 (Skorpion in the Czech notation; Scorpio) was adopted by the Czechoslovak Army (hence the designation Vz.61 - Vzor 61, that is, a sample of 1961). As the ammunition used cartridges 7.65x17. In 1982, due to the rearmament of the Czechoslovak Army in the 9x18 calibre pistols, the Scorpion was redesigned under a new, more powerful cartridge 9x18. Scorpion is exported to Egypt, Libya, Angola and some other countries. In addition, the Scorpions have been used a number of terrorist groups in carrying out some high-profile terrorist attacks in 1970-1980s.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nModification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_scorpion_otdaca_ves">
+		<text>Lightweight ScorpionVz.61, with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_weapons_wpn-scorpion">
+		<text>Ammunition:\n • 9x18mm, PBM\nRazrabotka new submachine gun for the Czechoslovak Army, designed to be self-defense weapon for the military in return is not too effective pistols was launched in the late fifties. In 1959 appeared the first prototypes of new weapons, and in 1961 sub-machine gun Scorpion Vz.61 (Skorpion in the Czech notation; Scorpio) was adopted by the Czechoslovak Army (hence the designation Vz.61 - Vzor 61, that is, a sample of 1961). As the ammunition used cartridges 7.65x17. In 1982, due to the rearmament of the Czechoslovak army in the 9x18 calibre pistols, the Scorpion was redesigned under a new, more powerful cartridge 9x18. Scorpion is exported to Egypt, Libya, Angola and some other countries. In addition, the Scorpions have been used a number of terrorist groups in carrying out some high-profile terrorist attacks in 1970-1980s.\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_scorpion_ves">
+		<text>lightweight ScorpionVz.61</text>
+	</string>
+	<string id="enc_ves_weapons_wpn-scorpion">
+		<text>Ammunition:\n • 9x18mm, PBM\nRazrabotka new submachine gun for the Czechoslovak Army, designed to be self-defense weapon for the military in return is not too effective pistols was launched in the late fifties. In 1959 appeared the first prototypes of new weapons, and in 1961 sub-machine gun Scorpion Vz.61 (Skorpion in the Czech notation; Scorpio) was adopted by the Czechoslovak Army (hence the designation Vz.61 - Vzor 61, that is, a sample of 1961). As the ammunition used cartridges 7.65x17. In 1982, due to the rearmament of the Czechoslovak army in the 9x18 calibre pistols, the Scorpion was redesigned under a new, more powerful cartridge 9x18. Scorpion is exported to Egypt, Libya, Angola and some other countries. In addition, the Scorpions have been used a number of terrorist groups in carrying out some high-profile terrorist attacks in 1970-1980s.\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_aks74m_kalibr">
+		<text>AKS-74 'Cobra' 5.56x45mm</text>
+	</string>
+	<string id="enc_kalibr_wpn_aks74m">
+		<text>Modification of the ASC-74 for airborne troops, was set up with lightweight metal butt of a triangular shape, folding the left, more convenient than the AKMS. The triangular shape allows the butt of rigidity. Wooden furniture is replaced by the light, made of polyamide. Has a built kolimatorny sight 'Cobra.'\nThis modification has been adapted for firing ammunition 5.56x45.\nModification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_aks74m_otdaca">
+		<text>AKS-74 'Cobra', with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_wpn_aks74m">
+		<text>Modification of the ASC-74 for airborne troops, was set up with lightweight metal butt of a triangular shape, folding the left, more convenient than the AKMS. The triangular shape allows the butt of rigidity. Wooden furniture is replaced by the light, made of polyamide. Has a built kolimatorny sight 'Cobra.'\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nModification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_aks74m_kalibr_ves">
+		<text>Lightweight AKS-74 'Cobra' 5.56x45mm</text>
+	</string>
+	<string id="enc_kalibr_ves_wpn_aks74m">
+		<text>Modification of the ASC-74 for airborne troops, was set up with lightweight metal butt of a triangular shape, folding the left, more convenient than the AKMS. The triangular shape allows the butt of rigidity. Wooden furniture is replaced by the light, made of polyamide. Has a built kolimatorny sight 'Cobra.'\nThis modification has been adapted for firing ammunition 5.56x45.\nFor through the use of parts made of light alloys could significantly reduce the weight.\nModification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_aks74m_otdaca_ves">
+		<text>Lightweight AKS-74 'Cobra', with improved accuracy</text>
+	</string>
+	<string id="enc_otdaca_ves_wpn_aks74m">
+		<text>Modification of the ASC-74 for airborne troops, was set up with lightweight metal butt of a triangular shape, folding the left, more convenient than the AKMS. The triangular shape allows the butt of rigidity. Wooden furniture is replaced by the light, made of polyamide. Has a built kolimatorny sight 'Cobra.'\nThis modification by precise fitting of parts and careful balance has improved accuracy in battle, especially in single-shot mode\nThe use of more expensive light alloys on this non-standard version has significantly reduced the original weight\nModification and repairs can only be carried out by Lanky, the weapons technician in Rostok</text>
+	</string>
+	<string id="wpn_aks74m_ves">
+		<text>Lightweight AKS-74 'Cobra'</text>
+	</string>
+	<string id="enc_ves_wpn_aks74m">
+		<text>Modification of the ASC-74 for airborne troops, was set up with lightweight metal butt of a triangular shape, folding the left, more convenient than the AKMS. The triangular shape allows the butt of rigidity. Wooden furniture is replaced by the light, made of polyamide. Has a built kolimatorny sight 'Cobra.'\nFor through the use of parts made of light alloys could significantly reduce the weight.\nModification (as well as repair of such weapons) only by Lanky, the weapons technician in Rostok</text>
+	</string>
+</string_table>

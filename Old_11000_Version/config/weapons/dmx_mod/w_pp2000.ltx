@@ -1,0 +1,173 @@
+;;;; TB3D 1.1.0.0.0.2 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+;Пистолет-пулемет ПП-2000
+[wpn_pp2000]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                  	= "weapons\pp2000"	; option for Level Editor
+$npc			 	= on		; option for Level Editor
+$prefetch 		 	= 8
+scheduled               	= off           ; option for ALife Simulator
+cform                   	= skeleton
+class                   	= WP_LR300
+min_radius              	= 0
+max_radius              	= 200
+description			= pp2000_desc
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier		= 1.0		; во сколько раз увеличивается eye_range 
+holder_fov_modifier		= 0.7		; во сколько раз увеличивается eye_fov
+;-----------------------------------------------------------------------------------
+
+
+weapon_class			= assault_rifle
+
+cost				= 3400
+
+ammo_limit		 	= 256
+ammo_current			= 64
+ammo_elapsed		 	= 32
+
+ammo_mag_size		 	= 21
+ammo_class		 	= ammo_9x19_fmj, ammo_9x19_pbp 
+fire_modes			= 1, 2, 3, -1
+
+hand_dependence		 	= 1
+single_handed			= 0
+
+inv_name			= wpn_pp2000
+inv_name_short			= wpn_pp2000
+inv_weight			= 1.4
+
+inv_grid_width     = 3
+inv_grid_height    = 2
+inv_grid_x         = 15
+inv_grid_y         = 79
+
+kill_msg_x			= 72
+kill_msg_y			= 82
+kill_msg_width			= 56
+kill_msg_height			= 23
+
+slot 				= 1		; // secondary
+animation_slot			= 1		; type of the animation that will be used
+
+;-----------------------------------------------------------------------------------
+;базовая дисперсия
+fire_dispersion_base		= 0.015		;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor		= 1.11f
+
+;отдача
+cam_relax_speed        		= 4.0		;скорость возврата в исходное положение
+cam_dispersion         		= 0.9		;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 0.1		;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 0.8		;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle			= 25.0		;максимальный угол отдачи
+cam_max_angle_horz		= 10.0		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 0.7		;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5		;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.003		;вероятность осечки при максимальном износе 
+misfire_condition_k		= 0.05
+condition_shot_dec 		= 0.0004		;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+
+direction                	= 0, 0, 1
+fire_point               	= 0.0, 0.148, 0.157
+
+flame_particles		   		= weapons\generic_weapon03
+smoke_particles		   		= weapons\generic_shoot_00
+
+shell_point		 			= 0.05, 0.148, 0.053
+shell_dir		 			= 0.0, 0.0, 0.4
+shell_particles	 			= weapons\generic_shells
+
+rpm_empty_click 	 		= 200
+
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 		= 0.6
+PDM_disp_accel_factor 		= 0.6
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+; ttc
+hit_power        		= 1.51
+hit_impulse		 	= 140
+hit_type 			= fire_wound
+
+fire_distance          		= 20					;;;109974 10:1
+bullet_speed			= 345			;начальная скорость пули
+rpm                    	 	= 700
+; end ttc
+
+use_aim_bullet			= true			;Поддерживается ли первая супер пуля
+time_to_aim			= 1.0	
+
+hud                     	= wpn_pp2000_hud
+normal                   	= 0, 1, 0
+position                 	= -0.021, -0.10, 0.0
+orientation              	= 0, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+; под мишкой
+;strap_position         		= -0.1,-0.45,0.2			; position (offset) and orientation of the weapon when it is strapped
+;strap_orientation      		= 1.57,0,0						; (3rd person view)
+;strap_bone0					= bip01_spine2
+;strap_bone1					= bip01_spine1
+
+startup_ammo            	= 1000
+visual                  	= weapons\pp2000\wpn_pp2000.ogf
+
+light_color		 			= 0.6,0.5,0.3
+light_range		 			= 3.0
+light_var_color		 		= 0.05
+light_var_range		 		= 0.5
+light_time 		 			= 0.2
+
+ph_mass			 			= 1
+
+;addons
+scope_status			= 0
+silencer_status			= 0
+grenade_launcher_status		= 0
+
+zoom_enabled			= true
+scope_zoom_factor	    	= 90
+
+;звуки
+snd_draw					= weapons\pp2000\draw
+snd_holster					= weapons\pp2000\holster
+snd_shoot					= weapons\pp2000\pp2000_shot         
+snd_empty					= weapons\pp2000\empty
+snd_reload					= weapons\pp2000\reload
+snd_close					= weapons\pp2000\draw
+
+
+
+[wpn_pp2000_hud]
+
+shell_point			= 0,0,-0.5
+fire_point			= 0,0,-0.62
+	
+fire_bone                	= muzzle	;wpn_body  ; - aleks1970
+orientation              	= 0,0,0
+position                 	= 0.15,-0.10,0.3
+
+visual                  	= weapons\pp2000\wpn_pp2000_hud.ogf
+
+anim_holster				= holster
+anim_idle					= idle
+anim_reload					= reload_full
+anim_draw					= draw
+anim_shoot					= shoot	
+anim_idle_aim				= idle_aim
+anim_idle_sprint			= idle_sprint
+
+;смещения HUD для режима приближения
+zoom_offset			= -0.15,0.10,0
+zoom_rotate_x		= 0
+zoom_rotate_y		= 0
+

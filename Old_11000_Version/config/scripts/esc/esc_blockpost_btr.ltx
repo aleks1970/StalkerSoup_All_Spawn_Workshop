@@ -1,0 +1,37 @@
+;;;TB3D 1.0.9.9.3.3
+[logic]
+active = ph_car@idle
+on_hit = hit
+
+[hit]
+on_info = %+esc_blockpost_alarm%
+
+[ph_car@idle]
+target=actor        ; цель
+fire_range=60       ; дальность стрельбы
+fire_time = 20
+fire_repeat=50
+auto_fire=true      ; авто-огонь
+track_target=true   ; следить ли стволом за целью
+on_info = {=gulag_casualities_ge(esc_blokpost:5)} ph_car@eliminate, {+esc_blockpost_alarm} ph_car@eliminate, {+actor_propusk_info} ph_car@no_fire_actor
+on_death_info = esc_btr_killed
+
+[ph_car@eliminate]
+target=actor
+fire_range=100
+fire_time = 20
+fire_repeat=50
+auto_fire=true
+track_target=true
+on_info = {+esc_blockpost_normal} ph_car@idle
+on_death_info = esc_btr_killed
+
+[ph_car@no_fire_actor]
+target=nil
+fire_range=0
+fire_time = 20
+fire_repeat=50
+auto_fire=false
+track_target=false
+on_info = {=gulag_casualities_ge(esc_blokpost:5)} ph_car@eliminate, {+esc_blockpost_alarm} ph_car@eliminate
+on_death_info = esc_btr_killed

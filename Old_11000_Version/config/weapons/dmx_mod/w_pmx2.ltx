@@ -1,0 +1,345 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[wpn_pmx1]:identity_immunities
+GroupControlSection			= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                   	= "weapons\pm"					; option for Level Editor
+$npc			 			= on		; option for Level Editor
+$prefetch 					= 8
+scheduled            		= off              ; option for ALife Simulator
+cform                    	= skeleton
+class                    	= WP_PM
+min_radius               	= 0
+max_radius               	= 100
+description					= enc_weapons1_wpn-pmx1
+ef_weapon_type				= 5
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0               ; во сколько раз увеличивается eye_range 
+holder_fov_modifier		= 1.0              ; во сколько раз увеличивается eye_fov
+;-----------------------------------------------------------------------------------
+cost					 	= 280
+weapon_class                = pistol
+
+ammo_limit		 			= 120
+ammo_current		 		= 96
+ammo_elapsed		 		= 8
+ammo_mag_size		 		= 9
+ammo_class		 			= ammo_9x18_fmj
+hand_dependence			 	= 1
+
+slot 				 		= 1
+animation_slot		 		= 1		
+single_handed				= 1
+
+inv_name					= wpn-pmx1
+inv_name_short				= wpn-pmx1
+inv_weight					= 0.73
+
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 79
+inv_grid_y					= 74
+
+kill_msg_x			= 227
+kill_msg_y			= 82
+kill_msg_width		= 27
+kill_msg_height		= 23
+;-----------------------------------------------------------------------------------
+;базовая дисперсия
+fire_dispersion_base		= 0.02 	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+
+;отдача
+cam_relax_speed         	= 8;1.0	;скорость возврата в исходное положение
+cam_dispersion          	= 0.4	;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 0.0	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 1.0	;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle			= 20.0	;максимальный угол отдачи
+cam_max_angle_horz		= 5.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 1.0	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor= 5	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.003	;вероятность осечки при максимальном износе 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.0003 ;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+direction                	= 0, 0, 1
+fire_point               	= 0.0, 0.127, 0.117
+
+flame_particles				= weapons\generic_weapon03
+smoke_particles				= weapons\generic_shoot_00
+
+shell_point		 			= 0.00, 0.127, 0.03
+shell_dir		 			= 0.0, 0.0, 0.4
+rpm_empty_click 	 		= 100
+
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 		= 0.7
+PDM_disp_accel_factor 		= 0.7
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+; ttc
+hit_power               = 0.90
+hit_impulse		 		= 100
+hit_type = fire_wound
+
+fire_distance           = 100					;;;109974 10:1
+bullet_speed			= 330	;начальная скорость пули
+rpm                     = 250
+; end ttc
+
+use_aim_bullet				= true		;Поддерживается ли первая суппер пуля
+time_to_aim					= 1.0	
+
+hud                      	= wpn_pmx1_hud
+normal                   	= 0, 1, 0
+position                 	= -0.021, -0.09, 0.0
+orientation              	= 0, 0, 1
+;--STRAP PARAMETERS-----------------------------------------------------------------
+visual                   	= weapons\pmx2\wpn_pm.ogf
+
+light_color		 			= 0.6,0.5,0.3
+light_range		 			= 3.0
+light_var_color		 		= 0.05
+light_var_range		 		= 0.5
+light_time 		 			= 0.2
+
+ph_mass			 			= 1
+
+;addons
+scope_status				= 0
+silencer_status				= 0
+grenade_launcher_status		= 0
+
+zoom_enabled				= true
+scope_zoom_factor	    	= 90
+
+;звуки
+snd_reload					= weapons\pm\cs_pm_reload
+snd_draw					= weapons\pm\pm_draw
+snd_holster					= weapons\pistol_holster
+snd_shoot					= weapons\pm\pm_shoot
+snd_shoot1					= weapons\pm\pm_shoot1
+snd_shoot2					= weapons\pm\pm_shoot2
+snd_shoot3					= weapons\pm\pm_shoot3
+snd_empty					= weapons\pm\pm_empty
+snd_close					= weapons\pm\pm_close
+;snd_silncer_shot			= weapons\pm\pm_shot_sil	; aleks1970
+
+weapon_remove_time			= 5000
+silencer_name  				= wpn_addon_silencer		; section name for the attachable silencer
+silencer_x 					= 37						; offset in inventory icon
+silencer_y 					= -15					
+silencer_smoke_particles 	= weapons\generic_shoot_00
+snd_silncer_shot			= weapons\w_ak74_shot1 
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+ 
+[wpn_pmx1_hud]
+shell_point			= -0.330000,-0.010000,0.050000
+fire_point			= -0.000000,0.050000,-0.053000
+fire_bone                	= wpn_body
+orientation              	= 2,3,0
+position                 	= -0.03,-0.16,0
+visual                   	= weapons\pmx2\wpn_pm_hud.ogf
+
+anim_holster				= holster
+anim_idle					= idle
+anim_empty					= idle_empty
+anim_reload					= reload_old
+anim_reload_empty			= reload_old
+anim_draw					= draw
+anim_draw_empty				= draw_empty
+anim_shoot					= shoot
+anim_shot_last				= shoot_last
+anim_close					= holster_empty
+anim_idle_aim				= idle_aim
+anim_idle_sprint			= idle_sprint
+
+;смещения HUD для режима приближения
+zoom_offset			= -0.088600,0.040800,-0.060000
+zoom_rotate_x		= 0.040800
+zoom_rotate_y		= 0.030500
+
+zoom_hide_crosshair	= true						;to hide crosshair in zoom 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[wpn_pmx2]:identity_immunities
+GroupControlSection			= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                   	= "weapons\pm"					; option for Level Editor
+$npc			 			= on		; option for Level Editor
+$prefetch 					= 8
+scheduled            		= off              ; option for ALife Simulator
+cform                    	= skeleton
+class                    	= WP_PM
+min_radius               	= 0
+max_radius               	= 100
+description					= enc_weapons1_wpn-pmx1
+ef_weapon_type				= 5
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0               ; во сколько раз увеличивается eye_range 
+holder_fov_modifier		= 1.0              ; во сколько раз увеличивается eye_fov
+;-----------------------------------------------------------------------------------
+cost					 	= 280
+weapon_class                = pistol
+
+ammo_limit		 			= 120
+ammo_current		 		= 96
+ammo_elapsed		 		= 8
+ammo_mag_size		 		= 17
+ammo_class		 			= ammo_9x18_fmj
+hand_dependence			 	= 1
+
+slot 				 		= 2
+animation_slot		 		= 1		; type of the animation that will be used
+single_handed				= 1
+
+inv_name					= wpn-pmx1
+inv_name_short				= wpn-pmx1
+inv_weight					= 0.73
+
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 79
+inv_grid_y					= 74
+
+kill_msg_x			= 227
+kill_msg_y			= 82
+kill_msg_width		= 27
+kill_msg_height		= 23
+;-----------------------------------------------------------------------------------
+;базовая дисперсия
+fire_dispersion_base		= 0.02 	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+
+;отдача
+cam_relax_speed         	= 8;1.0	;скорость возврата в исходное положение
+cam_dispersion          	= 1.4	;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 0.03	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 1.1	;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle			= 20.0	;максимальный угол отдачи
+cam_max_angle_horz		= 5.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 1.0	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor= 5	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.003	;вероятность осечки при максимальном износе 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.0003 ;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+direction                	= 0, 0, 1
+fire_point               	= 0.0, 0.127, 0.117
+
+flame_particles				= weapons\generic_weapon03
+smoke_particles				= weapons\generic_shoot_00
+
+shell_point		 			= 0.00, 0.127, 0.03
+shell_dir		 			= 0.0, 0.0, 0.4
+shell_particles	 			= weapons\generic_weapon03
+
+rpm_empty_click 	 		= 100
+
+PDM_disp_base 			    = 1.0
+PDM_disp_vel_factor 		= 0.7
+PDM_disp_accel_factor 		= 0.7
+PDM_crouch	 		        = 1.0
+PDM_crouch_no_acc 		    = 1.0
+
+; ttc
+hit_power               = 0.91
+hit_impulse		 		= 140
+hit_type                = fire_wound
+
+fire_distance           = 100					;;;109974 10:1
+bullet_speed			= 335 	;начальная скорость пули
+rpm                     = 250
+; end ttc
+
+use_aim_bullet				= true		;Поддерживается ли первая супер пуля
+time_to_aim					= 1.0	
+
+hud                      	= wpn_pmx2_hud
+normal                   	= 0, 1, 0
+position                 	= -0.021, -0.09, 0.0
+orientation              	= 0, 0, 1
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+visual                   	= weapons\pmx2\wpn_pm.ogf
+
+light_color		 			= 0.6,0.5,0.3
+light_range		 			= 3.0
+light_var_color		 		= 0.05
+light_var_range		 		= 0.5
+light_time 		 			= 0.2
+
+ph_mass			 			= 1
+
+;addons
+scope_status				= 0
+silencer_status				= 0
+grenade_launcher_status		= 0
+
+zoom_enabled				= false ;true
+scope_zoom_factor	    	= 90
+
+;звуки
+snd_reload					= weapons\pm\pmx2_reload
+snd_draw					= weapons\pm\pm_draw
+snd_holster					= weapons\pistol_holster
+snd_shoot					= weapons\pm\pm_shoot
+snd_shoot1					= weapons\pm\pm_shoot1
+snd_shoot2					= weapons\pm\pm_shoot2
+snd_shoot3					= weapons\pm\pm_shoot3
+snd_empty					= weapons\pm\pm_empty
+snd_close					= weapons\pm\pm_close
+snd_silncer_shot			= weapons\pm\pm_shot_sil
+
+weapon_remove_time			= 5000
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; silencer
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+silencer_name  				= wpn_addon_silencer		; section name for the attachable silencer
+silencer_x 					= 37						; offset in inventory icon
+silencer_y 					= -15					
+
+silencer_smoke_particles 	= weapons\generic_shoot_00
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+ 
+[wpn_pmx2_hud]
+;shell_point			= -0.330000,-0.010000,0.050000	; aleks1970
+shell_point          	= 0.45, -0.29, 0.20
+shell_dir		 		=    0.0, 0.0, 0.0
+
+fire_point			= -0.150000,-0.200000,0.137000
+fire_bone                	= wpn_body
+orientation              	= 0,0,0
+position                 	= -0.05,-0.14,0.2
+visual                   	= weapons\pmx2\wpn_pmx2_hud.ogf
+
+anim_holster				= holster
+anim_idle					= idle
+anim_empty					= idle_empty
+anim_reload					= reload
+anim_reload_empty			= reload_empty
+anim_draw					= draw
+anim_draw_empty				= draw_empty
+anim_shoot					= shoot
+anim_shot_last				= shoot_last
+anim_close					= holster_empty
+anim_idle_aim				= idle
+anim_idle_sprint			= idle_sprint
+anim_idle_sprint_empty			= idle_sprint_empty
+
+;смещения HUD для режима приближения
+zoom_offset			= -0.163600,0.066800,-0.060000
+zoom_rotate_x		= 0.003800
+zoom_rotate_y		= -0.000500
+zoom_hide_crosshair	= true						;to hide crosshair in zoom 

@@ -1,0 +1,63 @@
+;<!-- TB3D 1.0.9.9.9.8, aleks1970 -->
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;AMK 1.4.1  
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+[amk_zapiska]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      = "devices\quest_items\yan_x16_documents" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+description       	= enc_amk_zapiska_descr
+$prefetch     = 64
+
+radius=1
+cost           = 100
+
+inv_name    		= amk_zapiska
+inv_name_short   	= amk_zapiska_s
+inv_weight    = 1
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+
+[oceanic815]:vodka
+$spawn                 = "food and drugs\energy_drink"
+inv_name               = energy_drink_name_dbeer
+inv_name_short         = energy_drink_name_dbeer_short
+visual                 = amk\item_zapiska2.ogf
+description            = enc_equipment_energydrinka
+cost                   = 750
+
+inv_grid_width        = 1
+inv_grid_height        = 1
+inv_grid_x            = 15
+inv_grid_y            = 52
+inv_weight            = 0.3
+
+eat_health		= 0
+eat_satiety		= 0.01
+eat_power		= 0
+eat_radiation	= -0.3
+eat_alcohol		= 0.3
+wounds_heal_perc 	= 0
+eat_portions_num 	= -1
+

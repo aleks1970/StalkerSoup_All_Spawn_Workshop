@@ -1,0 +1,201 @@
+;;;; TB3D 1.1.0.0.0.2 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+;ќгнемет √роза из «оны ѕоражени€ 2	;Groza ognjemet
+[wpn_rg10_ognemet]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                   = "weapons\ognemet"				
+$npc					= on			
+$prefetch 				= 16
+scheduled				= off             
+cform                   = skeleton
+class                   = WP_GROZA
+min_radius              = 0
+max_radius              = 20
+description				= enc_weapons1_rg10_ognemet
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+holder_range_modifier	= 1.0		      
+holder_fov_modifier		= 0.7
+cost					= 42000
+weapon_class			= assault_rifle
+
+ammo_limit				= 210
+ammo_current			= 180
+ammo_elapsed			= 20
+
+ammo_mag_size		 	= 30
+ammo_class		 		= ammo_balon_rg10
+fire_modes				=  -1
+launch_speed			= 0
+
+grenade_class			= ammo_vog-25, ammo_vog-25p,
+hand_dependence		 	= 1
+single_handed			= 0
+slot 					= 2
+animation_slot			= 8		
+
+inv_name	         	= wpn-rg10_ognemet
+inv_name_short		 	= wpn-rg10_ognemet
+inv_weight		 		= 5.2
+
+inv_grid_width			= 4
+inv_grid_height			= 2
+inv_grid_x				= 19
+inv_grid_y				= 75
+
+kill_msg_x			= 67
+kill_msg_y			= 123
+kill_msg_width		= 64
+kill_msg_height		= 30
+
+;базова€ дисперси€
+fire_dispersion_base		= 0.018	;угол (в градусах) базовой дисперсии оружи€ (оружи€ зажатого в тисках)
+control_inertion_factor		= 1.05f
+
+;отдача
+cam_relax_speed         	= 5.2;0.3	;скорость возврата в исходное положение
+cam_dispersion          	= 0.3	;увеличени€ угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 0.12	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 0.75	;ствол будет подыматьс€ на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle			= 8.5	;максимальный угол отдачи
+cam_max_angle_horz		= 9.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 0.85	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.003	;веро€тность осечки при максимальном износе 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.00001	;увеличение износа при каждом выстреле
+
+direction               = 0, 0, 1
+fire_point              = 0.0, 0.194, 0.274
+flame_particles		    = amk\firebat ;static\monsters_fire_stop
+smoke_particles			= weapons\generic_shoot_00
+grenade_flame_particles = 
+
+shell_point				= 0.0, 0.194, 0.04
+shell_dir				= 0.0, 1.0, 0.0
+shell_particles			= weapons\generic_shells
+rpm_empty_click 		= 200
+
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 		= 1.1
+PDM_disp_accel_factor 		= 1.1
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+hit_power           = 1.5
+hit_impulse		 	= 0
+hit_type 			= fire_wound
+fire_distance           = 30
+bullet_speed			= 100
+rpm                    	= 120
+use_aim_bullet			= true		;ѕоддерживаетс€ ли перва€ супер пул€
+time_to_aim				= 1.0	
+grenade_vel			    = 76
+
+hud                     = wpn_ognemet_rg10_hud
+normal                  = 0, 1, 0
+position                = -0.026, -0.144, 0.0
+orientation      	    = 0, 0, 0
+
+strap_position         		= -0.15,-0.38,0.35		
+strap_orientation      		= -10,-5,10					
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+startup_ammo            = 90
+visual                  = weapons\ognemet\wpn_ognemet.ogf
+
+light_color		 		= 0.6,0.5,0.3
+light_range		 		= 5
+light_var_color		 	= 0.05
+light_var_range		 	= 0.5
+light_time 		 		= 0.2
+ph_mass			 		= 5
+
+scope_status			= 0
+silencer_status			= 0
+grenade_launcher_status	= 1
+
+zoom_enabled			= true
+scope_zoom_factor	    = 90	
+
+scope_name 					= wpn_addon_scope	
+scope_x 					= 63	
+scope_y 					= -1
+silencer_name  				= wpn_addon_silencer	
+silencer_x 					= 180	
+silencer_y 					= 16	
+grenade_launcher_name       =
+grenade_launcher_x          =
+grenade_launcher_y          =			
+
+snd_draw			= weapons\ognemet\draw
+snd_holster			= weapons\ognemet\holster
+snd_shoot		    = weapons\ognemet\wpn_rg10_stream
+snd_shoot1			= weapons\ognemet\wpn_rg10_stream
+snd_empty			= weapons\gen_empty, 0.5
+snd_reload			= weapons\ognemet\reload
+snd_shoot_grenade	= weapons\ognemet\grenshoot
+snd_reload_grenade	= weapons\ognemet\grenload
+snd_switch			= weapons\ognemet\switch
+snd_silncer_shot	= weapons\w_ak74_shot1 
+
+wallmark_section			= explosion_marks
+silencer_flame_particles 	= weapons\generic_weapon00
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+silencer_light_color		= 0.3, 1.0, 0.3
+silencer_light_range		= 4.0
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+[wpn_ognemet_rg10_hud]
+allow_inertion			= true
+shell_point             = 0,0,-0.6
+shell_dir		 		= 0.0, 1.0, 0.0
+
+fire_point			    = 0,0,-0.5
+fire_bone               = muzzle	;wpn_body  ; - aleks1970
+
+orientation             = 0, 0, 0
+position                = 0.15,-0.02,0.02
+visual                  = weapons\ognemet\wpn_ognemet_hud.ogf
+grenade_bone            = grenade
+
+anim_idle		= idle
+anim_idle_aim	= idle_aim
+anim_reload		= reload
+anim_draw		= draw
+anim_holster	= holster
+anim_shoot		= shoot
+anim_idle_sprint = idle_sprint
+
+anim_idle_g				= idle_g
+anim_reload_g			= reload_g
+anim_shoot_g			= shoot_g
+anim_switch_grenade_on	= switch_g
+anim_switch_grenade_off	= switch
+anim_draw_g				= draw
+anim_holster_g			= holster
+
+anim_idle_gl			= idle
+anim_reload_gl			= reload
+anim_draw_gl			= draw
+anim_holster_gl			= holster
+anim_shoot_gl			= shoot
+anim_idle_g_aim         	= idle_g_aim
+anim_idle_gl_aim        	= idle_aim
+
+zoom_offset			= -0.15,0.02,-0.01
+zoom_rotate_x		= 0
+zoom_rotate_y		= 0
+
+grenade_zoom_offset			= 0,0,0
+grenade_zoom_rotate_x		= -0
+grenade_zoom_rotate_y		= 0
+zoom_hide_crosshair	        = true						

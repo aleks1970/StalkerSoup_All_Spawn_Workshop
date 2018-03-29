@@ -1,0 +1,211 @@
+<!-- ************ TB3D 1.0.9.9.8.4 new inv and dialogs, 100% localized *************** -->
+<xml>
+	<!-- ***************MONOLIT REGULAR with RPG*************** -->
+	<specific_character id="aes2_Monolit_rpg" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_mask</icon>
+		<map_icon x="3" y="0"/>
+		<bio>bio_Monolit_specnaz_rg6</bio>
+		<team>Monolit_rpg</team>
+		<class>aes_Monolit_rpg</class>
+		<community>monolith</community>
+		<snd_config>characters_voice\human_01\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<panic_threshold>0.0</panic_threshold>
+		<visual>actors\monolit\stalker_mo_mask</visual>
+#include "inventory\mil_rpg_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\mon_aes.xml"
+	</specific_character>
+	<!-- ***************MONOLIT SPECNAZ*************** -->
+	<specific_character id="aes2_Monolit_specnaz" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_soldier_bandana_9</icon>
+		<map_icon x="3" y="0"/>
+		<bio>aes_Monolit_specnaz_bio</bio>
+		<class>aes_Monolit_specnaz</class>
+		<community>monolith</community>
+		<rank>700</rank>
+		<reputation>0</reputation>
+		<panic_threshold>0.0</panic_threshold>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\bandit\stalker_arhara1</visual>
+#include "inventory\mil_spec_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\mon_aes.xml"
+  </specific_character>
+	<!-- ***************MONOLIT SPECNAZ RG6*************** -->
+	<specific_character id="aes2_Monolit_specnaz_rg6" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_hood_9</icon>
+		<map_icon x="3" y="0"/>
+		<bio>bio_Monolit_specnaz_rg6</bio>
+		<class>aes_Monolit_specnaz_rg6</class>
+		<community>monolith</community>
+		<rank>700</rank>
+		<reputation>0</reputation>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\monolit\stalker_mo_hood_9</visual>
+#include "inventory\mil_rg6_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\mon_aes.xml"
+  </specific_character>
+	<!-- ***************MONOLIT SNIPER*************** -->
+	<specific_character id="aes2_Monolit_sniper" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_head_1</icon>
+		<map_icon x="3" y="0"/>
+		<bio>bio_aes_Monolit_sniper_gauss</bio>
+		<class>aes_Monolit_sniper</class>
+		<community>monolith</community>
+		<rank>500</rank>
+		<reputation>0</reputation>
+		<panic_threshold>0.0</panic_threshold>
+		<snd_config>characters_voice\human_02\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\monolit\stalker_mo_head_1</visual>
+#include "inventory\mil_snpr_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\mon_aes.xml"
+  </specific_character>
+	<!-- ***************MONOLIT SNIPER GAUSS*************** -->
+	<specific_character id="aes2_Monolit_sniper_gauss" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_mask</icon>
+		<map_icon x="3" y="0"/>
+		<bio>bio_aes_Monolit_sniper_gauss</bio>
+		<class>aes_Monolit_sniper_gauss</class>
+		<community>monolith</community>
+		<rank>500</rank>
+		<reputation>0</reputation>
+		<snd_config>characters_voice\human_01\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_threshold>0.0</panic_threshold>
+		<visual>actors\monolit\stalker_mo_mask</visual>
+#include "inventory\mil_gauss_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\mon_aes.xml"
+  </specific_character>
+	<!-- ***************MONOLIT MASTER*************** -->
+	<specific_character id="aes2_Monolit_master" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="3" y="0"/>
+		<bio>bio_aes_Monolit_master</bio>
+		<class>aes_Monolit_master</class>
+		<community>monolith</community>
+		<rank>900</rank>
+		<reputation>0</reputation>
+		<panic_threshold>0.0</panic_threshold>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+#include "inventory\soldier_commander_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\mon_aes.xml"
+  </specific_character>
+	<!-- ***************SOLDIERS PROFILES*************** -->
+	<!-- ***************SOLDIER COMMANDER*************** -->
+	<specific_character id="aes2_Soldier_commander" team_default="1">
+		<name>GENERATE_NAME_captain</name>
+		<icon>ui_npc_u_soldier_beret_5</icon>
+		<map_icon x="2" y="0"/>
+		<bio>Detailed information unavailable.</bio>
+		<class>aes_Soldier_commander</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<panic_threshold>0.0</panic_threshold>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\soldier\soldier_beret_5</visual>		
+#include "inventory\soldier_commander_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\mon_aes.xml"
+	</specific_character>
+	<!-- ***************SOLDIER MASTER*************** -->
+	<specific_character id="aes2_Soldier_military" team_default="1">
+		<name>GENERATE_NAME_lieutenant</name>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
+		<map_icon x="2" y="2"/>
+		<bio>aes_Soldier_military_bio</bio>
+		<team>Soldier_military</team>
+		<class>aes_Soldier_military</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<snd_config>characters_voice\human_03\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<rank>900</rank>
+		<reputation>0</reputation>
+		<panic_threshold>0.0</panic_threshold>
+		<visual>actors\militari\stalker_militari_antigas_2</visual>		
+#include "inventory\soldier_master_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\mon_aes.xml"
+	</specific_character>
+	<!-- ***************SOLDIER SPECNAZ*************** -->
+	<specific_character id="aes2_Soldier_specnaz" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_antigas</icon>
+		<map_icon x="12" y="4"/>
+		<bio>aes_Soldier_specnaz_aes_bio</bio>
+		<team>Soldier_specnaz</team>
+		<class>aes_Soldier_specnaz</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>800</rank>
+		<reputation>0</reputation>
+		<panic_threshold>0.0</panic_threshold>
+		<snd_config>characters_voice\human_03\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\soldier\soldier_antigas</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\mon_aes.xml"
+	</specific_character>
+	<!-- ***************SOLDIER SPECNAZ AES*************** -->
+	<specific_character id="aes2_Soldier_specnaz_aes" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
+		<map_icon x="2" y="2"/>
+		<bio>aes_Soldier_specnaz_aes_bio</bio>
+		<team>Soldier_specnaz</team>
+		<class>aes_Soldier_specnaz_aes</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>800</rank>
+		<reputation>0</reputation>
+		<snd_config>characters_voice\human_03\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<panic_threshold>0.0</panic_threshold>
+		<visual>actors\militari\stalker_militari_antigas_2</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************SOLDIER SNIPER*************** -->
+	<specific_character id="aes2_Soldier_sniper" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_stalker_militari_1</icon>
+		<map_icon x="1" y="2"/>
+		<bio>bio_aes_ordinary_soldier</bio>
+		<team>Soldier_sniper</team>
+		<class>aes_Soldier_sniper</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<snd_config>characters_voice\human_03\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_threshold>0.0</panic_threshold>
+		<visual>actors\militari\stalker_militari_1</visual>		
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\mon_aes.xml"
+	</specific_character>
+</xml>

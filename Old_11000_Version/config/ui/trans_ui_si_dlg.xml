@@ -1,0 +1,131 @@
+<!-- ************ TB3D 1.0.9.9.7.0 *************** -->
+<ui_si>
+	<back_video x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>ui\credits_back_512_v10</texture>
+	</back_video>
+	<background x="137" y="34" width="750" height="700" stretch="1">
+		<texture>ui_myframe</texture>
+		<text x="30" y="10">translation_and_info_ui</text>
+	</background>
+	<list x="152" y="144" width="718" height="575" item_height="16">
+		<font font="letterica16" r="216" g="186" b="140"/>
+	</list>
+	<!-- *************** *********************************************************************** *************** -->
+	<btn_info_ammo x="152" y="69" width="115" height="28">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>translation_cartridges_ui</text>
+	</btn_info_ammo>
+	<btn_info_wpn x="267" y="69" width="115" height="28">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>translation_of_arms_ui</text>
+	</btn_info_wpn>
+	<btn_info_art x="382" y="69" width="115" height="28">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>translation_artifacts_ui</text>
+	</btn_info_art>
+	<btn_info_item x="497" y="69" width="115" height="28">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>translation_articles_ui</text>
+	</btn_info_item>
+	<!-- *************** **************************************************************** *************** -->
+	<btn_info_outf x="152" y="100" width="115" height="28">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>translation_armor_ui</text>
+	</btn_info_outf>
+	<btn_info_stalker x="267" y="100" width="115" height="28">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>perkvod_npc_ui</text>
+	</btn_info_stalker>
+	<btn_hot_key x="382" y="100" width="115" height="28">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>hot_fold_ui</text>
+	</btn_hot_key>
+	<btn_guide x="497" y="100" width="115" height="28">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>guide_to_acs_ui</text>
+	</btn_guide>
+	<!-- *************** **************************************************************** *************** -->
+	<btn_create x="756" y="68" width="115" height="28">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>ok_1_ui</text>
+	</btn_create>
+	<btn_close x="756" y="99" width="115" height="28">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>exit_ui</text>
+	</btn_close>
+	<btn_info_weather x="626" y="104" width="56" height="28">
+		<texture_e>ui_mybtn_back_d</texture_e>
+		<texture_t>ui_mybtn_back_e</texture_t>
+		<texture_h>ui_mybtn_back_h</texture_h>
+		<text>weather_ui</text>
+	</btn_info_weather>
+	<btn_info_group x="625" y="69" width="115" height="28">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>groups_ui</text>
+	</btn_info_group>
+	<btn_info_teleport x="682" y="104" width="56" height="28">
+		<texture_e>ui_mybtn_next_d</texture_e>
+		<texture_t>ui_mybtn_next_e</texture_t>
+		<texture_h>ui_mybtn_next_h</texture_h>
+		<text>teleport_ui</text>
+	</btn_info_teleport>
+	<!-- *************** **************************************************************** *************** -->
+	<dialog x="450" y="470" width="510" height="206">
+		<texture>ui_frame_error</texture>
+	</dialog>
+	<capt x="90" y="4" width="200" height="29">
+		<text font="graffiti19" color="ui_6">teleport_by_name_ui</text>
+	</capt>
+	<msg2 x="215" y="50" width="200" height="30">
+		<text font="letterica18" color="ui_6">location_name_from_list_ui</text>
+	</msg2>
+	<msg x="180" y="55" width="200" height="30">
+		<text font="letterica18" color="ui_6"/>
+	</msg>
+	<edit_box x="200" y="85" width="70" height="23">
+		<texture>ui_linetext_e</texture>
+		<text font="letterica18" r="240" g="217" b="182"/>
+	</edit_box>
+	<edit_box2 x="290" y="85" width="70" height="23">
+		<texture>ui_linetext_e</texture>
+		<text font="letterica18" r="240" g="217" b="182"/>
+	</edit_box2>
+	<edit_box3 x="380" y="85" width="70" height="23">
+		<texture>ui_linetext_e</texture>
+		<text font="letterica18" r="240" g="217" b="182"/>
+	</edit_box3>
+	<btn_1 x="26" y="85" width="117" height="29">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>move_ui</text>
+	</btn_1>
+	<btn_quit x="30" y="100" width="117" height="29">
+		<texture_e>ui_button_tablist_d</texture_e>
+		<texture_t>ui_button_tablist_e</texture_t>
+		<texture_h>ui_button_tablist_h</texture_h>
+		<text>exit_ui</text>
+	</btn_quit>
+</ui_si>

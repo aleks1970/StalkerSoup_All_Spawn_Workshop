@@ -1,0 +1,97 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[grenade_an_m14]:identity_immunities
+grenade_remove_time		= 60000
+detonation_threshold_hit= 200
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 					= "weapons\grenades\f1"
+$prefetch				= 128
+class					= G_F1
+cform					= skeleton
+visual					= weapons\grm14\wpn_an_m14.ogf
+inv_name				= grenade-m14
+inv_name_short			= grenade-m14
+inv_weight				= 0.7
+description				= enc_weapons1_grenade-m14
+ef_weapon_type			= 10
+
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 21
+inv_grid_y				= 65
+
+kill_msg_x				= 1
+kill_msg_y				= 232
+kill_msg_width			= 13
+kill_msg_height			= 23
+
+animation_slot			= 7
+single_handed			= 1
+
+slot					= 3
+hud						= grenade_an_m14_hud
+force_min				= 10	; ~30% от максимума
+force_const				= 25;20
+force_max				= 30
+force_grow_speed		= 15
+
+destroy_time			= 2500
+cost					= 200
+
+blast					= 3.00
+blast_r					= 12
+blast_impulse			= 500
+blast_impulse_factor	= 1
+
+frags					= 12
+frags_r					= 20
+frag_hit				= 1.50
+frag_hit_impulse		= 240
+
+hit_type_blast			= explosion
+hit_type_frag			= fire_wound
+up_throw_factor			= 1.2
+explode_particles		= amik\explosion\explosion_f1
+
+light_color		         = 1.9,1.4,0.5
+light_range		         = 25.0
+light_time 		         = 0.85
+
+fragment_speed			= 50
+explode_duration		= 3		;подолжительность взрыва (с)
+snd_explode             = weapons\m61_grenade_exp 
+snd_checkout            = weapons\generic_checkout
+
+attach_position_offset	= -0.053,-0.089,0.0
+attach_angle_offset		= 0,0,0
+attach_bone_name		= 
+
+bone_name				= bip01_r_hand
+position_offset			= 0.0,0.0,0.0
+angle_offset			= 1.570790,1.570790,3.92699
+
+throw_point				 = 0,0.3,0.2
+throw_dir				 = 0,0,1
+wm_size                  = 0.1
+wallmark_section		 = explosion_marks
+
+[grenade_an_m14_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = grenade_0
+
+orientation         = 0,0,0
+position            = 0,0,0.1
+visual              = weapons\grm14\wpn_an_m14_hud.ogf
+
+throw_point				 = 0.0,0.4,0.3
+throw_dir				 = 0,0,1
+
+anim_show			= draw
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end

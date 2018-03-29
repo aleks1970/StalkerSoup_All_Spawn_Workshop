@@ -1,0 +1,203 @@
+;<!-- TB3D 1.0.1e -->
+[zone_fountain]
+GroupControlSection   = spawn_group_zone
+$spawn                = "zones\mincer zone"
+$prefetch             = 16
+class                 = ZS_ZHARK  
+script_binding        = amk_anoms.bind
+
+hit_impulse_scale     = 0.0
+effective_radius	   = 3.0 
+ef_anomaly_type       = 1
+ef_weapon_type        = 13
+
+sound                = zone_mosquito_bald
+postprocess          = postprocess_flame
+
+artefacts             = af_ameba_slime, 0.5, af_ameba_slug, 0.3, af_ameba_mica, 0.2
+BirthProbability      = 0.1
+
+;----------- Anomaly settings -----------------------
+min_start_power       = 0.99
+max_start_power       = 1.00
+attenuation           = 1
+period                = 1
+min_artefact_count    = 0
+max_artefact_count    = 0
+
+idle_particles        =   ;static\buble_distort001
+blowout_particles     =   ;anomaly2\artefact\anom_fontan 
+
+hit_small_particles     = anomaly2\electra_entrance_small
+hit_big_particles       = anomaly2\electra_entrance_small
+idle_small_particles    = anomaly2\artefact\fontan_aya
+idle_big_particles      = anomaly2\artefact\fontan_aya
+
+;idle_particles_dont_stop	= true;
+
+idle_sound          = anomaly\fountain_idle            ;constant sound
+blowout_sound       = anomaly\fountain_blowout   ;during ejection (stroke) in the center of the anomaly 
+hit_sound           = anomaly\fountain_hit               ;on the character when he gets hit
+entrance_sound      = anomaly\fountain_hit                    ;in contact with the object of an anomaly
+
+hit_type                     =  strike;chemical_burn ;explosions\expl_02_sparks 
+
+disable_time				= 50000	  ;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small			= 50000	  ;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time			= 700  ;timeout idle partiklov
+
+ignore_nonalive       = true
+ignore_small          = false
+ignore_artefacts      = true
+
+blowout_light		    = on
+light_color		    = 0.5,0.7,0.9
+light_range		    = 10.0
+light_time 		    = 3
+light_height           = 3               ;rise to the height of the light source
+
+idle_light                   = off
+
+awaking_time				= 45
+blowout_time				= 300	
+accamulate_time			= 200
+
+
+visible_by_detector         = off
+
+;; ветер
+blowout_wind                = off
+
+blowout_wind_time_start     = 0
+blowout_wind_time_peak      = 5900
+blowout_wind_time_end       = 1000;9999
+blowout_wind_power          = 0.5               ;Wind power raises (from 0 to 1), at the moment blowout_wind_time_peak 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during the operation
+spawn_blowout_artefacts     = on
+
+artefact_spawn_probability  = 0.09                ;the probability that during the operation of the anomalies will be born artifact
+artefact_spawn_particles   = anomaly2\gravi_anomaly_shield_00  ;partikly, who played in the birth place of the artifact (optional)
+artefact_born_sound        = anomaly\pux_blast     ;sound, who played in the birth place of the artifact (optional)
+throw_out_power            = 15                ;momentum with which the artifact will be thrown out of the zone in any direction
+artefact_spawn_height      = 10                ;(м) height at the center of the area where the artifact will be born
+
+
+
+[zone_fountain_weak]:zone_fountain
+$spawn           = "zones\fountain weak"
+
+artefacts        = af_ameba_slime, 0.7, af_ameba_slug, 0.3, af_ameba_mica, 0.0
+BirthProbability = 0.1
+
+;----------- Anomaly settings -----------------------
+min_start_power   = 0.20
+max_start_power   = 0.25
+attenuation       = 1
+period            = 1
+min_artefact_count  = 0
+max_artefact_count  = 0
+artefact_spawn_idle = 24  ;how often spontaneous artifacts offline, in hours
+artefact_spawn_rnd  = 50  ;probability zaspavnit artifact as a percentage.
+
+
+idle_particles          = 1935\fontan_01
+blowout_particles       = anomaly2\electra2_blast 
+
+hit_small_particles     = anomaly2\electra_entrance_small
+hit_big_particles       = anomaly2\electra_entrance_small
+idle_small_particles    = anomaly2\artefact\fontan_aya
+idle_big_particles      = anomaly2\artefact\fontan_aya
+
+
+[zone_fountain_average]:zone_fountain
+$spawn      = "zones\fountain average"
+
+artefacts   = af_ameba_slime, 0.7, af_ameba_slug, 0.2, af_ameba_mica, 0.1
+BirthProbability = 0.1
+
+;----------- Anomaly settings -----------------------
+min_start_power   = 0.25
+max_start_power   = 0.35
+attenuation       = 1
+period            = 1
+min_artefact_count  = 0
+max_artefact_count  = 0
+artefact_spawn_idle = 24  ;how often spontaneous artifacts offline, in hours
+artefact_spawn_rnd  = 70  ;probability zaspavnit artifact as a percentage.
+
+idle_particles          = 1935\fontan_01
+blowout_particles       = anomaly2\artefact\anom_fontan 
+
+hit_small_particles     = anomaly2\electra_entrance_small
+hit_big_particles       = anomaly2\electra_entrance_small
+idle_small_particles    = anomaly2\artefact\fontan_aya
+idle_big_particles      = anomaly2\artefact\fontan_aya
+
+
+[zone_fountain_strong]:zone_fountain
+$spawn      = "zones\fountain strong"
+
+artefacts   = af_ameba_slime, 0.5, af_ameba_slug, 0.3, af_ameba_mica, 0.2
+BirthProbability = 0.1
+
+;----------- Anomaly settings -----------------------
+min_start_power   = 0.65
+max_start_power   = 0.95
+attenuation       = 1
+period            = 1
+min_artefact_count  = 0
+max_artefact_count  = 0
+artefact_spawn_idle = 24  ;how often spontaneous artifacts offline, in hours
+artefact_spawn_rnd  = 90  ;probability zaspavnit artifact as a percentage.
+
+idle_particles          = 1935\fontan_02
+blowout_particles       = anomaly2\artefact\anom_fontan 
+
+hit_small_particles     = anomaly2\electra_entrance_small
+hit_big_particles       = anomaly2\electra_entrance_small
+idle_small_particles    = anomaly2\artefact\fontan_aya
+idle_big_particles      = anomaly2\artefact\fontan_aya
+
+
+
+[amk_zone_fountain]:zone_fountain
+$spawn      = "zones\amk fountain"
+spawn_blowout_artefacts = off
+min_artefact_count  = 0
+max_artefact_count  = 0
+artefact_spawn_idle = 24  ;how often spontaneous artifacts offline, in hours
+
+[amk_zone_fountain_weak]:zone_fountain_weak
+$spawn                  = "zones\amk fountain weak"
+spawn_blowout_artefacts = off
+min_artefact_count      = 0
+max_artefact_count      = 0
+artefact_spawn_idle     = 24  ;how often spontaneous artifacts offline, in hours
+
+[amk_zone_fountain_average]:zone_fountain_average
+$spawn                  = "zones\amk fountain average"
+spawn_blowout_artefacts = off
+min_artefact_count      = 0
+max_artefact_count      = 0
+artefact_spawn_idle     = 24  ;how often spontaneous artifacts offline, in hours
+
+[amk_zone_fountain_strong]:zone_fountain_strong
+$spawn                  = "zones\amk fountain strong"
+spawn_blowout_artefacts = off
+min_artefact_count      = 0
+max_artefact_count      = 0
+artefact_spawn_idle     = 24  ;how often spontaneous artifacts offline, in hours
+
+[zone_fountain_tb3d]:zone_fountain_strong
+$spawn                  = "zones\amk fountain strong"
+spawn_blowout_artefacts = off
+min_artefact_count      = 0
+max_artefact_count      = 0
+artefact_spawn_idle     = 24  ;how often spontaneous artifacts offline, in hours
+
+
+
+
+

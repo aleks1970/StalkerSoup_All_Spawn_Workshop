@@ -1,0 +1,200 @@
+<!-- ************ TB3D 1.0.9.9.7.0, sacharov_pda  *************** -->
+<article id="mil_actor_main_quest" name="Military_Main_Task_pda_name" group="Diary">
+	<texture x="50" y="150" width="50" height="50">ui\ui_icons_task</texture>
+	<text>mil_actor_main_quest</text>
+</article>
+<article id="mil_crazy_flash_info" name="Crazy_USB_Stick_pda_name" group="Diary" article_type="info">
+	<texture x="500" y="150" width="100" height="100">ui\ui_icon_photo</texture>
+	<text>mil_crazy_flash_info</text>
+</article>
+<article id="mil_flash_ugrumy" name="Ugrumys_USB_Stick_pda_name" group="Diary" article_type="info">
+	<texture x="500" y="150" width="100" height="100">ui\ui_icon_photo</texture>
+	<text>mil_flash_ugrumy_descr</text>
+</article>
+<article id="mil_courier_doc" name="Couriers_Document_pda_name" group="Diary" article_type="info">
+	<texture x="500" y="150" width="100" height="100">ui\ui_icon_photo</texture>
+	<text>mil_courier_doc_descr</text>
+</article>
+<article id="mil_flash_bandit" name="Bandits_USB_Stick_pda_name" group="Diary" article_type="info">
+	<texture x="500" y="150" width="100" height="100">ui\ui_icon_photo</texture>
+	<text>mil_flash_bandit_descr</text>
+</article>
+<article id="mil_flash_max" name="Maxs_USB_Stick_pda_name" group="Diary" article_type="info">
+	<texture x="500" y="150" width="100" height="100">ui\ui_icon_photo</texture>
+	<text>mil_flash_max_descr</text>
+</article>
+<article id="mil_dolg_kill_sniper" name="dolg_kill_sniper" group="Diary" article_type="info">
+	<texture x="500" y="150" width="100" height="100">ui\ui_icon_photo</texture>
+	<text>mil_dolg_kill_sniper_descr</text>
+</article>
+<article id="mil_dolg_kill_lukash" name="mil_dolg_kill_lukash" group="Diary" article_type="info">
+	<texture x="500" y="150" width="100" height="100">ui\ui_icon_photo</texture>
+	<text>mil_dolg_kill_lukash_descr</text>
+</article>
+<article id="mil_mad_flash_job" name="mil_mad_flash_job" group="Diary" article_type="info">
+	<texture x="500" y="150" width="100" height="100">ui\ui_icon_photo</texture>
+	<text>mil_mad_flash_job_descr</text>
+</article>
+<article id="mil_lukash_job_descr" name="mil_lukash_job_descr" group="mil_lukash_job" article_type="task">
+	<text>mil_lukash_job_descr</text>
+</article>
+<article id="mil_courier_job_descr" name="mil_courier_job_descr" group="mil_courier_job" article_type="task">
+	<text>mil_courier_job_descr</text>
+</article>
+<article id="mil_blockpost_job_descr" name="mil_blockpost_job" group="mil_blockpost_job" article_type="task">
+	<text>mil_blockpost_job_descr</text>
+</article>
+<article id="mil_freedom_rg6_task_descr" name="mil_freedom_rg6_task" group="mil_freedom_rg6_task" article_type="task">
+	<text>mil_freedom_rg6_task_descr</text>
+</article>
+<article id="mil_hunters_task_descr" name="mil_hunters_task_descr" group="Diary" article_type="info">
+	<texture x="500" y="150" width="100" height="100">ui\ui_icon_photo</texture>
+	<text>mil_hunters_task_descr</text>
+</article>
+<article id="mil_go_to_miser_descr" name="mil_go_to_miser_descr" group="Diary" article_type="info">
+	<texture x="500" y="150" width="100" height="100">ui\ui_icon_photo</texture>
+	<text>mil_go_to_miser_descr</text>
+</article>
+<article id="mil_hunters_task_descr2" name="mil_hunters_task_descr" group="Diary" article_type="info">
+	<texture x="500" y="150" width="100" height="100">ui\ui_icon_photo</texture>
+	<text>mil_hunters_task_descr</text>
+</article>
+<article id="mil_screw_flamethrower_descr" name="mil_screw_flamethrower_descr" article_type="task">
+	<text>mil_screw_flamethrower_text</text>
+</article>
+<!-- ************ TB3D 134 *************** -->
+<article id="esc_kostya_taynik1" name="Find_the_hidden_Cache_pda_name" article_type="task">
+	<text>esc_kostya_taynik1</text>
+</article>
+<article id="esc_kostya_taynik2" name="Find_the_hidden_Cache_pda_name" article_type="task">
+	<text>esc_kostya_taynik2</text>
+</article>
+<article id="esc_kostya_taynik3" name="Find_the_hidden_Cache_pda_name" article_type="task">
+	<text>esc_kostya_taynik3</text>
+</article>
+<article id="kostya_kordon_art" name="Find_Goldfish_artefact_pda_name" article_type="task">
+	<text>kostya_kordon_art</text>
+</article>
+<article id="kostya_svalka_taynik1" name="Find_the_Cache_at_Dump_pda_name" article_type="task">
+	<text>kostya_svalka_taynik1</text>
+</article>
+<article id="kostya_svalka_taynik2" name="Find_the_Cache_at_Dump_pda_name" article_type="task">
+	<text>kostya_svalka_taynik2</text>
+</article>
+<article id="kostya_svalka_taynik3" name="Find_the_Cache_at_Dump_pda_name" article_type="task">
+	<text>kostya_svalka_taynik3</text>
+</article>
+<article id="kostya_svalka_taynik4" name="Find_the_Cache_at_Dump_pda_name" article_type="task">
+	<text>kostya_svalka_taynik4</text>
+</article>
+<article id="kostya_svalka_taynik5" name="Find_the_Cache_at_Dump_pda_name" article_type="task">
+	<text>kostya_svalka_taynik5</text>
+</article>
+<article id="kostya_x18_taynik1" name="Find_Cache_Laboratory_X-18_pda_name" article_type="task">
+	<text>kostya_x18_taynik1</text>
+</article>
+<article id="kostya_x18_taynik2" name="Find_Cache_Laboratory_X-18_pda_name" article_type="task">
+	<text>kostya_x18_taynik2</text>
+</article>
+<article id="kostya_x18_taynik3" name="Find_Cache_Laboratory_X-18_pda_name" article_type="task">
+	<text>kostya_x18_taynik3</text>
+</article>
+<article id="kostya_agroprom_taynik1" name="Find_Cache_somewhere_Agroprom_pda_name" article_type="task">
+	<text>kostya_agroprom_taynik1</text>
+</article>
+<article id="kostya_agroprom_taynik2" name="Find_Cache_somewhere_Agroprom_pda_name" article_type="task">
+	<text>kostya_agroprom_taynik2</text>
+</article>
+<article id="kostya_agroprom_taynik3" name="Find_Cache_somewhere_Agroprom_pda_name" article_type="task">
+	<text>kostya_agroprom_taynik3</text>
+</article>
+<article id="kostya_agroprom_taynik4" name="Find_Cache_somewhere_Agroprom_pda_name" article_type="task">
+	<text>kostya_agroprom_taynik4</text>
+</article>
+<article id="kostya_agroprom_taynik5" name="Find_Cache_somewhere_Agroprom_pda_name" article_type="task">
+	<text>kostya_agroprom_taynik5</text>
+</article>
+<article id="kostya_agroprom_taynik6" name="Find_Cache_somewhere_Agroprom_pda_name" article_type="task">
+	<text>kostya_agroprom_taynik6</text>
+</article>
+<article id="kostya_yantar_taynik1" name="Find_the_Stash_Yantar_pda_name" article_type="task">
+	<text>kostya_yantar_taynik1</text>
+</article>
+<article id="kostya_yantar_taynik2" name="Find_the_Stash_Yantar_pda_name" article_type="task">
+	<text>kostya_yantar_taynik2</text>
+</article>
+<article id="kostya_yantar_taynik3" name="Find_the_Stash_Yantar_pda_name" article_type="task">
+	<text>kostya_yantar_taynik3</text>
+</article>
+<article id="kostya_yantar_taynik4" name="Find_the_Stash_Yantar_pda_name" article_type="task">
+	<text>kostya_yantar_taynik4</text>
+</article>
+<article id="kostya_yantar_taynik5" name="Find_the_Stash_Yantar_pda_name" article_type="task">
+	<text>kostya_yantar_taynik5</text>
+</article>
+<article id="kostya_yantar_taynik6" name="Find_the_Stash_Yantar_pda_name" article_type="task">
+	<text>kostya_yantar_taynik6</text>
+</article>
+<article id="kostya_as_taynik1" name="Find_Stash_at_Army_Warehouses_pda_name" article_type="task">
+	<text>kostya_as_taynik1</text>
+</article>
+<article id="kostya_as_taynik2" name="Find_Stash_at_Army_Warehouses_pda_name" article_type="task">
+	<text>kostya_as_taynik2</text>
+</article>
+<article id="kostya_as_taynik3" name="Find_Stash_at_Army_Warehouses_pda_name" article_type="task">
+	<text>kostya_as_taynik3</text>
+</article>
+<article id="kostya_as_taynik4" name="Find_Stash_at_Army_Warehouses_pda_name" article_type="task">
+	<text>kostya_as_taynik4</text>
+</article>
+<article id="kostya_as_taynik5" name="Find_Stash_at_Army_Warehouses_pda_name" article_type="task">
+	<text>kostya_as_taynik5</text>
+</article>
+<article id="kostya_as_taynik6" name="Find_Stash_at_Army_Warehouses_pda_name" article_type="task">
+	<text>kostya_as_taynik6</text>
+</article>
+<article id="kostya_radar_taynik1" name="Find_Cache_at_Radar_pda_name" article_type="task">
+	<text>kostya_radar_taynik1</text>
+</article>
+<article id="kostya_radar_taynik2" name="Find_Cache_at_Radar_pda_name" article_type="task">
+	<text>kostya_radar_taynik2</text>
+</article>
+<article id="kostya_radar_taynik3" name="Find_Cache_at_Radar_pda_name" article_type="task">
+	<text>kostya_radar_taynik3</text>
+</article>
+<article id="kostya_radar_taynik4" name="Find_Cache_at_Radar_pda_name" article_type="task">
+	<text>kostya_radar_taynik4</text>
+</article>
+<article id="kostya_x10_taynik" name="Find_Cache_Laboratory_X-10_pda_name" article_type="task">
+	<text>kostya_x10_taynik</text>
+</article>
+<article id="pripyat_taynik1" name="Find_Stash_Pripyat_pda_name" article_type="task">
+	<text>kostya_pripyat_taynik1</text>
+</article>
+<article id="pripyat_taynik2" name="Find_Stash_Pripyat_pda_name" article_type="task">
+	<text>kostya_pripyat_taynik2</text>
+</article>
+<article id="pripyat_taynik3" name="Find_Stash_Pripyat_pda_name" article_type="task">
+	<text>kostya_pripyat_taynik3</text>
+</article>
+<article article_type="journal" group="documents" id="kostya_documents" name="Job_Description_for_Manual_Teleport_pda_name">
+	<text>teleport_document</text>
+</article>
+<article id="kostya_sacharov" name="Speak_Sakharov_pda_name" article_type="task">
+	<text>kostya_sacharov</text>
+</article>
+<article id="kostya_meet" name="Talk_Bones_pda_name" article_type="task">
+	<text>kostya_meet</text>
+</article>
+<article id="sacharov_pda" name="Find_PDA_Vasiliev_pda_name" article_type="task">
+	<text>sacharov_pda</text>
+</article>
+<article id="sacharov_teleport" name="Find_Battery_artefact_pda_name" article_type="task">
+	<text>sacharov_teleport</text>
+</article>
+<article article_type="journal" group="documents" id="kostya_information" name="Instructions_Manual_Teleport_pda_name">
+	<text>information_gameplay_descriptions</text>
+</article>
+<article article_type="journal" group="documents" id="info1" name="Location_Streloks_Hideout_pda_name">
+	<text>info_1</text>
+</article>

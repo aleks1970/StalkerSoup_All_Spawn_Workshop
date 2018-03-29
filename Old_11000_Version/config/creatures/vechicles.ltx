@@ -1,0 +1,428 @@
+;<!-- TB3D 1.0.9.9.8.4 increased ph_mass to 1,000,000,000 from 100,000, dmx135, vehicle_zaz965, new levels, key_logic_2, btr_key, added hammer
+;------------------------;
+;------- VEHICLES -------;
+;------------------------;
+[m_car]
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn      = "vehicles\car"
+cform                   = skeleton
+class                   = SCRPTCAR
+inv_weight        = 100000000	;;;1000 !!!!TB3D  not car physics weight
+cost          = 100000
+inv_grid_width      = 1
+inv_grid_height     = 1
+custom_data         = scripts\dmx_mod\car_key_logic.ltx
+script_binding      = bind_physic_object.init
+
+[vehicle_base]
+GroupControlSection		= spawn_group
+class					= SCRPTCAR
+cform                 	= skeleton
+ef_equipment_type		= 3
+ph_mass			 		= 1000000000
+script_binding      	= bind_physic_object.init
+
+; Автобус Икарус-260
+[vehicle_icarus260]:vehicle_base
+$spawn 					= "vehicles\vehicle_icarus260"
+visual          		= physics\vehicles\veh_icarus260.ogf
+actor_visual			= physics\vehicles\veh_icarus260.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Автобус КАвЗ-685
+[vehicle_kavz685]:vehicle_base
+$spawn 					= "vehicles\vehicle_kavz685"
+visual          		= physics\vehicles\veh_kavz685.ogf
+actor_visual			= physics\vehicles\veh_kavz685.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Автобус ЛАЗ-4202
+[vehicle_laz4202]:vehicle_base
+$spawn 					= "vehicles\vehicle_laz4202"
+visual          		= physics\vehicles\veh_laz4202.ogf
+actor_visual			= physics\vehicles\veh_laz4202.ogf
+
+; Багги
+[vehicle_sport_baggi]:vehicle_base
+$spawn 					= "vehicles\vehicle_sport_baggi"
+visual          		= physics\vehicles\baggi\veh_baggi.ogf
+actor_visual			= physics\vehicles\baggi\veh_baggi.ogf
+
+; Броневик
+[vehicle_armored_car]:vehicle_base
+$spawn 					= "vehicles\vehicle_armored_car"
+visual          		= physics\vehicles\apc_combine\apc_combine.ogf
+actor_visual			= physics\vehicles\apc_combine\apc_combine.ogf
+ph_mass			 		= 9990000000
+
+; БТР (скриптовый)
+[vehicle_btr]:vehicle_base
+$spawn					= "vehicles\vehicle_btr"
+visual                  = physics\vehicles\btr\veh_btr_u_01.ogf
+actor_visual			= physics\vehicles\btr\veh_btr_u_01.ogf
+ph_mass			 		= 9990000000
+custom_data             = scripts\tb3d\btr_key_logic.ltx
+
+; БТР-80 (обычный)
+[vehicle_btr80]:vehicle_btr
+$spawn 					= "vehicles\vehicle_btr80"
+visual          		= physics\vehicles\veh_btr80.ogf
+actor_visual			= physics\vehicles\veh_btr80.ogf
+
+; БТР-80 (камуфляж)
+[vehicle_btr80_camo]:vehicle_btr
+$spawn 					= "vehicles\vehicle_btr80_camo"
+visual          		= physics\vehicles\veh_btr80_camo.ogf
+actor_visual			= physics\vehicles\veh_btr80_camo.ogf
+
+; БТР-80 (уникальный)
+[vehicle_btr80_uniq]:vehicle_btr
+$spawn 					= "vehicles\vehicle_btr80_uniq"
+visual          		= physics\vehicles\veh_btr80_uniq.ogf
+actor_visual			= physics\vehicles\veh_btr80_uniq.ogf
+
+; БТР-90
+[vehicle_btr90]:vehicle_btr
+$spawn 					= "vehicles\vehicle_btr90"
+visual          		= physics\vehicles\veh_btr90.ogf
+actor_visual			= physics\vehicles\veh_btr90.ogf
+
+; ВАЗ-2103
+[vehicle_lada2103]:vehicle_base
+$spawn 					= "vehicles\vehicle_lada2103"
+visual          		= physics\vehicles\veh_lada2103.ogf
+actor_visual			= physics\vehicles\veh_lada2103.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; ВАЗ-2103 (красный)
+[vehicle_lada2103_red]:vehicle_base
+$spawn 					= "vehicles\vehicle_lada2103_red"
+visual          		= physics\vehicles\veh_lada2103_red.ogf
+actor_visual			= physics\vehicles\veh_lada2103_red.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; ВАЗ-2103 (зеленый)
+[vehicle_lada2103_green]:vehicle_base
+$spawn 					= "vehicles\vehicle_lada2103_green"
+visual          		= physics\vehicles\veh_lada2103_green.ogf
+actor_visual			= physics\vehicles\veh_lada2103_green.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; ВАЗ-2106
+[vehicle_lada2106]:vehicle_base
+$spawn 					= "vehicles\vehicle_lada2106"
+visual          		= physics\vehicles\veh_lada2106.ogf
+actor_visual			= physics\vehicles\veh_lada2106.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; ВАЗ-2106 (с прицепом)
+[vehicle_lada2106_pricep]:vehicle_base
+$spawn 					= "vehicles\vehicle_lada2106_pricep"
+visual          		= physics\vehicles\veh_lada2106_pricep.ogf
+actor_visual			= physics\vehicles\veh_lada2106_pricep.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Вездеход
+[vehicle_vezdehod]:vehicle_base
+$spawn 					= "vehicles\vehicle_vezdehod"
+visual          		= physics\vehicles\veh_vezdehod.ogf
+actor_visual			= physics\vehicles\veh_vezdehod.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; ГАЗ-24 «Волга» (серая)
+[vehicle_volga_gray]:vehicle_base
+$spawn 					= "vehicles\vehicle_volga_gray"
+visual          		= physics\vehicles\volga\veh_volga_gray.ogf
+actor_visual			= physics\vehicles\volga\veh_volga_gray.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; ГАЗ-24 «Волга» (черная)
+[vehicle_volga_black]:vehicle_base
+$spawn 					= "vehicles\vehicle_volga_black"
+visual          		= physics\vehicles\volga\veh_volga_black.ogf
+actor_visual			= physics\vehicles\volga\veh_volga_black.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; ГАЗ-66 «Шишига»
+[vehicle_gaz66]:vehicle_base
+$spawn 					= "vehicles\vehicle_gaz66"
+visual          		= physics\vehicles\veh_gaz66.ogf
+actor_visual			= physics\vehicles\veh_gaz66.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; ЗАЗ-965 «Горбатый»
+[vehicle_zaz965]:vehicle_base
+$spawn 					= "vehicles\vehicle_zaz965"
+visual          		= physics\vehicles\zaz\veh_zaz_u_01.ogf
+actor_visual			= physics\vehicles\zaz\veh_zaz_u_01.ogf
+
+; ЗАЗ-968 «Ушастый» (обычный)
+[vehicle_zaz968]:vehicle_base
+$spawn 					= "vehicles\vehicle_zaz968"
+visual          		= physics\vehicles\veh_zaz968.ogf
+actor_visual			= physics\vehicles\veh_zaz968.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; ЗАЗ-968 «Ушастый» (желтый)
+[vehicle_zaz968_yellow]:vehicle_base
+$spawn 					= "vehicles\vehicle_zaz968_yellow"
+visual          		= physics\vehicles\veh_zaz968_yellow.ogf
+actor_visual			= physics\vehicles\veh_zaz968_yellow.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; ЗИЛ-130
+[vehicle_zil130]:vehicle_base
+$spawn 					= "vehicles\vehicle_zil130"
+visual          		= physics\vehicles\veh_zil130.ogf
+actor_visual			= physics\vehicles\veh_zil130.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; ЗИЛ-130 «Тягач» (без кузова)
+[vehicle_zil130_truck]:vehicle_base
+$spawn 					= "vehicles\vehicle_zil130_truck"
+visual          		= physics\vehicles\veh_zil130_truck.ogf
+actor_visual			= physics\vehicles\veh_zil130_truck.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; ЗИЛ-131
+[vehicle_zil131]:vehicle_base
+$spawn 					= "vehicles\vehicle_zil131"
+visual          		= physics\vehicles\veh_zil131.ogf
+actor_visual			= physics\vehicles\veh_zil131.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Камаз-5320 (с фурой)
+[vehicle_kamaz]:vehicle_base
+$spawn 					= "vehicles\vehicle_kamaz"
+visual          		= physics\vehicles\kamaz\veh_kamaz_u_01.ogf
+actor_visual			= physics\vehicles\kamaz\veh_kamaz_u_01.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Камаз-5320 (без фуры)
+[vehicle_kamaz_truck]:vehicle_base
+$spawn 					= "vehicles\vehicle_kamaz_truck"
+visual          		= physics\vehicles\veh_kamaz_truck.ogf
+actor_visual			= physics\vehicles\veh_kamaz_truck.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Камаз-4310 (военный)
+[vehicle_kamaz_military]:vehicle_base
+$spawn 					= "vehicles\vehicle_kamaz_military"
+visual          		= physics\vehicles\veh_kamaz_military.ogf
+actor_visual			= physics\vehicles\veh_kamaz_military.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; РАФ-33111
+[vehicle_raf]:vehicle_base
+$spawn 					= "vehicles\vehicle_raf"
+visual          		= physics\vehicles\veh_raf.ogf
+actor_visual			= physics\vehicles\veh_raf.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Трактор Т-40
+[vehicle_t40]:vehicle_base
+$spawn 					= "vehicles\vehicle_t40"
+visual          		= physics\vehicles\tr13\veh_tr13_u_01.ogf
+actor_visual			= physics\vehicles\tr13\veh_tr13_u_01.ogf
+
+; Москвич-2140 (обычный)
+[vehicle_moskvitch]:vehicle_base
+$spawn 					= "vehicles\vehicle_moskvitch"
+visual          		= physics\vehicles\veh_moskvitch.ogf
+actor_visual			= physics\vehicles\veh_moskvitch.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Москвич-2140 (милицейский)
+[vehicle_moskvitch_police]:vehicle_base
+$spawn 					= "vehicles\vehicle_moskvitch_police"
+visual          		= physics\vehicles\veh_moskvitch_police.ogf
+actor_visual			= physics\vehicles\veh_moskvitch_police.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Москвич-2140 «Чёрная Молния»
+[vehicle_moskvitch_black]:vehicle_base
+$spawn 					= "vehicles\vehicle_moskvitch_black"
+visual          		= physics\vehicles\veh_moskvitch_black.ogf
+actor_visual			= physics\vehicles\veh_moskvitch_black.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Нива-2121 (военная)
+[vehicle_niva]:vehicle_base
+$spawn 					= "vehicles\vehicle_niva"
+visual          		= physics\vehicles\niva\veh_niva_u_01.ogf
+actor_visual			= physics\vehicles\niva\veh_niva_u_01.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Нива-2121 (белая)
+[vehicle_niva_white]:vehicle_base
+$spawn 					= "vehicles\vehicle_niva_white"
+visual          		= physics\vehicles\niva\veh_niva_u_02.ogf
+actor_visual			= physics\vehicles\niva\veh_niva_u_02.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Нива-2121 (уникальная)
+[vehicle_niva_uniq]:vehicle_base
+$spawn 					= "vehicles\vehicle_niva_uniq"
+visual          		= physics\vehicles\veh_niva_uniq.ogf
+actor_visual			= physics\vehicles\veh_niva_uniq.ogf
+
+; Нива-2121 «Спорт»
+[vehicle_niva_sport]:vehicle_base
+$spawn 					= "vehicles\vehicle_niva_sport"
+visual          		= physics\vehicles\veh_niva_sport.ogf
+actor_visual			= physics\vehicles\veh_niva_sport.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; УАЗ-469 «Козлик» (МВД)
+[vehicle_uaz]:vehicle_base
+$spawn 					= "vehicles\vehicle_uaz"
+visual          		= physics\vehicles\uaz\veh_uaz_u_01.ogf
+actor_visual			= physics\vehicles\uaz\veh_uaz_u_01.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; УАЗ-469 «Козлик» (ФСБ)
+[vehicle_uaz_fsb]:vehicle_base
+$spawn 					= "vehicles\vehicle_uaz_fsb"
+visual          		= physics\vehicles\veh_uaz_fsb.ogf
+actor_visual			= physics\vehicles\veh_uaz_fsb.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; УАЗ-469 «Козлик» (украинская милиция)
+[vehicle_uaz_ukrainian]:vehicle_base
+$spawn 					= "vehicles\vehicle_uaz_ukrainian"
+visual          		= physics\vehicles\veh_uaz_ukrainian.ogf
+actor_visual			= physics\vehicles\veh_uaz_ukrainian.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; УАЗ-469 (военный)
+[vehicle_uaz469_uniq]:vehicle_base
+$spawn 					= "vehicles\vehicle_uaz469_uniq"
+visual          		= physics\vehicles\veh_uaz469_uniq.ogf
+actor_visual			= physics\vehicles\veh_uaz469_uniq.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; УАЗ-469 (открытый)
+[vehicle_uaz469_open]:vehicle_base
+$spawn 					= "vehicles\vehicle_uaz469_open"
+visual          		= physics\vehicles\veh_uaz469_open.ogf
+actor_visual			= physics\vehicles\veh_uaz469_open.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; УАЗ-3741 «Буханка»
+[vehicle_uaz_buhanka]:vehicle_base
+$spawn 					= "vehicles\vehicle_uaz_buhanka"
+visual          		= physics\vehicles\uaz_zhuka\uazik_zhuka.ogf
+actor_visual			= physics\vehicles\uaz_zhuka\uazik_zhuka.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Урал-4320
+[vehicle_ural4320]:vehicle_base
+$spawn 					= "vehicles\vehicle_ural4320"
+visual          		= physics\vehicles\veh_ural4320.ogf
+actor_visual			= physics\vehicles\veh_ural4320.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Урал-4320 (зеленого оттенка)
+[vehicle_ural4320_green]:vehicle_base
+$spawn 					= "vehicles\vehicle_ural4320_green"
+visual          		= physics\vehicles\veh_ural4320_green.ogf
+actor_visual			= physics\vehicles\veh_ural4320_green.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Урал-4320 (военный)
+[vehicle_ural4320_military]:vehicle_base
+$spawn 					= "vehicles\vehicle_ural4320_military"
+visual          		= physics\vehicles\veh_ural4320_military.ogf
+actor_visual			= physics\vehicles\veh_ural4320_military.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Dodge Charger
+[vehicle_dodge]:vehicle_base
+$spawn 					= "vehicles\vehicle_dodge"
+visual          		= physics\vehicles\dodge\veh_dodge.ogf
+actor_visual			= physics\vehicles\dodge\veh_dodge.ogf
+
+; Ferrari California
+[vehicle_ferrari]:vehicle_base
+$spawn 					= "vehicles\vehicle_ferrari"
+visual          		= physics\vehicles\veh_ferrari.ogf
+actor_visual			= physics\vehicles\veh_ferrari.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; HMMWV
+[vehicle_hummer]:vehicle_base
+$spawn 					= "vehicles\vehicle_hummer"
+visual          		= physics\vehicles\veh_hummer.ogf
+actor_visual			= physics\vehicles\veh_hummer.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; 109984
+[vehicle_hammer]:vehicle_hummer
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Land Rover
+[vehicle_land_rover]:vehicle_base
+$spawn 					= "vehicles\veh_land_rover"
+visual          		= physics\vehicles\veh_land_rover.ogf
+actor_visual			= physics\vehicles\veh_land_rover.ogf
+custom_data             = scripts\dmx_mod\car_key_logic.ltx
+
+; Zone Rover Bot
+[vehicle_rover_bot]:vehicle_base
+$spawn 					= "vehicles\vehicle_rover_bot"
+visual          		= physics\vehicles\rover_bot\veh_rover_bot.ogf
+actor_visual			= physics\vehicles\rover_bot\veh_rover_bot.ogf
+
+;quad atv
+[vehicle_tb3d_atv]:vehicle_base
+$spawn 					= "vehicles\vehicle_rover_bot"
+visual          		= physics\vehicles\quad_bike\veh_quad_bike.ogf
+actor_visual			= physics\vehicles\quad_bike\veh_quad_bike.ogf
+custom_data             = scripts\dmx_mod\car_key_logic_2.ltx
+
+[vehicle_tb3d_rover]:vehicle_base
+$spawn 					= "vehicles\veh_land_rover"
+visual          		= physics\vehicles\veh_land_rover.ogf
+actor_visual			= physics\vehicles\veh_land_rover.ogf
+custom_data             = scripts\dmx_mod\car_key_logic_2.ltx
+
+[vehicle_tb3d_hummer]:vehicle_base
+$spawn 					= "vehicles\vehicle_hummer"
+visual          		= physics\vehicles\veh_hummer.ogf
+actor_visual			= physics\vehicles\veh_hummer.ogf
+custom_data             = scripts\dmx_mod\car_key_logic_2.ltx
+
+[vehicle_tb3d_sport]:vehicle_sport_baggi
+custom_data             = scripts\dmx_mod\car_key_logic_2.ltx
+
+[vehicle_tb3d_plow]:vehicle_base
+$spawn 					= "vehicles\vehicle_vezdehod"
+visual          		= physics\vehicles\veh_vezdehod.ogf
+actor_visual			= physics\vehicles\veh_vezdehod.ogf
+custom_data             = scripts\dmx_mod\car_key_logic_2.ltx
+
+[vehicle_tb3d_btr]:vehicle_btr
+$spawn					= "vehicles\vehicle_btr"
+visual                  = physics\vehicles\btr\veh_btr91.ogf		;;veh_btr91.ltx
+actor_visual			= physics\vehicles\btr\veh_btr91.ogf
+
+[vehicle_tb3d_btr_90]:vehicle_btr
+$spawn					= "vehicles\vehicle_btr"
+visual                  = physics\vehicles\veh_btr_u_11.ogf		;;veh_btr_u_11.ltx
+actor_visual			= physics\vehicles\veh_btr_u_11.ogf
+
+[vehicle_tb3d_btr_80]:vehicle_btr
+$spawn 					= "vehicles\vehicle_btr80"
+visual          		= physics\vehicles\veh_btr81.ogf			;;veh_btr_u_11.ltx
+actor_visual			= physics\vehicles\veh_btr81.ogf
+
+[vehicle_tb3d_btr_80camo]:vehicle_btr
+$spawn 					= "vehicles\vehicle_btr80_camo"
+visual          		= physics\vehicles\veh_btr80_camo.ogf		;;veh_btr_u_11.ltx
+actor_visual			= physics\vehicles\veh_btr80_camo.ogf
+
+[vehicle_tb3d_btr_80uniq]:vehicle_btr
+$spawn 					= "vehicles\vehicle_btr80_uniq"
+visual          		= physics\vehicles\veh_btr80_uniq.ogf		;;veh_btr_u_11.ltx
+actor_visual			= physics\vehicles\veh_btr80_uniq.ogf

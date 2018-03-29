@@ -1,0 +1,324 @@
+;<!-- TB3D 1.0.9.9.4.2  changed terrain to only use global one (255,255,000,255), moved immuns and damages, criticals,
+; health, perception, stalker_sakharov, monster dist -->
+
+[stalker]:common_ph_friction_params_on_npc_death
+class             = AI_STL_S            ; Class identifier
+
+can_select_items        = on
+
+;---EVALUATION FUNCTIONS----------------------------------------------
+ef_creature_type        = 17              ; option for evaluation functions
+
+;---LEVEL EDITOR------------------------------------------------------
+$spawn              = "stalkers\stalker"      ; option for Level Editor
+$npc              = on              ; option for Level Editor
+visual              = actors\hero\stalker_novice.ogf; option for Level Editor
+corpse_visual         = equipments\item_rukzak.ogf  ;actors\hero\stalker_novice.ogf; option for Level Editor
+custom_data           = stalker_custom_data.ltx   ; option for Level Editor
+character_profile       = default           ; option for Level Editor
+use_single_item_rule      = off
+
+;---GAME--------------------------------------------------------------
+$prefetch             = 32
+cform             = skeleton            ; collision class
+species             = human
+
+;---MATERIAL----------------------------------------------------------
+material            = creatures\human
+
+;---DEAD_VISUAL-------------------------------------------------------
+destroyed_vis_name        = physics\Dead_Body\skelet_crash
+
+;---SCRIPTS-----------------------------------------------------------
+script_binding          = bind_stalker.init
+
+;---GROUP SECTIONS----------------------------------------------------
+GroupControlSection       = spawn_group
+SpaceRestrictionSection     = space_restrictor,zone_mine_field
+attachable_items        = yad, device_torch, attachable_item, hand_radio, bread, vodka, sigaret, energy_drink, kolbasa, guitar_a, harmonica_a, wpn_binoc, kruglov_flash, cigara, beer_a, sweetness, flaska, sandwich, balalaika_a
+
+;---SECTIONS----------------------------------------------------------
+damage              	= stalker_damage
+immunities_sect         = stalker_resist
+condition_sect          = stalker_condition
+
+;---OFFLINE ALIFE------------------------------------------------------------------
+Health              = 200 ;TB3D  100         ; option for ALife Simulator
+money             = 5000          ; option for ALife Simulator
+going_speed           = 2.5         ; option for ALife Simulator
+current_level_going_speed   = 1           ; option for ALife Simulator
+search_speed          = 1.0         ; option for ALife Simulator
+going_item_detect_probability = 0.4         ; option for ALife Simulator
+search_item_detect_probability  = 0.9         ; option for ALife Simulator
+max_item_mass         = 1000.0        ; option for ALife Simulator
+inv_max_weight          = 1000.0
+MaxHealthValue          = 200 ;TB3D  give em advantage         ; option for ALife Simulator, range [0..200]
+smart_terrain_choose_interval = 00:15:00
+
+;---ONLINE ALIFE-------------------------------------------------------------------
+time_to_search_for_artefacts  = 60000 ; in milliseconds
+distance_to_search_for_artefacts= 20.0  ; in meters
+
+;---ONLINE-OFFLINE ALIFE-----------------------------------------------------------
+terrain              = stalker_terrain
+
+;---SOUND-------------------------------------------------------------
+sound_threshold         = 0.13		;;;% level of sound bar before detection
+self_sound_factor       = 0.1
+self_decrease_quant       = 250 ; in milliseconds
+self_decrease_factor      = 0.95  ; fading factor
+killer_clsids         = Z_MINCER,Z_GALANT,ZS_BFUZZ,ZS_MBALD,ZS_GALAN,ZS_MINCE
+sound_perceive_section      = stalker_sound_perceive
+
+;---VISIBILITY--------------------------------------------------------
+vision_danger_section     	= stalker_vision_danger
+vision_free_section       	= stalker_vision_free
+eye_fov             		= 135
+eye_range           		= 100	;greater messes up radar ambush
+far_plane_factor        	= 1.0
+fog_density_factor        	= 0.01
+
+;---MEMORY------------------------------------------------------------
+DynamicObjectsCount			= 32
+DynamicSoundsCount			= 32
+DynamicHitCount				= 32
+
+;---ENEMY------------------------------------------------------------
+ignore_monster_threshold	= 0.96	;;TB3D prevents constant attacks in camps
+max_ignore_distance			= 10.0		;;allows for npc to defend themselves
+min_ignore_distance			= 0.0
+panic_threshold				= 0.0		;;set in char desc or logic files
+
+;---SOUND PLAYER------------------------------------------------------
+sound_death           = fight\death\death_
+sound_anomaly_death       = fight\death\anomaly_
+sound_hit           = fight\hit\hit_
+sound_humming         = states\idle\idle_
+sound_alarm           = fight\enemy\enemy_
+sound_backup          = fight\backup\backup_,fight\threat\threat_close_
+sound_detour          = fight\detour\detour_,fight\fire\fire_,fight\threat\threat_close_
+sound_friendly_fire       = fight\friendly_fire\friendly_fire_
+sound_panic_human       = states\panic_human\panic_human_
+sound_panic_monster       = states\panic_monster\panic_monster_
+sound_tolls           = fight\tolls\tolls_
+sound_grenade_alarm       = fight\grenade\grenade_
+sound_friendly_grenade_alarm  = fight\friendly_grenade\friendly_grenade_
+sound_need_backup       = fight\cover_fire\cover_fire_
+sound_running_in_danger     = states\breath\breath_1
+sound_walking_in_danger     = states\breath\breath_2
+sound_kill_wounded        = help\wounded\kill_wounded_
+sound_enemy_critically_wounded  = fight\enemy_hit\enemy_hit_
+sound_enemy_killed_or_wounded = fight\enemy_down\enemy_down_
+; obsolete after next update
+sound_attack          = fight\attack\attack_
+sound_search          = fight\searching_enemy\search_
+; new after next update
+sound_attack_no_allies        = fight\fire\fire_,fight\threat\threat_distant_
+sound_attack_allies_single_enemy  = fight\attack\attack_,fight\attack\attack_one_,fight\fire\fire_
+sound_attack_allies_several_enemies = fight\attack\attack_,fight\attack\attack_many_,fight\fire\fire_
+sound_search1_no_allies       = fight\threat\threat_distant_
+sound_search1_with_allies     = fight\searching_enemy\search_,fight\searching_enemy\enemy_lost_
+
+;---STEP MANAGER------------------------------------------------------
+LegsCount           = 2
+step_params           = stalker_step_manager
+foot_bones            = stalker_foot_bones
+
+;---MOVEMENT----------------------------------------------------------
+movement_speeds         = stalker_movement_speeds
+
+;---SIGHT-------------------------------------------------------------------------
+max_left_torso_angle      = 45
+max_right_torso_angle     = 30
+
+;---WEAPON BONES------------------------------------------------------------------
+weapon_bone0          = bip01_r_finger1
+weapon_bone1          = bip01_l_finger1
+weapon_bone2          = bip01_r_finger11
+
+;---ANIMATION BONES------------------------------------------------------------------
+bone_head           = bip01_head
+bone_shoulder         = bip01_spine2
+bone_spin           = bip01_spine1
+bone_model            = bip01
+
+;---ANIMATION------------------------------------------------------------------------
+crouch_type           = -1 ; 0 - crouch a little, 1 - crouch full; -1 - random crouch
+
+;---FIRE DISPERSIONS--------------------------------------------------
+disp_walk_stand					= 3 ;8 ;6
+disp_walk_crouch				= 2  ;4 ;3
+disp_run_stand					= 5 ;14 ;12;8
+disp_run_crouch					= 4 ;6  ;4
+disp_stand_stand				= 3  ;4
+disp_stand_crouch				= 2	; 2
+disp_stand_stand_zoom			= 1 ;1.5 ;1
+disp_stand_crouch_zoom			= 1 ;1.25;1
+
+
+;---FIRE QUEUE PARAMETERS
+weapon_min_queue_size_far   = 1
+weapon_max_queue_size_far   = 6
+weapon_min_queue_interval_far = 500
+weapon_max_queue_interval_far = 1000
+
+weapon_min_queue_size_medium  = 4
+weapon_max_queue_size_medium  = 6
+weapon_min_queue_interval_medium= 500
+weapon_max_queue_interval_medium= 750
+
+weapon_min_queue_size_close   = 4
+weapon_max_queue_size_close   = 10
+weapon_min_queue_interval_close = 300
+weapon_max_queue_interval_close = 500
+
+;---CRITICAL WOUND------------------------------------------------------------------
+critical_wound_threshold    		= 0.4
+critical_wound_decrease_quant 		= 0.2
+body_parts_section_id				= stalker_critical_wound_body_parts
+critical_wound_weights      		= 100,50,10		;;LURK, Misery
+;critical_wound_weights      		= 80,60,20		;;AMK
+
+;---HIT INFO---------------------------------------------------------
+hit_power           = 10 ;0.15
+hit_type            = strike
+power_fx_factor     = 50.0
+
+;---PHYSICS-----------------------------------------------------------
+ph_box0_center 		 = 0.0,  0.9,  0.0
+ph_box0_size 		 = 0.35, 0.9,  0.4
+ph_box1_center 		 = 0.0,  0.6,  0.0
+ph_box1_size 		 = 0.4, 0.6,  0.42
+stalker_restrictor_radius   		= 0.26  ; limit the distance between the stalkers. The low value is useful when someone blocked the road in close quarters.
+stalker_small_restrictor_radius		= 0.24
+medium_monster_restrictor_radius	= 0.24
+;---------------------------------------------------------------------
+ph_crash_speed_min = 10	;14
+ph_crash_speed_max = 30
+ph_collision_damage_factor = 0.1	;1.0
+;---------------------------------------------------------------------
+ph_mass = 80
+
+;---------------------------------------------------------------------
+ph_character_have_wounded_state = true
+;----------------------------------------------------------------------
+;bones_particles = test_particles
+
+[test_particles]
+head = test_particles_head
+
+[test_particles_head]
+particle = amk\electrohimera
+bone = bip01_head
+stop_on_death = true
+
+
+[stalker_trader]:stalker
+$spawn = "stalkers\stalker_trader"      ; option for Level Editor
+use_single_item_rule = off
+can_select_items   = off
+
+[stalker_sakharov]:stalker_trader
+$spawn              = "stalkers\stalker_sakharov"
+immunities_sect         = stalker_immunities_sakharov
+condition_sect          = trader_condition
+damage              	= immortal_damage
+critical_wound_weights      		= 0,0,0
+
+;-------------------------------------------------
+;огненый
+;------------------------------------------------
+[stalker_inferno]:stalker
+$spawn = "stalkers\stalker_inferno"      ; option for Level Editor
+use_single_item_rule = off
+can_select_items   = on
+bones_particles = inferno_particles
+
+[inferno_particles]
+inferno_particles_lfoot = inferno_particles_lhand
+inferno_particles_rfoot = inferno_particles_rhand
+inferno_particles_lhand = inferno_particles_bip01_r_toe0
+
+[inferno_particles_lhand]
+particle = explosions\campfire_boar_grill
+sound = anomaly\bfuzz_blowout
+bone = bip01_l_hand
+stop_on_death = true
+
+[inferno_particles_rhand]
+particle = explosions\campfire_boar_grill
+sound = anomaly\bfuzz_blowout
+bone = bip01_r_hand
+stop_on_death = true
+
+[inferno_particles_bip01_r_toe0]
+particle = anomaly2\heat_04
+sound = anomaly\bfuzz_blowout
+bone = bip01_r_toe0
+stop_on_death = true
+
+;----------------------------------
+;разряды вокруг головы
+;-----------------------------------
+[stalker_electric]:stalker
+$spawn = "stalkers\stalker_electric"      ; option for Level Editor
+use_single_item_rule = off
+can_select_items   = on
+bones_particles = electric_particles
+
+[electric_particles]
+electric_particles_head = electric_particles_eye_right
+electric_particles_head = electric_particles_eye_left
+
+[electric_particles_eye_right]
+particle = anomaly2\electra_damage_02_smoke
+sound = anomaly\torrid_idle
+bone = eye_right
+stop_on_death = true
+
+[electric_particles_eye_left]
+particle = anomaly2\electra_damage_02_smoke
+sound = anomaly\torrid_idle
+bone = eye_left
+stop_on_death = true
+
+
+;---------------------------------------
+;разряды вокруг головы и дымится
+;-----------------------------------------
+
+[stalker_inferno_electric]:stalker
+$spawn = "stalkers\stalker_inferno_electric"      ; option for Level Editor
+use_single_item_rule = off
+can_select_items   = on
+bones_particles = inferno_electric_particles
+
+[inferno_electric_particles]
+inferno_electric_particles_head = inferno_electric_particles_eye_right
+inferno_electric_particles_head = inferno_electric_particles_eye_left
+inferno_electric_particles_lhand = inferno_electric_particles_lhand
+inferno_electric_particles_rhand = inferno_electric_particles_rhand
+
+[inferno_electric_particles_eye_right]
+particle = anomaly2\electra_damage_02_smoke
+sound = anomaly\torrid_idle
+bone = eye_right
+stop_on_death = true
+
+[inferno_electric_particles_eye_left]
+particle = anomaly2\electra_damage_02_smoke
+sound = anomaly\torrid_idle
+bone = eye_left
+stop_on_death = true
+
+[inferno_electric_particles_lhand]
+particle = explosions\campfire_boar_grill
+sound = anomaly\bfuzz_blowout
+bone = bip01_l_hand
+stop_on_death = true
+
+[inferno_electric_particles_rhand]
+particle = explosions\campfire_boar_grill
+sound = anomaly\torrid_idle
+bone = bip01_r_hand
+stop_on_death = true

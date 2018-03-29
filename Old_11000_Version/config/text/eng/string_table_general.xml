@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="windows-1252" standalone="yes"?>
+<!-- TB3D 1.1.0.0.1.1 bar chgd to rostok, new levels, f1, added/included files in this <string_table> - aleks1970, npp north and NPP1 (South) -->
+<!-- moved 'informer_recipt1' and 'informer_recipt2' into stable_dialogs_amk.xml file - aleks1970 -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 08 Oct 16 -->
+<!-- Changed 'Tyrana' to 'Tirana' in Line 171 - Sword2012 - 31 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<string_table>
+#include "text\eng\string_table_ui.xml"
+#include "text\eng\string_table_items.xml"
+#include "text\eng\string_table_tutorial.xml"
+#include "text\eng\string_table_enc_social.xml"
+#include "text\eng\string_table_level_tips.xml"
+#include "text\eng\string_table_enc_vehicles.xml"
+#include "text\eng\string_table_amk_arts_desc.xml"
+#include "text\eng\string_table_amkzp_arts_desc.xml"
+#include "text\eng\string_table_enc_ald_weapons.xml"
+	<string id="alenka_info">
+		<text>Please, don't kill me! I have a wife and children at home waiting for me. Please! Wait. Just wait... I have something for you.\nYou see, back there at the base, I was a simple pencil pusher - a desk jockey - sitting behind an old computer screen messing around with reports and documents and stuff. I came across a file one day... well, no one had bothered to decode it, so I thought I'd amuse myself with it. It took me a while before I cracked it. I wouldn't have been allowed to make a copy, but I have a good memory.\nIt was a report from those scientific eggheads about artefacts and anomalies! It said that if you take some mesa... meso-something or other... called 'Grandmother's Beads', or something like that - don't ask me what it means - and throw it into something called a 'Whirligig', then after ten minutes you'll get a totally different artefact. Well, essentially it's the same one, but with different properties. They called it 'Elder Beads' instead, and said it gives off an energy field that somehow warps gravity or space. Also, it can supposedly stop bleeding, and make you heal faster. Unfortunately, it's radioactive, so you need to be careful wearing it for too long.\nI hope this information is of more use to you than to me... and that it's worth sparing my life for... Please! I'm begging you...</text>
+	</string>
+	<string id="new_prizrak_document1_name">
+		<text>Monolith diary # 1</text>
+	</string>
+	<string id="new_prizrak_document1_desc">
+		<text>Monolith diary # 1. 'Past, Present and Future'</text>
+	</string>
+	<string id="new_prizrak_document2_name">
+		<text>Monolith diary # 2</text>
+	</string>
+	<string id="new_prizrak_document2_desc">
+		<text>Monolith diary # 2. 'Goals and Accomplishments'</text>
+	</string>
+	<string id="new_prizrak_document3_name">
+		<text>Monolith diary # 3</text>
+	</string>
+	<string id="new_prizrak_document3_desc">
+		<text>Monolith diary # 3. 'Inventory, Assets, and Losses'</text>
+	</string>
+	<string id="plan_document_name">
+		<text>Detailed plan of the Radar bunker</text>
+	</string>
+	<string id="plan_document_desc">
+		<text>Detailed plan of the Radar Bunker. On it is marked an old passage into the Sarcophagus</text>
+	</string>
+	<string id="gold_art_name">
+		<text>Gold Chunk</text>
+	</string>
+	<string id="gold_art_name_s">
+		<text>Gold Chunk</text>
+	</string>
+	<string id="gold_art_desc">
+		<text>Unique version of the 'Meat Chunk' artefact. This rare treasure is only found in the vicinity of the Chernobyl NPP. It possesses additional properties to those of the 'Meat Chunk', including partial protection from chemical burns and psi-emissions</text>
+	</string>
+	<string id="voen_pda_name">
+		<text>Andrei's PDA [Spetsnaz]</text>
+	</string>
+	<string id="voen_pda_desc">
+		<text>Andrei's PDA [Spetsnaz] - badly damaged, and in serious need of repair</text>
+	</string>
+	<string id="siv_pda_name">
+		<text>Gray's PDA [Mercenary]</text>
+	</string>
+	<string id="siv_pda_desc">
+		<text>Gray's PDA (contains his personal notes)</text>
+	</string>
+	<string id="ara_flash_name">
+		<text>Ara's flash drive [Mercenary]</text><!-- Was 'Ary's flash drive' - Sword2012 - 01 Jun 17 -->
+	</string>
+	<string id="ara_flash_desc">
+		<text>Ara's PDA (contains his personal notes)</text><!-- Was 'Ary's PDA' - Sword2012 - 01 Jun 17 -->
+	</string>
+	<string id="fraer_pda_name">
+		<text>Friar's PDA</text>
+	</string>
+	<string id="fraer_pda_desc">
+		<text>Friar's PDA (contains his personal notes)</text>
+	</string>
+	<string id="bandranen_pda_name">
+		<text>Wounded Bandit's PDA</text>
+	</string>
+	<string id="bandranen_pda_desc">
+		<text>PDA belonging to the wounded Bandit from the Dump</text>
+	</string>
+	<string id="voen_document_name">
+		<text>Soldier's note</text>
+	</string>
+	<string id="voen_document_desc">
+		<text>Soldier's note - covered in blood. The pages are sticking together, and the ink has begun to run...</text>
+	</string>
+	<string id="sysh_document_name">
+		<text>Owl's note</text>
+	</string>
+	<string id="sysh_document_desc">
+		<text>Note from Owl addressed to Ghost</text>
+	</string>
+	<string id="sysh_flash_name">
+		<text>Owl's flash drive</text>
+	</string>
+	<string id="sysh_flash_desc">
+		<text>Owl's flash drive, containing info on a special cache in Laboratory X-10</text>
+	</string>
+	<string id="inventory_new_box_name">
+		<text>Metal box (locked)</text>
+	</string>
+	<string id="inventory_new_box_desc">
+		<text>Metal box with a coded lock</text>
+	</string>
+	<string id="item_sniper_flash_name">
+		<text>Beast's flash drive</text>
+	</string>
+	<string id="item_sniper_flash_desc">
+		<text>Beast's flash drive. Contains an assassin's hit list of people chosen for elimination, and a second list of completed targets. Strelok's name heads the first list. Ghost heads the second...</text>
+	</string>
+	<string id="new_document_sniper_name">
+		<text>Beast's documents</text>
+	</string>
+	<string id="new_document_sniper_desc">
+		<text>It's an encrypted list of Beast's contacts. Knowing Ghost, he'll crack it no time...</text>
+	</string>
+	<string id="item_computer_new_name">
+		<text>Computer from Lab X-18</text>
+	</string>
+	<string id="item_computer_new_desc">
+		<text>Computer from Lab X-18. It's slightly damaged, but still boots to the BIOS. It might still work...</text>
+	</string>
+	<string id="item_nauch_flash_name">
+		<text>Scientist's flash drive</text>
+	</string>
+	<string id="item_nauch_flash_desc">
+		<text>Scientist's flash drive. Contains schedules, figures, and complex diagrams - none of which I understand in the slightest...</text>
+	</string>
+	<string id="item_notebook_new_name">
+		<text>Arhara's notebook computer</text>
+	</string>
+	<string id="item_notebook_new_desc">
+		<text>Arhara's compact notebook computer. Still working, it clearly shows an entrance...</text>
+	</string>
+	<string id="pda_priz_name">
+		<text>Ghost's PDA</text>
+	</string>
+	<string id="pda_priz_desc">
+		<text>Contains data concerning artefacts and the locations at which they occur. Also mentioned is the annihilation of the Last Day clan, and the subsequent murder of its leader. There's also some information on Fang and Strelok, but the data's been encoded...</text>
+	</string>
+	<string id="new_book_prizrak_name">
+		<text>Ghost's diary</text>
+	</string>
+	<string id="new_book_prizrak_desc">
+		<text>Ghost's diary. Written in a very heavy hand. The ink has started to smear from having gotten wet in the Zone</text>
+	</string>
+	<string id="new_book_name">
+		<text>Arhara's pocket notebook</text>
+	</string>
+	<string id="new_book_desc">
+		<text>Arhara's pocket notebook. Full of enigmatic scribbling, complex maths, and formulae - none of which I understand in the slightest...</text>
+	</string>
+	<string id="item_pda_tiran_name">
+		<text>Tirana's PDA</text>
+	</string>
+	<string id="item_pda_tiran_desc">
+		<text>Tirana's PDA. Contains financial records, sums, and accounts. There are also names and nicknames</text>
+	</string>
+	<string id="item_pda_lucky_name">
+		<text>Lucky's PDA</text>
+	</string>
+	<string id="item_pda_lucky_desc">
+		<text>Contains Lucky's correspondence with some of his accomplices...</text>
+	</string>
+	<string id="item_case_freeman_name">
+		<text>Freeman's case</text>
+	</string>
+	<string id="item_case_freeman_desc">
+		<text>Documents belonging to Gordon Freeman. Contains photos and other personal effects</text>
+	</string>
+	<string id="item_lab_x10_documents_name">
+		<text>Documents from Lab X-10</text>
+	</string>
+	<string id="item_lab_x10_documents_desc">
+		<text>Documents from Laboratory X-10. Mainly on the Monolith faction. More importantly - a map showing how to get to the Monolith itself. Other important data concerns the radiation levels inside the Sarcophagus, possible obstacles to getting there, and Monolith patrol patterns. Some very useful information indeed...</text>
+	</string>
+	<string id="item_bland_flash_name">
+		<text>Bland's flash drive</text>
+	</string>
+	<string id="item_bland_flash_desc">
+		<text>Contains a carefully prepared plan to take over Chernobyl and the Monolith</text>
+	</string>
+	<string id="enc_recipts">
+		<text>Artefact recipes</text>
+	</string>
+	<string id="esc_dan_name">
+		<text>Dan</text>
+	</string>
+	<string id="actor">
+		<text>Marked One</text>
+	</string>
+	<string id="actor_dolg">
+		<text>Duty</text>
+	</string>
+	<string id="actor_freedom">
+		<text>Freedom</text>
+	</string>
+	<string id="arena_enemy">
+		<text>Mercenary</text>
+	</string>
+	<string id="lastday">
+		<text>Last Day</text>
+	</string>
+	<string id="fotoman">
+		<text>The Matrix has been activated</text>
+	</string>
+	<string id="bad">
+		<text>Bad</text>
+	</string>
+	<string id="sniper">
+		<text>Avenger</text>
+	</string>
+	<string id="green">
+		<text>Hunter</text>
+	</string>
+	<string id="bandit">
+		<text>Bandit</text>
+	</string>
+	<string id="dolg">
+		<text>Duty</text>
+	</string>
+	<string id="ecolog">
+		<text>Ecologist</text>
+	</string>
+	<string id="enemy">
+		<text>Enemy</text>
+	</string>
+	<string id="excellent">
+		<text>Excellent</text>
+	</string>
+	<string id="experienced">
+		<text>Skilled</text>
+	</string>
+	<string id="Found_PDA">
+		<text>PDAs found</text>
+	</string>
+	<string id="freedom">
+		<text>Freedom</text>
+	</string>
+	<string id="friendly">
+		<text>Friend</text>
+	</string>
+	<string id="good">
+		<text>Good</text>
+	</string>
+	<string id="indifferent">
+		<text>Neutral</text>
+	</string>
+	<string id="killer">
+		<text>Mercenary</text>
+	</string>
+	<string id="l01_escape">
+		<text>Cordon</text>
+	</string>
+	<string id="l02_garbage">
+		<text>Garbage</text>
+	</string>
+	<string id="l03_agroprom">
+		<text>Agroprom</text>
+	</string>
+	<string id="l04_darkvalley">
+		<text>Dark Valley</text>
+	</string>
+	<string id="l05_bar">
+		<text>Rostok</text>
+	</string>
+	<string id="l06_rostok">
+		<text>Wild Territory</text>
+	</string>
+	<string id="l07_military">
+		<text>Army Warehouses</text>
+	</string>
+	<string id="l08_yantar">
+		<text>Yantar</text>
+	</string>
+	<string id="l10_radar">
+		<text>Radar</text>
+	</string>
+	<string id="l11_pripyat">
+		<text>Pripyat</text>
+	</string>
+	<string id="east_pripyat">
+		<text>East Pripyat</text>
+	</string>
+	<string id="l12_stancia">
+		<text>Chernobyl NPP1 (South)</text>
+	</string>
+	<string id="l12_stancia_2">
+		<text>Chernobyl NPP2 (North)</text>
+	</string>
+	<string id="cs_agroprom_underground">
+		<text>Old Tunnels</text>
+	</string>
+	<string id="hiding_road">
+		<text>Broken Road</text>
+	</string>
+	<string id="l05_vokzal">
+		<text>End Station</text>
+	</string>
+	<string id="k01_darkscape">
+		<text>Darkscape</text>
+	</string>
+	<string id="dark_forest">
+		<text>Wasted Woodland</text>
+	</string>
+	<string id="level_f-1">
+		<text>Facility F1</text>
+	</string>
+	<string id="l03_rinok">
+		<text>Black Market</text>
+	</string>
+	<string id="l04_pogost">
+		<text>Cemetery</text>
+	</string>
+	<string id="promzone">
+		<text>Techniques</text>
+	</string>
+	<string id="lab_x14">
+		<text>Secret Lab</text>
+	</string>
+	<string id="l01_krasivay">
+		<text>Distribution Center</text>
+	</string>
+	<string id="l02_dd">
+		<text>Courtyards</text>
+	</string>
+	<string id="l01_poligon">
+		<text>Firing Range</text>
+	</string>
+	<string id="digger_stash">
+		<text>Hole in the Ground</text>
+	</string>
+	<string id="master">
+		<text>Master</text>
+	</string>
+	<string id="military">
+		<text>Military</text>
+	</string>
+	<string id="monolith">
+		<text>Monolith</text>
+	</string>
+	<string id="neutral">
+		<text>Neutral</text>
+	</string>
+	<string id="novice">
+		<text>Rookie</text>
+	</string>
+	<string id="st_no_active_task">
+		<text>No active task</text>
+	</string>
+	<string id="st_time_till_surge">
+		<text>Something's happening...</text>
+	</string>
+	<string id="st_time_kvest_proval">
+		<text>Time until task failure</text>
+	</string>
+	<string id="st_time_smert">
+		<text>Time until destruction</text>
+	</string>
+	<string id="st_time_kvest_done">
+		<text>Timer stopped. The portable radio set has been found</text>
+	</string>
+	<string id="stalker">
+		<text>Loner</text>
+	</string>
+	<string id="terrible">
+		<text>Terrible</text>
+	</string>
+	<string id="trader">
+		<text>Trader</text>
+	</string>
+	<string id="ui_st_community">
+		<text>Group</text>
+	</string>
+	<string id="ui_st_price">
+		<text>Price</text>
+	</string>
+	<string id="ui_st_rank">
+		<text>Rank</text>
+	</string>
+	<string id="ui_st_relation">
+		<text>Attitude</text>
+	</string>
+	<string id="ui_st_reputation">
+		<text>Reputation</text>
+	</string>
+	<string id="very_bad">
+		<text>Very bad</text>
+	</string>
+	<string id="very_good">
+		<text>Very good</text>
+	</string>
+	<string id="veteran">
+		<text>Veteran</text>
+	</string>
+	<string id="zombied">
+		<text>Zombie</text>
+	</string>
+	<string id="Btn_Cancel">
+		<text>Cancel</text>
+	</string>
+	<string id="Btn_No">
+		<text>No</text>
+	</string>
+	<string id="Btn_OK">
+		<text>Okay</text>
+	</string>
+	<string id="Btn_Yes">
+		<text>Yes</text>
+	</string>
+	<string id="global_map">
+		<text>Map of the Zone</text>
+	</string>
+	<string id="st_autosave">
+		<text>Autosave...</text>
+	</string>
+	<string id="st_game_over">
+		<text>_</text>
+	</string>
+	<string id="st_item_used">
+		<text>Used</text>
+	</string>
+	<string id="st_not_enough_money">
+		<text>Not enough cash available</text>
+	</string>
+	<string id="st_not_enough_money_npc">
+		<text>Not enough cash available</text>
+	</string>
+	<string id="ui_st_opponent_items">
+		<text>Backpack</text>
+	</string>
+	<string id="st_search_treasure">
+		<text>Examine ($$ACTION_USE$$)</text><!-- Was 'Search stash' - Sword2012 - 17 Jan 18 -->
+	</string>
+	<string id="inventory_item_use">
+		<text>Pick up ($$ACTION_USE$$)</text>
+	</string>
+	<string id="ui_mm_check_updates">
+		<text>Game updates</text>
+	</string>
+	<string id="ui_mm_alternative">
+		<text>Alternative</text>
+	</string>
+	<string id="ui_inv_health">
+		<text>Health</text>
+	</string>
+	<string id="ui_inv_radiation">
+		<text>Radiation</text>
+	</string>
+	<string id="ui_inv_satiety">
+		<text>Nourishment</text>
+	</string>
+	<string id="ui_inv_power">
+		<text>Stamina</text>
+	</string>
+	<string id="ui_inv_bleeding">
+		<text>Bleeding</text>
+	</string>
+	<string id="st_mp_say_to_all">
+		<text>All</text>
+	</string>
+	<string id="st_mp_say_to_team">
+		<text>Command</text>
+	</string>
+	<string id="st_mp_disabled_voting">
+		<text>Voting is inaccessible on this server</text>
+	</string>
+	<string id="st_mp_no_current_voting">
+		<text>Now there are no active votings</text>
+	</string>
+	<string id="st_mp_ready">
+		<text>Ready</text>
+	</string>
+	<string id="st_mp_voting_succeed">
+		<text>Voting has passed successfully!</text>
+	</string>
+	<string id="st_mp_voting_failed">
+		<text>Voting has been spoiled!</text>
+	</string>
+	<string id="l03u_agr_underground">
+		<text>Agroprom Catacombs</text>
+	</string>
+	<string id="l04u_labx18">
+		<text>Laboratory X-18</text>
+	</string>
+	<string id="l08u_brainlab">
+		<text>Laboratory X-16</text>
+	</string>
+	<string id="l10u_bunker">
+		<text>Laboratory X-10</text>
+	</string>
+	<string id="l12u_sarcofag">
+		<text>Sarcophagus</text>
+	</string>
+	<string id="l12u_control_monolith">
+		<text>Monolith Control</text>
+	</string>
+	<string id="enc_saharov_about_klik_text">
+		<text>Sakharov knows about the death of Fang, and advises me to talk to Voronin</text>
+	</string>
+	<string id="saharov_begin">
+		<text>Sakharov: The investigation has started...</text>
+	</string>
+	<string id="poisk">
+		<text>The search for Fang's killers</text>
+	</string>
+	<string id="enc_voronin_about_klik_text">
+		<text>According to Voronin, Fang was somehow double-crossed by Mercenaries. He advises me to visit the informant, Snitch, who'll likely have connections with the Mercenaries...</text>
+	</string>
+	<string id="sms_new_dan2">
+		<text>Text messages</text>
+	</string>
+	<string id="enc_sms1">
+		<text>Text messages</text>
+	</string>
+	<string id="anomaly_zone">
+		<text>Anomalous area</text>
+	</string>
+	<string id="no hint">
+		<text>New way</text>
+	</string>
+</string_table>

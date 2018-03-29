@@ -1,0 +1,142 @@
+;<!-- TB3D 1.0.9.9.9.8, discovery_dependency aleks1970 -->
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;AMK 1.4.1 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[matras]:identity_immunities 
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn    = "food and drugs\antirad"
+$prefetch   = 32
+class   = II_ANTIR
+cform           = skeleton
+visual          = equipments\item_spalnik.ogf
+description  = enc_amk_matras
+
+inv_name   = amk_matras
+inv_name_short  = amk_matras_s
+inv_weight   = 1
+
+inv_grid_width  = 2
+inv_grid_height  = 2
+inv_grid_x   = 12
+inv_grid_y   = 29
+cost    = 1000
+
+; eatable item
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+eat_alcohol = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+
+; food item
+animation_slot  = 4
+
+;hud item
+hud = wpn_vodka_hud
+
+[repbox_s1]:matras
+inv_name   			= rem_komplekt
+inv_name_short		= rem_komplekt
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 6
+inv_grid_y			= 40
+
+
+[treasure_item]:matras
+visual          	= equipments\item_rukzak.ogf
+;; smaller - aleks1970
+description  		= enc_amk_ruksak
+inv_name   			= amk_ruksak
+inv_name_short  	= amk_ruksak_s
+inv_weight   		= 0.4
+
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 12
+inv_grid_y			= 32
+cost				= 1000
+
+
+[treasure_item_big]:treasure_item
+visual          	= equipments\item_rukzak.ogf
+;; bigger - aleks1970
+description  		= enc_amk_ruksak_big
+inv_name   			= amk_ruksak_big
+inv_name_short  	= amk_ruksak_big_s
+inv_weight   		= 2.4
+
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 40
+inv_grid_y			= 55
+cost				= 6500
+
+[treasure_item_zep]:treasure_item
+visual          	= equipments\item_rukzak.ogf
+;; for Zep and Collector story only - aleks1970
+description  		=  enc_amk_ruksak_zep
+inv_name   			= amk_ruksak_zep
+inv_name_short  	= amk_ruksak_zep_s
+inv_weight   		= 1
+
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 42
+inv_grid_y			= 55
+cost				= 10000
+
+
+[treasure_item_death]:treasure_item
+visual         	 = equipments\item_rukzak.ogf
+;; for the expanded/further story progress only - aleks1970
+description  		= enc_amk_ruksak_lastday
+inv_name   			= amk_ruksak_lastday
+inv_name_short  	= amk_ruksak_lastday_s
+inv_weight   		= 0.6
+
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 64
+inv_grid_y			= 42
+cost				= 10000
+
+[treasure_seif]:matras
+visual          = physics\box\seif_01
+description  = enc_amk_ruksak
+inv_name   = amk_ruksak
+inv_name_short  = amk_ruksak_s
+
+inv_grid_width  = 2
+inv_grid_height  = 3
+inv_grid_x   = 14
+inv_grid_y   = 32
+
+[inventory_seif]
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "amk_mod_matras\inventory seif"
+class				= O_INVBOX
+cform				= skeleton
+visual				= physics\box\seif_01
+script_binding      = bind_physic_object.init
+
+[m_inventory_seif]:inventory_seif
+visual = physics\box\seif_01
+radius = 1
+
+[inventory_box_1b]:inventory_seif
+visual	= physics\box\box_1b
+radius = 1
+
+[m_sak_resiver_yantar]:inventory_seif
+visual = equipments\item_transiver
+radius = 0
+
+[m_repair_box_outfit]:inventory_seif
+visual				= equipments\irepair_box.ogf
+radius = 0

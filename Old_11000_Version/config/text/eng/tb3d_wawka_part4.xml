@@ -1,0 +1,1235 @@
+<!--TB3D 1.1.0.0.0.4 improved some text ===========================-->
+<!-- Reworked up to the end - Sword2012 - 06 Apr 17 -->
+<string_table>
+	<string id="start_update_outfit_zahar_0">
+		<text>Greetings, Zahar. I heard in conversation that you modify suits. What do you offer?</text>
+	</string>
+	<string id="start_update_outfit_zahar_1">
+		<text>Greetings to you, too... I mainly modify Mercenary suits, plus a few others. But for other types of suits there are alternative craftsmen around the Zone. I can fit PNV to them, and also reinforce them with titanium plates, thus making them more durable...</text>
+	</string>
+	<string id="start_update_outfit_zahar_2">
+		<text>Excellent, these are good upgrades...</text>
+	</string>
+	<string id="update_outfit_zahar_0">
+		<text>What do you offer in upgrading suits?</text>
+	</string>
+	<string id="update_outfit_zahar_1">
+		<text>I can install Pilot Night Vision onto any of these suits for you:\nThe Mercenary suit\nThe French Army uniform\nThe U.S. Army uniform\nThe Scientific Mercenary suit\nThe Mercenary Exoskeleton\nThe Mercenary suit with gas mask\nThe Modified Mercenary suit\nI can also reinforce any of these suits for you\nOh, and if you don't mind, would you please put any other suits you have into that box to avoid confusion. Just wear the one that you want me to modify, so I can measure it on you properly...\nSo, what would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_1111">
+		<text>Night vision, please...</text>
+	</string>
+	<string id="update_outfit_zahar_11111">
+		<text>Is it to be installed on a standard suit, or one I've already reinforced?</text>
+	</string>
+	<string id="update_outfit_zahar_111111">
+		<text>On a standard suit...</text>
+	</string>
+	<string id="update_outfit_zahar_1111111">
+		<text>Excellent... Onto which suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_zahar_2">
+		<text>The Mercenary outfit...</text>
+	</string>
+	<string id="update_outfit_zahar_3">
+		<text>The French Army uniform...</text>
+	</string>
+	<string id="update_outfit_zahar_4">
+		<text>The U.S. Army uniform...</text>
+	</string>
+	<string id="update_outfit_zahar_5">
+		<text>The Scientific Mercenary suit...</text>
+	</string>
+	<string id="update_outfit_zahar_6">
+		<text>The Mercenary Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_zahar_7">
+		<text>The Mercenary suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_zahar_8">
+		<text>The Modified Mercenary suit...</text>
+	</string>
+	<string id="update_outfit_zahar_02">
+		<text>For the Mercenary suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0021">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0022">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0023">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0024">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0025">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0026">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0027">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0028">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_03">
+		<text>For the French Army uniform:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0031">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0032">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0033">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0034">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0035">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0036">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0037">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0038">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_04">
+		<text>For the U.S. Army uniform:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0041">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0042">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0043">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0044">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0045">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0046">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0047">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0048">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_05">
+		<text>For the Scientific Mercenary suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0051">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0052">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0053">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0054">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0055">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0056">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0057">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0058">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_06">
+		<text>For the Mercenary Exoskeleton:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0061">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0062">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0063">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0064">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0065">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0066">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0067">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0068">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_07">
+		<text>For the Mercenary suit with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0071">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0072">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0073">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0074">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0075">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0076">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0077">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0078">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_08">
+		<text>For the Modified Mercenary suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0081">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0082">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0083">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0084">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0085">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0086">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0087">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0088">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_2100">
+		<text>Here's your Mercenary suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_2200">
+		<text>Here's your Mercenary suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_2300">
+		<text>Here's your Mercenary suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_2400">
+		<text>Here's your Mercenary suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_2500">
+		<text>Here's your Mercenary suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_2600">
+		<text>Here's your Mercenary suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_2700">
+		<text>Here's your Mercenary suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_2800">
+		<text>Here's your Mercenary suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_3100">
+		<text>Here's your French Army uniform. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_3200">
+		<text>Here's your French Army uniform. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_3300">
+		<text>Here's your French Army uniform. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_3400">
+		<text>Here's your French Army uniform. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_3500">
+		<text>Here's your French Army uniform. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_3600">
+		<text>Here's your French Army uniform. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_3700">
+		<text>Here's your French Army uniform. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_3800">
+		<text>Here's your French Army uniform. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_4100">
+		<text>Here's your U.S. Army uniform. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_4200">
+		<text>Here's your U.S. Army uniform. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_4300">
+		<text>Here's your U.S. Army uniform. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_4400">
+		<text>Here's your U.S. Army uniform. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_4500">
+		<text>Here's your U.S. Army uniform. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_4600">
+		<text>Here's your U.S. Army uniform. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_4700">
+		<text>Here's your U.S. Army uniform. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_4800">
+		<text>Here's your U.S. Army uniform. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_5100">
+		<text>Here's your Scientific Mercenary suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_5200">
+		<text>Here's your Scientific Mercenary suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_5300">
+		<text>Here's your Scientific Mercenary suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_5400">
+		<text>Here's your Scientific Mercenary suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_5500">
+		<text>Here's your Scientific Mercenary suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_5600">
+		<text>Here's your Scientific Mercenary suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_5700">
+		<text>Here's your Scientific Mercenary suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_5800">
+		<text>Here's your Scientific Mercenary suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_6100">
+		<text>Here's your Mercenary Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_6200">
+		<text>Here's your Mercenary Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_6300">
+		<text>Here's your Mercenary Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_6400">
+		<text>Here's your Mercenary Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_6500">
+		<text>Here's your Mercenary Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_6600">
+		<text>Here's your Mercenary Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_6700">
+		<text>Here's your Mercenary Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_6800">
+		<text>Here's your Mercenary Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_7100">
+		<text>Here's your Mercenary suit with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_7200">
+		<text>Here's your Mercenary suit with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_7300">
+		<text>Here's your Mercenary suit with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_7400">
+		<text>Here's your Mercenary suit with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_7500">
+		<text>Here's your Mercenary suit with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_7600">
+		<text>Here's your Mercenary suit with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_7700">
+		<text>Here's your Mercenary suit with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_7800">
+		<text>Here's your Mercenary suit with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_8100">
+		<text>Here's your Modified Mercenary suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_8200">
+		<text>Here's your Modified Mercenary suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_8300">
+		<text>Here's your Modified Mercenary suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_8400">
+		<text>Here's your Modified Mercenary suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_8500">
+		<text>Here's your Modified Mercenary suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_8600">
+		<text>Here's your Modified Mercenary suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_8700">
+		<text>Here's your Modified Mercenary suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_8800">
+		<text>Here's your Modified Mercenary suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_111112">
+		<text>A reinforced one, please...</text>
+	</string>
+	<string id="update_outfit_zahar_1111121">
+		<text>Excellent... Onto which reinforced suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_zahar_102">
+		<text>The Mercenary suit...</text>
+	</string>
+	<string id="update_outfit_zahar_103">
+		<text>French Army uniform...</text>
+	</string>
+	<string id="update_outfit_zahar_104">
+		<text>U.S. Army uniform...</text>
+	</string>
+	<string id="update_outfit_zahar_105">
+		<text>The Scientific Mercenary suit...</text>
+	</string>
+	<string id="update_outfit_zahar_106">
+		<text>The Mercenary Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_zahar_107">
+		<text>The Mercenary suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_zahar_108">
+		<text>The Modified Mercenary suit...</text>
+	</string>
+	<string id="update_outfit_zahar_1022">
+		<text>For the reinforced Mercenary suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0121">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0122">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0123">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0124">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0125">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0126">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0127">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0128">
+		<text>Give better excessive heating 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1033">
+		<text>For a reinforced French Army uniform I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0131">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0132">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0133">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0134">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0135">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0136">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0137">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0138">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1044">
+		<text>For a reinforced U.S. Army uniform I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0141">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0142">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0143">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0144">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0145">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0146">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0147">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0148">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1055">
+		<text>For the reinforced Scientific Mercenary suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0151">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0152">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0153">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0154">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0155">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0156">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0157">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0158">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1066">
+		<text>For the reinforced Mercenary Exoskeleton I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0161">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0162">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0163">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0164">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0165">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0166">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0167">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0168">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1077">
+		<text>For the reinforced Mercenary suit with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0171">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0172">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0173">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0174">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0175">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0176">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0177">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0178">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1088">
+		<text>For the reinforced Modified Mercenary suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zahar_0181">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_0182">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_0183">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_0184">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_0185">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_0186">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_0187">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_0188">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1210">
+		<text>Here's your reinforced Mercenary suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_1220">
+		<text>Here's your reinforced Mercenary suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_1230">
+		<text>Here's your reinforced Mercenary suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_1240">
+		<text>Here's your reinforced Mercenary suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_1250">
+		<text>Here's your reinforced Mercenary suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_1260">
+		<text>Here's your reinforced Mercenary suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_1270">
+		<text>Here's your reinforced Mercenary suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_1280">
+		<text>Here's your reinforced Mercenary suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1310">
+		<text>Here's your reinforced French Army uniform. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_1320">
+		<text>Here's your reinforced French Army uniform. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_1330">
+		<text>Here's your reinforced French Army uniform. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_1340">
+		<text>Here's your reinforced French Army uniform. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_1350">
+		<text>Here's your reinforced French Army uniform. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_1360">
+		<text>Here's your reinforced French Army uniform. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_1370">
+		<text>Here's your reinforced French Army uniform. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_1380">
+		<text>Here's your reinforced French Army uniform. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1410">
+		<text>Here's your reinforced U.S. Army uniform. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_1420">
+		<text>Here's your reinforced U.S. Army uniform. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_1430">
+		<text>Here's your reinforced U.S. Army uniform. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_1440">
+		<text>Here's your reinforced U.S. Army uniform. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_1450">
+		<text>Here's your reinforced U.S. Army uniform. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_1460">
+		<text>Here's your reinforced U.S. Army uniform. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_1470">
+		<text>Here's your reinforced U.S. Army uniform. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_1480">
+		<text>Here's your reinforced U.S. Army uniform. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1510">
+		<text>Here's your reinforced Scientific Mercenary suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_1520">
+		<text>Here's your reinforced Scientific Mercenary suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_1530">
+		<text>Here's your reinforced Scientific Mercenary suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_1540">
+		<text>Here's your reinforced Scientific Mercenary suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_1550">
+		<text>Here's your reinforced Scientific Mercenary suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_1560">
+		<text>Here's your reinforced Scientific Mercenary suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_1570">
+		<text>Here's your reinforced Scientific Mercenary suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_1580">
+		<text>Here's your reinforced Scientific Mercenary suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1610">
+		<text>Here's your reinforced Mercenary Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_1620">
+		<text>Here's your reinforced Mercenary Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_1630">
+		<text>Here's your reinforced Mercenary Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_1640">
+		<text>Here's your reinforced Mercenary Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_1650">
+		<text>Here's your reinforced Mercenary Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_1660">
+		<text>Here's your reinforced Mercenary Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_1670">
+		<text>Here's your reinforced Mercenary Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_1680">
+		<text>Here's your reinforced Mercenary Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1710">
+		<text>Here's your reinforced Mercenary suit with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_1720">
+		<text>Here's your reinforced Mercenary suit with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_1730">
+		<text>Here's your reinforced Mercenary suit with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_1740">
+		<text>Here's your reinforced Mercenary suit with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_1750">
+		<text>Here's your reinforced Mercenary suit with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_1760">
+		<text>Here's your reinforced Mercenary suit with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_1770">
+		<text>Here's your reinforced Mercenary suit with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_1780">
+		<text>Here's your reinforced Mercenary suit with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_1810">
+		<text>Here's your reinforced Modified Mercenary suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_1820">
+		<text>Here's your reinforced Modified Mercenary suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_1830">
+		<text>Here's your reinforced Modified Mercenary suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_1840">
+		<text>Here's your reinforced Modified Mercenary suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_1850">
+		<text>Here's your reinforced Modified Mercenary suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_1860">
+		<text>Here's your reinforced Modified Mercenary suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_1870">
+		<text>Here's your reinforced Modified Mercenary suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_1880">
+		<text>Here's your reinforced Modified Mercenary suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_2222">
+		<text>I'd like to reinforce a suit...</text>
+	</string>
+	<string id="update_outfit_zahar_22222">
+		<text>What kind of suit do you want reinforcing - a standard suit, or one already fitted with night vision?</text>
+	</string>
+	<string id="update_outfit_zahar_222221">
+		<text>Standard...</text>
+	</string>
+	<string id="update_outfit_zahar_2222211">
+		<text>Excellent... My quotations:\nThe Mercenary suit - 5,000Ru and a Skin artefact\nThe Scientific Mercenary suit - 40,000Ru and a Scale artefact\nThe Mercenary Exoskeleton - 80,000Ru and a Steel Scale artefact\nThe Mercenary suit with gas mask - 10,000Ru and a Skin artefact\nThe Modified Mercenary suit - 10,000Ru and a Skin artefact\nOnto which suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_zahar_202">
+		<text>The Mercenary suit...</text>
+	</string>
+	<string id="update_outfit_zahar_203">
+		<text>The French Army uniform...</text>
+	</string>
+	<string id="update_outfit_zahar_204">
+		<text>The U.S. Army uniform...</text>
+	</string>
+	<string id="update_outfit_zahar_205">
+		<text>The Scientific Mercenary suit...</text>
+	</string>
+	<string id="update_outfit_zahar_206">
+		<text>The Mercenary Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_zahar_207">
+		<text>The Mercenary suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_zahar_208">
+		<text>The Modified Mercenary suit...</text>
+	</string>
+	<string id="update_outfit_zahar_211">
+		<text>Here's your reinforced Mercenary suit</text>
+	</string>
+	<string id="update_outfit_zahar_212">
+		<text>Here's your reinforced French Army uniform</text>
+	</string>
+	<string id="update_outfit_zahar_213">
+		<text>Here's your reinforced U.S. Army uniform</text>
+	</string>
+	<string id="update_outfit_zahar_214">
+		<text>Here's your reinforced Scientific Mercenary suit</text>
+	</string>
+	<string id="update_outfit_zahar_215">
+		<text>Here's your reinforced Mercenary Exoskeleton</text>
+	</string>
+	<string id="update_outfit_zahar_216">
+		<text>Here's your reinforced Mercenary suit with gas mask</text>
+	</string>
+	<string id="update_outfit_zahar_217">
+		<text>Here's your reinforced Modified Mercenary suit</text>
+	</string>
+	<string id="update_outfit_zahar_222222">
+		<text>With night vision...</text>
+	</string>
+	<string id="update_outfit_zahar_2222221">
+		<text>Excellent... Onto which suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_zahar_302">
+		<text>The Mercenary suit...</text>
+	</string>
+	<string id="update_outfit_zahar_303">
+		<!-- in 133 !!!!TB3D -->
+		<text>The French Army uniform...</text>
+	</string>
+	<string id="update_outfit_zahar_304">
+		<text>The U.S. Army uniform...</text>
+	</string>
+	<string id="update_outfit_zahar_305">
+		<text>The Scientific Mercenary suit...</text>
+	</string>
+	<string id="update_outfit_zahar_306">
+		<text>The Mercenary Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_zahar_307">
+		<text>The Mercenary suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_zahar_308">
+		<text>The Modified Mercenary suit...</text>
+	</string>
+	<string id="update_outfit_zahar_3022">
+		<text>The cost to reinforce a Mercenary suit, with fitted PNV, is 5,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_zahar_0321">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0322">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0323">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0324">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0325">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0326">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0327">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0328">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_3033">
+		<text>Cost of reinforcing the French Army uniform, with fitted PNV, is 10,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_zahar_0331">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0332">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0333">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0334">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0335">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0336">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0337">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0338">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_3044">
+		<text>Cost of reinforcing the U.S. Army uniform, with fitted PNV, is 10,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_zahar_0341">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0342">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0343">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0344">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0345">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0346">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0347">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0348">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_3055">
+		<text>The cost to reinforce a Scientific Mercenary suit, with fitted PNV, is 40,000Ru and a Scale artefact...</text>
+	</string>
+	<string id="update_outfit_zahar_0351">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0352">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0353">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0354">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0355">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0356">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0357">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0358">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_3066">
+		<text>The cost to reinforce an Mercenary Exoskeleton, with fitted PNV, is 80,000Ru and a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_zahar_0361">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0362">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0363">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0364">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0365">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0366">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0367">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0368">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_3077">
+		<text>The cost to reinforce a Mercenary suit with gas mask, with fitted PNV, is 10,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_zahar_0371">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0372">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0373">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0374">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0375">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0376">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0377">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0378">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_3088">
+		<text>Cost of reinforcing the Modified Mercenary suit, with fitted PNV, is 10,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_zahar_0381">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0382">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0383">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0384">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0385">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0386">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0387">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_0388">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zahar_3210">
+		<text>Here's your reinforced Mercenary suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_3220">
+		<text>Here's your reinforced Mercenary suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_3230">
+		<text>Here's your reinforced Mercenary suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_3240">
+		<text>Here's your reinforced Mercenary suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_3250">
+		<text>Here's your reinforced Mercenary suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_3260">
+		<text>Here's your reinforced Mercenary suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_3270">
+		<text>Here's your reinforced Mercenary suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_3280">
+		<text>Here's your reinforced Mercenary suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_3310">
+		<text>Here's your reinforced French Army uniform with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_3320">
+		<text>Here's your reinforced French Army uniform with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_3330">
+		<text>Here's your reinforced French Army uniform with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_3340">
+		<text>Here's your reinforced French Army uniform with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_3350">
+		<text>Here's your reinforced French Army uniform with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_3360">
+		<text>Here's your reinforced French Army uniform with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_3370">
+		<text>Here's your reinforced French Army uniform with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_3380">
+		<text>Here's your reinforced French Army uniform with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_3410">
+		<text>Here's your reinforced U.S. Army uniform with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_3420">
+		<text>Here's your reinforced U.S. Army uniform with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_3430">
+		<text>Here's your reinforced U.S. Army uniform with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_3440">
+		<text>Here's your reinforced U.S. Army uniform with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_3450">
+		<text>Here's your reinforced U.S. Army uniform with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_3460">
+		<text>Here's your reinforced U.S. Army uniform with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_3470">
+		<text>Here's your reinforced U.S. Army uniform with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_3480">
+		<text>Here's your reinforced U.S. Army uniform with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_3510">
+		<text>Here's your reinforced Scientific Mercenary suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_3520">
+		<text>Here's your reinforced Scientific Mercenary suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_3530">
+		<text>Here's your reinforced Scientific Mercenary suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_3540">
+		<text>Here's your reinforced Scientific Mercenary suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_3550">
+		<text>Here's your reinforced Scientific Mercenary suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_3560">
+		<text>Here's your reinforced Scientific Mercenary suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_3570">
+		<text>Here's your reinforced Scientific Mercenary suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_3580">
+		<text>Here's your reinforced Scientific Mercenary suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_3610">
+		<text>Here's your reinforced Mercenary Exoskeleton with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_3620">
+		<text>Here's your reinforced Mercenary Exoskeleton with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_3630">
+		<text>Here's your reinforced Mercenary Exoskeleton with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_3640">
+		<text>Here's your reinforced Mercenary Exoskeleton with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_3650">
+		<text>Here's your reinforced Mercenary Exoskeleton with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_3660">
+		<text>Here's your reinforced Mercenary Exoskeleton with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_3670">
+		<text>Here's your reinforced Mercenary Exoskeleton with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_3680">
+		<text>Here's your reinforced Mercenary Exoskeleton with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_3710">
+		<text>Here's your reinforced Mercenary suit with gas mask and PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_3720">
+		<text>Here's your reinforced Mercenary suit with gas mask and PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_3730">
+		<text>Here's your reinforced Mercenary suit with gas mask and PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_3740">
+		<text>Here's your reinforced Mercenary suit with gas mask and PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_3750">
+		<text>Here's your reinforced Mercenary suit with gas mask and PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_3760">
+		<text>Here's your reinforced Mercenary suit with gas mask and PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_3770">
+		<text>Here's your reinforced Mercenary suit with gas mask and PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_3780">
+		<text>Here's your reinforced Mercenary suit with gas mask and PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_3810">
+		<text>Here's your reinforced Modified Mercenary suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zahar_3820">
+		<text>Here's your reinforced Modified Mercenary suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zahar_3830">
+		<text>Here's your reinforced Modified Mercenary suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zahar_3840">
+		<text>Here's your reinforced Modified Mercenary suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zahar_3850">
+		<text>Here's your reinforced Modified Mercenary suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zahar_3860">
+		<text>Here's your reinforced Modified Mercenary suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zahar_3870">
+		<text>Here's your reinforced Modified Mercenary suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zahar_3880">
+		<text>Here's your reinforced Modified Mercenary suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zahar_999">
+		<text>No, thanks...</text>
+	</string>
+</string_table>

@@ -1,0 +1,251 @@
+;<!-- TB3D 1.1.0.0.1.8 -->
+[zone_mincer]
+GroupControlSection			= spawn_group_zone
+$spawn 						= "zones\mincer zone"
+$prefetch 					= 16
+class						= ZS_MINCE	
+script_binding = amk_anoms.bind
+
+ef_anomaly_type				= 2
+ef_weapon_type				= 14
+
+sound						= zone_mosquito_bald
+;postprocess          = postprocess_gravi
+hit_effect					= explosions\expl_02_sparks
+
+artefacts					= af_blood,0.7, af_mincer_meat, 0.25,af_soul, 0.05
+BirthProbability			= 0.1
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.99
+max_start_power		= 1.00
+attenuation			= 1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 0
+
+tearing_particles			=anomaly2\body_tear_00
+torn_particles				=anomaly2\gravi_anomaly_shield_00
+idle_particles				= amk_anoms\mincer_idle
+accum_particles				= anomaly2\gravi_zaxvat_myasorubka
+awake_particles				= anomaly2\gravi_zaxvat_myasorubka
+blowout_particles			= anomaly2\gravi_zaxvat_myasorubka ;gravity_blast_03
+
+hit_small_particles			= hit_fx\hit_metal_02
+hit_big_particles			= anomaly2\gravity_damage_02_blood2
+idle_small_particles		= anomaly2\gravity_damage_01_smoke
+idle_big_particles			= anomaly2\gravity_damage_02_blood2; anomaly2\gravity_damage_02_smoke
+entrance_small_particles	= amk_anoms\mincer_blast ;anomaly2\gravi_anomaly_shield_00
+entrance_big_particles		= anomaly2\gravi_anomaly_00;
+
+tele_particles_small		= anomaly2\gravity_damage_01_smoke	;anomaly2\gravity_damage_01_smoke
+tele_particles_big			= anomaly2\gravity_damage_02_smoke	
+
+idle_sound					= anomaly\gravi_idle01						;constant sound
+awake_sound					= anomaly\gravi_idle01
+accum_sound					= anomaly\gravi_idle01
+blowout_sound				= anomaly\anomaly_mincer_blowout; anomaly_gravy_blast01		;during ejection (stroke) in the center of the anomaly	
+hit_sound					= anomaly\anomaly_gravy_hit1								;on the character when he gets hit
+entrance_sound				= anomaly\gravi_idle01										;in contact with the object of an anomaly
+body_tearing_sound			= anomaly\anomaly_body_tear_1								;sound of tearing of the corpse
+hit_type					= strike
+hit_impulse_scale			= 0.1							;the ratio of the physical momentum and energy hit
+effective_radius      		= 0.8              ;size range as a percentage of the original, which has a zone
+
+disable_time				= -1							;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small			= -1							;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time			= 100							;timeout idle partiklov
+
+ignore_nonalive				= false
+ignore_small				= true
+ignore_artefacts			= true
+
+blowout_light				= on
+light_color					= 1.4,1.6,1.3
+light_range					= 20.0
+light_time 					= 0.38 ;0.35
+light_height				= 1.5								;rise to the height of the light source
+
+idle_light					= off
+
+awaking_time				= 50
+blowout_time				= 10000	
+accamulate_time				= 4000
+
+blowout_particles_time		= 50
+blowout_sound_time  		= 100
+blowout_light_time			= 5988
+blowout_explosion_time		= 5999
+
+;telekinesis parameters for the zone
+throw_in_impulse				= 1000;4000						;retracting force for unit mass at a distance of one meter
+throw_out_impulse				= 1500;	1000					;ejection force blast
+throw_in_impulse_alive			= 1000;800; 250;200 800			;pulse power retracting the living
+throw_in_atten					= 1.5; 1.2	;3					;coeff. delay (less is more smoothly pulls)
+blowout_radius_percent			= 0.3;0							;radius (as a percentage of the total radius), direct emissions
+actor_blowout_radius_percent	= 0.3;0.5
+tele_height						= 10 ;1.5						;height of telekinesis 
+time_to_tele					= 7000							;time derazhaniya object in the air
+tele_pause						= 4000							;pause before once again raise the fallen object
+
+visible_by_detector			= on
+
+;; wind
+blowout_wind				= on
+
+blowout_wind_time_start     = 0
+blowout_wind_time_peak      = 5900
+blowout_wind_time_end		= 10000;9999
+blowout_wind_power			= 0.5								;Wind power raises (from 0 to 1), at the moment blowout_wind_time_peak 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during the operation
+spawn_blowout_artefacts		= on
+
+artefact_spawn_probability	= 0.09								;the probability that during the operation of the anomalies will be born artifact
+artefact_spawn_particles	= anomaly2\gravi_anomaly_shield_00	;partikly, who played in the birth place of the artifact (optional)
+artefact_born_sound			= anomaly\pux_blast					;sound, who played in the birth place of the artifact (optional)
+throw_out_power				= 15								;momentum with which the artifact will be thrown out of the zone in any direction
+artefact_spawn_height		= 10								;(M) Height at the center of the area where the artifact will be born
+
+[zone_mincer_weak]:zone_mincer
+$spawn 						= "zones\mincer_zone_weak"
+
+hit_impulse_scale			= 0.1	
+effective_radius			= 0.75
+
+throw_in_impulse				= 1000	;retracting force for unit mass at a distance of one meter
+throw_out_impulse				= 1500	;ejection force blast
+throw_in_impulse_alive			= 300	;pulse power retracting the living
+throw_in_atten					= 1.2   ;coeff. delay (less is more smoothly pulls)
+blowout_radius_percent			= 0.6;	;radius (as a percentage of the total radius), direct emissions
+actor_blowout_radius_percent	= 0.6;
+
+;; ветер
+blowout_wind_power			= 0.2	
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.49
+max_start_power		= 0.50
+attenuation			= 1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 1
+artefact_spawn_idle	= 24  ;how often spontaneous artifacts offline, in hours
+artefact_spawn_rnd	= 50  ;probability zaspavnit artifact as a percentage.
+
+artefacts					= af_blood,0.8, af_mincer_meat, 0.2,af_soul, 0.0
+BirthProbability			= 0.1
+
+awaking_time				= 50
+blowout_time				= 10000	
+accamulate_time				= 4000
+
+; Not generating artifacts weak anomaly
+[zone_mincer_weak_noart]:zone_mincer_weak
+$spawn 						= "zones\mincer_zone_weak_noart"
+spawn_blowout_artefacts		= off
+min_artefact_count	= 0
+max_artefact_count	= 0
+artefact_spawn_idle	= 24  ;how often spontaneous artifacts offline, in hours
+
+
+
+[zone_mincer_average]:zone_mincer
+$spawn 						= "zones\mincer zone_average"
+hit_impulse_scale			= 0.1	
+effective_radius			= 0.8
+
+throw_in_impulse				= 1000	;retracting force for unit mass at a distance of one meter
+throw_out_impulse				= 1500	;ejection force blast
+throw_in_impulse_alive			= 450	;pulse power retracting the living
+throw_in_atten					= 1.2	;3;coeff. delay (less is more smoothly pulls)
+blowout_radius_percent			= 0.6	;radius (as a percentage of the total radius), direct emissions
+actor_blowout_radius_percent	= 0.6
+
+;; wind
+blowout_wind_power			= 0.5	
+artefacts					= af_blood,0.6, af_mincer_meat, 0.4,af_soul, 0.0
+BirthProbability			= 0.1
+
+awaking_time				= 50
+blowout_time				= 10000	
+accamulate_time				= 4000
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 1.19
+max_start_power		= 1.20
+attenuation			= 1
+period				= 1
+min_artefact_count	= 1
+max_artefact_count	= 1
+artefact_spawn_idle	= 24  ;how often spontaneous artifacts offline, in hours
+artefact_spawn_rnd	= 70  ;probability zaspavnit artifact as a percentage.
+
+[zone_mincer_strong]:zone_mincer
+$spawn 						= "zones\mincer zone_strong"
+hit_impulse_scale			= 1	
+effective_radius      = 0.85
+
+throw_in_impulse      			= 1000  ;retracting force for unit mass at a distance of one meter
+throw_out_impulse				= 1500	;ejection force blast
+throw_in_impulse_alive			= 600	;pulse power retracting the living
+throw_in_atten					= 1.2	;3;coeff. delay (less is more smoothly pulls)
+blowout_radius_percent			= 0.6	;radius (as a percentage of the total radius), direct emissions
+actor_blowout_radius_percent	= 0.6
+
+;; wind
+blowout_wind_power			= 1	
+artefacts					= af_blood,0.2, af_mincer_meat, 0.6,af_soul, 0.2
+BirthProbability			= 0.1
+
+awaking_time				= 25
+blowout_time				= 10000	
+accamulate_time				= 1000
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 1.19
+max_start_power		= 1.20
+attenuation			= 1
+period				= 1
+min_artefact_count	= 1
+max_artefact_count	= 1
+artefact_spawn_idle	= 24  ;how often spontaneous artifacts offline, in hours
+artefact_spawn_rnd	= 70  ;probability zaspavnit artifact as a percentage.
+
+[amk_zone_mincer]:zone_mincer
+$spawn            = "zones\amk_mincer_zone"
+spawn_blowout_artefacts   = off
+min_artefact_count  = 0
+max_artefact_count  = 0
+artefact_spawn_idle = 24
+
+[amk_zone_mincer_weak]:zone_mincer_weak
+$spawn            = "zones\amk_mincer_zone_weak"
+spawn_blowout_artefacts   = off
+min_artefact_count  = 0
+max_artefact_count  = 0
+artefact_spawn_idle = 24
+
+[amk_zone_mincer_weak_noart]:zone_mincer_weak_noart
+$spawn            = "zones\amk_mincer_zone_weak_noart"
+spawn_blowout_artefacts   = off
+min_artefact_count  = 0
+max_artefact_count  = 0
+artefact_spawn_idle = 24
+
+[amk_zone_mincer_average]:zone_mincer_average
+$spawn            = "amk_zones\mincer zone_average"
+spawn_blowout_artefacts   = off
+min_artefact_count  = 0
+max_artefact_count  = 0
+artefact_spawn_idle = 24
+
+[amk_zone_mincer_strong]:zone_mincer_strong
+$spawn            = "amk_zones\mincer zone_strong"
+spawn_blowout_artefacts   = off
+min_artefact_count  = 0
+max_artefact_count  = 0
+artefact_spawn_idle = 24
+
+[caps_mincer_average]:amk_zone_mincer_average

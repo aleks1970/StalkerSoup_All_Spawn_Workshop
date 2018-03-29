@@ -1,0 +1,87 @@
+;;TB3D 1.0.9.9.7.2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Рация
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[racya_activation]
+starting		=	0.5,	detectors\geiger_click3, 0, 0, 0,  0,	"","idle"
+flying			=	0,	detectors\geiger_click3, 0, 0, 0,  0,	"","idle"
+idle_before_spawning	=	9,	detectors\bomb_timer, 0, 0, 0,  0,	"","idle"
+spawning		=	0.5,  	detectors\geiger_click3, 0, 0, 0,  0,	"","idle"
+
+
+[racya_b]:identity_immunities
+GroupControlSection			= spawn_group
+$spawn						= "weapons\mine\mine_1"
+hud							= racya_b_hud
+animation_slot				= 11
+allow_inertion				= true
+slot						= 1
+attach_angle_offset			= 0,0,0
+attach_position_offset		= -0.1,-0.1,0
+attach_bone_name			= bip01_r_hand
+belt						= false
+af_actor_properties			= off
+actor_properties			= on
+
+$prefetch 			= 64
+cform				= skeleton
+class				= ARTEFACT
+visual				= equipments\item_fmradio.ogf 
+description			= enc_item_racya
+inv_name			= item_racya
+inv_name_short		= item_racya_s
+inv_weight			= 0.5
+inv_grid_width = 1
+inv_grid_height = 2
+inv_grid_x = 6
+inv_grid_y = 43
+cost				= 800
+jump_height			= 0
+lights_enabled 		= false
+
+snd_draw					= weapons\pm_draw
+snd_holster					= weapons\generic_holster
+snd_shoot					= weapons\t_pm_shot      ;pm_shoot
+snd_empty					= weapons\pistol_empty
+snd_reload					= weapons\pm_reload, 0.8
+snd_close					= weapons\generic_close
+snd_idle_sprint				= weapons\generic_close
+snd_hide					= weapons\generic_close
+snd_show					= weapons\generic_close
+snd_activate				= weapons\generic_close
+snd_idle					= weapons\generic_close
+
+
+;скорости увеличения (уменьшения) 
+health_restore_speed		= 0.0			
+radiation_restore_speed		= 0.0
+satiety_restore_speed		= 0.0
+power_restore_speed		    = 0.0
+bleeding_restore_speed		= 0.0
+hit_absorbation_sect		= racya_absorbation
+
+artefact_activation_seq		= racya_activation
+
+[racya_b_hud]
+orientation             	= 0, 0, 0		
+position                	= 0, 0, 0
+visual                  	= huds\racya\racya_hud.ogf
+
+anim_idle_sprint			= idle
+anim_activate				= idle
+anim_show			        = idle
+anim_hide			        = holster
+anim_idle			        = idle
+
+
+[racya_absorbation]
+burn_immunity = 1.0				;коэффициенты иммунитета 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0

@@ -1,0 +1,93 @@
+;; TB3D 1.0.9.9.9.9 can_trade
+
+[attachable_item]
+GroupControlSection   = spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn          = "equipment\attachable_item"
+cform                   = skeleton
+class         = II_ATTCH
+cost          = 100
+description			= enc_attachable_item1_descr
+inv_name        	= attachable_item1
+inv_name_short      = attachable_item1_s
+inv_weight        = .5
+inv_grid_width      = 2
+inv_grid_height     = 1
+inv_grid_x        = 16
+inv_grid_y        = 12
+attach_angle_offset   = 0, -3.14, 1.6
+attach_position_offset  = 0.105, 0.00, 0.085
+attach_bone_name    = bip01_head
+
+[new_attachable_item]
+GroupControlSection   = spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn          = "equipment\new_attachable_item"
+cform                   = skeleton
+class         = II_BTTCH
+cost          = 100
+description			= enc_attachable_item2_descr
+inv_name        	= attachable_item2
+inv_name_short      = attachable_item2_s
+inv_weight        = .5
+inv_grid_width      = 2
+inv_grid_height     = 1
+inv_grid_x        = 16
+inv_grid_y        = 12
+attach_angle_offset   = 0, -3.14, 1.6
+attach_position_offset  = 0.105, 0.00, 0.085
+attach_bone_name    = bip01_head
+
+[hand_radio]:identity_immunities
+GroupControlSection   = spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn          = "equipment\hand_radio"
+cform                   = skeleton
+class         = II_ATTCH
+visual                  = equipments\item_fmradio.ogf
+can_trade			= on	;;110000, need to trade - new disabled - aleks1970
+description			= enc_item_hand_radio3_descr
+cost          = 500
+inv_name        = item_hand_radio3
+inv_name_short      = item_hand_radio3_s
+inv_weight        = .15
+inv_grid_width      = 1
+inv_grid_height     = 2
+inv_grid_x        = 6
+inv_grid_y        = 43
+attach_angle_offset   = -1.5708,0.1919,3.1416    ;is set to radians Angle*PI/180
+attach_position_offset  = 0.075, 0.066, 0.023
+attach_bone_name    = bip01_l_hand
+auto_attach       = false
+
+[antir_f]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency	=
+cform               = skeleton
+class				= II_ANTIR
+; eatable item
+eat_health 			= 0
+eat_satiety 		= 0
+eat_power 			= 0
+eat_radiation 		= 0
+eat_alcohol 		= 0
+wounds_heal_perc 	= 0
+eat_portions_num 	= 1
+; food item
+animation_slot  	= 4
+;hud item
+hud 				= wpn_vodka_hud
+
+[hand_radio_f]:antir_f
+$spawn				= "food and drugs\antirad"
+visual              = equipments\item_fmradio.ogf
+description			= enc_item_hand_radio_descr
+inv_name        	= item_hand_radio
+inv_name_short      = item_hand_radio_s
+inv_weight        = .15
+inv_grid_width      = 1
+inv_grid_height     = 2
+inv_grid_x        = 6
+inv_grid_y        = 43
+cost				= 750
+

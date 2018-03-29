@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- TB3D 1.1.0.0.0.4 Trans 100%, Literal editing 0%, The Doctor, something -->
+<!-- ATP MISSIONS -->
+<!-- MEETING WHALE -->
+<!-- Names changed as commented below. 9 lines edited to make 'accumulators ' into 'accumulator cells' - Sword2012 - 31 Oct 16 -->
+<!-- Changed all 'Mother's Beads' to 'Glassbeads' - Sword2012 - 12 Dec 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<string_table>
+	<string id="atp_vstrecha_0">
+		<text>That was a close call, you mind telling me what's going on here?</text>
+	</string>
+	<string id="atp_vstrecha_1">
+		<text>My name is Keith. I'm a scout for Kalinin. Who might you be?</text>
+	</string>
+	<string id="atp_vstrecha_2">
+		<text>That's not important. Who is this Kalinin anyway?</text>
+	</string>
+	<string id="atp_vstrecha_3">
+		<text>Kalinin was the first Stalker to visit this part of the Zone. For the longest time, we were the only ones to know about this place at all. Once people found a way to get here though, that all changed, and for the worse. Bandits moved into the area soon thereafter, and wiped out many of our people. The survivors of that raid now live in the Camp, which is where I am headed now. You should go there too, before the Bandits catch wind that you're here</text>
+	</string>
+	<string id="atp_vstrecha_4">
+		<text>I think I should meet Kalinin, and find out more about this place</text>
+	</string>
+	<string id="atp_vstrecha_5">
+		<text>Perhaps you can do me a favor then, I need someone to drive that van over there to the Camp. It belonged to the last person who wandered into this area. They ended up getting gored and eaten by one of those Boars you saw. One of the big grey bastards. Very dangerous. There should still be a little gas in the tank. What do you say? Can you help me out?</text>
+	</string>
+	<string id="atp_vstrecha_6">
+		<text>I'll have a look at the van. If I can't get it running, then I'll make it to the camp on foot...</text>
+	</string>
+	<string id="atp_vstrecha_7">
+		<text>Thanks for the information. I'll probably see you over at the Camp</text>
+	</string>
+	<!-- KALININ MISSIONS -->
+	<string id="kalinin_zadan_vzyt_0">
+		<text>I've heard that you are the one that discovered this place</text>
+	</string>
+	<string id="kalinin_zadan_vzyt_1">
+		<text>That would be correct. I came here a long time ago to get away from the troubles, and complications that pollute the rest of the Zone. Unfortunately, they have managed to find me here as well. Those Bandit bastards seem to come out of the woodwork, and make life a living Hell for everyone they encounter! And, who might you be? Why are you here?</text>
+	</string>
+	<string id="kalinin_zadan_vzyt_2">
+		<text>It's alright, those Bandits are no friends of mine either, Bloodsucker shit, the lot of them!</text>
+	</string>
+	<string id="kalinin_zadan_vzyt_3">
+		<text>I'm glad to hear that! Listen up, we're in trouble here. The Bandits have taken control over our old encampment in the center of this territory. They regularly stage attacks on us from there. They are trying to wipe us out completely so that they will have absolute, and total control over this area. We need some help, and we need it now!! My scout Keith tells me that they are advancing on us as we speak! We can talk more later, but for now, help us, please?!</text>
+	</string>
+	<string id="kalinin_zadan_vzyt_4">
+		<text>What exactly is our defensive situation here?!</text>
+	</string>
+	<string id="kalinin_zadan_vzyt_5">
+		<text>Wow! You're the man! Alright, they will attack us in two waves, advancing from the center. We need to fend off both of these attacks, and then you must infiltrate their base. That's their stronghold. They are led by a man named Shynra, a real piece of work. A sadist, they say he likes to skin live animals and such. I want you to take him, and the rest of his sordid kind out of the picture. Kill everyone. All of them. Return to me when the job is done</text>
+	</string>
+	<string id="kalinin_zadan_vzyt_6">
+		<text>And such? Don't wanna know! The exterminator at your service! Wait here until I return</text>
+	</string>
+	<string id="kalinin_zadan_vzyt_7">
+		<text>This is a bit too extreme for me right now, Sorry, maybe later, see ya</text>
+	</string>
+	<string id="kalinin_otvet_0">
+		<text>Well, Shynra is toast along with all his men, tisk, tisk</text>
+	</string>
+	<string id="kalinin_otvet_1">
+		<text>Marked One, you're one tough son of a pseudodog! You've truly done the world a favor!</text>
+	</string>
+	<string id="kalinin_otvet_2">
+		<text>It wouldn't be wise to move back into the Car Park, though. There'll likely be more Bandits on their way here. They're like fucking rabbits! And they'll have called for reinforcements...</text>
+	</string>
+	<string id="kalinin_otvet_3">
+		<text>Thank you for the information. As payment, all I can give you is information on a transition from the Dark Valley to the Forgotten Forest. Nobody else besides me knows about it. Take this serum as well, it's great for sores and hang-overs. Listen, Marked One I have another job for you as well</text>
+	</string>
+	<string id="gonets_spasti_0">
+		<text>Oh, and what might that be?</text>
+	</string>
+	<string id="gonets_spasti_1">
+		<text>I'm expecting a Courier that is carrying some very important information. I need you to meet up with him, and get that information from him. Then I want you to escort him back to camp safely, as there are a lot of mutants in this territory. He will be coming in via the same road you came in on, but from the opposite end. Here, I'll send the coordinates to your PDA. Oh, and one more thing, he will be dressed as a Rookie</text>
+	</string>
+	<!-- KALININ MISSION (Messenger) -->
+	<string id="gonets_talk_0">
+		<text>You must be the courier for Kalinin...</text>
+	</string>
+	<string id="gonets_talk_1">
+		<text>Yes, that would be me. I've never been to this part of the Zone before. It really sucks!</text>
+	</string>
+	<string id="gonets_talk_2">
+		<text>I've seen worse! You ever been to Recife? No, never mind! If you've never been here before, how did you expect to find Kalinin's camp?</text>
+	</string>
+	<string id="gonets_talk_3">
+		<text>Kalinin sends a homing signal to my PDA. I just follow it all the way to the camp</text>
+	</string>
+	<string id="gonets_talk_4">
+		<text>You were going to take a straight line path right to him? This would have been your last time here, too... Kalinin heard about the bandits around here, and sent me to find you. I'm to carry the flash drive and escort you to the camp, for safety</text>
+	</string>
+	<string id="gonets_talk_5">
+		<text>I just knew it was going to be one of those days... Okay, I just received confirmation from Kalinin, otherwise I'd not have believed you... He also says he'll reward you with an artefact once I reach the camp in one piece...</text>
+	</string>
+	<string id="gonets_talk_6">
+		<text>Sounds good to me. Now, though, we've gotta get moving. The bandits will already know we're here...</text>
+	</string>
+	<string id="gonets_talk_7">
+		<text>Sorry man, but you're on your own from here. This place is a little too unfriendly...</text>
+	</string>
+	<!-- KALININ MISSION (Messenger) complete -->
+	<string id="gonets_vse_ok_0">
+		<text>Here's your flash drive...</text>
+	</string>
+	<string id="gonets_vse_ok_1">
+		<text>This is excellent! It contains the specific radio frequencies that the Bandits use to communicate throughout the Zone. Now I'll know their every move before they do! This could be our chance to win back that which is rightfully ours! Thank you! Here, please accept this RPG as recompense for your efforts</text>
+	</string>
+	<string id="gonets_vse_ok_2">
+		<text>Whew! I can see myself putting this to good use...</text>
+	</string>
+	<string id="gonets_vse_ok_3">
+		<text>Stay in touch! We will likely need your help again soon</text>
+	</string>
+	<string id="kalinin_btr_vzyt_0">
+		<text>Hey, that flash drive I brought you. Do you know if there were military radio frequencies on it?</text>
+	</string>
+	<string id="kalinin_btr_vzyt_1">
+		<text>Hmm, let's see... Yes, I'm getting something. Keep quiet a minute... Damn! The Military's planning a raid on this area. They're massing their troops right now!</text>
+	</string>
+	<string id="kalinin_btr_vzyt_2">
+		<text>When will they get here?</text>
+	</string>
+	<string id="kalinin_btr_vzyt_3">
+		<text>They're awaiting the order to advance. It could be any time. We'll not survive an attack from the Military attack, and you know it! Look, that RPG I gave you should take care of the vehicles, but I'd like you to find me a special weapon, an Iglomet, with at least a dozen 'arrows'. It's one of my favourites - silent, accurate, and very powerful. The shafts will penetrate most body armor, and on this terrain we'll have a major advantage over their infantry!</text>
+	</string>
+	<string id="kalinin_btr_vzyt_4">
+		<text>Okay, I'll try to find you one, and return as soon as I can. But they're not that common...</text>
+	</string>
+	<string id="kalinin_btr_vzyt_5">
+		<text>Look, I'm sorry, but this isn't my fight! Best of luck to you and your men though...</text>
+	</string>
+	<string id="kalinin_btr_unichtoz_0">
+		<text>I found the Iglomet. You were right. It's a damn cool weapon!</text>
+	</string>
+	<string id="kalinin_btr_unichtoz_1">
+		<text>Perfect! Here's what we'll do - you take out the vehicles and their commander with the RPG. We'll cover you...</text>
+	</string>
+	<string id="kalinin_btr_unichtoz_2">
+		<text>Okay. Where are they now?</text>
+	</string>
+	<string id="kalinin_btr_unichtoz_3">
+		<text>I'm waiting for word from my Scouts</text>
+	</string>
+	<string id="btr_ataka_0">
+		<text>Have they already arrived or are they just passing us by?</text>
+	</string>
+	<string id="btr_ataka_1">
+		<text>My scouts have reported two Troop Carriers and regular infantry are arriving now. There's a third armored car on the way. You need to take out those Troop Carriers! Go now, quickly!</text>
+	</string>
+	<string id="kalinin_btr_nagrada_0">
+		<text>It was a brutal but necessary battle...</text>
+	</string>
+	<string id="kalinin_btr_nagrada_1">
+		<text>Yes, let's hope they leave us alone now...</text>
+	</string>
+	<string id="kalinin_btr_nagrada_2">
+		<text>I didn't expect this place to be such a bloody warzone!</text>
+	</string>
+	<string id="kalinin_btr_nagrada_3">
+		<text>Here, take this. It comes from the heart...</text>
+	</string>
+	<string id="plenniy_dialog_0">
+		<text>Judging by your appearance you're a former miner...</text>
+	</string>
+	<string id="plenniy_dialog_1">
+		<text>Yes, I am. You scared me. I thought it was those fanatics coming for me. How can you tell?</text>
+	</string>
+	<string id="plenniy_dialog_2">
+		<text>The smell, but that's not important. You've been a bandit? And now Monolith. Why?</text>
+	</string>
+	<string id="plenniy_dialog_3">
+		<text>My hands are most certainly dirty. Before the failure in Chernobyl, I was a bandit with allegiance to Shahry. There was a collapse in the cave one month ago that opened a tunnel. I went through the tunnel thinking I could join up with Bandits but never imagined I would find a base of Monolithians! The Miner warned me about going into the tunnel but I didnt listen. They have decided to turn me into a believer. There was another Stalker also held prisoner with me but he escaped while the Monolithians meditated. I was too weak to go with him. Now they've strengthened the guard so nobody can run away anymore...</text>
+	</string>
+	<string id="plenniy_dialog_4">
+		<text>The Miner sent me to find you and bring you back</text>
+	</string>
+	<string id="plenniy_dialog_5">
+		<text>Thank you, I will have a little rest and then I will return on my own. The transition to get out is at the bottom level, a short way into another cave. It's full of starving rats and other hazards. Watch out for the leader of the Monolithians, as he's invincible. Some kind of mutant zombie bullshit!</text>
+	</string>
+	<string id="plenniy_dialog_6">
+		<text>Immortal Zombie Monolith! What the hell next? Tell the Miner what's going on here and I will see the both of you later</text>
+	</string>
+	<string id="plenniy_dialog1_0">
+		<text>Immortal Zombie Monolith! What the hell next? Are you able to get out on your own? look like crap to me! I'm supposed to escort you back...</text>
+	</string>
+	<string id="plenniy_dialog1_1">
+		<text>It's ok, really. I just need a little rest, my head is dizzy. I will return to the Miner soon. Thanks for the help</text>
+	</string>
+	<string id="shax_plennik_nayti_0">
+		<text>What has happened? You look so sad?</text>
+	</string>
+	<string id="shax_plennik_nayti_1">
+		<text>Yes I am very troubled. I hear you are a very experienced Stalker in the Zone, some kind of legend it seems</text>
+	</string>
+	<string id="shax_plennik_nayti_2">
+		<text>Legend of the 'Marked one', not bad, sorta like it! So, whats keeping you up at night these days?</text>
+	</string>
+	<string id="shax_plennik_nayti_3">
+		<text>Approximately one year ago there was a collapse in the cave. On the bottom level there is a steep wall that can be easily climbed tho hard to see. This leads to a small new tunnel opened up by the collapse. This tunnel leads to a base of fanatics. Recently one of my men went through this tunnel, after argueing with everyone here, and saying he was leaving to become a bandit. I don't know why he was acting so stupid, but he left through the new transition that has opened down there. I Sent some men to look for him but they came back with more bad news, he is now being held prisoner by the fanatics</text>
+	</string>
+	<string id="shax_plennik_nayti_4">
+		<text>Monolithians, most likely. This is the first I've heard about an underground base</text>
+	</string>
+	<string id="shax_plennik_nayti_5">
+		<text>He is being held in the great chamber of the Labyrinth. According to a Stalker who recently escaped from there, the Sentry carries a codebook for the cell door. If you are able to obtain it, don't lose this notebook. The prisoner knows where the exit is. I've been told the Monolith leader in the Labyrinth is immortal, so avoid him. At the bottom of the great hall is another cave that I've been told is full of artefacts and of course danger</text>
+	</string>
+	<string id="shax_plennik_nayti_6">
+		<text>I will try. I will not forget about the notebook, and will try not to lose it. If I find him, I will set him free</text>
+	</string>
+	<string id="shax_plennik_nayti_7">
+		<text>Thats a big no Miner. I am still young, I want to live</text>
+	</string>
+	<string id="shax_plennik_prines_0">
+		<text>Your man has been set free, he promised to come after me. He gave me the info on how to find the exit</text>
+	</string>
+	<string id="shax_plennik_prines_1">
+		<text>Thank you Marked One. Here take this recipe to make an artefact. By the way the recipe is from that man you rescued</text>
+	</string>
+	<string id="shax_plennik_prines_2">
+		<text>Thanks. And how useful was the disk?</text>
+	</string>
+	<string id="shax_plennik_prines_3">
+		<text>Pogodi. My person will return, to find out truth, and you I will tell...\nYes the notebook which you have brought, I esteem, the blessing of small lamps now. You can learn from it yourself, but I do not think that while it will tell much, goodness knows. And, here the 'prodigal son' has returned!</text>
+	</string>
+	<string id="fima_mulo_nayti_0">
+		<text>Greetings, Im glad you made it back alive. I want to ask you in detail about the person who was in captivity with you</text>
+	</string>
+	<string id="fima_mulo_nayti_1">
+		<text>There's little that I can tell. I can say only that he was an unusual Stalker with a beard, and a speech problem. I don't know why, maybe he had a lisp, burrs, or missing teeth</text>
+	</string>
+	<string id="fima_mulo_nayti_2">
+		<text>Burrs? And what was he doing in the Labyrinth?</text>
+	</string>
+	<string id="fima_mulo_nayti_3">
+		<text>I don't know exactly, but it was obvious that he had been there before. Possibly, searching for something. Very vaguely I remember, he talked about a small casket and a safe. On the casket is the code for the bottom door of the bunker of Fanatics, and this code he obviously knew. Where this casket with the code is now is not known. Where the safe he searched for is and whats in it, no clue. But I know he came planned to leave the Labyrinth to Yantar, he said it was closer to his dealer on Agroprom</text>
+	</string>
+	<string id="fima_mulo_nayti_4">
+		<text>From the Labyrinth there is an exit to Yantar?</text>
+	</string>
+	<string id="fima_mulo_nayti_5">
+		<text>Yes, I know the coordinates, here. There is another transition, but before I give you the coordinates you need to bring me some things. If you want the transition then bring me ten scientific medkits, ten bandages, a Soul and two bars of soap. I have not washed for a long time. The soap is located in one of the cellars in a house in the rookie village in Cordon. I know because I stayed in this village before the accident at Chernobyl. Also, you need to go to the Agropom and talk to the dealer and see what he knows of my companion in captivity</text>
+	</string>
+	<string id="fima_mulo_nayti_6">
+		<text>I will bring all you asked for. Transitions never come easy, and thanks for the info</text>
+	</string>
+	<string id="fima_mulo_nayti_7">
+		<text>No way, Fima! You want soap? The destiny of many lives hang in the balance, and you want some soap!</text>
+	</string>
+	<string id="fima_mulo_prines_0">
+		<text>I've brought everything you asked for. Judging by the boar on the table, you certainly won't starve here...</text>
+	</string>
+	<string id="fima_mulo_prines_1">
+		<text>The Miner has been generous to me with his food and medicine. Here as promised, I will tell you where the transition is. It is at the top level of the Labyrinth, travel through the great room, past the big anomaly and into the hall that leads to mid-level and you will find the transition to Reconnoitered Territory. But there is one discrepancy, I cannot give the coordinates to you, the Miner asked me not to speak yet</text>
+	</string>
+	<string id="fima_mulo_prines_2">
+		<text>Wait a minute! I save your butt, then bring you all these medkits, bandages, an artefact, and not to mention Soap!! and this is how you show gratitude!</text>
+	</string>
+	<string id="fima_mulo_prines_3">
+		<text>Dont get angry, the Miner said that it was for your own good. In exploration we are going to do, we are going on an already proven and tested path. In the meantime, here's a recipe. Throw into a Tornado: one sausage and one rudiment of the sternum of a female zombie. This rudiment changes colour, and accordingly is much more valuable to merchants. But clearly, this is not the whole recipe. The rest of it I don't know. But don't try this transmutation with your electronic device - this recipe is an exception, and transmutation can only be done by hand. Oh, and the chances of it succeeding are rather low...</text>
+	</string>
+	<string id="adr_shkatulka_dost_0">
+		<text>Adrenalin, I need to ask you - did a man with a beard and a speech problem come here?</text>
+	</string>
+	<string id="adr_shkatulka_dost_1">
+		<text>I deal with a lot of people, but I don't remember such a person. There was a rookie, though - no beard and without a speech problem, but I remember him because his request was unusual...</text>
+	</string>
+	<string id="adr_shkatulka_dost_2">
+		<text>Oh, what did he ask for?</text>
+	</string>
+	<string id="adr_shkatulka_dost_3">
+		<text>He talked of a bunker inside a labyrinth of caverns, which was the first time I'd heard of the place. He asked me to find a safe and a small casket out of there, and promised to pay me well. I didn't really believe him. I mean, where does a rookie get information like that? He told me of a transition to this Labyrinth from Yantar. He also told me where the casket and safe should be. I told him to fuck off, especially when he said it was a Monolith stronghold. So, why are you interested?</text>
+	</string>
+	<string id="adr_shkatulka_dost_4">
+		<text>I've also heard of this bunker. In fact, I've been there. I'm now interested in finding this casket, so how about we share information?</text>
+	</string>
+	<string id="adr_shkatulka_dost_5">
+		<text>I'll share the information with you if you agree to bring me the casket and the safe, because that rookie, or whoever he was, might come back. Now, the safe is securely guarded by the Monolith, but the casket was lost before they could get hold of it. Fima says the Monolith know those caverns like the backs of their hands, and they weren’t able to find it - so good luck... \nHere’s what I know though - go to bottom of the Labyrinth and find a small round tunnel up in the cavern wall. Crawl through a series of such tunnels until you reach a Bubble anomaly. That’ll take you to an obscure level about halfway up the Labyrinth, where you can see a glowing teleport. What you’re looking for is somewhere on that level…\nHere's the transition coordinates to this Labyrinth from Yantar. It's on your map. I don't want payment for any of this - just bring me the casket and the safe...</text>
+	</string>
+	<string id="adr_shkatulka_dost_6">
+		<text>Alright, I'll bring them and we'll share the info. Thanks for the transition...</text>
+	</string>
+	<string id="adr_shkatulka_dost_7">
+		<text>No thanks. I hate bloody caves...</text>
+	</string>
+	<string id="adr_shkatulka_prines_0">
+		<text>Well, did that rookie come back?</text>
+	</string>
+	<string id="adr_shkatulka_prines_1">
+		<text>No, he hasn't. Have you brought the safe and casket?</text>
+	</string>
+	<string id="adr_shkatulka_prines_2">
+		<text>Here's the casket, but I couldn't find the safe. I'll go see the Miner and see if he knows anything. I'll keep you informed...</text>
+	</string>
+	<string id="adr_shkatulka_prines_3">
+		<text>Good luck, Marked One...</text>
+	</string>
+	<string id="tretiy_kod_dost_0">
+		<text>Hello Miner. Have you been able to learn anything?</text>
+	</string>
+	<string id="tretiy_kod_dost_1">
+		<text>Yes, I've deciphered some of this scribbling...</text>
+	</string>
+	<string id="tretiy_kod_dost_2">
+		<text>I was in the Labyrinth, and found the small casket Fima described. There were codes for two of the bunker doors. I couldn't find the safe, though...</text>	<!-- Changed 'Fima' to 'Fima Coal'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tretiy_kod_dost_3">
+		<text>Actually, there are three doors - the entrance at the guarded lower level, then between the bottom and top bunker floors, and finally the exit to the level above. The code to the middle inner door is known only to a fanatic by the name of 'Shadow Monolith'. I've heard that his dedication made him immortal...</text>
+	</string>
+	<string id="tretiy_kod_dost_4">
+		<text>Looks pretty impossible to get that safe...</text>
+	</string>
+	<string id="tretiy_kod_dost_5">
+		<text>There is one option, though you're not going to like it. You can join the Monolith, and then you can find out the code. I heard that a trader at Cordon can take care of this. But remember, once a Monolith you'll be an enemy. No one will trust you, and everyone will want you dead. Now, Fima says that the guard collects artefacts. Take him a Plasma Caterpillar and a Rattle. I've already given you the recipe. Find the safe and bring it here, but if you come as Monolith I'll be the first to put a bullet through your skull! You still have those codes, I hope?</text>
+	</string>
+	<string id="tretiy_kod_dost_6">
+		<text>So, by joining Monolith I'll be everyone's enemy... But I need to speak with this Shadow Monolith,  meaning that I need Sid's help...</text>
+	</string>
+	<string id="tretiy_kod_dost_7">
+		<text>I'd rather die before I'd join Monolith...</text>
+	</string>
+	<string id="tretiy_kod_nayden_0">
+		<text>Well, that was... interesting. I got the safe, though. I'm just glad it wasn't too large. Or fitted...</text>
+	</string>
+	<string id="tretiy_kod_nayden_1">
+		<text>I'm glad you're alive, and no longer Monolith! I was certainly concerned for you...</text>
+	</string>
+	<string id="tretiy_kod_nayden_2">
+		<text>So, what now? The safe looks solid, and we don't have the combination..</text>
+	</string>
+	<string id="tretiy_kod_nayden_3">
+		<text>Leave it here with me, and complete your investigation. I know you're looking for the killer of a fellow Stalker. Finish that business, then return here and we'll think about opening this safe...</text>
+	</string>
+	<string id="sidor_amulet_vzyt_0">
+		<text>Sid, I need to discuss something with you...</text>
+	</string>
+	<string id="sidor_amulet_vzyt_1">
+		<text>Well, hello there! What's the matter? You look like shit...</text>
+	</string>
+	<string id="sidor_amulet_vzyt_2">
+		<text>I have an unusual request. I need to infiltrate Monolith...</text>
+	</string>
+	<string id="sidor_amulet_vzyt_3">
+		<text>You're fucking crazy! Nobody has contacts within the Monolith. I sure as hell don't! Who'd want to? Shit, you're serious, aren't you? Well, there may be another way. I have a rather special amulet that's only bestowed upon leaders in their faction. Don't ask me where it came from, or how I got it, but it might gain you entry into their ranks, though I can't guarantee it. I'll let you use it, but only if you agree to do me a favor while you're there. What do you say?</text>
+	</string>
+	<string id="sidor_amulet_vzyt_4">
+		<text>What sort of favor?</text>
+	</string>
+	<string id="sidor_amulet_vzyt_5">
+		<text>Listen carefully, Marked One. Only the most devout, proven members of Monolith wear this amulet. Once you put it on, there's no going back. ANYONE and EVERYONE who is not sworn Monolith will be your enemy. You'll never be able to restore your reputation by yourself - no one will ever trust you again - only I can do that for you, which is where my request comes in... These Monolith fuckers might be fanatics, but they're very well equipped. If you make it in, bring me back two of their specialized tool kits and I'll remove the amulet for you. Do we have a deal?</text>
+	</string>
+	<string id="sidor_amulet_vzyt_6">
+		<text>Fuck... Yes, we have a deal. I'll get you these kits. Let's have the amulet...</text>
+	</string>
+	<string id="sidor_amulet_vzyt_7">
+		<text>No way I'm wearing that thing! I'll find another way...</text>
+	</string>
+	<string id="sidor_amulet_prines_0">
+		<text>Here are your tool kits, complements of the Monolith. Now take this fucking amulet off me...</text>
+	</string>
+	<string id="sidor_amulet_prines_1">
+		<text>So tell me what it was like, the Monolith. What did you find out about them? What do they want? Why have they come to this God-forsaken place anyway?</text>
+	</string>
+	<string id="sidor_amulet_prines_2">
+		<text>Sid, take this bastard thing off me!</text>
+	</string>
+	<string id="sidor_amulet_prines_3">
+		<text>Oh, yeah. Sorry, I'm only curious! Thank you for the tool kits, and... my amulet. Okay, I've put the word out. You're a free man once more...</text>
+	</string>
+	<string id="ten_monolita_talk_0">
+		<text>Hail Monolith! This is my first time here...</text>
+	</string>
+	<string id="ten_monolita_talk_1">
+		<text>WHO ARE YOU?</text>
+	</string>
+	<string id="ten_monolita_talk_2">
+		<text>I'm sorry. I've been sent from Pripyat to collect some tool kits. I was told you keep them inside...</text>
+	</string>
+	<string id="ten_monolita_talk_3">
+		<text>I DO NOT LEAVE MY POST!</text>
+	</string>
+	<string id="ten_monolita_talk_4">
+		<text>I would not expect you to. My commander already gave me the door codes. If you could give me your permission to enter, and the inner code, I will not keep you from your sworn duty any longer. Here, I was asked to bring you a gift, a Rattle and a Plasma Caterpillar...</text>
+	</string>
+	<string id="ten_monolita_talk_5">
+		<text>YOUR COMMANDER IS GENEROUS, AND YOU BEAR THE AMULET OF DEDICATION. THE CODE IS 4241, BUT REPEAT THIS TO NOBODY. HAIL MONOLITH!</text>
+	</string>
+	<string id="ten_monolita_talk_6">
+		<text>On my honor, I swear by the sacred Monolith I shall not reveal it to anyone...</text>
+	</string>
+	<string id="shax_land_perehod_talk_0">
+		<text>Greetings. You asked me to return when I'd completed my investigation...</text>
+	</string>
+	<string id="shax_land_perehod_talk_1">
+		<text>Greetings to you. Well, did you find out what happened to your friend?</text>
+	</string>
+	<string id="shax_land_perehod_talk_2">
+		<text>My friend is dead, and those responsible have been dealt with. What news do you have?</text>
+	</string>
+	<string id="shax_land_perehod_talk_3">
+		<text>I have two pieces of news - firstly, I have not opened the safe. It's too difficult. The welding has been done autogenously, and the lock not only needs a combination, but a coded electronic key! If there are documents inside, they'll be destroyed well before the safe is cracked... But there's also good news! My men investigated the transition of which Fima Coal spoke. At the Reconnoitered Territory, they found a specialist locksmith who says he can open this safe. When you get there, look for an Infirmary or something like a clinic...</text>	<!-- Changed 'Fima' to 'Fima Coal'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="shax_land_perehod_talk_4">
+		<text>And what's in this territory. Anything useful?</text>
+	</string>
+	<string id="shax_land_perehod_talk_5">
+		<text>It's mainly woodland. I've known it since my childhood, where I played with many friends. Then when hunting later on I'd stay at a friend's hut. The 'Old Man' we all called him. He didn't mind... Please give him my regards, and say I've not forgotten him. Take the safe with you to the Labyrinth's top level, and try the transition to the Reconnoitered Territory. I've sent it to your PDA...</text>
+	</string>
+	<string id="shax_land_perehod_talk_6">
+		<text>Thanks. I'll find this infirmary at Reconnoitered Territory, and let you know what happens...</text>
+	</string>
+	<string id="zvezdochet_aver_talk_0">
+		<text>Oh, hello again! I didn't expect to run into you out here!</text>
+	</string>
+	<string id="zvezdochet_aver_talk_1">
+		<text>Greetings, again. I sometimes travel this secluded path, because few others do. You'll find the rain here rather... consistent. But you look like you've done well for yourself. You certainly look healthier! So what are you doing here?</text>
+	</string>
+	<string id="zvezdochet_aver_talk_2">
+		<text>It's my first time here - and I certainly didn't know I'd lose some of my most useful artefacts... I'm trying to find out what happened to an old friend, and I believe there's information inside this safe. I'm told that somewhere around here there's an Infirmary, where I can find a lock expert. Do you know anything?</text>
+	</string>
+	<string id="zvezdochet_aver_talk_3">
+		<text>I may be able to help you, but I'm wondering if you're interested in selling me the safe?</text>
+	</string>
+	<string id="zvezdochet_aver_talk_4">
+		<text>Sorry, but I can't. I need to help someone else out at the same time, and I have to report back to them...</text>
+	</string>
+	<string id="zvezdochet_aver_talk_5">
+		<text>Ah, that makes sense, and it will to you too eventually. You're on the right path, and the Infirmary's not far away. Take a left from here, head northwest, and go across a valley and a hill. Eventually you'll see a camp. Go talk to the commander - he's a reliable guy and he'll tell you more. But avoid using the paths - the Avengers around here are notorious for ambushing travellers on them. Towards the center of this territory, up high on a hill, is a group of neutral hunters. They know this area well, and will help you if you need it. I need to leave you now - I need to meet someone at the Dump - but keep following your instincts and you'll find what you're looking for...</text>
+	</string>
+	<string id="zvezdochet_aver_talk_6">
+		<text>Thanks for the information and... thank you for everything. I owe you my life...</text>
+	</string>
+	<string id="otshelnik_yzik_nayti_0">
+		<text>Hello. It's a good camp you have here. But what's with the helicopter? Are the military a problem here?</text>
+	</string>
+	<string id="otshelnik_yzik_nayti_1">
+		<text>Greetings to you, Stalker! Don't worry about the helicopter. Very few people know of this area, and we have a mutual understanding with the military. We recently rescued a major from the local snipers, and in gratitude he made an agreement with us. We get to use his helicopter once a month to bring in supplies from outside the Zone, and we give him intel on the area in return. So everyone's happy...</text>
+	</string>
+	<string id="otshelnik_yzik_nayti_2">
+		<text>Hmm, could this helicopter be used to take people out of the Zone?</text>
+	</string>
+	<string id="otshelnik_yzik_nayti_3">
+		<text>I'm afraid not. The chopper only flies to the perimeter, but no further. My guys collect our supplies, and trade our artefacts for ten times more than the local traders here. I only wish we had more good men. Hey, we had a weapons shipment coming in, but there was a problem. One of the crates fell out out of the chopper en route. Do you fancy finding it for us? If you do, I promise you one of the weapons...</text>
+	</string>
+	<string id="otshelnik_yzik_nayti_4">
+		<text>Look, I've already taken responsibility for carrying a safe! Let me sort it out first then I may be able to help you. I'm new here, so I wanted to ask if you have an Infirmary?</text>
+	</string>
+	<string id="otshelnik_yzik_nayti_5">
+		<text>I'll take that as a yes, then! Walk towards the edge of the clearing and meet the helicopter. My men there will brief you. The Infirmary is right next to our camp. As you leave this hut, go immediately left and you'll find a cave up the hill. You'll see the Old Man guarding it outside. The Infirmary is inside, and the Gynecologist is in charge. He treats our sick brothers, but he doesnt have the right medicines. He needs more medical supplies, but we can't protect those without weapons, so go and meet with my men, and find my missing crate please...</text>	<!-- Changed 'Shura' to 'Gynecologist '- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="otshelnik_yzik_nayti_6">
+		<text>I understand. Thanks for the information...</text>
+	</string>
+	<string id="otshelnik_yzik_nayti_7">
+		<text>I'm sorry, but I can't go looking for your crate in this wilderness. Your men know the area far better than I do...</text>
+	</string>
+	<string id="otshelnik_yzik_prines_0">
+		<text>Here's your crate. It fell into a bog - that's why your men couldn't find it. It's wet and it stinks, but there's nothing damaged...</text>
+	</string>
+	<string id="otshelnik_yzik_prines_1">
+		<text>For the box, thanks. Take this weapon and some cartridges. Take care in your travels here, because there are snipers everywhere. Why they're here, I don't know, but they definitely have a camp in this area...</text>
+	</string>
+	<string id="otshelnik_yzik_prines_2">
+		<text>Thanks for the info, and the weapon...</text>
+	</string>
+	<string id="otshelnik_yzik_prines_3">
+		<text>By the way, I buy artefacts. I don't pay as much as some of the other traders, but artefacts are pretty common here. Oh, and come back and chat sometime - I might have a job for you...</text>
+	</string>
+	<string id="master_aver_talk_0">
+		<text>Hi! I'm interested - how is it possible to lose a crate from a helicopter?</text>
+	</string>
+	<string id="master_aver_talk_1">
+		<text>You heard about it, then? We're fucking lucky to be alive! Did you see how that pilot was flying?</text>
+	</string>
+	<string id="master_aver_talk_2">
+		<text>Yes, it looked as if he was on suicide mission...</text>
+	</string>
+	<string id="master_aver_talk_3">
+		<text>He was already on the vodka while we were loading up at the perimeter! Then he was flying batshit crazy and laughing at us throwing up everywhere. I opened the hatch to vomit, and that's when he made a sharp turn, causing the bloody crate to fall out! Shit, it nearly took me out with it...</text>
+	</string>
+	<string id="master_aver_talk_4">
+		<text>I'm glad you're still with us... And the crate - did it hit anyone?</text>
+	</string>
+	<string id="master_aver_talk_5">
+		<text>No, it dropped straight into a bog, just along the path from our camp. I doubt we'll ever see it again...</text>
+	</string>
+	<string id="master_aver_talk_6">
+		<text>Could have been worse, I suppose. At least it wasn't over Chernobyl...</text>
+	</string>
+	<string id="starik_aver_talk_0">
+		<text>Hello, is this the infirmary? And who are you?</text>
+	</string>
+	<string id="starik_aver_talk_1">
+		<text>Greetings. I'm affectionately known around here as 'the Old Man'. I've lived in this wood for a long time. Yes, the Infirmary is in this cave, and I guard it against the Chimera that infest this area. We all have to be on guard around here! We're lucky having the Gynecologist to look after us, so our wounded can get treated properly, but he's desperately short of medical supplies...</text>
+	</string>
+	<string id="starik_aver_talk_2">
+		<text>Your camp leader asked me to give a parcel to your doctor, and I'm also looking for help. Oh, greetings to you from the Miner!</text>
+	</string>
+	<string id="starik_aver_talk_3">
+		<text>The Miner? So he's still alive! That's good to hear. Too many years have passed with too little information... So, what help do you need?</text>
+	</string>
+	<string id="starik_aver_talk_4">
+		<text>I'm told that there's someone here with safe-cracking experience...</text>
+	</string>
+	<string id="starik_aver_talk_5">
+		<text>Well, we do have such an expert, though you may find him somewhat unusual...</text>
+	</string>
+	<string id="starik_aver_talk_6">
+		<text>Thank you for the information...</text>
+	</string>
+	<string id="ziklop_aver_talk_0">
+		<text>If you don't mind me asking, what happened to you?</text>
+	</string>
+	<string id="ziklop_aver_talk_1">
+		<text>Hello stranger. This is what happens when you're over-exposed to Psi radiation. I got caught in a blowout and became a walking corpse - even the dogs don't want to eat me - but for some reason my my mind stayed intact. When I regained consciousness I was surrounded by Monolithians. They'd accepted me as one of their own! Naturally I escaped from them as soon as possible, and found my way to the Doctor. He advised me to come here, but to travel only by night in case anyone mistook me for a zombie...</text>
+	</string>
+	<string id="ziklop_aver_talk_2">
+		<text>Oh, I recently met a Monolithian who looked similar to you, but he'd gained immortality...</text>
+	</string>
+	<string id="ziklop_aver_talk_3">
+		<text>Hmm, that's interesting. So people are affected differently. Though I certainly wouldn't advise anyone to experiment! I'm not immortal, that's for sure. Who'd want to be looking like this? But I did acquire an unusual ability of a sort. Telepathy. I sometimes have visions of other people's secrets...</text>
+	</string>
+	<string id="ziklop_aver_talk_4">
+		<text>Did the Doctor say you'd recover?</text>
+	</string>
+	<string id="ziklop_aver_talk_5">
+		<text>Well, in the Zone anything is possible, so I do have hope that a cure can be found. But I'm safe here, where I can help people. Anywhere else I'd be hunted down and killed...</text>
+	</string>
+	<string id="ziklop_aver_talk_6">
+		<text>Well, good luck with your treatment. I'll be here for a while. Maybe we'll be able to help each other...</text>
+	</string>
+	<string id="golograma_aver_talk_0">
+		<text>Greetings. You have quite a unique assemblage here...</text>
+	</string>
+	<string id="golograma_aver_talk_1">
+		<text>Greetings, I'm Victor, but I'm better known as Hologram. I'm a former Ecologist, but please believe me when I say I didn't always look like this!</text>
+	</string>
+	<string id="golograma_aver_talk_2">
+		<text>So which anomaly did this to you?</text>
+	</string>
+	<string id="golograma_aver_talk_3">
+		<text>Not an anomaly - it happened in one of the labs. It's still active as far as I know, and if you like the unusual you should definitely explore it. I was working with a colleague on an experiment for an influential client. We were extracting a unique chemical compound from Gold Chunk artefacts. We were trying to speed up the process, but we caused an accident. A batch of concentrated reagent splashed onto us, killing my colleague within seconds. I was saved by my protective suit, but it wasnt enough, and before I could fully decontaminate I became somewhat translucent...</text>
+	</string>
+	<string id="golograma_aver_talk_4">
+		<text>So what happened next?</text>
+	</string>
+	<string id="golograma_aver_talk_5">
+		<text>I was thrown out of the laboratory. I lost my job. No pay. No records. Flushed away like pathological waste. They did nothing to help me, because this was nothing to do with them. So I needed to learn more about my condition, and had heard rumours about this area. Close to this Infirmary I discovered snipers similar to myself in appearance. But for them it seems the holographic effect is temporary -  they can switch it on and off at will - while for me it's a permanent condition. Someone must have completed our experiment, and developed the cloaking effect.  I can make any medicine if I have the right ingredients, so I may be able to develop a cure....</text>
+	</string>
+	<string id="golograma_aver_talk_6">
+		<text>I certainly hope you cane. If I can help you in any way to solve this problem, please let me know...</text>
+	</string>
+	<string id="jora_aver_talk_0">
+		<text>Greetings. You look like the shadow of death - I can see only darkness...</text>
+	</string>
+	<string id="jora_aver_talk_1">
+		<text>Greetings. I am known as Jora Anomaly. I used to be a bandit here in the Zone, but since the explosion I don't reflect light any more...</text>	<!-- Changed 'Zhorik' to 'Jora Anomaly'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="jora_aver_talk_2">
+		<text>Where did this happen to you?</text>
+	</string>
+	<string id="jora_aver_talk_3">
+		<text>On a territory not far from the Chernobyl NPP. There they have established huge generators. We went to this region to investigate. All went well at first, but then one of the generators blew up. When I regained consciousness, I discovered that the blast had thrown me 300 metres, maybe more. All my comrades were killed, but I survived with this strange condition. I had heard of an Infimary here, so I came here for help</text>
+	</string>
+	<string id="jora_aver_talk_4">
+		<text>Generators? Where are they?</text>
+	</string>
+	<string id="jora_aver_talk_5">
+		<text>After the explosion, all the paths were changed. I was earlier a bear hunter, I know of trails that to others are undiscovered</text>
+	</string>
+	<string id="jora_aver_talk_6">
+		<text>Your skills sound necessary. Now I will talk to your doctor and for you I have a job</text>
+	</string>
+	<string id="ginekolog_lekarstvo_nayti_0">
+		<text>Greetings, I was asked to give you a package. I hope it's useful to your work. But I'm also here on business - I think one of your patients may be able to help me. Out of interest, though, why do they call you the Gynecologist?</text>
+	</string>
+	<string id="ginekolog_lekarstvo_nayti_1">
+		<text>Greetings to you. They call me the Gynecologist because that was my field of expertise, but here in the Zone I learned to use my skills in other ways. Thank you for the package. Now how can we help you?</text>
+	</string>
+	<string id="ginekolog_lekarstvo_nayti_2">
+		<text>I have a safe that needs to be opened. I'm searching for its owner, and I think the information inside will lead me to him. I'm told it's not a normal lock, though, and needs an expert to open it...</text>
+	</string>
+	<string id="ginekolog_lekarstvo_nayti_3">
+		<text>I will ask the Ecologist, Jora Anomaly, to have ago at opening it for you, but in the meantime we'd like to ask a favor of you. We're in dire need of medicines and surgical instruments. Jora knows how to make any kind of medicine, but he doesn't have the ingredients. Cyclops here is in urgent need of treatment, or he won't live much longer. So when I ask you for help, I don't ask lightly...</text>	<!-- Changed 'Zhorik' to 'Jora Anomaly'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="ginekolog_lekarstvo_nayti_4">
+		<text>Just tell me where to go. The Doctor?</text>
+	</string>
+	<string id="ginekolog_lekarstvo_nayti_5">
+		<text>I'm afraid the Doctor doesn't have what we need. See Cyclops - he can use his telepathy to help you. There is one condition, though. I took a hippocratic oath to do no harm to anyone. So when I ask you to find these medicines, it's on the condition that you	do not kill or injure anybody...</text>
+	</string>
+	<string id="ginekolog_lekarstvo_nayti_6">
+		<text>I understand. I'll ask Cyclops where to look for medicines, and I'm to ensure that I injure no one. Frankly, I'd have had a different perspective on the means to the end, especially if someone else shoots first, but I'll respect your wishes...</text>
+	</string>
+	<string id="ginekolog_lekarstvo_nayti_7">
+		<text>Look, if someone shoots at me I tend to shoot back. It's why I'm still alive. Sorry, but your way just isn't possible in the Zone...</text>
+	</string>
+	<string id="ginekolog_lekarstvo_prines_0">
+		<text>I found the medicine. I hope this is what you need. All went as planned, and I'm pretty sure no one got hurt...</text>
+	</string>
+	<string id="ginekolog_lekarstvo_prines_1">
+		<text>Thank you. Jora Anomaly has already started on the safe for you...</text>	<!-- Changed 'Zhorik' to 'Jora Anomaly'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="ginekolog_lekarstvo_prines_2">
+		<text>That's good news. Is there anything else you need?</text>
+	</string>
+	<string id="ginekolog_lekarstvo_prines_3">
+		<text>There is something, but since you're now wanted as a thief, I can't be seen to associate with you if I want to continue operating here...</text>
+	</string>
+	<string id="ziklop_lekarstvo_nayti_0">
+		<text>You said you can use telepathy. The Gynecologist asked to find medicine for him. Are you able to tell me where to look?</text>
+	</string>
+	<string id="ziklop_lekarstvo_nayti_1">
+		<text>Yes, we are in urgent need of medicine. Let me tune in...\n \nI see buildings with steps outside\nInside the buildings are soldiers with rifles\nThey're smoking and drinking together\nThey guard the entrance to the Zone\nI can see many medicines inside these buildings. And medical kit too...</text>
+	</string>
+	<string id="ziklop_lekarstvo_nayti_2">
+		<text>I think I know the place...</text>
+	</string>
+	<string id="ziklop_lekarstvo_nayti_3">
+		<text>Yes, I think you will find this place...</text>
+	</string>
+	<string id="ziklop_lekarstvo_nayti_4">
+		<text>But I've been asked not to harm anyone. How do I get the medicine from them?</text>
+	</string>
+	<string id="ziklop_lekarstvo_nayti_5">
+		<text>There are other ways than violence. And do these men not believe they do the right thing, just as you do? But these men fight for each other. They believe in their brotherhood, and their mutual safety in numbers. They won't be expecting a single man to bypass their defences. And if you don't harm them, they won't need their medicine, will they? So take it quietly, without hurting anyone. And if you do it undetected, then nobody gets into trouble either, and the Gynecologist won't be upset that he's caused any harm. But frankly, I really need this medicine, so if you're spotted, and he's angry, come and see me. You need the safe and I need the medicine! But try to do it without causing problems for anyone - karma works just as effectively in the Zone as anywhere else, and some believe it's even amplified here... Here, these transition coordinates from here to the Dump should help you...</text>
+	</string>
+	<string id="ziklop_lekarstvo_nayti_6">
+		<text>Thank you. I understand, and this new transition will save me a lot of time too. Especially carrying medicines...</text>
+	</string>
+	<string id="ziklop_lekar_proval_0">
+		<text>Dammit, I couldn't do it silently. Now the Gynecologist is upset...</text>
+	</string>
+	<string id="ziklop_lekar_proval_1">
+		<text>Someone who can operate stealthily is greatly respected in the Zone. Not like those ones who create problems for everyone in their wake. It's much easier to take something by force, but easier is rarely better... So, did you get the medicines?</text>
+	</string>
+	<string id="ziklop_lekar_proval_2">
+		<text>Yes, here they are...</text>
+	</string>
+	<string id="ziklop_lekar_proval_3">
+		<text>Well done. Give them here while the Gynecologist isn't around. I'll try to straighten out the situation with him later...</text>
+	</string>
+	<string id="ziklop_lekar_proval_4">
+		<text>What about the safe, then? Has the code been cracked?</text>
+	</string>
+	<string id="ziklop_lekar_proval_5">
+		<text>Talk to Jora Anomaly. I believe he was able to make some progress...</text>	<!-- Changed 'Zhorik' to 'Jora Anomaly'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="ziklop_lekar_proval_6">
+		<text>Thank you. This is good news. I hope you can put in a good word for me with the Gynecologist...</text>
+	</string>
+	<string id="jora_accumul_0">
+		<text>Greetings, Jora. Have you had any luck with the safe?</text>	<!-- Changed 'Zhorik' to 'Jora Anomaly'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="jora_accumul_1">
+		<text>Luck? That's a good one! This is no normal safe. It has two doors. The first I managed to open, and inside was a code with a heap of figures and the word  'Fang'. I need a lot more time to open the second door, though, and something else. Either the original electronic key, or a device that can generate a rapid series of high frequency impulses over what could be many hours. I can make the device, but I need a heavy duty accumulator cell to power it...</text>
+	</string>
+	<string id="jora_accumul_2">
+		<text>Fang? So it's his safe! This Stalker is no longer alive - what kind of accumulator do you need?</text>
+	</string>
+	<string id="jora_accumul_3">
+		<text>Something similar to that used in places like Lab X-16, suitable for the long term experiments they ran...</text>
+	</string>
+	<string id="jora_accumul_4">
+		<text>So where can I find such a device?</text>
+	</string>
+	<string id="jora_accumul_5">
+		<text>Talk to the Old Man at the entrance to this cave. He's a long time resident of these regions, and should know where such cells were used...</text>
+	</string>
+	<string id="jora_accumul_6">
+		<text>Thank you. I'll go and see the Old Man</text>
+	</string>
+	<string id="jora_accumul_prines_0">
+		<text>Jora, I found three accumulators, fully charged...</text>	<!-- Changed 'Zhorik' to 'Jora Anomaly'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="jora_accumul_prines_1">
+		<text>That's wonderful, but two will be more than enough for the job. You can keep the other one...</text>
+	</string>
+	<string id="jora_accumul_prines_2">
+		<text>How long until there's a result?</text>
+	</string>
+	<string id="jora_accumul_prines_3">
+		<text>It depends on how long it takes to find the right frequency - one at a time. If there's any progress I'll let you know...</text>
+	</string>
+	<string id="starik_zadanie_vzyt_0">
+		<text>Hello, sir. Jora tells me you've lived around here all your life. Do you know where I can find working accumulator cells?</text>	<!-- Changed 'Zhorik' to 'Jora Anomaly'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="starik_zadanie_vzyt_1">
+		<text>Yes, I know where accumulators can be found. Not far from here, but practically impossible to get to...</text>
+	</string>
+	<string id="starik_zadanie_vzyt_2">
+		<text>How do you mean?</text>
+	</string>
+	<string id="starik_zadanie_vzyt_3">
+		<text>There's another cave not far from here. It's known as the Fiery Cave, because one of its entrances is closed off by fire. To get through you'd need a special fire resistant suit, or an inordinate amount of medkits. The second entrance is much safer, but there's a different problem...</text>
+	</string>
+	<string id="starik_zadanie_vzyt_4">
+		<text>What kind of problem?</text>
+	</string>
+	<string id="starik_zadanie_vzyt_5">
+		<text>Recently some Stalker has moved in, setting up teleports to protect the entrances. He is a Neutral as far as I know, and sometimes he comes and speaks to the Hermit. I don't know his name, but you can ask him. This cave has been around for a long time, well before the accident at Chernobyl. It had a fresh air system powered by accumulator cells similar to what you're looking for. I once tried to go in through the first entrance, but the fire stopped me. My gold watch became unbearably hot and I had to throw it off me, and then I couldnt retrieve it! When you go to the cave can you please look for my watch? I'll reward you for your troubles. I just hope someone hasn't already found and kept it...</text>
+	</string>
+	<string id="starik_zadanie_vzyt_6">
+		<text>I'll ask the Hermit about the Stalker. I'll look out for your watch, but something that valuable may have been picked up by now...</text>
+	</string>
+	<string id="starik_zadanie_vzyt_7">
+		<text>I don't think I'm up to finding a watch in a forest - gold or otherwise. Sorry, but I can't help you...</text>
+	</string>
+	<string id="starik_zadanie_prines_0">
+		<text>I managed to find the cave, but couldn't get into it. But I did find your watch, and some accumulators...</text>
+	</string>
+	<string id="starik_zadanie_prines_1">
+		<text>That's great! But if you couldn't get in, how did you get the accumulators and my watch?</text>
+	</string>
+	<string id="starik_zadanie_prines_2">
+		<text>The Stalker guarding the entrance was a good guy. I helped him out, and he did the same for me...</text>
+	</string>
+	<string id="starik_zadanie_prines_3">
+		<text>Well I hope you are able to find a way inside. As a reward for finding my watch I'm giving you the info on transitions from the Army Warehouses and the Dark Valley. To you these will obviously be useful</text>
+	</string>
+	<string id="otshel_uznat_0">
+		<text>Hello, Hermit...</text>
+	</string>
+	<string id="otshel_uznat_1">
+		<text>Greetings, have you come to play billiards?</text>
+	</string>
+	<string id="otshel_uznat_2">
+		<text>I've come to find out what you know about the Fiery Cave and its inhabitants?</text>
+	</string>
+	<string id="otshel_uznat_3">
+		<text>Ah yes, the Fiery Cave. I know of one entrance underwater, in the middle of the large pond, and I believe there's another entrance in a ravine, but it's well hidden by trees and bushes. East southeast of here is a hunters' camp on a hilltop. Very close, and just to the south of them along the upper edge of the valley are some large rocks. Look directly across the valley from there, and you'll see a large rock, with a couple of smaller rocks below, about midway up the other side. It's the only one there, and quite distinctive. The cave entrance is in the trees just to the right of that. I don't know any more, sorry. I once met a Neutral who stays there, but he didn't say much. You're better searching for both entrances to the cave, just to be sure...</text>
+	</string>
+	<string id="otshel_uznat_4">
+		<text>Here, take a look at this photo in my PDA. Have you seen this face before, is it him?</text>
+	</string>
+	<string id="otshel_uznat_5">
+		<text>Nope, never seen that guy. The Astrologer comes by sometimes and the odd traveler now and then</text>
+	</string>
+	<string id="otshel_uznat_6">
+		<text>Thanks for the info about the cave</text>
+	</string>
+	<string id="piligrim_britva_nayti_0">
+		<text>Hello, can you tell me who lives here?</text>
+	</string>
+	<string id="piligrim_britva_nayti_1">
+		<text>Greetings Stalker, all I can tell you is there are no murderers or bandits that stay in this cave. Teleports are active on the entrances for protection from mutants and other uninvited visitors. You can never be too safe in the Zone. I can't let you inside. Anyway you wouldn't be able to deactivate the teleports</text>
+	</string>
+	<string id="piligrim_britva_nayti_2">
+		<text>I understand. I have a question to ask: One elderly man, who has lived in this territory all his life, has lost a gold watch in this cave, and I've also been told that once this installation used accumulators for air processing, I need these items desperately, could I have them?</text>
+	</string>
+	<string id="piligrim_britva_nayti_3">
+		<text>I did find a watch during my first inspection of this cave. If it belongs to an expert in this territory, then Im ready to return it. And, for the accumulators, we have replaced the device that used them with a generator that supplies us with both light and air</text>
+	</string>
+	<string id="piligrim_britva_nayti_4">
+		<text>Were they thrown out as scrap? Tell me where and I can find them</text>
+	</string>
+	<string id="piligrim_britva_nayti_5">
+		<text>I have kept them here, but I'm not sure if they work. You can have them if you will do me a service. When I first came to this place, I set up camp in an abandoned trailer. I went exploring and when I returned the next day a group of snipers had taken over my camp. My backpack, my gear, all hidden behind the trailer. The most important thing I need is my shaving machine tool. If you bring it to me you can have the watch and the accumulators. Only there is a condition, the backpack should be dragged off with stealth. You can't alert the snipers, I don't want them retaliating. Be prepared, the backpack contains seventy or more pieces! We stop talking if you fail to bring me all the contents, got it?</text>
+	</string>
+	<string id="piligrim_britva_nayti_6">
+		<text>Take away the backpack in a silent way? Im skilled in stealth, yeah I'll do it</text>
+	</string>
+	<string id="piligrim_britva_nayti_7">
+		<text>I will not go!!!!!</text>
+	</string>
+	<string id="piligrim_britva_prines_0">
+		<text>I got the backpack without being spotted</text>
+	</string>
+	<string id="piligrim_britva_prines_1">
+		<text>That's great news! Here, take the watch. You'll have to return for the accumulators, though, as will take some time to charge them up with the generator. Oh, and I'll need recompensing for the generator fuel. 70,000Ru, okay? Sorry, but it's one hell of a job getting it delivered here. But thanks for finding my stuff - I'm going to have my first shave in months!</text>
+	</string>
+	<string id="piligrim_britva_prines_2">
+		<text>I will take the watch to the old expert and then return</text>
+	</string>
+	<string id="piligrim_britva_prines_3">
+		<text>It will take about an hour and a half to charge them</text>
+	</string>
+	<string id="piligrim1_britva1_prines_0">
+		<text>I got the backpack, but I was caught and had to shoot my way out</text>
+	</string>
+	<string id="piligrim1_britva1_prines_1">
+		<text>Now I will have visitors! Prepare for defense, here take the watch and return for the accumulators. I will charge them with the generator, and at the same time maybe I'll get to shave</text>
+	</string>
+	<string id="piligrim1_britva1_prines_2">
+		<text>I will take the watch to the old expert and then return</text>
+	</string>
+	<string id="piligrim1_britva1_prines_3">
+		<text>It will take about an hour and a half to charge them</text>
+	</string>
+	<string id="pilig_akkum_0">
+		<text>Hello again. How's it going?</text>
+	</string>
+	<string id="pilig_akkum_1">
+		<text>Hey, I've had a shave! How do I look?</text>
+	</string>
+	<string id="pilig_akkum_2">
+		<text>Well, a lot younger, but you stick out like a sore thumb in the Zone! How are the accumulators?</text>
+	</string>
+	<string id="pilig_akkum_3">
+		<text>The cells are fully charged up. Here you go. Hey, would you like to join me on a mission tomorrow?</text>
+	</string>
+	<string id="pilig_akkum_4">
+		<text>I don't know. I'm already committed to helping several people here. Don't you have anyone else?</text>
+	</string>
+	<string id="pilig_akkum_5">
+		<text>Well, it seems my chief knows you. He told me to put in a good word with the Hermit for you when you first arrived...</text>
+	</string>
+	<string id="pilig_akkum_6">
+		<text>Your chief knows me? I'm flattered, but the real reason I'm here is to find a way through these teleports. I'm sorry, but I need to unlock my past, and I think a piece of it is in this cave...</text>
+	</string>
+	<string id="otsh_pda_nayti_0">
+		<text>Were you looking for me?</text>
+	</string>
+	<string id="otsh_pda_nayti_1">
+		<text>Adrenalin has an order for a couple of 'Ultra' detectors which see all anomalies. These detectors were made by the Ecologist that is now being treated in the Infirmary. I had a couple samples, one I have already sent to Adrenalin, but the second I have to keep</text>
+	</string>
+	<string id="otsh_pda_nayti_2">
+		<text>What do you need from me?</text>
+	</string>
+	<string id="otsh_pda_nayti_3">
+		<text>You're in the Infirmary quite often, carrying out tasks for the Gynecologist, so you must have good contacts. Can you help me get one more detector?</text>
+	</string>
+	<string id="otsh_pda_nayti_4">
+		<text>I don't know. I've got a huge workload already...</text>
+	</string>
+	<string id="otsh_pda_nayti_5">
+		<text>This piece of equipment is extremely useful, and you'll be able to get one too. Once you aquire the 'Ultra' detector take it straight to Adrenalin. You also have other business with him - he said that ceretain people had come to retrieve the casket...</text>
+	</string>
+	<string id="otsh_pda_nayti_6">
+		<text>Okay, I'll try to get another 'Ultra' detector, and maybe one for myself. I'll go and see Victor Hologram and find out what he needs...</text>
+	</string>
+	<string id="otsh_pda_nayti_7">
+		<text>I've no time to look for detectors...</text>
+	</string>
+	<string id="otsh_pda_prines_0">
+		<text>Greetings Adrenalin, I have brought you the second detector</text>
+	</string>
+	<string id="otsh_pda_prines_1">
+		<text>Thanks Marked One, these are rare and in great demand</text>
+	</string>
+	<string id="otsh_pda_prines_2">
+		<text>A very advanced device indeed. Tell me about the people who came for the casket</text>
+	</string>
+	<string id="otsh_pda_prines_3">
+		<text>There were two of them, obviously skilled Stalkers. The younger of the two was named the Astrologer. The second was thickset and I couldn't get a good look at his face as he wore a hood, but looked very experienced</text>
+	</string>
+	<string id="otsh_pda_prines_4">
+		<text>The Astrologer. What kind of questions did he ask?</text>
+	</string>
+	<string id="otsh_pda_prines_5">
+		<text>Well, he knew that you had the safe. Asked me if I could get you to sell it. I see that you're gonna dissagree, so I won't bother. The Astrologer said that it belongs to his workmate. Think about it and don't make any bad choices. Here take this weapon as a reward, a class piece, rare in the Zone</text>
+	</string>
+	<string id="otsh_pda_prines_6">
+		<text>Thanks for the information. I will go check on the safe. NICE PIECE! If the Astrologer comes back, tell him we will talk</text>
+	</string>
+	<string id="jora_vopros_0">
+		<text>Hi Jora. Did you manage to get it open?</text>	<!-- Changed 'Zhorik' to 'Jora Anomaly'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="jora_vopros_1">
+		<text>Not yet. It's still going through the frequencies...</text>
+	</string>
+	<string id="jora_vopros_2">
+		<text>I appreciate your efforts. Thank you...</text>
+	</string>
+	<string id="jora_vopros_3">
+		<text>Don't worry. It's just a matter of time...</text>
+	</string>
+	<string id="golo_detektor_nayti_0">
+		<text>Greetings, Victor. I need your help</text>
+	</string>
+	<string id="golo_detektor_nayti_1">
+		<text>Hello Strelok. What do you need?</text>
+	</string>
+	<string id="golo_detektor_nayti_2">
+		<text>I heard you make unique detectors. I need one, two if possible. I'm ready to trade or buy them from you</text>
+	</string>
+	<string id="golo_detektor_nayti_3">
+		<text>I had a pair of them but they were stolen recently. I know who did it, a former patient here. Cyclops used his telepathy and saw they were in a stash so he has not sold them yet. He will be able to help you find the location</text>
+	</string>
+	<string id="golo_detektor_nayti_4">
+		<text>What is it you want from me in trade?</text>
+	</string>
+	<string id="golo_detektor_nayti_5">
+		<text>I will trade you the two 'Ultra' detectors if you can bring me two 'Elite' detectors and the Plasma Caterpillar artefact. I need those items to replace the two you will keep. Bring me what I ask for and Cyclops will help you find the stash</text>
+	</string>
+	<string id="golo_detektor_nayti_6">
+		<text>Yes, its a fair deal</text>
+	</string>
+	<string id="golo_detektor_nayti_7">
+		<text>I don't need an 'Ultra' detector, no deal</text>
+	</string>
+	<string id="golo_detektor_prines_0">
+		<text>I've got the artefact and detectors</text>
+	</string>
+	<string id="golo_detektor_prines_1">
+		<text>Thanks, now I can make a couple more detectors</text>
+	</string>
+	<string id="golo_detektor_prines_2">
+		<text>And what about the info on the hiding place, you have not forgotten?</text>
+	</string>
+	<string id="golo_detektor_prines_3">
+		<text>Ask Cyclops, he will tell you where the stash is</text>
+	</string>
+	<string id="ziklop_stix2_0">
+		<text>Greetings Cyclops, Victor Hologram has sent me to you for help finding his stolen detectors</text>
+	</string>
+	<string id="ziklop_stix2_1">
+		<text>Hello Strelok. I will tell you what I see.\n \nIn the roots of a faded giant\nThe back pack is hidden with care\nThere the blind creatures scurry about their business\nBetween a radioactive pile and a hill\nThat is the closest to the lawless Valley\n \nStrelok, I am sure that you perfectly know this place</text>
+	</string>
+	<string id="ziklop_stix2_2">
+		<text>Still necessary to write this down in my PDA. Thank you for the clues to this location</text>
+	</string>
+	<string id="ziklop_stix2_3">
+		<text>Yes, write it down so you don't forget. Good luck</text>
+	</string>
+	<string id="medik_pribor_1_nayti_0">
+		<text>Have you really managed to crack it?</text>
+	</string>
+	<string id="medik_pribor_1_nayti_1">
+		<text>Yes, it's opened. There was only a folder with some old maps of the Chernobyl area. These maps were made by the Germans during the Second World War. I have shown them to the old Man, he says that the many territories represented on it no longer have paths. But judging by the marks on the map, seems this man has found some new trails. The folder with the map is on the table, take it</text>
+	</string>
+	<string id="medik_pribor_1_nayti_2">
+		<text>I have a strange feeling that I have seen this map already. The Astrologer has looked very hard for this map, I had better draw a copy of it for him</text>
+	</string>
+	<string id="medik_pribor_1_nayti_3">
+		<text>We have helped you and now we must ask for your help. Victor Hologram says he can make some advanced medicine with a proper device</text>
+	</string>
+	<string id="medik_pribor_1_nayti_4">
+		<text>What kind of device?</text>
+	</string>
+	<string id="medik_pribor_1_nayti_5">
+		<text>Its a special device for mixing doses of medicine. What we need are the schematics to make this device. When Victor Hologram worked in the laboratory experimenting with artefacts, he says that the schematics for such a device were on a diskette. We need you to find the disk. Ask Cyclops, he will be able to help you find it</text>
+	</string>
+	<string id="medik_pribor_1_nayti_6">
+		<text>Ok, I will try to find it</text>
+	</string>
+	<string id="medik_pribor_1_nayti_7">
+		<text>Im too busy for this, I need to search for the Astrologer</text>
+	</string>
+	<string id="medik_pribor_1_prines_0">
+		<text>I have found the diskette. It was in one of the caves in the Labyrinth on a wounded Mercenary</text>
+	</string>
+	<string id="medik_pribor_1_prines_1">
+		<text>Thats great, but Victor Hologram still needs some more components</text>
+	</string>
+	<string id="medik_pribor_1_prines_2">
+		<text>I know Victor Hologram needs special flasks and reagents to complete his work. I know where the flasks are, they are in the Radar. I know who has reagents, it's someone who looks similar to the Victor Hologram. The leader of the snipers - but how to get them from him I don't know...</text>
+	</string>
+	<string id="medik_pribor_1_prines_3">
+		<text>Yes, we need to get the flasks. Talk to Cyclops - he will be able to help</text>
+	</string>
+	<string id="ziklop_stix3_0">
+		<text>Greetings Cyclops. I'm helping Victor Hologram make a device for producing medicine. Can you help me locate the diskette with the schematics he needs?</text>
+	</string>
+	<string id="ziklop_stix3_1">
+		<text>Hello Strelok, of course now listen:\n \nIn the deserted lower cave of the Labyrinth\nWhere packs of rats scurry in the dark\nthere lies a half-dead body\nAnd the secret is stored on it\n \nStrelok, search for a wounded man, and nearby you will find your diskette</text>
+	</string>
+	<string id="ziklop_stix3_2">
+		<text>Thanks, I think I can guess where it is</text>
+	</string>
+	<string id="ziklop_stix3_3">
+		<text>In the corner of our cave is a transition you can use, it will save you time</text>
+	</string>
+	<string id="ded_dialog_0">
+		<text>How did you manage to climb in this hole?</text>
+	</string>
+	<string id="ded_dialog_1">
+		<text>Give me a medkit please, don't look at me as the enemy. I was just doing this work for pay</text>
+	</string>
+	<string id="ded_dialog_2">
+		<text>And why should I help you? I should take the diskette and let the rats complete this business</text>
+	</string>
+	<string id="ded_dialog_3">
+		<text>You have come for the diskette? I can give you further information. Even for a genius the schematics are not enough. Without special flasks and reagents the schematics are worthless. Glass for these flasks are made from the artefact Mica. I can tell you where the flasks are located</text>
+	</string>
+	<string id="ded_dialog_4">
+		<text>Tell me what you know about these flasks, and where are they?</text>
+	</string>
+	<string id="ded_dialog_5">
+		<text>The reagents were made by two scientists, but there was an accident at the end of the experiment and the result was one dead man, and the other became almost invisible. We didn't have time to use what they created as snipers as bandits attacked and carried away all the reagents. I was able to take away the flasks and hid them in the attic of a house in the Radar. The flasks have strong radiation so take protection. Now please give me a medkit</text>
+	</string>
+	<string id="ded_dialog_6">
+		<text>Since you have told me what you know, here take the medkit</text>
+	</string>
+	<string id="ziklop_stix4_0">
+		<text>Greetings Cyclops, you have some information for me?</text>
+	</string>
+	<string id="ziklop_stix4_1">
+		<text>The Merc you cured has deceived you. The flasks are highly radiocative and he did hide them, but not in the Radar. Listen:\n \nThe strange cache lies beneath,\nThe tower that helped deliver power to the world.\non territory Where the spirit of Anarchy soars highly\nthe soldiers of fortune\nAre close by.\nBut the trick here is -\nover a fence you must climb.\n \nSearch for the flasks</text>
+	</string>
+	<string id="ziklop_stix4_2">
+		<text>Thanks, but it's not an easy riddle. This will take some thought, maybe a few beers</text>
+	</string>
+	<string id="ziklop_stix4_3">
+		<text>You ponder upon my words, these pieces are on a hill under a tower. The flasks might have rolled away so look around the area if you don't find them all</text>
+	</string>
+	<string id="akkum_and_mikposx_nayti_0">
+		<text>I have brought flasks, all three pieces</text>
+	</string>
+	<string id="akkum_and_mikposx_nayti_1">
+		<text>Thanks Strelok, it's still necessary to get two batteries and a microcircuit with recordings from a Freedom Exoskeleton. I think this will be an easier job for you</text>
+	</string>
+	<string id="akkum_and_mikposx_nayti_2">
+		<text>Tell me what I need to do</text>
+	</string>
+	<string id="akkum_and_mikposx_nayti_3">
+		<text>You don't have to go far. I have found out about a key. It was Victor Hologram that made the manual teleporter. These are rare devices but I know precisely where a key is located</text>
+	</string>
+	<string id="akkum_and_mikposx_nayti_4">
+		<text>And what do I need this key for?</text>
+	</string>
+	<string id="akkum_and_mikposx_nayti_5">
+		<text>It will remove the teleport from one of the entrances to the Fiery Cave. You after all wanted to explore there. Look for the microcircuits and batteries. An explorer recently bought a teleport deactivation key from Victor Hologram. There is a huge meteorite crater in this area. The hunters, with a camp nearby, have reported seeing his body in the crater but they didn't approach it because of anomalies and mutants</text>
+	</string>
+	<string id="akkum_and_mikposx_nayti_6">
+		<text>For a long time I have been wanting to explore this cave. I have a request, while Im looking for this key could you make a copy of the map from the safe. But don't put the added marks on it</text>
+	</string>
+	<string id="akkum_and_mikposx_nayti_7">
+		<text>I will not go, this place sounds too dangerous</text>
+	</string>
+	<string id="akkum_and_mikposx_prines_0">
+		<text>You were right, I found the batteries and the microcircuit</text>
+	</string>
+	<string id="akkum_and_mikposx_prines_1">
+		<text>Victor Hologram will now be able to get the info he needs from the microcircuit recordings</text>
+	</string>
+	<string id="akkum_and_mikposx_prines_2">
+		<text>Have you made a copy of the map yet?</text>
+	</string>
+	<string id="akkum_and_mikposx_prines_3">
+		<text>Not yet, I'm trying to do the best job I can, more time is required. I will work on it while you get the reagents from the snipers</text>
+	</string>
+	<string id="piligrim_3_0">
+		<text>Greetings Pilgrim, I thought you said you were going on a mission</text>
+	</string>
+	<string id="piligrim_3_1">
+		<text>So you managed to disconnect the teleport. What did you come here for? To steal? You need to explain yourself!</text>
+	</string>
+	<string id="piligrim_3_2">
+		<text>I'm not a thief, you said the owner of this cave knew me. So I came to find out who lives here, where are they?</text>
+	</string>
+	<string id="piligrim_3_3">
+		<text>He has not returned yet. And my mission was cancelled. Is that the only reason you are here?</text>
+	</string>
+	<string id="piligrim_3_4">
+		<text>I'm helping the patients at the Infirmary. I need two batteries and a microcircuit with recordings from a Freedom Exoskeleton. Also, I need to find a way to peacefully approach the snipers</text>
+	</string>
+	<string id="piligrim_3_5">
+		<text>There are batteries somewhere around here, you can look. I don't know about the microcircuit, there is only a broken tape recorder. Maybe you can salvage something from it. I can help with approaching the snipers. I have the PDA of a Mercenary we eliminated in our last mission. I can send a message to the leader of the snipers. I can say you are looking for work and you want to offer your services. As far as I know, snipers and Mercenaries are on friendly terms</text>
+	</string>
+	<string id="piligrim_3_6">
+		<text>Sounds like a good idea, send the SMS. Meanwhile I will look for the batteries and microcircuit</text>
+	</string>
+	<string id="chimaera_zadan_nayti_0">
+		<text>Greetings, I've come looking for work. I want to build up my reputation as a Mercenary. I want your endorsement</text>
+	</string>
+	<string id="chimaera_zadan_nayti_1">
+		<text>An ambitious rookie Mercenary, I do have one task I need take care of. There's a trader in the Cordon that I need eliminated</text>
+	</string>
+	<string id="chimaera_zadan_nayti_2">
+		<text>You mean the local dealer Sidorovich?</text>
+	</string>
+	<string id="chimaera_zadan_nayti_3">
+		<text>Yes, that's who. He's become a pain in the rump. He pays more for artefacts than other dealers, so he gets all the good ones. Soon we will eliminate ALL the competition and it starts with him. Do you have a problem with that?</text>
+	</string>
+	<string id="chimaera_zadan_nayti_4">
+		<text>Eh, no, it's not a problem. How can I get camouflage like your faction?</text>
+	</string>
+	<string id="chimaera_zadan_nayti_5">
+		<text>You kill Sidorovich, and as proof bring me his head. As a reward I will give you some of our camouflage formula. Just mix the two Regeants together and you are ta-da, invisible!</text>
+	</string>
+	<string id="chimaera_zadan_nayti_6">
+		<text>Wow, Alright, I will go and think of a way to carry out this contract</text>
+	</string>
+	<string id="chimaera_zadan_nayti_7">
+		<text>I cant cut off a head. Im not cut out to be a Mercenary, maybe I will be an artist</text>
+	</string>
+	<string id="chimaera_zadan_prines_0">
+		<text>I have brought you the head, now can I get your recommendation and receive your means for invisibility</text>
+	</string>
+	<string id="chimaera_zadan_prines_1">
+		<text>First, we will have a look at the goods. Mmm, yes, he really was an ugly bastard. Alright, I will give it to my men and let them use it for a football. Now about your reward, I will send the recommendation. I don't store the reagents here, it's too valuable. It's not because I'm bothered by danger as I'm invincible. Don't take offence, I can't tell you where the hiding place is. But I will answer any other question you ask</text>
+	</string>
+	<string id="chimaera_zadan_prines_2">
+		<text>I really wanted the Regeants, but I must accept the endorsment as payment. Though, question is, why do you kill in this area, there's not much loot here that I can see</text>
+	</string>
+	<string id="chimaera_zadan_prines_3">
+		<text>Experience, that's why. My men train here then go on to more important missions. We have teams all over the Zone. There's another piece of business I will tell you about. We're searching for the daughter of one of the Big Boss's, she has gone missing in the Zone. Don't look so surprised, I did say a woman. If you can bring her to me, I will pay a big bounty. Now here take this rare artefact for your troubles</text>
+	</string>
+	<string id="ginek_vlip_0">
+		<text>I Have managed to communicate with the boss of the snipers, Chimera. He wants me to bring him the head of Sidorovich! Then he will give me the Regeants, Merks have no sole. Eh!</text>
+	</string>
+	<string id="ginek_vlip_1">
+		<text>Wow, I hope you don't intend to really kill Sidorovich</text>
+	</string>
+	<string id="ginek_vlip_2">
+		<text>I'm not a murderer! I need another way to do this!</text>
+	</string>
+	<string id="ginek_vlip_3">
+		<text>Nearby there is a camp of hunters. One of them is an expert at making stuffed animals. His name is Eagle owl. I will send Sidorovich an SMS and tell him to send a photo of himself to your PDA. Go and speak with the hunters and see if they can help</text>
+	</string>
+	<string id="ginek_vlip_4">
+		<text>I'll try, only it seems to me that it's impossible to make a stuffed animal into the head of Sidorovich. Chimera is not a fool, he would notice if it was not real</text>
+	</string>
+	<string id="ginek_vlip_5">
+		<text>We must try, I will give you a few parts of mutants that you can use to barter with.\nYes, Victor Hologram has already assembled the device, look how it turned out, there, on the floor, to the right...</text>
+	</string>
+	<string id="ginek_vlip_6">
+		<text>I will go and talk to Eagle owl and see what he says</text>
+	</string>
+	<string id="ginek_vlip_raschet_0">
+		<text>I have brought the flasks with the reagents. Here, take them away...</text>
+	</string>
+	<string id="ginek_vlip_raschet_1">
+		<text>Great work! Now there is hope that my patients will recover</text>
+	</string>
+	<string id="ginek_vlip_raschet_2">
+		<text>By the way, Chimera spoke about a woman being missing. Have you heard anything?</text>
+	</string>
+	<string id="ginek_vlip_raschet_3">
+		<text>I've heard nothing. Here, take this reward for your good work. Torn from my heart. Look, don't sell it. My Great-Grandfather brought it back from the war. You are always welcome here and come check on how the patients are healing. Also Cyclops has the location of another cache for you</text>
+	</string>
+	<string id="land_oxot_nayti_0">
+		<text>Hello hunter. I have some business that requires your help</text>
+	</string>
+	<string id="land_oxot_nayti_1">
+		<text>Greetings, what is it you need?</text>
+	</string>
+	<string id="land_oxot_nayti_2">
+		<text>Strange business, I've been told you stuff animals. I need you to make me a head to look like the dealer from the Cordon, Sidorovich. Here are his photos</text>
+	</string>
+	<string id="land_oxot_nayti_3">
+		<text>The person in this picture has a huge head, an unusual request but we can try. The Most important thing I need is the best material for this work. The skull of an experienced controller, the whole head to be exact</text>
+	</string>
+	<string id="land_oxot_nayti_4">
+		<text>What? A controller???? Your joking??</text>
+	</string>
+	<string id="land_oxot_nayti_5">
+		<text>Why would I joke. The Body needs to be extracted after it has been dead for two to three days, then the material will be more like plastic and easier to shape. A couple of days ago one of my men killed a controller in the woods in the Radar. He was not able to carry it away because Monolithians arrived so he had to flee. Its located next to a rock wall and a tree. It's heavy so don't bring much in your backpack</text>
+	</string>
+	<string id="land_oxot_nayti_6">
+		<text>Ok, I will go and retreive this carcass, but it's hard to imagine you can make it look like Sidorovich</text>
+	</string>
+	<string id="land_oxot_nayti_7">
+		<text>No way I'm carrying a rotten controller</text>
+	</string>
+	<string id="land_oxot_prines_0">
+		<text>I have brought the controller, the stink is unbearable</text>
+	</string>
+	<string id="land_oxot_prines_1">
+		<text>Throw the smelly hulk down by the firewood. For this work I require from you ten Chimera claws and 100,000Ru, I hope it's not too much</text>
+	</string>
+	<string id="land_oxot_prines_2">
+		<text>Alright, I will bring what is necessary for payment</text>
+	</string>
+	<string id="land_oxot_prines_3">
+		<text>Screw this, ten Chimera claws AND a fortune!</text>
+	</string>
+	<string id="land_oxot_raschet_0">
+		<text>Here is the payment. Is the head ready?</text>
+	</string>
+	<string id="land_oxot_raschet_1">
+		<text>Yes, it's been completed. You can find it by the saw horse next to the fire wood. It was not easy work, I should have charged more</text>
+	</string>
+	<string id="land_oxot_raschet_2">
+		<text>I brought what you asked, it's more than enough. Though I have to say I am impressed with your work</text>
+	</string>
+	<string id="land_oxot_raschet_3">
+		<text>If you ever need a stuffed girlfriend, I can prepare one from s controller for you, HA, HA</text>
+	</string>
+	<string id="ziklop_stix5_0">
+		<text>Hello Cyclops, I need your help finding the reagents. Chimera has deceived me and given me nothing. He has only told me that the Regeants are in a hiding place somewhere. But he could have lied</text>
+	</string>
+	<string id="ziklop_stix5_1">
+		<text>Don't be upset, the main thing is that he has told you about a hiding place. Now I can make a connection with my telepathy. You will now be able to take everything from his hiding place. He has hidden it well so listen attentively:\n \nWhere five towers\naspire in a height. Go down from the heavens in human life\nThe doll lost by the mistress it is forgotten,\nyou will find it In one of rooms\nAnd near to a doll in the house\nYou will find a backpack with plunder\n \n</text>
+	</string>
+	<string id="ziklop_stix5_2">
+		<text>Im not sure where that is, can I have another clue?</text>
+	</string>
+	<string id="ziklop_stix5_3">
+		<text>I can only see an approximate place. I See only vague outlines of the subjects nearest to a hiding place and objects and I can express it only in the form of riddles, Good luck</text>
+	</string>
+	<string id="ziklop_stix6_0">
+		<text>Hello Cyclops, I have brought you the reagents for your treatment</text>
+	</string>
+	<string id="ziklop_stix6_1">
+		<text>Thanks, Strelok. The treatment will take some time. In my case, a long time. I know of one more cache, take it as a gift from me. The rhyme is short, it's a place you will find without problems.\n \nWhere the Bloodsuckers call home\nWearily sleeps the Iron Horse\n \n</text>
+	</string>
+	<string id="ziklop_stix6_2">
+		<text>Thanks, I think I know this place</text>
+	</string>
+	<string id="ziklop_stix6_3">
+		<text>Well, this is excellent. Look, Victor Hologram has already charged the device!</text>
+	</string>
+	<string id="vuxod_atp_0">
+		<text>How is it possible to get out of this territory?</text>
+	</string>
+	<string id="vuxod_atp_1">
+		<text>Yes, it's quite a dilemma you have. You got here, but you can't leave...</text>
+	</string>
+	<string id="vuxod_atp_2">
+		<text>I've looked around and can't find an exit anywhere...</text>
+	</string>
+	<string id="vuxod_atp_3">
+		<text>You didn't think to ask the person who sent you? I can show you a path to the Dump, but only after you bring me three artefacts: a Glassbeads, Moonlight, and a Flash. All of them can be found in this territory. You bring them to me, and I will show you the path...</text>
+	</string>
+	<string id="vuxod_atp1_0">
+		<text>Here's your artefacts. Now, would you show me the path?</text>
+	</string>
+	<string id="vuxod_atp1_1">
+		<text>The path to the Dump is at the end of the road on the opposite side of this territory. I've sent the info to your PDA</text>
+	</string>
+	<string id="vuxod_atp1_2">
+		<text>That's easy enough to find</text>
+	</string>
+	<string id="kluk_vstrecha_0">
+		<text>Fang? Is it really you? I thought you'd been killed...</text>
+	</string>
+	<string id="kluk_vstrecha_1">
+		<text>Greetings Strelok, I've not seen you for a very long time. No, as you can see, they have not killed me. I was able to slip away. I was able to fool the Mercenaries into thinking they got me. You were gone, and Ghost went missing</text>
+	</string>
+	<string id="kluk_vstrecha_2">
+		<text>Ghost was lost on a mission inside X-16, but it's believed he left a body double there. That's typical of Ghost. Why didn't you leave me a message?</text>
+	</string>
+	<string id="kluk_vstrecha_3">
+		<text>I had to keep a low profile. You were gone somewhere in Chernobyl and it was rumored that you had entered the O-consciousness and became their assassin. So it was necessary to observe you. Now I know that the rumors were false. I met the Astrologer who told me he pulled you out of the death truck. I'm a little suspicious of him, it's too much of a coincidence and he asked a lot of questions. He knew about my map with the noted transitions. Therefore, I told you to make a copy, without my marks. I will take the map from you for awhile. Dont say anything about us meeting to the Astrologer yet. All I can say about the Pilgrim, he is a simple and honest friend who can be trusted</text>
+	</string>
+	<string id="kluk_vstrecha_4">
+		<text>I'm glad that you are alive. I really did talk to the man from O-consciousness, but I refused to join them. After that everything is covered by a gloom, I remembered nothing. Cordon, the Astrologer, the Cave, the Doctor. I've been through so much in a short period of time. What will we do next, do you have any plans? Let's have a drink to our reunion</text>
+	</string>
+	<string id="kluk_vstrecha_5">
+		<text>Eh, that's good Vodka! Now about our plans, you already know about the decoder in Pripyat but there's no need to hurry with that. There is something else more important. I have information that the daughter of a boss from O-consciousness has arrived to visit her father. She's gone missing, but it's more likely she was abducted. The last time she was spotted was in the Radar, around the antennae. All the Monolith are searching for her, and not only the Monolith. I'm searching for her also and I need your help</text>
+	</string>
+	<string id="kluk_vstrecha_6">
+		<text>Of course I will help. But why are we searching for her?</text>
+	</string>
+	<string id="kluk_vstrecha_7">
+		<text>We need to find out why there is so much interest in this girl, there is something big going on here. Also if Ghost is alive he needs to be found, if he is dead then we need proof. I also need you to check out a new territory. It's a former Military Laboratory called Warlab. It is undergound near to Chernobyl, but the only entrance I know of is from the Radar, I will mark it in your PDA. I don't know who is there or what they're up to, but you need to find out. There is data that suggests the girl is there. The return path from the location is also known, I will also give you these coordinates. Possibly, the laboratories of the Zone have been connected by underground tunnels. The transition to the exit is through a tunnel to X-16. The Pilgrim and I will be engaged in exploring the transitions on my map and determining if they work. I will stay in touch with you by SMS</text>
+	</string>
+	<string id="kluk_vstrecha_8">
+		<text>I understand, we have much work to do</text>
+	</string>
+	<string id="kluk_vstr_after_prizrak_0">
+		<text>Fang? Is it really you? I thought you'd been killed...</text>
+	</string>
+	<string id="kluk_vstr_after_prizrak_1">
+		<text>Greetings Strelok, I've not seen you for a very long time. No, as you can see, they have not killed me. I was able to slip away. I was able to fool the Mercenaries into thinking they got me. You were gone, and Ghost went missing</text>
+	</string>
+	<string id="kluk_vstr_after_prizrak_2">
+		<text>Ghost is alive and now in the Radar territory. He's just as sly as you. He left a body double in X-16 and even left an audio message. He was not easy to find. Why didn't you leave me a message?</text>
+	</string>
+	<string id="kluk_vstr_after_prizrak_3">
+		<text>I had to keep a low profile. You were gone somewhere in Chernobyl and it was rumored that you had entered the O-consciousness and became their assassin. So it was necessary to observe you. Now I know that the rumors were false. I met the Astrologer who told me he pulled you out of the death truck. I'm a little suspicious of him, it's too much of a coincidence and he asked a lot of questions. He knew about my map with the noted transitions. Therefore, I told you to make a copy, without my marks. I will take the map from you for awhile. Don't say anything about us meeting to the Astrologer yet. What I will say about the Pilgrim, he is a simple and honest friend who can be trusted</text>
+	</string>
+	<string id="kluk_vstr_after_prizrak_4">
+		<text>Im glad that you are alive. I really did talk to the man from O-consciousness, but I refused to join them. After that everything is covered by a gloom, I remembered nothing, Cordon, the Astrologer, the Cave, the Doctor. I've been through so much in a short period of time. What will we do next, do you have any plans? Lets have a drink to our reunion</text>
+	</string>
+	<string id="kluk_vstr_after_prizrak_5">
+		<text>Eh, thats good Vodka! Now about our plans, you already know about the decoder in Pripyat but there's no need to hurry with that. There is something else more important. I have information that the daughter of a boss from O-consciousness has arrived to visit daddy. She's gone missing, it's more likely she was abducted. The last time she was spotted was in the Radar, around the Aerials. All the Monolith are searching for her, and not only the Monolith. I'm searching for her as well and I need your help</text>
+	</string>
+	<string id="kluk_vstr_after_prizrak_6">
+		<text>Of course I will help. But why are we searching for her?</text>
+	</string>
+	<string id="kluk_vstr_after_prizrak_7">
+		<text>We need to find out why there is so much intrest in this girl, there is something big going on here. I need you to check out a new territory. It's a former Military Laboratory called Warlab. It's undergound near Chernobyl, but the only entrance I know of is from the Radar, I will mark it in your PDA. I don't know who is there or what they are up to, but you need to find out. There is data that suggests the girl is there. The return path from the location is also known, I will also give you these coordinates. Possibly, the Laboratories of the Zone have been connected by underground tunnels. The transition to the exit is through a tunnel to X-16. The Pilgrim and I will be engaged in exploring the transitions on my map and determine if they work. I will stay in touch with you by SMS</text>
+	</string>
+	<string id="kluk_vstr_after_prizrak_8">
+		<text>I understand, we have much work to do</text>
+	</string>
+	<string id="kluk_vstrecha_otchet_0">
+		<text>Greetings. Seems I arrived at Warlab at an inappropriate moment. The Monolith attacked the mercenary base. Or on the contrary. But the Monolithians destroyed Mercenaries, and then I finished off the Monolithians. The lab has been cleaned out. The entrance into one of the parts of the laboratory is closed off by a teleport. To pass through there is impossible. The girl was no where to be found, but a search of one of the leaders of the group has produced an interesting document. It's not difficult to guess to whom it belonged</text>
+	</string>
+	<string id="kluk_vstrecha_otchet_1">
+		<text>This means the Astrologer is in communication with the Mercenaries. The guy needs to be checked up on to see if he really is double dealing here. Mercenaries, apparently, know about the girl, and know where she's at. Perhaps he too tries to find out it? We must find a way into this confidential part of Warlab</text>
+	</string>
+	<string id="kluk_vstrecha_otchet_2">
+		<text>Yes, but how will I remove the teleport in Warlab if I don't have a key??</text>
+	</string>
+	<string id="kluk_vstrecha_otchet_3">
+		<text>To get the key to the teleport I think you must gain the trust of the Mercenaries. Talk to Lukash and tell him Fang told you he could help you with this mission. I have known him for a long time and he was a former Merc himself. Get him to loan you his Signet ring that will get you accepted as one of the Mercs. I must warn you, once you put on the ring you will be an enemy to all Stalkers. Also recent data reports show that a large force of Mercs has returned to Warlab. Onto other matters, we have checked up on only one territory so far. The so-called Generators, these were spare generators that were established for Chernobyl. When there was a second more powerful explosion the path was lost but we should be able to find it later. Now we need to check out the transition to Limansk, you must have heard of it. But that task will come a bit later. For now Pilgrim and I will remain in the Bar territory</text>
+	</string>
+	<string id="kluk_vstrecha_otchet_4">
+		<text>Well, I will go and speak with the Freedom boss</text>
+	</string>
+	<string id="lukash_pechatka_nayti_0">
+		<text>Lukash, greetings. Fang has hinted that you could help me with some business</text>
+	</string>
+	<string id="lukash_pechatka_nayti_1">
+		<text>Fang has been dead for a long time. I already know you were searching for his killers</text>
+	</string>
+	<string id="lukash_pechatka_nayti_2">
+		<text>Fortunately for me, and for you, he is alive. He told me you could help me join the Mercs</text>
+	</string>
+	<string id="lukash_pechatka_nayti_3">
+		<text>Ssshhhhh!!!! Not so loud, this is for our ears only</text>
+	</string>
+	<string id="lukash_pechatka_nayti_4">
+		<text>You have a Signet ring that I need to borrow, when my task is finished I will return it</text>
+	</string>
+	<string id="lukash_pechatka_nayti_5">
+		<text>About the Signet ring, I don't have it anymore. A Monolithian called Spider most likely has it. A long time ago, just after I first joined Freedom as a recruit, we were on a mission in Pripyat. I shot a Merc boss in a firefight and took the ring as a trophy. Later that day, I was badly wounded and taken prisoner. This Spider took away the Signet ring. They were feeding our wounded to the mutants in the football stadium for entertainment. I was able to escape, but that's another story. It is said that Spider is still alive and in the Radar. He is based at the end of a road, next to a tunnel</text>
+	</string>
+	<string id="lukash_pechatka_nayti_6">
+		<text>Is this ring the only way for me to gain there trust?</text>
+	</string>
+	<string id="lukash_pechatka_nayti_7">
+		<text>There is no other way. This signet ring belonged to the former boss of the Mercenaries. You will extract it and use it. After your mission it will be of no further use to you and you will return it to me. The ring is very valuable and you will receive a reward</text>
+	</string>
+	<string id="lukash_pechatka_nayti_8">
+		<text>I have understood, and we will settle later. I will try to 'squash' this Spider and take away the Signet ring, then go to Warlab</text>
+	</string>
+	<string id="lukash_pechatka_vernul_0">
+		<text>I Have returned. I found the Signet ring and little 'iti-biti' Spider has been eliminated. Now about that reward</text>
+	</string>
+	<string id="lukash_pechatka_vernul_1">
+		<text>There is one more task for you to execute before you receive the reward</text>
+	</string>
+	<string id="lukash_pechatka_vernul_2">
+		<text>Well, Lukash, why do you want to treat me like a rookie?</text>
+	</string>
+	<string id="lukash_pechatka_vernul_3">
+		<text>You will get your reward and a bonus, but first listen. Freedom is expanding its borders of influence. We want to organise one more base in the former Laboratory, Warlab. You know this place and your help is essential. I sent a group of masters there under the command of Vitamin. Help secure the lab and Vitamin will give you the award and bonus when the task is completed. By the way, acquaint yourself, he's here now. He will give you further instructions</text>
+	</string>
+	<string id="vitamin_reyd_zadan_0">
+		<text>Greetings, are you Vitamin?</text>
+	</string>
+	<string id="vitamin_reyd_zadan_1">
+		<text>Hello Stalker, yes I am. I hope Lukash has briefed you on our forthcoming operation. Your knowledge of the Lab and the route to get there is very important</text>
+	</string>
+	<string id="vitamin_reyd_zadan_2">
+		<text>Yes, he has briefed me. The Mercs have already been dealt with but now blind dogs have made a den there</text>
+	</string>
+	<string id="vitamin_reyd_zadan_3">
+		<text>So, little Doggies, this clears up the situation a little. We need you to guide us to the entrance of the Laboratory</text>
+	</string>
+	<string id="vitamin_reyd_zadan_4">
+		<text>I can do that. What is your plan and what is the bonus Lukash mentioned?</text>
+	</string>
+	<string id="vitamin_reyd_zadan_5">
+		<text>The Bonus? Yes, yes, I have a key which will disconnect any teleport in Warlab. For your help, it will be yours. And from Lukash, you will get another gift. I will meet you with my group of fighters at the entrance to the Radar territory. You lead the group and we will clear the road and gather at the entrance to the Lab. When we get to the entrance I will wait for the second group of fighters to arrive. I just hope that when this is over there's not too much dog crap to clean up</text>
+	</string>
+	<string id="vitamin_reyd_zadan_6">
+		<text>Mmm, yes, The Plan sounds simple enough. Well, we will meet in the Radar</text>
+	</string>
+	<string id="vitamin_reyd_zadan_7">
+		<text>Screw this, I'm no dog catcher! You don't need my help</text>
+	</string>
+	<string id="vitamin_radar_0">
+		<text>You got here quickly. Well, are you ready to go?</text>
+	</string>
+	<string id="vitamin_radar_1">
+		<text>On the way we kill everything that moves. You will lead the group. Choose the safest possibile route. When we reach the entrance to the lab, we will take a smoke break, a chug, then discuss our next move</text>
+	</string>
+	<string id="vitamin_radar_2">
+		<text>Lets move out men, lock and load!</text>
+	</string>
+	<string id="vitamin_radar_3">
+		<text>We are right behind you, move out men!</text>
+	</string>
+	<string id="vitamin_reyd_okonchen_0">
+		<text>We made it</text>
+	</string>
+	<string id="vitamin_reyd_okonchen_1">
+		<text>I will wait for the next group of fighters and then we will follow you into the laboratory. You go ahead and check the lab</text>
+	</string>
+	<string id="vitamin_reyd_okonchen_2">
+		<text>And where is my compensation?</text>
+	</string>
+	<string id="vitamin_reyd_okonchen_3">
+		<text>Dont worry, when the lab is clear of all dogs you will be rewarded</text>
+	</string>
+	<string id="vitamin_warl_talk_0">
+		<text>Well, thats all the dogs killed! No doubt your men will eat well tonight, Eh</text>
+	</string>
+	<string id="vitamin_warl_talk_1">
+		<text>Yes, this has all turned out well. Now freedom has another base, and its an extremely important location</text>
+	</string>
+	<string id="vitamin_warl_talk_2">
+		<text>Don't expect me to help your men clean up the dog crap, now how about my reward</text>
+	</string>
+	<string id="vitamin_warl_talk_3">
+		<text>Here, take your well earned rewards, a key for a teleport and a gift from Lukash. It's a small gold ingot, which is a special mark of recognition to us. When you enter a new territory carrying it in your backpack, you'll be recognized as a member of Freedom and under our aegis, our protection. But taking it out of your pack won't make you neutral until you're out of the area...</text>
+	</string>
+</string_table>

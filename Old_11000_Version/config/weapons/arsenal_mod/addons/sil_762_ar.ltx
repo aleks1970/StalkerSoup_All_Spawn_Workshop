@@ -1,0 +1,42 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[wpn_addon_sil_762_ar]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			= "weapons\addons\sil_762_ar" ; option for Level Editor
+class			= W_SILENC
+cform           = skeleton
+visual          = Arsenal_Mod\addons\sil_762_ar.ogf
+description		= enc_arsenal_sil_762_ar
+$prefetch 		= 32
+
+cost					 = 750
+inv_name		= ars-sil_762_ar
+inv_name_short	= ars-sil_762_ar
+inv_weight		= .1
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 13
+inv_grid_y			= 65
+
+bullet_hit_power_k	= 0.8
+bullet_speed_k	 	= 0.8
+fire_dispersion_base_k = 1.15
+cam_dispersion_k	= 0.8
+
+[wpn_addon_sil_762_pms]:wpn_addon_sil_762_ar
+visual          = Arsenal_Mod\addons\sil_762_pms.ogf
+
+inv_name		= ars_sil_762b_ar
+inv_name_short	= ars_sil_762b_ar
+description		= enc_arsenal_sil_762b_ar
+
+cost					 = 850
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 30
+inv_grid_y			= 37
+
+fire_dispersion_base_k = 0.45
+cam_dispersion_k	= 0.5

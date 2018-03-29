@@ -1,0 +1,210 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+[wpn_sv98]:identity_immunities
+GroupControlSection	= spawn_group
+;;discovery_dependency = 
+$spawn                  = "weapons\svu"		; option for Level Editor
+$npc			 		= on				; option for Level Editor
+$prefetch 		 		= 8
+scheduled               = off              	; option for ALife Simulator
+cform                   = skeleton
+class                   = WP_SVD
+min_radius              = 0
+max_radius              = 50
+description				= desc_sv98
+
+ef_main_weapon_type		 = 3
+ef_weapon_type			 = 8
+
+;--- scope weapons -----------------------------------------------------------------
+holder_range_modifier	= 2.15               ; во сколько раз увеличивается eye_range 
+holder_fov_modifier		= 0.3              ; во сколько раз увеличивается eye_fov
+;-----------------------------------------------------------------------------------
+
+cost					= 15000
+weapon_class			= sniper_rifle
+
+ammo_limit		 		= 60
+ammo_current			= 10
+ammo_elapsed		 	= 0
+
+ammo_mag_size		 	= 10
+ammo_class		 		= ammo_7.62x51_fmj, ammo_7.62x51_ap 
+
+sprint_allowed			= true
+;-----------------------------------------------------------------------------------
+;базовая дисперсия
+fire_dispersion_base		= 0.005	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor		= 1.6f
+
+;отдача
+cam_relax_speed         	= 14.25	;скорость возврата в исходное положение
+cam_relax_speed_ai         	= 120.75	;скорость возврата в исходное положение
+cam_dispersion          	= 0.15	;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 0.15	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 0.10	;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle			= 4.0	;максимальный угол отдачи
+cam_max_angle_horz		= 3.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 0.25	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 	= 0.0005	;вероятность осечки при максимальном износе 
+misfire_condition_k		= 0.05
+condition_shot_dec 		= 0.000045 ;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+
+hand_dependence 		= 1
+single_handed			= 0
+
+slot 			 		= 2		; // secondary
+animation_slot			= 2		; type of the animation that will be used
+
+inv_name		 		= desc_sv98_dav
+inv_name_short		 	= desc_sv98_dav_s
+inv_weight		 		= 5.8
+
+inv_grid_width			= 6
+inv_grid_height			= 2
+inv_grid_x				= 59
+inv_grid_y				= 28
+
+kill_msg_x			= 0
+kill_msg_y			= 59
+kill_msg_width		= 80
+kill_msg_height		= 26
+
+direction               = 0, 0, 1
+fire_point              = 0.0, 0.150, 0.758
+fire_point2             = 0.0, 0.128, 0.522
+
+flame_particles		   	= weapons\generic_weapon05
+smoke_particles		   	= weapons\generic_shoot_00
+rpm_empty_click 	 	= 200
+
+shell_point		 		= 0.0, 0.128, 0.0
+shell_dir		 		= 0.0, 0.0, 0.4
+;shell_particles	 		= weapons\generic_shells
+
+PDM_disp_base 			= 3.0
+PDM_disp_vel_factor 		= 0.8
+PDM_disp_accel_factor 		= 1.0
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+; ttc
+hit_power          = 0.6
+hit_impulse	       = 20
+hit_type 		   = fire_wound
+
+fire_distance           	= 100					;;;109974 10:1
+bullet_speed			= 970	;начальная скорость пули
+rpm                     	= 20
+; end ttc
+
+use_aim_bullet				= true		;Поддерживается ли первая суппер пуля
+time_to_aim					= 1.0	
+
+hud                     = wpn_sv98_hud
+normal                  = 0, 1, 0
+position                = -0.026, -0.070, 0.0025
+orientation             = 0, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+;под мишкой
+strap_position         		= -0.26,-0.11,0.25			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -15,-9,110				; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+startup_ammo            = 10
+visual                  = dav_wpn_xp1\sniper\sv98\wpn_sv98.ogf
+
+light_disabled					= true
+
+ph_mass			 		= 3
+;cost			 		= 900
+
+;addons
+scope_status			= 1
+silencer_status			= 1
+grenade_launcher_status 	= 0
+
+scope_name 					= wpn_addon_scope_sv
+scope_x 					= 66
+scope_y 					= -12
+
+silencer_name  				= wpn_addon_sil_762_ar
+silencer_x 					= 283
+silencer_y 					= 1
+
+scope_texture			=  Arsenal_Mod\crosshairs\scope_awp
+zoom_enabled			= true
+scope_zoom_factor	            = 5		;ПСО-1 4X
+
+;звуки
+snd_draw				= weapons\sv98\draw
+snd_holster				= weapons\sv98\holster
+snd_shoot				= weapons\sv98\sn_sv98_shot
+;snd_shoot1				= weapons\sv98\sn_sv98_1
+snd_empty				= weapons\sv98\empty
+snd_reload				= weapons\sv98\reload, 1.0, 0.75
+snd_close				= weapons\sv98\holster
+snd_silncer_shot			= weapons\sv98\shot_sil
+
+;настройки для глушителя
+silencer_hit_power       	= 0.8
+silencer_hit_impulse	 	= 20
+silencer_fire_distance   	= 60					;;;109974 10:1
+silencer_bullet_speed	 	= 820
+
+silencer_smoke_particles 	= weapons\generic_shoot_00
+ 
+[wpn_sv98_hud]
+
+shell_point          	= 0,0,-0.6
+shell_dir		 		= 0.0, 1.0, 0.0
+
+fire_point			= -0.0075,-0.0025,-0.55
+fire_bone               = muzzle
+orientation             = 1, 0, 0
+position                = 0.1085,-0.06,0.0745
+visual                  = dav_wpn_xp1\sniper\sv98\wpn_sv98_hud.ogf
+
+anim_holster			= holster
+anim_idle				= idle
+anim_idle_aim			= idle_aim
+anim_reload				= reload
+anim_draw				= draw
+anim_shoot				= shoot
+anim_idle_sprint	            = idle_sprint
+
+;смещения HUD для режима приближения
+zoom_offset				= -0.10995,0.0421,0.025
+zoom_rotate_x			= -0.0165
+zoom_rotate_y			= 0.0175
+
+
+[wpn_addon_scope_sv]:identity_immunities
+GroupControlSection	= spawn_group
+discovery_dependency	= 
+$spawn						= "weapons\addons\scope" ; option for Level Editor
+class						= WP_SCOPE
+cform           			= skeleton
+visual          			= dav_wpn_xp1\upgrades\wpn_scope2.ogf
+$prefetch 					= 32
+description					= enc_weapons1_wpn-addon-scope-sv
+cost						= 150
+
+holder_range_modifier		= 1.2
+holder_fov_modifier			= 0.3
+
+inv_name					= wpn-addon-scope-sv
+inv_name_short				= wpn-addon-scope-sv
+inv_weight					= .2
+
+inv_grid_width				= 3
+inv_grid_height				= 1
+inv_grid_x					= 31
+inv_grid_y					= 25
+scope_texture				= Arsenal_Mod\crosshairs\scope_awp
+scope_zoom_factor			= 30		
+zoom_enabled				= true

@@ -1,0 +1,149 @@
+;<!-- TB3D 1.0.1e -->
+[zone_ameba]
+GroupControlSection	= spawn_group_zone
+$spawn 			= "zones\ameba"
+;$prefetch 		= 16
+class			= Z_AMEBA
+visual			= physics\anomaly\anomaly_studen
+
+hit_impulse_scale	= 0.0
+effective_radius	= 0.75 ;size range as a percentage of the original, which has a zone
+max_velocity_in_zone= 0.5
+sound			= zone_mosquito_bald
+postprocess		= postprocess_new
+
+ef_anomaly_type			= 1
+ef_weapon_type			= 13
+
+artefacts		= af_rusty_thorn,0.7,af_rusty_kristall,0.25,af_rusty_sea_urchin,0.05
+BirthProbability = 0.1
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 90
+max_start_power		= 100
+attenuation			= 1
+period				= 1
+min_artefact_count	= 1
+max_artefact_count	= 2
+
+hit_type		= chemical_burn
+
+disable_time		= -1	;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small	= 500		;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time	= -1	;timeout idle partiklov
+
+ignore_nonalive		= false;
+ignore_small		= false;
+ignore_artefacts	= true
+
+awaking_time		= 10
+blowout_time		= 5000	
+accamulate_time		= 1000
+
+attack_animation_start	= 0
+attack_animation_end	= 5000
+
+idle_light			= off
+
+visible_by_detector = on
+
+blowout_light		= on
+light_color		    = 1.4,1.6,1.3
+light_range		    = 12.0
+light_time 		    = 5.0;2.8;2.35
+light_height		= 1.5			;rise to the height of the light source
+
+idle_sound			= anomaly\gravi_idle00							;constant sound
+blowout_sound		= anomaly\teleport_work_2	;during ejection (stroke) in the center of the anomaly	
+hit_sound			= anomaly\fear_1  ;anomaly\anomaly_gravy_hit1	;on the character when he gets hit
+body_tearing_sound	= anomaly\anomaly_body_tear_1						;sound of tearing of the corpse
+entrance_sound		= anomaly\swamp_appear_1						;in contact with the object of an anomaly
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; wind
+blowout_wind		= off
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during the operation
+spawn_blowout_artefacts = off
+
+[zone_ameba1]
+GroupControlSection	= spawn_group_zone
+$spawn 			= "zones\ameba1"
+;$prefetch 		= 16
+class			= Z_AMEBA
+visual			= physics\anomaly\anomaly_hvatalka
+
+hit_impulse_scale	= 0.
+effective_radius	= 0.75 ;size range as a percentage of the original, which has a zone
+max_velocity_in_zone= 0.5
+sound			= zone_mosquito_bald
+postprocess		= postprocess_new
+
+ef_anomaly_type			= 1
+ef_weapon_type			= 13
+
+artefacts		= af_rusty_thorn,0.7,af_rusty_kristall,0.25,af_rusty_sea_urchin,0.05
+BirthProbability = 0.1
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 90
+max_start_power		= 100
+attenuation			= 1
+period				= 1
+min_artefact_count	= 1
+max_artefact_count	= 2
+
+hit_type		= chemical_burn
+
+disable_time		= -1	;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small	= 500		;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time	= -1	;timeout idle partiklov
+
+idle_sound			= anomaly\gravi_idle00							;constant sound
+blowout_sound		= anomaly\anomaly_body_tear_1	;during ejection (stroke) in the center of the anomaly	
+hit_sound			= anomaly\hit_6  ;anomaly\anomaly_gravy_hit1			;on the character when he gets hit
+body_tearing_sound	= anomaly\anomaly_body_tear_1						;sound of tearing of the corpse
+entrance_sound		= anomaly\swamp_appear_1						;in contact with the object of an anomaly
+
+
+ignore_nonalive		= false;
+ignore_small		= false;
+ignore_artefacts	= true
+
+awaking_time		= 10
+blowout_time		= 5000	
+accamulate_time		= 1000
+
+attack_animation_start		= 0
+attack_animation_end		= 5000
+
+idle_light			= off
+
+;blowout_light		= on
+;light_color		    = 1.4,1.6,1.3
+;light_range		    = 30.0
+;light_time 		    = 0.8;0.35
+;light_height		= 1.5			;rise to the height of the light source
+
+blowout_light		= on
+light_color		    = 4.0,1.6,1.3
+light_range		    = 5.0
+light_time 		    = 2.0
+light_height		= 1.5
+
+visible_by_detector = on
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; wind
+blowout_wind		= off
+
+blowout_wind_time_start     = 0
+blowout_wind_time_peak      = 1500
+blowout_wind_time_end		= 2501; 2499
+blowout_wind_power			= 0.5			;Wind power raises (from 0 to 1), at the moment blowout_wind_time_peak
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during the operation
+spawn_blowout_artefacts = off
+

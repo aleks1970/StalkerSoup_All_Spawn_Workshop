@@ -1,0 +1,57 @@
+;<!-- TB3D 1.0.9.9.4.4 -->
+[zone_no_gravity]
+GroupControlSection	= spawn_group_zone
+$spawn 			= "zones\nogravity"
+class			= Z_NOGRAV
+
+ef_anomaly_type			= 7
+ef_weapon_type			= 19
+
+hit_impulse_scale	= 0.5
+effective_radius	= 0.75 ;size range as a percentage of the original, which has a zone
+sound			= zone_mosquito_bald
+postprocess		= postprocess_new
+
+artefacts		=
+BirthProbability = 0.0
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.99
+max_start_power		= 1.00
+attenuation			= 1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 0
+
+hit_type		= shock
+
+disable_time		= -1	;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small	= 500		;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time	= -1	;timeout idle partiklov
+
+ignore_nonalive		= false;
+ignore_small		= false;
+ignore_artefacts	= false;
+
+awaking_time				= 500
+blowout_time				= 1000	
+accamulate_time				= 5000
+
+blowout_light		= off
+idle_light			= off
+
+visible_by_detector = on
+
+blowout_wind		= off
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during the operation
+spawn_blowout_artefacts = off
+
+[zone_no_gravity_tb3d]:zone_no_gravity
+$spawn 			= "zones\nogravity"
+
+
+
+
+

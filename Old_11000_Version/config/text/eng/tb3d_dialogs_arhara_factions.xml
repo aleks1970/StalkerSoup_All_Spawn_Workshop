@@ -1,0 +1,242 @@
+<!-- TB3D 1.1.0.0.0.4 added bio text from char desc general -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 08 Oct 16 -->
+<string_table>
+	<!-- ***************************************** -->
+	<!-- FACTION INTERACTION WITH SIDOROVICH -->
+	<!-- ***************************************** -->
+	<string id="list_factions_repair_0">
+		<text>Restore your relationship with Duty:</text>
+	</string>
+	<string id="list_factions_repair_1">
+		<text>Join the Duty faction:</text>
+	</string>
+	<string id="list_factions_repair_2">
+		<text>Restore your relationship with Freedom:</text>
+	</string>
+	<string id="list_factions_repair_3">
+		<text>Side with the Freedom faction:</text>
+	</string>
+	<string id="list_factions_repair_4">
+		<text>Restore your relationship with the Loners:</text>
+	</string>
+	<string id="list_factions_repair_5">
+		<text>Accept the teachings of the Monolith:</text>
+	</string>
+	<string id="list_factions_repair_6">
+		<text>Join the ranks of the Military:</text>
+	</string>
+	<string id="list_factions_repair_7">
+		<text>Side with the Bandits:</text>
+	</string>
+	<string id="list_factions_repair_8">
+		<text>Join the Mercenaries:</text>
+	</string>
+	<string id="list_factions_repair_9">
+		<text>Break affiliations:</text>
+	</string>
+	<string id="list_factions_repair_10">
+		<text>Associate with the Scientific community:</text>
+	</string>
+	<string id="escape_trader_factions_0">
+		<text>How can I get on better terms with a faction?</text>	<!-- Was 'How would you advise I go about joining a faction?' Sword2012. 09 Mar 17 -->
+	</string>
+	<string id="escape_trader_factions_1">
+		<text>Well, join them, obviously, if they'll accept you. But if you've killed one of theirs it's going to be very difficult for you, because that guy had friends...\nI can organise this on your behalf, but don't think it's going to be cheap, because I'll need to put my own head on the block for you! I'll need to call in a few favours, grease a few palms - you know... Then, I might be able to put in a good word for you. But it will cost you 250,000Ru\nHey, don't complain! We once had a guy here in the early stages of zombification. We fixed him up just in time, but it still cost the poor bastard that amount just to stop everyone trying to kill him again! You can't blame people around here for being paranoid, but I'm sure you understand that, Marked One...\nLook, just go somewhere else for a while and piss someone else off, or it'll cost you even more next time - at least another 100,000Ru. If you're still alive, that is...</text>
+	</string>
+	<string id="escape_trader_factions_2">
+		<text>Duty have put a price on my head! Can you get them off my back?</text>
+	</string>
+	<string id="escape_trader_factions_3">
+		<text>I want to join Duty</text>
+	</string>
+	<string id="escape_trader_factions_4">
+		<text>Every member of Freedom wants to kill me! Can you do anything?</text>
+	</string>
+	<string id="escape_trader_factions_5">
+		<text>I want to join Freedom</text>
+	</string>
+	<string id="escape_trader_factions_6">
+		<text>I need to establish a good relationship with the Loners</text>
+	</string>
+	<string id="escape_trader_factions_7">
+		<text>No, forget it...</text>
+	</string>
+	<string id="escape_trader_factions_8">
+		<text>These services don't come cheap, you know. The more problems you stir up with a faction, the more it'll cost to restore your relationship with them\nGive me a minute to check on it for you...\n \nThere, it's done...\nAre you certain that you wanted to do this?</text>
+	</string>
+	<string id="escape_trader_factions_9">
+		<text>I'm told that you really pissed these guys off! You really need to bring it down a notch, Marked One! I won't always be able to bail you out like this. Remember this the next time you decide to go all 'Chuck Norris' on everyone, okay?</text>
+	</string>
+	<string id="escape_trader_factions_10">
+		<text>Yes, I want to restore my relationship with Duty</text>
+	</string>
+	<string id="escape_trader_factions_11">
+		<text>Yes, please sign me up with Duty</text>
+	</string>
+	<string id="escape_trader_factions_12">
+		<text>Yes, I want to restore my relationship with Freedom</text>
+	</string>
+	<string id="escape_trader_factions_13">
+		<text>Yes, please sign me up with Freedom</text>
+	</string>
+	<string id="escape_trader_factions_14">
+		<text>Yes, I want to restore my relationship with the Stalker community</text>
+	</string>
+	<string id="escape_trader_factions_15">
+		<text>All's well that ends well. Thank you!</text>
+	</string>
+	<string id="escape_trader_factions_16">
+		<text>I want to convert to the Monolithian faith</text>
+	</string>
+	<string id="escape_trader_factions_17">
+		<text>Yes, I want you to put me in touch with the Monolith</text>
+	</string>
+	<string id="escape_trader_factions_18">
+		<text>I heard that the Military are taking on new recruits</text>
+	</string>
+	<string id="escape_trader_factions_19">
+		<text>Yes, you heard correctly. But you're not serious, are you? Why would you want to do that?</text>
+	</string>
+	<string id="escape_trader_factions_20">
+		<text>I'd like you to put me in touch with the Bandits</text>
+	</string>
+	<string id="escape_trader_factions_21">
+		<text>Yeah. Yeah. I understand perfectly</text>
+	</string>
+	<string id="escape_trader_factions_22">
+		<text>I'd like to become a Loner once more</text>
+	</string>
+	<string id="escape_trader_factions_23">
+		<text>Yes, I understand</text>
+	</string>
+	<string id="escape_trader_factions_24">
+		<text>I've decided to become a Mercenary</text>
+	</string>
+	<string id="escape_trader_factions_25">
+		<text>Please put me in touch with the Mercs</text>
+	</string>
+	<string id="escape_trader_factions_26">
+		<text>Can you put me in touch with the Scientists?</text>
+	</string>
+	<string id="escape_trader_factions_27">
+		<text>Yes, I want to help the Scientists. I feel it's my responsibility. Maybe even get an education. Not just a job, either, but a career!</text>
+	</string>
+	<string id="mono_leader_bio">
+		<text>Leader within the Monolith faction. Extremely dangerous. Detailed information unavailable</text>
+	</string>
+	<string id="sniper_soldier_bio">
+		<text>Military Sniper: Detailed information unavailable</text>
+	</string>
+	<string id="sniper_mono_bio">
+		<text>Monolith Sniper: Detailed information unavailable</text>
+	</string>
+	<string id="bandit_unk_bio">
+		<text>Bandit of unknown origin: Dubious reputation. Detailed information unavailable</text>
+	</string>
+	<string id="stalker_crazy_bio">
+		<text>This Stalker saw something in the Bloodsucker village that drove him insane, and extremely paranoid. After escaping from there, he holed up in a small cabin near a marsh just outside the Army Warehouses, and now opens fire at anyone who comes too close...</text>
+	</string>
+	<string id="hunter_bar_bio">
+		<text>A good-natured fellow with a problem. He recently lost a very important family heirloom - a hunting rifle. It's somewhere in the Wild Territory - a dangerous place full of anomalies, mutants and bandits. He now spends most of his time in the 100 Rads bar, hoping to meet someone willing enough to risk their life to retrieve it for him...</text>
+	</string>
+	<string id="duty_elite_bio">
+		<text>Elite member within the Duty faction: Detailed information unavailable</text>
+	</string>
+	<string id="duty_leader_bio">
+		<text>Leader within the Duty faction: Detailed information unavailable</text>
+	</string>
+	<string id="duty_killer_bio">
+		<text>Leader of a rogue group of heavily-armed Duty professionals, sporting Exoskeletons and OTs-14 'Tunder' combat rifles. He's on a personal mission to eliminate Lukash, the leader of the Freedom faction</text>
+	</string>
+	<string id="stalker_skilled_bio">
+		<text>Skilled Stalker: Detailed information unavailable</text>
+	</string>
+	<string id="oc_rep_bio">
+		<text>Representative of 'Project Comprehension'</text>
+	</string>
+	<string id="grey_wolf_bio">
+		<text>Vicious, psychotic Mercenary known as Gray</text>
+	</string>
+	<string id="sniper_merc_bio">
+		<text>Unidentified Mercenary Sniper: Only recently arrived in the Zone. Detailed information unavailable</text>
+	</string>
+	<string id="elite_merc_bio">
+		<text>Unidentified Mercenary Elite: Detailed information unavailable</text>
+	</string>
+	<string id="master_merc_bio">
+		<text>Unidentified Mercenary Master: Detailed information unavailable</text>
+	</string>
+	<string id="stalker_freedom_bio">
+		<text>Freedom Stalker: Detailed information unavailable</text>
+	</string>
+	<string id="informant_bio">
+		<text>Informant of no fixed loyalties: Well-known throughout the Zone by every faction, and with a hefty price on his head from almost all of them...</text>
+	</string>
+	<string id="specnaz_army_bio">
+		<text>Military Spetsnaz: Very well-equipped. Detailed information unavailable</text>
+	</string>
+	<string id="stalker_mil_bio">
+		<text>Military Stalker: Well-armed, experienced, and very dangerous. Detailed information unavailable</text>
+	</string>
+	<string id="simple_thug_bio">
+		<text>Simple thug: A useless piece of shit as a human being, but useful as extra muscle, cannon fodder, or someone to take the rap...</text>
+	</string>
+	<string id="rookie_unk_bio">
+		<text>Unidentified Rookie: New to the Zone. Detailed information unavailable</text>
+	</string>
+	<string id="stalker_truevet_bio">
+		<text>True Veteran of the Zone: This Stalker knows the Zone like the back of his hand, and how to survive it. Well-equipped, and potentially very dangerous. No further details available</text>
+	</string>
+	<string id="stalker_vet_bio">
+		<text>Veteran Stalker: Well-equipped, and familar enough with the Zone to know how to deal with it. Detailed information unavailable</text>
+	</string>
+	<string id="guard_lukash_bio">
+		<text>Personal bodyguard of Lukash, the leader of the Freedom Faction</text>
+	</string>
+	<string id="sniper_freedom_bio">
+		<text>Freedom Sniper: Detailed information unavailable</text>
+	</string>
+	<string id="vet_freedom_bio">
+		<text>Freedom Veteran: Detailed information unavailable</text>
+	</string>
+	<string id="master_freedom_bio">
+		<text>Freedom Master: Detailed information unavailable</text>
+	</string>
+	<string id="max_bio">
+		<text>A fanatical believer in his faction, Max has achieved a distinguished level of notoriety in the Zone, and is known as the legendary 'Guardian of Freedom': Very well-equipped, and extremely dangerous. Detailed information unavailable</text>
+	</string>
+	<string id="ded_freedom_bio">
+		<text>Extremely dedicated member of Freedom: Very well-equipped, and extremely dangerous. Detailed information unavailable</text>
+	</string>
+	<string id="cook_bio">
+		<text>A boozer and brawler. The guard at the entrance of Freedom's base says that if he weren't such a great chef, they'd throw him out...</text>
+	</string>
+	<string id="greedy_bio">
+		<text>Known everywhere in the Zone for his greed and obstinacy. Befriend him, though, and maybe grease his palm with a few roubles, and it's quite possible to get anything you need from him...</text>
+	</string>
+	<string id="cmdr_freedom_bio">
+		<text>The Freedom Commander at the Barrier. Always looking for those willing to give up their lives for Freedom's cause, and defend the Barrier to the North, and the Red Forest</text>
+	</string>
+	<string id="freedom_bio">
+		<text>Member of Freedom: Detailed information unavailable</text>
+	</string>
+	<string id="zombie_bio">
+		<text>Zombies are created by the powerful Psi-field given off by Psi-emitters such as the 'Brain Scorcher' in Lab X-10, and the 'Miracle Machine' in Lab X-16. When unprotected Stalkers are exposed for too long, they literally start to 'lose their minds'. This process, which causes irreversible damage to the higher functions of the brain, inevitably results in their 'zombification'</text>
+	</string>
+	<string id="no_info_bio">
+		<text>Detailed information unavailable</text>
+	</string>
+	<string id="ldk_exp_bio">
+		<text>Experienced Last Day Killer: Well-trained, very skilled, and with much combat experience. No other information available</text>
+	</string>
+	<string id="ldk_cmdr_bio">
+		<text>Experienced Last Day Killer Commander: Highly intelligent, very skilled, and battle-hardened. No other information available</text>
+	</string>
+	<string id="sim_ecolog_bio">
+		<text>Protection detail of mobile science camp: Detailed information unavailable</text>
+	</string>
+	<string id="sim_sldr_bio">
+		<text>Ordinary soldiers: Detailed information unavailable</text>
+	</string>
+	<!--*****************************************-->
+</string_table>

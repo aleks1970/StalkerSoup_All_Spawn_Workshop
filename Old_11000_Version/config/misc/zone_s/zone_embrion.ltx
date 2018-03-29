@@ -1,0 +1,84 @@
+;<!-- TB3D 1.0.1e,  excluded duplicates sections aleks1970 -->
+[zone_dog]
+GroupControlSection	= spawn_group_zone
+$spawn 			= "zones\mosquito bald"
+$prefetch 		= 16
+class			= ZS_MBALD
+script_binding	     = embrion_binder.init
+
+hit_impulse_scale	          = 0.0
+effective_radius	          = 0.1 ;size range as a percentage of the original, which has a zone
+actor_blowout_radius_percent	= 0.0
+
+ef_anomaly_type			= 1
+ef_weapon_type			     = 13
+
+sound			= anomaly\anomaly_body_tear_1
+
+BirthProbability	= 0.0
+hit_type			= telepatic
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.10
+max_start_power		= 0.15
+attenuation			= 1
+period				= 1
+min_artefact_count	     = 0
+max_artefact_count	     = 0
+
+awaking_time		     = 100
+blowout_time		     = 150	
+accamulate_time		= 200
+
+idle_particles			= anomaly2\body_tear_01
+
+blowout_light       = off
+
+disable_time		= 5000		;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small	= 5000		;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time	= 10		;timeout idle partiklov
+
+ignore_nonalive	= true
+ignore_small		= true
+ignore_artefacts	= true
+
+;blowout_light		= off	;  excluded duplicates sections aleks1970
+
+idle_light		= off
+
+visible_by_detector = off
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts
+
+artefacts	= 
+
+;;during the operation in online
+spawn_blowout_artefacts    = off
+
+artefact_spawn_probability = 0.0	;the probability that during the operation of the anomalies will be born artifact
+artefact_spawn_particles   =		;partikly, who played in the birth place of the artifact (optional)
+artefact_born_sound        =  	;sound, who played in the birth place of the artifact (optional)
+
+throw_out_power            = 0	;momentum with which the artifact will be thrown out of the zone in any direction
+artefact_spawn_height      = 0	;(ì) height at the center of the area where the artifact will be born
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; wind
+blowout_wind		= off
+
+
+[zone_krovosos]:zone_dog
+[zone_burer]:zone_dog
+[zone_zombie]:zone_dog
+[zone_snork]:zone_dog
+[zone_flesh]:zone_dog
+[zone_gigant]:zone_dog
+[zone_poltergeist]:zone_dog
+[zone_psevdodog]:zone_dog
+[zone_controller]:zone_dog
+[zone_chimera]:zone_dog
+[zone_boar]:zone_dog
+[zone_tushkano]:zone_dog
+[zone_psydog]:zone_dog
+[zone_cat]:zone_dog

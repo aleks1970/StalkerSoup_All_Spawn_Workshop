@@ -1,0 +1,140 @@
+<!-- ************ TB3D 1.0.9.9.7.0, souls and dummy *************** -->
+<game_information_portions>
+	<!-- ***************For the issuance of the player records for a particular recipe gives him the info - for example, gives info_amk_recipt_tears_chimaera, after which the player appears in the PDA log entry (amk_recipt_tears_chimaera) and entry in the encyclopedia
+ (enc_amk_recipt_tears_chimaera) *************** -->
+	<info_portion id="info_amk_recipt_steel_kolobok">
+		<article>amk_recipt_steel_kolobok</article>
+		<!-- *************** no *************** -->
+		<article>enc_amk_recipt_steel_kolobok</article>
+		<!-- *************** no *************** -->
+	</info_portion>
+	<info_portion id="info_amk_recipt_titan_kolobok">
+		<article>amk_recipt_titan_kolobok</article>
+		<article>enc_amk_recipt_titan_kolobok</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_almaz_kolobok">
+		<!-- *************** no *************** -->
+		<article>amk_recipt_almaz_kolobok</article>
+		<article>enc_amk_recipt_almaz_kolobok</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_controller_skalp">
+		<article>amk_recipt_controller_skalp</article>
+		<article>enc_amk_recipt_controller_skalp</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_souls">
+		<article>amk_recipt_souls</article>
+		<give_info>info_amk_recipt_soul_drops</give_info>
+		<give_info>info_amk_recipt_soul_fire</give_info>
+		<give_info>info_amk_recipt_soul_cristal</give_info>
+		<give_info>info_amk_recipt_soul_bengal</give_info>
+	</info_portion>
+	<info_portion id="info_amk_recipt_soul_drops">
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<article>enc_amk_recipt_soul_drops</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_soul_fire">
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<article>enc_amk_recipt_soul_fire</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_soul_cristal">
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<article>enc_amk_recipt_soul_cristal</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_soul_bengal">
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<article>enc_amk_recipt_soul_bengal</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_tears_electra">
+		<article>amk_recipt_tears_electra</article>
+		<article>enc_amk_recipt_tears_electra</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_tears_fire">
+		<article>amk_recipt_tears_fire</article>
+		<article>enc_amk_recipt_tears_fire</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_tears_chimaera">
+		<article>amk_recipt_tears_chimaera</article>
+		<article>enc_amk_recipt_tears_chimaera</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_grandmother_glassbeards">
+		<article>amk_recipt_grandmother_glassbeards</article>
+		<article>enc_amk_recipt_grandmother_glassbeards</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_pra_grandmother_glassbeards">
+		<article>amk_recipt_pra_grandmother_glassbeards</article>
+		<article>enc_amk_recipt_pra_grandmother_glassbeards</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_burer_grandmother_glassbeards">
+		<article>amk_recipt_burer_grandmother_glassbeards</article>
+		<article>enc_amk_recipt_burer_grandmother_glassbeards</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_dikoobraz">
+		<article>amk_recipt_dikoobraz</article>
+		<article>enc_amk_recipt_dikoobraz</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_electra_dikoobraz">
+		<article>amk_recipt_electra_dikoobraz</article>
+		<article>enc_amk_recipt_electra_dikoobraz</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_sopl_dikoobraz">
+		<article>amk_recipt_sopl_dikoobraz</article>
+		<article>enc_amk_recipt_sopl_dikoobraz</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_stone_dikoobraz">
+		<article>amk_recipt_stone_dikoobraz_1</article>
+		<article>amk_recipt_stone_dikoobraz_2</article>
+		<article>enc_amk_recipt_stone_dikoobraz</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_giant_small_brother">
+		<article>amk_recipt_giant_small_brother</article>
+		<article>enc_amk_recipt_giant_small_brother</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_shkura">
+		<article>amk_recipt_shkura</article>
+		<article>enc_amk_recipt_shkura</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_cheshya">
+		<article>amk_recipt_cheshya</article>
+		<article>enc_amk_recipt_cheshya</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_pancir">
+		<article>amk_recipt_pancir</article>
+		<article>enc_amk_recipt_pancir</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_simbion">
+		<article>amk_recipt_simbion</article>
+		<article>enc_amk_recipt_simbion</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_dummy">
+		<article>amk_recipt_dummy</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_dummy_fire">
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<article>enc_amk_recipt_dummy_fire</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_dummy_bright">
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<article>enc_amk_recipt_dummy_bright</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_dummy_moon">
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<article>enc_amk_recipt_dummy_moon</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_dummy_puding">
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<article>enc_amk_recipt_dummy_puding</article>
+	</info_portion>
+	<info_portion id="info_amk_recipt_fake">
+		<article>amk_recipt_fake</article>
+	</info_portion>
+	<info_portion id="info_amk_ratcatcher_story">
+  </info_portion>
+	<info_portion id="info_amk_recipt_simbion_spawned">
+  </info_portion>
+	<info_portion id="info_amk_recipt_shkura_spawned">
+  </info_portion>
+	<info_portion id="info_amk_recipt_dummy_spawned">
+  </info_portion>
+  <!-- New info for disabling the Snitch artefact info trade sequences - aleks1970 -->
+  <info_portion id="info_snitch_recipt_full"/>
+</game_information_portions>

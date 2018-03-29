@@ -1,0 +1,160 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+;---------------------------------------------------Автоматический пистолет Beretta 93R
+[wpn_m93r]:identity_immunities
+GroupControlSection			= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                   	= "weapons\m93r"
+$npc			 			= on
+$prefetch 					= 8
+scheduled         		   	= off
+cform             		    = skeleton
+class                    	= WP_LR300
+min_radius               	= 0
+max_radius               	= 100
+description					= enc_weapons_wpn_m93r
+
+ef_weapon_type				= 5
+;--------------------------------------------
+holder_range_modifier	    = 1.0
+holder_fov_modifier		    = 1.0
+;--------------------------------------------
+cost					 	= 4900
+weapon_class			    = assault_rifle
+
+ammo_limit		 			= 120
+ammo_current		 		= 96
+ammo_elapsed		 		= 16
+ammo_mag_size		 		= 21
+fire_modes				= 1, 3
+
+ammo_class		 			= ammo_9x19_pbp, ammo_9x19_fmj
+hand_dependence		 		= 1
+single_handed				= 1
+
+slot 			 			= 1
+animation_slot				= 1
+
+inv_name					= wpn_m93r
+inv_name_short				= wpn_m93r
+inv_weight					= 1.3
+
+inv_grid_width				= 2
+inv_grid_height				= 2
+inv_grid_x					= 11
+inv_grid_y					= 73
+
+kill_msg_x			        = 168
+kill_msg_y			        = 178
+kill_msg_width		        = 27
+kill_msg_height		        = 23
+;---------------------------------------------
+fire_dispersion_base		= 0.014
+cam_relax_speed         	= 6.5
+cam_relax_speed_ai         	= 8
+cam_dispersion          	= 0.47
+cam_dispersion_inc		    = 0.0
+cam_dispertion_frac		    = 1.0
+cam_max_angle			    = 20.0
+cam_max_angle_horz		    = 10.0
+cam_step_angle_horz		    = 0.7
+fire_dispersion_condition_factor = 5
+misfire_probability 	    = 0.005
+misfire_condition_k		    = 0.05
+condition_shot_dec 		    = 0.0002
+;---------------------------------------------
+flame_particles				= weapons\generic_weapon03
+smoke_particles				= weapons\generic_shoot_00
+shell_point		 			= 0.00, 0.218, 0.033
+shell_dir		 			= 0.0, 0.0, 0.4
+shell_particles	 			= weapons\generic_shells
+rpm_empty_click 	 		= 200
+PDM_disp_base 			    = 1.0
+PDM_disp_vel_factor 		= 0.5
+PDM_disp_accel_factor 		= 0.5
+PDM_crouch	 		        = 1.0
+PDM_crouch_no_acc 		    = 1.0
+
+hit_power                   = 1.52
+hit_impulse		 	        = 3
+hit_type 			        = fire_wound
+hit_rate	                = 1.85
+fire_distance               = 100					;;;109974 10:1
+bullet_speed		 	    = 395
+rpm                         = 1100
+
+use_aim_bullet				= true
+time_to_aim					= 1.0	
+
+
+hud                      	= wpn_m93r_hud
+normal                   	= 0, 1, 0
+position                 	= -0.026,-0.172,0.0
+orientation              	= 0, 0, 1
+;--STRAP PARAMETERS-------------------------------
+direction           	    = 0, 0, 1
+fire_point               	= 0.0,0.211,0.123
+
+visual                   	= weapons\m93r\wpn_m93r.ogf
+
+light_color		 			= 0.6,0.5,0.3
+light_range		 			= 3.0
+light_var_color		 		= 0.05
+light_var_range		 		= 0.5
+light_time 		 			= 0.2
+ph_mass			 			= 1
+
+scope_status				= 0
+silencer_status				= 2
+grenade_launcher_status		= 0
+
+zoom_enabled			= true
+scope_zoom_factor	    	= 90
+;----------------------- звук -----------------------
+snd_draw					= weapons\93r\93_draw
+snd_holster					= weapons\pistol_holster
+snd_shoot					= weapons\93r\93_shoot
+snd_shoot1					= weapons\93r\93_shoot1
+snd_shoot2					= weapons\93r\93_shoot2
+snd_shoot3					= weapons\93r\93_shoot3
+snd_empty					= weapons\93r\93_empty
+snd_reload					= weapons\93r\93_reload
+snd_close					= weapons\93r\93_close
+snd_silncer_shot		    = weapons\93r\93_shot_sil
+;-------------------------------------------------------------
+silencer_name  				= wpn_9mm_nato_silencer
+silencer_x 					= 69
+silencer_y 					= -12
+
+silencer_smoke_particles 	= weapons\generic_shoot_00
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+[wpn_m93r_hud]
+shell_point			        = -0.330000,-0.010000,0.050000
+fire_point			        = -0.215,0.0,0.015
+fire_bone                	= wpn_body
+orientation              	= 0,0,0
+position                 	= 0,0,0
+visual                   	= weapons\m93r\wpn_m93r_hud.ogf
+
+anim_holster				= holster
+anim_idle					= idle
+anim_empty					= empty
+anim_reload					= reload_full
+anim_reload_empty			= reload
+anim_draw					= draw
+anim_draw_empty				= draw_empty
+anim_shoot					= shoot
+anim_shot_last				= shoot_last
+anim_close					= holster
+anim_idle_aim				= idle_aim
+anim_idle_sprint			= idle_sprint
+
+zoom_offset			= -0.163850,0.032300,0.001000
+zoom_rotate_x		= 0.002400
+zoom_rotate_y		= -0.000300
+zoom_hide_crosshair	= true

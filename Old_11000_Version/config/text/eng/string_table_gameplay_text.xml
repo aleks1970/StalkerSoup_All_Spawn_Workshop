@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.4 Names and hints for map positions aleks1970, final bios, volk, lehavre, canine to Fang, exp_stalker_known_bio, the raven, lukash line 26, Miser -->
+<!-- Multiple character names changed to correct(?) standard by Sword2012. Please check accuracy in comments below. 07 Oct 16, new part for a Hog/Borov - aleks1970 -->
+<!-- Names changed as commented below - Sword2012 - 31 Oct 16. Please check Borov and Hog, and Kuznet and Kuznetsov -->
+<string_table>
+	<string id="Akim_name_gameplay">
+		<text>Akim</text>
+	</string>
+	<string id="Crest_name_gameplay">
+		<text>Crest</text>
+	</string>
+	<string id="Adrenalin_name_gameplay">
+		<text>Adrenalin</text>
+	</string>
+	<string id="Sakharov_name_gameplay">
+		<text>Sakharov</text>
+	</string>
+	<string id="Voronin_name_gameplay">
+		<text>Voronin</text>
+	</string>
+	<string id="Screw_name_gameplay">
+		<text>Screw</text>
+	</string>
+	<string id="Sentry_name_gameplay">
+		<text>Sentry</text>
+	</string>
+	<string id="Lukas_name_gameplay">
+		<text>Lukash</text>
+	</string>
+	<string id="Swamp_Doctor_1_name_gameplay">
+		<text>Swamp Doctor 1</text>
+	</string>
+	<string id="Swamp_Doctor_2_name_gameplay">
+		<text>Swamp Doctor 2</text>
+	</string>
+	<string id="Swamp_Doctor_3_name_gameplay">
+		<text>Swamp Doctor 3</text>
+	</string>
+	<string id="Cook_name_gameplay">
+		<text>Cook</text>
+	</string>
+	<string id="Miner_name_gameplay">
+		<text>Miner</text>
+	</string>
+	<string id="Bald_name_gameplay">
+		<text>Baldy</text>	<!-- Was 'Bald' -->
+	</string>
+	<string id="Petrenko_name_gameplay">
+		<text>Petrenko</text>
+	</string>
+	<string id="Lanky_name_gameplay">
+		<text>Lanky</text>
+	</string>
+	<string id="Garik_name_gameplay">
+		<text>Garik</text>
+	</string>
+	<string id="Sidorovich_name_gameplay">
+		<text>Sidorovich</text>
+	</string>
+	<string id="Kalinin_name_gameplay">
+		<text>Kalinin</text>
+	</string>
+	<string id="Fima_Coal_name_gameplay">
+		<text>Fima Coal</text>
+	</string>
+	<string id="Hermit_name_gameplay">
+		<text>Hermit</text>
+	</string>
+	<string id="Gynecologist_name_gameplay">
+		<text>Gynecologist</text>
+	</string>
+	<string id="Jora_Anomaly_name_gameplay">
+		<text>Jora Anomaly</text>	<!-- Changed 'Zhorik' to 'Jora Anomaly'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Old_man_name_gameplay">
+		<text>Old Man</text>
+	</string>
+	<string id="Pilgrim_name_gameplay">
+		<text>Pilgrim</text>
+	</string>
+	<string id="Victor_Hologram_name_gameplay">
+		<text>Victor Hologram</text>	<!-- Was 'Victor-Hologram' -->
+	</string>
+	<string id="Schur_Gynecologist_name_gameplay">
+		<text>Gynecologist</text>	<!-- Was 'Schur Gynecologist' -->
+	</string>
+	<string id="Chimera_name_gameplay">
+		<text>Chimera</text>
+	</string>
+	<string id="Owl_name_gameplay">
+		<text>Owl</text>
+	</string>
+	<string id="Canin_name_gameplay">
+		<text>Canin</text>
+	</string>
+	<string id="Vitamin_name_gameplay">
+		<text>Vitamin</text>
+	</string>
+	<string id="Panther_name_gameplay">
+		<text>Panther</text>
+	</string>
+	<string id="Dembele_name_gameplay">
+		<text>Demobee</text>	<!-- Was 'Dembele' -->
+	</string>
+	<string id="Hologram_name_gameplay">
+		<text>Victor Hologram</text><!-- Was just 'Hologram' -->
+	</string>
+	<string id="Maples_name_gameplay">
+		<text>Maples</text>
+	</string>
+	<string id="Sanya_Rogue_name_gameplay">
+		<text>Sanya Rogue</text>
+	</string>
+	<string id="Kolmogor_name_gameplay">
+		<text>Kolmogor</text>
+	</string>
+	<string id="Connoisseur_of_the_marshes_name_gameplay">
+		<text>Connoisseur of the Marshes</text>
+	</string>
+	<string id="Countryman_name_gameplay">
+		<text>Countryman</text>
+	</string>
+	<string id="Ghost_name_gameplay">
+		<text>Ghost</text>
+	</string>
+	<string id="Andersen_name_gameplay">
+		<text>Andersen</text>
+	</string>
+	<string id="Shooter_name_gameplay">
+		<text>Shooter</text>
+	</string>
+	<string id="Fly_name_gameplay">
+		<text>Fly</text>
+	</string>
+	<string id="Maximilian_name_gameplay">
+		<text>Maximilian</text>
+	</string>
+	<string id="Kuznetsov_name_gameplay">
+		<text>Kuznetsov</text>
+	</string>
+	<string id="Hog_name_gameplay">
+		<text>Borov</text>	<!-- Was 'Hog' but Hog name is now included below the 'Real_Hog_name_gameplay' id- aleks1970 -->
+	</string>
+	<string id="Real_Hog_name_gameplay">
+		<text>Hog</text>	<!-- new string id for new game starts - aleks1970 -->
+	</string>
+	<string id="Sanya_Tyumen_name_gameplay">
+		<text>Sanya Tyumen</text>
+	</string>
+	<string id="volk_name_gameplay">
+		<text>Volk</text>
+	</string>
+	<string id="Sherstyuk_name_gameplay">
+		<text>Sherstyuk</text>
+	</string>
+	<string id="Bartender_name_gameplay">
+		<text>Bartender</text>
+	</string>
+	<string id="Artifact_Container_name_gameplay">
+		<text>Artefact Container</text>
+	</string>
+	<string id="Missing_Scientist_name_gameplay">
+		<text>Missing Scientist</text>
+	</string>
+	<string id="Estimated_location_name_gameplay">
+		<text>Estimated location</text>
+	</string>
+	<string id="Prapor_name_gameplay">
+		<text>Prapor</text>
+	</string>
+	<string id="Max_lubero_name_gameplay">
+		<text>Max Lubero</text>
+	</string>
+	<string id="Miser_name_gameplay">
+		<text>Miser</text>
+	</string>
+	<string id="Max_name_gameplay">
+		<text>Max</text>
+	</string>
+	<string id="Fan_name_gameplay">
+		<text>Fanatic</text>	<!-- Was 'Fan' -->
+	</string>
+	<string id="Swamp_Doctor_name_gameplay">
+		<text>Swamp Doctor</text>
+	</string>
+	<string id="Wolf_name_gameplay">
+		<text>Wolf</text>
+	</string>
+	<string id="Tolik_name_gameplay">
+		<text>Tolik</text>
+	</string>
+	<string id="Petruha_name_gameplay">
+		<text>Petruha</text>
+	</string>
+	<string id="Nimble_name_gameplay">
+		<text>Nimble</text>
+	</string>
+	<string id="Kuznet_name_gameplay">
+		<text>Kuznet</text>	<!-- Changed 'Kuznet' to 'Kuznetsov'- Sword2012 - 31 Oct 16. Changed back to Kuznet 15 Sept 17-->
+	</string>
+	<string id="Fox_name_gameplay">
+		<text>Fox</text>
+	</string>
+	<string id="Yurek_name_gameplay">
+		<text>Yurek</text>
+	</string>
+	<string id="Demon_name_gameplay">
+		<text>Bes</text>	<!-- Was 'Demon' -->
+	</string>
+	<string id="Plichko_name_gameplay">
+		<text>Plichko</text>
+	</string>
+	<string id="Mole_name_gameplay">
+		<text>Mole</text>
+	</string>
+	<string id="Skinflint_name_gameplay">
+		<text>Miser</text>
+	</string>
+	<string id="Deserter_name_gameplay">
+		<text>Deserter</text>
+	</string>
+	<string id="Syak_name_gameplay">
+		<text>Syak</text>
+	</string>
+	<string id="Kruglov_name_gameplay">
+		<text>Kruglov</text>
+	</string>
+	<string id="Ivantsov_name_gameplay">
+		<text>Ivantsov</text>
+	</string>
+	<string id="Estimated_location_of_documents_name_gameplay">
+		<text>Approximate location of documents</text>	<!-- Was 'Estimated' -->
+	</string>
+	<string id="Dynamite_was_in_newbies_camp_name_gameplay">
+		<text>Dynamite in Rookie camp</text>	<!-- Was 'Dynamite was in newbies camp' -->
+	</string>
+	<string id="Kostya_name_gameplay">
+		<text>Kostya</text>
+	</string>
+	<string id="Dan_name_gameplay">
+		<text>Dan</text>
+	</string>
+	<string id="Informant_name_gameplay">
+		<text>Informant</text>
+	</string>
+	<string id="Bolt_name_gameplay">
+		<text>Bolt</text>
+	</string>
+	<string id="LeHavre_name_gameplay">
+		<text>LeHavre</text>
+	</string>
+	<string id="Freeman_name_gameplay">
+		<text>Freeman</text>
+	</string>
+	<string id="James_name_gameplay">
+		<text>DeJames</text>
+	</string>
+	<string id="Monolith_name_gameplay">
+		<text>Monolith</text>
+	</string>
+	<string id="Blend_name_gameplay">
+		<text>Blend</text>
+	</string>
+	<string id="Arhara_name_gameplay">
+		<text>Arhara</text>
+	</string>
+	<string id="Ivashchenko_name_gameplay">
+		<text>Ivashchenko</text>
+	</string>
+	<string id="Notebook_name_gameplay">
+		<text>Notebook</text>
+	</string>
+	<string id="Arharas_laptop_name_gameplay">
+		<text>Arhara's laptop</text>
+	</string>
+	<string id="Yakut_name_gameplay">
+		<text>Yakut</text>
+	</string>
+	<string id="Ghosts_Diary_name_gameplay">
+		<text>Ghost's Diary</text>
+	</string>
+	<string id="Scientist_name_gameplay">
+		<text>Scientist</text>
+	</string>
+	<string id="Ghosts_Group_name_gameplay">
+		<text>Ghost's Group</text>
+	</string>
+	<string id="Beast_last_spotted_name_gameplay">
+		<text>Beast last spotted</text>
+	</string>
+	<string id="Zver_name_gameplay">
+		<text>Beast</text>
+	</string>
+	<string id="Robbers_name_gameplay">
+		<text>Robbers</text>
+	</string>
+	<string id="Owls_Cache_name_gameplay">
+		<text>Owl's cache</text>
+	</string>
+	<string id="The_leader_of_the_hunters_name_gameplay">
+		<text>The leader of the Hunters</text>
+	</string>
+	<string id="Zahar_name_gameplay">
+		<text>Zahar</text>
+	</string>
+	<string id="Merc_Camp_name_gameplay">
+		<text>Merc Camp</text>
+	</string>
+	<string id="Bandit_name_gameplay">
+		<text>Bandit</text>
+	</string>
+	<string id="Ash_Gray_name_gameplay">
+		<text>Ash Gray</text>
+	</string>
+	<string id="A_group_of_scientists_name_gameplay">
+		<text>A group of scientists</text>
+	</string>
+	<string id="Tamaz_name_gameplay">
+		<text>Tamaz</text>
+	</string>
+	<string id="Diary_1_name_gameplay">
+		<text>Diary 1</text>
+	</string>
+	<string id="Diary_2_name_gameplay">
+		<text>Diary 2</text>
+	</string>
+	<string id="Diary_3_name_gameplay">
+		<text>Diary 3</text>
+	</string>
+	<string id="Captive_scout_name_gameplay">
+		<text>Captive scout</text>
+	</string>
+	<string id="Sviblov_name_gameplay">
+		<text>Sviblov</text>
+	</string>
+	<string id="Cat_name_gameplay">
+		<text>Cat</text>	<!-- Changed 'Feral Cat' to 'Cat'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Borman_name_gameplay">
+		<text>Borman</text>
+	</string>
+	<string id="Kalmyk_name_gameplay">
+		<text>Kalmyak</text>
+	</string>
+	<string id="Shadowman_name_gameplay">
+		<text>Shadowman</text>
+	</string>
+	<string id="Syslov_name_gameplay">
+		<text>Syslov</text>
+	</string>
+	<string id="Sage_name_gameplay">
+		<text>Sage</text>
+	</string>
+	<string id="Shadows_name_gameplay">
+		<text>Shadows</text>
+	</string>
+	<string id="Borov_name_gameplay">
+		<text>Borov</text>
+	</string>
+	<string id="Shurup_name_gameplay">
+		<text>Shurup</text>
+	</string>
+	<string id="Fanat_name_gameplay">
+		<text>Fanatic</text>	<!-- Was 'Fanat' -->
+	</string>
+	<string id="Serly_name_gameplay">
+		<text>Seriy</text>	<!-- Was 'Serly' -->
+	</string>
+	<string id="Lukash_name_gameplay">
+		<text>Lukash</text>
+	</string>
+	<string id="Den_name_gameplay">
+		<text>Den</text>
+	</string>
+	<string id="Mercenary_name_gameplay">
+		<text>Mercenary</text>
+	</string>
+	<string id="Stranger_name_gameplay">
+		<text>Stranger</text>
+	</string>
+	<string id="Habarych_name_gameplay">
+		<text>Habarych</text>
+	</string>
+	<string id="Vadya_Stakhanov_name_gameplay">
+		<text>Vadya Stakhanov</text>
+	</string>
+	<string id="Lenka_Einstein_name_gameplay">
+		<text>Lenka Einstein</text>
+	</string>
+	<string id="Korchagin_name_gameplay">
+		<text>Korchagin</text>
+	</string>
+	<string id="Captain_Hrenovodelov_name_gameplay">
+		<text>Captain Hrenovodelov</text>
+	</string>
+	<string id="Artem_the_Cook_name_gameplay">
+		<text>Artem</text>
+	</string>
+	<string id="Vitek_Voron_name_gameplay">
+		<text>Vitek Voron (Raven)</text>
+	</string>
+	<string id="Victor_Astronomer_name_gameplay">
+		<text>Victor Astronomer</text>
+	</string>
+	<string id="Hump_name_gameplay">
+		<text>Hump</text>
+	</string>
+	<string id="Spirit_name_gameplay">
+		<text>Spirit</text>
+	</string>
+	<string id="Tauli_name_gameplay">
+		<text>Tauli</text>
+	</string>
+	<string id="Finder_name_gameplay">
+		<text>Finder</text>
+	</string>
+	<string id="Gerasim_name_gameplay">
+		<text>Gerasim</text>
+	</string>
+	<string id="Keith_name_gameplay">
+		<text>Keith</text>
+	</string>
+	<string id="Messenger_name_gameplay">
+		<text>Messenger</text>
+	</string>
+	<string id="Dock_name_gameplay">
+		<text>Dock</text>
+	</string>
+	<string id="Max_Gromov_name_gameplay">
+		<text>Max Gromov</text>
+	</string>
+	<string id="Shnyrov_name_gameplay">
+		<text>Shnyrov</text>
+	</string>
+	<string id="Stargazer_name_gameplay">
+		<text>Astrologer</text>	<!-- Changed 'Stargazer' to 'Astrologer'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Proschaysolyankin_name_gameplay">
+		<text>Proschaysolyankin</text>
+	</string>
+	<string id="Shadow_of_Monolith_name_gameplay">
+		<text>Shadow Monolith</text>
+	</string>
+	<string id="All_name_gameplay">
+		<text>All</text>
+	</string>
+	<string id="Cyclops_name_gameplay">
+		<text>Cyclops</text>
+	</string>
+	<string id="Undead_name_gameplay">
+		<text>Undead</text>
+	</string>
+	<string id="Canine_name_gameplay">
+		<text>Fang</text>
+	</string>
+	<string id="Bonecrusher_name_gameplay">
+		<text>Bonecrusher</text>
+	</string>
+	<string id="Demobee_name_gameplay">
+		<text>Demobee</text>
+	</string>
+	<string id="Monoroh_name_gameplay">
+		<text>Monoroh</text>
+	</string>
+	<string id="Bummer_name_gameplay">
+		<text>Bummer</text>
+	</string>
+	<string id="Spider_name_gameplay">
+		<text>Spider</text>
+	</string>
+	<string id="Sergeant_Kostylnoga_name_gameplay">
+		<text>Sergeant Kostylnoga</text>
+	</string>
+	<string id="Boss_name_gameplay">
+		<text>Boss</text>
+	</string>
+	<string id="Ensign_Sidorenko_name_gameplay">
+		<text>Ensign Sidorenko</text>
+	</string>
+	<string id="Lieutenant_Vetroplyuev_name_gameplay">
+		<text>Lieutenant Vetroplyuev</text>
+	</string>
+	<string id="Sergeant_Marauders_name_gameplay">
+		<text>Sergeant Marauder</text>
+	</string>
+	<string id="Lt_Beard_name_gameplay">
+		<text>Lieutenant Beard</text>	<!-- Was 'Lt. Beard' -->
+	</string>
+	<string id="Captain_Mosquito_name_gameplay">
+		<text>Captain Mosquito</text>
+	</string>
+	<!--109999 <string id="Connoisseur_of_Marshes_name_gameplay">
+		<text>Connoisseur of the Marshes</text>
+	</string> -->
+	<string id="Hoary_name_gameplay">
+		<text>Hoary</text>
+	</string>
+	<string id="Jerry_name_gameplay">
+		<text>Jerry</text>
+	</string>
+	<string id="Solvador_name_gameplay">
+		<text>Solvador</text>
+	</string>
+	<string id="Tutsan_name_gameplay">
+		<text>Tutsan</text>
+	</string>
+	<string id="Smith_name_gameplay">
+		<text>Smith</text>
+	</string>
+	<string id="Kalter_name_gameplay">
+		<text>Kalter</text>
+	</string>
+	<string id="Black_Doctor_name_gameplay">
+		<text>Black Doctor</text>
+	</string>
+	<string id="Fyodor_Loviglyuk_name_gameplay">
+		<text>Fyodor Loviglyuk</text>
+	</string>
+	<string id="Boatswain_name_gameplay">
+		<text>Boatswain</text>
+	</string>
+	<string id="Peregrine_name_gameplay">
+		<text>Peregrine</text>
+	</string>
+	<string id="Battalion_Commander_name_gameplay">
+		<text>Battalion Commander</text>
+	</string>
+	<string id="Poplar_name_gameplay">
+		<text>Poplar</text>
+	</string>
+	<string id="Mickey_name_gameplay">
+		<text>Mickey</text>
+	</string>
+	<string id="Hemul_name_gameplay">
+		<text>Hemul</text>
+	</string>
+	<string id="Chemist_name_gameplay">
+		<text>Chemist</text>
+	</string>
+	<string id="Handful_name_gameplay">
+		<text>Handful</text>
+	</string>
+	<string id="Sniper_name_gameplay">
+		<text>Sniper</text>
+	</string>
+	<string id="Huron_name_gameplay">
+		<text>Huron</text>
+	</string>
+	<string id="Porutchik_Galitzine_name_gameplay">
+		<text>Porutchik Galitzine</text>
+	</string>
+	<string id="Father_Panthers_name_gameplay">
+		<text>Panther's father</text>	<!-- Was 'Father Panther' -->
+	</string>
+	<string id="Valerius_name_gameplay">
+		<text>Valerius</text>
+	</string>
+	<string id="Overlord_name_gameplay">
+		<text>Overlord</text>
+	</string>
+	<string id="Ruslan_Combat_name_gameplay">
+		<text>Ruslan Combat</text>
+	</string>
+	<string id="ALEX_BOY_name_gameplay">
+		<text>Alex Boy</text>
+	</string>
+	<string id="Sapsan_name_gameplay">
+		<text>Sapsan</text>
+	</string>
+	<string id="Stalker_Nest_name_gameplay">
+		<text>Stalker Nest</text>	<!-- Was 'STALKER-Nest' -->
+	</string>
+	<string id="Corn_name_gameplay">
+		<text>Corn</text>
+	</string>
+	<string id="Sepator_name_gameplay">
+		<text>Sepator</text>
+	</string>
+	<string id="Major_Dad_name_gameplay">
+		<text>Major Dad</text>
+	</string>
+	<string id="Lightning_name_gameplay">
+		<text>Lightning</text>
+	</string>
+	<string id="Wanderer_name_gameplay">
+		<text>Wanderer</text>
+	</string>
+	<string id="Yuri_Semetsky_name_gameplay">
+		<text>Yuri Semetsky</text>
+	</string>
+	<string id="Captured_by_goal_name_gameplay">
+		<text>Captured by the goal</text>
+	</string>
+	<string id="Forester_name_gameplay">
+		<text>Forester</text>
+	</string>
+	<string id="Autofocus_Camera_ready_name_gameplay">
+		<text>Autofocus is configured. Camera ready.</text>
+		<!-- not needed 'Remove the weapon from the FSM slot' - aleks1970 -->
+	</string>
+	<string id="Black_Sea_name_gameplay">
+		<text>Black Sea</text>
+	</string>
+	<string id="Captain_Sralamazalynsky_name_gameplay">
+		<text>Captain Sralamazalynsky</text>
+	</string>
+	<string id="Nix_name_gameplay">
+		<text>Nix</text>
+	</string>
+	<string id="Sour_name_gameplay">
+		<text>Sour</text>
+	</string>
+	<string id="Spiteful_name_gameplay">
+		<text>Malicious</text><!-- Was 'Spiteful' - Sword2012 - 07 Jul 17 -->
+	</string>
+	<string id="Perfumer_name_gameplay">
+		<text>Perfumer</text>
+	</string>
+	<string id="Subject_Liquidator_name_gameplay">
+		<text>Subject Liquidator</text>
+	</string>
+	<string id="Hammer_name_gameplay">
+		<text>Hammer</text>
+	</string>
+	<string id="Norman_name_gameplay">
+		<text>Norman</text>
+	</string>
+	<string id="Swoon_name_gameplay">
+		<text>Obmorok</text>
+	</string>
+	<string id="Janis_name_gameplay">
+		<text>Janis</text>
+	</string>
+	<string id="Head_of_area_name_gameplay">
+		<text>Head of area</text>
+	</string>
+	<string id="Duda_name_gameplay">
+		<text>Duda</text>
+	</string>
+	<string id="Insane_Freedom_name_gameplay">
+		<text>Insane Freedom Stalker</text>
+	</string>
+	<string id="Meccep_name_gameplay">
+		<text>Meccep</text>
+	</string>
+	<string id="Marsh_Doctor_name_gameplay">
+		<text>Swamp Doctor</text>
+	</string>
+	<string id="The_Fly_name_gameplay">
+		<text>Fly</text>
+	</string>
+	<string id="Division_Captain_name_gameplay">
+		<text>Agroprom Division Captain</text>
+	</string>
+	<string id="Barkeep_name_gameplay">
+		<text>Barkeep</text>
+	</string>
+	<string id="Cold_name_gameplay">
+		<text>Cold</text>
+	</string>
+	<string id="Kolmogorov_name_gameplay">
+		<text>Kolmogorov</text>
+	</string>
+	<string id="Ara_name_gameplay">
+		<text>Ara</text>
+	</string>
+	<string id="Lech_Tambov_name_gameplay">
+		<text>Lech Tambov</text>
+	</string>
+	<string id="Osoznanie_name_gameplay">
+		<text>Osoznanie</text>
+	</string>
+	<string id="Jack_name_gameplay">
+		<text>Jack</text>
+	</string>
+	<string id="Duty_Member_name_gameplay">
+		<text>Duty member</text>
+	</string>
+	<string id="Duty_Sniper_name_gameplay">
+		<text>Duty Sniper</text>
+	</string>
+	<string id="Duty_Veteran_name_gameplay">
+		<text>Duty Veteran</text>
+	</string>
+	<string id="Duty_Master_name_gameplay">
+		<text>Duty Master</text>
+	</string>
+	<string id="Skull_name_gameplay">
+		<text>Skull</text>
+	</string>
+	<string id="Pavlik_name_gameplay">
+		<text>Pavlik</text>
+	</string>
+	<string id="Scientific_Guard_name_gameplay">
+		<text>Scientific guard</text>
+	</string>
+	<string id="Mercenary_Leader_name_gameplay">
+		<text>Mercenary Leader</text>
+	</string>
+	<string id="Mercenary_Sniper_name_gameplay">
+		<text>Mercenary Sniper</text>
+	</string>
+	<string id="Elite_Mercenary_name_gameplay">
+		<text>Elite Mercenary</text>
+	</string>
+	<string id="Mercenary_Master_name_gameplay">
+		<text>Mercenary Master</text>
+	</string>
+	<string id="Monolith_Leader_name_gameplay">
+		<text>Monolith Leader</text>
+	</string>
+	<string id="Monolith_Sniper_name_gameplay">
+		<text>Monolith Sniper</text>
+	</string>
+	<string id="Monolith_Elite_name_gameplay">
+		<text>Monolith Elite</text>
+	</string>
+	<string id="Monolith_Master_name_gameplay">
+		<text>Monolith Master</text>
+	</string>
+	<string id="Monolith_Gauss_Sniper_name_gameplay">
+		<text>Monolith Gauss Sniper</text>
+	</string>
+	<string id="Second_Command_name_gameplay">
+		<text>Monolith Second-in-Command</text>
+	</string>
+	<string id="Third_Command_name_gameplay">
+		<text>Monolith Third-in-Command</text>
+	</string>
+	<string id="Commander_name_gameplay">
+		<text>Commander</text>
+	</string>
+	<string id="Sniper_Soldier_name_gameplay">
+		<text>Sniper Soldier</text>
+	</string>
+	<string id="Spetsnaz_Soldier_name_gameplay">
+		<text>Spetsnaz Soldier</text>
+	</string>
+	<string id="Elite_Soldier_name_gameplay">
+		<text>Elite Soldier</text>
+	</string>
+	<string id="S_Thug_name_gameplay">
+		<text>Stalker Thug</text>
+	</string>
+	<string id="Veteran_s_name_gameplay">
+		<text>Veteran Stalker</text>
+	</string>
+	<string id="Master_s_name_gameplay">
+		<text>Master Stalker</text>
+	</string>
+	<string id="Freedom_Member_name_gameplay">
+		<text>Freedom Member</text>
+	</string>
+	<string id="Kapets_name_gameplay">
+		<text>Kapets</text>
+	</string>
+	<string id="Manowar_name_gameplay">
+		<text>Manowar</text>
+	</string>
+	<string id="Angle_name_gameplay">
+		<text>Angle</text>
+	</string>
+	<string id="Freedom_Sniper_name_gameplay">
+		<text>Freedom Sniper</text>
+	</string>
+	<string id="Freedom_Veteran_name_gameplay">
+		<text>Freedom Veteran</text>
+	</string>
+	<string id="Freedom_Master_name_gameplay">
+		<text>Freedom Master</text>
+	</string>
+	<string id="Gloomy_name_gameplay">
+		<text>Gloomy</text>
+	</string>
+	<string id="Kep_name_gameplay">
+		<text>Kep</text>
+	</string>
+	<string id="Zombified_s_name_gameplay">
+		<text>Zombified Stalker</text>
+	</string>
+	<string id="The_undead_name_gameplay">
+		<text>The undead</text>
+	</string>
+	<string id="Patch_name_gameplay">
+		<text>Patch</text>
+	</string>
+	<string id="Commander_Demogorgon_name_gameplay">
+		<text>Commander Demogorgon</text>
+	</string>
+	<string id="Commander_Chernobog_name_gameplay">
+		<text>Commander Chernobog</text>
+	</string>
+	<string id="Commander_Diabolos_name_gameplay">
+		<text>Commander Diabolos</text>
+	</string>
+	<string id="Commander_Sutekh_name_gameplay">
+		<text>Commander Sutekh</text>
+	</string>
+	<string id="Commander_Crnobog_name_gameplay">
+		<text>Commander Crnobog</text>
+	</string>
+	<string id="Commander_Ahriman_name_gameplay">
+		<text>Commander Ahriman</text>
+	</string>
+	<string id="John_name_gameplay">
+		<text>John</text>
+	</string>
+	<string id="Crocker_name_gameplay">
+		<text>Crocker</text>
+	</string>
+	<string id="Nick_name_gameplay">
+		<text>Nick</text>
+	</string>
+	<string id="Haris_name_gameplay">
+		<text>Haris</text>
+	</string>
+	<string id="Morphine_name_gameplay">
+		<text>Morphine</text>
+	</string>
+	<string id="Bland_name_gameplay">
+		<text>Bland</text>
+	</string>
+	<string id="Oblique_name_gameplay">
+		<text>Oblique</text>
+	</string>
+	<string id="Zondr_name_gameplay">
+		<text>Zondr</text>
+	</string>
+	<string id="Sanya_Banderos_name_gameplay">
+		<text>Sanya Banderos</text>
+	</string>
+	<string id="Dimon_Bowl_Dimorin_name_gameplay">
+		<text>Dimon Bowl Dimorin</text>
+	</string>
+	<string id="Eureka_moderator_n_name_gameplay">
+		<text>Eureka moderator N</text>
+	</string>
+	<string id="Vova_Tirex_name_gameplay">
+		<text>Vova Tirex</text>
+	</string>
+	<string id="Zhenya_Snorkevich_name_gameplay">
+		<text>Zhenya Snorkevich</text>
+	</string>
+	<string id="Sanya_Vavka_name_gameplay">
+		<text>Sanya Vavka</text>
+	</string>
+	<string id="Andrew_name_gameplay">
+		<text>Andrew</text>
+	</string>
+	<string id="Erofeev_name_gameplay">
+		<text>Erofeev</text>
+	</string>
+	<string id="Perun_name_gameplay">
+		<text>Perun</text>
+	</string>
+	<string id="Basil_name_gameplay">
+		<text>Vasily</text>
+	</string>
+	<string id="Lector_name_gameplay">
+		<text>Lector</text>
+	</string>
+	<string id="Sahat_name_gameplay">
+		<text>Sahat</text>	<!-- It must be 'Sahat' - aleks1970 -->
+	</string>
+	<string id="Kashchei_name_gameplay">
+		<text>Kashcheev</text>	<!-- Was 'Kashchei' -->
+	</string>
+	<string id="Experience_name_gameplay">
+		<text>Experience</text>
+	</string>
+	<string id="Brother_Louis_name_gameplay">
+		<text>Brother Louis</text>
+	</string>
+	<string id="Frenchman_name_gameplay">
+		<text>Frenchman</text>
+	</string>
+	<string id="Sanya_name_gameplay">
+		<text>Sanya</text>
+	</string>
+	<string id="Freebie_name_gameplay">
+		<text>Freebie</text>
+	</string>
+	<string id="Chuck_name_gameplay">
+		<text>Chuck</text>
+	</string>
+	<string id="Huck_name_gameplay">
+		<text>Huck</text>
+	</string>
+	<string id="Joker_name_gameplay">
+		<text>Joker</text>
+	</string>
+	<string id="Modest_name_gameplay">
+		<text>Modest</text>
+	</string>
+	<string id="Rabinovich_name_gameplay">
+		<text>Rabinovich</text>
+	</string>
+	<string id="Mitya_name_gameplay">
+		<text>Mitya</text>
+	</string>
+	<string id="Denis_name_gameplay">
+		<text>Denis</text>
+	</string>
+	<string id="Gavr_name_gameplay">
+		<text>Gavr</text>
+	</string>
+	<string id="Croker_name_gameplay">
+		<text>Croker</text>
+	</string>
+	<string id="Harris_name_gameplay">
+		<text>Harris</text>
+	</string>
+	<string id="Ivaschenko_name_gameplay">
+		<text>Ivaschenko</text>
+	</string>
+	<string id="Sysh_name_gameplay">
+		<text>Sysh</text>
+	</string>
+	<string id="Banderos_name_gameplay">
+		<text>Banderos</text>
+	</string>
+	<string id="Dimorin_name_gameplay">
+		<text>Dimorin</text>
+	</string>
+	<string id="N_name_gameplay">
+		<!-- it need checking aleks1970 -->
+		<text>'N'</text>
+	</string>
+	<string id="Vergas_name_gameplay">
+		<text>Vergas</text>
+	</string>
+	<string id="Tirex_name_gameplay">
+		<text>Tirex</text>
+	</string>
+	<string id="Wawka_name_gameplay">
+		<text>Wawka</text>
+	</string>
+	<string id="Andrey_name_gameplay">
+		<text>Andrey</text>
+	</string>
+	<string id="Gray_name_gameplay">
+		<text>Gray</text>
+	</string>
+	<string id="Semenov_name_gameplay">
+		<text>Semenov</text>
+	</string>
+	<string id="Kosoi_name_gameplay">
+		<text>Kosoi</text>
+	</string>
+	<string id="Tweed_name_gameplay">
+		<text>Tweed</text>
+	</string>
+	<string id="glavny_name_gameplay">
+		<text>Glavny</text>
+	</string>
+	<string id="Karina_name_gameplay">
+		<text>Karina</text>
+	</string>
+	<string id="liza_name_gameplay">
+		<text>Liza</text>
+	</string>
+	<string id="afanasyev_name_gameplay">
+		<text>Afanasyev</text>
+	</string>
+	<string id="obmorok_name_gameplay">
+		<text>Obmorok</text>
+	</string>
+	<string id="karatel_name_gameplay">
+		<text>Karatel</text>
+	</string>
+	<string id="zika11_name_gameplay">
+		<text>Zika</text>
+	</string>
+	<string id="Leskinov_name_gameplay">
+		<text>Leskinov</text>
+	</string>
+	<string id="Formidable_name_gameplay">
+		<text>Formidable</text>
+	</string>
+	<string id="Pavel_Sergeevich_name_gameplay">
+		<text>Pavel Sergeevich</text>
+	</string>
+	<string id="Kombat_name_gameplay">
+		<text>Kombat</text>
+	</string>
+	<string id="N6260_name_gameplay">
+		<text>N6260</text>
+	</string>
+	<string id="Eureka_moderator_N6260_name_gameplay">
+		<text>Eureka moderator N6260</text>
+	</string>
+	<string id="Unknown_Sniper_name_gameplay">
+		<text>Unknown sniper</text>
+	</string>
+	<string id="Unknown_Rookie_name_gameplay">
+		<text>Unknown Rookie</text>
+	</string>
+	<string id="Unknown_Soldier_name_gameplay">
+		<text>Unknown Soldier</text>
+	</string>
+	<string id="Unknown_Monolith_name_gameplay">
+		<text>Unknown Monolith</text>
+	</string>
+	<string id="Unknown_Mercenary_name_gameplay">
+		<text>Unknown Mercenary</text>
+	</string>
+	<string id="Unknown_Scientist_name_gameplay">
+		<text>Unknown Scientist</text>
+	</string>
+	<string id="Unknown_Corpse_name_gameplay">
+		<text>Unknown corpse</text>
+	</string>
+	<string id="Unknown_Bandit_name_gameplay">
+		<text>Unknown Bandit</text>
+	</string>
+	<!-- Encyclopedia infos aleks1970 -->
+	<string id="Groza_TTX_encyclopedia_gameplay">
+		<text>Groza\n \nTTX:\nRange - 600m\nMagazine capacity: 20 rounds</text>	<!-- Was 'bullets' -->
+	</string>
+	<string id="SVU_Sniper_rifle_encyclopedia_gameplay">
+		<text>SVU: Sniper rifle\n \nTTX:\nRange - 2,000m\nMagazine capacity: 10 rounds</text>	<!-- Was 'bullets' -->
+	</string>
+	<string id="PM_Pistolet_Makarova_encyclopedia_gameplay">
+		<text>PM: Pistolet Makarova\n \nTTX:\nRange - 100m\nMagazine capacity: 7 rounds</text>	<!-- Was 'bullets' -->
+	</string>
+	<string id="Zombies_are_very_angry_encyclopedia_gameplay">
+		<text>Zombies are very aggressive, hungry\ncreatures. They move slowly but\ntheir arms and jaws are powerful</text>
+	</string>
+	<string id="Pseudo_dogs_is_evil_encyclopedia_gameplay">
+		<text>Pseudodogs are extremely nasty\nsemi-dead dogs with large\nmouths :)</text>
+	</string>
+	<string id="manually_define_map_spots_encyclopedia_gameplay">
+		<text>You can manually define map spots on your map to mark key places</text>
+	</string>
+	<string id="Zombies_are_very_angry_2_encyclopedia_gameplay">
+		<text>Zombies are very aggressive, hungry\ncreatures. They move slowly but\nthey have a powerful strike</text>
+	</string>
+	<string id="Zombies_are_very_angry_3_encyclopedia_gameplay">
+		<text>Zombies are very aggressive, hungry\ncreatures. They move slowly but\nthey have a powerful strike</text>
+	</string>
+	<string id="Zombies_are_very_angry_4_encyclopedia_gameplay">
+		<text>Zombies are very aggressive, hungry\ncreatures. They move slowly but\nthey have a powerful strike</text>
+	</string>
+	<string id="bartender_bio">
+		<text>A very successful trader, and the proprietor of the '100 Rads' bar in Rostok, Barkeep has earned respect and influence in the Zone. He cooperates with Sidorovich in a mutual bid to open the roads to the center of the Zone. According to him, he used to own a restaurant back in Ukraine, where he was constantly being harassed by the Mob for protection back in 1994. He now has a personal vendetta against the same mob who previously extorted him, and is on a mission to wipe them out. They have an operation at the Agroprom Research Institute, selling artefacts from the Zone to the outside world</text>
+	</string>
+	<string id="sakharov_bio">
+		<text>Sakharov has been studying the Zone ever since the first research laboratories were set up on its perimeter in 2007. Although a professor of genetics, he dabbles in pretty much every scientific field his research of the Zone encompasses</text>
+	</string>
+	<string id="final_shaxter_bio">
+		<text>A reclusive Stalker from the Freedom faction, now living in exile inside the Caves. Nobody knows why he has remained in the dark for so long, and he refuses to discuss it. An eccentric, helpful fellow who keeps himself to himself, and offers good advice when requested</text>
+	</string>
+	<string id="final_akim_bio">
+		<text>Originally, a typical Stalker combing the Zone for loot. According to him, he counted his days in the number of magazines he'd read, and the amount of loot he'd collected. One day, he got rid all his magazines in exchange for a single bottle of vodka. Apparently, he'd had some sort of 'revelation' that led him to rid himself of all worldly possesions, thereafter becoming a hermit</text>
+	</string>
+	<string id="final_hermit_bio">
+		<text>A former member of Duty, he now spends his days at the border station between the Cordon and the Garbage working as an elite Trader. He sells unique and powerful weapons, as well as containers for various artefacts. A good man to know in the Zone...</text>
+	</string>
+	<string id="final_unknown_bio">
+		<text>Skilled Stalker. No further information available</text>
+	</string>
+	<string id="exp_stalker_known_bio">
+		<text>Experienced Stalker. Detailed information available elsewhere</text>
+	</string>
+</string_table>

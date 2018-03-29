@@ -1,0 +1,298 @@
+;--	гулаг ,бандитов на Доме Связи
+[logic@ds_bandit_h1]
+active = kamp@ds_bandit_h1_kamp12
+[kamp@ds_bandit_h1_kamp12]
+center_point = center1
+
+[logic@ds_bandit_h2]
+active = kamp@ds_bandit_h1_kamp12
+
+[logic@ds_bandit_h3]
+active = walker@ds_bandit_h3
+[walker@ds_bandit_h3]
+path_walk = walk1
+path_look = look1
+
+[logic@ds_bandit_h4]
+active = kamp@ds_bandit_h1_kamp47
+[kamp@ds_bandit_h1_kamp47]
+center_point = center2
+
+[logic@ds_bandit_h5]
+active = kamp@ds_bandit_h1_kamp47
+
+[logic@ds_bandit_h6]
+active = kamp@ds_bandit_h1_kamp47
+
+[logic@ds_bandit_h7]
+active = kamp@ds_bandit_h1_kamp47
+
+;--	гулаг военных на Доме Связи
+[logic@ds_mil_h1]
+active = walker@ds_mil_walk_h1
+[walker@ds_mil_walk_h1]
+path_walk = sniper1_walk
+
+[logic@ds_mil_h2]
+active = walker@ds_mil_walk_h2
+[walker@ds_mil_walk_h2]
+path_walk = sniper2_walk
+
+[logic@ds_mil_h3]
+active = walker@ds_mil_walk_h3
+[walker@ds_mil_walk_h3]
+path_walk = sniper3_walk
+
+[logic@ds_mil_h4]
+active = walker@ds_mil_walk_h4
+[walker@ds_mil_walk_h4]
+path_walk = sniper4_walk
+
+[logic@ds_mil_h5]
+active = walker@ds_mil_walk_h5
+[walker@ds_mil_walk_h5]
+path_walk = sniper5_walk
+
+[logic@ds_mil_h6]
+active = walker@ds_mil_walk_h6
+[walker@ds_mil_walk_h6]
+path_walk = stroi1
+
+[logic@ds_mil_h7]
+active = walker@ds_mil_walk_h7
+[walker@ds_mil_walk_h7]
+path_walk = stroi2
+
+[logic@ds_mil_h8]
+active = walker@ds_mil_walk_h8
+[walker@ds_mil_walk_h8]
+path_walk = stroi3
+
+[logic@ds_mil_h9]
+active = walker@ds_mil_walk_h9
+[walker@ds_mil_walk_h9]
+path_walk = stroi4
+
+[logic@ds_mil_h10]
+active = walker@ds_mil_walk_h10
+[walker@ds_mil_walk_h10]
+path_walk = stroi5
+
+[logic@ds_mil_h11]
+active = camper@ds_mil_walk_h11
+[camper@ds_mil_walk_h11]
+path_walk = sniper11
+path_look = sniper_look
+sniper = true
+
+[logic@ds_mil_h12]
+active = walker@ds_mil_walk_h12
+[walker@ds_mil_walk_h12]
+path_walk = walk_h12
+
+[logic@ds_mil_h13]
+active = walker@ds_mil_walk_h13
+[walker@ds_mil_walk_h13]
+path_walk = walk_h13
+
+[logic@ds_mil_h14]
+active = walker@ds_mil_walk_h14
+[walker@ds_mil_walk_h14]
+path_walk = walk_h14
+
+[logic@ds_mil_h15]
+active = walker@ds_mil_walk_h15
+[walker@ds_mil_walk_h15]
+path_walk = walk_h15
+
+[logic@ds_mil_h16]
+active = walker@ds_mil_walk_h16
+[walker@ds_mil_walk_h16]
+path_walk = walk_h16
+
+[logic@ds_mil_h17]
+active = walker@ds_mil_walk_h17
+[walker@ds_mil_walk_h17]
+path_walk = sniper17
+
+[logic@ds_mil_komander]
+active = walker@ds_mil_komander
+on_death = death@komander_ds_mil
+[death@komander_ds_mil]
+on_info = %+dd_svdkill_done%
+[walker@ds_mil_komander]
+path_walk = kom_walk
+path_look = kom_look
+
+;--	гулаг сталкеров на штурм Дома Связи
+[logic@ds_stalker_h1]
+active = walker@ds_stalker_wait1
+[walker@ds_stalker_wait1]
+path_walk = sturm1
+on_info = {+dd_svdkill_done} patrol@ds_stalker_sturm0_end
+
+[logic@ds_stalker_h2]
+active = walker@ds_stalker_wait2
+[walker@ds_stalker_wait2]
+path_walk = sturm2
+on_info = {+dd_svdkill_done} patrol@ds_stalker_sturm_end
+
+[logic@ds_stalker_h3]
+active = walker@ds_stalker_wait3
+[walker@ds_stalker_wait3]
+path_walk = sturm3
+on_info = {+dd_svdkill_done} patrol@ds_stalker_sturm_end
+
+[logic@ds_stalker_h4]
+active = walker@ds_stalker_wait4
+[walker@ds_stalker_wait4]
+path_walk = sturm4
+on_info = {+dd_svdkill_done} patrol@ds_stalker_sturm_end
+
+[logic@ds_stalker_h5]
+active = walker@ds_stalker_wait5
+[walker@ds_stalker_wait5]
+path_walk = sturm5
+on_info = {+dd_svdkill_done} patrol@ds_stalker_sturm_end
+
+[logic@ds_stalker_h6]
+active = walker@ds_stalker_wait6
+[walker@ds_stalker_wait6]
+path_walk = sturm6
+;on_info = {+dd_svdkill_done} walker@ds_stalker_sturm_start
+on_info = {+dd_svdkill_done} patrol@ds_stalker_sturm_end
+
+[logic@ds_stalker_h7]
+active = walker@ds_stalker_wait7
+[walker@ds_stalker_wait7]
+path_walk = sturm7
+on_info = {+dd_svdkill_done} patrol@ds_stalker_sturm_end
+
+[walker@ds_stalker_sturm_start]
+path_walk = nads
+meet = no_meet
+def_state_moving1 = assault
+def_state_moving2 = assault
+def_state_moving3 = assault
+
+[patrol@ds_stalker_sturm0_end]
+path_walk = nads
+formation = around
+commander = true
+move_type = assault
+
+[patrol@ds_stalker_sturm_end]
+path_walk = nads
+formation = around
+commander = false
+move_type = assault
+
+;--	гулаг военных в Детском Мире 1
+[logic@dm_mil_h1]
+active = walker@dm_mil_1_walk_zaloj
+[walker@dm_mil_1_walk_zaloj]
+path_walk = walk_h1
+
+[logic@dm_mil_h2]
+active = walker@dm_mil_vxod2
+[walker@dm_mil_vxod2]
+path_walk = walk_h2
+
+[logic@dm_mil_h3]
+active = walker@dm_mil_vxod1
+[walker@dm_mil_vxod1]
+path_walk = walk_h3
+
+[logic@dm_mil_h4]
+active = walker@dm_mil_etaj1_1
+[walker@dm_mil_etaj1_1]
+path_walk = walk_h4
+
+[logic@dm_mil_h5]
+active = walker@dm_mil_etaj2_sniper
+[walker@dm_mil_etaj2_sniper]
+path_walk = walk_h5
+
+[logic@dm_mil_h6]
+active = walker@dm_mil_walk6
+[walker@dm_mil_walk6]
+path_walk = walk_h6
+
+[logic@dm_mil_h7]
+active = walker@dm_mil_walk7
+[walker@dm_mil_walk7]
+path_walk = walk_h7
+
+[logic@dm_mil_h8]
+active = walker@dm_mil_walk8
+[walker@dm_mil_walk8]
+path_walk = walk_h8
+
+[logic@dm_mil_h9]
+active = walker@dm_mil_walk9
+[walker@dm_mil_walk9]
+path_walk = walk_h9
+
+[logic@dm_mil_h10]
+active = walker@dm_mil_walk10
+[walker@dm_mil_walk10]
+path_walk = walk_h10
+
+[logic@dm_mil_h11]
+active = walker@dm_mil_walk11
+[walker@dm_mil_walk11]
+path_walk = walk_h11
+
+[logic@dm_mil_h12]
+active = walker@dm_mil_walk12
+[walker@dm_mil_walk12]
+path_walk = walk_h12
+
+;--	гулаг военных в Детском Мире 2
+[logic@dm_mil_h13]
+active = walker@dm_mil_walk13
+[walker@dm_mil_walk13]
+path_walk = walk_h13
+
+[logic@dm_mil2_h14]
+active = walker@dm_mil2_walk14
+[walker@dm_mil2_walk14]
+path_walk = walk_h14
+
+[logic@dm_mil2_h15]
+active = walker@dm_mil2_walk15
+[walker@dm_mil2_walk15]
+path_walk = walk_h15
+
+[logic@dm_mil2_h16]
+active = walker@dm_mil2_walk16
+[walker@dm_mil2_walk16]
+path_walk = walk_h16
+
+[logic@dm_mil2_h17]
+active = walker@dm_mil2_walk17
+[walker@dm_mil2_walk17]
+path_walk = walk_h17
+
+[logic@dm_mil2_h18]
+active = walker@dm_mil2_walk18
+[walker@dm_mil2_walk18]
+path_walk = walk_h18
+
+[logic@dm_mil2_h19]
+active = walker@dm_mil2_walk19
+[walker@dm_mil2_walk19]
+path_walk = walk_h19
+
+[logic@dm_mil2_h20]
+active = walker@dm_mil2_walk20
+[walker@dm_mil2_walk20]
+path_walk = walk_h20
+
+[logic@dm_mil2_h21]
+active = walker@dm_mil2_walk2122
+[walker@dm_mil2_walk2122]
+path_walk = walk_h2122
+
+[logic@dm_mil2_h22]
+active = walker@dm_mil2_walk2122

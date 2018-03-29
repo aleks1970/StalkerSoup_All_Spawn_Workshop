@@ -1,0 +1,63 @@
+<!-- TB3D 1.1.0.0.1.7 new -->
+
+<!-- **************** ogse companions to be ued with scheme ********************** -->
+
+<game_information_portions>
+	<info_portion id="actor_set_actor">
+		<disable>actor_set_dolg</disable>
+		<disable>actor_set_freedom</disable>
+		<disable>actor_set_bandit</disable>
+		<disable>actor_set_zombied</disable>
+		<disable>actor_prebandit</disable>
+		<disable>osvedomitel_actor_prebandit</disable>
+	</info_portion>
+	<info_portion id="actor_set_dolg">
+		<disable>actor_set_actor</disable>
+		<disable>actor_set_freedom</disable>
+		<disable>actor_set_bandit</disable>
+		<disable>actor_set_zombied</disable>
+		<disable>actor_prebandit</disable>
+		<disable>osvedomitel_actor_prebandit</disable>
+	</info_portion>
+	<info_portion id="actor_set_freedom">
+		<disable>actor_set_actor</disable>
+		<disable>actor_set_dolg</disable>
+		<disable>actor_set_bandit</disable>
+		<disable>actor_set_zombied</disable>
+		<disable>actor_prebandit</disable>
+		<disable>osvedomitel_actor_prebandit</disable>
+	</info_portion>
+	<info_portion id="actor_set_bandit">
+		<disable>actor_set_actor</disable>
+		<disable>actor_set_dolg</disable>
+		<disable>actor_set_freedom</disable>
+		<disable>actor_set_zombied</disable>
+		<disable>actor_prebandit</disable>
+		<disable>osvedomitel_actor_prebandit</disable>
+	</info_portion>
+	<info_portion id="actor_set_zombied">
+		<disable>actor_set_actor</disable>
+		<disable>actor_set_dolg</disable>
+		<disable>actor_set_freedom</disable>
+		<disable>actor_set_bandit</disable>
+		<disable>actor_prebandit</disable>
+		<disable>osvedomitel_actor_prebandit</disable>
+	</info_portion>
+	<info_portion id="actor_prebandit">
+		<disable>actor_set_actor</disable>
+		<disable>actor_set_dolg</disable>
+		<disable>actor_set_freedom</disable>
+		<disable>actor_set_bandit</disable>
+		<disable>actor_set_zombied</disable>
+		<disable>osvedomitel_actor_prebandit</disable>
+	</info_portion>
+	<info_portion id="osvedomitel_actor_prebandit">
+		<disable>actor_set_actor</disable>
+		<disable>actor_set_dolg</disable>
+		<disable>actor_set_freedom</disable>
+		<disable>actor_set_bandit</disable>
+		<disable>actor_set_zombied</disable>
+		<disable>actor_prebandit</disable>
+	</info_portion>
+</game_information_portions>
+

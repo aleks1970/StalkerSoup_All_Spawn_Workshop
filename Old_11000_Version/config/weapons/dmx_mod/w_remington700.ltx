@@ -1,0 +1,160 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;Remington 700
+[wpn_r700]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                  = "weapons\r700"		
+$npc			 		= on				
+$prefetch 		 		= 8
+scheduled               = off              	
+cform                   = skeleton
+class                   = WP_SVD
+min_radius              = 0
+max_radius              = 800
+
+inv_name	        = wpn_r700								
+inv_name_short		= wpn_r700
+description		= enc_weapons_wpn_r700
+ef_main_weapon_type		 = 3
+ef_weapon_type			 = 8
+;--- scope weapons -----------------------------------------------------------------
+holder_range_modifier	= 2.15
+holder_fov_modifier		= 0.3          
+;-----------------------------------------------------------------------------------
+cost					= 15000
+weapon_class			= sniper_rifle
+tri_state_reload		= on
+
+ammo_limit				= 60
+ammo_current			= 5
+ammo_elapsed			= 0
+ammo_mag_size			= 6
+ammo_class				= ammo_7.62x51_fmj, ammo_7.62x51_ap 
+sprint_allowed			= true
+;-----------------------------------------------------------------------------------
+;базовая дисперсия
+fire_dispersion_base		= 0.013	
+control_inertion_factor		= 2.2f
+	
+cam_relax_speed         	= 2	
+cam_dispersion          	= 1.2	
+cam_dispersion_inc		= 0.5
+
+cam_dispertion_frac	= 1.0	
+cam_max_angle			= 18.5
+cam_max_angle_horz		= 4.5
+cam_step_angle_horz		= 0.35
+fire_dispersion_condition_factor = 2.0
+misfire_probability 		= 0.0001
+misfire_condition_k		= 0.01
+condition_shot_dec 		= 0.00001
+;-----------------------------------------------------------------------------------
+hand_dependence 		= 1
+single_handed			= 0
+slot 				= 2		
+animation_slot		= 2		
+inv_weight			= 4.08
+
+inv_grid_width		= 6
+inv_grid_height		= 2
+inv_grid_x			= 5
+inv_grid_y			= 73
+
+kill_msg_x			= 0
+kill_msg_y			= 0
+kill_msg_width		= 98
+kill_msg_height		= 23
+
+direction               = 0, 0, 1
+fire_point              = 0.0, 0.129, 0.942
+flame_particles		    = weapons\generic_weapon05
+smoke_particles		   	= weapons\generic_shoot_00
+rpm_empty_click 		= 200
+
+shell_point		 		= 0.0, 0.129, 0.192	
+shell_dir		 		= 0.0, 0.0, 0.4
+
+PDM_disp_base 			= 6.0
+PDM_disp_vel_factor     = 0.9
+PDM_disp_accel_factor 	= 1.0
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+; ttc
+hit_power           = 2.87
+hit_impulse		 	= 140
+hit_type 			= fire_wound
+fire_distance       = 600					;;;109974 10:1
+bullet_speed		= 850
+rpm                 = 30
+; end ttc
+
+use_aim_bullet				= true
+time_to_aim					= 1.0	
+
+hud                     = r700_hud
+normal                  = 0, 1, 0
+position                = -0.026, -0.077, 0.00
+orientation             = 0, 0, 0
+
+strap_position         		= -0.15,-0.15,0.45			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -25,-189,65				; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+startup_ammo            = 10
+visual                  = weapons\r700\r700.ogf
+
+light_color		 		= 0.6,0.5,0.3
+light_range		 		= 4.0
+light_var_color		 	= 0.05
+light_var_range		 	= 0.5
+light_time 		 		= 0.2
+ph_mass			 		= 3
+
+;addons
+scope_status				= 1
+silencer_status				= 0
+grenade_launcher_status		= 0
+
+zoom_enabled			= true
+scope_zoom_factor	    = 9
+scope_texture			= wpn\crosshair\wpn_crosshair_nato_rifles
+
+snd_draw		= weapons\generic_draw
+snd_holster		= weapons\generic_holster
+snd_shoot		= weapons\r700\r700_shot
+snd_empty		= weapons\gen_empty, 0.3
+snd_reload		= weapons\svd_reload
+snd_shoot_duplet			= weapons\toz34_shoot_both
+snd_open_weapon				= weapons\r700\r700_open		
+snd_add_cartridge			= weapons\r700\r700_load		
+snd_close_weapon			= weapons\r700\r700_close		
+ 
+[r700_hud]
+shell_point         = 0.0, 0.0, -10.0
+shell_dir		 	= 0.0, 1.0, 0.0
+
+fire_point			= 0.29,-0.06,0.0;0.25,-0.03,-0.02
+fire_bone               = wpn_body
+orientation             = 0, 0, 0
+position                = 0.08, 0.00, -0.0
+visual                  = weapons\r700\r700_hud.ogf
+
+;anim_holster	= holster	 aleks1970
+anim_idle		= idle
+anim_idle_aim	= idle_aim
+anim_draw		= draw
+anim_holster	= holster
+anim_shoot		= shoot_1
+anim_reload	= reload
+anim_idle_sprint			= idle_sprint
+
+anim_shoot_both 			= shoot_1
+anim_open_weapon			= reload1
+anim_add_cartridge			= reload2
+anim_close_weapon			= reload3
+
+zoom_offset         = -0.1825,-0.00625,0.184
+zoom_rotate_x		= 0.00
+zoom_rotate_y		= 0

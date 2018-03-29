@@ -1,0 +1,77 @@
+<!-- ************ TB3D 1.0.9.9.9.7.0 added weather names, force weather*************** -->
+<cheat>
+	<!-- ***************back_video x="10" y="10" width="380" height="320" stretch="1">
+		<texture>ui\credits_back_512_v10</texture>
+	</back_video*************** -->
+	<background x="0" y="0" width="400" height="340" stretch="1">
+		<texture x="0" y="0" width="350" height="460">ui\ui_dg_inventory</texture>
+	</background>
+	<caption x="60" y="-2" width="50" height="25">
+		<text font="graffiti22" a="255" r="0" g="220" b="240">environment_changer_ui</text>
+	</caption>
+	<caption0 x="170" y="16" width="50" height="35">
+		<text font="graffiti22" a="255" r="0" g="240" b="240">must_weathers_section_ui</text>
+	</caption0>
+	<caption1 x="170" y="36" width="50" height="35">
+		<text font="graffiti22" a="255" r="0" g="220" b="240">outdoor_sections_ui</text>
+	</caption1>
+	<caption2 x="170" y="56" width="50" height="35">
+		<text font="graffiti22" a="255" r="0" g="200" b="220">cordon, garbage, bar, rostok, agro, valley, military,</text>
+	</caption2>
+	<caption3 x="170" y="76" width="50" height="35">
+		<text font="graffiti22" a="255" r="0" g="200" b="220">pripyat, radar, yantar, stancia, stancia2, chernobyl</text>
+	</caption3>
+	<caption4 x="170" y="110" width="50" height="35">
+		<text font="graffiti22" a="255" r="0" g="220" b="240">indoor_sections_ui</text>
+	</caption4>
+	<caption5 x="170" y="130" width="50" height="35">
+		<text font="graffiti22" a="255" r="0" g="200" b="220">agr_ugrnd, x16_ugrnd, x18_ugrnd, x19_ugrnd,</text>
+	</caption5>
+	<caption6 x="170" y="150" width="50" height="35">
+		<text font="graffiti22" a="255" r="0" g="200" b="220">NPP_ugrnd, mono_ugrnd, sarkofag, yantar_indoor</text>
+	</caption6>
+	<caption7 x="170" y="180" width="50" height="35">
+		<text font="graffiti22" a="255" r="0" g="220" b="240">special_test_sections_ui</text>
+	</caption7>
+	<caption8 x="170" y="200" width="50" height="35">
+		<text font="graffiti22" a="255" r="0" g="200" b="220">pre_blow, amk_for_blow, default, default1, boloto, map</text>
+	</caption8>
+	<caption9 x="170" y="220" width="50" height="35">
+		<text font="graffiti22" a="255" r="0" g="200" b="220">test, rain, no_rain, slight_rain, indoor, mrachno</text>
+	</caption9>
+	<caption10 x="170" y="240" width="50" height="35">
+		<text font="graffiti22" a="255" r="0" g="200" b="220">beta, dry, grey, stormy, foggy, rainy, thunder</text>
+	</caption10>
+	<edit_box x="45" y="270" width="310" height="23">
+		<texture>ui_linetext_e</texture>
+		<text font="letterica18" r="240" g="217" b="182"/>
+	</edit_box>
+	<!-- ***************edi1t_box x="45" y="120" width="310" height="23">
+		<texture>ui_linetext_e</texture>
+		<text font="letterica18" r="240" g="217" b="182"/>
+	</edi1t_box*************** -->
+	<btn_1 x="40" y="300" width="117" height="29">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+		<text>put_1_ui</text>
+	</btn_1>
+	<!-- ***************btn2 x="130" y="150" width="117" height="29">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+		<text>delete_1_ui</text>
+	</btn2*************** -->
+	<btn_quit x="240" y="300" width="117" height="29">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+		<text>ui_inv_exit</text>
+	</btn_quit>
+	<!-- ***************btn3 x="40" y="299" width="117" height="29">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+		<text>help_1_ui</text>
+	</btn3*************** -->
+</cheat>

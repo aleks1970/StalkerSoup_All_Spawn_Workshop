@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<!-- TB3D 1.1.0.0.0.6 Redirected strings from the Misc folder - aleks1970 -->
+	<!-- from misc\tb3d_tasks.ltx file - aleks1970 -->
+	<!-- section "tasks" - aleks1970 -->
+	<!-- Names changed as commented below - Sword2012 - 31 Oct 16 -->
+	<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+	<string id="tasks_0">
+		<text>Cordon</text>
+	</string>
+	<string id="tasks_1">
+		<text>Find the medicine for Akim</text>
+	</string>
+	<string id="tasks_2">
+		<text>Bring the medicine to Akim</text>
+	</string>
+	<string id="tasks_3">
+		<text>Bring the Rubik's cube to Akim</text>
+	</string>
+	<string id="tasks_4">
+		<text>Find a Night Star artefact</text>
+	</string>
+	<string id="tasks_5">
+		<text>Bring the Night Star artefact to Sidorovich</text>
+	</string>
+	<string id="tasks_6">
+		<text>Bring the weapon back to Fox</text>
+	</string>
+	<string id="tasks_7">
+		<text>Learn from Sidorovich the components of the 'Living Heart'</text>
+	</string>
+	<string id="tasks_8">
+		<text>Deliver the container to Sidorovich</text>
+	</string>
+	<string id="tasks_9">
+		<text>Bring the laptop to Fanatic</text>
+	</string>
+	<string id="tasks_10">
+		<text>Bring the diplomatic document case to Fanatic</text>
+	</string>
+	<string id="tasks_11">
+		<text>Bring the computer to Fanatic</text>
+	</string>
+	<string id="tasks_12">
+		<text>Obtain and deliver the OC-14 Thunderstorm</text>
+	</string>
+	<string id="tasks_13">
+		<text>Bring the documents to Wolf</text>
+	</string>
+	<string id="tasks_14">
+		<text>Find and speak with Tolik</text>
+	</string>
+	<string id="tasks_15">
+		<text>Bring Tolik five dog tails</text>
+	</string>
+	<string id="tasks_16">
+		<text>Bring Petruha a TOZ-34 shotgun</text>
+	</string>
+	<string id="tasks_17">
+		<text>Find a Medusa artefact</text>
+	</string>
+	<string id="tasks_18">
+		<text>Find 10 bottles of vodka for Kuznetsov</text>
+	</string>
+	<string id="tasks_19">
+		<text>Bring the medkits to Fox</text>
+	</string>
+	<string id="tasks_20">
+		<text>Deliver the modified MP5 to Yurek</text><!-- Changed 'Yurik' to 'Yurek'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tasks_21">
+		<text>Deliver a Burer's hand to Yurek</text><!-- Changed 'Yurik' to 'Yurek'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tasks_22">
+		<text>Get the armor for Miser from the Cordon</text>
+	</string>
+	<string id="tasks_23">
+		<text>Give the container to Sidorovich</text>
+	</string>
+	<string id="tasks_24">
+		<text>Deliver the container to Sidorovich</text>
+	</string>
+	<string id="tasks_25">
+		<text>Bring the container to Sidorovich</text>
+	</string>
+	<string id="tasks_26">
+		<text>Find some dynamite</text>
+	</string>
+	<string id="tasks_27">
+		<text>Deliver the repair kits to Sidorovich</text>
+	</string>
+	<string id="tasks_28">
+		<text>Find the hidden stash for Kostya</text>
+	</string>
+	<string id="tasks_31">
+		<text>Find a Goldfish artefact for Kostya</text>
+	</string>
+	<string id="tasks_99">
+		<text>Rostok</text>
+	</string>
+	<string id="tasks_100">
+		<text>Bring the Camouflage Exoskeleton to General Voronin</text>
+	</string>
+	<string id="tasks_101">
+		<text>Bring the insane Stalker's flash drive to Voronin</text>
+	</string>
+	<string id="tasks_102">
+		<text>Bring the PDA to the informer</text>
+	</string>
+	<string id="tasks_103">
+		<text>Deliver the modified Desert Eagle to Freeman</text>
+	</string>
+	<string id="tasks_104">
+		<text>Return the case to Freeman</text>
+	</string>
+	<string id="tasks_105">
+		<text>Bring the flash drive to Freeman</text>
+	</string>
+	<string id="tasks_106">
+		<text>Deliver a Simbion artefact to the Barkeep</text>
+	</string>
+	<string id="tasks_107">
+		<text>Speak with Zahar</text>
+	</string>
+	<string id="tasks_108">
+		<text>Talk to Zahar</text>
+	</string>
+	<string id="tasks_109">
+		<text>Deliver a Fire Tears artefact to the Barkeep</text>
+	</string>
+	<string id="tasks_110">
+		<text>Deliver the tentacles and a PDA</text>
+	</string>
+	<string id="tasks_111">
+		<text>Deliver the Pseudogiant hands and a PDA</text>
+	</string>
+	<string id="tasks_112">
+		<text>Deliver a mutant hand, and a PDA</text>
+	</string>
+	<string id="tasks_113">
+		<text>Learn from the Barkeep the components of the 'Living Heart'</text>
+	</string>
+	<string id="tasks_114">
+		<text>Deliver the flash drive to the Barkeep</text>
+	</string>
+	<string id="tasks_115">
+		<text>Bring the strange artefact to Plichko</text>
+	</string>
+	<string id="tasks_116">
+		<text>Bring the Gauss Pistol to Petrenko</text>
+	</string>
+	<string id="tasks_117">
+		<text>Bring Petrenko a Flash artefact</text>
+	</string>
+	<string id="tasks_118">
+		<text>Deliver two Exoskeletons to Petrenko</text>
+	</string>
+	<string id="tasks_119">
+		<text>Deliver the payment to Captain Ivantsov</text><!-- Changed 'Ivancova' to 'Captain Ivantsov'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tasks_120">
+		<text>Bring the Playboy magazine to Captain Ivantsov</text><!-- Changed 'Ivancova' to 'Captain Ivantsov'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tasks_121">
+		<text>Bring General Voronin the document case</text>
+	</string>
+	<string id="tasks_122">
+		<text>Deliver the box to the Barkeep</text>
+	</string>
+	<string id="tasks_123">
+		<text>Deliver the treasure to Baldy</text><!-- Changed 'Bald' to 'Baldy'- Sword2012 - 11 Dec 16-->
+	</string>
+	<string id="tasks_124">
+		<text>Deliver the micro-circuits to Lanky</text>
+	</string>
+	<string id="tasks_125">
+		<text>Deliver all the Thermos flasks to General Voronin</text>
+	</string>
+	<string id="tasks_126">
+		<text>Deliver the cigarettes and money</text>
+	</string>
+	<string id="tasks_127">
+		<text>Find a computer, and a portable videophone</text>
+	</string>
+	<string id="tasks_128">
+		<text>Deliver the information regarding the hidden stash</text>
+	</string>
+	<string id="tasks_130">
+		<text>Deliver the cartridges to General Voronin</text>
+	</string>
+	<string id="tasks_131">
+		<text>Get the sawn-off shotgun from Raven</text>
+	</string>
+	<string id="tasks_199">
+		<text>Army Warehouses</text>
+	</string>
+	<string id="tasks_200">
+		<text>Bring the vice to Screw</text>
+	</string>
+	<string id="tasks_201">
+		<text>Bring the flash drive to Screw</text>
+	</string>
+	<string id="tasks_202">
+		<text>Deliver the AntiZombin</text>
+	</string>
+	<string id="tasks_203">
+		<text>Bring two NPP Controller brains to Lukash</text>
+	</string>
+	<string id="tasks_204">
+		<text>Bring the crows' eggs to Cook</text>
+	</string>
+	<string id="tasks_205">
+		<text>Obtain the insane Stalker's flash drive</text>
+	</string>
+	<string id="tasks_206">
+		<text>Bring the PDA to LeHavre</text><!-- Changed 'Le Havre' to 'LeHavre'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tasks_207">
+		<text>Bring the documents to LeHavre</text><!-- Changed 'Le Havre' to 'LeHavre'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tasks_208">
+		<text>Bring Arhara's laptop to Yakut</text>
+	</string>
+	<string id="tasks_209">
+		<text>Bring the claws to Miser</text>
+	</string>
+	<string id="tasks_210">
+		<text>Bring the magazines to Max</text>
+	</string>
+	<string id="tasks_211">
+		<text>Bring the heads and the vodka to Cook</text>
+	</string>
+	<string id="tasks_212">
+		<text>Bring the radio transceiver to Wolf</text>
+	</string>
+	<string id="tasks_213">
+		<text>Bring Miser the armor</text>
+	</string>
+	<string id="tasks_214">
+		<text>Bring the cartridges to Miser</text>
+	</string>
+	<string id="tasks_215">
+		<text>Deliver the bag to Miser</text>
+	</string>
+	<string id="tasks_216">
+		<text>Give the money to Miser</text>
+	</string>
+	<string id="tasks_217">
+		<text>Deliver an RG-6 grenade launcher to Miser</text>
+	</string>
+	<string id="tasks_218">
+		<text>Deliver the dynamite to Lukash</text>
+	</string>
+	<string id="tasks_219">
+		<text>Deliver the information regarding the hidden stash</text>
+	</string>
+	<string id="tasks_220">
+		<text>Find the hidden stash located somewhere at the Army Warehouses</text>
+	</string>
+	<string id="tasks_226">
+		<text>Deliver the information regarding the hidden stash</text>
+	</string>
+	<string id="tasks_229">
+		<text>Deliver the cartridges to Lukash</text>
+	</string>
+	<string id="tasks_299">
+		<text>Yantar</text>
+	</string>
+	<string id="tasks_300">
+		<text>Find the Minigun</text>
+	</string>
+	<string id="tasks_301">
+		<text>Bring Ghost's diary back to the scientist</text>
+	</string>
+	<string id="tasks_302">
+		<text>Bring the bag to Sakharov</text>
+	</string>
+	<string id="tasks_303">
+		<text>Bring the computer back to the scientist</text>
+	</string>
+	<string id="tasks_304">
+		<text>Bring Ghost's PDA to Sakharov</text>
+	</string>
+	<string id="tasks_305">
+		<text>Learn from Sakharov the components of the 'Living Heart'</text>
+	</string>
+	<string id="tasks_306">
+		<text>Speak with Sakharov</text>
+	</string>
+	<string id="tasks_307">
+		<text>Get the magazines from Kruglov</text>
+	</string>
+	<string id="tasks_308">
+		<text>Deliver the artefact to Sakharov</text>
+	</string>
+	<string id="tasks_309">
+		<text>Bring the decoder to Kruglov</text>
+	</string>
+	<string id="tasks_310">
+		<text>Deliver the cash to Kruglov</text>
+	</string>
+	<string id="tasks_311">
+		<text>Bring the artefact to Kruglov</text>
+	</string>
+	<string id="tasks_312">
+		<text>Bring the books to Sakharov</text>
+	</string>
+	<string id="tasks_313">
+		<text>Bring Sakharov an Elder Beads artefact</text>
+	</string>
+	<string id="tasks_314">
+		<text>Bring Sakharov the documents case</text>
+	</string>
+	<string id="tasks_315">
+		<text>Find the hidden stash located somewhere in Yantar</text>
+	</string>
+	<string id="tasks_321">
+		<text>Speak with Sakharov</text>
+	</string>
+	<string id="tasks_322">
+		<text>Bring the PDA to Sakharov</text>
+	</string>
+	<string id="tasks_323">
+		<text>Deliver the artefact</text>
+	</string>
+	<string id="tasks_400">
+		<text>Agroprom</text>
+	</string>
+	<string id="tasks_416">
+		<text>Bring the Minigun to Adrenalin</text>
+	</string>
+	<string id="tasks_417">
+		<text>Bring the mutant body parts to Adrenalin</text>
+	</string>
+	<string id="tasks_418">
+		<text>Bring the optical disk to Adrenalin</text>
+	</string>
+	<string id="tasks_419">
+		<text>Speak with Arhara</text>
+	</string>
+	<string id="tasks_420">
+		<text>Deliver the notebook to Arhara</text>
+	</string>
+	<string id="tasks_421">
+		<text>Search the cache for Ghost's diary</text>
+	</string>
+	<string id="tasks_422">
+		<text>Speak with Arhara</text>
+	</string>
+	<string id="tasks_423">
+		<text>Bring the vodka to Shersti</text>
+	</string>
+	<string id="tasks_424">
+		<text>Talk to the deserter</text>
+	</string>
+	<string id="tasks_425">
+		<text>Find the PDA lost in Agroprom</text>
+	</string>
+	<string id="tasks_426">
+		<text>Find the hidden stash in Agroprom</text>
+	</string>
+	<string id="tasks_500">
+		<text>Dark Valley</text>
+	</string>
+	<string id="tasks_532">
+		<text>Bring the bulletproof vest to Bes</text>
+	</string>
+	<string id="tasks_533">
+		<text>Find a Rubik's cube for Akim</text>
+	</string>
+	<string id="tasks_534">
+		<text>Bring the items to Borov</text>
+	</string>
+	<string id="tasks_535">
+		<text>Find the Gauss Pistol for Petrenko</text>
+	</string>
+	<string id="tasks_600">
+		<text>The ATP</text>
+	</string>
+	<string id="tasks_636">
+		<text>Find the Camouflage Exoskeleton</text>
+	</string>
+	<string id="tasks_637">
+		<text>Find a vice for Screw</text>
+	</string>
+	<string id="tasks_638">
+		<text>Find the optical disk</text>
+	</string>
+	<string id="tasks_639">
+		<text>Find the Camouflage Exoskeleton</text>
+	</string>
+	<string id="tasks_700">
+		<text>Radar</text>
+	</string>
+	<string id="tasks_740">
+		<text>Bring the flash drive to Syak</text>
+	</string>
+	<string id="tasks_741">
+		<text>Find Arhara's laptop computer</text>
+	</string>
+	<string id="tasks_742">
+		<text>Bring the repair kit to Syak</text>
+	</string>
+	<string id="tasks_743">
+		<text>Bring Syak a Goldfish artefact</text>
+	</string>
+	<string id="tasks_744">
+		<text>Bring the safe to Syak</text>
+	</string>
+	<string id="tasks_745">
+		<text>Bring Syak the new armor</text>
+	</string>
+	<string id="tasks_746">
+		<text>Find the hidden stash in Radar</text>
+	</string>
+	<string id="tasks_800">
+		<text>Chernobyl NPP1 (South)</text>
+	</string>
+	<string id="tasks_850">
+		<text>Find the bag for Sakharov</text>
+	</string>
+	<string id="tasks_851">
+		<text>Bring the note to Ghost</text>
+	</string>
+	<string id="tasks_852">
+		<text>Place the device in position</text>
+	</string>
+	<string id="tasks_900">
+		<text>Pripyat</text>
+	</string>
+	<string id="tasks_953">
+		<text>Find the Doctor's missing locket</text>
+	</string>
+	<string id="tasks_954">
+		<text>Return the locket to the Doctor</text>
+	</string>
+	<string id="tasks_955">
+		<text>Speak with the Doctor</text>
+	</string>
+	<string id="tasks_956">
+		<text>Locate the flash drive in Pripyat</text>
+	</string>
+	<string id="tasks_957">
+		<text>Speak with the Doctor</text>
+	</string>
+	<string id="tasks_958">
+		<text>Find the computer in Pripyat</text>
+	</string>
+	<string id="tasks_959">
+		<text>Find the hidden stash in Pripyat</text>
+	</string>
+	<string id="tasks_1100">
+		<text>Forgotten Forest</text>
+	</string>
+	<string id="tasks_1162">
+		<text>Find some crows' eggs for Cook</text>
+	</string>
+	<string id="tasks_1163">
+		<text>Find two flashlights for the Miner</text>
+	</string>
+	<string id="tasks_1200">
+		<text>Caves</text>
+	</string>
+	<string id="tasks_1201">
+		<text>Bring the two flashlights to the Miner</text>
+	</string>
+	<string id="tasks_1202">
+		<text>Bring the book to the Miner</text>
+	</string>
+	<string id="tasks_1203">
+		<text>Deliver the artefact to the Miner</text>
+	</string>
+	<string id="tasks_1300">
+		<text>Garbage</text>
+	</string>
+	<string id="tasks_1301">
+		<text>Get the package from Prapor for Fox</text>
+	</string>
+	<string id="tasks_1302">
+		<text>Bring Prapor some Bloodsucker tentacles</text>
+	</string>
+	<string id="tasks_1303">
+		<text>Bring ten medkits to Prapor</text>
+	</string>
+	<string id="tasks_1304">
+		<text>Talk with Max Lubero</text>
+	</string>
+	<string id="tasks_1305">
+		<text>Find the radio transceiver</text>
+	</string>
+	<string id="tasks_1306">
+		<text>Locate the modified MP5</text>
+	</string>
+	<string id="tasks_1307">
+		<text>Bring the Flesh eyes to Prapor</text>
+	</string>
+	<string id="tasks_1308">
+		<text>Bring the Bloodsucker tentacles to Prapor</text>
+	</string>
+	<string id="tasks_1309">
+		<text>Bring the Pseudodog tails to Prapor</text>
+	</string>
+	<string id="tasks_1310">
+		<text>Deliver the Boar hoofs, and the vodka</text>
+	</string>
+	<string id="tasks_1311">
+		<text>Return the PDA to Max Lubero</text>
+	</string>
+	<string id="tasks_1312">
+		<text>Deliver the information regarding the hidden stash</text>
+	</string>
+	<string id="tasks_1313">
+		<text>Find the hidden stash somewhere in the Dump</text>
+	</string>
+	<string id="tasks_1318">
+		<text>Deliver the information regarding the hidden stash</text>
+	</string>
+	<string id="tasks_1400">
+		<text>The Swamps</text>
+	</string>
+	<string id="tasks_1401">
+		<text>Speak with Dan</text>
+	</string>
+	<string id="tasks_1402">
+		<text>Bring 40 PDA's to Dan</text>
+	</string>
+	<string id="tasks_1403">
+		<text>Bring the parcel to Dan</text>
+	</string>
+	<string id="tasks_1404">
+		<text>Get a Psi-Helmet from Dan</text>
+	</string>
+	<string id="tasks_1405">
+		<text>Bring the scientist's flash drive to Dan</text>
+	</string>
+	<string id="tasks_1406">
+		<text>Speak with Dan</text>
+	</string>
+	<string id="tasks_1407">
+		<text>Bring 10 cans of beer to Dan</text>
+	</string>
+	<string id="tasks_1408">
+		<text>Bring the sawn-off shotgun to Dan</text>
+	</string>
+	<string id="tasks_1500">
+		<text>Wild Territory</text>
+	</string>
+	<string id="tasks_1501">
+		<text>Find the modified Desert Eagle for Freeman</text>
+	</string>
+	<string id="tasks_1502">
+		<text>Find Freeman's case for him</text>
+	</string>
+	<string id="tasks_1503">
+		<text>Eliminate the Mercenaries</text>
+	</string>
+	<string id="tasks_1600">
+		<text>Lab X-10</text>
+	</string>
+	<string id="tasks_1601">
+		<text>Find the Monolithians and acquire their documents</text>
+	</string>
+	<string id="tasks_1602">
+		<text>Find Owl's note</text>
+	</string>
+	<string id="tasks_1603">
+		<text>Find the hidden stash located in Lab X-10</text>
+	</string>
+	<string id="tasks_1700">
+		<text>Catacombs</text>
+	</string>
+	<string id="tasks_1701">
+		<text>Find Arhara's notebook</text>
+	</string>
+	<string id="tasks_1702">
+		<text>Find a bulletproof vest</text>
+	</string>
+	<string id="tasks_1703">
+		<text>If wishes were horses, then all could ride... Sorry Marked One, but life goes on...</text>
+	</string>
+	<string id="tasks_1800">
+		<text>Lab X-18</text>
+	</string>
+	<string id="tasks_1801">
+		<text>Find the scientist's flash drive for Dan</text>
+	</string>
+	<string id="tasks_1802">
+		<text>Find the computer in Lab X-18 for the scientist</text>
+	</string>
+	<string id="tasks_1803">
+		<text>Find the laptop</text>
+	</string>
+	<string id="tasks_1804">
+		<text>Find the safe</text>
+	</string>
+	<string id="tasks_1805">
+		<text>Find the hidden stash in Lab X-18</text>
+	</string>
+	<string id="tasks_1900">
+		<text>Brain Lab</text>
+	</string>
+	<string id="tasks_1901">
+		<text>Locate the diplomatic document case</text>
+	</string>
+	<string id="tasks_1902">
+		<text>Find Vasilyev's PDA</text>
+	</string>
+	<string id="tasks_2000">
+		<text>Backwater</text>
+	</string>
+	<string id="tasks_2001">
+		<text>Got you, Marked One! Maybe you can make it back to the Cordon. Maybe not...</text>
+	</string>
+	<string id="tasks_2100">
+		<text>Jupiter</text>
+	</string>
+	<string id="tasks_2200">
+		<text>Jupiter Underground</text>
+	</string>
+	<string id="tasks_2300">
+		<text>Dead City</text>
+	</string>
+	<string id="tasks_2400">
+		<text>Labyrinth</text>
+	</string>
+	<string id="tasks_2500">
+		<text>NPP2 Exit</text>
+	</string>
+	<string id="tasks_2600">
+		<text>Sarcophagus</text>
+	</string>
+	<string id="tasks_2700">
+		<text>Monolith</text>
+	</string>
+	<string id="tasks_2800">
+		<text>Generators</text>
+	</string>
+	<string id="tasks_2900">
+		<text>Hospital</text>
+	</string>
+	<string id="tasks_3000">
+		<text>Recon</text>
+	</string>
+	<string id="tasks_3100">
+		<text>Limansk</text>
+	</string>
+	<string id="tasks_3200">
+		<text>Red Forest</text>
+	</string>
+	<string id="tasks_3300">
+		<text>War Lab</text>
+	</string>
+	<string id="tasks_3400">
+		<text>Lost Village</text>
+	</string>
+	<string id="tasks_3500">
+		<text>East Pripyat</text>
+	</string>
+	<string id="tasks_3600">
+		<text>Lab X-8</text>
+	</string>
+	<string id="tasks_3700">
+		<text>Tunnels</text>
+	</string>
+	<string id="tasks_3800">
+		<text>Waiting Room</text>
+	</string>
+	<string id="tasks_3900">
+		<text>Research Station</text>
+	</string>
+	<string id="tasks_4000">
+		<text>Dead Marshes</text>
+	</string>
+	<string id="tasks_4100">
+		<text>Broken Road</text>
+	</string>
+	<string id="tasks_4200">
+		<text>Darkscape</text>
+	</string>
+	<string id="tasks_4300">
+		<text>Wasted Woodland</text>
+	</string>
+	<string id="tasks_4400">
+		<text>Facility F1</text>
+	</string>
+	<string id="tasks_4500">
+		<text>Techniques</text>
+	</string>
+	<string id="tasks_4600">
+		<text>Hole in the Ground</text>
+	</string>
+	<string id="tasks_4700">
+		<text>Distribution Center</text>
+	</string>
+	<string id="tasks_4800">
+		<text>Courtyards</text>
+	</string>
+	<string id="tasks_4900">
+		<text>Black Market</text>
+	</string>
+	<string id="tasks_5000">
+		<text>Cemetery</text>
+	</string>
+	<string id="tasks_5100">
+		<text>End Station</text>
+	</string>
+	<string id="tasks_5200">
+		<text>Secret Lab</text>
+	</string>
+	<string id="tasks_5300">
+		<text>Firing Range</text>
+	</string>
+	<string id="tasks_9999">
+		<text>Sorry, Marked One. No info is available on this area...</text>
+	</string>

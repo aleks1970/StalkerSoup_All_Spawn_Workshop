@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.4 text from the script files, added 326 to 334 line - aleks1970, pred messages, includes -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 08 Oct 16 -->
+<!-- Further tidying by Sword2012 08 Oct 17 -->
+<string_table>
+#include "text\eng\amk_flame_dialogs.xml"
+#include "text\eng\amk_escape_dialogs.xml"
+#include "text\eng\string_table_timer.xml"
+#include "text\eng\stable_dialogs_amk.xml"
+#include "text\eng\meceniy_st_dialogs.xml"
+#include "text\eng\amk_reload_dialogs.xml"
+#include "text\eng\string_table_amk_metka.xml"
+#include "text\eng\string_table_amk_matras.xml"
+#include "text\eng\string_table_enc_sigaret.xml"
+#include "text\eng\stable_statistic_caption.xml"
+#include "text\eng\stable_miniquest_dialogs.xml"
+#include "text\eng\stable_dialog_manager_uni.xml"
+	<string id="car_use">
+		<text>ENTER</text>
+	</string>
+	<string id="arc_ui_container_1">
+		<text>This container is designed to hold several artefacts of low radiation only. For transporting artefacts that are more radioactive, you'll need an upgraded container...</text>
+	</string>
+	<!-- escape_dialog.script - aleks1970 -->
+	<string id="Labeled_private_channel_0">
+		<text>Labelled: Private channel</text>
+	</string>
+	<string id="shadows_and_pavel_1">
+		<text>I got to the apartment. Shadows and Pavel were there, but there was no Cube. I heard news about the night time incident in the laboratory - our friend Karoche went back to the lab and, apparently, never returned... \nOh, and there's something strange - someone's been here recently. I found a military recording. What do you think?</text>
+	</string>
+	<!-- Ovaj tekst za sada se ne prevodi: 'Cube for Sale, belonged to Shadows. The cordon around the Perimeter, in 8 hours. -->
+	<string id="shadows_and_pavel_2">
+		<text>I think 'Get out, now!' That's what! \nYou need to move! We're in trouble - our last conversation was overheard. Maybe someone else knew about the Cube. Maybe it was you who tipped them off? \nEast Pripyat is now occupied by an elite group of Mercenaries. They know you're looking for the Soul Cube in the apartment...\nRight. We need to trick them. Are you up for this? You need to send out some disinformation on the Stalker network...\nHere, enter this into your PDA chat console: 'Cube for Sale, belonged to Shadows. The cordon around the Perimeter, in 8 hours.'\nWrite this EXACTLY as I've written, and maybe they'll think you've already taken the Cube out of the area. Good luck...</text>
+	</string>
+	<string id="Shadows_private_channel_0">
+		<text>Shadows: Private channel</text>
+	</string>
+	<!-- inventory.script - aleks1970 -->
+	<string id="Blood_Stone_on_belt">
+		<text>Stone Blood on belt</text>
+	</string>
+	<string id="Unnecessary_artifact_0">
+		<text>Surplus artefact:</text>
+	</string>
+	<string id="moved_from_belt_pack">
+		<text>moved from belt to backpack</text>
+	</string>
+	<!-- tb3d_net_manager.script - aleks1970 -->
+	<string id="Local_Net_0">
+		<text>Local Net</text>
+	</string>
+	<string id="Network_mes_recieved_0">
+		<text>%c[255,0,255,0]Network message received.%c[default]</text>
+	</string>
+	<string id="Network_packets_not_0">
+		<text>%c[255,0,255,0]Network packets not getting sent - please check connection.%c[default]</text>
+	</string>
+	<!-- ui_cheat_spawner.script - aleks1970 -->
+	<string id="TB3D_Server_Master_0">
+		<text>TB3D Server Master</text>
+	</string>
+	<!-- zamok.script - aleks1970 -->
+	<string id="cache_has_been_locked">
+		<text>The cache has been securely locked</text>
+	</string>
+	<!-- taynik_spawn.script - aleks1970 -->
+	<string id="taynik_find_0">
+		<text>Kostya:  %c[default]Marked One, I've lost my PDA. Please help me find it...</text>
+	</string>
+	<string id="taynik_find_2">
+		<text>It's stashed with other valuables that are yours to keep - I just need my PDA. It's out there somewhere. Please trust me on this. I'll be in the Garbage if you find it\n</text>
+	</string>
+	<!-- treasure_manager.script - aleks1970 -->
+	<string id="name_treasure_m_0">
+		<text>Name: %c[default]</text>
+	</string>
+	<string id="money_treasure_m_1">
+		<text>Money found: %c[default]</text>
+	</string>
+	<!-- ui_comm.script - aleks1970 -->
+	<string id="ui_have_entered_the">
+		<text>INCOMING:  %c[default]You have entered the:</text>
+	</string>
+	<string id="ui_no_such_group">
+		<text>INCOMING:  %c[default]No such group:</text>
+	</string>
+	<string id="ui_Select_Grouping">
+		<text>Select Grouping</text>
+	</string>
+	<string id="ui_To_Community">
+		<text>To Community</text>
+	</string>
+	<!-- meceniy_intellectual.script - aleks1970 -->
+	<string id="not_teleport_out_0">
+		<text>Sakharov:\n%c[default]You cannot teleport from this area. Try from another region. Regions from which you can teleport:</text>
+	</string>
+	<string id="not_quite_experienced_1">
+		<text>Sakharov:\n%c[255,255,128,128]You're still not quite ready for this. Try again when you've gained a little more experience. Taking on, and completing, a few complex tasks for people should help you...\n</text>
+	</string>
+	<!-- tb3d_stalker.script - aleks1970 -->
+	<string id="stalker_information_found_0">
+		<text>INCOMING:  %c[default]Information found</text>
+	</string>
+	<!-- tb3d_services.script - aleks1970 -->
+	<string id="services_stalkersoup_level">
+		<text>STALKERSOUP:  %c[default]LEVEL</text>
+	</string>
+	<string id="services_Achieved_level">
+		<text>Achieved!</text>
+	</string>
+	<string id="services_cave_already_done">
+		<text>TB3D:\n  %c[default]ESCAPE Teleport released. Cave already done</text>
+	</string>
+	<string id="services_cave_skipped">
+		<text>TB3D:\n  %c[default]ESCAPE Teleport released. Cave skipped</text>
+	</string>
+	<!-- braad_test.script - aleks1970 -->
+	<string id="braad_incoming_m_0">
+		<text>INCOMING:  %c[default]Brothers, it's a free-for-all! The Mercenaries have taken over the farm!</text>
+	</string>
+	<string id="braad_incoming_m_1">
+		<text>INCOMING:  %c[default]Sviblov, we have urgent business. I will wait for you</text>
+	</string>
+	<string id="braad_incoming_m_2">
+		<text>SIDOROVICH:  %c[default]Hey, Marked One, it's your old friend Sidorovich. I have a package for you...</text>
+	</string>
+	<string id="braad_incoming_m_3">
+		<text>INCOMING:  %c[default]AAAARRRRGGGGHHHH!!!</text>
+	</string>
+	<!-- restriction_stock.script - aleks1970 -->
+	<string id="restriction_stock_msg1">
+		<text>This item isn't necessary...</text>
+	</string>
+	<string id="restriction_stock_msg2">
+		<text>I already have one of these equipped...</text>
+	</string>
+	<string id="restriction_stock_msg3">
+		<text>I can't take this. My backpack's full...</text>
+	</string>
+	<string id="restriction_stock_msg4">
+		<text>I have no use for this...</text>
+	</string>
+	<string id="restriction_stock_msg5">
+		<text>I'm carrying too much weight...</text>
+	</string>
+	<string id="restriction_stock_msg6">
+		<text>I can't take this...</text>
+	</string>
+	<string id="restriction_stock_msg7">
+		<text>In order to take this, I'll need to get rid of something else...</text>
+	</string>
+	<!-- repair_check.script - aleks1970 -->
+	<string id="repair_check_msg1">
+		<text>Well, regarding your sidearm</text>
+	</string>
+	<string id="repair_check_msg2">
+		<text>\n \n - Make it more accurate</text>
+	</string>
+	<string id="repair_check_msg3">
+		<text>\n \n - Reduce its weight</text>
+	</string>
+	<string id="repair_check_msg4">
+		<text>, I can't repair it</text>
+	</string>
+	<string id="repair_check_msg5">
+		<text>, I can offer you the following upgrades:</text>
+	</string>
+	<string id="repair_check_msg6">
+		<text>\n	... It'll cost: - %c[255,238,155,23]</text>
+	</string>
+	<string id="repair_check_msg7">
+		<text>\n	... It would cost you: - %c[255,255,32,23]</text>
+	</string>
+	<string id="repair_check_msg8">
+		<text>\n \n - Change the calibre from 5.45x39mm to 5.56x45mm</text>
+	</string>
+	<string id="repair_check_msg9">
+		<text>\n \n - Change the calibre from 5.56x45mm to 5.45x39mm</text>
+	</string>
+	<string id="repair_check_msg10">
+		<text>\n \n - Change the calibre from 9x18mm to 9x19mm</text>
+	</string>
+	<string id="repair_check_msg11">
+		<text>\n \n - Change the calibre from 9x19mm to 9x18mm</text>
+	</string>
+	<string id="repair_check_msg12">
+		<text>, it appears to be damaged\nI can't work on it as it is. Get it repaired, then I can upgrade it</text>
+	</string>
+	<string id="repair_check_msg13">
+		<text>Ah, regarding your primary weapon</text>
+	</string>
+	<string id="repair_check_msg14">
+		<text>roubles%c[default]</text>
+	</string>
+	<string id="repair_check_msg15">
+		<text>roubles%c[default], but you don't appear to have the money...</text>
+	</string>
+	<string id="repair_check_msg16">
+		<text>, I can't repair it</text>
+	</string>
+	<string id="repair_check_msg17">
+		<text>Armor condition:</text>
+	</string>
+	<string id="repair_check_msg18">
+		<text>Agreed?</text>
+	</string>
+	<string id="repair_check_msg19">
+		<text>Come back later, since you appear to be short of cash...</text>
+	</string>
+	<string id="repair_check_msg20">
+		<text>For repairs to your</text>
+	</string>
+	<string id="repair_check_msg21">
+		<text>Yes, it's quite damaged</text>
+	</string>
+	<string id="repair_check_msg22">
+		<text>To repair your</text>
+	</string>
+	<string id="repair_check_msg23">
+		<text>Wow, how did you acquire such a unique weapon? Is this Lanky's work?\nI wouldn't dare attempt to repair it.\nIf you still want it repaired, take it back to him at the Bar.\nHe'll take care of it for you</text>
+	</string>
+	<string id="repair_check_msg24">
+		<text>you need to pay me %c[255,238,155,23]</text>
+	</string>
+	<string id="repair_check_msg25">
+		<text>roubles%c[default], but\nyou don't appear to have a similar weapon for spare parts</text>
+	</string>
+	<string id="repair_check_msg26">
+		<text>roubles%c[default], plus\na similar weapon for spare parts - but you don't appear to have enough money</text>
+	</string>
+	<string id="repair_check_msg27">
+		<text>roubles%c[default] plus\na similar weapon for spare parts</text>
+	</string>
+	<string id="repair_check_msg28">
+		<text>simple as that.\nI can repair it, but it will cost: %c[255,255,32,23]</text>
+	</string>
+	<string id="repair_check_msg29">
+		<text>simple as that.\nI can repair it, but the repairs will cost: %c[255,255,32,23]</text>
+	</string>
+	<string id="repair_check_msg30">
+		<text>simple as that.\nOkay, here's the deal.\nJust give me %c[255,238,155,23]</text>
+	</string>
+	<string id="repair_check_msg31">
+		<text>This weapon is damaged by a percentage of</text>
+	</string>
+	<string id="repair_check_msg32">
+		<text>%c[default] value...\nWhat do you say?</text>
+	</string>
+	<string id="repair_check_msg33">
+		<text>roubles%c[default] and\na similar weapon for spare parts, but you don't appear to have the money...\n</text>
+	</string>
+	<string id="repair_check_msg34">
+		<text>roubles%c[default]. However,\nyou don't have a similar weapon for spare parts\n</text>
+	</string>
+	<string id="repair_check_msg35">
+		<text>roubles%c[default]. However,\nyou have neither the funds, nor a similar weapon for spare parts\n</text>
+	</string>
+	<string id="repair_check_msg36">
+		<text>roubles%c[default] in advance, and bring me a similar weapon\nthat I can use for spares. Just don't bring me any unique weapons,\nas... Heh! you may never see them again...\n</text>
+	</string>
+	<string id="repair_check_msg37">
+		<text>This is too damaged to repair\nIf you wish, I can take it as scrap for, say... \n5 percent of its %c[255,238,155,23]</text>
+	</string>
+	<string id="repair_check_msg38">
+		<text>roubles</text>
+	</string>
+	<string id="repair_check_msg39">
+		<text>I'll take %c[255,255,32,23]</text>
+	</string>
+	<string id="repair_check_msg40">
+		<text>it'll cost: %c[255,255,32,23]</text>
+	</string>
+	<string id="repair_check_msg41">
+		<text>it's going to cost %c[255,255,32,23]</text>
+	</string>
+	<string id="repair_check_msg42">
+		<text>it'll cost you: %c[255,255,32,23]</text>
+	</string>
+	<string id="repair_check_msg43">
+		<text>Greetings, warrior. This is</text>
+	</string>
+	<string id="repair_check_msg44">
+		<text>\nHave you forgotten that piece of crap you left here? It's ready for you... A</text>
+	</string>
+	<string id="repair_check_msg45">
+		<text>your trunk</text>
+	</string>
+	<string id="repair_check_msg46">
+		<text>You'd better get here quickly...</text>
+	</string>
+	<string id="repair_check_msg47">
+		<text>, I can't upgrade it...</text>
+	</string>
+	<string id="repair_check_msg48">
+		<text>, I can't upgrade it...</text>
+	</string>
+	<!-- ui_weapon_upgrade.script - aleks1970 -->
+	<string id="repair_check_txt1">
+		<text>output</text>
+	</string>
+	<string id="repair_check_txt2">
+		<text>back</text>
+	</string>
+	<string id="repair_check_txt3">
+		<text>This armor is far too worn out. Get it repaired first...</text>
+	</string>
+	<string id="repair_check_txt4">
+		<text>For weapons in</text>
+	</string>
+	<string id="repair_check_txt5">
+		<text>slot</text>
+	</string>
+	<string id="repair_check_txt6">
+		<text>for</text>
+	</string>
+	<string id="repair_check_txt7">
+		<text>This upgrade requires more</text>
+	</string>
+	<string id="repair_check_txt8">
+		<text>CANCEL</text>
+	</string>
+	<string id="repair_check_txt9">
+		<text>OK</text>
+	</string>
+	<string id="repair_check_txt10">
+		<text>When the upgrade's completed, I'll send you an SMS.\nIt should be finished in about three hours. Why not checkout the bar for a while?</text>
+	</string>
+	<string id="repair_check_txt11">
+		<text>reduce the weight</text>
+	</string>
+	<string id="repair_check_txt12">
+		<text>change the calibre</text>
+	</string>
+	<string id="repair_check_txt13">
+		<text>diminishing returns</text>
+	</string>
+	<!--109998 New repair strings - aleks1970 -->
+	<string id="revamped_repair_kit">
+		<text>Repair kit</text>
+	</string>
+	<!-- <string id="spare_parts_bag">
+		<text>Spare Parts Bag</text>
+	</string>
+	<string id="spare_parts_small">
+		<text>Spare Parts</text>
+	</string> -->
+	<string id="repair_str_repair">
+		<text>Repair</text>
+	</string>
+	<string id="repair_str_salvage">
+		<text>Salvage</text>
+	</string>
+	<string id="repair_str_spareparts_s">
+		<text>Small</text>
+	</string>
+	<string id="repair_str_spareparts_l">
+		<text>Large</text>
+	</string>
+	<string id="repair_str_spareparts_a">
+		<text>Armor</text>
+	</string>
+	<string id="repair_str_use1">
+		<text>Use 1</text>
+	</string>
+	<string id="repair_str_use5">
+		<text>Use 5</text>
+	</string>
+	<string id="repair_str_usefull">
+		<text>Full repair</text>
+	</string>
+	<string id="repair_str_noparts">
+		<text>Out of spare parts</text>
+	</string>
+	<string id="repair_str_nodamage">
+		<text>Not damaged</text>
+	</string>
+	<string id="repair_str_fulldamage">
+		<text>~ Broken ~</text>
+	</string>
+	<string id="repair_str_pistols">
+		<text>Pistols in Inventory</text>
+	</string>
+	<string id="repair_str_rifles">
+		<text>Rifles in Inventory</text>
+	</string>
+	<string id="repair_str_armor">
+		<text>Armor in Inventory</text>
+	</string>
+	<string id="repair_str_salvage_choose">
+		<text>Choose section to salvage from</text>
+	</string>
+	<string id="repair_str_salvage_click">
+		<text>Click item to salvage</text>
+	</string>
+	<string id="repair_str_button_choose">
+		<text>Click item button to repair</text>
+	</string>
+	<string id="enc_equipment_repair_kit">
+		<text>Repair kit. Weight: 2.5kg\nA small toolkit containing fine tools used for repairing weapons and armor. Double click to open the repair/salvage menu</text>
+	</string>
+	<!-- <string id="enc_equipment_parts_bag">
+		<text>Spare Parts Bag. Weight: 0.14kg.\nA bag containing all of the spare parts that you've aquired from salvaging weapons and armor. Double click to open repair/salvage menu.</text>
+	</string>
+	<string id="enc_equipment_parts_small">
+		<text>Spare Parts. Weight: 0.14kg.\nSpare parts that you've aquired from salvaging weapons and armor.</text>
+	</string> -->
+	<string id="repair_salv_error_1">
+		<text>Error!!!</text>
+	</string>
+	<string id="repair_salv_error_2">
+		<text>\n...Remove the unsupported item from the first detected slot...</text>
+	</string>
+	<string id="repair_salv_enemy_1">
+		<text>Hostiles detected nearby!</text>
+	</string>
+	<string id="repair_salv_enemy_2">
+		<text>\n...Hostiles detected! Do not attempt repairs now...</text>
+	</string>
+	<string id="revamped_cerror_window">
+		<text>Close error window</text>
+	</string>
+	<string id="repair_button_info">
+		<text>...Choose the weapon or outfit to repair...</text>
+	</string>
+	<string id="salvage_button_info">
+		<text>...Choose the damaged weapons or outfits to be dismantled for spare parts...</text>
+	</string>
+	<!-- 109998 pred text -->
+	<string id="teleport_art_not_found_title">
+		<text>Scientist Teleport</text>
+	</string>
+	<string id="teleport_art_not_found">
+		<text>Required artefact not found</text>
+	</string>
+	<string id="tb3d_pred1_message">
+		<text>Checkpoint Romeo to base. All secure...</text>
+	</string>
+	<string id="tb3d_pred2_message">
+		<text>Commander, the base has been attacked. Everyone's dead. We'll organise a search party to find the attackers...</text>
+	</string>
+</string_table>

@@ -1,0 +1,223 @@
+<!-- ************ TB3D 1.0.9.9.7.0 *************** -->
+<article id="enc_info_way100a" name="the_agricultural_industry_Cordon_pda_name" group="enc_ways">
+	<text>enc_enc_info_way100a_text</text>
+</article>
+<article id="enc_strelok_pda" name="From_the_sarcophagus_Chernobyl_1_pda_name" group="enc_ways">
+	<text>enc_strelok_pda_text</text>
+</article>
+<article id="enc_info_way101a" name="The_cordon_on_Agroprom_pda_name" group="enc_ways">
+	<text>enc_enc_info_way101a_text</text>
+</article>
+<article id="enc_info_way102a" name="With_agricultural_industry_Amber_pda_name" group="enc_ways">
+	<text>enc_enc_info_way102a_text</text>
+</article>
+<article id="enc_info_way103a" name="From_Amber_Agroprom_pda_name" group="enc_ways">
+	<text>enc_enc_info_way103a_text</text>
+</article>
+<article id="enc_info_way104a" name="With_Wild_Territory_Warehouses_pda_name" group="enc_ways">
+	<text>enc_enc_info_way104a_text</text>
+</article>
+<article id="enc_info_way105a" name="With_army_warehouses_Territory_pda_name" group="enc_ways">
+	<text>enc_enc_info_way105a_text</text>
+</article>
+<article id="enc_info_way106a" name="From_Amber_Radar_pda_name" group="enc_ways">
+	<text>enc_enc_info_way106a_text</text>
+</article>
+<article id="enc_info_way107a" name="With_radar_dark_valley_pda_name" group="enc_ways">
+	<text>enc_enc_info_way107a_text</text>
+</article>
+<article id="enc_info_way108a" name="From_radar_Amber_pda_name" group="enc_ways">
+	<text>enc_enc_info_way108a_text</text>
+</article>
+<article id="enc_info_way109a" name="From_Dark_Valley_Radar_pda_name" group="enc_ways">
+	<text>enc_enc_info_way109a_text</text>
+</article>
+<article id="enc_info_way110a" name="From_Dark_Valley_Warehouses_pda_name" group="enc_ways">
+	<text>enc_enc_info_way110a_text</text>
+</article>
+<article id="enc_info_way111a" name="With_warehouses_dark_valley_pda_name" group="enc_ways">
+	<text>enc_enc_info_way111a_text</text>
+</article>
+<article id="enc_info_way112a" name="With_radar_rmy_Warehouses_pda_name" group="enc_ways">
+	<text>enc_enc_info_way112a_text</text>
+</article>
+<article id="enc_info_way113a" name="The_bar_Army_Warehouses_pda_name" group="enc_ways">
+	<text>enc_enc_info_way113a_text</text>
+</article>
+<article id="enc_info_way114a" name="The_marshes_old_village_pda_name" group="enc_ways">
+	<text>enc_enc_info_way112b_text</text>
+</article>
+<article id="enc_info_way_false" name="The_Chernobyl_pda_name" group="enc_ways">
+	<text>enc_enc_info_way_false_text</text>
+</article>
+<!-- *************** AR *************** -->
+<article id="enc_life_heart" name="af_life_heart" group="enc_recipts">
+	<ltx>af_life_heart</ltx>
+	<text>enc_artmod_life_heart_ice_zone_text</text>
+</article>
+<!-- changed "af_dummy_battery" to the "af_red_battery" - aleks1970 -->
+<article id="enc_info_red_battery" name="af_red_battery" group="enc_recipts">
+	<ltx>af_dummy_battery_red</ltx>
+	<text>enc_info_red_battery_text</text>
+</article>
+<!-- changed "af_dummy_spring" to the "af_red_spring" - aleks1970 -->
+<article id="enc_info_red_spring" name="af_red_spring" group="enc_recipts">
+	<ltx>af_dummy_spring_red</ltx>
+	<text>enc_info_red_spring_text</text>
+</article>
+<article id="enc_info_red_pellicle" name="af_pellicle" group="enc_recipts">
+	<ltx>af_dummy_pellicle_red</ltx>
+	<text>enc_info_red_pellicle_text</text>
+</article>
+<article id="enc_artmod_mincer_meat_mosquito_bald" name="Hunk_meat_from_springboard_pda_name" group="enc_artmod">
+	<texture x="0" y="250" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_mincer_meat_mosquito_bald_text</text>
+</article>
+<article id="enc_artmod_electra_sparkler_mosquito_bald" name="Bengal_fire_from_jumping_pda_name" group="enc_artmod">
+	<texture x="0" y="600" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_electra_sparkler_mosquito_bald_text</text>
+</article>
+<article id="enc_artmod_ameba_slug_mosquito_bald" name="Slug_from_springboard_pda_name" group="enc_artmod">
+	<texture x="350" y="300" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_ameba_slug_mosquito_bald_text</text>
+</article>
+<article id="enc_artmod_cristall_mosquito_bald" name="Crystal_from_jumping_pda_name" group="enc_artmod">
+	<texture x="350" y="600" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_cristall_mosquito_bald_text</text>
+</article>
+<article id="enc_artmod_rusty_sea_urchin_mosquito_bald" name="Sea_urchins_from_springboard_pda_name" group="enc_artmod">
+	<texture x="700" y="250" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_rusty_sea_urchin_mosquito_bald_text</text>
+</article>
+<article id="enc_artmod_dummy_dummy_mosquito_bald" name="Dummy_of_springboard_pda_name" group="enc_artmod">
+	<texture x="700" y="600" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_dummy_dummy_mosquito_bald_text</text>
+</article>
+<article id="enc_artmod_ameba_slug_gravi_zone" name="Slug_of_crater_pda_name" group="enc_artmod">
+	<texture x="0" y="300" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_ameba_slug_gravi_zone_text</text>
+</article>
+<article id="enc_artmod_ameba_slime_gravi_zone" name="Mucus_from_funnel_pda_name" group="enc_artmod">
+	<texture x="0" y="650" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_ameba_slime_gravi_zone_text</text>
+</article>
+<article id="enc_artmod_electra_flash_gravi_zone" name="The_outbreak_of_crater_pda_name" group="enc_artmod">
+	<texture x="350" y="250" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_electra_flash_gravi_zone_text</text>
+</article>
+<article id="enc_artmod_night_star_gravi_zone" name="Night_star_of_rater_pda_name" group="enc_artmod">
+	<texture x="350" y="650" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_night_star_gravi_zone_text</text>
+</article>
+<article id="enc_artmod_soul_gravi_zone" name="The_soul_of_crater_pda_name" group="enc_artmod">
+	<texture x="700" y="300" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_soul_gravi_zone_text</text>
+</article>
+<article id="enc_artmod_dummy_pellicle_gravi_zone" name="Film_of_crater_pda_name" group="enc_artmod">
+	<texture x="700" y="650" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_dummy_pellicle_gravi_zone_text</text>
+</article>
+<article id="enc_artmod_cristall_flower_mincer" name="Stone_Flower_of_carousel_pda_name" group="enc_artmod">
+	<texture x="0" y="350" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_cristall_flower_mincer_text</text>
+</article>
+<article id="enc_artmod_drops_mincer" name="Drop_from_carousel_pda_name" group="enc_artmod">
+	<texture x="0" y="700" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_drops_mincer_text</text>
+</article>
+<article id="enc_artmod_rusty_kristall_mincer" name="Crystal_thorn_from_carousel_pda_name" group="enc_artmod">
+	<texture x="350" y="350" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_rusty_kristall_mincer_text</text>
+</article>
+<article id="enc_artmod_electra_moonlight_mincer" name="Moonlight_from_carousel_pda_name" group="enc_artmod">
+	<texture x="350" y="700" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_electra_moonlight_mincer_text</text>
+</article>
+<article id="enc_artmod_ameba_slug_mincer" name="Mica_from_carousel_pda_name" group="enc_artmod">
+	<texture x="700" y="350" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_ameba_slug_mincer_text</text>
+</article>
+<article id="enc_artmod_dummy_glassbeads_mincer" name="Mama_Beads_carousel_pda_name" group="enc_artmod">
+	<texture x="700" y="700" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_dummy_glassbeads_mincer_text</text>
+</article>
+<article id="enc_artmod_rusty_kristall_buzz" name="Crystal_thorn_aspic_pda_name" group="enc_artmod">
+	<texture x="0" y="400" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_rusty_kristall_buzz_text</text>
+</article>
+<article id="enc_artmod_rusty_thorn_buzz" name="Barb_from_aspic_pda_name" group="enc_artmod">
+	<texture x="0" y="750" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_rusty_thorn_buzz_text</text>
+</article>
+<article id="enc_artmod_fireball_buzz" name="The_fireball_from_aspic_pda_name" group="enc_artmod">
+	<texture x="350" y="400" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_fireball_buzz_text</text>
+</article>
+<article id="enc_artmod_cristall_buzz" name="Crystal_from_fountain_pda_name" group="enc_artmod">
+	<texture x="350" y="750" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_cristall_buzz_text</text>
+</article>
+<article id="enc_artmod_night_star_buzz" name="Goldfish_aspic_pda_name" group="enc_artmod">
+	<texture x="700" y="400" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_night_star_buzz_text</text>
+</article>
+<article id="enc_artmod_fuzz_kolobok_buzz" name="Gingerbread_from_aspic_pda_name" group="enc_artmod">
+	<texture x="700" y="750" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_fuzz_kolobok_buzz_text</text>
+</article>
+<article id="enc_artmod_electra_flash_zharka" name="The_outbreak_frying_pda_name" group="enc_artmod">
+	<texture x="0" y="450" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_electra_flash_zharka_text</text>
+</article>
+<article id="enc_artmod_ameba_slime_zharka" name="Mucus_from_frying_pda_name" group="enc_artmod">
+	<texture x="0" y="800" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_ameba_slime_zharka_text</text>
+</article>
+<article id="enc_artmod_gravi_zharka" name="Gravel_from_frying_pda_name" group="enc_artmod">
+	<texture x="350" y="450" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_gravi_zharka_text</text>
+</article>
+<article id="enc_artmod_night_star_zharka" name="Night_star_of_frying_pda_name" group="enc_artmod">
+	<texture x="350" y="800" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_night_star_zharka_text</text>
+</article>
+<article id="enc_artmod_electra_moonlight_zharka" name="Moonlight_from_frying_pda_name" group="enc_artmod">
+	<texture x="700" y="450" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_electra_moonlight_zharka_text</text>
+</article>
+<article id="enc_artmod_dummy_battery_zharka" name="Batteries_from_frying_pda_name" group="enc_artmod">
+	<texture x="700" y="800" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_dummy_battery_zharka_text</text>
+</article>
+<article id="enc_artmod_fireball_galant" name="The_fireball_from_electrical_pda_name" group="enc_artmod">
+	<texture x="0" y="500" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_fireball_galant_text</text>
+</article>
+<article id="enc_artmod_cristall_flower_galant" name="Stone_Flower_electro_pda_name" group="enc_artmod">
+	<texture x="0" y="850" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_cristall_flower_galant_text</text>
+</article>
+<article id="enc_artmod_ameba_mica_galant" name="Mica_from_electrical_pda_name" group="enc_artmod">
+	<texture x="350" y="500" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_ameba_mica_galant_text</text>
+</article>
+<article id="enc_artmod_electra_moonlight_galant" name="Soul_of_Electra_pda_name" group="enc_artmod">
+	<texture x="350" y="850" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_electra_moonlight_galant_text</text>
+</article>
+<article id="enc_artmod_gold_fish_galant" name="Goldfish_from_electrical_pda_name" group="enc_artmod">
+	<texture x="700" y="500" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_gold_fish_galant_text</text>
+</article>
+<article id="enc_artmod_medusa_galant" name="Jellyfish_from_electrical_pda_name" group="enc_artmod">
+	<texture x="350" y="550" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_medusa_galant_text</text>
+</article>
+<article id="enc_info_artmod_vyvert_buzz" name="Quirk_of_aspic_pda_name" group="enc_artmod">
+	<texture x="0" y="550" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_info_artmod_vyvert_buzz_text</text>
+</article>
+<article id="enc_artmod_dummy_spring_galant" name="Spring_from_electrical_pda_name" group="enc_artmod">
+	<texture x="700" y="850" width="300" height="50">ui\ui_sak</texture>
+	<text>enc_artmod_dummy_spring_galant_text</text>
+</article>

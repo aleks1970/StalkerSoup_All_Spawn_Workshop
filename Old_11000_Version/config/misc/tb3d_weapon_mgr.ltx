@@ -1,0 +1,357 @@
+;<!-- TB3D 1.0.9.9.3.6 mode2 rain factor -->
+; Module weapon manager
+; Rulix aka Bak
+;--------------------------------------
+
+[main]
+; technical parameters:
+;enabled = false	;;;;;;TB3D now controlled in modders script
+update_period = 2000 ;ms time between update
+combat_period = 400  ; minimum time between the update in action
+reload_period = 2500 ; minimum time between updates when recharging
+idle_period = 10000  ; minimum time between the update in the quiescent state
+return_period = 400000 ; the maximum time between returning to the prevention
+sees_time = 4000       ; how to remember the enemy, for mode2 = 2
+forbidden_weapons = none ; forbidden to use weapons
+min_condition = 0.2    ; minimum condition in which you can use
+weapon_minmaxr = false ; take parameters and min_radius max_radius of weapons config
+;
+[types] ; types
+list = 1,5,6,7,8,9 ; list of types - only integers
+line = ef_weapon_type ; parameter in the config trunk, which will be considered by its type
+
+; for dynamic selection mode
+
+; min_radius,max_radius ; type if weapon_minmaxr = false
+minmaxr_5 = 0,50
+minmaxr_6 = 1,300
+minmaxr_7 = 0,35
+minmaxr_8 = 25,1025
+minmaxr_9 = 10,900
+
+; modifikotory distance
+rsec_5 = 50,45,30,30,30,25,20,20,20,15,10,5
+rsec_6 = 2,20,30,30,30,30,25,25,25,25,20,4
+rsec_7 = 2,50,60,65,60,55,45,40,30,15,5,-20
+rsec_8 = -100,-40,20,30,45,55,60,60,70,80,90,100,120,140,160,180,200,220,250,200
+rsec_9 = 0,10,30,50,50,50,50,50,50,30,20,0
+
+;modifiers of the enemy
+; actor,stalker,boar,bloodsucker,flesh,dog,pseudodog,cat,chimera,giant,zombie,burer,controller,poltergeist,snork,fracture,tushkano,psy_dog,psy_dog_phantom
+
+enemy_5 = dog:20,tushkano:5,bloodsucker:-10,giant:-20
+enemy_6 = fracture:10,psy_dog_phantom:20
+enemy_7 = flesh:20,dog:30,pseudodog:25,zombie:20,bloodsucker:30,snork:40
+enemy_8 = controller:5,dog:-30,pseudodog:-15,snork:-50,tushkano:-80,chimera:-30
+enemy_9 = tushkano:20,giant:10,zombie:5,burer:5,actor:10
+
+
+[default]
+;+++++++++++
+
+; prioritization of weapons:
+; 0 - disabled, 1 - at 2 - to the parameters, 3 - set manually
+mode1 = 2			;;;includes rain factor in calcs
+
+;+++++++++++
+
+; mode choice of weapons:
+; in action
+; 0 - engine (), 1 - highest priority, 2 - a long time to charge, 3 - Dynamic
+mode2	= 3
+; at rest
+; 0 - engine (), 1 - highest priority, 2 - the best most of the priority type
+mode2_idle	= 2 ;1
+
+;++++++++++++
+
+; priority types, respectively [types]- list
+types = 0,1,5,7,15,20
+
+;++++++++++++
+
+; coefficients calculated parameters of weapons for the priority
+; used to mode1 = 2
+koeffs = koefs_def ; section in this file
+
+;++++++++++++
+
+; priority weapons, more important - higher priority
+; used to mode1 = 3
+priors = priors_def ; section in this file
+
+;++++++++++++
+
+; increasing priority in the presence of body kit,%
+scope = 5 ; riflescope
+silencer = 5 ; muffler
+grenadelauncher = 15 ; launcher
+
+;++++++++++++
+
+addcost = 4000 ; value is added to the price of arms is used to mode1 = 1
+process_mode = 2 ; 0 - disabled, 1 - Only during the fight, 2 - always, 3 - complete
+mag_lowering = 20 ; the percentage decrease priority for empty shop
+mag_lowering_fc = 35 ; the percentage drop priority when an empty shop (direct contact with the enemy)
+active_add = 10 ; additive for the weapons that are already in the hands of
+tchange_time = 4000 ; while the brake change weapons, ms
+tchange_time_fc = 5500 ; while the brake change weapons (direct contact with the enemy)
+change_rest_time = 200 ; minimum time between changing weapons, ms 1099353 2/10 of a sec (normal reaction time plus action start)
+
+disabled = false
+
+; sections, groups, ranks
+
+[stalker_veteran]
+mag_lowering_fc = 45
+
+[zombied]
+mode2	= 1
+
+[dolg]
+mode1	= 2
+
+[novice]
+mode1	= 2
+
+[master]
+scope = 15
+
+;++++++++++++
+[koefs_def]
+damage		= 1.4
+rpm			= 1.3
+distance	= 0.1
+dispersion	= 1.8
+
+;++++++++++++
+[priors_def]
+wpn_abakan		    = 27
+wpn_abakan_up2		    = 30
+wpn_ak74			    = 26
+wpn_ak74_up		    = 28
+wpn_ak74_up2		    = 29
+wpn_ak74u			    = 23
+wpn_ak74u_m1		    = 25
+wpn_aks74m		    = 26
+wpn_ak47		         = 34
+wpn_bm16			    = 20
+wpn_fn2000		    = 46
+wpn_g36			    = 40
+wpn_g36_up2		    = 43
+wpn_gauss			    = 45
+wpn_gauss_krayzis	    = 48
+wpn_gauss_aes		    = 68
+wpn_groza			    = 33
+wpn_groza_m3			= 34
+wpn_knife			    = 9
+wpn_l85			    = 31
+wpn_lr300			    = 32
+wpn_lr300_up2		    = 34
+wpn_mp5			    = 22
+wpn_mp5sd			    = 26
+wpn_ppsh41_sk2		    = 27
+wpn_pkm			    = 47
+wpn_m_134			    = 48
+wpn_rg-6			    = 49
+wpn_rpg7			    = 50
+wpn_sig550		    = 35
+wpn_tavor	     	    = 31
+wpn_sig_with_scope	    = 36
+wpn_sig550_up2		    = 38
+wpn_spas12		    = 37
+wpn_svd			    = 42
+wpn_svu			    = 41
+wpn_toz34			    = 21
+wpn_val			    = 34
+wpn_vintorez		    = 39
+wpn_vintorez_up	    = 42
+wpn_wincheaster1300    = 28
+wpn_m4super90          = 34
+wpn_protecta           = 35
+wpn_saiga12c		    = 36
+
+wpn_famas_p3_sk1	    = 32
+wpn_m16a2_sk1		    = 35
+wpn_m16a2_sk12		    = 36
+wpn_sg552_sk1		    = 31
+wpn_mg42			    = 45
+wpn_xm8_para_sk2	    = 46
+wpn_hk417_sk1		    = 30
+wpn_sr25_mk11_mod0_sk1 = 31
+wpn_b94			    = 29
+wpn_awm			    = 28
+wpn_bizon			    = 26
+wpn_bizon1		    = 33
+wpn_kriss_super_v	    = 24
+wpn_uzi			    = 29
+wpn_scorpion	         = 24
+wpn_mp5k	             = 29
+wpn_p90			    = 23
+wpn_mp7a3			    = 23
+wpn_m1891_30_scope	    = 20
+wpn_m4			    = 41
+wpn_walther_wa2000	    = 24
+wpn_m79		         = 20
+
+wpn_beretta			= 18
+wpn_colt1911			= 17
+wpn_colt1911_up2		= 19
+wpn_desert_eagle		= 20
+wpn_eagle_m1		     = 21
+wpn_fort				= 12
+wpn_fort_up			= 13
+wpn_hpsa				= 17
+wpn_pb				= 12
+wpn_pm				= 11
+wpn_pm_up				= 12
+wpn_pm_9x19			= 12
+wpn_sig220			= 15
+wpn_usp				= 16
+wpn_gungauss			= 16
+wpn_walther			= 14
+wpn_walther_up2		= 14
+mounted_weapon			= 11
+wpn_raging_bull		= 18
+wpn_aps_sk1			= 17
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;new 133     TB3D
+; DMX MOD
+wpn_aek971_kollim = 29
+wpn_ak9 = 34
+wpn_ak101 = 32
+wpn_ak104 = 33
+wpn_taktik = 39
+wpn_ak108 = 34
+wpn_ak203 = 35
+wpn_akm = 27
+wpn_akm_metro = 34
+wpn_aks47 = 33
+wpn_aks74u = 35
+wpn_an94_sniper = 37
+wpn_anaconda = 20
+wpn_aug_a1_sk1 = 35
+wpn_aug_a3 = 35
+wpn_aug_a1 = 35
+wpn_awp = 35
+wpn_m82 = 45
+wpn_xm1014 = 32
+wpn_xm1014_1 = 33
+wpn_xm1014_2 = 34
+wpn_xm1014_3 = 35
+wpn_beretta_cleric = 18
+wpn_beretta_stars = 19
+wpn_m93r = 19
+wpn_m8000 = 18
+wpn_px4 = 17
+wpn_bm16_full = 24
+wpn_bm16_m2 = 22
+wpn_browningauto5 = 23
+wpn_c7a1 = 30
+wpn_deagle_mk19 = 38
+wpn_desert_eagle_new = 34
+wpn_desert_eagle_uniq = 35
+wpn_fs = 22
+wpn_c1 = 29
+wpn_fn2000_new = 48
+wpn_fnc = 31
+wpn_fw900k = 45
+wpn_g3c = 30
+wpn_galil_arm_sk1 = 17	;--!!!!TB3D
+wpn_gaussspas12 = 46
+wpn_gaussrifle = 49
+wpn_glock18c = 18
+wpn_glock17 = 17
+wpn_glock19 = 19
+wpn_g35 = 20
+wpn_g36aimpoint = 32
+wpn_groza_sil = 38
+wpn_p7 = 19
+wpn_hk53 = 25
+wpn_hk416 = 30
+wpn_hkm4c = 31
+wpn_kac_pdw = 35
+wpn_klin = 24
+wpn_kriss_waper_pro = 50
+wpn_ksvk = 50
+wpn_l85a2 = 34
+wpn_l86 = 35
+wpn_l86_lsw = 36
+wpn_m4a1 = 31
+wpn_m14 = 37
+wpn_m14_stand = 40
+wpn_m21 = 42
+wpn_m21_mw2 = 44
+wpn_m76 = 35
+wpn_mac10 = 26
+wpn_masada = 33
+wpn_mauser = 21
+wpn_mg36_sk1 = 34
+wpn_microuzi = 25
+wpn_minigun_m134 = 55
+wpn_mk22 = 19
+wpn_mosin1891 = 30
+wpn_m590 = 28
+wpn_mp40 = 25
+wpn_mp444 = 20
+wpn_msg90 = 34
+wpn_obrez = 25
+wpn_oicw = 47
+wpn_benelli_short = 23
+wpn_ots33 = 20
+wpn_p18 = 19
+wpn_pm_m1 = 20
+wpn_pm_m2 = 21
+wpn_bizon_pp19 = 25
+wpn_bizon_pp19_kol = 26
+wpn_protecta_col = 37
+wpn_pp2000 = 25
+wpn_ppd40_sk1 = 28
+wpn_ptrd = 50
+wpn_ppk = 19
+wpn_pkm_tactic = 50
+wpn_r700 = 35
+wpn_remington870 = 34
+wpn_rem870short = 32
+wpn_rem870_magnum = 36
+wpn_rg10_ognemet = 50
+wpn_rpd = 38
+wpn_rpg7_m1  = 45
+wpn_rpk74_sk1 = 36
+wpn_sayga12k = 35
+wpn_saigataktik1 = 36
+wpn_saigataktik2 = 37
+wpn_sbr = 32
+wpn_scar = 34
+wpn_scar_new = 35
+wpn_scar_cry = 36
+wpn_sg552 = 33
+wpn_sig226 = 20
+wpn_sks_s = 31
+wpn_smg_tmp = 24
+wpn_spas12_stock = 30
+wpn_svd_c = 40
+wpn_svd_m2 = 45
+wpn_svd_m3 = 45
+wpn_svu_aaz = 43
+wpn_tec9 = 25
+wpn_thompson = 29
+wpn_toz194 = 29
+wpn_toz34_short = 19
+wpn_trg42 = 50
+wpn_trg42_m1 = 52
+wpn_tt33_sk1 = 24
+wpn_type97 = 29
+wpn_ump45 = 25
+wpn_usas12 = 35
+wpn_val_colim = 36
+wpn_vihlop = 50
+wpn_vintorez_1pn51 = 45
+wpn_vintorez_m2 = 47
+wpn_vsk94 = 45
+wpn_vz58 = 30
+wpn_walther_p99 = 19
+wpn_wa2000_mw2 = 49
+wpn_w1200 = 29
+wpn_xm8ss = 33
+wpn_zastava = 30
+wpn_zastava_z92_mod = 30

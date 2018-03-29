@@ -1,0 +1,41 @@
+<!-- ************ TB3D 1.0.9.9.7.0 new inventory *************** -->
+<xml>
+	<!-- ***************************************** Artem Kulinar *********************************************** -->
+	<specific_character id="amk_artem_kulinar" team_default="1">
+		<name>Artem_the_Cook_name_gameplay</name>
+		<icon>ui_npc_u_stalker_neytral_balon_8</icon>
+		<map_icon x="1" y="0"/>
+		<bio>gar_stalker_regular_bio</bio>
+		<class>amk_artem_kulinar</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>423</rank>
+		<reputation>1000</reputation>
+		<money min="1000000" max="2000000" infinitive="1"/>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>amk\kulinar</visual>
+#include "inventory\mil_guard_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\vitek_amk.xml"	
+	</specific_character>
+	<!-- ***************************************** Vitek Voron *********************************************** -->
+	<specific_character id="amk_vitek_voron" team_default="1">
+		<name>Vitek_Voron_name_gameplay</name>
+		<icon>ui_arhara_vitek_voron</icon>
+		<map_icon x="1" y="0"/>
+		<bio>gar_stalker_regular_bio</bio>
+		<class>amk_vitek_voron</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>423</rank>
+		<reputation>1000</reputation>
+		<money min="1000000" max="2000000" infinitive="1"/>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>new\vitek_voron</visual>
+#include "inventory\mil_guard_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\vitekv_amk.xml"	
+	</specific_character>
+</xml>

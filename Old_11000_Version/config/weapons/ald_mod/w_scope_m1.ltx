@@ -1,0 +1,27 @@
+;;;; TB3D 1.0.9.9.9.8 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[wpn_addon_scope_m1]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			= "weapons\addons\scope" ; option for Level Editor
+class			= WP_SCOPE
+cform           = skeleton
+visual          = PSEVDO_STALKER_MOD\upgrades\upg_pso-3.ogf
+$prefetch 		= 32
+description		= enc_arsenal_scope_m1_descr  
+cost			= 2000
+
+holder_range_modifier	= 1.2
+holder_fov_modifier		= 0.3
+
+inv_name		= enc_arsenal_scope_m1
+inv_name_short	= enc_arsenal_scope_m1_s
+inv_weight		= 0.9
+
+inv_grid_width     = 2
+inv_grid_height    = 1
+inv_grid_x         = 78
+inv_grid_y         = 28
+
+scope_texture			= wpn\wpn_crosshair
+scope_zoom_factor	    = 12		;pso1M1-AMK 4X

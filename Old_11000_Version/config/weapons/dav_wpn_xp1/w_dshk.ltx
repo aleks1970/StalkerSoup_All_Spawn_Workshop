@@ -1,0 +1,193 @@
+;;;; TB3D 1.0.9.9.9.8 - TB3D style weapons
+[wpn_dshk]:identity_immunities
+GroupControlSection		 			= spawn_group
+;;discovery_dependency 	 			= 
+$spawn                   			= "weapons\dsk"					; option for Level Editor
+$npc                     			= on
+$prefetch 		         			= 8
+scheduled                			= off                              ; option for ALife Simulator
+cform                    			= skeleton
+class                    			= WP_LR300
+min_radius               			= 0
+max_radius               			= 100
+description							= desc_dshk_descr
+
+ef_main_weapon_type					= 2 ;3
+ef_weapon_type						= 6 ;8
+
+;--- scope weapons -----------------------------------------------------------------
+holder_range_modifier				= 2.0              ; eye_range 
+holder_fov_modifier					= 0.3              ; eye_fov
+;-----------------------------------------------------------------------------------
+
+cost					 			= 150000	;400000
+weapon_class			 			= assault_rifle
+
+ammo_limit		         			= 180 
+ammo_current		     			= 90 
+ammo_elapsed		     			= 10 
+
+ammo_mag_size		     			= 1000
+
+hand_dependence		     			= 2
+single_handed						= 0
+
+;ammo_class		         			= ammo_minigun
+ammo_class							= ammo_12.7x108r, ammo_12.7x108  ; should be 12,7x109 mm in real life
+fire_modes							= -1
+f_mode								= 2
+
+slot 			         			= 2				; // first
+animation_slot			 			= 2				; type of the animation that will be used
+	
+inv_name		         			= desc_dshk_s
+inv_name_short		     			= desc_dshk_s
+inv_weight		         			= 35.8
+sprint_allowed						= false
+
+inv_grid_width						= 6
+inv_grid_height						= 2
+inv_grid_x							= 59
+inv_grid_y							= 26
+
+kill_msg_x							= 98
+kill_msg_y							= 0
+kill_msg_width						= 78
+kill_msg_height						= 25
+
+;-----------------------------------------------------------------------------------
+
+fire_dispersion_base				= 0.18 	
+control_inertion_factor				= 1.2f
+disp_rate = 1.5
+;מעהאקא
+cam_relax_speed        				= 6				;0.15	
+cam_dispersion         				= 0.15	
+cam_dispersion_inc					= 0.15	
+cam_dispertion_frac					= 1				;cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle						= 7	
+cam_max_angle_horz					= 5.0			;(degree) maximum shot horizontal degree 
+cam_step_angle_horz					= 0.5;0.4		;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor 	= 5	
+misfire_probability 				= 0.003 
+misfire_condition_k					= 0.05 
+condition_shot_dec 					= 0.00000006
+;-----------------------------------------------------------------------------------
+
+direction                			= 0, 0, 1
+
+flame_particles		   				= weapons\generic_weapon05       ;weapons2\generic_weapon05    ;weapons\generic_weapon05
+smoke_particles						= weapons\generic_shoot_00       ;weapons2\generic_shoot_00    ;weapons\generic_shoot_00
+
+fire_point 							= 0.0, 0.3, 1.51
+shell_point 						= 0.0, 0.33, 0.02
+
+shell_dir		 					= 0.0, 1.0, 0.0
+;shell_particles	 				= weapons\generic_shells
+
+rpm_empty_click 	     			= 400
+
+PDM_disp_base 						= 2.0
+PDM_disp_vel_factor 				= 1.2
+PDM_disp_accel_factor 				= 1.2
+PDM_crouch	 						= 1.0
+PDM_crouch_no_acc 					= 1.0
+
+
+hit_power        					= 2.85
+hit_impulse		 					= 60
+hit_type 							= fire_wound
+hit_rate	                		= 1.85
+fire_distance           			= 100					;;;109974 10:1
+bullet_speed						= 850
+rpm                     			= 600
+
+use_aim_bullet						= false		
+time_to_aim							= 2.0	
+
+hud                      			= wpn_dsk_hud
+normal                   			= 0, 0, 0
+position                 			= -0.02, -0.31, -0.0
+orientation              			= 0, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+
+strap_position         				= -0.7,0.1,-0.595 	; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      				= -10,-1,-10		; (3rd person view in degrees)
+strap_bone0							= bip01_spine2
+strap_bone1							= bip01_spine1
+
+startup_ammo             			= 0
+visual           	        		= dav_wpn_xp1\HMG\dshk\dshk_mir.ogf
+	
+light_disabled						= false
+
+light_color							= 0.6,0.5,0.3		; params for light during the fire
+light_range							= 5					; radius
+light_var_color						= 0.05						
+light_var_range						= 0.5
+light_time 							= 0.2	
+
+ph_mass			         			= 8
+
+;addons
+scope_status						= 0
+silencer_status						= 0
+grenade_launcher_status				= 0
+zoom_enabled						= false	
+;zoom_enabled						= true
+
+scope_texture						= wpn\wpn_crosshair_g36
+
+scope_zoom_factor	    			= 45
+
+snd_draw							= weapons\pkm_draw
+snd_holster							= weapons\pkm_holster
+snd_shoot							= weapons\pkm_shoot
+snd_empty							= weapons\pkm_empty
+snd_reload							= weapons\pkm_reload
+
+
+snd_switch							= weapons\groza_switch, 1.0, 0.5
+
+silencer_hit_power       			= 0.52
+silencer_hit_impulse	 			= 120
+silencer_fire_distance   			= 25					;;;109974 10:1
+silencer_bullet_speed	 			= 600
+
+;silencer_flame_particles 			= weapons\generic_weapon01
+silencer_smoke_particles 			= weapons\generic_shoot_00
+
+snd_silncer_shot					= weapons\w_ak74_shot1 
+
+silencer_light_color				= 0.58
+silencer_light_range				= 0.01
+silencer_light_var_color			= 0.05
+silencer_light_var_range			= 0.5
+silencer_light_time 				= 0.2
+
+
+[wpn_dsk_hud]
+allow_inertion						= true
+shell_point          				= 0,0,-0.6
+shell_dir		 					= 0.0, 1.0, 0.0
+
+fire_point       	        		= 0,0,-0.6
+fire_bone        	        		= muzzle
+orientation      	        		= 1.3, 9, 0
+position         	        		= 0.1,-0.3, -0.06
+visual           	        		= dav_wpn_xp1\HMG\dshk\dshk.ogf
+
+anim_idle							= idle
+anim_idle_aim						= idle_aim
+anim_reload							= reload
+anim_draw							= draw
+anim_holster						= holster
+anim_shoot							= shoot
+anim_idle_sprint					= idle_sprint
+
+zoom_hide_crosshair	= true
+zoom_offset             			= -0.12,0.048,-0.1
+zoom_rotate_x           			= 0.037
+zoom_rotate_y           			= 0.0196

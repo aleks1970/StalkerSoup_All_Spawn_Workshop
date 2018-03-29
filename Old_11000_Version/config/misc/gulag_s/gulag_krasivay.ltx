@@ -1,0 +1,153 @@
+; --------Лагерь новичков 1
+[logic@kras_novice_h1]
+active = kamp@kras_novice_kamp1
+[kamp@kras_novice_kamp1]
+center_point = center1
+on_info = {+kras_ng_attak} patrol@kras_novice_na_banditov
+
+[patrol@kras_novice_na_banditov]
+path_walk = na_banditov
+formation = around
+meet = no_meet
+def_state_moving1 = run 
+def_state_moving2 = run 
+on_info = {+kras_ng_attak_done} remark@kras_novice_after_fight2
+
+[remark@kras_novice_after_fight2]
+on_timer = 8000 |  kamp@kras_novice_kamp5
+
+[kamp@kras_novice_kamp5]
+center_point = center1
+meet = meet
+
+[logic@kras_novice_h2]
+active = kamp@kras_novice_kamp2
+[kamp@kras_novice_kamp2]
+center_point = center1
+on_info = {+kras_ng_attak} patrol@kras_novice_na_banditov
+
+[logic@kras_novice_h3]
+active = kamp@kras_novice_kamp3
+[kamp@kras_novice_kamp3]
+center_point = center1
+on_info = {+kras_ng_attak} patrol@kras_novice_na_banditov
+
+[logic@kras_novice_h4]
+active = kamp@kras_novice_kamp4
+[kamp@kras_novice_kamp4]
+center_point = center1
+on_info = {+kras_ng_attak} patrol@kras_novice_na_banditov
+
+[logic@kras_novice_suhoi]
+active = kamp@kras_novice_kamp4
+
+
+; Лидер новичков
+[logic@kras_novice_lider]
+active = walker@kras_novice_lider_walk1
+wounded = wounded
+[walker@kras_novice_lider_walk1]
+path_walk = lider_walk1
+on_info = {+kras_ng_attak} remark@kras_novice_lider_r1
+
+[remark@kras_novice_lider_r1]
+snd = agr_stalker_help_3
+on_signal = sound_end | %+kras_ng_attack_start% patrol@kras_novice_na_banditov_lider
+
+[patrol@kras_novice_na_banditov_lider]
+path_walk = na_banditov
+commander = true
+formation = around
+meet = no_meet
+def_state_moving1 = raid 
+def_state_moving2 = raid 
+on_info = {+kras_ng_attak_done} remark@kras_novice_after_fight1
+
+[remark@kras_novice_after_fight1]
+meet = meet
+on_timer = 8000 |  kamp@kras_novice_kamp5
+
+
+[logic@kras_novice_master]
+active = walker@kras_novice_master_walk1
+[walker@kras_novice_master_walk1]
+path_walk = master_walk1
+
+; --------Лагерь новичков 2
+[logic@kras_novice2_h1]
+active = kamp@kras_novice2_kamp
+[kamp@kras_novice2_kamp]
+meet = meet
+center_point = center1
+on_info = {+kras_stroika_battle_start} walker@kras_novice2_h1_walk1
+[walker@kras_novice2_h1_walk1]
+path_walk = walk_h1
+def_state_moving1 = sprint 
+def_state_moving2 = sprint 
+
+[logic@kras_novice2_h2]
+active = kamp@kras_novice2_kamp
+on_info = {+kras_stroika_battle_start} walker@kras_novice2_h2_walk1
+[walker@kras_novice2_h2_walk1]
+path_walk = walk_h2
+def_state_moving1 = sprint 
+def_state_moving2 = sprint 
+meet = meet
+
+[logic@kras_novice2_h3]
+active = kamp@kras_novice2_kamp
+on_info = {+kras_stroika_battle_start} walker@kras_novice2_h3_walk1
+[walker@kras_novice2_h3_walk1]
+path_walk = walk_h3
+def_state_moving1 = sprint 
+def_state_moving2 = sprint 
+
+[logic@kras_novice2_h4]
+active = walker@kras_novice2_walk_h4
+[walker@kras_novice2_walk_h4]
+path_walk = walk_h4
+
+[logic@kras_novice2_h5]
+active = walker@kras_novice2_walk_h5
+[walker@kras_novice2_walk_h5]
+path_walk = walk_h5
+
+; --------Лагерь бандитов
+[logic@kras_bandit_kamp]
+active = kamp@kras_bandit_kamp
+[kamp@kras_bandit_kamp]
+center_point = center1
+
+[logic@kras_bandit_bk1]
+active = walker@kras_bandit_bk1
+[walker@kras_bandit_bk1]
+path_walk = bk_walk1
+
+[logic@kras_bandit_bk2]
+active = walker@kras_bandit_bk2
+[walker@kras_bandit_bk2]
+path_walk = bk_walk2
+
+; --------Лагерь бандитов 2
+[logic@kras_bandit2_kamp]
+active = kamp@kras_bandit2_kamp
+
+[kamp@kras_bandit2_kamp]
+center_point = center1
+
+; --------Лагерь бандитов 3
+[logic@kras_bandit3_walk1]
+active = walker@kras_bandit3_walk1
+[walker@kras_bandit3_walk1]
+path_walk = kras_bandit3_na_stroiku
+
+[logic@kras_bandit3_walk12]
+active = walker@kras_bandit3_walk12
+[walker@kras_bandit3_walk12]
+path_walk = kras_bandit3_na_stroiku_rpg1
+
+[logic@kras_bandit3_walk2]
+active = walker@kras_bandit3_walk2
+[walker@kras_bandit3_walk2]
+path_walk = kras_bandit3_na_stroiku2
+

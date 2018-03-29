@@ -1,0 +1,181 @@
+<!-- ************ TB3D 1.0.9.9.7.0 remove " and #  from text*************** -->
+<game_task id="hand_zombie">
+	<title>ten_Zombie_Akim_gameplay_titles</title>
+	<objective>
+		<text>Bring_ten_Zombie_hands_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_find_item</icon>
+		<infoportion_complete>hand_otdan</infoportion_complete>
+		<article>tex_take_zombie</article>
+	</objective>
+	<objective>
+		<text>Bring_ten_Zombie_hands_gameplay_descriptions</text>
+		<function_complete>arhara_dialog.have_a_hand</function_complete>
+		<infoportion_set_complete>have_a_hand</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_ten_Zombie_hands_Akim_gameplay_descriptions</text>
+		<map_location_type hint="Akim_name_gameplay">blue_location</map_location_type>
+		<object_story_id>esc_akim</object_story_id>
+		<infoportion_complete>hand_otdan</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="doc">
+	<title>Old_documents_1_Akim_gameplay_titles</title>
+	<objective>
+		<text>Find_Old_documents_1_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_find_item</icon>
+		<infoportion_complete>doc_otdan</infoportion_complete>
+		<article>tex_take_doc1</article>
+	</objective>
+	<objective>
+		<text>Find_Old_documents_1_gameplay_descriptions</text>
+		<function_complete>arhara_dialog.have_a_doc</function_complete>
+		<infoportion_set_complete>have_a_doc</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Old_documents_1_Akim_gameplay_descriptions</text>
+		<map_location_type hint="Akim_name_gameplay">blue_location</map_location_type>
+		<object_story_id>esc_akim</object_story_id>
+		<infoportion_complete>doc_otdan</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="doc_2">
+	<title>Old_documents_2_Akim_gameplay_titles</title>
+	<objective>
+		<text>Find_Old_documents_2_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_find_item</icon>
+		<infoportion_complete>doc_otdan_p</infoportion_complete>
+		<article>tex_take_doc2</article>
+	</objective>
+	<objective>
+		<text>Find_Old_documents_2_gameplay_descriptions</text>
+		<function_complete>arhara_dialog.have_doc2</function_complete>
+		<infoportion_set_complete>have_doc2</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Old_documents_2_Akim_gameplay_descriptions</text>
+		<map_location_type hint="Akim_name_gameplay">blue_location</map_location_type>
+		<object_story_id>esc_akim</object_story_id>
+		<infoportion_complete>doc_otdan_p</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="doc_3">
+	<title>Old_documents_3_Akim_gameplay_titles</title>
+	<objective>
+		<text>Find_Old_documents_3_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_find_item</icon>
+		<infoportion_complete>doc_otdan_s</infoportion_complete>
+		<article>tex_take_doc3</article>
+	</objective>
+	<objective>
+		<text>Find_Old_documents_3_gameplay_descriptions</text>
+		<function_complete>arhara_dialog.have_a_doc_s</function_complete>
+		<infoportion_set_complete>have_a_doc_s</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Old_documents_3_Akim_gameplay_descriptions</text>
+		<map_location_type hint="Akim_name_gameplay">blue_location</map_location_type>
+		<object_story_id>esc_akim</object_story_id>
+		<infoportion_complete>doc_otdan_s</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="doc_4">
+	<title>Old_documents_PDA_Akim_gameplay_titles</title>
+	<objective>
+		<text>Find_Old_documents_4_suits_PDA_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_find_item</icon>
+		<infoportion_complete>doc_otdan_q</infoportion_complete>
+		<article>tex_take_doc4</article>
+	</objective>
+	<objective>
+		<text>Find_Old_documents_4_suits_PDA_gameplay_descriptions</text>
+		<function_complete>arhara_dialog.have_a_doc_q</function_complete>
+		<infoportion_set_complete>have_a_doc_q</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Old_documents_4_suits_PDA_Akim_gameplay_descriptions</text>
+		<map_location_type hint="Akim_name_gameplay">blue_location</map_location_type>
+		<object_story_id>esc_akim</object_story_id>
+		<infoportion_complete>doc_otdan_q</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="doc_tvar">
+	<title>Every_creature_side_gameplay_titles</title>
+	<objective>
+		<text>Find_part_from_every_creature_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_find_item</icon>
+		<infoportion_complete>doc_tvar_done</infoportion_complete>
+		<article>tex_take_doc5</article>
+	</objective>
+	<objective>
+		<text>Find_part_from_every_creature_gameplay_descriptions</text>
+		<function_complete>arhara_dialog.have_doc_tvar</function_complete>
+		<infoportion_set_complete>have_doc_tvar</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_part_from_every_creature_gameplay_descriptions</text>
+		<map_location_type hint="Akim_name_gameplay">blue_location</map_location_type>
+		<object_story_id>esc_akim</object_story_id>
+		<infoportion_complete>doc_tvar_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="qeast_q_1">
+	<title>Bring_fifteen_Crest_gameplay_titles</title>
+	<objective>
+		<text>Find_fifteen_artifacts_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_find_item</icon>
+		<infoportion_complete>otdan_q</infoportion_complete>
+		<article>tex_take_qeast</article>
+	</objective>
+	<objective>
+		<text>Find_fifteen_artifacts_gameplay_descriptions</text>
+		<function_complete>arhara_dialog.have_art1</function_complete>
+		<infoportion_set_complete>have_art1</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_fifteen_artifacts_Crest_gameplay_descriptions</text>
+		<map_location_type hint="Crest_name_gameplay">blue_location</map_location_type>
+		<object_story_id>puzir_crest</object_story_id>
+		<infoportion_complete>otdan_q</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="qeast_b">
+	<title>Bring_Bison_Crest_gameplay_titles</title>
+	<objective>
+		<text>Find_six_Bison_anomalies_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_find_item</icon>
+		<infoportion_complete>otda</infoportion_complete>
+		<article>tex_take_qeast_bizon</article>
+	</objective>
+	<objective>
+		<text>Find_six_Bison_anomalies_gameplay_descriptions</text>
+		<function_complete>arhara_dialog.have_bizon</function_complete>
+		<infoportion_set_complete>have_bizon</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_six_Bison_anomalies_Crest_gameplay_descriptions</text>
+		<map_location_type hint="Crest_name_gameplay">blue_location</map_location_type>
+		<object_story_id>puzir_crest</object_story_id>
+		<infoportion_complete>otda</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="teleporter">
+	<title>Bring_URT_Crest_gameplay_titles</title>
+	<objective>
+		<text>Find_URT_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_find_item</icon>
+		<infoportion_complete>otan_aq</infoportion_complete>
+		<article>tex_take_teleporter</article>
+	</objective>
+	<objective>
+		<text>Find_URT_gameplay_descriptions</text>
+		<function_complete>arhara_dialog.have_true</function_complete>
+		<infoportion_set_complete>have_true</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_URT_Crest_gameplay_descriptions</text>
+		<map_location_type hint="Crest_name_gameplay">blue_location</map_location_type>
+		<object_story_id>puzir_crest</object_story_id>
+		<infoportion_complete>otan_aq</infoportion_complete>
+	</objective>
+</game_task>

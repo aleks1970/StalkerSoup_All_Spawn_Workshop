@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1252" standalone="yes"?>
+<!-- TB3D 1.1.0.0.0.4, text from "stable_dialogs" + other files with dialogs - aleks1970 -->
+<!-- Edited and proofed by Sword2012. 15 Jan 16 -->
+<string_table>
+#include "text\eng\stable_dialogs_yantar.xml"
+#include "text\eng\stable_dialogs_radar.xml"
+#include "text\eng\stable_dialogs_pripyat.xml"
+#include "text\eng\stable_dialogs_labx18.xml"
+#include "text\eng\stable_dialogs_garbage.xml"
+#include "text\eng\stable_dialogs_agroprom.xml"
+
+	<string id="actor_break_dialog_0">
+		<text>See you...</text>
+	</string>
+	<string id="actor_help_wounded_0">
+		<text>Hey! Are you injured?</text>
+	</string>
+	<string id="actor_help_wounded_1">
+		<text>I've been hit... I need a medkit, or at least a bandage...</text>
+	</string>
+	<string id="actor_help_wounded_11">
+		<text>Okay, lie still. Here's a medkit. Let's get you fixed up...</text>
+	</string>
+	<string id="actor_help_wounded_111">
+		<text>Thanks, bro! I won't forget it...</text>
+	</string>
+	<string id="actor_help_wounded_12">
+		<text>Okay, don't move. Here's a bandage. At least we can stop the bleeding...</text>
+	</string>
+	<string id="actor_help_wounded_13">
+		<text>I'm sorry, I can't help you...</text>
+	</string>
+</string_table>

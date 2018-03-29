@@ -1,0 +1,142 @@
+;<!-- TB3D 1.0.1e -->
+[zone_monolith]
+GroupControlSection	= spawn_group_zone
+$spawn 			= "zones\monolith"
+;$prefetch 		= 16
+class			= Z_RADIO
+hit_impulse_scale	= .01
+effective_radius	= 1.00 ;size range as a percentage of the original, which has a zone
+sound			= zone_mosquito_bald
+postprocess		= postprocess_electra
+
+ef_anomaly_type			= 3
+ef_weapon_type			= 15
+
+artefacts		 = af_ameba_slime, 0.6, af_ameba_slug, 0.2, af_ameba_mica, 0.2
+BirthProbability = 0.1
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.99
+max_start_power		= 1.00
+attenuation			= 0.1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 0
+
+hit_type		= telepatic
+
+idle_particles		= anomaly2\monolith
+blowout_particles	= anomaly2\monolith_active
+
+disable_time		= -1	;while ignoring the inanimate object in the zone (-1 if not required)
+disable_time_small	= -1		;while ignoring the small inanimate object in the zone (-1 if not required)
+disable_idle_time	= -1	;timeout idle partiklov
+
+idle_sound			= anomaly\monolith_idle; anomaly_gravy_idle
+blowout_sound		= anomaly\monolith_idle
+
+ignore_nonalive		= true;
+ignore_small		= true;
+ignore_artefacts	= true
+
+blowout_light		= off
+idle_light			= off
+
+awaking_time		= 1
+blowout_time		= 9000	
+accamulate_time		= 1
+
+visible_by_detector = on
+
+blowout_wind		= off
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;creation of artifacts during the operation
+spawn_blowout_artefacts = off
+
+
+[zone_monolith_weak]:zone_monolith
+$spawn 						= "zones\monolith weak"
+artefacts					= af_ameba_slime, 0.8, af_ameba_slug, 0.2, af_ameba_mica, 0.0
+BirthProbability 			= 0.1
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.14
+max_start_power		= 0.15
+attenuation			= 1
+period				= 1
+min_artefact_count	= 0
+max_artefact_count	= 1
+artefact_spawn_idle	= 24  ;how often spontaneous artifacts offline, in hours
+artefact_spawn_rnd	= 50  ;probability zaspavnit artifact as a percentage.
+
+
+
+[zone_monolith_average]:zone_monolith
+$spawn 						= "zones\monolith average"
+artefacts					= af_ameba_slime, 0.4, af_ameba_slug, 0.2, af_ameba_mica, 0.4
+BirthProbability 			= 0.1
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.49
+max_start_power		= 0.50
+attenuation			= 1
+period				= 1
+min_artefact_count	= 1
+max_artefact_count	= 1
+artefact_spawn_idle	= 24  ;how often spontaneous artifacts offline, in hours
+artefact_spawn_rnd	= 70  ;probability zaspavnit artifact as a percentage.
+
+[zone_monolith_strong]:zone_monolith
+$spawn 						= "zones\monolith strong"
+artefacts					= af_ameba_slime, 0.2, af_ameba_slug, 0.3, af_ameba_mica, 0.5
+BirthProbability 			= 0.1
+
+;----------- Anomaly settings -----------------------
+min_start_power		= 0.99
+max_start_power		= 1.00
+attenuation			= 1
+period				= 1
+min_artefact_count	= 1
+max_artefact_count	= 2
+artefact_spawn_idle	= 24  ;how often spontaneous artifacts offline, in hours
+artefact_spawn_rnd	= 90  ;probability zaspavnit artifact as a percentage.
+
+--------------------------------------------------------------------------------------------------------
+
+[amk_zone_monolith]:zone_monolith
+$spawn 						= "zones\monolith"
+spawn_blowout_artefacts = off
+min_artefact_count	= 0
+max_artefact_count	= 0
+artefact_spawn_idle	= 24
+
+
+[amk_zone_monolith_weak]:zone_monolith_weak
+$spawn 						= "zones\monolith weak"
+spawn_blowout_artefacts = off
+min_artefact_count	= 0
+max_artefact_count	= 0
+artefact_spawn_idle	= 24
+
+
+[amk_zone_monolith_average]:zone_monolith_average
+$spawn 						= "zones\monolith average"
+spawn_blowout_artefacts = off
+min_artefact_count	= 0
+max_artefact_count	= 0
+artefact_spawn_idle	= 24
+
+
+[amk_zone_monolith_strong]:zone_monolith_strong
+$spawn 			= "zones\monolith strong"
+spawn_blowout_artefacts = off
+min_artefact_count	= 0
+max_artefact_count	= 0
+artefact_spawn_idle	= 24
+
+
+
+
+
+

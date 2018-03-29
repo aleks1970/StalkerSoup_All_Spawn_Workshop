@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.1.5 StalkerSoup game tasks - titles aleks1970, boatswain, minor spelling,
+ corrected "id" section with "Artefact" back to the "artifact" - aleks1970, Get_Night, seal, lukash -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 24 Feb 16 -->
+<!-- Changed one instance of 'Clerk' to Clerik' - Sword2012. 07 Apr 16, removed commas -->
+<!-- Changed 'Old Stalker' to 'Old Man', 'watches' to 'watch, 'batteries' to 'electrical accumulators', 'accumulators for Zhoric' to 'accumulators for Gynecologist, 'and 'Medimamentah' to 'medical kit'- Sword2012. 16 Jun 16 -->
+<!-- Names changed as commented below - Sword2012 - 31 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<!-- 110015, Bring_Ghost_PDA_to_Sakharov_gameplay_titles to research PDA -->
+<string_table>
+	<string id="Find_Cache_gameplay_titles">
+		<text>Find the cache</text>
+	</string>
+	<string id="Find_cache_Garbage_gameplay_titles">
+		<text>Find the cache at the Garbage</text>
+	</string>
+	<string id="Find_cache_Agroprom_gameplay_titles">
+		<text>Find the cache at Agroprom</text>
+	</string>
+	<string id="Find_stash_Yantar_gameplay_titles">
+		<text>Find the stash at Yantar</text>
+	</string>
+	<string id="Find_cache_Warehouses_gameplay_titles">
+		<text>Find the cache at the Army Warehouses</text>
+	</string>
+	<string id="Find_cache_Radar_gameplay_titles">
+		<text>Find the cache at Radar</text>
+	</string>
+	<string id="Find_stash_Pripyat_gameplay_titles">
+		<text>Find the stash in Pripyat</text>
+	</string>
+	<string id="Talk_to_Kostya_gameplay_titles">
+		<text>Talk to Kostya</text>
+	</string>
+	<string id="Deliver_ammunition_gameplay_titles">
+		<text>Deliver the ammunition</text>
+	</string>
+	<string id="title_gameplay_titles">
+		<text>title</text>
+	</string>
+	<string id="ten_Zombie_Akim_gameplay_titles">
+		<text>Deliver ten Zombie hands to Akim</text>
+	</string>
+	<string id="Old_documents_1_Akim_gameplay_titles">
+		<text>Deliver the Old documents Part 1 to Akim</text>
+	</string>
+	<string id="Old_documents_2_Akim_gameplay_titles">
+		<text>Deliver the Old documents Part 2 to Akim</text>
+	</string>
+	<string id="Old_documents_3_Akim_gameplay_titles">
+		<text>Deliver the Old documents Part 3 to Akim</text>
+	</string>
+	<string id="Old_documents_PDA_Akim_gameplay_titles">
+		<text>Deliver the Old documents Part 4 to Akim with suits and PDA</text>
+	</string>
+	<string id="Every_creature_side_gameplay_titles">
+		<text>Find a part from every mutant</text>
+	</string>
+	<string id="Bring_fifteen_Crest_gameplay_titles">
+		<text>Deliver fifteen artefacts to Crest</text>
+	</string>
+	<string id="Bring_Bison_Crest_gameplay_titles">
+		<text>Deliver six Anomalous Bisons to Crest</text>
+	</string>
+	<string id="Bring_URT_Crest_gameplay_titles">
+		<text>Deliver the URT to Crest</text>
+	</string>
+	<string id="Find_fix_Flamethrower_gameplay_titles">
+		<text>Find the items needed to fix the Flamethrower</text>
+	</string>
+	<string id="Find_Goldfish_gameplay_titles">
+		<text>Find a Goldfish artefact</text>
+	</string>
+	<string id="Find_Artifact_gameplay_titles">
+		<text>Find the artefact</text>
+	</string>
+	<string id="hiding_place_Lab_X_18_gameplay_titles">
+		<text>Find the hiding place in Lab X-18</text>
+	</string>
+	<string id="hiding_place_Lab_X_10_gameplay_titles">
+		<text>Find the hiding place in Lab X-10</text>
+	</string>
+	<string id="Talk_to_Sakharov_gameplay_titles">
+		<text>Talk to Sakharov</text>
+	</string>
+	<string id="PDA_of_Vasiliev_gameplay_titles">
+		<text>Find Vasiliev's PDA</text>
+	</string>
+	<string id="Find_Battery_artifact_gameplay_titles">
+		<text>Find a Battery artefact</text>
+	</string>
+	<string id="box_for_Bartender_gameplay_titles">
+		<text>Transfer the box for the Barkeep</text>
+	</string>
+	<string id="My_map_task_gameplay_titles">
+		<text>My map task</text>
+	</string>
+	<string id="Deliver_dynamite_to_Lukas_gameplay_titles">
+		<text>Deliver the dynamite to Lukash</text>
+	</string>
+	<string id="Find_Documents_for_Voronin_gameplay_titles">
+		<text>Find the documents for Voronin</text>
+	</string>
+	<string id="documents_in_Agroprom_Sakharov_gameplay_titles">
+		<text>Find the documents in Agroprom for Sakharov</text>
+	</string>
+	<string id="Glass_Beads_for_Sakharov_gameplay_titles">
+		<text>Find an Elder Beads artefact for Sakharov</text>	<!-- Was 'a Dummy Glassbeads' - Sword2012 - 11 Dec 16-->
+	</string>
+	<string id="Find_PlayBoy_gameplay_titles">
+		<text>Find a Playboy magazine</text>
+	</string>
+	<string id="Pass_the_grenade_gameplay_titles">
+		<text>Hand over the grenade launcher</text>
+	</string>
+	<string id="Collect_scientific_records_gameplay_titles">
+		<text>Collect the scientific records</text>
+	</string>
+	<string id="Find_the_unique_artifact_gameplay_titles">
+		<text>Find the unique artefact</text>
+	</string>
+	<string id="Pass_Sid_the_artifact_gameplay_titles">
+		<text>Give Sid the artefact</text>
+	</string>
+	<string id="Return_lost_device_gameplay_titles">
+		<text>Return the lost device</text>
+	</string>
+	<string id="Pass_the_new_armor_gameplay_titles">
+		<text>Deliver the new Armor</text>
+	</string>
+	<string id="Drag_safe_gameplay_titles">
+		<text>Deliver the safe</text>
+	</string>
+	<string id="Bring_Goldfish_gameplay_titles">
+		<text>Deliver a Goldfish artefact</text>
+	</string>
+	<string id="box_of_tools_for_Sidorovich_gameplay_titles">
+		<text>Deliver the box of tools for Sidorovich</text>
+	</string>
+	<string id="Exchange_the_artifact_gameplay_titles">
+		<text>Exchange the artefact</text>
+	</string>
+	<string id="Bring_Flash_artifact_gameplay_titles">
+		<text>Deliver a Flash artefact</text>
+	</string>
+	<string id="Return_Gauss_Pistol_prototype_gameplay_titles">
+		<text>Return the prototype Gauss pistol</text>
+	</string>
+	<string id="Return_the_lost_PDA_gameplay_titles">
+		<text>Return the lost PDA</text>
+	</string>
+	<string id="Get_the_unlawful_order_gameplay_titles">
+		<text>Retrieve the wrongful order</text>
+	</string>
+	<string id="Assemble_the_monster_parts_gameplay_titles">
+		<text>Assemble the mutant parts</text>
+	</string>
+	<string id="Deliver_munitions_gameplay_titles">
+		<text>Deliver the munitions</text>
+	</string>
+	<string id="Bring_bag_of_Plans_gameplay_titles">
+		<text>Deliver the bag of weed</text>
+	</string>
+	<string id="Bring_container_from_Sidorovich_gameplay_titles">
+		<text>Deliver the container from Sidorovich</text>
+	</string>
+	<string id="Find_unique_suits_gameplay_titles">
+		<text>Find the unique suits</text>
+	</string>
+	<string id="Find_Moles_lost_PDA_gameplay_titles">
+		<text>Find Mole's lost PDA</text>
+	</string>
+	<string id="the_unusual_artifact_to_Plichko_gameplay_titles">
+		<text>Deliver the Emerald Quirk artefact to Plichko</text><!-- Was 'Emerald Jellyfish' - Sword2012 - 30 Mar 17 -->
+	</string>
+	<string id="Bring_five_tails_Prapor_gameplay_titles">
+		<text>Deliver five Pseudodog tails to Prapor</text>
+	</string>
+	<string id="Bring_Bloodsucker_Tentacles_Prapor_gameplay_titles">
+		<text>Deliver three Bloodsucker tentacles to Prapor</text>
+	</string>
+	<string id="Bring_Prapor_four_Flesh_Eyes_gameplay_titles">
+		<text>Deliver four Flesh eyes to Prapor</text>
+	</string>
+	<string id="Find_Demons_vest_gameplay_titles">
+		<text>Find vest for Bes</text>
+	</string>
+	<string id="Get_Yurek_a_Burer_Paw_gameplay_titles">
+		<text>Find a Burer's hand for Yurek</text>
+	</string>
+	<string id="Get_MP_5_for_Yurek_gameplay_titles">
+		<text>Find a modified MP5 for Yurek</text>
+	</string>
+	<string id="ten_kits_to_Fox_gameplay_titles">
+		<text>Deliver ten medkits to Fox</text>
+	</string>
+	<string id="ten_bottles_of_vodka_to_Kuznet_gameplay_titles">
+		<text>Deliver ten bottles of vodka to Kuznetsov</text>	<!-- Changed 'Kuznet' to 'Kuznetsov'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Find_an_Medusa_artifact_gameplay_titles">
+		<text>Find a Medusa artefact</text>
+	</string>
+	<string id="Find_TOZ_for_Petruha_gameplay_titles">
+		<text>Find a TOZ for Petruha</text>
+	</string>
+	<string id="Find_five_tails_for_Tolik_gameplay_titles">
+		<text>Find five dog tails for Tolik</text>
+	</string>
+	<string id="Bring_radio_station_gameplay_titles">
+		<text>Deliver an army radio transceiver</text>
+	</string>
+	<string id="Find_the_lost_document_gameplay_titles">
+		<text>Find the lost document</text>
+	</string>
+	<string id="Find_Explorers_weapons_gameplay_titles">
+		<text>Find Guide's weapons</text>	<!-- Changed 'Explorer' to 'Guide' - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Find_Ruby_Film_artifact_gameplay_titles">
+		<text>Find a Ruby Pellicle artefact</text>
+	</string>
+	<string id="Find_Ruby_Battery_artifact_gameplay_titles">
+		<text>Find a Ruby Battery artefact</text>
+	</string>
+	<string id="Find_Ruby_Spring_artifact_gameplay_titles">
+		<text>Find a Ruby Spring artefact</text>
+	</string>
+	<string id="Find_computer_in_Pripyat_gameplay_titles">
+		<text>Find the computer in Pripyat</text>
+	</string>
+	<string id="Find_Ambers_Laptop_gameplay_titles">
+		<text>Find the laptop at Yantar</text><!-- Was 'Find Amber's laptop' - Sword2012 - 24 July 17 -->
+	</string>
+	<string id="Find_the_Laptop_gameplay_titles">
+		<text>Find the laptop</text>
+	</string>
+	<string id="Collect_ten_Tushkan_heads_gameplay_titles">
+		<text>Collect the heads of ten Tushkanos</text>
+	</string>
+	<string id="bring_Playboy_gameplay_titles">
+		<text>Deliver a Playboy</text>
+	</string>
+	<string id="Collect_seven_Chimera_Claws_gameplay_titles">
+		<text>Collect seven Chimera claws</text>
+	</string>
+	<string id="Deliver_the_device_gameplay_titles">
+		<text>Position the teleport device</text>
+	</string>
+	<string id="Find_Docs_dog_gameplay_titles">
+		<text>Find Doc's dog</text>
+	</string>
+	<string id="Find_Emerald_Medusa_gameplay_titles">
+		<text>Find an Emerald Medusa</text>
+	</string>
+	<string id="Find_Arrows_PDA_gameplay_titles">
+		<text>Find Strelok's PDA</text>
+	</string>
+	<string id="Find_the_scientist_stick_gameplay_titles">
+		<text>Find the scientist's flash drive</text>
+	</string>
+	<string id="Find_the_container_with_artifact_gameplay_titles">
+		<text>Find the container with the artefact</text>
+	</string>
+	<string id="Install_the_device_gameplay_titles">
+		<text>Install the device</text>
+	</string>
+	<string id="Determine_the_recipe_gameplay_titles">
+		<text>Find the recipe</text>
+	</string>
+	<string id="Gather_Controllers_Hand_and_30_PDAs_gameplay_titles">
+		<text>Find a Controller's hand and 30 MIL PDAs</text>
+	</string>
+	<string id="Gather_supplies_2_Pseudogiant_Hands_gameplay_titles">
+		<text>Find the supplies and two Pseudogiant Hands</text>
+	</string>
+	<string id="Gather_supplies_Bloodsucker_Tentacles_gameplay_titles">
+		<text>Find the supplies and Bloodsucker Tentacles</text>
+	</string>
+	<string id="Take_away_Krysyuks_PDA_gameplay_titles">
+		<text>Find Krysjuk's PDA</text>	<!-- Changed 'Krysyuk ' to 'Krysjuk '- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Bring_vodka_to_Sherstyuk_gameplay_titles">
+		<text>Deliver the vodka to Sherstyuk</text>
+	</string>
+	<string id="Check_the_helicopter_crash_gameplay_titles">
+		<text>Check out the crashed helicopter</text>
+	</string>
+	<string id="Bring_Ghost_PDA_to_Sakharov_gameplay_titles">
+		<text>Deliver the research PDA to Sakharov</text>
+	</string>
+	<string id="Find_Krysyukas_PDA_gameplay_titles">
+		<text>Find Krysjuk's PDA</text>	<!-- Changed 'Krysyuk ' to 'Krysjuk '- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Deliver_the_Playboy_magazines_gameplay_titles">
+		<text>Deliver the Playboy magazines</text>
+	</string>
+	<string id="Deliver_the_Radio_gameplay_titles">
+		<text>Deliver the radio</text>
+	</string>
+	<string id="Find_Dan_10_cans_beer_gameplay_titles">
+		<text>Find ten cans of beer for Dan</text>
+	</string>
+	<string id="Bring_Dan_BM_16_gameplay_titles">
+		<text>Deliver a BM-16 to Dan</text>
+	</string>
+	<string id="Bring_minigun_for_Adrenalin_gameplay_titles">
+		<text>Deliver the minigun to Adrenalin</text>
+	</string>
+	<string id="Find_the_military_subject_gameplay_titles">
+		<text>Find the military subject</text>
+	</string>
+	<string id="Find_the_Camouflage_Exoskeleton_gameplay_titles">
+		<text>Find the Camouflage Exoskeleton</text>
+	</string>
+	<string id="Find_vise_for_Screw_gameplay_titles">
+		<text>Find a vice for Screw</text>
+	</string>
+	<string id="Antizombin_gameplay_titles">
+		<text>Antizombin</text>
+	</string>
+	<string id="Find_Controller_brain_Lukas_gameplay_titles">
+		<text>Find the two Controller brains for Lukash</text>
+	</string>
+	<string id="Find_disk_for_Adrenalin_gameplay_titles">
+		<text>Find the optical disk for Adrenalin</text>
+	</string>
+	<string id="Locate_bag_south_of_Chernobyl_gameplay_titles">
+		<text>Locate the bag in the south of Chernobyl</text>
+	</string>
+	<string id="Find_lost_Bolotny_locket_gameplay_titles">
+		<text>Find the lost locket</text>
+	</string>
+	<string id="Find_crow_eggs_cook_gameplay_titles">
+		<text>Find the crow eggs for Cook</text>
+	</string>
+	<string id="Bring_medicine_Akim_gameplay_titles">
+		<text>Deliver the medicine to Akim</text>
+	</string>
+	<string id="Find_flashlights_for_Miner_gameplay_titles">
+		<text>Find two flashlights for Miner</text>
+	</string>
+	<string id="Get_the_Rubik_cube_gameplay_titles">
+		<text>Recover the Rubik's Cube</text>
+	</string>
+	<string id="Find_book_for_Miner_gameplay_titles">
+		<text>Find the book for Miner</text>
+	</string>
+	<string id="Find_Treasure_in_Cave_gameplay_titles">
+		<text>Find the treasure in the Cave</text>
+	</string>
+	<string id="Controller_Scalp_Artifact_for_Miner_gameplay_titles">
+		<text>Find a Controller's Scalp artefact for Miner</text>
+	</string>
+	<string id="Find_the_flask_for_Petrenko_gameplay_titles">
+		<text>Find the flask for Petrenko</text>
+	</string>
+	<string id="Find_Products_artifacts_money_gameplay_titles">
+		<text>Find the necessary items and money</text>
+	</string>
+	<string id="Get_thermoses_for_Voronin_gameplay_titles">
+		<text>Find the Thermos flasks for Voronin</text>
+	</string>
+	<string id="Cigarettes_for_Garik_gameplay_titles">
+		<text>Cigarettes for Garik</text>
+	</string>
+	<string id="Get_Repair_Kits_gameplay_titles">
+		<text>Find the repair kits</text>
+	</string>
+	<string id="Find_computer_videorecorder_gameplay_titles">
+		<text>Find the computer and video recorder</text>
+	</string>
+	<string id="Meet_environmentalists_up_phone_gameplay_titles">
+		<text>Meet the environmentalists and collect the phone</text>
+	</string>
+	<string id="Get_Storm_to_Defend_Bar_gameplay_titles">
+		<text>Find an OTs-14 'Tunder' (Thunderstorm) to defend the Bar</text>
+	</string>
+	<string id="Repel_attack_destroy_Humpback_gameplay_titles">
+		<text>Repel the attack and eliminate Humpback</text>
+	</string>
+	<string id="Help_stalkers_kill_the_leader_bandits_gameplay_titles">
+		<text>Help the Stalkers eliminate the Bandit leader</text>
+	</string>
+	<string id="Meet_the_courier_and_pick_information_gameplay_titles">
+		<text>Meet the courier and collect the information</text>
+	</string>
+	<string id="Get_the_sniper_AWP_Iglomet_gameplay_titles">
+		<text>Find an AWP Iglomet for Kalinin</text>
+	</string>
+	<string id="Destroy_Armored_Special_Forces_gameplay_titles">
+		<text>Eliminate the Armored Special Forces</text>
+	</string>
+	<string id="Learn_the_code_to_castle_gameplay_titles">
+		<text>Find out the code to the castle</text>
+	</string>
+	<string id="Find_Fima_ordered_items_gameplay_titles">
+		<text>Find the items Fima Coal requested</text>	<!-- Changed 'Fima' to 'Fima Coal'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Find_box_and_safe_gameplay_titles">
+		<text>Find the casket and safe</text>
+	</string>
+	<string id="Learn_the_code_gameplay_titles">
+		<text>Find out the code</text>
+	</string>
+	<string id="Learn_about_Amulet_gameplay_titles">
+		<text>Find out about the amulet</text>
+	</string>
+	<string id="Learn_about_the_box_fallen_from_helicopter_gameplay_titles">
+		<text>Find out about the box that fell from the helicopter</text>
+	</string>
+	<string id="Learn_about_Medikam_gameplay_titles">
+		<text>Find the medical supplies</text>	<!-- Sword2012. 29 May 16 -->
+	</string>
+	<string id="Find_Zhorik_batteries_gameplay_titles">
+		<text>Find electrical accumulator cells for Jora Anomaly</text>	<!-- 'Gynecologist' Sword2012. 29 May 16, 'Jora Anomaly' - aleks1970 -->
+	</string>
+	<string id="The_old_man_took_watch_gameplay_titles">
+		<text>Find the Old Man's gold watch</text>	<!-- Sword2012. 29 May 16 -->
+	</string>
+	<string id="Find_cache_for_Pilgrim_gameplay_titles">
+		<text>Find the cache for Pilgrim</text>
+	</string>
+	<string id="The_Ultra_Detector_Adrenalin_gameplay_titles">
+		<text>Find an 'Ultra' detector for Adrenalin</text>
+	</string>
+	<string id="Find_Elite_Detectors_gameplay_titles">
+		<text>Find the 'Elite' detectors</text>
+	</string>
+	<string id="Learn_about_drawings_gameplay_titles">
+		<text>Find out about the drawings</text>
+	</string>
+	<string id="Find_the_key_gameplay_titles">
+		<text>Find the key</text>
+	</string>
+	<string id="Cut_off_head_of_Sidorovich_gameplay_titles">
+		<text>Cut off Sidorovich's head</text>
+	</string>
+	<string id="Get_the_corpse_Controller_gameplay_titles">
+		<text>Find the Controller's corpse</text>
+	</string>
+	<string id="Get_flask_solution_gameplay_titles">
+		<text>Find the flask of solution</text>
+	</string>
+	<string id="Find_artifacts_Kalinin_gameplay_titles">
+		<text>Find the artefacts for Kalinin</text>
+	</string>
+	<string id="Reconoiter_military_lab_gameplay_titles">
+		<text>Reconnoiter the Military laboratory</text>
+	</string>
+	<string id="Return_seal_Lukas_gameplay_titles">
+		<text>Return the seal to Lukash</text>
+	</string>
+	<string id="Raid_on_Varlab_gameplay_titles">
+		<text>Raid on Warlab</text>
+	</string>
+	<string id="Radio_gear_Panther_gameplay_titles">
+		<text>Radio gear for Panther</text>
+	</string>
+	<string id="Find_the_drive_Panther_gameplay_titles">
+		<text>Find the flash drive for Panther</text>
+	</string>
+	<string id="Get_Pseudodog_things_Dembele_gameplay_titles">
+		<text>Find the Pseudodog tails for Demobee</text>	<!-- Changed 'Dembele to 'Demobee'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Find_backpack_Panther_gameplay_titles">
+		<text>Find the backpack for Panther</text>
+	</string>
+	<string id="Activate_Hologram_Army Warehouses_gameplay_titles">
+		<text>Leads the hologram to the border.</text>
+	</string>
+	<string id="Bring_hologram_to_Klenow_gameplay_titles">
+		<text>Bring the hologram to Maples</text>	<!-- Changed 'Klenow' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Make_Klenov_artifact_for_Maples_gameplay_titles">
+		<text>Make the Klenow artefact for Maples</text>
+	</string>
+	<string id="Repay_the_debt_Sidorovich_gameplay_titles">
+		<text>Repay the debt for Sidorovich</text>
+	</string>
+	<string id="Get_the_Interest_Sidorovich_gameplay_titles">
+		<text>Collect your interest from Sidorovich</text>
+	</string>
+	<string id="fight_off_brother_of_Kolmogor_gameplay_titles">
+		<text>Go to the aid of Kolmogor's brother</text>
+	</string>
+	<string id="Whereabouts_of_Panther_gameplay_titles">
+		<text>The whereabouts of Panther</text>
+	</string>
+	<string id="Help_capture_headquarters_gameplay_titles">
+		<text>Help to capture the headquarters</text>
+	</string>
+	<string id="Explore_the_village_gameplay_titles">
+		<text>Explore the village</text>
+	</string>
+	<string id="Protect_the_countryside_gameplay_titles">
+		<text>Protect the countryside</text>
+	</string>
+	<string id="Find_psy_antenna_Maples_gameplay_titles">
+		<text>Find the Psi Antenna for Maples</text>
+	</string>
+	<string id="Exploration_in_Farm_gameplay_titles">
+		<text>Explore the Farm</text>
+	</string>
+	<string id="Shoot_down_helicopter_gameplay_titles">
+		<text>Shoot down the helicopter</text>
+	</string>
+	<string id="Find_Boatswain_gameplay_titles">
+		<text>Find Boatswain</text>
+	</string>
+	<string id="Lead_Boatswain_to_helicopter_gameplay_titles">
+		<text>Lead Boatswain to the helicopter</text>
+	</string>
+	<string id="Bring_joystick_Andersen_gameplay_titles">
+		<text>Bring the game console to Andersen</text>
+	</string>
+	<string id="Turn_off_Psi_antenna_gameplay_titles">
+		<text>Turn off the Psi Antenna</text>
+	</string>
+	<string id="Save_Panther_gameplay_titles">
+		<text>Save Panther</text>
+	</string>
+	<string id="Collect_information_gameplay_titles">
+		<text>Collect the information</text>
+	</string>
+	<string id="Find_secret_cave_gameplay_titles">
+		<text>Find the secret cave</text>
+	</string>
+	<string id="Collect_artifacts_Maples_gameplay_titles">
+		<text>Collect the artefacts from Maples</text>
+	</string>
+	<string id="Find_old_doll_Fly_gameplay_titles">
+		<text>Find the old doll for Fly</text>
+	</string>
+	<string id="Find_Helicopter_flight_recorder_gameplay_titles">
+		<text>Find the helicopter's flight data recorder</text>
+	</string>
+	<string id="Include_third_generator_gameplay_titles">
+		<text>Start up the third generator</text>
+	</string>
+	<string id="Disable_generator_noise_gameplay_titles">
+		<text>Disable the generator noise</text>
+	</string>
+	<string id="Take_up_position_gameplay_titles">
+		<text>Take up position</text>
+	</string>
+	<string id="Help_Canin_gameplay_titles">
+		<text>Help Fang</text>	<!-- Changed 'Canine' to 'Fang'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Find_the_Firebolt_gameplay_titles">
+		<text>Find Lightning</text>
+	</string>
+	<string id="Find_stranger_Limansk_gameplay_titles">
+		<text>Find the stranger in Limansk</text>
+	</string>
+	<string id="Find_teleport_Sarcophagus_gameplay_titles">
+		<text>Find the teleport in the Sarcophagus</text>
+	</string>
+	<string id="Take_photo_gameplay_titles">
+		<text>Take a photo</text>
+	</string>
+	<string id="Open_the_door_gameplay_titles">
+		<text>Open the door</text>
+	</string>
+	<string id="Protect_radio_operator_gameplay_titles">
+		<text>Protect the radio operator</text>
+	</string>
+	<string id="Find_Radio_man_Cache_gameplay_titles">
+		<text>Find the radio operator's cache</text>
+	</string>
+	<string id="Open_safe_get_radio_gameplay_titles">
+		<text>Open the safe and get the radio operator's stash</text>
+	</string>
+	<string id="Detect_nuetralize_the_sniper_gameplay_titles">
+		<text>Find and eliminate the sniper</text>
+	</string>
+	<string id="Take_photo_for_Maples_gameplay_titles">
+		<text>Take a photo for Maples</text>
+	</string>
+	<string id="Get_case_documents_gameplay_titles">
+		<text>Find the case of documents</text>
+	</string>
+	<string id="Withdraw_Chernomor_gameplay_titles">
+		<text>Extract Chernomor</text>
+	</string>
+	<string id="Return_goods_and_chattels_gameplay_titles">
+		<text>Return the belongings</text>
+	</string>
+	<string id="Find_the_killer_gameplay_titles">
+		<text>Find the killer</text>
+	</string>
+	<string id="Find_stranger_army_warehousess_gameplay_titles">
+		<text>Find the stranger at the Army Warehouses</text>
+	</string>
+	<string id="Eavesdroping_gameplay_titles">
+		<text>Eavesdropping</text>
+	</string>
+	<string id="Find_teleporter_and_use_it_gameplay_titles">
+		<text>Find the teleporter and use it</text>
+	</string>
+	<string id="Find_and_activate_portal_gameplay_titles">
+		<text>Find and activate the portal</text>
+	</string>
+	<string id="Rob_the_Bandit_Camp_gameplay_titles">
+		<text>Rob the Bandit camp</text>
+	</string>
+	<string id="Protect_the_strange_Controller_gameplay_titles">
+		<text>Protect the unusual Controller</text>
+	</string>
+	<string id="Get_out_of_the_dead_city_gameplay_titles">
+		<text>Get out of the Dead City</text>
+	</string>
+	<string id="Free_the_hostages_gameplay_titles">
+		<text>Free the hostages</text>
+	</string>
+	<string id="Find_armor_Beryl5M_gameplay_titles">
+		<text>Find the Military armor</text>
+	</string>
+	<string id="Find_Cube_Shadows_gameplay_titles">
+		<text>Find the Soul Cube for Shadows</text>
+	</string>
+	<string id="Find_tools_East_Pripyat_gameplay_titles">
+		<text>Find some tools in East Pripyat</text>
+	</string>
+	<string id="information_on_the_laboratory_gameplay_titles">
+		<text>Find the information on the laboratory</text>
+	</string>
+	<string id="Get_the_necessary_gear_gameplay_titles">
+		<text>Find the necessary gear</text>
+	</string>
+	<string id="Help_Dennis_Red_Forest_gameplay_titles">
+		<text>Help Dennis in the Red Forest</text>
+	</string>
+	<string id="Talk_to_Sidorovich_gameplay_titles">
+		<text>Talk to Sidorovich</text>
+	</string>
+	<string id="Find_documents_Red_Forest_for_Fang_gameplay_titles">
+		<text>Find the documents in the Red Forest for Fang</text>
+	</string>
+	<string id="Help_stalkers_seize_bridge_Red_Forest_gameplay_titles">
+		<text>Help the Stalkers seize the bridge in the Red Forest</text>
+	</string>
+	<string id="Help_stalkers_Red_Forest_gameplay_titles">
+		<text>Help the Stalkers in the Red Forest</text>
+	</string>
+	<string id="Classify_Case_courier_Sakharov_gameplay_titles">
+		<text>Classify the courier's case for Sakharov</text>
+	</string>
+	<string id="Find_the_courier_radar_gameplay_titles">
+		<text>Find the courier in Radar</text>
+	</string>
+	<string id="Meet_Sviblov_gameplay_titles">
+		<text>Meet Sviblov</text>
+	</string>
+	<string id="Find_Dealer_Rabinowitz_gameplay_titles">
+		<text>Find the dealer Rabinowitz</text>
+	</string>
+	<string id="Find_Frenchman_army_warehouses_gameplay_titles">
+		<text>Find the Frenchman in the Army Warehouses</text>
+	</string>
+	<string id="Find_Brother_Louis_swamp_gameplay_titles">
+		<text>Find Brother Louis in the Swamps</text>
+	</string>
+	<string id="Get_info_from_Monolith_gameplay_titles">
+		<text>Get information from the Monolith</text>
+	</string>
+	<string id="Recon_Freebie_Mercs_gameplay_titles">
+		<text>Recon Freebie and Mercs</text>
+	</string>
+	<string id="Get_Cold_Simbion_artifact_gameplay_titles">
+		<text>Find a Simbion artefact for Cold</text>
+	</string>
+	<string id="Get_some_medicine_Cat_gameplay_titles">
+		<text>Find the medicine for Cat</text>
+	</string>
+	<string id="Get_Night">
+		<text>Find the items Kalmyak needs</text>
+	</string>
+	<string id="Get_Night_Star_ten_Snork_feet_Kalmyak_gameplay_titles">
+		<text>Find a Night Star artefact and ten Snork feet for Kalmyak</text>
+	</string>
+	<string id="Help_Borman_with_silencer_gameplay_titles">
+		<text>Help Borman with the radio jammer</text>
+	</string>
+	<string id="Eliminate_the_Monolith_sniper_gameplay_titles">
+		<text>Eliminate the Monolith sniper</text>
+	</string>
+	<string id="Put_mark_on_Red_Pseudogiant_gameplay_titles">
+		<text>Tag the Red Pseudogiant</text>
+	</string>
+	<string id="Get_Chiston_TV_gameplay_titles">
+		<text>Find a television for Chiston</text>
+	</string>
+	<string id="Find_the_remaining_Monolith_gameplay_titles">
+		<text>Find the remaining Monolith</text>
+	</string>
+	<string id="Find_map_the_dead_Monolith_gameplay_titles">
+		<text>Find the map of the dead Monolith</text>
+	</string>
+	<string id="Sviblova_PKM_machine_guns_gameplay_titles">
+		<text>Find a PKM machine gun for Sviblov</text>
+	</string>
+	<string id="Bring_Sviblov_brain_of_controller_gameplay_titles">
+		<text>Find a Controller's brain for Sviblov</text>
+	</string>
+	<string id="Get_Clerk_Soul_gameplay_titles">
+		<text>Find a Soul artefact for Clerik</text>
+	</string>
+	<string id="Get_three_cans_Kalmyk_Ointment_gameplay_titles">
+		<text>Obtain three cans of Kalmyak's ointment for Vasily</text>	<!-- Changed 'Kalmyk' to 'Kalmyak'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Procure_the_container_Kalmyk_gameplay_titles">
+		<text>Find the container for Kalmyak</text>	<!-- Changed 'Kalmyk' to 'Kalmyak'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Help_Clear_Sky_release_buddy_gameplay_titles">
+		<text>Help Clear Sky release their buddy</text>
+	</string>
+	<string id="NPP2_Monolith_diarys_for_Specter_gameplay_titles">
+		<text>Find three Monolith diaries in NPP2 for Ghost</text>
+	</string>
+	<string id="Find_Golden_Hunk_artifacts_Ghost_gameplay_titles">
+		<text>Find ten Gold Chunk artefacts for Ghost</text>
+	</string>
+	<string id="Find_engineering_plan_Burner_gameplay_titles">
+		<text>Find the blueprint for Freeman</text>
+	</string>
+	<string id="Find_group_scientists_Lab_X10_gameplay_titles">
+		<text>Find the group of scientists in Lab X-10</text>
+	</string>
+	<string id="Find_who_knows_of_missing_team_gameplay_titles">
+		<text>Find someone who knows of the missing team</text>
+	</string>
+	<string id="Fire_Tears_the_Bartender_gameplay_titles">
+		<text>Find a Fire Tears artefact for the Barkeep</text>
+	</string>
+	<string id="Obtain_scientific_kits_Prapor_gameplay_titles">
+		<text>Find ten scientific medkits for Prapor</text>
+	</string>
+	<string id="Find_Military_PDA_gameplay_titles">
+		<text>Find the Military PDA</text>
+	</string>
+	<string id="Destroy_Mercenary_camp_Rostock_gameplay_titles">
+		<text>Eliminate the Mercenary camp in Rostok</text>
+	</string>
+	<string id="Talk_with_Zahar_gameplay_titles">
+		<text>Talk with Zahar</text>
+	</string>
+	<string id="Protect_hunters_Cordon_gameplay_titles">
+		<text>Protect the hunters in Cordon</text>
+	</string>
+	<string id="Locate_Owls_hiding_place_Lab_X10_gameplay_titles">
+		<text>Locate Owl's hiding place in Lab X-10</text>
+	</string>
+	<string id="Get_your_stuff_back_gameplay_titles">
+		<text>Find the missing belongings</text>
+	</string>
+	<string id="Kill_Beast_Bring_documents_ghost_gameplay_titles">
+		<text>Kill Beast and bring his documents to Ghost</text>
+	</string>
+	<string id="Kill_Beast_take_his_stick_gameplay_titles">
+		<text>Kill Beast and get his flash drive</text>
+	</string>
+	<string id="Get_Laptop_for_scientist_gameplay_titles">
+		<text>Find the laptop for the scientist</text>
+	</string>
+	<string id="Get_Simbion_artifact_for_Bartender_gameplay_titles">
+		<text>Find a Simbion artefact for the Barkeep</text>
+	</string>
+	<string id="Bring_Ghosts_diary_to_scientist_gameplay_titles">
+		<text>Deliver Ghost's diary to the scientist</text>
+	</string>
+	<string id="scientist_stick_Lab_X_18_for_Dan_gameplay_titles">
+		<text>Find the scientist's flash drive in Lab X-18 for Dan</text>
+	</string>
+	<string id="Laptop_for_Yakut_gameplay_titles">
+		<text>Laptop computer for Yakut</text>
+	</string>
+	<string id="Notebook_on_subway_gameplay_titles">
+		<text>Notebook on the subway</text>
+	</string>
+	<string id="Get_Parcel_From_Scientist_gameplay_titles">
+		<text>Collect the parcel from the Scientist</text>
+	</string>
+	<string id="Find_forty_PDAs_for_Dan_gameplay_titles">
+		<text>Find forty MIL PDAs for Dan</text>
+	</string>
+	<string id="Bring_Hoods_stick_Freeman_gameplay_titles">
+		<text>Deliver Bland's flash drive to Freeman</text>
+	</string>
+	<string id="Bring_documents_from_lab_X_10_to_LeHavre_gameplay_titles">
+		<text>Deliver the documents from Lab X-10 to LeHavre</text>
+	</string>
+	<string id="Bring_case_to_Freeman_gameplay_titles">
+		<text>Deliver the case to Freeman</text>
+	</string>
+	<string id="Bring_Desert_Eagle_Freeman_gameplay_titles">
+		<text>Deliver the Desert Eagle to Freeman</text>
+	</string>
+	<string id="Kill_Bolt_bring_his_PDA_LeHavre_gameplay_titles">
+		<text>Kill Bolt and deliver his PDA to LeHavre</text>
+	</string>
+	<string id="Bring_Tirans_PDA_Informant_gameplay_titles">
+		<text>Deliver Tirana's PDA to Snitch</text>
+	</string>
+	<string id="Bring_Jaw_for_Prapor_gameplay_titles">
+		<text>Deliver a Bloodsucker's jaw to Prapor</text>
+	</string>
+	<string id="Bring_parcel_to_Fox_gameplay_titles">
+		<text>Deliver the parcel to Fox</text>
+	</string>
+	<string id="Psychos_stick_to_Voronin_gameplay_titles">
+		<text>Deliver the crazy Stalker's flash drive to Voronin</text>
+	</string>
+	<string id="Find_Ghost_gameplay_titles">
+		<text>Find Ghost</text>
+	</string>
+	<!-- text for the new tasks about mutant minimap detector - aleks1970 -->
+	<string id="Gather_3_Werewolf_Paws_and_20_PDAs_gameplay_titles">
+		<text>Find twenty MIL PDAs and three Werewolf claws</text>
+	</string>
+	<string id="Gather_4_Chimera_Claw_and_40_PDAs_gameplay_titles">
+		<text>Find forty MIL PDAs and four Chimera claws</text>
+	</string>
+	<string id="Gather_Burer_4_Hand_and_15_PDAs_gameplay_titles">
+		<text>Find fifteen MIL PDAs and four Burer hands</text>
+	</string>
+	<string id="Gather_1_Librarian_Hand_and_30_PDAs_gameplay_titles">
+		<text>Find thirty MIL PDAs and a Librarian claw</text>
+	</string>
+</string_table>

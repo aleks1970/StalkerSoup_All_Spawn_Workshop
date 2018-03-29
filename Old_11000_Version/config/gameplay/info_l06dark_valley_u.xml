@@ -1,0 +1,76 @@
+<!-- ************ TB3D 1.0.9.9.7.0 134 and AMK2*************** -->
+<game_information_portions>
+	<!-- *************** Dialogue with the stalker *************** -->
+	<info_portion id="dar_explorer_dlg_open"/>
+	<info_portion id="dar_explorer_dlg_completed"/>
+	<info_portion id="dar_explorer_actor_has_docs"/>
+	<info_portion id="dar_explorer_dlg_angry"/>
+	<!-- *************** Code lock 1 *************** -->
+	<info_portion id="dar_codelock1_unlock"/>
+	<info_portion id="dar_codelock2_unlock"/>
+	<!-- *************** A player found documents *************** -->
+	<info_portion id="dar_actor_got_docs"/>
+	<!-- *************** A player found the flash drive with password *************** -->
+	<info_portion id="dar_password_info1">
+		<article>dar_password_info1</article>
+		<article>dar_password_info11</article>
+	</info_portion>
+	<info_portion id="dar_password_info1_know"/>
+	<!-- *************** A player found documents with password *************** -->
+	<info_portion id="dar_password_info2">
+		<article>dar_password_info2</article>
+		<article>dar_password_info22</article>
+	</info_portion>
+	<info_portion id="dar_password_info2_know"/>
+	<info_portion id="dar_document1">
+		<article>dar_document1</article>
+	</info_portion>
+	<info_portion id="dar_document2">
+		<article>dar_document2</article>
+	</info_portion>
+	<info_portion id="dar_document3">
+		<article>dar_document3</article>
+	</info_portion>
+	<info_portion id="dar_document4">
+		<article>dar_document4</article>
+	</info_portion>
+	<info_portion id="x18_actor_fall">
+</info_portion>
+	<info_portion id="dar_x18_dream">
+		<article>sl_x18_dream</article>
+	</info_portion>
+	<!-- *************** A player found documents 5 *************** -->
+	<info_portion id="dar_document5">
+		<!-- ***************  <article>dar_document1</article>
+  <article>dar_document2</article>
+  <article>dar_document3</article>
+  <article>dar_document4</article> *************** -->
+		<article>dar_document5</article>
+	</info_portion>
+	<!-- *************** Began the quest for documents *************** -->
+	<info_portion id="dar_run_quest">
+		<task>bar_darklab_documents2</task>
+	</info_portion>
+	<!-- *************** Auxiliary infoporsheny *************** -->
+	<info_portion id="x18_door2"/>
+	<info_portion id="x18_door2_knock_stop"/>
+	<info_portion id="dar_open_door1"/>
+	<info_portion id="dar_open_door2"/>
+	<info_portion id="info_knock"/>
+	<info_portion id="dar_podval"/>
+	<!-- *************** Coded door *************** -->
+	<info_portion id="dar_door1_closed">
+		<task>dar_codedoor_1</task>
+	</info_portion>
+	<info_portion id="dar_door2_closed">
+		<task>dar_codedoor_2</task>
+	</info_portion>
+	<!-- *************** Door poltergeist *************** -->
+	<info_portion id="dar_door3_closed"/>
+	<info_portion id="dar_door3_free"/>
+	<!-- *************** Door poltergeist *************** -->
+	<info_portion id="dar_ring_spawn1"/>
+	<info_portion id="dar_ring_spawn2_1"/>
+	<info_portion id="dar_ring_spawn2_2"/>
+	<info_portion id="dar_ring_spawn2"/>
+</game_information_portions>

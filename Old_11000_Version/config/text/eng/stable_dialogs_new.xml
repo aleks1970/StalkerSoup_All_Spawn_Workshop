@@ -1,0 +1,2917 @@
+<!-- TB3D 1.1.0.0.0.7 the doctor, line 451, 454, 484, rem. russian char. aleks1970, price_dan_prinesi_text, freeman_braad_one_2, Sidorovich,
+ DeJames, something, 6 boar hooves, text outside block removed, ghost diary, land to miser -->
+<!-- Names changed as commented below - Sword2012 - 31 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<string_table>
+	<string id="prinesi_hvost_0">
+		<text>Hi, Dan! I have some mutant parts for you...</text>
+	</string>
+	<string id="prinesi_hvost_1">
+		<text>Excellent, Marked One! I have a special need for bundles of three Blind Dog tails, or six Wild Boar hooves. My customers use them to make medicines...</text>
+	</string>
+	<string id="prinesi_hvost_2">
+		<text>Greetings, Dan. Here are your six boar hooves...</text>
+	</string>
+	<string id="prinesi_hvost_3">
+		<text>Hi, Dan. I brought those three tails you asked for...</text>
+	</string>
+	<string id="prinesi_hvost_4">
+		<text>You brought the six hooves? Perfect, I'll get a good price for these!</text>	<!-- Small edits - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="prinesi_hvost_5">
+		<text>You've brought me the tails... Well done!!</text>
+	</string>
+	<string id="prinesi_hvost_6">
+		<text>Unfortunately, I've not collected enough of them yet...</text>
+	</string>
+	<string id="fox_bring_0">
+		<text>Hello Fox! How are you making out?</text>
+	</string>
+	<string id="fox_bring_1">
+		<text>These damn dogs have torn my trousers to pieces. They chase me like I've got a backpack full of sausage. Listen, Marked One, can you bring me a parcel from the Duty outpost on the north side of the Dump? Just ask the commander, he's expecting me. It's a good gun that will help keep these dogs from tearing me to bits. And while you're helping me out I'll stay with the Doctor. And don't worry, your reward will be more than adequate...</text>
+	</string>
+	<string id="fox_bring_2">
+		<text>No problem Fox, I'll help you out. I need to recon that area anyway, be back soon</text>
+	</string>
+	<string id="fox_bring_3">
+		<text>Bring you what? You want me to risk my life while you sit and get drunk with the Doctor? How thick do you think I am? Go yourself and I will talk with the Doctor</text>
+	</string>
+	<string id="fox_give_0">
+		<text>I've brought your gun. It's a very responsive weapon, I really like it. Prapor didn't want to give it to me. He asked to find him some Bloodsucker tentacles first...</text>
+	</string>
+	<string id="fox_give_1">
+		<text>Well thanks, Marked One! Sorry for all the trouble. Now that I've got some good fire power those mutants are going to pay!... Here's you reward</text>
+	</string>
+	<string id="prapor_bring_jaw_0">
+		<text>Prapor, I'm here to help Fox. He said that you're holding a package for him. He got torn up by some Pseudodogs, so I've to pick it up for him...</text>
+	</string>
+	<string id="prapor_bring_jaw_1">
+		<text>Well what do you think this is, a post office? If you want it, your going to have to earn it! Bring me a pair of Bloodsucker tentacles, then you can have the parcel. For storage fees, so to speak</text>	<!-- Changed 'two feelers' to 'a pair of tentacles' - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="prapor_bring_jaw_2">
+		<text>Well looks like you mean business... all right I will bring them, if I survive. I don't think Fox will live much longer without a better weapon and I made a promise</text>
+	</string>
+	<string id="prapor_give_jaw_0">
+		<text>So, Prapor, about my health... don't ask. Here are your tentacles. It was hard to get them. Where's the parcel?</text>
+	</string>
+	<string id="prapor_give_jaw_1">
+		<text>Thank you, Marked One! Well you're not a rookie after all. These tentacles are necessary for my health, strong medicine can be made from them. Yes my troubles have ended. To be honest we had a wager on whether you would return or not. I lost 5 bottles of Vodka in that bet... HA!</text>
+	</string>
+	<string id="informator_pda_tiran_0">
+		<text>Looks like I need your help</text>
+	</string>
+	<string id="informator_pda_tiran_1">
+		<text>All eventually need my help. All the Zone uses my information</text>
+	</string>
+	<string id="informator_pda_tiran_2">
+		<text>General Voronin sent me... He says you know who killed Fang, and why...</text>
+	</string>
+	<string id="informator_pda_tiran_3">
+		<text>Marked One, you've become a respected man in the Zone, but why does everyone think they can approach me and demand I share my information free of charge? Information is how I make my living, and if you want it you'll need to pay! However, I have lately been told that someone has stolen the PDA of Tirana, the leader of the Mercenaries, and he is, to put it mildly, somewhat upset. In the same way that a herd of stampeding buffalo is somewhat upset. I hope you understand how valuable this information is, and how much it's worth. Many are hunting for this PDA - Duty, Freedom, and even Bandits are all trying to find it before the others do. Well, I know who has it and where this person is. If you'll agree to bring it to me, I'll point you towards the one you need, and he'll tell you everything he knows. And I believe he knows a lot...</text>
+	</string>
+	<string id="informator_pda_tiran_4">
+		<text>Okay, we'll do it your way. Where's this guy with the PDA?</text>
+	</string>
+	<string id="informator_pda_tiran_5">
+		<text>In the Swamps there's a new trader. His name's Dan. My sources tell me that he is somehow connected with this business, and most likely has the PDA...</text>
+	</string>
+	<string id="informator_pda_tiran_6">
+		<text>That's all I need to know. I'll find him...</text>
+	</string>
+	<string id="informator_pda_bring_0">
+		<text>I'm back in one piece, and here's the PDA. Listen, Mercenaries seem to know too much about where and when I'll be somewhere. I just foiled another ambush. Did you try to set me up?</text>
+	</string>
+	<string id="informator_pda_bring_1">
+		<text>This is excellent, and well done! You're a man of his word! Mercenaries you say? Every faction is hunting for this PDA. At one time or another the Military, Freedom, Duty, and even those egghead scientists at Yantar have used their services to get their dirty work done without tarnishing their image. Listen to me carefully. I've got the information you need. In the Army Warehouses, at the base of Freedom, in one of the barracks, you will find LeHavre. He's also known as 'the Frenchman'. He's the one who'll answer your questions about Fang...</text>
+	</string>
+	<string id="informator_pda_bring_2">
+		<text>Are you serious? A Mercenary at Freedom's base! Has the world gone mad, or am I missing something?</text>
+	</string>
+	<string id="informator_pda_bring_3">
+		<text>Not so loud... You don't know this man LeHavre. He has connections with many powerful and evil people. Freedom receives prototypes of new weapons through his suppliers, so they turn a blind eye and let him do business at their base. It works out well for both of them, But LeHavre is a very experienced and dangerous man. He knows all the wrong people, so always be on your guard, and good luck to you... By the way, take this artefact. It's quite a good one...</text>
+	</string>
+	<string id="informator_pda_give_0">
+		<text>Dan, I'm looking for a PDA belonging to a guy named Tirana. I'm told you can help...</text>
+	</string>
+	<string id="informator_pda_give_1">
+		<text>Sure, I have it here. It's of no use to me. I just hope you can use it...</text>
+	</string>
+	<string id="informator_pda_give_2">
+		<text>If you ever see the little bastard who gave me that PDA to look after, tell him he almost got me killed...</text>
+	</string>
+	<string id="informator_pda_give_3">
+		<text>Thanks, Dan. You're a gentleman...</text>
+	</string>
+	<string id="informator_pda_give_4">
+		<text>No problem, Marked One. Good luck to you...</text>
+	</string>
+	<string id="gavr_take_first_0">
+		<text>Are you LeHavre? Snitch sent me to find you...</text>
+	</string>
+	<string id="gavr_take_first_1">
+		<text>Ah, so you're the Marked One! Snitch tells me that you search for the murderer of Fang. I can help but it's necessary for you to do some jobs for us, which I will pay you for. Then I'll tell you what you want to know...</text>
+	</string>
+	<string id="gavr_take_first_2">
+		<text>Seems I'm making a deal with the devil... So what do you have in mind?</text>
+	</string>
+	<string id="gavr_take_first_3">
+		<text>Stalker, try to understand. If you want to learn the secrets of the dead, you'll do what's necessary... You brought a PDA to the informant, and from the data recovered we found that in our well-disposed ranks is a rat. But it's not so simple, because it's one of our leaders. We don't have enough direct evidence, so I can't kill him myself. That would lead to reprisals, and a possible clan war. But you, as a freelancer, could kill this man without consequence to us. The rat's name is Bolt, and he's close by - at the end of the road that leads to this base. If you can get his PDA, I'll have proof of his participation in the theft of Tirana's PDA. If you're okay with this, there's a good reward in it for you...</text>
+	</string>
+	<string id="gavr_take_first_4">
+		<text>Alright, I'll bring you the PDA. What choice do I have?</text>
+	</string>
+	<string id="gavr_bring_pda_0">
+		<text>Hey! You could have given me an idea of what I was walking into! Here, take it!</text>
+	</string>
+	<string id="gavr_bring_pda_1">
+		<text>I find it insulting, listening to your vulgar mouth. I'm an educated man with a sensitive personality. You must know by now that the Zone is full of unexpected trouble. Look, here's a five-copeck coin for some vodka to sooth your nerves...</text>
+	</string>
+	<string id="freeman_help_one_0">
+		<text>Wow! Is it Gordon Freeman? How did you get here? I heard you'd been killed, or at least that you had a price on your head...</text>
+	</string>
+	<string id="freeman_help_one_1">
+		<text>Yes, I needed to disappear before someone organized it for me, so I made my way into the Zone. In the Cordon I hired a guide from a man named Sidorovich. He took me through a valley, past a lake, and into a factory complex before he started to mumble. I saw that something was wrong with his focusing, and I tried to talk to him, but he didn't respond. His eyes looked glazed and empty, and I feared he was turning into a zombie.\nThen I heard the roar of a mutant and was scared for our lives. I saw a tunnel full of Electro anomalies close by, but I'm more scared of mutants so I worked my way to the end of it and found a quiet place to sleep. My head was hurting badly, but if you're tired enough you can sleep through anything...\nI don't know how long I was there - A week? A month? I don't remember. I was woken up by a screech more terrible than I've ever heard before. It was a huge mutant, stood in the middle of an Electro, and seemed to be charging up in it...\nI tried to move around quietly, but it sensed me and began to growl. Without bolts, without a detector, I just ran and didn't stop until I found refuge here\nI left all my gear in that tunnel, including my Desert Eagle chambered for the more common 9x39 cartridge. It's a powerful weapon, and I've used it to kill a pair of Bloodsuckers with one mag. Truth is, though, I'm afraid to go back there. If you're in that area would you search for this gun? Return my weapons to me and I'll happily give you one of them...</text>
+	</string>
+	<string id="freeman_help_one_2">
+		<text>Don't worry, Freeman. I'm going that way, and I'll find your gun...</text>
+	</string>
+	<string id="freeman_bring_one_0">
+		<text>Hey, Gordon! Here's your Desert Eagle...</text>
+	</string>
+	<string id="freeman_bring_one_1">
+		<text>Marked One, I am happy to call you my friend. Here, please accept this artefact I promised...</text>
+	</string>
+	<string id="freeman_case_help_0">
+		<text>Thank you. Are you enjoying the Barman's company? He's quite a character...</text>
+	</string>
+	<string id="freeman_case_help_1">
+		<text>Yes, he's good company and can drink like a fish. Marked One, I've got more serious business I need your help with. When travelling with my guide and reaching the Wild Territory, I met a man. His name is DeJames, who claimed to be from America also. He offered me a lot of vodka, then persuaded me to give him my document case for safekeeping. There are some important documents inside that I could really use here. I need that case, but I fear the guy is a conman. He's currently staying in a small carriage in the Wild Territory. Are you able to visit him and collect it on my behalf?</text>
+	</string>
+	<string id="freeman_case_help_2">
+		<text>Yes, sure. What was his name, DeJames? Not a local man, that's for sure. I'll go carefully...</text>
+	</string>
+	<string id="freeman_james_speak_0">
+		<text>DeJames, Freeman asks if he may have his case back...</text>
+	</string>
+	<string id="freeman_james_speak_1">
+		<text>His case? No, he gave it to me. Now fuck off before my boys take offence...</text>
+	</string>
+	<string id="freeman_james_speak_2">
+		<text>I didn't come here for trouble. But I'm not leaving without the case...</text>
+	</string>
+	<string id="freeman_james_speak_3">
+		<text>Fuck you!</text>
+	</string>
+	<string id="freeman_case_bring_0">
+		<text>Freeman, you were right. Your friend DeJames conned you...</text>
+	</string>
+	<string id="freeman_case_bring_1">
+		<text>Why? What happened?</text>
+	</string>
+	<string id="freeman_case_bring_2">
+		<text>He was a mercenary. He recognized you, and wanted your case all along. He and his gang attacked me. But they won't be conning anyone else. Here's your case...</text>
+	</string>
+	<string id="freeman_case_bring_3">
+		<text>I'm sorry, Marked One. I didn't think he was that bad. Here take this, I hope it compensates you for any injury you've suffered</text>
+	</string>
+	<string id="gavr_doc_radar_0">
+		<text>Well LeHavre, what's next?</text>
+	</string>
+	<string id="gavr_doc_radar_1">
+		<text>Marked One, onto the next order of business. One of the Monolithians was supposed to extract documents and deliver them to us. However communication with him has broken down, he doesn't answer his PDA. The last message we received from him came from the Radar. During an emission we think he took cover in Lab X-10. Your problem - to find him and to take the documents. We know that you have received a helmet which protects you from Psi-radiation from the scientists</text>
+	</string>
+	<string id="gavr_doc_radar_2">
+		<text>I Doubt an emission has the same effect on a Monolithian. Alright LeHavre, I will look for the guy</text>
+	</string>
+	<string id="gavr_doc_radar_bring_0">
+		<text>I found your Monolithian. Only he is dead, and not just the Monolithian, also a lab full of mutants. Here take your documents</text>
+	</string>
+	<string id="gavr_doc_radar_bring_1">
+		<text>So, the Marked One performs under pressure. A real professional! Well here, take a well-deserved reward</text>
+	</string>
+	<string id="bland_flash_talk_0">
+		<text>Freeman, we need to talk...</text>
+	</string>
+	<string id="bland_flash_talk_1">
+		<text>Go ahead, Marked One...</text>
+	</string>
+	<string id="bland_flash_talk_2">
+		<text>As soon as I started investigating my friend, Fang's, death, Mercenaries started to appear. I don't trust LeHavre, but he sent me to Bolt, who tried to kill me. And there've been foreign mercenaries after me constantly. I don't know what the hell's going on, but I made a copy of the document I found for LeHavre. Does it make any sense to you?</text>
+	</string>
+	<string id="bland_flash_talk_3">
+		<text>Marked One, I am on the task. So... Interesting... All! I, apparently, have understood, who and what for Fang was killed. But I do not have enough information. Listen, Marked One, such business, in papers that you have brought in my case, there were for some documents of DeJames. And so in them it is told about a super confidential meeting of leaders of the Mercenaries. The meeting as I have understood, should occur somewhere in the Dark Valley. And so, at this meeting there will be a certain Bland. He should have an important flash card, you need to descend there and to take away this flash card. Also hurry, Marked One, soon other leaders will arrive and there will be no place there to spit at for protection</text>
+	</string>
+	<string id="bland_flash_talk_4">
+		<text>I'll find this Bland, and get the drive. I need to put my friend to rest...</text>
+	</string>
+	<string id="bland_flash_bring_0">
+		<text>Here's the flash drive from Bland...</text>
+	</string>
+	<string id="bland_flash_bring_1">
+		<text>Give it here and I will examine it. Well here... as I thought. In general, Marked One, business such. One of the gangs of Mercenaries which basically consists of foreigners, has decided to grasp the Monolith. For what I do not know, but hardly for something good. Fang was employed to work alone. Simply it was one of those not many who made campaigns in the Zone center. Such person was necessary to Mercenaries and consequently they have suggested it to work on them, having told that orders arrive from various scientific research institutes. And you know that Fang was clever with electronics and helped the scientists in Yantar. But in due course Fang has scented wrong and has started to dig. They have discovered it and have ordered the hit. Who do you think gave the order?... LeHavre! He must be the main co-ordinator of this organization in the Zone. Without these documents nobody solves anything. By the way here to you a gift from me</text>
+	</string>
+	<string id="bland_flash_bring_2">
+		<text>Thanks, Freeman, I suspected that LeHavre of a bough, but now I am assured of it. All right. I will go, good riddance to that bum!</text>
+	</string>
+	<string id="bland_flash_bring_3">
+		<text>Good luck, Marked One. Be more careful</text>
+	</string>
+	<string id="freeman_braad_one_0">
+		<text>How's life treating you these days... Freeman?</text>
+	</string>
+	<string id="freeman_braad_one_1">
+		<text>Same as usual... here now, there later... you know how it is</text>
+	</string>
+	<string id="freeman_braad_one_2">
+		<text>Life can be a little warped now and then, can't it... well... hope you're around for awhile, eh!</text>
+	</string>
+	<string id="gavr_final_dialog_0">
+		<text>Well, the Chap, has learnt me? You know, what for I have come?</text>
+	</string>
+	<string id="gavr_final_dialog_1">
+		<text>Slow down man... let us have a drink... I have some nice Cognac here... Our base in the Dark Valley recently - was that your work?</text>
+	</string>
+	<string id="gavr_final_dialog_2">
+		<text>Yes I have no place to hurry up especially, give. Yes base - my work. And your six of Bland I too enjoy. But now I have exact proof of your fault. For who has killed my friend Fang?</text>
+	</string>
+	<!-- 109984, dialog improvement done to here -->
+	<string id="gavr_final_dialog_3">
+		<text>It worked any time for us in dark, thinking that works on scientists. We to it well paid, to begin with even gave it tasks on more harmless, type bring an artefact, remove gauging. Though an overall objective always was - the Monolith. We searched for possible ways of pass to the Monolith, and you, that is Streloks, and Fang - one of the few who there happened and knew as there to get. But, probably, he began to suspect us, has started to dig, and has then tried to disappear. We were afraid that it, can merge the information on us to somebody and consequently I have personally made the decision on Fang liquidation. The sniper waited for it in village of Bloodsuckers. Further you know</text>
+	</string>
+	<string id="gavr_final_dialog_4">
+		<text>Lines that that is stuffy. I have found the murderer, it is time to the Miner... About what it I? Ah you of a bough... You... You have poisoned me. Vile selling death, well...</text>
+	</string>
+	<string id="gavr_final_dialog_5">
+		<text>Have a rest my friend</text>
+	</string>
+	<string id="gavr_finalend_dialog_0">
+		<text>Aaa... My head. I should go to the Miner... Where it I? And, I see, well you and... What it, what it was?</text>
+	</string>
+	<string id="gavr_finalend_dialog_1">
+		<text>It only soporific, do not worry you while to me live it is necessary, well has had a rest? Yes spit you on Fang, about itself see to it better</text>
+	</string>
+	<string id="gavr_finalend_dialog_2">
+		<text>Spit you speak? Here so to take and forget that was? Say Fang, you certainly the guy good, we with you have together worried so much, but now I and about myself should see to it'. So you offer? And so know - Strelok does not betray</text>
+	</string>
+	<string id="dan_priremont_dialog_0">
+		<text>Can we do some trading? Parts of mutants, for cartridges and artefacts?</text>
+	</string>
+	<string id="dan_priremont_dialog_1">
+		<text>Basically I can. But first, I need you to bring me forty military PDAs. Then we'll talk...</text>
+	</string>
+	<string id="dan_priremont_dialog_2">
+		<text>Alright, I'll go and search for the PDAs. Ammo and artefacts for mutant parts sounds like a good deal...</text>
+	</string>
+	<string id="dan_repair_0">
+		<text>Dan, I have some work for you. I need something repaired...</text>
+	</string>
+	<string id="dan_repair_1">
+		<text>Lets take a look at what you have there</text>
+	</string>
+	<string id="dan_repair_2">
+		<text>Repair the first weapon</text>
+	</string>
+	<string id="dan_repair_3">
+		<text>Repair the second weapon</text>
+	</string>
+	<string id="dan_repair_4">
+		<text>Repair the outfit</text>
+	</string>
+	<string id="dan_repair_5">
+		<text>YO eat, well at you and the price to be stunned! Yes well this repair in a bath so I resemble!</text>
+	</string>
+	<string id="dan_repair_6">
+		<text>Hold, all works as it is necessary!</text>
+	</string>
+	<string id="dan_repair_7">
+		<text>Catch. All that is necessary, is made!</text>
+	</string>
+	<string id="dan_repair_8">
+		<text>You certainly know your way around such things. It's perfect!!</text>
+	</string>
+	<string id="dan_repair_9">
+		<text>Yes, you do good work... Well worth the money!!</text>
+	</string>
+	<string id="dan_repair_10">
+		<text>Can you repair something else?</text>
+	</string>
+	<string id="dan_repair_11">
+		<text>Certainly I can, at me clients while it is small.\n \nthe List of possible repairs:</text>
+	</string>
+	<string id="dan_bring_pda_0">
+		<text>Well, Dan. None of these military guys parted with their PDAs easily, but here you go...</text>
+	</string>
+	<string id="dan_bring_pda_1">
+		<text>Nice work, Marked One. Now I know I can trust you, we can trade in a larger variety of mutant parts...</text>
+	</string>
+	<string id="dan_trade_buck_0">
+		<text>Dan, what will you take in trade?</text>
+	</string>
+	<string id="dan_trade_buck_1">
+		<text>No one in the Zone trades in mutant parts on my level. These eyes, hands, feet, and tails are useless to most Stalkers, even Sidorovich! The nearest place you can get anything for them is the Dump, with the Stalker known as Raven, and he only wants tails. If you're just looking for cash, the scientist in the bunker on Lake Yantar researches mutant parts from all corners of the Zone. He pays a decent price, too, and we do a lot of business with him. By all means check with Raven and see what he'll give you, but here's what I offer: For three Flesh eyes, I'll give you three packs of 9x19mm armor-piercing cartridges. For five Tushkano heads, three packs of 11.43x23 armor-piercing. For four Controller hands, five packs of 5.45mm armor-piercing...</text>
+	</string>
+	<string id="dan_trade_buck_2">
+		<text>Greetings, Dan. What's that song? 'I only have eyes for you...'</text>
+	</string>
+	<string id="dan_trade_buck_3">
+		<text>Greetings, Dan. I have those Tushkano heads you wanted...</text>
+	</string>
+	<string id="dan_trade_buck_4">
+		<text>Shit, I've still got that fucking mutant noise in my head! I need more ammo...</text>
+	</string>
+	<string id="dan_trade_buck_5">
+		<text>Hold cartridges, you can not recalculate - all precisely</text>
+	</string>
+	<string id="dan_trade_buck_6">
+		<text>About, has brought, the good fellow, just the client on them is available for me</text>
+	</string>
+	<string id="dan_trade_buck_7">
+		<text>Is not present, the brother, itself you understand, cartridges now in the price, especially armor-piercing! Except me, here only fighters trade in them, so take how many agreed, well and here to you, the gift - to steam of small bottles darling - to sit, relax, while trousers will dry, brains a little to clean</text>
+	</string>
+	<string id="dan_trade_buck_8">
+		<text>Sounds good to me, Dan. Ammo's scarce. Mutants aren't...</text>
+	</string>
+	<string id="dan_grab_helmet_0">
+		<text>Hi, Dan. What's on your mind?</text>
+	</string>
+	<string id="dan_grab_helmet_1">
+		<text>Marked One, listen. I've just received a tipoff that scientists have brought something unusual to the Agroprom military base. I don't know what it is, but with the security detail they had, it's got to be a top secret project. I've got a team there keeping it under observation, but with your skills and, er, obvious dislike of the military, I thought maybe you'd like to find out more...</text>
+	</string>
+	<string id="dan_grab_helmet_2">
+		<text>Are you sure this isn't a setup? Drawing attention to one area while they get the job done quietly at another?</text>
+	</string>
+	<string id="dan_grab_helmet_3">
+		<text>Yes, the thought had occurred to me, but this is an experienced group of veterans led by one of the best. Arhara is his name, and he's heard of you. Said he'd be honored to have you with them on the incursion. Arhara was once a member of Freedom, but had some serious disagreements with Lukash about their direction. He left as an 'Independant', and a group of Freedom's best fighters left with him. That's how good he is...</text>
+	</string>
+	<string id="dan_grab_helmet_4">
+		<text>Okay, I'll go and meet Arhara, and see if what you say is true...</text>
+	</string>
+	<string id="yakut_agro_helmet_0">
+		<text>Hi. Are you Arhara?</text>
+	</string>
+	<string id="yakut_agro_helmet_1">
+		<text>Yes, and you must be Marked One! I've been looking forward to meeting and working with you... Here's what we plan to do - we'll go through the southern gate and put down some resistance in the compound. When you hear the shooting you get into the main complex and obtain a package from the scientists. It's highly unlikely they'll put up any resistance, and the head scientist Ivaschenko will probably have it on him...</text>
+	</string>
+	<string id="yakut_agro_helmet_2">
+		<text>The plan sounds fine, with plenty of flexibility. It's good to meet some decent fighters willing to share the risk, and I'm honored you trust me with the important part. If your guys are ready, then let's go...</text>
+	</string>
+	<string id="dan_bring_helmet_0">
+		<text>Dan, it was there. Here I brought this helmet</text>
+	</string>
+	<string id="dan_bring_helmet_1">
+		<text>This is interesting, your a fine fellow Marked One. Here's your reward. I will examine this for awhile and we will speak later. Yes, Arhara asked if you would come and see him about some business</text>
+	</string>
+	<string id="yakut_help_0">
+		<text>Hello Arhara, Dan said you wanted to talk to me?</text>
+	</string>
+	<string id="yakut_help_1">
+		<text>One of my men went into the Agroprom underground two days ago and has not returned. You know from experience that the place is full of evil spirits, bandits, mutants, and even soldiers. He had a notebook of mine that I wouldn't want to fall into the wrong hands. Will you find him and bring back the notebook?</text>
+	</string>
+	<string id="yakut_help_2">
+		<text>Why don't you send one of your own fighters?</text>
+	</string>
+	<string id="yakut_help_3">
+		<text>There are only a few of us left now, so I can't take the risk. Bandits and mutants grow in numbers, every man with a weapon is important. You, as I saw for myself, are a master. You know the catacombs better than any Stalker. The men have donated cartridges to give to you</text>
+	</string>
+	<string id="yakut_help_4">
+		<text>I will find your notebook, cartridges I always need</text>
+	</string>
+	<string id="yakut_help_bring_0">
+		<text>How's the situation now?</text>
+	</string>
+	<string id="yakut_help_bring_1">
+		<text>My fighters are under too much pressure holding this complex. We may need to leave here. Do you have the notebook?</text>
+	</string>
+	<string id="yakut_help_bring_2">
+		<text>Yes, here you are. Your man is dead, I believe he ran into an Electro anomaly while trying to escape the Controllers</text>
+	</string>
+	<string id="yakut_help_bring_3">
+		<text>Thanks Marked One, we are lucky to have you as a friend. Controllers you say? then it really is necessary to change location</text>
+	</string>
+	<string id="yakut_need_do_0">
+		<text>Arhara, is there anything else?</text>
+	</string>
+	<string id="yakut_need_do_1">
+		<text>Marked One, there is another task on the Radar. In the red wood, near a helicopter, lies a backpack and nearby a foot locker. Take away anything you find there as an award. The most important thing at the crash site is my laptop, it contains important data! I need you to find it and bring to my brother Yakut</text>
+	</string>
+	<string id="yakut_need_do_2">
+		<text>Arhara, the Psi-radiation will kill me before I even get close to the crash site. Also, where would I find your brother Yakut?</text>
+	</string>
+	<string id="yakut_need_do_3">
+		<text>Marked One, remember the helmet you took to Dan? It will help you, with it you can pass through Psi-radiation</text>
+	</string>
+	<string id="yakut_need_do_4">
+		<text>Alright, I will go speak to Dan, but I have my doubts about this helmet...</text>
+	</string>
+	<string id="yakut_need_do_5">
+		<text>don't worry brother, I speak the truth. You will find Yakut in the Army Warehouses. He is camped with a group of Stalkers, their leader is called Wolf</text>
+	</string>
+	<string id="yakut_done_notebook_0">
+		<text>Are you Yakut? I have brought you the laptop</text>
+	</string>
+	<string id="yakut_done_notebook_1">
+		<text>Marked One! Long live your mother! My brother will be happy you found the laptop and that you returned safely. Arhara praised you, says your a professional</text>
+	</string>
+	<string id="yakut_done_notebook_2">
+		<text>I'm glad its over, too many Anomalies and doggies...</text>
+	</string>
+	<string id="dan_nauch_flash_0">
+		<text>Dan, have you learned anything about the helmet?</text>
+	</string>
+	<string id="dan_nauch_flash_1">
+		<text>Yes, its almost adjusted, but I'm missing some information. Listen, have you gathered info from laboratory X-18? There's some data in this laboratory about the influence of Psi-waves on the human brain. For certain they have more detailed information on this phenomenon. Bring to me the information from there or a flash card with the data. With this info I could adjust it quickly</text>
+	</string>
+	<string id="dan_nauch_flash_2">
+		<text>I will go to the lab and look for the flash card for you. I can't go to the Radar without a working helmet</text>
+	</string>
+	<string id="dan_nauch_flash_bring_0">
+		<text>Greetings Dan, here's the flash card</text>
+	</string>
+	<string id="dan_nauch_flash_bring_1">
+		<text>Well, let me take a look. Aha... So... that's what's necessary. Marked One, Wait while I adjust the helmet and I will give it to you... The helmet is adjusted and should protect you from Psi-radiation. Here you are, good luck Marked One</text>
+	</string>
+	<string id="uceh_about_prizrak_0">
+		<text>What's on your mind?</text>
+	</string>
+	<string id="uceh_about_prizrak_1">
+		<text>Listen, Marked One, about that corpse you found in the lab. Could you tell if it was really the body of Ghost? I have doubts that Ghost was lost. I don't think a professional like Ghost would have fallen to a controller. I will tell you something that very few people know, Ghost didn't come here alone. The Stalker that was with him was almost a look-alike. We continually confused them. You after all hardly remember what Ghost looked like. Do you think its really his corpse in the lab!?</text>
+	</string>
+	<string id="uceh_about_prizrak_2">
+		<text>It could be someone else, what else leads you to suspect its not him?</text>
+	</string>
+	<string id="uceh_about_prizrak_3">
+		<text>Before Vasilyev, and Ghost went into the Laboratory, we shared a small bottle the prior evening. We talked about the Zone, about the Monolith, but Ghost was mostly silent that evening. He had a look in his eyes, like a predator. He did say that all surviving members of Strelok's Group were being hunted down... He said he came to Yantar for the solitude, as there remains but only a few people here. Too many Zombies, and Snorks to look out for. I asked Ghost if they were brothers, he told me that they had got acquainted recently at the Bar. You know what I think?, he wanted to make it look like he was dead. And there lies the other loner, not Ghost. Now everyone thinks that he is dead, and that makes it easier for him to hide</text>
+	</string>
+	<string id="uceh_about_prizrak_4">
+		<text>Well, you could be right. Do you have any idea where he might hide?</text>
+	</string>
+	<string id="uceh_about_prizrak_5">
+		<text>Listen, Marked One, I have co-ordinates of a cache in Agroprom. I will send the location to your PDA. Ghost gave me these co-ordinates in case he didn't make it back. Marked One, go there and see if you can find some information on where he might be hiding</text>
+	</string>
+	<string id="uceh_about_prizrak_6">
+		<text>Agroprom? I will go and see if I can find something</text>
+	</string>
+	<string id="uceh_first_prizrak_0">
+		<text>Greetings, I have found it, there the diary was. Lying on the ground and its in poor condition so to read written text is difficult enough. The only thing, here, in one place about a person is written... 'You will find it in the Warehouses, near the base of Freedom'</text>
+	</string>
+	<string id="uceh_first_prizrak_1">
+		<text>Give it to me, the truth may lie within. Listen, Marked One, you should go to the Bar in Rostok and ask around, I will look over the diary, if I can read any more of it</text>
+	</string>
+	<string id="uceh_first_prizrak_2">
+		<text>It is fine, and most in the Bar it is necessary to me, to Barman business is, besides to buy something it would be advisable. I hope you can understand that</text>
+	</string>
+	<string id="barm_about_prizrak_0">
+		<text>Greetings, Barman, have questions...</text>
+	</string>
+	<string id="barm_about_prizrak_1">
+		<text>Ask certainly, to you I will tell all that I know</text>
+	</string>
+	<string id="barm_about_prizrak_2">
+		<text>Listen, you did not see Ghost? Speak, he was here</text>
+	</string>
+	<string id="barm_about_prizrak_3">
+		<text>Such business, Marked One, somewhere with one month ago or more, he was in the Bar and came to me, in general conversation concerns only me and Ghost, but... In general, he asked to find a 'master key', so to say with certain appearance</text>
+	</string>
+	<string id="barm_about_prizrak_4">
+		<text>Barman, do not muddle, I know about the 'master key'... similar to Ghost! Further...</text>
+	</string>
+	<string id="barm_about_prizrak_5">
+		<text>Marked One, you understand, I am a businessman, and the information, like as, too the goods. Give so, bring to me one artefact of Simbion and I will tell you everything that I know</text>
+	</string>
+	<string id="barm_about_prizrak_6">
+		<text>You are more of a 'Pusher' than a Businessman... Fine!! I will go, and have a look...</text>
+	</string>
+	<string id="barm_simb_prizrak_0">
+		<text>Well 'businessman', I have brought you a Simbion</text>
+	</string>
+	<string id="barm_simb_prizrak_1">
+		<text>Marked One, you, as always, please! It is pleasant to deal with you! In general listen, yes, he asked me to find the person more or less similar to it. A problem the extremely difficult, appearance at Ghost picturesque so I and itself did not hope that I can find, but day through two after ours with it of conversation, Duty have caught the music, is not far from the Southern outpost, it somehow painfully suspiciously conducted itself(himself), as subsequently it has appeared, he did not eat three days it, spoke that the Bloodsucker has attacked it also it, escaping, all things has lost also a miracle he has reached the Bar. I in general, all the same, am said lies by it or not. The main thing that it as two drops is similar on Ghost. Well I have fed him, have given out which what need. Ghost Here has come, they about something have talked and have fallen down towards Yantar. Everything, is more I that, another did not see. And then I was reached by the information that Ghost has left in a lab and... Has not returned. Yes he asked, that I spoke to nobody, about a 'master key' so I hope, it remains between us. Yes has absolutely forgotten. Scientists asked you to come to Yantar, they have business for you</text>
+	</string>
+	<string id="barm_simb_prizrak_2">
+		<text>You know, I not from the Talkative. Oh these scientists, time to them you will help will not lag behind, but all the same, thanks</text>
+	</string>
+	<string id="uceh_second_prizrak_0">
+		<text>Well, could read something?</text>
+	</string>
+	<string id="uceh_second_prizrak_1">
+		<text>Marked One, such business, in General I try to restore make-shifts of a diary but if it is fair, results yet not impressing. Listen, you could not help us? We have departed to last emission protection. We have somehow repaired it, but it all the same works through time. We have ordered to ourselves new. But the helicopter is not present some days, on visible because of last emissions, to us on Yantar it is very difficult to reach by air. And we without the computer as without hands. And I would decipher Ghost diary faster</text>
+	</string>
+	<string id="uceh_second_prizrak_2">
+		<text>I need a Computer System... can you help me find one?!</text>
+	</string>
+	<string id="uceh_second_prizrak_3">
+		<text>There is one person, Arhara, he as offered that to us, but then it was not necessary for us also we have refused</text>
+	</string>
+	<string id="uceh_second_prizrak_4">
+		<text>Well it is fine, I will try to find for Arhara...</text>
+	</string>
+	<string id="arhara_system_prizrak_0">
+		<text>Hello, Arhara, was here at Scientists, speak at you is protection?</text>
+	</string>
+	<string id="arhara_system_prizrak_1">
+		<text>Hello, Marked One, was yes Sly, I to its Duty have sold. So is not present it is more</text>
+	</string>
+	<string id="arhara_system_prizrak_2">
+		<text>To me that what to do? Where I protection will get?</text>
+	</string>
+	<string id="arhara_system_prizrak_3">
+		<text>Well in general there is one place, laboratory X-18, there should be precisely</text>
+	</string>
+	<string id="arhara_system_prizrak_4">
+		<text>Again to a Burer on a visit to go? Well they do not differ hospitality. I all right will go, have put much. Good luck</text>
+	</string>
+	<string id="uceh_system_prizrak_0">
+		<text>Hello, here protection, yes it was necessary to run about. I hope knowingly</text>
+	</string>
+	<string id="uceh_system_prizrak_1">
+		<text>Oh, Marked One, well you have gained us. And that to us have informed that the helicopter will be only in three days, and we has definitively departed. Look I the Yakut could read a name '... At... Warehouses'. Who it would be? Yes, here to you for the help, take cartridges for sniper</text>
+	</string>
+	<string id="uceh_system_prizrak_2">
+		<text>Yakut? I know Yakut... I'll go and have a chat with him...</text>
+	</string>
+	<string id="yakut_first_prizrak_0">
+		<text>Good to see you, Yakut. You're looking well. Tell me, did you know a guy called Ghost?</text>
+	</string>
+	<string id="yakut_first_prizrak_1">
+		<text>Well, I knew a guy once. A good Stalker, but I heard he died in X-16...</text>
+	</string>
+	<string id="yakut_first_prizrak_2">
+		<text>Yes, he did. Only some think he didn't...</text>
+	</string>
+	<string id="yakut_first_prizrak_3">
+		<text>So I've also heard. And that he was a member of Strelok's group. And they had a den in the Agroprom underground. So if he's still alive, mightn't he have gone back there?</text>
+	</string>
+	<string id="yakut_first_prizrak_4">
+		<text>Agroprom Underground? Interesting. What safer place to hide than a nest of Bloodsuckers and Bandits? Only a madman or an idiot would hide there, and Ghost was neither. But thanks, I'll check out what's down there...</text>
+	</string>
+	<string id="yakut_second_prizrak_0">
+		<text>Well, Ghost wasn't there, but I did meet a lot of people who went out of their way to conceal their identity. It was definitely an ambush...</text>
+	</string>
+	<string id="yakut_second_prizrak_1">
+		<text>Well, it's clear that you don't believe he died, which probably makes you a dangerous guy to be around. Look, I've also heard stories about Radar. You know where the entrance to X-10 is? Try there. It's certainly a good place to hide, but if I'm wrong then, sorry, that's all I know..</text>
+	</string>
+	<string id="yakut_second_prizrak_2">
+		<text>Radar? Last time I was there it was full of corpses. Some of them still moving. I'll check it out...</text>
+	</string>
+	<string id="talk_prizrak_0">
+		<text>The same old Ghost. You fooled everyone...</text>
+	</string>
+	<string id="talk_prizrak_1">
+		<text>It's wonderful to see you again, my friend! After we got separated, I thought you also gone forever. But when I started hearing stories of this 'Marked One', I knew I had to find out more! You always were the best amongst us, but please understand that I couldn't make myself known to you until I was sure. I learned that from you...</text>
+	</string>
+	<string id="talk_prizrak_2">
+		<text>I'm sorry. When I returned I couldn't remember anything but the occasional flashback. Although I bumped into some of our old friends, they were all careful and said nothing. But they looked after me in the background and guided me carefully. One came down to the Cordon to see me, another waited for me at Agroprom... You know, the more I learn, the more I realise how lucky I am to have such friends... I have so many questions, but I know we have work to do, and we need to get you sorted out. Just tell how you got out of that laboratory, with the Brain Scorcher running?</text>
+	</string>
+	<string id="talk_prizrak_3">
+		<text>You already know my story. The three of us went to the Lab - me, Vasiliev, and my new 'friend' Jimmy. I didn't know if we could turn off the Scorcher or not, but my main reason for going was to trick those who wanted me dead - him included. You heard about my 'doppelganger' then? I still feel sorry for the guy, but there was nothing I could do for him. He didn't believe that you were dead, and would have kept coming for you. I knew you'd be alive, but no one had heard anything from you, and there was no place in the Zone where I felt safe. So it was only after the body-in-the-lab stunt that I was finally able to start searching for news...\nThrough some of his people I learned that you were around, but had lost your memory. You probably know by now of the group calling themselves Avengers? Well, they're not. They're just cold-blooded Mercenaries who'll kill anyone to order. But there's something else. I've heard these so-called Avengers are run by people from the Last Day faction, who are just another bunch of fucking murderers...\nHey, did you know that when I was young, I got into a fight with their leader, and beat him? Well, it seems that he and his friends got together again and now he wants to destroy me, for as long and as painfully as possible... But they're bloody good at what they do. I don't know how they got trained, or where they got their equipment, but no faction wants to get in their way, not even Monolith. The guy who wants me is called Beast. He named himself, as I understand it. If he's eliminated, then they'll either fall apart or regroup with a new leader. Either way there's a good chance I'll be left alone...\nMy boys recently told me that Beast and Oblique, his right-hand man, have organized a group of men in the Swamps, at an old farm on the outskirts. They're turning it into a base, one of many they're planning around the Zone. I've already sent some fighters there, along with someone else you'll recognize, but they're either too young or too old, and they could use your experience. Can you go and help them? We don't just want to kill Beast, to stop what they're planning, but there's a flash drive with a list of all their victims, past and present. We need that. Now here... is a rough location of where our guys are in the Swamps...</text>
+	</string>
+	<string id="talk_prizrak_4">
+		<text>Ghost, your war is my war, your enemy my enemy. Whatever you need, I will be by your side. And yes, I've met some of these 'Avengers', but they're no superheroes...</text>
+	</string>
+	<string id="talk_prizrak_zver_0">
+		<text>I'm sorry, but Beast wasn't there. Oblique had his flash drive though, and you were right about it. There's an outstanding hit list, and a list of everyone killed to date. Hey, you're going to like this - I'm on the first list. You're on the second!</text>	<!-- 'Animal' changed to 'Beast' - Sword2012 - 31 Oct 16 -->
+	</string>
+	<string id="talk_prizrak_zver_1">
+		<text>So the gutless bastard ran away... Well, I'm very grateful for the flash drive. Here, please take my personal Gauss rifle. I found it near the Zone's center. It'd been in an Electro anomaly long enough to become a supergun, and its fire rate has increased several times over. I'd like you to have it. Also check your PDA - I entered a waypoint for my special stash, which includes my personal tactical outfit...</text>
+	</string>
+	<string id="talk_prizrak_zverfinal_0">
+		<text>Well, do we know where this invertebrate 'beast' is?</text>	<!-- 'Animal' changed to 'Beast' - Sword2012 - 31 Oct 16 -->
+	</string>
+	<string id="talk_prizrak_zverfinal_1">
+		<text>Yes, we do now. He'll want to surrender to the authorities, then swap his secrets for a safe way out of the Zone. He'll be at the Cordon, talking to the military at their outpost. They take protection there very seriously, so you can't go in alone. There'll be a small group of men waiting for you nearby. Children of veterans, all skilled, and many with scores to settle, so don't refuse their help. Beast should have a list of all his clients. Find that, and we can finish this off...</text>	<!-- 'Animal' changed to 'Beast' - Sword2012 - 31 Oct 16 -->
+	</string>
+	<string id="talk_prizrak_zverfinal_2">
+		<text>Don't worry. We'll get him...</text>
+	</string>
+	<string id="talk_prizrak_after_zver_0">
+		<text>Beast is dead, my friend. I made doubly sure. And here's his client list...</text>	<!-- 'Animal' changed to 'Beast' - Sword2012 - 31 Oct 16 -->
+	</string>
+	<string id="talk_prizrak_after_zver_1">
+		<text>Strelok, you honour me as a friend. I wish I had more than these sniper cartridges to offer you. Well, my brother, I know that the Monolith awaits you. Good luck, and may we meet again soon...</text>
+	</string>
+	<string id="yakut_ograb_0">
+		<text>Hello Yakut, the trouble has happened with me, I here have squabbled with LeHavre. So he has poisoned me in my opinion. A head till now the pig-iron. Yes has drunk brandy. Well so has regained consciousness, they probably have not noticed that I am drunk. Has looked round on fast in pockets, money is gone. Somehow with them has understood, then the Nectar of the Gods, and the things that are not present. Where they have got to? In the same place the base of freedom, turns out except scientists and to take not to whom?</text>
+	</string>
+	<string id="yakut_ograb_1">
+		<text>I here on affairs went, to children on base so saw as steam of Mercenaries carrying one hundred kilo backpacks, no less. They not through gate went, and the hole there is in a corner in a fence. As they bore it, for me till now a riddle. It is to any person not under force. And so wanted nuts on them, yes was not in time, it is sick quickly they skedaddle. And I think, what to me business to them, not mine, and figs with it. Now it is clear that they bore. Listen, descend here parking of Mercenaries at once behind village with Bloodsuckers. There the base at them, can there the Bloodsuckers and will find. At the same time business good you will make, painfully to play pranks they lately became, a lot of our brothers of the Stalker from their hands was lost. Here and so mutants flight from the center a rod so also they devils get the habit a robbery to be engaged. Yes it would be necessary to Lukash to tell that for affairs, it is direct not base, and a double-exit courtyard, Mercenaries as at home go. Though that from these scientists to take, as evening, so half of protection drunk, and the second smoked</text>
+	</string>
+	<string id="yakut_ograb_2">
+		<text>Well I to these devils that will set brains. Wait, I will return soon</text>
+	</string>
+	<string id="yakut_ograb_done_0">
+		<text>Yakut Is healthy, I have taken away here Bloodsuckers, but they in a box lie, and it with the lock code. Can you open? Yeah, and - senior to those thugs was clearly not a Mercenary - he of the clan Last Day</text>
+	</string>
+	<string id="yakut_ograb_done_1">
+		<text>Wait, aha here hold. Last Day? You're not wrong hour? that group are gone. Maybe someone from Mercenaries pretending</text>
+	</string>
+	<string id="yakut_ograb_done_2">
+		<text>Also it is all? I here the Zone floor stand, on me any one hundred corpses, Bloodsuckers the party bypass me, wild boars all legless go, and dogs without tails. Where? Where all mine of loots?</text>
+	</string>
+	<string id="yakut_ograb_done_3">
+		<text>Yes calm down you, Marked One, you has killed all of them from whom now you will ask? But now with empty pockets directly to a Monolith</text>
+	</string>
+	<string id="rost_sysh_speak_0">
+		<text>Owl? Wow, I was hoping it'd be you! Is everything ready?</text>
+	</string>
+	<string id="rost_sysh_speak_1">
+		<text>Hello again, my friend. Yes, there are at least ten of Beast's men down there, and many are almost invisible\nStrelok, I fear that this may be my last fight. Ghost taught me to listen to my intuition, and in the Zone instinct is more reliable than any detector. I'm not afraid. I'd do anything for Ghost. He saved my life three times, for God's sake! I'm glad he's not here, because he'd ask me to oversee everything from a vantage point. But I want to repay him. I just wanted you to know...</text>
+	</string>
+	<string id="rost_sysh_speak_2">
+		<text>Owl, you're talking shit, as always. I'm here now, so help us out and watch if anyone escapes. Later we'll drink together, and catch up on old times, okay? Let's do this...</text>
+	</string>
+	<string id="prizrak_speak_sysh_0">
+		<text>Ghost! Is it really you?</text>
+	</string>
+	<string id="prizrak_speak_sysh_1">
+		<text>Hello, my dear friend. It's been a long time, and I didn't know if I could trust you. Owl gave me your note. I'd read it often, and each time it brought me to tears. Now, I can return it to you...</text>
+	</string>
+	<string id="tirex_speak_0">
+		<text>Hello, Musics, Ghost has sent me, how are conditions?</text>
+	</string>
+	<string id="tirex_speak_1">
+		<text>Yes all a way, protection truth too much, but, I think, we will consult</text>
+	</string>
+	<string id="tirex_speak_2">
+		<text>Well it is good to smoke, we are put forward yes on the parties look, something to me not on myself somehow, painfully easy</text>
+	</string>
+	<string id="sahar_speak_helmet_0">
+		<text>Hello Professor.I need a helmet adjusted, please...</text>
+	</string>
+	<string id="sahar_speak_helmet_1">
+		<text>You need this helmet adjusted against Psi-radiation? Where did you get it?</text>
+	</string>
+	<string id="sahar_speak_helmet_2">
+		<text>I received it from Dan in the Swamps...</text>
+	</string>
+	<string id="sahar_speak_helmet_3">
+		<text>Well, this one is interesting, no doubt, but we've been dealing with this problem for a long time, and have already developed helmets that will protect you better than this one. We need to make one last measurement, then I'll give you a helmet adjusted by us, which will allow you to get through to Chernobyl. Are you happy to do a swap?</text>
+	</string>
+	<string id="sahar_speak_helmet_4">
+		<text>No problem, Professor. Here you go...</text>
+	</string>
+	<string id="sahar_speak_helmet_5">
+		<text>Sorry, Professor, I haven't got it with me...</text>
+	</string>
+	<string id="sahar_speak_helmet_6">
+		<text>Thanks. Take this as a gift from me...</text>
+	</string>
+	<string id="yakut_proverka_0">
+		<text>Yakut, I'd like to talk to you...</text>
+	</string>
+	<string id="yakut_proverka_1">
+		<text>Forgive, Marked One, I is now occupied. Freeman asked to come to it. Speaks affairs much, and Marked One of lines knows where goes, idles</text>
+	</string>
+	<string id="zahar_larger_protect_0">
+		<text>Greetings. You Zahar? There is a job?</text>
+	</string>
+	<string id="zahar_larger_protect_1">
+		<text>Marked One, is one business, of risk are not afraid?</text>
+	</string>
+	<string id="zahar_larger_protect_2">
+		<text>That, Zahar, has desired to joke? We here risk every minute, so one risk more... Do not pull tell</text>
+	</string>
+	<string id="zahar_larger_protect_3">
+		<text>Business not simple, but very important for us. My main assistant Dan from bogs has sent me the extracted trophies. For you, as well as for many, they do not represent interest are parts of mutants, and for us - a way to survive. Deliver them owe three hunters. They have stopped on rest at abandoned factory in Cordon, as while under the bridge where a post of military men cannot take place. There are data from Akim that on my people to prepare the attack. I have warned them, but it is not known, how many will be marauders... Has contacted Bes - that says that all its people are occupied - with bandits there is a territory repartition on Marshes. You the soldier skilled - will not help? You will find the senior - Sepator - he will explain all. If it agree - a gift for me</text>	<!-- Changed 'Demon' to 'Bes'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="zahar_larger_protect_4">
+		<text>All right I descend on a cordon, I will help children</text>
+	</string>
+	<string id="dan_larger_protect_0">
+		<text>Greetings. I from Zahar, to you in help</text>
+	</string>
+	<string id="dan_larger_protect_1">
+		<text>While all is silent, but not to be pleasant to me it. You, I see, have managed to pass under the bridge. What not to risk, if we will be in time - we will make so: we will go back on bogs, and you - take away a bag and Zahar transfer. I threw it onto a roof for safety. And for your service - take while my hunting bow with a fitted night vision device and arrows. They may come in useful...</text>
+	</string>
+	<string id="dan_larger_protect_2">
+		<text>It is good. I do not love superfluous blood. To bogs, I hope, will gather additionally. Here lines, in my opinion, we were late - visitors have appeared. Well, keep, musics...</text>
+	</string>
+	<string id="sepator_ziv_0">
+		<text>Uff... Was hot...</text>
+	</string>
+	<string id="sepator_ziv_1">
+		<text>Also do not speak... The skill of the hunter was useful... Thanks that has helped. Take the bag from a roof and take the contents to Zahar, but not to lose any! Tell to it that all is Okay, and I to Sidorovich on the way will come, I will smoke, yes to myself - on bogs I will go</text>
+	</string>
+	<string id="sepator_ziv_2">
+		<text>Frets. I hope, still we will see. To smoke, by the way, harmfully. Though, it is better to smoke, than to breath our poisoned air. On ecology all nasal... only on the summits confused go...</text>
+	</string>
+	<string id="zahar_larger_done_0">
+		<text>Greetings, Zahar. Here - the contents of that filthy bag...</text>
+	</string>
+	<string id="zahar_larger_done_1">
+		<text>Here thanks! I hope Sepator is live?</text>
+	</string>
+	<string id="zahar_larger_done_2">
+		<text>Yes, safe and sound. Where he will get to</text>
+	</string>
+	<string id="zahar_larger_done_3">
+		<text>Has gained us fine, here take for work</text>
+	</string>
+	<string id="zahar_larger_done_4">
+		<text>Thanks, class Art!</text>
+	</string>
+	<string id="zahar_larger_done_5">
+		<text>Is not present, it was lost... Was marauders Too much...</text>
+	</string>
+	<string id="zahar_larger_done_6">
+		<text>It is a pity... The good Music was... Means, with protection it has not turned out. Well only one - the bag with parts of mutants is whole. Here, take - can be useful...</text>
+	</string>
+	<string id="zahar_larger_done_7">
+		<text>Thanks...</text>
+	</string>
+	<string id="zahar_larger_done_8">
+		<text>Here lines... In turmoil I at all have not looked, whether it is live...</text>
+	</string>
+	<string id="zahar_larger_done_9">
+		<text>If it is live - that you should talk over with it, and after and we will communicate to you...</text>
+	</string>
+	<string id="zahar_larger_done_10">
+		<text>Has understood</text>
+	</string>
+	<string id="dan_znakom_0">
+		<text>Hello brother. Who are you?</text>
+	</string>
+	<string id="dan_znakom_1">
+		<text>I'm Dan, of the 'Hunter' faction. We've organised small base here, where we buy up Stalkers' artefacts and mutant parts</text>	<!-- Small edits - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="dan_znakom_2">
+		<text>Do you trade your goods with the bar?</text>	<!-- Small edits - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="dan_znakom_3">
+		<text>We sell our mutant parts to Sakharov in Yantar, as the Bar doesn't pay a good price. You should talk with Zahar - he has set up our main base close to the Bar</text>	<!-- Small edits - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="zahar_tade_art_0">
+		<text>Zahar, do you buy artefacts?</text>	<!-- Small edits - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="zahar_tade_art_1">
+		<text>We buy up Artefacts for the scientists. Currently we buy 'Crystal' and 'Meat Chunk' artefacts. For three Crystals we will give you an Absolute Artefact, for three Meat Chunks we will give you a modified weapon. For one 'Gravi' you will receive three Antirads. Okay?</text>	<!-- Small edits - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="zahar_tade_art_2">
+		<text>Zahar, I have three Crystals for you</text>	<!-- Small edits - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="zahar_tade_art_3">
+		<text>I have found three Meat Chunks, saved especially for you</text>	<!-- Small edits - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="zahar_tade_art_4">
+		<text>I need some Antirads. Here's a Gravi</text>	<!-- Small edits - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="zahar_tade_art_5">
+		<text>Sakharov will be happy to see three Crystals</text>	<!-- Small edits - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="zahar_tade_art_6">
+		<text>You always surprise me, how do you manage to find so many Artefacts? My blockheads only find Stone Bloods or nothing. Nothing this time?</text>!-- Small edits - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="zahar_tade_art_7">
+		<text>Gravi? here take some Antirad</text>
+	</string>
+	<string id="zahar_tade_art_8">
+		<text>This time my backpack is empty</text>
+	</string>
+	<string id="zahar_ask_help_0">
+		<text>Zahar, what's wrong?</text>
+	</string>
+	<string id="zahar_ask_help_1">
+		<text>Until recently, we once a week sent Artefacts to the scientists in Yantar. A group of Mercenaries has been ambushing my men trying to make these deliveries in the Wild Territory. Can you get rid of these Mercs?</text>
+	</string>
+	<string id="zahar_ask_help_2">
+		<text>Zahar, these are your problems, why should I get involved?</text>
+	</string>
+	<string id="zahar_ask_help_3">
+		<text>Marked One, you know my men are not good fighters. I'm afraid if we try to do it ourselves, my men will be wiped out. I went to Voronin and asked for help, but as always he answered: I can't spare the manpower. Help us re-establish a route to the Scientists</text>
+	</string>
+	<string id="zahar_ask_help_4">
+		<text>I will help you Zahar, I don't want to see you go out of business</text>
+	</string>
+	<string id="zahar_ask_done_0">
+		<text>Zahar greetings, the pass is free of Mercs now</text>
+	</string>
+	<string id="zahar_ask_done_1">
+		<text>You're a fine fellow, at last we can trade with the Scientists directly</text>
+	</string>
+	<string id="zahar_ask_done_2">
+		<text>Zahar, you should organise an advanced post in the Wild Territory, so they don't return again</text>
+	</string>
+	<string id="zahar_ask_done_3">
+		<text>Yes that's good advice, here's your reward</text>
+	</string>
+	<string id="prapor_speak_group_0">
+		<text>Well Prapor how's the service life?</text>
+	</string>
+	<string id="prapor_speak_group_1">
+		<text>Marked One, we caught a bandit trying to sneak through yesterday. We found a broken PDA in his backpack...</text>
+	</string>
+	<string id="prapor_speak_group_2">
+		<text>What's that got to do with me?</text>
+	</string>
+	<string id="prapor_speak_group_3">
+		<text>Well you're the kind of person who likes to stick his nose into other people's affairs. It's yours if you bring me some scientific medkits</text>
+	</string>
+	<string id="prapor_speak_group_4">
+		<text>How many?</text>
+	</string>
+	<string id="prapor_speak_group_5">
+		<text>Can you get me twenty, or is that too much to ask? Okay, I'll settle for ten...</text>
+	</string>
+	<string id="prapor_speak_group_6">
+		<text>Well you ask a big price for a PDA that doesn't work, 10 scientific medkits? Well alright I will bring</text>
+	</string>
+	<string id="prapor_done_group_0">
+		<text>Well Prapor I have brought the medkits</text>
+	</string>
+	<string id="prapor_done_group_1">
+		<text>Thanks Marked One, these are for my men. Voronin or the Miser, doesn't supply us with these. I need to take care of my guys, you understand?. Here take the PDA, go to the Barman. He has two egg-heads in the back who can repair anything</text>
+	</string>
+	<string id="barmen_speak_group_0">
+		<text>Greetings Barman, who can repair this PDA?</text>
+	</string>
+	<string id="barmen_speak_group_1">
+		<text>Yes I can arrange that, but you understand I need a favor first. Bring me a 'Chimera Tears' artefact. Zahar ordered one from me almost a month ago...</text>
+	</string>
+	<string id="barmen_speak_group_2">
+		<text>A Chimera Tears for repairing a PDA? No way! I'll get you a 'Fire Tears' and you can cook it yourself...</text>
+	</string>
+	<string id="barmen_speak_group_3">
+		<text>Hey, Marked One, don't get upset! Give me a Fire Tears and we have a deal...</text>
+	</string>
+	<string id="barmen_speak_group_4">
+		<text>Okay, I'll leave it with you. In the meantime I'll find you a Fire Tears...</text>
+	</string>
+	<string id="barmen_done_group_0">
+		<text>I've found you a Fire Tears. Here...</text>
+	</string>
+	<string id="barmen_done_group_1">
+		<text>Marked One, don't get angry. Lanky had a birthday party and too much vodka was involved. Your PDA was on his bench, and ended up getting smashed to bits...</text>
+	</string>
+	<string id="barmen_done_group_2">
+		<text>Is this a joke? There might be people in trouble or someone needing help! And your drunks destroy the information?</text>
+	</string>
+	<string id="barmen_done_group_3">
+		<text>Marked One, I understand the guys did something stupid, and I gave them a royal bollocking... But there's nothing more I can do, other than offering you a case of vodka as indemnification...</text>
+	</string>
+	<string id="barmen_done_group_4">
+		<text>I know there's nothing you can do, but that doesn't mean I'm not fucking angry! This has been such a waste... Look, just give me time to calm down, okay?</text>
+	</string>
+	<string id="sahar_speak_group_0">
+		<text>Professor, I need to talk to you...</text>
+	</string>
+	<string id="sahar_speak_group_1">
+		<text>Yes, Marked One, I'm listening</text>
+	</string>
+	<string id="sahar_speak_group_2">
+		<text>Recently I found a military man's corpse. On it was a note. It mentioned an expedition to the Brain Scorcher...</text>
+	</string>
+	<string id="sahar_speak_group_3">
+		<text>Marked One, I shouldn't even be telling you this. Several months ago a group of scientists, with support from above, obtained a permit to search Lab X-10 at Radar. I tried every possible way to stop them, explaining that the territory was understudied, and that their chances of reaching the lab alive were very slim indeed. I suggested that we first complete the study of Lab X-16, to better understand how quickly Psi radiation affects the brain, and design counter-measures. But they wouldn't listen to me. Now weeks have passed, and nothing has been heard from them. I'm inclined to think the worst...</text>
+	</string>
+	<string id="sahar_speak_group_4">
+		<text>This is strange, Professor, when I went to disconnect the Brain Scorcher I didn't find any group there, and saw no trace of these people. Well, there were Monolithians, but they're fanatics, not people any more...</text>
+	</string>
+	<string id="sahar_speak_group_5">
+		<text>Its possible you didn't investigate all the bunker, for certain during that moment you had more important affairs. Don't you think that it's necessary for you to visit there once again?</text>
+	</string>
+	<string id="sahar_speak_group_6">
+		<text>Likely you are right, Professor. To understand what happened there, I should go and explore it once again</text>
+	</string>
+	<string id="sahar_zaniat_0">
+		<text>Professor, I need to talk with you...</text>
+	</string>
+	<string id="sahar_zaniat_1">
+		<text>Keep your voice down, Marked One. If it's about what I think, you need to talk with someone who's very familiar with the Brain Scorcher. You also need to know that there are many bad people here in the Zone, and some of them work for those who are even more dangerous. I've only heard rumours, but... we're scientists, not soldiers... You'll need to infiltrate a mercenary group at the Army warehouses. I can't say any more about this until it's safe to do so....</text>
+	</string>
+	<string id="ucen_bunker_0">
+		<text>Hello. You don't look good. Take this medkit...</text>
+	</string>
+	<string id="ucen_bunker_1">
+		<text>Thank you, young man... coughs blood... Forgive I do not know what is your name, but I am afraid... coughs blood... I'm afraid it will not help. My back's broken, and several limbs too... You know you don't have long when the Bloodsuckers leave you alone...</text>
+	</string>
+	<string id="ucen_bunker_2">
+		<text>Forgive me, Doctor. What happened to you?</text>
+	</string>
+	<string id="ucen_bunker_3">
+		<text>It is difficult To me to speak... khe-khe-khe. Our expedition should reach to burner and investigate it... spits blood... Yes this France is able to insist... What was... khe-khe-khe... Mad idea, but he could persuade me and some others of the Board. Sakharov tried to dissuade us, but... Money... Spits and pants... A heap of money spent in this project and pride... Rattles, eyes are closed</text>
+	</string>
+	<string id="ucen_bunker_4">
+		<text>Yes you all in blood, give I though I will try to stop blood</text>
+	</string>
+	<string id="ucen_bunker_5">
+		<text>Already... Pants... Not help... Shoot down... Shoot down me</text>
+	</string>
+	<string id="ucen_bunker_6">
+		<text>I should ask</text>
+	</string>
+	<string id="ucen_bunker_7">
+		<text>I Beg... Stop... Stop these... khe-khe I can not... Kill me</text>
+	</string>
+	<string id="zahar_informator_pda_give_0">
+		<text>Greetings, Zahar, is a pity Dan</text>
+	</string>
+	<string id="zahar_informator_pda_give_1">
+		<text>It here has left one bag, PDA Tirana, speak it to you is necessary?</text>
+	</string>
+	<string id="zahar_informator_pda_give_2">
+		<text>Yes the informant asked to extract for it</text>
+	</string>
+	<string id="zahar_informator_pda_give_3">
+		<text>Well so drive 30,000 and it yours</text>
+	</string>
+	<string id="zahar_informator_pda_give_4">
+		<text>Costly? certainly, well all right hold</text>
+	</string>
+	<string id="zahar_informator_pda_give_5">
+		<text>Lines I without money will approach today later</text>
+	</string>
+	<string id="zahar_dan_bring_helmet_0">
+		<text>Greetings, Zahar, yes here took the order From Dan and he has died</text>
+	</string>
+	<string id="zahar_dan_bring_helmet_1">
+		<text>You about the helmet? Yes give I calculate. Yes, Arhara asked to come to it</text>
+	</string>
+	<string id="zahar_dan_nauch_flash_bring_0">
+		<text>Greetings... has found for Dan a flash card, and... In general of that to do I do not know</text>
+	</string>
+	<string id="zahar_dan_nauch_flash_bring_1">
+		<text>Let me give it a go... Ah, I see... There, Marked One, one calibrated helmet...</text>
+	</string>
+	<string id="prizrak_tainiy_hod_0">
+		<text>Greetings, my brother...</text>
+	</string>
+	<string id="prizrak_tainiy_hod_1">
+		<text>What's wrong?</text>
+	</string>
+	<string id="prizrak_tainiy_hod_2">
+		<text>In that bunker lies someone I tried to help. A scientist, who told me that they tried to disable the Scorcher, but it got them first...</text>
+	</string>
+	<string id="prizrak_tainiy_hod_3">
+		<text>And you believed him? You know why they were here? They were searching for LeHavre. They heard he knew of a secret pass to the Monolith from here, which would have saved them having to pass through Pripyat. That place is swarming with Monolith, trying to stop anyone getting further. Everyone was looking for a way around them...</text>
+	</string>
+	<string id="prizrak_tainiy_hod_4">
+		<text>Maybe the guy just didn't know...</text>
+	</string>
+	<string id="prizrak_tainiy_hod_5">
+		<text>Well, very few people did. I heard talk of it occasionally, but never anything firm. And now you know everything about it that I do...</text>
+	</string>
+	<string id="prizrak_tainiy_hod_6">
+		<text>So you've no idea where to even start?</text>
+	</string>
+	<string id="prizrak_tainiy_hod_7">
+		<text>No, I looked everywhere. But your friend LeHavre certainly would have known. Go and talk to Freeman. I'm sure he'll have an idea. Most likely there'll be a blueprint, probably in the hands of the Mercs. Once you have it, come back and we'll talk further...</text>
+	</string>
+	<string id="prizrak_tainiy_hod_8">
+		<text>I'll do that. He owes me a favor anyway...</text>
+	</string>
+	<string id="freeman_tainiy_hod_0">
+		<text>Hello, Freeman. Have you heard about LeHavre?</text>
+	</string>
+	<string id="freeman_tainiy_hod_1">
+		<text>Yes, I have. The whole Zone knows about it...</text>
+	</string>
+	<string id="freeman_tainiy_hod_2">
+		<text>Then we need to keep this between us. I've heard of a secret path to the Monolith from Radar, but to find it I'll need a blueprint. Any ideas?</text>
+	</string>
+	<string id="freeman_tainiy_hod_3">
+		<text>Listen, Marked One. In my first meeting with DeJames I saw such a blueprint. I didn't know what it was, nor how important it could be, but I have a good memory, especially when it concerns visuals. Well, when you brought me my case, there weren't just my documents inside, but also some of DeJames. In them was a mention about such a blueprint, and a mercenary by the name of Tamaz. I understand he was one of LeHavre's foremen, and he and his men eliminated anyone who got in LeHavre's way. Recently I heard that some remnants of LeHavre's organization have gathered at the Dump. Most likely Tamaz will be there with his men, and if there's a blueprint then Tamaz should have it. I suggest you go there and check it out...</text>
+	</string>
+	<string id="freeman_tainiy_hod_4">
+		<text>Okay, and if I find anything I'll bring  it to you...</text>
+	</string>
+	<string id="freeman_tainiy_hod_done_0">
+		<text>I found the blueprint. But there's something I don't understand...</text>
+	</string>
+	<string id="freeman_tainiy_hod_done_1">
+		<text>Let me have a look. Ah, yes. I see what you mean... Look here, Marked One. Do you see this room with a switch? Well, find it, go downstairs, and see what's there...</text>
+	</string>
+	<string id="freeman_tainiy_hod_done_2">
+		<text>Thank you, Freeman, has again gained, from me kickback. Well all I have run, have put much</text>
+	</string>
+	<string id="prizrak_gold_art_0">
+		<text>Well, Ghost, you as always are right. I have found a secret passage</text>
+	</string>
+	<string id="prizrak_gold_art_1">
+		<text>I and thought. Yes, Marked One, business to you is. It is necessary for me, that you have found rare enough Artefact. It is called 'Gold Chunk'. To find it is possible only near Chernobyl, most likely it is necessary to look in North Chernobyl (in a courtyard). Find me 10 pieces, and I will tell about one secret passage. North Chernobyl in the Sarcophagus and back. You will make?</text>
+	</string>
+	<string id="prizrak_gold_art_2">
+		<text>'Gold Chunk' you tell, all right I will look</text>
+	</string>
+	<string id="prizrak_gold_art_done_0">
+		<text>Hi, Ghost. I have your Gold Chunks...</text>
+	</string>
+	<string id="prizrak_gold_art_done_1">
+		<text>All of them? Well done and thank you, my friend. These will help me significantly. While you were away I worked out the coordinates of a transition from Chernobyl North to the Sarcophagus, and sent them to your PDA. Also, you should now be able to get straight to the Sarcophagus from here, inside X-10...</text>
+	</string>
+	<string id="prizrak_tri_tainik_0">
+		<text>So, is that everything done? Are you free to leave here?</text>
+	</string>
+	<string id="prizrak_tri_tainik_1">
+		<text>Unfortunately, not yet, as I have one more task for you. Did you ever hear of the Monolithian who looks after their records? Unbelievable, eh? But it's true, and who wouldn't want to get their hands on them? Not just notes on Monolith, but everything on Chernobyl since the accident, including the secret labs and their connection with the Wish Granter!\nWell, since the Brain Scorcher was shut down, more and more soldiers are being landed en route to Chernobyl by air, and this has really got Monolith mobilized. Somehow they're sending mutants to the south to block the way, but at some point their scribe got caught out in the open, and hid away his diaries in case he was killed or captured. My guys were watching from a distance, and told me about the three areas where he stopped. I'll tell you now that they won't be easy to spot, so you'll need to look around. There'll also be a shitload of mutants looking for their next meal, so be careful\nBut with these diaries we'll know so much more about the Monolith, which is why you're the only one I trust to go after them...</text>
+	</string>
+	<string id="prizrak_tri_tainik_2">
+		<text>Don't worry, I'll get them for you. We need you back out in the field...</text>
+	</string>
+	<string id="prizrak_tri_tainik_est_0">
+		<text>Well, they're not Strugatsky, but this is some of the best info on the Zone I've read in a long time...</text>
+	</string>
+	<string id="prizrak_tri_tainik_est_1">
+		<text>Thank you, my friend. I knew I could trust you. And now, we can move on with our work. Good luck to you, my brother!</text>
+	</string>
+	<string id="price_dan_text">
+		<text>Dan's list:\n \n9x19 armor-piercing cartridges, for three Flesh eyes\n \n11.43x23 armor-piercing cartridges, for five Tushkano heads\n \n5.45x39 armor-piercing cartridges, for four Controller hands</text>
+	</string>
+	<string id="price_dan_prinesi_text">
+		<text>Dan's offers:\n \n40 MIL PDAs will get you some specialized repair work done...\n \nThree Blind Dog tails will get you either 5.45x39 or 5.56x45 ammo, or something special, like four packs of 9 x 18mm +P+, or four packs of 16 x 70 birdshot; but six Wild Boar hooves will earn you a valuable artefact...</text>
+	</string>
+	<string id="dyak_nebo_help_0">
+		<text>Hello, who are you guys?</text>
+	</string>
+	<string id="dyak_nebo_help_1">
+		<text>Hello, Marked One. We're from the group known as 'Clear Sky', and we control this territory...</text>
+	</string>
+	<string id="dyak_nebo_help_2">
+		<text>I understand...</text>
+	</string>
+	<string id="dyak_nebo_help_3">
+		<text>Though this swampland is considered ours, several key points are held by capable groups of bandits. I sent one of my men to observe their camp nearby, but he's not returned. I fear he has been captured or maybe even killed. The men believe that our man is still alive and want to make a rescue attempt. As you can see we are few in number, and I have a twisted ankle and can't lead the attack. You're an obviously skilled Stalker, so if you will lead this attack, I'll be in your debt...</text>
+	</string>
+	<string id="dyak_nebo_help_4">
+		<text>I'll gladly help you, but can you spare any ammo or medkits?</text>
+	</string>
+	<string id="dyak_nebo_help_5">
+		<text>We don't have enough medkits, but you can take this ammo...</text>
+	</string>
+	<string id="dyak_nebo_help_6">
+		<text>Thanks. I can use all the ammo I can get...</text>
+	</string>
+	<string id="dyak_nebo_help_7">
+		<text>Here, take this, and good luck to you guys...</text>
+	</string>
+	<string id="saha_nebo_help_0">
+		<text>Are you okay?</text>
+	</string>
+	<string id="saha_nebo_help_1">
+		<text>Yes. I'm a little beat up, but nothing's broken...</text>
+	</string>
+	<string id="saha_nebo_help_2">
+		<text>How did you get captured?</text>
+	</string>
+	<string id="saha_nebo_help_3">
+		<text>I was watching the bandit camp and nothing was really happening so I decided to wash my socks. I put my weapon down and started cleaning when I heard a Bloodsucker roar. It was after me so I ran, and in my panic I ran into this base, and became a captive. The bandits were howling with laughter at me. It was quite humiliating...</text>
+	</string>
+	<string id="saha_nebo_help_4">
+		<text>Yes, well we need to get out of here before any more bandits arrive...</text>
+	</string>
+	<string id="dyak_nebo_help_done_0">
+		<text>I got your man out. He's safe now...</text>
+	</string>
+	<string id="dyak_nebo_help_done_1">
+		<text>Here, thanks. Listen, if you go to our main base, please don't mention this...</text>
+	</string>
+	<string id="dyak_nebo_help_done_2">
+		<text>And where's your base?</text>
+	</string>
+	<string id="dyak_nebo_help_done_3">
+		<text>It's not too far from here. You go on a straight line past the church, then past a tower, and then you'll see our outpost in a small farm. Behind that is a portal - it'll take you to our base. Wait, I'll put an approximate location of the farm onto your PDA...</text>
+	</string>
+	<string id="dyak_nebo_help_done_4">
+		<text>I understand. Thanks. Did you have anything for me?</text>
+	</string>
+	<string id="dyak_nebo_help_done_5">
+		<text>Sorry, I'd nearly forgotten. Here you go...</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_0">
+		<text>What's going on?</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_1">
+		<text>Another vermin caught in the trap. Do you really think you can just walk in anywhere and take what you want?</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_2">
+		<text>I'm sorry, brother. In the Zone practically every house is ownerless, and you take anything useful to avoid it being wasted. If I'd known this place was occupied, I wouldn't have touched anything...</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_3">
+		<text>This stinking bog has become infested with thieves. You can't turn your back for a minute!</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_4">
+		<text>Brother, please listen! I'm no thief. What do I have to do to prove it to you?</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_5">
+		<text>You're going to have to do a job for us! Or become frog food...</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_6">
+		<text>What job are you talking about?</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_7">
+		<text>Nearby is an artefact container. We need you to retrieve it for us...</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_8">
+		<text>So what's the problem? Bloodsuckers, Zombies, or anomalies?</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_9">
+		<text>Nothing dangerous. An anomaly has formed a portal around the container. We just need you to find a way to get it...</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_10">
+		<text>How will I find a way?</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_11">
+		<text>You'll need to figure it out. Prove your commitment...</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_12">
+		<text>Okay. But can you spare any cartridges or medkits?</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_13">
+		<text>I won't go, sorry</text>
+	</string>
+	<string id="kalmyak_vstrecha_first_14">
+		<text>Okay, then...</text>
+	</string>
+	<string id="kalmyak_vstrecha_second_0">
+		<text>That was a little tricky, but here's your container...</text>
+	</string>
+	<string id="kalmyak_vstrecha_second_1">
+		<text>I didn't expect you to return. I thought you'd run away</text>
+	</string>
+	<string id="kalmyak_vstrecha_second_2">
+		<text>I told you I was no thief. I hope you believe me now...</text>
+	</string>
+	<string id="kalmyak_vstrecha_second_3">
+		<text>Yes, I believe you. Here, this has all been a misunderstanding...</text>
+	</string>
+	<string id="kalmyak_znakomstvo_0">
+		<text>Why do you live here, amidst the swamps?</text>
+	</string>
+	<string id="kalmyak_znakomstvo_1">
+		<text>Why? I grew up not far from here. When all this madness, called the Zone, began I was conscripted into a local protection group. I had not long been married and was expecting my first-born. I was stationed on the perimeter, the Zone wasn't as large then. And here it comes... The letter, my wife has radiation sickness. My village was lied to by the government who told them it was safe to stay there. I have to go and see my wife, but the young officer denies my request. I lost my mind and grabbed my weapon and shot down all who tried to stop me. I walked into the hospital with my clothes covered in blood, the AK-47 still shaking in my hands. There my Grandma sits, and I ask 'Where is my Katka?', and she points to the sign: Mortuary. I... I go in there, and there she lies... so beautiful...</text>
+	</string>
+	<string id="kalmyak_znakomstvo_2">
+		<text>Kalmyak, I am so sorry to hear this...</text>
+	</string>
+	<string id="kalmyak_znakomstvo_3">
+		<text>It was so quiet, and then, beside her, I found the baby. So small, pink cheeks, but determined eyes, like my Katka's. I held his lifeless body to my chest and just slumped into a corner and wept. I don't know for how long. The military police came to arrest me, and I didn't resist. I was taken back to the camp and locked in a cell...</text>
+	</string>
+	<string id="kalmyak_znakomstvo_4">
+		<text>Then what happened?</text>
+	</string>
+	<string id="kalmyak_znakomstvo_5">
+		<text>Next day a big group of mutants attacked our section of the perimeter and broke through the defence. Gunfire everywhere, screams and roars, panic everywhere. The guards had fled, leaving me to my fate. My comrade Fedor came to my rescue and shot the lock open. He handed me a weapon and told me to run. Since then the Zone has been my home, I have nothing to go back to. Here I make ointments out of mutant glands and local plants - their healing properties are amazing. If you ever need some, I trade for vodka or cigarette...s</text>
+	</string>
+	<string id="kalmyak_znakomstvo_6">
+		<text>Life has not been fair to you, Kalmyak. The truth is, that's what brought me to your camp - to buy ointment to help someone...</text>
+	</string>
+	<string id="kalmyak_znakomstvo_7">
+		<text>I won't tell you the recipe. Just that it reduces radiation and stops bleeding...</text>
+	</string>
+	<string id="kalmyak_change_0">
+		<text>Greetings, Kalmyak. I've come for some ointment...</text>
+	</string>
+	<string id="kalmyak_change_1">
+		<text>You have vodka or cigarettes? Remember, for one jar of ointment - three bottles of vodka, or three packs of cigarettes...</text>
+	</string>
+	<string id="kalmyak_change_2">
+		<text>Here are the cigarettes...</text>
+	</string>
+	<string id="kalmyak_change_3">
+		<text>Here's your vodka...</text>
+	</string>
+	<string id="kalmyak_change_4">
+		<text>Sorry, maybe next time...</text>
+	</string>
+	<string id="digger_repair_0">
+		<text>Vasily, can you take a look at this?</text>
+	</string>
+	<string id="digger_repair_1">
+		<text>It does need a little work...</text>
+	</string>
+	<string id="digger_repair_2">
+		<text>Repair the first weapon</text>
+	</string>
+	<string id="digger_repair_3">
+		<text>Repair the second weapon</text>
+	</string>
+	<string id="digger_repair_4">
+		<text>Repair the outfit</text>
+	</string>
+	<string id="digger_repair_5">
+		<text>Sorry, I don't have that kind of money...</text>
+	</string>
+	<string id="digger_repair_6">
+		<text>Well here look as the newcomer</text>
+	</string>
+	<string id="digger_repair_7">
+		<text>Why the hell do you even wear an outfit in this condition? I'll need to change all the armor plates...</text>
+	</string>
+	<string id="digger_repair_8">
+		<text>It's quite good, I thank you</text>
+	</string>
+	<string id="digger_repair_9">
+		<text>Now it's even better, than when it was new</text>
+	</string>
+	<string id="digger_repair_10">
+		<text>Can you take a look at something else?</text>
+	</string>
+	<string id="digger_repair_11">
+		<text>Yes please that there at us:</text>
+	</string>
+	<string id="vasil_first_0">
+		<text>Oh! Are you related to Sidorovich?</text>
+	</string>
+	<string id="vasil_first_1">
+		<text>Ah, so you're Marked One. Not the name you were born with, I'm sure, just as you can assume mine isn't Vasily. Listen - do you know the difference between a relative and a friend? You get to choose your friends... I've been in the Zone from the very beginning. Who do you think supplied the Scientists with their home comforts? Not the government, that's for certain! Do you know who was the first to supply arms in the Zone? Me, that's who! I was the first trader who could organize deliveries of everything - protection, weapons, and medicines. Yes, the one you call the Barman was my assistant, and every piece of business with every fighter in the Zone passed through us. We got them everything they needed, without government intervention. And then that bastard Sidorovich came along and did a deal with the military commanders - he even bargained with animals like Borov - and after that we were hounded and forced out of everything. He even took over my bunker in the Cordon... I swear that one day I will feed him to the Svatalka outside... I'm still alive though, much to his annoyance, but his reach doesn't extend to out here, where kind people live and work. I've survived, though I have a bad limp from a bullet wound. One day, though, the Zone will balance out everything, and our roles will be reversed!</text>
+	</string>
+	<string id="vasil_first_2">
+		<text>Vasily, that is some story, and I didn't mean any disrespect. I'd like to do business with you. Do you service equipment?</text>
+	</string>
+	<string id="vasil_first_3">
+		<text>Yes, this is my workshop, but I can't get anything done in my current condition...</text>
+	</string>
+	<string id="vasil_first_4">
+		<text>Why? What's wrong?</text>
+	</string>
+	<string id="vasil_first_5">
+		<text>My foot aches, especially at night. The wound isn't healing, and I'm in so much pain I can't sleep for more than a few minutes at a time... I really feel like shit...</text>
+	</string>
+	<string id="vasil_first_6">
+		<text>Is there any way I can help?</text>
+	</string>
+	<string id="vasil_first_7">
+		<text>Yes, there's a local man, Kalmyak, who makes these special ointments. I've had some from him before, and it helped me considerably, but now I can barely walk up and down the steps each day, let alone make the trip to see him...</text>
+	</string>
+	<string id="vasil_first_8">
+		<text>Look, I'll go and get the ointments for you...</text>
+	</string>
+	<string id="vasil_first_9">
+		<text>Well, if you could get me three jars then I could start working again...</text>
+	</string>
+	<string id="vasil_second_0">
+		<text>Greetings, Vasily. Are you ready to dance?</text>
+	</string>
+	<string id="vasil_second_1">
+		<text>Fuck off, Marked One. I can't even stand...</text>
+	</string>
+	<string id="vasil_second_2">
+		<text>Vasily, I'm serious. I brought you your three jars...</text>
+	</string>
+	<string id="vasil_second_3">
+		<text>Marked One, from this moment on you will be my most preferred client. Meaning that I'll always look after you...</text>
+	</string>
+	<string id="dyak_zamena_start_0">
+		<text>Hello, Clerik. What's wrong?</text>	<!-- Changed 'Clerk' to 'Clerik'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="dyak_zamena_start_1">
+		<text>Five years ago I found I had an ulcer, but I never got it treated. I just took something for the pain, and ignored it. But over the last couple of months it's become unbearable. Kalmyak gave me some ointment, but it doesn't seem to work on ulcers...</text>
+	</string>
+	<string id="dyak_zamena_start_2">
+		<text>What can I do to help?</text>
+	</string>
+	<string id="dyak_zamena_start_3">
+		<text>Bring me a Soul artefact - it's a well-known cure for ulcers. In exchange I'll give you Kalmyak's special ointment...</text>
+	</string>
+	<string id="dyak_zamena_start_4">
+		<text>Okay, I'll try to help...</text>
+	</string>
+	<string id="dyak_zamena_finish_0">
+		<text>Clerik, do you remember our arrangement?</text>	<!-- Changed 'Clerk' to 'Clerik'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="dyak_zamena_finish_1">
+		<text>You mean about the ointment? Yes, of course I do. You have the artefact?</text>
+	</string>
+	<string id="dyak_zamena_finish_2">
+		<text>Here it is...</text>
+	</string>
+	<string id="dyak_zamena_finish_3">
+		<text>Wow, thanks. Here's three jars of ointment for you...</text>
+	</string>
+	<string id="sveeblov_privet_dialog_0">
+		<text>Hello, are you the leader of this faction?</text>
+	</string>
+	<string id="sveeblov_privet_dialog_1">
+		<text>Well, I have been for the last six months. We're the 'Clear Sky' faction. We study the Zone, but not like other scientists. Our involvement is different, and we have a different vision for its future</text>
+	</string>
+	<string id="sveeblov_privet_dialog_2">
+		<text>In what way are you different? As I see it, the only problems the Zone poses to mankind are due to scientists messing with it...</text>
+	</string>
+	<string id="sveeblov_privet_dialog_3">
+		<text>Yes, maybe the majority, but not all. There are always fanatics whenever anything new comes along, and here we have the Monolith. There are others, too, whose intentions are unclear... But we are not fanatics. We don't pray to anyone or anything, and we haven't come here to get rich. We love studying the Zone, but we don't answer to any goverment or sponsor. That's the main difference, which works to our advantage, but is also a disadvantage...</text>
+	</string>
+	<string id="sveeblov_privet_dialog_4">
+		<text>So you have little faith in the people in power?</text>
+	</string>
+	<string id="sveeblov_privet_dialog_5">
+		<text>Yes, but we're ready to co-operate with them, if they have the right intentions. But I think their scientific research is still focused on producing cheap power, and new weapons of mass destruction. That's what we're most concerned about. In a Zone full of horrific mutants and deadly anomalies, the most dangerous is still Man...</text>
+	</string>
+	<string id="sveeblov_first_zadan_0">
+		<text>So you don't communicate with the scientists in any way?</text>
+	</string>
+	<string id="sveeblov_first_zadan_1">
+		<text>Why should we? We maintain informal contact with some of the more sympathetic scientists, like Professor Kruglov, who helps us out occasionally. We're not rich, and we certainly don't have government-funded equipment, so we do mostly field work. Whenever we need a real laboratory, we contact the scientists and share our findings with them. Are you interested in helping us out, doing work to further our research?</text>
+	</string>
+	<string id="sveeblov_first_zadan_2">
+		<text>What kind of work?</text>
+	</string>
+	<string id="sveeblov_first_zadan_3">
+		<text>Well, we've been observing a mutation among a certain species of mutant. We'd like to know how it's connected with changes in the Zone, but we don't have any specimens for research...</text>
+	</string>
+	<string id="sveeblov_first_zadan_4">
+		<text>What kind of mutant are you talking about?</text>
+	</string>
+	<string id="sveeblov_first_zadan_5">
+		<text>In the northwest of the Swamps we found a different type of controller. We need to examine its brain, so I'm sure you understand what needs to be done...</text>
+	</string>
+	<string id="sveeblov_first_zadan_6">
+		<text>Yuck, but if it's for Science, give me the data and I'll go and search...</text>
+	</string>
+	<string id="sveeblov_first_zadan_end_0">
+		<text>I brought the controller's brain. Do you want to see it or shall I leave it somewhere?</text>
+	</string>
+	<string id="sveeblov_first_zadan_end_1">
+		<text>Let's take a look... Yes, an unusual specimen. Much larger than usual...</text>
+	</string>
+	<string id="sveeblov_first_zadan_end_2">
+		<text>That's the job done, but I forgot to ask - does work get paid for around here?</text>
+	</string>
+	<string id="sveeblov_first_zadan_end_3">
+		<text>Oh, yes, of course! Here, take this. And if you come across any unusual mutant parts, I'll gladly buy them from you, although we usually pay in weapons and artefacts...</text>
+	</string>
+	<string id="sveeblov_change_0">
+		<text>I found something that might interest you...</text>
+	</string>
+	<string id="sveeblov_change_1">
+		<text>Let's see what you have...</text>
+	</string>
+	<string id="sveeblov_change_2">
+		<text>A pair of red Bloodsucker tentacles...</text>
+	</string>
+	<string id="sveeblov_change_3">
+		<text>A red Burer's hand...</text>
+	</string>
+	<string id="sveeblov_change_4">
+		<text>I'm sorry, I thought I had something...</text>
+	</string>
+	<string id="sveeblov_change_5">
+		<text>Hmm, an unusual specimen indeed. Here, please accept this in exchange...</text>
+	</string>
+	<string id="sveeblov_change_6">
+		<text>Oh, this is the first time I've seen one of these. Here, please take this in exchange...</text>
+	</string>
+	<string id="sveeblov_weapons_need_0">
+		<text>Sviblov, what's on your mind?</text>
+	</string>
+	<string id="sveeblov_weapons_need_1">
+		<text>I want to start sending the men on regular patrols, but we lack the firepower to deal with large mutants</text>
+	</string>
+	<string id="sveeblov_weapons_need_2">
+		<text>Do you have any ideas?</text>
+	</string>
+	<string id="sveeblov_weapons_need_3">
+		<text>I do know where there is a PKM heavy machine gun. When my men patrolled near the abandoned farm the bandits, who have recently occupied the place, opened fire on them with the weapon. We are not as strong as we were before our unsuccessful attempt to break through to the Zone center. We lost our founder, Lebedev, and the majority of our veterans in that operation. Bandits have taken advantage of our weakness and control key points in the marsh. We somehow manage to hold this base and the approaches, also the 'Hunters' have helped us. If you can steal this machine gun it well help solve our problems. But I need you to do it with stealth</text>
+	</string>
+	<string id="sveeblov_weapons_need_4">
+		<text>So you suggest I remain unseen?</text>
+	</string>
+	<string id="sveeblov_weapons_need_5">
+		<text>I have no love for bloodshed, we only use our weapons as a last resort. So try to get it without being noticed. One of my men already waits for you, talk with him. he will tell you all the details</text>
+	</string>
+	<string id="kashei_weapons_need_0">
+		<text>Greetings, how are you doing?</text>
+	</string>
+	<string id="kashei_weapons_need_1">
+		<text>Greetings. You were sent by Sviblov? Good. There are seven in there - four outside and three in the building. You'll need to make your way inside, then look for a stash bag. That's where the weapon will be. Remember, no trouble, okay? We don't want to start a war...</text>
+	</string>
+	<string id="kashei_weapons_need_2">
+		<text>You're not going with me?</text>
+	</string>
+	<string id="kashei_weapons_need_3">
+		<text>No. Together, we'd make too much noise...</text>
+	</string>
+	<string id="kashei_weapons_need_4">
+		<text>Okay, then wait for me here...</text>
+	</string>
+	<string id="sveeblov_weapons_est_0">
+		<text>I brought the weapon</text>
+	</string>
+	<string id="sveeblov_weapons_est_1">
+		<text>What happened?</text>
+	</string>
+	<string id="sveeblov_weapons_est_2">
+		<text>Things didn't go quite as planned. During the most interesting moment 'Hunters' arrived and a gunfight ensued. But I managed to get the machine gun</text>
+	</string>
+	<string id="sveeblov_weapons_est_3">
+		<text>I'm glad you were successful and came back unharmed. Here, take this as a gift</text>
+	</string>
+	<string id="dan_speak_about_kot_0">
+		<text>Can I help you?</text>
+	</string>
+	<string id="dan_speak_about_kot_1">
+		<text>Yes, I wanted to ask if you have seen any Monolithians? I mean here, in the Swamps...</text>
+	</string>
+	<string id="dan_speak_about_kot_2">
+		<text>As far as I know, there aren't any here. Bandits certainly, but not Monoliith...</text>
+	</string>
+	<string id="dan_speak_about_kot_3">
+		<text>We have evidence that they are here, but don't know how they're infiltrating. They don't usually poke their nose south of the Radar. This really troubles me, these fanatics are devils</text>
+	</string>
+	<string id="dan_speak_about_kot_4">
+		<text>What do you think they are up to??</text>
+	</string>
+	<string id="dan_speak_about_kot_5">
+		<text>With these brainless fanatics anything's possible. They didn't come here for artefacts, that's for sure. Listen, there's a man I'd like you to meet...</text>
+	</string>
+	<string id="dan_speak_about_kot_6">
+		<text>Who?, tell me about him first</text>
+	</string>
+	<string id="dan_speak_about_kot_7">
+		<text>His name is Cat, a smart guy who likes to keep a low profile. Former KGB. He said he found something, but I didn't press him for details. You should go and see what he's found. I'll put his location in your PDA...</text>
+	</string>
+	<string id="kot_first_speak_0">
+		<text>Hello, are you Cat?</text>
+	</string>
+	<string id="kot_first_speak_1">
+		<text>Yes I'm Cat, has Dan sent you? I asked him to find someone with a bit of common sense, and he sends a rookie</text>
+	</string>
+	<string id="kot_first_speak_2">
+		<text>Watch your mouth! If you want to keep your teeth!</text>
+	</string>
+	<string id="kot_first_speak_3">
+		<text>Woah...camn down... sorry, I've been waiting here for Dan to send some help. I hope your ready to deal with a dose of high radiation</text>
+	</string>
+	<string id="kot_first_speak_4">
+		<text>What are you talking about?</text>
+	</string>
+	<string id="kot_first_speak_5">
+		<text>Dan spoke to you about the Monolithians? I was the first to have noticed something was wrong. The Monolith have become more active. At first they were sighted on the Agroprom, then I personally saw them in the Dark Valley. I've also tracked them directly to the Radar, I had to abort that recon operation as I got a bad case of radiation sickness. I was not ready for such a campaign. Since then my health has failed. Now I have seen them here, one of them has died in a highly radioactive Zone. We need to search the corpse for some information. Believe me, if these fanatics have conceived something, things could end badly for all of us</text>
+	</string>
+	<string id="kot_first_speak_6">
+		<text>Why should I believe anything you say, you agents leave a trail of innocent bodies wherever you go. I think I should rise and leave or first put a bullet in your forehead</text>
+	</string>
+	<string id="kot_first_speak_7">
+		<text>You are right, I served in the KGB. Enough bad things have happened to me. I had to disappear and where else better than the Zone. The only thing waiting for me out in the world is a bullet in the temple, or cyanide in my coffee, it all depends on the imagination of my 'friends'. The Zone is my home now, so that's why I want to find out what the Monolith are up to</text>
+	</string>
+	<string id="kot_first_speak_8">
+		<text>Well, let's assume I believe you. What's next?</text>
+	</string>
+	<string id="kot_first_speak_9">
+		<text>Well first of all we need to examine that body. I was observing the 3 Monolithians marking a map. They went in different directions, I followed one. He went through a radioactive Zone and was quickly overcome and collapsed. Like I already explained before I would go myself but for me it's certain death. My system just cant handle the trauma yet and I would be dead in minutes</text>
+	</string>
+	<string id="kot_first_speak_10">
+		<text>Alright, show me the place</text>
+	</string>
+	<string id="kot_first_speak_11">
+		<text>Let's go, only take your time, it's difficult for me to walk quickly. I will take you to the place, there will be a ruined house, in the ruins look for a corpse</text>
+	</string>
+	<string id="kot_second_speak_0">
+		<text>Here Cat, I found a map</text>
+	</string>
+	<string id="kot_second_speak_1">
+		<text>Let me see that. So it's a map of the bogs. Strange, I don't understand what they were doing. What are these marks for?</text>
+	</string>
+	<string id="kot_second_speak_2">
+		<text>Well so?</text>
+	</string>
+	<string id="kot_second_speak_3">
+		<text>They have marked here one place, one more place in the southwest, here are figures, here are measurements - height, width and length. And here the rest... Alright, I now go to the bar at camp 'Clear Sky' to think about what we should do. Let's go, we will settle our affairs there</text>
+	</string>
+	<string id="kot_nebo_first_speak_0">
+		<text>Well, Cat, have you received medical treatment?</text>
+	</string>
+	<string id="kot_nebo_first_speak_1">
+		<text>Yes, but here only Vodka rescues. You know that radiation influences the brain, earlier I would have quickly worked out those plans you found. Now my brain is constantly clouded with fog</text>
+	</string>
+	<string id="kot_nebo_first_speak_2">
+		<text>So, what will we do?</text>
+	</string>
+	<string id="kot_nebo_first_speak_3">
+		<text>Well, actually, what we need to do is find the other two Monolithians, probably we can learn more from them</text>
+	</string>
+	<string id="kot_nebo_first_speak_4">
+		<text>How will we find them?</text>
+	</string>
+	<string id="kot_nebo_first_speak_5">
+		<text>Here on base 'Clear sky' they have the equipment that might help us find the remaining Monolithians. Go to the communications room and ask the officer if he can locate them, probably, they will be on their own network signal. When you find them, bring me any information you find and we will analyze it together</text>
+	</string>
+	<string id="tv_need_first_0">
+		<text>Welcome, what is it you want?</text>
+	</string>
+	<string id="tv_need_first_1">
+		<text>I need to find two people. Can you help?</text>
+	</string>
+	<string id="tv_need_first_2">
+		<text>Who do you want to find?</text>
+	</string>
+	<string id="tv_need_first_3">
+		<text>Two Monolithians spotted in this area. I have a Monolith PDA. Can you trace the signal to the others?</text>
+	</string>
+	<string id="tv_need_first_4">
+		<text>Very likely, but may I ask a favor in return?</text>
+	</string>
+	<string id="tv_need_first_5">
+		<text>Sure. What do you need?</text>
+	</string>
+	<string id="tv_need_first_6">
+		<text>I had a working TV, until it got knocked off the desk and the tube imploded. Could you get me another TV?</text>
+	</string>
+	<string id="tv_need_first_7">
+		<text>Actually, I believe I can. Do you need anything else to find these guys?</text>
+	</string>
+	<string id="tv_need_first_8">
+		<text>No. I've done it before, so it shouldn't be a problem. I'll set it up, and get the approximate coordinates ready for you...</text>
+	</string>
+	<string id="tv_need_first_9">
+		<text>Okay, I'll be back as soon as I can...</text>
+	</string>
+	<string id="tv_need_second_0">
+		<text>Well, did you find one?</text>
+	</string>
+	<string id="tv_need_second_1">
+		<text>Yes, here it is. Not new, of course, but at least it's working...</text>
+	</string>
+	<string id="tv_need_second_2">
+		<text>Thank you very much. Now, let's get you those coordinates. The problem here, at the periphery of the Zone, is weak signals. Also, these guys move around, so I've got it down to five possible areas, and I can't be more precise than that. I've sent them to your PDA. Unless they've left the Swamps, they'll be in one of those five places, so be careful...</text>
+	</string>
+	<string id="tv_need_second_3">
+		<text>Well, that's a lot easier than the alternative. Thanks for your help...</text>
+	</string>
+	<string id="kot_nebo_second_speak_0">
+		<text>Hello Cat. I found a notebook on one of the Monolithians</text>
+	</string>
+	<string id="kot_nebo_second_speak_1">
+		<text>This is interesting, very interesting. They are planning to construct something, but I can't tell what it is yet</text>
+	</string>
+	<string id="kot_nebo_second_speak_2">
+		<text>What's next?</text>
+	</string>
+	<string id="kot_nebo_second_speak_3">
+		<text>I need to study these notes some more. I'm sure you have other affairs to attend to, so do you know the '100 Rads' bar? I'll meet you there later and we'll discuss this further...</text>
+	</string>
+	<string id="marsh_barman_help_0">
+		<text>Greetings...</text>
+	</string>
+	<string id="marsh_barman_help_1">
+		<text>Greetings wanderer. Stop a while. We're always glad to see good people...</text>
+	</string>
+	<string id="marsh_barman_help_2">
+		<text>I'm tired. It's a long journey to reach your camp. What's that smell? Is something burning?</text>
+	</string>
+	<string id="marsh_barman_help_3">
+		<text>Dammit! I've burnt it again... What am I going to feed the men now?</text>
+	</string>
+	<string id="marsh_barman_help_4">
+		<text>That's quite a stench... What were you cooking?</text>
+	</string>
+	<string id="marsh_barman_help_5">
+		<text>Our brothers brought in a wild boar, but the meat's tough and stinks when you fry it. The best meat comes from the Pseudogiant. Tastes sort of like chicken, but a hundred times better. Hey, are you looking for work?</text>
+	</string>
+	<string id="marsh_barman_help_6">
+		<text>What kind of work?</text>
+	</string>
+	<string id="marsh_barman_help_7">
+		<text>It's not a dirty job, but you'll need to run around a bit...</text>
+	</string>
+	<string id="marsh_barman_help_8">
+		<text>You want me to hunt something?</text>
+	</string>
+	<string id="marsh_barman_help_9">
+		<text>I don't want you to kill anything. A few days ago some of the men saw a 'Red Pseudogiant' at Agroprom. These are very rare, and their meat... I tell you... even at the best restaurant in Moscow you wouldn't get anything as delicious...</text>
+	</string>
+	<string id="marsh_barman_help_10">
+		<text>Surely you don't want me to bring it back alive?</text>
+	</string>
+	<string id="marsh_barman_help_11">
+		<text>No, I want you to mark it with this special rifle that shoots a hypodermic micro-transmitter. Then we'll send out a hunting party, as it'll need several men to carry that much meat. So, just mark the Red Pseudogiant and don't kill it. Then return here with the rifle...</text>
+	</string>
+	<string id="marsh_barman_help_12">
+		<text>I hope the job will pay well...</text>
+	</string>
+	<string id="marsh_barman_help_13">
+		<text>Don't worry about that. Just take care not to kill him - the thought of that succulent meat rotting away brings tears to my eyes...</text>
+	</string>
+	<string id="marsh_barman_help_est_0">
+		<text>Greetings, Barman</text>
+	</string>
+	<string id="marsh_barman_help_est_1">
+		<text>Greetings, my friend! I can see the location of the Red Pseudogiant on my PDA. I've already informed Dan, so we're looking forward to a good breakfast and supper for several days...</text>
+	</string>
+	<string id="marsh_barman_help_est_2">
+		<text>Sounds better than stale bread and sausage. You mentioned payment?</text>
+	</string>
+	<string id="marsh_barman_help_est_3">
+		<text>Oh, yes, certainly. Here you are...</text>
+	</string>
+	<string id="borman_sniper_dialog_need_0">
+		<text>Hello, brother. Who are you?</text>
+	</string>
+	<string id="borman_sniper_dialog_need_1">
+		<text>Borman is my name. How did you reach here by yourself? Even groups of five rarely reach this far north...</text>
+	</string>
+	<string id="borman_sniper_dialog_need_2">
+		<text>I tend to use paths not frequented by many Stalkers...</text>
+	</string>
+	<string id="borman_sniper_dialog_need_3">
+		<text>Regardless of that, if you reached Limansk you must be very skilled indeed. We could really use your help here, brother...</text>
+	</string>
+	<string id="borman_sniper_dialog_need_4">
+		<text>Whats going on?</text>
+	</string>
+	<string id="borman_sniper_dialog_need_5">
+		<text>Here's the situation, we hold this side of the bridge and the Monolithians hold the other side. As you can see, the situation is far from stable, and these damn mutants and zombies just keep appearing. Our main problem is this Monolith sniper, the former marksman from Voroshilovsky. The bastard picks off one or two of my men each day. Do you think you can take him out?</text>
+	</string>
+	<string id="borman_sniper_dialog_need_6">
+		<text>Are you offering a reward for his head, then?</text>
+	</string>
+	<string id="borman_sniper_dialog_need_7">
+		<text>Well, brother, I've got ten packs of assorted cartridges I can give you...</text>
+	</string>
+	<string id="borman_sniper_dialog_need_8">
+		<text>That'll do. Let me try...</text>
+	</string>
+	<string id="borman_sniper_dialog_est_0">
+		<text>Greetings, Borman...</text>
+	</string>
+	<string id="borman_sniper_dialog_est_1">
+		<text>You never cease to surprise me, Marked One. How did your adventure go?</text>
+	</string>
+	<string id="borman_sniper_dialog_est_2">
+		<text>Let's just say that your problems have been reduced by one...</text>
+	</string>
+	<string id="borman_sniper_dialog_est_3">
+		<text>Thank you, brother. You've saved many lives by ridding us of that bastard... Here, take these as I promised</text>
+	</string>
+	<string id="borman_glushitel_dialog_need_0">
+		<text>Is there anything else you need?</text>
+	</string>
+	<string id="borman_glushitel_dialog_need_1">
+		<text>Yes, again your help is needed. Here, the Monolithians jam our radio signals, so we can't communicate with anyone...</text>
+	</string>
+	<string id="borman_glushitel_dialog_need_2">
+		<text>Well, I'm not a radio engineer, so what good can I do?</text>
+	</string>
+	<string id="borman_glushitel_dialog_need_3">
+		<text>No, all you need to do to start with is find the jammer they're using, and remove it. But the next part should be fun, because we're going to take it to Miser, and he'll recalibrate it so that it jams the Monolithians' radio signals instead. So, borrow their jammer, take it to Miser, then put it back where you found it. That should fuck the bastards up for a while...</text>
+	</string>
+	<string id="borman_glushitel_dialog_need_4">
+		<text>He, good plan, but where do I find the jammer?</text>
+	</string>
+	<string id="borman_glushitel_dialog_need_5">
+		<text>It's got to be up high, so probably somewhere around the construction building on the hill. It'll also need to be somewhere out of the rain. Sorry I can't be more precise than that. I'm afraid we're in short supply of everything out here, but I promise we'll find a way to reward you...</text>
+	</string>
+	<string id="borman_glushitel_dialog_need_6">
+		<text>Don't worry about it, Borman. Let's fuck up the Monolith, shall we?</text>
+	</string>
+	<string id="scryaga_glushitel_dialog_first_0">
+		<text>Greetings, Miser...</text>
+	</string>
+	<string id="scryaga_glushitel_dialog_first_1">
+		<text>My old friend, why have you come? To buy something?</text>
+	</string>
+	<string id="scryaga_glushitel_dialog_first_2">
+		<text>I'm here on business for Borman. Do you already know the situation?</text>
+	</string>
+	<string id="scryaga_glushitel_dialog_first_3">
+		<text>Yes, you mean the jammer?</text>
+	</string>
+	<string id="scryaga_glushitel_dialog_first_4">
+		<text>Here it is, a heavy lump of steel</text>
+	</string>
+	<string id="scryaga_glushitel_dialog_first_5">
+		<text>This will take me about five hours to adjust, come back then</text>
+	</string>
+	<string id="scryaga_glushitel_is_not_ready_0">
+		<text>Well, is the jammer ready?</text>
+	</string>
+	<string id="scryaga_glushitel_is_not_ready_1">
+		<text>You're too early. I said I needed five hours...</text>
+	</string>
+	<string id="scryaga_glushitel_is_ready_0">
+		<text>Miser, is the jammer ready?</text>
+	</string>
+	<string id="scryaga_glushitel_is_ready_1">
+		<text>It's ready. Now let the Monolithians get a taste of their own technology... Take it back to exactly where you found it, and send my greetings to Borman...</text>
+	</string>
+	<string id="borman_glushitel_dialog_est_0">
+		<text>It's done brother. The jammer's in place</text>
+	</string>
+	<string id="borman_glushitel_dialog_est_1">
+		<text>You have gained many friends</text>
+	</string>
+	<string id="borman_glushitel_dialog_est_2">
+		<text>Glad to help, and greetings to you from the Miser...</text>
+	</string>
+	<string id="borman_glushitel_dialog_est_3">
+		<text>Here, please take this as promised. Oh, and I got a message from Sviblov in the Swamps. He needs to talk to you..</text>
+	</string>
+	<string id="kot_need_lekar_0">
+		<text>Cat, what's wrong? You look terrible...</text>
+	</string>
+	<string id="kot_need_lekar_1">
+		<text>I'm not what you'd call 'in good shape'. I think I'll be dead soon, and that's no joke...</text>
+	</string>
+	<string id="kot_need_lekar_2">
+		<text>Can I help?</text>
+	</string>
+	<string id="kot_need_lekar_3">
+		<text>I need something to extract this radiation poison from my bones. I've heard that Kalmyak makes such a medicine...</text>
+	</string>
+	<string id="kot_need_lekar_4">
+		<text>Do you mean his ointment?</text>
+	</string>
+	<string id="kot_need_lekar_5">
+		<text>No, there's another remedy Kalmyak makes, but I don't think he'd make it for me. I know he was friends with Victor Hologram, so he may be able to help, but I'd never make it there...</text>
+	</string>
+	<string id="kot_need_lekar_6">
+		<text>They have Antirads here. That should reduce the radiation, surely...</text>
+	</string>
+	<string id="kot_need_lekar_7">
+		<text>I'm afraid my condition is too far advanced for standard Antirads. I need something much stronger, that'll go deep into the marrow. I'd go for it myself, but I just don't have the strength...</text>
+	</string>
+	<string id="kot_need_lekar_8">
+		<text>Don't worry, Cat. You stay here. I'll find you the medicine, whatever it takes...</text>
+	</string>
+	<string id="kot_need_lekar_9">
+		<text>What should I ask for?</text>
+	</string>
+	<string id="kot_need_lekar_10">
+		<text>If you tell him what it's for, Kalmyak will know...</text>
+	</string>
+	<string id="kot_need_lekar_11">
+		<text>Okay, I'm going now...</text>
+	</string>
+	<string id="kalmyak_need_lekar_first_0">
+		<text>Greetings, Kalmyak...</text>
+	</string>
+	<string id="kalmyak_need_lekar_first_1">
+		<text>Hello, have you come for some ointment?</text>
+	</string>
+	<string id="kalmyak_need_lekar_first_2">
+		<text>Actually, I've come for medicine - something special that only you can make. Do you know Cat? He has advanced radiation sickness that just gets worse each day...</text>
+	</string>
+	<string id="kalmyak_need_lekar_first_3">
+		<text>Cat? That bastard who used to be known as Feral Cat? Do you know his past? How much innocent blood he's responsible for? I'm glad it's finally his turn...</text>
+	</string>
+	<string id="kalmyak_need_lekar_first_4">
+		<text>Brother, please do it for me. I need his help finding out what the Monolithians are doing in the Swamps...</text>
+	</string>
+	<string id="kalmyak_need_lekar_first_5">
+		<text>Shit! If anyone else had asked me... Well, only for your sake, and my brothers in the Swamps. But this medicine requires ingredients I can't get here...</text>
+	</string>
+	<string id="kalmyak_need_lekar_first_6">
+		<text>What do you need?</text>
+	</string>
+	<string id="kalmyak_need_lekar_first_7">
+		<text>I need ten Snork feet and a Night Star artefact'. Everything else, I have. But there's one condition - the medicine goes off quickly, and it has to be prepared in the early hours before dawn. So after you bring me the ingredients you'll have until 5.00 am to pick up the medicine. If you don't come at this time, then we'll need to start again next day. Got it?</text>
+	</string>
+	<string id="kalmyak_need_lekar_first_8">
+		<text>Got it. I'll find the parts for you...</text>
+	</string>
+	<string id="kalmyak_need_lekar_second_0">
+		<text>Greetings, Kalmyak. Here are the parts you need...</text>
+	</string>
+	<string id="kalmyak_need_lekar_second_1">
+		<text>Okay, let's have them. I need time to prepare the medicine, so go and take care of other matters. Just be back here before five in the morning, but please don't hang around here because I need to work in peace...</text>
+	</string>
+	<string id="kalmyak_lekar_iz_not_ready_0">
+		<text>Is the medicine ready?</text>
+	</string>
+	<string id="kalmyak_lekar_iz_not_ready_1">
+		<text>No, you're too early. It's not ready yet...</text>
+	</string>
+	<string id="kalmyak_lekar_iz_ready_0">
+		<text>Hi Kalmyak. I hope I'm not disturbing you. Have you finished the job?</text>
+	</string>
+	<string id="kalmyak_lekar_iz_ready_1">
+		<text>Here, it's ready. It's very radioactive, so I hope you've got artefacts or Antirads to counter it during transportation...</text>
+	</string>
+	<string id="kot_est_lekar_holod_0">
+		<text>Cat... Here, take this as soon as possible</text>
+	</string>
+	<string id="kot_est_lekar_holod_1">
+		<text>Take what?</text>
+	</string>
+	<string id="kot_est_lekar_holod_2">
+		<text>I brought your medicine from Kalmyak. Take it</text>
+	</string>
+	<string id="kot_est_lekar_holod_3">
+		<text>He made it for me? I never thought... Thanks, Marked One. You've saved my life. Here, it's not much, but please accept this suit. It's been specially strengthened against mutant attacks. It's yours...</text>
+	</string>
+	<string id="kot_est_lekar_kalmyak_0">
+		<text>Here, Cat. Take this...</text>
+	</string>
+	<string id="kot_est_lekar_kalmyak_1">
+		<text>You brought it?</text>
+	</string>
+	<string id="kot_est_lekar_kalmyak_2">
+		<text>Kalmyak says you might spit a little blood for a while,  but that's normal...</text>
+	</string>
+	<string id="kot_est_lekar_kalmyak_3">
+		<text>He made it for me? I never thought... Thanks, Marked One. You've saved my life. Here, it's not much, but please accept this suit. It's been specially strengthened against mutant attacks. It's yours...</text>
+	</string>
+	<string id="holod_need_lekar_0">
+		<text>Hello...</text>
+	</string>
+	<string id="holod_need_lekar_1">
+		<text>Are you sick, or have you just here for a rest? The accommodation here is modest, but we're always glad to have visitors...</text>
+	</string>
+	<string id="holod_need_lekar_2">
+		<text>I heard you're on good terms with Kalmyak?</text>
+	</string>
+	<string id="holod_need_lekar_3">
+		<text>Yes, but not that good. Sometimes he came here to drink, sometimes to get drunk. When he did he'd share some recipes with me, about medicines to reduce radiation...</text>
+	</string>
+	<string id="holod_need_lekar_4">
+		<text>Listen, could you give me this medicine? I need it to help someone...</text>
+	</string>
+	<string id="holod_need_lekar_5">
+		<text>Well, I'll do what I can, but please understand that we're poor people...</text>
+	</string>
+	<string id="holod_need_lekar_6">
+		<text>What do you need?</text>
+	</string>
+	<string id="holod_need_lekar_7">
+		<text>A Simbion artefact. Cold at Clear Sky needs one...</text>
+	</string>
+	<string id="holod_need_lekar_8">
+		<text>I'll try to get one for you...</text>
+	</string>
+	<string id="holod_est_simbion_lekar_0">
+		<text>Hello, Cold. I have something for you...</text>
+	</string>
+	<string id="holod_est_simbion_lekar_1">
+		<text>Yes! A real Simbion! Thank you for your help...</text>
+	</string>
+	<string id="holod_est_simbion_lekar_2">
+		<text>No problem brother. Hey, I need some medicine...</text>
+	</string>
+	<string id="holod_est_simbion_lekar_3">
+		<text>Ah, yes. I've had a message to have it ready for you. Here...</text>
+	</string>
+	<string id="holod_change_0">
+		<text>I'd like to trade...</text>
+	</string>
+	<string id="holod_change_1">
+		<text>I have medkits and F-1 grenades</text>
+	</string>
+	<string id="holod_change_2">
+		<text>What do you want?</text>
+	</string>
+	<string id="holod_change_3">
+		<text>I'll trade you four F-1 grenades for either a Gravi, a Meat Chunk, or two Quirks\nI'll trade you five medkits for either a Slug, two Sparklers, or two Stone Bloods...</text>
+	</string>
+	<string id="holod_change_31">
+		<text>Here's a Gravi. Four grenades, please...</text>
+	</string>
+	<string id="holod_change_32">
+		<text>Grenades, please. Here's a Meat Chunk...</text>
+	</string>
+	<string id="holod_change_33">
+		<text>Grenades, please. Here are two Quirks...</text>
+	</string>
+	<string id="holod_change_34">
+		<text>Here's a Slug. Five medkits, please...</text>
+	</string>
+	<string id="holod_change_35">
+		<text>Medkits, please. Here are two Sparklers...</text>
+	</string>
+	<string id="holod_change_36">
+		<text>Medkits, please. Here are two Stone Bloods...</text>
+	</string>
+	<string id="holod_change_37">
+		<text>Sorry, I don't have those artefacts...</text>
+	</string>
+	<string id="sveeblov_razborki_need_0">
+		<text>Is there still a job?</text>
+	</string>
+	<string id="sveeblov_razborki_need_1">
+		<text>Considering your reputation, this task should put a smile on your face...</text>
+	</string>
+	<string id="sveeblov_razborki_need_2">
+		<text>What needs to be done?</text>
+	</string>
+	<string id="sveeblov_razborki_need_3">
+		<text>We lack heavy weapons, therefore we had to do some trading with Mercenaries. One of my men, 'Freebie', has been telling me he can get everything we need. He has set up a meeting with the Mercenaries, about arms supplies. But they have made a condition that, from our party, only two persons can attend. We have dealt with them in the past and they have not always been fair. Therefore I'd like to ask you to 'observe' the transaction. To me the most important thing is 'Freebie' stays alive, and gets the weapon. From the very beginning I was against this transaction, but 'Freebie' insists that it's a sure deal...</text>
+	</string>
+	<string id="sveeblov_razborki_need_4">
+		<text>So to recap, I should cover Freebie while he makes the deal?</text>
+	</string>
+	<string id="sveeblov_razborki_need_5">
+		<text>Yes, that's right. 'Freebie' should not die, and the second condition - we don't want to be seen as violating the agreement, so you should remain unseen by the Mercenaries. The transaction will occur on an abandoned farm in the Cordon</text>
+	</string>
+	<string id="sveeblov_razborki_need_6">
+		<text>I understand. I'll keep quiet...</text>
+	</string>
+	<string id="sveeblov_razborki_est_0">
+		<text>Lines, Sviblov, well you also have sent me, 'silently and peacefully' sit, aha always these words confuse me</text>
+	</string>
+	<string id="sveeblov_razborki_est_1">
+		<text>That happens?</text>
+	</string>
+	<string id="sveeblov_razborki_est_2">
+		<text>And I know? At first sat and all is silent bazaars, suddenly for weapons, well it was necessary to interfere, not say you is live 'Freebie'</text>
+	</string>
+	<string id="sveeblov_razborki_est_3">
+		<text>Faugh you, have gone away, well the pancake felt... Eh! Well it is fine, here take something</text>
+	</string>
+	<string id="kot_agro_mono_need_0">
+		<text>Is there any other business we need to discuss?</text>
+	</string>
+	<string id="kot_agro_mono_need_1">
+		<text>I've heard something, but it needs to be followed up...</text>
+	</string>
+	<string id="kot_agro_mono_need_2">
+		<text>What have you heard?</text>
+	</string>
+	<string id="kot_agro_mono_need_3">
+		<text>A group of Monolithians have been spotted at Agroprom. We need to find them, and what they're up to. We don't have enough information...</text>
+	</string>
+	<string id="kot_agro_mono_need_4">
+		<text>These guys live to die, so I can't see them supplying it willingly.  I'll do what I can...</text>
+	</string>
+	<string id="gek_and_chuk_first_0">
+		<text>musics, you who?</text>
+	</string>
+	<string id="gek_and_chuk_first_1">
+		<text>The Pancake the music, give all details then, here, mmmat, not safely, deduce us to the central complex, there the Stalkers, here there about all and we will grind</text>
+	</string>
+	<string id="gek_and_chuk_second_0">
+		<text>Well, give tell</text>
+	</string>
+	<string id="gek_and_chuk_second_1">
+		<text>So this here to speak, we it... With the brother in spot-check were in the Dark valley, well and these devils madwomen we suffice and here. Speak dig a hole deep, metre on two</text>
+	</string>
+	<string id="gek_and_chuk_second_2">
+		<text>What for a hole to dig?</text>
+	</string>
+	<string id="gek_and_chuk_second_3">
+		<text>So who freezed will understand these devils! We it, at first have thought that for us it we dig, I with fear in trousers nearly have not imposed that. And then I understand, Nakoy Lady it us here to conduct, to kill and bury here? Not, they though and freezed, but not stupid, there in a valley also have put. On kraynyak in anomaly corpses would throw</text>
+	</string>
+	<string id="gek_and_chuk_second_4">
+		<text>Well and you that you think?</text>
+	</string>
+	<string id="gek_and_chuk_second_5">
+		<text>And what I think? It is live and is fine, at these assholes especially not forgot, to ask as for what, well it, to itself is more expensive. Though one of them something about towers told, any signal to transfer, alas they shun any music all believeth, yes so validly, 'IT' will be dissatisfied, 'HE' has told... Everything, more I know nothing</text>
+	</string>
+	<string id="kot_agro_mono_est_0">
+		<text>Well, the Cat, could get I of 'language'</text>
+	</string>
+	<string id="kot_agro_mono_est_1">
+		<text>Tell</text>
+	</string>
+	<string id="kot_agro_mono_est_2">
+		<text>I Have found Monolithians, truth was necessary to run about, an ash-tree a stub live they have not surrendered, but here with them was to steam captured, two brothers Chuk and Gek, they for them a hole for Repeater towers dripped. For what truth, brothers do not know. Yes Monolithians believeth all time about someone, unquestionably so, 'HE' has told, 'HE' has ordered etc</text>
+	</string>
+	<string id="kot_agro_mono_est_3">
+		<text>Likely, their owner, heard I a legend about 'the Black Doctor', earlier I thought that it only a legend, and now...</text>
+	</string>
+	<string id="kot_poisk_trader_need_0">
+		<text>Well, a Cat, what ideas?</text>
+	</string>
+	<string id="kot_poisk_trader_need_1">
+		<text>There is one variant, truth muddy it is a little</text>
+	</string>
+	<string id="kot_poisk_trader_need_2">
+		<text>Give, spread</text>
+	</string>
+	<string id="kot_poisk_trader_need_3">
+		<text>There is a shopkeeper one, 'Rabinovich' klichut. Not, it not the Jew, it the Siberian thoroughbred, but a grasp business at it, God grant to any Jew. Supplies everything if only grandmas were, including these afflicted</text>
+	</string>
+	<string id="kot_poisk_trader_need_4">
+		<text>The Monolith?</text>
+	</string>
+	<string id="kot_poisk_trader_need_5">
+		<text>Ugu. Tell it even the building crane to whom that could get, truth I in it not very much I trust. Fuck it here to whom is necessary. Well and so, this 'Rabi' almost the unique works with them, itself know as to them Related</text>
+	</string>
+	<string id="kot_poisk_trader_need_6">
+		<text>Predlagash to find it?</text>
+	</string>
+	<string id="kot_poisk_trader_need_7">
+		<text>At once I will tell, it will be difficult, truth is small hook, I know that it saw about two days ago on the base of Freedom. Talk to the Miser, it, basically, with it had business</text>
+	</string>
+	<string id="kot_poisk_trader_need_8">
+		<text>Well, I know the Miser, perhaps I will split</text>
+	</string>
+	<string id="freetrader_poisk_trader_need_0">
+		<text>Hello, Miser, how life daring?</text>
+	</string>
+	<string id="freetrader_poisk_trader_need_1">
+		<text>While the barrier is held all by a way, will be both vodka, and a herring and which that else...</text>
+	</string>
+	<string id="freetrader_poisk_trader_need_2">
+		<text>For the Person of one I search, your help, 'Rabi' klichut is necessary...</text>
+	</string>
+	<string id="freetrader_poisk_trader_need_3">
+		<text>'Rabi'... 'Rabi'... Something not values...</text>
+	</string>
+	<string id="freetrader_poisk_trader_need_4">
+		<text>'do not treat' me I know that you know, I in any way will not understand, what for you with it of business do? It supplies the Monolith, they then 'its' weapon kill you? Or money it is more important?</text>
+	</string>
+	<string id="freetrader_poisk_trader_need_5">
+		<text>Yes a nit it. Itself would shoot down, but I can not, I cannot, it is possible to tell 'roof' at it good, itself understand. We here long would not stretch, if not the help from 'Continent'. Give so, there was it here, has left yesterday where I do not know, look Modest, it it Accompanying, tell, yesterday in the evening Modest and has returned. Now in village thrown, well you know Gloomy? Well here they backs, at it and Zatusil</text>
+	</string>
+	<string id="joker_first_poisk_trader_need_0">
+		<text>Hello the music where Modest to find you do not know?</text>
+	</string>
+	<string id="joker_first_poisk_trader_need_1">
+		<text>Oh blah, you hear the music is to drink that? I can not a head after the yesterday's...</text>
+	</string>
+	<string id="joker_first_poisk_trader_need_2">
+		<text>Pogod now I will bring</text>
+	</string>
+	<string id="joker_first_poisk_trader_need_3">
+		<text>Bear three, at me here the buddy where that, oh blah... uk</text>
+	</string>
+	<string id="joker_second_poisk_trader_need_0">
+		<text>Here, hold</text>
+	</string>
+	<string id="joker_second_poisk_trader_need_1">
+		<text>Not-not at me hands shiver, pour itself. Has poured? Well, for the fallen</text>
+	</string>
+	<string id="joker_second_poisk_trader_need_2">
+		<text>The Brother, Modest is necessary to me</text>
+	</string>
+	<string id="joker_second_poisk_trader_need_3">
+		<text>Yes Wait you, give... Give still, here has gone, the darling has gone. Give on one?</text>
+	</string>
+	<string id="joker_second_poisk_trader_need_4">
+		<text>I did not graze, affairs, the brother, do not wait</text>
+	</string>
+	<string id="joker_second_poisk_trader_need_5">
+		<text>Well give, give for Modest, it the guy you know what, yes I, yes I for it to whom he likes...</text>
+	</string>
+	<string id="joker_second_poisk_trader_need_6">
+		<text>Well all last give</text>
+	</string>
+	<string id="joker_second_poisk_trader_need_7">
+		<text>About here, now most that. You about Modest asked me? He a little that has gone mad, we here yesterday is sensitive on a breast have accepted. Well appears we sit, warmly, well, in the asterisk sky, suddenly he jumps and speaks: - climbs a bough to whom I speak climbs, I you say see and so on. Aha and a finger there shows in depth of village. Well I look, there is there nobody. I speak: sit down Koljan, calm down, is not present there not a soul, on here still a little remains. Well he at first like has decided how to sit down, and then has suddenly jerked and there. More and more I it also did not see, and me overcame, well and I was chopped off. So if it is live Modest, search for it in village</text>
+	</string>
+	<string id="scromnyi_poisk_trader_need_0">
+		<text>Who you so?</text>
+	</string>
+	<string id="scromnyi_poisk_trader_need_1">
+		<text>Who I do not know, but here because of whom I guess</text>
+	</string>
+	<string id="scromnyi_poisk_trader_need_2">
+		<text>The Little man I search for one, Rabi klichut</text>
+	</string>
+	<string id="scromnyi_poisk_trader_need_3">
+		<text>Yes I too would want, the nobility where it, a nit. We with the Joker have finished it to a barrier, and it to us of type - thanks of children, further I. Aha itself, whether you tell there is a person who for a barrier alone goes? A bough it, both our and your. There these morons Navernik waited for it. I think it towards Pripyat has jerked, at these fanatics a staff there so search for it in Pripyat</text>
+	</string>
+	<string id="rabi_poisk_trader_need_0">
+		<text>You Rabi? You can not answer, I know that you</text>
+	</string>
+	<string id="rabi_poisk_trader_need_1">
+		<text>You who?</text>
+	</string>
+	<string id="rabi_poisk_trader_need_2">
+		<text>And it you choose. You want, in a peacefully way we will disperse, and is not present so is not present</text>
+	</string>
+	<string id="rabi_poisk_trader_need_3">
+		<text>That you want?</text>
+	</string>
+	<string id="rabi_poisk_trader_need_4">
+		<text>The information, what for and for what the Monolith is going to build transmission towers is necessary To me</text>
+	</string>
+	<string id="rabi_poisk_trader_need_5">
+		<text>But I here and, I the simple intermediary, me order, I extract, want also to you something I will get?</text>
+	</string>
+	<string id="rabi_poisk_trader_need_6">
+		<text>Do not drive the silly woman, all know that through you there are deliveries to the Monolith from 'Continent' so if they that have conceived that it should be known to you</text>
+	</string>
+	<string id="rabi_poisk_trader_need_7">
+		<text>About what you? What deliveries, I do not know anything. Yes, there was a business, has put the weapon to the Miser, it ask, really I do not say lies, but about any installations I know nothing</text>
+	</string>
+	<string id="rabi_poisk_trader_need_8">
+		<text>Everything, the music, you have got me, or we with you now leave on meaningful dialogue, or I do not warrant for myself. You think I for this purpose were dragged to Pripyat that a fairy tale on night to listen?</text>
+	</string>
+	<string id="rabi_poisk_trader_need_9">
+		<text>But I...</text>
+	</string>
+	<string id="rabi_poisk_trader_need_10">
+		<text>You me have got All the swine, on knees</text>
+	</string>
+	<string id="rabi_poisk_trader_need_11">
+		<text>All right-all right stand, to me have really ordered some towers and satellite Antenna. For what, well for what towers and companions are necessary? A signal to tell that for a signal I do not know, the order has arrived from 'the Black Doctor' who it I too do not know, I it and did not see never, I know that only its base where that in a Limansk, in Hospital...</text>
+	</string>
+	<string id="rabi_poisk_trader_need_12">
+		<text>When there should arrive towers and satellite Antenna?</text>
+	</string>
+	<string id="rabi_poisk_trader_need_13">
+		<text>Day through three-four... All I the dead man, I the walking dead person. Lag behind, lag behind me, me already all the same</text>
+	</string>
+	<string id="rabi_poisk_trader_need_14">
+		<text>It is all?</text>
+	</string>
+	<string id="kot_poisk_trader_est_0">
+		<text>Well, the Cat, has found I our Rabi</text>
+	</string>
+	<string id="kot_poisk_trader_est_1">
+		<text>As all has passed?</text>
+	</string>
+	<string id="kot_poisk_trader_est_2">
+		<text>Well, likely, successfully, I know where to search for 'the Black Doctor'</text>
+	</string>
+	<string id="kot_poisk_trader_est_3">
+		<text>In a Limansk? So Enachit, it not a legend</text>
+	</string>
+	<string id="kot_poisk_trader_est_4">
+		<text>Is not present. I need to get to a Limansk</text>
+	</string>
+	<string id="kot_poisk_trader_est_5">
+		<text>I think, you should talk to Zahar</text>	<!-- Changed 'Zaharom' to 'Zahar'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="kot_poisk_trader_est_6">
+		<text>And I will make, well wish my of good luck</text>
+	</string>
+	<string id="zahar_need_perehod_0">
+		<text>Hello Zahar, is necessary your help</text>
+	</string>
+	<string id="zahar_need_perehod_1">
+		<text>What exactly?</text>
+	</string>
+	<string id="zahar_need_perehod_2">
+		<text>It is necessary For me in a Limansk</text>
+	</string>
+	<string id="zahar_need_perehod_3">
+		<text>In a Limansk? Well I can help, but also you to us help</text>
+	</string>
+	<string id="zahar_need_perehod_4">
+		<text>That you want?</text>
+	</string>
+	<string id="zahar_need_perehod_5">
+		<text>We through one person periodically Vypolyan orders from 'Continent', well and so have accepted not so long ago the big order on Arty, and the person through whom the transaction should take place, was gone. At it any problems were with avengers, you know them, with them it is better not to joke. Possibly, he most likely is in hiding. It is necessary to find it</text>
+	</string>
+	<string id="zahar_need_perehod_6">
+		<text>Is clues?</text>
+	</string>
+	<string id="zahar_need_perehod_7">
+		<text>You Know on bogs, there is a small base of avengers? Well and so, avengers have a certain caste 'untouchable', 'the brotherhood of ten' is called, it bratsvo and is a management of the avengers, one of leaders now just to be on the base of avengers on bogs. Call him is Brother Luis. Take it alive, he for certain knows that where our person. By the way, the intermediary klichut the Frenchman</text>
+	</string>
+	<string id="zahar_need_perehod_8">
+		<text>It is fine, I will try</text>
+	</string>
+	<string id="brat_luis_dialog_0">
+		<text>I Welcome</text>
+	</string>
+	<string id="brat_luis_dialog_1">
+		<text>Who you? Blah, you that have put all protection?</text>
+	</string>
+	<string id="brat_luis_dialog_2">
+		<text>It was necessary, painfully it wanted to communicate to you</text>
+	</string>
+	<string id="brat_luis_dialog_3">
+		<text>Not Zahar has sent to you? He will wait the. The Frenchman is necessary to you?</text>
+	</string>
+	<string id="brat_luis_dialog_4">
+		<text>It would be not bad</text>
+	</string>
+	<string id="brat_luis_dialog_5">
+		<text>Late, we have found it earlier, but you can try to be in time, he-he, search for it on the base of freedom</text>
+	</string>
+	<string id="brat_luis_dialog_6">
+		<text>Well, had pleasantly a talk, I hope, not last time</text>
+	</string>
+	<string id="zahar_est_perehod_0">
+		<text>Greetings, Zahar</text>
+	</string>
+	<string id="zahar_est_perehod_1">
+		<text>Hello, Marked One, well as there our business?</text>
+	</string>
+	<string id="zahar_est_perehod_2">
+		<text>I was late Whitebait, Zahar, is not present the Frenchman, have killed him. Here it PDA take, it is possible it to you will help</text>
+	</string>
+	<string id="zahar_est_perehod_3">
+		<text>Lines it is a pity the music, efficient was. Well it is fine. About transition to a Limansk: that path that I knew - a moss overgrown... Vobschem, there is no it more... But there is hook one - there was such Stalker - Fang called, he precisely knew road. Here only it is live or not - I not in a course, very long ago it did not see. To find out about transition, you should find Fang or at least to learn, whether it is live</text>
+	</string>
+	<string id="sveeblov_need_kurier_0">
+		<text>Hello, what for good reason at you?</text>
+	</string>
+	<string id="sveeblov_need_kurier_1">
+		<text>About, Strelok, you also are necessary to me. At us the courier was gone on a radar. Understand we for Sakharov some interesting samples have prepared, have sent the courier. To the Radar all was normal, and there the signal was gone. Samples very valuable, and in the single copy, it is necessary to find the courier necessarily</text>
+	</string>
+	<string id="sveeblov_need_kurier_2">
+		<text>Yes I would help, but at me at problems</text>
+	</string>
+	<string id="sveeblov_need_kurier_3">
+		<text>That for problems?</text>
+	</string>
+	<string id="sveeblov_need_kurier_4">
+		<text>Yes you understand, in a Limansk anomaly a teleport was formed, not to pass, not to pass</text>
+	</string>
+	<string id="sveeblov_need_kurier_5">
+		<text>Basically, I can help, give Bash on Bash. You will help us, we to you. I will give to you the angulator of anomalies, specially adjusted on teleportry, and you can remove this teleport</text>
+	</string>
+	<string id="sveeblov_need_kurier_6">
+		<text>Here a pancake, anything it is simple so do not do, it is fine on hands</text>
+	</string>
+	<string id="kurier_need_kurier_0">
+		<text>Ohh... dude, what with you? Shitty you look</text>
+	</string>
+	<string id="kurier_need_kurier_1">
+		<text>Hrenovo to me... kha-kha-kha... Wait... kha-kha-kha. Excuse blood and whips</text>
+	</string>
+	<string id="kurier_need_kurier_2">
+		<text>You, probably, also are the courier from Sviblov</text>
+	</string>
+	<string id="kurier_need_kurier_3">
+		<text>Yes. Listen... Listen to me... kha-kha-kha. It is necessary... kha-kha-kha to deliver samples to Sakharov, it is very important. IMPORTANT, you understand. I. kha-kha-kha I can not any more</text>
+	</string>
+	<string id="kurier_need_kurier_4">
+		<text>It is quiet Bratuha, now the medkit you will accept also all will be a way</text>
+	</string>
+	<string id="kurier_need_kurier_5">
+		<text>You think I did not try, a shit I am feeling... kha-kha-kha. Listen promise to me to deliver this case to Sakharov?</text>
+	</string>
+	<string id="kurier_need_kurier_6">
+		<text>That for a case?</text>
+	</string>
+	<string id="kurier_need_kurier_7">
+		<text>Here it, there action... Really... kha-kha-kha important... The important...</text>
+	</string>
+	<string id="kurier_need_kurier_8">
+		<text>That the important?</text>
+	</string>
+	<string id="saharov_need_kurier_0">
+		<text>Professor, in... Take it</text>
+	</string>
+	<string id="saharov_need_kurier_1">
+		<text>It is quiet, here accept it, you should have a sleep a little</text>
+	</string>
+	<string id="saharov_need_kurier_2">
+		<text>Prof...</text>
+	</string>
+	<string id="saharov_est_kurier_0">
+		<text>Oh Professor, a head plague</text>
+	</string>
+	<string id="saharov_est_kurier_1">
+		<text>Anything, it is posteffect from soporific</text>
+	</string>
+	<string id="saharov_est_kurier_2">
+		<text>I Hope you Explain to me, what for crap was in a case?</text>
+	</string>
+	<string id="saharov_est_kurier_3">
+		<text>The Pre-production model of a vaccine from a HIV of infections. If we appear are right, we can return millions people to life. Forgive that have forced you so to risk, but a case extraordinary. The substance while is strongly astable that leads to various reactions of an organism, up to lethal outcomes</text>
+	</string>
+	<string id="saharov_est_kurier_4">
+		<text>Well, Professor, it is necessary to warn, I hardly have not rejected a hoof</text>
+	</string>
+	<string id="saharov_est_kurier_5">
+		<text>Here take something. I hope it will redress our wrong</text>
+	</string>
+	<string id="sveeblov_est_kurier_0">
+		<text>Hello to sloggers</text>
+	</string>
+	<string id="sveeblov_est_kurier_1">
+		<text>The fine fellow, Streloks, has fine gained. You understand, it was the single copy... The Unique preparation</text>
+	</string>
+	<string id="sveeblov_est_kurier_2">
+		<text>Yes do not justify, a stranger I for you, it is possible and to substitute me, and I will die such as I more will run ten</text>
+	</string>
+	<string id="sveeblov_est_kurier_3">
+		<text>Not, the brother, you are not right, such as you units, and I very much appreciate you, believe. All right here take angulator. Remember, it is necessary to approach as it is possible more close to a teleport and to throw out angulator and if you will get successfully the teleport so to say 'will resolve'</text>
+	</string>
+	<string id="kot_hosp_first_0">
+		<text>What are you doing here?</text>
+	</string>
+	<string id="kot_hosp_first_1">
+		<text>I couldn't send you in there on your own. Brought in some some back-up, former Spetsnaz</text>
+	</string>
+	<string id="kot_hosp_first_2">
+		<text>Are there a lot of them?</text>
+	</string>
+	<string id="kot_hosp_first_3">
+		<text>In the first room, about eight to ten. And further...who knows?</text>
+	</string>
+	<string id="kot_hosp_first_4">
+		<text>Well brothers, I will go first. Then follow me</text>
+	</string>
+	<string id="black_doctor_dialog_0">
+		<text>You must be the notorious Black Doctor?</text>
+	</string>
+	<string id="black_doctor_dialog_1">
+		<text>And you are Strelok? The disturber of the Zone?</text>
+	</string>
+	<string id="black_doctor_dialog_2">
+		<text>You probably already know that Maples has left you. Well it's time we met, so can you tell me what's going on? It would be interesting to hear the information firsthand</text>
+	</string>
+	<string id="black_doctor_dialog_3">
+		<text>He didn't leave, he simply ran away. He was frightened... He's a good scientist, a clever man, but the changing world scares him. I have very little but time, so I'm ready to answer your questions...</text>
+	</string>
+	<string id="black_doctor_dialog_4">
+		<text>What are you planning?</text>
+	</string>
+	<string id="black_doctor_dialog_5">
+		<text>Its all very simple. We are going to increase the size of the Zone. And of course, preserve it. But we wanted to accelerate the process</text>
+	</string>
+	<string id="black_doctor_dialog_6">
+		<text>How?</text>
+	</string>
+	<string id="black_doctor_dialog_7">
+		<text>We have developed a new Psi-installation that will allow us to reach the surrounding villages and even cities. Besides, we also have mobile psi installations</text>
+	</string>
+	<string id="black_doctor_dialog_8">
+		<text>Wont the people who live near to the Zone undergo a Psi-attack? Whats preventing you from doing it now?</text>
+	</string>
+	<string id="black_doctor_dialog_9">
+		<text>Partly the originator of our problems is you. If not for your careless actions, we would by now have been able to deploy our portable repeaters. Our new Psi-installation demands enormous kol-va energy. We don't have such a kol-va energy supply. Certainly, our needs would have been met before the failure of the atomic power station. But now the reactor is destroyed, so it was necessary to try a different way. Besides there is also one more reason, its rather embarrassing... Our 'general' talkative friend, you didn't tell all</text>
+	</string>
+	<string id="black_doctor_dialog_10">
+		<text>Maples or Rabi? Also what didn't you find out in time?</text>
+	</string>
+	<string id="black_doctor_dialog_11">
+		<text>Except repeaters, we have ordered some independent generators and, if have received them, could start our installation on total power. And relay a signal in a radius of 200-300 km to begin with. But as I already stated that didn't happen because of you and the lieutenant colonel of FSB Kotova. So for now we are content with the portable Psi-aerials, and these are only for protection. Besides, as you already likely know, a spare variant of reception of the boundless power supply - too is in doubt</text>
+	</string>
+	<string id="black_doctor_dialog_12">
+		<text>It's Cat?...REALLY!!!!, its impossible to trust anybody...the two-faced shit. So what happens now?</text>
+	</string>
+	<string id="black_doctor_dialog_13">
+		<text>I don't know how, but special services have learned, but not the details, of our plan. Also theres been an influx of agents. One of them your acquaintance, the Cat. And as a further result of your actions our counter-agents and some more people have been killed, the contract will terminate, cargo is destroyed. But never would they think that even children can be agents... As Maples has already told you - and this is an annoying truth - the girl has stolen from us an artefact without which it is impossible to produce an alternative energy source. My people are searching for her, but so far - unsuccessfully. Also I asked them to search, not kill</text>
+	</string>
+	<string id="black_doctor_dialog_14">
+		<text>What further?</text>
+	</string>
+	<string id="black_doctor_dialog_15">
+		<text>Further it's necessary for us to part. For some people the Zone is a source of harm, and for others its a second life. But I have not told you the most important part. I'm afraid that for now its just not the right time. You are awaited by a teleport - go downwards on a ladder - it will transfer you to the first compartment of the destroyed hospital. But before you go - a dream - I hope, it will bring some clearness in your consciousness</text>
+	</string>
+	<string id="black_doctor_dialog_16">
+		<text>A Dream? But I don't want to sleep...</text>
+	</string>
+	<string id="kot_after_doctor_dialog_0">
+		<text>Well, your a double agent?</text>
+	</string>
+	<string id="kot_after_doctor_dialog_1">
+		<text>Strelok, calm down. Try to understand the situation. It was necessary to operate like that</text>
+	</string>
+	<string id="kot_after_doctor_dialog_2">
+		<text>You couldnt be honest with me?</text>
+	</string>
+	<string id="kot_after_doctor_dialog_3">
+		<text>You would have never began to help if you knew. Well tell me, what happened in there?</text>
+	</string>
+	<string id="kot_after_doctor_dialog_4">
+		<text>Listen, I don't forgive lies, and neither does the Zone. I'm not going to kill you. I don't need to, because other Stalkers won't be as forgiving...</text>
+	</string>
+	<string id="marsh_remont_pre_upgreid_0">
+		<text>Hello, Vasily. Any upgrades possible?</text>
+	</string>
+	<string id="marsh_remont_pre_upgreid_1">
+		<text>Well, I can either give you a bionic eye, or fit PNV to some suits...</text>
+	</string>
+	<string id="marsh_remont_pre_upgreid_2">
+		<text>Yeah, right Vasily. Okay, which suits?</text>
+	</string>
+	<string id="marsh_remont_pre_upgreid_3">
+		<text>The Clear Sky exoskeleton, the Clear Sky Scientific suit, and the Monolith Black outfit</text>
+	</string>
+	<string id="marsh_remont_upgreid_0">
+		<text>Hi. I'd like to have night vision fitted to my suit, please</text>
+	</string>
+	<string id="marsh_remont_upgreid_1">
+		<text>Well, I can install anything up to 'White Night' PNV to any of the following suits:\nThe Clear Sky exoskeleton\nThe Clear Sky Scientific suit\nThe Monolith Black outfit\n \nWhich would you like?</text>
+	</string>
+	<string id="marsh_remont_upgreid_2">
+		<text>I can install anything up to 'White Night' PNV to any of the following suits:\nThe Clear Sky exoskeleton\nThe Clear Sky Scientific suit\nThe Monolith Black outfit. Which would you like?</text>
+	</string>
+	<string id="marsh_remont_upgreid_3">
+		<text>Let me check...</text>
+	</string>
+	<string id="marsh_remont_upgreid_4">
+		<text>Are you saying you don't know what suit you're wearing?</text>
+	</string>
+	<string id="marsh_remont_upgreid_5">
+		<text>A Clear Sky exoskeleton</text>
+	</string>
+	<string id="marsh_remont_upgreid_6">
+		<text>A Clear Sky Scientific suit</text>
+	</string>
+	<string id="marsh_remont_upgreid_7">
+		<text>A Monolith Black outfit</text>
+	</string>
+	<string id="marsh_remont_upgreid_8">
+		<text>Okay, seeing as you've got good taste:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich one?</text>
+	</string>
+	<string id="marsh_remont_upgreid_81">
+		<text>Standard 'Green'</text>
+	</string>
+	<string id="marsh_remont_upgreid_82">
+		<text>'Digital'</text>
+	</string>
+	<string id="marsh_remont_upgreid_83">
+		<text>'Sepia'</text>
+	</string>
+	<string id="marsh_remont_upgreid_84">
+		<text>'Halogen'</text>
+	</string>
+	<string id="marsh_remont_upgreid_85">
+		<text>'Cats Eye'</text>
+	</string>
+	<string id="marsh_remont_upgreid_86">
+		<text>'Psi-effect'</text>
+	</string>
+	<string id="marsh_remont_upgreid_87">
+		<text>'Moonlight'</text>
+	</string>
+	<string id="marsh_remont_upgreid_88">
+		<text>The best, please - 'White Night'</text>
+	</string>
+	<string id="marsh_remont_upgreid_89">
+		<text>Sorry Vasily. Sidorovich has already taken all my cash...</text>
+	</string>
+	<string id="marsh_remont_upgreid_811">
+		<text>On, a bast shoe, and who you still? Such crap only the bast shoe also could order</text>
+	</string>
+	<string id="marsh_remont_upgreid_821">
+		<text>I Look a money has saved up, it is necessary to tickle at night you a plumelet on a narrow path. Uh-ha-ha. On here</text>
+	</string>
+	<string id="marsh_remont_upgreid_831">
+		<text>I Get on you take, well as you want, hold</text>
+	</string>
+	<string id="marsh_remont_upgreid_841">
+		<text>Jadren a long loaf and you there. 'Halogen' to it submit</text>
+	</string>
+	<string id="marsh_remont_upgreid_851">
+		<text>In crystalization has moved? On 'Cats Eye'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_861">
+		<text>Podi has presoaked whom. Hold 'Psi-effect'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_871">
+		<text>And what for to you such PNV the good? Not for maids on bogs to peep ha-ha-ha? Hold the suit</text>
+	</string>
+	<string id="marsh_remont_upgreid_881">
+		<text>You look strangely at it how many. Barman on-has pressed?</text>
+	</string>
+	<string id="marsh_remont_upgreid_891">
+		<text>Don't worry. Sidorovich won't be around forever...</text>
+	</string>
+	<string id="marsh_remont_upgreid_9">
+		<text>For this suit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="marsh_remont_upgreid_91">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_92">
+		<text>'Digital'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_93">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_94">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_95">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_96">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_97">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_98">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_99">
+		<text>Sorry Vasily, too expensive...</text>
+	</string>
+	<string id="marsh_remont_upgreid_911">
+		<text>How much for this crap?</text>
+	</string>
+	<string id="marsh_remont_upgreid_921">
+		<text>Oh, well you the Barin, the poured out Barin</text>
+	</string>
+	<string id="marsh_remont_upgreid_931">
+		<text>The Miser you. Heels of pieces has saved, and after all crap notable this PNV</text>
+	</string>
+	<string id="marsh_remont_upgreid_941">
+		<text>Purvayor of clever words of everyones 'Halogen-shmalogen'. Remember, there is a shit, and there is a thing standing. Here that you to yourself have ordered if and not shit it is close to this word</text>
+	</string>
+	<string id="marsh_remont_upgreid_951">
+		<text>On 'an ass of the Bloodsucker'. Oh excuse, 'Cat's Eye'. Ours to you, Sherlock</text>
+	</string>
+	<string id="marsh_remont_upgreid_961">
+		<text>And me still the bandit name? Here you are a bandit. Whence money, and? You are silent, yes? Gop-stop, we have approached from for a corner, gop-stop, you much on yourself took... Yes what hints? So the song was remembered</text>
+	</string>
+	<string id="marsh_remont_upgreid_971">
+		<text>Well a moustache, 'Moonlight' has put, in a bum of the peacock feathers Nasuval and the first guy on village</text>
+	</string>
+	<string id="marsh_remont_upgreid_981">
+		<text>Not, well tell to me, whence at you, Stalkers, money? You thump all day long</text>
+	</string>
+	<string id="marsh_remont_upgreid_991">
+		<text>It is expensive? Yes you have gone. You to Sidorovich descend, here at it so is cheap!, that after it, at you even on a leaf of money will not be, shame the to cover</text>
+	</string>
+	<string id="marsh_remont_upgreid_10">
+		<text>Here's what it'll cost you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\n</text>
+	</string>
+	<string id="marsh_remont_upgreid_101">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_102">
+		<text>'Digital'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_103">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_104">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_105">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_106">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_107">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_108">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="marsh_remont_upgreid_109">
+		<text>Sorry Vasily, but I don't feel comfortable here. I need to go...</text>
+	</string>
+	<string id="marsh_remont_upgreid_1011">
+		<text>In-in more you are not worthy. All the same you will die from... Vodka, an ear-ha-ha</text>
+	</string>
+	<string id="marsh_remont_upgreid_1021">
+		<text>Not, well Nakoy a shit you on the Zone gad at night? Better to the Cold, for holding a pile, yes canned food Radioactive to have a snack</text>
+	</string>
+	<string id="marsh_remont_upgreid_1031">
+		<text>On hold. Silly you the people Stalkers, run on the Zone all day long, and then all the same all your money to me, yes to the Cold get</text>
+	</string>
+	<string id="marsh_remont_upgreid_1041">
+		<text>Not, I such crap did not begin to carry. Take away Durian a head</text>
+	</string>
+	<string id="marsh_remont_upgreid_1051">
+		<text>On an eagle, here to you 'Cat's Eye'</text>
+	</string>
+	<string id="marsh_remont_upgreid_1061">
+		<text>And me still the bandit name? Here you the bandit. Whence money, and? You are silent, yes? Gop-stop, we have approached from for a corner, gop-stop, you much on yourself took. Yes what hints? So, the song was remembered</text>
+	</string>
+	<string id="marsh_remont_upgreid_1071">
+		<text>Well everything, 'Moonlight' has put, in a bum of the peacock feathers nasuval and the first guy on village</text>
+	</string>
+	<string id="marsh_remont_upgreid_1081">
+		<text>Not, well tell to me whence at you, Stalkers, money? You thump all day long</text>
+	</string>
+	<string id="marsh_remont_upgreid_1091">
+		<text>I have bothered it. Oh, well it is direct the young lady muslin. Has bothered you will speak to the Bloodsucker when it you on a dump will press at night, and at you from cartridges - only boots, and those rats chewed. An ear-ha-ha</text>
+	</string>
+	<string id="shadowman_zver_need_0">
+		<text>Hello, we meet again</text>
+	</string>
+	<string id="shadowman_zver_need_1">
+		<text>Thank the stars it's you Strelok, can you help us one more time?</text>
+	</string>
+	<string id="shadowman_zver_need_2">
+		<text>Explain whats going on</text>
+	</string>
+	<string id="shadowman_zver_need_3">
+		<text>The hunters have just informed me that a big herd of mutants are heading towards our camp by the tower</text>
+	</string>
+	<string id="shadowman_zver_need_4">
+		<text>Do you have a plan?</text>
+	</string>
+	<string id="shadowman_zver_need_5">
+		<text>You are better with a weapon than any man here. In the tower, on the second floor, is a backpack that has our best weapon. Our best weapon should be in the hands of the best fighter. That way, more of us stand a chance of surviving</text>
+	</string>
+	<string id="shadowman_zver_need_6">
+		<text>Well, I will try to protect your men</text>
+	</string>
+	<string id="shadowman_zver_est_0">
+		<text>Holy shit!, I've never seen so many mutants at once</text>
+	</string>
+	<string id="shadowman_zver_est_1">
+		<text>Periodically, we get herds of mutants that pass through. Though this is the first time I've seen so many at once</text>
+	</string>
+	<string id="shadowman_zver_est_2">
+		<text>Well brother, Im not needed here any more. So I will go and take care of affairs</text>
+	</string>
+	<string id="shadowman_zver_est_3">
+		<text>Yes-yes thanks for the help. You can keep the weapon</text>
+	</string>
+	<string id="shadowman_most_need_0">
+		<text>Hello Brothers</text>
+	</string>
+	<string id="shadowman_most_need_1">
+		<text>I Welcome you Stalker, Can you help us out?</text>
+	</string>
+	<string id="shadowman_most_need_2">
+		<text>What is necessary?</text>
+	</string>
+	<string id="shadowman_most_need_3">
+		<text>There is a bridge nearby, and behind the bridge is the road to Limansk. But the bridge is in the hands of Mercenaries, so the road is blocked. Here men from different groups have gathered, we want to push them off the bridge</text>
+	</string>
+	<string id="shadowman_most_need_4">
+		<text>And?</text>
+	</string>
+	<string id="shadowman_most_need_5">
+		<text>As you can see our group is small, and they are twice our number. You've reached the Red Forest by yourself, so you must know your way around a fight. Will you help?</text>
+	</string>
+	<string id="shadowman_most_need_6">
+		<text>Can you supply medkits?</text>
+	</string>
+	<string id="shadowman_most_need_7">
+		<text>Help us, and I'll give you whatever we can spare...</text>
+	</string>
+	<string id="shadowman_most_need_8">
+		<text>Well, I'm going to Limansk anyway, so count me in...</text>
+	</string>
+	<string id="shadowman_most_est_0">
+		<text>That was interesting...</text>
+	</string>
+	<string id="shadowman_most_est_1">
+		<text>This is the fourth time we've had to take back this bridge. Mercenaries try to block it all the time. Why would someone pay so much to cut off our brothers in Limansk?</text>
+	</string>
+	<string id="shadowman_most_est_2">
+		<text>I don't know, but these bastards will do anything for money. You promised to share some medkits with me?</text>
+	</string>
+	<string id="shadowman_most_est_3">
+		<text>Ah yes, these are military ones. Well, thanks for the help. I'll get back to our camp by the tower. You need to go through the woods to get there</text>
+	</string>
+	<string id="xolod_need_grib_0">
+		<text>Why are always so cheerful?</text>
+	</string>
+	<string id="xolod_need_grib_1">
+		<text>Well, I have a business offer for you...</text>
+	</string>
+	<string id="xolod_need_grib_2">
+		<text>What kind of business?</text>
+	</string>
+	<string id="xolod_need_grib_3">
+		<text>Magic mushrooms! I love them! I trade in them, and share them with the guys here...</text>
+	</string>
+	<string id="xolod_need_grib_4">
+		<text>So, that's why you look so upbeat in a swamp... Okay, what are you offering?</text>
+	</string>
+	<string id="xolod_need_grib_5">
+		<text>For three Amanita mushrooms, any of the following: Five drums of ammo for the PPSh-41 pistol-machine gun\nThree mags for the MG-42 machine gun\nThree packs of cartridges for the Thunderstorm\nFour packs of NATO cartridges\nFour packs of AK-74 cartridges\nThree army medkits\nThree Antirads\nRemember that these mushrooms thrive on radiation, so be careful handling them...</text>
+	</string>
+	<string id="grib_ghange_0">
+		<text>Here you are, Cold. Mushrooms...</text>
+	</string>
+	<string id="grib_ghange_1">
+		<text>Let me see!</text>
+	</string>
+	<string id="grib_ghange_2">
+		<text>Here, three pieces</text>
+	</string>
+	<string id="grib_ghange_3">
+		<text>Oh, sorry. I thought I had some in there...</text>
+	</string>
+	<string id="grib_ghange_4">
+		<text>Which do you want?</text>
+	</string>
+	<string id="grib_ghange_41">
+		<text>Five drums for the PPSh-41 pistol-machine gun</text>
+	</string>
+	<string id="grib_ghange_42">
+		<text>Three mags for the Mg-42 machine gun</text>
+	</string>
+	<string id="grib_ghange_43">
+		<text>Three army medkits</text>
+	</string>
+	<string id="grib_ghange_44">
+		<text>Three Antirads</text>
+	</string>
+	<string id="grib_ghange_45">
+		<text>Four packs of 5.45x39mm for the AK</text>
+	</string>
+	<string id="grib_ghange_46">
+		<text>Four packs of 5.56x45mm SS109 NATO</text>
+	</string>
+	<string id="grib_ghange_47">
+		<text>Four packs of 9x39mm PAB-9 for the Thunderstorm</text>
+	</string>
+	<string id="grib_ghange_48">
+		<text>No, I fancy trying out these mushrooms myself...</text>
+	</string>
+	<string id="green_need_doc_0">
+		<text>Hello, Stalker</text>
+	</string>
+	<string id="green_need_doc_1">
+		<text>Hello guys, I'm here on business</text>
+	</string>
+	<string id="green_need_doc_2">
+		<text>What about?</text>
+	</string>
+	<string id="green_need_doc_3">
+		<text>I was sent by Fang to pick up a document</text>
+	</string>
+	<string id="green_need_doc_4">
+		<text>Eh...theres a problem</text>
+	</string>
+	<string id="green_need_doc_5">
+		<text>What happened?</text>
+	</string>
+	<string id="green_need_doc_6">
+		<text>A Stalker aproached our camp and seemed normal, he passed around a bottle of vodka and we shared stories till we past out. When we woke up in the morning he had disappeared. Our backpack was stolen. In the backpack was almost all our belongings. We have had the same clothes on for two weeks. We barely have any cartrides left and our food is gone</text>
+	</string>
+	<string id="green_need_doc_7">
+		<text>Where can I look for this Stalker?</text>
+	</string>
+	<string id="green_need_doc_8">
+		<text>He talked about doing business with 'Cold', Barman on the Marshes. He says: 'I'll take my artefacts to Cold and get the best price'. So we believe he must have went to the marsh</text>
+	</string>
+	<string id="green_need_doc_9">
+		<text>I will go to the marsh and talk with Cold and find out where your pack is</text>
+	</string>
+	<string id="green_need_doc_10">
+		<text>If you find it, we will owe you</text>
+	</string>
+	<string id="xolod_need_doc_0">
+		<text>Hello Cold, I need to speak with you</text>
+	</string>
+	<string id="xolod_need_doc_1">
+		<text>Why have you come?</text>
+	</string>
+	<string id="xolod_need_doc_2">
+		<text>Im looking for a Stalker who might have passed through here recently, wanting to sell a backpack full of hunters gear</text>
+	</string>
+	<string id="xolod_need_doc_3">
+		<text>I know who you're talking about Marked One - Mitka Redemption, one of the most habitual thieves in the Zone. He came here trying to sell a backpack, but I knew it was stolen and we kicked him off the base. Search for him near the cemetery - that's where his camp is located. I wouldn't be surprised if he's already dead, though. He's stolen from too many people...</text>
+	</string>
+	<string id="grab_need_doc_0">
+		<text>Stojajajajajat!!!!!!!!!</text>
+	</string>
+	<string id="grab_need_doc_1">
+		<text>Brothers, easy! easy! whats going on with Mitka?</text>
+	</string>
+	<string id="grab_need_doc_2">
+		<text>What business do you have with this scum?</text>
+	</string>
+	<string id="grab_need_doc_3">
+		<text>Brothers, Brothers, let me have a few words with Mitka, in private</text>
+	</string>
+	<string id="grab_need_doc_4">
+		<text>Pay up 50,000Ru and you can keep this rat for yourself. We cant even count how many times this son of a whore has stolen from us...</text>
+	</string>
+	<string id="grab_need_doc_41">
+		<text>Here, take the money. Now Mitka is free?</text>
+	</string>
+	<string id="grab_need_doc_411">
+		<text>Well he's your problem now, I wouldnt have payed a copeck to save his rotten hide. Partner in crime perhaps?</text>
+	</string>
+	<string id="grab_need_doc_42">
+		<text>Friend let me tell you something, if I was a bandit. You would all be dead right now and I would still have 50000Ru in my pocket</text>
+	</string>
+	<string id="grab_need_doc_421">
+		<text>If he is still here when I count to 10, I don't know if I can control my trigger finger</text>
+	</string>
+	<string id="grab_need_doc_422">
+		<text>Our business is finished, now I will finish my business with Mitka. don't get in the way of that</text>
+	</string>
+	<string id="mitya_need_doc_0">
+		<text>Well Mitka, you really owe me now</text>
+	</string>
+	<string id="mitya_need_doc_1">
+		<text>Brother... oh brother, thanks so much, they... They were about to waste me</text>
+	</string>
+	<string id="mitya_need_doc_2">
+		<text>I took care of your problem with them. Now, where is the backpack which you stole from the hunters in the red wood?</text>
+	</string>
+	<string id="mitya_need_doc_3">
+		<text>I don't have it, bandits robbed me on the road and took everything, I barely got away with my life</text>
+	</string>
+	<string id="mitya_need_doc_4">
+		<text>I don't have the time for this shit!, I will finish what they started if you don't start talking!...</text>
+	</string>
+	<string id="mitya_need_doc_5">
+		<text>Wait! Wait! I was mistaken, was mistaken... I have remembered. I have the backpack, its here...look...take it</text>
+	</string>
+	<string id="mitya_need_doc_6">
+		<text>Well you lieing dog. I should have waited till they shot you, instead of paying money</text>
+	</string>
+	<string id="sidor_need_doc_0">
+		<text>Hello Sidorovich, what for a parcel?</text>
+	</string>
+	<string id="sidor_need_doc_1">
+		<text>Is shorter peasant one is, Mitjaem call, the pilferer it notable and the gambler. Well also appears to me has run into debt the sum round. I also did not hope from it to receive Duty. And here yesterday resorts, joyful such and me - affairs say at it on ointment, just about with all debts pay with. For now as pledge take, speaks, a backpack. Well, I have looked - there on a trifle, meal, cartridges, pair of artefacts. Of course, took better so, than absolutely than anything. And recently you remembered...</text>
+	</string>
+	<string id="sidor_need_doc_2">
+		<text>Well and...</text>
+	</string>
+	<string id="sidor_need_doc_3">
+		<text>You remembered, you at us the master to get into all affairs, and rucksak obviously stolen, well here and I think</text>
+	</string>
+	<string id="sidor_need_doc_4">
+		<text>Oh do not pull, Sidorovich, spread</text>
+	</string>
+	<string id="sidor_need_doc_5">
+		<text>I can sell to you this backpack More shortly</text>
+	</string>
+	<string id="sidor_need_doc_6">
+		<text>How many?</text>
+	</string>
+	<string id="sidor_need_doc_7">
+		<text>So we will estimate five... Plus the percent, total eight, is not present ten thousand</text>
+	</string>
+	<string id="sidor_need_doc_8">
+		<text>For an old backpack? For pair cobble-stones and a stick of rotten sausage?</text>
+	</string>
+	<string id="sidor_need_doc_9">
+		<text>Well I do not know, are long it is necessary to give. The backpack is necessary to you? It is necessary on eyes I see. Ten and copecks it is less</text>
+	</string>
+	<string id="sidor_est_doc_0">
+		<text>Sidorovich!</text>
+	</string>
+	<string id="sidor_est_doc_1">
+		<text>That, has brought money?</text>
+	</string>
+	<string id="sidor_est_doc_2">
+		<text>Is not present, it is simple in your mind's eye has come to look, perhaps you will change the mind</text>
+	</string>
+	<string id="sidor_est_doc_3">
+		<text>On, an Egyptian Vulture, choke</text>
+	</string>
+	<string id="sidor_est_doc_4">
+		<text>In, here it is another story, take away</text>
+	</string>
+	<string id="green_est_doc_0">
+		<text>Greetings Strelok</text>
+	</string>
+	<string id="green_est_doc_1">
+		<text>Hello brother, does this look familiar?</text>
+	</string>
+	<string id="green_est_doc_2">
+		<text>Let's take a look, Yes!, it is our backpack. You are a savior indeed!</text>
+	</string>
+	<string id="green_est_doc_3">
+		<text>Excuse my haste, but I need those documents</text>
+	</string>
+	<string id="green_est_doc_4">
+		<text>Yes-yes, of course, only they are not with us. We put them in another spot for insurance. It's not far from here go north from our cave and past the clearing and you will find an abandoned army tank in the woods. Near to it look for a backpack, the documents are in it</text>
+	</string>
+	<string id="klyak_est_doc_0">
+		<text>Greetings, olden time</text>
+	</string>
+	<string id="klyak_est_doc_1">
+		<text>Hello, Streloks, well docks at you?</text>
+	</string>
+	<string id="klyak_est_doc_2">
+		<text>At me. As I will remember your words 'Yes nonsense, trifling matter'... Here always I was confused with expressions of type 'trifling matter', 'small Halturka'... Blows from such affairs by usually big bum</text>
+	</string>
+	<string id="klyak_est_doc_3">
+		<text>It happens, the Zone is unpredictable, all can be. Give them here</text>
+	</string>
+	<string id="klyak_need_denis_0">
+		<text>Well interested in documents?</text>
+	</string>
+	<string id="klyak_need_denis_1">
+		<text>You know a long time ago I worked for the Mercenaries. There was one person there that I worked with gathering intel in the Zone. But we didn't share all the information we gathered with the Mercenaries. We established hiding places and stored the intel on flash cards, a part of them directly on documents. After my quarrel with the Mercenaries, it was necessary to stash everything. Until a time I thought it would be safe to retreive them. I sent my old comrade to check up on one of these hiding places. But two days and he has not returned, and also his PDA is silent. Also I sent the Pilgrim long ago to check on a path to the Lost Village, and also no word from him</text>
+	</string>
+	<string id="klyak_need_denis_2">
+		<text>What now?</text>
+	</string>
+	<string id="klyak_need_denis_3">
+		<text>We need to find my old comrade. If I am right, the documents contain important information. Meanwhile I will try to communicate with the Pilgrim</text>
+	</string>
+	<string id="klyak_need_denis_4">
+		<text>I have had no news from the Panther about where to search for the girl who has abducted from O-consciousness, this situation also is not clear... Where though do I search for your comrade?</text>
+	</string>
+	<string id="klyak_need_denis_5">
+		<text>In the Red Forest. It's not far from the house of the Forester, close to the wall. It's in an old abandoned mine, there I made a small hiding place</text>
+	</string>
+	<string id="klyak_need_denis_6">
+		<text>I will look for him. What's his name?</text>
+	</string>
+	<string id="klyak_need_denis_7">
+		<text>Denis, if he lives help him</text>
+	</string>
+	<string id="denis_need_denis_0">
+		<text>Hello, are you Denis?</text>
+	</string>
+	<string id="denis_need_denis_1">
+		<text>Thank you friend, did Fang send you?</text>
+	</string>
+	<string id="denis_need_denis_2">
+		<text>Yes, he sent me to save your ass</text>
+	</string>
+	<string id="denis_need_denis_3">
+		<text>It's not the first time he has bailed me out of trouble</text>
+	</string>
+	<string id="denis_need_denis_4">
+		<text>Do you have the documents?</text>
+	</string>
+	<string id="denis_need_denis_5">
+		<text>The hiding place was empty! I only had time to check it then the controller got me. Hey, can you help me get to the local Stalker base? It's not far but I'm too weak right now to make it by myself</text>
+	</string>
+	<string id="denis_need_denis_6">
+		<text>No problem, you just follow me. I will try to keep a slow pace so you can keep up</text>
+	</string>
+	<string id="shadowman_need_denis_0">
+		<text>Hello, I didn't expect to get any help. How did you know there was trouble?</text>
+	</string>
+	<string id="shadowman_need_denis_1">
+		<text>One of my men spotted a group of Mercenaries, and we decided to track them</text>
+	</string>
+	<string id="shadowman_need_denis_2">
+		<text>Well, I'm glad that you did</text>
+	</string>
+	<string id="shadowman_need_denis_3">
+		<text>It's nothing compared to all the help you have given us brother</text>
+	</string>
+	<string id="klyak_est_denis_0">
+		<text>Bad news, Fang. The hiding place is empty...</text>
+	</string>
+	<string id="klyak_est_denis_1">
+		<text>Shit! I can't believe it. Are you sure?</text>
+	</string>
+	<string id="klyak_est_denis_2">
+		<text>Yes, there was nothing there. Denis said so... or do you think?</text>
+	</string>
+	<string id="klyak_est_denis_3">
+		<text>No... Denis is a trusted friend. So who has visited us that could have known? Alright, have a rest but not too long. The Astrologer has sent an SMS for you to meet him in the Cordon at the rookie village. I communicated with the Doctor and told him to let the Astrologer know I'm alive. I'm not sure what this guy is up to but we need to be careful with him, he's a smooth operator. I want you to deliver this copy of my map to him</text>
+	</string>
+</string_table>

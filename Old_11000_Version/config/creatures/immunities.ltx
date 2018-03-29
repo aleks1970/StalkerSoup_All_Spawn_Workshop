@@ -1,0 +1,657 @@
+;<!-- TB3D 1.0.9.9.7.6  TB3D Tough Guy, moved immuns and damages, ldk, invuln options folder obsolete
+; does not contain outfit, amk_mod_outfits, meceniy_outfits, start with no_resitance as base
+; for all to insure they don't die from radiation, invulnerable has slight hit for invoking invuln
+; check in motivator, biblio
+
+;labirint_shade_monolit, land_sniper_chimaera, final_shade_mono		
+[immortal]
+burn_immunity 				= 0.0
+strike_immunity 			= 0.0
+shock_immunity 				= 0.0
+wound_immunity				= 0.0
+radiation_immunity 			= 0.0		;radiation should be 0 for all but actor
+telepatic_immunity 			= 0.0
+chemical_burn_immunity 		= 0.0
+explosion_immunity 			= 0.0
+fire_wound_immunity  		= 0.0
+
+;arnie___, astrologer___, bes___, cap___, cook___, fanatic___, fox___, guide___,
+;ivancov___, kuznetsov___, lukash___, max___, mole___, nimble___,
+;petrenko___, screw___, seriy___, skinflint___, voronin___,
+;warrant off___, wolf___, yurik___, skull___
+[invulnerable]
+burn_immunity 				= 0.001		;TB3D 109932 - causes hit callback for invuln check
+strike_immunity 			= 0.001
+shock_immunity 				= 0.0
+wound_immunity				= 0.001
+radiation_immunity 			= 0.0		;radiation should be 0 for all but actor
+telepatic_immunity 			= 0.0
+chemical_burn_immunity 		= 0.0
+explosion_immunity 			= 0.001
+fire_wound_immunity  		= 0.001
+
+[no_resistance]							;gilet, kombez, kurtka, plasch
+burn_immunity 				= 1.0
+strike_immunity 			= 1.0
+shock_immunity 				= 1.0
+wound_immunity				= 1.0
+radiation_immunity 			= 0.0		;radiation should be 0 for all but actor
+telepatic_immunity 			= 1.0
+chemical_burn_immunity 		= 1.0
+explosion_immunity 			= 1.0
+fire_wound_immunity  		= 1.0
+
+[low_resistance]:no_resistance			;gilet, kombez, kurtka, stalker hero captures, stalker nebo 1 and 2
+burn_immunity 				= 0.38
+strike_immunity 			= 0.28
+shock_immunity 				= 0.28
+wound_immunity				= 0.28
+chemical_burn_immunity 		= 0.28
+explosion_immunity 			= 0.8
+fire_wound_immunity  		= 0.28
+
+[medium_resistance]:no_resistance		;armor helmet, darkst, exo helmet, exo light, exo tank, gilet, kombez, zombied
+burn_immunity 				= 0.25
+strike_immunity 			= 0.15
+shock_immunity 				= 0.15
+wound_immunity				= 0.15
+chemical_burn_immunity 		= 0.15
+explosion_immunity 			= 0.5
+fire_wound_immunity  		= 0.15
+
+[high_resistance]:no_resistance			;exo tough, kombez, kurtka, plasch
+burn_immunity 				= 0.15
+strike_immunity 			= 0.05
+shock_immunity 				= 0.05
+wound_immunity				= 0.05
+chemical_burn_immunity 		= 0.05
+explosion_immunity 			= 0.5
+fire_wound_immunity  		= 0.05
+
+[tough_guy]:no_resistance				;exo tough, gilet, inv tuf, kombez
+burn_immunity 				= 0.135
+strike_immunity 			= 0.035
+shock_immunity 				= 0.035
+wound_immunity				= 0.035
+chemical_burn_immunity 		= 0.035
+explosion_immunity 			= 0.35
+fire_wound_immunity  		= 0.035
+
+[tolik________]:invulnerable
+
+[zahar_resistance_________]:invulnerable
+
+[hunter_invuler_resistance]:invulnerable	;Zahar
+
+[stalker_immunities_sakharov]:immortal		;m_stalker
+
+[osoznanie_immunities]:invulnerable			;m_person
+
+[trader_immunities]:invulnerable			;m_person
+
+[bandit_resist]:low_resistance				;m_bandit
+
+[soldier_resist]:medium_resistance			;m_fraction
+burn_immunity 				= 0.07
+wound_immunity				= 0.07
+fire_wound_immunity  		= 0.07
+
+[stalker_resist]:low_resistance				;m_stalker
+;burn_immunity 				= 0.8
+;strike_immunity 			= 0.9
+;shock_immunity 				= 0.9
+;wound_immunity				= 0.9
+;telepatic_immunity 			= 0.9
+;chemical_burn_immunity 		= 0.9
+;fire_wound_immunity  		= 0.8
+
+[specnaz_resist]:high_resistance			;m_fraction
+burn_immunity 				= 0.04
+strike_immunity 			= 0.04
+shock_immunity 				= 0.04
+wound_immunity				= 0.04
+;telepatic_immunity 			= 0.06
+;chemical_burn_immunity 		= 0.07
+explosion_immunity 			= 0.14
+fire_wound_immunity  		= 0.04
+
+[exo_resist]:high_resistance				;skull___ moved to invulnerable TB3D 109932
+
+[monolith_resist]:high_resistance			;m_stalker_monolith
+;burn_immunity 				= 0.6
+;strike_immunity 			= 0.7
+;shock_immunity 				= 0.8
+;wound_immunity				= 0.6
+;explosion_immunity 			= 0.7
+;fire_wound_immunity  		= 0.5
+
+[military_resist]:medium_resistance			;m_fraction
+;burn_immunity 				= 0.5
+;strike_immunity 			= 0.5
+;shock_immunity 				= 0.5
+;wound_immunity				= 0.5
+;telepatic_immunity 			= 0.1
+;chemical_burn_immunity 		= 0.5
+;explosion_immunity 			= 0.7
+;fire_wound_immunity  		= 0.5
+
+[hunter_novice_resistance]:low_resistance	;plasch hunter 2
+;burn_immunity 				= 0.7
+;strike_immunity 			= 0.8
+;shock_immunity 				= 0.8
+;wound_immunity				= 0.8
+;telepatic_immunity 			= 0.8
+;chemical_burn_immunity 		= 0.8
+;fire_wound_immunity  		= 0.7
+
+[hunter_regular_resistance]:low_resistance	;kombez hunter 1, kombez hunter 3
+;burn_immunity 				= 0.3
+;strike_immunity 			= 0.6
+;shock_immunity 				= 0.6
+;wound_immunity				= 0.6
+;telepatic_immunity 			= 0.3
+;chemical_burn_immunity 		= 0.5
+;explosion_immunity 			= 0.6
+;fire_wound_immunity  		= 0.6
+
+[stalker_zombied_immunities]:invulnerable	;m_stalker_zombied
+wound_immunity				= 0.46
+explosion_immunity			= 0.48
+fire_wound_immunity  		= 0.48 
+
+[stalker_sniper_immunities]:invulnerable	;m_stalker_sniper
+wound_immunity				= 0.04
+explosion_immunity			= 0.6
+fire_wound_immunity  		= 0.06 
+
+[stalker_antisniper_immunities]:invulnerable		;m_stalker_antisniper
+wound_immunity				= 0.04
+explosion_immunity			= 0.6
+fire_wound_immunity  		= 0.06 
+
+[zombie_immunities]:no_resistance					;m_zombie
+burn_immunity			= 0.1
+wound_immunity			= 0.4
+explosion_immunity		= 0.7
+fire_wound_immunity		= 0.6
+
+[zombie_immunities_normal]:zombie_immunities		;m_zombie
+explosion_immunity		= 0.7
+
+[zombie_immunities_strong]:zombie_immunities		;m_zombie
+wound_immunity			= 0.1
+explosion_immunity		= 0.6
+fire_wound_immunity		= 0.4
+
+[zombie_immunities_skeleton]:zombie_immunities		;m_zombie
+burn_immunity			= 0.15
+strike_immunity			= 0.9
+shock_immunity			= 0.0
+wound_immunity			= 0.1
+chemical_burn_immunity	= 0.2
+explosion_immunity		= 0.9
+fire_wound_immunity		= 0.4
+
+[zombie_babka_immunities_normal]:zombie_immunities	;m_zombie
+wound_immunity			= 0.4
+
+[zombie_babka_immunities_strong]:zombie_immunities	;m_zombie
+wound_immunity			= 0.08
+explosion_immunity		= 0.8
+fire_wound_immunity		= 0.5
+
+[ghoul_immunities]:invulnerable						;m_zombie
+burn_immunity			= 0.4
+strike_immunity			= 0.4
+shock_immunity			= 0.4
+wound_immunity			= 0.2
+telepatic_immunity		= 0.8
+chemical_burn_immunity	= 0.4
+explosion_immunity		= 0.3
+fire_wound_immunity		= 0.5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; HELI ;;;;;;;;;;;;;;;;;;;;;;;;
+[sect_heli_immunities]:invulnerable				;helicopter
+fire_wound_immunity   	= 0.0001
+explosion_immunity		= 0.2
+
+[sect_hm_immunities]:invulnerable				;helicopter
+fire_wound_immunity		= 0.05
+
+[sect_mi6_immunities]:invulnerable				;mi6
+burn_immunity			= 0.1	
+strike_immunity			= 1.0
+explosion_immunity		= 0.4
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; MOB ;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;; make creatures invulnerable to envronment hazards ;;;;;;;;;;
+[e_creature_resist]:no_resistance		;;;insures max resist to all except following
+strike_immunity 		= 1.0		;;;start with no resistance
+wound_immunity			= 1.0
+explosion_immunity 		= 1.0
+fire_wound_immunity  	= 1.0
+
+[bloodsucker_immunities]:e_creature_resist					;m_bloodsucker
+strike_immunity			= 0.4
+wound_immunity 			= 0.4		
+explosion_immunity 		= 0.4
+fire_wound_immunity  	= 0.4
+
+[bloodsucker_immunities_weak]:e_creature_resist					;m_bloodsucker
+strike_immunity			= 0.5
+wound_immunity			= 0.5
+explosion_immunity		= 0.5
+fire_wound_immunity		= 0.5
+
+[bloodsucker_immunities_normal]:e_creature_resist					;m_bloodsucker, spawn_sections_v92
+strike_immunity			= 0.4
+wound_immunity			= 0.4
+explosion_immunity		= 0.4
+fire_wound_immunity		= 0.4
+
+[bloodsucker_immunities_strong]:e_creature_resist					;m_bloodsucker, spawn_sections_v92
+strike_immunity			= 0.3
+wound_immunity			= 0.3
+explosion_immunity		= 0.3
+fire_wound_immunity		= 0.3
+
+[bloodsucker_sky_immunities_strong]:e_creature_resist					;m_bloodsucker
+strike_immunity			= 0.2
+wound_immunity      	= 0.2
+explosion_immunity    	= 0.2
+
+[boar_immunities]:e_creature_resist					;m_boar
+strike_immunity			= 0.65
+wound_immunity			= 0.65
+explosion_immunity		= 0.65
+fire_wound_immunity		= 0.65
+
+[boar_immunities_weak]:e_creature_resist					;m_boar, spawn_sections_v92
+strike_immunity			= 0.7
+wound_immunity			= 0.7
+explosion_immunity		= 0.7
+fire_wound_immunity		= 0.7
+
+[boar_immunities_normal]:e_creature_resist					;m_boar, spawn_sections_v92
+strike_immunity			= 0.6
+wound_immunity			= 0.6
+explosion_immunity		= 0.6
+fire_wound_immunity		= 0.6
+
+[boar_immunities_strong]:e_creature_resist					;m_boar, spawn_sections_v92
+strike_immunity			= 0.5
+wound_immunity			= 0.5
+explosion_immunity		= 0.5
+fire_wound_immunity		= 0.5
+
+[boar_kachok_immunities]:e_creature_resist					;m_boar
+strike_immunity			= 0.45
+wound_immunity			= 0.45
+explosion_immunity		= 0.45
+fire_wound_immunity		= 0.45
+
+[burer_immunities]:e_creature_resist					;m_burer
+strike_immunity			= 0.3
+wound_immunity			= 0.3
+explosion_immunity		= 0.4
+fire_wound_immunity		= 0.3
+
+[cat_immunities]:e_creature_resist					;m_cat
+;strike_immunity			= 0.9
+;wound_immunity			= 0.8
+;explosion_immunity		= 0.8
+;fire_wound_immunity		= 0.8
+
+[chimera_immunities]:e_creature_resist				;m_chimera, spawn_sections_v92
+strike_immunity			= 0.14
+wound_immunity			= 0.12
+explosion_immunity		= 0.24
+fire_wound_immunity		= 0.13
+
+[chimera_x_ray_immunities]:e_creature_resist			;m_chimera
+strike_immunity			= 0.13
+wound_immunity			= 0.12
+explosion_immunity		= 0.13
+fire_wound_immunity		= 0.12
+
+[werewolf_immunities]:e_creature_resist				;m_chimera
+strike_immunity			= 0.22
+wound_immunity			= 0.32
+explosion_immunity		= 0.33
+fire_wound_immunity		= 0.23
+
+[controller_immunities]:e_creature_resist				;m_controller
+strike_immunity			= 0.23
+wound_immunity			= 0.21
+explosion_immunity		= 0.28
+fire_wound_immunity		= 0.23
+
+[crow_immunities]:e_creature_resist				;m_crow
+
+[dog_immunities]:e_creature_resist					;m_dog, spawn_sections_v92
+strike_immunity			= 0.98
+wound_immunity			= 0.98
+explosion_immunity		= 0.98
+fire_wound_immunity		= 0.98
+
+[dog_immunities_weak]:e_creature_resist					;m_dog, spawn_sections_v92
+
+[dog_immunities_normal]:e_creature_resist					;m_dog, spawn_sections_v92
+strike_immunity			= 0.97
+wound_immunity			= 0.97
+explosion_immunity		= 0.97
+fire_wound_immunity		= 0.97
+
+[dog_immunities_strong]:e_creature_resist					;m_dog, spawn_sections_v92
+strike_immunity			= 0.9
+wound_immunity			= 0.9
+explosion_immunity		= 0.9
+fire_wound_immunity		= 0.9
+
+[dog_immunities_habaruch]:e_creature_resist					;m_dog, spawn_sections_v92
+strike_immunity			= 0.85
+wound_immunity			= 0.85
+explosion_immunity		= 0.85
+fire_wound_immunity		= 0.85
+
+[flesh_immunities]:e_creature_resist				;m_flesh
+strike_immunity			= 0.75
+wound_immunity			= 0.75
+explosion_immunity		= 0.85
+fire_wound_immunity		= 0.75
+
+[flesh_immunities_weak]:e_creature_resist				;m_flesh, spawn_sections_v92
+strike_immunity			= 0.9
+wound_immunity			= 0.9
+explosion_immunity		= 0.9
+fire_wound_immunity		= 0.9
+
+[flesh_immunities_normal]:e_creature_resist				;m_flesh, spawn_sections_v92
+strike_immunity			= 0.8
+wound_immunity			= 0.8
+explosion_immunity		= 0.8
+fire_wound_immunity		= 0.8
+
+[flesh_immunities_strong]:e_creature_resist				;m_flesh, spawn_sections_v92
+strike_immunity			= 0.65
+wound_immunity			= 0.65
+explosion_immunity		= 0.75
+fire_wound_immunity		= 0.65
+
+[fracture_immunities]:e_creature_resist				;m_fracture
+burn_immunity 			= 0.4
+strike_immunity 		= 0.4
+shock_immunity 			= 0.4
+wound_immunity 			= 0.2	;0.3 	;0.4		
+radiation_immunity 		= 0.5
+telepatic_immunity 		= 0.8
+chemical_burn_immunity 	= 0.4
+explosion_immunity 		= 0.3
+fire_wound_immunity  	= 0.1
+
+[bibliotekar_immunities]:e_creature_resist				;m_fracture  109976
+strike_immunity			= 0.019
+wound_immunity			= 0.01
+explosion_immunity		= 0.01
+fire_wound_immunity		= 0.019
+
+[gigant_immunities]:e_creature_resist							;m_gigant
+strike_immunity			= 0.2
+wound_immunity			= 0.2
+explosion_immunity		= 0.2
+fire_wound_immunity		= 0.2
+
+[gigant_immunities_strong]:e_creature_resist							;m_gigant
+strike_immunity			= 0.1
+wound_immunity			= 0.1
+explosion_immunity		= 0.1
+fire_wound_immunity		= 0.1
+
+[poltergeist_immunities]:e_creature_resist				;m_poltergeist
+strike_immunity			= 0.4
+wound_immunity			= 0.4
+explosion_immunity		= 0.4
+fire_wound_immunity		= 0.4
+
+[poltergeist_immunities_strong]:e_creature_resist				;m_poltergeist
+strike_immunity			= 0.3
+wound_immunity			= 0.3
+explosion_immunity		= 0.3
+fire_wound_immunity		= 0.3
+
+[pseudodog_immunities]:e_creature_resist					;m_pseudodog
+strike_immunity			= 0.66
+wound_immunity			= 0.66
+explosion_immunity		= 0.66
+fire_wound_immunity		= 0.66
+
+[pseudodog_immunities_weak]:e_creature_resist					;m_pseudodog, spawn_sections_v92
+strike_immunity			= 0.67
+wound_immunity			= 0.67
+explosion_immunity		= 0.67
+fire_wound_immunity		= 0.67
+
+[pseudodog_immunities_normal]:e_creature_resist					;m_pseudodog, spawn_sections_v92
+strike_immunity			= 0.66
+wound_immunity			= 0.66
+explosion_immunity		= 0.66
+fire_wound_immunity		= 0.66
+
+[pseudodog_immunities_strong]:e_creature_resist					;m_pseudodog, spawn_sections_v92
+strike_immunity			= 0.65
+wound_immunity			= 0.65
+explosion_immunity		= 0.65
+fire_wound_immunity		= 0.65
+
+[pseudodogfrend_immunities]:e_creature_resist					;m_pseudodogfriend
+strike_immunity			= 0.01
+wound_immunity			= 0.01
+explosion_immunity		= 0.01
+fire_wound_immunity		= 0.01
+
+[pseudodogfrend_immunities_strong]:e_creature_resist					;m_pseudodogfriend, spawn_sections_v92
+strike_immunity			= 0.001
+wound_immunity			= 0.001
+explosion_immunity		= 0.001
+fire_wound_immunity		= 0.001
+
+[rat_immunities]:e_creature_resist					;m_rat, spawn_sections_v92
+
+[rat_strong_immunities]:e_creature_resist					;m_rat, spawn_sections_v92
+strike_immunity			= 0.9
+wound_immunity			= 0.9
+explosion_immunity		= 0.9
+fire_wound_immunity		= 0.9
+
+[snork_immunities]:e_creature_resist					;m_snork
+strike_immunity			= 0.65
+wound_immunity			= 0.65
+explosion_immunity		= 0.75
+fire_wound_immunity		= 0.65
+
+[snork_immunities_weak]:e_creature_resist					;m_snork, spawn_sections_v92
+strike_immunity			= 0.77
+wound_immunity			= 0.77
+explosion_immunity		= 0.87
+fire_wound_immunity		= 0.77
+
+[snork_immunities_normal]:e_creature_resist					;m_snork, spawn_sections_v92
+strike_immunity			= 0.6
+wound_immunity			= 0.6
+explosion_immunity		= 0.7
+fire_wound_immunity		= 0.67
+
+[snork_immunities_strong]:e_creature_resist					;m_snork, spawn_sections_v92
+strike_immunity			= 0.55
+wound_immunity			= 0.55
+explosion_immunity		= 0.55
+fire_wound_immunity		= 0.55
+
+[tushkano_immunities]:e_creature_resist				;m_tushkano
+	
+[tarakan_immunities]:e_creature_resist				;m_tushkano
+
+[tarakan_strong_immunities]:e_creature_resist				;m_tushkano
+strike_immunity			= 0.9
+wound_immunity			= 0.9
+explosion_immunity		= 0.9
+fire_wound_immunity		= 0.9
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; AEM ;;;;;;;;;;;;;;;;;;;;;;;;
+[aem_bloodsucker_immunities]:e_creature_resist
+strike_immunity			= 0.03
+wound_immunity			= 0.03
+explosion_immunity		= 0.03
+fire_wound_immunity		= 0.08
+
+[aem_bloodsucker_immunities_stk]:e_creature_resist
+strike_immunity			= 0.029
+wound_immunity			= 0.029
+explosion_immunity		= 0.029
+fire_wound_immunity		= 0.04
+
+[aem_boar_immunities]:e_creature_resist
+strike_immunity			= 0.085
+wound_immunity			= 0.085
+explosion_immunity		= 0.085
+fire_wound_immunity		= 0.11
+
+[aem_boar_immunities_stk]:e_creature_resist
+strike_immunity			= 0.044
+wound_immunity			= 0.044
+explosion_immunity		= 0.044
+fire_wound_immunity		= 0.06
+
+[aem_giant_immunities]:e_creature_resist
+strike_immunity			= 0.008
+wound_immunity			= 0.008
+explosion_immunity		= 0.008
+fire_wound_immunity		= 0.007
+
+[aem_giant_immunities_stk]:e_creature_resist
+strike_immunity			= 0.006
+wound_immunity			= 0.006
+explosion_immunity		= 0.006
+fire_wound_immunity		= 0.005
+
+[aem_pseudo_immunities_stk]:e_creature_resist
+strike_immunity			= 0.15
+wound_immunity			= 0.15
+explosion_immunity		= 0.15
+fire_wound_immunity		= 0.4
+
+[aem_snork_immunities]:e_creature_resist
+strike_immunity			= 0.071
+wound_immunity			= 0.071		
+explosion_immunity		= 0.071
+fire_wound_immunity		= 0.06
+
+[aem_tushkano_immunities]:e_creature_resist
+strike_immunity			= 0.271
+wound_immunity			= 0.271		
+explosion_immunity		= 0.271
+fire_wound_immunity		= 0.26
+
+[aem_burer_immunities]:e_creature_resist
+strike_immunity			= 0.471
+wound_immunity			= 0.471		
+explosion_immunity		= 0.471
+fire_wound_immunity		= 0.46
+
+[aem_chimera_immunities]:e_creature_resist
+strike_immunity			= 0.02
+wound_immunity			= 0.02	
+explosion_immunity		= 0.02
+fire_wound_immunity		= 0.07
+
+[aem_chimera_immunities_stk]:e_creature_resist
+strike_immunity			= 0.0165
+wound_immunity			= 0.0165
+explosion_immunity		= 0.0165
+fire_wound_immunity		= 0.06
+
+[aem_zombie_immunities_strong]:e_creature_resist
+strike_immunity			= 0.1
+burn_immunity			= 0.1
+explosion_immunity		= 0.8
+fire_wound_immunity		= 0.5
+
+[aem_zombie_immunities_stk]:e_creature_resist
+strike_immunity			= 0.07
+wound_immunity			= 0.07
+explosion_immunity		= 0.07
+fire_wound_immunity		= 0.06
+
+;==================================new or not used yet ===============================
+[deathclaw_immunities]
+burn_immunity			= 0.4
+strike_immunity			= 0.1
+shock_immunity			= 0.6
+wound_immunity 			= 0.05
+radiation_immunity 		= 0.4
+telepatic_immunity 		= 0.5
+chemical_burn_immunity	= 0.5
+explosion_immunity 		= 0.09
+fire_wound_immunity  	= 0.02
+
+[deathclaw_immunities_weak]
+burn_immunity			= 0.4
+strike_immunity			= 0.1
+shock_immunity			= 0.6
+wound_immunity 			= 0.15
+radiation_immunity 		= 0.4
+telepatic_immunity 		= 0.5
+chemical_burn_immunity	= 0.5
+explosion_immunity 		= 0.12
+fire_wound_immunity  	= 0.06
+
+[deathclaw_immunities_strong]
+burn_immunity			= 0.4
+strike_immunity			= 0.1
+shock_immunity			= 0.6
+wound_immunity 			= 0.12
+radiation_immunity 		= 0.4
+telepatic_immunity 		= 0.5
+chemical_burn_immunity	= 0.5
+explosion_immunity 		= 0.04
+fire_wound_immunity  	= 0.01
+
+[karlik_immunities]
+burn_immunity 			= 1.0
+strike_immunity 		= 1.0
+shock_immunity 			= 0.1
+wound_immunity 			= 1.0
+radiation_immunity 		= 0.0
+telepatic_immunity 		= 0.0
+chemical_burn_immunity 	= 0.1
+explosion_immunity 		= 1.0
+fire_wound_immunity  	= 0.1
+
+;===================================== legacy ========================================
+[novice_resist]:tough_guy	;green_stalker_1...7, green_stalker_1(DEFAULT)
+wound_immunity				= 0.1
+explosion_immunity 			= 0.1
+fire_wound_immunity  		= 0.1
+
+[novice_resis1]:invulnerable	;Tolik		TB3D 109932 - causes hit callback for invuln check
+
+[killer_resist]:tough_guy	;\killer: stalker_ki_antigas(DEFAULT), stalker_ki_head_1..6, stalker_ki_mask
+wound_immunity				= 0.6
+explosion_immunity 			= 0.6
+fire_wound_immunity  		= 0.5
+
+[protect_resist]:tough_guy	;\protect: protect_suit1,2  protect_suit1 (DEFAULT)
+burn_immunity 				= 0.3
+strike_immunity 			= 0.6
+shock_immunity 				= 0.6
+wound_immunity				= 0.6
+telepatic_immunity 			= 0.3
+chemical_burn_immunity 		= 0.6
+explosion_immunity 			= 0.6
+fire_wound_immunity  		= 0.6
+
+[scientific_resist]:tough_guy	;stalker_dolg_nauchniy, stalker_ki_nauchniy, stalker_mo_nauchniy, stalker_neytral_nauchniy, stalker_sv_naychniy
+chemical_burn_immunity 		= 0.5
+explosion_immunity 			= 0.6
+fire_wound_immunity  		= 0.6
+

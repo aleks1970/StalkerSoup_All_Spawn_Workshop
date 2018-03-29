@@ -1,0 +1,219 @@
+<!-- ************ TB3D 1.0.9.9.8.8 new inventory and dialogs, support new levels, 100% localized, criticals*************** -->
+<xml>
+	<!-- ***************BANDIT NOVICE*************** -->
+	<specific_character id="bandit_novice_default1" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_novice</team>
+		<class>Bandit_novice</class>
+		<community>bandit</community>
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_3</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="bandit_novice_default2" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_novice</team>
+		<class>Bandit_novice</class>
+		<community>bandit</community>
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_4</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+	<specific_character id="bandit_novice_default3" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_novice</team>
+		<class>Bandit_novice</class>
+		<community>bandit</community>
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_8</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+	<!-- ***************BANDIT GENERAL*************** -->
+	<specific_character id="bandit_general_defaul1t" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_general</team>
+		<class>Bandit_general</class>
+		<community>bandit</community>
+		<rank>40</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_3</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+	<specific_character id="bandit_general_default2" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_general</team>
+		<class>Bandit_general</class>
+		<community>bandit</community>
+		<rank>40</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_4</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+	<specific_character id="bandit_general_default3" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_general</team>
+		<class>Bandit_general</class>
+		<community>bandit</community>
+		<rank>40</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_8</visual>
+#include "inventory\bandit_veteran_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+	<!-- ***************BANDIT VETERAN*************** -->
+	<specific_character id="bandit_veteran_default1" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="22" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_veteran</team>
+		<class>Bandit_veteran</class>
+		<community>bandit</community>
+		<rank>70</rank>
+		<reputation>-20</reputation>
+		<visual>actors\bandit\stalker_bandit_veteran</visual>
+#include "inventory\bandit_veteran_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+	<specific_character id="bandit_veteran_default2" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="22" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_veteran</team>
+		<class>Bandit_veteran</class>
+		<community>bandit</community>
+		<rank>70</rank>
+		<reputation>-20</reputation>
+		<visual>actors\bandit\stalker_bandit_veteran</visual>
+#include "inventory\bandit_veteran_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+	<specific_character id="bandit_veteran_default3" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="22" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_veteran</team>
+		<class>Bandit_veteran</class>
+		<community>bandit</community>
+		<rank>70</rank>
+		<reputation>-20</reputation>
+		<visual>actors\bandit\stalker_bandit_veteran</visual>
+#include "inventory\bandit_veteran_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+	<!-- ***************BANDIT MASTER*************** -->
+	<specific_character id="bandit_master_default1" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="24" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_master</team>
+		<class>Bandit_master</class>
+		<community>bandit</community>
+		<rank>95</rank>
+		<reputation>-50</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+#include "inventory\bandit_master_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+	<specific_character id="bandit_master_default2" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="24" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_master</team>
+		<class>Bandit_master</class>
+		<community>bandit</community>
+		<rank>95</rank>
+		<reputation>-50</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+#include "inventory\bandit_master_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+	<specific_character id="bandit_master_default3" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="24" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_master</team>
+		<class>Bandit_master</class>
+		<community>bandit</community>
+		<rank>95</rank>
+		<reputation>-50</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+#include "inventory\bandit_master_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+	<!-- ***************BANDIT BOROV*************** -->
+	<specific_character id="bandit_borov" team_default="1">
+		<name>Borov_name_gameplay</name>
+		<icon x="26" y="14"/>
+		<map_icon x="0" y="0"/>
+		<bio>val_borov_bio</bio>
+		<class>bandit_borov</class>
+		<community>bandit</community>
+		<rank>60</rank>
+		<reputation>-70</reputation>
+		<visual>actors\bandit\stalker_bandit_borov</visual>
+#include "inventory\borov_zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+	<!-- ***************SVOBODA CRAZY STALKER*************** -->
+	<specific_character id="svoboda_zombi_stalker" team_default="1">
+		<name>Insane_Freedom_name_gameplay</name>
+		<icon x="12" y="0"/>
+		<map_icon x="5" y="0"/>
+		<bio>sar2_crazy_bio</bio>
+		<class>Svoboda_zombi_stalker</class>
+		<community>bandit</community>
+		<rank>40</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie5</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+	</specific_character>
+
+<!-- #include character_desc_new_bandit.xml - aleks1970 -->	
+</xml>

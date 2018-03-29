@@ -1,0 +1,3302 @@
+<!-- TB3D 1.1.0.0.0.4 Artyom, max_pomer2_dialog_3, Nano-outfits - aleks1970 -->
+<!-- WEAPONS BROUGHT TO RAVEN wawka part 1, repair_kit -->
+<!-- Names changed as commented below - Sword2012 - 31 Oct 16 -->
+<!-- Reworked fully. Lines 411 to 907 translated by Steve2000 - Sword2012 - 16 Jun 17 -->
+<string_table>
+	<string id="mosinka_0">
+		<text>It's good to see you again, Raven. Let's talk business...</text>
+	</string>
+	<string id="mosinka_1">
+		<text>Hello to you, Marked One. I've heard the Bandits have found a hiding place full of weapons in the Dark Valley. The interesting thing is that they're all from the late 19th and early 20th centuries. Can you believe that? They must have been buried there long before both World Wars... A couple of Duty members came to see Artyom for a snack, and told him all about it a few days ago! Well, I have this client, a collector of sorts from outside the Perimeter, and who visits the Zone from time to time... If I could get my hands on some of those rare beauties, I'd make a fortune! Look, if you find any interesting or Unique weapons during your travels, come and see me and we'll do business, okay? No questions asked, and I'd certainly make it worth your while!</text>
+	</string>
+	<string id="mosinka_2">
+		<text>A rare HK-417 sniper rifle... Are you interested?</text>
+	</string>
+	<string id="mosinka_3">
+		<text>Here's an interesting piece, with a scope too... What do you think?</text>
+	</string>
+	<string id="mosinka_4">
+		<text>This custom AK-74 belonged to 'Strelok'... It'd be a shame to sell it, though...</text>
+	</string>
+	<string id="mosinka_5">
+		<text>Can I interest you in a customized Abakan Sniper?</text>
+	</string>
+	<string id="mosinka_6">
+		<text>A brand new Fort-14 pistol... How about it?</text>
+	</string>
+	<string id="mosinka_7">
+		<text>How about an MP-5 rechambered for 9x18mm cartridges?</text>
+	</string>
+	<string id="mosinka_8">
+		<text>I can offer you this 'Groza' combat rifle...</text>
+	</string>
+	<string id="mosinka_9">
+		<text>How does a Spas-12 sound to you?</text>
+	</string>
+	<string id="mosinka_10">
+		<text>I could probably part with this Winchester...</text>
+	</string>
+	<string id="mosinka_11">
+		<text>I have a very nice L85 Enfield combat rifle here, if you want it...</text>
+	</string>
+	<string id="mosinka_12">
+		<text>How about an L300 'Sniper'... This one's very rare!</text>
+	</string>
+	<string id="mosinka_13">
+		<text>I've a nice SVD 'Dragunov' here if you want...</text>
+	</string>
+	<string id="mosinka_14">
+		<text>This SIG550 combat rifle... a really powerful piece! You interested?</text>
+	</string>
+	<string id="mosinka_15">
+		<text>I've got a nice Desert Eagle Mark XIX for you...</text>
+	</string>
+	<string id="mosinka_16">
+		<text>A true assassin's piece - a silenced Colt 1911. Any use to you?</text>
+	</string>
+	<string id="mosinka_17">
+		<text>A nicely made AS Val 'Shaft' with a scope attached. Yours if you want it...</text>
+	</string>
+	<string id="mosinka_18">
+		<text>How about a silenced MP-5?</text>
+	</string>
+	<string id="mosinka_19">
+		<text>I've got a very nice Abakan 'Assault' model... Interested?</text>
+	</string>
+	<string id="mosinka_20">
+		<text>How about a 'reduced weight' Enfield L85 combat rifle?</text>
+	</string>
+	<string id="mosinka_21">
+		<text>This 'Anomalous' AK-74U might interest you...</text>
+	</string>
+	<string id="mosinka_22">
+		<text>A camouflaged SIG 'Sniper'. Any good to you?</text>
+	</string>
+	<string id="mosinka_23">
+		<text>A quite powerful modified G-36 'Crystal'. Interested?</text>
+	</string>
+	<string id="mosinka_24">
+		<text>I reckon this customized SVU 'Kid' will interest you...</text>
+	</string>
+	<string id="mosinka_25">
+		<text>How does a Beretta M9A1 sound to you?</text>
+	</string>
+	<string id="mosinka_26">
+		<text>Check out this special VSS Vintorez. Yours for the asking...</text>
+	</string>
+	<string id="mosinka_27">
+		<text>A nicely customized OC-14 'Groza', re-chambered for NATO cartridges... Interested?</text>
+	</string>
+	<string id="mosinka_28">
+		<text>I've got a lovely RG-6 that fires NATO rounds... What do you think?</text>
+	</string>
+	<string id="mosinka_29">
+		<text>How about a Walther, customized for 9x18mm rounds?</text>
+	</string>
+	<string id="mosinka_30">
+		<text>I've got this nicely customized Makarov PM available...</text>
+	</string>
+	<string id="mosinka_31">
+		<text>Can I interest you in an RPG-7?</text>
+	</string>
+	<string id="mosinka_32">
+		<text>I've got a 'Knights' SR25 Mk.11 Mod 0. Very hard to find! Interested?</text>
+	</string>
+	<string id="mosinka_33">
+		<text>I managed to get my hands on this Unique FAMAS... You interested?</text>
+	</string>
+	<string id="mosinka_34">
+		<text>I've a customized Gauss rifle... How about it?</text>
+	</string>
+	<string id="mosinka_333">
+		<text>What about a sawn-off shotgun?</text>
+	</string>
+	<string id="mosinka_335">
+		<text>I found this pistol... Any use to you?</text>
+	</string>
+	<string id="mosinka_337">
+		<text>Here's a Stechkin. I thought you might like it...</text>
+	</string>
+	<string id="mosinka_339">
+		<text>I managed to lay my hands on this HK-XM8 'Para'. You should have it...</text>
+	</string>
+	<string id="mosinka_341">
+		<text>How about an FN-2000 'Executioner'? It's a nice weapon!</text>
+	</string>
+	<string id="mosinka_35">
+		<text>Certainly, Marked One. My client will be pleased. Here's your payment...</text>
+	</string>
+	<string id="mosinka_36">
+		<text>Well done, Marked One! This is superb! Thank you...</text>
+	</string>
+	<string id="mosinka_37">
+		<text>Sounds good. I'll take it...</text>
+	</string>
+	<string id="mosinka_38">
+		<text>Yes, I will take the Abakan...</text>
+	</string>
+	<string id="mosinka_39">
+		<text>Quite a good pistol. Thank you. I'll take it...</text>
+	</string>
+	<string id="mosinka_40">
+		<text>Thank you, Marked One!.</text>
+	</string>
+	<string id="mosinka_41">
+		<text>Always a pleasure to do business with you. Here...</text>
+	</string>
+	<string id="mosinka_42">
+		<text>This is certainly a nice piece!</text>
+	</string>
+	<string id="mosinka_43">
+		<text>This is most excellent. I'll take it!</text>
+	</string>
+	<string id="mosinka_44">
+		<text>Thank you for this wonderful weapon!</text>
+	</string>
+	<string id="mosinka_45">
+		<text>Sniper rifles are my greatest weakness! Thank you!</text>
+	</string>
+	<string id="mosinka_46">
+		<text>Good work, my friend... I'll take it!</text>
+	</string>
+	<string id="mosinka_47">
+		<text>A very nice SIG indeed... Thank you!</text>
+	</string>
+	<string id="mosinka_48">
+		<text>A nicely made Desert Eagle - I will certainly take that off your hands...</text>
+	</string>
+	<string id="mosinka_49">
+		<text>I'm always interested in silenced weapons, for sure...</text>
+	</string>
+	<string id="mosinka_50">
+		<text>An excellent AS Val 'Shaft'. You have a deal...</text>
+	</string>
+	<string id="mosinka_51">
+		<text>Good find! I'll take it...</text>
+	</string>
+	<string id="mosinka_52">
+		<text>You know me well! How could I resist such an item?</text>
+	</string>
+	<string id="mosinka_53">
+		<text>A nicely customized weapon... Thank you!</text>
+	</string>
+	<string id="mosinka_54">
+		<text>It's a bit worn, but I'll take it...</text>
+	</string>
+	<string id="mosinka_55">
+		<text>Camouflaged, huh? Sounds good...</text>
+	</string>
+	<string id="mosinka_56">
+		<text>I'll gladly take that G36 'Crystal' off your hands...</text>
+	</string>
+	<string id="mosinka_57">
+		<text>Where did you find such a Unique weapon?! I'll take it!</text>
+	</string>
+	<string id="mosinka_58">
+		<text>A nice, powerful Beretta. Thank you...</text>
+	</string>
+	<string id="mosinka_59">
+		<text>I'll never refuse a VSS... It's a good weapon...</text>
+	</string>
+	<string id="mosinka_60">
+		<text>A nice customized 'Groza', eh? Hand it over...</text>
+	</string>
+	<string id="mosinka_61">
+		<text>How could I refuse a 'Bulldog'? Thank you...</text>
+	</string>
+	<string id="mosinka_62">
+		<text>Yes, very rare indeed! I'll take it...</text>
+	</string>
+	<string id="mosinka_63">
+		<text>A classic piece! Yes, please!</text>
+	</string>
+	<string id="mosinka_64">
+		<text>This is excellent, Marked One. Much appreciated!</text>
+	</string>
+	<string id="mosinka_65">
+		<text>I'll take the sniper rifle...</text>
+	</string>
+	<string id="mosinka_66">
+		<text>Thank you, Marked One!</text>
+	</string>
+	<string id="mosinka_67">
+		<text>Nice Gauss rifle. I'll take it...</text>
+	</string>
+	<string id="mosinka_334">
+		<text>This is wonderful. Thank you very much!</text>
+	</string>
+	<string id="mosinka_336">
+		<text>Not a bad weapon at all! Pass it over!</text>
+	</string>
+	<string id="mosinka_338">
+		<text>I'm always interested in Stechkin pistols...</text>
+	</string>
+	<string id="mosinka_340">
+		<text>Sounds good to me. You've got yourself a deal...</text>
+	</string>
+	<string id="mosinka_342">
+		<text>That's a nice piece of kit. I'll take it...</text>
+	</string>
+	<string id="mosinka_68">
+		<text>Nothing yet, sorry...</text>
+	</string>
+	<!--= TRADING WITH RAVEN ==-->
+	<string id="trade_dialog_voron_0">
+		<text>Do you sell weapons and ammunition?</text>
+	</string>
+	<string id="trade_dialog_voron_1">
+		<text>I have a varied assortment of weapons available, and a small selection of ammunition...\nHowever, the people I work for are not short of cash. They insist that I deal only in mutant body parts, understood? So shall we talk business?</text>
+	</string>
+	<string id="trade_dialog_voron_2">
+		<text>What sort of ammo do you have?</text>
+	</string>
+	<string id="trade_dialog_voron_3">
+		<text>Let's have a look at those weapons...</text>
+	</string>
+	<string id="trade_dialog_voron_21">
+		<text>I can offer you the following:\n \nShotgun shells in exchange for Pseudodog tails\n9x39mm cartridges in exchange for Blind Dog tails</text>
+	</string>
+	<string id="trade_dialog_voron_22">
+		<text>I'll take the shotgun shells...</text>
+	</string>
+	<string id="trade_dialog_voron_23">
+		<text>I'll take the 9x39mm cartridges...</text>
+	</string>
+	<string id="trade_dialog_voron_41">
+		<text>Here's what I have available:\n \nSubmachine guns in exchange for Burer hands\nA Desert Eagle, an M4A1, or shotguns in exchange for Controller hands</text>
+	</string>
+	<string id="trade_dialog_voron_42">
+		<text>Let's see the submachine guns...</text>
+	</string>
+	<string id="trade_dialog_voron_43">
+		<text>I'll have a look at the others...</text>
+	</string>
+	<string id="trade_dialog_voron_222">
+		<text>Five Pseudodog tails will get you either:\n \nThree packs of 12x70 buckshot\nTwo packs of 12x70 slugs\nOne pack of 12x70 darts...\n \nWhich will it be?</text>
+	</string>
+	<string id="trade_dialog_voron_221">
+		<text>I'll take the 12x70 buckshot...</text>
+	</string>
+	<string id="trade_dialog_voron_2211">
+		<text>Give me the 12x70 slugs...</text>
+	</string>
+	<string id="trade_dialog_voron_2212">
+		<text>I think I'll take the 12x70 darts...</text>
+	</string>
+	<string id="trade_dialog_voron_232">
+		<text>Ten Blind dog tails will get you either:\n \nFour packs of 9x39mm 'PAB9' cartridges\nThree packs of 9x39mm 'SP5' cartridges\nTwo packs of 9x39mm 'AP' cartridges...\n \nWhich ones do you want?</text>
+	</string>
+	<string id="trade_dialog_voron_231">
+		<text>I'll take the 'PAB9' cartridges...</text>
+	</string>
+	<string id="trade_dialog_voron_2311">
+		<text>I'll take the 'SP5' sniper rounds...</text>
+	</string>
+	<string id="trade_dialog_voron_2312">
+		<text>I'll take the 'AP' rounds...</text>
+	</string>
+	<string id="trade_dialog_voron_422">
+		<text>For four Burer hands, I can offer you one of these:\n \nA Bizon\nA Kriss Super-V\nAn MP-7a3\n \nWhat will it be?</text>
+	</string>
+	<string id="trade_dialog_voron_421">
+		<text>I'll take the 'Bizon' off your hands...</text>
+	</string>
+	<string id="trade_dialog_voron_4211">
+		<text>I'll try the 'Kriss Super-V'...</text>
+	</string>
+	<string id="trade_dialog_voron_4212">
+		<text>The 'MP-7a3' sounds good...</text>
+	</string>
+	<string id="trade_dialog_voron_432">
+		<text>Two Controller hands will get you one of these:\n \nA TOZ-34\nAn M4A1 'Taktikal'\nA Saiga-12K\nA Desert Eagle\nA BM-16 'Scattergun'\n \nThe choice is yours...</text>
+	</string>
+	<string id="trade_dialog_voron_431">
+		<text>Give me the TOZ-34...</text>
+	</string>
+	<string id="trade_dialog_voron_4311">
+		<text>I'll take the M4A1...</text>
+	</string>
+	<string id="trade_dialog_voron_4312">
+		<text>I've been looking for a Saiga 12K...</text>
+	</string>
+	<string id="trade_dialog_voron_4313">
+		<text>I'll take the Desert Eagle...</text>
+	</string>
+	<string id="trade_dialog_voron_4314">
+		<text>The sawn-off BM-16 please...</text>
+	</string>
+	<string id="trade_dialog_voron_88">
+		<text>Nah, I've changed my mind...</text>
+	</string>
+	<string id="trade_dialog_voron_99">
+		<text>I don't have them right now... Maybe later...</text>
+	</string>
+	<!--= TRADING WITH MAX ==-->
+	<string id="trade_dialog_maks_0">
+		<text>I'm looking for some ammunition, and hopefully some better armor...</text>
+	</string>
+	<string id="trade_dialog_maks_1">
+		<text>Well, I sell Flamethrower mixture, armor, and ammunition too...\nWhat exactly are you looking for?</text>
+	</string>
+	<string id="trade_dialog_maks_2">
+		<text>I need some Flamethrower mixture...</text>
+	</string>
+	<string id="trade_dialog_maks_3">
+		<text>Let's see the armor, and the ammunition...</text>
+	</string>
+	<string id="trade_dialog_maks_21">
+		<text>I can offer you either of these:\n \nFlamethrower mixture for twelve bottles of vodka\nA full gasoline canister, or a Colloidal gas canister, for five bottles of vodka...</text>
+	</string>
+	<string id="trade_dialog_maks_22">
+		<text>I'll take the Flamethrower mixture...</text>
+	</string>
+	<string id="trade_dialog_maks_23">
+		<text>Let's see the gas canisters...</text>
+	</string>
+	<string id="trade_dialog_maks_31">
+		<text>For ten bottles of vodka, I can offer you:\n \nA choice of armored suits...\nAmmunition for the 'Groza' combat rifle...</text>
+	</string>
+	<string id="trade_dialog_maks_32">
+		<text>I need some better armor...</text>
+	</string>
+	<string id="trade_dialog_maks_33">
+		<text>Let's see the ammunition...</text>
+	</string>
+	<string id="trade_dialog_maks_222">
+		<text>So we're in agreement then:\n \nFor twelve bottles of vodka I can give you the Flamethrower ammo...\nHow does that sound?</text>
+	</string>
+	<string id="trade_dialog_maks_221">
+		<text>Yes, I'll take the Flamethrower mixture...</text>
+	</string>
+	<string id="trade_dialog_maks_232">
+		<text>For five bottles of vodka, I can offer you:\n \nA Colloidal gas canister\nA full gasoline canister\n \nTake your pick...</text>
+	</string>
+	<string id="trade_dialog_maks_231">
+		<text>I'll take the Colloidal gas...</text>
+	</string>
+	<string id="trade_dialog_maks_2311">
+		<text>Give me the gasoline canister...</text>
+	</string>
+	<string id="trade_dialog_maks_322">
+		<text>Ten bottles of vodka will get you either of the following:\n \nA 'Guardian of Freedom' suit\nDuty PSZ-9MD armor\n \nWhat will it be?</text>
+	</string>
+	<string id="trade_dialog_maks_321">
+		<text>I'll take the 'Guardian of Freedom' suit...</text>
+	</string>
+	<string id="trade_dialog_maks_3211">
+		<text>Give me the Duty PSZ-9MD armor...</text>
+	</string>
+	<string id="trade_dialog_maks_332">
+		<text>Ten bottles of vodka will get you either of these:\n \nThree packs of 9x39mm 'PAB9'\nTwo packs of 9x39mm 'AP'\n \nWhat'll it be?</text>
+	</string>
+	<string id="trade_dialog_maks_331">
+		<text>Give me the 9x39mm 'AP' rounds...</text>
+	</string>
+	<string id="trade_dialog_maks_3311">
+		<text>I'll take the 9x39mm 'PAB9'...</text>
+	</string>
+	<string id="trade_dialog_maks_88">
+		<text>I've changed my mind...</text>
+	</string>
+	<string id="trade_dialog_maks_99">
+		<text>Nothing for now. Maybe later...</text>
+	</string>
+	<string id="krysyk_pomer_start_dialog_0">
+		<text>Hello, what brings you back here?</text>
+	</string>
+	<string id="krysyk_pomer_start_dialog_1">
+		<text>Well, Stalker. Did you find Krysjuk? Or at least his PDA?</text>
+	</string>
+	<string id="krysyk_pomer_start_dialog_2">
+		<text>Unfortunately no. Krysjuk the Rat is dead, and I didn't find his PDA...</text>
+	</string>
+	<string id="krysyk_pomer_start_dialog_3">
+		<text>Hmm, it's a pity about the PDA, but before he ran off Krysjuk was friends with Vein... Would you like another job?</text>
+	</string>
+	<string id="krysyk_pomer_start_dialog_4">
+		<text>Vein, you say? Sure, I'll go and find him...</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_0">
+		<text>Greetings, Vein. I need information on Krysjuk's last whereabouts...</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_1">
+		<text>Krysjuk? Yes, I heard about him. What do you need?</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_2">
+		<text>I need your help to find something he left behind...</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_3">
+		<text>What do you mean?</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_4">
+		<text>In short, Borov wants Rat's PDA, but we didn't find it on his body. Where can we find it?</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_5">
+		<text>Ah, I heard it contains the locations of all Borov's caches. How about I share this info with you, if you do something for me?</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_41">
+		<text>And if I refuse, you won't help me?</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_42">
+		<text>It depends on you...</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_51">
+		<text>You can refuse if you like, but it won't help you. Rat's PDA is in a very secret place...</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_52">
+		<text>I need you to get me a very special weapon. In the Bar there's a guy called Hunter. I want his rifle. How you get it is up to you...</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_621">
+		<text>Okay, I'll talk to Hunter, but I can't promise anything...</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_622">
+		<text>But you will talk to him?</text>
+	</string>
+	<string id="krysyk_pomer_11_dialog_61">
+		<text>Yes, I promise...</text>
+	</string>
+	<string id="krysyk_pomer_12_dialog_0">
+		<text>I talked with Hunter, and told him how much you admire his rifle. He's agreed to part with it in exchange for some beer...</text>
+	</string>
+	<string id="krysyk_pomer_12_dialog_1">
+		<text>Beer? Sure, I'll get it. How many does he want?</text>
+	</string>
+	<string id="krysyk_pomer_12_dialog_2">
+		<text>Forty cans. He needs it to last him a while...</text>
+	</string>
+	<string id="krysyk_pomer_12_dialog_3">
+		<text>Fine, I'll work out the coordinates of Rat's cache in Cordon, if you find the beer for me. Try Sidorovich or someone nearby. I'll give you the PDA in return for the weapon...</text>
+	</string>
+	<string id="krysyk_pomer_13_dialog_0">
+		<text>Greetings, Hunter! I have an interesting request from one of the bandits...</text>
+	</string>
+	<string id="krysyk_pomer_13_dialog_1">
+		<text>You deal with bandits?</text>
+	</string>
+	<string id="krysyk_pomer_13_dialog_2">
+		<text>I have my reasons, but one of them wants to buy your weapon from you. What would it take to part you from it?</text>
+	</string>
+	<string id="krysyk_pomer_13_dialog_3">
+		<text>Well, it's been with me a long time but, to be honest, I no longer use it. We change and move on, don't we? I'll swap it for twenty cans of beer. No, let's make him work for it, then he'll appreciate it more. Forty cans...</text>
+	</string>
+	<string id="krysyk_pomer_13_dialog_4">
+		<text>Beer? Well, that's not easy to find in the Zone, but I'll see what I can do...</text>
+	</string>
+	<string id="krysyk_pomer_14_dialog_0">
+		<text>Hi, Hunter!</text>
+	</string>
+	<string id="krysyk_pomer_14_dialog_1">
+		<text>Hey, no need to shout, man! Keep the noise down. My head hurts... What do you want?</text>
+	</string>
+	<string id="krysyk_pomer_14_dialog_2">
+		<text>I've brought a hair of the dog for you. Forty of them...</text>
+	</string>
+	<string id="krysyk_pomer_14_dialog_3">
+		<text>Beer? What beer? Hey, I'm joking... Everything's fine...</text>
+	</string>
+	<string id="krysyk_pomer_14_dialog_42">
+		<text>Are you sure you said forty? Maybe I should just leave you twenty?</text>
+	</string>
+	<string id="krysyk_pomer_14_dialog_41">
+		<text>Sure, I'm drunk anyway!</text>
+	</string>
+	<string id="krysyk_pomer_14_dialog_51">
+		<text>Thanks for the beer. And here's my pride and joy...</text>
+	</string>
+	<string id="krysyk_pomer_14_dialog_52">
+		<text>Take it and leave, and to hell with the bandit...</text>
+	</string>
+	<string id="krysyk_pomer_15_dialog_0">
+		<text>Here's your rifle. Okay?</text>
+	</string>
+	<string id="krysyk_pomer_15_dialog_1">
+		<text>Thank you brother! A deal well done!</text>
+	</string>
+	<string id="krysyk_pomer_15_dialog_2">
+		<text>And what about my share?</text>
+	</string>
+	<string id="krysyk_pomer_15_dialog_3">
+		<text>Your share awaits you in Agroprom... Here, I have a gift for you.\nHow to create a 'Medusa' from different stuff... Just throw a Tushkano's head, a bandage, a sausage, and a can of meat into an Electro...</text>
+	</string>
+	<string id="krysyk_pomer_15_dialog_4">
+		<text>Thanks, I'll check it out...</text>
+	</string>
+	<string id="krysyk_pomer_finish_dialog_0">
+		<text>Hello, Borov. I found where Rat had hidden your PDA...</text>
+	</string>
+	<string id="krysyk_pomer_finish_dialog_1">
+		<text>Where? Do you have it?</text>
+	</string>
+	<string id="krysyk_pomer_finish_dialog_2">
+		<text>What about my share?</text>
+	</string>
+	<string id="krysyk_pomer_finish_dialog_3">
+		<text>I have your share. Give it to me first!</text>
+	</string>
+	<string id="krysyk_pomer_finish_dialog_4">
+		<text>Here's your PDA...</text>
+	</string>
+	<string id="krysyk_pomer_finish_dialog_51">
+		<text>Here's your key to the underground. There's also a good cache waiting for you at the north of the Army Warehouses, near the fallen helicopter...\nAnd as a bonus, here's how to make a Quirk, by thowing a bandage, a can of mat, a sausage, and the head of a Tushkano into a Fruit Punch anomaly...</text>
+	</string>
+	<string id="krysyk_pomer_finish_dialog_52">
+		<text>To the north of Army warehouses, near the fallen helicopter...\nAnd here's a way to make a Quirk, by throwing a aandage, a Tushkano's head, a sausage, and a tin of canned meat into a Fruit Punch anomaly...</text>
+	</string>
+	<string id="krysyk_pomer_finish_dialog_6">
+		<text>Thank you!</text>
+	</string>
+	<string id="chemodan_serega_dialog_0">
+		<text>Greetings, Seriy! How are you doing?</text>
+	</string>
+	<string id="chemodan_serega_dialog_1">
+		<text>Well, Bandits attacked the Bar recently, and stole most of the ammo in stock. Then two days later all our PDAs got disconnected from the network... Fuck knows why...</text>
+	</string>
+	<string id="chemodan_serega_dialog_2">
+		<text>Well, if it's of any use, I have a box of cartridges for you...</text>
+	</string>
+	<string id="chemodan_serega_dialog_3">
+		<text>Thanks! What do you want for it?</text>
+	</string>
+	<string id="chemodan_serega_dialog_4">
+		<text>How about a zinc box?</text>
+	</string>
+	<string id="chemodan_serega_dialog_5">
+		<text>Deal! Here you go...</text>
+	</string>
+	<string id="chemodan_serega_dialog_6">
+		<text>Thanks, and good luck!</text>
+	</string>
+	<string id="chemodan_voronin_dialog_0">
+		<text>How are you doing? Do you need any ammo?</text>
+	</string>
+	<string id="chemodan_voronin_dialog_1">
+		<text>Hello, brother! Yes, we're always running out of ammo...</text>
+	</string>
+	<string id="chemodan_voronin_dialog_2">
+		<text>It's really heavy. Are you sure?</text>
+	</string>
+	<string id="chemodan_voronin_dialog_3">
+		<text>Yes, I'm sure! What do you want for them?</text>
+	</string>
+	<string id="chemodan_voronin_dialog_4">
+		<text>For the whole box of cartridges, how about twenty medkits? Does that sound right with you?</text>
+	</string>
+	<string id="chemodan_voronin_dialog_5">
+		<text>Yes. Excellent. Thank you!</text>
+	</string>
+	<string id="chemodan_voronin_dialog_6">
+		<text>No, it's okay, I don't need them...</text>
+	</string>
+	<string id="chemodan_lukash_dialog_0">
+		<text>Hi, Lukash! Do you need ammo? I have a box of cartridges with me...</text>
+	</string>
+	<string id="chemodan_lukash_dialog_1">
+		<text>Hello, Marked One. I'm very glad that you've brought them to us...</text>
+	</string>
+	<string id="chemodan_lukash_dialog_2">
+		<text>They're very heavy. Are you sure?</text>
+	</string>
+	<string id="chemodan_lukash_dialog_3">
+		<text>Yes, of course. What do you want for them?</text>
+	</string>
+	<string id="chemodan_lukash_dialog_4">
+		<text>For the whole box, thirty Antirads... Is that okay with you?</text>
+	</string>
+	<string id="chemodan_lukash_dialog_5">
+		<text>Yes, that's fine. Thank you...</text>
+	</string>
+	<string id="chemodan_lukash_dialog_6">
+		<text>No, I'm okay, thanks...</text>
+	</string>
+	<string id="tolik1_pomer_dialog_0">
+		<text>Greetings, Wolf! Good to see you again!</text>
+	</string>
+	<string id="tolik1_pomer_dialog_1">
+		<text>Greetings, Marked One. I'm checking the area in case of an attack on the Bar, but our radios don't pick up all the transmissions from Cordon. Can you find Fanatic for me? He's has a decent radio receiver...</text>
+	</string>
+	<string id="tolik1_pomer_dialog_2">
+		<text>Sure, I'll find him...</text>
+	</string>
+	<string id="tolik1_pomer_dialog_3">
+		<text>No, I'm sure Fanatic has already sent a messenger...</text>
+	</string>
+	<string id="tolik2_pomer_dialog_0">
+		<text>Hey, Wolf! I found Fanatic...</text>
+	</string>
+	<string id="tolik2_pomer_dialog_1">
+		<text>Did you get a radio from him?</text>
+	</string>
+	<string id="tolik2_pomer_dialog_2">
+		<text>I've got the portable radio set here... Fanatic was wounded by mercenaries, so he sent messengers...</text>
+	</string>
+	<string id="tolik2_pomer_dialog_3">
+		<text>Thank you, Marked One! And here's a tip for you...\nIf you want a Ruby Battery, just throw a normal Battery into an Electro...</text>
+	</string>
+	<string id="radiotolik_pomer_dialog_0">
+		<text>Hey, Fanatic! Have you sent a radio receiver or a messenger to Wolf? He's waiting for you!</text>
+	</string>
+	<string id="radiotolik_pomer_dialog_1">
+		<text>Forgive me, Marked One. I did send a few men, but they didn't complete the journey. And one of them dropped the receiver somewhere in the Dump...</text>
+	</string>
+	<string id="radiotolik_pomer_dialog_2">
+		<text>Shit! Where is it?</text>
+	</string>
+	<string id="radiotolik_pomer_dialog_3">
+		<text>Somewhere behind the hangar. There's a trench there with an unfinished water pipe...</text>
+	</string>
+	<string id="max_pomer_dialog_0">
+		<text>Hey, Screw! How are the teleports?...</text>
+	</string>
+	<string id="max_pomer_dialog_1">
+		<text>Hi, Marked One! I have the teleportion data for Yantar...</text>
+	</string>
+	<string id="max_pomer_dialog_4">
+		<text>Excellent! What would you need in return?...</text>
+	</string>
+	<string id="max_pomer_dialog_5">
+		<text>Oh, I don't need anything, except maybe maybe a blonde! Here, take it... Get yourself over to Sakharov and back. He promised me a new copy of Playboy!</text>
+	</string>
+	<string id="max_pomer_dialog_2">
+		<text>Sure...</text>
+	</string>
+	<string id="max_pomer_dialog_3">
+		<text>Do you have the Playboy?</text>
+	</string>
+	<string id="max_pomer2_dialog_0">
+		<text>Yes, this one's specially for you...</text>
+	</string>
+	<string id="max_pomer2_dialog_1">
+		<text>Thank you, Marked One. God, I'd forgotten what women looked like!</text>
+	</string>
+	<string id="max_pomer2_dialog_2">
+		<text>Well, this should definitely help you remember...</text>
+	</string>
+	<string id="max_pomer2_dialog_3">
+		<text>Let me know whenever you need to get to Yantar...</text>
+	</string>
+	<string id="max_pomer3_dialog_0">
+		<text>Hello, Professor...</text>
+	</string>
+	<string id="max_pomer3_dialog_1">
+		<text>Hello, Marked One. How's life?..</text>
+	</string>
+	<string id="max_pomer3_dialog_2">
+		<text>Do you have any Playboy magazines?</text>
+	</string>
+	<string id="max_pomer3_dialog_3">
+		<text>The Zone must be getting to you, Marked One! Here's a Playboy from 2006. Have fun...</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_0">
+		<text>Greetings, Screw. I need to teleport to Yantar...</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_1">
+		<text>Have you used this before?</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_2">
+		<text>No, I haven't...</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_21">
+		<text>Well, I need a Mica artefact to work it. But I don't have one. Do you?</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_22">
+		<text>Yes, I have one...</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_23">
+		<text>No, I sold it...</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_221">
+		<text>I don't have one, but I'm happy to take on some work to get one...</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_222">
+		<text>How much will it cost?</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_223">
+		<text>If you have money, then 9,000...\nAnd if not - 2,500 will be fine. Okay?...</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_224">
+		<text>Let's try...</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_225">
+		<text>I'm not loaded, but 2,500 sounds like a good deal...</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_226">
+		<text>I can't do that, sorry. I'll walk, thanks...</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_25">
+		<text>Thank you. The teleport gateway is opposite the front entrance of the base. Just continue down the road and you will see it...</text>
+	</string>
+	<string id="teleport_max_pomer_dialog_26">
+		<text>Thank you. The teleport gateway is opposite the front entrance of the base. Just continue down the road and you will see it...</text>
+	</string>
+	<string id="yurik_pomer1_dialog_0">
+		<text>Hi. Why the sad face?</text>
+	</string>
+	<string id="yurik_pomer1_dialog_1">
+		<text>Greetings, Marked One... I'm starting to miss some of Life's little pleasures that are difficult to get in the Zone... Beer, for example... I hear that you can get beer In the Dark Valley. Will you bring me some? Get me at least 10 bottles, and I'll give you something useful for them, namely a Recipe for an artefact I got from Yurek's PDA...</text>
+	</string>
+	<string id="yurik_pomer1_dialog_2">
+		<text>That's not a bad idea. I'll get some for myself, too. In the Dark Valley, you say? Okay...</text>
+	</string>
+	<string id="yurik_pomer1_dialog_3">
+		<text>Sorry, but I'm not going anywhere near those bandits...</text>
+	</string>
+	<string id="yurik_pomer2_dialog_0">
+		<text>Greetings, Dan! Hey, I've got your beer...</text>
+	</string>
+	<string id="yurik_pomer2_dialog_1">
+		<text>Well, Marked One, you just made my day! You want to drink?</text>
+	</string>
+	<string id="yurik_pomer2_dialog_2">
+		<text>Sure. Here you are, fresh and unopened...</text>
+	</string>
+	<string id="yurik_pomer2_dialog_3">
+		<text>Excellent beer, and it is fresh! I'll send the recipe to your PDA...\nListen, Marked One... Is it possible to ask you for something else?</text>
+	</string>
+	<string id="yurik_pomer21_dialog_0">
+		<text>Just tell me what you need. I travel around a lot, and I might be going that way...</text>
+	</string>
+	<string id="yurik_pomer21_dialog_1">
+		<text>Well... At the Dump is a guy called Raven. I may have mentioned him before. I've ordered a BM-16 sawn-off shotgun from him, and in exchange I have a bag for him. Will you deliver it, and pick up my shotgun? I promise you a unique artefact for your trouble...</text>
+	</string>
+	<string id="yurik_pomer21_dialog_2">
+		<text>Raven? No problem, give me the bag. And it's no trouble...</text>
+	</string>
+	<string id="yurik_pomer21_dialog_3">
+		<text>Sorry, but I'm not going that way... Better ask someone else...</text>
+	</string>
+	<string id="yurik_pomer22_dialog_0">
+		<text>Greetings, Dan! I brought your shotgun...</text>
+	</string>
+	<string id="yurik_pomer22_dialog_1">
+		<text>Excellent work! Thank you...</text>
+	</string>
+	<string id="yurik_pomer22_dialog_2">
+		<text>No problem. Here's your weapon. What kind of artefact do you have?</text>
+	</string>
+	<string id="yurik_pomer22_dialog_3">
+		<text>Thanks, Marked One! About the artefact, I don't have it on me, but I know exactly where it is. In the north of the Forgotten Forest you'll see some red barrels near a transition. I think they're still full of fuel. That's where you'll find the 'Emerald Medusa'. Just watch out for mutants in the area...</text>
+	</string>
+	<string id="yurik_pomer22_dialog_4">
+		<text>I will, and thanks for the warning...</text>
+	</string>
+	<string id="yurik_pomer32_dialog_0">
+		<text>Hi, Raven... I brought you this bag from Dan. You know about it?</text>
+	</string>
+	<string id="yurik_pomer32_dialog_1">
+		<text>Indeed I do. And if you do too, then I guess you know my plans for this evening...</text>
+	</string>
+	<string id="yurik_pomer32_dialog_2">
+		<text>Here you go. Do you have his sawn-off shotgun?</text>
+	</string>
+	<string id="bad_exo_dialog_0">
+		<text>Greetings, Fox. I brought you an Exoskeleton, as we agreed...</text>
+	</string>
+	<string id="bad_exo_dialog_1">
+		<text>Hi, Marked One. Hey, what's with the state of this suit? I expected it to be used, but not as bad as this! At least get it repaired before trying to give it to someone...</text>
+	</string>
+	<string id="bad_exo_dialog_2">
+		<text>I'm sorry, I should have checked it. I'll get it repaired for you...</text>
+	</string>
+	<string id="bad_strelok_dialog_0">
+		<text>Hi, Bes. I found a suit for you. Reinforced, too...</text>
+	</string>
+	<string id="bad_strelok_dialog_1">
+		<text>Yes, it's certainly been reinforced, but it's been shot up... You don't expect me to wear it like this, do you?</text>
+	</string>
+	<string id="bad_strelok_dialog_2">
+		<text>Sorry, Bes. I'll get it fixed up for you...</text>
+	</string>
+	<string id="bad_skat_dialog_0">
+		<text>Hi, Syak. I brought the SLOPE for you...</text>	<!-- Changed 'Sjac' to 'Syak' - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="bad_skat_dialog_1">
+		<text>What the hell, Marked One? You don't give a friend something in this condition! At least get someone to check it out and repair it first...</text>
+	</string>
+	<string id="bad_skat_dialog_2">
+		<text>I'm sorry. I hadn't realized. I'll get it fixed up for you...</text>
+	</string>
+	<string id="bad_gravi_dialog_0">
+		<text>Hi, Miser. Here's your Cobblestone suit...</text>
+	</string>
+	<string id="bad_gravi_dialog_1">
+		<text>Marked One, what the hell have you done with it? I know it has some negative properties, but this is just taking the piss! I trade in this stuff, so at least bring things to me in working order!</text>
+	</string>
+	<string id="bad_gravi_dialog_2">
+		<text>I'm sorry. I'll get it fixed for you...</text>
+	</string>
+	<string id="bad_toz_dialog_0">
+		<text>Hi, Petruha! Here's your TOZ...</text>
+	</string>
+	<string id="bad_toz_dialog_1">
+		<text>Are you serious? When I asked you for a weapon, I meant one in good condition! How do you expect me to keep myself alive with this?</text>
+	</string>
+	<string id="bad_toz_dialog_2">
+		<text>I'm sorry, I didn't check it. I'll get it repaired for you...</text>
+	</string>
+	<string id="bad_mp5_m1_dialog_0">
+		<text>Greetings, Yurek! Here you are!</text>	<!-- Changed 'Yurik' to 'Yurek'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="bad_mp5_m1_dialog_1">
+		<text>Marked One! I'll always be grateful to you for saving my life, but I won't accept equipment in this condition from anyone. Not in the Zone...</text>
+	</string>
+	<string id="bad_mp5_m1_dialog_2">
+		<text>I'm sorry, Yurek, this is my fault. I'll get it repaired for you...</text>	<!-- Changed 'Yurik' to 'Yurek'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="bad_groza_dialog_0">
+		<text>Guide, I have a 'Thunderstorm' for you, as we agreed...</text>
+	</string>
+	<string id="bad_groza_dialog_1">
+		<text>Marked One, I know you're new to this area, but do you not recognise the difference between a weapon that'll save your life and one that'll kill you when you use it?</text>
+	</string>
+	<string id="bad_groza_dialog_2">
+		<text>I'm sorry. I should have got it checked out. I'll get it repaired for you...</text>
+	</string>
+	<string id="bad_eagle_m1_dialog_0">
+		<text>Hey, Freeman! Here's your Desert Eagle...</text>
+	</string>
+	<string id="bad_eagle_m1_dialog_1">
+		<text>What the hell, Marked One? Is this how you found it, or did you use it? If you did, then do me the courtesy of repairing something before returning it to its owner...</text>
+	</string>
+	<string id="bad_eagle_m1_dialog_2">
+		<text>I'm sorry. I'll get it repaired for you...</text>
+	</string>
+	<string id="bad_rg66_dialog_0">
+		<text>General! I have your 'Bulldog'...</text>
+	</string>
+	<string id="bad_rg66_dialog_1">
+		<text>What kind of Stalker are you? I'd RTU any soldier who mistreated their weapon as badly as this. Get it repaired, properly, before showing your face in here again!</text>
+	</string>
+	<string id="bad_rg66_dialog_2">
+		<text>I'm very sorry. I have much to learn. I'll get it repaired...</text>
+	</string>
+	<string id="bad_gungauss_dialog_0">
+		<text>Hi! Here's your amazing pistol!</text>
+	</string>
+	<string id="bad_gungauss_dialog_1">
+		<text>Hi there, brother! Oh, what happened to it? Someone's wrecked it... Look, I can't accept it like this. Please get it fixed first, okay?</text>
+	</string>
+	<string id="bad_gungauss_dialog_2">
+		<text>I'm sorry. I'll get it repaired for you...</text>
+	</string>
+	<string id="bad_rg6_dialog_0">
+		<text>Greetings, Miser! Here's your 'Bulldog'...</text>
+	</string>
+	<string id="bad_rg6_dialog_1">
+		<text>What the fuck, Stalker? Who are you trying to get killed? One of my guys, or me for selling it to them? This piece of crap is next to useless. Get it repaired, will you, and have them look at your own stuff while they're at it...</text>
+	</string>
+	<string id="bad_rg6_dialog_2">
+		<text>I'm sorry. I'll get it repaired...</text>
+	</string>
+	<string id="bad_wpn_bm16_dialog_0">
+		<text>Greetings, Dan! I met Raven, and here's your sawn-off...</text>
+	</string>
+	<string id="bad_wpn_bm16_dialog_1">
+		<text>And I see you've been field testing it... Look, be a good friend and have it repaired, will you?</text>
+	</string>
+	<string id="bad_wpn_bm16_dialog_2">
+		<text>Sorry, Dan I'm sorry. I'll get it repaired for you...</text>
+	</string>
+	<string id="bad_hunters_toz_dialog_0">
+		<text>Greetings, Vein! I sorted everything with the Hunter... Here's your rifle!</text>
+	</string>
+	<string id="bad_hunters_toz_dialog_1">
+		<text>Brother, I'm grateful for your effort, but I'm sure he didn't keep it in this condition. It's of no use to me unless it's working...</text>
+	</string>
+	<string id="bad_hunters_toz_dialog_2">
+		<text>My fault, I should have noticed its condition. I'll get it repaired for you...</text>
+	</string>
+	<string id="start_update_outfit_sidor_0">
+		<text>Hi there, Sid. Good to see you again!</text>
+	</string>
+	<string id="start_update_outfit_sidor_1">
+		<text>Marked One! Good to see you too. I've been hearing how useful you've been around here since we first met. In return, I'd like to offer you some of my additional services, in terms of suit upgrades: I can have 'Pilot Night Vision' installed for you on certain types of armor - not the best I'm afraid, but whatever my 'suppliers' can get hold of around here...\n \nI can also have some of your armor reinforced, by spraying it with a light layer of particles from the 'Pellicle' artefact. This will give you better protection against certain elements, without feeling any difference. The treatment's not too expensive either. Well worth the money, I say!</text>
+	</string>
+	<string id="start_update_outfit_sidor_2">
+		<text>Thank you, Sid. This is very much appreciated!</text>
+	</string>
+	<string id="update_outfit_sidor_0">
+		<text>What suit upgrades can you do?</text>
+	</string>
+	<string id="update_outfit_sidor_1">
+		<text>'Pilot Night Vision', but only one kind - Standard 'Green': The type I have can only be fitted to jackets and raincoats - and only if they're in good condition... I can also reinforce jackets using equipment developed by some techies I help out from time to time - you know, with vodka and other essential items...\n \nUpgrade costs:\nPNV = 10,000Ru\n \nJacket reinforcement:\n \nStandard jackets = 5,000Ru\nModified jackets = 10,000Ru\nStandard raincoat = 15,000Ru\nModified raincoat = 20,000Ru\n \nLet me know if you're interested...</text>
+	</string>
+	<string id="update_outfit_sidor_1111">
+		<text>I'm interested in having Night Vision fitted...</text>
+	</string>
+	<string id="update_outfit_sidor_11111">
+		<text>Do you want it installed on a standard jacket, or a reinforced one?</text>
+	</string>
+	<string id="update_outfit_sidor_111111">
+		<text>Install it on my standard jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_1111111">
+		<text>Onto which jacket do you want Night Vision installed?</text>
+	</string>
+	<string id="update_outfit_sidor_2">
+		<text>Install it on my standard jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_3">
+		<text>Install it on my dark raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_4">
+		<text>Install it on my light raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_5">
+		<text>Install it on my brown jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_6">
+		<text>Install it on my leather jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_7">
+		<text>Install it on my Bandit jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_8">
+		<text>Install it on my red Bandit jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_9">
+		<text>Install it on my black Bandit jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_10">
+		<text>Install it on my blue Bandit jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_11">
+		<text>Install it on my dark Bandit raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_12">
+		<text>Install it on my brown Bandit raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_13">
+		<text>Install it on my dark jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_14">
+		<text>Install it on my camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_15">
+		<text>Install it on my green jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_16">
+		<text>Install it on my dark camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_17">
+		<text>Install it on my light camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_18">
+		<text>Install it on my brown camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_19">
+		<text>Install it on my standard jacket with gas mask...</text>
+	</string>
+	<string id="update_outfit_sidor_20">
+		<text>Install it on my Bandit jacket with gas mask...</text>
+	</string>
+	<string id="update_outfit_sidor_21">
+		<text>Install it on my reinforced brown Bandit raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_22">
+		<text>Install it on my reinforced jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_23">
+		<text>Install it on my reinforced Bandit jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_24">
+		<text>Install it on my reinforced dark Bandit raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_25">
+		<text>Here, take your jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_26">
+		<text>Here, take your light raincoat. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_27">
+		<text>Here, take your dark raincoat. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_28">
+		<text>Here, take your brown jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_29">
+		<text>Here, take your dark leather jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_30">
+		<text>Here, take your dark Bandit jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_31">
+		<text>Here, take your red Bandit jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_32">
+		<text>Here, take your black Bandit jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_33">
+		<text>Here, take your dark blue Bandit jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_34">
+		<text>Here, take your dark Bandit raincoat. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_35">
+		<text>Here, take your brown Bandit raincoat. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_36">
+		<text>Here, take your dark jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_37">
+		<text>Here, take your camouflage jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_38">
+		<text>Here, take your Green jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_39">
+		<text>Here, take your dark camouflage jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_40">
+		<text>Here, take your light camouflage jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_41">
+		<text>Here, take your brown camouflage jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_42">
+		<text>Here, take your jacket with gas mask. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_43">
+		<text>Here, take your Bandit jacket with gas mask. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_44">
+		<text>Here, take your reinforced brown Bandit raincoat. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_45">
+		<text>Here, take your reinforced jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_46">
+		<text>Here, take your reinforced Bandit jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_47">
+		<text>Here, take your reinforced dark Bandit raincoat. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_111112">
+		<text>Install it on my reinforced jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_1111121">
+		<text>Onto which jacket do you want 'Night Vision' installed?</text>
+	</string>
+	<string id="update_outfit_sidor_102">
+		<text>Install it on my standard jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_103">
+		<text>Install it on my dark raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_104">
+		<text>Install it on my light raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_105">
+		<text>Install it on my brown jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_106">
+		<text>Install it on my leather jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_107">
+		<text>Install it on my Bandit jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_108">
+		<text>Install it on my red Bandit jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_109">
+		<text>Install it on my black Bandit jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_110">
+		<text>Install it on my blue Bandit jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_111">
+		<text>Install it on my dark Bandit raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_112">
+		<text>Install it on my brown Bandit raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_113">
+		<text>Install it on my dark jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_114">
+		<text>Install it on my camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_115">
+		<text>Install it on my green jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_116">
+		<text>Install it on my dark camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_117">
+		<text>Install it on my light camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_118">
+		<text>Install it on my brown camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_119">
+		<text>Install it on my standard jacket with gas mask...</text>
+	</string>
+	<string id="update_outfit_sidor_120">
+		<text>Install it on my Bandit jacket with gas mask...</text>
+	</string>
+	<string id="update_outfit_sidor_121">
+		<text>Install it on my reinforced brown Bandit raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_122">
+		<text>Install it on my reinforced jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_123">
+		<text>Install it on my reinforced Bandit jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_124">
+		<text>Install it on my reinforced dark Bandit raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_125">
+		<text>Here, take your jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_126">
+		<text>Here, take your light raincoat. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_127">
+		<text>Here, take your dark raincoat. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_128">
+		<text>Here, take your brown jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_129">
+		<text>Here, take your dark leather jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_130">
+		<text>Here, take your dark Bandit jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_131">
+		<text>Here, take your red Bandit jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_132">
+		<text>Here, take your black Bandit jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_133">
+		<text>Here, take your dark blue Bandit jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_134">
+		<text>Here, take your dark Bandit raincoat. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_135">
+		<text>Here, take your brown Bandit raincoat. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_136">
+		<text>Here, take your dark jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_137">
+		<text>Here, take your camouflage jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_138">
+		<text>Here, take your green jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_139">
+		<text>Here, take your dark camouflage jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_140">
+		<text>Here, take your light camouflage jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_141">
+		<text>Here, take your brown camouflage jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_142">
+		<text>Here, take your jacket with gas mask. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_143">
+		<text>Here, take your Bandit jacket with gas mask. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_144">
+		<text>Here, take your reinforced brown Bandit raincoat. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_145">
+		<text>Here, take your reinforced jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_146">
+		<text>Here, take your reinforced Bandit jacket. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_147">
+		<text>Here, take your reinforced dark Bandit raincoat. It's all set to go...</text>
+	</string>
+	<string id="update_outfit_sidor_2222">
+		<text>Reinforce it, please. These things are a bastard to keep repairing...</text>
+	</string>
+	<string id="update_outfit_sidor_22222">
+		<text>Reinforce a standard suit or one with PNV fitted?</text>
+	</string>
+	<string id="update_outfit_sidor_222221">
+		<text>Standard...</text>
+	</string>
+	<string id="update_outfit_sidor_2222211">
+		<text>Which suit should I reinforce?</text>
+	</string>
+	<string id="update_outfit_sidor_202">
+		<text>The standard jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_203">
+		<text>The dark raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_204">
+		<text>The light raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_205">
+		<text>The brown jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_206">
+		<text>The dark brown leather jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_207">
+		<text>The gangster jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_208">
+		<text>The red gangster jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_209">
+		<text>The black gangster jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_210">
+		<text>The dark blue gangster jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_211">
+		<text>The dark gangster raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_212">
+		<text>The brown gangster raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_213">
+		<text>The dark jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_214">
+		<text>The camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_215">
+		<text>The green jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_216">
+		<text>The dark camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_217">
+		<text>The light camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_218">
+		<text>The brown camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_219">
+		<text>The jacket with gas mask...</text>
+	</string>
+	<string id="update_outfit_sidor_220">
+		<text>The gangster jacket with gas mask...</text>
+	</string>
+	<string id="update_outfit_sidor_221">
+		<text>The reinforced gangster brown raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_222">
+		<text>The reinforced jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_223">
+		<text>The reinforced gangster jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_224">
+		<text>The reinforced gangster dark raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_225">
+		<text>Okay, take your jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_226">
+		<text>Okay, take your light raincoat. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_227">
+		<text>Okay, take your dark raincoat. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_228">
+		<text>Okay, take your brown jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_229">
+		<text>On, here, take dark brown leather jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_230">
+		<text>Okay, take your dark gangster jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_231">
+		<text>Okay, take your red gangster jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_232">
+		<text>Okay, take your black gangster jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_233">
+		<text>Okay, take your dark blue gangster jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_234">
+		<text>Okay, take your dark gangster raincoat. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_235">
+		<text>Okay, take your brown gangster raincoat. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_236">
+		<text>Okay, take your dark jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_237">
+		<text>Okay, take your camouflage jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_238">
+		<text>Okay, take your green jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_239">
+		<text>Okay, take your dark camouflage jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_240">
+		<text>Okay, take your light camouflage jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_241">
+		<text>Okay, take your brown camouflage jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_242">
+		<text>Okay, take your jacket with gas mask. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_243">
+		<text>Okay, take your gangster jacket with gas mask. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_244">
+		<text>Okay, take your reinforced gangster brown raincoat. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_245">
+		<text>Okay, take your reinforced jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_246">
+		<text>Okay, take your reinforced gangster jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_247">
+		<text>Okay, take your reinforced gangster dark raincoat. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_222222">
+		<text>With night vision...</text>
+	</string>
+	<string id="update_outfit_sidor_2222221">
+		<text>Which suit should I reinforce?</text>
+	</string>
+	<string id="update_outfit_sidor_302">
+		<text>The standard jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_303">
+		<text>The dark raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_304">
+		<text>The light raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_305">
+		<text>The brown jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_306">
+		<text>The dark brown leather jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_307">
+		<text>The gangster jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_308">
+		<text>The red gangster jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_309">
+		<text>The black gangster jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_310">
+		<text>The dark blue gangster jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_311">
+		<text>The dark gangster raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_312">
+		<text>The brown gangster raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_313">
+		<text>The dark jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_314">
+		<text>The camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_315">
+		<text>The green jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_316">
+		<text>The dark camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_317">
+		<text>The light camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_318">
+		<text>The brown camouflage jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_319">
+		<text>The jacket with gas mask...</text>
+	</string>
+	<string id="update_outfit_sidor_320">
+		<text>The gangster jacket with gas mask...</text>
+	</string>
+	<string id="update_outfit_sidor_321">
+		<text>The reinforced gangster brown raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_322">
+		<text>The reinforced jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_323">
+		<text>The reinforced gangster jacket...</text>
+	</string>
+	<string id="update_outfit_sidor_324">
+		<text>The reinforced gangster dark raincoat...</text>
+	</string>
+	<string id="update_outfit_sidor_325">
+		<text>Okay, take your jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_326">
+		<text>Okay, take your light raincoat. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_327">
+		<text>Okay, take your dark raincoat. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_328">
+		<text>Okay, take your brown jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_329">
+		<text>On, here, take dark brown leather jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_330">
+		<text>Okay, take your dark gangster jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_331">
+		<text>Okay, take your red gangster jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_332">
+		<text>Okay, take your black gangster jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_333">
+		<text>Okay, take your dark blue gangster jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_334">
+		<text>Okay, take your dark gangster raincoat. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_335">
+		<text>Okay, take your brown gangster raincoat. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_336">
+		<text>Okay, take your dark jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_337">
+		<text>Okay, take your camouflage jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_338">
+		<text>Okay, take your green jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_339">
+		<text>Okay, take your dark camouflage jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_340">
+		<text>Okay, take your light camouflage jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_341">
+		<text>Okay, take your brown camouflage jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_342">
+		<text>Okay, take your jacket with gas mask. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_343">
+		<text>Okay, take your gangster jacket with gas mask. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_344">
+		<text>Okay, take your reinforced gangster brown raincoat. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_345">
+		<text>Okay, take your reinforced jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_346">
+		<text>Okay, take your reinforced gangster jacket. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_347">
+		<text>Okay, take your reinforced gangster dark raincoat. It's done...</text>
+	</string>
+	<string id="update_outfit_sidor_999">
+		<text>Never mind...</text>
+	</string>
+	<string id="start_update_outfit_sakharov_0">
+		<text>Hi Professor. I'm back...</text>
+	</string>
+	<string id="start_update_outfit_sakharov_1">
+		<text>Marked One, thank you for your help with our measurements. I'd like to return the favour by offering you our services in upgrading some of the protective suits we use - the Ecologist suit and the Ecologist 'Combat' suit. We've developed ways of reinforcing these suits, making them last longer. Consider it a long term investment. It's not cheap to start with, but it'll save you money in repairs and, sometimes, your life... Oh, and we also fit a variety of Pilot Night Vision devices to them...</text>
+	</string>
+	<string id="start_update_outfit_sakharov_2">
+		<text>Thanks, Professor! That could come in useful...</text>
+	</string>
+	<string id="update_outfit_sakharov_0">
+		<text>Can you upgrade a suit?</text>
+	</string>
+	<string id="update_outfit_sakharov_1">
+		<text>We can install PNV of any kind onto these suits:\nThe Ecologist suit\nThe Ecologist 'Combat' suit\nAnd also reinforce these suits, to make them last longer in the field before they become useless... What would you like?</text>
+	</string>
+	<string id="update_outfit_sakharov_1111">
+		<text>Fitting night vision, please...</text>
+	</string>
+	<string id="update_outfit_sakharov_11111">
+		<text>Okay, would you like it installed on a standard suit, or a reinforced one?</text>
+	</string>
+	<string id="update_outfit_sakharov_111111">
+		<text>Standard, please...</text>
+	</string>
+	<string id="update_outfit_sakharov_1111111">
+		<text>Excellent. And onto which model of suit?</text>
+	</string>
+	<string id="update_outfit_sakharov_2">
+		<text>The Ecologist suit...</text>
+	</string>
+	<string id="update_outfit_sakharov_3">
+		<text>The Ecologist 'Combat' suit...</text>
+	</string>
+	<string id="update_outfit_sakharov_4">
+		<text>'Prototype V2' Nanosuit...</text>
+	</string>
+	<string id="update_outfit_sakharov_5">
+		<text>Nanosuit 'Antigravity'...</text>
+	</string>
+	<string id="update_outfit_sakharov_6">
+		<text>Nanosuit 'Medic'...</text>
+	</string>
+	<string id="update_outfit_sakharov_02">
+		<text>For an Ecologist suit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_sakharov_0021">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0022">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0023">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0024">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0025">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0026">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0027">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0028">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03">
+		<text>For an Ecologist 'Combat' suit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_sakharov_0031">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0032">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0033">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0034">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0035">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0036">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0037">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0038">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_04">
+		<text>For a 'Prototype V2' Nanosuit suit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_sakharov_0041">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0042">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0043">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0044">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0045">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0046">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0047">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0048">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_05">
+		<text>For an 'Antigravity' Nanosuit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru \nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_sakharov_0051">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0052">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0053">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0054">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0055">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0056">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0057">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0058">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_06">
+		<text>For a 'Medic' Nanosuit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_sakharov_0061">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0062">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0063">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0064">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0065">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0066">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0067">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0068">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0071">
+		<text>Here's your Ecologist suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0072">
+		<text>Here's your Ecologist suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0073">
+		<text>Here's your Ecologist suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0074">
+		<text>Here's your Ecologist suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0075">
+		<text>Here's your Ecologist suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0076">
+		<text>Here's your Ecologist suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0077">
+		<text>Here's your Ecologist suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0078">
+		<text>Here's your Ecologist suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0081">
+		<text>Here's your Ecologist 'Combat' suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0082">
+		<text>Here's your Ecologist 'Combat' suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0083">
+		<text>Here's your Ecologist 'Combat' suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0084">
+		<text>Here's your Ecologist 'Combat' suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0085">
+		<text>Here's your Ecologist 'Combat' suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0086">
+		<text>Here's your Ecologist 'Combat' suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0087">
+		<text>Here's your Ecologist 'Combat' suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0088">
+		<text>Here's your Ecologist 'Combat' suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0091">
+		<text>Here's your 'Prototype V2' Nanosuit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0092">
+		<text>Here's your 'Prototype V2' Nanosuit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0093">
+		<text>Here's your 'Prototype V2' Nanosuit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0094">
+		<text>Here's your 'Prototype V2' Nanosuit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0095">
+		<text>Here's your 'Prototype V2' Nanosuit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0096">
+		<text>Here's your 'Prototype V2' Nanosuit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0097">
+		<text>Here's your 'Prototype V2' Nanosuit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0098">
+		<text>Here's your 'Prototype V2' Nanosuit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00101">
+		<text>Here's your 'Antigravity' Nanosuit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00102">
+		<text>Here's your 'Antigravity' Nanosuit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00103">
+		<text>Here's your 'Antigravity' Nanosuit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00104">
+		<text>Here's your 'Antigravity' Nanosuit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00105">
+		<text>Here's your 'Antigravity' Nanosuit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00106">
+		<text>Here's your 'Antigravity' Nanosuit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00107">
+		<text>Here's your 'Antigravity' Nanosuit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00108">
+		<text>Here's your 'Antigravity' Nanosuit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00111">
+		<text>Here's your 'Medic' Nanosuit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00112">
+		<text>Here's your 'Medic' Nanosuit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00113">
+		<text>Here's your 'Medic' Nanosuit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00114">
+		<text>Here's your 'Medic' Nanosuit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00115">
+		<text>Here's your 'Medic' Nanosuit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00116">
+		<text>Here's your 'Medic' Nanosuit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00117">
+		<text>Here's your 'Medic' Nanosuit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_00118">
+		<text>Here's your 'Medic' Nanosuit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_111112">
+		<text>Already reinforced...</text>
+	</string>
+	<string id="update_outfit_sakharov_1111121">
+		<text>Excellent. Which reinforced suit?</text>
+	</string>
+	<string id="update_outfit_sakharov_102">
+		<text>The Ecologist suit...</text>
+	</string>
+	<string id="update_outfit_sakharov_103">
+		<text>The Ecologist 'Combat' suit...</text>
+	</string>
+	<string id="update_outfit_sakharov_104">
+		<text>'Prototype V2' Nanosuit...</text>
+	</string>
+	<string id="update_outfit_sakharov_105">
+		<text>'Antigravity' Nanosuit...</text>
+	</string>
+	<string id="update_outfit_sakharov_106">
+		<text>'Medic' Nanosuit...</text>
+	</string>
+	<string id="update_outfit_sakharov_1022">
+		<text>For the reinforced Ecologist suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_sakharov_0121">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0122">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0123">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0124">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0125">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0126">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0127">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0128">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_1033">
+		<text>For the reinforced Ecologist 'Combat' suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_sakharov_0131">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0132">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0133">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0134">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0135">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0136">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0137">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0138">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_1044">
+		<text>For the reinforced 'Prototype V2' Nanosuit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_sakharov_0141">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0142">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0143">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0144">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0145">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0146">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0147">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0148">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_1055">
+		<text>For the reinforced 'Antigravity' Nanosuit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_sakharov_0151">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0152">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0153">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0154">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0155">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0156">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0157">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0158">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_1066">
+		<text>For the reinforced 'Medic' Nanosuit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_sakharov_0161">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0162">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0163">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0164">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0165">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0166">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0167">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0168">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0171">
+		<text>Here's your reinforced Ecologist suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0172">
+		<text>Here's your reinforced Ecologist suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0173">
+		<text>Here's your reinforced Ecologist suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0174">
+		<text>Here's your reinforced Ecologist suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0175">
+		<text>Here's your reinforced Ecologist suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0176">
+		<text>Here's your reinforced Ecologist suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0177">
+		<text>Here's your reinforced Ecologist suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0178">
+		<text>Here's your reinforced Ecologist suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0181">
+		<text>Here's your reinforced Ecologist 'Combat' suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0182">
+		<text>Here's your reinforced Ecologist 'Combat' suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0183">
+		<text>Here's your reinforced Ecologist 'Combat' suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0184">
+		<text>Here's your reinforced Ecologist 'Combat' suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0185">
+		<text>Here's your reinforced Ecologist 'Combat' suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0186">
+		<text>Here's your reinforced Ecologist 'Combat' suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0187">
+		<text>Here's your reinforced Ecologist 'Combat' suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0188">
+		<text>Here's your reinforced Ecologist 'Combat' suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0191">
+		<text>Here's your reinforced Nanosuit 'prototype' V2. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0192">
+		<text>Here's your reinforced Nanosuit 'prototype' V2. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0193">
+		<text>Here's your reinforced Nanosuit 'prototype' V2. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0194">
+		<text>Here's your reinforced Nanosuit 'prototype' V2. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0195">
+		<text>Here's your reinforced Nanosuit 'prototype' V2. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0196">
+		<text>Here's your reinforced Nanosuit 'prototype' V2. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0197">
+		<text>Here's your reinforced Nanosuit 'prototype' V2. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0198">
+		<text>Here's your reinforced Nanosuit 'prototype' V2. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01101">
+		<text>Here's your reinforced Nanosuit 'Antigravity' It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01102">
+		<text>Here's your reinforced Nanosuit 'Antigravity' It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01103">
+		<text>Here's your reinforced Nanosuit 'Antigravity' It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01104">
+		<text>Here's your reinforced Nanosuit 'Antigravity' It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01105">
+		<text>Here's your reinforced Nanosuit 'Antigravity' It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01106">
+		<text>Here's your reinforced Nanosuit 'Antigravity' It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01107">
+		<text>Here's your reinforced Nanosuit 'Antigravity' It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01108">
+		<text>Here's your reinforced Nanosuit 'Antigravity' It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01111">
+		<text>Here's your reinforced Nanosuit 'Medic' It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01112">
+		<text>Here's your reinforced Nanosuit 'Medic' It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01113">
+		<text>Here's your reinforced Nanosuit 'Medic' It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01114">
+		<text>Here's your reinforced Nanosuit 'Medic' It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01115">
+		<text>Here's your reinforced Nanosuit 'Medic' It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01116">
+		<text>Here's your reinforced Nanosuit 'Medic' It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01117">
+		<text>Here's your reinforced Nanosuit 'Medic' It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_01118">
+		<text>Here's your reinforced Nanosuit 'Medic' It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_2222">
+		<text>I'd like to reinforce a suit...</text>
+	</string>
+	<string id="update_outfit_sakharov_22222">
+		<text>Okay. What kind of suit would you like to reinforce, standard or with fitted night vision?</text>
+	</string>
+	<string id="update_outfit_sakharov_222221">
+		<text>Standard...</text>
+	</string>
+	<string id="update_outfit_sakharov_2222211">
+		<text>Excellent... My quotations:\nThe Ecologist suit - for 25,000Ru and a Skin artefact\nThe Ecologist 'Combat' suit - for a Scale artefact, and 50,000Ru\nOnto which suit do you want Night Vision installed?</text>
+	</string>
+	<string id="update_outfit_sakharov_202">
+		<text>The Ecologist suit...</text>
+	</string>
+	<string id="update_outfit_sakharov_203">
+		<text>The Ecologist 'Combat' suit...</text>
+	</string>
+	<string id="update_outfit_sakharov_204">
+		<text>Nanosuit 'prototype' V2...</text>
+	</string>
+	<string id="update_outfit_sakharov_205">
+		<text>Nanosuit 'Antigravity'...</text>
+	</string>
+	<string id="update_outfit_sakharov_206">
+		<text>Nanosuit 'Medic'...</text>
+	</string>
+	<string id="update_outfit_sakharov_207">
+		<text>Here's your reinforced Ecologist suit...</text>
+	</string>
+	<string id="update_outfit_sakharov_208">
+		<text>Here's your reinforced Ecologist 'Combat' suit...</text>
+	</string>
+	<string id="update_outfit_sakharov_209">
+		<text>Here's your reinforced Nanosuit 'prototype' V2</text>
+	</string>
+	<string id="update_outfit_sakharov_210">
+		<text>Here's your reinforced Nanosuit 'Antigravity'</text>
+	</string>
+	<string id="update_outfit_sakharov_211">
+		<text>Here's your reinforced Nanosuit 'Medic'</text>
+	</string>
+	<string id="update_outfit_sakharov_222222">
+		<text>With night vision...</text>
+	</string>
+	<string id="update_outfit_sakharov_2222221">
+		<text>Excellent... Onto which suit do you want Night Vision installed?</text>
+	</string>
+	<string id="update_outfit_sakharov_302">
+		<text>The Ecologist suit...</text>
+	</string>
+	<string id="update_outfit_sakharov_303">
+		<text>The Ecologist 'Combat' suit...</text>
+	</string>
+	<string id="update_outfit_sakharov_3022">
+		<text>The cost to reinforce an Ecologist suit, with fitted PNV is 25,000Ru plus a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_sakharov_0321">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0322">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0323">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0324">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0325">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0326">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0327">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0328">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_3033">
+		<text>The cost to reinforce an Ecologist 'Combat' suit, with fitted PNV is 50,000Ru and the artefact 'Scale', is still necessary...</text>
+	</string>
+	<string id="update_outfit_sakharov_0331">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0332">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0333">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0334">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0335">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0336">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0337">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0338">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_304">
+		<text>The 'Prototype V2' Nanosuit...</text>
+	</string>
+	<string id="update_outfit_sakharov_3044">
+		<text>The cost of reinforcing a 'Prototype V2' Nanosuit with fitted PNV is 200,000Ru and a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_sakharov_0341">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0342">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0343">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0344">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0345">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0346">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0347">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0348">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_305">
+		<text>The 'Antigravity' Nanosuit...</text>
+	</string>
+	<string id="update_outfit_sakharov_3055">
+		<text>The cost of reinforcing a 'Antigravity' Nanosuit with fitted PNV is 300,000Ru and a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_sakharov_0351">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0352">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0353">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0354">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0355">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0356">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0357">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0358">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_306">
+		<text>The 'Medic' Nanosuit...</text>
+	</string>
+	<string id="update_outfit_sakharov_3066">
+		<text>The cost of reinforcing a 'Medic' Nanosuit with fitted PNV is 300,000Ru and a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_sakharov_0361">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0362">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0363">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0364">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0365">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0366">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0367">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0368">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_sakharov_0371">
+		<text>Here's your reinforced Ecologist suit with fitted PNV 'Green'</text>
+	</string>
+	<string id="update_outfit_sakharov_0372">
+		<text>Here's your reinforced Ecologist suit with fitted PNV 'Digital'</text>
+	</string>
+	<string id="update_outfit_sakharov_0373">
+		<text>Here's your reinforced Ecologist suit with fitted PNV 'Sepia'</text>
+	</string>
+	<string id="update_outfit_sakharov_0374">
+		<text>Here's your reinforced Ecologist suit with fitted PNV 'Halogen'</text>
+	</string>
+	<string id="update_outfit_sakharov_0375">
+		<text>Here's your reinforced Ecologist suit with fitted PNV 'Cats Eye'</text>
+	</string>
+	<string id="update_outfit_sakharov_0376">
+		<text>Here's your reinforced Ecologist suit with fitted PNV 'Psi-effect'</text>
+	</string>
+	<string id="update_outfit_sakharov_0377">
+		<text>Here's your reinforced Ecologist suit with fitted PNV 'Moonlight'</text>
+	</string>
+	<string id="update_outfit_sakharov_0378">
+		<text>Here's your reinforced Ecologist suit with fitted PNV 'White Night'</text>
+	</string>
+	<string id="update_outfit_sakharov_0381">
+		<text>Here's your reinforced Ecologist 'Combat' suit with fitted PNV 'Green'</text>
+	</string>
+	<string id="update_outfit_sakharov_0382">
+		<text>Here's your reinforced Ecologist 'Combat' suit with fitted PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0383">
+		<text>Here's your reinforced Ecologist 'Combat' suit with fitted PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0384">
+		<text>Here's your reinforced Ecologist 'Combat' suit with fitted PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0385">
+		<text>Here's your reinforced Ecologist 'Combat' suit with fitted PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0386">
+		<text>Here's your reinforced Ecologist 'Combat' suit with fitted PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0387">
+		<text>Here's your reinforced Ecologist 'Combat' suit with fitted PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0388">
+		<text>Here's your reinforced Ecologist 'Combat' suit with fitted PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0391">
+		<text>Here's your reinforced 'Prototype V2' Nanosuit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0392">
+		<text>Here's your reinforced 'Prototype V2' Nanosuit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0393">
+		<text>Here's your reinforced 'Prototype V2' Nanosuit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0394">
+		<text>Here's your reinforced 'Prototype V2' Nanosuit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0395">
+		<text>Here's your reinforced 'Prototype V2' Nanosuit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0396">
+		<text>Here's your reinforced 'Prototype V2' Nanosuit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0397">
+		<text>Here's your reinforced 'Prototype V2' Nanosuit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_0398">
+		<text>Here's your reinforced 'Prototype V2' Nanosuit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03101">
+		<text>Here's your reinforced 'Antigravity' Nanosuit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03102">
+		<text>Here's your reinforced 'Antigravity' Nanosuit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03103">
+		<text>Here's your reinforced 'Antigravity' Nanosuit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03104">
+		<text>Here's your reinforced 'Antigravity' Nanosuit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03105">
+		<text>Here's your reinforced 'Antigravity' Nanosuit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03106">
+		<text>Here's your reinforced 'Antigravity' Nanosuit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03107">
+		<text>Here's your reinforced 'Antigravity' Nanosuit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03108">
+		<text>Here's your reinforced 'Antigravity' Nanosuit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03111">
+		<text>Here's your reinforced 'Medic' Nanosuit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03112">
+		<text>Here's your reinforced 'Medic' Nanosuit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03113">
+		<text>Here's your reinforced 'Medic' Nanosuit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03114">
+		<text>Here's your reinforced 'Medic' Nanosuit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03115">
+		<text>Here's your reinforced 'Medic' Nanosuit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03116">
+		<text>Here's your reinforced 'Medic' Nanosuit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03117">
+		<text>Here's your reinforced 'Medic' Nanosuit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_sakharov_03118">
+		<text>Here's your reinforced 'Medic' Nanosuit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_sakharov_999">
+		<text>Ah, sorry. Not at the moment, thanks...</text>
+	</string>
+	<string id="start_update_outfit_petrenko_0">
+		<text>Hi...</text>
+	</string>
+	<string id="start_update_outfit_petrenko_1">
+		<text>Hi, Marked One! I'm glad you reached us! I have an offer for you, which I think you'll like. If you ever need a Duty suits upgrading, come and see me. My prices are very reasonable, and my quality is second to none...</text>
+	</string>
+	<string id="start_update_outfit_petrenko_2">
+		<text>Thanks, I will...</text>
+	</string>
+	<string id="update_outfit_petrenko_0">
+		<text>Can you upgrade a suit for me, please?</text>
+	</string>
+	<string id="update_outfit_petrenko_1">
+		<text>Of course. I can install Pilot Night Vision onto any of these suits:\nThe standard Duty suit\nThe Scientific Duty suit\nThe Duty Exoskeleton\nThe standard Duty suit with gas mask\nThe Unique Hunter's suit\nAnd I can also reinforce them. What would you like?</text>
+	</string>
+	<string id="update_outfit_petrenko_1111">
+		<text>Night vision, please...</text>
+	</string>
+	<string id="update_outfit_petrenko_11111">
+		<text>Is it to be installed on a standard suit, or a reinforced one?</text>
+	</string>
+	<string id="update_outfit_petrenko_111111">
+		<text>On the standard...</text>
+	</string>
+	<string id="update_outfit_petrenko_1111111">
+		<text>Excellent... Onto which suit do you want Night Vision installed?</text>
+	</string>
+	<string id="update_outfit_petrenko_2">
+		<text>The Duty Suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_3">
+		<text>The Scientific Duty suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_4">
+		<text>The Duty Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_petrenko_5">
+		<text>The Duty suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_petrenko_6">
+		<text>The Unique Hunter's suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_02">
+		<text>For the Duty suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_petrenko_0021">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0022">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0023">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0024">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0025">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0026">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0027">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0028">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03">
+		<text>For a Scientific Duty suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_petrenko_0031">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0032">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0033">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0034">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0035">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0036">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0037">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0038">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_04">
+		<text>For the Duty Exoskeleton I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_petrenko_0041">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0042">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0043">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0044">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0045">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0046">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0047">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0048">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_05">
+		<text>For a Duty suit with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_petrenko_0051">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0052">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0053">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0054">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0055">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0056">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0057">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0058">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_06">
+		<text>For a Unique Hunter's suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_petrenko_0061">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0062">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0063">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0064">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0065">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0066">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0067">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0068">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0071">
+		<text>Here's your Duty suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0072">
+		<text>Here's your Duty suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0073">
+		<text>Here's your Duty suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0074">
+		<text>Here's your Duty suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0075">
+		<text>Here's your Duty suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0076">
+		<text>Here's your Duty suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0077">
+		<text>Here's your Duty suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0078">
+		<text>Here's your Duty suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0081">
+		<text>Here's your Scientific Duty suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0082">
+		<text>Here's your Scientific Duty suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0083">
+		<text>Here's your Scientific Duty suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0084">
+		<text>Here's your Scientific Duty suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0085">
+		<text>Here's your Scientific Duty suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0086">
+		<text>Here's your Scientific Duty suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0087">
+		<text>Here's your Scientific Duty suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0088">
+		<text>Here's your Scientific Duty suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0091">
+		<text>Here's your Duty exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0092">
+		<text>Here's your Duty exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0093">
+		<text>Here's your Duty exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0094">
+		<text>Here's your Duty exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0095">
+		<text>Here's your Duty exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0096">
+		<text>Here's your Duty exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0097">
+		<text>Here's your Duty exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0098">
+		<text>Here's your Duty exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00101">
+		<text>Here's your Duty suit with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00102">
+		<text>Here's your Duty suit with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00103">
+		<text>Here's your Duty suit with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00104">
+		<text>Here's your Duty suit with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00105">
+		<text>Here's your Duty suit with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00106">
+		<text>Here's your Duty suit with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00107">
+		<text>Here's your Duty suit with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00108">
+		<text>Here's your Duty suit with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00111">
+		<text>Here's your Unique Hunter's suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00112">
+		<text>Here's your Unique Hunter's suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00113">
+		<text>Here's your Unique Hunter's suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00114">
+		<text>Here's your Unique Hunter's suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00115">
+		<text>Here's your Unique Hunter's suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00116">
+		<text>Here's your Unique Hunter's suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00117">
+		<text>Here's your Unique Hunter's suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_00118">
+		<text>Here's your Unique Hunter's suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_111112">
+		<text>Already reinforced...</text>
+	</string>
+	<string id="update_outfit_petrenko_1111121">
+		<text>Excellent... Onto which reinforced suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_petrenko_11102">
+		<text>The Duty Suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_11103">
+		<text>The Scientific Duty suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_11104">
+		<text>The Duty Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_petrenko_11105">
+		<text>The Duty suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_petrenko_11106">
+		<text>The Unique Duty suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_1022">
+		<text>For the reinforced Duty suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_petrenko_0121">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0122">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0123">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0124">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0125">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0126">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0127">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0128">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_1033">
+		<text>For the reinforced Scientific Duty suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_petrenko_0131">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0132">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0133">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0134">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0135">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0136">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0137">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0138">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_1044">
+		<text>For the reinforced Duty Exoskeleton I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_petrenko_0141">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0142">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0143">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0144">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0145">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0146">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0147">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0148">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_1055">
+		<text>For the reinforced Duty suit with gas mask I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_petrenko_0151">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0152">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0153">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0154">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0155">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0156">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0157">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0158">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_1066">
+		<text>For the reinforced Unique Hunter's suit I can offer:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_petrenko_0161">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0162">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0163">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0164">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0165">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0166">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0167">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0168">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0171">
+		<text>Here's your reinforced Duty suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0172">
+		<text>Here's your reinforced Duty suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0173">
+		<text>Here's your reinforced Duty suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0174">
+		<text>Here's your reinforced Duty suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0175">
+		<text>Here's your reinforced Duty suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0176">
+		<text>Here's your reinforced Duty suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0177">
+		<text>Here's your reinforced Duty suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0178">
+		<text>Here's your reinforced Duty suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0181">
+		<text>Here's your reinforced Scientific Duty suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0182">
+		<text>Here's your reinforced Scientific Duty suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0183">
+		<text>Here's your reinforced Scientific Duty suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0184">
+		<text>Here's your reinforced Scientific Duty suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0185">
+		<text>Here's your reinforced Scientific Duty suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0186">
+		<text>Here's your reinforced Scientific Duty suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0187">
+		<text>Here's your reinforced Scientific Duty suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0188">
+		<text>Here's your reinforced Scientific Duty suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0191">
+		<text>Here's your reinforced Duty exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0192">
+		<text>Here's your reinforced Duty exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0193">
+		<text>Here's your reinforced Duty exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0194">
+		<text>Here's your reinforced Duty exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0195">
+		<text>Here's your reinforced Duty exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0196">
+		<text>Here's your reinforced Duty exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0197">
+		<text>Here's your reinforced Duty exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0198">
+		<text>Here's your reinforced Duty exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01101">
+		<text>Here's your reinforced Duty suit with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01102">
+		<text>Here's your reinforced Duty suit with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01103">
+		<text>Here's your reinforced Duty suit with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01104">
+		<text>Here's your reinforced Duty suit with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01105">
+		<text>Here's your reinforced Duty suit with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01106">
+		<text>Here's your reinforced Duty suit with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01107">
+		<text>Here's your reinforced Duty suit with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01108">
+		<text>Here's your reinforced Duty suit with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01111">
+		<text>Here's your reinforced Unique Hunter's suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01112">
+		<text>Here's your reinforced Unique Hunter's suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01113">
+		<text>Here's your reinforced Unique Hunter's suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01114">
+		<text>Here's your reinforced Unique Hunter's suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01115">
+		<text>Here's your reinforced Unique Hunter's suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01116">
+		<text>Here's your reinforced Unique Hunter's suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01117">
+		<text>Here's your reinforced Unique Hunter's suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_01118">
+		<text>Here's your reinforced Unique Hunter's suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_2222">
+		<text>I'd like to reinforce a suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_22222">
+		<text>What kind of suit would you like to reinforce, standard or with fitted night vision?</text>
+	</string>
+	<string id="update_outfit_petrenko_222221">
+		<text>Standard...</text>
+	</string>
+	<string id="update_outfit_petrenko_2222211">
+		<text>Excellent... My quotations:\nThe Duty suit - for a Skin artefact plus 15,000Ru\nThe Scientific Duty suit - for a Scale artefact, and 35,000Ru\nThe Duty Exoskeleton - for a Steel Scale artefact plus 100,000Ru\nDuty suit with gas mask - for a Skin artefact plus 20,000Ru\nThe Unique Hunter's suit - for a Skin artefact plus 20,000Ru\nOnto which suit do you want Night Vision installed?</text>
+	</string>
+	<string id="update_outfit_petrenko_202">
+		<text>The Duty suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_203">
+		<text>The Scientific Duty suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_204">
+		<text>The Duty Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_petrenko_205">
+		<text>The Duty suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_petrenko_206">
+		<text>The Unique Hunter's suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_207">
+		<text>Here's your reinforced Duty suit</text>
+	</string>
+	<string id="update_outfit_petrenko_208">
+		<text>Here's your reinforced Scientific Duty suit</text>
+	</string>
+	<string id="update_outfit_petrenko_209">
+		<text>Here's your reinforced Duty exoskeleton</text>
+	</string>
+	<string id="update_outfit_petrenko_210">
+		<text>Here's your reinforced Duty suit with gas mask</text>
+	</string>
+	<string id="update_outfit_petrenko_211">
+		<text>Here's your reinforced Unique Hunter's suit</text>
+	</string>
+	<string id="update_outfit_petrenko_222222">
+		<text>With night vision...</text>
+	</string>
+	<string id="update_outfit_petrenko_2222221">
+		<text>Excellent... Onto which suit do you want Night Vision installed?</text>
+	</string>
+	<string id="update_outfit_petrenko_302">
+		<text>The Duty Suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_303">
+		<text>The Scientific Duty suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_304">
+		<text>The Duty Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_petrenko_305">
+		<text>The Duty suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_petrenko_306">
+		<text>The Unique Hunter's suit...</text>
+	</string>
+	<string id="update_outfit_petrenko_3022">
+		<text>The cost to reinforce a standard Duty suit, with fitted PNV is 15,000Ru plus a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_petrenko_0321">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0322">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0323">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0324">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0325">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0326">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0327">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0328">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_3033">
+		<text>The cost to reinforce a Scientific Duty suit, with fitted PNV is 35,000Ru plus a Scale artefact...</text>
+	</string>
+	<string id="update_outfit_petrenko_0331">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0332">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0333">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0334">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0335">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0336">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0337">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0338">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_3044">
+		<text>The cost to reinforce a Duty Exoskeleton, with fitted PNV is 100,000Ru plus a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_petrenko_0341">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0342">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0343">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0344">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0345">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0346">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0347">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0348">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_3055">
+		<text>The cost to reinforce a standard Duty suit with gas mask, with fitted PNV is 20,000Ru plus a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_petrenko_0351">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0352">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0353">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0354">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0355">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0356">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0357">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0358">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_3066">
+		<text>The cost to reinforce a Unique Hunter's suit, with fitted PNV is 20,000Ru and a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_petrenko_0361">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0362">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0363">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0364">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0365">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0366">
+		<text>I've fitted it with PNV 'Psi effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0367">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0368">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_petrenko_0371">
+		<text>Here's your reinforced Duty suit with PNV 'Green'</text>
+	</string>
+	<string id="update_outfit_petrenko_0372">
+		<text>Here's your reinforced Duty suit with PNV 'Digital'</text>
+	</string>
+	<string id="update_outfit_petrenko_0373">
+		<text>Here's your reinforced Duty suit with PNV 'Sepia'</text>
+	</string>
+	<string id="update_outfit_petrenko_0374">
+		<text>Here's your reinforced Duty suit with PNV 'Halogen'</text>
+	</string>
+	<string id="update_outfit_petrenko_0375">
+		<text>Here's your reinforced Duty suit with PNV 'Cats Eye'</text>
+	</string>
+	<string id="update_outfit_petrenko_0376">
+		<text>Here's your reinforced Duty suit with PNV 'Psi-effect'</text>
+	</string>
+	<string id="update_outfit_petrenko_0377">
+		<text>Here's your reinforced Duty suit with PNV 'Moonlight'</text>
+	</string>
+	<string id="update_outfit_petrenko_0378">
+		<text>Here's your reinforced Duty suit with PNV 'White Night'</text>
+	</string>
+	<string id="update_outfit_petrenko_0381">
+		<text>Here's your reinforced Duty Scientific suit with PNV 'Green'</text>
+	</string>
+	<string id="update_outfit_petrenko_0382">
+		<text>Here's your reinforced Duty Scientific suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0383">
+		<text>Here's your reinforced Duty Scientific suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0384">
+		<text>Here's your reinforced Duty Scientific suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0385">
+		<text>Here's your reinforced Duty Scientific suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0386">
+		<text>Here's your reinforced Duty Scientific suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0387">
+		<text>Here's your reinforced Duty Scientific suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0388">
+		<text>Here's your reinforced Duty Scientific suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0391">
+		<text>Here's your reinforced Exoskeleton of Duty with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0392">
+		<text>Here's your reinforced Exoskeleton of Duty with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0393">
+		<text>Here's your reinforced Exoskeleton of Duty with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0394">
+		<text>Here's your reinforced Exoskeleton of Duty with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0395">
+		<text>Here's your reinforced Exoskeleton of Duty with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0396">
+		<text>Here's your reinforced Exoskeleton of Duty with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0397">
+		<text>Here's your reinforced Exoskeleton of Duty with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_0398">
+		<text>Here's your reinforced Exoskeleton of Duty with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03101">
+		<text>Here's your reinforced Duty suit with gas mask and PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03102">
+		<text>Here's your reinforced Duty suit with gas mask and PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03103">
+		<text>Here's your reinforced Duty suit with gas mask and PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03104">
+		<text>Here's your reinforced Duty suit with gas mask and PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03105">
+		<text>Here's your reinforced Duty suit with gas mask and PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03106">
+		<text>Here's your reinforced Duty suit with gas mask and PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03107">
+		<text>Here's your reinforced Duty suit with gas mask and PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03108">
+		<text>Here's your reinforced Duty suit with gas mask and PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03111">
+		<text>Here's your reinforced Unique Hunter's suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03112">
+		<text>Here's your reinforced Unique Hunter's suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03113">
+		<text>Here's your reinforced Unique Hunter's suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03114">
+		<text>Here's your reinforced Unique Hunter's suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03115">
+		<text>Here's your reinforced Unique Hunter's suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03116">
+		<text>Here's your reinforced Unique Hunter's suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03117">
+		<text>Here's your reinforced Unique Hunter's suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_petrenko_03118">
+		<text>Here's your reinforced Unique Hunter's suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_petrenko_999">
+		<text>Ah, sorry. Not at the moment, thanks...</text>
+	</string>
+</string_table>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.6, corrected duplicate 'id="enc_zone_mushy_bigA" to 'id="mushy_bigA" aleks1970, mushy_bigH, af_dummy_mushroom, minor spelling,
+ corrected " id section with 'artefact' back to the 'artifact' - aleks1970, removed '-', removed "string_table" - aleks1970 -->
+<!-- Stats rationalisation by GlowWormToo - 16 Jun 16-->
+<!-- Partial reworking of text - Sword2012 - 12 Dec 16-->
+<!-- 37 / 41 artefact descriptions still to do - Sword2012 -->
+	<string id="af_kristal_zp">
+		<text>The Gift</text>
+	</string>
+	<string id="af_kristal_zp_s">
+		<text>Gift</text>
+	</string>
+	<string id="enc_zone_artifact_kristal_zp">
+		<text>This legendary artefact has only ever been found once in the Zone, and was sold to eager scientists for a formidable sum. It offers exceptional protection against radiation, albeit at the cost of other immunities. Anybody planning to use this artefact must be made aware of the severe side effects it imposes</text>
+	</string>
+	<string id="af_kristal_blue">
+		<text>Aquamarine</text>
+	</string>
+	<string id="af_kristal_blue_s">
+		<text>Aquamarine</text>
+	</string>
+	<string id="enc_zone_artifact_kristal_blue">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+250\n%c[default]\nThis is an extremely rare and highly radioactive mutation of the Crystal artefact, with a core believed to be to be platinum in its purest form. How this structure functions is unclear, except that you've got two kilos of jewelry grade platinum!\nNicknamed 'The Fighter' due to its protective abilities in combat situations, although sensitivities to burns and electric shock are greatly increased. If you use this artefact ensure that you're carrying the appropriate artefacts to counter the radiation, otherwise you're going to die a slower and more difficult death than from any bullet</text>
+	</string>
+	<string id="af_repei">
+		<text>Burr</text>
+	</string>
+	<string id="af_repei_s">
+		<text>Burr</text>
+	</string>
+	<string id="enc_zone_artifact_repei">
+		<text>This artefact is the result of genetic experimentation with mutated seeds of the 'Xvatalka' and 'Burning Feathers' plants. Toughening the skin, it offers protection from lacerations and electric shock. Not worth a lot in financial terms, but potentially useful in the field</text>
+	</string>
+	<string id="af_dummy_indilian">
+		<text>Indilian</text>
+	</string>
+	<string id="af_dummy_indilian_s">
+		<text>Indilian</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_indilian">
+		<text>This extremely rare artefact is also known as 'Dream Killer', due to its propensity to slow down Alpha and Beta brainwaves to the point where the effects of Psi attacks are effectively negated. Gives additional protection from the attacks of the Zone's Psi-capable creatures. Since its negative effects include a reduced rate of health recovery, use only with artefacts that compensate for this</text>
+	</string>
+	<string id="af_dummy_mushroom">
+		<text>Mushroom artefact</text>
+	</string>
+	<string id="af_dummy_mushroom_s">
+		<text>Mushroom artefact</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_mushroom">
+		<text>This artefact is a mutated mushroom around which a Springboard anomaly has formed, and thus extremely rare. Forms a localised force field of a 0.3 metre radius that diffracts the path of high velocity projectiles I.e. bullets. The artefact also has a range of negative effects such as: weakening of the skin to burns, electric shock and chemicals. Due to its destructive negative properties, Stalkers usually dispose of this artefact immediately on finding one, but it would be wise to hold on to it as it seems to have a special energy about it</text>
+	</string>
+	<string id="af_dummy_star_monolith">
+		<text>Star Monolith</text>
+	</string>
+	<string id="af_dummy_star_monolith_s">
+		<text>Star Monolith</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_star_monolith">
+		<text>A mysterious artefact. There are two recorded instances of its occurrence in the Zone...\n* It appeared, according to rumors, when the Stalkers of the clan of 'Monolith' entered the center Zone. At the altar they preyed, asking the Monolith to gave them a sign of its existence. One night the artefact fell from heaven to earth. The fanatics took this as a sign from the monolith.\n* According to scientists it was formed by the merger of several high altitude air anomalies.\nA very rare item formed only in the area surrounding the Chernobyl nuclear power plant</text>
+	</string>
+	<string id="af_dummy_seashell">
+		<text>Shell</text>
+	</string>
+	<string id="af_dummy_seashell_s">
+		<text>Shell</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_seashell">
+		<text>Scientists have proclaimed this is a new and rare artefact found by a drunk Stalker near the Bar. artefact gives a small improvement in health and chemical protection but lowers bullet resistance</text>
+	</string>
+	<string id="af_dummy_djoker">
+		<text>Joker</text>
+	</string>
+	<string id="af_dummy_djoker_s">
+		<text>Joker</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_djoker">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+150\n%c[default]\nThe origin of the artefact is not known and has only been found in the Zone a few times. artefact gives good protection from impact, but reduces endurance. Radioactive</text>
+	</string>
+	<string id="af_dummy_dumbbell">	<!-- dAVROs -->
+		<text>Kettlebell</text>
+	</string>
+	<string id="af_dummy_dumbbell_s">
+		<text>Kettlebell</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_dumbbell">
+		<text>This artefact is small and looks like a set of dumbbells - and has the weight to match - 18Kg!. Incredibly strong and dense - and no means has yet been found to cut, melt or compress it. Of unknown origin, it improves health and reduces radiation. No negative properties - apart from its large mass</text>
+	</string>
+	<string id="af_dummy_vertyshka">
+		<text>Pinwheel</text>
+	</string>
+	<string id="af_dummy_vertyshka_s">
+		<text>Pinwheel</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_vertyshka">
+		<text>The exact origin of this artefact is unknown. Scientists argue that this rare artefact is formed under the influence of two anomalies - 'Springboard' and 'Electro'. The current theory is that, in the midway position between two anomalies held together by their combined electro-magnetic fields, a unique bond is formed. Artefacts created at these points have a tendency to rotate within the interacting fields. Protects from electric shock but there is a reduction in bullet resistance and immunity to radiation...</text>
+	</string>
+	<string id="af_dummy_coal">
+		<text>Coal</text>
+	</string>
+	<string id="af_dummy_coal_s">
+		<text>Coal</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_coal">
+		<text>artefact, which appeared in the Zone recently. Scientists believe it is formed from Nuclear-chemosynthesis between Baryon type dark matter and the artefact 'Stone Flower'. Looks like a lump of coal. artefact gives good protection from Psionic waves and raises resistance to radioactive contamination, but with greatly increased fatigue. Make sure you have artefacts that counter the negative effects</text>
+	</string>
+	<string id="af_dummy_quill">
+		<text>Igla</text>
+	</string>
+	<string id="af_dummy_quill_s">
+		<text>Igla</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_quill">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+5\n%c[default]\nartefact generated from the radiogenic nuclide of the artefact 'xZs2x4'. It protects the skin from burns and media impact. Slightly radioactive</text>
+	</string>
+	<string id="af_dummy_wool">
+		<text>Fire Wool</text>
+	</string>
+	<string id="af_dummy_wool_s">
+		<text>Fire Wool</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_wool">
+		<text>Rarely found in the Zone and not much is known about how it is created. Provides very good protection from heat sources and attacks from Zone mutants. Explosion and strike immunities are reduced. Demand by scientists</text>
+	</string>
+	<string id="af_dummy_bonanza">
+		<text>Octopus</text>
+	</string>
+	<string id="af_dummy_bonanza_s">
+		<text>Octopus</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_bonanza">
+		<text>Substance formed by the mutual co-existence of anomalies 'Fountain' and 'Fruit Punch' and Lanthanide metals. Has a number of positive attributes, and some negative. Was found recently by a Stalker nicknamed Gadget. He picked it up with no protective gloves, only just managing to get it to his backpack before his hand vaporised. On selling the artefact he was able to get a mechanical prosthetic hand</text>
+	</string>
+	<string id="af_dummy_mercury_ball">
+		<text>Mercury Ball</text>
+	</string>
+	<string id="af_dummy_mercury_ball_s">
+		<text>Mercury Ball</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_mercury_ball">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+20\n%c[default]\nartefact often can be found in Radioactive areas. Increases stamina but has negative radiation attributes. The main central core is surrounded by spinning smaller mercury balls. Special gloves are recommended for handling due to its radiation and high thermal energy. Scientists have discovered that some of the artefact actually consists of of the mercury isotope Hg-194, and can be used to manufacture medicinal drugs and vaccines for a wide variety of dangerous Zone diseases</text>
+	</string>
+	<string id="af_dummy_bezi">
+		<text>Burning Leaves</text>
+	</string>
+	<string id="af_dummy_bezi_s">
+		<text>Burning Leaves</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_bezi">
+		<text>Scientists believe that this new mutation belongs to the genus family of nettles. First found by an unknown Stalker on a Surveying Expedition deep into the Zone. Synthetic hybrids have been the focus of experiments in the X-18 and X-16 laboratories. Able to reject chemical components and reduces bleeding by speeding up blood clotting</text>
+	</string>
+	<string id="af_dummy_glow">
+		<text>Glow</text>
+	</string>
+	<string id="af_dummy_glow_s">
+		<text>Glow</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_glow">
+		<text>Artefact formed in the anomaly 'Electro' from a variety of metal objects and alloys. The high energy states of outer valence electrons causes a localised luminescence. After detailed study, researchers found that the artefact actually produces electricity in small amounts. Using the artefact causes the skin to soften - increasing the risk of bleeding out when cut. Resistance to radioactive contamination is lowered but there is increased resistance to burns</text>
+	</string>
+	<string id="af_dummy_node">
+		<text>The Knot</text>
+	</string>
+	<string id="af_dummy_node_s">
+		<text>The Knot</text>
+	</string>
+	<string id="enc_zone_artifact_af_dummy_node">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+7\n%c[default]\nScientists have been trying to unravel the mystery of this artefact. Stronger than titanium and harder than diamond but weighs less than a kilogram. Creates a slight protective field, distorting the trajectory of bullets. Adverse Effects - radioactive and reduces the resistance to impact injuries</text>
+	</string>
+	<string id="af_kosi">
+		<text>Witch Spit</text>
+	</string>
+	<string id="af_kosi_s">
+		<text>Witch Spit</text>
+	</string>
+	<string id="enc_zone_artifact_af_kosi">
+		<text>artefact formed by the combination of three anomalies - 'The Fountain', 'Heat' and 'Fruit Punch'. Extremely rare. Scientists and researchers still do not fully understand this artefact, but it's obvious that in order to be created the fusing of the three anomalies must have released an enormous amount of energy. Using this artefact increases the body's metabolism giving greater endurance and quicker blood clotting. Higher metabolism causes higher body temperature forcing body to the skins surface and a greater vulnerability to wounds</text>
+	</string>
+	<string id="af_kournikova">
+		<text>Kournikova</text>
+	</string>
+	<string id="af_kournikova_s">
+		<text>Kournikova</text>
+	</string>
+	<string id="enc_zone_artifact_af_kournikova">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+1\n%c[default]\n%c[1,1,1,1 ]___%c[255,255,1,60] Longing for a real Zone Woman...100%\n\n%c[default]An artefact of absolute beauty and wonder. Many Stalkers scour the Zone looking for this rare item - but there's only one. The presence of this artefact raises blood pressure significantly which assists in expelling chemical and radioactive agents. The drawback is that the user quickly tires. Slightly radioactive and hot to touch</text>
+	</string>
+	<string id="af_gold">
+		<text>Gold</text>
+	</string>
+	<string id="af_gold_s">
+		<text>Gold</text>
+	</string>
+	<string id="enc_zone_artifact_gold">
+		<text>Very valuable in the Zone. Sought after for the repair of circuit boards. Gold can be beaten thin enough to become translucent. Such semi-transparent sheets also strongly reflect infra-red light, making it useful as infra-red (radiant heat) shields in visors of heat-resistant suits</text>
+	</string>
+	<string id="af_xzs2x4">
+		<text>xZs-2x4</text>
+	</string>
+	<string id="af_xzs2x4_s">
+		<text>xZs-2x4</text>
+	</string>
+	<string id="enc_zone_artifact_af_xzs2x4">
+		<text>Discovered by a Zone Scientist years ago. He was so excited that he could not think of an appropriate name and by default it has only its Scientific designator. This extremely rare artefact will protect from the attacks of many creatures of the Zone. Its main drawback is less protection from bullets</text>
+	</string>
+	<string id="af_hawking">
+		<text>Hawking K2</text>
+	</string>
+	<string id="af_hawking_s">
+		<text>Hawking K2</text>
+	</string>
+	<string id="enc_zone_artifact_hawking">
+		<text>Theoretical Physicists speculate that this artefact is the result of a micro-miniature roaming black hole captured in the Chernobyl Explosion gravity well and amalgamated with stray heavy elements under unusual particle conditions. Impossibly rare and extremely dense. Has a localised effect of bending the path fast moving projectiles away from the user - including bullets and radiation.</text>
+	</string>
+	<string id="af_zhadum">
+		<text>Z'ha'dum</text>
+	</string>
+	<string id="af_zhadum_s">
+		<text>Z'ha'dum</text>
+	</string>
+	<string id="enc_zone_artifact_af_zhadum">
+		<text>A bizarre artefact, with the potential to destroy your soul if used indiscriminately. Rumor has it that some meteorites from the outer rim made it to earth and seeded micro organisms in a host artefact near Chernobyl. Gives exceptional telepathic immunity while absorbing the very life force from you</text>
+	</string>
+	<string id="af_konishi">
+		<text>Konishi artefact</text>
+	</string>
+	<string id="af_konishi_s">
+		<text>Konishi artefact</text>
+	</string>
+	<string id="enc_zone_artifact_konishi">
+		<text>Very, very rare. Rumors are that this artefact absorbs and destroys harmful energy in direct violation of conservation of energy. Unfortunately energy is also drawn from the person wearing this artefact giving them an insatiable appetite</text>
+	</string>
+	<string id="af_element_zero">
+		<text>Element Zero</text>
+	</string>
+	<string id="af_element_zero_s">
+		<text>Element Zero</text>
+	</string>
+	<string id="enc_zone_artifact_element_zero">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+3\n%c[default]\nElement Zero is a rare material that, when subjected to an electrical current, releases dark energy which can be manipulated into a mass effect field, raising or lowering the mass of all objects within that field. A positive current increases mass, a negative current decreases it. Zone Scientists hope to some day manipulate gravity with this rare artefact. Slightly radioactive</text>
+	</string>
+	<string id="af_star_paradox">	<!-- dAVROs -->
+		<text>Star Paradox</text>
+	</string>
+	<string id="af_star_paradox_s">
+		<text>Star Paradox</text>
+	</string>
+	<string id="enc_zone_artifact_star_paradox">
+		<text>A true enigma of Physics. How it does it baffles the Zone Scientists but this artefact has no negative attributes and many advantages</text>
+	</string>
+	<string id="mushy_bigA">
+		<text>UV Mushroom</text>
+	</string>
+	<string id="mushy_bigA_s">
+		<text>Mushroom</text>
+	</string>
+	<string id="enc_zone_mushy_bigA">
+		<text>An unusually colored and textured Mushroom. Zone rumors are that the color is due to focused high energy Ultraviolet rays. Some very rare artefacts apparently can do this and have a focal length of around 5 to 10m. A trader in the Army Warehouses may be interested in buying this Mushroom</text>
+	</string>
+	<string id="mushy_bigB">
+		<text>Radiated Mushroom</text>
+	</string>
+	<string id="mushy_bigB_s">
+		<text>Mushroom</text>
+	</string>
+	<string id="enc_zone_mushy_bigB">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+3\n%c[default]\nFor some reason this Mushroom has very high levels of radiation. The ability of mushrooms to absorb nearby heavy metals, including those that are radioactive could be the reason behind this. Don't carry these for too long, they are slightly radioactive after all! Scientists are interested in these curiosities of the Zone</text>
+	</string>
+	<string id="mushy_bigC">
+		<text>Fly Mushroom</text>
+	</string>
+	<string id="mushy_bigC_s">
+		<text>Mushroom</text>
+	</string>
+	<string id="enc_zone_mushy_bigC">
+		<text>A variation of the Amanita Muscaria commonly known as the fly Agaric. Poisonous and psychoactive - an old Stalker used to brew and eat these in an attempt to negate the harmful affects of artefacts. Sid may be interested in buying these</text>
+	</string>
+	<string id="mushy_bigD">
+		<text>Bluetop</text>
+	</string>
+	<string id="mushy_bigD_s">
+		<text>Bluetop</text>
+	</string>
+	<string id="enc_zone_mushy_bigD">
+		<text>Rare chromosphores give this Mushroom its striking light blue color - probably caused from the absorption of heavy metals like Niobium. The Blue hue was the favorite color of some guy called the 'Collector'. This Mushroom's color is highly sought after by Clear Sky traders and is used in production of their Body Armor and suits - hence the unique faction color</text>
+	</string>
+	<string id="mushy_bigE">
+		<text>Fluoro Mushroom</text>
+	</string>
+	<string id="mushy_bigE_s">
+		<text>Mushroom</text>
+	</string>
+	<string id="enc_zone_mushy_bigE">
+		<text>An irradiated mutation of the Russula Fragilis. Dangerous heavy metals have enhanced this Mushroom's striking color. These heavy metals are only found in human excrement accumulated in the body from travels deep into the Zone. Did someone leave something else around here?</text>
+	</string>
+	<string id="mushy_bigF">
+		<text>Death Cap</text>
+	</string>
+	<string id="mushy_bigF_s">
+		<text>Death Cap</text>
+	</string>
+	<string id="enc_zone_mushy_bigF">
+		<text>Mutated Amanita Phalloides is a deadly poisonous Mushroom. Ideal to feed to your enemies. Is normally found deep in the Zone. This one must have grown from spores transferred in the soles of boots</text>
+	</string>
+	<string id="mushy_bigG">
+		<text>Russula Sanguinaria</text>
+	</string>
+	<string id="mushy_bigG_s">
+		<text>Russula Sanguinaria</text>
+	</string>
+	<string id="enc_zone_mushy_bigG">
+		<text>Commonly known as the Bloody Brittlegill, this is a strikingly colored mushroom which is poisonous when eaten raw. Much sought after, this Mushroom is not only scarce but contains rare heavy elements that are only found in a few small areas of the Zone. Only one 'secret' Trader in the Zone will buy this from you but you will need to find him... or her</text>
+	</string>
+	<string id="mushy_bigH">
+		<text>Caesier's Mushroom</text>
+	</string>
+	<string id="mushy_bigH_s">
+		<text>Mushroom</text>
+	</string>
+	<string id="enc_zone_mushy_bigH">
+		<text>Caesier was well-travelled and got to know the Collector quite well. Some say that the Collector passed on his knowledge of the Zonebefore he disappeared, and Caesier could well be the keeper of these secrets. The mere existence of this unique Mushroom supports this theory as the Collector was an expert in this area. Knowing how the Collector left cryptic clues all over the Zone, perhaps Caesier did the same?...\nThe Caesier Mushroom has a very hard stem which only the hardest and sharpest knives could possibly carve. Make sure you don't lose this item - it may come in handy later on</text>
+	</string>
+	<string id="mushy_small">
+		<text>Dark Knight</text>
+	</string>
+	<string id="mushy_small_s">
+		<text>Dark Knight</text>
+	</string>
+	<string id="enc_zone_mushy_small">
+		<text>The Dark Knight was the favorite Mushroom of the Collector. If he's left this lying around, who knows what else may be nearby?</text>
+	</string>

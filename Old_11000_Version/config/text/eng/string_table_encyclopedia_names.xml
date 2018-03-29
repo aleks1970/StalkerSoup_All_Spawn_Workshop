@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.1.5 StalkerSoup new pda_name section aleks1970, line: 456, 459, amber to yantar, lukash -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 25 Jan 16. Re-edited 25 Feb 16 -->
+<!-- Changed one instance of 'Clerk' to Clerik' - Sword2012. 07 Apr 16 -->
+<!-- Text editing as commented below - Sword2012 - 16 Oct 16 -->
+<!-- Names changed as commented below. Should Hog become Borov in Lines 322 and 499? - Sword2012 - 31 Oct 16, 'Hog to 'Borov' - aleks1970 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<!-- changed ghost/Vasiliev PDA to research PDA -->
+<string_table>
+	<!-- ********** new pda game descriptions ********** -->
+	<string id="Bring_parcel_to_Fox_pda_name">
+		<text>Bring the parcel to Fox</text>
+	</string>
+	<string id="Help_the_Hunters_pda_name">
+		<text>Help the hunters</text>
+	</string>
+	<string id="Release_Clear_fighter_captivity_pda_name">
+		<text>Release the Clear Sky fighter from captivity</text>
+	</string>
+	<string id="Procedure_Kalmyk_container_pda_name">
+		<text>Procedure for Kalmyak's container</text>	<!-- Changed 'Kalmyk' to 'Kalmyak'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Get_cans_ointmenl_Basil_pda_name">
+		<text>Get three cans of ointment for Vasily</text>
+	</string>
+	<string id="Soul_artefact_for_clerk_pda_name">
+		<text>Find a Soul artefact for Clerik</text>
+	</string>
+	<string id="Bring_Controller_brain_pda_name">
+		<text>Bring the Controller's brain</text>
+	</string>
+	<string id="Get_Sviblov_PKM_pda_name">
+		<text>Get Sviblov a PKM</text>
+	</string>
+	<string id="get_their_personal_notebooks_pda_name">
+		<text>Find Monolith, and retrieve their personal notebooks</text>
+	</string>
+	<string id="TV_for_Chiston_pda_name">
+		<text>Find a TV for Chiston</text>
+	</string>
+	<string id="Pseudogiant_put_label_pda_name">
+		<text>Find the Red Pseudogiant. Don't kill it - just tag it</text>
+	</string>
+	<string id="Eliminate_the_Monolith_sniper_pda_name">
+		<text>Take out the Monolith sniper</text>
+	</string>
+	<string id="Help_Bormann_Silencer_pda_name">
+		<text>Help Bormann with an RF jammer</text>
+	</string>
+	<string id="recon_meeting_Freebie_Mercenaries_pda_name">
+		<text>Recon meeting between Freebie and the Mercenaries</text>
+	</string>
+	<string id="Get_information_Cat_pda_name">
+		<text>Get information for Cat</text>
+	</string>
+	<string id="Find_Brother_Louis_swamp_pda_name">
+		<text>Find Brother Louis in the Swamps</text>
+	</string>
+	<string id="Find_Frenchman_Warehouses_pda_name">
+		<text>Find the Frenchman LeHavre, based at the Army Warehouses</text>	<!-- Changed 'Le Havre' to 'LeHavre'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Find_dealer_Rabinowitz_pda_name">
+		<text>Find the dealer Rabinowitz</text>
+	</string>
+	<string id="Find_courier_in_radar_pda_name">
+		<text>Find the courier at Radar</text>
+	</string>
+	<string id="Basil_offer_pda_name">
+		<text>Vasily at Clear Sky</text>
+	</string>
+	<string id="Help_stalkers_fight_off_monsters_pda_name">
+		<text>Help the Stalkers fight off the mutants</text>
+	</string>
+	<string id="Help_stalkers_bridge_Red_Forest_pda_name">
+		<text>Help the Stalkers to seize the bridge in the Red Forest</text>
+	</string>
+	<string id="Cold_Alters_Mushrooms_pda_name">
+		<text>Cold's offers, in exchange for mushrooms</text>
+	</string>
+	<string id="Bring_documents_from_forests_Fang_pda_name">
+		<text>Bring Fang's documents from the Red Forests of the Red Fang</text>
+	</string>
+	<string id="Denis_Red_Forest_save_him_pda_name">
+		<text>Find Denis in the Red Forest, and rescue him</text>
+	</string>
+	<string id="Get_necessary_gear_pda_name">
+		<text>Get the necessary equipment</text>
+	</string>
+	<string id="Find_information_on_laboratory_pda_name">
+		<text>Find information on the laboratory</text>
+	</string>
+	<string id="Find_tools_East_Pripyat_pda_name">
+		<text>Find the tools in East Pripyat</text>
+	</string>
+	<string id="Find_Cube_for_Shadows_pda_name">
+		<text>Find the Soul Cube for Shadow</text>
+	</string>
+	<string id="Find_Beryl_5M_pda_name">
+		<text>Find the Military armor</text>
+	</string>
+	<string id="Gunslinger_Flash_pda_name">
+		<text>Gunslinger Flash</text>
+	</string>
+	<string id="From_psycho_Stone_porcupine_pda_name">
+		<text>Data from Psycho's PDA on creating a Stone Porcupine</text>
+	</string>
+	<string id="Entries_PDA_psycho_pda_name">
+		<text>Additional entries in the insane Stalker's PDA</text>
+	</string>
+	<string id="Hunter_wino_steel_balls_pda_name">
+		<text>Data from the hunter on creating a Steel Kolobok</text>
+	</string>
+	<string id="From_mercenary_titanium_balls_pda_name">
+		<text>Data from the Mercenary's PDA on creating a Titan Kolobok</text>
+	</string>
+	<string id="Data_Kruglov_Diamond_balls_pda_name">
+		<text>Data from Kruglov on creating a Diamond Kolobok</text>
+	</string>
+	<string id="PDA_Monolith_scalp_Controller_pda_name">
+		<text>Data from the Monolithian's PDA on creating a Controller's Scalp</text>
+	</string>
+	<string id="Cook_Soul_artefact_pda_name">
+		<text>Data from Cook on creating a Soul</text>
+	</string>
+	<string id="Sakharov_tears_Electra_pda_name">
+		<text>Data from Sakharov on creating an Electric Tears</text>
+	</string>
+	<string id="Sakharov_Tears_Fire_pda_name">
+		<text>Data from Sakharov on creating a Fire Tears</text>
+	</string>
+	<string id="Sakharov_tears_Chimera_pda_name">
+		<text>Data from Sakharov on creating a Chimera Tears</text>
+	</string>
+	<string id="Dolgovtsy_Babkins_beads_pda_name">
+		<text>Data from Dutyer in Bar on creating a Mother's Beads</text>	<!-- Was 'Glassbeads ' - Sword2012-->
+	</string>
+	<string id="Sidorovich_Beads_great_grandmother_pda_name">
+		<text>Data from Sidorovich on creating a Grandmother's Beads</text>
+	</string>
+	<string id="Deserter_beads_grandmother_Burer_pda_name">
+		<text>Data from the deserter on creating an Elder Beads</text>
+	</string>
+	<string id="Data_informant_Porcupine_pda_name">
+		<text>Data from the informant on creating a Porcupine</text>
+	</string>
+	<string id="Data_Electric_Porcupine_pda_name">
+		<text>Data on creating an Electric Porcupine</text>
+	</string>
+	<string id="Wounded_snotty_about_porcupine_pda_name">
+		<text>Data from the wounded Stalker on creating an Acidic Porcupine</text>
+	</string>
+	<string id="Data_younger_brother_Giant_pda_name">
+		<text>Data from the younger brother on creating a Sphere</text>
+	</string>
+	<string id="Paper_with_roadblock_Skin_pda_name">
+		<text>Data from the Barrier on creating a Skin</text>
+	</string>
+	<string id="Voronin_on_Scales_pda_name">
+		<text>Data from Voronin on creating a Scale</text>
+	</string>
+	<string id="Data_from_Amber_shell_pda_name">
+		<text>Data from Yantar on creating a Dummy</text>	<!-- Was 'Shell' - Sword2012-->
+	</string>
+	<string id="Record_x18_Simbion_pda_name">
+		<text>Data from X-18 on creating a Simbion</text>
+	</string>
+	<string id="Record_X16_Pudding_pda_name">
+		<text>Data from X-16 on creating a Pudding</text>
+	</string>
+	<string id="Informant_about_sunshine_pda_name">
+		<text>Data from Snitch on creating a Sunshine</text>
+	</string>
+	<string id="Military_Main_Task_pda_name">
+		<text>Military Main Task</text>
+	</string>
+	<string id="Crazy_USB_Stick_pda_name">
+		<text>Insane Stalker's flash drive</text>	<!-- Removed 'USB' - Sword2012 -->
+	</string>
+	<string id="Ugrumys_USB_Stick_pda_name">
+		<text>Ugrumy's flash drive</text>	<!-- Removed 'USB' - Sword2012 -->
+	</string>
+	<string id="Couriers_Document_pda_name">
+		<text>Courier's document</text>
+	</string>
+	<string id="Bandits_USB_Stick_pda_name">
+		<text>Bandit's flash drive</text>	<!-- Removed 'USB' - Sword2012 -->
+	</string>
+	<string id="Maxs_USB_Stick_pda_name">
+		<text>Max's flash drive</text>
+	</string>
+	<string id="Find_the_hidden_Cache_pda_name">
+		<text>Find the hidden cache</text>
+	</string>
+	<string id="Find_Goldfish_artefact_pda_name">
+		<text>Find the Goldfish artefact</text>
+	</string>
+	<string id="Find_the_Cache_at_Dump_pda_name">
+		<text>Find the cache at the Dump</text>
+	</string>
+	<string id="Find_Cache_Laboratory_X-18_pda_name">
+		<text>Find the cache at Laboratory X-18</text>
+	</string>
+	<string id="Find_Cache_somewhere_Agroprom_pda_name">
+		<text>Find the cache somewhere at Agroprom</text>
+	</string>
+	<string id="Find_the_Stash_Yantar_pda_name">
+		<text>Find the stash at Yantar</text>
+	</string>
+	<string id="Find_Stash_at_Army_Warehouses_pda_name">
+		<text>Find the stash at the Army Warehouses</text>
+	</string>
+	<string id="Find_Cache_at_Radar_pda_name">
+		<text>Find the cache at Radar</text>
+	</string>
+	<string id="Find_Cache_Laboratory_X-10_pda_name">
+		<text>Find the cache in Laboratory X-10</text>
+	</string>
+	<string id="Find_Stash_Pripyat_pda_name">
+		<text>Find the stash in Pripyat</text>
+	</string>
+	<string id="Job_Description_for_Manual_Teleport_pda_name">
+		<text>Description for a Manual Teleporter</text>
+	</string>
+	<string id="Speak_Sakharov_pda_name">
+		<text>Talk with Sakharov</text>
+	</string>
+	<string id="Talk_Bones_pda_name">
+		<text>Talk with Bones</text>
+	</string>
+	<string id="Find_PDA_Vasiliev_pda_name">
+		<text>Find the research PDA</text>	<!-- Find Vasiliev's PDA 110015, makes more sense -->
+	</string>
+	<string id="Find_Battery_artefact_pda_name">
+		<text>Find the Battery artefact</text>
+	</string>
+	<string id="Instructions_Manual_Teleport_pda_name">
+		<text>Instructions for a Manual Teleporter</text>
+	</string>
+	<string id="Location_Streloks_Hideout_pda_name">
+		<text>Location of Strelok's hideout</text>
+	</string>
+	<string id="Raven_offers_pda_name">
+		<text>Raven at the Dump</text>
+	</string>
+	<string id="Special_Offers_Raven_pda_name">
+		<text>Raven's special offer</text>
+	</string>
+	<string id="Dan_offers_pda_name">
+		<text>Dan at Clear Sky</text>
+	</string>
+	<string id="Special_offers_Dan_pda_name">
+		<text>Dan's special offers</text>
+	</string>
+	<string id="Max_offers_pda_name">
+		<text>Max at the Army Warehouses</text>
+	</string>
+	<string id="Sidorovich_offers_pda_name">
+		<text>Sidorovich at the Rookie Village</text>
+	</string>
+	<string id="Sakharov_suggests_pda_name">
+		<text>Sakharov at Yantar</text>
+	</string>
+	<string id="Petrenko_offers_pda_name">
+		<text>Petrenko at Rostok</text>
+	</string>
+	<string id="Miser_offers_pda_name">
+		<text>Miser at the Army Warehouses</text>
+	</string>
+	<string id="The_bartender_offers_pda_name">
+		<text>Barkeep at Rostok</text>
+	</string>
+	<string id="Lanky_offers_pda_name">
+		<text>Lanky at Rostok</text>
+	</string>
+	<string id="Zahar_offers_pda_name">
+		<text>Zahar at Rostok</text>
+	</string>
+	<string id="military_offers_pda_name">
+		<text>Kuznetsov at the Cordon</text>
+	</string>
+	<string id="Syak_offers_pda_name">
+		<text>Syak at Radar</text>
+	</string>
+	<string id="Message_from_Hog_pda_name">
+		<text>Message from Borov</text>	<!-- was 'Hog' but the Borov is correct! - aleks1970 -->
+	</string>
+	<string id="Message_from_Bullet_pda_name">
+		<text>Message from Bullet</text>
+	</string>
+	<string id="Message_from_Lucas_pda_name">
+		<text>Message from Lukash</text>
+	</string>
+	<string id="Message_from_Gray_pda_name">
+		<text>Message from Gray</text>
+	</string>
+	<string id="Message_from_Wolf_pda_name">
+		<text>Message from Wolf</text>
+	</string>
+	<string id="Message_from_Screw_pda_name">
+		<text>Message from Screw</text>
+	</string>
+	<string id="Message_from_Dan_pda_name">
+		<text>Message from Dan</text>
+	</string>
+	<string id="Agreement_Hunter_pda_name">
+		<text>Agreement with Hunter</text>
+	</string>
+	<string id="Bear_hunter_pda_name">
+		<text>Bear hunter</text>
+	</string>
+	<string id="Talk_Residential_pda_name">
+		<text>Talk to Residential</text>
+	</string>
+	<string id="Bring_Gilet_pda_name">
+		<text>Bring to Gilet</text>
+	</string>
+	<string id="Bring_to_Fox_pda_name">
+		<text>Bring to Fox</text>
+	</string>
+	<string id="Bring_Suit_Bes_pda_name">
+		<text>Bring the suit to Bes</text>
+	</string>
+	<string id="Return_Krysyuk_PDA_Hog_pda_name">
+		<text>Return Krysjuk's PDA to Borov</text>	<!-- Changed 'Krysyuk ' to 'Krysjuk '- Sword2012 - 31 Oct 16. Should Hog be Borov?-->	<!-- 'Should Hog be Borov?' Yes! - aleks1970 -->
+	</string>
+	<string id="Find_station_Agricultural_Industry_pda_name">
+		<text>Find an army radio transceiver in the Agroprom</text>
+	</string>
+	<string id="Bring_PlayBoys_pda_name">
+		<text>Bring Playboy magazines</text>
+	</string>
+	<string id="Deliver_munitions_pda_name">
+		<text>Deliver munitions</text>
+	</string>
+	<string id="Bring_beer_pda_name">
+		<text>Bring beer</text>
+	</string>
+	<string id="Deliver_bag_bring_weapons_pda_name">
+		<text>Deliver a bag, and bring weapons</text>
+	</string>
+	<string id="List_of_Weapons_pda_name">
+		<text>List of weapons</text>
+	</string>
+	<string id="Weapon_upgrades_pda_name">
+		<text>Weapon upgrades</text>
+	</string>
+	<string id="Groza_pda_name">
+		<text>Groza</text>
+	</string>
+	<string id="Pseudo_dog_pda_name">
+		<text>Pseudodog</text>
+	</string>
+	<string id="aaaaa_pda_name">
+		<text>aaaaa</text>
+	</string>
+	<string id="Rat_pda_name">
+		<text>Rat</text>
+	</string>
+	<string id="Black_Dog_pda_name">
+		<text>Black Dog</text>
+	</string>
+	<string id="The_Librarian_pda_name">
+		<text>Librarian</text>
+	</string>
+	<string id="Babka_pda_name">
+		<text>Babka</text>
+	</string>
+	<string id="Zharka_pda_name">
+		<text>Comet</text>
+	</string>
+	<string id="Elektra_pda_name">
+		<text>Electro</text>
+	</string>
+	<string id="Rusty_pda_name">
+		<text>Rust</text>
+	</string>
+	<string id="Fruit_Punch_pda_name">
+		<text>Fruit Punch</text>
+	</string>
+	<string id="Radiation_Cloud_pda_name">
+		<text>Radiation Cloud</text>
+	</string>
+	<string id="Heat_pda_name">
+		<text>Heat</text>
+	</string>
+	<string id="Bubble_pda_name">
+		<text>Bubble</text>
+	</string>
+	<string id="resque_information_pda_name">
+		<text>Rescue information</text>
+	</string>
+	<string id="resque_information_2_pda_name">
+		<text>Rescue information 2</text>
+	</string>
+	<string id="kill_professor_pda_name">
+		<text>Kill the professor</text>
+	</string>
+	<string id="hunter_rifle_pda_name">
+		<text>Hunter's rifle</text>
+	</string>
+	<string id="crazy_veterans_quest_pda_name">
+		<text>Insane veteran's quest</text>
+	</string>
+	<string id="dolg_test_quest_pda_name">
+		<text>Duty test quest</text>
+	</string>
+	<string id="dolg_svoboda_ambush_quest_pda_name">
+		<text>Duty quest to ambush Freedom</text>
+	</string>
+	<string id="dolg_svoboda_kill_quest_pda_name">
+		<text>Duty quest to kill Freedom leader</text>
+	</string>
+	<string id="x16_documents_pda_name">
+		<text>X-16 documents</text>
+	</string>
+	<string id="radar_deactivate_pda_name">
+		<text>Deactivate radar</text>
+	</string>
+	<string id="LabX18_first_key_pda_name">
+		<text>Lab X-18. First key</text>
+	</string>
+	<string id="LabX18_second_key_pda_name">
+		<text>Lab X-18. Second key</text>
+	</string>
+	<string id="Tolik_flash_pda_name">
+		<text>Tolik's flash drive</text>	<!-- Removed 'USB' - Sword2012 -->
+	</string>
+	<string id="Seryi_flash_pda_name">
+		<text>Seriy's flash drive</text>	<!-- Removed 'USB' - Sword2012 -->
+	</string>
+	<string id="Flash_dead_stalker_pda_name">
+		<text>Dead Stalker's flash drive</text>	<!-- Removed 'USB' - Sword2012 -->
+	</string>
+	<string id="Bandit_flash_pda_name">
+		<text>Bandit's flash drive</text>	<!-- Removed 'USB' - Sword2012 -->
+	</string>
+	<string id="Dead_novice_flash_pda_name">
+		<text>Dead rookie's flash drive</text>	<!-- Removed 'USB' - Sword2012 -->
+	</string>
+	<string id="Code_from_door_radar_pda_name">
+		<text>Code for the door in Radar</text>
+	</string>
+	<string id="Information_Arrow_PDA_pda_name">
+		<text>Information from Strelok's PDA</text>	<!-- Replaced Arrow with Strelok - Sword2012 -->
+	</string>
+	<string id="the_agricultural_industry_Cordon_pda_name">
+		<text>From Agroprom to the Cordon</text>
+	</string>
+	<string id="The_cordon_on_Agroprom_pda_name">
+		<text>From the Cordon to Agroprom</text>
+	</string>
+	<string id="From_Amber_Agroprom_pda_name">
+		<text>From Yantar to Agroprom</text>
+	</string>
+	<string id="wilderness_areas_the_Warehouses_pda_name">
+		<text>From the Wild Territory to the Army Warehouses</text>
+	</string>
+	<string id="From_the_radar_Amber_pda_name">
+		<text>From Yantar to Radar</text>	<!-- replacing Amber and Radar - aleks1970 -->
+	</string>
+	<string id="From_the_radar_Amber_2_pda_name">
+		<text>From Radar to Yantar</text>	<!-- replacing Radar and Amber - description have text for: X-16 to Radar(and Pripyat)?? - aleks1970 -->
+	</string>
+	<string id="With_the_radar_dark_valley_pda_name">
+		<text>From Radar to the Dark Valley</text>
+	</string>
+	<string id="With_army_warehouses_Wild_Territory_pda_name">
+		<text>From the Army Warehouses to the Wild Territory</text>
+	</string>
+	<string id="From_the_Dark Valley_Radar_pda_name">
+		<text>From the Dark Valley to Radar</text>
+	</string>
+	<string id="From_Dark_Valley_Army_Warehouses_pda_name">
+		<text>From the Dark Valley to the Army Warehouses</text>
+	</string>
+	<string id="With_army_warehouses_dark_valley_pda_name">
+		<text>From the Army Warehouses to the Dark Valley</text>
+	</string>
+	<string id="With_radar_Army_Warehouses_pda_name">
+		<text>From Radar to the Army Warehouses</text>
+	</string>
+	<string id="The_bar_at_Army_Warehouses_pda_name">
+		<text>From Rostok to the Army Warehouses</text>
+	</string>
+	<string id="The_marshes_the_old_village_pda_name">
+		<text>From the Swamps to the Old Village</text>
+	</string>
+	<string id="Leap_of_Chernobyl_pda_name">
+		<text>Leap of Chernobyl</text>
+	</string>
+	<string id="the_sarcophagus_Chernobyl_nuclear_power_south_pda_name">
+		<text>From the Sarcophagus to Chernobyl NPP1 (South)</text>
+	</string>
+	<string id="Find_the_PDA_Ghost_pda_name">
+		<text>Find Ghost's PDA</text>
+	</string>
+	<string id="Check_the_helicopter_crash_pda_name">
+		<text>Check the helicopter crash</text>
+	</string>
+	<string id="Return_Hogs_PDA_Krysyuk_pda_name">
+		<text>Return Krysjuk's PDA to Borov</text>	<!-- Changed 'Krysyuk ' to 'Krysjuk '- Sword2012 - 31 Oct 16. Should Hog be Borov?-->
+		<!-- now the text is correct - position and meaning(it's the same text like to the 'Return_Krysyuk_PDA_Hog_pda_name' id) - aleks1970 -->
+	</string>
+	<string id="Exchange_vodka_on_papers_pda_name">
+		<text>Exchange vodka for the papers</text>
+	</string>
+	<string id="Collect_details_detector_bloodsuckers_pda_name">
+		<text>Collect your Bloodsucker detection</text>
+	</string>
+	<string id="Collect_details_detector_psevdogigantov_pda_name">
+		<text>Collect your Pseudogiant detection</text>
+	</string>
+	<string id="Collect_details_detector_monitors_pda_name">
+		<text>Collect your mutant detector</text>
+	</string>
+	<string id="Determine_recipe_artifact_Beating_Heart_pda_name">
+		<text>Find the recipe for 'The Heart' artefact</text>	<!-- Was 'Beating Heart' - Sword2012 - 30 Mar 17 -->
+	</string>
+	<string id="Set_unit_of_Chernobyl_pda_name">
+		<text>Set the unit down in Chernobyl</text>
+	</string>
+	<string id="Get_container_with_artifact_pda_name">
+		<text>Find a container with an artefact</text>	<!-- Replaced artifact with artefact - Sword2012 -->
+	</string>
+	<string id="Find_Bartender_the_PDA_Pripyat_pda_name">
+		<text>Find the PDA in Pripyat for the Barkeep</text>
+	</string>
+	<string id="Find_Arrows_PDA_pda_name">
+		<text>Find Strelok's PDA</text>	<!-- 'Arrow' changed to 'Strelok' - Sword2012 - 31 Oct 16 -->
+	</string>
+	<string id="Find_the_Emerald_Jellyfish_pda_name">
+		<text>Find the Emerald Quirk</text>	<!-- Was 'Emerald Jellyfish' - Sword2012 - 30 Mar 17 -->
+	</string>
+	<string id="Find_Doctors_dog_pda_name">
+		<text>Find Doctor's dog</text>
+	</string>
+	<string id="Install_the_device_pda_name">
+		<text>Install the device</text>
+	</string>
+	<string id="Find_fans_of_laptop_pda_name">
+		<text>Find the laptop for Fanatic</text>
+	</string>
+	<string id="Find_fans_diplomat_with_cards_pda_name">
+		<text>Find the diplomat with the cards for Fanatic</text>
+	</string>
+	<string id="Find_computer_Pripyat_pda_name">
+		<text>Find the computer in Pripyat</text>
+	</string>
+	<string id="Collect_seven_claws_chimeras_pda_name">
+		<text>Collect seven chimera claws</text>
+	</string>
+	<string id="Bring_PlayBoy_magazines_pda_name">
+		<text>Bring Playboy magazines</text>
+	</string>
+	<string id="Gather_snacks_Chef_pda_name">
+		<text>Gather snacks for Cook</text>	<!-- Changed 'Chef' to 'Cook'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Bring_an_artifact_pda_name">
+		<text>Obtain an artefact</text>	<!-- Replaced artifact with artefact - Sword2012 -->
+	</string>
+	<string id="Find_weapons_Explorer_pda_name">
+		<text>Find weapons for Guide</text>	<!-- Changed 'Explorer' to 'Guide' - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Bring_the_case_vodka_pda_name">
+		<text>Bring the case of vodka</text>
+	</string>
+	<string id="Find_lost_document_pda_name">
+		<text>Find the lost document</text>
+	</string>
+	<string id="Find_PlayBoy_Ivancova_pda_name">
+		<text>Find a Playboy for Captain Ivantsov</text>	<!-- Changed 'Ivancova' to 'Captain Ivantsov'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Find_the_station_pda_name">
+		<text>Find the army radio transceiver</text>
+	</string>
+	<string id="Get_modified_MR5_pda_name">
+		<text>Find the modified MR5</text>
+	</string>
+	<string id="Get_a_Burer_Paw_pda_name">
+		<text>Find a Burer's hand</text>
+	</string>
+	<string id="Find_unusual_artifact_pda_name">
+		<text>Find the unusual artefact</text>	<!-- Replaced artifact with artefact - Sword2012 -->
+	</string>
+	<string id="Bring_Demon_good_Bronicas_pda_name">
+		<text>Bring Strelok's Suit to Bes</text>	<!-- Changed 'Demon' to 'Bes'- Sword2012 - 31 Oct 16-->	<!-- 'Strelok's Suit' is correct outfit name - aleks1970 -->
+	</string>
+	<string id="Bring_illegal_order_Deserters_pda_name">
+		<text>Bring the wrongful order to the deserter</text>	<!-- Changed 'illegal' to 'wrongful'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Get_Eye_of_Flesh_pda_name">
+		<text>Find a Flesh eye</text>
+	</string>
+	<string id="Get_hoofs_wild_boars_pda_name">
+		<text>Find the wild boars' hooves</text>
+	</string>
+	<string id="Get_Bloodsucker_tentacles_pda_name">
+		<text>Find the Bloodsucker tentacles</text>
+	</string>
+	<string id="Get_pseudodogs_tails_pda_name">
+		<text>Find the pseudodogs' tails</text>
+	</string>
+	<string id="Bring_ten_kits_Fox_pda_name">
+		<text>Bring ten kits to Fox</text>
+	</string>
+	<string id="Find_Petruha_TOZ_34_pda_name">
+		<text>Find a TOZ-34 for Petruha</text>
+	</string>
+	<string id="Get_Medusa_Nimble_pda_name">
+		<text>Find a Medusa for Nimble</text>
+	</string>
+	<string id="Ecologist_Emerald_Blood_Stone_artifact_pda_name">
+		<text>Find the Emerald Stone Blood artefact for the Ecologist</text>
+	</string>
+	<string id="Find_Tolik_five_dog_tails_pda_name">
+		<text>Find five dog tails for Tolik</text>
+	</string>
+	<string id="Stealing_unique_costumes_Miser_pda_name">
+		<text>Steal the unique costumes for Miser</text>
+	</string>
+	<string id="Buy_cartridges_Sidorovich_Svobodov_pda_name">
+		<text>Buy cartridges from Sidorovich for Svobodov</text>
+	</string>
+	<string id="Work_couriers_pda_name">
+		<text>Work couriers</text>
+	</string>
+	<string id="Find_Moles_PDA_pda_name">
+		<text>Find Mole's PDA</text>
+	</string>
+	<string id="Return_the_PDA_pda_name">
+		<text>Return the PDA</text>
+	</string>
+	<string id="Find_Petrenko_Gauss_Pistol_pda_name">
+		<text>Find Petrenko an M72-GG Gauss pistol</text>
+	</string>
+	<string id="Find_a_Flash_pda_name">
+		<text>Find a Flash artefact</text>
+	</string>
+	<string id="Exchange_artifact_Exoskeleton_pda_name">
+		<text>Exchange the artefact for an Exoskeleton</text>	<!-- Replaced artifact with artefact - Sword2012 -->
+	</string>
+	<string id="Deliver_tool_to_Shakus_pda_name">
+		<text>Deliver the tool to Shakus</text>
+	</string>
+	<string id="Find_Goldfish_artifact_Syaka_pda_name">
+		<text>Find a Goldfish artefact for Syak</text>	<!-- Replaced artifact with artefact - Sword2012 -->
+	</string>
+	<string id="Drag_safe_from_X_18_pda_name">
+		<text>Bring the safe from X-18 to Shakus</text>
+	</string>
+	<string id="Bring_new_Armor_pda_name">
+		<text>Bring new armor</text>
+	</string>
+	<string id="Find_the_decoder_for_Ecologist_pda_name">
+		<text>Find the lost decoder for the Ecologist</text>
+	</string>
+	<string id="Sell_artifact_Sidorovich_pda_name">
+		<text>Sell the artefact to Sidorovich</text>
+	</string>
+	<string id="Collect_documents_for_Sakharov_pda_name">
+		<text>Collect documents for Sakharov</text>
+	</string>
+	<string id="Pass_grenade_Miser_pda_name">
+		<text>Obtain a grenade for Miser</text>
+	</string>
+	<string id="Find_Artifact_pda_name">
+		<text>Find the artefact</text>
+	</string>
+	<string id="Find_documents_pda_name">
+		<text>Find the documents</text>
+	</string>
+	<string id="Find_Case_of_documents_pda_name">
+		<text>Find the case of documents</text>
+	</string>
+	<string id="Find_Lukas_dynamite_pda_name">
+		<text>Find the dynamite for Lukash</text>
+	</string>
+	<string id="Transfer_case_pda_name">
+		<text>Transfer the case over</text>
+	</string>
+	<string id="Doctor_offers_pda_name">
+		<text>The Swamp Doctor</text><!-- Was 'Doctor' - Sword2012 - 19 Jan 2018 -->
+	</string>
+	<string id="Vein_suggests_pda_name">
+		<text>Core at the Dark Valley</text>
+	</string>
+	<string id="Kuznetsov_offers_pda_name">
+		<text>Kuznetsov at the Cordon</text>
+	</string>
+	<string id="Sherstyuk_offers_pda_name">
+		<text>Sherstyuk at Agroprom</text>
+	</string>
+	<string id="Chill_offers_pda_name">
+		<text>Cold at Clear Sky</text>
+	</string>
+	<string id="Slice_Meat_from_jumping_pda_name">
+		<text>Creating a Meat Chunk from a Springboard</text>
+	</string>
+	<string id="Bengal_fire_from_jumping_pda_name">
+		<text>Creating a Sparkler from a Springboard</text>	<!-- Was 'Bengal Fire' - Sword2012-->
+	</string>
+	<string id="Slither_from_jumping_pda_name">
+		<text>Creating a Slug from a Springboard</text>	<!-- Was 'Slither' - Sword2012-->
+	</string>
+	<string id="Crystal_from_jumping_pda_name">
+		<text>Creating a Crystal from a Springboard</text>
+	</string>
+	<string id="Sea_Urchin_from_jumping_pda_name">
+		<text>Creating an Urchin from a Springboard</text>
+	</string>
+	<string id="Dummy_from_jumping_pda_name">
+		<text>Creating a Dummy from a Springboard</text>
+	</string>
+	<string id="Slither_from_the_funnel_pda_name">
+		<text>Creating a Slug from a Vortex</text>	<!-- Was 'Slither' - Sword2012-->
+	</string>
+	<string id="Slime_from_the_funnel_pda_name">
+		<text>Creating a Slime from a Vortex</text>
+	</string>
+	<string id="Flash_from_the_funnel_pda_name">
+		<text>Creating a Flash from a Vortex</text>
+	</string>
+	<string id="Night_Star_out_of_crater_pda_name">
+		<text>Creating a Night Star from a Vortex</text>
+	</string>
+	<string id="Soul_from_the_funnel_pda_name">
+		<text>Creating a Soul from a Vortex</text>
+	</string>
+	<string id="Film_out_of_crater_pda_name">
+		<text>Creating a Pellicle from a Vortex</text>
+	</string>
+	<string id="The_Stone_Flower_from_Carousel_pda_name">
+		<text>Creating a Stone Flower from a Whirligig</text>
+	</string>
+	<string id="Drop_from_carousel_pda_name">
+		<text>Creating a Droplet from a Whirligig</text>
+	</string>
+	<string id="Crystal_from_Carousel_pda_name">
+		<text>Creating a Crystal from a Whirligig</text>
+	</string>
+	<string id="Moonlight_from_carousel_pda_name">
+		<text>Creating a Moonlight from a Whirligig</text>
+	</string>
+	<string id="Grind_from_Carousel_pda_name">
+		<text>Creating a Mica from a Whirligig</text>	<!-- Was 'Grind' - Sword2012-->
+	</string>
+	<string id="Mamas_Beads_from_Carousel_pda_name">
+		<text>Creating a Glassbeads from a Whirligig</text>
+	</string>
+	<string id="Crystal_Bur_Aspic_pda_name">
+		<text>Creating a Crystal Thorn from a Fruit Punch</text>
+	</string>
+	<string id="Bur_in_Aspic_pda_name">
+		<text>Creating a Thorn from a Fruit Punch</text>
+	</string>
+	<string id="Fireball_in_Aspic_pda_name">
+		<text>Creating a Fireball from a Fruit Punch</text>
+	</string>
+	<string id="Crystal_in_Aspic_pda_name">
+		<text>Creating a Crystal from a Fruit Punch</text>
+	</string>
+	<string id="Gold_Fish_in_Aspic_pda_name">
+		<text>Creating a Goldfish from a Fruit Punch</text>
+	</string>
+	<string id="Gingerbread_Man_Aspic_pda_name">
+		<text>Creating a Kolobok from a Fruit Punch</text>	<!-- Was 'Gingerbread' - Sword2012-->
+	</string>
+	<string id="Flash_from_Frying_pda_name">
+		<text>Creating a Flash from a Burner</text>
+	</string>
+	<string id="Slime_from_Frying_pda_name">
+		<text>Creating a Slime from a Burner</text>
+	</string>
+	<string id="Gravel_from_frying_pda_name">
+		<text>Creating a Gravi from a Burner</text>
+	</string>
+	<string id="Night_Star_from_Frying_pda_name">
+		<text>Creating a Night Star from a Burner</text>
+	</string>
+	<string id="Moonlight_from_frying_pda_name">
+		<text>Creating a Moonlight from a Burner</text>
+	</string>
+	<string id="Battery_from_Frying_pda_name">
+		<text>Creating a Battery from a Burner</text>
+	</string>
+	<string id="Fireball_from_Elektra_pda_name">
+		<text>Creating a Fireball from an Electro</text>
+	</string>
+	<string id="Stone_Flower_from_Electrical_pda_name">
+		<text>Creating a Stone Flower from an Electro</text>
+	</string>
+	<string id="Grind_from_Electrical_pda_name">
+		<text>Creating a Mica from an Electro</text>	<!-- Was 'Grind' - Sword2012-->
+	</string>
+	<string id="Soul_from_Electrical_pda_name">
+		<text>Creating a Soul from an Electro</text>
+	</string>
+	<string id="Goldfish_from_Elektra_pda_name">
+		<text>Creating a Goldfish from an Electro</text>
+	</string>
+	<string id="Spring_from_Elektra_pda_name">
+		<text>Creating a Spring from an Electro</text>
+	</string>
+	<string id="Diary_of_Cont_Part_I_pda_name">
+		<text>Diary of the Controller Part I</text>
+	</string>
+	<string id="Diary_of_Cont_Part_II_pda_name">
+		<text>Diary of the Controller Part II</text>
+	</string>
+	<string id="Scientific_Notes_Part_I_pda_name">
+		<text>Scientific notes Part I</text>
+	</string>
+	<string id="Scientific_Notes_Part_II_pda_name">
+		<text>Scientific notes Part II</text>
+	</string>
+	<string id="Scientific_Notes_Part_III_pda_name">
+		<text>Scientific notes Part III</text>
+	</string>
+	<string id="Scientific_Notes_Part_IV_pda_name">
+		<text>Scientific notes Part IV</text>
+	</string>
+	<string id="Stack_Secret_Letters_I_pda_name">
+		<text>Stack of secret letters Part I</text>
+	</string>
+	<string id="Stack_Secret_Letters_II_pda_name">
+		<text>Stack of secret letters Part II</text>
+	</string>
+	<string id="Stack_Secret_Letters_III_pda_name">
+		<text>Stack of secret letters Part III</text>
+	</string>
+	<string id="Stack_Secret_Letters_IV_pda_name">
+		<text>Stack of secret letters Part IV</text>
+	</string>
+	<string id="Entries_of_Stalker_pda_name">
+		<text>Entries of the Stalker</text>
+	</string>
+	<string id="Intern_Report_part_I_pda_name">
+		<text>Intern's report part I</text>
+	</string>
+	<string id="Intern_Report_part_II_pda_name">
+		<text>Intern's report part II</text>
+	</string>
+	<string id="Stalkers_Diary_pda_name">
+		<text>Stalker's Diary</text>
+	</string>
+	<string id="Zombie_Entries_Part_I_pda_name">
+		<text>Zombie entries Part I</text>
+	</string>
+	<string id="Zombie_Entries_Part_II_pda_name">
+		<text>Zombie entries Part II</text>
+	</string>
+	<string id="Recovered_Records_pda_name">
+		<text>Recovered records</text>
+	</string>
+	<string id="Unknown_Author_Diary_pda_name">
+		<text>Unknown author's diary</text>
+	</string>
+	<string id="Notes_on_Experiment_I_pda_name">
+		<text>Notes on the Experiment Part I</text>
+	</string>
+	<string id="Notes_on_Experiment_II_pda_name">
+		<text>Notes on the Experiment Part II</text>
+	</string>
+	<string id="Experienced_Entries_I_pda_name">
+		<text>Research entries Part I</text>
+	</string>
+	<string id="Experienced_Entries_II_pda_name">
+		<text>Research entries Part II</text>
+	</string>
+	<string id="Military_Records_pda_name">
+		<text>Military records</text>
+	</string>
+	<string id="Notes_the_Experiment_I_pda_name">
+		<text>Notes on the Experiment Part I</text>
+	</string>
+	<string id="Notes_the_Experiment_II_pda_name">
+		<text>Notes on the Experiment Part II</text>
+	</string>
+	<string id="Experience_Report_Part_I_pda_name">
+		<text>Research report Part I</text>
+	</string>
+	<string id="Experience_Report_Part_II_pda_name">
+		<text>Research report Part II</text>
+	</string>
+	<string id="Experience_Report_Part_III_pda_name">
+		<text>Research report Part III</text>
+	</string>
+	<string id="Duty_Officer_Part_I_pda_name">
+		<text>Duty officer's Diary Part I</text>
+	</string>
+	<string id="Duty_Officer_Part_II_pda_name">
+		<text>Duty officer's Diary Part II</text>
+	</string>
+	<string id="Duty_Officer_Part_III_pda_name">
+		<text>Duty officer's Diary Part III</text>
+	</string>
+	<string id="Duty_Officer_Part_IV_pda_name">
+		<text>Duty officer's Diary Part IV</text>
+	</string>
+	<string id="Incredible_Details_Part_I_pda_name">
+		<text>Crucial report Part I</text>
+	</string>
+	<string id="Incredible_Details_Part_II_pda_name">
+		<text>Crucial report Part II</text>
+	</string>
+	<string id="Incredible_Details_Part_III_pda_name">
+		<text>Crucial report Part III</text>
+	</string>
+	<string id="Revelations_Monolith_pda_name">
+		<text>Revelations about the Monolith</text>
+	</string>
+	<string id="Yakut_Notes_pda_name">
+		<text>Yakut's notes</text>
+	</string>
+	<string id="Novice_Diary_pda_name">
+		<text>Rookie's diary</text>
+	</string>
+	<string id="Exp_Stalk_Diary_pda_name">
+		<text>Veteran Stalker's diary</text>
+	</string>
+	<string id="the_Engineer_Diary_pda_name">
+		<text>The engineer's diary</text>
+	</string>
+	<string id="Entries_former_Monolithian_pda_name">
+		<text>Entries of a former Monolithian</text>
+	</string>
+	<string id="Group_Commander_Record_pda_name">
+		<text>Group commander's record</text>
+	</string>
+	<string id="Bandit_Entries_pda_name">
+		<text>Bandit entries</text>
+	</string>
+	<string id="Monolith_Entries_pda_name">
+		<text>Monolith entries</text>
+	</string>
+	<string id="Freedom_Entries_pda_name">
+		<text>Freedom entries</text>
+	</string>
+	<string id="Mercenary_Entries_pda_name">
+		<text>Mercenary entries</text>
+	</string>
+	<string id="From_the_sarcophagus_Chernobyl_1_pda_name">
+		<text>From the Sarcophagus to Chernobyl NPP1</text>
+	</string>
+	<string id="With_agricultural_industry_Amber_pda_name">
+		<text>From Agroprom to Yantar</text>
+	</string>
+	<string id="With_Wild_Territory_Warehouses_pda_name">
+		<text>From Wild Territory to the Army Warehouses</text>
+	</string>
+	<string id="With_army_warehouses_Territory_pda_name">
+		<text>From the Army Warehouses to Wild Territory</text>
+	</string>
+	<string id="From_Amber_Radar_pda_name">
+		<text>From Yantar to Radar</text>
+	</string>
+	<string id="With_radar_dark_valley_pda_name">
+		<text>From Radar to the Dark Valley</text>
+	</string>
+	<string id="From_radar_Amber_pda_name">
+		<text>From Radar to Yantar</text>
+	</string>
+	<string id="From_Dark_Valley_Radar_pda_name">
+		<text>From the Dark Valley to Radar</text>
+	</string>
+	<string id="From_Dark_Valley_Warehouses_pda_name">
+		<text>From the Dark Valley to the Army Warehouses</text>
+	</string>
+	<string id="With_warehouses_dark_valley_pda_name">
+		<text>From Army Warehouses to the Dark Valley</text>
+	</string>
+	<string id="With_radar_rmy_Warehouses_pda_name">
+		<text>From Radar to the Army Warehouses</text>
+	</string>
+	<string id="The_bar_Army_Warehouses_pda_name">
+		<text>From Rostok to the Army Warehouses</text>
+	</string>
+	<string id="The_marshes_old_village_pda_name">
+		<text>From the Swamps to the Old Village</text>
+	</string>
+	<string id="The_Chernobyl_pda_name">
+		<text>From the Army Warehouses to Chernobyl?</text>
+	</string>
+	<string id="Hunk_meat_from_springboard_pda_name">
+		<text>Creating a Meat Chunk from a Springboard</text>
+	</string>
+	<string id="Slug_from_springboard_pda_name">
+		<text>Creating a Slug from a Springboard</text>
+	</string>
+	<string id="Sea_urchins_from_springboard_pda_name">
+		<text>Creating an Urchin from a Springboard</text>
+	</string>
+	<string id="Dummy_of_springboard_pda_name">
+		<text>Creating a Dummy from a Springboard</text>
+	</string>
+	<string id="Slug_of_crater_pda_name">
+		<text>Creating a Slug from a Vortex</text>
+	</string>
+	<string id="Mucus_from_funnel_pda_name">
+		<text>Creating a Slime from a Vortex</text>
+	</string>
+	<string id="The_outbreak_of_crater_pda_name">
+		<text>Creating a Flash from a Vortex</text>
+	</string>
+	<string id="Night_star_of_rater_pda_name">
+		<text>Creating a Night Star from a Vortex</text>
+	</string>
+	<string id="The_soul_of_crater_pda_name">
+		<text>Creating a Soul from a Vortex</text>
+	</string>
+	<string id="Film_of_crater_pda_name">
+		<text>Creating a Pellicle from a Vortex</text>
+	</string>
+	<string id="Stone_Flower_of_carousel_pda_name">
+		<text>Creating a Stone Flower from a Whirligig</text>
+	</string>
+	<string id="Crystal_thorn_from_carousel_pda_name">
+		<text>Creating a Crystal Thorn from a Whirligig</text>
+	</string>
+	<string id="Mica_from_carousel_pda_name">
+		<text>Creating a Mica from a Whirligig</text>
+	</string>
+	<string id="Mama_Beads_carousel_pda_name">
+		<text>Creating a Glassbeads from a Whirligig</text>
+	</string>
+	<string id="Crystal_thorn_aspic_pda_name">
+		<text>Creating a Crystal Thorn from a Fruit Punch</text>
+	</string>
+	<string id="Barb_from_aspic_pda_name">
+		<text>Creating a Thorn from a Fruit Punch</text>
+	</string>
+	<string id="The_fireball_from_aspic_pda_name">
+		<text>Creating a Fireball from a Fruit Punch</text>
+	</string>
+	<string id="Crystal_from_fountain_pda_name">
+		<text>Creating a Crystal from a Fountain</text>
+	</string>
+	<string id="Goldfish_aspic_pda_name">
+		<text>Creating a Goldfish from a Fruit Punch</text>
+	</string>
+	<string id="Gingerbread_from_aspic_pda_name">
+		<text>Creating a Kolobok from a Fruit Punch</text>
+	</string>
+	<string id="The_outbreak_frying_pda_name">
+		<text>Creating a Flash from a Burner</text>
+	</string>
+	<string id="Mucus_from_frying_pda_name">
+		<text>Creating a Slime from a Burner</text>
+	</string>
+	<string id="Night_star_of_frying_pda_name">
+		<text>Creating a Night Star from a Burner</text>
+	</string>
+	<string id="Batteries_from_frying_pda_name">
+		<text>Creating a Battery from a Burner</text>
+	</string>
+	<string id="The_fireball_from_electrical_pda_name">
+		<text>Creating a Fireball from an Electro</text>
+	</string>
+	<string id="Stone_Flower_electro_pda_name">
+		<text>Creating a Stone Flower from an Electro</text>
+	</string>
+	<string id="Mica_from_electrical_pda_name">
+		<text>Creating a Mica from an Electro</text>
+	</string>
+	<string id="Soul_of_Electra_pda_name">
+		<text>Creating a Soul from an Electro</text>
+	</string>
+	<string id="Goldfish_from_electrical_pda_name">
+		<text>Creating a Goldfish from an Electro</text>
+	</string>
+	<string id="Jellyfish_from_electrical_pda_name">
+		<text>Creating a Medusa from an Electro</text>	<!-- Was 'Jellyfish' - Sword2012-->
+	</string>
+	<string id="Quirk_of_aspic_pda_name">
+		<text>Creating a Quirk from a Fruit Punch</text>
+	</string>
+	<string id="Spring_from_electrical_pda_name">
+		<text>Creating a Spring from an Electro</text>
+	</string>
+	<string id="task_pda_name">
+		<text>Task</text>
+	</string>
+	<string id="Find_Minigun_Adrenalin_pda_name">
+		<text>Find the Minigun for Adrenalin</text>
+	</string>
+	<string id="Find_military_subject_pda_name">
+		<text>Find the military subject</text>
+	</string>
+	<string id="Find_Camouflage_Exoskeleton_pda_name">
+		<text>Find the Camouflage Exoskeleton</text>
+	</string>
+	<string id="Find_vise_Screw_pda_name">
+		<text>Find a vice for Screw</text>
+	</string>
+	<string id="Discover_Antizombin_pda_name">
+		<text>Find some Antizombin</text>
+	</string>
+	<string id="Get_controller_brain_Lukas_pda_name">
+		<text>Find a controller's brain for Lukash</text>
+	</string>
+	<string id="Find_disk_for_Adrenalin_pda_name">
+		<text>Find the optical disk for Adrenalin</text>
+	</string>
+	<string id="With_ATP_Cordon_pda_name">
+		<text>From the ATP to Cordon</text>
+	</string>
+	<string id="With_ATP_Army_Warehouses_pda_name">
+		<text>From the ATP to the Army Warehouses</text>
+	</string>
+	<string id="Locate_bag_south_Chernobyl_pda_name">
+		<text>Locate the bag in the south of Chernobyl</text>
+	</string>
+	<string id="With_ATP_Pripyat_pda_name">
+		<text>From the ATP to Pripyat</text>
+	</string>
+	<string id="Find_the_Bolotny_Locket_pda_name">
+		<text>Find the lost locket for the Swamp Doctor</text>
+	</string>
+	<string id="Mutated_vestige_sternum_pda_name">
+		<text>Mutated zombie tooth</text>
+	</string>
+	<string id="Find_crow_eggs_cook_pda_name">
+		<text>Find the crow eggs for Cook</text>
+	</string>
+	<string id="Bring_medicine_Akim_pda_name">
+		<text>Bring the medicine to Akim</text>
+	</string>
+	<string id="Find_flashlights_Miner_pda_name">
+		<text>Find two flashlights for Miner</text>
+	</string>
+	<string id="Get_Rubic_cube_pda_name">
+		<text>Find the Rubik's cube</text>
+	</string>
+	<string id="Find_Miner_father_book_pda_name">
+		<text>Find Miner his father's book</text>
+	</string>
+	<string id="Find_Bald_Treasure_Cave_pda_name">
+		<text>Find Bald's treasure in the cave</text>	<!-- Changed 'Bald' to 'Baldy'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Scalp_Controller_artifact_Miner_pda_name">
+		<text>Find a Controller's Scalp artefact for Miner</text>
+	</string>
+	<string id="Akim_bring_hands_zombie_pda_name">
+		<text>Find ten zombie hands for Akim</text>
+	</string>
+	<string id="Find_documents_for_Mayor_pda_name">
+		<text>Find the documents for the Mayor</text>
+	</string>
+	<string id="Find_the_second part_documents_pda_name">
+		<text>Find the second part of the documents</text>
+	</string>
+	<string id="Find_four_papers_X_18_pda_name">
+		<text>Find four sets of papers in Lab X-18</text>
+	</string>
+	<string id="Find_bronizhileta_note_PDA_X_16_pda_name">
+		<text>Find four bronizhileta, a note and a PDA in Lab X-16</text>
+	</string>
+	<string id="Get_one_all_famous_monsters_pda_name">
+		<text>Collect parts from each of the Zone's most common mutants</text>
+	</string>
+	<string id="Get_fifteen_artifacts_Cross_pda_name">
+		<text>Get fifteen artefacts for Crest</text>	<!-- Replaced artifact with artefact - Sword2012 -->
+	</string>
+	<string id="Get_six_Anomalous_buffalo_pda_name">
+		<text>Find six Anomalous Bison rifles</text>
+	</string>
+	<string id="Find_bring_teleporter_pda_name">
+		<text>Find and bring the teleporter</text>
+	</string>
+	<string id="Find_flask_Petrenko_pda_name">
+		<text>Find the flask for Petrenko</text>
+	</string>
+	<string id="Find_Products_artifacts_money_pda_name">
+		<text>Find items, artefacts and money</text>
+	</string>
+	<string id="Get_thermoses_Voronin_pda_name">
+		<text>Find the Thermos flasks for Voronin</text>
+	</string>
+	<string id="Cigarettes_Garik_pda_name">
+		<text>Cigarettes for Garik</text>
+	</string>
+	<string id="Find_two_kits_Sidorovich_pda_name">
+		<text>Find two kits for Sidorovich</text>
+	</string>
+	<string id="Find_computer_videorecorder_pda_name">
+		<text>Find the computer and the video recorder</text>
+	</string>
+	<string id="Meet_environmentalists_pick_phone_pda_name">
+		<text>Meet the Ecologists, and collect a radio from them</text>
+	</string>
+	<string id="Repel_attack_destroy_Humpback_pda_name">
+		<text>Repel the attack, and eliminate Humpback</text>
+	</string>
+	<string id="Get_Storm_protect_Bar_pda_name">
+		<text>Find a Storm rifle to protect the Bar</text>
+	</string>
+	<string id="Help_stalkers_kill_leader_bandits_pda_name">
+		<text>Help the Stalkers, and eliminate the leader of the Bandits</text>
+	</string>
+	<string id="Meet_courier_pick_information_pda_name">
+		<text>Meet the courier, and gather information</text>
+	</string>
+	<string id="Get_sniper_AWP_Iglomet_pda_name">
+		<text>Find an AWP Iglomet</text>
+	</string>
+	<string id="Destroy_Armored_Special_Forces_pda_name">
+		<text>Destroy the armored Special Forces</text>
+	</string>
+	<string id="From_Caves_Dump_pda_name">
+		<text>From the Caves to the Dump</text>
+	</string>
+	<string id="From_Caves_Agroprom_pda_name">
+		<text>From the Caves to Agroprom</text>
+	</string>
+	<string id="From_landfill_Cave_pda_name">
+		<text>From the Dump to the Cave</text>
+	</string>
+	<string id="With_agricultural_industry_Cave_pda_name">
+		<text>From Agroprom to the Cave</text>
+	</string>
+	<string id="From_Dark_Valley_Forgotten_Forest_pda_name">
+		<text>From the Dark Valley to the Forgotten Forest</text>
+	</string>
+	<string id="Of_maze_Cave_pda_name">
+		<text>From the Labyrinth to the Cave</text>
+	</string>
+	<string id="From_caves_Labyrinth_pda_name">
+		<text>From the Cave to the Labyrinth</text>
+	</string>
+	<string id="From_Labyrinth_Amber_pda_name">
+		<text>From the Labyrinth to Yantar</text>
+	</string>
+	<string id="Of_maze_Undiscovered_Land_pda_name">
+		<text>From the Labyrinth to Reconnoitered Territory</text>
+	</string>
+	<string id="From_Amber_Labyrinth_pda_name">
+		<text>From Yantar to the Labyrinth</text>
+	</string>
+	<string id="With_ATP_Garbage_pda_name">
+		<text>From the ATP to the Dump</text>
+	</string>
+	<string id="From_warehouse_Undiscovered_Land_pda_name">
+		<text>From Army Warehouses to Reconnoitered Territory</text>
+	</string>
+	<string id="From_Valley_Undiscovered_Land_pda_name">
+		<text>From the Dark Valley to Reconnoitered Territory</text>
+	</string>
+	<string id="From_landfill_Undiscovered_Land_pda_name">
+		<text>From the Dump to Reconnoitered Territory</text>
+	</string>
+	<string id="From_unexplored_Earth_Labyrinth_pda_name">
+		<text>From Reconnoitered Territory to the Labyrinth</text>
+	</string>
+	<string id="With_radar_military_lab_pda_name">
+		<text>From Radar to the Military lab</text>
+	</string>
+	<string id="From_military_lab_X_16_pda_name">
+		<text>From the Military lab to Lab X-16</text>
+	</string>
+	<string id="From_military_lab_Army_Warehouses_pda_name">
+		<text>From the Military lab to the Army Warehouses</text>
+	</string>
+	<string id="From_X_18_military_lab_pda_name">
+		<text>From Lab X-18 to the Military lab</text>
+	</string>
+	<string id="The_cordon_Marsh_pda_name">
+		<text>From Cordon to the Swamps</text>
+	</string>
+	<string id="With_radar_Red_Forest_Limansk_pda_name">
+		<text>From Army Warehouses to Limansk</text>
+	</string>
+	<string id="From_north_Chernobyl_ATP_pda_name">
+		<text>From Chernobyl NPP2 (North) to the ATP</text>
+	</string>
+	<string id="From_Pripyat_old_village_pda_name">
+		<text>From Pripyat in the Old Village</text>
+	</string>
+	<string id="From_Old_Village_Limansk_pda_name">
+		<text>From the Old Village to Limansk</text>
+	</string>
+	<string id="From_Old_Village_Hospital_pda_name">
+		<text>From the Old Village to the Hospital</text>
+	</string>
+	<string id="From_south_Chernobyl_NPP_generator_pda_name">
+		<text>From Chernobyl NPP1 (South) to Generators</text>
+	</string>
+	<string id="From_hospital_Agroprom_pda_name">
+		<text>From the Hospital to Agroprom</text>
+	</string>
+	<string id="With_agricultural_industry_Bogs_pda_name">
+		<text>From Agroprom to the Swamps</text>
+	</string>
+	<string id="The_bar_ATP_pda_name">
+		<text>From Rostok to the ATP</text>
+	</string>
+	<string id="With_generator_Pripyat_pda_name">
+		<text>From Generators to Pripyat</text>
+	</string>
+	<string id="From_north_south_Chernobyl_NPP_pda_name">
+		<text>From Chernobyl NPP2 (North) to NPP1 (South)</text>
+	</string>
+	<string id="With_generator_hospital_pda_name">
+		<text>From Generators to the Hospital</text>
+	</string>
+	<string id="From_military_lab_Generators_pda_name">
+		<text>From the Military lab to Generators</text>
+	</string>
+	<string id="From_Limanskaya_Generators_pda_name">
+		<text>From Limansk to Generators</text>
+	</string>
+	<string id="From_Red_Forest_military_lab_pda_name">
+		<text>From the Red Forest to the Military lab</text>
+	</string>
+	<string id="Dead_Cities_Limansk_pda_name">
+		<text>From the Dead City to Limansk</text>
+	</string>
+	<string id="Dead_Cities_ATP_pda_name">
+		<text>From the Dead City to the ATP</text>
+	</string>
+	<string id="Dead_GRODA_Wild_Territory_pda_name">
+		<text>Dead GRODA at Wild Territory</text>
+	</string>
+	<string id="With_ATP_Dead_City_pda_name">
+		<text>From the ATP to the Dead City</text>
+	</string>
+	<string id="Dead_Cities_Zaton_pda_name">
+		<text>From the Dead City to Zaton</text>
+	</string>
+	<string id="From_Limanskaya_Dead_City_pda_name">
+		<text>From Limansk to the Dead City</text>
+	</string>
+	<string id="From_Bar_Rostok_Wild_Territory_Rostok_pda_name">
+		<text>From Rostok to Wild Territory</text>
+	</string>
+	<string id="Release_prisoner_bring_notebook_pda_name">
+		<text>Release the prisoner, and find the notebook</text>
+	</string>
+	<string id="Find_Fima_ordered_items_pda_name">
+		<text>Find Fima Coal the items he requested</text>	<!-- Changed 'Fima' to 'Fima Coal'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Find_box_Labyrinth_pda_name">
+		<text>Find the box in the Labyrinth</text>
+	</string>
+	<string id="Find_the_safe_pda_name">
+		<text>Find the safe</text>
+	</string>
+	<string id="Bring_Sidorychev_remyaschika_return_amulet_pda_name">
+		<text>Bring Sidorovich two Monolith repair kits, and return the amulet</text>	<!-- Changed 'Sidorychev' to 'Sidorovich'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Find_bring_Hermit_Box_pda_name">
+		<text>Find the Box for the Hermit</text>
+	</string>
+	<string id="Find_bring_gynecologist_medicines_pda_name">
+		<text>Find medicines for the Gynecologist</text>
+	</string>
+	<string id="Find_Zhorik_batteries_pda_name">
+		<text>Find the accumulators for Jora Anomaly</text>	<!-- Changed 'Zhorik ' to 'Jora Anomaly- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="The_old_man_took_out_watch_pda_name">
+		<text>Find the watches for the Old Man</text>
+	</string>
+	<string id="Find_Cache_Pilgrim_pda_name">
+		<text>Find the cache for Pilgrim</text>
+	</string>
+	<string id="The_Ultra_Detector_Adrenalin_pda_name">
+		<text>Find an 'Ultra' detector for Adrenalin</text>
+	</string>
+	<string id="Find_Elite_Detectors_pda_name">
+		<text>Find the 'Elite' detectors</text>
+	</string>
+	<string id="Learn_about_drawings_pda_name">
+		<text>Learn about the drawings</text>
+	</string>
+	<string id="Find_Equipment_Professor_pda_name">
+		<text>Find equipment for the Gynecologist</text>	<!-- Changed 'Professor' to 'Gynecologist '- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Cut_off_head_Sidorovich_pda_name">
+		<text>Bring back Sidorovich's head</text>
+	</string>
+	<string id="Get_corpse_Controller_pda_name">
+		<text>Find the corpse of the Controller</text>
+	</string>
+	<string id="Get_flask_with_solution_pda_name">
+		<text>Get the flask of solution</text>
+	</string>
+	<string id="Find_artifacts_Kalinin_pda_name">
+		<text>Find artefacts for Kalinin</text>	<!-- Replaced artifacts with artefacts - Sword2012 -->
+	</string>
+	<string id="Reconoiter_military_lab_pda_name">
+		<text>Reconnoiter the Military lab</text>
+	</string>
+	<string id="Return_seal_Lukas_pda_name">
+		<text>Return the seal to Lukash</text>
+	</string>
+	<string id="Get_Pseudodog_things_Dembele_pda_name">
+		<text>Obtain Pseudodog parts for Demobee</text>	<!-- Changed 'Dembele to 'Demobee'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Radio_gear_Panther_pda_name">
+		<text>Find the radio equipment for Panther</text>
+	</string>
+	<string id="Find_drive_Panther_pda_name">
+		<text>Find the drive for Panther</text>
+	</string>
+	<string id="Find_backpack_Panther_pda_name">
+		<text>Find the backpack for Panther</text>
+	</string>
+	<string id="Accompany_Hologram_Unexplored_Earth_pda_name">
+		<text>Accompany Victor Hologram to the Army Warehouses transition in Recon</text>
+	</string>
+	<string id="Bring_the_hologram_Klenow_pda_name">
+		<text>Escort Victor Hologram to Maples</text>	<!-- Changed 'Klenow' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Make_Klenov_artifact_Maples_pda_name">
+		<text>Make the Klenov artefact for Maples</text>
+	</string>
+	<string id="Raid_on_Varlab_pda_name">
+		<text>Raid on Varlab</text>
+	</string>
+	<string id="Repay_debt_Sidorovich_pda_name">
+		<text>Repay the debt for Sidorovich</text>
+	</string>
+	<string id="Collect_interest_for_service_pda_name">
+		<text>Collect the interest for the service</text>
+	</string>
+	<string id="Find_brother_Kolmogorov_pda_name">
+		<text>Find brother Kolmogorov</text>
+	</string>
+	<string id="Find_sister_Kolmogorov_pda_name">
+		<text>Find sister Kolmogorov</text>
+	</string>
+	<string id="Help_capture_headquarters_pda_name">
+		<text>Help capture the headquarters</text>
+	</string>
+	<string id="Explore_the_village_pda_name">
+		<text>Explore the village</text>
+	</string>
+	<string id="Repel_punitive_pda_name">
+		<text>Repel the 'retribution' attack</text>
+	</string>
+	<string id="Get_psi_antenna_pda_name">
+		<text>Find a Psi-antenna</text>
+	</string>
+	<string id="Exploration_on_farm_pda_name">
+		<text>Exploration on the farm</text>
+	</string>
+	<string id="Locate_destroy_helicopter_pda_name">
+		<text>Locate and destroy the helicopter</text>
+	</string>
+	<string id="Find_Boatswain_pda_name">
+		<text>Find Boatswain</text>
+	</string>
+	<string id="Bring_Boatswain_Helicopter_pda_name">
+		<text>Bring Boatswain to the helicopter</text>
+	</string>
+	<string id="Find_PSP_Andersen_pda_name">
+		<text>Find PSP Andersen</text>
+	</string>
+	<string id="Turn_off_psi_antenna_pda_name">
+		<text>Turn off the Psi-antenna</text>
+	</string>
+	<string id="Save_Panther_pda_name">
+		<text>Save Panther</text>
+	</string>
+	<string id="Collect_information_pda_name">
+		<text>Collect information</text>
+	</string>
+	<string id="Find_secret_cave_pda_name">
+		<text>Find the secret cave</text>
+	</string>
+	<string id="Collect_artifacts_from_Klenow_pda_name">
+		<text>Collect the artefacts from Maples</text>	<!-- Changed 'Klenow' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="Find_old_doll_pda_name">
+		<text>Find the old doll</text>
+	</string>
+	<string id="Find_black_box_pda_name">
+		<text>Find the black box</text>
+	</string>
+	<string id="Run_third_generator_pda_name">
+		<text>Turn on the third generator</text>
+	</string>
+	<string id="Disable_generator_jammers_pda_name">
+		<text>Fix the jammed generator</text>
+	</string>
+	<string id="Take_position_north_Chernobyl_pda_name">
+		<text>Take a position in the north of Chernobyl</text>
+	</string>
+	<string id="Back_help_Fang_pda_name">
+		<text>Go back and help Fang</text>
+	</string>
+	<string id="Locate_lightning_pda_name">
+		<text>Locate Lightning</text>
+	</string>
+	<string id="Find_fellow_Lightning_pda_name">
+		<text>Find the Stalker named Lightning</text>
+	</string>
+	<string id="Find_teleport_pda_name">
+		<text>Find the teleport</text>
+	</string>
+	<string id="Take_a_picture_pda_name">
+		<text>Take a picture</text>
+	</string>
+	<string id="View_Cache_pda_name">
+		<text>View cache</text>
+	</string>
+	<string id="Save_life_radio_operator_pda_name">
+		<text>Save the radio operator</text>
+	</string>
+	<string id="Find_caches_radioman_pda_name">
+		<text>Find caches radioman</text>
+	</string>
+	<string id="Open_safe_let_die_radio_operator_pda_name">
+		<text>Open the safe, but keep the radio operator alive</text>
+	</string>
+	<string id="Locate_and_destroy_sniper_pda_name">
+		<text>Locate and kill the sniper</text>
+	</string>
+	<string id="Make_two_photos_pda_name">
+		<text>Take two photos</text>
+	</string>
+	<string id="Get_Case_Kuznetsov_pda_name">
+		<text>Get the case for Kuznetsov</text>
+	</string>
+	<string id="Withdraw_from_plant_Chernomor_pda_name">
+		<text>Get out of the Chernomor plant</text>
+	</string>
+	<string id="Find_things_stalker_pda_name">
+		<text>Find Stalker items</text>
+	</string>
+	<string id="Find_a_stranger_pda_name">
+		<text>Find the stranger</text>
+	</string>
+	<string id="Prevent_explosion_base_Liberty_pda_name">
+		<text>Prevent the bombing at the Freedom base</text>
+	</string>
+	<string id="Overhear_the_conversation_pda_name">
+		<text>Overhear the conversation</text>
+	</string>
+	<string id="Locate_activate_portal_pda_name">
+		<text>Locate and activate the portal</text>
+	</string>
+	<string id="Earn_honest_robbery_pda_name">
+		<text>Earn an honest robbery</text>
+	</string>
+	<string id="Find_polumutanta_pda_name">
+		<text>Find Polumutanta</text>
+	</string>
+	<string id="Get_of_Dead_Cities_pda_name">
+		<text>Get out of the Dead City</text>
+	</string>
+	<string id="Find_cache_agricultural_industry_pda_name">
+		<text>Find the cache in the Agroprom</text>
+	</string>
+	<string id="Release_Bolotny_Doctors_pda_name">
+		<text>Release the Swamp Doctor</text>
+	</string>
+	<string id="Artifacts_pda_name">
+		<text>Artefacts</text>
+	</string>
+	<string id="Diary">
+		<text>Diary</text>
+	</string>
+	<string id="Weapons">
+		<text>Weapons</text>
+	</string>
+	<string id="Pistols">
+		<text>Pistols</text>
+	</string>
+	<string id="Machineguns">
+		<text>Machine guns</text>
+	</string>
+	<string id="Sniper_rifles">
+		<text>Sniper rifles</text>
+	</string>
+	<string id="Creatures">
+		<text>Creatures</text>
+	</string>
+	<string id="info">
+		<text>Info</text>
+	</string>
+	<string id="Books">
+		<text>Books</text>
+	</string>
+	<string id="Items">
+		<text>Items</text>
+	</string>
+	<string id="Armors">
+		<text>Armor</text>
+	</string>
+	<string id="task">
+		<text>Tasks</text>
+	</string>
+	<string id="izomorf_pda_name">
+		<text>Isomorph</text>
+	</string>
+	<string id="Rostok_pda_name">
+		<text>Wild Territory</text>
+	</string>
+	<!-- text for the new tasks about mutant minimap detector - aleks1970 -->
+	<string id="Collect_details_detector_werewolf_pda_name">
+		<text>Collect details of Werewolf detector</text>	<!-- Replaced 'your' with 'details of' - Sword2012 -->
+	</string>
+	<string id="Collect_details_detector_chimera_pda_name">	<!-- Replaced 'your' with 'details of' - Sword2012 -->
+		<text>Collect details of Chimera detector</text>
+	</string>
+	<string id="Collect_details_detector_burer_pda_name">	<!-- Replaced 'your' with 'details of' - Sword2012 -->
+		<text>Collect details of Burer detector</text>
+	</string>
+	<string id="Collect_details_detector_librarian_pda_name">	<!-- Replaced 'your' with 'details of' - Sword2012 -->
+		<text>Collect details of Librarian detector</text>
+	</string>
+</string_table>

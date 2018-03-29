@@ -1,0 +1,2633 @@
+<!-- TB3D 1.1.0.0.0.4 wawka 2=========================================================-->
+<!-- Reworked up to the end - Sword2012 - 04 Apr 17 -->
+<string_table>
+	<string id="start_update_outfit_zhmot_0">
+		<text>Is everything okay?</text>
+	</string>
+	<string id="start_update_outfit_zhmot_1">
+		<text>Hey, Marked One! Thanks for your help against those fucking fanatics! Look, I want to offer you something in return... If you ever feel like using one of our suits, I can upgrade it for you. I can reinforce it to make it more durable, and even add Pilot Night Vision. How does that sound?</text>
+	</string>
+	<string id="start_update_outfit_zhmot_2">
+		<text>It sounds superb. I'm honored. Thank you...</text>
+	</string>
+	<string id="update_outfit_zhmot_0">
+		<text>Could you upgrade a suit for me, please?</text>
+	</string>
+	<string id="update_outfit_zhmot_1">
+		<text>I can install PNV onto any of these suits for you:\nThe 'Wind of Freedom' suit\nThe 'Guards of Freedom' suit\nThe Freedom SEVA suit\nThe Freedom Exoskeleton\nThe Unique 'Wind of Freedom' suit\nThe 'Wind of Freedom' suit with gas mask\nThe 'Guards of Freedom' suit with gas mask\nThe Unique Freedom Exoskeleton\nThe Unique Military 'Cobblestone' armor\nI can also reinforce any of these suits with light titanium plates, making it do its job for longer before you need to repair it. The plates I use are pre-formed specially for Freedom's suits by a fabricating company. They supply different patterns to order, so if you want another faction's suit modified, you'll need to talk with their technicians instead, okay? So what would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_1111">
+		<text>Night vision, please...</text>
+	</string>
+	<string id="update_outfit_zhmot_11111">
+		<text>Do you want it installed on a standard suit, or a reinforced one?</text>
+	</string>
+	<string id="update_outfit_zhmot_111111">
+		<text>On a standard suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_1111111">
+		<text>No problem... Onto which suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_zhmot_2">
+		<text>The 'Wind of Freedom' suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_3">
+		<text>The 'Guards of Freedom' suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_4">
+		<text>The Freedom SEVA suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_5">
+		<text>The Freedom Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_zhmot_6">
+		<text>The Unique 'Wind of Freedom' suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_7">
+		<text>The 'Wind of Freedom' suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_zhmot_8">
+		<text>The 'Guards of Freedom' suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_zhmot_9">
+		<text>The Unique Freedom Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_zhmot_10">
+		<text>The Unique Military 'Cobblestone' armor...</text>
+	</string>
+	<string id="update_outfit_zhmot_02">
+		<text>For a 'Wind of Freedom' suit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0021">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0022">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0023">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0024">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0025">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0026">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0027">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0028">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_03">
+		<text>For a 'Guards of Freedom' suit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0031">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0032">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0033">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0034">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0035">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0036">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0037">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0038">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_04">
+		<text>For a Freedom SEVA suit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0041">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0042">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0043">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0044">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0045">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0046">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0047">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0048">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_05">
+		<text>For a Freedom Exoskeleton I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0051">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0052">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0053">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0054">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0055">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0056">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0057">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0058">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_06">
+		<text>For a Unique 'Wind of Freedom' suit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0061">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0062">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0063">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0064">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0065">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0066">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0067">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0068">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_07">
+		<text>For a 'Wind of Freedom' suit with gas mask I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0071">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0072">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0073">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0074">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0075">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0076">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0077">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0078">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_08">
+		<text>For a 'Guards of Freedom' suit with gas mask I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0081">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0082">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0083">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0084">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0085">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0086">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0087">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0088">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_09">
+		<text>For a Unique Freedom Exoskeleton I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0091">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0092">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0093">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0094">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0095">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0096">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0097">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0098">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_010">
+		<text>For the Unique Military 'Cobblestone' armor I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_00101">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_00102">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_00103">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_00104">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_00105">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_00106">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_00107">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_00108">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_2100">
+		<text>Here's your 'Wind of Freedom' suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_2200">
+		<text>Here's your 'Wind of Freedom' suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_2300">
+		<text>Here's your 'Wind of Freedom' suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_2400">
+		<text>Here's your 'Wind of Freedom' suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_2500">
+		<text>Here's your 'Wind of Freedom' suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_2600">
+		<text>Here's your 'Wind of Freedom' suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_2700">
+		<text>Here's your 'Wind of Freedom' suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_2800">
+		<text>Here's your 'Wind of Freedom' suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3100">
+		<text>Here's your 'Guards of Freedom' suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3200">
+		<text>Here's your 'Guards of Freedom' suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3300">
+		<text>Here's your 'Guards of Freedom' suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3400">
+		<text>Here's your 'Guards of Freedom' suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3500">
+		<text>Here's your 'Guards of Freedom' suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3600">
+		<text>Here's your 'Guards of Freedom' suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3700">
+		<text>Here's your 'Guards of Freedom' suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3800">
+		<text>Here's your 'Guards of Freedom' suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_4100">
+		<text>Here's your Freedom SEVA suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_4200">
+		<text>Here's your Freedom SEVA suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_4300">
+		<text>Here's your Freedom SEVA suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_4400">
+		<text>Here's your Freedom SEVA suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_4500">
+		<text>Here's your Freedom SEVA suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_4600">
+		<text>Here's your Freedom SEVA suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_4700">
+		<text>Here's your Freedom SEVA suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_4800">
+		<text>Here's your Freedom SEVA suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_5100">
+		<text>Here's your Freedom Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_5200">
+		<text>Here's your Freedom Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_5300">
+		<text>Here's your Freedom Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_5400">
+		<text>Here's your Freedom Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_5500">
+		<text>Here's your Freedom Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_5600">
+		<text>Here's your Freedom Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_5700">
+		<text>Here's your Freedom Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_5800">
+		<text>Here's your Freedom Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_6100">
+		<text>Here's your Unique 'Wind of Freedom' suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_6200">
+		<text>Here's your Unique 'Wind of Freedom' suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_6300">
+		<text>Here's your Unique 'Wind of Freedom' suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_6400">
+		<text>Here's your Unique 'Wind of Freedom' suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_6500">
+		<text>Here's your Unique 'Wind of Freedom' suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_6600">
+		<text>Here's your Unique 'Wind of Freedom' suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_6700">
+		<text>Here's your Unique 'Wind of Freedom' suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_6800">
+		<text>Here's your Unique 'Wind of Freedom' suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_7100">
+		<text>Here's your 'Wind of Freedom' suit with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_7200">
+		<text>Here's your 'Wind of Freedom' suit with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_7300">
+		<text>Here's your 'Wind of Freedom' suit with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_7400">
+		<text>Here's your 'Wind of Freedom' suit with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_7500">
+		<text>Here's your 'Wind of Freedom' suit with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_7600">
+		<text>Here's your 'Wind of Freedom' suit with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_7700">
+		<text>Here's your 'Wind of Freedom' suit with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_7800">
+		<text>Here's your 'Wind of Freedom' suit with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_8100">
+		<text>Here's your 'Guards of Freedom' suit with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_8200">
+		<text>Here's your 'Guards of Freedom' suit with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_8300">
+		<text>Here's your 'Guards of Freedom' suit with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_8400">
+		<text>Here's your 'Guards of Freedom' suit with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_8500">
+		<text>Here's your 'Guards of Freedom' suit with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_8600">
+		<text>Here's your 'Guards of Freedom' suit with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_8700">
+		<text>Here's your 'Guards of Freedom' suit with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_8800">
+		<text>Here's your 'Guards of Freedom' suit with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_9100">
+		<text>Here's your Unique Freedom Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_9200">
+		<text>Here's your Unique Freedom Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_9300">
+		<text>Here's your Unique Freedom Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_9400">
+		<text>Here's your Unique Freedom Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_9500">
+		<text>Here's your Unique Freedom Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_9600">
+		<text>Here's your Unique Freedom Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_9700">
+		<text>Here's your Unique Freedom Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_9800">
+		<text>Here's your Unique Freedom Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_10100">
+		<text>Here's your Unique Military 'Cobblestone' armor. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_10200">
+		<text>Here's your Unique Military 'Cobblestone' armor. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_10300">
+		<text>Here's your Unique Military 'Cobblestone' armor. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_10400">
+		<text>Here's your Unique Military 'Cobblestone' armor. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_10500">
+		<text>Here's your Unique Military 'Cobblestone' armor. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_10600">
+		<text>Here's your Unique Military 'Cobblestone' armor. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_10700">
+		<text>Here's your Unique Military 'Cobblestone' armor. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_10800">
+		<text>Here's your Unique Military 'Cobblestone' armor. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_111112">
+		<text>A reinforced one, please...</text>
+	</string>
+	<string id="update_outfit_zhmot_1111121">
+		<text>Excellent... Onto which reinforced suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_zhmot_102">
+		<text>The 'Wind of Freedom' suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_103">
+		<text>The 'Guards of Freedom' suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_104">
+		<text>The Freedom SEVA suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_105">
+		<text>The Freedom Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_zhmot_106">
+		<text>The Unique 'Wind of Freedom' suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_107">
+		<text>The 'Wind of Freedom' suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_zhmot_108">
+		<text>The 'Guards of Freedom' suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_zhmot_109">
+		<text>The Unique Freedom Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_zhmot_110">
+		<text>The Unique Military 'Cobblestone' armor...</text>
+	</string>
+	<string id="update_outfit_zhmot_1022">
+		<text>For a reinforced 'Wind of Freedom' suit I can offer you :\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0121">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0122">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0123">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0124">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0125">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0126">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0127">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0128">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1033">
+		<text>For a reinforced 'Guards of Freedom' suit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0131">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0132">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0133">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0134">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0135">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0136">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0137">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0138">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1044">
+		<text>For a reinforced Freedom SEVA suit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0141">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0142">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0143">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0144">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0145">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0146">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0147">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0148">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1055">
+		<text>For a reinforced Freedom Exoskeleton I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0151">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0152">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0153">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0154">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0155">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0156">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0157">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0158">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1066">
+		<text>For a reinforced Unique 'Wind of Freedom' suit I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0161">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0162">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0163">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0164">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0165">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0166">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0167">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0168">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1077">
+		<text>For a reinforced 'Wind of Freedom' suit with gas mask I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0171">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0172">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0173">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0174">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0175">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0176">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0177">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0178">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1088">
+		<text>For a reinforced 'Guards of Freedom' suit with gas mask I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0181">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0182">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0183">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0184">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0185">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0186">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0187">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0188">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1099">
+		<text>For a reinforced Unique Freedom Exoskeleton I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_0191">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0192">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0193">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0194">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0195">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0196">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0197">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_0198">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_10110">
+		<text>For the reinforced Unique Military 'Cobblestone' armor I can offer you:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_zhmot_01101">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_01102">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_01103">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_01104">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_01105">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_01106">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_01107">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_01108">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1210">
+		<text>Here's your reinforced 'Wind of Freedom' suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1220">
+		<text>Here's your reinforced 'Wind of Freedom' suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1230">
+		<text>Here's your reinforced 'Wind of Freedom' suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1240">
+		<text>Here's your reinforced 'Wind of Freedom' suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1250">
+		<text>Here's your reinforced 'Wind of Freedom' suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1260">
+		<text>Here's your reinforced 'Wind of Freedom' suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1270">
+		<text>Here's your reinforced 'Wind of Freedom' suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1280">
+		<text>Here's your reinforced 'Wind of Freedom' suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1310">
+		<text>Here's your reinforced 'Guards of Freedom' suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1320">
+		<text>Here's your reinforced 'Guards of Freedom' suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1330">
+		<text>Here's your reinforced 'Guards of Freedom' suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1340">
+		<text>Here's your reinforced 'Guards of Freedom' suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1350">
+		<text>Here's your reinforced 'Guards of Freedom' suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1360">
+		<text>Here's your reinforced 'Guards of Freedom' suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1370">
+		<text>Here's your reinforced 'Guards of Freedom' suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1380">
+		<text>Here's your reinforced 'Guards of Freedom' suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1410">
+		<text>Here's your reinforced Freedom SEVA suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1420">
+		<text>Here's your reinforced Freedom SEVA suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1430">
+		<text>Here's your reinforced Freedom SEVA suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1440">
+		<text>Here's your reinforced Freedom SEVA suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1450">
+		<text>Here's your reinforced Freedom SEVA suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1460">
+		<text>Here's your reinforced Freedom SEVA suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1470">
+		<text>Here's your reinforced Freedom SEVA suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1480">
+		<text>Here's your reinforced Freedom SEVA suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1510">
+		<text>Here's your reinforced Freedom Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1520">
+		<text>Here's your reinforced Freedom Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1530">
+		<text>Here's your reinforced Freedom Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1540">
+		<text>Here's your reinforced Freedom Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1550">
+		<text>Here's your reinforced Freedom Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1560">
+		<text>Here's your reinforced Freedom Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1570">
+		<text>Here's your reinforced Freedom Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1580">
+		<text>Here's your reinforced Freedom Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1610">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1620">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1630">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1640">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1650">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1660">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1670">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1680">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1710">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1720">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1730">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1740">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1750">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1760">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1770">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1780">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1810">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1820">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1830">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1840">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1850">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1860">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1870">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1880">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1910">
+		<text>Here's your reinforced Unique Freedom Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1920">
+		<text>Here's your reinforced Unique Freedom Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1930">
+		<text>Here's your reinforced Unique Freedom Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1940">
+		<text>Here's your reinforced Unique Freedom Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1950">
+		<text>Here's your reinforced Unique Freedom Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1960">
+		<text>Here's your reinforced Unique Freedom Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1970">
+		<text>Here's your reinforced Unique Freedom Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_1980">
+		<text>Here's your reinforced Unique Freedom Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_11010">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_11020">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_11030">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_11040">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_11050">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_11060">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_11070">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_11080">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_2222">
+		<text>Reinforce my suit, please...</text>
+	</string>
+	<string id="update_outfit_zhmot_22222">
+		<text>What kind of suit do you want reinforcing - a standard suit, or one already fitted with night vision?</text>
+	</string>
+	<string id="update_outfit_zhmot_222221">
+		<text>A standard one...</text>
+	</string>
+	<string id="update_outfit_zhmot_2222211">
+		<text>Excellent... My quotations:\nThe 'Wind of Freedom' suit - for a Skin artefact plus 10,000Ru\nThe 'Guards of Freedom' suit - for a Skin artefact plus 15,000Ru\nThe Freedom SEVA suit - for a Scale artefact plus 35,000Ru\nFreedom Exoskeleton - for a Steel Scale artefact plus 75,000Ru\nThe Unique 'Wind of Freedom' suit - for a Skin artefact plus 15,000Ru\nThe 'Wind of Freedom' suit with gas mask - for a Skin artefact plus 15,000Ru\nThe 'Guards of Freedom' suit with gas mask - for a Skin artefact plus 20,000Ru\nThe Unique Freedom Exoskeleton - for a Steel Scale artefact plus 70,000Ru\nThe Unique Military 'Cobblestone' armor - for a Steel Scale artefact plus 150,000Ru\nOnto which suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_zhmot_202">
+		<text>The 'Wind of Freedom' suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_203">
+		<text>The 'Guards of Freedom' suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_204">
+		<text>The Freedom SEVA suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_205">
+		<text>The Freedom Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_zhmot_206">
+		<text>The Unique 'Wind of Freedom' suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_207">
+		<text>The 'Wind of Freedom' suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_zhmot_208">
+		<text>The 'Guards of Freedom' suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_zhmot_209">
+		<text>The Unique Freedom Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_zhmot_210">
+		<text>The Unique Military 'Cobblestone' armor...</text>
+	</string>
+	<string id="update_outfit_zhmot_211">
+		<text>Here's your reinforced 'Wind of Freedom' suit</text>
+	</string>
+	<string id="update_outfit_zhmot_212">
+		<text>Here's your reinforced 'Guards of Freedom' suit</text>
+	</string>
+	<string id="update_outfit_zhmot_213">
+		<text>Here's your reinforced Freedom SEVA suit</text>
+	</string>
+	<string id="update_outfit_zhmot_214">
+		<text>Here's your reinforced Freedom Exoskeleton</text>
+	</string>
+	<string id="update_outfit_zhmot_215">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit</text>
+	</string>
+	<string id="update_outfit_zhmot_216">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask</text>
+	</string>
+	<string id="update_outfit_zhmot_217">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask</text>
+	</string>
+	<string id="update_outfit_zhmot_218">
+		<text>Here's your reinforced Unique Freedom Exoskeleton</text>
+	</string>
+	<string id="update_outfit_zhmot_219">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor</text>
+	</string>
+	<string id="update_outfit_zhmot_222222">
+		<text>With night vision...</text>
+	</string>
+	<string id="update_outfit_zhmot_2222221">
+		<text>Excellent... Onto which suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_zhmot_302">
+		<text>The 'Wind of Freedom' suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_303">
+		<text>The 'Guards of Freedom' suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_304">
+		<text>The Freedom SEVA suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_305">
+		<text>The Freedom Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_zhmot_306">
+		<text>The Unique 'Wind of Freedom' suit...</text>
+	</string>
+	<string id="update_outfit_zhmot_307">
+		<text>The 'Wind of Freedom' suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_zhmot_308">
+		<text>The 'Guards of Freedom' suit with gas mask...</text>
+	</string>
+	<string id="update_outfit_zhmot_309">
+		<text>The Unique Freedom Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_zhmot_310">
+		<text>The Unique Military 'Cobblestone' armor...</text>
+	</string>
+	<string id="update_outfit_zhmot_3022">
+		<text>The cost of reinforcing a 'Wind of Freedom' suit, with fitted PNV, is 10,000Ru plus a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_zhmot_0321">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0322">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0323">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0324">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0325">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0326">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0327">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0328">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_3033">
+		<text>The cost of reinforcing a 'Guards of Freedom' suit, with fitted PNV, is 15,000Ru plus a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_zhmot_0331">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0332">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0333">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0334">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0335">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0336">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0337">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0338">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_3044">
+		<text>The cost of reinforcing a Freedom SEVA suit, with fitted PNV, is 35,000Ru plus a Scale artefact...</text>
+	</string>
+	<string id="update_outfit_zhmot_0341">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0342">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0343">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0344">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0345">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0346">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0347">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0348">
+		<text>I've fitted it with PNV 'White Night'... In, hold...</text>
+	</string>
+	<string id="update_outfit_zhmot_3055">
+		<text>The cost of reinforcing a Freedom Exoskeleton, with fitted PNV, is 75,000Ru plus a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_zhmot_0351">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0352">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0353">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0354">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0355">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0356">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0357">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0358">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_3066">
+		<text>The cost of reinforcing a Unique 'Wind of Freedom' suit, with fitted PNV, is 15,000Ru plus a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_zhmot_0361">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0362">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0363">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0364">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0365">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0366">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0367">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0368">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_3077">
+		<text>The cost of reinforcing a 'Wind of Freedom' suit with gas mask, with fitted PNV, is 15,000Ru plus a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_zhmot_0371">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0372">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0373">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0374">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0375">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0376">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0377">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0378">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_3088">
+		<text>The cost of reinforcing a 'Guards of Freedom'suit, with fitted PNV, is 20,000Ru plus a Skin artefact...</text>
+	</string>
+	<string id="update_outfit_zhmot_0381">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0382">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0383">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0384">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0385">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0386">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0387">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0388">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_3099">
+		<text>The cost of reinforcing a Unique Freedom Exoskeleton, with fitted PNV, is 70,000Ru and a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_zhmot_0391">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0392">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0393">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0394">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0395">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0396">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0397">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_0398">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_30110">
+		<text>The cost of reinforcing the Unique Military 'Cobblestone' armor, with fitted PNV, is 150,000Ru and a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_zhmot_03101">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_03102">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_03103">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_03104">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_03105">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_03106">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_03107">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_03108">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_zhmot_3210">
+		<text>Here's your reinforced 'Wind of Freedom' suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3220">
+		<text>Here's your reinforced 'Wind of Freedom' suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3230">
+		<text>Here's your reinforced 'Wind of Freedom' suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3240">
+		<text>Here's your reinforced 'Wind of Freedom' suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3250">
+		<text>Here's your reinforced 'Wind of Freedom' suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3260">
+		<text>Here's your reinforced 'Wind of Freedom' suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3270">
+		<text>Here's your reinforced 'Wind of Freedom' suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3280">
+		<text>Here's your reinforced 'Wind of Freedom' suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3310">
+		<text>Here's your reinforced 'Guards of Freedom' suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3320">
+		<text>Here's your reinforced 'Guards of Freedom' suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3330">
+		<text>Here's your reinforced 'Guards of Freedom' suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3340">
+		<text>Here's your reinforced 'Guards of Freedom' suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3350">
+		<text>Here's your reinforced 'Guards of Freedom' suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3360">
+		<text>Here's your reinforced 'Guards of Freedom' suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3370">
+		<text>Here's your reinforced 'Guards of Freedom' suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3380">
+		<text>Here's your reinforced 'Guards of Freedom' suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3410">
+		<text>Here's your reinforced Freedom SEVA suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3420">
+		<text>Here's your reinforced Freedom SEVA suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3430">
+		<text>Here's your reinforced Freedom SEVA suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3440">
+		<text>Here's your reinforced Freedom SEVA suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3450">
+		<text>Here's your reinforced Freedom SEVA suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3460">
+		<text>Here's your reinforced Freedom SEVA suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3470">
+		<text>Here's your reinforced Freedom SEVA suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3480">
+		<text>Here's your reinforced Freedom SEVA suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3510">
+		<text>Here's your reinforced Freedom Exoskeleton with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3520">
+		<text>Here's your reinforced Freedom Exoskeleton with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3530">
+		<text>Here's your reinforced Freedom Exoskeleton with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3540">
+		<text>Here's your reinforced Freedom Exoskeleton with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3550">
+		<text>Here's your reinforced Freedom Exoskeleton with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3560">
+		<text>Here's your reinforced Freedom Exoskeleton with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3570">
+		<text>Here's your reinforced Freedom Exoskeleton with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3580">
+		<text>Here's your reinforced Freedom Exoskeleton with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3610">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3620">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3630">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3640">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3650">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3660">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3670">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3680">
+		<text>Here's your reinforced Unique 'Wind of Freedom' suit with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3710">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask and PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3720">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask and PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3730">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask and PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3740">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask and PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3750">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask and PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3760">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask and PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3770">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask and PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3780">
+		<text>Here's your reinforced 'Wind of Freedom' suit with gas mask and PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3810">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask and PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3820">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask and PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3830">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask and PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3840">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask and PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3850">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask and PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3860">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask and PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3870">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask and PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3880">
+		<text>Here's your reinforced 'Guards of Freedom' suit with gas mask and PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3910">
+		<text>Here's your reinforced Unique Freedom Exoskeleton with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3920">
+		<text>Here's your reinforced Unique Freedom Exoskeleton with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3930">
+		<text>Here's your reinforced Unique Freedom Exoskeleton with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3940">
+		<text>Here's your reinforced Unique Freedom Exoskeleton with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3950">
+		<text>Here's your reinforced Unique Freedom Exoskeleton with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3960">
+		<text>Here's your reinforced Unique Freedom Exoskeleton with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3970">
+		<text>Here's your reinforced Unique Freedom Exoskeleton with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_3980">
+		<text>Here's your reinforced Unique Freedom Exoskeleton with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_31010">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_zhmot_31020">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_zhmot_31030">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_zhmot_31040">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_zhmot_31050">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_zhmot_31060">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_zhmot_31070">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_zhmot_31080">
+		<text>Here's your reinforced Unique Military 'Cobblestone' armor with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_zhmot_999">
+		<text>Ah, sorry. Not at the moment, thanks...</text>
+	</string>
+	<!--=====TB3D 1.0.9.8 ===============================================-->
+	<string id="start_update_outfit_dolgovyazyj_0">
+		<text>Greetings, Lanky...</text>
+	</string>
+	<string id="start_update_outfit_dolgovyazyj_1">
+		<text>Hi, Marked One! Well, I see you're serious - The Barman has informed me that you have the Agroprom documents. Good man! I'd be happy to offer my services in updating the heaviest but most sought after suits in the Zone - Exoskeletons. Specifically, I can install Pilot Night Vision and reinforcing plates, that will make your suit last longer. Unfortunately, each faction's technician works differently, modifying to what their group needs, using what they have available. In addition, they use differently formed plates, so I can't promise to modify every Exoskeleton. I can help with Loner and Bandit Exoskeletons - I do all their modifications - but Duty Exoskeletons can be modified by their ex-sniper Petrenko. You'll just need to come to an arrangement with the security detail at their base entrance...</text>
+	</string>
+	<string id="start_update_outfit_dolgovyazyj_2">
+		<text>Excellent, thanks!</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0">
+		<text>Can you update suits?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1">
+		<text>I can install PNV onto any of these suits:\nThe Stalker Exoskeleton\nThe damaged Exoskeleton\nThe Exoskeleton 'Mk.1'\nThe Bandit Exoskeleton\nThe Prototype Exoskeleton\nThe Modified Exoskeleton\nAnd I can also reinforce the suit. What would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1111">
+		<text>Night vision, please...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_11111">
+		<text>Is it to be installed on a standard suit, or a reinforced one?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_111111">
+		<text>On a standard suit...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1111111">
+		<text>Excellent... Onto which suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_2">
+		<text>The Stalker Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3">
+		<text>The damaged Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_4">
+		<text>The Exoskeleton 'Mk.1'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_5">
+		<text>The Bandit Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_6">
+		<text>The Prototype Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_7">
+		<text>The Modified Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_02">
+		<text>For a Stalker Exoskeleton:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0021">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0022">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0023">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0024">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0025">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0026">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0027">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0028">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_03">
+		<text>For a damaged Exoskeleton:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0031">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0032">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0033">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0034">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0035">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0036">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0037">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0038">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_04">
+		<text>For a an Exoskeleton 'Mk.1' :\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0041">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0042">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0043">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0044">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0045">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0046">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0047">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0048">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_05">
+		<text>For a an Bandit Exoskeleton:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0051">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0052">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0053">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0054">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0055">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0056">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0057">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0058">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_06">
+		<text>For a Prototype Exoskeleton:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0061">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0062">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0063">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0064">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0065">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0066">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0067">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0068">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_07">
+		<text>For a Modified Exoskeleton:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0071">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0072">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0073">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0074">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0075">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0076">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0077">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0078">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_2100">
+		<text>Here's your Stalker Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_2200">
+		<text>Here's your Stalker Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_2300">
+		<text>Here's your Stalker Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_2400">
+		<text>Here's your Stalker Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_2500">
+		<text>Here's your Stalker Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_2600">
+		<text>Here's your Stalker Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_2700">
+		<text>Here's your Stalker Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_2800">
+		<text>Here's your Stalker Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3100">
+		<text>Here's your damaged Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3200">
+		<text>Here's your damaged Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3300">
+		<text>Here's your damaged Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3400">
+		<text>Here's your damaged Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3500">
+		<text>Here's your damaged Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3600">
+		<text>Here's your damaged Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3700">
+		<text>Here's your damaged Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3800">
+		<text>Here's your damaged Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_4100">
+		<text>Here's your Exoskeleton 'Mk.1'. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_4200">
+		<text>Here's your Exoskeleton 'Mk.1'. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_4300">
+		<text>Here's your Exoskeleton 'Mk.1'. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_4400">
+		<text>Here's your Exoskeleton 'Mk.1'. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_4500">
+		<text>Here's your Exoskeleton 'Mk.1'. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_4600">
+		<text>Here's your Exoskeleton 'Mk.1'. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_4700">
+		<text>Here's your Exoskeleton 'Mk.1'. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_4800">
+		<text>Here's your Exoskeleton 'Mk.1'. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_5100">
+		<text>Here's your Bandit Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_5200">
+		<text>Here's your Bandit Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_5300">
+		<text>Here's your Bandit Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_5400">
+		<text>Here's your Bandit Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_5500">
+		<text>Here's your Bandit Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_5600">
+		<text>Here's your Bandit Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_5700">
+		<text>Here's your Bandit Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_5800">
+		<text>Here's your Bandit Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_6100">
+		<text>Here's your Prototype Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_6200">
+		<text>Here's your Prototype Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_6300">
+		<text>Here's your Prototype Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_6400">
+		<text>Here's your Prototype Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_6500">
+		<text>Here's your Prototype Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_6600">
+		<text>Here's your Prototype Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_6700">
+		<text>Here's your Prototype Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_6800">
+		<text>Here's your Prototype Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_7100">
+		<text>Here's your Modified Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_7200">
+		<text>Here's your Modified Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_7300">
+		<text>Here's your Modified Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_7400">
+		<text>Here's your Modified Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_7500">
+		<text>Here's your Modified Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_7600">
+		<text>Here's your Modified Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_7700">
+		<text>Here's your Modified Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_7800">
+		<text>Here's your Modified Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_111112">
+		<text>A reinforced one, please...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1111121">
+		<text>Excellent... Onto which reinforced suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_102">
+		<text>The Stalker Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_103">
+		<text>The damaged Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_104">
+		<text>The Exoskeleton 'Mk.1'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_105">
+		<text>The Bandit Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_106">
+		<text>The Prototype Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_107">
+		<text>The Modified Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1022">
+		<text>For a reinforced Stalker Exoskeleton:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0121">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0122">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0123">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0124">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0125">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0126">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0127">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0128">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1033">
+		<text>For a reinforced damaged Exoskeleton:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0131">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0132">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0133">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0134">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0135">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0136">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0137">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0138">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1044">
+		<text>For a reinforced Exoskeleton 'Mk.1' :\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0141">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0142">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0143">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0144">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0145">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0146">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0147">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0148">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1055">
+		<text>For a reinforced Bandit Exoskeleton:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0151">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0152">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0153">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0154">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0155">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0156">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0157">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0158">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1066">
+		<text>For a reinforced Prototype Exoskeleton:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0161">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0162">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0163">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0164">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0165">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0166">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0167">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0168">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1077">
+		<text>For a reinforced Modified Exoskeleton:\nPNV 'Green' - 10,000Ru\nPNV 'Sepia' - 15,000Ru\nPNV 'Digital' - 25,000Ru\nPNV 'Halogen' - 20,000Ru\nPNV 'Cats Eye' - 30,000Ru\nPNV 'Psi-effect' - 25,000Ru\nPNV 'Moonlight' - 25,000Ru\nPNV 'White Night' - 30,000Ru\nWhich would you like?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0171">
+		<text>Standard 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0172">
+		<text>'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0173">
+		<text>'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0174">
+		<text>'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0175">
+		<text>'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0176">
+		<text>'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0177">
+		<text>'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0178">
+		<text>The best, please - 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1210">
+		<text>Here's your reinforced Stalker Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1220">
+		<text>Here's your reinforced Stalker Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1230">
+		<text>Here's your reinforced Stalker Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1240">
+		<text>Here's your reinforced Stalker Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1250">
+		<text>Here's your reinforced Stalker Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1260">
+		<text>Here's your reinforced Stalker Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1270">
+		<text>Here's your reinforced Stalker Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1280">
+		<text>Here's your reinforced Stalker Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1310">
+		<text>Here's your reinforced damaged Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1320">
+		<text>Here's your reinforced damaged Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1330">
+		<text>Here's your reinforced damaged Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1340">
+		<text>Here's your reinforced damaged Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1350">
+		<text>Here's your reinforced damaged Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1360">
+		<text>Here's your reinforced damaged Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1370">
+		<text>Here's your reinforced damaged Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1380">
+		<text>Here's your reinforced damaged Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1410">
+		<text>Here's your reinforced Exoskeleton 'Mk.1'. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1420">
+		<text>Here's your reinforced Exoskeleton 'Mk.1'. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1430">
+		<text>Here's your reinforced Exoskeleton 'Mk.1'. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1440">
+		<text>Here's your reinforced Exoskeleton 'Mk.1'. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1450">
+		<text>Here's your reinforced Exoskeleton 'Mk.1'. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1460">
+		<text>Here's your reinforced Exoskeleton 'Mk.1'. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1470">
+		<text>Here's your reinforced Exoskeleton 'Mk.1'. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1480">
+		<text>Here's your reinforced Exoskeleton 'Mk.1'. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1510">
+		<text>Here's your reinforced Bandit Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1520">
+		<text>Here's your reinforced Bandit Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1530">
+		<text>Here's your reinforced Bandit Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1540">
+		<text>Here's your reinforced Bandit Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1550">
+		<text>Here's your reinforced Bandit Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1560">
+		<text>Here's your reinforced Bandit Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1570">
+		<text>Here's your reinforced Bandit Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1580">
+		<text>Here's your reinforced Bandit Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1610">
+		<text>Here's your reinforced Prototype Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1620">
+		<text>Here's your reinforced Prototype Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1630">
+		<text>Here's your reinforced Prototype Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1640">
+		<text>Here's your reinforced Prototype Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1650">
+		<text>Here's your reinforced Prototype Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1660">
+		<text>Here's your reinforced Prototype Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1670">
+		<text>Here's your reinforced Prototype Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1680">
+		<text>Here's your reinforced Prototype Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1710">
+		<text>Here's your reinforced Modified Exoskeleton. It now has PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1720">
+		<text>Here's your reinforced Modified Exoskeleton. It now has PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1730">
+		<text>Here's your reinforced Modified Exoskeleton. It now has PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1740">
+		<text>Here's your reinforced Modified Exoskeleton. It now has PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1750">
+		<text>Here's your reinforced Modified Exoskeleton. It now has PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1760">
+		<text>Here's your reinforced Modified Exoskeleton. It now has PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1770">
+		<text>Here's your reinforced Modified Exoskeleton. It now has PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_1780">
+		<text>Here's your reinforced Modified Exoskeleton. It now has PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_2222">
+		<text>I'd like to reinforce a suit, please...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_22222">
+		<text>What kind of suit do you want to reinforce - a standard suit, or one already fitted with night vision?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_222221">
+		<text>Standard...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_2222211">
+		<text>No problem. Here are my charges:\nThe Stalker Exoskeleton - for a Steel Scale artefact plus 70,000Ru\nThe damaged Exoskeleton - for a Steel Scale artefact plus 5,000Ru\nThe Exoskeleton 'Mk.1' - for a Steel Scale artefact plus 55,000Ru\nThe Bandit Exoskeleton - for a Steel Scale artefact plus 90,000Ru\nThe Prototype Exoskeleton - for a Steel Scale artefact plus 55,000Ru\nThe Modified Exoskeleton - for a Steel Scale artefact plus 75,000Ru\nOnto which suit would you like it fitted?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_202">
+		<text>The Stalker Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_203">
+		<text>The damaged Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_204">
+		<text>The Exoskeleton 'Mk.1'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_205">
+		<text>The Bandit Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_206">
+		<text>The Prototype Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_207">
+		<text>The Modified Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_211">
+		<text>Here's your reinforced Stalker Exoskeleton</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_212">
+		<text>Here's your reinforced damaged Exoskeleton</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_213">
+		<text>Here's your reinforced Exoskeleton 'Mk.1'</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_214">
+		<text>Here's your reinforced Bandit Exoskeleton</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_215">
+		<text>Here's your reinforced Prototype Exoskeleton</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_216">
+		<text>Here's your reinforced Modified Exoskeleton</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_222222">
+		<text>With night vision...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_2222221">
+		<text>Excellent... And onto which model of suit?</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_302">
+		<text>The Stalker Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_303">
+		<text>The damaged Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_304">
+		<text>The Exoskeleton 'Mk.1'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_305">
+		<text>The Bandit Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_306">
+		<text>The Prototype Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_307">
+		<text>The Modified Exoskeleton...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3022">
+		<text>The cost to reinforce an Stalker Exoskeleton, with fitted PNV, is 70,000Ru and a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0321">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0322">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0323">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0324">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0325">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0326">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0327">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0328">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3033">
+		<text>The cost of reinforcing the damaged Exoskeleton, with fitted PNV, is 5,000Ru and a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0331">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0332">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0333">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0334">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0335">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0336">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0337">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0338">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3044">
+		<text>The cost of reinforcing an Exoskeleton 'Mk.1', with fitted PNV, is 55,000Ru and a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0341">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0342">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0343">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0344">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0345">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0346">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0347">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0348">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3055">
+		<text>The cost of reinforcing an Bandit Exoskeleton, with fitted PNV, is 90,000Ru and a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0351">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0352">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0353">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0354">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0355">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0356">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0357">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0358">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3066">
+		<text>The cost of reinforcing a Prototype Exoskeleton, with fitted PNV, is 55,000Ru and a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0361">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0362">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0363">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0364">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0365">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0366">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0367">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0368">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3077">
+		<text>The cost of reinforcing the Modified Exoskeleton, with fitted PNV, is 75,000Ru and a Steel Scale artefact...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0371">
+		<text>I've fitted it with PNV 'Green'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0372">
+		<text>I've fitted it with PNV 'Digital'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0373">
+		<text>I've fitted it with PNV 'Sepia'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0374">
+		<text>I've fitted it with PNV 'Halogen'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0375">
+		<text>I've fitted it with PNV 'Cats Eye'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0376">
+		<text>I've fitted it with PNV 'Psi-effect'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0377">
+		<text>I've fitted it with PNV 'Moonlight'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_0378">
+		<text>I've fitted it with PNV 'White Night'. Here, take it...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3210">
+		<text>Here's your reinforced Stalker Exoskeleton with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3220">
+		<text>Here's your reinforced Stalker Exoskeleton with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3230">
+		<text>Here's your reinforced Stalker Exoskeleton with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3240">
+		<text>Here's your reinforced Stalker Exoskeleton with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3250">
+		<text>Here's your reinforced Stalker Exoskeleton with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3260">
+		<text>Here's your reinforced Stalker Exoskeleton with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3270">
+		<text>Here's your reinforced Stalker Exoskeleton with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3280">
+		<text>Here's your reinforced Stalker Exoskeleton with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3310">
+		<text>Here's your reinforced damaged Exoskeleton with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3320">
+		<text>Here's your reinforced damaged Exoskeleton with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3330">
+		<text>Here's your reinforced damaged Exoskeleton with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3340">
+		<text>Here's your reinforced damaged Exoskeleton with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3350">
+		<text>Here's your reinforced damaged Exoskeleton with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3360">
+		<text>Here's your reinforced damaged Exoskeleton with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3370">
+		<text>Here's your reinforced damaged Exoskeleton with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3380">
+		<text>Here's your reinforced damaged Exoskeleton with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3410">
+		<text>Here's your reinforced Exoskeleton 'Mk.1' with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3420">
+		<text>Here's your reinforced Exoskeleton 'Mk.1' with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3430">
+		<text>Here's your reinforced Exoskeleton 'Mk.1' with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3440">
+		<text>Here's your reinforced Exoskeleton 'Mk.1' with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3450">
+		<text>Here's your reinforced Exoskeleton 'Mk.1' with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3460">
+		<text>Here's your reinforced Exoskeleton 'Mk.1' with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3470">
+		<text>Here's your reinforced Exoskeleton 'Mk.1' with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3480">
+		<text>Here's your reinforced Exoskeleton 'Mk.1' with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3510">
+		<text>Here's your reinforced Bandit Exoskeleton with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3520">
+		<text>Here's your reinforced Bandit Exoskeleton with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3530">
+		<text>Here's your reinforced Bandit Exoskeleton with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3540">
+		<text>Here's your reinforced Bandit Exoskeleton with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3550">
+		<text>Here's your reinforced Bandit Exoskeleton with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3560">
+		<text>Here's your reinforced Bandit Exoskeleton with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3570">
+		<text>Here's your reinforced Bandit Exoskeleton with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3580">
+		<text>Here's your reinforced Bandit Exoskeleton with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3610">
+		<text>Here's your reinforced Prototype Exoskeleton with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3620">
+		<text>Here's your reinforced Prototype Exoskeleton with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3630">
+		<text>Here's your reinforced Prototype Exoskeleton with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3640">
+		<text>Here's your reinforced Prototype Exoskeleton with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3650">
+		<text>Here's your reinforced Prototype Exoskeleton with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3660">
+		<text>Here's your reinforced Prototype Exoskeleton with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3670">
+		<text>Here's your reinforced Prototype Exoskeleton with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3680">
+		<text>Here's your reinforced Prototype Exoskeleton with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3710">
+		<text>Here's your reinforced Modified Exoskeleton with PNV 'Green'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3720">
+		<text>Here's your reinforced Modified Exoskeleton with PNV 'Digital'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3730">
+		<text>Here's your reinforced Modified Exoskeleton with PNV 'Sepia'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3740">
+		<text>Here's your reinforced Modified Exoskeleton with PNV 'Halogen'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3750">
+		<text>Here's your reinforced Modified Exoskeleton with PNV 'Cats Eye'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3760">
+		<text>Here's your reinforced Modified Exoskeleton with PNV 'Psi-effect'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3770">
+		<text>Here's your reinforced Modified Exoskeleton with PNV 'Moonlight'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_3780">
+		<text>Here's your reinforced Modified Exoskeleton with PNV 'White Night'...</text>
+	</string>
+	<string id="update_outfit_dolgovyazyj_999">
+		<text>Ah, sorry. Not at the moment, thanks...</text>
+	</string>
+</string_table>

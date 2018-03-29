@@ -1,0 +1,237 @@
+;;;; TB3D 1.0.9.9.9.8 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+
+[glow_grenade_green]:identity_immunities
+; discovery_dependency = ; aleks1970
+GroupControlSection = spawn_group
+$spawn    = "artifacts\fosfor"
+
+$prefetch				= 128
+grenade_remove_time		= 60000
+detonation_threshold_hit= 1.0
+ef_weapon_type			= 1
+
+$npc      			= on    
+cform     			= skeleton
+class				= G_F1
+
+single_handed		= 1
+slot				= 3
+animation_slot		= 7
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_weight			= 0.18
+inv_grid_x     		= 24
+inv_grid_y     		= 59
+inv_name       		= fosfor_grenade_g
+inv_name_short 		= fosfor_grenade_g
+description    		= fosfor_grenade_descr
+visual		   		= balkanzona\glow_sticks\glow_grenade_green.ogf
+
+cost         		= 800
+particles    		= anomaly2\artefact\artefact_zharka
+lights_enabled    	= true
+trail_light_color 	= 0.01,1.0,0.01
+trail_light_range 	= 8.0
+
+hud						= glow_grenade_green_hud
+
+force_min				= 10	; ~30% of the maximum
+force_const				= 22;20
+force_max				= 30
+force_grow_speed		= 12 ;2 ;30
+destroy_time			= 1800
+
+blast					= 0 ;150
+blast_r					= 0 ;8
+blast_impulse		    = 0
+blast_impulse_factor    = 0
+
+frags					= 0  ;12
+frags_r					= 0
+frag_hit				= 0 ;50
+frag_hit_impulse		= 0
+
+hit_type_blast			= explosion
+hit_type_frag			= shock
+
+throw_point				= 0,0.3,0.2
+throw_dir				= 0,0,1
+wm_size					= 0.1
+up_throw_factor			= 0
+
+explode_particles = anomaly2\artefact\artefact_zharka
+
+light_color					= 0.01,1.0,0.01
+light_range					= 10.0
+light_time					= 89.0
+
+;route from splinters
+fragment_speed				= 50
+
+hide_in_explosion			= false
+explode_duration			= 89	;the duration of the explosion
+explode_hide_duration		= 90	     ;the time after which the grenade must make the invisible
+dynamic_explosion_particles	= true
+;smoke_particles			= weapons\generic_shoot_00
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+snd_explode = balkanzona\glow_grenade\flares
+snd_checkout = weapons\generic_checkout
+;------------------------------------------------------------------------------------------
+
+[glow_grenade_green_hud]
+fire_point			= 0.05, 0.0, 0.1
+fire_bone			= grenade_0
+
+orientation			= 0,0,0
+position			= 0,0,0.1
+
+visual				= balkanzona\glow_sticks\glow_grenade_green_hud.ogf
+
+throw_point			= 0.0,0.4,0.3
+throw_dir			= 0,0,1
+
+anim_show			= draw
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_idle_sprint	= idle_sprint
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[glow_grenade_red]:glow_grenade_green
+
+visual    			= balkanzona\glow_sticks\glow_grenade_red.ogf
+description    		= fosfor_grenade_descr
+inv_name       		= fosfor_grenade_r
+inv_name_short 		= fosfor_grenade_r
+inv_weight			= 0.18
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x     		= 26
+inv_grid_y     		= 59
+jump_height  		= 0.0
+cost         		= 800
+particles    		= anomaly2\artefact\artefact_zharka
+lights_enabled    	= true
+trail_light_color 	= 1.0,0.01,0.01
+trail_light_range 	= 8.0
+belt 				= false
+explode_particles 	= anomaly2\artefact\artefact_zharka
+
+light_color					= 1.0,0.01,0.01
+light_range					= 10.0
+light_time					= 89.0
+hide_in_explosion			= false
+explode_duration			= 89	;the duration of the explosion
+explode_hide_duration		= 90	     ;the time after which the grenade must make the invisible
+dynamic_explosion_particles	= true
+
+hud							= glow_grenade_red_hud
+
+
+[glow_grenade_red_hud]:glow_grenade_green_hud
+visual						= balkanzona\glow_sticks\glow_grenade_red_hud.ogf
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[glow_grenade_blue]:glow_grenade_green
+trail_light_color 	= 0.01,0.01,1.0
+trail_light_range 	= 8.0
+inv_name       		= fosfor_grenade_b
+inv_name_short 		= fosfor_grenade_b
+description    		= fosfor_grenade_descr
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_weight			= 0.18
+inv_grid_x     		= 28
+inv_grid_y     		= 59
+cost         		= 800
+visual    			= balkanzona\glow_sticks\glow_grenade_blue.ogf
+explode_particles 	= anomaly2\artefact\artefact_zharka
+
+light_color					= 0.01,0.01,1.0
+light_range					= 10.0
+light_time					= 89.0
+hide_in_explosion			= false
+explode_duration			= 89	;the duration of the explosion
+explode_hide_duration		= 90	     ;the time after which the grenade must make the invisible
+dynamic_explosion_particles	= true
+
+hud							= glow_grenade_blue_hud
+
+[glow_grenade_blue_hud]:glow_grenade_green_hud
+visual						= balkanzona\glow_sticks\glow_grenade_blue_hud.ogf
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[glow_grenade_yellow]:glow_grenade_green
+trail_light_color 	= 1.0,1.0,0.01
+trail_light_range 	= 8.0
+inv_name       		= fosfor_grenade_y
+inv_name_short 		= fosfor_grenade_y
+description    		= fosfor_grenade_descr
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_weight			= 0.18
+inv_grid_x     		= 30
+inv_grid_y     		= 59
+cost         		= 800
+visual    			= balkanzona\glow_sticks\glow_grenade_yellow.ogf
+explode_particles 	= anomaly2\artefact\artefact_zharka
+
+light_color					= 1.0,1.0,0.01
+light_range					= 10.0
+light_time					= 89.0
+hide_in_explosion			= false
+explode_duration			= 89	;the duration of the explosion
+explode_hide_duration		= 90	     ;the time after which the grenade must make the invisible
+dynamic_explosion_particles	= true
+
+hud							= glow_grenade_yellow_hud
+
+[glow_grenade_yellow_hud]:glow_grenade_green_hud
+visual						= balkanzona\glow_sticks\glow_grenade_yellow_hud.ogf
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[glow_grenade_green_2]:glow_grenade_green
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_weight			= 0.18
+inv_grid_x     		= 28
+inv_grid_y     		= 67
+
+visual				= balkanzona\glow_sticks\glow_grenade_green_2.ogf
+
+[glow_grenade_red_2]:glow_grenade_red
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_weight			= 0.18
+inv_grid_x     		= 27
+inv_grid_y     		= 67
+
+visual				= balkanzona\glow_sticks\glow_grenade_red_2.ogf
+
+[glow_grenade_blue_2]:glow_grenade_blue
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_weight			= 0.18
+inv_grid_x     		= 28
+inv_grid_y     		= 68
+
+visual				= balkanzona\glow_sticks\glow_grenade_blue_2.ogf
+
+[glow_grenade_yellow_2]:glow_grenade_yellow
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_weight			= 0.18
+inv_grid_x     		= 27
+inv_grid_y     		= 68
+
+visual				= balkanzona\glow_sticks\glow_grenade_yellow_2.ogf

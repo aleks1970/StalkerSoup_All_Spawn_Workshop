@@ -1,0 +1,30 @@
+;;;; TB3D 1.1.0.0.1.3 - TB3D style weapons
+; Бандитская бабочка
+[wpn_bat_b]:wpn_knife_base
+$spawn              		= "weapons\wpn_bat_b"
+description					= enc_wpn_bat_b
+inv_name					= wpn_bat_b
+inv_name_short				= wpn_bat_b
+inv_weight					= 0.2
+inv_grid_x					= 25
+inv_grid_y					= 41
+
+hud							= wpn_bat_b_hud
+cost						= 3800
+	
+hit_power                	= 3.9
+hit_power_2                	= 5.5
+fire_distance            	= 1.5
+
+[wpn_bat_b_hud]:wpn_knife_base_hud
+visual              		= weapons\knife\wpn_bat_b_hud.ogf
+
+[fake_wpn_bat_b]:fake_wpn_knife_base
+description		            = enc_wpn_bat_b
+inv_name					= wpn_bat_b
+inv_name_short				= wpn_bat_b
+inv_weight			        = 0.2
+
+inv_grid_x					= 25
+inv_grid_y					= 41
+cost				        = 3800

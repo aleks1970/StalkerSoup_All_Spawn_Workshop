@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.4 new Collector 12/05/11, added descs and names, typos, new text from "davros_items.ltx" line: 507 and down, replaced & with "and", some desc. - aleks1970, desc_tulip_cs_scope, 'bla bla' chgd to 'description missing' -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<string_table>
+	<!--New dAVROs stuff-->
+	<!--Weapons-->
+	<string id="colt_m4_cs">
+		<text>Colt M4-CS</text>
+	</string>
+	<string id="colt_m4_cs_s">
+		<text>Colt</text>
+	</string>
+	<string id="desc_colt_m4_cs_descr">
+		<text>\n• Ammunition: 5.56x45mm SS109, 5.56x45mm AP\n • Weight: 2.7 kg\n • Magazine: 30 rounds\n • Rate of 750 \m\n Ironsighted SBR is a modification of the combat rifle, M4A1. Following are the accessories and their capabilities:\n • Trijicon Reflex Sight - rapid acquisition on close targets, or when target or operator is moving\n • Aimpoint Comp-M – uses both-eyes-open with red-dot sighting system for target acquisition\n • Holographic Display Sight - instant target acquisition under any light situation\n • Visible Light Illuminator – provides white light when night-vision goggles are not sufficient\n • AN/PVS 14 Night Vision – night vision to locate, identify, and engage targets from 20-300 metres\n • AN/PEQ-2 Infrared Illuminator/Aiming Laser – allows M4A1 to be effectively employed to 300 metres with night-vision goggles, by amplifying the light capability.\n • ANPEQ-5 Visible Laser – fast and accurate means of aiming, primarily use in CQB/CRE.\n • Forward Handgrip – added support, or can be used as a monopod in a fixed shooting position\n • Crane Stock – redesigned collapsible stock with storage for batteries for accessory equipment\n • Quick-Attach Suppressor – sound suppressor that also minimizes muzzle blast\n • Back-up Iron Sight – provides aiming ability out to 300 metres\n • Combat Sling – allows safe and ready cross-body or patrol carry and limits muzzle sweep\n • M203 Grenade Launcher – used as an anti-personnel or anti-light armor weapon, particularly useful in raids and ambushes.\n • 870P Masterkey – a Remington Model 870 Police 12-gauge shotgun that has been modified to attach to the underside of the M4A1 Carbine. It can use special breaching rounds for shooting off door hinges, as well as normal shotgun ammunition for room clearing.</text>
+	</string>
+	<string id="wpn_wpn_bizon_dav">
+		<text>PP-19 Bizon</text>
+	</string>
+	<string id="wpn_wpn_bizon_dav_s">
+		<text>Bison</text>
+	</string>
+	<string id="enc_wpn_wpn_bizon_dav_descr">
+		<text>• Ammunition: 9x18mm, 9x18mm +P\n • Magazine: 18 rounds\nThis interesting submachine gun had been developed in Izhevsk at the famous IZHMASH state arms factory during the early 1990's, and first appeared in public circa 1993. Obviously influenced by the somewhat unsuccessful Calico submachine guns, the Bizon (Bison) SMG combined a high capacity helical magazine with a more conventional appearance and layout. The Bizon is based on the AKS-74 combat rifle, and actually built on shortened AKS-74 receivers, with the AKS-74 pistol grip, trigger unit and folding butt. It will also accept a 9mm NATO scope. Later models introduced a somewhat improved shape of the pistol grip, with better ergonomics. The large capacity magazine is located under the barrel, and serves as a forearm, resulting in a comfortable hold and trim profile. This firearm is known to be both comfortable to carry and easy to fire, and provides plenty of firepower without the need to reload. </text>
+	</string>
+	<string id="wpn_wpn_bizon_kol_dav">
+		<text>Caesier's Bizon</text>
+	</string>
+	<string id="wpn_wpn_bizon_kol_dav_s">
+		<text>Bizon</text>
+	</string>
+	<string id="enc_wpn_wpn_bizon_kol_dav_descr">
+		<text>\n• Ammunition: 9x19mm Parabellum, 9x19mm +P+, 9x19mm super\n• Weight: 3.2 kg\n• Magazine capacity: 64 rounds\n The Bizon PP-20 9mm Cobra sub-machine gun is a compact, blowback-operated weapon with selective-fire modes. The blowback action is buffered to provide stability during firing. About 60 per cent of the parts used in the Bizon are taken from other Kalashnikov models, mainly from the AK-74 series, including the left-folding butt-stock, the trigger mechanism and the receiver cover. There is a choice of folding-butt contours and types.The helical-feed magazine holds 64 rounds, although this may be increased. To fit the magazine, two lugs at the forward end protrude over two pins under the muzzle attachment. The feed end of the magazine is then lifted to engage with the existing Kalashnikov magazine catch. When fitted, the magazine can be used as a foregrip. This special model sports a SPO-1 Tulip optical sight with Night Vision capabilities...</text>
+	</string>
+	<string id="vihlop_cs">
+		<text>VSSK Vychlop cs</text>
+	</string>
+	<string id="vihlop_cs_s">
+		<text>VSSK</text>
+	</string>
+	<string id="desc_vihlop_cs">
+		<text>The VSSK self-loading sniper rifle is of bullpup design and is fitted with a large-volume integral suppressor. This modified Caesier version has a computor assisted scope with laser range finding, wind shear compensation and target acquistition/identification. The barrel bore and firing components have also been case hardened in a solution of Mercury Ball greatly reducing friction and increasing reliability.\n • Ammunition: 12.7h108mm and STs-130PT armor piercing\n • Weight: 7.5 kg\n • Capacity: 5 rounds</text>
+	</string>
+	<string id="desc_aa12_cs">
+		<text>AA-12</text>
+	</string>
+	<string id="desc_aa12_cs_s">
+		<text>AA-12</text>
+	</string>
+	<string id="desc_aa12_cs_descr">
+		<text>Auto Assault-12 (AA-12), originally designed and known as the Atchisson Assault Shotgun. The weapon is selective fire, operating as a semi-automatic, or in fully automatic mode. Modifications by Caesier have increased the fire rate from 300 to 500 rounds per minute. Accuracy is improved by a ultra smooth bore coating of molecules of Star Paradox. This allows special custom shells such as the XREP to be fired from the weapon.\nDue to the abundant use of stainless steel and the designed clearance for fouling, the weapon requires zero cleaning or lubrication.\nIt is fed from either an 8-shell box magazine, or a 20 or 32 shell drum magazine.</text>
+	</string>
+	<string id="dav_sbr_cs">
+		<text>SBR</text>
+	</string>
+	<string id="dav_sbr_cs_s">
+		<text>SBR</text>
+	</string>
+	<string id="desc_dav_sbr_cs_descr">
+		<text>\n• Ammunition: 5.56x45mm SS109, 5.56x45mm AP\n • Weight: 2.7 kg\n • Magazine: 30 rounds\n • Rate of 750 \m\n Ironsighted SBR is a modification of the combat rifle, M4A1. Following are the accessories and their capabilities:\n • Trijicon Reflex Sight – rapid acquisition on close targets, or when target or operator is moving\n • Aimpoint Comp-M – uses both-eyes-open with red-dot sighting system for target acquisition\n • Holographic Display Sight – instant target acquisition under any light situation\n • Visible Light Illuminator – provides white light when night-vision goggles are not sufficient\n • AN/PVS 14 Night Vision – night vision to locate, identify, and engage targets from 20-300 metres\n • AN/PEQ-2 Infrared Illuminator/Aiming Laser – allows M4A1 to be effectively employed to 300 metres with night-vision goggles, by amplifying the light capability.\n • ANPEQ-5 Visible Laser – fast and accurate means of aiming, primarily use in CQB/CRE.\n • Forward Handgrip – added support, or can be used as a monopod in a fixed shooting position\n • Crane Stock – redesigned collapsible stock with storage for batteries for accessory equipment\n • Quick-Attach Suppressor – sound suppressor that also minimizes muzzle blast\n • Back-up Iron Sight – provides aiming ability out to 300 metres\n • Combat Sling – allows safe and ready cross-body or patrol carry and limits muzzle sweep\n • M203 Grenade Launcher – used as an anti-personnel or anti-light armor weapon, particularly useful in raids and ambushes.\n • 870P Masterkey – a Remington Model 870 Police 12-gauge shotgun that has been modified to attach to the underside of the M4A1 Carbine. It can use special breaching rounds for shooting off door hinges, as well as normal shotgun ammunition for room clearing.</text>
+	</string>
+	<string id="desc_dav_bm16_flare">
+		<text>Flare shotgun</text>
+	</string>
+	<string id="desc_dav_bm16_flare_s">
+		<text>Shotgun</text>
+	</string>
+	<!--Weapons expansion pak 1-->
+	<string id="desc_cz75">
+		<text>CZ-75</text>
+	</string>
+	<string id="desc_cz75_s">
+		<text>Pistol CZ-75</text>
+	</string>
+	<string id="desc_cz75_descr">
+		<text>CZ-75 is a short recoil operated, locked breech pistol. It uses a fairy standard Browning locking system, with cam-shaped cut below the barrel, which lowers the barrel on recoil stroke.\n This system, originated by the Swiss SIG P210 pistol, provides more smooth cycle and better tolerances, resulting in greater accuracy\n Probably most rare version of the CZ-75 is the CZ-75 Automatic, a selective-fire version of the basic pistol, which can fire either in semi-auto or in full auto, with rate of fire about 1,000 rounds per minute.	</text>
+	</string>
+	<string id="desc_aw50">
+		<text>AW-50 'Arctic Warfare'</text>
+	</string>
+	<string id="desc_aw50_s">
+		<text>AW-50</text>
+	</string>
+	<string id="desc_aw50_descr">
+		<text>The AW50 is a .50 BMG anti-materiel rifle designed by Accuracy International. It is a re-engineered version of the Accuracy International Arctic Warfare L96 sniper rifle\n The weight of the weapon (15 kg), combined with a muzzle brake and a hydraulic buffer system in the butt, gives the AW50F relatively low recoil and enhances accuracy.</text>
+	</string>
+	<string id="desc_dsr1">
+		<text>DSR-1 'Subsonic'</text>
+	</string>
+	<string id="desc_dsr1_s">
+		<text>DSR-1</text>
+	</string>
+	<string id="desc_dsr1_descr">
+		<text>The DSR-1 is configured into bull-pup design, with free-floating barrel.\n DSR-1 action features match-grade, fluted barrel that is quickly interchangeable and is fixed into receiver by three screws. The action is designed for .338 Lapua Magnum ammunition, with conversion kits available for smaller calibres such as .308 Winchester or .300 Winchester Magnum\n The integrally silenced version of the DSR-1, also known as DSR-1 Subsonic, is unusual in the fact that the suppressor is attached to the receiver rather than the barrel. Thus, the barrel is still free-floated within the suppressor, and this guarantees consistent shot-to-shot accuracy\n The expected accuracy of the DSR-1 is almost extreme: some sources state better than .2 MOA accuracy (0.20) (5mm) groups measured center-to-center at 100 yards) when shot by experienced operators, in favourable environmental conditions with the correct ammunition</text>
+	</string>
+	<string id="desc_l115a3">
+		<text>L115A3 standard sniper rifle</text>
+	</string>
+	<string id="desc_l115a3_s">
+		<text>L115A3</text>
+	</string>
+	<string id="desc_l115a3_descr">
+		<text>• Calibre: 	8.59mm\n • Weight 	6.8kg\n • Length 	1300mm\n • Muzzle velocity 	936m/s\n • Feed 	5-round box\n • Effective range 	1100m plus\n • The L115A3 is the standard issue sniper rifle, based on the AI L96A1 chambered for .338 Lapua Magnum and comes issued with a Harris bipod, suppressor, and x3-x12 x 50 Schmidt and Bender scope\n The longest recorded shot with this weapon is recorded at 8,120 feet, 2706 yards, or 1.54 miles.\n Designed to achieve a first-round hit at 600 metres and harassing fire out to 1,100 metres, Accuracy International's L96 sniper rifle has also been upgraded with a new x3-x12 x 50 sight and spotting scope.\n The L115A3 long range rifle uses an 8.59mm round which is heavier than the 7.62mm round of the L96 and less likely to be deflected over extremely long ranges.</text>
+	</string>
+	<string id="desc_m16_sniper">
+		<text>M-16 sniper</text>
+	</string>
+	<string id="desc_m16_sniper_s">
+		<text>M-16 sniper</text>
+	</string>
+	<string id="desc_m16_sniper_descr">
+		<text>M16 sniper description missing</text>
+	</string>
+	<string id="desc_m22">
+		<text>M22</text>
+	</string>
+	<string id="desc_m22_s">
+		<text>M22</text>
+	</string>
+	<string id="desc_m22_descr">
+		<text>M22 description missing</text>
+	</string>
+	<string id="desc_msg91">
+		<text>MSG91</text>
+	</string>
+	<string id="desc_msg91_s">
+		<text>MSG91</text>
+	</string>
+	<string id="desc_msg91_descr">
+		<text>PTR 91 MSG Perimeter Sniper Rifle, .308 semi auto, Black furniture with new tactical handguard machined from Military spec. Hard-anodized aluminum with 1 3" rail, welded Picatinny accessory rail and Harris bipod, HK Navy type polymer trigger group, stock adjustable for length of pull and cheek rest height, original HK pre-ban flash hider 18" fluted barrel</text>
+	</string>
+	<string id="desc_ntw20">
+		<text>NTW20</text>
+	</string>
+	<string id="desc_ntw20_s">
+		<text>NTW20</text>
+	</string>
+	<string id="desc_ntw20_descr">
+		<text>• Type: Anti-Material Rifle\n • Calibre: 20x83.5mm MG151\n • Weight: 57.3 lbs (26 kg)\n • Length: 70.7 in (179.5 cm)\n • Barrel length: 39.4 in (100 cm)\n • Capacity: 3\n • Fire Modes: Bolt-Action\n NTW-20 is a manually operated, rotating bolt action rifle. The barrel is locked by the rotating bolt that has 6 lugs. The barrel along with the receiver could recoil inside the chassis frame against combined hydraulic and pneumatic damping system. Large two-chamber muzzle brake also helps to keep recoil at the acceptable level.\n \nNTW-20 offers significantly more terminal effectiveness than any .50BMG rifle/round combination. 20 mm version could be most effective against targets like parked aircrafts and helicopters, command and communications equipment, radar cabins, fuel dumps, unarmored cars. 14.5 mm version will be more effective against armored personnel carriers or relatively large "soft" targets at extended ranges. Anti-personnel work is by no means a primary task for this huge rifle.</text>
+	</string>
+	<string id="desc_sl8_dav">
+		<text>Heckler and Koch - SL8</text>
+	</string>
+	<string id="desc_sl8_dav_s">
+		<text>SL8</text>
+	</string>
+	<string id="desc_sl8">
+		<text>The SL8 is a sporting rifle manufactured by Heckler Koch. It is the civilian version of the Heckler Koch G36. The rifle fires the .223 Remington or 5.56x45mm NATO cartridge and feeds from a 10, 20 or 30 round detachable magazine (depending on the variant of the rifle). Unlike earlier types of HK rifles, it is not a roller lock bolt but rather a lug type rotating bolt system as seen on the AR-18. The SL8 was originally developed for the German Bundeswehr, to provide a weapon for training reservists similar to the G36 and able to be provided to reserve organizations not able to provide military grade armaments.</text>
+	</string>
+	<string id="desc_sv98_dav">
+		<text>SV98</text>
+	</string>
+	<string id="desc_sv98_dav_s">
+		<text>SV98</text>
+	</string>
+	<string id="desc_sv98">
+		<text>• Calibres: 7.62x54R or 7.62mm NATO (.308Win)\n • Operation: bolt action\n • Barrel: 650 mm\n • Weight: 6.2 kg unloaded w/o scope\n • Length: 1270 mm\n • Feed Mechanism: 10-round detachable box magazine\n \nBolt action sniper rifle. It fires 7.62x54mmR rounds with an effective range of around 1 kilometre (1094 yards).</text>
+	</string>
+	<string id="desc_a91mc">
+		<text>A-91M-C</text>
+	</string>
+	<string id="desc_a91mc_s">
+		<text>A-91M-C</text>
+	</string>
+	<string id="desc_a91mc_descr">
+		<text>• Calibre: 7.62x39mm and 5.56x45mm NATO\n • Action: Gas operated, rotating bolt\n • Overall length: 660 mm\n • Weight: 3.97 kg empty (with integral grenade launcher)\n • Rate of fire: 600-800 rounds per minute\n • Magazine capacity: 30 rounds\n</text>
+	</string>
+	<string id="desc_g11">
+		<text>HK G11</text>
+	</string>
+	<string id="desc_g11_s">
+		<text>HK G11</text>
+	</string>
+	<string id="desc_g11_descr">
+		<text>• Calibre: 4.7 mm caseless\n • Action: Gas operated, rotating breech\n • Overall length: 750 mm\n • Barrel length: 540 mm\n • Weigth: 3.6 kg empty\n • Magazine capacity: 50 or 45 rds\n The weapon has three firing modes: semi-auto, full-auto at 460 rounds per minute, and three-round burst at over 2000 cyclic rounds per minute, or approximately 36 rounds per second. The loading and feed mechanism is physically very complicated but exceptionally fast and reliable. Rounds are fed into the weapon from a magazine that lies above and parallel with the barrel. The rounds are oriented vertically (at 90 degrees to the bore) and are fed downwards into the rotary chamber so that they can be rotated 90 degrees for firing.\n The design principle was to increase target hit probability by firing high rate multi-round bursts (salvos). Tests have been run using a prototype shotgun test-bed called CAWS to see whether a single-shot, multi-projectile system could achieve the range and hit probability requirements. The results indicated that the use of serially fired projectiles at a high rate of fire would achieve a tight shotgun-like pattern with rifle-like accuracy up to the required range.</text>
+	</string>
+	<string id="desc_m14dmr">
+		<text>M14 Marksman Rifle</text>
+	</string>
+	<string id="desc_m14dmr_s">
+		<text>M14 DMR</text>
+	</string>
+	<string id="desc_m14dmr_descr">
+		<text>• Weight 	4.5-5.0 kg (9.9-11 lb)\n • Length 	1,118 mm (44.0 in)\n • Barrel length 	559 mm (22.0 in)\n • Cartridge 	7.62x51mm NATO\n • Action 	Gas-operated, rotating bolt\n • Rate of fire 	Semi-automatic\n • Muzzle velocity\n • 2,580 ft/s (790 m/s) with M118LR175 grain ammunition\n • 2,750 ft/s (840 m/s) with M80147 grain ammunition\n • Effective range 	600–800 m (660-870 yd)\n • Feed system 	10 or 20-round detachable box magazine\n \nThe M14 Designated Marksman Rifle is a semi-automatic, gas-operated rifle chambered for the 7.62x51mm NATO cartridge. It is a modified version of the M14 rifle</text>
+	</string>
+	<string id="desc_m14ebr">
+		<text>Mark 14 Enhanced Battle Rifle</text>
+	</string>
+	<string id="desc_m14ebr_s">
+		<text>M-14 EBR</text>
+	</string>
+	<string id="desc_m14ebr_descr">
+		<text>The Mark 14 Enhanced Battle Rifle (EBR) is a selective fire military designated marksman rifle chambered for the 7.62x51mm NATO cartridge. It is a variant of the M14 battle rifle and was originally built for use with units of Special Operations Command. The EBRs are made with the intention of carrying out both designated marksman and CQB (Close Quarters Combat).\n • Weight 	11.24 lb (5.1 kg)\n • Length 	35 in (889 mm)\n • Barrel length 	18 in (457 mm) (Mod 0), 22 in (558.8 mm) (Mod 1) (EBR-RI)\n • Cartridge 	7.62x51mm NATO\n • Action 	Gas-operated, rotating bolt\n • Rate of fire 	Shooter Dependent\n • Muzzle velocity 	853 m/s (2,800 ft/s)\n • Effective range 	500 m (547 yd), 800+ m (875 yd) (with optics)\n • Maximum range 	2.5 miles (4.23 kilometres) (Confirmed/Point Target); 4 miles (6.4 kilometres) (Unconfirmed/Area Target)\n • Feed system 	10 or 20-round detachable box magazine\n • Sights 	Modified M14 iron sights, normally used with a magnifying scope.</text>
+	</string>
+	<string id="desc_m1918">
+		<text>• Calibre: 7.62x63mm (.30-06 M2)\n • Weight 8.8 kg empty\n • Length: 1214 mm\n • Length of barrel: 610 mm\n • Feeding: detachable box magazine, 20 rounds\n • Rate of fire: 450 or 650 rounds/min, selectable\n \nThe M1918 Browning Automatic Rifle (BAR) is chambered for the .30-06 Springfield rifle cartridge and designed by John Browning in 1917\n It was gas-operated and air-cooled, had a maximum range of 3,800 m (4,200 yd) and weighed 12 kg (27 lb). Initial models were fed by a 30-round strip-magazine but later models could be either strip or belt fed. Some types had a bipod, while some others used a small tripod.</text>
+	</string>
+	<string id="desc_vz58_sk1_dav">
+		<text>The SA Vz.58</text>
+	</string>
+	<string id="desc_vz58_sk1_dav_s">
+		<text>VZ58</text>
+	</string>
+	<string id="desc_vz58_sk1">
+		<text>• Calibre: 7.62x39 mm\n • Action: Gas operated, tilting breech block\n • Overall length: 845 mm (635 mm with folded stock)\n • Barrel length: 390 mm\n • Weight: with empty magazine 3.10 kg, with loaded magazine 3.60 kg\n • Magazine capacity: 30 rounds\n • Rate of fire: 800 rounds per minute\n • Effective range: about 400 metres.\n \nThe SA Vz.58 strongly resembles externally the famous Kalashnikov AK-47 combat rifle, but internally it is entirely different and of original and well-thought out design.</text>
+	</string>
+	<string id="desc_rpd44d">
+		<text>RPD</text>
+	</string>
+	<string id="desc_rpd44d_s">
+		<text>RPD</text>
+	</string>
+	<string id="desc_rpd44d_descr">
+		<text>• Calibre 7.62x39 mm\n • Weigth 7,4 kg empty, on integral bipod\n • Rate of fire 650 rounds per minute\n • Length 1037 mm\n • Feeding belt 100 rounds in drum-like box\n • Muzzle velocity 735 m/s\n \nA classic, reliable machine gun that has been around for a while.</text>
+	</string>
+	<string id="desc_dshk">
+		<text>DShK 1938</text>
+	</string>
+	<string id="desc_dshk_s">
+		<text>DShK</text>
+	</string>
+	<string id="desc_dshk_descr">
+		<text>• Calibre: 12.7x109 mm\n • Weight: 34 kg MG body, 157 kg on universal wheeled mount with shield\n • Length: 1625 mm\n • Length of barrel: 1070 mm\n • Feeding: belt 50 rounds\n • Rate of fire: 600 rounds/min\n \nLike its equivalent, the M2 Browning, the DShK 1938 was used in several roles. As an anti-aircraft weapon it was mounted on pintle and tripod mounts, and on a triple mount on the GAZ-AA truck. It was mounted on the cupolas of IS-2 tanks and ISU-152 self-propelled guns. As an infantry heavy support weapon it used a two-wheeled trolley which unfolded into a tripod for anti-aircraft use. It was also mounted in vehicle turrets, for example, in the T-40 light amphibious tank.</text>
+	</string>
+	<string id="desc_m60">
+		<text>M60</text>
+	</string>
+	<string id="desc_m60_s">
+		<text>M60</text>
+	</string>
+	<string id="desc_m60_descr">
+		<text>The M60 comes from a family of general-purpose machine guns firing 7.62x51mm NATO (.308 Winchester) cartridges from a disintegrating belt of M13 links. There are several types of live ammunition approved for use in the M60, including ball, tracer, and armor-piercing rounds.\n The M60 can be accurately fired at short ranges from the shoulder thanks to its design. This was an initial requirement for the design and a hold-over in concept from the M1918 Browning Automatic Rifle. It may also be fired from the integral bipod, M122 tripod, and some other mounts.</text>
+	</string>
+	<string id="desc_m249">
+		<text>M249 light machine gun</text>
+	</string>
+	<string id="desc_m249_s">
+		<text>M 249</text>
+	</string>
+	<string id="desc_m249_descr">
+		<text>The M249 light machine gun (LMG) A.K.A FN Minimi was introduced in 1984 after being judged the most effective of a number of candidate weapons to address the lack of automatic firepower in small units. The M249 provides infantry squads with the heavy volume of fire of a machine gun combined with accuracy and portability approaching that of a rifle.\n The M249 is gas operated and air-cooled. It has a quick-change barrel, allowing the gunner to rapidly replace an overheated or jammed barrel.</text>
+	</string>
+	<string id="desc_superx3_dav">
+		<text>Winchester SX-3</text>
+	</string>
+	<string id="desc_superx3_dav_s">
+		<text>SX-3</text>
+	</string>
+	<string id="desc_superx3">
+		<text>SUPERX3 description missing</text>
+	</string>
+	<string id="desc_toz34_short">
+		<text>TOZ34 short description missing</text>
+	</string>
+	<string id="desc_winch1887">
+		<text>The Model 1887 was the first truly successful repeating shotgun</text>
+	</string>
+	<string id="desc_acr">
+		<text>Bushmaster ACR (Adaptive Combat Rifle)</text>
+	</string>
+	<string id="desc_acr_s">
+		<text>ACR</text>
+	</string>
+	<string id="desc_acr_descr">
+		<text>Ammunition:\n • 5.56 x45 SS109 - basic\n • 5.56 x45 AP - piercing\n • 5.56 x45 HP - expansive\n • effective range of 320m\n • sighting range 400m\n • firing rate of 750rpm\n • a magazine capacity of 30 rounds\n \nBushmaster ACR (Adaptive Combat Rifle) - A modernized variant of the Magpul Masada. The ACR is fully-modular and can change calibres from 5.56mm to 6.8mm in minutes at the user level by changing the bolt head, barrel, and magazine. The ACR can also change barrels, stocks, and accessories to go from a close-quarters battle carbine to a designated marksman rifle.</text>
+	</string>
+	<string id="desc_groza_sniper">
+		<text>Sniper modification of the OC-14 "Groza"</text>
+	</string>
+	<string id="desc_groza_sniper_s">
+		<text>Sniper 'Groza'</text>
+	</string>
+	<string id="desc_groza_sniper_descr">
+		<text>Ammunition:\n • 9h39mm PAB9\n • 9x39 SP-6 - piercing\n • 9h39 SP-5 - sniper\n • 9h39 isomorphic\n • effective range of 320m\n • sighting range 400m\n • rate of fire 750rpm\n • a magazine capacity of 20 Rounds\n \nSniper modification of the OC -14 "Groza" that replaces the grenade launcher mount with a mounted tactical handle. Equipped with a high resolution optical sight and integrated suppressor, the initial cartridge velocity is almost doubled. This model is capable of double shot operation. Lightweight, compact, accurate and reliable, highly regarded among Stalkers and veterans.</text>
+	</string>
+	<string id="desc_kord">
+		<text>Kord</text>
+	</string>
+	<string id="desc_kord_s">
+		<text>Kord</text>
+	</string>
+	<string id="desc_kord_descr">
+		<text>Ammunition:\n • Feed 12.7 x108mm\n • Cartridge BS 12.7 x108mm\n • effective range 1200m\n • sighting range 1850m\n • rate of fire 600rpm\n • 50 tape cartridges\n \nKord ( Kovrovskiye gunsmith Degtyarevtsy ) - machine gun with belt feed chambered 12.7 x 108mm. Developed in the 90s at the Kovrov plant as a replacement for the NSV and is capable of bipod and hand firing. Currently it is one of the lightest full 12.7 mm machine guns. Currently used as infantry support weapons and can be mounted on armored vehicles.</text>
+	</string>
+	<string id="desc_railgun">
+		<text>Railgun</text>
+	</string>
+	<string id="desc_railgun_s">
+		<text>Railgun</text>
+	</string>
+	<string id="desc_railgun_descr">
+		<text>Ammunition:\n • 2mm Depleted Plutonium capsules\n • effective range 1000m\n • sighting range 1450m\n • rate of fire - about 8 seconds\n • magazine capacity of 20 capsules\n \nUnlike the Gauss gun that uses staged electromagnetic coils as the motor force, the Railgun uses the principle of Lorentz Force to rapidly accelerate and launch a projectile between two conductive rails. This guided projectile is launched at such high velocities that it can achieve greater ranges than conventional Gauss guns with less input energy. The rails in this weapon are highly conductive and in this case appear to be lined with an extremely hard, high temperature coating to prevent electrolytic discharge between the rails, thus extending their lifetime. The projectiles used do not require an armature due to the very high rail voltage used. This prototype was said to have been found in one of the LDK Future Weapons labs</text>
+	</string>
+	<!--Weapon add ons-->
+	<string id="tulip_cs_scope">
+		<text>Tulip-M1 Scope</text>
+	</string>
+	<string id="tulip_cs_scope_s">
+		<text>M1 Scope</text>
+	</string>
+	<string id="desc_tulip_cs_scope">
+		<text>Unified gunsight model of the Tulip-M1 Scope. Designed for aimed shooting both during the daytime and at night. The metal body of the Tulip-M1 is made from a magnesium alloy. The M1 Scope features a battery-powered red illuminated reticle with light provided by a simple LED. It features professionally ground, fully multi-coated optical elements, a baked enamel finish for scratch protection, and an attached rapid-deployable, extendable sunshade. The optics have been machined to fit Caesier's Bizon...</text>
+	</string>
+	<string id="desc_dav_bm16_flare_descr">
+		<text>A sawn-off BM 17 rifle that shoots flare rounds.\nAmmunition:\n 12x70 flare.</text>
+	</string>
+	<!--Ammo-->
+	<string id="desc_xrep1">
+		<text>Extended Range Electric Projectile. An electric stun shell for use in the AA12 shotgun.</text>
+	</string>
+	<string id="desc_xrep2">
+		<text>Extended Range Electric Projectile. An electric Kill shell for use in the AA12 shotgun.</text>
+	</string>
+	<string id="desc_xrep3">
+		<text>Extended Range Electric Projectile. An electric revive shell for use in the AA12 shotgun.</text>
+	</string>
+	<string id="ammo_20x85a">
+		<text>20x85HE</text>
+	</string>
+	<string id="ammo_20x85a_s">
+		<text>Grenade</text>
+	</string>
+	<string id="desc_ammo_20x85a">
+		<text>A 20-mm air fragmentation grenade. Thease smart grenades can be electronically programmed to explode after traveling a certain distance. Great Ammo for hitting enemy soldiers behind a wall, in a Defensive fighting position, or in a confined space or room. The fire control computer or some other electronic sighting system is used to quickly program the electronic fuse with any distance, as conditions dictate</text>
+	</string>
+	<string id="desc_ammo-12x70-flare">
+		<text>Flare rounds</text>
+	</string>
+	<string id="desc_ammo-12x70-flare_s">
+		<text>Flare rounds</text>
+	</string>
+	<string id="desc_ammo-12x70-flare_descr">
+		<text>A flare round designed for the BM 17, the Chaser 13 and the SPAS 14 shotguns.</text>
+	</string>
+	<string id="desc_ammo-STs-130vps">
+		<text>VSSK STs-130vps Ammo</text>
+	</string>
+	<string id="desc_ammo-STs-130vps_s">
+		<text>VSSK Ammo</text>
+	</string>
+	<string id="desc_ammo-STs-130vps_descr">
+		<text>VSSK ammo designed to defeat insurgents or criminals wearing body armor or concealed behind hard cover and vehicles in an urban environment out to 600 m.</text>
+	</string>
+	<string id="ammo-9x19-super">
+		<text>Ammo 9x19 'Super'</text>
+	</string>
+	<string id="ammo-9x19-super_s">
+		<text>Ammo 9x19</text>
+	</string>
+	<string id="desc_ammo-9x19-super_descr">
+		<text>Explosive tipped 9x19 ammo for Caesiers Bizon.\nCaesier discovered that powdered Mercury Ball would disolve in Nitirc acid over a 12 hour period. Adding this solution to ethyl alcohol would result in a vigorous reaction producing yellow-gray crstals that were extremely friction-sensitive explosive that ignites at ~150 degrees C. Placing these crstals in the tips of standard 9x19 ammo creates a deadly combination.</text>
+	</string>
+	<string id="ammo-16x70-xrep1">
+		<text>XREP 16x70 "STUN"</text>
+	</string>
+	<string id="ammo-16x70-xrep1_s">
+		<text>"STUN"</text>
+	</string>
+	<string id="desc_ammo-16x70-xrep1">
+		<text>16 calibre shell fitted with an "associated" case-shot. Possesses huge lethal action at close distances. Most effective up to 50 metres. It is intended for smooth-bore shotguns such as the BM-16 "Predator" and Winchester 1200</text>
+	</string>
+	<string id="ammo-16x70-xrep2">
+		<text>XREP 16x70 "KILL"</text>
+	</string>
+	<string id="ammo-16x70-xrep2_s">
+		<text>"KILL"</text>
+	</string>
+	<string id="desc_ammo-16x70-xrep2">
+		<text>16 calibre shell fitted with an "associated" case-shot. Possesses huge lethal action at close distances. Most effective up to 50 metres. It is intended for smooth-bore shotguns such as the BM-16 "Predator" and Winchester 1200</text>
+	</string>
+	<string id="ammo-16x70-xrep3">
+		<text>XREP 16x70 "REVIVE"</text>
+	</string>
+	<string id="ammo-16x70-xrep3_s">
+		<text>"REVIVE"</text>
+	</string>
+	<string id="desc_ammo-16x70-xrep3">
+		<text>16 calibre shell fitted with an "associated" case-shot. Possesses huge lethal action at close distances. Most effective up to 50 metres. It is intended for smooth-bore shotguns such as the BM-16 "Predator" and Winchester 1200</text>
+	</string>
+	<string id="ammo_railgun">
+		<text>Railgun Battery module</text>
+	</string>
+	<string id="ammo_railgun_s">
+		<text>Battery module</text>
+	</string>
+	<string id="desc_ammo_railgun_descr">
+		<text>Unique battery module for an experimental prototype Railgun. Module uses an advanced porous, three-dimensional anode and cathode of lithium-sulphide and Electro artefact fragments resulting in a 1500 fold increase in energy capacity.\nThe module also houses 20 x 2mm depleted Plutonium projectiles capable of penetrating over 2m of solid material and the hardest of armor. A recharging method is not yet known.</text>
+	</string>
+	<!--Grenades-->
+	<string id="electric_grenade">
+		<text>Electric Grenade</text>
+	</string>
+	<string id="electric_grenade_s">
+		<text>Grenade</text>
+	</string>
+	<string id="desc_grenade-rgd6">
+		<text>A wise old man that roamed the Zone experimented with unique combinations of artefacts packed with C4 into standard Grenade casings. This Grenade uses Fragments of the Artefacts Gravi and Flash that when detonated produce a quick and intense High Voltage discharge over a radius of about 20m.</text>
+	</string>
+	<string id="thermal_grenade">
+		<text>Thermal Grenade</text>
+	</string>
+	<string id="thermal_grenade_s">
+		<text>Grenade</text>
+	</string>
+	<string id="desc_grenade-rgd7">
+		<text>A wise old man that roamed the Zone experimented with unique combinations of artefacts packed with C4 into standard Grenade casings. This Grenade uses Fragments of the Artefacts Gravi and Fireball that when detonated produce an intense Thermal blast over a 10m radius. A lower temperature afterburn lasts for about 30 seconds.</text>
+	</string>
+	<string id="gravic_grenade">
+		<text>Gravic Grenade</text>
+	</string>
+	<string id="gravic_grenade_s">
+		<text>Grenade</text>
+	</string>
+	<string id="desc_grenade-rgd8">
+		<text>Particles of the rare Hawking K2 artefact when mixed with the Gravi artefact in a 1:670 mix ratio produce a temporary Gravity well over a 20m radius.</text>
+	</string>
+	<string id="mini_nuke">
+		<text>Mini Nuke</text>
+	</string>
+	<string id="mini_nuke_s">
+		<text>Nuke</text>
+	</string>
+	<string id="desc_grenade-rgd9">
+		<text>Extremely powerful and destructive grenade with a 5 Megaton yield. Once the detonator is activated the C4, Plutonium and Element Zero mix reaches critical fusion after 5 seconds.\nImmediate blast area is 100m followed by low energy short life-time Alpha particles.\nThe initial EMP is highly disruptive to even RadHard electronics as used in Military Aircraft.\n \n%c[255,255,1,1] Use only with the highest level of Suit and Artefact protection. Ensure friendly NPC's are no where near you when you pull the pin.\n \n%c[default]Once the detonator is activated, linear velocity is amplified allowing the Grenade to be thrown up to 250m.</text>
+	</string>
+	<string id="quantum_grenade">
+		<text>Quantum Grenade</text>
+	</string>
+	<string id="quantum_grenade_s">
+		<text>Quantum Grenade</text>
+	</string>
+	<string id="desc_grenade-rgd10">
+		<text>A unique grenade that generates a localized quantum disruption field formed by a micro singularity when particles of artefacts Hawking and Konishi are combined in the pressence of a high intesity gravity field. The space/time disruption from the quantum blast is lethal to living organisims yet has little effect on solid structures</text>
+	</string>
+	<string id="time_delay_grenade">
+		<text>Time Delay Grenade</text>
+	</string>
+	<string id="time_delay_grenade_s">
+		<text>Delay Grenade</text>
+	</string>
+	<string id="desc_grenade-rgd11">
+		<text>A special grenade with a 30 second time delay.</text>
+	</string>
+	<string id="enhanced_grenade">
+		<text>Enhanced Grenade</text>
+	</string>
+	<string id="enhanced_grenade_s">
+		<text>Grenade</text>
+	</string>
+	<string id="desc_grenade-rgd12">
+		<text>Enhanced Grenade with a very high explosive yeld. The internal casing is coated with a sintered magnesium and aluminium powder mix</text>
+	</string>
+	<!--Handheld teleport devices-->
+	<string id="htd_rft">
+		<text>Caesier's Red Forest Teleport</text>
+	</string>
+	<string id="htd_rft_s">
+		<text>Caesier's Teleport</text>
+	</string>
+	<string id="desc_htd_rft">
+		<text>Caesier's Handheld Teleport device to the outskirts of the Red Forest</text>
+	</string>
+	<string id="htd_npp">
+		<text>Caesier's NPP Teleport</text>
+	</string>
+	<string id="htd_npp_s">
+		<text>Caesier's Teleport</text>
+	</string>
+	<string id="desc_htd_npp">
+		<text>Caesier's Handheld Teleport device to unusual places near the NPP</text>
+	</string>
+	<string id="htd_lmk">
+		<text>Caesier's Limansk Teleport</text>
+	</string>
+	<string id="htd_lmk_s">
+		<text>Caesier's Teleport</text>
+	</string>
+	<string id="desc_htd_lmk">
+		<text>Caesier's Handheld Teleport device to the outskirts of Limansk</text>
+	</string>
+	<string id="htd_lmk_z">
+		<text>Caesier's Z Teleport</text>
+	</string>
+	<string id="htd_lmk_z_s">
+		<text>Caesier's Teleport</text>
+	</string>
+	<string id="desc_htd_z_lmk">
+		<text>Caesier's special UP teleporter</text>
+	</string>
+	<!--Documents 109961 not used-->
+	<string id="doc_cs_pics1">
+		<text>Caesiers photos</text>
+	</string>
+	<string id="doc_cs_pics1_s">
+		<text>photos</text>
+	</string>
+	<string id="desc_cs_pics1_descr">
+		<text>One of Caesier's documents with photos from his visits to East Pripyat. Some scribbling on the back.</text>
+	</string>
+	<string id="doc_cs_docx">
+		<text>Caesier's X marker</text>
+	</string>
+	<string id="doc_cs_docx_s">
+		<text>X marker</text>
+	</string>
+	<string id="desc_cs_docx_descr">
+		<text>Not much good for anything but marking a spot you want to see from far away</text>
+	</string>
+	<string id="wpn_xm_29_oicw_dav">
+		<text>XM-29 OICW</text>
+	</string>
+	<string id="wpn_xm_29_oicw_dav_s">
+		<text>XM-29 OICW</text>
+	</string>
+	<string id="enc_wpn_xm_29_oicw_dav_descr">
+		<text>• Ammunition: 5.56x45mm SS109, 5.56x45mm AR\n • Weight: 5.5 kg\n • Capacity: 30 rounds\nSistema Objective Individual Combat Weapon(OICW) - was a series of prototypes of a new type of battle rifle that fired 20 mm smart grenades with an rpm of 260 and range of up to 2km. They can also be programmed for an air-burst explosion at a certain range or on impact. Top-mounted computer-assisted sighting system with integrated laser rangefinder, thermal night vision capabilities, and up to 6x optical telescopic high contrast sight.</text>
+	</string>
+	<string id="wpn_laser_dav">
+		<text>Laser Weapon</text>
+	</string>
+	<string id="wpn_laser_dav_s">
+		<text>'Laser'</text>
+	</string>
+	<string id="enc_wpn_laser_dav_descr">
+		<text>• Origin is unknown?</text>
+	</string>
+	<!-- Missing description for Shield items - aleks1970 -->
+	<string id="af_shield_health">
+		<text>Shield 'health'</text>
+	</string>
+	<string id="af_shield_health_s">
+		<text>'Shield'</text>
+	</string>
+	<string id="enc_zone_artifact_af_shield_health">
+		<text>• Missing 'shield health' description!!</text>
+	</string>
+	<string id="af_shield_electric">
+		<text>Shield 'electric'</text>
+	</string>
+	<string id="af_shield_electric_s">
+		<text>'Shield'</text>
+	</string>
+	<string id="enc_zone_artifact_af_shield_electric">
+		<text>• Missing 'shield electric' description!!</text>
+	</string>
+	<string id="af_shield_radiation">
+		<text>Shield 'radiation'</text>
+	</string>
+	<string id="af_shield_radiation_s">
+		<text>'Shield'</text>
+	</string>
+	<string id="enc_zone_artifact_af_shield_radiation">
+		<text>• Missing 'shield radiation' description!!</text>
+	</string>
+	<string id="af_shield_heat">
+		<text>Shield 'heat'</text>
+	</string>
+	<string id="af_shield_heat_s">
+		<text>'Shield'</text>
+	</string>
+	<string id="enc_zone_artifact_af_shield_heat">
+		<text>• Missing 'shield heat' description!</text>
+	</string>
+	<string id="af_shield_endurance">
+		<text>Shield 'endurance'</text>
+	</string>
+	<string id="af_shield_endurance_s">
+		<text>'Shield'</text>
+	</string>
+	<string id="enc_zone_artifact_af_shield_endurance">
+		<text>• Missing 'shield endurance' description!</text>
+	</string>
+	<string id="af_shield_armor">
+		<text>Shield 'armor'</text>
+	</string>
+	<string id="af_shield_armor_s">
+		<text>'Shield'</text>
+	</string>
+	<string id="enc_zone_artifact_af_shield_armor">
+		<text>• Missing 'shield armor' description!!</text>
+	</string>
+	<string id="item_dav_TOZ_34">
+		<text>TOZ-34 Short</text>
+	</string>
+	<string id="item_dav_TOZ_34_s">
+		<text>TOZ-34</text>
+	</string>
+	<string id="dav_wpn_xp1_saiga12c">
+		<text>Sayga 12C EXP 01</text>
+	</string>
+	<string id="dav_wpn_xp1_saiga12c_s">
+		<text>Sayga 12C EXP 01</text>
+	</string>
+	<string id="dav_wpn_xp1_saiga12c_descr">
+		<text>• Missing description!!</text>
+	</string>
+	<string id="dav_wpn_xp1_pp2000">
+		<text>PP-2000</text>
+	</string>
+	<string id="dav_wpn_xp1_pp2000_s">
+		<text>PP-2000</text>
+	</string>
+	<string id="dav_wpn_xp1_pp2000_descr">
+		<text>• Ammunition: 9x19mm Parabellum, 9x19mm +P+\n• Weight: 1.4 kg\n• Magazine capacity: 20 rounds\n• Length: 582mm\nThe PP-2000 is a conventional blowback-operated weapon and weighs 1.5 kg (3.3 lb) empty. The PP-2000 is designed as a personal defense and close quarter combat weapon, intended for riot police and special operations forces. It is now available to military and law enforcement users worldwide. Made by the KBP Instrument Design Bureau. It was first publicly displayed at the Interpolytech-2004 exhibition in Moscow even though its patent was filed in 2001 and issued in 2003. It is chambered in 9x19mm Parabellum, and specifically designed to utilize the new Russian 7N31 +P+ armor-piercing version of the cartridge. This is intended to give the PP-2000 armor-piercing capability comparable to the FN P90 and Heckler and Koch MP7 personal defense weapons while using the 9mm Parabellum round</text>
+	</string>
+	<string id="dav_wpn_xp1_mp5k">
+		<text>HK MP5K-PDW</text>
+	</string>
+	<string id="dav_wpn_xp1_mp5k_s">
+		<text>HK MP5K-PDW</text>
+	</string>
+	<string id="dav_wpn_xp1_mp5k_descr">
+		<text>• Missing description!</text>
+	</string>
+	<string id="dav_wpn_scope_m16">
+		<text>Colt Scope 4x21</text>
+	</string>
+	<string id="dav_wpn_scope_m16_s">
+		<text>Colt Scope</text>
+	</string>
+	<string id="dav_wpn_scope_m16_descr">
+		<text>Colt Scope 4x21 - M16</text>
+	</string>
+	<string id="dav_weapons1_ammo300_Magnum">
+		<text>.300-Winchester-Magnum</text>
+	</string>
+	<string id="dav_weapons1_ammo300_Magnum_s">
+		<text>.300-Winchester-Magnum</text>
+	</string>
+	<string id="enc_weapons1_ammo300_Magnum_descr">
+		<text>The .300 Winchester Magnum (also known as .300 Win Mag) is a popular, belted, bottlenecked magnum rifle cartridge that was introduced by Winchester Repeating Arms Company in 1963 as a member of the family of Winchester Magnum cartridges. The .300 Winchester Magnum is designed to fit in a standard length action. It is based on the .375 H&amp;H Magnum, which has been blown out, shortened, and necked down to accept a .30 calibre (7.62 mm) cartridge</text>
+	</string>
+	<string id="dav_enc_ammo_12.7x108r">
+		<text>Ammo 12.7x108R 12.7mm</text>
+	</string>
+	<string id="dav_enc_ammo_12.7x108r_s">
+		<text>Ammo 12.7x108R 12.7mm</text>
+	</string>
+	<string id="enc_ammo_12.7x108r_descr">
+		<text>Ammo for the 12.7mm ShVAK AAA machinegun\n The cartridge has a similar appearance to the 12.7mm Degtjarjov, but with a rimmed cartridge case. Not very much is known about its developement. It is reported to have been test fitted to the Yatsenko I-28 fighter prototype,\n but the readily developed 12.7mm UB aircraft machinegun had far better performance than the 12.7mm ShVAK</text>
+	</string>
+	<string id="ars_kord_m1">
+		<text>Kord M1</text>
+	</string>
+	<string id="ars_kord_m1_s">
+		<text>Kord M1</text>
+	</string>
+	<string id="enc_arsenal_kord_m1_descr">
+		<text>Ammunition:\n • Feed 12.7x108mm\n • Cartridge BS 12.7x108mm\n • effective range 1200m\n • sighting range 1850m\n • rate of fire 750rpm\n • 150 tape cartridges\n \nKord (Kovrovskiye gunsmith Degtyarevtsy) - machine gun with belt feed chambered 12.7x108mm. Developed in the 90s at the Kovrov plant as a replacement for the NSV and is capable of bipod and hand firing. Currently it is one of the lightest full 12.7mm machine guns. Currently used as infantry support weapons and can be mounted on armored vehicles</text>
+	</string>
+	<string id="ammo_4.73_33_g11">
+		<text>Ammo 4.73x33 g11</text>
+	</string>
+	<string id="ammo_4.73_33_g11_s">
+		<text>Ammo 4.73x33</text>
+	</string>
+	<string id="ammo_4.73_33_g11_descr">
+		<text>4.73x33 mm caseless ammunition, with the propellant shaped into square blocks. The ammunition has also been designated as 4.92 mm because for the HK G11 ACR, a variant developed for US Military trials, the US convention of groove to groove measurements of the bore was employed, rather than land-land.[6] The projectile is 4.93 mm in diameter with a case length of 33mm, the US case length measurement is 34mm since for the ACR trials the chamber length, not the actual case length was used. The 4.73 mm round is half the weight and 40% the size by volume of the 5.56x45mm NATO round. The round also has similar ballistics to a 5.56x45mm NATO round, but the 4.73 mm is much less likely to tumble when hitting or penetrating a target, and thus not as lethal. It is not clear to what extent the round would fragment, which could also make it more lethal.</text>
+	</string>
+</string_table>

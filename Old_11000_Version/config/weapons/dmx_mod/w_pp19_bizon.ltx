@@ -1,0 +1,221 @@
+;;;; TB3D 1.1.0.0.0.2 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+;Ѕизон ѕѕ-20
+[wpn_bizon_pp19]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn              	= "weapons\bizon_pp19"	; name and section in level editor
+$npc					= on				
+$prefetch 				= 8
+scheduled				= off               ;[] option for ALife Simulator
+cform               	= skeleton
+class               	= WP_LR300
+min_radius          	= 0			
+max_radius          	= 200
+description				= wpn_bizon_pp19_descr
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0		       ; во сколько раз увеличиваетс€ eye_range 
+holder_fov_modifier		= 0.7              ; во сколько раз увеличиваетс€ eye_fov
+;-----------------------------------------------------------------------------------
+
+cost					= 4000
+weapon_class			= assault_rifle		
+	
+ammo_limit				= 210
+ammo_elapsed			= 64	
+	
+ammo_mag_size			= 65
+fire_modes				= 1, -1
+
+ammo_class				= ammo_9x18_fmj, ammo_9x18_pmm
+
+hand_dependence			= 1
+single_handed			= 0
+	
+slot 					= 1
+animation_slot			= 2  ;8
+
+inv_name	        	= wpn_bizon_pp19
+inv_name_short			= wpn_bizon_pp19
+inv_weight			= 2.7
+
+inv_grid_width			= 4
+inv_grid_height			= 2
+inv_grid_x				= 66
+inv_grid_y				= 71
+
+kill_msg_x	= 0
+kill_msg_y	= 28
+kill_msg_width	= 84
+kill_msg_height	= 28
+
+;-----------------------------------------------------------------------------------
+;params of weapon recoil
+fire_dispersion_base			= 0.0182		;угол (в градусах) базовой дисперсии оружи€ (оружи€ зажатого в тисках)
+control_inertion_factor			= 1.25f
+
+;отдача
+cam_relax_speed         		=5;3.5; 0.15		;скорость возврата в исходное положение
+cam_dispersion          		= 0.15		;увеличени€ угла (в градусах) с каждым выстрелом
+cam_dispersion_inc			= 0.3		;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac			= 0.9		;ствол будет подыматьс€ на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle				= 10.0	    	;максимальный угол отдачи
+cam_max_angle_horz			= 20.0		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 1.1;1		;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor 	= 5	    	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.003	;веро€тность осечки при максимальном износе 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.00007	;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+
+fire_point             		=  0,0.235,0.434			; position (3rd person view) for particles of fire 
+
+flame_particles				= weapons\generic_weapon05
+smoke_particles				= weapons\generic_shoot_00
+
+shell_point		 			= 0,0.216,0.174
+shell_particles	 			= weapons\generic_shells  ;shell_particles	 = weapons\generic_shells	
+
+PDM_disp_base 				= 1.0
+PDM_disp_vel_factor 		= 1.3
+PDM_disp_accel_factor 		= 1.3
+PDM_crouch	 				= 1.0
+PDM_crouch_no_acc 			= 1.0
+
+hit_power                	= 0.91
+hit_impulse		 			= 140
+hit_type 					= fire_wound
+hit_rate	        = 1.85
+fire_distance            	= 100					;;;109974 10:1
+bullet_speed				= 330
+rpm                      	= 680
+
+use_aim_bullet				= true		;ѕоддерживаетс€ ли перва€ супер пул€
+time_to_aim					= 1.0	
+
+hud                      	= wpn_bizon_pp19_hud
+
+position         	        = -0.026,-0.172,0
+orientation      	        = 0,0,0	
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.16,-0.40,0.15
+strap_orientation      		= -10,-5,10
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+visual            	      = weapons\bizon\wpn_bizon_p.ogf
+;visual         		        = weapons-new\bizon\wpn_bizon.ogf
+
+light_color					= 0.6,0.5,0.3
+light_range					= 5		
+light_var_color				= 0.05						
+light_var_range				= 0.5
+light_time 					= 0.2						
+ph_mass						= 5
+
+;addons
+scope_status				= 0
+silencer_status				= 2
+grenade_launcher_status		= 0
+
+zoom_enabled				= true			
+scope_zoom_factor	    	= 90					
+
+scope_name 					= wpn_tulip_scope		
+scope_x 					= 67						
+scope_y 					= 0
+
+silencer_name  				= wpn_addon_sil_9_p	
+silencer_x 					= 174					
+silencer_y 					= 20					
+
+snd_draw					= weapons-new\bizon\draw, 0.5
+snd_holster					= weapons\generic_holster, 0.3
+snd_shoot					= weapons-new\bizon\shoot	
+snd_empty					= weapons\gen_empty, 0.5
+snd_reload					= weapons-new\bizon\reload, 0.4
+snd_silncer_shot			= weapons\w_ak74_shot1 
+
+silencer_smoke_particles 	= weapons\generic_shoot_00
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+[wpn_bizon_pp19_hud]
+allow_inertion				= true
+shell_point     	   	 	= 0.04,0,-0.7
+shell_dir			     	= 0.0, 1.0, 0.0
+
+fire_point					= 0,-0.015,-0.6
+fire_bone               	= muzzle	;wpn_body  ; - aleks1970
+orientation             	= 0, 1, 0 
+position                	= 0.1,-0.04,-0.01
+visual                  	= weapons\bizon\wpn_bizon_p_hud.ogf
+;visual                  	= weapons-new\bizon\wpn_bizon_hud.ogf
+
+anim_idle					= idle_1
+anim_idle_aim				= idle_aim_1
+anim_reload					= reload_1
+anim_draw					= draw_1
+anim_holster				= holster_1
+anim_shoot					= shoot_1
+anim_idle_sprint			= idle_sprint_1
+
+zoom_offset			= -0.10,0.023,-0.1
+zoom_rotate_x		= 0 
+zoom_rotate_y		= 0
+zoom_hide_crosshair	= true
+
+[wpn_bizon_pp19_kol]:wpn_bizon_pp19
+description				= enc_wpn_bizon_pp19_kol
+ammo_class				= ammo_9x19_fmj, ammo_9x19_pbp
+inv_name	        	= wpn_bizon_pp19_kol
+inv_name_short			= wpn_bizon_pp19_kol
+inv_weight			    = 3
+inv_grid_x			= 70
+inv_grid_y			= 71
+cost				= 5000
+hud                     = wpn_bizon_pp19_kol_hud
+visual                  = weapons\bizon\wpn_bizon_p_kol.ogf
+;visual                  = weapons-new\bizon\wpn_bizon_kol.ogf
+scope_status			= 2
+silencer_name  				= wpn_9mm_nato_silencer		
+silencer_x 					= 175						
+silencer_y 					= 16
+
+[wpn_bizon_pp19_kol_hud]:wpn_bizon_pp19_hud
+visual                  = weapons\bizon\wpn_bizon_p_kol_hud.ogf
+;visual                  	= weapons-new\bizon\wpn_bizon_kol_hud.ogf
+anim_shoot					= shoot_1
+zoom_offset			= -0.1005,0.002,-0.1 
+zoom_rotate_x		= -0.0
+zoom_rotate_y		= 0
+
+[wpn_tulip_scope]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn			= "weapons\addons\scope" ; option for Level Editor
+class			= WP_SCOPE
+cform           = skeleton
+visual          = weapons\upgrades\1p29.ogf
+$prefetch 		= 32
+cost			= 500
+inv_name		= wpn_tulip_scope
+inv_name_short	= wpn_tulip_scope
+description		= enc_wpn_tulip_scope
+inv_weight		= 0.35
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 51
+inv_grid_y		= 23
+scope_texture		= weapons-new\bizon\optik\1p29_setka.dds
+;scope_texture		= arsenal_mod\crosshairs\scope_1p78.dds
+scope_zoom_factor	      = 20		;ѕ—ќ-1 2X

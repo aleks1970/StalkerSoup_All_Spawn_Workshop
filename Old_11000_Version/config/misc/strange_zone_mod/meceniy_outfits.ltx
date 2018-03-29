@@ -1,0 +1,397 @@
+;<!-- TB3D 1.1.0.0.1.3 skat-15m icon, new suit system and visual... aleks1970, exo_mil_exoskeleton_tb3d -->
+;---------------------------------------------------------------------------------------------
+;		Camouflage: Bullseye (Shooter)
+;		script (s) nanobots
+#include "w_intergral_knife.ltx"	; integrated transparent knife
+;---------------------------------------------------------------------------------------------
+[meceniy_outfit_new]:outfit_base
+GroupControlSection	= spawn_group
+discovery_dependency = 
+$spawn 			= "outfit\bandit_outfit"
+;$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\exoskelet_holo       ;equipments\bandit_black_suit
+;actor_visual	= actors\bandit\stalker_arhara.ogf
+actor_visual	= actors\bandit\stalker_arhara1.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= mas_outfit_name
+inv_name_short		= mas_outfit_name
+description			= mas_outfit_description
+inv_weight			= 8.5
+inv_grid_width		= 3
+inv_grid_height		= 3
+inv_grid_x			= 35
+inv_grid_y			= 6
+full_icon_name		= npc_icon_stalker_arhara_outfit
+
+cost				= 25000
+slot				= 6
+full_scale_icon		= 0,6
+power_loss 			= 0.70
+bleeding_restore_speed			= -0.006
+
+; NO RESISTANCE
+burn_protection 				= 0.01
+strike_protection 				= 0.01
+shock_protection 				= 0.01
+wound_protection				= 0.01
+radiation_protection 			= 0.0
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.01
+explosion_protection 			= 0.01
+fire_wound_protection  			= 0.02
+
+bones_koeff_protection = kombez_kupol_damage
+
+immunities_sect			   	 	= meceniy_outfit_new_immunities
+[meceniy_outfit_new_immunities]
+burn_immunity				= 0.04
+strike_immunity				= 0.01
+shock_immunity				= 0.04
+wound_immunity				= 0.025
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.04
+explosion_immunity			= 0.04
+fire_wound_immunity			= 0.15
+
+;-----------------------------------------------
+; New invisible outfit "Strelok"
+;-----------------------------------------------
+
+[meceniy_outfit_strelok]:meceniy_outfit_new
+$spawn 			= "outfit\bandit_outfit"
+
+script_binding  = bind_mashalat.init
+
+visual          = equipments\exoskelet_holo       ;equipments\bandit_black_suit
+actor_visual	= actors\bandit\stalker_arhara1.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= mas_outfit_strelok_name
+inv_name_short		= mas_outfit_strelok_name
+description			= mas_outfit_strelok_description
+inv_weight			= 8.5
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 49  ; 47	;49 ;aleks1970
+inv_grid_y			= 60	;60	;60 ;aleks1970
+full_icon_name		= npc_icon_stalker_arhara_outfit
+
+cost				= 42000
+slot				= 6
+full_scale_icon		= 0,6
+
+power_loss		 				= 0.45
+;-;power_restore_speed			    = 0.02
+health_restore_speed		 	= 0.36
+bleeding_restore_speed			= -0.14
+satiety_restore_speed		 	= 0.003
+
+additional_inventory_weight		= 35
+additional_inventory_weight2	= 35
+nightvision_sect				= effector_nightvision_good
+
+; NO RESISTANCE
+burn_protection 				= 0.5	; good protection
+strike_protection 				= 0.1
+shock_protection 				= 0.75
+wound_protection				= 0.40
+radiation_protection 			= 0.45
+telepatic_protection 			= 0.55
+chemical_burn_protection 		= 0.5
+explosion_protection 			= 0.25
+fire_wound_protection  			= 0.4
+
+immunities_sect			   	 	= meceniy_outfit_strelok_immunities
+[meceniy_outfit_strelok_immunities]
+burn_immunity				= 0.05	; but very quickly deteriorates
+strike_immunity				= 0.05
+shock_immunity				= 0.001
+wound_immunity				= 0.009
+radiation_immunity			= 0.008
+telepatic_immunity			= 0.02
+chemical_burn_immunity		= 0.03
+explosion_immunity			= 0.01
+fire_wound_immunity			= 0.03
+
+;-----------------------------------------
+;New Exoskeleton, Prototype SKAT-15
+;-----------------------------------------
+[exo_mil_exoskeleton]:exo_outfit	;;;exo_outfit	;outfit_base
+$spawn						= "outfit\uniq\outfit_exo_m1"
+$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+inv_name					= mil_exoskeleton_name
+inv_name_short				= mil_exoskeleton_name_s
+description					= mil_exoskeleton_description
+inv_grid_width     = 2
+inv_grid_height    = 3
+inv_grid_x         = 28 ;18
+inv_grid_y         = 38 ;41
+
+;ef_equipment_type	= 5		;;aleks1070
+visual          = new\nano_exoskel.ogf	
+actor_visual	= new\nano_exoskel_meceniy.ogf
+;full_icon_name		= npc_icon_exo_outfit
+full_icon_name		= npc_icon_superskat_arhara_outfit
+full_scale_icon		= 10,6		;icon stalker dressed in full growth
+
+inv_weight			        = 30.0
+cost				        = 45000
+
+power_loss		 			= 0.75	;-;0.65
+;-;power_restore_speed		    = 0.06
+bleeding_restore_speed		= -0.14
+satiety_restore_speed	 	= 0.003
+health_restore_speed		= 0.0007
+
+sprint_allowed				= true
+
+additional_inventory_weight	= 50
+additional_inventory_weight2= 50
+
+bones_koeff_protection		= exo_helmet_damage
+
+nightvision_sect	        = effector_nightvision_good
+
+; SKAT15-M RESISTANCE ;BASE
+burn_protection 			= 0.55
+strike_protection 			= 0.55
+shock_protection 			= 0.6
+wound_protection			= 0.65
+radiation_protection 		= 0.6
+telepatic_protection 		= 0.35
+chemical_burn_protection 	= 0.5
+explosion_protection 		= 0.5
+fire_wound_protection  		= 0.15
+
+immunities_sect			    = sect_mil_exoskeleton
+[sect_mil_exoskeleton]
+burn_immunity				= 0.002
+strike_immunity				= 0.002
+shock_immunity				= 0.004
+wound_immunity				= 0.002
+radiation_immunity			= 0.003
+telepatic_immunity			= 0.003
+chemical_burn_immunity		= 0.002
+explosion_immunity			= 0.002
+fire_wound_immunity			= 0.002
+
+;------------------------------------------------------------------
+;New Exoskeleton, Prototype SKAT-15-M -- Maintenance Manual Part
+;------------------------------------------------------------------
+[exo_mil_exoskeleton_add]:exo_mil_exoskeleton
+inv_name					= mil_exoskeleton_name_add
+inv_name_short				= mil_exoskeleton_name_add_s
+description					= mil_exoskeleton_description_add
+inv_grid_width     = 2	; new icon - aleks1970
+inv_grid_height    = 3	; new icon - aleks1970
+inv_grid_x         = 63	; new icon - aleks1970
+inv_grid_y         = 61	; new icon - aleks1970
+inv_weight			        = 26.0
+cost				        = 55000
+
+power_loss		 			= 0.65	;-;0.50
+health_restore_speed		= 0.01
+additional_inventory_weight	= 60
+additional_inventory_weight2= 60
+
+; SKAT15-M RESISTANCE ;POWER-UP Maintrance
+burn_protection 			= 0.55
+strike_protection 			= 0.55
+shock_protection 			= 0.6
+wound_protection			= 0.65
+radiation_protection 		= 0.6
+telepatic_protection 		= 0.60
+chemical_burn_protection 	= 0.5
+explosion_protection 		= 0.5
+fire_wound_protection  		= 0.35
+
+immunities_sect			    = sect_mil_exoskeleton_add
+[sect_mil_exoskeleton_add]
+burn_immunity				= 0.002
+strike_immunity				= 0.002
+shock_immunity				= 0.004
+wound_immunity				= 0.001
+radiation_immunity			= 0.002
+telepatic_immunity			= 0.002
+chemical_burn_immunity		= 0.002
+explosion_immunity			= 0.002
+fire_wound_immunity			= 0.002
+
+;--------------------------------------------------------------
+;New Exoskeleton, Prototype SKAT-15-M1 -- Upgrade to Block #1
+;--------------------------------------------------------------
+[exo_mil_exoskeleton_addr]:exo_mil_exoskeleton_add
+inv_name					= mil_exoskeleton_name_addr
+inv_name_short				= mil_exoskeleton_name_addr_s
+description					= mil_exoskeleton_description_addr
+inv_grid_width				= 2	; new icon - aleks1970
+inv_grid_height			    = 3	; new icon - aleks1970
+inv_grid_x					= 61	; new icon - aleks1970
+inv_grid_y					= 61	; new icon - aleks1970
+inv_weight			        = 26
+cost				        = 65000
+
+power_loss		 			= 0.55	;-;0.40
+additional_inventory_weight	= 70
+additional_inventory_weight2= 70
+
+; SKAT15-M1 RESISTANCE ;POWER-UP #1
+burn_protection 			= 0.60
+strike_protection 			= 0.55
+shock_protection 			= 0.70
+wound_protection			= 0.65
+radiation_protection 		= 0.65
+telepatic_protection 		= 0.60
+chemical_burn_protection 	= 0.60
+explosion_protection 		= 0.55
+fire_wound_protection  		= 0.55
+health_restore_speed		= 0.07
+
+immunities_sect			    = sect_mil_exoskeleton_addr
+[sect_mil_exoskeleton_addr]
+burn_immunity				= 0.002
+strike_immunity				= 0.002
+shock_immunity				= 0.003
+wound_immunity				= 0.001
+radiation_immunity			= 0.001
+telepatic_immunity			= 0.001
+chemical_burn_immunity		= 0.003
+explosion_immunity			= 0.002
+fire_wound_immunity			= 0.002
+
+;--------------------------------------------------------------
+;New Exoskeleton, Prototype SKAT-15-M2 -- Upgrade to Block #2
+;--------------------------------------------------------------
+[exo_mil_exoskeleton_addx]:exo_mil_exoskeleton_addr	;;;addrs is a quest item so use addx for upgrades
+inv_name					= mil_exoskeleton_name_addx
+inv_name_short				= mil_exoskeleton_name_addx_s
+description					= mil_exoskeleton_description_addx
+inv_grid_width     			= 2	; new icon - aleks1970
+inv_grid_height    			= 3	; new icon - aleks1970
+inv_grid_x         			= 59	; new icon - aleks1970
+inv_grid_y         			= 61	; new icon - aleks1970
+inv_weight			        = 26
+cost				        = 70000
+
+power_loss		 			= 0.45	;-;0.35
+additional_inventory_weight	= 70
+additional_inventory_weight2	= 70
+
+; SKAT15-M1 RESISTANCE ;POWER-UP #2
+burn_protection 			= 0.60
+strike_protection 			= 0.55
+shock_protection 			= 0.70
+wound_protection			= 0.70
+radiation_protection 		= 0.70
+telepatic_protection 		= 0.65
+chemical_burn_protection 	= 0.60
+explosion_protection 		= 0.55
+fire_wound_protection  		= 0.60
+health_restore_speed		= 0.07
+
+immunities_sect			    = sect_mil_exoskeleton_addx
+[sect_mil_exoskeleton_addx]
+burn_immunity				= 0.002
+strike_immunity				= 0.001
+shock_immunity				= 0.002
+wound_immunity				= 0.001
+radiation_immunity			= 0.001
+telepatic_immunity			= 0.001
+chemical_burn_immunity		= 0.002
+explosion_immunity			= 0.001
+fire_wound_immunity			= 0.001
+
+;;;;;;;;;;;;;;;;;;;;;;;;; - DMX - Final Upgrade - ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;----------------------------------------------
+;New Exoskeleton, Prototype SKAT-15-M3 - DMX
+;----------------------------------------------
+[exo_mil_exoskeleton_dmx]:exo_mil_exoskeleton_addx 
+inv_name					= mil_exoskeleton_name_dmx_upgrade
+inv_name_short				= mil_exoskeleton_name_dmx_upgrade_s
+description					= mil_exoskeleton_description_dmx_upgrade
+
+inv_grid_width     			= 3	; new icon - aleks1970
+inv_grid_height    			= 3	; new icon - aleks1970
+inv_grid_x         			= 0	; new icon - aleks1970
+inv_grid_y         			= 41	; new icon - aleks1970
+inv_weight		   			= 19.0
+cost			   			= 120000
+
+power_loss		 			= 0.40	;-;0.25
+health_restore_speed		= 0.09
+;-;power_restore_speed 		= 0.0016
+bleeding_restore_speed		= -0.005
+satiety_restore_speed 		= 0.0002
+
+additional_inventory_weight	 = 80
+additional_inventory_weight2 = 80
+nightvision_sect   = effector_nightvision_bast
+
+; SKAT15-M RESISTANCE ;POWER-UP #FINAL
+burn_protection 		 = 0.75
+strike_protection 		 = 0.62
+shock_protection 		 = 0.73
+wound_protection 		 = 0.75
+radiation_protection 	 = 0.85
+telepatic_protection 	 = 0.85
+chemical_burn_protection = 0.73
+explosion_protection 	 = 0.68
+fire_wound_protection 	 = 0.72
+
+immunities_sect			    = sect_mil_exoskeleton_dmx
+[sect_mil_exoskeleton_dmx]
+burn_immunity				= 0.001
+strike_immunity				= 0.001
+shock_immunity				= 0.001
+wound_immunity				= 0.001
+radiation_immunity			= 0.001
+telepatic_immunity			= 0.001
+chemical_burn_immunity		= 0.001
+explosion_immunity			= 0.001
+fire_wound_immunity			= 0.001
+
+;;;;;;;;;;;;;;;;;;;;;;;- EXOSKELETON - TB3D -;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[exo_mil_exoskeleton_tb3d]:exo_mil_exoskeleton_dmx
+inv_name					= mil_exoskeleton_name_tb3d
+inv_name_short				= mil_exoskeleton_name_tb3d_s
+description					= mil_exoskeleton_description_tb3d
+inv_grid_width     			= 3	; new icon - aleks1970
+inv_grid_height    			= 3	; new icon - aleks1970
+inv_grid_x         			= 66	; new icon - aleks1970
+inv_grid_y         			= 49	; new icon - aleks1970
+inv_weight		   			= 19.3
+cost			   			= 126000
+power_loss					= 0.35	;-;0.20
+
+; SKAT15-M_tb3d RESISTANCE ;Almost MAX POWER-UP #FINAL
+burn_protection 		 = 1.0
+strike_protection 		 = 0.92
+shock_protection 		 = 0.83
+wound_protection 		 = 0.88
+radiation_protection 	 = 1.0
+telepatic_protection 	 = 1.0
+chemical_burn_protection = 0.93
+explosion_protection 	 = 0.88
+fire_wound_protection 	 = 1.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[dmx_skat15_upgrade]:doc_10  ; upgrade block 3
+description		    = dmx_apgreider_3
+inv_name			= dmx_skat15_upgrade
+inv_name_short		= dmx_skat15_upgrade
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x          = 52
+inv_grid_y          = 4  ; 66 ; aleks1970
+cost			    = 0
+inv_weight			= 1.8
+

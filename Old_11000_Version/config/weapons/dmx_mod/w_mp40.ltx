@@ -1,0 +1,205 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[wpn_mp40]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                  = "weapons\mp40"					; option for Level Editor
+$npc			 		= on				; option for Level Editor
+$prefetch 		 		= 8
+scheduled               = off              ; option for ALife Simulator
+cform                   = skeleton
+class                   = WP_LR300
+min_radius              = 0
+max_radius              = 200
+description				= enc_wpn_mp40
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0		       ; во сколько раз увеличивается eye_range 
+holder_fov_modifier		= 0.7              ; во сколько раз увеличивается eye_fov
+;-----------------------------------------------------------------------------------
+weapon_class			= assault_rifle
+cost					= 2200
+
+ammo_limit		 		= 320
+ammo_current			= 32
+ammo_elapsed		 	= 32
+
+ammo_mag_size		 	= 33
+ammo_class		 		= ammo_9x19_fmj, ammo_9x19_pbp 
+fire_modes				= -1
+
+hand_dependence		 	= 1
+single_handed			= 0
+
+inv_name				= wpn_mp40
+inv_name_short			= wpn_mp40
+inv_weight				= 4.03
+
+inv_grid_width			= 3
+inv_grid_height			= 2
+inv_grid_x				= 0
+inv_grid_y				= 67
+
+kill_msg_x			= 72
+kill_msg_y			= 82
+kill_msg_width		= 56
+kill_msg_height		= 23
+
+slot 					= 2		
+animation_slot			= 8		
+
+;-----------------------------------------------------------------------------------
+;params of weapon recoil
+fire_dispersion_base			= 0.02		;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor			= 1.25f
+
+;отдача
+cam_relax_speed         		= 5		;скорость возврата в исходное положение
+cam_dispersion          		= 0.15		;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc			= 0.3		;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac			= 0.9		;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle				= 10.0	    	;максимальный угол отдачи
+cam_max_angle_horz			= 20.0		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 1.1;1		;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor 	= 5	    	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.003	;вероятность осечки при максимальном износе 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.0001	;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+
+direction               = 0, 0, 1
+
+fire_point             	=  0,  0.0992,  0.988
+flame_particles			= weapons\generic_weapon05
+smoke_particles         = weapons\generic_shoot_00
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+shell_point		 		= 0,  0.216,  0.174
+shell_dir		 		= 0.0, 1.0, 0.0
+
+rpm_empty_click 	 	= 200
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 	= 0.8
+PDM_disp_accel_factor 	= 0.8
+PDM_crouch	 		    = 1.0
+PDM_crouch_no_acc 		= 1.0
+
+; ttc
+hit_power        	= 1.51
+hit_impulse		 	= 140
+hit_type 			= fire_wound
+
+fire_distance          	= 100					;;;109974 10:1
+bullet_speed			= 380 ;начальная скорость пули
+rpm                     = 750
+; end ttc
+
+use_aim_bullet				= true		;Поддерживается ли первая суппер пуля
+time_to_aim					= 1.0
+
+hud                     = wpn_mp40_hud
+normal                  = 0, 1, 0
+position         	    = -0.026,-0.030,-0.37     ; первая влево\вправо ; вторая вверх\вниз ;третья ZOOM    ; ; положение в руках со стороны
+orientation             = 0, 0, 0
+
+;--STRAP PARAMETERS-------------------------------------------------------------------
+strap_position         		= -0.24,  -0.24,  -0.35	   ;  ЗА СПИНОЙ		; первая + влево - вправо ; вторая + вверх - вниз ;третья ZOOM
+strap_orientation      		= -10,  -2,  10					; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+startup_ammo            = 1000
+visual                  = weapons\mp40\wpn_mp40.ogf
+
+light_color		 		= 0.6,0.5,0.3
+light_range		 		= 5
+light_var_color		 	= 0.05
+light_var_range		 	= 0.1
+light_time 		 		= 0.2
+
+ph_mass			 		= 5
+
+;addons
+scope_status			= 0
+silencer_status			= 0 ;2
+grenade_launcher_status	= 0
+
+silencer_name  				= wpn_addon_sil_mp40
+silencer_x 					= 186
+silencer_y 					= -1
+
+silencer_light_color		= 1.0, 0.1, 0.0
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+zoom_enabled			= true
+scope_zoom_factor	    = 90
+
+;звуки
+snd_draw			= weapons\mp40\mp40_draw
+snd_holster			= weapons\generic_holster
+snd_shoot			= weapons\mp40\mp40_shoot
+snd_empty			= weapons\mp40\mp40_empty
+snd_reload			= weapons\mp40\mp40_reload
+snd_close		    = weapons\generic_holster
+snd_silncer_shot	= weapons\mp40\mp40_shoot
+
+[wpn_mp40_hud]
+shell_point          	= 0.00, 0.00, 0.00
+shell_dir		 = 0.0, 0.0, 0.0
+
+fire_point              =  0.000000,  0.180000,  -0.100000
+fire_bone               = wpn_body
+orientation             = 0.0, 2.2, 0.0
+position                = 0.1491, -0.029, 0.30                 
+visual                  = weapons\mp40\wpn_mp40_hud.ogf
+
+anim_holster				= holster
+anim_idle					= idle
+anim_empty					= empty
+anim_reload					= reload_full
+anim_reload_empty			= reload
+anim_draw					= draw
+anim_draw_empty				= draw_empty
+anim_shoot					= shoot
+anim_shot_last				= shoot_last
+anim_close					= idle
+anim_idle_aim				= idle_aim
+anim_idle_sprint			= idle_sprint
+
+;смещения HUD для режима приближения
+zoom_offset		    =  -0.149,0.067,-0.04      
+zoom_rotate_x		=   0.029061             
+zoom_rotate_y		=   0.000000 
+
+[wpn_addon_sil_mp40]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			= "weapons\addons\wpn_addon_sil_mp40" 
+class			= W_SILENC
+cform           = skeleton
+visual          = weapons\mp40\sil_mp40.ogf
+description		= enc_wpn_addon_sil_mp40
+$prefetch 		= 32
+
+cost			= 600
+inv_name		= wpn_addon_sil_mp40
+inv_name_short	= wpn_addon_sil_mp40
+inv_weight		= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 20
+inv_grid_y			= 20
+
+bullet_hit_power_k	= 0.8
+bullet_speed_k	 	= 0.8
+fire_dispersion_base_k = 1.25
+cam_dispersion_k	= 0.8
+            

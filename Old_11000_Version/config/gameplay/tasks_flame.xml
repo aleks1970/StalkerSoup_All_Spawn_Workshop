@@ -1,0 +1,39 @@
+<!-- ************ TB3D 1.0.9.9.7.0 134 and AMK2*************** -->
+<game_task id="flamethrower_quest_task">
+	<title>Find_fix_Flamethrower_gameplay_titles</title>
+	<objective>
+		<text>Search_for_fix the_Flamethrower_gameplay_descriptions</text>
+		<icon>amk_ui_flame_quest</icon>
+		<article>mil_screw_flamethrower_descr</article>
+		<infoportion_complete>game_over</infoportion_complete>
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<infoportion_fail>mil_freedom_member0002_umer</infoportion_fail>
+		<!-- *************** !!!!TB3D 134 *************** -->
+	</objective>
+	<objective>
+		<text>an_Fire_Ball_artefact_gameplay_descriptions</text>
+		<infoportion_complete>flamethrower_quest_fireball</infoportion_complete>
+	</objective>
+	<objective>
+		<text>a_metal_tube_gameplay_descriptions</text>
+		<infoportion_complete>flamethrower_quest_trubki</infoportion_complete>
+	</objective>
+	<objective>
+		<text>a_pressure_sensor_gameplay_descriptions</text>
+		<infoportion_complete>flamethrower_quest_manometr</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_a_burner_gameplay_descriptions</text>
+		<infoportion_complete>flamethrower_quest_gorelka</infoportion_complete>
+	</objective>
+	<objective>
+		<text>bottles_of_vodka_gameplay_descriptions</text>
+		<infoportion_complete>flamethrower_quest_vodka</infoportion_complete>
+	</objective>
+	<objective>
+		<map_location_type hint="mil_Svoboda_engineer">blue_location</map_location_type>
+		<object_story_id>mil_Svoboda_engineer</object_story_id>
+		<text>items_to_Screw_gameplay_descriptions</text>
+		<infoportion_complete>game_over</infoportion_complete>
+	</objective>
+</game_task>

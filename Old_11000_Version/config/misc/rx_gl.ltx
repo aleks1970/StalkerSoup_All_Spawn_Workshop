@@ -1,0 +1,34 @@
+;<!-- TB3D 1.0.1e -->
+;--------------------------------------
+; grenade launch module
+; Rulix aka Bak
+;--------------------------------------
+
+[main]
+enabled = true
+check_period = 2200 ;ms ; time between checks
+forbidden_weapons = none ; The weapon forbidden to use
+forbidden_factions = zombied
+forbidden_npcs = none
+min_dist = 6
+max_dist = 55
+spawn_period = 25 ;c ; Time between spawning a grenade for NPCs, 0 - disable spawn
+
+
+[novice]
+aim_time = 1200
+reload_time = 4500
+
+[experienced]
+aim_time = 400
+reload_time = 3000
+
+[veteran]
+aim_time = 100
+reload_time = 2500
+
+[master]
+aim_time = 0
+reload_time = 1700
+
+

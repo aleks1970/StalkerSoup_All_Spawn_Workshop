@@ -1,0 +1,36 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+; Сайга Тактическая "Снайперская"
+[wpn_saigataktik2]:wpn_saigataktik1
+description				= enc_wpn_saigataktik2
+cost					= 9800															
+inv_name	        	= wpn_saigataktik2						
+inv_name_short			= wpn_saigataktik2
+inv_grid_x         = 10
+inv_grid_y         = 69
+	
+fire_distance            	= 90					;;;109974 10:1
+bullet_speed			= 450		 	
+hud                      	= wpn_saigataktik2_hud			
+visual         		        = weapons\saiga_tactik\wpn_saiga12_tactik_sk2		
+
+scope_name 					= wpn_addon_docter			
+scope_x                     = 72		
+scope_y                     = -7
+ 
+[wpn_saigataktik2_hud]:wpn_saigataktik1_hud
+visual             = weapons\saiga_tactik\wpn_saiga12_tactik_sk2_hud.ogf
+zoom_offset			= -0.121000,0.043500,-0.198500
+zoom_rotate_x		= -0.019000
+zoom_rotate_y		= 0.002000					
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[wpn_addon_docter]:wpn_addon_scope
+$spawn			= "weapons\addons\docter"
+visual          = weapons\upgrade\wpn_docter.ogf
+description		= enc_wpn_addon_docter
+cost			= 600
+inv_name		= wpn_addon_docter
+inv_name_short	= wpn_addon_docter
+inv_grid_x         = 10
+inv_grid_y         = 65
+scope_texture		= wpn\crosshair\wpn_crosshair_sayga_taktic_un		

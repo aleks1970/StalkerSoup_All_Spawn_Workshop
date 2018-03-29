@@ -1,0 +1,169 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+;Аномальный Gauss-SPAS
+[wpn_gaussspas12]:identity_immunities
+GroupControlSection			= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                   	= "weapons\wpn_gaussspas12"					; option for Level Editor
+$npc			 			= on				; option for Level Editor
+$prefetch 		 			= 8
+scheduled                	= off              ; option for ALife Simulator
+cform                    	= skeleton
+class                    	= WP_SHOTG
+min_radius               	= 0
+max_radius               	= 100
+description					= enc_weapons1_wpn-gaussspas12
+
+ef_main_weapon_type			= 1
+ef_weapon_type				= 7
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier = 1.0; in how many time increases eye_range 
+holder_fov_modifier = 0.7; in how many time increases eye_fov
+;-----------------------------------------------------------------------------------
+
+tri_state_reload			= on
+
+cost					 	= 28500
+weapon_class			 	= shotgun
+
+
+ammo_limit		 			= 60
+ammo_current		 		= 10
+ammo_elapsed		 		= 0
+
+ammo_mag_size		 		= 26
+ammo_class		 			= ammo_super_gauss
+
+
+fire_dispersion_base = 0.12
+control_inertion_factor = 1.2f
+
+; Feedback
+cam_relax_speed = 8.0
+cam_dispersion = 5.0
+cam_dispersion_inc = 0.5
+cam_dispertion_frac = 1.0
+cam_max_angle = 12.0
+cam_max_angle_horz		= 30.0	
+cam_step_angle_horz		= 6.0	
+
+fire_dispersion_condition_factor = 5
+misfire_probability = 0.005
+misfire_condition_k = 0.05
+condition_shot_dec = 0.000001
+;-----------------------------------------------------------------------------------
+
+hand_dependence 	 		= 1
+single_handed				= 0
+
+slot 				 		= 2		
+animation_slot		 		= 9		
+
+inv_name					= wpn-gaussspas12
+inv_name_short				= wpn-gaussspas12
+inv_weight				= 4.8
+
+inv_grid_width				= 5
+inv_grid_height				= 1
+inv_grid_x					= 74
+inv_grid_y					= 67
+
+kill_msg_x			= 91
+kill_msg_y			= 104
+kill_msg_width		= 80
+kill_msg_height		= 20
+
+direction                	= 0, 0, 1
+shell_point				 	= 0.0, 0.138, 0.07
+fire_point               	= 0.0, 0.133, 0.686
+fire_point2              	= 0.0, 0.103, 0.686
+
+flame_particles		   		= weapons\generic_weapon_gauss
+smoke_particles		   		= weapons\generic_weapon07
+rpm_empty_click 	   		= 200
+
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 		= 1.7
+PDM_disp_accel_factor 		= 1.7
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+; ttc
+hit_power        		= 20
+hit_impulse      		= 400
+hit_type 			= fire_wound
+
+fire_distance           = 100					;;;109974 10:1
+bullet_speed			= 12000	; Initial speed of a bullet
+rpm                     = 5000
+; end ttc
+
+hud                      	= wpn_gaussspas12_hud
+normal                   	= 0, 1, 0
+position                 	= -0.024, -0.081, 0.
+orientation              	= 0, 0, 0      ; Value is established in degrees
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.26,-0.10,0.05			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -15,-9,110				; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+startup_ammo             	= 10
+visual                   	= weapons\gaussspas12\wpn_gaussspas12.ogf
+
+light_color		 			= 0.6,0.5,0.3
+light_range		 			= 6.0
+light_var_color		 		= 0.05
+light_var_range		 		= 0.5
+light_time 		 			= 0.2
+
+ph_mass			 			= 3
+
+;addons
+scope_status				= 0
+silencer_status				= 0
+grenade_launcher_status		= 0
+
+zoom_enabled				= true
+scope_zoom_factor	    	= 90
+
+;звуки
+snd_draw					= weapons\gauss_pistol\gauss_pistol_draw
+snd_holster					= weapons\gauss\gauss_holster
+snd_shoot					= weapons\GaussSpas12_shoot     
+snd_empty					= weapons\gauss_pistol\gauss_pistol_empty
+snd_reload					= weapons\toz34_reload
+snd_shoot_duplet			= weapons\toz34_shoot_both
+snd_open_weapon				= weapons\w1300\w1300_open			
+snd_add_cartridge			= weapons\gauss_pistol\gauss_pistol_holster       	
+snd_close_weapon			= weapons\gauss_pistol\gauss_pistol_close
+ 
+[wpn_gaussspas12_hud]
+shell_point		 			= 0.0, 0.0, 0.0
+fire_point      			= 0.000000,0.125000,0.315000
+fire_point2				    = 0.000000,0.125000,0.315000
+fire_bone                	= wpn_body
+orientation              	= 0, 0, 0
+position                 	= 0, 0, 0
+visual                   	= weapons\gaussspas12\wpn_gaussspas12_hud.ogf
+
+anim_idle					= idle
+anim_reload					= draw
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= shoot
+anim_shoot_both 			= shoot
+anim_idle_aim				= idle_aim
+anim_idle_sprint			= idle_sprint
+
+anim_open_weapon			= reload1
+anim_add_cartridge			= reload2
+anim_close_weapon			= reload3
+
+zoom_offset =-0.123300,0.047600,-0.002000
+zoom_rotate_x = 0.050700
+zoom_rotate_y = 0.001900
+
+;zoom_rotate_time			= 0.7

@@ -1,0 +1,107 @@
+;;;; TB3D 1.1.0.0.1.6 - TB3D style weapons
+;;;;;<!-- chgd bolt stay time;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; BOLT
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[bolt]:identity_immunities
+class				= II_BOLT
+cform				= skeleton
+visual				= weapons\bolt\wpn_bolt.ogf
+inv_name			= st_bolt
+$prefetch 			= 16
+inv_name_short		= st_bolt
+inv_weight			= 0.05
+
+ef_weapon_type		= 1
+script_binding      = bolt_binder.init
+
+inv_grid_width		= 0 ;2
+inv_grid_height		= 0 ;1
+inv_grid_x			= 0 ;18
+inv_grid_y			= 0 ;64
+
+;ANIMATION seen from the side
+;animation_slot		= 7 ;6
+;animation_slot		= 0 ;buggy
+;animation_slot		= 1 ;holding like a gun
+;animation_slot		= 2 ;holding like a gun
+;animation_slot		= 6 ;depicts an airplane, but swings only 1 time
+;animation_slot		= 7 ;the default animation is buggy, because swings 2 times, although under dx9 it is less noticeable
+;animation_slot		= 13;holds as binoculars
+;animation_slot		= 30;climb the stairs
+;animation_slot		= 40;It holds as an automaton
+;animation_slot		= 43;recovering
+;animation_slot		= 44;stomps
+;animation_slot		= 45;sausage
+;animation_slot		= 46;sausage
+;animation_slot		= 50;prikolno
+
+animation_slot		= 7 
+single_handed		= 0
+
+slot				= 5
+hud					= bolt_hud
+force_min			= 10
+force_const			= 20
+force_max			= 30
+force_grow_speed	= 30
+
+destroy_time		    = 10000  ;99999999999
+
+;DEFINITION positioned in space relative to the hand when viewed from the side
+attach_position_offset	= -0.021,-0.075,0.0 ;okay
+attach_angle_offset		= 0,0,0     		;default
+
+;He left hands deep into the length (due to the first parameter)
+;is shifted upwards (to the sky) perpendicular to the hand (because of the second parameter)
+;shifts deeper into the palm of the hand perpendicular to the arm (due to the third parameter)
+attach_bone_name		= 
+position_offset			= 0.0,0.0,0.0
+angle_offset			= 1.570790,1.570790,3.92699
+
+cost				= 20
+throw_point			= 0,0.4,0.5
+throw_dir			= 0,0,1
+
+[bolt_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = wpn_body	;--;bolt_0
+
+orientation         = -0.5,1.0,0.0
+position            = 0.0,-0.2,0.2
+visual              = weapons\bolt\wpn_bolt_hud.ogf
+throw_point			= 0,0.4,0.3
+throw_dir			= 0,0,0
+
+anim_show			= draw
+anim_hide			= holster
+anim_idle			= idle
+anim_playing		= idle_bore
+anim_throw_begin	= throw_begin
+anim_throw_idle		= throw_idle
+anim_throw_act		= throw_act	
+anim_throw_end		= throw_end
+
+;ANIMATION IN THE FORM OF EYE
+;anim_show		= draw3 ;draw
+;anim_hide		= holster_0       ;anim_hide    - action when we clean
+;anim_idle		= idle_0          ;anim_idle    - action when we take out of inventory or we are ready to shift from hand to hand
+;anim_playing		= idle_01         ;anim_playing - this is when we "play" with a bolt
+;anim_throw_begin	= attack_0_begin
+;anim_throw_idle		= attack_0_idle
+;anim_throw_act		= attack_0_act	
+;anim_throw_end		= attack_0_end
+;anim_idle_sprint        = idle_sprint   ;suddenly someday come in handy
+
+;allowable animation
+;idle_01         ;throwing from one hand to another
+;idle_0          ;pokachivanie Ruki
+;holster_0       ;remove
+;draw3           ;tossing
+;draw
+;attack_0
+;attack_0_idle
+;attack_0_act
+;attack_0_begin
+;attack_0_end
+;idle_sprint   ;animation when running, would work, but for some reason anim_idle_sprint for some class is missing
+;To understand how it should look, you can substitute it to the anim_show, for example, anim_show = idle_sprint

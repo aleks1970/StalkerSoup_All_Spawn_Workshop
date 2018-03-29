@@ -1,0 +1,208 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+; Пистолет-пулемет П90. Ремейк от Piter
+[wpn_p90]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn              	= "weapons\wpn_p90"	; name and section in level editor
+$npc					= on				
+$prefetch 				= 8
+scheduled				= off               ;[] option for ALife Simulator
+cform               	= skeleton
+class               	= WP_LR300			; class of the weapon that corresponding to CPP class
+min_radius          	= 0			; [] for AI
+max_radius          	= 200				; [] for AI
+description		= enc_weapons1_wpn_p90
+	
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0		        
+holder_fov_modifier	= 0.7              
+;-----------------------------------------------------------------------------------
+
+
+cost					= 4000				
+weapon_class			= assault_rifle		
+	
+ammo_limit				= 300				
+ammo_elapsed			= 50				
+	
+ammo_mag_size			= 51
+fire_modes				= 1, -1
+
+ammo_class			= ammo_5.7x28_ss190, ammo_5.7x28_fmj, ammo_5.7x28_ap   
+
+hand_dependence			= 1									
+single_handed			= 0
+	
+slot 					= 1									
+animation_slot			= 8									
+
+
+inv_name	        	= wpn_p90_name								
+inv_name_short			= wpn_p90_name	
+inv_weight			= 2.8								
+
+inv_grid_width			= 3	 
+inv_grid_height			= 2	   
+inv_grid_x			= 34	 
+inv_grid_y			= 69
+
+kill_msg_x			= 0
+kill_msg_y			= 123
+kill_msg_width		= 69
+kill_msg_height		= 30
+
+;params of weapon recoil
+fire_dispersion_base			= 0.019		
+control_inertion_factor			= 1.1f
+
+cam_relax_speed         		= 4.5 ;0.3		
+cam_dispersion          		= 0.3		
+cam_dispersion_inc			= 0.20;0.15		
+cam_dispertion_frac			= 0.9		
+cam_max_angle				= 4.0		
+cam_max_angle_horz			= 4.0		
+cam_step_angle_horz			= 0.5		
+
+fire_dispersion_condition_factor 	= 5		
+misfire_probability 			= 0.003	
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.0001	
+;-----------------------------------------------------------------------------------
+
+fire_point             		=  0.0, 0.262, 0.27		
+
+flame_particles				= weapons\generic_weapon06	
+smoke_particles				= weapons\generic_shoot_00
+	
+shell_point		 			= 0.00, 0.262, -0.05			
+shell_particles	 			= weapons\generic_shells_nato 
+
+PDM_disp_base 				= 1.0
+PDM_disp_vel_factor 			= 0.9
+PDM_disp_accel_factor 			= 0.9
+PDM_crouch	 			= 1.0
+PDM_crouch_no_acc 			= 1.0
+
+; ttc
+hit_power               = 1.2
+hit_impulse		 		= 140		
+hit_type 				= fire_wound 	
+
+fire_distance            		= 100					;;;109974 10:1
+bullet_speed				= 500		
+rpm                      		= 620		
+
+use_aim_bullet				= true		
+time_to_aim					= 1.0	
+
+hud                      	= wpn_p90_hud				; name of the section of the hud
+
+position         	        = -0.026, -0.205, -0.0			; position (offset) and orientation of the weapon in the hands of 
+character
+orientation      	        = 0,0,0						; (3rd person view)
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.18,-0.45,0.2			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -10,-5,10					; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+visual         		        = weapons\p90\wpn_p90.ogf	; name of the model for 3rd person view
+
+light_color					= 0.6,0.5,0.3				; params for light during the fire
+light_range					= 5							; radius
+light_var_color				= 0.05						
+light_var_range				= 0.5
+light_time 					= 0.2						
+
+
+ph_mass						= 5							; physic mass (kg)
+
+
+;addons
+scope_status				= 0							; 0 - no addon
+silencer_status				= 2							; 1 - permanent
+grenade_launcher_status		= 0							; 2 - attachable
+
+zoom_enabled				= true						; (on,off)zoom mode (right mouse button)
+scope_zoom_factor	    		= 90					; fov for zoom mode
+
+
+silencer_name  			= wpn_addon_sil_57			; section name for the attachable silencer
+silencer_x 				= 114				; offset in inventory icon
+silencer_y 				= 21					
+
+
+
+;sounds (name of the sound, volume (0.0 - 1.0), delay (sec))
+
+snd_draw					= weapons\p90\p90_draw
+snd_holster					= weapons\p90\generic_holster
+snd_shoot					= weapons\p90\p90_shoot
+snd_empty					= weapons\p90\gen_empty, 0.5
+snd_reload					= weapons\p90\p90_reload
+snd_switch					= weapons\p90\groza_switch, 1.0, 0.5
+
+
+;params when silencer is attached 
+;similar to corresponding params without prefix silencer_
+
+
+;silencer_flame_particles 	= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+snd_silncer_shot			= weapons\p90\p90_silent
+
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+
+;-----------------------------------------------------------------------------
+;-- P90 HUD DESCRIPTION
+;-----------------------------------------------------------------------------
+ 
+[wpn_p90_hud]
+
+
+;similar to corresponding params in weapon section but for 1st person view
+
+shell_point          		= 0.0, 0.0, -10.0
+shell_dir		 	= 0.0, 1.0, 0.0
+
+fire_point       	        = -0.2345,-0.05,-0.02
+;fire_point2              	= 0.30, 0.00, 0.05
+fire_bone               	= wpn_body
+
+orientation             	= 0, 0, 0		
+position                	= 0, 0, 0.25
+visual                  	= weapons\p90\wpn_p90_hud.ogf
+
+;grenade_bone            	= wpn_grenade	; name of the bone in the model for grenade launcher
+
+; animation names
+
+anim_idle				= idle
+anim_idle_aim				= idle_aim
+anim_reload				= reload
+anim_draw				= draw
+anim_holster				= holster
+anim_shoot				= shoot
+anim_idle_sprint			= idle_sprint
+			
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;HUD offset in zoom mode (to all)
+;(use CONSOLE: hud_adjust_mode 0,1,2, then keys WSADQE and P to show current value in console)
+
+zoom_offset             = -0.1635,0.02150,-0.3
+zoom_rotate_x		= 0.040
+zoom_rotate_y		= 0.035
+
+
+zoom_hide_crosshair	= true					;to hide crosshair in zoom 

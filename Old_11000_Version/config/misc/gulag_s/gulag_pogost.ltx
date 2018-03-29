@@ -1,0 +1,87 @@
+; --------pogost_monster_kaban
+[logic@pogost_monster_kaban]
+active = mob_walker@pogost_monster_kaban
+on_death = death@pogost_kaban
+
+[mob_walker@pogost_monster_kaban]
+path_walk = walk1
+[death@pogost_kaban]
+on_info = %pogost_oxranik_helpmutant_done%
+
+; --------pogost_mil_tcex
+[logic@pogost_mil_tcex_h1]
+active = walker@pogost_mil_tcex_h1_walk1
+[walker@pogost_mil_tcex_h1_walk1]
+path_walk = h1_walk1
+
+[logic@pogost_mil_tcex_h2]
+active = walker@pogost_mil_tcex_h2_kpp
+[walker@pogost_mil_tcex_h2_kpp]
+path_walk = h2_kpp_walk1
+
+[logic@pogost_mil_tcex_h3]
+active = walker@pogost_mil_tcex_h3_bochki
+[walker@pogost_mil_tcex_h3_bochki]
+path_walk = h3_bochki_walk1
+
+[logic@pogost_mil_tcex_h4]
+active = walker@pogost_mil_tcex_h4_post1
+[walker@pogost_mil_tcex_h4_post1]
+path_walk = h4_post1_walk1
+
+[logic@pogost_mil_tcex_h5]
+active = walker@pogost_mil_tcex_h5_post1
+[walker@pogost_mil_tcex_h5_post1]
+path_walk = h5_post1_walk1
+
+[logic@pogost_mil_tcex_h6]
+active = walker@pogost_mil_tcex_h6_stan1
+[walker@pogost_mil_tcex_h6_stan1]
+path_walk = h6_stan1_walk1
+
+[logic@pogost_mil_tcex_h7]
+active = walker@pogost_mil_tcex_h7_stan1
+[walker@pogost_mil_tcex_h7_stan1]
+path_walk = h7_stan1_walk1
+
+[logic@pogost_mil_tcex_h8]
+active = walker@pogost_mil_tcex_h8_potr1
+[walker@pogost_mil_tcex_h8_potr1]
+path_walk = h8_potr1_walk1
+
+[logic@pogost_mil_tcex_h9]
+active = walker@pogost_mil_tcex_h9_sklad1
+[walker@pogost_mil_tcex_h9_sklad1]
+path_walk = h9_sklad1_walk1
+
+[logic@pogost_mil_tcex_h10]
+active = walker@pogost_mil_tcex_h10_sklad2
+[walker@pogost_mil_tcex_h10_sklad2]
+path_walk = h10_sklad2_walk1
+
+[logic@pogost_mil_tcex_h1112]
+active = kamp@pogost_mil_tcex_h1112
+[kamp@pogost_mil_tcex_h1112]
+center_point = h1112_kamp1
+
+[logic@pogost_mil_tcex_h1314]
+active = kamp@pogost_mil_tcex_h1314
+[kamp@pogost_mil_tcex_h1314]
+center_point = h1314_kamp2
+
+[logic@pogost_mil_tcex_h15]
+active = walker@pogost_mil_tcex_h15_korid
+[walker@pogost_mil_tcex_h15_korid]
+path_walk = h15_korid_walk1
+
+[logic@pogost_mil_tcex_h16]
+active = walker@pogost_mil_tcex_h16_of
+[walker@pogost_mil_tcex_h16_of]
+path_walk = h16_of_walk1
+
+; --------pogost_stalk_tcex
+[logic@pogost_stalk_tcex_h1]
+active = kamp@pogost_stalk_tcex
+
+[kamp@pogost_stalk_tcex]
+center_point = center

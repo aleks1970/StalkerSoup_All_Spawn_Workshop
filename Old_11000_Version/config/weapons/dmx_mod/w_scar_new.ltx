@@ -1,0 +1,255 @@
+;;;; TB3D 1.1.0.0.0.2 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;FN SCAR-L - штурмовая винтовка
+[wpn_scar_new]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                  = "weapons\scar_new"					; option for Level Editor
+$npc			 		= on				; option for Level Editor
+$prefetch 		 		= 8
+scheduled               = off              ; option for ALife Simulator
+cform                   = skeleton
+class                   = WP_AK74
+min_radius              = 0
+max_radius              = 800
+description			= enc_wpn_scar_new
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0		       ; во сколько раз увеличивается eye_range 
+holder_fov_modifier		= 0.7              ; во сколько раз увеличивается eye_fov
+;-----------------------------------------------------------------------------------
+
+
+weapon_class			= assault_rifle
+cost				= 8300
+
+ammo_limit		 	= 210
+ammo_current			= 30
+ammo_elapsed		 	= 30
+
+ammo_mag_size		 	= 31
+ammo_class		 	= ammo_5.56x45_ss190, ammo_5.56x45_ap
+grenade_class			= ammo_m209, ammo_m209_smoke
+fire_modes			= 1,  -1
+launch_speed = 0
+
+hand_dependence		 	= 1
+single_handed			= 0
+
+inv_name				= wpn_scar_new
+inv_name_short			= wpn_scar_new
+inv_weight				= 3.6
+
+inv_grid_width				= 5
+inv_grid_height			= 2
+inv_grid_x				= 46
+inv_grid_y				= 79
+
+kill_msg_x			= 175
+kill_msg_y			= 0
+kill_msg_width		= 82
+kill_msg_height		= 28
+
+slot 					= 2		; // secondary
+animation_slot			= 2		; type of the animation that will be used
+
+;-----------------------------------------------------------------------------------
+;params of weapon recoil
+fire_dispersion_base			= 0.015		;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor			= 1.25f
+
+;отдача
+cam_relax_speed         		= 0		;скорость возврата в исходное положение
+cam_relax_speed_ai         		= 5.2
+cam_dispersion          		= 0.15		;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc			= 0.3		;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac			= 0.9		;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle				= 10.0	    	;максимальный угол отдачи
+cam_max_angle_horz			= 20.0		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 1.1;1		;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor 	= 5	    	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.0003	;вероятность осечки при максимальном износе 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.0001	;увеличение износа при каждом выстреле
+;--------------------------------------------------------------------------------
+
+direction               = 0, 0, 1
+
+fire_point               	= 0.0, 0.199, 0.575
+
+shell_particles	 		= weapons\generic_shells
+flame_particles			= weapons\generic_weapon05
+grenade_flame_particles		= weapons\generic_weapon01
+
+shell_point		 			= 0.0, 0.199, 0.09
+shell_dir		 		= 0.0, 1.0, 0.0
+
+rpm_empty_click 	 	= 200
+
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 		= 0.8
+PDM_disp_accel_factor 		= 0.8
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+; ttc
+hit_power        	= 2.32
+hit_impulse		 	= 140
+hit_type 			= fire_wound
+
+fire_distance          	= 600					;;;109974 10:1
+bullet_speed		= 950 ;начальная скорость пули
+rpm                     = 600
+; end ttc
+
+use_aim_bullet				= true		;Поддерживается ли первая суппер пуля
+time_to_aim					= 1.0
+
+hud                     = scar_new_hud
+normal                  = 0, 1, 0
+position                 	= -0.026, -0.130, 0.0
+orientation              	= 0.0, 0.0, 0.0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.15,-0.37,0.2			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -10,-5,10					; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+startup_ammo            = 1000
+visual                   	= weapons\scar_new\scar_new.ogf
+
+light_color		 		= 0.6,0.5,0.3
+light_range		 		= 5
+light_var_color		 	= 0.05
+light_var_range		 	= 0.1
+light_time 		 		= 0.2
+
+ph_mass			 		= 4
+
+;addons
+scope_status			= 2
+silencer_status			= 2
+grenade_launcher_status	= 2
+
+scope_name 					= wpn_addon_acog
+scope_x                     = 83		; offset in inventory icon
+scope_y                     = -5
+
+silencer_name  				= wpn_addon_sil_556_ar
+silencer_x                  = 204		
+silencer_y                  = 18
+
+grenade_launcher_name 		= wpn_addon_grenade_launcher_m203
+grenade_launcher_x 			= 123
+grenade_launcher_y 			= 34
+
+;silencer_flame_particles 	= weapons\generic_weapon01
+;silencer_smoke_particles 	= weapons\generic_shoot_00	; aleks1970
+
+silencer_light_color		= 1.0, 0.1, 0.0
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+zoom_enabled			= true
+scope_zoom_factor	    = 90
+
+;звуки
+snd_draw					= weapons\scar_new\draw
+snd_holster					= weapons\scar_new\holster
+snd_shoot			        = weapons\scar_new\scar_shot
+snd_empty					= weapons\scar_new\empty
+snd_reload					= weapons\scar_new\reload
+snd_shoot_grenade			= weapons\scar_new\grenshoot
+snd_reload_grenade			= weapons\scar_new\grenload
+snd_switch					= weapons\scar_new\switch
+
+;params when silencer is attached 
+;similar to corresponding params without prefix silencer_
+
+;silencer_flame_particles 	= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+snd_silncer_shot			= weapons\scar_new\scar_sil, 0.5
+
+[scar_new_hud]
+
+shell_point          		= 0,0,-0.6
+shell_dir		 			= 0.0, 1.0, 0.0
+
+fire_point       	        = 0,0,-0.6
+fire_bone        	        = muzzle	;wpn_body  ; - aleks1970
+orientation             = 0, 0, 0
+position         	        = 0.15,-0.06,-0.0
+visual                  = weapons\scar_new\scar_new_hud.ogf
+
+grenade_bone            	= grenade
+
+; animation names
+
+anim_idle					= idle
+anim_idle_aim				= idle_aim
+anim_reload					= reload
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= shoot
+anim_idle_sprint			= idle_sprint
+
+;анимации с подключенным подствольником
+;(режим стрельбы из подствольника)
+;anim_idle_g					= idle_grenade
+;anim_idle_g_aim				= idle_w_gl_aim
+;anim_reload_g				= reload_grenade
+;anim_shoot_g				= shoot_grenade
+;anim_switch_grenade_on			= switch_on
+;anim_switch_grenade_off		= switch_off
+;anim_draw_g				= draw_grenade
+;anim_holster_g				= holster_grenade
+
+anim_idle_g					= idle_grenade
+anim_idle_g_aim				= idle_grenade_aim
+anim_reload_g				= reload_grenade
+anim_shoot_g				= shoot_grenade
+anim_switch_grenade_on			= switch_on
+anim_switch_grenade_off			= switch_off
+anim_draw_g					= draw_grenade
+anim_holster_g				= holster_grenade
+
+
+;(режим обычной стрельбы)			  
+anim_idle_gl				= idle_w_gl
+anim_idle_gl_aim			= idle_w_gl_aim
+anim_reload_gl				= reload_w_gl
+anim_draw_gl				= draw_w_gl
+anim_holster_gl				= holster_w_gl
+anim_shoot_gl				= shoot_w_gl
+
+;смещения HUD для режима приближения
+zoom_offset         = -0.136,0.043,-0.05
+zoom_rotate_x		= 0.0
+zoom_rotate_y		= 0.0
+
+;прячем перекрестие прицела в зуме
+zoom_hide_crosshair	= true
+
+;тоже самое, но для прицепленого подствольника
+;режим обычной стрельбы
+;zoom_offset             = -0.149,0.043,-0.05	; aleks1970
+;zoom_rotate_x           = 0.0	; aleks1970
+;zoom_rotate_y           = 0.0	; aleks1970
+
+;режим подствольника
+grenade_zoom_offset			= 0,0,0
+grenade_zoom_rotate_x		= 0
+grenade_zoom_rotate_y		= 0
+
+grenade_normal_zoom_offset		= -0.15,0.043,-0.05
+grenade_normal_zoom_rotate_x	= 0
+grenade_normal_zoom_rotate_y	= 0
+

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="windows-1252" standalone="yes"?>
+<!-- TB3D 1.1.0.0.0.4 version, Linked text from "ui & gameplay" folder, added/included files in this <string_table>
+removed duplicated string id's: "exit_ui", "Flash_ui", "Slime_ui", "Soul_ui", "Fireball_ui", "Stone_Flower_ui", "Moonlight_ui", "Mica_ui", "Slug_ui", "Crystal_ui" and "Thorn_ui", return "name_2_ui" id. - aleks1970, Astrologer -->
+<!-- Restructured sentences slightly. Sword2012 27 Jan 16, -->
+<!-- Restructured two Teleporter UI sentences. Sword2012 06 Feb 16. Used a Final File, removed mp -->
+<!-- Checked, and changed 'Armour' to 'Armor' as commented below. Sword2012 09 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<string_table>
+#include "text\eng\ui_st_mm.xml"
+#include "text\eng\ui_st_pda.xml"
+#include "text\eng\ui_st_other.xml"
+#include "text\eng\ui_st_others.xml"
+#include "text\eng\ui_st_mapdesc.xml"
+#include "text\eng\ui_st_inventory.xml"
+#include "text\eng\ui_st_keybinding.xml"
+	<string id="stop_ui">
+		<text>stop</text>
+	</string>
+	<string id="play_ui">
+		<text>play</text>
+	</string>
+	<string id="stalkersoup_teleporter_ui">
+		<text>STALKERSOUP Teleporter</text>
+	</string>
+	<string id="valid_locations_ui">
+		<text>Valid locations are:</text>
+	</string>
+	<string id="enter_destination_name_ui">
+		<text>Enter the destination name in the empty box below and hit TRAVEL</text>
+	</string>
+	<string id="genstronghold_taken_ui">
+		<text>genstronghold - CAUTION: Use only AFTER the base has been taken</text>
+	</string>
+	<string id="skip_game_descr_hint_ui">
+		<text>Teleports - to skip some of the major parts of the game.</text>
+	</string>
+	<string id="escape_completes_cave_quest_ui">
+		<text>escape - {SKIP CAVE} to the attic in Cordon, and completes the cave quest</text>
+	</string>
+	<string id="should_use_stargazer_ui">
+		<text>Use just AFTER talking to Astrologer</text>
+	</string>
+	<string id="skip_first_parts_of_game_1_ui">
+		<text>- Teleports that allow you to skip the first parts of the game -</text>
+	</string>
+	<string id="skip_first_parts_of_game_2_ui">
+		<text>These are for development and bypass normal level entry actions!</text>
+	</string>
+	<string id="stalker_start_save_ui">
+		<text>Use them only after talking to Astrologer, and the 'Stalker Start' save is done</text>
+	</string>
+	<string id="skip_to_yan_ui">
+		<text>skip_to_yan - Completes the main quest up to the start of Yantar</text>
+	</string>
+	<string id="skip_to_mil_ui">
+		<text>skip_to_mil - Completes the main quest up to the start of the Army Warehouses</text>
+	</string>
+	<string id="skip_to_prip_ui">
+		<text>skip_to_prip - Completes the main quest up to the start of Pripyat</text>
+	</string>
+	<string id="skip_to_sar_ui">
+		<text>skip_to_sar - Completes the main quest up to entering the Sarcophagus</text>
+	</string>
+	<string id="skip_monolith_ui">
+		<text>skip_monolith - Completes through the Wish Granter</text>
+	</string>
+	<string id="skip_oso_ui">
+		<text>skip_oso - Completes through the Monolith destruction and the NPP2 gauntlet</text>
+	</string>
+	<string id="travel_ui">
+		<text>TRAVEL</text>
+	</string>
+	<string id="modders_tools_ui">
+		<text>STALKERSOUP Modders' Tools</text>
+	</string>
+	<string id="ammunition_ui">
+		<text>Ammunition</text>
+	</string>
+	<string id="weapons_ui">
+		<text>Weapons</text>
+	</string>
+	<string id="artifacts_ui">
+		<text>Artefacts</text>
+	</string>
+	<string id="items_ui">
+		<text>Items</text>
+	</string>
+	<string id="outfits_ui">
+		<text>Outfits</text>
+	</string>
+	<string id="veh_anoms_ui">
+		<text>Anomalies + Vehicles</text>
+	</string>
+	<string id="monsters_ui">
+		<text>Mutants</text>
+	</string>
+	<string id="exit_ui">
+		<text>Exit</text>
+	</string>
+	<string id="move_ui">
+		<text>Move</text>
+	</string>
+	<string id="name_2_ui">
+		<text>Name:</text>
+	</string>
+	<string id="chance_of_success_85_ui">
+		<text>Chance of Success = 85%</text>
+	</string>
+	<string id="VORTEX_ui">
+		<text>VORTEX</text>
+	</string>
+	<string id="HEAT_ui">
+		<text>BURNER</text>
+	</string>
+	<string id="ELEKTRA_ui">
+		<text>ELECTRO</text>
+	</string>
+	<string id="FRUIT PUNCH_ui">
+		<text>FRUIT PUNCH</text>
+	</string>
+	<string id="ROUNDABOUT_ui">
+		<text>ROUNDABOUT</text>
+	</string>
+	<string id="SPRINGBOARD_ui">
+		<text>SPRINGBOARD</text>
+	</string>
+	<string id="Slug_ui">
+		<text>Slug</text>
+	</string>
+	<string id="Slime_ui">
+		<text>Slime</text>
+	</string>
+	<string id="Flash_ui">
+		<text>Flash</text>
+	</string>
+	<string id="Night_Star_1_ui">
+		<text>Night Star</text>
+	</string>
+	<string id="Film_ui">
+		<text>Pellicle</text>
+	</string>
+	<string id="Gravi_ui">
+		<text>Gravi</text>
+	</string>
+	<string id="Night_Star_2_ui">
+		<text>Night Star</text>
+	</string>
+	<string id="Moonlight_ui">
+		<text>Moonlight</text>
+	</string>
+	<string id="Battery_ui">
+		<text>Battery</text>
+	</string>
+	<string id="Square_Slug_ui">
+		<text>Square Slug</text>
+	</string>
+	<string id="Fireball_ui">
+		<text>Fireball</text>
+	</string>
+	<string id="Stone_Flower_ui">
+		<text>Stone Flower</text>
+	</string>
+	<string id="Mica_ui">
+		<text>Mica</text>
+	</string>
+	<string id="Soul_ui">
+		<text>Soul</text>
+	</string>
+	<string id="Gold_Fish_harm_ui">
+		<text>Goldfish (harmful)</text>
+	</string>
+	<string id="Spring_ui">
+		<text>Spring</text>
+	</string>
+	<string id="Medusa_ui">
+		<text>Medusa</text>
+	</string>
+	<string id="Small_Thorn">
+		<text>Small Thorn</text>
+	</string>
+	<string id="Thorn_ui">
+		<text>Thorn</text>
+	</string>
+	<string id="Crystal_ui">
+		<text>Crystal</text>
+	</string>
+	<string id="Gold_Fish_harm_2_ui">
+		<text>Goldfish (harmful)</text>
+	</string>
+	<string id="Gingerbread_ui">
+		<text>Kolobok</text>	<!-- Was 'Gingerbread'. Sword2012 11 Dec 16 -->
+	</string>
+	<string id="Quirk_ui">
+		<text>Quirk</text>
+	</string>
+	<string id="Simbion_ui">
+		<text>Simbion</text>
+	</string>
+	<string id="Droplet_ui">
+		<text>Droplet</text>
+	</string>
+	<string id="Small_Thorn_ui">
+		<text>Small Thorn</text>
+	</string>
+	<string id="Mama_Beads_ui">
+		<text>Glassbeads</text>
+	</string>
+	<string id="Meat_Chunk_ui">
+		<text>Meat Chunk</text>
+	</string>
+	<string id="bengal_Fire_ui">
+		<text>Sparkler</text>	<!-- Was 'Bengal Fire'. Sword2012 11 Dec 16 -->
+	</string>
+	<string id="Dummy_ui">
+		<text>Dummy</text>
+	</string>
+	<string id="environment_changer_ui">
+		<text>Environment Changer</text>
+	</string>
+	<string id="must_weathers_section_ui">
+		<text>Must be in [weathers] section of environment.ltx</text>
+	</string>
+	<string id="outdoor_sections_ui">
+		<text>Outdoor Sections</text>
+	</string>
+	<string id="indoor_sections_ui">
+		<text>Indoor Sections</text>
+	</string>
+	<string id="special_test_sections_ui">
+		<text>Special and Test Sections</text>
+	</string>
+	<string id="put_1_ui">
+		<text>Put</text>
+	</string>
+	<string id="delete_1_ui">
+		<text>Delete</text>
+	</string>
+	<string id="help_1_ui">
+		<text>Help</text>
+	</string>
+	<string id="walkie-talkie_ui">
+		<text>Walkie-Talkie</text>
+	</string>
+	<string id="general_channel_ui">
+		<text>Check general channel</text>
+	</string>
+	<string id="your_action_1_ui">
+		<text>Your action:</text>
+	</string>
+	<string id="call_companion_ui">
+		<text>Call your companion</text>
+	</string>
+	<string id="order_hold_ground_ui">
+		<text>Order your companion to hold ground</text>
+	</string>
+	<string id="order_companion_to_hide_ui">
+		<text>Order your companion to hide</text>
+	</string>
+	<string id="activate_gps_ui">
+		<text>Activate GPS</text>
+	</string>
+	<string id="gps_tracker_ui">
+		<text>Activate GPS Tracker?</text>
+	</string>
+	<string id="ok_1_ui">
+		<text>OKAY</text>
+	</string>
+	<string id="quit_1_ui">
+		<text>QUIT</text>
+	</string>
+	<string id="text_of_label_ui">
+		<text>Enter the text of the label</text>
+	</string>
+	<string id="put_2_ui">
+		<text>Put</text>
+	</string>
+	<string id="activate_gps_2_ui">
+		<text>Activate GPS</text>
+	</string>
+	<string id="location_name_ui">
+		<text>Location Name:</text>
+	</string>
+	<string id="enter_ui">
+		<text>ENTER</text>
+	</string>
+	<string id="cancel_ui">
+		<text>CANCEL</text>
+	</string>
+	<string id="timer_installation_ui">
+		<text>Timer Installation</text>
+	</string>
+	<string id="instructions_ui">
+		<text>Instructions:</text>
+	</string>
+	<string id="start_chosen_mode_ui">
+		<text>Button OK - start chosen mode</text>
+	</string>
+	<string id="switch_mode_ui">
+		<text>Button SKM:TMR - toggle mode (stopwatch-timer)</text>
+	</string>
+	<string id="test_3_ui">
+		<text>TEST</text>
+	</string>
+	<string id="anomaly_detected_ui">
+		<text>Anomaly detected</text>
+	</string>
+	<string id="translation_and_info_ui">
+		<text>STALKERSOUP Translation and Info (This does not spawn)</text>
+	</string>
+	<string id="translation_cartridges_ui">
+		<text>Translation of Ammo</text>
+	</string>
+	<string id="translation_of_arms_ui">
+		<text>Translation of Weapons</text>
+	</string>
+	<string id="translation_artifacts_ui">
+		<text>Translation of Artefacts</text>
+	</string>
+	<string id="translation_articles_ui">
+		<text>Translation of Articles</text>
+	</string>
+	<string id="translation_armor_ui">
+		<text>Translation of Armor</text>	<!-- Was 'Armour' -->
+	</string>
+	<string id="perkvod_npc_ui">
+		<text>Perkvod NPC</text>
+	</string>
+	<string id="hot_fold_ui">
+		<text>Hot. Fold.</text>
+	</string>
+	<string id="guide_to_acs_ui">
+		<text>Guide to ACS</text>
+	</string>
+	<string id="weather_ui">
+		<text>Weather</text>
+	</string>
+	<string id="groups_ui">
+		<text>Groups</text>
+	</string>
+	<string id="teleport_ui">
+		<text>Teleport</text>
+	</string>
+	<string id="teleport_by_name_ui">
+		<text>Teleport by name</text>
+	</string>
+	<string id="location_name_from_list_ui">
+		<text>Enter location name from list</text>
+	</string>
+	<string id="trade_ui">
+		<text>Trade</text>
+	</string>
+	<string id="leave_ui">
+		<text>Leave</text>
+	</string>
+	<string id="drop_item_ui">
+		<text>Drop item</text>
+	</string>
+	<string id="items_list_ui">
+		<text>Items List</text>
+	</string>
+	<string id="your_items_ui">
+		<text>Your items</text>
+	</string>
+	<string id="price_ui">
+		<text>Price:</text>
+	</string>
+	<string id="join_ui">
+		<text>JOIN</text>
+	</string>
+	<string id="weapon_efficiency_ui">
+		<text>Weapon efficiency</text>
+	</string>
+	<string id="rank_ui">
+		<text>Rank</text>
+	</string>
+	<string id="empty_text_ui">
+		<text>...empty...</text>
+	</string>
+	<string id="curr_time_ui">
+		<text>Current Time</text>
+	</string>
+	<string id="rest_ui">
+		<text>Rest</text>
+	</string>
+	<string id="1_hour_ui">
+		<text>1 Hour</text>
+	</string>
+	<string id="4_hour_ui">
+		<text>4 Hours</text>
+	</string>
+	<string id="8_hour_ui">
+		<text>8 Hours</text>
+	</string>
+	<string id="to_morning_ui">
+		<text>To Morning</text>
+	</string>
+	<string id="to_evening_ui">
+		<text>To Evening</text>
+	</string>
+	<string id="close_ui">
+		<text>Close</text>
+	</string>
+	<string id="events_ui">
+		<text>Events</text>
+	</string>
+	<string id="contacts_ui">
+		<text>Contacts</text>
+	</string>
+	<string id="map_ui">
+		<text>Map</text>
+	</string>
+	<string id="encyclopedia_ui">
+		<text>Encyclopedia</text>
+	</string>
+	<string id="journal_ui">
+		<text>Journal</text>
+	</string>
+	<string id="tasks_ui">
+		<text>Tasks</text>
+	</string>
+	<string id="retreated_from_battlefield_ui">
+		<text>%s was retreated from battlefield...</text>
+	</string>
+	<string id="were_retreated_from_battlefield_ui">
+		<text>%s and %s were retreated from battlefield...</text>
+	</string>
+	<string id="killed_by_ui">
+		<text>%s killed by %s</text>
+	</string>
+	<string id="killed_by_themselves_ui">
+		<text>%s and %s were killed by themselves</text>
+	</string>
+	<string id="press_yes_to_pay_ui">
+		<text>You can buy a spawn for 1000Ru. Press Yes to pay</text>
+	</string>
+	<string id="karta_name_ui">
+		<text>Karta Name</text>
+	</string>
+	<string id="health_ui">
+		<text>health</text>
+	</string>
+	<string id="ammo_ui">
+		<text>Ammo</text>
+	</string>
+	<string id="wpn_ui">
+		<text>Weapon</text>
+	</string>
+	<string id="armor_ui">
+		<text>Armor</text>
+	</string>
+	<string id="money_ui">
+		<text>Money</text>
+	</string>
+	<string id="description_ui">
+		<text>Description</text>
+	</string>
+	<string id="personal_ui">
+		<text>Personal</text>
+	</string>
+	<string id="belt_ui">
+		<text>Belt</text>
+	</string>
+	<string id="you_have_ui">
+		<text>You have:</text>
+	</string>
+	<string id="item_price_ui">
+		<text>Item Price:</text>
+	</string>
+	<string id="accept_ui">
+		<text>Accept</text>
+	</string>
+	<string id="cancel_4_ui">
+		<text>Cancel</text>
+	</string>
+	<string id="bag_ui">
+		<text>Bag</text>
+	</string>
+	<string id="medkit_ui">
+		<text>Medkit</text>
+	</string>
+	<string id="antirad_ui">
+		<text>Antirad</text>
+	</string>
+	<string id="food_ui">
+		<text>Food</text>
+	</string>
+	<string id="sleep_ui">
+		<text>Sleep</text>
+	</string>
+	<string id="functions_ui">
+		<text>Functions</text>
+	</string>
+	<string id="notes_ui">
+		<text>NOTES</text>
+	</string>
+	<string id="volume_1_ui">
+		<text>VOL-</text>
+	</string>
+	<string id="volume_2_ui">
+		<text>VOL+</text>
+	</string>
+	<string id="enter_the_zone_ui">
+		<text>Press any key to enter the Zone</text>
+	</string>
+	<string id="rank_2_ui">
+		<text>Rank</text>
+	</string>
+	<string id="community_ui">
+		<text>Community</text>
+	</string>
+	<!-- "Hint" section start -->
+	<string id="Turn_Off_PDA_hint_ui">
+		<text>Turn off PDA</text>
+	</string>
+	<string id="S_advanced_options_hint_ui">
+		<text>Show advanced options</text>
+	</string>
+	<string id="use_text_as_reminder_hint_ui">
+		<text>To use the text as a reminder</text>
+	</string>
+	<string id="ten_records_back_hint_ui">
+		<text>10 records back</text>
+	</string>
+	<string id="One_entry_back_hint_ui">
+		<text>One entry back</text>
+	</string>
+	<string id="One_entry_forward_hint_ui">
+		<text>One entry, forward</text>
+	</string>
+	<string id="ten_records_forward_hint_ui">
+		<text>10 records forward</text>
+	</string>
+	<string id="Layout_hint_ui">
+		<text>Layout</text>
+	</string>
+	<string id="Decrease_volume_hint_ui">
+		<text>Decrease Volume</text>
+	</string>
+	<string id="Increase_volume_hint_ui">
+		<text>Increase Volume</text>
+	</string>
+	<string id="current_record_hint_ui">
+		<text>The current record</text>
+	</string>
+	<string id="actor_hint_ui">
+		<text>actor</text>
+	</string>
+	<string id="invalid_hint_hint_ui">
+		<text>invalid hint</text>
+	</string>
+	<string id="friend_hint_ui">
+		<text>friend</text>
+	</string>
+	<string id="self_hint_ui">
+		<text>self</text>
+	</string>
+	<string id="enemy_hint_ui">
+		<text>enemy</text>
+	</string>
+	<string id="neutral_hint_ui">
+		<text>neutral</text>
+	</string>
+	<string id="deadbody_hint_ui">
+		<text>deadbody</text>
+	</string>
+</string_table>

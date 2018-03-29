@@ -1,0 +1,2088 @@
+<!-- TB3D 1.1.0.0.1.3 added notes, removed npp1_lc_opened, gps, pred_barman, gps tips, sak_cube, tb3d_cem_distress, storm, zep_note_np1, zep_note_rad1,
+zep_note_gen_grimwald, zep hints, npp2 hint, atp hint, grey's note, dead_marsh_recorder_hint, glavney, removed warehouses from storm, tb3d_secret_lab_hint,
+moved new in 11000 to stable_dialogs_tb3d_2.xml, zep_note_swamp -->
+<!-- Names changed as commented below - Sword2012 - 31 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<string_table>
+	<!-- TB3D FREE PLAY COLLECTOR -->
+	<string id="new_line">
+		<text>\n</text>
+	</string>
+	<string id="collector_welcome_title">
+		<text>SIDOROVICH</text>
+	</string>
+	<string id="collector_welcome_msg">
+		<text>%c[255,255,128,128]Welcome back Marked One... the bridge soldiers just sent me an SMS that you were seen by the loft... make sure to come by and visit!</text>
+	</string>
+	<!-- Tweed's book -->
+	<string id="zep_tweed_book">
+		<text>Tweed's book</text>
+	</string>
+	<string id="zep_tweed_book_desc">
+		<text>Incomplete book: 'For Women with an Adventurous Notion to Explore the Zone' by L. D. Tweed</text>
+	</string>
+	<!-- ZEP Project -->
+	<string id="sid_zep1_0">
+		<text>Strange things have happened up North... not sure who to trust anymore... Seems there is something MUCH BIGGER brewing up there! You of all people should know what is going on and where</text>
+	</string>
+	<string id="sid_zep1_1">
+		<text>Hmmm... well..\nI heard rumors... just rumors... that the Monolith found something alien in nature and have stashed it somewhere around the NPP</text>
+	</string>
+	<string id="sid_zep1_2">
+		<text>Alien?!!!</text>
+	</string>
+	<string id="sid_zep1_3">
+		<text>What I heard... OK!\nThere was talk about a strange generator that warps gravity itself, even rumors that those reported gravity anomalies are results of testing by the Monolith</text>
+	</string>
+	<string id="sid_zep1_4">
+		<text>This doesn't sound good... imagine the Monolith scum bouncing around space or warps or whetever...\nmight as well wrap it up and flush the whole universe!</text>
+	</string>
+	<string id="sid_zep1_5">
+		<text>Knowing the make-up of those bastards... I would bet that it would just clog and overflow!</text>
+	</string>
+	<string id="sid_zep1_6">
+		<text>No kidding... even a plunger wouldn't help us, eh...</text>
+	</string>
+	<string id="sid_zep1_7">
+		<text>Well there is something else..\nThere is a search going on for a set of documents that supposedly map out a secret array of portals from under the old Hospital.\nIt is believed that they will trigger a special chamber of portals when all placed properly within the chamber slots.\nWord out of Rostok is that a stranger was asking about documents stamped with the code 'ZEP' on them</text>
+	</string>
+	<string id="sid_zep1_8">
+		<text>A series of portals to where...? this could be real trouble if the wrong person were to achieve it!</text>
+	</string>
+	<string id="sid_zep1_9">
+		<text>Yes... they could wipe out the Zone and have full control of whatever it is that was found! Hopefully it is just rumors and has no merit but I shudder to think it may be true...\nI also heard about a path to an area reffered to as Darkscape, not sure why they call it that... seems a lot of activity there lately.\nI uploaded the location of it for you, out of the Dark Valley</text>
+	</string>
+	<string id="sid_zep1_10">
+		<text>This is bad... can't count on it being fantasy... I think I will check it out, thanks for the info</text>
+	</string>
+	<string id="sid_dialog_zep2_0">
+		<text>Facility F1... Well?</text>
+	</string>
+	<string id="sid_dialog_zep2_1">
+		<text>Who did you talk to?!</text>
+	</string>
+	<string id="sid_dialog_zep2_2">
+		<text>Her name is Tweed and..</text>
+	</string>
+	<string id="sid_dialog_zep2_3">
+		<text>Tweed... alive?... great news!\nHow is she?</text>
+	</string>
+	<string id="sid_dialog_zep2_4">
+		<text>Alone and in need of ammo for her AK... maybe even a better weapon with a sight to help keep Darkscape clear of intruders</text>
+	</string>
+	<string id="sid_dialog_zep2_5">
+		<text>Done!\nI'll give you a sniper rifle I just got in trade and some ammo for it and the AK.\nTake it back to her and maybe she will have more to tell you... who knows</text>
+	</string>
+	<string id="sid_dialog_zep2_6">
+		<text>So... what about F1?</text>
+	</string>
+	<string id="sid_dialog_zep2_7">
+		<text>All I know is that something big was being transported there.\nI had a trader friend up there that had sent me an SMS just before things went bad</text>
+	</string>
+	<string id="sid_dialog_zep2_8">
+		<text>What did he say, what happened?</text>
+	</string>
+	<string id="sid_dialog_zep2_9">
+		<text>His first SMS was telling me about a convoy of trucks..\nnext SMS was about a big flash and a cloud of smoke all over, that was the last message</text>
+	</string>
+	<string id="sid_dialog_zep2_10">
+		<text>No word from him since?</text>
+	</string>
+	<string id="sid_dialog_zep2_11">
+		<text>There has been nothing from that region since... nothing at all</text>
+	</string>
+	<string id="sid_zep1_msg">
+		<text>Marked One. You need to talk to the barman in Rostok about that stranger... he was asking questions about you</text>
+	</string>
+	<!-- tweed in darkscape -->
+	<string id="tweed_dialog_zep1_0">
+		<text>Hey! Who are you?</text>
+	</string>
+	<string id="tweed_dialog_zep1_1">
+		<text>Tweed, and you?</text>
+	</string>
+	<string id="tweed_dialog_zep1_2">
+		<text>Most call me Marked One</text>
+	</string>
+	<string id="tweed_dialog_zep1_3">
+		<text>What brings you around this hole?</text>
+	</string>
+	<string id="tweed_dialog_zep1_4">
+		<text>I'm searching for some documents, they are marked with the initials 'ZEP'... seen any?</text>
+	</string>
+	<string id="tweed_dialog_zep1_5">
+		<text>Not seen any around these parts but most of what was here has been burned or moved</text>
+	</string>
+	<string id="tweed_dialog_zep1_6">
+		<text>Moved?... where and why would it be moved?</text>
+	</string>
+	<string id="tweed_dialog_zep1_7">
+		<text>Don't have a clue why but I do know that they were taking whatever they did find to a place they kept calling F1.\nThey were storing them in the old gas station where a chopper would land and pick them up every few days</text>
+	</string>
+	<string id="tweed_dialog_zep1_8">
+		<text>F1... yea I've heard of it, way up north. It was called Facility F1 and some bad crap came down there. Rumors of an alien ship or weapon... not sure now</text>
+	</string>
+	<string id="tweed_dialog_zep1_9">
+		<text>I heard one of the guards telling another one that he should not wander from the chopper when they get there as many bad-ass creatures live there</text>
+	</string>
+	<string id="tweed_dialog_zep1_10">
+		<text>Anything else they said? Are there any of them still around?</text>
+	</string>
+	<string id="tweed_dialog_zep1_11">
+		<text>Not been out much lately as I am low on ammo for this old AK of mine..\nWell... I could try to use my charm to find out more, but a favor for a favor..</text>
+	</string>
+	<string id="tweed_dialog_zep1_12">
+		<text>Of course... wouldn't expect less. What is it I can do for you?</text>
+	</string>
+	<string id="tweed_dialog_zep1_13">
+		<text>There is a book that I have been writing about this hell-hole for the adventurous woman... I had stashed it in an old bar in the Northeast.\nI think there was a research station a few kilometers south of it. If you find it in your travels then please SMS me at: @TWEED... I will let you know what to do with it.\nI will upload a path I found that will lead you to the Cordon, it may save you some time</text>
+	</string>
+	<string id="tweed_dialog_zep1_14">
+		<text>Sure, why not. I hope that it is still there and in readable condition, you know the TP situation here!</text>
+	</string>
+	<string id="tweed_dialog_zep1_15">
+		<text>Well... not a big chance this will happen!</text>
+	</string>
+	<string id="tweed_dialog_zep3_0">
+		<text>Here it is... and still in one piece</text>
+	</string>
+	<string id="tweed_dialog_zep3_1">
+		<text>I am in your debt!\nI put another route on your PDA, you might find it interesting</text>
+	</string>
+	<string id="tweed_dialog_zep4_0">
+		<text>I brought you more ammo and a new weapon so you can keep annoying the intruders</text>
+	</string>
+	<string id="tweed_dialog_zep4_1">
+		<text>Thanks a lot! This will keep me busy for a week or two!\nHere's a key I found last time I was out, looks like a vehicle key of some sort... maybe you can use it</text>
+	</string>
+	<string id="tweed_dialog_zep4_2">
+		<text>Thanks, do get tired of walking!\nOh yea... Sid says hi... So you plan to stay here?</text>
+	</string>
+	<string id="tweed_dialog_zep4_3">
+		<text>Sid? You mean that son of a psydog is still kickin... of course that relic will go on forever!\nI think I will stay... things are less harsh here and the blowouts are very weak</text>
+	</string>
+	<string id="tweed_dialog_zep4_4">
+		<text>Ha... that he is! What will you do here?</text>
+	</string>
+	<string id="tweed_dialog_zep4_5">
+		<text>I will set up a trade route and wait for others to join me, do visit me once in awhile.\nAlmost forgot... you should check out the gas station as they were in a hurry last trip and may have been careless... worth a look</text>
+	</string>
+	<string id="tweed_dialog_zep5_0">
+		<text>Hi Tweed. How's life been for you lately?</text>
+	</string>
+	<string id="tweed_dialog_zep5_1">
+		<text>Not so good, marked One</text>
+	</string>
+	<string id="tweed_dialog_zep5_2">
+		<text>Tell me about it</text>
+	</string>
+	<string id="tweed_dialog_zep5_3">
+		<text>A new faction has been raiding the area and may be moving in, they have recruited bandits and made camp West of here.\nThey are ruthless and shoot first... I have kept them away so far</text>
+	</string>
+	<string id="tweed_dialog_zep5_4">
+		<text>Let me take a look around and see if I can discourage them from moving here</text>
+	</string>
+	<string id="tweed_dialog_zep5_5">
+		<text>You talk as though I am unable... but I am stressed to keep up sometimes...\nMost of them have been coming from southeast and have been moving toward the Dark Valley so I would start there. Oh... and thanks Marked One!</text>
+	</string>
+	<!-- Barman in Rostok -->
+	<string id="barman_zep1_0">
+		<text>So tell me about this stranger that has been going around asking questions</text>
+	</string>
+	<string id="barman_zep1_1">
+		<text>Cold kind of creep... the kind you cross the street to avoid if you know what I mean</text>
+	</string>
+	<string id="barman_zep1_2">
+		<text>Ok great... he has bad karma so maybe there is something a little more important</text>
+	</string>
+	<string id="barman_zep1_3">
+		<text>You need a drink to calm those nerves!... as I was saying... because of his 'bad karma' he didn't get much cooperation so he was drowning himself in liquid anger... loosened the tongue a bit</text>
+	</string>
+	<string id="barman_zep1_4">
+		<text>Alright, alright... what did you get out of him?</text>
+	</string>
+	<string id="barman_zep1_5">
+		<text>Have you heard of F1?</text>
+	</string>
+	<string id="barman_zep1_6">
+		<text>A bit, a lot of rumors about a strange object and a big blast while transporting it</text>
+	</string>
+	<string id="barman_zep1_7">
+		<text>This object was something that baffled every scientist put in front of it... but they did determine that it had been stashed here for some time and was staged to activate but when and how was not known</text>
+	</string>
+	<string id="barman_zep1_8">
+		<text>I found a document that outlines a plan to activate the device but there seems to be more to it. There is a project 'ZEP' that talks about an 'object' and also an array of portals</text>
+	</string>
+	<string id="barman_zep1_9">
+		<text>He mentioned 'zep' many times... thought it was his lost dog or something by the way he sighed each time he mentioned it</text>
+	</string>
+	<string id="barman_zep1_10">
+		<text>Thanks... I think I will go and talk to the geeks and also to the Dolg commander and see what they said to him</text>
+	</string>
+	<!-- barman after dolg commander -->
+	<string id="barman_zep2_0">
+		<text>Man what a day! What a bunch of clowns you have running things around here!</text>
+	</string>
+	<string id="barman_zep2_1">
+		<text>Take it you had a talk with the commander over there</text>
+	</string>
+	<string id="barman_zep2_2">
+		<text>Talk?... You call it talk?... What happened to him anyway... monoxide poisoning?</text>
+	</string>
+	<string id="barman_zep2_3">
+		<text>Not sure but I try to leave him alone</text>
+	</string>
+	<string id="barman_zep2_4">
+		<text>I did figure out that the stranger was looking for the Wasted Woodland. What could be out there that would interest him?</text>
+	</string>
+	<string id="barman_zep2_5">
+		<text>There was the old woodcutter shack... way in the North West of the region.\nI know of a path from the North entrance that should save you some time, I will upload it for you</text>
+	</string>
+	<string id="barman_zep2_6">
+		<text>Thanks... I will see what I can find there</text>
+	</string>
+	<string id="barman_zep3_0">
+		<!-- if talked to tweed about book -->
+		<text>Do you know of an old bar way to the north?</text>
+	</string>
+	<string id="barman_zep3_1">
+		<text>There are many bars... why?</text>
+	</string>
+	<string id="barman_zep3_2">
+		<text>I met this doll Tweed... she said it was a couple Kilometers North of a research lab</text>
+	</string>
+	<string id="barman_zep3_3">
+		<text>Tweed? Damn! She owes me money... and a couple rounds for the bar! How is she anyway?</text>
+	</string>
+	<string id="barman_zep3_4">
+		<text>Healthy and hard core... going to try and establish a trading post in Darkscape</text>
+	</string>
+	<string id="barman_zep3_5">
+		<text>I should get in touch with her... could be a good business opportunity, eh. As far as the bar..\nyes there is but it is inside a military compound and I don't think you would be very welcome</text>
+	</string>
+	<string id="barman_zep3_6">
+		<text>Well... I have a habit of not being welcome but I think I can live with it! Let me know if anything else comes up... you know I share the wealth so don't hold back</text>
+	</string>
+	<string id="barman_zep4a_0">
+		<!-- back from research station -->
+		<text>So... tell me about the stanger, why was he trying to get in the back?</text>
+	</string>
+	<string id="barman_zep4a_1">
+		<text>Son of a Bitch tried to come in through the old exit but made too much noise when he hit the iron gate. My guard chased him into the Wild Territory where he lost him. Whatever it was he wanted must be important to him so I doubt that he is too far away</text>
+	</string>
+	<string id="barman_zep4a_2">
+		<text>This is getting to be a real steeplechase! Me following him, while he is following me, and both of us after???\nI wonder where he will turn up next?</text>
+		<!-- Was 'both of use after ' - Sword2012-->
+	</string>
+	<string id="barman_zep4a_3">
+		<text>It's only been a couple of days so you might start looking for him around one of the old campsites in the Wild Territory</text>
+	</string>
+	<string id="barman_zep4a_4">
+		<text>Thanks for the info and advice</text>
+	</string>
+	<string id="barman_zep4b_2">
+		<!-- already been to wild -->
+		<text>This is getting to be a real steeplechase! Me following him while he is following me and both of use after ????\nI was able to find his camp in the Wild Territory but can't tell where he has gone</text>
+	</string>
+	<string id="barman_zep4b_3">
+		<text>He didn't come back through Rostok or the guards whould have alerted me. He must have used a different path out of there</text>
+	</string>
+	<string id="barman_zep4b_4">
+		<text>I think I will try the Warehouses... maybe he has been seen passing through there recently</text>
+	</string>
+	<string id="barman_zep4b_5">
+		<text>Say hi to Fox if you see him there, haven't heard from him in awhile</text>
+	</string>
+	<string id="barman_zep4b_6">
+		<text>Sure thing, thanks for the info</text>
+	</string>
+	<string id="barman_zep5a_0">
+		<!-- has book, not seen tweed -->
+		<text>Hail 'Fat One'... and how's life treating you?</text>
+	</string>
+	<string id="barman_zep5a_1">
+		<text>At least I don't look like I've been eating rats and sleeping in sewers for the last few weeks! What's up?</text>
+	</string>
+	<string id="barman_zep5a_2">
+		<text>Never could catch up with that stranger... been to that bar up North, found Tweeds book..</text>
+	</string>
+	<string id="barman_zep5a_3">
+		<text>He hasn't been back here... A book? Did you read it? You aught to get it back to her as soon as you can, I bet she is eager for it..</text>
+	</string>
+	<string id="barman_zep5a_4">
+		<text>Looked at it... not my kinda reading. Suppose your right, who knows... I may even get something out of it</text>
+	</string>
+	<string id="barman_zep5b_2">
+		<!-- already seen tweed -->
+		<text>I could use a nice cold keg of beer right now!</text>
+	</string>
+	<string id="barman_zep5b_3">
+		<text>Sounds like you've had a hard day of it..</text>
+	</string>
+	<string id="barman_zep5b_4">
+		<text>That's an understatement for sure! Everytime I turn around there is someone or something chasing me, never a dull moment!</text>
+	</string>
+	<string id="barman_zep5b_5">
+		<text>From what I've heard... it's you doing all the chasing!</text>
+	</string>
+	<string id="barman_zep5b_6">
+		<text>More the reason I need to drown myself in liquid sorrow... eh?</text>
+	</string>
+	<!-- Lisiy in bar, ZEP extra info -->
+	<string id="lisiy_dialog_zep1_0">
+		<text>Did you talk to the stranger that was going around asking questions the other day?</text>
+	</string>
+	<string id="lisiy_dialog_zep1_1">
+		<text>Stranger... I would have a different name to describe that walking evil!</text>
+	</string>
+	<string id="lisiy_dialog_zep1_2">
+		<text>What did he ask?</text>
+	</string>
+	<string id="lisiy_dialog_zep1_3">
+		<text>About some documents I never heard about... and you</text>
+	</string>
+	<string id="lisiy_dialog_zep1_4">
+		<text>ME!... what do you mean, what did he ask?</text>
+	</string>
+	<string id="lisiy_dialog_zep1_5">
+		<text>He wanted to know about a man with your mark on his arm and where he might be now.\nI told him you were through here a long time back but haven't seen you since... that's all, swear</text>
+	</string>
+	<!-- Voronin, dolg commander, ZEP required info -->
+	<string id="voronin_dialog_zep1_0">
+		<text>Still stuck here I see... what can you tell me about the stranger who was asking around about me?</text>
+	</string>
+	<string id="voronin_dialog_zep1_1">
+		<text>Delightful sole... lifted my spirits and made me not care about this pit for awhile!</text>
+	</string>
+	<string id="voronin_dialog_zep1_2">
+		<text>You know... I am not surprised you two hit it off... having heard about this guy.\nI need to know what he wanted, what was he asking?</text>
+	</string>
+	<string id="voronin_dialog_zep1_3">
+		<text>I told him about your work for me and our plans to retire in Moscow together. Sweet mother of my sole..</text>
+	</string>
+	<string id="voronin_dialog_zep1_4">
+		<text>Are you Okay? who's going to Moscow with you... we in the same room?</text>
+	</string>
+	<string id="voronin_dialog_zep1_5">
+		<text>Moscow... great place it is... want to go there with me? What you here for?</text>
+	</string>
+	<string id="voronin_dialog_zep1_6">
+		<text>Okay... well... thanks anyway..</text>
+	</string>
+	<!-- Voronin, ZEP required info after return from ww -->
+	<string id="voronin_dialog_zep2_0">
+		<text>Tell me about ZEP and your copy of the codes</text>
+	</string>
+	<string id="voronin_dialog_zep2_1">
+		<text>ZEP... ZEP... Ah... codes, codes, codes..</text>
+	</string>
+	<string id="voronin_dialog_zep2_2">
+		<text>Where is it? Give me the codes so we can go to Moscow</text>
+	</string>
+	<string id="voronin_dialog_zep2_3">
+		<text>Moscow... go, go, go... let's all go to Moscow!</text>
+	</string>
+	<string id="voronin_dialog_zep2_4">
+		<text>Where is it... what did you do with ZEP... try and find ZEP..</text>
+	</string>
+	<string id="voronin_dialog_zep2_5">
+		<text>Gone... stranger came to take... but can't find.\n MAD MAD MAD!... that was him... MAD MAD MAD!</text>
+	</string>
+	<string id="voronin_dialog_zep2_6">
+		<text>Ok... Ok... you take it easy... later..</text>
+	</string>
+	<!-- Associate (geek), ZEP required info -->
+	<string id="associate_dialog_zep1_0">
+		<text>Tell me about this stranger... what was he after?</text>
+	</string>
+	<string id="associate_dialog_zep1_1">
+		<text>Whatever it is... this ZEP conspiracy or whatever... it has me nervous!</text>
+	</string>
+	<string id="associate_dialog_zep1_2">
+		<text>That isn't hard to achieve... but please doctor, tell me anything that might be important</text>
+	</string>
+	<string id="associate_dialog_zep1_3">
+		<text>He has something to do with whatever happened at F1, nothing has been heard from there since the explosion..\neh... this stranger... and I do mean strange!... had the air of an extremely well educated scientist and he is obviously looking for something very powerful</text>
+	</string>
+	<string id="associate_dialog_zep1_4">
+		<text>Did he mention anything about me? Where did he say he was going next?</text>
+	</string>
+	<string id="associate_dialog_zep1_5">
+		<text>He did... he asked me to track your PDA but I told him you had one of the new modified devices that I could not track.\nHe seemed a little skeptical but then he asked about the Wasted Woodland which I new nothing about</text>
+	</string>
+	<string id="associate_dialog_zep1_6">
+		<text>Thanks... is my device really modified? Is this possible?</text>
+	</string>
+	<string id="associate_dialog_zep1_7">
+		<text>Actually it is a modified device, remember the chip that was placed in it when it had malfunctioned?\nWell... when you had me remove it I decided to leave the device hard code disabled which in effect makes it unidentifiable remotely. You still get your messages but your satellite bounce-back identity is 'nil'.</text>
+	</string>
+	<string id="associate_dialog_zep1_8">
+		<text>Getting too techy now so I'm gonna split... thanks for everything</text>
+	</string>
+	<!-- Associate (geek), flight recorder -->
+	<string id="associate_dialog_zep2_0">
+		<text>I have your flight recorder, pain in the butt to carry so I expect a decent payment</text>
+	</string>
+	<string id="associate_dialog_zep2_1">
+		<text>You are amazing marked One!\nHere is 5000... that ought to be sufficient!, eh?\nand a key that I think may come in useful to you... who knows..</text>
+	</string>
+	<string id="associate_dialog_zep2_2">
+		<text>All right, fair enough but what about this object that I supposedly lost?.</text>
+	</string>
+	<string id="associate_dialog_zep2_3">
+		<text>The Soul Cube was here... but the person who has it decided to leave. I told him that it was yours and that you knew how it works</text>
+	</string>
+	<string id="associate_dialog_zep2_4">
+		<text>What did he want for it?\nDo you have any idea where he went?</text>
+	</string>
+	<string id="associate_dialog_zep2_5">
+		<text>He wouldn't say what he wanted for it but did say he considered it priceless.\nHe talked about taking it to the NPP and trying to make it work there where anomalous energy is at its greatest strength</text>
+	</string>
+	<string id="associate_dialog_zep2_6">
+		<text>Damn... last place I want to go to is around that plant!\nIf the radiation and anomalies don't get you those jumper-snorks will!</text>
+	</string>
+	<!-- Ivancov, ZEP extra info -->
+	<string id="ivancov_dialog_zep1_0">
+		<text>Did a stranger talk to you lately?</text>
+	</string>
+	<string id="ivancov_dialog_zep1_1">
+		<text>As a matter of fact yes... why?</text>
+	</string>
+	<string id="ivancov_dialog_zep1_2">
+		<text>He has been poking his nose into my affairs and I want to know why and better yet... who he is!</text>
+	</string>
+	<string id="ivancov_dialog_zep1_3">
+		<text>He seems to have lost something very important... he had an air of desperation that caused me to fear him</text>
+	</string>
+	<string id="ivancov_dialog_zep1_4">
+		<text>What did he ask you?.</text>
+	</string>
+	<string id="ivancov_dialog_zep1_5">
+		<text>Mostly about the commander... seeing how he has flown over the kookoos nest... eh. he wanted to know where he kept his private papers at.\nI told him to leave the base immediately and not return... haven't seen him since</text>
+	</string>
+	<string id="ivancov_dialog_zep1_6">
+		<text>I guess even a half-wit commander deserves loyalty to some extent..</text>
+	</string>
+	<!-- Petrenko, ZEP extra info -->
+	<string id="petrenko_dialog_zep1_0">
+		<text>Hail trader... any news?</text>
+	</string>
+	<string id="petrenko_dialog_zep1_1">
+		<text>Nothing out of the ordinary... strange intense blowout a few days ago... Ivantsov chasing some stranger out at gunpoint... commander vacationing in Moscow... eh... how's it with you?</text>	<!-- Changed 'Ivancov' to 'Captain Ivantsov'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="petrenko_dialog_zep1_2">
+		<text>Same as usual... can you tell me anything about that stranger?</text>
+	</string>
+	<string id="petrenko_dialog_zep1_3">
+		<text>Not much. He avoided me for some reason... didn't think I looked that mean!</text>
+	</string>
+	<string id="petrenko_dialog_zep1_4">
+		<text>Not sure mean is the word I would use... so there is nothing you can tell me about him at all?</text>
+	</string>
+	<string id="petrenko_dialog_zep1_5">
+		<text>I did notice that he had a strange patch on his vest, never seen it before.\nIt was sorta like a Helix over a silver cloud with a small round symbol not unlike a radiation warning sign</text>
+	</string>
+	<string id="petrenko_dialog_zep1_6">
+		<text>Never heard of it either... all we need is some new faction coming in here and stirring things up</text>
+	</string>
+	<!-- Leskinoz in Broken Road, starts gold bars quest -->
+	<string id="tractorist_dialog_zep1_0">
+		<text>What are you doing here?</text>
+	</string>
+	<string id="tractorist_dialog_zep1_1">
+		<text>Not sure... I was working in the tunnel when I felt a surge of heat and then woke up to the place abandoned</text>
+	</string>
+	<string id="tractorist_dialog_zep2_0">
+		<text>Who was that soldier and why was that tank out there?</text>
+	</string>
+	<string id="tractorist_dialog_zep2_1">
+		<text>He told me to stay put and not try to leave. He said something about evac choppers</text>
+	</string>
+	<string id="tractorist_dialog_zep3_0">
+		<text>What are they going to evacuate from here... mutants?</text>
+	</string>
+	<string id="tractorist_dialog_zep3_1">
+		<text>Don't know, that soldier was talking on the radio about some gold bars stashed in an attic in the village.\nHe sounded very excited about it and was on his way there</text>
+	</string>
+	<string id="tractorist_dialog_zep4_0">
+		<text>What will you do now?</text>
+	</string>
+	<string id="tractorist_dialog_zep4_1">
+		<text>Wait here... my collegues should come back now that the military is gone</text>
+	</string>
+	<string id="tractorist_dialog_zep5_0">
+		<text>Good luck with that... seems like it is too overrun for you geek types</text>
+	</string>
+	<string id="tractorist_dialog_zep5_1">
+		<text>The mosters can be dealt with once they get back with decent weapons</text>
+	</string>
+	<!-- glavny in x14, tells player to drop black energy -->
+	<string id="glavny_dialog1_1">
+		<text>How did you get here?</text>
+	</string>
+	<string id="glavny_dialog1_2">
+		<text>I followed these creeps down here when I saw what they were transporting... looked valuable</text>
+	</string>
+	<string id="glavny_dialog1_3">
+		<text>So... what is it and why did they bring it here?</text>
+	</string>
+	<string id="glavny_dialog1_4">
+		<text>I heard a man yelling at them while they were activating it, he was telling them to increase the power to spread the field over the entire Zone</text>
+	</string>
+	<string id="glavny_dialog1_5">
+		<text>So... they brought it here for the power but what did he mean by entire Zone?</text>
+	</string>
+	<string id="glavny_dialog1_6">
+		<text>All I can do is guess but for sure it cannot be good... I think that we should deactivate it some how</text>
+	</string>
+	<string id="glavny_dialog1_7">
+		<text>How the hell do we do that? The energy seems to have built up to a point where everything is fused, we need something to interact with the energy field</text>
+	</string>
+	<string id="glavny_dialog1_8">
+		<text>Like what exactly..</text>
+	</string>
+	<string id="glavny_dialog1_9">
+		<text>Negative energy, like a Black Energy Anomaly. We need to find one and drop it into the sphere of energy</text>
+	</string>
+	<string id="glavny_dialog2_1">
+		<text>Hey Glavny</text>
+	</string>
+	<string id="glavny_dialog2_2">
+		<text>What's wrong, go find a Black Energy and hurry!</text>
+	</string>
+	<string id="glavny_dialog2_3">
+		<text>I can't find one... where the hell can I get one?</text>
+	</string>
+	<string id="glavny_dialog2_4">
+		<text>Search around the NPP Generators, they seem to spawn there often</text>
+	</string>
+	<string id="glavny_dialog2_5">
+		<text>Okay, Okay... don't get so worked up..</text>
+	</string>
+	<string id="glavny_dialog3_1">
+		<text>Hey Glavny</text>
+	</string>
+	<string id="glavny_dialog3_2">
+		<text>If you have it then drop it on the generator, quick!</text>
+	</string>
+	<string id="glavny_dialog3_3">
+		<text>ALRIGHT, ALRIGHT get a grip!</text>
+	</string>
+	<!-- sak trader info on soul cube -->
+	<string id="sak_cube_dialog_1">
+		<text>What did you say about a Soul Cube in that message?</text>
+	</string>
+	<string id="sak_cube_dialog_2">
+		<text>Why? Are you interested in it?</text>
+	</string>
+	<string id="sak_cube_dialog_3">
+		<text>Yes and I am serious about getting it back!</text>
+	</string>
+	<string id="sak_cube_dialog_4">
+		<text>Getting it back? You know Shadows? Okay, look... I was told by a deserter that he knew where it is, he said it was far South in the outpost firing range. I know a path from here to the wild territory, should make travelling a little easier</text>
+	</string>
+	<!-- hints for spots -->
+	<string id="tb3d_npp2chaes_hint">
+		<text>A way out to Pripyat if you can find the way..</text>
+	</string>
+	<string id="tb3d_atp_esc_hint">
+		<text>There is a secret portal out here somewhere..</text>
+	</string>
+	<string id="tb3d_secret_lab_hint">
+		<!-- 110010 -->
+		<text>Distress call from a lab in the North NPP area</text>
+	</string>
+	<!-- ZEP document contents -->
+	<string id="zep_doc">
+		<text>ZEP Confidential Release</text>
+	</string>
+	<string id="agent_ax">
+		<text>Agent 'X'</text>
+	</string>
+	<string id="zep_doc_0_hint">
+		<text>Recent Millitary Activity</text>
+	</string>
+	<string id="zep_doc_0">
+		<text>ZEP [00]\n.\nFOR LEVEL 1 OPERATIVES ONLY\nThese reports will continue until further notice. Monitor them constantly as this information is time sensitive.\nAs you know two objects of alien nature have been discovered. These reports will keep you informed on their status.\n.\nThis device appears to have a relationship with 'Object X' recently discovered in a secret lab - location confidential.\nAfter delivery of the first object to Facility F1: team eleven will attempt to assemble it in the compound area.\n.\nCentral Command ORD-10639</text>
+	</string>
+	<string id="zep_doc_1_hint">
+		<text>Who was here recently?</text>
+	</string>
+	<string id="zep_doc_1">
+		<text>ZEP [01]\n.\nTo activate the portal system requires proper placement of special artefacts within the chamber slots. There are special codes on each of the last six pages that define the artefact and which slot. These pages have been seperated from the rest of the document. Three individuals will each be given a copy of these codes so that at least one will be able to complete the activation.\nHolder List:\nVoronin - Rostok\nNardistik - Research Center\nDominik - Agroprom Compound\n.\nSpatial Warp Generator:\nA secondary object was also found in the laboratory. How long it has been there and how it continues to operate is a mistery. A special team of scientists is being assembled in the Old Village to analyze the device. A second team will be sent to F1 to analyze the first object and attempt to determine its origin.\n.\nCentral Command ORD-10640</text>
+	</string>
+	<string id="zep_doc_2_hint">
+		<text>What the hell would anyone want here?</text>
+	</string>
+	<string id="zep_doc_2">
+		<text>ZEP [02]\n.\nThe team in the Old Village was transported to the lab today. They will begin work immediately to determine what went wrong.\nStrange emmisions have recently been detected coming out of Backwater. A chopper has been dispatched to attempt to locate its source. It must be investigated as if it is related to the objects with the utmost urgency.\n.\nCentral Command ORD-10725</text>
+	</string>
+	<string id="zep_doc_3_hint">
+		<text>Is this just a wild goose chase?</text>
+	</string>
+	<string id="zep_doc_3">
+		<text>ZEP [03]\n.\nIt was reported by the transport team that the object has begun to vibrate and glow slightly. They are half way to their destination, a squad of military is being dispatched to Pripyat to escort them the rest of the way.\n.\nCentral Command ORD-10733</text>
+	</string>
+	<string id="zep_doc_4_hint">
+		<text>Could they be searching for the Doctor?</text>
+	</string>
+	<string id="zep_doc_4">
+		<text>ZEP [04]\n.\nStrange Blast:\nOn arriving at F1 there was a huge explosion that appears to have originated from the object. There is no communication at this point and air surveillance indicates the area is extremely high in radiation. Present dissipation indicates that the area will be re-enterable in four days.\nA secondary team has been assembled in the old Jupiter Rail Station that will stand ready to support team twelve.\n.\nCentral Command ORD-10744</text>
+	</string>
+	<string id="zep_doc_5_hint">
+		<text>Always a hot spot for Mercs</text>
+	</string>
+	<string id="zep_doc_5">
+		<text>ZEP [05]\n.\nTemporary headquarters have been relocated to the old research station until F1 is safe to re-enter. Team eleven has been completely wiped out and team twelve has arrived at the lab and has started analyzing the second object. It is unknown when team twenty will be assembled and arrive at F1 after the radiation levels decrease. An agent has been dispatched to East Pripyat in search of one of the original scientists that worked on the Monolith project. His name is Glavny and he may have an idea as to what the object is here for.\n.\nCentral Command ORD-10871</text>
+	</string>
+	<string id="zep_doc_6_hint">
+		<text>At least it's in the city!\nMight have to push on some doors to get it done!</text>
+	</string>
+	<string id="zep_doc_6">
+		<text>ZEP [06]\n.\nLab Disaster:\nTeam twelve has vanished from the lab. No indication as to what happened at this point but it appears to have been caused by a power surge from the object. Special agent; code name 'AX' will be dispatched to the lab to investigate the occurance and attempt to locate survivors.\nIt is also advised that an agent for the Monolith has been seen in the old Distribution Center. Send a small detachment to investigate and possibly apprehend this agent.\nPerson of interest: name unknown, has tattoo on arm 'S.T.A.L.K.E.R.', was involved in the NPP disaster involving the 'OC', consider dangerous, try to bring in alive.\n.\nCentral Command ORD-10877</text>
+	</string>
+	<string id="zep_doc_7_hint">
+		<text>Follow the path of 'AX'</text>
+	</string>
+	<string id="zep_doc_7">
+		<text>ZEP [07]\n.\nLab Report:\nAgent 'AX' has determined that the object had been compromised by the scientists of team twelve. This caused a feedback condition that created a portal of extreme magnitude. Where the team was teleported to is unknown. Our agent has informed me he is travelling south looking for an individual that may have information about the lab. His last known location was in the Rostok area but there are also rumors that he is buried in the old Cemetery.\n.\nCentral Command ORD-10913</text>
+	</string>
+	<string id="zep_doc_8_hint">
+		<text>Bring out your dead</text>
+	</string>
+	<string id="zep_doc_8">
+		<text>ZEP [08]\n.\nAX Report 1:\nOur agent located Voronin, he appears to have lost his copy of the activation codes and has also lost his mind. Agent 'AX' is travelling to Dead City following the trail of the second code holder. He also intends to re-visit the Cemetery as he has new information to go on.\n.\nCentral Command ORD-11003</text>
+	</string>
+	<string id="zep_doc_9_hint">
+		<text>This guy just loves dead places</text>
+	</string>
+	<string id="zep_doc_9">
+		<text>ZEP [09]\n.\nAX Report 2:\nCemetery turned up nothing, Agent 'AX' has informed me that he will spend some time searching Dead City. A report has also come in that someone was in the old Warlab recently.\n.\nCentral Command ORD-11009</text>
+	</string>
+	<string id="zep_doc_10_hint">
+		<text>Going underground for this one..</text>
+	</string>
+	<string id="zep_doc_10">
+		<text>ZEP [10]\n.\nAX Report 3:\nSecond code holder 'Nardistik' found, grave is in the old Cemetery East of Pripyat. No indication as to how and where he died, and what became of his things. Agent 'AX' has searched the area thoroughly and is now headed to the Dead Marshes on another lead.\n.\nCentral Command ORD-11011</text>
+	</string>
+	<!-- something to bring back with him -->
+	<string id="zep_sms_from_geek">
+		<text>Marked one... I need your help. A chopper has gone down in the Dead Marshes that was making special measurements. Find me the flight recorder, bring it to me and I will pay you as well as reward you with something you have lost</text>
+	</string>
+	<string id="zep_doc_11_hint">
+		<text>Better carry some dry socks</text>
+	</string>
+	<string id="zep_doc_11">
+		<text>ZEP [11]\n.\nAX Report 4:\nAgent 'AX' has located information that the third code holder may be in the old Research Station comm facility. There is also a small group of scientists there that may be able to help locate him.\n.\nCentral Command ORD-11016</text>
+	</string>
+	<string id="zep_doc_12_hint">
+		<text>Heard strange stories about tunnels in this place. Wierd anomalies too...</text>
+	</string>
+	<string id="zep_doc_12">
+		<text>ZEP [12]\n.\nAX Report 5:\nDead marshes did not turn up anything concrete. Minor resistance was experienced from the locals so a detachment has been sent to gain order there.\nAgent 'AX' was forced to retreat from the Dead Marshes to the Distribution Center. It is expected that he will re-group with central in the Old Research Station within the next two days.\n.\nCentral Command ORD-11019</text>
+	</string>
+	<!-- make him go back to the bar -->
+	<string id="zep_sms_from_bar2">
+		<text>Marked one... you need to get back here right away. That stranger was here and tried to break into the back. Not sure what he wanted... more when you get here</text>
+	</string>
+	<!-- chase AX into the Wild Territory -->
+	<string id="zep_doc_13_hint">
+		<text>Getting close to 'AX'?</text>
+	</string>
+	<string id="zep_doc_13">
+		<text>ZEP [13]\n.\nAX Report 6:\n'AX' failed to gain access to the Associate's locker where Voronin's codes are suspected to be.\nHe was forced to flee into the Wild Territory to avoid confrontation. There was word from the Research Station that he is being tracked by someone. 'AX' is heading to the abandoned Army Warehouses in an attempt to intercept him.\n.\nCentral Command ORD-11023</text>
+	</string>
+	<!-- note in warehouses points to npp1 -->
+	<string id="zep_doc_14_hint">
+		<text>Always a nice place to visit..</text>
+	</string>
+	<string id="zep_doc_14">
+		<text>ZEP [14]\n.\nAX Report 7:\nThe Army Warehouses did not turn up anything except an excessive amount of Bandits. 'AX' is in the NPP after a secondary suspect which may be of interest. This suspect may have the 'Soul Cube' that was recorded in earlier events with the 'OC'.\nThe team in the Research Station have departed to Techniques but have left an injured collegue in a trailor near the trail entrance.\n.\nCentral Command ORD-11026</text>
+	</string>
+	<string id="zep_doc_15_hint">
+		<text>Left one behind!</text>
+	</string>
+	<string id="zep_doc_15">
+		<text>ZEP [15]\n.\nAX Report 8:\nSecond suspect was located near the cooling towers, decapitated and no sign of the 'Soul Cube'.\nStrange activity has been reported out of Techniques near the old motor pool facility. Attempts to get close have failed due to an exceptionaly strong Controller in the area. 'AX' will arrive there later today and will attempt to neutralize it.\n.\nCentral Command ORD-11029</text>
+	</string>
+	<string id="zep_doc_16_hint">
+		<text>What's going down at the Motorpool?</text>
+	</string>
+	<string id="zep_doc_16">
+		<text>ZEP [16]\n.\nAX Report 9:\nTechniques has proven to be a difficult area so the team has moved on to the far NE Helipad for transport to the Broken Road Facility.\n.\nCentral Command ORD-11038</text>
+	</string>
+	<string id="zep_doc_17_hint">
+		<text>Gotta catch a flight!</text>
+	</string>
+	<string id="zep_doc_17">
+		<text>ZEP [17]\n.\nDestruction Notice:\nTeam seven has been tasked with the destruction of all materials and information stored at site ALPHA. You are to assist them in any way necessary. Upon completion both teams are to relocate to the eastern tunnel until further instructions.\nA map found on a dead Stalker indicates a path from the Research Station tunnels to a small underground hideout. 'AX' is going to attempt to locate this path and search the hideout.\n.\nCentral Command ORD-11035</text>
+	</string>
+	<string id="zep_doc_18_hint">
+		<text>Gotta dig deep for this one!</text>
+	</string>
+	<string id="zep_doc_18">
+		<text>ZEP [18]\n.\nAX Report 10:\n'AX' has located a dispatch that indicates a meeting between the suspect found in the NPP and an unknown group. He is heading to End Station where the meeting is set to take place. Note was damaged so the date and time are not known.\n.\nCentral Command ORD-11041</text>
+	</string>
+	<string id="zep_doc_19_hint">
+		<text>Take a train to ????</text>
+	</string>
+	<string id="zep_doc_19">
+		<text>ZEP [19]\n.\nAX Report 11:\nResistance was encountered at the End Station when 'AX' arrived. No survivors to interogate, 'AX' will search the area for any information about the objects and the individual tracking him. His next location of interest will be the Courtyards and Market areas.\n.\nCentral Command ORD-11046</text>
+	</string>
+	<string id="zep_doc_20_hint">
+		<text>Let's go shopping</text>
+	</string>
+	<string id="zep_doc_20">
+		<text>ZEP [20]\n.\nAX Report 12:\nMore resistance encountered in the Courtyards, a few fled toward the old Market. 'AX' is following them in an attempt to get a prisoner to interrogate.\n.\nCentral Command ORD-11051</text>
+	</string>
+	<string id="zep_doc_21_hint">
+		<text>Might be a good place to trade</text>
+	</string>
+	<string id="zep_doc_21">
+		<text>ZEP [21]\n.\nAX Report 13:\nMarket was abandoned and no evidence found as to where they went from there. 'AX' is now heading for the Broken Road Laboratory east of Facility F1 where information on the blast was kept. The hasty retreat from that area after the blast may have caused information to be left behind.\n.\nCentral Command ORD-11055</text>
+	</string>
+	<string id="zep_doc_22_hint">
+		<text>Into the danger Zone..</text>
+	</string>
+	<string id="zep_doc_22">
+		<text>ZEP [22]\n.\nAX Report 14:\nInformation has been recovered in the lab pertaining to the object and subsequant blast. It indicates that there was a huge wave of heat prior to the blast that seemed to warp time itself. Several scientists reported a gap in their work reports that did not make sense. 'AX' has also encountered more and stronger creatures in the area.\nFacility F1 has become tolerable and 'AX' is attempting to enter the area.\n.\nCentral Command ORD-11057</text>
+	</string>
+	<string id="zep_doc_23_hint">
+		<text>Strangest place I have ever been..</text>
+	</string>
+	<string id="zep_doc_23">
+		<text>ZEP [23]\n.\nAX Report 15:\nF1 is extremely hot and destruction was wide spread. There appears to have been two explosions, both convoys seem to be the central points for these explosions. The crystal object being transported appears to be inert now, no activity or energy of any kind. 'AX' was unable to get close to them as the radiation is still off the charts at those two locations.\n'AX' has been dispatched to the Jupiter area where seismic activity has been recently recorded beneath the old Jupiter Complex.\nArmored vehicles are being deployed in the elevator area as a precaution.\nCentral Command ORD-11060</text>
+	</string>
+	<string id="zep_doc_24_hint">
+		<text>Goin down under again..</text>
+	</string>
+	<string id="zep_doc_24">
+		<text>ZEP [24]\n.\nAX Report 16:\nIt has been reported that heavy resistance was encountered in the underground facility discovered beneath the complex. There has been no communication with agent 'AX' since this last report. A military group is being dispatched to infiltrate the underground and gain control there.\n.\nCentral Command ORD-11064</text>
+	</string>
+	<string id="zep_note">
+		<text>Notes and Memos</text>
+	</string>
+	<string id="zep_note_tower">
+		<text>Missed you, sorry I came so late.\nWe can meet at the old lab just a short ways Southwest from here. Come alone and bring the package with you.\nOzzi</text>
+	</string>
+	<string id="zep_note_t">
+		<text>Jack</text>
+	</string>
+	<string id="zep_note_bunker">
+		<text>Been waiting here too long, doors are broken and provide no protection.\nI will meet you at the bar, you know where. Don't loose that package and be careful!\nOzzi</text>
+	</string>
+	<string id="zep_note_jb">
+		<text>Jack</text>
+	</string>
+	<string id="zep_note_tent">
+		<text>In case you come by here.\nHad to leave early to the meeting place that we agreed upon earlier. Tweed and Dominik have already left and I hope to catch up with them before they get to the old bar.\nOzzi</text>
+	</string>
+	<string id="zep_note_tn">
+		<text>Jack</text>
+	</string>
+	<string id="zep_note_dist1">
+		<text>ALL POINTS: WANTED FOR QUESTIONING\nAll points of transit be aware of an individual seen in the area that is wanted for questioning. His name is not known, he displays a silver colored patch not known to these parts. Report his location but do not approach without adequate backup. Notify the top command in your area immediatly if spotted</text>
+	</string>
+	<string id="zep_note_d1">
+		<text>DISPATCH</text>
+	</string>
+	<string id="zep_note_dist2">
+		<text>Intercepted a dispatch from our bastard neighbors...\nRemember that boar-dung that passed through here a few days back? They want him, we should go after this trash and use him for leverage. I trailed him as far as the river, I am sure he went accross it to East Pripyat. How and where he got accross I do not know for sure but there must be a way. Be ready with a squad for when I arrive, I will try and find his path.\nPatch</text>
+	</string>
+	<string id="zep_note_d2">
+		<text>Commander</text>
+	</string>
+	<string id="zep_note_rsch1">
+		<text>I was here for the package, could not stay as things are too insane.\nWill get in touch with you at the old bar North of the Research Station.\n.\nNardistik</text>
+	</string>
+	<string id="zep_note_r1">
+		<text>Tweed</text>
+	</string>
+	<string id="zep_note_warehouses1">
+		<text>Place is deserted, not sure what happened here.\nWoke up to a band of Bandits outside the barracks this morning, surprised them with a grenade out the window. That sort of perked me up and gave me new strength, is that sick?\nHope you get this note as I am leaving for the NPP, can't wait here any longer. I was able to talk to some Stalkers in an old farmhouse, they said that a group of scientists went through here on their way to the NPP Control Center. No doubt the Stalker that has been tracking me is also following them or will be. If I am lucky I will cross paths with him and deal with this character and maybe even find out what he wants first, maybe.\n.\nX</text>
+	</string>
+	<string id="zep_note_wh1">
+		<text>Snatch</text>
+	</string>
+	<string id="zep_note_rad1">
+		<text>I am not sure what happened. I entered a purple fog in the Northern part of the NPP and somehow ended up on a roof near the NPP Generators. There were Monolith there and I was able to sneak away but had to leave my stuff behind. If you find this letter then I am most likely dead, beware of the fog, it has strange powers</text>
+	</string>
+	<string id="zep_note_rdr1">
+		<text>Unknown</text>
+	</string>
+	<string id="zep_note_sarc1">
+		<text>If you read this before going below, then be warned: you will most likely NOT come back out!</text>
+	</string>
+	<string id="zep_note_src1">
+		<text>Fox</text>
+	</string>
+	<string id="zep_note_suic1">
+		<text>I had to sleep here last night, nothing but nightmares. Something bad happened here and a heavy presence haunts this place.\nI am heading for the tower, you know where.\n.\nOzzi</text>
+	</string>
+	<string id="zep_note_sui1">
+		<text>Jack</text>
+	</string>
+	<string id="zep_note_oldlab1">
+		<text>Professor, I had to leave this place! Something has been trying to get in here but I can't see anything. It must be BIG from the pounding it does as the whole lab shakes from it!\nI must try to get out of here after it leaves the next time, I don't know where I will go as this whole region is unsafe.\n.\nGlowworm</text>
+	</string>
+	<string id="zep_note_olb1">
+		<text>Aleks</text>
+	</string>
+	<string id="zep_note_deadm1">
+		<text>Take your offer and shove it!\nIf I see even one of your goons near my camp, there will be retaliation!\nKeep your ugly snoz out of my business!\nYour ENEMY</text>
+	</string>
+	<string id="zep_note_dm1">
+		<text>Commander</text>
+	</string>
+	<string id="zep_note_dcity1">
+		<text>I wrote this instead of seeing you again.\nYou're ok, don't get me wrong but I need my space and you just won't give it to me.\nI left you food and ammo, hope to cross paths again soon. I am heading South to look for a quiet place to settle, good luck!\nTweed</text>
+	</string>
+	<string id="zep_note_dc1">
+		<text>Sparrow</text>
+	</string>
+	<string id="zep_note_dcity2">
+		<text>Today they told us to leave, not how or where but... just leave.\nI plan to hide in the bunker until they are gone and then figure out what to do. I will write again as soon as</text>
+	</string>
+	<string id="zep_note_dc2">
+		<text>Dear Mom</text>
+	</string>
+	<string id="zep_note_dcity3">
+		<text>I am sorry that it has been so long since you have heard from me. I was forced to leave the lab area under gunfire and ended up in an old attic. I am ok, hungry but ok.\nI plan to travel south to a place they call Rostok. I will write again when I get there.\nDexter</text>
+	</string>
+	<string id="zep_note_dc3">
+		<text>Dear Mom</text>
+	</string>
+	<string id="zep_note_wait1">
+		<text>This dispatch is to warn you of an individual that is apparently tracking you. Reason is unknown as attempts to subdue the individual have resulted in the loss of several soldiers. All attempts have ceased by this command, you are on your own. Take steps to eliminate him before he gets to F1 and finds th..</text>
+	</string>
+	<string id="zep_note_wtg1">
+		<text>AX</text>
+	</string>
+	<string id="zep_note_wait2">
+		<text>If you are reading this note then you are in my hideout and you should leave now without touching anything! Don't make me come looking for you as I am not a nice guy!\nYOU HAVE BEEN WARNED!</text>
+	</string>
+	<string id="zep_note_wtg2">
+		<text>READ THIS!</text>
+	</string>
+	<string id="zep_evac_order">
+		<text>Immediately all personnel are to report to their staging area. Take all data with you and deposit in the receptacle provided. Transport will commence promptly and there will be no return flight. It is your responsibilty to arrive at the staging area prior to departure.\nCentral Command ORD-11019</text>
+	</string>
+	<string id="zep_evac_ordr">
+		<text>Evacuation Notice</text>
+	</string>
+	<string id="zep_note_resrch2">
+		<text>All items stored in this bunker must be transported to Facility F1 by the end of the week. Those containers marked 'AX' must arrive intact and unopened.\nIf items are going to be compromised then they must be destroyed before falling into enemy hands.\nOperatives at F1 will identify themselves as agents of 'X', you will release everything to them including the transport vehicle.\n.\nCentral Command ORD-11073</text>
+	</string>
+	<string id="zep_note_rs2">
+		<text>Team Alpha</text>
+	</string>
+	<string id="zep_note_npp1">
+		<text>Waited as long as I could but armored vehicles started arriving.\nI am heading toward the old checkpoint near the far pits, you might catch up with me there. If I see I am being followed we will have to meet at the old bar.\nScabs</text>
+	</string>
+	<string id="zep_note_np1">
+		<text>Vin</text>
+	</string>
+	<string id="zep_note_npp2">
+		<text>Beware of the Soul Cube!\nIt feeds on your soul as well as your enemies', I am empty. It has left me. I can feel its presence, like its waiting for me to follow.\nBut where?</text>
+	</string>
+	<string id="zep_note_np2">
+		<text>Anyone</text>
+	</string>
+	<!-- gold bars quests -->
+	<string id="zep_note_broke1">
+		<!-- starts the gold bars quest, randomly in an attic in broken road -->
+		<text>Potski,\nI have located the bars and will disperse them in safe locations to be picked up later. I have left you this note so that you can find them if anything happens to me. That Bloodsucker butt 'AX' has been dogging me for awhile now but he split for F1 when word went out that it was safe to enter. I would most likely be dead now if that had not happened when it did!\nI am heading to our favorite hangout where the first bar will be stashed, they are heavy so I must use a vehicle to get them out of here. No doubt 'AX' or one of his minions will detect my movement so I need to go quickly. Here is the first location, you know where it is: NE-BAR-UP, FENCE-E, GAP-N, FENCE-W, TWINS-X\nEleven of the fifteen have special markings - do not loose them!\nTake them to the old tunnels when you have them all.\n.\nGen Kirschi</text>
+	</string>
+	<string id="zep_note_brk1">
+		<text>The Spot</text>
+	</string>
+	<string id="zep_note_tech1">
+		<text>Will meet at 'pipes end'. Bring goods for the trade and don't cross me or the Zone won't be big enough to hide in!\nJust in case you get greedy, I have hidden two of the bars\nCEM-TNL-BNDT and JUP-LAB-TNT\n.\nScabs</text>
+	</string>
+	<string id="zep_note_tch1">
+		<text>Sodar</text>
+	</string>
+	<string id="zep_note_swamp">
+		<text>Moved them: SWP-STV-N, SWP-STV-W, you may get wet.\n.\nA third on a table in a very old Hospital</text>
+	</string>
+	<string id="zep_note_swmp">
+		<text>Relocated</text>
+	</string>
+	<string id="zep_note_wlab1">
+		<text>I found a document deep in the lab yesterday. It outlines a series of steps for placing special gold ingots in specific spots in an old tunnel somewhere.\nThe ingots have codes that indicate which spot it is supposed to be dropped at. It also indicates that they must be placed in a certain order which is continued on the next page. I cannot find this page so I don't know the order!\nI also found a note with this scribbled on it:\nDS-RB1-NE-RKS\nGR-BAR-HIGH-LDG\nWT-YAN-TNT\n.\nno clue what they mean\nSacola</text>
+	</string>
+	<string id="zep_note_wlb1">
+		<text>Gorto</text>
+	</string>
+	<string id="zep_note_cem2">
+		<text>Just because you messed with my shack!!!!\n.\nCaretaker</text>
+	</string>
+	<string id="zep_note_cm2">
+		<text>Trespassers</text>
+	</string>
+	<string id="zep_note_deadm2">
+		<text>I am trapped here\ncontroller outside trying to get to me\n.\nleaving my stuff and will try to run for it\nif you find this then I did not make it\nthe gold bar is important take to Veronin in Rostok\nthere is another bar in the northern research village tower\nDeath Eagle</text>
+	</string>
+	<string id="zep_note_dm2">
+		<text>no choice</text>
+	</string>
+	<string id="zep_note_tunnels">
+		<text>must be done to control the intensity.\nEach Ingot with a code on it must be placed in the proper slot and in the proper order.\nIt is beleived that the order should be West to center then East to center. It is certain that the center is done last, the ingot marked C-C must be dropped in dead center of the tunnel</text>
+	</string>
+	<string id="zep_note_tnls">
+		<text>LOCATOR Page 2</text>
+	</string>
+	<string id="zep_note_tunnels2">
+		<text>LDK almost trapped me here\ngot the bars out earlier in three passes\nI will meet up with you at the old house in Techniques\nyou know the one\nScabs</text>
+	</string>
+	<string id="zep_note_tnls2">
+		<text>Vin</text>
+	</string>
+	<string id="zep_note_rsch3">
+		<text>Could only get to one, the others are located in x8 under water and deep under the NPP cooling cells.\n.\nNardistik</text>
+	</string>
+	<string id="zep_note_rs3">
+		<text>Scabs</text>
+	</string>
+	<!-- Caesier's extra stashes throughout the Zone -->
+	<string id="zep_note_trshr1">
+		<text>Needed to unload a little weight as I need to climb out of here.\nI always hide them near small candles as a reference.\n.\nCaesier</text>
+	</string>
+	<string id="zep_note_trs1">
+		<text>My Monilith stash</text>
+	</string>
+	<string id="zep_note_grimwald">
+		<text>One night in the Zone a strange cat came to me, after a small battle under a hunters moon and many dead animals, many rats, bloods, Stalkers... perhaps I smell of rat?\nTurning off the night vision we begin looting corpses, many dropped weapons, animal parts, and ammunition of course, normal stalking. well...\nThis strange cat hovering above the ground, now making cat noises...all four of the legs motionless...only hovering...the face turned away...\nSounded like a million running feet from all directions I turn on my light to get a better look. Of course this cat's face never turns to me, constantly looking at some objects far away...always, what does this cat look for? Where are her eyes?... very unusual...\nWhat is another dead animal to the Zone anyway...\nSo we ready our weapon to shoot this cat, notice looking down for a moment to see we are stuck on a random boar corpse and fire a round into it, why not! Corpse in my way!?\nAs I look up to find this cat with iron sights... this cat perhaps heard my weapon? It moves now hovering at the speed of light diagonal from it's previous position to directly towards me, directly at me...this cat ran through me, slapped me harder than any Stalker...the Zone was kind to spare me that night...\nI still do not know how this happened, the guns to pickup were missing... did the cat take them? The dead rats flew off in different directions... the Zone is frightening... still have not recovered...\nGrimwald</text>
+	</string>
+	<string id="zep_note_grim">
+		<text>Diary entry: ??</text>
+	</string>
+	<string id="zep_note_backwater1">
+		<text>Place is crawling with soldiers so I dropped the stash in this cave and hope I can escape this hell hole!\nGrey</text>
+	</string>
+	<string id="zep_note_back1">
+		<text>Grey's stash</text>
+	</string>
+	<string id="back1_stash_hint">
+		<text>Have to check out what Arnie said about Grey</text>
+	</string>
+	<string id="dead_marsh_recorder_hint">
+		<text>Area where chopper went down</text>
+	</string>
+	<!-- Karina in Dead Marshes -->
+	<string id="karina_dialog_zep1_0">
+		<text>Who might you be?</text>
+	</string>
+	<string id="karina_dialog_zep1_1">
+		<text>Karina Zetraphonic at your service.\nYou have a name or you shy?</text>
+	</string>
+	<string id="karina_dialog_zep1_2">
+		<text>Marked One, what are you doing here?\nLooks like you have been abandoned</text>
+	</string>
+	<string id="karina_dialog_zep1_3">
+		<text>I can't leave this place unguarded, the scientists will return once things quiet down</text>
+	</string>
+	<string id="karina_dialog_zep1_4">
+		<text>From what I have seen since I started travelling North is that things just keep getting worse</text>
+	</string>
+	<string id="karina_dialog_zep1_5">
+		<text>I wish those two jerks commanding the village and tunnel kill each other off and soon!</text>
+	</string>
+	<string id="karina_dialog_zep1_6">
+		<text>Tell me about them</text>
+	</string>
+	<string id="karina_dialog_zep1_7">
+		<text>The village has been there for more than a year and never bothered us.\nThe guerillas in the tunnel came in from the South and chased off everyone here claiming a military emergency or something.\nIt happened real fast and fighting errupted... I hit the swamps and avoided the search parties but they drove the rest out</text>
+	</string>
+	<string id="karina_dialog_zep1_8">
+		<text>Did you hear anything about what the emergency was or why they wanted such a shit hole?</text>
+	</string>
+	<string id="karina_dialog_zep1_9">
+		<text>I did hear something being yelled out about evac choppers comming from near a blast Zone... well that's what it sounded like</text>
+	</string>
+	<string id="karina_dialog_zep1_10">
+		<text>You don't know about F1 ?!... Those idiots found something powerful and while transporting it to F1 it went kaplui and wiped out the whole region.\nI wonder where those choppers were comming from</text>
+	</string>
+	<string id="karina_dialog_zep1_11">
+		<text>Only thing I know of near there is the old village and chemical lab.\nI think the village was called Broken Road... can't remember the lab's name though</text>
+	</string>
+	<string id="karina_dialog_zep1_12">
+		<text>Have you heard anyone say or get called X or AX or did a man with a silver emblem talk to you?</text>
+	</string>
+	<string id="karina_dialog_zep1_13">
+		<text>Sure did... he was yelling at a captain about a chopper that crashed. He also told several men to secure the tunnel for his headquarters.\nThat's when I split as they started to round up everybody... I don't react well to being herded!</text>
+	</string>
+	<string id="karina_dialog_zep1_14">
+		<text>I have to check out this tunnel, thanks!</text>
+	</string>
+	<string id="karina_dialog_zep2_0">
+		<text>You don't have to worry about that tunnel anymore, chased the vermin out... so to speak</text>
+	</string>
+	<string id="karina_dialog_zep2_1">
+		<text>You did that by yourself?!</text>
+	</string>
+	<string id="karina_dialog_zep2_2">
+		<text>Just sorta riled em up and they took each other out more than I got to!</text>
+	</string>
+	<string id="karina_dialog_zep2_3">
+		<text>Who the HELL are you?!!!\nNever let me piss you off! Please... I'm serious!</text>
+	</string>
+	<string id="karina_dialog_zep2_4">
+		<text>Look... no big deal, ok... I'm not a bad guy... really!</text>
+	</string>
+	<string id="karina_dialog_zep2_5">
+		<text>Why are you realy here and don't BS me... I know it must be important for someone like you to be here!</text>
+	</string>
+	<string id="karina_dialog_zep2_6">
+		<text>Interesting observation... I am following this agent 'AX', as he was following me and I think we both are looking for the same thing</text>
+	</string>
+	<string id="karina_dialog_zep2_7">
+		<text>You are following him and he is following you and you are looking for... what?</text>
+	</string>
+	<string id="karina_dialog_zep2_8">
+		<text>Don't realy know.\nI do know that it is very powerful and in the wrong hands will be a very evil tool. I also know that several factions will not hesitate to kill for it and already have</text>
+	</string>
+	<string id="karina_dialog_zep2_9">
+		<text>But who are you?\nWho sent you here?</text>
+	</string>
+	<string id="karina_dialog_zep2_10">
+		<text>Marked One... no one sent me..\nit just all happened..</text>
+	</string>
+	<string id="karina_dialog_zep2_11">
+		<text>Never did understand people like you..\nGOOD LUCK!... Marked One</text>
+	</string>
+	<string id="karina_dialog_zep3_0">
+		<text>How are things in wonderful swampland?..</text>
+	</string>
+	<string id="karina_dialog_zep3_1">
+		<text>There are MANY wonderful things here... if you ever looked at anything but money!</text>
+	</string>
+	<string id="karina_dialog_zep3_2">
+		<text>wow... I sure stepped in that one! SORRY!</text>
+	</string>
+	<string id="karina_dialog_zep3_3">
+		<text>ah... ok... just getting a bit lonely..</text>
+	</string>
+	<string id="karina_dialog_zep3_4">
+		<text>well... look, you sent me a message about strangers comming back?</text>
+	</string>
+	<string id="karina_dialog_zep3_5">
+		<text>There was two of them, they went to the old shack past the downed chopper to look for something</text>
+	</string>
+	<string id="karina_dialog_zep3_6">
+		<text>Did they say anything?</text>
+	</string>
+	<string id="karina_dialog_zep3_7">
+		<text>Only heard them yelling to each other as they ran away from the shack, sounded like what they were looking for was not there</text>
+	</string>
+	<string id="karina_dialog_zep3_8">
+		<text>Why did they run away?</text>
+	</string>
+	<string id="karina_dialog_zep3_9">
+		<text>OBVIOUSLY... they ran into the old controller that has settled there, been there for months</text>
+	</string>
+	<string id="karina_dialog_zep3_10">
+		<text>Oh yea... sorry, shoulda known about that controller... my mistake toooootally..</text>
+	</string>
+	<string id="karina_dialog_zep3_11">
+		<text>Hmmph, told you I was moody! Feel sorry for the sad soul that settles for you!</text>
+	</string>
+	<string id="karina_dialog_zep4_0">
+		<text>How are things in wonderful swampland?..</text>
+	</string>
+	<string id="karina_dialog_zep4_1">
+		<text>There are MANY wonderful things here... if you ever looked at anything but money!</text>
+	</string>
+	<string id="karina_dialog_zep4_2">
+		<text>wow... I sure stepped in that one! SORRY!</text>
+	</string>
+	<string id="karina_dialog_zep4_3">
+		<text>ah... ok... just getting a bit lonely..</text>
+	</string>
+	<string id="karina_dialog_zep4_4">
+		<text>well... look, you sent me a message about strangers coming back?</text>
+	</string>
+	<string id="karina_dialog_zep4_5">
+		<text>There were two of them, they went to the old shack past the downed chopper to look for something</text>
+	</string>
+	<string id="karina_dialog_zep4_6">
+		<text>Did they say anything?</text>
+	</string>
+	<string id="karina_dialog_zep4_7">
+		<text>Only heard them yelling to each other as they ran away from the shack, sounded like what they were looking for was not there</text>
+	</string>
+	<string id="karina_dialog_zep4_8">
+		<text>Met the controller there no doubt..</text>
+	</string>
+	<string id="karina_dialog_zep4_9">
+		<text>Seems they weren't prepared for dealing with it, just lucky for them they got away</text>
+	</string>
+	<string id="karina_dialog_zep4_10">
+		<text>That means someone will be coming back soon, you be careful</text>
+	</string>
+	<string id="karina_dialog_zep4_11">
+		<text>Don't have to worry about me! You look like you're not doing all that well to me! Hmmmph</text>
+	</string>
+	<string id="karina_dialog_zep5_0">
+		<text>Anything new around this Metropolis?..</text>
+	</string>
+	<string id="karina_dialog_zep5_1">
+		<text>Always with the pun... why are you back?</text>
+	</string>
+	<string id="karina_dialog_zep5_2">
+		<text>I could stop coming by..</text>
+	</string>
+	<string id="karina_dialog_zep5_3">
+		<text>Aren't you the sensitive one... poor baby... you can come by anytime you want!</text>
+	</string>
+	<string id="karina_dialog_zep5_4">
+		<text>All right then... but right now I need to know if anyone has been through here lately</text>
+	</string>
+	<string id="karina_dialog_zep5_5">
+		<text>I heard gunfire in the Northeast before sunset yesterday but no one came around here</text>
+	</string>
+	<string id="karina_dialog_zep5_6">
+		<text>Good... don't want anyone bothering you... except for me that is</text>
+	</string>
+	<string id="karina_dialog_zep5_7">
+		<text>You'll never be a bother to me!</text>
+	</string>
+	<string id="karina_dialog_zep5_8">
+		<text>Okay then... I better get off to the Northeast and see what I can find there</text>
+	</string>
+	<string id="karina_dialog_zep5_9">
+		<text>I know there is a path beyond the old bus that can lead you to the old Techniques center, maybe someone came down from there..</text>
+	</string>
+	<string id="karina_dialog_zep5_10">
+		<text>Thanks, I will see if it can lead me anywhere</text>
+	</string>
+	<string id="karina_dialog_zep5_11">
+		<text>You take care, Marked One</text>
+	</string>
+	<!-- dd_inform in Dead Marshes -->
+	<string id="dd_inform_dialog_zep1_0">
+		<text>Informer?!... I would have shot you but... you look like you soiled your pants!</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_1">
+		<text>Thanks man!\nI just want to be left alone!</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_2">
+		<text>Relax... I don't care what you do as long as it doesn't threaten me.\nWhat are you doing way up here anyway?</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_3">
+		<text>I had to leave!\nThat commander is insane and I can't carry out his orders anymore..</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_4">
+		<text>He has gone a little off the deep end, eh...</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_5">
+		<text>Now I am a deserter and don't know what to do.\nI thought I could make it here but bandits keep passing through and trying to get my stuff</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_6">
+		<text>Well... I don't care what you do as long as you don't try and attack me, I have an ichy finger that is hard to control sometimes!</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_7">
+		<text>Okay... Okay... I don't want trouble!\nJust don't tell anyone you saw me Okay..</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_8">
+		<text>Sure and you do the same for me... got it?</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_9">
+		<text>No problem, I plan on heading North soon anyway</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_10">
+		<text>North?!..\nOnly thing North is desolation and lots of military factions running about</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_11">
+		<text>You sure?!\nI gotta get away from here and I don't know where to go</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_12">
+		<text>I know a town of deserters that may take you in.\nStay here until I return. I will talk to them and if I get you in then I want something in return</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_13">
+		<text>What do you want..</text>
+	</string>
+	<string id="dd_inform_dialog_zep1_14">
+		<text>We'll discuss it when I return</text>
+	</string>
+	<string id="pred_barmen_name">
+		<text>Governor</text>
+	</string>
+	<string id="pred_barmen_bio">
+		<text>Called the 'Governor' by those around him and obviously the boss, he seems to have some good connections</text>
+	</string>
+	<string id="pred_barmen_zep0_1">
+		<text>What is this place?</text>
+	</string>
+	<string id="pred_barmen_zep0_2">
+		<text>We call this the Waiting Room, why?</text>
+	</string>
+	<string id="pred_barmen_zep0_3">
+		<text>Seems strange having such a diverse group..</text>
+	</string>
+	<string id="pred_barmen_zep0_4">
+		<text>Take off Stalker... don't like strangers poking around here!</text>
+	</string>
+	<string id="pred_barmen_zep1_1">
+		<text>Shelves a bit empty today, eh..</text>
+	</string>
+	<string id="pred_barmen_zep1_2">
+		<text>Who are you and what do you want?</text>
+	</string>
+	<string id="pred_barmen_zep1_3">
+		<text>Go by Marked One... and you?</text>
+	</string>
+	<string id="pred_barmen_zep1_4">
+		<text>They call me the Governor and I am getting tired of this conversation..</text>
+	</string>
+	<string id="pred_barmen_zep2_1">
+		<text>Look... sorry we got off to a bad start</text>
+	</string>
+	<string id="pred_barmen_zep2_2">
+		<text>Okay, then quickly... what do you want?</text>
+	</string>
+	<string id="pred_barmen_zep2_3">
+		<text>I know a deserter that got his butt stuck in the old Distribution District and I said I would ask if you would let him in</text>
+	</string>
+	<string id="pred_barmen_zep2_4">
+		<text>What can he contribute?</text>
+	</string>
+	<string id="pred_barmen_zep2_5">
+		<text>He was a dealer in information and may still have contacts</text>
+	</string>
+	<string id="pred_barmen_zep2_6">
+		<text>Not likely if he is on the run but maybe he can help cleaning out these damn creatures... seems like they just keep on comming..</text>
+	</string>
+	<string id="pred_barmen_zep2_7">
+		<text>Sounds like a great fit!</text>
+	</string>
+	<string id="pred_barmen_zep3_1">
+		<text>Is there anything I can do that would be of help? I most likely will be in the neighborhood often</text>
+	</string>
+	<string id="pred_barmen_zep3_2">
+		<text>BOOZE!... I will trade rare ammo for libations... of course Vodka will get you the most but even Beer will get you something</text>
+	</string>
+	<string id="pred_barmen_zep3_3">
+		<text>I think I can handle carrying around a few bottles</text>
+	</string>
+	<string id="pred_barmen_zep4_1">
+		<text>Greetings... have a bottle of Vodka!</text>
+	</string>
+	<string id="pred_barmen_zep4_2">
+		<text>Maybe you should find a bottle first... moron!</text>
+	</string>
+	<string id="pred_barmen_zep4_3">
+		<text>Great! take this ammo</text>
+	</string>
+	<string id="pred_barmen_zep5_1">
+		<text>Hey Governor... have a Beer</text>
+	</string>
+	<string id="pred_barmen_zep5_2">
+		<text>You know... it would be wise to lay off your stash so you can actually sell some of it</text>
+	</string>
+	<string id="pred_barmen_zep5_3">
+		<text>Hmmm... well I quess its worth something here... take this ammo</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_0">
+		<text>Glad to see I didn't waste a trip, you look hungry though</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_1">
+		<text>Rations running low and I don't like to wander around out there</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_2">
+		<text>You're in luck... you can go there but now we talk business</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_3">
+		<text>Thanks Marked One!\nWhat do you want?</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_4">
+		<text>I need information about a stranger that was in Rostok a while back, I understand you had a run-in with him</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_5">
+		<text>Okay... Okay... What can I tell you..\nah yea... this guy was different, cold and precise... like he was manufactered and not born..\nyou know... like no soul at all</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_6">
+		<text>What else do you remember... what did he say to you</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_7">
+		<text>F1... lots of talk about F1 and a lab... something about a connection between F1 and this lab... 14 yea... lab 14 he was calling it</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_8">
+		<text>A connection between a 'Lab 14' and F1? What kind of connection?\nWhat else can you remember?</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_9">
+		<text>Just something about codes and Voronin but it seemed like giberish at the time..\nThat's all I can remember, please don't hurt me..</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_10">
+		<text>Get it together man... you're pathetic!</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_11">
+		<text>I just want out... please help me get out of here..</text>
+	</string>
+	<string id="dd_inform_dialog_zep2_12">
+		<text>Go far to the East and then North of the old research station when you reach it. You have to sneek into the military compound that surrounds the area that the village is in.\nYou'll find an old underground bar off what's left of a main freeway. Be careful passing through the village as it has been overrun by mutants.\nSay the Marked One sent you. See you around</text>
+	</string>
+	<string id="dd_inform_dialog_zep3_2">
+		<text>Sorry... they don't want you there. Guess you'll have to make your way East and try to get out of the Zone where the radiation is weakest</text>
+	</string>
+	<string id="dd_inform_dialog_zep3_3">
+		<text>Damn..\nthanks for nothing!</text>
+	</string>
+	<string id="dd_inform_dialog_zep3_4">
+		<text>You're going to tell me anyway..\nI understand you had a run-in with this stranger that has been going around asking questions</text>
+	</string>
+	<string id="dd_inform_dialog_zep3_12">
+		<text>Sorry... don't have time for babysitting.\nLike I said... go East through the barrier of the Zone but better wear a scientific suit or you'll fry..\nLots of luck!</text>
+	</string>
+	<string id="start_zep_search">
+		<text>Start ZEP search</text>
+	</string>
+	<string id="have_tweed_weapon">
+		<text>Have Tweed Weapon</text>
+	</string>
+	<string id="find_book_tweed">
+		<text>Find book for Tweed</text>
+	</string>
+	<string id="found_book_tweed">
+		<text>Found book for Tweed</text>
+	</string>
+	<string id="gave_tweed_weapon">
+		<text>Gave Tweed Weapon</text>
+	</string>
+	<string id="give_tweed_help">
+		<text>Give Tweed Help</text>
+	</string>
+	<string id="wasted_awaits">
+		<text>Wasted Woodland Awaits</text>
+	</string>
+	<string id="pipes_end">
+		<text>Pipes End</text>
+	</string>
+	<string id="touch_tweed">
+		<text>Get in touch with Tweed</text>
+	</string>
+	<string id="backwater_activated">
+		<text>Backwater restricted area teleports activated</text>
+	</string>
+	<string id="caesiers_activated">
+		<text>Caesiers Underground teleports activated</text>
+	</string>
+	<string id="zep_bars_2">
+		<text>Marked One... got word from the Generators that someone was in the Warlab recently, not of a known faction... you may want to investigate!</text>
+	</string>
+	<string id="zep_bars_3">
+		<text>Marked One... Clear Sky Commander has informed me that an unknown faction was searching through the ruins by the old water tower. Captured one and he informed us that they were looking for a Stalker referred to as the Marked One, there might be clues there for you</text>
+	</string>
+	<string id="zep_bars_4">
+		<text>Marked One... Karina has contacted me and wants me to let you know they were back. They were arguing over who should clear out the Controller there</text>
+	</string>
+	<string id="gbars1_done">
+		<text>Tunnels Activated</text>
+	</string>
+	<string id="sak_cube_info">
+		<text>Get to the Firing Range</text>
+	</string>
+	<string id="start_x14">
+		<text>Find the lab and help Glavny</text>
+	</string>
+	<!-- OGSE COMPANIONS -->
+	<!-- COMPANION STALKER -->
+	<string id="companion_release_dialog_0">
+		<text>Thanks, buddy, but now I must leave you</text>
+	</string>
+	<string id="companion_release_dialog_1">
+		<text>Thank you too. Good luck!</text>
+	</string>
+	<string id="companion_hire_dialog_0">
+		<text>I need some backup,would you like to join me?</text>
+	</string>
+	<string id="companion_hire_dialog_1">
+		<text>Sure, I have been eager to explore the Zone</text>
+	</string>
+	<string id="companion_hire_dialog_2">
+		<text>Sorry, I have other plans</text>
+	</string>
+	<string id="companion_hire_dialog_3">
+		<text>No way, You scare the hell out of me!</text>
+	</string>
+	<string id="companion_hire_dialog_4">
+		<text>No way, go to hell, man! No one ever returned back after leaving with you! Look for "lockpicks" elsewhere</text>
+	</string>
+	<string id="companion_hire_dialog_5">
+		<text>Sorry, but I just can't. The Zone has beat me down, I need to take a break</text>
+	</string>
+	<string id="companion_hire_dialog_6">
+		<text>Hell No! I have no desire to 'RAMBO' around the Zone with a nut job like you!</text>
+	</string>
+	<string id="companion_hire_dialog_7">
+		<text>Not a chance! I've heard all about you and I don't have a 'death wish' so bug off and find someone else!</text>
+	</string>
+	<string id="companion_hire_dialog_8">
+		<text>No, you already have enough people with you. Don't wander around the Zone in crowds, you know, She does not like this</text>
+	</string>
+	<string id="companion_hire_dialog_9">
+		<text>Do not be offended, Marked One, but as long as you're not from our faction - we have no business with you</text>
+	</string>
+	<string id="companion_management_dialog_0">
+		<text>Let's discuss our tactics</text>
+	</string>
+	<string id="companion_management_dialog_1">
+		<text>I'm listening</text>
+	</string>
+	<string id="companion_management_dialog_2">
+		<text>Follow me</text>
+	</string>
+	<string id="companion_management_dialog_3">
+		<text>How do I behave in this case?</text>
+	</string>
+	<string id="companion_management_dialog_4">
+		<text>Just follow me and stay alert</text>
+	</string>
+	<string id="companion_management_dialog_5">
+		<text>Come follow me and try to lead the enemy closer</text>
+	</string>
+	<string id="companion_management_dialog_6">
+		<text>Come follow me and attack only when absolutely necessary</text>
+	</string>
+	<string id="companion_management_dialog_7">
+		<text>Wait here</text>
+	</string>
+	<string id="companion_management_dialog_8">
+		<text>Waiting your orders</text>
+	</string>
+	<string id="companion_management_dialog_9">
+		<text>Just wait here and stay alert</text>
+	</string>
+	<string id="companion_management_dialog_10">
+		<text>Wait here and try to lead the enemy closer</text>
+	</string>
+	<string id="companion_management_dialog_11">
+		<text>Wait here and attack only when absolutely necessary</text>
+	</string>
+	<string id="companion_management_dialog_12">
+		<text>Sneak after me</text>
+	</string>
+	<string id="companion_management_dialog_13">
+		<text>Waiting your orders</text>
+	</string>
+	<string id="companion_management_dialog_14">
+		<text>Just sneak and stay alert</text>
+	</string>
+	<string id="companion_management_dialog_15">
+		<text>Sneak and try to lead enemy closer</text>
+	</string>
+	<string id="companion_management_dialog_16">
+		<text>Sneak and attack only when absolutely necessary</text>
+	</string>
+	<string id="companion_management_dialog_17">
+		<text>Hide here</text>
+	</string>
+	<string id="companion_management_dialog_18">
+		<text>Waiting your orders</text>
+	</string>
+	<string id="companion_management_dialog_19">
+		<text>Just hide here and stay alert</text>
+	</string>
+	<string id="companion_management_dialog_20">
+		<text>Hide here and try to lead enemy closer</text>
+	</string>
+	<string id="companion_management_dialog_21">
+		<text>Hide here and attack only when absolutely necessary</text>
+	</string>
+	<!-- COMPANION DOLG -->
+	<string id="companion_release_dialog_dolg_0">
+		<text>Thank you for your service, soldier. Dismissed!</text>
+	</string>
+	<string id="companion_release_dialog_dolg_1">
+		<text>Glory to the Duty!</text>
+	</string>
+	<string id="companion_hire_dialog_dolg_0">
+		<text>Hey fighter, let's travel together?</text>
+	</string>
+	<string id="companion_hire_dialog_dolg_1">
+		<text>Yes sir! Awaiting orders</text>
+	</string>
+	<string id="companion_hire_dialog_dolg_2">
+		<text>Sorry, I have a job to do, I'm busy</text>
+	</string>
+	<string id="companion_hire_dialog_dolg_3">
+		<text>Sorry, I will not go with you. The soldiers tell odd things about you...</text>
+	</string>
+	<string id="companion_hire_dialog_dolg_4">
+		<text>No way, Marked One, you have a scary reputation. Every time you're returning back, your partner is no longer with you</text>
+	</string>
+	<string id="companion_hire_dialog_dolg_5">
+		<text>Sorry, but I can't. I need a break after the attacks, tired already of killing mutants</text>
+	</string>
+	<string id="companion_hire_dialog_dolg_6">
+		<text>Your experience is not enough to go with me into the Zone. Learn first to fight mutants well, and get a higher rank</text>
+	</string>
+	<string id="companion_hire_dialog_dolg_7">
+		<text>No offence but I say "no". Experience I have is not enough to compete with you - you're a seasoned fighter, I am just a greenhorn in comparison with you</text>
+	</string>
+	<string id="companion_hire_dialog_dolg_8">
+		<text>No, you already have enough people with you, I'll be more useful here</text>
+	</string>
+	<string id="companion_hire_dialog_dolg_9">
+		<text>Do not be offended, but as long as you're not from our faction - we have no business with you</text>
+	</string>
+	<string id="companion_management_dialog_dolg_0">
+		<text>Listen to my orders</text>
+	</string>
+	<string id="companion_management_dialog_dolg_1">
+		<text>Sir, yes sir!</text>
+	</string>
+	<string id="companion_management_dialog_dolg_2">
+		<text>Follow me</text>
+	</string>
+	<string id="companion_management_dialog_dolg_3">
+		<text>How to respond to threats?</text>
+	</string>
+	<string id="companion_management_dialog_dolg_4">
+		<text>Keep high alert</text>
+	</string>
+	<string id="companion_management_dialog_dolg_5">
+		<text>Follow me, fire from medium range</text>
+	</string>
+	<string id="companion_management_dialog_dolg_6">
+		<text>Come follow me and attack only when absolutely necessary</text>
+	</string>
+	<string id="companion_management_dialog_dolg_7">
+		<text>Wait here</text>
+	</string>
+	<string id="companion_management_dialog_dolg_8">
+		<text>How to respond to threats?</text>
+	</string>
+	<string id="companion_management_dialog_dolg_9">
+		<text>Keep high alert</text>
+	</string>
+	<string id="companion_management_dialog_dolg_10">
+		<text>Wait here, fire from medium range</text>
+	</string>
+	<string id="companion_management_dialog_dolg_11">
+		<text>Wait here and attack only when absolutely necessary</text>
+	</string>
+	<string id="companion_management_dialog_dolg_12">
+		<text>Sneak after me</text>
+	</string>
+	<string id="companion_management_dialog_dolg_13">
+		<text>How to respond to threats?</text>
+	</string>
+	<string id="companion_management_dialog_dolg_14">
+		<text>Keep high alert</text>
+	</string>
+	<string id="companion_management_dialog_dolg_15">
+		<text>Sneak after me, fire from medium range</text>
+	</string>
+	<string id="companion_management_dialog_dolg_16">
+		<text>Sneak after me and attack only when absolutely necessary</text>
+	</string>
+	<string id="companion_management_dialog_dolg_17">
+		<text>Hide here</text>
+	</string>
+	<string id="companion_management_dialog_dolg_18">
+		<text>How to respond to threats?</text>
+	</string>
+	<string id="companion_management_dialog_dolg_19">
+		<text>Keep high alert</text>
+	</string>
+	<string id="companion_management_dialog_dolg_20">
+		<text>Hide here, fire from medium range</text>
+	</string>
+	<string id="companion_management_dialog_dolg_21">
+		<text>Hide here and attack only when absolutely necessary</text>
+	</string>
+	<!-- COMPANION FREEDOM -->
+	<string id="companion_release_dialog_freedom_0">
+		<text>Thanks, man. Good spent time, but I need to hit the road alone!</text>
+	</string>
+	<string id="companion_release_dialog_freedom_1">
+		<text>Bye, dude. Freedom rules!</text>
+	</string>
+	<string id="companion_hire_dialog_freedom_0">
+		<text>Hey, how about us working together?</text>
+	</string>
+	<string id="companion_hire_dialog_freedom_1">
+		<text>Okay, let's hit the road...</text>
+	</string>
+	<string id="companion_hire_dialog_freedom_2">
+		<text>No, man. I'm busy, sorry...</text>
+	</string>
+	<string id="companion_hire_dialog_freedom_3">
+		<text>Hell, no. You're a fucking maniac...</text>
+	</string>
+	<string id="companion_hire_dialog_freedom_4">
+		<text>Get lost, man. There were a lot of guys with you already - and I've not seen them since...</text>
+	</string>
+	<string id="companion_hire_dialog_freedom_5">
+		<text>Sorry, man. I'm zonked out, and need some rest...</text>
+	</string>
+	<string id="companion_hire_dialog_freedom_6">
+		<text>No way, man. You're still a rookie, and you'd get us killed. Toughen up a bit first...</text>
+	</string>
+	<string id="companion_hire_dialog_freedom_7">
+		<text>Damn no, it's hairy for me to go with ya - you're exploring such depths, I'm still wondering how you make it out in one piece</text>
+	</string>
+	<string id="companion_hire_dialog_freedom_8">
+		<text>No, man, you have enough guys already, one "high" is too small for three</text>
+	</string>
+	<string id="companion_hire_dialog_freedom_9">
+		<text>No offence, man, but if you're not from our faction we have no business working with you...</text>
+	</string>
+	<string id="companion_management_dialog_freedom_0">
+		<text>Listen up, man, we need to chitchat a bit about tactics</text>
+	</string>
+	<string id="companion_management_dialog_freedom_1">
+		<text>Yep, I'm listening</text>
+	</string>
+	<string id="companion_management_dialog_freedom_2">
+		<text>Follow me, man</text>
+	</string>
+	<string id="companion_management_dialog_freedom_3">
+		<text>What if get into a jam?</text>
+	</string>
+	<string id="companion_management_dialog_freedom_4">
+		<text>Don't play chicken, but stay alert if something happens</text>
+	</string>
+	<string id="companion_management_dialog_freedom_5">
+		<text>Don't play chicken, and let badasses come closer before hit'em</text>
+	</string>
+	<string id="companion_management_dialog_freedom_6">
+		<text>Go on and hide the gun</text>
+	</string>
+	<string id="companion_management_dialog_freedom_7">
+		<text>Sit, take a break, I need to check something</text>
+	</string>
+	<string id="companion_management_dialog_freedom_8">
+		<text>What if get into a jam?</text>
+	</string>
+	<string id="companion_management_dialog_freedom_9">
+		<text>Take break, but stay alert if something happens</text>
+	</string>
+	<string id="companion_management_dialog_freedom_10">
+		<text>Don't be a chicken, take a break, but let badasses come closer before hit'em</text>
+	</string>
+	<string id="companion_management_dialog_freedom_11">
+		<text>Take a break man, and keep a low profile</text>
+	</string>
+	<string id="companion_management_dialog_freedom_12">
+		<text>Sneak with me, but don't kick up a fuss</text>
+	</string>
+	<string id="companion_management_dialog_freedom_13">
+		<text>What if get into a jam?</text>
+	</string>
+	<string id="companion_management_dialog_freedom_14">
+		<text>Sneak with me, just stay alert if something happens</text>
+	</string>
+	<string id="companion_management_dialog_freedom_15">
+		<text>Everything's fine, just don't kick up a fuss and let badasses come closer before hit'em</text>
+	</string>
+	<string id="companion_management_dialog_freedom_16">
+		<text>Listen, don't kick up a fuss to the last moment, catch what?</text>
+	</string>
+	<string id="companion_management_dialog_freedom_17">
+		<text>Hide here and don't kick up a fuss</text>
+	</string>
+	<string id="companion_management_dialog_freedom_18">
+		<text>What if get into a jam?</text>
+	</string>
+	<string id="companion_management_dialog_freedom_19">
+		<text>Hide silently, just stay alert if something happens</text>
+	</string>
+	<string id="companion_management_dialog_freedom_20">
+		<text>Hide silently, and let badasses come closer before hit'em</text>
+	</string>
+	<string id="companion_management_dialog_freedom_21">
+		<text>Hide as silently as you can to the last moment</text>
+	</string>
+	<!-- COMPANION BANDIT -->
+	<string id="companion_release_dialog_bandit_0">
+		<text>That's all, bro', break up. Be good</text>
+	</string>
+	<string id="companion_release_dialog_bandit_1">
+		<text>You also don't get hurt, bro'.</text>
+	</string>
+	<string id="companion_hire_dialog_bandit_0">
+		<text>You know this area well. Fancy teaming up?</text>
+	</string>
+	<string id="companion_hire_dialog_bandit_1">
+		<text>You've a point there, yep</text>
+	</string>
+	<string id="companion_hire_dialog_bandit_2">
+		<text>No, I'd rather be a gang by myself</text>
+	</string>
+	<string id="companion_hire_dialog_bandit_3">
+		<text>Fuck off, man. Do I look like I've got a death wish?</text>
+	</string>
+	<string id="companion_hire_dialog_bandit_4">
+		<text>Get lost, badass. No one trusts you...</text>
+	</string>
+	<string id="companion_hire_dialog_bandit_5">
+		<text>Nah, I'm burnt out enough already...</text>
+	</string>
+	<string id="companion_hire_dialog_bandit_6">
+		<text>You must be joking. Earn yourself a reputation first...</text>
+	</string>
+	<string id="companion_hire_dialog_bandit_7">
+		<text>Sorry, you're tough bro', makin' hardballs, I can't get over with you - only stay a lookout, at best</text>
+	</string>
+	<string id="companion_hire_dialog_bandit_8">
+		<text>No thanks, bro'. Looks like you've already got yourself a grunt...</text>
+	</string>
+	<string id="companion_hire_dialog_bandit_9">
+		<text>Fuck off, man. You're not one of us...</text>
+	</string>
+	<string id="companion_management_dialog_bandit_0">
+		<text>Hey, bro', listen up here</text>
+	</string>
+	<string id="companion_management_dialog_bandit_1">
+		<text>What da fuck ya need?</text>
+	</string>
+	<string id="companion_management_dialog_bandit_2">
+		<text>Go after me, get it?</text>
+	</string>
+	<string id="companion_management_dialog_bandit_3">
+		<text>Yep, and what if some problems happen around?</text>
+	</string>
+	<string id="companion_management_dialog_bandit_4">
+		<text>Hold your jaw, if there are problems - just draw out a gun and make holes in the jerks</text>
+	</string>
+	<string id="companion_management_dialog_bandit_5">
+		<text>Go after me, if any problems happen - let'em get closer</text>
+	</string>
+	<string id="companion_management_dialog_bandit_6">
+		<text>Go after me and don't make noise. And hide your fuckin' gun already!</text>
+	</string>
+	<string id="companion_management_dialog_bandit_7">
+		<text>Stay here, get it? I'll check out and get back</text>
+	</string>
+	<string id="companion_management_dialog_bandit_8">
+		<text>Yep, and what if some problems happen around?</text>
+	</string>
+	<string id="companion_management_dialog_bandit_9">
+		<text>Hold your jaw, if there are problems - just draw out a gun and make holes in the jerks</text>
+	</string>
+	<string id="companion_management_dialog_bandit_10">
+		<text>Stay here I'm tellin' ya, if any problems happen - let'em get closer</text>
+	</string>
+	<string id="companion_management_dialog_bandit_11">
+		<text>Hold your jaw I'm tellin' ya. And hide your fuckin' gun already and keep quiet!</text>
+	</string>
+	<string id="companion_management_dialog_bandit_12">
+		<text>Go after me and keep quiet</text>
+	</string>
+	<string id="companion_management_dialog_bandit_13">
+		<text>Yep, and what if some problems happen around?</text>
+	</string>
+	<string id="companion_management_dialog_bandit_14">
+		<text>Hold your jaw, if there are problems - just draw out a gun and make holes in the jerks</text>
+	</string>
+	<string id="companion_management_dialog_bandit_15">
+		<text>Keep quiet I'm tellin' ya, don't get it? If any problems happen - let'em get closer</text>
+	</string>
+	<string id="companion_management_dialog_bandit_16">
+		<text>Keep quiet mothafucka, and don't make noise! And hide your fuckin' gun already!</text>
+	</string>
+	<string id="companion_management_dialog_bandit_17">
+		<text>Hide there and wait</text>
+	</string>
+	<string id="companion_management_dialog_bandit_18">
+		<text>Yep, and what if some problems happen around?</text>
+	</string>
+	<string id="companion_management_dialog_bandit_19">
+		<text>Hold your jaw, if there are problems - just draw out a gun and make holes in the jerks</text>
+	</string>
+	<string id="companion_management_dialog_bandit_20">
+		<text>Hide there sayin' ya, if any problems happen - let'em get closer</text>
+	</string>
+	<string id="companion_management_dialog_bandit_21">
+		<text>Whatta you don't get it? Hide there and be quiet, and hide your fuckin' gun!</text>
+	</string>
+	<!-- COMPANION ZOMBIED -->
+	<string id="companion_release_dialog_zombied_0">
+		<text>Aaaarrrghhh... byyyeee... I'm theeere...</text>
+	</string>
+	<string id="companion_release_dialog_zombied_1">
+		<text>Gooooo...</text>
+	</string>
+	<string id="companion_hire_dialog_zombied_0">
+		<text>Gooooo... slaaain... cruuushhh...</text>
+	</string>
+	<string id="companion_hire_dialog_zombied_1">
+		<text>Gooooo...</text>
+	</string>
+	<string id="companion_hire_dialog_zombied_2">
+		<text>Nooooo... busyyy... geeee...</text>
+	</string>
+	<string id="companion_hire_dialog_zombied_3">
+		<text>Nooooo... scarrr... rryyyy...</text>
+	</string>
+	<string id="companion_hire_dialog_zombied_4">
+		<text>Geeee... looost... you'reee deaaath...</text>
+	</string>
+	<string id="companion_hire_dialog_zombied_5">
+		<text>Nooooo... sleeeep... reeeest...</text>
+	</string>
+	<string id="companion_hire_dialog_zombied_6">
+		<text>Noooo, tooo weeeeaaak</text>
+	</string>
+	<string id="companion_hire_dialog_zombied_7">
+		<text>Scaaaryyy... noooo...</text>
+	</string>
+	<string id="companion_hire_dialog_zombied_8">
+		<text>Muuuch... muuuch... noooo</text>
+	</string>
+	<string id="companion_hire_dialog_zombied_9">
+		<text>Looost... you baaaaad...</text>
+	</string>
+	<string id="companion_management_dialog_zombied_0">
+		<text>Geee! Saaayyin'...</text>
+	</string>
+	<string id="companion_management_dialog_zombied_1">
+		<text>Yyyyeee?</text>
+	</string>
+	<string id="companion_management_dialog_zombied_2">
+		<text>Gooooo...</text>
+	</string>
+	<string id="companion_management_dialog_zombied_3">
+		<text>Eneeemyyyy?</text>
+	</string>
+	<string id="companion_management_dialog_zombied_4">
+		<text>Slaaaain!!!! Cruuush!!!</text>
+	</string>
+	<string id="companion_management_dialog_zombied_5">
+		<text>Closer... closer... then slaaaain!!!</text>
+	</string>
+	<string id="companion_management_dialog_zombied_6">
+		<text>Dooont cruuush... sileeent...</text>
+	</string>
+	<string id="companion_management_dialog_zombied_7">
+		<text>Waaait... waaait...</text>
+	</string>
+	<string id="companion_management_dialog_zombied_8">
+		<text>Eneeemyyyy?</text>
+	</string>
+	<string id="companion_management_dialog_zombied_9">
+		<text>Slaaaain!!!! Cruuush!!!</text>
+	</string>
+	<string id="companion_management_dialog_zombied_10">
+		<text>Closer... closer... then slaaaain!!!</text>
+	</string>
+	<string id="companion_management_dialog_zombied_11">
+		<text>Dooont cruuush... sileeent...</text>
+	</string>
+	<string id="companion_management_dialog_zombied_12">
+		<text>Sileeent... gooooo...</text>
+	</string>
+	<string id="companion_management_dialog_zombied_13">
+		<text>Eneeemyyyy?</text>
+	</string>
+	<string id="companion_management_dialog_zombied_14">
+		<text>Slaaaain!!!! Cruuush!!!</text>
+	</string>
+	<string id="companion_management_dialog_zombied_15">
+		<text>Closer... closer... then slaaaain!!!</text>
+	</string>
+	<string id="companion_management_dialog_zombied_16">
+		<text>Dooont cruuush... sileeent...</text>
+	</string>
+	<string id="companion_management_dialog_zombied_17">
+		<text>Hiiiiide...</text>
+	</string>
+	<string id="companion_management_dialog_zombied_18">
+		<text>Eneeemyyyy?</text>
+	</string>
+	<string id="companion_management_dialog_zombied_19">
+		<text>Slaaaain!!!! Cruuush!!!</text>
+	</string>
+	<string id="companion_management_dialog_zombied_20">
+		<text>Closer... closer... then slaaaain!!!</text>
+	</string>
+	<string id="companion_management_dialog_zombied_21">
+		<text>Dooont cruuush... sileeent...</text>
+	</string>
+	<!-- GPS and PDA text -->
+	<string id="beacon_location">
+		<text>At the beacon location:</text>
+	</string>
+	<string id="beacon_lost">
+		<text>no battery. Connection lost</text>
+	</string>
+	<string id="beacon_through">
+		<text>Through</text>
+	</string>
+	<string id="beacon_change">
+		<text>need to change battery</text>
+	</string>
+	<string id="beacon_no_loot">
+		<text>No loot in stash</text>
+	</string>
+	<string id="beacon_tagged_empty">
+		<text>Tagged empty stash</text>
+	</string>
+	<string id="beacon_tagged">
+		<text>Tagged</text>
+	</string>
+	<string id="beacon_empty">
+		<text>Empty Cache</text>
+	</string>
+	<string id="beacon_total">
+		<text>with a list of wares</text>
+	</string>
+	<string id="beacon_subject">
+		<text>the subject</text>
+	</string>
+	<string id="beacon_tagged_stalker">
+		<text>Tagged by Stalker</text>
+	</string>
+	<string id="beacon_killed">
+		<text>Killed Stalker</text>
+	</string>
+	<string id="beacon_has">
+		<text>with GPS-beacon</text>
+	</string>
+	<string id="beacon_robbed">
+		<text>robbed cache!</text>
+	</string>
+	<string id="beacon_died">
+		<text>died</text>
+	</string>
+	<string id="beacon_alive">
+		<text>alive</text>
+	</string>
+	<string id="beacon_unknown">
+		<text>Unknown</text>
+	</string>
+	<string id="tb3d_x14_distress">
+		<text>Anyone... I am trapped in a lab full of Monolith... there is an entrance in the Northwest corner of NPP2 (North)\nI am hiding out behind a lab with a strange machine they seem to be protecting... please help me</text>
+	</string>
+	<string id="tb3d_cem_distress">
+		<text>ALL STALKERS... we are under attack by what look like Mercs... the old cemetery and hurry..</text>
+	</string>
+	<string id="tb3d_sms_about_storm">
+		<text>ATTENTION!... an extreme radiation storm has developed over the Northern NPP and has spread over several areas... evacuate or head underground if you are close to the NPP..</text>
+	</string>
+	<string id="tb3d_sms_storm_areas">
+		<text>ATTENTION!... areas effected so far are: NPP, Radar, Dead City, East pripyat, Recon, Generators, Black Market and the old cemetery... These areas are extremely hazardous and should be avoided at all cost!</text>
+	</string>
+	<string id="kostya_generic">
+		<text>most likely it will pay to have a look... it is there somewhere... I know what I'm talking about... trust me...</text>
+	</string>
+	<string id="kostya_tag_les">
+		<text>les</text>
+	</string>
+	<string id="kostya_tag_lager">
+		<text>lager</text>
+	</string>
+	<string id="kostya_tag_atr">
+		<text>atr</text>
+	</string>
+	<string id="kostya_af_star">
+		<text>Somewhere here in the Cordon</text>
+	</string>
+	<string id="kostya_p1_1">
+		<text>In the woods near the abandoned factory</text>
+	</string>
+	<string id="kostya_p1_2">
+		<text>Near a cross under a tree, below some tracks</text>
+	</string>
+	<string id="kostya_p1_3">
+		<text>Across from the old village, under a triangle of stones</text>
+	</string>
+	<string id="kostya_p2_1">
+		<text>Beyond the forest near a swamp</text>
+	</string>
+	<string id="kostya_p2_2">
+		<text>In the woods behind the camp, near the technology graveyard beyond a cemetery</text>
+	</string>
+	<string id="kostya_p2_3">
+		<text>On a radioactive pile, next to the parking lot full of abandoned equipment</text>
+	</string>
+	<string id="kostya_p2_4">
+		<text>On radioactive pile next to a forest</text>
+	</string>
+	<string id="kostya_p2_5">
+		<text>On a radioactive pile next to the Duty checkpoint</text>
+	</string>
+	<string id="kostya_p3_1">
+		<text>Pipes in a swamp</text>
+	</string>
+	<string id="kostya_p3_2">
+		<text>At the source of radiation to the south of the Southwestern Complex</text>
+	</string>
+	<string id="kostya_p3_3">
+		<text>Next to the transmission lines</text>
+	</string>
+	<string id="kostya_p3_4">
+		<text>In the bushes at the tushkano lair high in radiation</text>
+	</string>
+	<string id="kostya_p3_5">
+		<text>In the area of the Feral Cat dens</text>
+	</string>
+	<string id="kostya_p3_6">
+		<text>In a ravine between the complexes</text>
+	</string>
+	<string id="kostya_p4_1">
+		<text>In a room with an old broken safe</text>
+	</string>
+	<string id="kostya_p4_2">
+		<text>In a room with cumfy cells</text>
+	</string>
+	<string id="kostya_p4_3">
+		<text>In a room with a Pseudogiant</text>
+	</string>
+	<string id="kostya_p5_1">
+		<text>Under a barrel of Propane</text>
+	</string>
+	<string id="kostya_p5_2">
+		<text>In a container under some crap</text>
+	</string>
+	<string id="kostya_p5_3">
+		<text>In a soggy pipe</text>
+	</string>
+	<string id="kostya_p5_4">
+		<text>Up a tree</text>
+	</string>
+	<string id="kostya_p5_5">
+		<text>On one of the tanks</text>
+	</string>
+	<string id="kostya_p5_6">
+		<text>On a high tunnel</text>
+	</string>
+	<string id="kostya_p6_1">
+		<text>Under the tree near a helicopter</text>
+	</string>
+	<string id="kostya_p6_2">
+		<text>In the village of Bloodsuckers in a house</text>
+	</string>
+	<string id="kostya_p6_3">
+		<text>In the village of Bloodsuckers in a chimney</text>
+	</string>
+	<string id="kostya_p6_4">
+		<text>In the village of Bloodsuckers in a tree</text>
+	</string>
+	<string id="kostya_p6_5">
+		<text>In the village of Bloodsuckers on the ridge of a roof</text>
+	</string>
+	<string id="kostya_p6_6">
+		<text>An old minefield</text>
+	</string>
+	<string id="kostya_p7_1">
+		<text>Cache associated with a helicopter, is not on the ground</text>
+	</string>
+	<string id="kostya_p7_2">
+		<text>In the woods on a tree near a hole in the fence</text>
+	</string>
+	<string id="kostya_p7_3">
+		<text>In the woods on the rocks near a wagon</text>
+	</string>
+	<string id="kostya_p7_4">
+		<text>In the forest on a tree. Move southwest from the carriage, then climb the rocks...</text>
+	</string>
+	<string id="tb3d_system_msg">
+		<text>System ALERT!</text>
+	</string>
+	<string id="tb3d_bad_script_msg">
+		<text>One or more of your script files has failed to verify!</text>
+	</string>
+</string_table>

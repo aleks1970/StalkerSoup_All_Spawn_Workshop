@@ -1,0 +1,321 @@
+;;;TB3D 1.1.0.0.0.4 ZEP document spawn sections, added notes, quest item, grimwald story, zep_note_backwater1
+
+[tweed_book]:identity_immunities
+GroupControlSection = spawn_group
+$spawn    = "devices\quest_items\sak_book1"
+$prefetch   = 32
+class   = II_ATTCH
+cform				= skeleton
+visual				= equipments\item_book_01.ogf
+radius				= 1
+;script_binding		= stalker.object_init
+quest_item			= true
+description			= zep_tweed_book_desc
+inv_name			= zep_tweed_book
+inv_name_short		= zep_tweed_book
+inv_weight			= 0.05
+inv_grid_width      = 2
+inv_grid_height     = 1
+inv_grid_x			= 49
+inv_grid_y			= 64
+cost				= 0
+
+[dok_yantarold]:identity_immunities
+GroupControlSection	= spawn_group
+$spawn 				= "devices\quest_items\dok_yantarold"
+;$prefetch 			= 32
+class				= II_ATTCH
+cform				= skeleton
+visual				= amk\item_zapiska.ogf
+radius				= 1
+;script_binding		= stalker.object_init
+quest_item			= false
+description			= zep_note_rsch1
+inv_name			= zep_note_r1
+inv_name_short		= zep_note_r1
+inv_weight			= 0.01
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 6
+inv_grid_y			= 18
+cost				= 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ZEP and GOLD BARS NOTES ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[zep_note]:identity_immunities
+GroupControlSection	= spawn_group
+$spawn 				= "devices\quest_items\new_document_sniper"
+;$prefetch 			= 32
+class				= II_ATTCH
+cform				= skeleton
+visual				= amk\item_zapiska.ogf
+radius				= 1
+quest_item			= false
+description			= zep_note
+inv_name			= zep_note
+inv_name_short		= zep_note
+inv_weight			= 0.05
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 51
+inv_grid_y			= 65
+cost				= 0
+
+[zep_note_tower]:zep_note
+description			= zep_note_tower
+inv_name			= zep_note_t
+inv_name_short		= zep_note_t
+
+[zep_note_bunker]:zep_note
+description			= zep_note_bunker
+inv_name			= zep_note_jb
+inv_name_short		= zep_note_jb
+
+[zep_note_tent]:zep_note
+description			= zep_note_tent
+inv_name			= zep_note_tn
+inv_name_short		= zep_note_tn
+
+[zep_note_dist2]:zep_note
+description			= zep_note_dist2
+inv_name			= zep_note_d2
+inv_name_short		= zep_note_d2
+
+[zep_note_dist1]:zep_note
+description			= zep_note_dist1
+inv_name			= zep_note_d1
+inv_name_short		= zep_note_d1
+
+[zep_note_wh1]:zep_note
+description			= zep_note_warehouses1
+inv_name			= zep_note_wh1
+inv_name_short		= zep_note_wh1
+
+[zep_note_npp1]:zep_note
+description			= zep_note_npp1
+inv_name			= zep_note_np1
+inv_name_short		= zep_note_np1
+
+[zep_note_npp2]:zep_note
+description			= zep_note_npp2
+inv_name			= zep_note_np2
+inv_name_short		= zep_note_np2
+
+[zep_note_rs2]:zep_note
+description			= zep_note_resrch2
+inv_name			= zep_note_rs2
+inv_name_short		= zep_note_rs2
+
+[zep_note_rad1]:zep_note
+description			= zep_note_rad1
+inv_name			= zep_note_rdr1
+inv_name_short		= zep_note_rdr1
+
+[zep_note_src1]:zep_note
+description			= zep_note_sarc1
+inv_name			= zep_note_src1
+inv_name_short		= zep_note_src1
+
+[zep_note_deadm1]:zep_note
+description			= zep_note_deadm1
+inv_name			= zep_note_dm1
+inv_name_short		= zep_note_dm1
+
+[zep_note_deadm2]:zep_note
+description			= zep_note_deadm2
+inv_name			= zep_note_dm2
+inv_name_short		= zep_note_dm2
+
+[zep_note_suicide1]:zep_note
+description			= zep_note_suic1
+inv_name			= zep_note_sui1
+inv_name_short		= zep_note_sui1
+
+[zep_note_oldlab1]:zep_note
+description			= zep_note_oldlab1
+inv_name			= zep_note_olb1
+inv_name_short		= zep_note_olb1
+
+[zep_note_dcity1]:zep_note
+description			= zep_note_dcity1
+inv_name			= zep_note_dc1
+inv_name_short		= zep_note_dc1
+
+[zep_note_dcity2]:zep_note
+description			= zep_note_dcity2
+inv_name			= zep_note_dc2
+inv_name_short		= zep_note_dc2
+
+[zep_note_dcity3]:zep_note
+description			= zep_note_dcity3
+inv_name			= zep_note_dc3
+inv_name_short		= zep_note_dc3
+
+[zep_note_tech1]:zep_note
+description			= zep_note_tech1
+inv_name			= zep_note_tch1
+inv_name_short		= zep_note_tch1
+
+[zep_note_wait1]:zep_note
+description			= zep_note_wait1
+inv_name			= zep_note_wtg1
+inv_name_short		= zep_note_wtg1
+
+[zep_note_wait2]:zep_note
+description			= zep_note_wait2
+inv_name			= zep_note_wtg2
+inv_name_short		= zep_note_wtg2
+
+[zep_note_broke1]:zep_note
+description			= zep_note_broke1
+inv_name			= zep_note_brk1
+inv_name_short		= zep_note_brk1
+
+[zep_note_swamp]:zep_note
+description			= zep_note_swamp
+inv_name			= zep_note_swmp
+inv_name_short		= zep_note_swmp
+
+[zep_evac_order]:zep_note
+description			= zep_evac_order
+inv_name			= zep_evac_ordr
+inv_name_short		= zep_evac_ordr
+
+[zep_note_wlab1]:zep_note
+description			= zep_note_wlab1
+inv_name			= zep_note_wlb1
+inv_name_short		= zep_note_wlb1
+
+[zep_note_cem2]:zep_note
+description			= zep_note_cem2
+inv_name			= zep_note_cm2
+inv_name_short		= zep_note_cm2
+
+[zep_note_tunnels]:zep_note
+description			= zep_note_tunnels
+inv_name			= zep_note_tnls
+inv_name_short		= zep_note_tnls
+
+[zep_note_tunnels2]:zep_note
+description			= zep_note_tunnels2
+inv_name			= zep_note_tnls2
+inv_name_short		= zep_note_tnls2
+
+[zep_note_rs3]:zep_note
+description			= zep_note_rsch3
+inv_name			= zep_note_rs3
+inv_name_short		= zep_note_rs3
+
+[zep_note_treasure_1]:zep_note
+description			= zep_note_trshr1
+inv_name			= zep_note_trs1
+inv_name_short		= zep_note_trs1
+
+[hunt_doc_jupu]:zep_note
+description       = hunt_doc_jupu
+inv_name			= hunt_doc_j
+inv_name_short		= hunt_doc_j
+
+[zep_note_gen_grimwald]:zep_note
+description       = zep_note_grimwald
+inv_name			= zep_note_grim
+inv_name_short		= zep_note_grim
+
+[zep_note_backwater1]:zep_note
+description       = zep_note_backwater1
+inv_name			= zep_note_back1
+inv_name_short		= zep_note_back1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ZEP DOCUMENTS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[zep_doc]:identity_immunities
+GroupControlSection	= spawn_group
+$spawn 				= "devices\quest_items\new_document_sniper"
+;$prefetch 			= 32
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\documents_3.ogf
+radius				= 1
+quest_item			= true
+description			= zep_doc
+inv_name			= zep_doc
+inv_name_short		= zep_doc
+inv_weight			= 0.05
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 49
+inv_grid_y			= 66
+cost				= 0
+
+[zep_doc_0]:zep_doc
+description       = zep_doc_0
+
+[zep_doc_1]:zep_doc
+description       = zep_doc_1
+
+[zep_doc_2]:zep_doc
+description       = zep_doc_2
+
+[zep_doc_3]:zep_doc
+description       = zep_doc_3
+
+[zep_doc_4]:zep_doc
+description       = zep_doc_4
+
+[zep_doc_5]:zep_doc
+description       = zep_doc_5
+
+[zep_doc_6]:zep_doc
+description       = zep_doc_6
+
+[zep_doc_7]:zep_doc
+description       = zep_doc_7
+
+[zep_doc_8]:zep_doc
+description       = zep_doc_8
+
+[zep_doc_9]:zep_doc
+description       = zep_doc_9
+
+[zep_doc_10]:zep_doc
+description       = zep_doc_10
+
+[zep_doc_11]:zep_doc
+description       = zep_doc_11
+
+[zep_doc_12]:zep_doc
+description       = zep_doc_12
+
+[zep_doc_13]:zep_doc
+description       = zep_doc_13
+
+[zep_doc_14]:zep_doc
+description       = zep_doc_14
+
+[zep_doc_15]:zep_doc
+description       = zep_doc_15
+
+[zep_doc_16]:zep_doc
+description       = zep_doc_16
+
+[zep_doc_17]:zep_doc
+description       = zep_doc_17
+
+[zep_doc_18]:zep_doc
+description       = zep_doc_18
+
+[zep_doc_19]:zep_doc
+description       = zep_doc_19
+
+[zep_doc_20]:zep_doc
+description       = zep_doc_20
+
+[zep_doc_21]:zep_doc
+description       = zep_doc_21
+
+[zep_doc_22]:zep_doc
+description       = zep_doc_22
+
+[zep_doc_23]:zep_doc
+description       = zep_doc_23
+
+[zep_doc_24]:zep_doc
+description       = zep_doc_24

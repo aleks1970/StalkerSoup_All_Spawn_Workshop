@@ -1,0 +1,82 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+
+; Штурмовая винтовка ФН2000 "Палач" с комьютеризированым прицелом
+[wpn_fn2000_sniper]:wpn_fn2000
+$spawn				= "weapons\fn-2000_snip"
+description			= enc_weapons1_wpn-fn2000_sniper
+inv_name			= wpn-fn2000_sniper
+inv_name_short		= wpn-fn2000_sniper
+class				= WP_BINOC
+ammo_class			= ammo_7.62x54_7h1, ammo_7.62x54_7h14, ammo_7.62x54_ap, ammo_7.62x54_izomorf, ammo_7.62x54r
+holder_range_modifier = 2.2
+inv_weight			= 4.2
+fire_point			= -0.01,0.21,0.44
+hud				    = wpn_fn2000_sniper_hud
+position			= 0.0, -0.134, -0.01
+visual				= weapons\fn2000\wpn_fn2000_snip.ogf
+inv_grid_width		= 5
+inv_grid_height		= 2
+inv_grid_x			= 20
+inv_grid_y			= 34
+cost				= 35000
+
+hit_rate	            = 1.97
+fire_distance           = 600			;;;109974 10:1
+bullet_speed			= 910
+rpm                     = 700
+
+fire_dispersion_base	= 0.006	
+silencer_x			    = 214	
+silencer_y			    = 12
+
+scope_texture			= wpn\wpn_crosshair_fn2000-comp
+scope_zoom_factor		= 11.25
+
+snd_gyro			= characters_voice\human_01\bandit\no_music\no_sound_1
+snd_zoomin			= weapons\arm_binoc\arm_binoculars_pnv_on
+snd_zoomout			= weapons\arm_binoc\arm_binoculars_pnv_off
+snd_close			= weapons\generic_close
+snd_holster			= weapons\rifle_holster
+snd_reload			= weapons\fn2000\fn2000_reload, 0.8, 0.3
+
+vision_present		= true
+vis_frame_speed		= 4			            ; скорость, с которой наводится рамка на цель
+vis_frame_color		= 0.7,0.7,0.7,1.0	    ; цвет рамки RGBA (A) Не учитывается
+found_snd			= detectors\DA-2_beep1
+
+[wpn_fn2000_sniper_hud]:wpn_fn2000_hud
+fire_point			= 0.0,0.0,-0.07
+visual				= weapons\fn2000\wpn_fn2000_snip_hud.ogf
+
+anim_idle_g			    =
+anim_idle_g_aim			=
+anim_reload_g			=
+anim_shoot_g			=
+anim_switch_grenade_on	=
+anim_switch_grenade_off	=
+anim_draw_g			    =
+anim_holster_g			=
+
+anim_idle_gl			=
+anim_idle_gl_aim		=
+anim_reload_gl			=
+anim_draw_gl			=
+anim_holster_gl			=
+anim_shoot_gl			=
+
+shell_point			= 0.110000,-0.060000,0.010000
+shell_dir			= 0.0, 1.0, 0.0
+fire_bone			= wpn_body
+position			= 0, 0, 0
+anim_idle_aim		= idle
+
+zoom_offset			= -0.191000,0.011500,-0.225000
+zoom_rotate_x		= -0.060000
+zoom_rotate_y		= 0.040000
+
+grenade_zoom_offset		= -0.1162,-0.145, 0
+grenade_zoom_rotate_x	= -0.203700
+grenade_zoom_rotate_y	= 0.035000
+
+zoom_rotate_time	= 0.4
+rotate_time			= 0.4

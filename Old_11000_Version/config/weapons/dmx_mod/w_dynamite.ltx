@@ -1,0 +1,100 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[w_dynamite]:identity_immunities
+grenade_remove_time		= 60000
+detonation_threshold_hit= 200
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 					= "weapons\w_dynamite"
+$prefetch				= 128
+class					= G_F1
+cform					= skeleton
+visual					= weapons\dynamite\wpn_dynamite.ogf
+inv_name				= w_dynamite
+inv_name_short			= w_dynamite
+inv_weight				= 0.2
+description				= enc_weapons1_dynamite
+ef_weapon_type			= 10
+
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 6		
+inv_grid_y				= 64		
+
+kill_msg_x				= 1
+kill_msg_y				= 232
+kill_msg_width			= 13
+kill_msg_height			= 23
+
+animation_slot			= 7
+single_handed			= 1
+
+slot					= 3
+hud						= w_dynamite_hud
+force_min				= 10	
+force_const				= 25;20
+force_max				= 30
+force_grow_speed		= 15
+
+destroy_time			= 2500
+cost					= 340
+;-----------------------------------------------------------------------------------
+blast					= 2.00
+blast_r					= 8
+blast_impulse			= 350
+blast_impulse_factor	 = 1
+
+frags					= 200
+frags_r					= 100
+frag_hit				= 1.50
+frag_hit_impulse		= 240
+
+hit_type_blast			= explosion
+hit_type_frag			= fire_wound
+up_throw_factor			= 1.2
+;-----------------------------------------------------------------------------------
+explode_particles		 = amik\explosion\explosion_f1
+
+light_color		         = 1.9,1.4,0.5
+light_range		         = 25.0
+light_time 		         = 0.85
+
+;трассы от осколков
+fragment_speed				= 50
+explode_duration			= 3		;подолжительность взрыва (с)
+
+;звуки
+snd_explode  = weapons\mine_1
+snd_checkout = characters_voice\human_01\bandit\no_music\no_sound_1
+
+attach_position_offset	= -0.053,-0.089,0.0
+attach_angle_offset		= 0,0,0
+attach_bone_name		= 
+
+bone_name				= bip01_r_hand
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+throw_point				 = 0,0.3,0.2
+throw_dir				 = 0,0,1
+wm_size                  = 0.1
+wallmark_section		 =explosion_marks
+
+[w_dynamite_hud]
+fire_point          = 0.05, 0.0, 0.1
+fire_bone           = joint01
+orientation         = 0,0,0
+position            = 0,0,0
+visual              = weapons\dynamite\wpn_dynamite_hud.ogf
+
+throw_point			= 0,0.4,0.3
+throw_dir			= 0,0,0
+
+anim_show			= draw3
+anim_hide			= holster_0
+anim_idle			= idle_0
+anim_playing		= idle_01
+anim_throw_begin	= attack_0_begin
+anim_throw_idle		= attack_0_idle
+anim_throw_act		= attack_0_act	
+anim_throw_end		= attack_0_end

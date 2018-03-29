@@ -1,0 +1,122 @@
+;<!-- TB3D 1.1.0.0.0.5  adjusted sound perceptions, added cat and tush, snork, adj army perc., tweaks, monster sound perceptions, foto-->
+
+[stalker_vision_free]
+min_view_distance 			= 0.2				; fov cone minimum based on eye_range
+max_view_distance 			= 0.8				; fov cone maximum based on eye_range
+visibility_threshold	 	= 20.0				; rate of change in visibility
+always_visible_distance 	= 0.2
+time_quant					= 0.005
+decrease_value				= 0.1
+velocity_factor		     	= 1.0
+luminocity_factor			= 0.8				; how visible you are at night, lower = more visible
+transparency_threshold	 	= 0.75				; how difficult it is to see you THROUGH transparent objects, 0=transparent, 1=solid
+
+[stalker_vision_danger]
+min_view_distance   		= 0.1
+max_view_distance	 		= 1.0
+visibility_threshold	 	= 20.0
+always_visible_distance 	= 0.2
+time_quant					= 0.001
+decrease_value				= 0.1
+velocity_factor		     	= 1.0
+luminocity_factor			= 0.6
+transparency_threshold	 	= 0.75
+
+[bandit_vision_free]:stalker_vision_free
+;max_view_distance			= 0.8
+;visibility_threshold    	= 0.01
+
+[bandit_vision_danger]:stalker_vision_danger
+;max_view_distance			= 1.0
+;visibility_threshold    	= 0.0
+
+[soldier_vision_free]:stalker_vision_free
+;max_view_distance			= 1.0 
+;visibility_threshold    	= 0.0
+
+[soldier_vision_danger]:stalker_vision_danger
+;max_view_distance			= 1.0
+;visibility_threshold    	= 0.0
+
+[sniper_vision_free]:stalker_vision_free
+max_view_distance			= 1.0
+visibility_threshold    	= 0.0
+
+[sniper_vision_danger]:stalker_vision_danger
+max_view_distance			= 1.0
+visibility_threshold    	= 0.0
+
+[stalker_zombied_vision_free]:stalker_vision_free
+min_view_distance   		= 0.3
+max_view_distance	 		= 0.7
+time_quant					= 0.01
+velocity_factor		     	= 0.5
+luminocity_factor			= 0.6
+
+[stalker_zombied_vision_danger]:stalker_vision_danger
+time_quant					= 0.005
+velocity_factor		     	= 0.5
+
+;======= Sound Sensetivity Multiplier
+;======= these values are combined and weighted to acheive min background noise
+;======= determines detection and distinctness of direction
+[stalker_sound_perceive]
+weapon        = 1.0 ;includes reloading and holstering
+item          = 0.8 ;need to be pretty close to be heard
+npc           = 0.66 ;normal for footsteps
+anomaly       = 0.12 ;need to test this more
+world         = 0.23 ;enough to interfere with distant sounds, especially direction
+
+[bandit_sound_perceive]:stalker_sound_perceive
+
+[army_sound_perceive]:stalker_sound_perceive
+weapon        	= 1.2 ;a little better hearing
+
+[soldier_sound_perceive]:army_sound_perceive
+weapon        	= 1.25 ;a little better hearing
+
+[specnaz_sound_perceive]:army_sound_perceive
+weapon        	= 1.3 ;even better hearing
+item          = 0.83
+npc           = 0.67
+
+[sniper_sound_perceive]:specnaz_sound_perceive
+weapon        = 1.4 ;best hearing
+item          = 0.86
+npc           = 0.68
+
+[ldk_sound_perceive]:sniper_sound_perceive
+
+[foto_sound_perceive]:stalker_sound_perceive
+weapon        = 0
+item          = 0
+npc           = 0
+
+[zombie_sound_perceive]:stalker_sound_perceive
+anomaly       = 0.6
+
+[monster_sound_perceive]
+weapon        = 4.0
+item          = 0.5
+npc           = 0.5
+anomaly       = 0.25
+world         = 0.15
+
+[dog_sound_perceive]:monster_sound_perceive
+weapon        = 6.0
+item          = 1.0
+npc           = 0.9
+world         = 0.4
+
+[cat_sound_perceive]:dog_sound_perceive
+npc           = 1.0
+
+[tush_sound_perceive]:monster_sound_perceive
+weapon        = 2.0
+item          = 0.7
+npc           = 0.7
+
+[snork_sound_perceive]:monster_sound_perceive
+weapon        = 3.0
+item          = 0.6
+npc           = 0.8

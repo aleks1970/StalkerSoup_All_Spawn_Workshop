@@ -1,0 +1,161 @@
+<!-- TB3D 1.1.0.0.0.4 Sealside and TB edits June 18, 2012, removed "string_table" - aleks1970 -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 21 Mar 16 -->
+	<string id="rad_chief_start_dialog_0">
+		<text>Hi...</text>
+	</string>
+	<string id="rad_chief_start_dialog_100">
+		<text>Greetings!</text>
+	</string>
+	<string id="rad_find_deputy_dialog_1_0">
+		<text>Where's the payment for the job I did?</text>
+	</string>
+	<string id="rad_find_deputy_dialog_1_100">
+		<text>Go and see my assistant. He's got it...</text>
+	</string>
+	<string id="rad_find_deputy_dialog_1_1000">
+		<text>Okay. But no tricks this time...</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_1_0">
+		<text>Who are you?</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_1_10">
+		<text>Leha the Jaw they call me! And these tramps - my brigade!</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_1_100">
+		<text>What are you and your people doing here?</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_1_20">
+	<!-- Sealside word changes -->
+		<text>My children and I are taking a rest here. Then we're going on to Pripyat...</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_2_0">
+		<text>What do you know about Pripyat?</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_2_10">
+	<!-- Sealside rewrite -->
+		<text>I know it's an old, abandoned city from the epoch of communism.\nNow it's just crowded with Monolithians and mutants. Those who have gone before me did not return. Not one...</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_2_100">
+	<!-- Sealside rewrite -->
+		<text>Don't you think it rather dangerous to go there, then?</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_2_20">
+	<!-- Sealside rewrite-->
+		<text>There's no doubt about that. You're right. But I'm sure it's worth trying</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_3_0">
+	<!-- Sealside minor -->
+		<text>Did you see any military nearby?</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_3_10">
+	<!-- Sealside rewrite -->
+		<text>No, fortunately. It's been quite a while since they showed up here</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_3_100">
+	<!-- Sealside rewrite-->
+		<text>Not even Military Stalkers?</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_3_20">
+	<!-- Sealside major rewrite -->
+		<text>I heard some of them appeared in the region of Radar, near the antennas. Once they were shut down, many people started traveling to Radar, and further beyond to Pripyat! But we haven't met anyone else coming from the Warehouses since we arrived. Quite likely, someone has blocked the road to here</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_3_200">
+	<!-- Sealside rewrite... i pretty much rewrite everything here, i won't set a rewrite note in from anymore; expect everything to be written entirly new. -->
+		<text>Blocked? By whom, do you think? The Military?</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_3_30">
+		<text>As I said, the Military haven't shown up for a long time, so it could've been the Military Stalkers. They're tough bastards, those guys, and they work together as a team. I'm surprised they didn't block the road earlier...</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_3_300">
+		<text>Wouldn't it be more practical for them to go ahead to Pripyat, and simply block the entrance there?</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_3_40">
+		<text>I don't know. Maybe they're afraid, or they're preparing for something. It's pointless trying to second-guess them</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_4_0">
+		<text>Okay. Well, do you have a task for me?</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_4_10">
+		<text>Well, there is one. But it's not easy. Are you still interested?</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_4_100">
+		<text>Sure. I'm not afraid of hard work...</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_4_101">
+		<text>Actually, I was hoping for something quick. Sorry, you're better finding somebody else...</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_4_11">
+		<text>I understand. I don't mind admitting I'm afraid of doing the job myself, and I'd rather pay someone else than risk the lives of my people. What a pity...</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_4_20">
+	<!-- Sealside major rewrite all the way down...-->
+		<text>Excellent! So, here's your task. My scouts, Loma and Log, were sent to Pripyat to check how bad the situation really is there, but they didn't return. Try to find them alive, and bring them back safely. If this isn't possible, at least bring their guns back. They were good ones, and we need them here! I'll give you 2,000 if you do this for me</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_4_200">
+		<text>Sounds fair. I'll bring your men back. Or their weapons...</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_4_201">
+		<text>2,000 for Pripyat? You can't be serious. The job's got to be worth at least 4,000...</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_4_21">
+		<text>I'm sorry, Stalker. 2,000 is all I can offer...</text>
+	</string>
+	<string id="rad_find_stalkers_dialog_4_30">
+		<text>Excellent. I'll wait here for you!</text>
+	</string>
+	<string id="rad_found_deputy_dialog_1_0">
+		<text>This is Marked One reporting. The task is done</text>
+	</string>
+	<string id="rad_found_deputy_dialog_1_100">
+		<text>Perfect! Give me his PDA!</text>
+	</string>
+	<string id="rad_found_deputy_dialog_1_1000">
+		<text>Hold on, friend. First show me the money</text>
+	</string>
+	<!-- Sealside note: the original text did not make any sense. tried to make the best of it, though it could be wrong in the context -->
+	<!-- I agree with Sealside, although I've tried to put it into some kind of contigious context. Sword2012 - 20 Mar 16-->
+	<string id="rad_found_deputy_dialog_1_1100">
+		<text>Bastard. He doesn't have anything on him!</text>
+	</string>
+	<string id="rad_found_deputy_dialog_1_1200">
+		<text>Fuck this, and stop messing me about. Unless you're challenging me?</text>
+	</string>
+	<string id="rad_found_deputy_dialog_1_1300">
+		<text>It'd be simpler just to kill you...</text>
+	</string>
+	<string id="rad_found_deputy_dialog_1_1400">
+		<text>Okay, I understand. Good luck, then...</text>
+	</string>
+	<string id="rad_found_deputy_dialog_1_200">
+		<text>I can't give you anything. There's no money left. But if you want, you can have his stuff...</text>
+	</string>
+	<string id="rad_found_deputy_dialog_1_300">
+		<text>Thanks, but I have no interest in his stuff. Never mind. Consider it a gift...</text>
+	</string>
+	<string id="rad_found_deputy_dialog_2_0">
+		<text>I've not found him yet...</text>
+	</string>
+	<string id="rad_found_deputy_dialog_2_10">
+		<text>Well, better hurry up if you want your money, Stalker...</text>
+	</string>
+	<string id="rad_found_stalkers_dialog_1_0">
+		<text>I found your men, but they were dead. I can't tell what killed them - I had to pry them out of a chimera's claws. Their weapons seem to be intact. Here they are...</text>
+	</string>
+	<string id="rad_found_stalkers_dialog_1_100">
+		<text>Shit. Those were my best men. Now with them gone, I think there's no sense in going to Pripyat. I don't want to lead my men on a suicide mission! There's one problem, though. I cannot pay you for the job. My assistant ran away with all our money. Please understand, Marked One</text>
+	</string>
+	<string id="rad_found_stalkers_dialog_1_1001">
+		<text>Don't worry, I'll find him! Tell me where he went. And don't try to cheat me. You're a lot closer to me than he is...</text>
+	</string>
+	<string id="rad_found_stalkers_dialog_1_200">
+		<text>I don't think he could have got far. I'll note it on the map - here. If you find him, bring him back to us, and we'll 'take care' of him. Although if he were to have an 'accident' on the way, his PDA would be enough. Understand?</text>
+	</string>
+	<string id="rad_found_stalkers_dialog_1_2000">
+		<text>Wait here for me. I'll bring your PDA...</text>
+	</string>
+	<string id="rad_found_stalkers_dialog_2_0">
+		<text>No luck yet...</text>
+	</string>
+	<string id="rad_found_stalkers_dialog_2_10">
+		<text>Well, look harder! I can't wait here forever...</text>
+	</string>

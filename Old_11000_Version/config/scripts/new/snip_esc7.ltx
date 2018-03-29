@@ -1,0 +1,17 @@
+[smart_terrains]
+none = true
+
+[logic]
+active=camper
+on_death = death@snip7
+
+[camper]
+sniper = true
+def_state_campering = threat_na
+radius = 50
+path_walk = snip_esc7_walk
+path_look = snip_esc7_look
+
+[death@snip7]
+on_info = %+snip_esc7_dead%
+

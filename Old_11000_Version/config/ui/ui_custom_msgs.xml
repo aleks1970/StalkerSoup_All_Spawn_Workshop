@@ -1,0 +1,625 @@
+<!-- ************ TB3D 1.1.0.0.1.6  HUD for STALKERSOUP NS DMX135  NRML SCRN, compass and delta, btr, adj timer, new HUD's aleks1970, hud_show_enemy, hud_show_delta, new weight icons - aleks1970 *************** -->
+<header>
+	<hud_coord x="0" y="15" width="1024" height="128">
+		<text x="0" y="0" font="graffiti19" r="238" g="238" b="23" a="255" align="r" complex_mode="1"/>
+	</hud_coord>
+	<!-- ************************** targeting ******************************** -->
+	<hud_target1 x="0" y="0" width="64" height="64" stretch="1">
+		<texture>amk\targetpointer</texture>
+		<text x="0" y="-5" width="200" font="arial_14" r="50" g="200" b="50" a="255" align="r" complex_mode="1"/>
+	</hud_target1>
+	<target_dot_1 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_2 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_3 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_4 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_5 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_6 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_7 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_8 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_9 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_10 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_11 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_12 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_13 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_14 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_15 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_16 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_17 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_18 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_19 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_20 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_21 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_22 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_23 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_24 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_25 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_26 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_27 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_28 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_29 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_30 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_31 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_32 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_33 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_34 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_35 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_36 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_37 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_38 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_39 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_40 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_41 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_42 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_43 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_44 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_45 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_46 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_47 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_48 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_49 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_50 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_51 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_52 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_53 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_54 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_55 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_56 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_57 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_58 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_59 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_60 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_61 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_62 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_63 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_64 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_65 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_66 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_67 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_68 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_69 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_70 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_71 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_72 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_73 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_74 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_75 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_76 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_77 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_78 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_79 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_80 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_81 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_82 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_83 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_84 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_85 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_86 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_87 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_88 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_89 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_90 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_91 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_92 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_93 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_94 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_95 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_96 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_97 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_98 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_99 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_100 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	<target_dot_101 x="-10" y="-10" width="3" height="3" stretch="1"/>
+	
+	<!-- ************** BIOMAP !!!!TB3D made local textures in hud map ***************** -->
+	<biomap_mess x="0" y="0" width="288" height="256" stretch="1">
+		<texture>ui\mess</texture>
+	</biomap_mess>
+	<!-- ************************** targeting ************************* -->
+	<hud_target2 x="0" y="0" width="64" height="64" stretch="1">
+		<texture>amk\targetpointer</texture>
+		<text x="0" y="-5" width="200" font="arial_14" r="50" g="200" b="50" a="255" align="r" complex_mode="1"/>
+	</hud_target2>
+	<hud_target3 x="0" y="0" width="64" height="64" stretch="1">
+		<texture>amk\targetpointer</texture>
+		<text x="0" y="-5" width="200" font="arial_14" r="50" g="200" b="50" a="255" align="r" complex_mode="1"/>
+	</hud_target3>
+	<hud_target4 x="0" y="0" width="64" height="64" stretch="1">
+		<texture>amk\targetpointer</texture>
+		<text x="0" y="-5" width="200" font="arial_14" r="50" g="200" b="50" a="255" align="r" complex_mode="1"/>
+	</hud_target4>
+	<!-- ************** BIOMAP !!!!TB3D made local textures in hud map ******************** -->
+	<biomap x="0" y="0" width="256" height="256" stretch="1">
+		<texture x="1792" y="0" width="256" height="256">ui\ui_hud</texture>
+	</biomap>
+	<biomap_sweep x="0" y="0" width="256" height="256" stretch="1">
+		<texture x="1792" y="264" width="256" height="256">ui\ui_hud</texture>
+	</biomap_sweep>
+	<!-- ********************************************************************************
+Selected timers such as the Chernobyl nuclear power plant, top center
+****************************************************************************************** -->
+	<!-- *****************  mid top - so not to collide with bioradar ******************** -->
+	<hud_timer x="436" y="20" width="157" height="67">
+		<text x="-15" y="23" font="graffiti32" r="238" g="155" b="23" a="255" align="r"/>
+		<texture>ui_hud_frame_clock</texture>
+	</hud_timer>
+	<!-- *************** CAM UNDER THE TEXT OF TIMER  *************** -->
+	<hud_timer_text x="436" y="85" width="157" height="67" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<text x="0" y="0" font="graffiti22" r="250" g="0" b="0" a="255" align="c"/>
+	</hud_timer_text>
+	
+	<hud_time_static x="0" y="0" width="156" height="52">
+		<text complex_mode="0" x="65" y="0" font="letterica16" r="40" g="255" b="255" a="255"/>
+	</hud_time_static>
+	
+	<sleep_001 x="20" y="20" width="984" height="728">
+		<texture x="0" y="0" width="984" height="728">car\trabantnoise</texture>
+	</sleep_001>
+	<controller_fx x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>act\act_controller_hit</texture>
+	</controller_fx>
+	<controller_fx2 x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>act\act_controller_hit1</texture>
+	</controller_fx2>
+	<monster_claws x="512" y="150" width="512" height="512" alignment="c" stretch="1" heading="1" light_anim="monster_claws" la_alpha="1" la_cyclic="0">
+		<texture>controller\controller_blood_01</texture>
+	</monster_claws>
+	<main_task x="400" y="120" width="600" height="60" complex_mode="1">
+		<text font="graffiti32" r="240" g="217" b="182" a="255" align="c"/>
+	</main_task>
+	<cs_psy_danger x="200" y="10" width="600" height="50" complex_mode="1">
+		<text font="graffiti22" r="240" g="217" b="182" a="255" align="c"/>
+	</cs_psy_danger>
+	<cs_radiation_danger x="200" y="60" width="600" height="50" complex_mode="1">
+		<text font="graffiti22" r="240" g="217" b="182" a="255" align="c"/>
+	</cs_radiation_danger>
+	<game_saved x="100" y="730" width="800" height="30">
+		<text font="graffiti22" r="200" g="200" b="255" a="255" align="c"/>
+	</game_saved>
+	<autosave x="100" y="700" width="800" height="30">
+		<text font="graffiti22" r="200" g="200" b="255" a="255" align="c">st_autosave</text>
+	</autosave>
+	<item_used x="100" y="730" width="800" height="30">
+		<text font="graffiti22" r="255" g="200" b="200" a="255" align="c"/>
+	</item_used>
+	<gun_jammed x="200" y="70" width="600" height="50" ttl="3">
+		<text font="graffiti32" r="255" g="117" b="182" a="255" align="c">gun_jammed</text>
+	</gun_jammed>
+	<cant_walk x="200" y="650" width="600" height="30" ttl="3">
+		<text font="graffiti22" r="240" g="217" b="182" a="255" align="c">cant_walk</text>
+	</cant_walk>
+	<cant_walk_weight x="20" y="650" width="600" height="30" ttl="3">
+		<text font="graffiti22" r="240" g="217" b="182" a="255" align="c">cant_walk_weight</text>
+	</cant_walk_weight>
+	<not_enough_money_mine x="100" y="100" width="800" height="60">
+		<text font="graffiti32" r="240" g="217" b="182" a="255" align="c">st_not_enough_money</text>
+	</not_enough_money_mine>
+	<not_enough_money_other x="100" y="100" width="800" height="60">
+		<text font="graffiti32" r="240" g="217" b="182" a="255" align="c">st_not_enough_money_npc</text>
+	</not_enough_money_other>
+	<!-- ************************** warning indicators *************************** -->
+	<hud_save_warning x="256" y="200" width="512" height="200" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<text x="0" y="0" font="graffiti22" r="255" g="0" b="0" a="255" align="c" complex_mode="1"/>
+	</hud_save_warning>
+	<hud_rad_back x="0" y="0" width="1" height="1" stretch="1" complex_mode="1" la_cyclic="1" la_texture="1" la_alpha="1">
+		<texture/>
+	</hud_rad_back>
+	<hud_rad_level x="0" y="0" width="1" height="1" stretch="1" complex_mode="1" la_cyclic="1" la_texture="1" la_alpha="1">
+		<texture/>
+	</hud_rad_level>
+	<!-- *************** HUD TIME  *************** -->
+	<hud_show_time x="014" y="010" width="156" height="52">
+		<text x="0" y="0" font="letterica16" r="0" g="255" b="255" a="255" align="l"/>
+	</hud_show_time>
+	<hud_show_compass x="082" y="010" width="52" height="52">
+		<text x="0" y="0" font="letterica16" r="0" g="255" b="255" a="255" align="l"/>
+	</hud_show_compass>
+	<hud_show_delta x="120" y="010" width="52" height="52">
+		<text x="0" y="0" font="letterica16" r="0" g="255" b="255" a="255" align="l"/>
+	</hud_show_delta>
+	<hud_show_enemy x="140" y="140" width="30" height="52">
+		<text x="0" y="0" font="letterica16" r="255" g="0" b="0" a="255" align="l"/>
+	</hud_show_enemy>
+	<cs_demo_play x="140" y="685" width="600" height="50" complex_mode="1" stretch="1" light_anim="" la_cyclic="1" la_texture="1" la_alpha="1">
+		<text font="letterica18" r="240" g="217" b="182" a="255" align="l"/>
+	</cs_demo_play>
+	<!-- ************************** INV and MASKS ****************************** -->
+	<helmet_hud_static x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>hud\gazmask</texture>
+	</helmet_hud_static>
+	<hud_mask x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>hud\mask</texture>
+	</hud_mask>
+	<!-- ************************** WEIGHT ICONS ****************************** -->
+	<inv_weight_static_green x="965" y="470" width="32" height="32" stretch="1">
+		<texture x="1249" y="650" width="38" height="38">ui\ui_common</texture>
+	</inv_weight_static_green>
+	<inv_weight_static_yellow x="965" y="470" width="32" height="32" stretch="1">
+		<texture x="1153" y="210" width="38" height="38">ui\ui_common</texture>
+	</inv_weight_static_yellow>
+	<inv_weight_static_orange x="965" y="470" width="32" height="32" stretch="1">
+		<texture x="1153" y="251" width="38" height="38">ui\ui_common</texture>
+	</inv_weight_static_orange>
+	<inv_weight_static_red x="965" y="470" width="32" height="32" stretch="1">
+		<texture x="1153" y="293" width="38" height="38">ui\ui_common</texture>
+	</inv_weight_static_red>
+	<inv_weight_static x="965" y="470" width="38" height="38" stretch="1">
+		<texture x="1153" y="293" width="38" height="38">ui\ui_common</texture>
+	</inv_weight_static>
+	<!-- ************************* Dynamic HUD ************************* -->
+	<hud_blood1 x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>abc\blood1</texture>
+	</hud_blood1>
+	<hud_blood2 x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>abc\blood2</texture>
+	</hud_blood2>
+	<hud_blood3 x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>abc\blood3</texture>
+	</hud_blood3>
+	<hud_blood4 x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>abc\blood4</texture>
+	</hud_blood4>
+	<hud_blood5 x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>abc\blood5</texture>
+	</hud_blood5>
+	<!-- *********************** AMK ADDAPTATION *********************** -->
+	<hud_blur1 x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>amk\breath1</texture>
+	</hud_blur1>
+	<hud_blur2 x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>amk\breath2</texture>
+	</hud_blur2>
+	<hud_blur3 x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>amk\breath5</texture>
+	</hud_blur3>
+	<hud_blur4 x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>amk\breath3</texture>
+	</hud_blur4>
+	<hud_blur5 x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>amk\breath4</texture>
+	</hud_blur5>
+	<hud_gaz x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>amk\hud_gaz</texture>
+	</hud_gaz>
+	<hud_merc x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>amk\hud_merc</texture>
+	</hud_merc>
+	<hud_sci x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>amk\hud_sci</texture>
+	</hud_sci>
+	<hud_military x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>amk\hud_military</texture>
+	</hud_military>
+	<hud_exo x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>amk\hud_exo</texture>
+	</hud_exo>
+	<!-- *********************** Nano outfit Hud ********************** -->
+	<hud_nano_blue x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_nano1</texture>
+	</hud_nano_blue>
+	<hud_nano_green x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_nano2</texture>
+	</hud_nano_green>
+	<hud_nano_yellow x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_nano3</texture>
+	</hud_nano_yellow>
+	<hud_nano_red x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_nano4</texture>
+	</hud_nano_red>
+	<hud_nano_red2 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_nano5</texture>
+	</hud_nano_red2>
+	<hud_nano_red3 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_nano6</texture>
+	</hud_nano_red3>
+	<!-- *********************** nano_addw outfit Hud ********************** -->
+	<hud_nano_addw_blue x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\hud_gazmask1</texture>
+	</hud_nano_addw_blue>
+	<hud_nano_addw_green x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\hud_gazmask2</texture>
+	</hud_nano_addw_green>
+	<hud_nano_addw_yellow x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\hud_gazmask3</texture>
+	</hud_nano_addw_yellow>
+	<hud_nano_addw_red x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\hud_gazmask4</texture>
+	</hud_nano_addw_red>
+	<hud_nano_addw_red2 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\hud_gazmask5</texture>
+	</hud_nano_addw_red2>
+	<hud_nano_addw_red3 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\hud_gazmask6</texture>
+	</hud_nano_addw_red3>
+	<!-- ******** meceniy_outfit_new text position ******** -->
+	<cs_inviz x="0" y="30" width="1024" height="30">
+		<text font="graffiti19" r="255" g="215" b="0" a="255" align="c"/>
+	</cs_inviz>
+	<perelom_red_static x="890" y="570" width="58" height="65" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="1" la_alpha="1">
+		<texture x="961" y="88" width="58" height="65">ui\ui_hud</texture>
+	</perelom_red_static>
+	<perelom_green_static x="890" y="570" width="58" height="65" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="1" la_alpha="1">
+		<texture x="961" y="153" width="58" height="65">ui\ui_hud</texture>
+	</perelom_green_static>
+	<!-- *************************** SDATA ************************** -->
+	<!-- positins -->
+    <pos_debug  x="180" y="10" width="270" height="150" stretch="1" complex_mode="1">
+		<text font="letterica18"  r="255" g="255" b="255" a="255" align="l"/>
+	</pos_debug>
+	<!-- infoporshns -->
+    <prs_debug  x="450" y="10" width="150" height="300" stretch="1" complex_mode="1">
+		<text font="letterica16"  r="255" g="255" b="255" a="255" align="l"/>
+	</prs_debug>
+	<!-- actor_data -->
+    <act_debug  x="10" y="200" width="250" height="300" stretch="1" complex_mode="1">
+		<text font="letterica18"  r="255" g="255" b="255" a="255" align="l"/>
+	</act_debug>
+	<!-- gulags and zones -->
+    <gul_debug  x="600" y="10" width="150" height="300" stretch="1" complex_mode="1">
+		<text font="letterica16"  r="255" g="255" b="255" a="255" align="l"/>
+	</gul_debug>
+    <zon_debug  x="750" y="10" width="150" height="300" stretch="1" complex_mode="1">
+		<text font="letterica16"  r="255" g="255" b="255" a="255" align="l"/>
+	</zon_debug>
+	
+	<hud_gaz_blue x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_gas1</texture>
+	</hud_gaz_blue>
+	<hud_gaz_green x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_gas2</texture>
+	</hud_gaz_green>
+	<hud_gaz_yellow x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_gas3</texture>
+	</hud_gaz_yellow>
+	<hud_gaz_red x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_gas4</texture>
+	</hud_gaz_red>
+	<hud_gaz_red2 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_gas5</texture>
+	</hud_gaz_red2>
+	<hud_gaz_red3 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_gas6</texture>
+	</hud_gaz_red3>
+	<hud_merc_blue x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_merc1</texture>
+	</hud_merc_blue>
+	<hud_merc_green x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_merc2</texture>
+	</hud_merc_green>
+	<hud_merc_yellow x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_merc3</texture>
+	</hud_merc_yellow>
+	<hud_merc_red x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_merc4</texture>
+	</hud_merc_red>
+	<hud_merc_red2 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_merc5</texture>
+	</hud_merc_red2>
+	<hud_merc_red3 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_merc6</texture>
+	</hud_merc_red3>
+	<hud_sci_blue x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_sci1</texture>
+	</hud_sci_blue>
+	<hud_sci_green x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_sci2</texture>
+	</hud_sci_green>
+	<hud_sci_yellow x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_sci3</texture>
+	</hud_sci_yellow>
+	<hud_sci_red x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_sci4</texture>
+	</hud_sci_red>
+	<hud_sci_red2 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_sci5</texture>
+	</hud_sci_red2>
+	<hud_sci_red3 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_sci6</texture>
+	</hud_sci_red3>
+	<hud_mil_blue x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_mil1</texture>
+	</hud_mil_blue>
+	<hud_mil_green x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_mil2</texture>
+	</hud_mil_green>
+	<hud_mil_yellow x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_mil3</texture>
+	</hud_mil_yellow>
+	<hud_mil_red x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_mil4</texture>
+	</hud_mil_red>
+	<hud_mil_red2 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_mil5</texture>
+	</hud_mil_red2>
+	<hud_mil_red3 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_mil6</texture>
+	</hud_mil_red3>
+	<hud_exo_blue x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_exo1</texture>
+	</hud_exo_blue>
+	<hud_exo_green x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_exo2</texture>
+	</hud_exo_green>
+	<hud_exo_yellow x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_exo3</texture>
+	</hud_exo_yellow>
+	<hud_exo_red x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_exo4</texture>
+	</hud_exo_red>
+	<hud_exo_red2 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_exo5</texture>
+	</hud_exo_red2>
+	<hud_exo_red3 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>abc\hud_exo6</texture>
+	</hud_exo_red3>
+	<hud_exo_military_blue x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton</texture>
+	</hud_exo_military_blue>
+	<hud_exo_military_green x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton</texture>
+	</hud_exo_military_green>
+	<hud_exo_military_yellow x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton</texture>
+	</hud_exo_military_yellow>
+	<hud_exo_military_red x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton</texture>
+	</hud_exo_military_red>
+	<hud_exo_military_red2 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton</texture>
+	</hud_exo_military_red2>
+	<hud_exo_military_red3 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton</texture>
+	</hud_exo_military_red3>
+	<!-- ************** Hud for invisible outfit *************** -->
+	<hud_exo_military_strelok x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton_strelok</texture>
+	</hud_exo_military_strelok>
+	<hud_exo_military_strelok_blue x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton_strelok</texture>
+	</hud_exo_military_strelok_blue>
+	<hud_exo_military_strelok_green x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton_strelok</texture>
+	</hud_exo_military_strelok_green>
+	<hud_exo_military_strelok_yellow x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton_strelok</texture>
+	</hud_exo_military_strelok_yellow>
+	<hud_exo_military_strelok_red x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton_strelok</texture>
+	</hud_exo_military_strelok_red>
+	<hud_exo_military_strelok_red2 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton_strelok</texture>
+	</hud_exo_military_strelok_red2>
+	<hud_exo_military_strelok_red3 x="0" y="0" width="1024" height="768" stretch="1" light_anim="ui_slow_blinking_alpha" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<texture>hud\mil_exoskeleton_strelok</texture>
+	</hud_exo_military_strelok_red3>
+	<!-- *************** ogse usable btrs 109950 *************** -->
+	<periscope x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>hud\periscope</texture>
+	</periscope>
+	<!-- ********************* COP BUTTONS and CAPTIONS ********************* -->
+	<hud_show_medkits x="2000" y="2000" width="800" height="300" complex_mode="1">
+		<text font="graffiti22" r="255" g="255" b="255" a="95" align="l"/>
+	</hud_show_medkits>
+	<caption_button x="22" y="710">
+		<texture x="1150" y="300" width="200" height="50">ui\ui_hud</texture>
+	</caption_button>
+	<caption_medkit x="26" y="715" width="35" height="35" stretch="1">
+		<texture x="1050" y="300" width="50" height="50">ui\ui_hud</texture>
+	</caption_medkit>
+	<caption_antirad x="80" y="715" width="35" height="35" stretch="1">
+		<texture x="1250" y="250" width="50" height="50">ui\ui_hud</texture>
+	</caption_antirad>
+	<caption_bandage x="133" y="715" width="35" height="35" stretch="1">
+		<texture x="1300" y="250" width="50" height="50">ui\ui_hud</texture>
+	</caption_bandage>
+	<caption_vodka x="190" y="715" width="35" height="35" stretch="1">
+		<texture x="1100" y="300" width="50" height="50">ui\ui_hud</texture>
+	</caption_vodka>
+	<caption_value_1 x="38" y="716">
+		<texture x="1042" y="355" width="29" height="16">ui\ui_hud</texture>
+	</caption_value_1>
+	<caption_value_2 x="91" y="716">
+		<texture x="1042" y="355" width="29" height="16">ui\ui_hud</texture>
+	</caption_value_2>
+	<caption_value_3 x="145" y="716">
+		<texture x="1042" y="355" width="29" height="16">ui\ui_hud</texture>
+	</caption_value_3>
+	<caption_value_4 x="202" y="716">
+		<texture x="1042" y="355" width="29" height="16">ui\ui_hud</texture>
+	</caption_value_4>
+	<!-- *********************** network mp ping services ************************** -->
+	<max_ping_warn_1 x="512" y="300" width="360" height="64" alignment="c" ttl="8">
+		<texture x="0" y="0" width="360" height="64" a="30">ui\ui_cm_connection_error</texture>
+		<text x="80" y="50" font="graffiti32" r="238" g="155" b="23" a="255"/>
+	</max_ping_warn_1>
+	<max_ping_warn_2 x="512" y="300" width="360" height="64" alignment="c" ttl="8">
+		<texture x="0" y="0" width="360" height="64" a="64">ui\ui_cm_connection_error</texture>
+		<text x="80" y="50" font="graffiti32" r="238" g="155" b="23" a="255"/>
+	</max_ping_warn_2>
+	<max_ping_warn_3 x="512" y="300" width="360" height="64" alignment="c" ttl="8">
+		<texture x="0" y="0" width="360" height="64" a="160">ui\ui_cm_connection_error</texture>
+		<text x="80" y="50" font="graffiti32" r="238" g="155" b="23" a="255"/>
+	</max_ping_warn_3>
+	<max_ping_warn_4 x="512" y="300" width="360" height="64" alignment="c" ttl="8">
+		<texture x="0" y="0" width="360" height="64" a="255">ui\ui_cm_connection_error</texture>
+		<text x="80" y="50" font="graffiti32" r="238" g="155" b="23" a="255"/>
+	</max_ping_warn_4>
+	<helmet_gasmask_static x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>hud\helmet_gasmask</texture>
+	</helmet_gasmask_static>
+	<helmet_respirator_static x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>hud\helmet_respirator</texture>
+	</helmet_respirator_static>
+	<helmet_hardhat_static x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>hud\helmet_hardhat</texture>
+	</helmet_hardhat_static>
+	<helmet_protective_static x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>hud\helmet_protective</texture>
+	</helmet_protective_static>
+	<helmet_tactic_static x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>hud\helmet_tactic</texture>
+	</helmet_tactic_static>
+	<inv_weight_static x="965" y="470" width="48" height="48" stretch="1">
+		<texture x="363" y="299" width="49" height="49">ui\ui_hud</texture>
+	</inv_weight_static>
+	<!-- ***************	<dmx_speedometr x="705" y="696" width="154" height="60" stretch="1">
+        <text x="80" y="22" font="letterica18" r="238" g="155" b="23" a="255" complex_mode="1"/>
+		<texture>ui_hud_dmx_speedometr</texture>
+    </dmx_speedometr>*************** -->
+	<sleep_static x="965" y="470" width="48" height="48" stretch="1">
+		<texture x="104" y="235" width="49" height="49">ui\ui_hud</texture>
+	</sleep_static>
+	<hud_speedometer_background x="640" y="550" width="220" height="220" stretch="1">
+		<text y="130" align="c" font="letterica18" r="238" g="155" b="23"/>
+		<texture x="1032" y="585" width="280" height="280">ui\ui_hud</texture>
+	</hud_speedometer_background>
+	<hud_speedometer_pointer x="741" y="569" width="14" height="175" stretch="1" heading="1">
+		<texture x="1316" y="640" width="22" height="314">ui\ui_hud</texture>
+	</hud_speedometer_pointer>
+	<car_equalize x="410" y="550" width="200" height="200" stretch="1">
+		<texture x="0" y="0" width="315" height="320">ui\ui_car_equalize</texture>
+	</car_equalize>
+	<anabiotic_static x="26" y="650" width="33" height="43" stretch="1">
+		<texture x="1213" y="357" width="33" height="43">ui\ui_common</texture>
+	</anabiotic_static>
+	<psy_blockade_static x="76" y="650" width="33" height="43" stretch="1">
+		<texture x="1255" y="357" width="33" height="43">ui\ui_common</texture>
+	</psy_blockade_static>
+	<radioprotector_static x="26" y="650" width="33" height="43" stretch="1">
+		<texture x="1297" y="357" width="33" height="43">ui\ui_common</texture>
+	</radioprotector_static>
+	<barvinok_static x="126" y="650" width="33" height="43" stretch="1">
+		<texture x="1377" y="357" width="33" height="43">ui\ui_common</texture>
+	</barvinok_static>
+	<gercules_static x="176" y="650" width="33" height="43" stretch="1">
+		<texture x="1414" y="357" width="33" height="43">ui\ui_common</texture>
+	</gercules_static>
+	<yadulin_static x="226" y="650" width="33" height="43" stretch="1">
+		<texture x="1337" y="357" width="33" height="43">ui\ui_common</texture>
+	</yadulin_static>
+	<medkit_static x="276" y="650" width="33" height="43" stretch="1" light_anim="ui_slow_blinking_alpha">
+		<texture x="1057" y="553" width="33" height="43">ui\ui_common</texture>
+	</medkit_static>
+	<blood_hud_static x="0" y="0" width="1024" height="768" stretch="1"/>
+	<actor_zombied_static x="45" y="155" width="33" height="38" stretch="1" light_anim="ui_slow_blinking_alpha">
+		<texture x="1052" y="437" width="38" height="38">ui\ui_common</texture>
+	</actor_zombied_static>
+	<!-- *************** BTR HUD ogse usable btrs 109950 *************** -->
+	<btr_target x="360" y="280" width="300" height="100" light_anim="ui_slow_blinking_alpha" stretch="1" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<text x="0" y="0" font="letterica18" r="0" g="255" b="117" a="200" align="c"/>
+	</btr_target>
+	<btr_hastarget x="360" y="376" width="300" height="100" stretch="1">
+		<text x="0" y="0" font="graffiti22" r="255" g="0" b="0" a="200" align="c"/>
+	</btr_hastarget>
+	<btr_armor x="650" y="200" width="300" height="100" light_anim="ui_slow_blinking_alpha" stretch="1" la_cyclic="0" la_texture="0" la_text="1" la_alpha="1">
+		<text x="0" y="0" font="letterica16" r="0" g="255" b="117" a="200" align="c"/>
+	</btr_armor>
+	<btr_critical x="360" y="280" width="300" height="100" light_anim="ui_slow_blinking_alpha" stretch="1" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+		<text x="0" y="0" font="letterica25" r="255" g="0" b="0" a="200" align="c"/>
+	</btr_critical>
+	<car_trunk x="405" y="550" width="200" height="67">
+		<text x="0" y="0" font="graffiti22" r="255" g="255" b="255" a="200" align="c"/>
+	</car_trunk>		
+	
+#include "ui\ui_custom_msgs_doc_viewer.xml"
+#include "ui\ui_custom_msgs_stco.xml"
+</header>

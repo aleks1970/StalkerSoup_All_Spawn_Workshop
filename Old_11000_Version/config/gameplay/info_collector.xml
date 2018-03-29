@@ -1,0 +1,238 @@
+<!-- TB3D 1.1.0.0.1.7 Collector, new triggers, force weather, respawn toggle, respawn block, -->
+<!-- bioradar, dyn info, collector done, tb3d_bar_zones, zaparo_doc, reorganized and articles added,
+ group1b, moved new levels infos, zep_start_info, rsrch_stash, sahar_sumka_spawned, new content, DLC info,
+ bandit_info, tb3d_next_weather -->
+<game_information_portions>
+
+	<info_portion id="tb3d_collector"/>				<!-- level-up 1 - The Collector -->
+	<info_portion id="tb3d_collector_start"/>
+	<info_portion id="tb3d_collector_done">			<!-- allows tasks/news and saves collector_start -->
+		<article>tb3d_collector_info</article>
+	</info_portion>
+	<info_portion id="tb3d_DLC_start"/>				<!-- 110014, allow dlc content in dialogs -->
+	
+	<info_portion id="tb3d_skip_group0"/>			<!-- flags for using skip teleports -->
+	<info_portion id="tb3d_complete_group0"/>
+	<info_portion id="tb3d_skip_group1"/>			<!-- flags for using skip teleports -->
+	<info_portion id="tb3d_complete_group1"/>
+	<info_portion id="tb3d_skip_group1a"/>
+	<info_portion id="tb3d_complete_group1a"/>
+	<info_portion id="tb3d_skip_group1b"/>
+	<info_portion id="tb3d_complete_group1b"/>
+	<info_portion id="tb3d_skip_group2"/>
+	<info_portion id="tb3d_complete_group2"/>
+	<info_portion id="tb3d_skip_group3"/>
+	<info_portion id="tb3d_complete_group3"/>
+
+	<info_portion id="tb3d_zone_teleports"/><!-- Limansk, Hospital, Clearsky portals -->
+	
+	<info_portion id="tb3d_cooling_zones"/>	<!-- ***************ventillator sounds*************** -->
+	<info_portion id="tb3d_marsh_zones"/>	<!-- ***************frog sounds*************** -->
+	<info_portion id="tb3d_bar_zones"/>
+	<info_portion id="tb3d_killing_zones"/>	<!-- *************** not used TODO:use in level-up 2 *************** -->
+	
+	<info_portion id="tb3d_force_fixes"/>
+	<info_portion id="tb3d_nv_always"/>
+	<info_portion id="tb3d_dmx_cars"/>		<!-- *************** extra vehicles by DMX *************** -->
+	<info_portion id="tb3d_force_loadouts"/><!-- *************** clears weapons and assigns new ones *************** -->
+	<info_portion id="tb3d_test_spawns"/>	<!-- *************** dynamic info portions for modders *************** -->
+	
+	<info_portion id="tb3d_bad_torch"/>
+	<info_portion id="tb3d_torch_on"/>
+	<info_portion id="tb3d_bioradar_on"/>	<!-- *************** when bioradar is on belt *************** -->
+	<info_portion id="tb3d_blowout_under"/>	<!-- *************** a blowout occured while underground *************** -->
+	<info_portion id="tb3d_esc_prison"/>
+	<info_portion id="tb3d_force_weather"/>
+	<info_portion id="tb3d_next_weather"/>	<!-- *************** 110017, force weather change on level change *******-->
+	<info_portion id="tb3d_agr_knockdown"/>
+	<info_portion id="tb3d_dcity_rads"/>	<!-- ***************prevents entry to limansk until switch thrown*************** -->
+	
+	<info_portion id="tb3d_cave_done"/>
+	<info_portion id="tb3d_teleport_zaton"/>
+	<info_portion id="tb3d_game_end"/>
+	<info_portion id="tb3d_rank_up"/>
+	<info_portion id="tb3d_wish_granted"/>
+	<info_portion id="tb3d_joined_oc"/>
+	<info_portion id="tb3d_chaes_done"/>
+	<info_portion id="tb3d_chaes_finish"/>	<!-- *************** give new teleports on the chaes2 - aleks1970 110014 ******** -->
+	<info_portion id="tb3d_cube_spawned"/>	<!-- *************** starts new cube quest after collector zep f1 *************** -->
+	<info_portion id="tb3d_marmor_have"/>	<!-- *************** signal and armor in tower *************** -->
+	<info_portion id="tb3d_start_zep">		<!-- *************** begin zep project *************** -->
+		<article>tb3d_zep_start_info</article>
+	</info_portion>
+	<info_portion id="tb3d_respawn_toggle"/><!-- *************** turns creatures off *************** -->
+	<info_portion id="tb3d_respawn_level2"/><!-- *************** turns ALL ON *************** -->
+	<info_portion id="tb3d_respawn_block"/>	<!-- *************** turns npc off *************** -->
+	
+	<info_portion id="tb3d_dyn_info_0"/>	<!-- *************** used in dynamic content ***************************** -->
+	<info_portion id="tb3d_dyn_info_1"/>
+	<info_portion id="tb3d_dyn_info_2"/>
+	<info_portion id="tb3d_dyn_info_3"/>
+	<info_portion id="tb3d_dyn_info_4"/>
+	<info_portion id="tb3d_dyn_info_5"/>
+	<info_portion id="tb3d_dyn_info_6"/>
+	<info_portion id="tb3d_dyn_info_7"/>
+	<info_portion id="tb3d_dyn_info_8"/>
+	<info_portion id="tb3d_dyn_info_9"/>
+	
+	<info_portion id="tb3d_dlc1_info_0"/>	<!-- *************** used in dlc1 content ***************************** -->
+	<info_portion id="tb3d_dlc1_info_1"/>
+	<info_portion id="tb3d_dlc1_info_2"/>
+	<info_portion id="tb3d_dlc1_info_3"/>
+	<info_portion id="tb3d_dlc1_info_4"/>
+	<info_portion id="tb3d_dlc1_info_5"/>
+	<info_portion id="tb3d_dlc1_info_6"/>
+	<info_portion id="tb3d_dlc1_info_7"/>
+	<info_portion id="tb3d_dlc1_info_8"/>
+	<info_portion id="tb3d_dlc1_info_9"/>
+	<info_portion id="tb3d_dlc2_info_0"/>	<!-- *************** used in dlc2 content ***************************** -->
+	<info_portion id="tb3d_dlc2_info_1"/>
+	<info_portion id="tb3d_dlc2_info_2"/>
+	<info_portion id="tb3d_dlc2_info_3"/>
+	<info_portion id="tb3d_dlc2_info_4"/>
+	<info_portion id="tb3d_dlc2_info_5"/>
+	<info_portion id="tb3d_dlc2_info_6"/>
+	<info_portion id="tb3d_dlc2_info_7"/>
+	<info_portion id="tb3d_dlc2_info_8"/>
+	<info_portion id="tb3d_dlc2_info_9"/>
+	<info_portion id="tb3d_dlc3_info_0"/>	<!-- *************** used in dlc3 content ***************************** -->
+	<info_portion id="tb3d_dlc3_info_1"/>
+	<info_portion id="tb3d_dlc3_info_2"/>
+	<info_portion id="tb3d_dlc3_info_3"/>
+	<info_portion id="tb3d_dlc3_info_4"/>
+	<info_portion id="tb3d_dlc3_info_5"/>
+	<info_portion id="tb3d_dlc3_info_6"/>
+	<info_portion id="tb3d_dlc3_info_7"/>
+	<info_portion id="tb3d_dlc3_info_8"/>
+	<info_portion id="tb3d_dlc3_info_9"/>
+	<info_portion id="tb3d_dlc4_info_0"/>	<!-- *************** used in dlc4 content ***************************** -->
+	<info_portion id="tb3d_dlc4_info_1"/>
+	<info_portion id="tb3d_dlc4_info_2"/>
+	<info_portion id="tb3d_dlc4_info_3"/>
+	<info_portion id="tb3d_dlc4_info_4"/>
+	<info_portion id="tb3d_dlc4_info_5"/>
+	<info_portion id="tb3d_dlc4_info_6"/>
+	<info_portion id="tb3d_dlc4_info_7"/>
+	<info_portion id="tb3d_dlc4_info_8"/>
+	<info_portion id="tb3d_dlc4_info_9"/>
+	<info_portion id="tb3d_dlc5_info_0"/>	<!-- *************** used in dlc5 content ***************************** -->
+	<info_portion id="tb3d_dlc5_info_1"/>
+	<info_portion id="tb3d_dlc5_info_2"/>
+	<info_portion id="tb3d_dlc5_info_3"/>
+	<info_portion id="tb3d_dlc5_info_4"/>
+	<info_portion id="tb3d_dlc5_info_5"/>
+	<info_portion id="tb3d_dlc5_info_6"/>
+	<info_portion id="tb3d_dlc5_info_7"/>
+	<info_portion id="tb3d_dlc5_info_8"/>
+	<info_portion id="tb3d_dlc5_info_9"/>
+	
+	<info_portion id="tb3d_esc_mob"/>		<!-- *************** forces a random hoard attack *************** -->
+	<info_portion id="tb3d_prip_mob"/>		<!-- *************** forces stadium boar rush *************** -->
+	<info_portion id="tb3d_blowout_done"/>	<!-- *************** startup blowout over so make first save *************** -->
+	<info_portion id="tb3d_torgash_agro"/>	<!-- *************** spawns heli trader in agro in collector levels *************** -->
+	<info_portion id="tb3d_cars_spawned"/>	<!-- *************** tb3d drivable cars *************** -->
+	<info_portion id="tb3d_zapagro_doc"/>	<!-- *************** zapiska in agroprom *************** -->
+	<info_portion id="tb3d_sak_book4"/>		<!-- *************** prevent duplicate from old saves *************** -->
+	
+	<info_portion id="tb3d_final_start"/>	<!-- *************** arrived in agroprom final *************** -->
+	<info_portion id="tb3d_final_started"/>	<!-- agro final sms fix -->
+	<info_portion id="tb3d_final_sms1"/>
+	<info_portion id="tb3d_final_sms2"/>
+	<info_portion id="tb3d_final_sms3"/>
+
+	<info_portion id="tb3d_portal_wt1"/>	<!-- portal to allow return from treasure hunt stash -->
+	<info_portion id="tb3d_portals_x10"/>	<!-- portals in x10 after jupunder -->
+	
+	<info_portion id="tb3d_rsrch_cellar_stash"/>	<!-- 110005, spawn hoard of zombies -->
+	
+	<!--   treasure hunt -->
+	<info_portion id="tb3d_collector_hunt">				<!-- has started the treasure hunt (part 1) -->
+		<article>tb3d_treasure_hunt_info</article>
+	</info_portion>
+	<info_portion id="tb3d_radar_done">					<!-- ok to start treasure hunt (part 2) Caesier's Treasures -->
+		<article>tb3d_hunt1_info</article>
+	</info_portion>
+	<info_portion id="tb3d_jupu_doc_has"/>				<!-- final note in treasure hunt in room with treasure -->
+
+	<info_portion id="spawn_vintorez_coll_once"/>
+	<info_portion id="spawn_psi_outfit_once"/>
+	<info_portion id="spawn_svd_m1_once"/>
+	
+	<info_portion id="zaton_ldk_warning"/>
+	<info_portion id="jupiter_ldk_warning"/>
+	<info_portion id="eastprip_ldk_warning"/>
+	
+	<info_portion id="dcity_ldk_spawn1"/>
+	<info_portion id="dcity_ldk_spawn2"/>
+	<info_portion id="dcity_ldk_spawn3"/>
+	<info_portion id="dcity_ldk_spawn4"/>
+	<info_portion id="dcity_ldk_spawn5"/>
+	<info_portion id="dcity_ldk_spawn6"/>
+	<info_portion id="dcity_ldk_spawn7"/>
+	<info_portion id="dcity_ldk_spawn8"/>
+	
+	<info_portion id="redforest_ldk_spawn1"/>
+	<info_portion id="redforest_ldk_spawn2"/>
+	<info_portion id="redforest_ldk_spawn3"/>
+	
+	<info_portion id="zat_ldk_spawn1"/>
+	<info_portion id="zat_ldk_spawn2"/>
+	<info_portion id="zat_ldk_spawn3"/>
+	<info_portion id="zat_ldk_spawn4"/>
+	<info_portion id="zat_ldk_spawn5"/>
+	<info_portion id="zat_ldk_spawn6"/>
+	<info_portion id="zat_ldk_spawn7"/>
+	<info_portion id="zat_ldk_spawn8"/>
+	<info_portion id="zat_ldk_spawn9"/>
+
+	<info_portion id="jup_ldk_spawn1"/>
+	<info_portion id="jup_ldk_spawn2"/>
+	<info_portion id="jup_ldk_spawn3"/>
+	<info_portion id="jup_ldk_spawn4"/>
+	<info_portion id="jup_ldk_spawn5"/>
+	<info_portion id="jup_ldk_spawn6"/>
+	<info_portion id="jup_ldk_spawn7"/>
+	<info_portion id="jup_ldk_spawn8"/>
+	<info_portion id="jup_ldk_spawn9"/>
+	<info_portion id="jup_ldk_spawn10"/>
+
+	<info_portion id="eprip_ldk_spawn1"/>
+	<info_portion id="eprip_ldk_spawn2"/>
+	<info_portion id="eprip_ldk_spawn3"/>
+	<info_portion id="eprip_ldk_spawn4"/>
+	<info_portion id="eprip_ldk_spawn5"/>
+	<info_portion id="eprip_ldk_spawn6"/>
+	<info_portion id="eprip_ldk_spawn7"/>
+
+	<info_portion id="jupund_ldk_spawn1"/>
+	<info_portion id="jupund_ldk_spawn2"/>
+	<info_portion id="jupund_ldk_spawn3"/>
+	<info_portion id="jupund_ldk_spawn4"/>
+	
+	<info_portion id="collector_ready_for_redf"/>
+	<info_portion id="collector_ready_for_dcity"/>
+	<info_portion id="collector_ready_for_zaton"/>
+	<info_portion id="collector_ready_for_jupiter"/>
+	<info_portion id="collector_ready_for_jupund"/>
+	<info_portion id="collector_ready_for_eastprip"/>
+	
+	<info_portion id="collector_done_with_redf"/>
+	<info_portion id="collector_done_with_dcity"/>
+	<info_portion id="collector_done_with_zaton"/>
+	<info_portion id="collector_done_with_jupiter"/>
+	<info_portion id="collector_done_with_jupund"/>
+	<info_portion id="collector_done_with_eastprip"/>
+	
+	<info_portion id="sahar_sumka_spawned"/>
+	
+	<!-- 110016.2 -->
+	<info_portion id="tb3d_sak_f1_message"/>
+	
+	<info_portion id="tb3d_bandit1_had_info"/>
+	<info_portion id="tb3d_bandit2_had_info"/>
+	<info_portion id="tb3d_bandit3_had_info"/>
+	<info_portion id="tb3d_bandit4_had_info"/>
+	<info_portion id="tb3d_bandit5_had_info"/>
+	<info_portion id="tb3d_bandit6_had_info"/>
+	
+</game_information_portions>

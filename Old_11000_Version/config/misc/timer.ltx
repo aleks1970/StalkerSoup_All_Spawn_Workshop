@@ -1,0 +1,39 @@
+;<!-- TB3D 1.0.9.9.7.2, commented out "discovery_dependency" aleks1970 -->
+;*****************************************
+;Wristwatch with a timer
+;Vergas
+;*****************************************
+[timer]:identity_immunities
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn    		= "food and drugs\antirad"
+$prefetch   	= 32
+class		 	= II_ANTIR
+cform           = skeleton
+visual          = equipments\clocki.ogf
+radius			= 1
+description  	     = enc_item_timer_descr
+inv_name   		= item_timer
+inv_name_short     	= item_timer_s
+inv_weight   	     = 0.1			; Weight of the object
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 13
+inv_grid_y			= 46	
+cost    = 4000	; value of the subject
+belt = 0
+
+; eatable item
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+eat_alcohol = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+
+; food item
+animation_slot  = 4
+
+;hud item
+hud = wpn_vodka_hud

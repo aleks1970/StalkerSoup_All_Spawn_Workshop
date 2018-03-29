@@ -1,0 +1,322 @@
+<!-- ************ TB3D 1.0.9.9.7.0 new inventory and dialogs, dmx135 *************** -->
+<xml>
+	<!-- ***************DMX_MOD_clear_sky_syslov*************** -->
+	<specific_character id="syslov" team_default="1">
+		<name>Syslov_name_gameplay</name>
+		<icon>ui_npc_u_syslov</icon>
+		<map_icon x="0" y="0"/>
+		<bio>sim_stalker_master_bio</bio>
+		<class>syslov</class>
+		<community>nebo</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="1000000" max="1100000" infinitive="1"/>
+		<rank>570</rank>
+		<reputation>100</reputation>
+		<visual>actors\dmx_mod\stalker_nebo_1</visual>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\stalker_novice_items.xml"
+#include "dialogs\syslov_dmx.xml"
+    </specific_character>
+	<!-- ***************DMX_MOD_Shadows*************** -->
+	<specific_character id="shadows" team_default="1">
+		<name>Shadows_name_gameplay</name>
+		<icon>ui_npc_u_syslov</icon>
+		<map_icon x="0" y="0"/>
+		<bio>sim_stalker_master_bio</bio>
+		<class>shadows</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="1000000" max="1100000" infinitive="1"/>
+		<rank>570</rank>
+		<reputation>100</reputation>
+		<visual>actors\nano\nanosuit_new</visual>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\stalker_novice_items.xml"
+#include "dialogs\shadows_dmx.xml"
+    </specific_character>
+	<!-- ***************DMX_MOD_Sage - !!!!TB3D following new in 134*************** -->
+	<specific_character id="mudri" team_default="1">
+		<name>Sage_name_gameplay</name>
+		<icon>ui_npc_mudri</icon>
+		<bio>sim_stalker_master_bio</bio>
+		<class>kombat</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="600" max="5000" infinitive="0"/>
+		<rank>773</rank>
+		<reputation>5</reputation>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\mudrec</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\sage_dmx.xml"
+    </specific_character>
+	<!-- ***************DMX_MOD_Formidable*************** -->
+	<specific_character id="grozn" team_default="1">
+		<name>Formidable_name_gameplay</name>
+		<icon>ui_npc_grozn</icon>
+		<bio>sim_stalker_master_bio</bio>
+		<class>grozn</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="600" max="5000" infinitive="0"/>
+		<rank>773</rank>
+		<reputation>5</reputation>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\grozn</visual>
+#include "inventory\grozn_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\grozn_dmx.xml"
+    </specific_character>
+	<!-- ***************DMX_MOD_Sanya*************** -->
+	<specific_character id="alex" team_default="1">
+		<name>Sanya_name_gameplay</name>
+		<icon>ui_npc_alex</icon>
+		<bio>sim_stalker_master_bio</bio>
+		<class>alex</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="600" max="5000" infinitive="0"/>
+		<rank>773</rank>
+		<reputation>5</reputation>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\alex</visual>
+#include "inventory\alex_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\alex_dmx.xml"
+    </specific_character>
+	<!-- ***************DMX_MOD_Pavel_Sergeevich*************** -->
+	<specific_character id="pavel_sergeevich" team_default="1">
+		<name>Pavel_Sergeevich_name_gameplay</name>
+		<icon>ui_npc_pavel_serg</icon>
+		<bio>sim_stalker_master_bio</bio>
+		<class>pavel_sergeevich</class>
+		<community>ecolog</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="600" max="5000" infinitive="0"/>
+		<rank>773</rank>
+		<reputation>5</reputation>
+		<snd_config>characters_voice\human_03\ecolog\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\pavel_sergeevich</visual>
+#include "inventory\pavel_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"
+    </specific_character>
+	<!-- ***************DMX_MOD_Kombat*************** -->
+	<specific_character id="kombat" team_default="1">
+		<name>Kombat_name_gameplay</name>
+		<icon>ui_npc_kombat</icon>
+		<bio>esc_ckryacker</bio>
+		<class>kombat</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="600" max="5000" infinitive="0"/>
+		<rank>773</rank>
+		<reputation>5</reputation>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\kombat</visual>
+#include "inventory\stalker_veteran_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\kombat_dmx.xml"
+    </specific_character>
+	<!-- ***************DMX_MOD_MONOLITH_KBO_Pripyat*************** -->
+	<specific_character id="kbo_monolit1" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_head_1</icon>
+		<map_icon x="3" y="0"/>
+		<bio>sim_av_mono_regular_bio</bio>
+		<class>kbo_monolit1</class>
+		<community>monolith</community>
+		<rank>418</rank>
+		<reputation>-385</reputation>
+		<money min="60" max="200" infinitive="0"/>
+		<panic_threshold>0.0</panic_threshold>
+		<visual>actors\monolit\stalker_mo_head_1</visual>
+		<snd_config>characters_voice\human_02\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+#include "inventory\monolith_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<specific_character id="kbo_monolit3" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_mask</icon>
+		<map_icon x="3" y="0"/>
+		<bio>sim_av_mono_regular_bio</bio>
+		<class>kbo_monolit3</class>
+		<community>monolith</community>
+		<rank>404</rank>
+		<reputation>-200</reputation>
+		<money min="60" max="200" infinitive="0"/>
+		<panic_threshold>0.0</panic_threshold>
+		<visual>actors\monolit\stalker_mo_mask</visual>
+		<snd_config>characters_voice\human_01\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+#include "inventory\monolith_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<specific_character id="kbo_monolit4" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_hood_9</icon>
+		<map_icon x="3" y="0"/>
+		<bio>sim_av_mono_veteran_bio</bio>
+		<class>kbo_monolit4</class>
+		<community>monolith</community>
+		<rank>732</rank>
+		<reputation>-347</reputation>
+		<money min="200" max="500" infinitive="0"/>
+		<panic_threshold>0.0</panic_threshold>
+		<visual>actors\monolit\stalker_mo_hood_9</visual>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+#include "inventory\monolith_nm0_masada.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<specific_character id="kbo_monolit6" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_hood_9</icon>
+		<map_icon x="3" y="0"/>
+		<bio>sim_av_mono_veteran_bio</bio>
+		<class>kbo_monolit6</class>
+		<community>monolith</community>
+		<rank>709</rank>
+		<reputation>-234</reputation>
+		<money min="200" max="500" infinitive="0"/>
+		<panic_threshold>0.0</panic_threshold>
+		<visual>actors\monolit\stalker_mo_hood_9</visual>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+#include "inventory\monolith_nm0_abakan.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<specific_character id="kbo_monolit7" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_hood_9</icon>
+		<map_icon x="3" y="0"/>
+		<bio>sim_av_mono_veteran_bio</bio>
+		<class>kbo_monolit7</class>
+		<community>monolith</community>
+		<rank>709</rank>
+		<reputation>-234</reputation>
+		<money min="200" max="500" infinitive="0"/>
+		<panic_threshold>0.0</panic_threshold>
+		<visual>actors\monolit\stalker_mo_hood_9</visual>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+#include "inventory\monolith_nm0_abakan.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<specific_character id="kbo_monolit8" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="3" y="0"/>
+		<bio>sim_av_mono_master_bio</bio>
+		<class>kbo_monolit8</class>
+		<community>monolith</community>
+		<rank>934</rank>
+		<reputation>-564</reputation>
+		<money min="50" max="500" infinitive="0"/>
+		<panic_threshold>0.0</panic_threshold>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+#include "inventory\monolith_nm0_saber.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<specific_character id="kbo_monolit10" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="3" y="0"/>
+		<bio>sim_av_mono_master_bio</bio>
+		<class>kbo_monolit10</class>
+		<community>monolith</community>
+		<rank>934</rank>
+		<reputation>-564</reputation>
+		<money min="50" max="500" infinitive="0"/>
+		<panic_threshold>0.0</panic_threshold>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+#include "inventory\monolith_nm0_masada.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<specific_character id="kbo_monolit12" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="3" y="0"/>
+		<bio>sim_av_mono_master_bio</bio>
+		<class>kbo_monolit12</class>
+		<community>monolith</community>
+		<rank>934</rank>
+		<reputation>-564</reputation>
+		<money min="50" max="500" infinitive="0"/>
+		<panic_threshold>0.0</panic_threshold>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+#include "inventory\monolith_nm0_l85a2.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<specific_character id="kbo_monolit13" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="3" y="0"/>
+		<bio>sim_av_mono_master_bio</bio>
+		<class>kbo_monolit13</class>
+		<community>monolith</community>
+		<rank>934</rank>
+		<reputation>-564</reputation>
+		<money min="50" max="500" infinitive="0"/>
+		<panic_threshold>0.0</panic_threshold>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+#include "inventory\monolith_nm0_rem870.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<specific_character id="kbo_monolit15" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="3" y="0"/>
+		<bio>sim_av_mono_master_bio</bio>
+		<class>kbo_monolit15</class>
+		<community>monolith</community>
+		<rank>934</rank>
+		<reputation>-564</reputation>
+		<money min="50" max="500" infinitive="0"/>
+		<panic_threshold>0.0</panic_threshold>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+#include "inventory\monolith_nm0_l85a2.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<specific_character id="kbo_monolit17" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="3" y="0"/>
+		<bio>sim_av_mono_master_bio</bio>
+		<class>kbo_monolit17</class>
+		<community>monolith</community>
+		<rank>934</rank>
+		<reputation>-564</reputation>
+		<money min="50" max="500" infinitive="0"/>
+		<panic_threshold>0.0</panic_threshold>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+#include "inventory\monolith_nm0_val.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+</xml>

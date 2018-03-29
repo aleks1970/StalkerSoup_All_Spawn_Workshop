@@ -1,0 +1,2224 @@
+<!-- ************ TB3D 1.0.9.9.7.0 new inventory and dialogs, reduced money*************** -->
+<xml>
+	<!-- ***************Sniper-cordon*************** -->
+	<specific_character id="esc_sniper1" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>esc_sniper1</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-cordon2*************** -->
+	<specific_character id="esc_sniper2" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>esc_sniper2</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-cordon3*************** -->
+	<specific_character id="esc_sniper3" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>esc_sniper3</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-cordon4*************** -->
+	<specific_character id="esc_sniper4" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>esc_sniper4</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-cordon5*************** -->
+	<specific_character id="esc_sniper5" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>esc_sniper5</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bar*************** -->
+	<specific_character id="bar_sniper1" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>bar_sniper1</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="200" max="1600" infinitive="0"/>
+		<rank>914</rank>
+		<reputation>-132</reputation>
+		<visual>new\holo_plash</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bar3*************** -->
+	<specific_character id="bar_sniper3" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>bar_sniper3</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>914</rank>
+		<reputation>-132</reputation>
+		<visual>new\holo_plash</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bar4*************** -->
+	<specific_character id="bar_sniper4" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>bar_sniper4</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="200" max="1230" infinitive="0"/>
+		<rank>914</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bar5*************** -->
+	<specific_character id="bar_sniper5" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>bar_sniper5</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>914</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-warehouses*************** -->
+	<specific_character id="mil_sniper1" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_soldier_bandana_9</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>mil_sniper1</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="200" max="1600" infinitive="0"/>
+		<rank>914</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_arhara1</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-warehouses2*************** -->
+	<specific_character id="mil_sniper2" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>mil_sniper2</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>914</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-warehouses3*************** -->
+	<specific_character id="mil_sniper3" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>mil_sniper3</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>914</rank>
+		<reputation>-132</reputation>
+		<visual>new\holo_plash</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-warehouses4*************** -->
+	<specific_character id="mil_sniper4" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>mil_sniper4</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="200" max="1100" infinitive="0"/>
+		<rank>914</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bubble3*************** -->
+	<specific_character id="puzir_sniper3" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>puzir_sniper3</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="200" max="2300" infinitive="0"/>
+		<rank>914</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_arhara1</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bubble1*************** -->
+	<specific_character id="puzir_sniper1" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>puzir_sniper1</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="200" max="2600" infinitive="0"/>
+		<rank>914</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bubble2*************** -->
+	<specific_character id="puzir_sniper2" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>puzir_sniper2</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="200" max="600" infinitive="0"/>
+		<rank>914</rank>
+		<reputation>-132</reputation>
+		<visual>new\holo_plash</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-germ*************** -->
+	<specific_character id="ros_sniper1" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>ros_sniper1</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>914</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-germ2*************** -->
+	<specific_character id="ros_sniper2" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_soldier_bandana_9</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>ros_sniper2</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>808</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_arhara1</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-germ3*************** -->
+	<specific_character id="ros_sniper3" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>ros_sniper3</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>808</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action-1*************** -->
+	<specific_character id="boev_sniper1" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>boev_sniper1</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>459</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action-2*************** -->
+	<specific_character id="boev_sniper2" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>boev_sniper2</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>559</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action-3*************** -->
+	<specific_character id="boev_sniper3" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>boev_sniper3</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>659</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action Radar-1*************** -->
+	<specific_character id="boev_sniper_rad1" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>boev_sniper_rad1</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>659</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action Radar-2*************** -->
+	<specific_character id="boev_sniper_rad2" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_soldier_bandana_9</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>boev_sniper_rad2</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>659</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_arhara1</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action Radar-3*************** -->
+	<specific_character id="boev_sniper_rad3" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>boev_sniper_rad3</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1016</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action-cordon*************** -->
+	<specific_character id="esc_snip_atak" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>esc_snip_atak</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>816</rank>
+		<reputation>-100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\sniper_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************security guard-zvera*************** -->
+	<specific_character id="esc_bodyzver" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>esc_bodyzver</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>816</rank>
+		<reputation>-100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\mil_guard_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************zver*************** -->
+	<specific_character id="esc_zver" team_default="1">
+		<name>Zver_name_gameplay</name>
+		<icon>ui_npc_u_stalker_bandit_borov</icon>
+		<map_icon x="0" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>esc_zver</class>
+		<community>sniper</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>816</rank>
+		<reputation>-100</reputation>
+		<visual>actors\bandit\stalker_bandit_borov</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zver_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************SPECNAZ*************** -->
+	<specific_character id="esc_mil_def" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="2" y="2"/>
+		<bio>sim_soldier_specnaz_bio</bio>
+		<class>esc_mil_def</class>
+		<community>military</community>
+		<terrain_sect>stalker_military_terrain</terrain_sect>
+		<money min="600" max="2000" infinitive="0"/>
+		<rank>490</rank>
+		<reputation>-70</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\specnaz_regular_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+  </specific_character>
+	<!-- ***************gavr*************** -->
+	<specific_character id="mil_trader_gavr_zombi" team_default="1">
+		<name>Gavr_name_gameplay</name>
+		<icon>ui_npc_gavr</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="100000" max="110000" infinitive="1"/>
+		<rank>959</rank>
+		<reputation>100</reputation>
+		<visual>new\gavr</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\gavr_sniper.xml"
+</specific_character>
+	<!-- ***************gavr BODYGUARD*************** -->
+	<specific_character id="mil_gavr_bodyguard1_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_soldier_bandana_9</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>896</rank>
+		<reputation>139</reputation>
+		<visual>actors\bandit\stalker_arhara1</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************gavr BODYGUARD 2*************** -->
+	<specific_character id="mil_gavr_bodyguard2_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>850</rank>
+		<reputation>139</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************bolt*************** -->
+	<specific_character id="mil_bolt_zombi" team_default="1">
+		<name>Bolt_name_gameplay</name>
+		<icon>ui_npc_u_stalker_ki_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Killer_specnaz_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>759</rank>
+		<reputation>-100</reputation>
+		<visual>actors\killer\stalker_ki_nauchniy</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************bolt BODYGUARD 1*************** -->
+	<specific_character id="mil_bolt_bodyguard1_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Killer_specnaz_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>850</rank>
+		<reputation>-139</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+     </specific_character>
+	<!-- ***************bolt BODYGUARD 2*************** -->
+	<specific_character id="mil_bolt_bodyguard2_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Killer_specnaz_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>850</rank>
+		<reputation>-139</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************james*************** -->
+	<specific_character id="bar_rostok_james_zombi" team_default="1">
+		<name>James_name_gameplay</name>
+		<icon>ui_npc_u_stalker_ki_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>sim_stalker_general_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>959</rank>
+		<reputation>100</reputation>
+		<visual>actors\killer\stalker_ki_nauchniy</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\james_zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\james_sniper.xml"
+</specific_character>
+	<!-- ***************sniper-killer*************** -->
+	<specific_character id="mill_sniper_jonn_zombi" team_default="1">
+		<name>John_name_gameplay</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>sim_soldier_commander_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>956</rank>
+		<reputation>-100</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************sniper-killer2*************** -->
+	<specific_character id="mill_sniper_croker_zombi" team_default="1">
+		<name>Croker_name_gameplay</name>
+		<icon>ui_npc_u_soldier_bandana_9</icon>
+		<map_icon x="5" y="0"/>
+		<bio>sim_soldier_commander_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>956</rank>
+		<reputation>-100</reputation>
+		<visual>actors\bandit\stalker_arhara1</visual>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************sniper-killer3*************** -->
+	<specific_character id="mill_sniper_nick_zombi" team_default="1">
+		<name>Nick_name_gameplay</name>
+		<icon>ui_npc_u_stalker_ki_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>sim_soldier_commander_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>956</rank>
+		<reputation>-100</reputation>
+		<visual>actors\killer\stalker_ki_nauchniy</visual>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************sniper-killer4*************** -->
+	<specific_character id="mill_sniper_harris_zombi" team_default="1">
+		<name>Harris_name_gameplay</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>sim_soldier_commander_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>956</rank>
+		<reputation>-100</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************monolit-dead*************** -->
+	<specific_character id="radar_monolit_dead_zombi" team_default="1">
+		<name>Morphine_name_gameplay</name>
+		<icon>ui_npc_u_stalker_mo_hood_9</icon>
+		<map_icon x="5" y="0"/>
+		<bio>aes_Monolit_specnaz_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\monolit\stalker_mo_hood_9</visual>
+		<snd_config>characters_voice\human_02\zombied\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************sniper-dark*************** -->
+	<specific_character id="dark_sniper_zombi" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_ki_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>sim_stalker_general_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>659</rank>
+		<reputation>100</reputation>
+		<visual>actors\killer\stalker_ki_nauchniy</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************killer-dark*************** -->
+	<specific_character id="dark_killer_zombi" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_ki_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>sim_stalker_general_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>659</rank>
+		<reputation>100</reputation>
+		<visual>actors\killer\stalker_ki_nauchniy</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************bland-dark*************** -->
+	<specific_character id="dark_bland_zombi" team_default="1">
+		<name>Bland_name_gameplay</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>sim_stalker_general_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>659</rank>
+		<reputation>100</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\bland_zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************killer_boevik1*************** -->
+	<specific_character id="killer_boevik1_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>896</rank>
+		<reputation>139</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************killer_boevik2*************** -->
+	<specific_character id="killer_boevik2_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>896</rank>
+		<reputation>139</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************killer_boevik3*************** -->
+	<specific_character id="killer_boevik3_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>896</rank>
+		<reputation>139</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************killer_boevik4*************** -->
+	<specific_character id="killer_boevik4_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>896</rank>
+		<reputation>139</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************killer_boevik5*************** -->
+	<specific_character id="killer_boevik5_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>896</rank>
+		<reputation>139</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************killer_boevik6*************** -->
+	<specific_character id="killer_boevik6_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>896</rank>
+		<reputation>139</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************military-ecolog-agro2*************** -->
+	<specific_character id="military_ecolog_agro2_zombi" team_default="1">
+		<name>GENERATE_NAME_lieutenant</name>
+		<icon>ui_npc_u_stalker_ecolog_military</icon>
+		<map_icon x="0" y="6"/>
+		<bio>rad_specnaz_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>440</rank>
+		<reputation>50</reputation>
+		<visual>actors\ecolog\stalker_ecolog_military</visual>
+		<snd_config>characters_voice\human_03\ecolog\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************military-ecolog-agro1*************** -->
+	<specific_character id="military_ecolog_agro1_zombi" team_default="1">
+		<name>Ivaschenko_name_gameplay</name>
+		<icon>ui_npc_u_ucheniy_2</icon>
+		<map_icon x="7" y="0"/>
+		<bio>yan_saharov_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>44</rank>
+		<reputation>50</reputation>
+		<visual>actors\ucheniy\ucheniy_2</visual>
+		<snd_config>characters_voice\human_03\ecolog\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\ecolog_zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************military-agro1*************** -->
+	<specific_character id="agro_military1_zombi" team_default="1">
+		<name>GENERATE_NAME_lieutenant</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="2" y="2"/>
+		<bio>rad_specnaz_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>959</rank>
+		<reputation>10</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************military-agro2*************** -->
+	<specific_character id="agro_military2_zombi" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_mask</icon>
+		<map_icon x="1" y="2"/>
+		<bio>val_soldier_regular_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>322</rank>
+		<reputation>-13</reputation>
+		<visual>actors\soldier\soldier_mask</visual>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************yakut-agro*************** -->
+	<specific_character id="yakut_agro_zombi" team_default="1">
+		<name>Arhara_name_gameplay</name>
+		<icon>ui_npc_u_stalker_sv_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>502</rank>
+		<reputation>10</reputation>
+		<visual>actors\svoboda\stalker_sv_nauchniy</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\arhara_sniper.xml"
+</specific_character>
+	<!-- ***************yakut-agro-2*************** -->
+	<specific_character id="yakut_agro2_zombi" team_default="1">
+		<name>Yakut_name_gameplay</name>
+		<icon>ui_npc_u_stalker_sv_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>502</rank>
+		<reputation>10</reputation>
+		<visual>actors\svoboda\stalker_sv_nauchniy</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\yakut_sniper.xml"
+</specific_character>
+	<!-- ***************stalker-agro*************** -->
+	<specific_character id="stalker_agro_zombi" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_sv_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>402</rank>
+		<reputation>10</reputation>
+		<visual>actors\svoboda\stalker_sv_nauchniy</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"	
+</specific_character>
+	<!-- ***************stalker-agro-und*************** -->
+	<specific_character id="stalker_agro_und_zombi" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_sv_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>402</rank>
+		<reputation>10</reputation>
+		<visual>actors\svoboda\stalker_sv_nauchniy</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\agru_zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"	
+</specific_character>
+	<!-- ***************Ghost*************** -->
+	<specific_character id="new_prizrak_zombi" team_default="1">
+		<name>Ghost_name_gameplay</name>
+		<icon>ui_npc_u_stalker_prizrak</icon>
+		<map_icon x="0" y="6"/>
+		<bio>sim_stalker_veteran_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>721</rank>
+		<reputation>50</reputation>
+		<visual>actors\neytral\stalker_prizrak</visual>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\ghost_sniper.xml"
+</specific_character>
+	<!-- ***************stalker-rost1*************** -->
+	<specific_character id="stalker_rost1_zombi" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>602</rank>
+		<reputation>10</reputation>
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"	
+</specific_character>
+	<!-- ***************stalker-rost2*************** -->
+	<specific_character id="stalker_rost2_zombi" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>602</rank>
+		<reputation>10</reputation>
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"	
+</specific_character>
+	<!-- ***************stalker-rost-Sysh*************** -->
+	<specific_character id="stalker_rost_sysh_zombi" team_default="1">
+		<name>Sysh_name_gameplay</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>602</rank>
+		<reputation>10</reputation>
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\sysh_zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\sysyh_sniper.xml"	
+</specific_character>
+	<!-- ***************mil_naemnik_zondr*************** -->
+	<specific_character id="mil_naemnik_zondr_zombi" team_default="1">
+		<name>Zondr_name_gameplay</name>
+		<icon>ui_npc_lastday_helmet</icon>
+		<map_icon x="2" y="0"/>
+		<bio>pri_monolith_exo_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>922</rank>
+		<reputation>-890</reputation>
+		<money min="50" max="730" infinitive="0"/>
+		<visual>new\ekzo_and_helmet</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zondr_zombied_items.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************mil_naemnik_1*************** -->
+	<specific_character id="mil_naemnik_1_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>996</rank>
+		<reputation>139</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************mil_naemnik_4*************** -->
+	<specific_character id="mil_naemnik_4_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_ki_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>596</rank>
+		<reputation>139</reputation>
+		<visual>actors\killer\stalker_ki_nauchniy</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************mil_naemnik_5*************** -->
+	<specific_character id="mil_naemnik_5_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_soldier_bandana_9</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_bandit_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>808</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_arhara1</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************esc_banderos*************** -->
+	<specific_character id="esc_banderos_zombi" team_default="1">
+		<name>Banderos_name_gameplay</name>
+		<icon>ui_npc_u_stalker_neytral_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>602</rank>
+		<reputation>10</reputation>
+		<visual>actors\neytral\stalker_neytral_exoskeleton</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************esc_dimorin*************** -->
+	<specific_character id="esc_dimorin_zombi" team_default="1">
+		<name>Dimorin_name_gameplay</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>602</rank>
+		<reputation>10</reputation>
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************esc_n6260*************** -->
+	<specific_character id="esc_n6260_zombi" team_default="1">
+		<name>N6260_name_gameplay</name>
+		<icon>ui_npc_u_stalker_sv_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>602</rank>
+		<reputation>10</reputation>
+		<visual>actors\svoboda\stalker_sv_nauchniy</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"	
+</specific_character>
+	<!-- ***************esc_vergas*************** -->
+	<specific_character id="esc_vergas_zombi" team_default="1">
+		<name>Vergas_name_gameplay</name>
+		<icon>ui_npc_u_stalker_neytral_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>602</rank>
+		<reputation>10</reputation>
+		<visual>actors\neytral\stalker_neytral_exoskeleton</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************esc_tirex*************** -->
+	<specific_character id="esc_tirex_zombi" team_default="1">
+		<name>Tirex_name_gameplay</name>
+		<icon>ui_npc_u_stalker_neytral_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>602</rank>
+		<reputation>10</reputation>
+		<visual>actors\neytral\stalker_neytral_exoskeleton</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\tirex_sniper.xml"	
+</specific_character>
+	<!-- ***************esc_wawka*************** -->
+	<specific_character id="esc_wawka_zombi" team_default="1">
+		<name>Wawka_name_gameplay</name>
+		<icon>ui_npc_u_stalker_neytral_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>602</rank>
+		<reputation>10</reputation>
+		<visual>actors\neytral\stalker_neytral_exoskeleton</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"	
+</specific_character>
+	<!-- ***************stalker_green1*************** -->
+	<specific_character id="stalker_green1_zombi" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_hunter_4_novice</icon>
+		<map_icon x="5" y="0"/>
+		<bio>gar_stalker_regular_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>702</rank>
+		<reputation>10</reputation>
+		<visual>actors\hunters\hunter4</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************stalker_green2*************** -->
+	<specific_character id="stalker_green2_zombi" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_hunter_1_novice</icon>
+		<map_icon x="5" y="0"/>
+		<bio>gar_stalker_regular_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>402</rank>
+		<reputation>10</reputation>
+		<visual>actors\hunters\hunter1</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************zahar*************** -->
+	<specific_character id="stalker_green_zahar_zombi" team_default="1">
+		<name>Zahar_name_gameplay</name>
+		<icon>ui_npc_u_hunter_3_novice</icon>
+		<map_icon x="5" y="0"/>
+		<bio>gar_stalker_regular_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>602</rank>
+		<reputation>100</reputation>
+		<visual>actors\hunters\stalker_hu_zahar</visual>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zahar_sniper.xml"
+</specific_character>
+	<!-- ***************military-dead*************** -->
+	<specific_character id="dead_military_esc_zombi" team_default="1">
+		<name>Andrey_name_gameplay</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="2" y="2"/>
+		<bio>rad_specnaz_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>559</rank>
+		<reputation>10</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"	
+</specific_character>
+	<!-- ***************rost-siv*************** -->
+	<specific_character id="rost_siv_zombi" team_default="1">
+		<name>Gray_name_gameplay</name>
+		<icon>ui_npc_u_stalker_ki_head_5</icon>
+		<map_icon x="5" y="0"/>
+		<bio>ros_tiran_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="600" max="2000" infinitive="0"/>
+		<rank>559</rank>
+		<reputation>10</reputation>
+		<visual>actors\killer\stalker_ki_head_5</visual>
+		<snd_config>characters_voice\human_03\killer\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"	
+</specific_character>
+	<!-- ***************rost-siv-ohr*************** -->
+	<specific_character id="rost_siv_ohr_zombi" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_ki_head_1</icon>
+		<map_icon x="2" y="0"/>
+		<bio>sim_killer_general_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="600" max="2000" infinitive="0"/>
+		<rank>559</rank>
+		<reputation>10</reputation>
+		<visual>actors\killer\stalker_ki_head_1</visual>
+		<snd_config>characters_voice\human_03\killer\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"	
+</specific_character>
+	<!-- ***************military-dead-bunker*************** -->
+	<specific_character id="dead_military_bunker_zombi" team_default="1">
+		<name>GENERATE_NAME_lieutenant</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="2" y="2"/>
+		<bio>rad_specnaz_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>559</rank>
+		<reputation>10</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"	
+</specific_character>
+	<!-- ***************ecolog-dead-bunker*************** -->
+	<specific_character id="ecolog_dead_bunker_zombi" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_ecolog</icon>
+		<map_icon x="0" y="6"/>
+		<bio>yan_semenov_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>259</rank>
+		<reputation>10</reputation>
+		<visual>actors\ecolog\stalker_ecolog</visual>
+		<snd_config>characters_voice\human_03\ecolog\</snd_config>
+		<crouch_type>1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"	
+</specific_character>
+	<!-- ***************ecolog-wound-bunker*************** -->
+	<specific_character id="ecolog_wound_bunker_zombi" team_default="1">
+		<name>Semenov_name_gameplay</name>
+		<icon>ui_npc_u_stalker_ecolog_military</icon>
+		<map_icon x="0" y="6"/>
+		<bio>yan_semenov_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>359</rank>
+		<reputation>10</reputation>
+		<visual>actors\ecolog\stalker_ecolog_military</visual>
+		<snd_config>characters_voice\human_03\ecolog\</snd_config>
+		<crouch_type>1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\semenov_sniper.xml"
+ </specific_character>
+	<!-- ***************tamaz*************** -->
+	<specific_character id="tamaz_garbage_zombi" team_default="1">
+		<name>Tamaz_name_gameplay</name>
+		<icon>ui_npc_u_stalker_ki_nauchniy</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Killer_specnaz_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>859</rank>
+		<reputation>-200</reputation>
+		<visual>actors\killer\stalker_ki_nauchniy</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\tamaz_zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************tamaz-ohr*************** -->
+	<specific_character id="tamaz_ohr1_zombi" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_ki_head_1</icon>
+		<map_icon x="2" y="0"/>
+		<bio>sim_killer_general_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="600" max="2000" infinitive="0"/>
+		<rank>559</rank>
+		<reputation>10</reputation>
+		<visual>actors\killer\stalker_ki_head_1</visual>
+		<snd_config>characters_voice\human_03\killer\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************tamaz-body*************** -->
+	<specific_character id="tamaz_body_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_ki_exoskeleton</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>896</rank>
+		<reputation>139</reputation>
+		<visual>actors\killer\stalker_ki_exoskeleton</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+    </specific_character>
+	<!-- ***************Sniper-cordon*************** -->
+	<specific_character id="esc_sniper1_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-cordon2*************** -->
+	<specific_character id="esc_sniper2_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-cordon3*************** -->
+	<specific_character id="esc_sniper3_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-cordon4*************** -->
+	<specific_character id="esc_sniper4_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-cordon5*************** -->
+	<specific_character id="esc_sniper5_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bar*************** -->
+	<specific_character id="bar_sniper1_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="200" max="1600" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>new\holo_plash</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bar3*************** -->
+	<specific_character id="bar_sniper3_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>new\holo_plash</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bar4*************** -->
+	<specific_character id="bar_sniper4_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="200" max="1230" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bar5*************** -->
+	<specific_character id="bar_sniper5_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-warehouses*************** -->
+	<specific_character id="mil_sniper1_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="200" max="1600" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_arhara1</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-warehouses2*************** -->
+	<specific_character id="mil_sniper2_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-warehouses3*************** -->
+	<specific_character id="mil_sniper3_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>new\holo_plash</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-warehouses4*************** -->
+	<specific_character id="mil_sniper4_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="200" max="1100" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bubble3*************** -->
+	<specific_character id="puzir_sniper3_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="200" max="2300" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_arhara1</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bubble1*************** -->
+	<specific_character id="puzir_sniper1_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="200" max="2600" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-bubble2*************** -->
+	<specific_character id="puzir_sniper2_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="200" max="600" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>new\holo_plash</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-germ2*************** -->
+	<specific_character id="ros_sniper2_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_soldier_bandana_9</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>808</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_arhara1</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-germ3*************** -->
+	<specific_character id="ros_sniper3_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>808</rank>
+		<reputation>-132</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-germ5*************** -->
+	<specific_character id="ros_sniper5_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1059</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action-1*************** -->
+	<specific_character id="boev_sniper1_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>459</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action-2*************** -->
+	<specific_character id="boev_sniper2_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>559</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action-3*************** -->
+	<specific_character id="boev_sniper3_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>659</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action Radar-1*************** -->
+	<specific_character id="boev_sniper_rad1_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>659</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action Radar-2*************** -->
+	<specific_character id="boev_sniper_rad2_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>659</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action Radar-3*************** -->
+	<specific_character id="boev_sniper_rad3_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>1016</rank>
+		<reputation>100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action-germ-1*************** -->
+	<specific_character id="boev_sniper_rost1_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>616</rank>
+		<reputation>-100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action-germ-2*************** -->
+	<specific_character id="boev_sniper_rost2_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>616</rank>
+		<reputation>-100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action-germ-3*************** -->
+	<specific_character id="boev_sniper_rost3_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>816</rank>
+		<reputation>-100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Oblique*************** -->
+	<specific_character id="sniper_kosoi_zombi" team_default="1">
+		<name>Kosoi_name_gameplay</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>916</rank>
+		<reputation>-100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\kosoi_zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************Sniper-Action-cordon*************** -->
+	<specific_character id="esc_snip_atak_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>816</rank>
+		<reputation>-100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************security guard-zvera*************** -->
+	<specific_character id="esc_bodyzver_zombi" team_default="1">
+		<name>GENERATE_NAME_bandit</name>
+		<icon>ui_npc_u_stalker_bandit_master</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>816</rank>
+		<reputation>-100</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************zver*************** -->
+	<specific_character id="esc_zver_zombi" team_default="1">
+		<name>Zver_name_gameplay</name>
+		<icon>ui_npc_u_stalker_bandit_borov</icon>
+		<map_icon x="0" y="0"/>
+		<bio>mil_Stalker_master_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="10" max="360" infinitive="0"/>
+		<rank>816</rank>
+		<reputation>-100</reputation>
+		<visual>actors\bandit\stalker_bandit_borov</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<panic_treshold>0</panic_treshold>
+		<crouch_type>0</crouch_type>
+#include "inventory\zver_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+</specific_character>
+	<!-- ***************SPECNAZ*************** -->
+	<specific_character id="esc_mil_def_zombi" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="2" y="2"/>
+		<bio>sim_soldier_specnaz_bio</bio>
+		<class>cit_doctor</class>
+		<community>zombied</community>
+		<panic_threshold>0.0</panic_threshold>
+		<money min="60" max="200" infinitive="0"/>
+		<rank>490</rank>
+		<reputation>-70</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\zombied_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\zombied_dialogs.xml"
+  </specific_character>
+</xml>

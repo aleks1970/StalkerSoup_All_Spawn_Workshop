@@ -1,0 +1,29 @@
+;;;; TB3D 1.1.0.0.1.3 - TB3D style weapons
+; Нож-бабочка
+[wpn_bat_a]:wpn_knife_base
+$spawn              		= "weapons\wpn_bat_a"
+description					= enc_wpn_bat_a
+inv_name					= wpn_bat_a
+inv_name_short				= wpn_bat_a
+inv_weight					= 0.2
+inv_grid_x					= 22
+inv_grid_y					= 45
+
+hud							= wpn_bat_a_hud	
+cost						= 2500
+	
+hit_power                	= 2.9
+hit_power_2                	= 4.4
+
+[wpn_bat_a_hud]:wpn_knife_base_hud
+visual              		= weapons\knife\wpn_bat_a_hud.ogf
+
+[fake_wpn_bat_a]:fake_wpn_knife_base
+description		          = enc_wpn_bat_a
+inv_name					= wpn_bat_a
+inv_name_short				= wpn_bat_a
+inv_weight			         = 0.2
+
+inv_grid_x					= 22
+inv_grid_y					= 45
+cost				        = 2500

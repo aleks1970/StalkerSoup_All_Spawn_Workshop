@@ -1,0 +1,780 @@
+;<!-- TB3D 1.1.0.0.1.3, excluded duplicates and empty discovery_dependency sections aleks1970 -->
+[antizombie]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "food and drugs\antirad"
+$prefetch 		= 32
+class			= II_ANTIR
+cform           = skeleton
+visual          = equipments\item_antirak.ogf
+description		= enc_equipment_medi_antizombie
+
+inv_name		= antizombie
+inv_name_short		= antizombie_s
+inv_weight			= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 40
+inv_grid_y			= 24
+cost				= 15000	;-;110013, old-(30000) - aleks1970
+
+; eatable item
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+eat_alcohol = 0.1
+
+; food item
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;[wsleep_food1]:medkit ; - fake - aleks1970
+;$spawn 				= "artifacts\mincer blood"
+;visual				= equipments\nevidimka.ogf
+;description			= " "
+;inv_name			= " "
+;inv_name_short		= " "
+;quest_item			= true
+;inv_weight			= 0.01
+;inv_grid_width		= 1
+;inv_grid_height		= 1
+;inv_grid_x          = 68
+;inv_grid_y          = 45
+;cost			    = 0
+;eat_health			= 0.1
+;eat_satiety			= 0.6
+;eat_power			= 0.3
+;eat_radiation		= -0.3
+;wounds_heal_perc	= 0.2
+;eat_portions_num	= 1
+;eat_max_power		= 0.1
+
+;[wsleep_food2]:wsleep_food1
+;eat_health			= 0.3
+;eat_satiety			= 1.0
+;eat_power			= 0.4
+;eat_radiation		= -0.6
+;wounds_heal_perc	= 0.7
+;eat_portions_num	= 1
+;eat_max_power		= 0.5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[old_doc]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      = "devices\old_doc" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+
+$prefetch     = 64
+
+radius         = 1
+cost           = 10
+
+inv_name          = doc_garbage
+inv_name_short    = doc_garbage_s
+description	  = enc_doc_garbage
+ 
+inv_weight    = 0.01
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+[old_doc_2]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      = "devices\old_doc" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+
+$prefetch     = 64
+
+radius         = 1
+cost           = 10
+
+inv_name          = doc_agro
+inv_name_short    = doc_agro_s
+description	  = enc_doc_agro
+ 
+inv_weight    = 0.01
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+[old_doc_3_1]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      = "devices\old_doc" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+
+$prefetch     = 64
+
+radius         = 1
+cost           = 10
+
+inv_name          = doc_x18_1
+inv_name_short    = doc_x18_1_s
+description	  = enc_doc_x18_1
+
+inv_weight    = 0.01
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+[old_doc_3_2]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      = "devices\old_doc" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+
+$prefetch     = 64
+
+radius         =1
+cost           = 10
+
+inv_name          = doc_x18_2
+inv_name_short    = doc_x18_2_s
+description	  = enc_doc_x18_2
+
+inv_weight    = 0.01
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+[old_doc_3_3]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970 
+$spawn      = "devices\old_doc" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+
+$prefetch     = 64
+
+radius         = 1
+cost           = 10
+
+inv_name          = doc_x18_3
+inv_name_short    = doc_x18_3_s
+description	  = enc_doc_x18_3
+
+inv_weight    = 0.01
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+[old_doc_3_4]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      = "devices\old_doc" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+
+$prefetch     = 64
+
+radius         = 1
+cost           = 10
+
+inv_name          = doc_x18_4
+inv_name_short    = doc_x18_4_s
+description	  = enc_doc_x18_4
+ 
+inv_weight    = 0.01
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+
+[old_doc_4]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      = "devices\old_doc_4" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+
+$prefetch     = 64
+
+radius         = 1
+cost           = 10
+
+inv_name          = doc_x16
+inv_name_short    = doc_x16_s
+description	  = enc_doc_x16
+
+inv_weight    = 0.01
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+[pda_info]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "devices\pda_info"
+$prefetch 			= 16
+class				= D_PDA
+cform				= skeleton
+visual				= equipments\item_pda_broken.ogf	;new - aleks1970	;item_pda.ogf
+description			= enc_pda_info
+radius				= 50;0 ;75
+slot				= 7
+
+inv_name			= pda_info
+inv_name_short	 	= pda_info_s
+inv_weight			= 0.15	
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 40	; new - aleks1970
+inv_grid_y			= 54
+
+quest_item			= false
+can_trade			= on	;;off	;; - new disabled - aleks1970
+cost				= 20
+attach_angle_offset		= 3.080506,-1.493053,-1.202040   
+attach_position_offset	        = 0.080000,0.021273,0.100000
+attach_bone_name		= bip01_r_hand
+auto_attach				= false
+
+
+; not used
+[doc_3]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      = "devices\old_doc" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+description             = enc_doc_manual_part_descr
+$prefetch     = 64
+
+radius=1
+cost           = 100
+
+inv_name          	 = item_manual_part_3
+inv_name_short    	 = item_manual_part_3_s
+inv_weight    = 1
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+
+; not used
+[doc_4]:ammo_base
+GroupControlSection = spawn_group
+;discovery_dependency = 	; excluded section aleks1970
+$spawn      = "devices\old_doc" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+description       = enc_doc_manual_part_descr ; aleks1970
+$prefetch     = 64
+
+radius=1
+cost           = 100
+
+inv_name    		 = item_manual_part_4
+inv_name_short   	 = item_manual_part_4_s
+inv_weight    = 1
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+
+
+; not used
+[doc_2]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      = "devices\old_doc_4" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+description       = enc_doc_manual_part_descr
+$prefetch     = 64
+
+radius=1
+cost           = 100
+
+inv_name          = item_manual_part_2
+inv_name_short    = item_manual_part_2_s
+inv_weight    = 1
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+
+[doc_1]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "food and drugs\antirad"
+$prefetch 		= 32
+class			= II_ANTIR
+cform           	= skeleton
+visual                  = equipments\upgrade_power.ogf
+description		= enc_doc
+
+inv_name			= item_manual_part_1
+inv_name_short		= item_manual_part_1_s
+inv_weight			= 0.1
+quest_item			= true
+
+inv_grid_width    = 1
+inv_grid_height   = 1
+inv_grid_x      = 58
+inv_grid_y      = 16
+cost				= 0
+
+; eatable item
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+eat_alcohol = 0.1
+
+; food item
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+
+
+[hand_teleporter]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "food and drugs\antirad"
+$prefetch 		= 32
+class			= II_ANTIR	;II_ATTCH
+cform           	= skeleton
+visual          	= equipments\item_datchik3.ogf
+description		= item_umn_tel
+quest_item			= false
+
+inv_name			= hand_teleporter
+inv_name_short		= hand_teleporter_s
+inv_weight			= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 26
+inv_grid_y			= 21
+cost				= 10000
+
+; eatable item
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+eat_alcohol = 0.3
+
+; food item
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+[hand_teleporter_fake]:hand_teleporter
+
+[hand_teleporter_arhara]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "food and drugs\antirad"
+;$prefetch 			= 32
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\item_datchik3.ogf
+radius				= 1
+;script_binding			= stalker.object_init
+quest_item			= false
+
+description			= item_umn_tel_1
+
+inv_name			= hand_teleporter_arhara
+inv_name_short		= hand_teleporter_arhara_s
+inv_weight			= 0.03
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 26
+inv_grid_y			= 21
+cost				= 10
+
+
+
+
+
+; not used
+[doc_5]:ammo_base
+GroupControlSection = spawn_group
+;discovery_dependency = ; excluded section aleks1970	
+$spawn      = "devices\old_doc" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+description      	= enc_doc_manual_part_descr ; aleks1970
+$prefetch     = 64
+
+radius=1
+cost           = 100
+
+inv_name    		= item_manual_part_5
+inv_name_short    	= item_manual_part_5_s
+inv_weight    = 1
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+
+; not used
+[doc_6]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      = "devices\old_doc" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+description       	= enc_doc_manual_part_descr
+$prefetch     = 64
+
+radius=1
+cost           = 100
+
+inv_name    		= item_manual_part_6
+inv_name_short    	= item_manual_part_6_s
+inv_weight    = 1
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+
+; not used
+[doc_7]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      = "devices\old_doc_4" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = amk\item_zapiska.ogf
+description      	= enc_doc_manual_part_descr
+$prefetch     = 64
+
+radius=1
+cost           = 100
+
+inv_name    		= item_manual_part_7
+inv_name_short    	= item_manual_part_7_s
+inv_weight    = 1
+
+inv_grid_width    = 2
+inv_grid_height   = 1
+inv_grid_x      = 6
+inv_grid_y      = 19
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+
+[doc_8]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "food and drugs\antirad"
+$prefetch 		= 32
+class			= II_ANTIR
+cform           	= skeleton
+visual                  = equipments\upgrade_health.ogf
+description		= new_apgreider_1
+
+inv_name			= doc_8
+inv_name_short		= doc_8_s
+inv_weight			= 0.1
+quest_item			= true
+
+inv_grid_width    = 1
+inv_grid_height   = 1
+inv_grid_x      = 58
+inv_grid_y      = 15
+cost				= 0
+
+; eatable item
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+eat_alcohol = 0.1
+
+; food item
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+
+[acumm]:ammo_base
+GroupControlSection = spawn_group
+; discovery_dependency = ; aleks1970
+$spawn      = "devices\old_doc" ; option for Level Editor
+class     = AMMO
+cform                   = skeleton
+visual                  = equipments\item_rakdage.ogf
+description       = enc_akku_anomal_descr
+$prefetch     = 64
+
+radius         = 1
+cost           = 500
+
+inv_name          = akku_anomal
+inv_name_short    = akku_anomal_s
+inv_weight    = 0.01
+
+inv_grid_width    = 1
+inv_grid_height   = 1
+inv_grid_x      = 31
+inv_grid_y      = 23
+
+box_size=1
+
+k_dist      = 1
+k_disp      = 3
+k_hit     = 1.4
+k_impulse   = 1.2
+k_pierce    = 1.35
+impair      = 1.15
+buck_shot   = 1
+tracer      = off
+wm_size         = 0.05
+
+
+[doc_10]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "food and drugs\antirad"
+$prefetch 		= 32
+class			= II_ANTIR
+cform           	= skeleton
+visual                  = equipments\upgrade_kevlar1.ogf
+description		= new_apgreider_2
+
+inv_name			= doc_10
+inv_name_short		= doc_10_s
+inv_weight			= 0.1
+quest_item			= true
+
+inv_grid_width    = 1
+inv_grid_height   = 1
+inv_grid_x      = 52
+inv_grid_y      = 5
+cost				= 0
+
+; eatable item
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+eat_alcohol = 0.1
+
+; food item
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+

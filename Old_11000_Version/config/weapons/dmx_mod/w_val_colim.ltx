@@ -1,0 +1,175 @@
+;;;; TB3D 1.1.0.0.0.2 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+;ј— ¬ал Ђ обраї
+[wpn_val_colim]:identity_immunities
+GroupControlSection			= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                  	= "weapons\val_colim"					; option for Level Editor
+$npc			 			= on				; option for Level Editor
+$prefetch 					= 8
+scheduled            		= off              ; option for ALife Simulator
+cform                		= skeleton
+class                		= WP_VAL
+min_radius					= 0
+max_radius					= 400
+description					= enc_weapons_wpn_val_colim
+
+ef_main_weapon_type			= 2
+ef_weapon_type				= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0		       ; во сколько раз увеличиваетс€ eye_range 
+holder_fov_modifier		= 0.7              ; во сколько раз увеличиваетс€ eye_fov
+;-----------------------------------------------------------------------------------
+
+cost		 	 			= 11000	
+weapon_class				= assault_rifle
+
+ammo_limit					= 210
+ammo_current				= 180
+ammo_elapsed				= 20
+	
+ammo_mag_size				= 26
+ammo_class		 			= ammo_9x39_pab9, ammo_9x39_sp5, ammo_9x39_ap, ammo_9x39_izomorf
+fire_modes					= 1, -1
+		
+hand_dependence		 		= 1
+single_handed				= 0
+	
+slot 				 		= 2		; // secondary
+animation_slot		 		= 2		; type of the animation that will be used
+
+inv_name	         		= wpn_val_colim
+inv_name_short		 		= wpn_val_colim
+inv_weight		 			= 2.7
+
+inv_grid_width				= 5
+inv_grid_height				= 2
+inv_grid_x					= 19
+inv_grid_y					= 77
+
+kill_msg_x			= 0
+kill_msg_y			= 154
+kill_msg_width		= 78
+kill_msg_height		= 21
+
+;-----------------------------------------------------------------------------------
+;базова€ дисперси€
+fire_dispersion_base		= 0.014	;угол (в градусах) базовой дисперсии оружи€ (оружи€ зажатого в тисках)
+control_inertion_factor		= 1.04f
+
+;отдача
+cam_relax_speed         	= 5	;скорость возврата в исходное положение
+cam_dispersion          	= 0.3	;увеличени€ угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 0.05	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 1.0	;ствол будет подыматьс€ на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle			= 7.0	;максимальный угол отдачи
+cam_max_angle_horz		= 10.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 0.5;0.4	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 	= 0.003	;веро€тность осечки при максимальном износе 
+misfire_condition_k		= 0.05
+condition_shot_dec 		= 0.00005 ;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+
+
+direction            	    = 0, 0, 1
+
+fire_point           	    = 0.0, 0.174, 0.562
+
+smoke_particles				= weapons\generic_shoot_00
+
+shell_point		 			= 0.0, 0.174, 0.078
+shell_dir		 			= 0.0, 1.0, 0.0
+shell_particles	 			= weapons\generic_shells
+
+rpm_empty_click 			= 200
+
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 		= 1.2
+PDM_disp_accel_factor 		= 1.2
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+; ttc
+hit_power        	= 1.99
+hit_impulse		 	= 140
+hit_type 			= fire_wound
+
+fire_distance   	    = 300					;;;109974 10:1
+bullet_speed			= 300	;начальна€ скорость пули
+rpm             		= 650 ;800
+; end ttc
+
+use_aim_bullet				= true		;ѕоддерживаетс€ ли перва€ супер пул€
+time_to_aim					= 1.0	
+
+hud             	        = wpn_val_colim_hud
+normal          	        = 0, 1, 0
+
+;----------------------------------------------------------
+position        	        = -0.026, -0.131, 0.0
+orientation     	        = 0, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+;под мишкой
+strap_position         		= -0.26,-0.11,0.25			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -15,-9,110				; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+startup_ammo    	        = 90
+visual          	        = weapons\val_colim\wpn_val_colim.ogf
+
+light_disabled				= true
+
+ph_mass			 			= 5
+;cost			 			= 2100
+
+;addons
+scope_status				= 0
+silencer_status				= 1
+grenade_launcher_status		= 0
+
+zoom_enabled				= true
+scope_zoom_factor		    = 90
+scope_name 					= wpn_addon_scope
+scope_texture				= wpn\wpn_crosshair
+scope_x 					= 37						; offset in inventory icon
+scope_y 					= 0
+;звуки
+snd_draw					= weapons\val_vss\draw
+snd_holster					= weapons\val_vss\holster
+snd_shoot					= weapons\val_vss\shot1      
+snd_shoot1					= weapons\val_vss\shot2
+snd_shoot2					= weapons\val_vss\shot3
+snd_empty					= weapons\val_vss\empty
+snd_reload					= weapons\val_vss\reload
+snd_close					= weapons\val_vss\holster
+
+ 
+[wpn_val_colim_hud]
+shell_point			= 0,0,-0.6
+shell_dir		 			= 0.0, 1.0, 0.0
+
+fire_point       	        = 0,0,-0.65
+fire_bone        	        = muzzle	;wpn_body  ; - aleks1970
+orientation      	        = 0, 0, 0
+position         	        = 0.15,-0.06,-0.05
+visual           	        = weapons\val_colim\wpn_val_colim_hud.ogf
+
+anim_idle			= idle
+anim_reload			= reload
+anim_draw			= draw
+anim_holster		= holster
+anim_shoot			= shoot1
+anim_idle_aim		= idle_aim
+anim_idle_sprint		= idle_sprint
+
+;смещени€ HUD дл€ режима приближени€
+zoom_offset = -0.149, 0.029, 0
+zoom_rotate_x = 0
+zoom_rotate_y = 0
+
+

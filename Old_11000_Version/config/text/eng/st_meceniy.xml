@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.4 updated to 134, corrected text and new text addon, aleks1970, exo tb3d, added stats, new invisible suit,
+ Nano and enemy decoder text - aleks1970, enemy_sms_skat_system_m1, enemy_sms_storm_system_m1, on/off button text -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for accuracy, clarity, brevity, and consistency. 07 Apr 16 -->
+<!-- Added explanation for the Stealth and Ghost suits' need to be removed to reactivate - Sword2012. 07 Apr 16 -->
+<!-- Text editing as commented below - Sword2012 - 16 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<string_table>
+	<string id="esc_akim">
+		<text>Akim</text>
+	</string>
+	<string id="agro_adrenalin">
+		<text>Adrenalin</text>
+	</string>
+	<string id="antizombie">
+		<text>'Antizombin' Antidote</text>
+	</string>
+	<string id="antizombie_s">
+		<text>'Antizombin'</text>
+	</string>
+	<string id="enc_equipment_medi_antizombie">
+		<text>A new medical development from the Dharma Initiative, 'Antizombin' counteracts the aspects of Psi-radiation responsible for the 'zombification' process. Taken during the early stages, this normally irreversible transformation can be arrested\nFor the antidote to take effect as quickly as possible, two (2) doses must be administered by intra-muscular injection, one in the upper arm and the other in the opposite thigh\nA literal lifesaver in the Zone, its only drawback is an extremely high cost due to a very limited field of use</text>
+	</string>
+	<!-- invisible suit strings -->
+	<string id="You_can_see_invisi">
+		<text>Camouflage is OFF...</text>
+	</string>
+	<string id="You_beco_visible_invisi">
+		<text>Warning: 10 seconds to exposure...</text>
+	</string>
+	<string id="You_are_invisible_invisi">
+		<text>Camouflage is ON...</text>
+	</string>
+	<string id="mas_outfit_name">
+		<text>'Stealth' Exoskeleton</text>
+	</string>
+	<string id="mas_outfit_description">
+		<text>%c[255,1,255,255]Impaction: %c[255,1,255,1]+10%\n%c[255,1,255,255]Laceration: %c[255,1,255,1]+40%\n%c[255,1,255,255]Explosive: %c[255,1,255,1]+25%\n%c[255,1,255,255]Penetration: %c[255,1,255,1]+40%\n%c[255,1,255,255]Burning: %c[255,1,255,1]+50%\n%c[255,1,255,255]Chemical: %c[255,1,255,1]+50%\n%c[255,1,255,255]Electrical: %c[255,1,255,1]+75%\n%c[255,1,255,255]Psionic: %c[255,1,255,1]+55%\n%c[255,1,255,255]Radiation: %c[255,1,255,1]+45%\n%c[default]• The latest development from one of the Foreign Secret Laboratories, this suit is utilised by Special Forces, saboteurs, and scouts for covert activities where a high degree of 'invisibility' is necessary\n \n• The suit effectively uses all of its space for camouflage components. Fabricated from a composite material radically different from standard body armor - an alloy mesh interwoven with polarized prismatic fibres, with an average thickness of 4mm - what it lacks in strength is made up with guile. Multiple scanning devices and wave modifiers inhibit and deflect light rays, resulting in a surface which alters the way light reflects off it, while also blending in with its surroundings\nSince this simply changes the armor's color (I.e. turning white against a hilltop horizon), it is not completely foolproof. However, it has proven itself highly effective in situations involving static observation and slow tactical movement, although details of its first deployment in the Zone are unknown\n \n• The suit will activate as soon as it detects you're wearing it, and is good for 10 minutes (Zone Time) of camouflage before its circuitry overheats, and needs to be removed to cool down before being used again. Passing through a transition point, while still wearing the suit, will sometimes achieve the same effect</text>
+	</string>
+	<!-- Removed the line %c[255,1,255,255]Carry weight: %c[255,1,255,1]+35kg\n from 'Stealth' Suit stats for accuracy - Sword2012. 05 Apr 16 -->
+	<string id="integral_knife">
+		<text>Cloaked sword</text>
+	</string>
+	<string id="enc_integral_knife_desc">
+		<text>Cloaked Samurai-type sword</text>
+	</string>
+	<string id="battery_is_empty">
+		<text>OFF: Fuel cell is empty...</text>
+	</string>
+	<string id="is_damaged">
+		<text>Camouflage suit is damaged...</text>
+	</string>
+	<string id="mas_outfit_strelok_name">
+		<text>Exoskeleton 'Ghost'</text>
+	</string>
+	<string id="mas_outfit_strelok_description">
+		<text>%c[255,1,255,255]Impaction: %c[255,1,255,1]+10%\n%c[255,1,255,255]Laceration: %c[255,1,255,1]+40%\n%c[255,1,255,255]Explosive: %c[255,1,255,1]+25%\n%c[255,1,255,255]Penetration: %c[255,1,255,1]+40%\n%c[255,1,255,255]Burning: %c[255,1,255,1]+50%\n%c[255,1,255,255]Chemical: %c[255,1,255,1]+50%\n%c[255,1,255,255]Electrical: %c[255,1,255,1]+10%\n%c[255,1,255,255]Psionic: %c[255,1,255,1]+55%\n%c[255,1,255,255]Health: %c[255,1,255,1]+700\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-45%\n%c[255,1,255,255]Radiation: %c[255,1,255,1]+45%\n%c[255,1,255,255]Carry weight: %c[255,1,255,1]+35kg\n%c[default]• The latest development from one of the Foreign Secret Laboratories, this suit is utilised by Special Forces, saboteurs, and scouts for covert activities where a high degree of 'invisibility' is necessary, especially as a silent, single-handed 'cloaked' weapon is integrated within the suit\n \n• The suit effectively uses all of its space for camouflage components. Fabricated from a composite material radically different from standard body armor - an alloy mesh interwoven with polarized prismatic fibres, with an average thickness of 4mm - what it lacks in strength is made up with guile. Multiple scanning devices and wave modifiers inhibit and deflect light rays, resulting in a surface which alters the way light reflects off it, while also blending in with its surroundings.\nSince this simply changes the armor's color (I.e. turning white against a hilltop horizon), it is not completely foolproof. However, it has proven itself highly effective in situations involving static observation and slow tactical movement, although details of its first deployment in the Zone are unknown\n \n• The suit will activate as soon as it detects you're wearing it, and an improved cooling system makes it good for 30 minutes (Zone Time) of camouflage before its circuitry overheats. A visual countdown bar in the HUD gives clear indication of useable time available before this happens. It will need to be removed to cool down before being used again. Passing through a transition point, while still wearing the suit, will sometimes achieve the same effect</text>	<!-- final settings aleks1970 -->
+	</string>
+	<string id="mil_exoskeleton_name">
+		<text>Army Prototype SKAT15</text>
+	</string>
+	<string id="mil_exoskeleton_name_s">
+		<text>Prototype SKAT15</text>
+	</string>
+	<string id="mil_exoskeleton_description">
+		<text>%c[255,1,255,255]Impaction: %c[255,1,255,1]+55%\n%c[255,1,255,255]Laceration: %c[255,1,255,1]+65%\n%c[255,1,255,255]Explosive: %c[255,1,255,1]+50%\n%c[255,1,255,255]Penetration: %c[255,1,255,1]+15%\n%c[255,1,255,255]Burning: %c[255,1,255,1]+55%\n%c[255,1,255,255]Chemical: %c[255,1,255,1]+50%\n%c[255,1,255,255]Electrical: %c[255,1,255,1]+60%\n%c[255,1,255,255]Psionic: %c[255,1,255,1]+35%\n%c[255,1,255,255]Health: %c[255,1,255,1]+150\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-10%\n%c[255,1,255,255]Radiation: %c[255,1,255,1]+60%\n%c[255,1,255,255]Carry weight: %c[255,1,255,1]+50kg\n%c[default]• Prototype of a 'SMART' suit based upon standard SKAT10 armor, but with built-in health status diagnostics, and the potential to upgrade its protection\n \n• Specially developed curved lenses in the helmet give a clear, distortion-free FOV of almost 180 degrees, while retaining the sealing integrity and mechanical strength of flat lenses. Behind the Kevlar skid plates has been fused a strata of powdered symbiotic artefacts, the properties of which are controlled by software within the suit itself. Four expansion slots for micro-circuits extend the suit's functions in this way, starting with the system activation module and then adding upgrade blocks - with each one consuming more power\nOnly one prototype of this suit exists, and all design documents, drawings, and development records pertaining to it have been lost\n \n• Although this base unit weighs a substantial 30kg, it offsets this by increasing the wearer's carrying capacity by 50kg</text>
+	</string>
+	<string id="mil_exoskeleton_name_add">
+		<text>Modified Army Prototype SKAT15-M</text>
+	</string>
+	<string id="mil_exoskeleton_name_add_s">
+		<text>SKAT15-M 'Upgrade system activated'</text>
+	</string>
+	<string id="mil_exoskeleton_description_add">
+		<text>%c[255,1,255,255]Impaction: %c[255,1,255,1]+55%\n%c[255,1,255,255]Laceration: %c[255,1,255,1]+65%\n%c[255,1,255,255]Explosive: %c[255,1,255,1]+50%\n%c[255,1,255,255]Penetration: %c[255,1,255,1]+35%\n%c[255,1,255,255]Burning: %c[255,1,255,1]+55%\n%c[255,1,255,255]Chemical: %c[255,1,255,1]+50%\n%c[255,1,255,255]Electrical: %c[255,1,255,1]+60%\n%c[255,1,255,255]Psionic: %c[255,1,255,1]+60%\n%c[255,1,255,255]Health: %c[255,1,255,1]+230\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-15%\n%c[255,1,255,255]Radiation: %c[255,1,255,1]+60%\n%c[255,1,255,255]Carry weight: %c[255,1,255,1]+60kg\n%c[default]• Modified prototype SKAT15 suit, with the system activation module installed ready for connecting additional upgrade blocks\n \n• Specially developed curved lenses in the helmet give a clear, distortion-free FOV of almost 180 degrees, while retaining the sealing integrity and mechanical strength of flat lenses. Behind the Kevlar skid plates has been fused a strata of powdered symbiotic artefacts, the properties of which are controlled by software within the suit itself. Three further expansion slots are available for upgrade blocks of micro-circuits to extend the suit's functions in this way, with each one consuming more power\nOnly one prototype of this suit exists, and all design documents, drawings, and development records pertaining to it have been lost\n \n• The system activation module delivers increased protection against Psi-influence, radiation, and projectile damage, as well as increased health benefits, over the base unit. Carrying capacity has been increased by 10kg, while the apparent weight has been reduced by 4kg</text>
+	</string>
+	<string id="mil_exoskeleton_name_addr">
+		<text>Modified Army Prototype SKAT15-M1</text>
+	</string>
+	<string id="mil_exoskeleton_name_addr_s">
+		<text>SKAT15-M1 'Upgrade Level 1'</text>
+	</string>
+	<string id="mil_exoskeleton_description_addr">
+		<text>%c[255,1,255,255]Impaction: %c[255,1,255,1]+55%\n%c[255,1,255,255]Laceration: %c[255,1,255,1]+65%\n%c[255,1,255,255]Explosive: %c[255,1,255,1]+55%\n%c[255,1,255,255]Penetration: %c[255,1,255,1]+55%\n%c[255,1,255,255]Burning: %c[255,1,255,1]+60%\n%c[255,1,255,255]Chemical: %c[255,1,255,1]+60%\n%c[255,1,255,255]Electrical: %c[255,1,255,1]+70%\n%c[255,1,255,255]Psionic: %c[255,1,255,1]+60%\n%c[255,1,255,255]Health: %c[255,1,255,1]+420\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-33%\n%c[255,1,255,255]Radiation: %c[255,1,255,1]+65%\n%c[255,1,255,255]Carry weight: %c[255,1,255,1]+70kg\n%c[default]• Modified prototype SKAT15 suit, with the system activation module and upgrade block #1 installed\n \n• Specially developed curved lenses in the helmet give a clear, distortion-free FOV of almost 180 degrees, while retaining the sealing integrity and mechanical strength of flat lenses. Behind the Kevlar skid plates has been fused a strata of powdered symbiotic artefacts, the properties of which are controlled by software within the suit itself. Two further expansion slots are available for upgrade blocks of micro-circuits to extend the suit's functions in this way, with each one consuming more power\nOnly one prototype of this suit exists, and all design documents, drawings, and development records pertaining to it have been lost\n \n• This upgrade delivers additional protection against heat, chemical, electrical, radiation, explosive, and projectile damage, as well as increased health benefits. Carrying capacity has also been raised by 10kg, while the apparent weight of the suit has stayed the same</text>
+	</string>
+	<string id="mil_exoskeleton_name_addx">
+		<text>Modified Army Prototype SKAT15-M2</text>
+	</string>
+	<string id="mil_exoskeleton_name_addx_s">
+		<text>SKAT15-M2 'Upgrade Level 2'</text>
+	</string>
+	<string id="mil_exoskeleton_description_addx">
+		<text>%c[255,1,255,255]Impaction: %c[255,1,255,1]+55%\n%c[255,1,255,255]Laceration: %c[255,1,255,1]+70%\n%c[255,1,255,255]Explosive: %c[255,1,255,1]+55%\n%c[255,1,255,255]Penetration: %c[255,1,255,1]+60%\n%c[255,1,255,255]Burning: %c[255,1,255,1]+60%\n%c[255,1,255,255]Chemical: %c[255,1,255,1]+60%\n%c[255,1,255,255]Electrical: %c[255,1,255,1]+70%\n%c[255,1,255,255]Psionic: %c[255,1,255,1]+65%\n%c[255,1,255,255]Health: %c[255,1,255,1]+640\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-45%\n%c[255,1,255,255]Radiation: %c[255,1,255,1]+70%\n%c[255,1,255,255]Carry weight: %c[255,1,255,1]+70kg\n%c[default]• Modified prototype SKAT15 suit, with the system activation module and upgrade blocks #1 and #2 installed\n \n• Specially developed curved lenses in the helmet give a FOV of almost 180 degrees, while retaining the sealing integrity and mechanical strength of flat lenses. Behind the Kevlar skid plates has been fused a strata of various powdered artefacts, the properties of which are controlled by software within the suit itself. One further expansion slot is available for an upgrade block of micro-circuits to extend the suit's functions in this way, with each additional block consuming more power\nThe built-in 'LifeGuard' system in this upgrade requires much more power to keep its critical software stable. For this reason the power source does not use standard cells, but microwave energy generated by the unique 'Black Energy' artefact. This eliminates heavy batteries, and the need to replace or recharge them in the field\nOnly one prototype of this suit exists, and all design documents, drawings, and development records pertaining to it have been lost\n \n• This upgrade delivers further protection against Psi-influence, radiation, rupture, and projectile damage, as well as increased health benefits, over the previous upgrade block. The apparent weight of the suit has also been reduced by 4kg\n \n• The LifeGuard interactive program constantly monitors the wearer's state of health in extreme situations, analysing blood sugar, oxygenation, electrolyte levels, radiation dosage, blood pressure, and the external environment - in order to protect your vital functions when your attention is needed elsewhere\nThe software also combines aspects of the popular Bioradar detector and the PDA/GPS/HUD array to warn of unfriendly presences well ahead of both systems\nNOTE: The Lifeguard system consumes power rapidly, and will require a new Black Energy artefact after every two hours (Zone Time) of use\nFor further information, please read the Instruction Manual</text>
+	</string>
+	<string id="item_manual_part_1">
+		<text>Maintenance Manual - Part 1</text>
+	</string>
+	<string id="item_manual_part_1_s">
+		<text>Manual - Part 1</text>
+	</string>
+	<string id="item_manual_part_2">
+		<text>Maintenance Manual - Part 2</text>
+	</string>
+	<string id="item_manual_part_2_s">
+		<text>Manual - Part 2</text>
+	</string>
+	<string id="item_manual_part_3">
+		<text>Maintenance Manual - Part 3</text>
+	</string>
+	<string id="item_manual_part_3_s">
+		<text>Manual - Part 3</text>
+	</string>
+	<string id="item_manual_part_4">
+		<text>Maintenance Manual - Part 4</text>
+	</string>
+	<string id="item_manual_part_4_s">
+		<text>Manual - Part 4</text>
+	</string>
+	<string id="item_manual_part_5">
+		<text>Maintenance Manual - Part 5</text>
+	</string>
+	<string id="item_manual_part_5_s">
+		<text>Manual - Part 5</text>
+	</string>
+	<string id="item_manual_part_6">
+		<text>Maintenance Manual - Part 6</text>
+	</string>
+	<string id="item_manual_part_6_s">
+		<text>Manual - Part 6</text>
+	</string>
+	<string id="item_manual_part_7">
+		<text>Maintenance Manual - Part 7</text>
+	</string>
+	<string id="item_manual_part_7_s">
+		<text>Manual - Part 7</text>
+	</string>
+	<string id="enc_doc_manual_part_descr">
+		<text>System activation module to manage additional upgrade blocks for Exoskeleton 'SKAT15-M'. Needs to be inserted into the first expansion slot within the suit</text>
+	</string>
+	<string id="doc_1">
+		<text>System Activation Module, plus relevant pages from a larger document</text>	<!-- Was just 'System Activation Module' - Sword2012-->
+	</string>
+	<string id="enc_doc">
+		<text>System activation module to enable the use of upgrade blocks of micro-circuits for the Exoskeleton 'SKAT15'. Needs to be inserted into the first expansion slot within the suit, and manages the additional functions of the suit itself. Onboard memory is volatile, and potentially prone to loss</text>
+	</string>
+	<string id="doc_8">
+		<text>Upgrade Block #1</text>
+	</string>
+	<string id="doc_8_s">
+		<text>Upgrade #1</text>
+	</string>
+	<string id="new_apgreider_1">
+		<text>First set of micro-circuits incorporated into an upgrade block, to expand the functionalities of the Exoskeleton 'SKAT15-M'. Onboard memory is volatile and prone to loss. Install in the second expansion slot</text>
+	</string>
+	<string id="doc_10">
+		<text>Upgrade Block #2</text>
+	</string>
+	<string id="doc_10_s">
+		<text>Upgrade #2</text>
+	</string>
+	<string id="new_apgreider_2">
+		<text>Second set of micro-circuits incorporated into an upgrade block, to expand the functionalities of the Exoskeleton 'SKAT15-M1', after installing the system activation module. WARNING: Onboard memory is volatile and substantially prone to loss without battery backup. Install in the third expansion slot</text>
+	</string>
+	<!--DMX UPGRADE -->
+	<string id="dmx_skat15_upgrade">
+		<text>Upgrade Block #3</text>
+	</string>
+	<string id="dmx_apgreider_3">
+		<text>Third set of micro-circuits incorporated into an upgrade block, to expand the functionalities of the Exoskeleton SKAT15-M2, after installing upgrade blocks #1 and #2. This upgrade uses non-volatile memory for the software, enabling full functionality of the suit without the need for Black Energy artefacts. Install in the fourth expansion slot</text>
+	</string>
+	<string id="mil_exoskeleton_name_dmx_upgrade">
+		<text>Modified Army Prototype SKAT15-M3</text>
+	</string>
+	<string id="mil_exoskeleton_name_dmx_upgrade_s">
+		<text>SKAT15-M3 'Upgrade Level 3'</text>
+	</string>
+	<string id="mil_exoskeleton_description_dmx_upgrade">
+		<text>%c[255,1,255,255]Impaction: %c[255,1,255,1]+62%\n%c[255,1,255,255]Laceration: %c[255,1,255,1]+75%\n%c[255,1,255,255]Explosive: %c[255,1,255,1]+68%\n%c[255,1,255,255]Penetration: %c[255,1,255,1]+72%\n%c[255,1,255,255]Burning: %c[255,1,255,1]+75%\n%c[255,1,255,255]Chemical: %c[255,1,255,1]+73%\n%c[255,1,255,255]Electrical: %c[255,1,255,1]+73%\n%c[255,1,255,255]Psionic: %c[255,1,255,1]+85%\n%c[255,1,255,255]Health: %c[255,1,255,1]+850\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-55%\n%c[255,1,255,255]Radiation: %c[255,1,255,1]+85%\n%c[255,1,255,255]Carry weight: %c[255,1,255,1]+80kg\n%c[default]• Modified prototype SKAT15 suit, with the system activation module and upgrade blocks #1, #2, and #3 installed\n \n• Specially developed curved lenses in the helmet give a clear, distortion-free FOV of almost 180 degrees, while retaining the sealing integrity and mechanical strength of flat lenses. Behind the Kevlar skid plates has been fused a strata of powdered symbiotic artefacts, the properties of which are controlled by software within the suit itself. Four expansion slots for micro-circuits extend the suit's functions in this way, starting with the system activation module and then adding upgrade blocks. In this version, all expansion slots are fully populated, allowing access to the suit's full potential\nOnly one prototype of this suit exists, and all design documents, drawings, and development records pertaining to it have been lost\n \n• This upgrade further tunes the suit's protection from every type of damage, as well as delivering increased health benefits. Carrying capacity has also been increased by 10kg, while the apparent weight of the suit has been reduced by a further 7kg\nThe LifeGuard interactive program constantly monitors the wearer's state of health in extreme situations, analysing blood sugar, oxygenation, electrolyte levels, radiation dosage, blood pressure, and the external environment - in order to protect your vital functions when your attention is needed elsewhere\nThe software also combines aspects of the popular Bioradar detector and the PDA/GPS/HUD array to warn of unfriendly presences well ahead of both systems\nNOTE: All system control software is now held in non-volatile memory, and no longer requires Black Energy artefacts to keep the LifeGuard system functioning. For further information, please read the Instruction Manual</text>
+	</string>
+	<!-- TB3D 1.0.9.9.6.0 SKAT15 section sms -->
+	<!-- Skat15 suit Sytem upgrades -->
+	<string id="skat15_sms_skat_system_m">
+		<text>SKAT15 Suit System:\n</text>
+	</string>
+	<string id="skat15_sms_upg_complete_m">
+		<text>Maintenance Upgrade Complete...</text>
+	</string>
+	<string id="skat15_sms_upg_complete_m1">
+		<text>Upgrade Block #1 installation complete...</text>
+	</string>
+	<string id="skat15_sms_upg_complete_m2">
+		<text>Upgrade Block #2 installation complete...</text>
+	</string>
+	<string id="skat15_sms_upg_complete_dmx">
+		<text>Upgrade Block #3 installation complete...</text>
+	</string>
+	<string id="skat15_sms_req_energy">
+		<text>Upgrade requires Black Energy artefact...</text>
+	</string>
+	<string id="skat15_sms_final_upg_complete">
+		<text>Final upgrade complete...</text>
+	</string>
+	<!-- Skat15 suit Sytem Life Support "Health" -->
+	<string id="skat15_sms_life_suport">
+		<text>LifeGuard system:</text>	<!-- Added a space - Sword2012-->
+	</string>
+	<string id="skat15_sms_life_suport_1">
+		<text>LifeGuard: Healing system:</text>
+	</string>
+	<string id="skat15_sms_life_suport_2">
+		<text>LifeGuard: Antiradiation system:</text>
+	</string>
+	<string id="skat15_sms_life_suport_3">
+		<text>LifeGuard: Energy system:\n</text>
+	</string>
+	<string id="skat15_sms_life_suport_4">
+		<text>LifeGuard: Anti-zombification system:\n</text>
+	</string>
+	<string id="skat15_sms_life_suport_5">
+		<text>LifeGuard: Anti-haemorrhaging system:</text>
+	</string>
+	<string id="skat15_sms_life_adminis_aid_proced_suport">
+		<text>Administering medical procedures...\n</text>
+	</string>
+	<string id="skat15_sms_health_below_auto">
+		<text>Sensing health 65% below normal\nIf you have medical supplies, LifeGuard will automatically administer them...\n</text>
+	</string>
+	<string id="skat15_sms_life_suport_auto">
+		<text>Sensing heavy blood loss\nIf you have bandages or clotting medication, LifeGuard will automatically administer them...\n</text>
+	</string>
+	<string id="skat15_sms_med_suppl_found">
+		<text>Medical supplies sourced\n - Administering medical procedures...\n</text>
+	</string>
+	<!-- ***********************************- Healing Supplies -******************************* -->
+	<string id="skat15_sms_life_heal_suport_medkit">
+		<text>Medical Supplies 'Standard medkit' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<string id="skat15_sms_life_heal_medkit_army">
+		<text>Medical Supplies 'Army medkit' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<string id="skat15_sms_life_heal_medkit_scientic">
+		<text>Medical Supplies 'Scientific medkit' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<string id="skat15_sms_life_heal_medkit_elite">
+		<text>Medical Supplies 'Elite medkit' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<string id="skat15_sms_life_heal_suvorotka">
+		<text>Medical Supplies 'Whey tablets' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<string id="skat15_sms_life_heal_irp-b">
+		<text>Medical Supplies 'Military rations' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<string id="skat15_sms_life_heal_syh_pay_gde_3">
+		<text>Medical Supplies 'Military rations GDE-3' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<string id="skat15_sms_life_syh_pay_spp5">
+		<text>Medical Supplies 'Military rations SSP5' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<!-- ***********************************- Bandages -************************************ -->
+	<string id="skat15_sms_life_heal_bandage">
+		<text>Medical Supplies 'Bandage' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<string id="skat15_sms_life_heal_bandage_2">
+		<text>Medical Supplies 'Secondary bandage' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<string id="skat15_sms_life_heal_zhgut">
+		<text>Medical Supplies 'Wound dressing' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<string id="skat15_sms_life_heal_antiseptic">
+		<text>Medical Supplies 'Antiseptic bandage' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<string id="skat15_sms_life_heal_bandage_dmx">
+		<text>Medical Supplies 'Special dressing' sourced...\n - Administering medical procedures...\n</text>
+	</string>
+	<!-- ********************************************************************************** -->
+	<string id="skat15_sms_med_suppl_not_found">
+		<text>Medical supplies not sourced. Find a safe place until your wounds heal...\n</text>
+	</string>
+	<!-- Skat15 suit Sytem Life Support "Radiation" -->
+	<string id="skat15_sms_cri_dose_of_rad">
+		<text>Sensing high radiation dosage\nYou do not have an antidote. Stay clear of irradiated areas...\n</text>
+	</string>
+	<string id="skat15_sms_cri_dose_of_rad_2">
+		<text>Sensing high radiation dosage. Permanent DNA damage imminent\nIf you have an antidote, Lifeguard will automatically remove radiation from your body, possibly resulting in a temporary loss of alertness...\n</text>
+	</string>
+	<string id="skat15_sms_alcohol_dose_found">
+		<text>Treating radiation poisoning with alcohol...</text>
+	</string>
+	<string id="skat15_sms_antirad_antidote_dose_found">
+		<text>'Anti-radiation drugs' sourced. Administering...\n</text>
+	</string>
+	<string id="skat15_sms_amfetamin_dose_found">
+		<text>'Amphetamine' sourced. Administering...\n</text>
+	</string>
+	<string id="skat15_sms_scientic_med_dose_found">
+		<text>'Scientific medkit' sourced. Administering...\n</text>
+	</string>
+	<string id="skat15_sms_medkit_elite_dose_found">
+		<text>'Elite medkit' sourced. Administering...\n</text>
+	</string>
+	<string id="skat15_sms_antidote_not_found">
+		<text>'Anti-radiation' resources not sourced...\n</text>
+	</string>
+	<!-- Skat15 suit Sytem Life Support "Psy Protection" -->
+	<string id="skat15_sms_zombi_proc_under">
+		<text>Zombification in progress...\n If you have 'Antizombin' antidote, LifeGuard will automatically administer it...\n</text>
+	</string>
+	<string id="skat15_sms_antizombin_adminst_now">
+		<text>'Antizombin' antidote sourced. Administering...\n</text>
+	</string>
+	<string id="skat15_sms_antizombin_not_found">
+		<text>'Antizombin' antidote not sourced...\n</text>
+	</string>
+	<!-- Skat15 suit Sytem Life Support "Energy" -->
+	<string id="skat15_sms_seek_energy_now">
+		<text>Sensing fatigue\nSeeking energy sources now...\n</text>
+	</string>
+	<string id="skat15_sms_administ_100_Rads_energy_now">
+		<text>'100 Rads' energy product sourced. Administering...\n</text>
+	</string>
+	<string id="skat15_sms_administ_amfetamin_energy_now">
+		<text>'Amphetamine' energy product sourced. Administering...\n</text>
+	</string>
+	<string id="skat15_sms_administ_energy_red_bull_energy_now">
+		<text>'Red Bull' energy product sourced. Administering...\n</text>
+	</string>
+	<string id="skat15_sms_administ_energy_ad_rush_energy_now">
+		<text>'Adrenaline Rush' energy product sourced. Administering...\n</text>
+	</string>
+	<string id="skat15_sms_administ_energy_non_stop_energy_now">
+		<text>'Non-Stop' energy product sourced. Administering...\n</text>
+	</string>
+	<string id="skat15_sms_administ_energy_stalker_energy_now">
+		<text>'Stalker Brew' energy product sourced. Administering...\n</text>
+	</string>
+	<string id="skat15_sms_energy_sourc_ok">
+		<text>Energy product sourced. Energy system activated...\n</text>
+	</string>
+	<string id="skat15_sms_energy_sourc_rest">
+		<text>No energy product sourced. Rest is essential...\n</text>
+	</string>
+	<string id="skat15_sms_skat_power_system">
+		<text>Suit Power System:\n</text>
+	</string>
+	<string id="skat15_sms_power_suit_full">
+		<text>Suit power 100%\n</text>
+	</string>
+	<string id="skat15_sms_power_suit_no_sourc_remain">
+		<text>No power sources remaining...\n</text>
+	</string>
+	<string id="skat15_sms_power_suit_null_add">
+		<text>Suit power drained\nLifeGuard inactive. Locate additional power sources...\n</text>
+	</string>
+	<string id="skat15_sms_power_suit_demage_low">
+		<text>Suit condition: Serious. Armor weakened. Repair or replace suit...\n</text>
+	</string>
+	<string id="skat15_sms_power_suit_demage_high">
+		<text>Suit condition: Critical. Armor inoperative. Replace suit...\n</text>
+	</string>
+	<!-- Skat15 suit Sytem Life Support "Food" -->
+	<string id="skat15_sms_seek_food_now">
+		<text>Sensing lethargy due to excessive anti-radiation drugs. Find a source of nutrition...\n</text>
+	</string>
+	<string id="skat15_sms_administ_bread_now">
+		<text>Administering nutrition...</text>
+	</string>
+	<string id="skat15_sms_bread_sourc_rest">
+		<text>Obtain nutrition...</text>
+	</string>
+	<!-- ***** New Skat15 suit "Storm" ****** -->
+	<string id="mil_exoskeleton_name_tb3d">
+		<text>Army Prototype SKAT15-M3 'Storm'</text>
+	</string>
+	<string id="mil_exoskeleton_name_tb3d_s">
+		<text>SKAT15-M3 'Storm'</text>
+	</string>
+	<string id="mil_exoskeleton_description_tb3d">
+		<text>%c[255,1,255,255]Impaction: %c[255,1,255,1]+92%\n%c[255,1,255,255]Laceration: %c[255,1,255,1]+88%\n%c[255,1,255,255]Explosive: %c[255,1,255,1]+88%\n%c[255,1,255,255]Penetration: %c[255,1,255,1]+100%\n%c[255,1,255,255]Burning: %c[255,1,255,1]+100%\n%c[255,1,255,255]Chemical: %c[255,1,255,1]+93%\n%c[255,1,255,255]Electrical: %c[255,1,255,1]+83%\n%c[255,1,255,255]Psionic: %c[255,1,255,1]+100%\n%c[255,1,255,255]Health: %c[255,1,255,1]+920\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-60%\n%c[255,1,255,255]Radiation: %c[255,1,255,1]+100%\n%c[255,1,255,255]Carry weight: %c[255,1,255,1]+80kg\n%c[default]• Modified prototype SKAT15 suit, with system activation module and upgrade blocks #1, #2, and #3 installed\n \n• Specially developed curved lenses in the helmet give a clear, distortion-free FOV of almost 180 degrees, while retaining the sealing integrity and mechanical strength of flat lenses. Behind the Kevlar skid plates has been fused a strata of powdered symbiotic artefacts, the properties of which are controlled by software within the suit itself. Four expansion slots for micro-circuits extend the suit's functions in this way, starting with the system activation module, and then adding upgrade blocks. In this version, all expansion slots are fully populated, allowing access to the suit's full potential.\nOnly one prototype of this suit exists, and all design documents, drawings, and development records pertaining to it have been lost\n \n• This particular version has been specially modified by Lanky, the Rostok technician, to withstand the Storm. In doing so, every parameter of the suit's firmware has been meticulously tweaked to near perfection, creating the 'Holy Grail' of Stalkers everywhere. The suit now makes the wearer totally fireproof, bulletproof, impervious to radiation and Psi-influence, and almost completely invulnerable to damage by impaction, explosion or rupture. \nThe LifeGuard interactive program constantly monitors the wearer's state of health in extreme situations, analysing blood sugar, oxygenation, electrolyte levels, radiation dosage, blood pressure, and the external environment - in order to protect your vital functions when your attention is needed elsewhere. \nThe software also combines aspects of the popular Bioradar detector and the PDA/GPS/HUD array to warn of unfriendly presences well ahead of both systems</text>
+	</string>
+	<!-- ************* Nano suit text addon ************ -->
+	<string id="nano_sms_skat_system_m">
+		<text>NANO Suit System:\n</text>
+	</string>
+	<!-- ********** Enemy detector text addon ********** -->
+	<string id="enemy_sms_storm_system_m1">
+		<text>THREAT RANGE: </text>
+	</string>
+	<string id="enemy_sms_skat_system_m1">
+		<text>CAUTION: DANGEROUS PRESENCE WITHIN</text>
+	</string>
+	<string id="enemy_sms_skat_system_m2">
+		<text>METRES</text>
+	</string>
+	<!-- ********** Enable/disable button (for later use) ********** -->
+	<string id="ui_mm_dyn_suit">
+		<text>Advanced suit options</text>
+	</string>
+	<string id="ui_mm_dyn_suit_hint">
+		<text>Enable/disable the suit's LifeGuard (auto healing) system. Not all suits have this option...</text>
+	</string>
+</string_table>

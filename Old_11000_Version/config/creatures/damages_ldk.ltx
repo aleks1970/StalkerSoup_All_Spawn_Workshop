@@ -1,0 +1,131 @@
+;<!-- TB3D 1.0.9.9.4.2  new -->
+;bone_name		= <hit_scale>,<fwd_damage_anim_index>,<wound_scale>,<bonepassbullet>
+;<hit_scale>				- coeff. changes hit (to invoke anim) 0.0 (no hit) to 1.0 (full hit)
+;<fwd_damage_anim_index>	- -1 = model default, 0..n = indexes into model's ragdoll physics if exists
+;<wound_scale>				- coeff. changes in the value of an open wound (bleeding), 0% to 100% of wound amount
+;<bonepassbullet> 			- (nil or 0)=false, (non 0)=threshold, bullet passes through body when hit/pierce > threshold
+;;;;=========================================================================================
+;;;;=================  LDK damages - by dAVROs  for STALKERSOUP  11may2013  =============================================
+
+[ldk_damage]			;impact on unprotected areas 100%, anim, critical areas get high wound increase
+default						= 0.0, 0, 0.0				
+bip01_pelvis 				= 1.0, 1, 0.5				
+bip01_spine 		 		= 1.0, 1, 0.5				
+bip01_spine1 		 		= 1.0, 1, 0.5				;spine and armor bone
+bip01_spine2 		 		= 1.0, 1, 0.5				; shoulder inner
+bip01_neck 			 		= 1.0, 0, 1				
+bip01_head 			 		= 1.0, 0, 1.0 , 3			
+eyelid_1 			 		= 1.0, 0, 1.0 , 3			
+eye_left 			 		= 1.0, 0, 1.0 , 3			
+eye_right 			 		= 1.0, 0, 1.0 , 3			
+jaw_1 		 		 		= 1.0, 0, 1.0				
+bip01_l_clavicle	 		= 0.0, 0, 0.3				; shoulder outer
+bip01_l_upperarm	 		= 0.0, 0, 0.0				
+bip01_l_forearm	 	 	    = 0.0, 0, 0.0				
+bip01_l_hand	 	 	    = 0.0, 0, 0.0				
+bip01_l_finger0	 	 	    = 0.0, 0, 0.0				
+bip01_l_finger01	 		= 0.0, 0, 0.0				
+bip01_l_finger02	 		= 0.0, 0, 0.0				
+bip01_l_finger1	 	 	    = 0.0, 0, 0.0				
+bip01_l_finger11	 		= 0.0, 0, 0.0				
+bip01_l_finger12	 		= 0.0, 0, 0.0				
+bip01_l_finger2	 	 	    = 0.0, 0, 0.0				
+bip01_l_finger21	 		= 0.0, 0, 0.0				
+bip01_l_finger22	 		= 0.0, 0, 0.0				
+bip01_r_clavicle	 		= 0.0, 0, 0.3				
+bip01_r_upperarm	 		= 0.0, 0, 0.0					
+bip01_r_forearm	 	 		= 0.0, 0, 0.0				
+bip01_r_hand	 	 		= 0.0, 0, 0.0				
+bip01_r_finger0	 	 		= 0.0, 0, 0.0				
+bip01_r_finger01	 		= 0.0, 0, 0.0				
+bip01_r_finger02	 		= 0.0, 0, 0.0				
+bip01_r_finger1	 	 		= 0.0, 0, 0.0				
+bip01_r_finger11	 		= 0.0, 0, 0.0				
+bip01_r_finger12	 		= 0.0, 0, 0.0				
+bip01_r_finger2	 	 	 	= 0.0, 0, 0.0				
+bip01_r_finger21	 		= 0.0, 0, 0.0				
+bip01_r_finger22	 		= 0.0, 0, 0.0				
+bip01_l_thigh	 	 		= 0.0, 0, 0.0					
+bip01_l_calf	 	 		= 0.0, 0, 0.0					
+bip01_l_foot	 	 		= 0.0, 0, 0.0				
+bip01_l_toe0	 	 		= 0.0, 0, 0.0				
+bip01_r_thigh	 	 		= 0.0, 0, 0.0					
+bip01_r_calf	 	 		= 0.0, 0, 0.0					
+bip01_r_foot	 	 		= 0.0, 0, 0.0				
+bip01_r_toe0	 	 		= 0.0, 0, 0.0				
+
+
+
+
+[ldk_damage_tough]:ldk_damage
+default						= 0.0, -1, 0.0							
+bip01_pelvis 				= 1.0, 1, 0.9				
+bip01_spine 		 		= 1.0, 1, 0.98				
+bip01_spine1 		 		= 1.0, 1, 0.98				
+bip01_spine2 		 		= 1.0, 1, 0.98				
+bip01_neck 			 		= 1.0, 0, 0.98				
+bip01_head 			 		= 1.0, 0, 1.0 , 3			
+eyelid_1 			 		= 1.0, 0, 1.0 , 3			
+eye_left 			 		= 1.0, 0, 1.0 , 3			
+eye_right 			 		= 1.0, 0, 1.0 , 3			
+jaw_1 		 		 		= 1.0, 0, 1.0				
+	
+[troop_damage_tough]:ldk_damage_tough
+bip01_head 			 	= 0.56, 0, 0.5, 0.3
+eyelid_1 			 	= 0.56, 0, 0.5, 0.3
+eye_left 			 	= 0.56, 0, 0.5, 0.3
+eye_right 			 	= 0.56, 0, 0.5, 0.3
+bip01_neck 			 	= 0.56, 0, 0.5, 0.3
+
+[nano_damage_tough]:ldk_damage_tough
+bip01_head 			 	= 0.56, 0, 0.5, 0.04
+eyelid_1 			 	= 0.56, 0, 0.5, 0.04
+eye_left 			 	= 0.56, 0, 0.5, 0.04
+eye_right 			 	= 0.56, 0, 0.5, 0.04
+bip01_neck 			 	= 0.56, 0, 0.5, 0.04
+
+[ldk_damage_commander1]:ldk_damage_tough
+bip01_head 			 	= 0.56, 0, 0.5, 0.3
+eyelid_1 			 	= 0.56, 0, 0.5, 0.3
+eye_left 			 	= 0.56, 0, 0.5, 0.3
+eye_right 			 	= 0.56, 0, 0.5, 0.3
+bip01_neck 			 	= 0.56, 0, 0.5, 0.3
+
+[ldk_damage_commander2]:ldk_damage_tough
+bip01_head 			 	= 0.55, 0, 0.5, 0.25
+eyelid_1 			 	= 0.55, 0, 0.5, 0.25
+eye_left 			 	= 0.55, 0, 0.5, 0.25
+eye_right 			 	= 0.55, 0, 0.5, 0.25
+bip01_neck 			 	= 0.55, 0, 0.5, 0.25
+
+[ldk_damage_commander3]:ldk_damage_tough
+bip01_head 			 	= 0.54, 0, 0.5, 0.2
+eyelid_1 			 	= 0.54, 0, 0.5, 0.2
+eye_left 			 	= 0.54, 0, 0.5, 0.2
+eye_right 			 	= 0.54, 0, 0.5, 0.2
+bip01_neck 			 	= 0.54, 0, 0.5, 0.2
+
+[ldk_damage_commander4]:ldk_damage_tough
+bip01_head 			 	= 0.53, 0, 0.5, 0.15
+eyelid_1 			 	= 0.53, 0, 0.5, 0.15
+eye_left 			 	= 0.53, 0, 0.5, 0.15
+eye_right 			 	= 0.53, 0, 0.5, 0.15
+bip01_neck 			 	= 0.53, 0, 0.5, 0.15
+
+[ldk_damage_commander5]:ldk_damage_tough
+bip01_head 			 	= 0.52, 0, 0.5, 0.1
+eyelid_1 			 	= 0.52, 0, 0.5, 0.1
+eye_left 			 	= 0.52, 0, 0.5, 0.1
+eye_right 			 	= 0.52, 0, 0.5, 0.1
+bip01_neck 			 	= 0.52, 0, 0.5, 0.3
+
+[ldk_damage_commander6]:ldk_damage_tough
+bip01_head 			 	= 0.5, 0, 0.5, 0.07
+eyelid_1 			 	= 0.5, 0, 0.5, 0.07
+eye_left 			 	= 0.5, 0, 0.5, 0.3
+eye_right 			 	= 0.5, 0, 0.5, 0.1
+bip01_neck 			 	= 0.5, 0, 0.5, 0.07
+
+
+;;;;=========================================================================================
+;;;;=========================================================================================

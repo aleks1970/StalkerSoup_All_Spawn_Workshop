@@ -1,0 +1,704 @@
+;;;; TB3D 1.1.0.0.1.6 - TB3D style weapons
+;;;; icons by aleks1970, added short names, igla fix
+
+;Инклуды оружия
+#include "w_remington870.ltx"
+#include "w_akm.ltx"
+#include "w_five_seven.ltx"
+#include "w_kriss_waper_pro.ltx"
+#include "w_vintorez_m2.ltx"
+#include "w_mp444.ltx"
+#include "w_desert_eagle_new.ltx"
+#include "w_zastava_m76.ltx"
+#include "w_svd_m2.ltx"
+#include "w_aks47.ltx"
+#include "w_tt33.ltx"
+#include "w_ppd40.ltx"
+#include "w_l86.ltx"
+#include "w_ak104T.ltx"
+#include "w_mg36.ltx"
+#include "w_rpd.ltx"
+#include "w_benelli.ltx"
+#include "w_ak203.ltx"
+#include "w_aek971.ltx"
+#include "w_obrez.ltx"
+#include "w_g3_cod.ltx"
+#include "w_scar.ltx"
+#include "w_fnc_red_dote.ltx"
+#include "w_trg42.ltx"
+#include "w_groza_sil.ltx"
+#include "w_aug_a3.ltx"
+#include "w_sg552.ltx"
+#include "w_m14.ltx"
+#include "w_xm8ss.ltx"
+#include "w_thompson.ltx"
+#include "w_scar_new.ltx"
+#include "w_klin.ltx"
+#include "w_magpul_masada.ltx"
+#include "w_fn2000_new.ltx"
+#include "w_microuzi.ltx"
+#include "w_walther_ppk.ltx"
+#include "w_svd_c.ltx"
+#include "w_sayga12k.ltx"
+#include "w_pm_m1.ltx"
+#include "w_vz58.ltx"
+#include "w_svd_m3.ltx"
+#include "w_c7a1.ltx"
+#include "w_sks.ltx"
+#include "w_tec9.ltx"
+#include "w_smg_tmp.ltx"
+#include "w_mac10.ltx"
+#include "w_ots33.ltx"
+#include "w_obrez_benelli_short.ltx"
+#include "w_type97.ltx"
+#include "w_mossberg_590.ltx"
+#include "w_rg10_ognemet.ltx"
+#include "w_wincheaster1200.ltx"
+#include "w_hk_p7.ltx"
+#include "w_barrett_m82.ltx"
+#include "w_msg90.ltx"
+#include "w_usas12.ltx"
+#include "w_remington700.ltx"
+#include "w_glock35.ltx"
+#include "w_glock18.ltx"
+#include "w_walther_p100.ltx"
+#include "w_sig226.ltx"
+#include "w_beretta_px4.ltx"
+#include "w_mk22.ltx"
+#include "w_fn_fal_c1.ltx"
+#include "w_m21.ltx"
+#include "w_aks74u.ltx"
+#include "w_fw900k.ltx"
+#include "w_beretta_m93r.ltx"
+#include "w_beretta_m8000.ltx"
+#include "w_p18.ltx"
+#include "w_val_colim.ltx"
+#include "w_ump45.ltx"
+#include "w_bm16_full.ltx"
+#include "w_bm16_m2.ltx"
+#include "w_awp.ltx"
+#include "w_toz194.ltx"
+#include "w_rpk74.ltx"
+#include "w_rpg7_m1.ltx"
+#include "w_m4a1.ltx"
+#include "w_pp2000.ltx"
+#include "w_ak108.ltx"
+#include "w_ak104.ltx"
+#include "w_m14_stand.ltx"
+#include "w_ak101.ltx"
+#include "w_remington870_magnum.ltx"
+#include "w_spas12_stock.ltx"
+#include "w_hk53.ltx"
+#include "w_aug_bmk.ltx"
+#include "w_ksvk.ltx"
+#include "w_hkm4c.ltx"
+#include "w_zastava_z92_mod.ltx"
+#include "w_l85a2.ltx"
+#include "w_trg42_m1.ltx"
+#include "w_pm_m2.ltx"
+#include "w_svu_aaz.ltx"
+#include "w_anaconda.ltx"
+#include "w_hk416.ltx"
+#include "w_vsk94.ltx"
+#include "w_aug_a1_sk1.ltx"
+#include "w_beretta_cleric.ltx"
+#include "w_akm_metro.ltx"
+#include "w_pp19_bizon.ltx"
+#include "w_vintorez_1pn51.ltx"
+#include "w_an2012.ltx"
+#include "w_l86_lsw.ltx"
+#include "w_saygaT1.ltx"
+#include "w_saygaT2.ltx"
+#include "w_zastava_m22.ltx"
+#include "w_sbr.ltx"
+#include "w_igla.ltx"	;;; - aleks1970
+#include "w_gaussspas12.ltx"
+#include "w_deagle_mk19.ltx"
+#include "w_mosin1891.ltx"
+#include "w_mauser.ltx"
+#include "w_vihlop.ltx"
+#include "w_norman_twinbow.ltx"
+#include "w_minigun_m134.ltx"
+#include "w_browningauto5.ltx"
+#include "w_pmX2.ltx"
+#include "w_ptrd.ltx"
+#include "w_desert_eagle_uniq.ltx"
+#include "w_pkm_tactic.ltx"
+#include "w_mp40.ltx"
+#include "w_g36_aimpoint.ltx"
+#include "w_oicw.ltx"
+#include "w_ak9.ltx"
+#include "w_scar_cry.ltx"
+#include "w_m21_mw2.ltx"
+#include "w_wa2000_mw2.ltx"
+#include "w_beretta_stars.ltx"
+#include "w_kac_pdw.ltx"
+
+;Инклуды гранат и прочих взрываемых вещей
+#include "w_gr_m61.ltx"
+#include "w_gr_m67.ltx"
+#include "w_gr_7643b.ltx"
+#include "w_gr_an_m14.ltx"
+#include "w_dynamite.ltx"
+
+;Инклуды предметов
+#include "fuck.ltx"
+#include "arm_binoc.ltx"
+#include "soul_cube.ltx"
+
+;Инклуды ножей
+#include "h_machette.ltx"
+#include "h_km2000.ltx"
+#include "h_boker_applegate.ltx"
+#include "h_m9_mod.ltx"
+#include "h_knife_ak47.ltx"
+#include "h_alabama_slammer.ltx"
+#include "h_uniq_knife.ltx"
+#include "h_rambo_knife.ltx"
+#include "h_bc5_knife.ltx"
+#include "h_coujaf.ltx"
+#include "h_wakizashi.ltx"
+
+;Амуниция
+;Патроны 8.6х70
+[ammo_8.6x70]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn			= "weapons\ammo\ammo_8.6x70" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = weapons\ammo\ammo_860x70.ogf
+description				= enc_weapons_ammo_8.6x70
+$prefetch 		= 64
+cost					 = 2400
+box_size		= 20
+
+inv_name		= ammo_8.6x70
+inv_name_short	= ammo_8.6x70_s
+inv_weight		= 0.5
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 2
+inv_grid_y			= 65
+
+k_dist			= 1.15
+k_disp			= 1
+k_hit			= 5.05
+k_impulse		= 20.2
+k_pierce		= 0.75
+impair			= 1.05
+buck_shot		= 1
+tracer			= on
+wm_size         = 0.1
+explosive		= off
+
+;Огнесмесь для Грозы-пламя. Из Зоны Поражения 2.
+[ammo_balon_rg10]:ammo_base
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn			= "weapons\ammo\ammo_balon" ; option for Level Editor
+class			= A_OG7B
+cform                   = skeleton
+visual                  = weapons\ammo\ammo_vog40_flame.ogf
+description				= enc_weapons1_ammo-balon_rg10
+$prefetch 		= 64
+cost					 = 1100
+
+box_size		= 30
+inv_name		= ammo_vog40_oboima
+inv_name_short		= ammo_vog40_oboima
+inv_weight		= 0.6
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 20
+inv_grid_y			= 64
+
+k_dist			= 1
+k_disp			= 3	;10
+k_hit			= 3	;5.4
+k_impulse		= 3	;3.3
+k_pierce		= 10
+impair			= 1
+buck_shot		= 20	;50
+tracer			= off
+wm_size         = 0.55
+explosive		= on
+;могут ли боеприпасы быть неограниченными : 1 - могут, 0 - не могут
+can_be_unlimited = true ;false 
+
+; Для нового бинокля
+[ammo_arm_binoc]:ammo_super_gauss1
+inv_grid_x			= 30
+inv_grid_y			= 65
+inv_name_short	    = wpn_arm_binoc_s
+
+; .50 BMJ
+[ammo_50_bmg]:ammo_base
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn			= "weapons\ammo\ammo_50_bmg" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = weapons\ammo\ammo_762x54_ap.ogf
+description		= enc_weapons_ammo_50_bmg
+$prefetch 		= 64
+cost			= 2200
+box_size		= 20
+
+inv_name		= ammo_50_bmg
+inv_name_short		= ammo_50_bmg_s
+inv_weight		= 2.6
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x		= 4
+inv_grid_y		= 65
+
+k_dist			= 1
+k_disp			= 1.1
+k_hit			= 10.0
+k_impulse		= 1
+k_pierce		= 0.78
+impair			= 1.05
+buck_shot		= 1
+tracer			= on
+wm_size         = 0.3
+
+[ammo_50ae]:ammo_base
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn			= "weapons\ammo\ammo_50ae" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = weapons\ammo\ammo_50ae.ogf
+description		= enc_weapons1_ammo_ammo-50ae-thv
+$prefetch 		= 64
+cost			= 7000
+box_size		= 50
+
+inv_name		= ammo-50ae-thv
+inv_name_short		= ammo-50ae-thv_s
+inv_weight		= 2.1
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x		= 4
+inv_grid_y		= 66
+
+k_dist			= 2
+k_disp			= 1
+k_hit			= 5.7
+k_impulse		= 1
+k_pierce		= 0.75
+impair			= 1
+buck_shot		= 1
+tracer			= on
+wm_size         = 0.1
+
+
+;Подствольный дробовик
+[wpn_addon_shotgun]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+;$spawn			= "weapons\addons\wpn_addon_shotgun" ; option for Level Editor
+class			= W_GLAUNC
+cform           = skeleton
+visual          = weapons\upgrade\wpn_addon_shotgun.ogf
+description		= enc_wpn_addon_shotgun
+$prefetch 		= 32
+
+cost			= 1050
+inv_name		= wpn_addon_shotgun
+inv_name_short	= wpn_addon_shotgun
+inv_weight		= 1.35
+
+ammo_mag_size		= 1
+hit_power           = 2.92
+ammo_class		    = ammo_12x70_buck, ammo_12x70_kart
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 8
+inv_grid_y			= 66
+grenade_vel			= 170
+
+[wpn_addon_shotgun_16]:wpn_addon_shotgun
+visual          = weapons\upgrade\wpn_addon_shotgun.ogf
+description		= enc_wpn_addon_shotgun_16
+
+cost			= 1450
+inv_name		= wpn_addon_shotgun_16
+inv_name_short	= wpn_addon_shotgun_16
+inv_weight		= 1.15
+
+ammo_mag_size		= 1
+hit_power           = 3.42
+ammo_class		    = ammo_16x70_buck, ammo_16x70_kart
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 8
+inv_grid_y			= 66
+grenade_vel			= 170
+
+
+[wpn_fake_drob]:identity_immunities
+$prefetch 			= 32
+visual              = weapons\upgrade\drob.ogf
+cform               = skeleton
+class               = G_FAKE
+;inv_weight			= 0
+cost			= 150
+blast				= 0.0020 ;.00;150
+blast_r				= 0.000001
+blast_impulse		= 100
+;delete
+blast_impulse_factor = 0 ;1
+frags				= 30
+frags_r				= 5 ;10
+frag_hit			= 55.50
+frag_hit_impulse	= 30
+hit_type_blast		= fire_wound ;explosion
+hit_type_frag		= fire_wound
+up_throw_factor		= 2.5
+;trail				= weapons\rpg_trail_01, weapons\rpg_trail_02
+explode_particles	= hit_fx\hit_human_dust ;explosions\explosion_01
+light_color		    = 1.9,1.4,0.5
+light_range		    = 14.0
+light_time 		    = 0.00000000085
+ph_mass			 = 0.005
+;engine_f			= 530
+;engine_u			= 90
+jump_height = 0.1
+;трассы от осколков
+fragment_speed		= 100
+wm_size         	= 0.0000000000001
+;wallmarks
+wallmark_section		 = explosion_marks
+explode_duration		 = 0.0000001		;подолжительность взрыва (с)
+;звуки
+snd_explode = $no_sound ;weapons\f1_explode
+;свойства которые читаются, но не используются
+inv_name		= ammo-vog-25p
+inv_name_short	= ammo-vog-25p
+inv_weight		= .2
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 19
+inv_grid_y			= 9
+kill_msg_x			= 38
+kill_msg_y			= 233
+kill_msg_width		= 21
+kill_msg_height		= 22
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Свойства CustomRocket
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+engine_present = false ;присутствует ли в ракете двигатель
+lights_enabled = false ;true ;свет вокруг ракеты, во время полета
+trail_light_color = 0,0,0 ;0.6,0.5,0.3
+trail_light_range = 0.001 ;8.0
+force_explode_time = 10000
+
+;Патроны 16х70 "Картечь"
+[ammo_16x70_kart]:ammo_base
+GroupControlSection	= spawn_group
+;discovery_dependency	= 
+$spawn			= "weapons\ammo\ammo_16x70_kart" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = weapons\ammo\ammo_16x70_kart.ogf
+description		= enc_weapons1_ammo-16x70-kart
+$prefetch 		= 64
+
+cost			= 240
+
+box_size		= 20
+
+inv_name		= ammo-16x70-kart
+inv_name_short		= ammo-16x70-kart
+inv_weight		= .42
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x		= 2
+inv_grid_y		= 66
+
+k_dist			= 0.90	;0.6	;aleks1970
+k_disp			= 13	;3.5
+k_hit			= 1.5	;0.8
+k_impulse		= 1.4	;0.7
+k_pierce		= 0.30	;0.75
+impair			= 1.2
+buck_shot		= 6	;1
+tracer			= on
+wm_size			= 0.05
+explosive		= off
+
+;Патроны 16х70 "Жекан"
+[ammo_16x70_zhekan]:ammo_base
+GroupControlSection	= spawn_group
+;discovery_dependency	= 
+$spawn			= "weapons\ammo\ammo_16x70_zhekan" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = weapons\ammo\ammo_16x70_zhekan.ogf
+description		= enc_weapons1_ammo-16x70-zhekan
+$prefetch 		= 64
+
+cost			= 320
+
+box_size		= 20
+inv_name		= ammo-16x70-zhekan
+inv_name_short		= ammo-16x70-zhekan
+inv_weight		= .45
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x		= 0
+inv_grid_y		= 65
+
+k_dist			= 1.2
+k_disp			= 2.5
+k_hit			= 2.3	;1.0	;aleks1970
+k_impulse		= 4.1	;1.4
+k_pierce		= o.55	;0.75
+impair			= 1.15
+buck_shot		= 1
+tracer			= on
+wm_size			= 0.08
+explosive		= off
+
+;Патроны 16х70 "Дробь"
+[ammo_16x70_buck]:ammo_base
+GroupControlSection	= spawn_group
+;discovery_dependency	= 
+$spawn			= "weapons\ammo\ammo_16x70_buck" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = weapons\ammo\ammo_16x70_buck.ogf
+description		= enc_weapons1_ammo-16x70-buck
+$prefetch 		= 64
+
+cost			= 120
+
+box_size		= 20
+
+inv_name		= ammo-16x70-buck
+inv_name_short		= ammo-16x70-buck
+inv_weight		= .43
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x		= 0
+inv_grid_y		= 66
+
+k_dist			= 0.35	;0.7
+k_disp			= 35	;3.5
+k_hit			= 0.4
+k_impulse		= 0.1
+k_pierce		= 0.02
+impair			= 2
+buck_shot		= 32
+tracer			= on
+wm_size			= 0.02
+explosive		= off
+
+;Глушитель калибра 5.7х28
+[wpn_addon_sil_57]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn			= "weapons\addons\sil_57" 
+class			= W_SILENC
+cform           = skeleton
+visual          = weapons\addon_sil_57\sil_57.ogf
+description		= enc_weapons1_sil_57
+$prefetch 		= 32
+
+cost					 = 2500
+inv_name		= wpn-sil_57
+inv_name_short	= wpn-sil_57
+inv_weight		= 0.2
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 6
+inv_grid_y			= 66
+
+cam_dispersion_k	= 0.8
+
+;Граната для ПЗРК "Игла"
+[ammo_igla]:identity_immunities	;;;ammo_base
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970 = 
+$spawn			= "weapons\ammo\ammo_og-7b" ; option for Level Editor
+class			= A_OG7B
+cform                   = skeleton
+visual                  =  weapons\igla\igla_tube_missile.ogf
+description				= ammo_rocket_igla_desc
+$prefetch 		= 64
+cost			= 500
+box_size		= 1
+inv_name		= ammo_rocket_igla
+inv_name_short	= ammo_rocket_igla_s
+inv_weight		= 11.4	;1.0
+inv_grid_width		= 4
+inv_grid_height		= 1
+inv_grid_x			= 17
+inv_grid_y			= 65  ; - aleks1970
+
+k_dist			= 1.75
+k_disp			= 0.45
+k_hit			= 3.2
+k_impulse		= 100
+k_pierce		= 0.76
+impair			= 3
+;buck_shot		= 1
+tracer			= on
+wm_size         = 0.1
+buck_shot		= 2
+
+;могут ли боеприпасы быть неограниченными : 1 - могут, 0 - не могут
+can_be_unlimited = true ;false
+
+
+;[ammo_igla]:identity_immunities
+;GroupControlSection	= spawn_group
+;;discovery_dependency = 
+;$spawn			= "weapons\ammo\ammo_samopal" ; option for Level Editor
+;class			= AMMO
+;cform                   = skeleton
+;visual                  = weapons\igla\igla_tube_missile.ogf
+;description				= ammo_rocket_igla_desc
+;$prefetch 		= 64
+
+;cost					 = 4000
+
+;box_size		= 1
+;inv_weight		= 11.6
+
+;inv_name		= ammo_rocket_igla
+;inv_name_short	= ammo_rocket_igla_s
+
+
+;inv_grid_width		= 4;2
+;inv_grid_height		= 1;1
+;inv_grid_x			= 17;16
+;inv_grid_y			= 65;37   - aleks1970
+
+;k_dist			= 1
+;k_disp			= 1
+;k_hit			= 1.2
+;k_impulse		= 1
+;k_pierce		= 1.25
+;impair			= 1.15
+;buck_shot		= 0
+;tracer			= off
+;wm_size         = 0.1
+
+[igla_tube_empty]:identity_immunities
+GroupControlSection	= spawn_group
+$spawn 				= "physics\object"
+$prefetch 			= 8
+class				= O_PHYS_S
+remove_time			= 60; after this time  unbreaked removable bone will be removed
+script_binding      = bind_physic_object.init
+visual 				= weapons\igla\igla_tube_empty.ogf
+
+;Дымообразующая подствольная граната. Автор: n6260
+[ammo_m209_smoke]:ammo_base
+GroupControlSection = spawn_group
+;discovery_dependency =
+$spawn = "weapons\ammo\ammo_m209_smoke"
+class = A_M209
+cform = skeleton
+visual = weapons\ammo\ammo_m209.ogf
+description = enc_ammo_m209_smoke
+$prefetch = 64
+cost = 180
+box_size = 1
+inv_name = ammo_m209_smoke
+inv_name_short = ammo_m209_smoke_s
+inv_weight = 0.22
+inv_grid_width = 1
+inv_grid_height = 1
+inv_grid_x = 3
+inv_grid_y = 64
+kill_msg_x = 61
+kill_msg_y = 232
+kill_msg_width = 19
+kill_msg_height = 22
+k_dist = 1
+k_disp = 1
+k_hit = 1
+k_impulse = 1
+k_pierce = 1
+impair = 1
+buck_shot = 1
+tracer = off
+wm_size = 1
+fake_grenade_name = wpn_fake_missile22
+can_be_unlimited = true
+
+
+[wpn_fake_missile22]:identity_immunities
+$prefetch = 32
+visual = weapons\ammo\ammo_m209.ogf
+cform = skeleton
+class = G_FAKE
+;inv_weight = 0.2 ; используется в баллистике
+cost = 0
+blast = 0 ; хит от взрыва
+blast_r = 0 ; радиус действия взрыва
+blast_impulse = 0 ; импульс взрыва
+blast_impulse_factor = 0
+frags = 0 ; кол-во осколков
+frags_r = 0 ; радиус разлета осколков
+frag_hit = 0 ; хит от одиночного осколка
+frag_hit_impulse = 0
+hit_type_blast = strike ; тип повреждения при взрыве
+hit_type_frag = fire_wound ; тип повреждения от осколков
+up_throw_factor = 0
+explode_particles = explosions\explosion_dym ; партикл взрыва (визуал эффекта)
+light_color = 0.9,0.6,0.5
+light_range = 2.0
+light_time = 5.85 ; время взрыва (продолжительность)
+ph_mass = 5
+jump_height = 0
+fragment_speed = 50 ; скорость осколков (фрагментов) при взрыве
+wallmark_section = explosion_marks
+wm_size = 0.01
+explode_duration = 12
+
+snd_explode = weapons\explo\grenade_gd05 ; звук при взрыве
+
+
+inv_name = ammo-m209
+inv_name_short = ammo-m209_s		;109919
+inv_weight = 0.23
+inv_grid_width = 1
+inv_grid_height = 1
+inv_grid_x = 5
+inv_grid_y = 13
+kill_msg_x = 61
+kill_msg_y = 232
+kill_msg_width = 19
+kill_msg_height = 22
+engine_present = false ; свечение вокруг гранаты во время полета (вкл\выкл)
+lights_enabled = false ; работа реактивного двигателя (след дымовой, пламя) вкл\выкл
+trail_light_color = 0.6,0.5,0.3
+trail_light_range = 8.0
+force_explode_time = 10000 ; время сохранения видимости гранаты в полете 
+
+;Усиленный арбалетный болт
+[ammo_super_arbolt]:ammo_arbolt
+cost			= 280
+inv_name		= ammo_super_arbolt
+inv_name_short	= ammo_super_arbolt_s
+description		= enc_ammo_super_arbolt
+inv_weight		= 0.15
+inv_grid_x		= 16
+k_hit			= 5.5
+explosive		= on
+tracer			= on		;;;109974

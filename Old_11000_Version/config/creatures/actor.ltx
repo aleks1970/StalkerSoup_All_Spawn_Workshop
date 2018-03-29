@@ -1,0 +1,326 @@
+;<!-- TB3D 1.1.0.0.1.4 NORMAL - GAME MODE, chgd hit probabilities to DMX vice AMK, adjusted immunities, jump back to 8.5
+;;;;;;; TB3D modified, weight, immunities, jump, stalker radius, all 8.5 jump now, game_mode
+;;;;;;; FOR MOD TESTING ONLY, NOT FOR MULTIPLAYER
+;;;;;;; MUST USE BOTH MODIFIED FILES TOGETHER: actor.ltx, inventory_sect.ltx
+[game_mode]
+mode = 0
+
+[actor_terrain]
+	255,255,000,255
+
+[actor]:common_ph_friction_params_on_npc_death
+GroupControlSection		= spawn_group
+$spawn 					= "actor"
+$ed_icon				= ed\ed_actor
+$player 				= on
+$prefetch 				= 16
+cform                   = skeleton
+class                   = O_ACTOR
+money					= 40
+rank					= 3
+script_binding			= bind_stalker.actor_init
+visual					= actors\hero\stalker_novice.ogf 
+destroyed_vis_name		= physics\Dead_Body\skelet_crash
+
+terrain					= actor_terrain
+
+max_item_mass			= 150.0	;;game mode
+jump_speed              = 8.5
+crouch_coef 			= 0.45
+climb_coef				= 0.7
+run_coef                = 2.1
+sprint_koef				= 2.6
+run_back_coef			= 1.8
+walk_back_coef			= 0.8
+air_control_param		= 0.1
+walk_accel              = 17
+
+;radius in MDM over the items displayed their names
+pickup_info_radius		= 5
+
+ef_creature_type		= 17						; option for evaluation functions
+
+; attach params
+attachable_items		= device_torch_bad,device_torch,attachable_item,hand_radio
+
+; The physical dimensions of the hero. Allows you to get into tight spaces, such as a pipe.
+ph_box0_center 						= 0.0,  0.9,   0.0
+ph_box0_size 						= 0.35, 0.9,   0.35
+ph_box1_center 						= 0.0,  0.65,  0.0
+ph_box1_size 						= 0.35, 0.65,  0.35
+ph_box2_center 						= 0.0,  0.2,   0.0
+ph_box2_size 						= 0.35, 0.2,   0.35
+stalker_restrictor_radius   		= 0.2  ; limit the distance between the stalkers. The low value is useful when someone blocked the road in close quarters.
+stalker_small_restrictor_radius		= 0.16
+medium_monster_restrictor_radius	= 0.16
+
+ph_crash_speed_min			= 14
+ph_crash_speed_max			= 30
+ph_collision_damage_factor	= 1.0
+ph_mass = 80
+
+;;;;;;;;;;!!!!TB3D   DMX
+ph_skeleton_airr_lin_factor 	= -0.43
+ph_skeleton_airr_ang_factor 	= -0.21
+ ph_skeleton_hinger_factor1 	= 1.0
+
+ph_skeleton_hinge_vel			= 0.7
+ph_skeleton_ddelay				= 0
+ph_skel_fatal_impulse_factor	= 1
+ph_after_death_velocity_factor	= 0.75
+ph_skel_shot_up_factor        	= 0.25	;= 80       !!!!!!!!!!!!!!!! error??  both were active, I commented out '= 80'
+;;;;;;;;;;;;;;;DMX
+
+weapon_bone0					= bip01_r_finger1
+weapon_bone1					= bip01_l_finger1
+weapon_bone2					= bip01_r_finger11
+
+damage							= actor_damage
+
+hit_probability_gd_novice		= 0.20  ;;;;easier  
+hit_probability_gd_stalker		= 0.35
+hit_probability_gd_veteran		= 0.50 
+hit_probability_gd_master		= 0.60
+hit_sounds						= actor_hit_snds
+
+;actor condition
+
+immunities_sect					= actor_immunities_gd_master ;forced here for difficulty_manager
+condition_sect					= actor_condition
+
+heavy_breath_snd				= actor\breath_1		;the sound of heavy breathing for fatigue	
+heavy_blood_snd					= affects\heartbeat; heart\8
+
+material						= creatures\actor
+camera_height_factor			= 0.91 ;0.85
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-----(AMK SNIPER ADDON v1.0)-----
+; I will not change these so AMK will stay stable
+;variance of firing with light walking and running
+disp_base					= 0.51 	;angle (in degrees) the expansion of bullets, when an actor stands on the site
+disp_aim					= 0.04  ;0.51 
+disp_vel_factor				= 1.0	;on how to increase the variance in skrosti at 10 m / s (not necessarily in the running)
+disp_accel_factor			= 2.0  	;More on how to increase if the actor runs (+ speed)
+disp_crouch_factor			= -0.3 	;decrease if the actor is sitting
+disp_crouch_no_acc_factor	= -0.6 	;decrease if the actor is sitting + no acceleration
+;disp_jump_factor			= 2.0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-----
+
+missile_throw_offset = 0.3, 0.5, 0.5
+
+body_remove_time = 20000	;while the destruction of the corpse (with TimeFactor)
+
+sleep_time_factor			= 400	;1000		;how many times does the time go faster when the actor sleeps - left this alone, could change it tho
+max_sleep_hours				= 24	;-;12 ;110014 - aleks1970
+;species of monster
+species				= actor
+
+
+;---STEP MANAGER------------------------------------------------------
+LegsCount						= 2
+step_params						= stalker_step_manager
+foot_bones						= stalker_foot_bones
+
+memory_update_time			= 100
+
+; visibility parameters
+DynamicObjectsCount			= 32
+min_view_distance   		= 1.0				; coefficient which is multiplied by eye_range, depending on the angle
+max_view_distance	 		= 1.0				; coefficient which is multiplied by eye_range, depending on the angle
+visibility_threshold	 	= 1.0				; value when the sum of which the object is visible
+always_visible_distance 	= 1.0
+time_quant					= 0.005
+decrease_value				= 0.1				; value that decreases the weight, if the object hit the frustum, but the compartments, for some reason
+velocity_factor		     	= 0.5
+luminocity_factor			= 0.5;0 			; coverage factor (only for the Actor)
+transparency_threshold	 	= 0.4				; 0.25
+still_visible_time			= 5000				; time that the object is still considered visible even though he was no longer in frustume
+
+[actor_immunities_gd_novice]
+burn_immunity 				= 0.4				;factors of immunity  
+strike_immunity 			= 0.3
+shock_immunity 				= 0.3
+wound_immunity				= 0.3
+radiation_immunity 			= 0.1
+telepatic_immunity 			= 0.4
+chemical_burn_immunity 		= 0.4
+explosion_immunity 			= 0.4
+fire_wound_immunity  		= 0.3
+
+
+[actor_immunities_gd_stalker]
+burn_immunity 				= 0.42				;factors of immunity
+strike_immunity 			= 0.2
+shock_immunity 				= 0.32
+wound_immunity				= 0.2
+radiation_immunity 			= 0.12
+telepatic_immunity 			= 0.42
+chemical_burn_immunity 		= 0.42
+explosion_immunity 			= 0.42
+fire_wound_immunity  		= 0.4
+
+[actor_immunities_gd_veteran]
+burn_immunity 				= 0.43				;factors of immunity 
+strike_immunity 			= 0.3
+shock_immunity 				= 0.34
+wound_immunity				= 0.3
+radiation_immunity 			= 0.13
+telepatic_immunity 			= 0.43
+chemical_burn_immunity 		= 0.43
+explosion_immunity 			= 0.43
+fire_wound_immunity  		= 0.5
+
+[actor_immunities_gd_master]
+burn_immunity 				= 0.44				;factors of immunity 
+strike_immunity 			= 0.4
+shock_immunity 				= 0.35
+wound_immunity				= 0.4
+radiation_immunity 			= 0.14
+telepatic_immunity 			= 0.44
+chemical_burn_immunity 		= 0.44
+explosion_immunity 			= 0.44
+fire_wound_immunity  		= 0.6
+
+[actor_condition]
+satiety_v					= 0.000012	;-;0.000025 ;110014, icons after game start in hours: green-7, bright green-9, yellow-11, orange-13, red-15 ;speed of satiety decrease with time - rate of hunger
+radiation_v					= 0.0001				;dammage done by radiation ;-the rate of reduction of radiation
+satiety_power_v				= 0.000055 				;110014	;increase in strength with reduced satiety - improved stamina by eating
+satiety_health_v			= 0.0001				;increased health with reduced satiety - improved health by eating 
+satiety_critical			= 0.25	;-;0.0 ;110014	critical satiety value (in percentage of 0..1) when health begins to decrease - can effect gameplay!!
+radiation_health_v			= 0.004					; reduction in health when exposed to radiation
+morale_v					= 0.0001						
+psy_health_v				= 0.001
+alcohol_v					= -0.0005
+health_hit_part				= 0.4	;--;0.8			;the percentage of hit that goes to take away health - percentage of hits, leaving to grabbing Health
+power_hit_part				= 0.8					;the percentage of the hit that goes to take away power - percentage of hits, leaving to the grabbing force
+max_power_leak_speed		= 0.0					;accumulation of fatigue (max limit, to which the restoring force) per second of playing time
+max_walk_weight				= 160.0	;;game mode
+
+bleeding_v					= 0.0005
+wound_incarnation_v			= 0.003		 			;the rate of wound healing
+min_wound_size				= 0.0256				;minimum size of the wound, after which it is healed
+
+;--when actor in sleep
+satiety_v_sleep				= 0.0	;-;0.00001 ;110014, aleks1970
+radiation_v_sleep			= 0.0003
+satiety_power_v_sleep		= 0.0001
+satiety_health_v_sleep		= 0.0015	;-;0.00001 ;110014
+radiation_health_v_sleep	= 0.001
+morale_v_sleep				= 0.0
+psy_health_v_sleep			= 0.0
+
+alcohol_v_sleep				= -0.00005	;-;0.0005 ;110014
+
+bleeding_v_sleep			= 0.00001
+wound_incarnation_v_sleep	= 0.00001
+max_power_leak_speed_sleep	= -0.00001
+health_restore_v			= 0.00010	;-;0.00001 ;110014 - aleks1970
+
+;;;;;;;;
+;actor_condition only
+
+jump_power					=	0.07
+jump_weight_power			=	0.05	;these have effects on gameplay physics, not good to change too much
+overweight_jump_k			=	5
+
+stand_power				=  -0.01								
+walk_power				=	0.00002				;force while walking without weight burden
+walk_weight_power		=	0.0001			;force while walking in the light weight of burden, for the maximum allowable weight
+overweight_walk_k		=	5;9	;10				;overload effect factor burden (multiplied bywalk_weight_power)
+accel_k					=	3;5					;coefficient on the run (multiplied walk_power, walk_weight_power)
+sprint_k				=	75;150;185;180;200;	;factor in the "sprint" race (multiplied walk_power, walk_weight_power)
+
+; claudication
+limping_health_begin =	0.15		;threshold below which the actor's health began to limp
+limping_health_end   =	0.25		;threshold of more health which the actor is no longer limping
+limping_power_begin  =	0.15		;threshold force below which the actor begins to limp
+limping_power_end	 =	0.25		;threshold force greater than which the actor is no longer limping
+use_limping_state	 = on
+
+cant_walk_power_begin =	0.01	;threshold force below which an actor can not move
+cant_walk_power_end   =	0.10	;threshold power is more an actor can move
+
+cant_sprint_power_begin =	0.20	;threshold force below which an actor can not run in the sprint
+cant_sprint_power_end   =	0.30	;threshold force which the actor can more run in the sprint
+
+can_sleep_callback			= dream.can_sleep_callback
+sleep_video_name_callback	= dream.sleep_video_name_callback
+
+[actor_damage]
+;bone_name		 = <hit_scale>,<fwd_damage_anim_index>,<wound_scale>
+;<hit_scale> - coeff. changes hit (to reduce health)
+;<wound_scale> - coeff. changes in the value of an open wound
+;-1 - No animations, even number - in front, an odd number - back, include a FRONT! BACK TO MACHINES
+default						= 1.0, -1, 1.0
+
+bip01_pelvis 				= 1.0, 10, 1.5
+bip01_spine 		 		= 1.0, 10, 1.5
+bip01_spine1 		 		= 1.0, 0, 1.5
+bip01_spine2 		 		= 1.0, 0, 1.5
+bip01_neck 			 		= 1.0, 0, 1.5
+bip01_head 			 		= 0.2, 0, 1.5
+eyelid_1 			 		= 0.0, 0, 0.0
+eye_left 			 		= 0.0, 0, 0.0
+eye_right 			 		= 0.0, 0, 0.0
+jaw_1 		 		 		= 0.0, 0, 0.0
+
+bip01_l_clavicle	 		= 1.0, 4, 1.5
+bip01_l_upperarm	 		= 1.0, 4, 1.5
+bip01_l_forearm	 	 		= 1.0, 4, 1.5
+bip01_l_hand	 	 		= 1.0, 4, 0.5
+bip01_l_finger0	 	 		= 0.0, 4, 0.0
+bip01_l_finger01	 		= 0.0, 4, 0.0
+bip01_l_finger02	 		= 0.0, 4, 0.0
+bip01_l_finger1	 	 		= 0.0, 4, 0.0
+bip01_l_finger11	 		= 0.0, 4, 0.0
+bip01_l_finger12	 		= 0.0, 4, 0.0
+bip01_l_finger2	 	 		= 0.0, 4, 0.0
+bip01_l_finger21	 		= 0.0, 4, 0.0
+bip01_l_finger22	 		= 0.0, 4, 0.0
+
+bip01_r_clavicle	 		= 1.0, 2, 1.5
+bip01_r_upperarm	 		= 1.0, 2, 1.5
+bip01_r_forearm	 	 		= 1.0, 2, 1.5
+bip01_r_hand	 	 		= 1.0, 2, 0.0
+bip01_r_finger0	 	 		= 0.0, 2, 0.0
+bip01_r_finger01	 		= 0.0, 2, 0.0
+bip01_r_finger02	 		= 0.0, 2, 0.0
+bip01_r_finger1	 	 		= 0.0, 2, 0.0
+bip01_r_finger11	 		= 0.0, 2, 0.0
+bip01_r_finger12	 		= 0.0, 2, 0.0
+bip01_r_finger2	 	 		= 0.0, 2, 0.0
+bip01_r_finger21	 		= 0.0, 2, 0.0
+bip01_r_finger22	 		= 0.0, 2, 0.0
+
+bip01_l_thigh	 	 		= 1.0, 8, 1.5
+bip01_l_calf	 	 		= 1.0, 8, 1.5
+bip01_l_foot	 	 		= 1.0, 8, 1.5
+bip01_l_toe0	 	 		= 1.0, 8, 1.5
+bip01_r_thigh	 	 		= 1.0, 6, 1.5
+bip01_r_calf	 	 		= 1.0, 6, 1.5
+bip01_r_foot	 	 		= 1.0, 6, 1.5
+bip01_r_toe0	 	 		= 1.0, 6, 1.5
+
+[actor_animation]
+;angles dvorota feet actor during Streif (degrees)
+fwd_l_strafe_yaw    = 45
+back_l_strafe_yaw   = 45
+fwd_r_strafe_yaw    = 45
+back_r_strafe_yaw   = 45
+l_strafe_yaw		= 0
+r_strafe_yaw		= 0
+
+
+[actor_hit_snds]
+burn			=actor\pain1,actor\pain2,actor\pain3;  ,actor\hurt4
+shock			=actor\pain1,actor\pain2,actor\pain3; ,actor\hurt4
+strike			=actor\pain1,actor\pain2,actor\pain3; ,actor\hurt4
+wound			=actor\pain1,actor\pain2,actor\pain3; ,actor\hurt4
+radiation		=monsters\biting\def_0; actor\hurt1,actor\hurt2,actor\hurt3,actor\hurt4
+telepatic		=actor\pain1,actor\pain2,actor\pain3;  ,actor\hurt4
+fire_wound		=actor\bullet_hit_1,actor\bullet_hit_2,actor\bullet_hit_3,actor\bullet_hit_4
+; actor\pain_1,actor\pain_3,actor\pain_4,actor\pain_5,actor\pain_6,actor\pain_7,actor\pain_8
+chemical_burn	=actor\pain1,actor\pain2,actor\pain3;  ,actor\hurt4
+explosion		=affects\tinnitus3a
+wound_2			=actor\hurt1,actor\hurt2,actor\hurt3,actor\hurt4
+physic_strike	=actor\pain1,actor\pain2,actor\pain3; ,actor\hurt4

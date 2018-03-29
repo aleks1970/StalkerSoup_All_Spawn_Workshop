@@ -1,0 +1,252 @@
+;<!-- TB3D 1.1.0.0.1.6 , deathclaw, spider and fotoman, freedom/bandit-->
+[game_relations]
+;real separation of the groups on the reputation scale
+rating			= novice, 300, experienced, 600, veteran, 900, master
+monster_rating	= weak, 400, normal, 800, strong
+reputation		= terrible, -1000, very_bad, -150, bad, -50, neutral, 50, good, 150, very_good, 1000, excellent
+
+;scale to display names instead of numbers 
+;ratings, reputation and goodwill in the interface
+rating_names		= novice, 300, experienced, 600, veteran, 900, master
+reputation_names	= terrible, -1000, very_bad, -150, bad, -50, neutral, 50, good, 150, very_good, 1000, excellent
+goodwill_names      = enemy, -150, indifferent, 400, friendly
+
+;threshold values for the ratio of characters
+attitude_neutal_threshold =  -150		;when the attitude is less than, that exhibited ALife::eRelationEnemy
+attitude_friend_threshold =   400		;when the attitude is less than, that exhibited ALife::eRelationNeutral, 400+ ALife::eRelationFriend
+
+;constants, which are appropriated by script functions for set_relation personal goodwill
+goodwill_enemy  = -1000
+goodwill_neutal =    0 
+goodwill_friend =  1000
+
+;names of groups
+communities		= actor, 0, actor_dolg, 1, actor_freedom, 2, stalker, 5, monolith, 6, military, 7, killer, 8, ecolog, 9, dolg, 10, freedom, 11, bandit, 12, zombied, 13, stranger, 14, trader, 15, arena_enemy, 16, sniper, 18, green, 20, nebo, 22, lastday, 24, fotoman, 26
+
+
+;	attitude of the character to the actor (or another NPC) is given by
+;	attitude = personal_goodwill +	 //personal attitude of the character to the actor (if not previously met, then 0)
+;	          community_goodwill +   //relation to group personal character actor (if previously there was no contact, then 0)
+;	      community_to_community +   //relation to the grouping character actor from the group [communities_relations]
+;             reputation_goodwill +	 //attitude of the character's reputation to the reputation of an actor [reputation_relations]
+;	               rank_goodwill     //the ratio of rank to the rank of the character actor from the [rank_relations]
+
+[communities_relations]
+; -************- |actor |actor_dolg|actor_freedom|stalker|monolith|military|killer|ecolog| dolg |freedom|bandit|zombied|stranger|trader|arena_enemy|sniper|green | nebo |lastday|fotoman|
+;================|======|==========|=============|=======|========|========|======|======|======|=======|======|=======|========|======|===========|======|======|======|=======|=======|
+actor			=	  0,		 0,			   0,	  50,	-1000,	 -1500,	-1500,	   0,	  0,	  0,  -450,  -2000,		  0,   100,		 -1250,	-1000,	  50,	100,  -1500,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+actor_dolg		=	  0,		 0,			   0,	   0,	-2000,	  -650,	-1200,	 500,	250,  -1250, -1000,  -2000,		  0,	 0,		 -1250,	-1000,	  50,	100,  -1500,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+actor_freedom	=	  0,		 0,			   0,	 -80,	-2000,	 -1500,	 -750,	-100, -1250,   1000,  -150,  -2000,		  0,	 0,		 -1250,	-1000,	  50,	100,  -1500,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+stalker			=	 50,		 0,			 -80,	  40,	-4000,	 -1250,	-1500,	   0,	  0,	  0,  -250,  -2000,		  0,	 0,		 -1250,	 -600,	  60,	100,  -1500,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+monolith		= -1000,	 -2000,		   -1500,  -1000,	  400,	 -2000,	-1000,	   0, -2000,  -1500, -1250,	   150,	  -1250,	 0,		 -1250,		0, -1000, -1000,	150,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+military		= -2500,	  -650,		   -1500,  -1250,	-4000,	   700,	-1250,	  40,  -650,  -1500, -2000,  -2000,		 50,	 0,		 -1250,		0,	   0,	  0,  -1500,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+killer			= -1250,	 -1250,			-650,  -1500,	-1000,	 -1250,	  150, -1250, -1500,   -650,   500,  -2000,		  0,	 0,		 -1250,		0, -1000, -1000,	100,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+ecolog			=	  0,	   500,			-100,	   0,		0,		40,	-1500,	1250,	500,   -100, -1000,  -2000,		  0,	 0,			 0,		0,	  50,	300,	 50,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+dolg			=	  0,	   250,		   -1250,	   0,	-4000,	  -650,	-1500,	 500,	650,  -1500, -1250,  -2000,		  0,	 0,			 0,		0,	   0,	300,  -1500,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+freedom			=	  0,	 -1250,			 150,	   0,	-3500,	 -1500,	 -650,	-100, -1250,	150,  -500,  -2000,		  0,	 0,			 0,		0,	   0,	  0,  -1500,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+bandit			=  -450,	 -1000,			-150,	-250,	-1250,	 -2000,	 500,  -1000, -1250,   -500,	40,  -2000,	   2000,	 0,		 -1250,		0, -1000, -1000,	100,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+zombied			= -5000,	 -5000,		   -5000,  -5000,	  100,	 -5000,	-5000,	   0, -5000,  -5000, -5000,   1000,		 50,	 0,		 -5000,	-5000, -5000, -5000,  -1500,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+stranger		=	  0,		 0,			   0,	   0,	 -250,		50,		0,	   0,	  0,	  0,	 0,		50,		  0,	 0,			 0,		0,	   0,	  0,	  0,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+trader			=   100,		 0,			 -40,	   0,		0,		 0,		0,	   0,	  0,	  0,	 0,		 0,		  0,	 0,			 0,		0,	   0,	  0,	  0,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+arena_enemy		= -1000,	 -1250,		   -1250,  -1000,	-1250,	 -1250,	-1250,	   0,  -650,  -1250, -1250,		 0,		  0,	 0,		 	 0,		0, -1000, -1000,	  0,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+sniper			= -2000,	 -1000,		   -1000,	-600,		0,		 0,		0,	   0,	  0,	  0,	 0,		 0,	   2000,	 0,			 0,		0,	-300,  -300,	  0,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+green			=    50,	    50,			  50,	  60,	-1000,		 0,	-1000,	  50,	  0,	  0, -1000,  -1000,		  0,	 0,		 -1000,	 -300,	   0,	100,  -1500,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+nebo			=   100,	   100,			  50,	  60,	-1000,		 0,	-1000,	  50,	  0,	  0, -1000,  -1000,		  0,	 0,		 -1000,	 -300,	   0,	100,  -1500,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+lastday			= -2500,	 -1500,		   -1500,  -1500,	  150,	 -1500,	  100, -1500, -1500,  -1500,   100,  -1500,		150,	 0,			 0,		0, -1500, -1500,	700,	  0
+;================|------|----------|-------------|-------|--------|--------|------|------|------|-------|------|-------|--------|------|-----------|------|------|------|-------|-------|
+fotoman			=	  0,		 0,			   0,	   0,		0,		 0,		0,	   0,	  0,	  0,	 0,		 0,		  0,	 0,			 0,		0,	   0,	  0,	  0,	  0
+;================|======|==========|=============|=======|========|========|======|======|======|=======|======|=======|========|======|===========|======|======|======|=======|=======|
+
+[rank_relations]
+; -************- |novice|experienced|veteran|master|
+;================|======|===========|=======|======|
+novice			=    70,     	 20,      0,	  0
+experienced		=    20,     	 70,     20,      0
+veteran			=     0,     	 20,     70,     20
+master			=     0,      	  0,     20,     70
+;================|======|===========|=======|======|
+
+
+[reputation_relations]
+; -************- |terrible|very_bad| bad|neutral|good|very_good|excellent|
+;================|========|========|====|=======|====|=========|=========|
+terrible		=    -250,    -100, -50,    -20,   0,        0,	        0
+very_bad		=    -100,     -50, -20,      0,   0,        0,	        0
+bad		 		=     -50,     -20,	  0,      0,   0,        0,	        0
+neutral			=     -20,	 	 0,	  0,      0,   0,        0,        50
+good			=	    0,	 	 0,	  0,      0,   0,       50,       100
+very_good		=	    0,	 	 0,	  0,      0,  50,      100,       200
+excellent		=	    0,	 	 0,	  0,     50, 100,      200,       350
+;================|========|========|====|=======|====|=========|=========|
+
+; Points of rating and reputation charged for certain activities
+
+;coefficients of "sympathy" groups
+;after exposure to one of the members of the group
+;goodwill it will spread to the rest of the group
+;by the factor
+[communities_sympathy]
+actor		 = 0.0
+actor_dolg	 = 0.0
+actor_freedom  = 0.0
+stalker		 = 0.1
+monolith	 = 0.2
+military	 = 0.2
+killer		 = 0.2
+ecolog		 = 0.4
+dolg		 = 0.2
+freedom		 = 0.2
+bandit		 = 0.01
+zombied		 = 0.0
+trader		 = 0.2
+stranger	   = 0.01
+arena_enemy    = 0.0
+sniper         = 0.0
+green          = 0.0
+nebo           = 0.0
+lastday        = 0.0
+fotoman        = 0.0
+
+;rating points received for the murder of a character
+;by status
+[rank_kill_points]
+novice			=        0
+experienced		=        0	
+veteran			=        0
+master			=        0
+
+;Points rating, reputation and goodwill accrued
+;depending on the actions committed by
+[action_points]
+personal_goodwill_limits		= -9000, 9000
+community_goodwill_limits		= -9000, 9000
+;-------------------------------------------------------
+free_friend_attack_goodwill		=  -500
+free_neutral_attack_goodwill	=  -250
+free_enemy_attack_goodwill		=  0
+
+danger_friend_attack_goodwill		=   -50
+danger_neutral_attack_goodwill		=   -50
+danger_enemy_attack_goodwill		=   3
+
+free_friend_attack_reputation		=  -100
+free_neutral_attack_reputation		=   -20
+free_enemy_attack_reputation		=    5
+
+danger_friend_attack_reputation		=   -20
+danger_neutral_attack_reputation	=   -10
+danger_enemy_attack_reputation		=    0
+;--------------------------------------------------
+;(C) min. time over which again will be registered
+;message about the attack on the character, and accordingly deducted attack_goodwill and attack_reputation
+;(works like and with other characters in battle)
+min_attack_delta_time = 3		
+
+friend_kill_goodwill		=  -400
+neutral_kill_goodwill		=  -150
+enemy_kill_goodwill		     =  0
+community_member_kill_goodwill  =  -150
+
+;murder of a member of the group reflected on the relationship
+;group (multiplied by communities_sympathy)
+
+friend_kill_reputation		=  -400
+neutral_kill_reputation		=  -100
+enemy_kill_reputation		=   5
+
+;
+; help an actor character during battle
+;
+fight_remember_time          = 10		;(C) time is a fight to remember about registry
+
+friend_fight_help_goodwill   =  200
+neutral_fight_help_goodwill  =  370 
+enemy_fight_help_goodwill    =  0
+
+friend_fight_help_reputation      = 10
+neutral_fight_help_reputation     = 10
+enemy_fight_help_reputation	     =  0
+
+;properties that vary among stalkers in
+;Depending on their rank 
+;coefficients are linearly interpolated for the ranks from 0 (novice) to 100 (experienced)
+
+
+[ranks_properties]
+immunities_novice_k		     = 1.0
+immunities_experienced_k	= 1.0
+
+visibility_novice_k		     = 1
+visibility_experienced_k	= 1
+
+dispersion_novice_k		     = 1.0
+dispersion_experienced_k	= 0.1
+
+
+; range of the ranks during registration in the new smart terrain
+[smart_terrain_rank_change]
+min = 1
+max = 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; for monsters
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[monster_communities]
+;team numbers are assigned to the respective activities
+;255 - command is not set   
+communities = actor, 255, human, 255, arena_monstr, 39, boar, 40, bloodsucker, 41, flesh, 42,  dog, 43, pseudodog, 44, cat, 45, chimera, 46, giant, 47, zombie, 48,  burer, 49, controller, 50, poltergeist, 51, snork, 52, fracture, 53, bird, 54, rat, 55, tushkano, 56, dogfrend, 57, bibliofrend, 58, deathclaw, 59, spider, 60, spider_small, 61, medwed, 62, ratlike, 63, tark, 64
+
+[monster_relations]
+; [1] friend, [0] neutral, [-1] enemy, [-2] bitter enemy
+; -************- |actor|human|arena_monstr|boar|bloodsucker|flesh|dog|pseudodog|cat|chimera|giant|zombie|burer|controller|poltergeist|snork|fracture|bird|rat|tushkano|dogfrend|bibliofrend|deathclaw|spider|spider_small|medwed|ratlike|tark|
+;================|=====|=====|============|====|===========|=====|===|=========|===|=======|=====|======|=====|==========|===========|=====|========|====|===|========|========|===========|=========|======|============|======|=======|====|
+actor			=	 1,    1,		   -2,  -1, 		-1,	  -1, -1, 		-1, -1, 	-1,	  -1,    -1,   -1,		  -1,		  -1, 	-1,		 -1,   0, -1,	   -1,		 1, 		 0,		   0,	  0,	  	   0, 	 -1,   	   0   -2
+human			= 	 0,    1,		    0,  -1, 		-1,	  -1, -1, 		-1, -1, 	-1,	  -1,    -1,   -1,		  -1,		  -1, 	-1,		 -2,   0,  0,	   -1,		 1, 		 1,		   0,	  0,	  	   0, 	 -1,   	   0   -1
+arena_monstr	=	-2,    0, 			0,  -1,  		 0,	   0,  0, 		 0,  0, 	 0,	   0,     0,    0,		   0,		   0, 	 0,		  0,   0,  0,	    0,		 0, 		 0,		   0,	  0,	  	   0, 	 -1,   	   0    0
+boar			=	-2,   -2, 			0,   1, 		-1,	   0, -1, 		-1,  0, 	-1,	  -1,     0,    0,		  -1,		  -1, 	 0,		  0,   0,  0,	    0,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0    0
+bloodsucker		=	-2,   -2, 			0,  -1,  		 1,	  -1,  0, 		 0,  0, 	 0,	   0,     0,    0,		  -2,		   0, 	 0,		  0,   0,  0,	    0,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0    0
+flesh			=	-2,   -1, 			0,   0, 		-1,	   1, -1, 		-1,  0, 	-1,	  -1,     0,    0,		  -1,		  -1, 	 0,		  0,   0,  0,	    0,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0    0
+dog				=	-2,   -1, 			0,  -1, 		 0,	  -1,  1, 		 0, -2, 	 0,	  -1,     0,   -1,		  -1,		  -1, 	 0,		  0,   0, -1,	    0,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0   -1
+pseudodog		=	-2,   -1, 			0,  -1, 		 0,	  -1,  0, 		 1,  0, 	 0,	  -1,     0,   -1,		   0,		  -1, 	 0,		  0,   0,  0,	    0,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0   -1
+cat				=	-2,   -1, 			0,  -1, 		 0,	  -2, -2, 		 0,  1, 	-1,	   0,     0,    0,		   0,		   0, 	 0,		  0,   0, -2,	   -1,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0    0
+chimera			=	-2,   -1, 			0,  -1, 		 0,	  -1,  0, 		 0, -1, 	 1,	   0,     0,    0,		   0,		   0, 	 0,		  0,   0, -1,	   -1,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0    0
+giant			=	-2,   -1, 			0,  -1, 		 0,	  -1, -1, 		-1,  0, 	 0,	   1,     0,    0,		   0,		   0, 	 0,		  0,   0, -1,	    0,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0    0
+zombie			=	-2,   -2, 			0,   0, 		 0,	   0,  0, 		 0,  0, 	 0,	   0,     1,    0,		   0,		   0, 	 0,		  0,   0,  0,	    0,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0    0
+burer			=	-2,   -2, 			0,  -1, 		 0,	  -1, -1, 		-1,  0, 	 0,	   0,     0,    1,		   0,		   0, 	 0,		  0,   0,  0,	    0,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0    0
+controller		=	-2,   -2, 			0,  -1, 		 0,	  -1, -1, 		 0,  0, 	 0,	   0,     0,    0,		   1,		   0, 	-1,		  0,   0,  0,	    0,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0    0
+poltergeist		=	-2,   -1, 			0,  -1, 		 0,	  -1, -1, 		-1,  0, 	 0,	   0,     0,    0,		   0,		   1, 	 0,		  0,   0,  0,	    0,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0    0
+snork			=	-2,   -1, 			0,  -1, 		 0,	   0,  0, 		 0,  0, 	 0,	   0,     0,    0,		  -1,		   0, 	 1,		  0,   0, -1,	    0,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0    0
+fracture		=	-2,   -2, 			0,  -1, 		 0,	   0,  0, 		 0,  0, 	 0,	   0,     0,    0,		   0,		   0, 	 0,		  1,   0,  0,	    0,		 0, 		-2,		   0,	  0,	  	   0, 	 -1,   	   0    0
+bird			=	 0,    0, 			0,  -1, 		 0,	   0,  0, 		 0,  0, 	 0,	   0,     0,    0,		   0,		   0, 	 0,		  0,   1,  0,	    0,		 0, 		 0,		   0,	  0,	  	   0, 	 -1,   	   0    0
+rat				=	-2,    0, 			0,   0, 		 0,	   0, -1, 		-1, -2, 	-1,	  -1,     0,    0,		   0,		   0, 	-1,		  0,   0,  1,	    0,		 0, 		 0,		   0,	  0,	  	   0, 	 -1,   	   0    0
+tushkano		=	-2,   -1, 			0,   0, 		 0,	   0,  0, 		 0, -1, 	-1,	   0,     0,    0,		   0,		   0, 	 0,		  0,   0,  1,	    1,		 0, 		 0,		   0,	  0,	  	   0, 	 -1,   	   0    0
+dogfrend		=	 1,    1, 			0,   0, 		 0,	   0,  0, 		 0, -1, 	-1,	   0,     0,    0,		   0,		   0, 	 0,		  0,   0,  0,	    1,		 1, 		 0,		   0,	  0,	  	   0, 	 -1,   	   0    0
+bibliofrend		=	 0,    1,		   -2,  -2, 		-2,	  -2, -2, 		-2, -2, 	-2,	  -2,    -2,   -2,		  -2,		  -2, 	-2,		 -2,   0,  0,		0,		 0, 		 1,		   0,	  0,	  	   0, 	 -1,   	   0    0
+deathclaw  		=   -2,   -2, 			0,  -2, 		-1,	  -2, -2, 		-2, -2, 	-1,	  -1,     0,   -2,		  -2,		   0, 	-2,		 -2,   0,  0,	    0,		 0, 		-1,		   1,	 -1,	 	  -1, 	 -1,   	   0    0
+spider      	=   -2,   -2,		   -1,  -1, 		-1,	  -1, -1, 		-1, -1, 	-1,	  -1,    -1,   -1,		  -1,		  -1, 	-1,		 -1,  -1,  0,	   -1,		 1, 		 0,		   0,	  0,	  	   0, 	 -1,   	   0    0
+spider_small    =   -2,   -2,		   -1,  -1, 		-1,	  -1, -1, 		-1, -1, 	-1,	  -1,    -1,   -1,		  -1,		  -1, 	-1,		 -1,  -1,  0,	   -1,		 1, 		 0,		   0,	  0,	  	   0, 	 -1,   	   0    0
+medwed        	= 	-2,	  -2, 		   -1,   0,  		 0,   -1, -1, 		-1, -1,  	 0,   -1, 	 -1,   -1, 		  -1,  		   0,    0, 	 -1,  -1,  0,  		0,  	-1, 		-1,  	   0, 	 -1,	 	  -1,  	  1,   	   0    0
+ratlike       	= 	-2,   -2,  			0,   0,  		 0,   -1,  0,  		 0,  0,  	 0,   -1, 	 -1,   -1, 		  -1,  		   0,    0,  	  0,  -1,  0,  		0,   	 0, 		-1, 	  -1, 	 -1,	 	  -1, 	 -1,   	   0    0
+tark	       	= 	-2,   -1,  			0,   0,  		 0,    0, -1,  		-1,  0,  	 0,   -1, 	  0,    0, 		   0,  		   0,    0,  	  0,   0,  0,  		0,   	 0, 		-1, 	  -1, 	 -1,	 	  -1, 	 -1,   	   0    0
+;================|=====|=====|============|====|===========|=====|===|=========|===|=======|=====|======|=====|==========|===========|=====|========|====|===|========|========|===========|=========|======|============|======|=======|====|
+
+

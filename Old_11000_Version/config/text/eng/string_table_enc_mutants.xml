@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.1.5 werewolf, enc_mutant_snork_general, new mutants - aleks1970 -->
+<!-- Partial reworking of text - Sword2012 - 20 Feb 17-->
+<string_table>
+	<string id="Mutants">
+		<text>Mutants</text>
+	</string>
+	<string id="General">
+		<text>Overview</text>
+	</string>
+	<!-- MUTANTS -->
+	<string id="Werewolf">
+		<text>Werewolf</text>
+	</string>
+	<string id="enc_mutant_werewolf_general">
+		<text>The Werewolf is a huge, furry, hound-like creature with long, sharp claws. They are extremely strong, and easily capable of overturning a car. They are mostly encountered in dark caves or at night, able to jump incredible distances, and doing extreme damage to their victims. Slightly stronger and more aggressive than Chimera, their attacks are limited to a leaping pounce and a vicious, short-ranged, melee attack that causes deep lacerations that can quickly lead to bleeding out. Heavy armor is highly recommended when dealing with these creatures.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]1500 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]220 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Very fast (12 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]99.8%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]98%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]85%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]98%</text>
+	</string>
+	<string id="Chimera">
+		<text>Chimera</text>
+	</string>
+	<string id="enc_mutant_chimera_general">
+		<text>The Chimera is a huge, hound-like creature with no fur, two heads and a broad tail. Chimeras are extremely strong, and easily capable of overturning a car. They are considered the most deadly mutant to encounter, able to jump incredible distances and doing extreme damage. Though physically weaker than the Pseudogiant, the Chimera is considered deadlier due to its extremely fast speeds and aggressiveness. Their attacks are fairly limited, to a leaping pounce, and a vicious - but very short-ranged - melee attack. The pounce itself isn't too dangerous compared to its melee, but it temporarily stuns, reducing victims to a walking pace. The melee can make quick work of its victims - killing them with such force that it tosses the corpses into the air, which is an excellent warning sign that one is nearby. Heavy armor of some kind is nearly a necessity for surviving an encounter - Exoskeleton armor in particular.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]1500 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]220 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Very fast (12 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]99.8%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]98%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]85%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]98%</text>
+	</string>
+	<string id="himera_prizrak">
+		<text>Phantom Chimera</text>
+	</string>
+	<string id="enc_mutant_himera_prizrak">
+		<text>A rare subspecies of the Chimera which, for reasons unknown, became translucent and effectively invisible, especially at night time. In addition, these changes to their dermic layers have made them even more resistant to most types of damage.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]1800 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]220 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Fast (10 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]99.8%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]98%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]85%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]98%</text>
+	</string>
+	<string id="Fracture">
+		<text>Izlom</text>
+	</string>
+	<string id="enc_mutant_fracture_general">
+		<text>The Izlom is a mutated human that walks on all fours, has one arm much longer than the other, and an extended neck. An Izlom is rarely seen, as they are non-aggressive and actively avoid engagement with Stalkers. Izloms normally travel in packs of two or more, and rarely attack anyone or anything unless they get too close. When this happens they can be fearsome, with their long, strong arms and eerie, blood-curdling moans.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]300 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]170 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Slow (5 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]60%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]60%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]60%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]80%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]20%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]60%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]90%</text>
+	</string>
+	<string id="Burer">
+		<text>Burer</text>
+	</string>
+	<string id="enc_mutant_burer_general">
+		<text>The pitiful result of genetic experiments conducted by Army Special Forces scientists on Death Row criminals, as part of the 'Program of Progress in the form of Telekinetic Capabilities' (or PPTC for obfuscation). The Burer is all that remains of an essentially human creature with hypertrophied features dressed in filthy prison overalls. Short, stocky, and almost dwarf-like, they are unparallelled in close quarters combat, in which they use various forms of gravitational 'weaponry'. They are able to draw upon the earth's energies to repel opponents with such force as to cause serious internal and external physical injuries. They can levitate heavy objects and use them in a projectile attack. And by means of a focused gravitational impulse, they can drag a weapon suddenly from your hands from a distance. A powerful creature, they are vulnerable to gunfire, especially to the head, and the best defence against one is to remain in constant motion, not getting too close as to be affected by its 'force of gravity' onslaughts. Although they tend to avoid bright light, choosing to dwell in dark, gloomy caves or underground vaults, they are often found on the surface, usually in pairs or groups, feeding upon the corpses of dead Stalkers...\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]400 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]70 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Slow (6 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Psychokinetic/Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]40%</text>
+	</string>
+	<string id="Cat">
+		<text>Feral Cat</text>
+	</string>
+	<string id="enc_mutant_cat_general">
+		<text>The Feral Cat is the mutated version of what is believed to have once been a domestic housecat. They have mutated a pair of fang like glands on the side of their mouths which they use to attack, along with their teeth. They attack by biting their prey, in the same fashion as Blind Dogs. They are known to emit a loud "meowing" sound when attacking.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]400 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]50 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Fast (10 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]10%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]99%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]0%</text>
+	</string>
+	<string id="Blind">
+		<text>Blind Dog</text>
+	</string>
+	<string id="enc_mutant_blind_general">
+		<text>Several generations of the dog species have lived and died since the catastrophe. Each was more affected by the Zone than the previous one. Rapid mutation lead to a vast improvement in previously peripheral abilities, frequently at the expense of primary ones. The most notable biological change was the loss of sight, paired with an uncanny development of smell. As it turned out, blind cubs survived in the Zone as well as normal ones, if not better. As a result, the common dog quickly became extinct in the Zone, giving way to a new breed - that of blind dogs. The animals instinctively identify and avoid anomalies, radiation, and other invisible dangers that plague the Zone. Like their wild ancestors - the wolves - blind dogs hunt in packs. An encounter with a large group of these animals can be dangerous even to an experienced and well-armed Stalker\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]400 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]40 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Medium (7 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]10%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]99%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]20%</text>
+	</string>
+	<string id="black_dog">
+		<text>Black Dog</text>
+	</string>
+	<string id="enc_mutant_black_dog">
+		<text>Black Dog of Chernobyl. They say that this breed of mutated dog is both highly aggressive, and fearless... particularly when gathered in packs. Their skin is more resistant to damage than other dogs, and any bites inflicted from them will take much longer to heal. They can be disposed of in much the same fashion as other dogs in the Zone, but be quick about it... once assembled in greater numbers, they have proven to be extremely dangerous!\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]400 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]40 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Medium (7 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]10%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]99%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]20%</text>
+	</string>
+	<string id="Bloodsucker">
+		<text>Bloodsucker</text>
+	</string>
+	<string id="enc_mutant_bloodsucker_general">
+		<text>The Bloodsucker is a semi-legendary creature, often used by Stalkers as a symbol of the dangers and corruption of the Zone. This status has been achieved both thanks to the species' relative rarity, as well as the fact that few humans who encounter Bloodsuckers survive to tell of it. Bloodsuckers often makes lairs where they all will dwell in when resting or storing their kill for later consumption. They also sleep standing up and aren't heavy sleepers as even something as quiet as a light footstep will instantly wake them up. In a fight, a Bloodsucker will primarily rely on its claws. They are very strong and few types of armor can withstand more than a few slashes. It is not unusual to find lone Bloodsuckers butchering entire squads of Stalkers. This can be seen as showing the Bloodsucker's fearsome skills, however is more likely a signal of the suicidal tendencies of the human AI, who seem to clump together and fire short burst while being slashed to death. Perhaps the most peculiar thing about Bloodsuckers is their optic camouflage, which allows them to temporarily become almost invisible to the naked eye. Bloodsuckers will often engage their camouflage upon discovering prey, and then become visible again when they are close enough to attack. Bloodsuckers have thick skin and are very durable, being able to sustain large amounts of damage before dying. After killing an enemy, Bloodsuckers will usually bite into the corpse to drain it of blood, which is what gave them their name.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]400 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]150 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Medium (7 ft/sec), when invisible (9 m/s)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]60%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]60%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]93%</text>
+	</string>
+	<string id="Boar">
+		<text>Wild Boar</text>
+	</string>
+	<string id="enc_mutant_boar_general">
+		<text>A large animal that can reach 1.5 meters at the shoulder. The boar's ability to survive and aggression surpass that of its relatives outside the Zone and resemble that of most mutants. Mutagenic processes engendered by radiation and anomalies have played a significant part in shaping these mammals: they have lost all fur in places and grown long, bristly fur in others. The animals' hooves have changed in shape and become sharper, acquiring a resemblance to claws; their pupils have become colorless and pigmentation disorders and deep wrinkles have appeared on their bald heads. Zone boars resist radiation well which allows them to spend long periods in heavily contaminated areas. They normally attack by charging at their victims and attempting to rip them to shreds with their claws or knock them over. The boar is indeed one of the most dangerous of the original domestic animals of the Zone.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]500 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]250 lbs\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Medium (7 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0-20%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0-20%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]50-70%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]99-100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0-20%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]45-85%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]70-85%</text>
+	</string>
+	<string id="Crow">
+		<text>Raven</text>
+	</string>
+	<string id="enc_mutant_crow_general">
+		<text>The only bird species to have survived in the Zone, enduring increased radiation levels and effectively avoiding anomalies. While the army pilots need to rely on complex detectors to avoid gravitational disturbances, the crow seems to rely on its own senses for that - a mystery that drives ornithologists and biologists mad. Various theories attempting to explain the phenomenon exist, all of them pointing to a highly specialized development of the bird's brain.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]Unknown %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]1 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Slow (6 ft/sec)• %c[255,1,255,255]Attack: %c[255,1,255,1]None\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]0%</text>
+	</string>
+	<string id="Flesh">
+		<text>Flesh</text>
+	</string>
+	<string id="enc_mutant_flesh_general">
+		<text>Like many other living creatures, domestic pigs in the Zone underwent serious mutation, which affected genes responsible for their metabolism causing the animal's phenotype to change significantly. A mutant pig of this type, known as "Flesh" among Stalkers, is one of the clearest examples of the Zone's perversion of nature. The pigs have developed a protective layer of scales and bones, their regeneration potential grew significantly and their nervous system became more complex. A side benefit of this mutation is their enlarged eye, which can see in a greater spectrum of light and has olfactory receptors within (basically, the flesh can smell things with his eyes). They are familial creatures and will form packs to travel the Zone, typically numbering five or six fleshes. A pack is led by an alpha flesh, most often the most experienced and long lived one. The 'Alpha pig' can be easily identified by its grayish skin and horrible scarring all over. Just like a normal pig, the flesh is an omnivore and may attack a Stalker if hungry. Flesh have been observed dragging corpses of small slain mutants such as Blind Dogs into a safe spot for consumption.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]250 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]200 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Slow (5 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]99%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]20%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]0%</text>
+	</string>
+	<string id="Poltergeist">
+		<text>Poltergeist</text>
+	</string>
+	<string id="enc_mutant_poltergeist_general">
+		<text>Supernatural to some, Poltergeists are invisible creatures that can be found only deep inside the Zone and live mostly inside ruined buildings. Nothing is known about their origins although rumors in circulation claim they are spirits of Stalkers who were hit by a massive wave of radiation. The mechanism of their appearance corresponds to poltergeist legends (hence the name) and is quite diverse: from regular howls and laughter to dangerous fireballs appearing from nowhere. Unfortunately, all information about this phenomenon originates from unclear and contradictory stories of questionable validity. Poltergeists are extremely deceiving, as they do not appear threatening; they only appear as a ball of electricity. Poltergeists will attack with anything that's not tied to the ground by telekenetically throwing objects (e.g. buckets, barrels, ammo boxes, crates, discarded firearms), though it can also be that they can manipulate gravity similar to that of Vortex anomalies.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]250 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]80 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Very slow (4 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Psychokinetic / Heat\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]30%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]95%</text>
+	</string>
+	<string id="Pseudodog">
+		<text>Pseudodog</text>
+	</string>
+	<string id="enc_mutant_pseudodog_general">
+		<text>Pseudodogs are often seen together with Blind dogs, though the former are faster, stronger and more aggressive than their blind relatives. Pseudodogs are viciously territorial and will not hesitate to attack intruders. They fight by lunging at a victim and then use their teeth to wound and incapacitate. A pseudodog is a serious threat, even to a well-armed Stalker. Strangely enough if the Pseudodog is killed and it is accompanied by a pack of Blind dogs, the blind dogs would most of the time back off and retreat, which might indicate that these creatures have a type of pack mentality. Because Doctor managed to tame one of these beasts, it is highly suggested that these creatures still fully or partially retain their instincts, as wolves are normally tamed by men when either an act of kindness has been introduced to them or overpowering them and showing who the superior being is. Pseudodogs are also still capable of reproduction as Pseudodog pups were confirmed to have been seen in Call of Pripyat during Noah's ending. The offspring highly resemble their parents which means that the Pseudodog's genetic makeup has been permanently altered by the Zone.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]250 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]78 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Slow (5 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]99%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]20%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]60%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]50%</text>
+	</string>
+	<string id="Pseudogiant">
+		<text>Pseudogiant</text>
+	</string>
+	<string id="enc_mutant_pseudogiant_general">
+		<text>The pseudogiant resembles a massive, raindrop-shaped abdomen with a pair of disproportionately large limbs. These serve as both arms and legs to the creature, which uses them both to move around and grab its victims. An adult pseudogiant can weigh up to two tons and stand two meters tall. Their clumsy appearance is deceiving however, since they can move very rapidly when needed. Their muscles are exceptionally powerful and their bones are as hard as steel. The creature's brain is protected by a sturdy skull about ten centimeters thick, while its many complex functions are controlled by the spinal medulla. Another astonishing feature of the beast, is its ability to create localized shock waves, damaging anything in the vicinity. The Pseudogiant uses four attacks: a headbutt, a swing/grab with one of its muscled arms, or a surprisingly effective stab from its smaller, clawed arms, and a ground pound 'stomp' that creates a damaging shockwave. The first three attacks can be avoided by being out of range, and the last area-of-effect attack can be avoided by jumping.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]400 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]1500 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Fast (10 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical / Shockwave\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]99%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]99%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]95%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]95%</text>
+	</string>
+	<string id="Snork">
+		<text>Snork</text>
+	</string>
+	<string id="enc_mutant_snork_general">
+		<text>The snork is a horrifically mutated human soldier, still wearing tattered remains of his uniform displying the patch of the Ministry of Internal Affairs of Ukraine, boots and a GP-5 gas mask (aka a PDA-3M respirator). Exposure to radiation and anomalies in the wake of the second Chernobyl disaster has destroyed the human mind, leaving a feral, vicious beast psyche in its place and twisted the body, creating a dangerous predator. Snorks were first encountered on May 22, 2007, near one of the Army posts at the 30th kilometre of the Zone, on the Kharkov side. An Officer waiting for his shiftman's car near the posts gate was attacked by a snork, who slaughtered him wth pieces of an Izh 91 car. The mutant was promptly gunned down by other soldiers. A snork feeding. Overall, the snork is 90-95% similiar to a human, it has the same general shape and no drastic modifications like claws or tentacles. Its skin is dark gray, covered with lesions and open wounds, most notably an exposed spine on its back. However, despite the ragged appearance, the snork has incredibly powerful muscles and reflexes. On the downside, the snork has poor eyesight (his eyes are obstructed by cracked gas mask lenses), but a brilliant sense of smell (his nose is the filter hose for the gas mask), which it uses to locate its prey. When not attacking, it slowly crawls on all fours across the ground, its spine unable to support its weight when standing upright. However, when attacking, it is surprisingly fast, thanks to mutated tendons in its feet. A snork can make long leaps to reach its target and attack it with an incredibly fast series of kicks with their army boot-clad feet. The snork cannot talk, its vocal chords were destroyed beyond recognition. It communicates with growls, which vary in intensity and volume, the loudest being, of course, the one preceding an attack.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]400 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]130 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Fast (10 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical / Sweeps\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]20%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]20%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]20%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]20%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]99%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]20%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]20%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]82%</text>
+	</string>
+	<string id="Tushkano">
+		<text>Rat</text>
+	</string>
+	<string id="enc_mutant_tushkano">
+		<text>Determining the species from which the Zone's rodents developed has so far proved impossible although it can be said with certainty that their ancestors were gregarious mammals. Although are these animals similar with jerboas in appearance, there is no relation between them, even though some Stalkers, like Inquisitor the mutant zoo keeper, still refer to them as jerboas. The Rat is a quadrupedal animal reaching up to 40cm at the shoulder. Rats are more mobile, aggressive and ravenous than the normal desert animal. They live mainly in basements and destroyed buildings feeding on everything they can get their teeth into, from plants to careless Stalkers. Sometimes Rats attack and kill big animals and mutants in a large group, tearing them apart before they can escape.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]20 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]20 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Slow (5 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]0%</text>
+	</string>
+	<string id="Zombie">
+		<text>Zombie</text>
+	</string>
+	<string id="enc_mutant_zombie_general">
+		<text>The Brain Scorcher strips its victim of mind and reason, leaving only an empty, mindless shell. The brainless bodies then turn into zombies, following only the most basic instincts, wandering aimlessly around the Zone without weapons or clothing. Zombies are little more than sluggish walking corpses. They eat and drink just about anything they can get their claws on, hence they are virtually soaked in radiation and toxic waste. Usually they roam the Zone without any apparent purpose, or just lie corpse-like in abandoned buildings. However, as soon as they sense the presence of a human being, they attack immediately. Zombies are supposedly the last devolution of humans throughout the Zone. Experienced Stalkers have learned to avoid them if they can.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]150 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]80 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Very slow (4 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]90%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]90%</text>
+	</string>
+	<string id="Zombieg">
+		<text>Zombie 'Ghost'</text>
+	</string>
+	<string id="enc_mutant_zombieg_general">
+		<text>The Ghost Zombie differs from normal Zombies in that the influence of the "Brain Scorcher" has completely destroyed them both mentally and physically. They are practically immune to any and all dangers throughout the Zone. The Brain Scorcher strips its victim of mind and reason, leaving only an empty, mindless shell. The brainless bodies then turn into zombies, following only the most basic instincts, wandering aimlessly around the Zone without weapons or clothing. Zombies are little more than sluggish walking corpses. They eat and drink just about anything they can get their claws on, hence they are virtually soaked in radiation and toxic waste. Usually they roam the Zone without any apparent purpose, or just lie corpse-like in abandoned buildings. However, as soon as they sense the presence of a human being, they attack immediately. Zombies are supposedly the last devolution of humans throughout the Zone. Experienced Stalkers have learned to avoid them if they can.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]150 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]80 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Very slow (4 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]90%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]20%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]90%</text>
+	</string>
+	<string id="Skelet">
+		<text>Zombie Skeleton</text>
+	</string>
+	<string id="enc_mutant_zombie_skelet">
+		<text>A rare form of Zombie. Those who are unfortunate enough to have fallen into the "Star" anomaly only to have their clothing completely ripped off, and the flesh cracks, and dissolves from their bones. The remaining Skeleton then continues on in a zombified state, its bones now fortified by the anomalous energy. They continue to roam the Zone... a sceptre of death personified... very dangerous, and best avoided.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]150 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]80 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Very slow (4 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]85%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]10%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]90%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]80%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]10%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]83%</text>
+	</string>
+	<string id="zombie_babka">
+		<text>Babka</text>
+	</string>
+	<string id="enc_mutant_zombie_babka">
+		<text>Female Zombies have all of the physical characteristics and instincts of the common Zombie. They attack by luring their victims to them by crying out for sympathy. Once in close proximity, they lash out at them with razor sharp, infected claws. They favour living in dark areas, typically Caves, where they will lie in wait until unsuspecting Stalkers happen by.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]150 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]80 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Very slow (4 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]90%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]70%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]90%</text>
+	</string>
+	<string id="Controller">
+		<text>Controller</text>
+	</string>
+	<string id="enc_mutant_controller_general">
+		<text>A rare mutant seen near to the center of the Zone. It bears a superficial resemblance of a humanoid with a disproportionately big head. Despite their appearance, they are highly intelligent, possess good perception and an ability to control the behaviors of less developed creatures. Mature specimens are capable of taking control of a human's mind. This is a ferocious enemy, even the most experienced Stalkers are afraid of meeting it. According to some, Controllers can make it seem that you are surrounded by your friends, but actually you are surrounded by Zombies; or it might seem that you are walking on a pathway, but actually you are about to fall of a cliff. The Controller's sole ability is to dominate the unfortunate prey's mind by forcing his will onto him in a form of a bolt. In addition, Controllers seem to generate a small psy-field that affects one's ability to aim and causes anyone close by to slowly lose their mind. Controllers are extremely dangerous and should be eliminated as soon as possible due to their abilities that can cause instant death.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]200 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]90 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Slow (6 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Psychokinetic/Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]10%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]80%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]10%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]80%</text>
+	</string>
+	<string id="yazva">
+		<text>Mutated Controller</text>
+	</string>
+	<string id="enc_mutant_kontroller_yazva">
+		<text>Mutated Controller. The exact cause of the mutation remains a mystery to the Zone`s Scientific community. Obvious physical signs of the mutation are the symmetrical ulcers which prolapse into the creatures brain, as well as noticeable skin growths on the upper back, which perform some unknown function. This creatures attack is the same as a normal Controller, but stronger in every conceiveable way. Very dangerous, and best to be avoided at all costs.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]200 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]90 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Slow (6 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Psychokinetic/Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]10%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]80%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]10%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]80%</text>
+	</string>
+	<string id="bibliotekar">
+		<text>Librarian</text>
+	</string>
+	<string id="enc_mutant_bibliotekar">
+		<text>Beneath the library in Pripyat was a clandestine laboratory that experimented exclusively and extensively on animals, especially gorillas.\nJust before the second Zone incident of 2006, an accident took place there - Extract from the official transcript of the recorded statement of Gustavo Marakina, a Special Forces operative:\n"I heard the alarm signal, and went to investigate. Upon entering the main hall just outside the Research Library, I very nearly dropped my weapon to run for my life... The remains of at least seven members of our scientific staff lay on the floor, ripped to shreds. Everywhere and everything was streaked with blood. From further down the corridor I could hear heavy, plodding footsteps, coming closer and closer to me. Then suddenly it was there... just under two metres in height, round-shouldered, and extremely hairy. It reminded me of a giant ape. It howled a horrible, pitiful, bellowing noise at me and... I broke... I just turned around for the main entrance and ran as fast as I could, not looking back... I could feel it chasing after me - thud, thud, thud on the ground, terrifying me with its cries. I made it to the exit, frantically opened the coded security door, and just kept on running...\nI know now that I should have stopped to close the door, sealing the exit behind me... but I didn't... couldn't think. I am so sorry. I cannot change the past, and I must live with my mistake, and its consequences, for the rest of my life. But the worst part of all is that, whenever I think back to that time, I feel more and more that it wanted my help... (at this point Comrade Marakina stops speaking and starts to cry)"\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]300 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]170 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Slow (6 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Psychokinetic/Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]95%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]95%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]90%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]99%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]95%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]95%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]99%</text>
+	</string>
+	<string id="tarakan">
+		<text>Tarakan</text>
+	</string>
+	<string id="enc_mutant_tarakan">
+		<text>Mutated Chernobyl cockroach that has come under the influence of the Zone, causing a significant increase in size, and reaching as much as 3kg in weight. They are able to move quite quickly, are omnivorous, smelly, and evil by nature. They usually attack in packs. The stench of these creatures will instantly cause gagging and nausea. Prolonged contact will lead to temporary paresis. Their salivary glands are poisonous, so close contact with one is not adviseable. Some reports have surfaced that these creatures can be used to produce ointments, and other oils, which can be sold for quick cash to Scientists working in the cosmetics industry outside of the Zone.\n \n%c[255,220,220,100]• %c[255,1,255,255]Health: %c[255,1,255,1]15 %c[255,220,220,100]• %c[255,1,255,255]Weight: %c[255,1,255,1]3 kg\n%c[255,220,220,100]• %c[255,1,255,255]Speed: %c[255,1,255,1]Slow (5 ft/sec)\n%c[255,220,220,100]• %c[255,1,255,255]Attack: %c[255,1,255,1]Physical\n \n%c[255,220,220,100]RESISTANCES:\n%c[255,220,220,100]• %c[255,1,255,255]Burning: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Impaction: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Electrical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Laceration: %c[255,1,255,1]50%\n%c[255,220,220,100]• %c[255,1,255,255]Radiation: %c[255,1,255,1]100%\n%c[255,220,220,100]• %c[255,1,255,255]Psionic: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Chemical: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Explosive: %c[255,1,255,1]0%\n%c[255,220,220,100]• %c[255,1,255,255]Penetration: %c[255,1,255,1]0%</text>
+	</string>
+	<!-- New mutants 110015 - aleks1970 -->
+	<!-- Krysovolk -->
+	<string id="Ratlike">
+		<text>Krysovolk</text>
+	</string>
+	<string id="enc_mutant_ratlike">
+		<text>A variety of a Krysovolk that has undergone a strong mutation. It is called a ratwalker because of habitats. Unlike rats, which settles in the vicinity of people or in the dungeons, krysovolk prefers wooded or steppe areas.</text>
+	</string>
+	<string id="Swamp">
+		<text>Lustonog</text>
+	</string>
+	<string id="enc_mutant_swamp">
+		<text>It appeared due to a failed experiment scientists. On the test site there was an explosion, emissions of highly radioactive substances in the adjacent body of water. Most likely pinnipeds is highly mutated tadpole. Pinnipeds, mainly live in a swampy terrain, are characterized by rapid movement speed, getting into it is sometimes very difficult. However, they do not pose a great danger to the stalker, as they do not gather in large groups, and their bites do not cause much damage.</text>
+	</string>
+	<string id="Spider">
+		<text>Spider</text>
+	</string>
+	<string id="enc_mutant_spider">
+		<text>A rare mutant.\nAccording to rumors appeared due to test the virus to increase body size and aggression. It has developed perception, like all spiders see almost 180 degrees. These individuals are able to sort out any animal, due to its strength and instantly paralyzing bite. These individuals are able to sort out any animal, due to its strength and instantly paralyzing bite.</text>
+	</string>
+	<string id="Medwed">
+		<text>Bear</text>
+	</string>
+	<string id="enc_mutant_medwed">
+		<text>Just a bear ...</text>
+	</string>
+	<string id="name_dried_bear_paw">
+		<text>Dessicated Bear's paw</text>
+	</string>
+		<!-- The Bat -->
+	<string id="bat_mouse">
+		<text>Chiroptera</text>
+	</string>
+	<string id="enc_mutant_bat_mouse">
+		<text>Mutated species of bat often found in caves and other dark, quiet places. Creates strong radioactive and echo location fields around its area of habitation, which can cause ultrasonic damage to all living things. The powerful ultrasound pulses at multiple frequencies it emits can cause surrounding objects and even its own body to self-ignite, making them an extremely unpredictable menace. In addition, on sensing danger the Chiroptera creates a defensive field around itself, making it difficult to kill. However, it cannot sustain this field for long and, once weakened, the creature becomes practically defenceless</text>
+	</string>
+	<string id="mutant_izlom_arm_name">
+		<text>Izlom's arm</text>
+	</string>
+	<string id="mutant_izlom_arm_descr">
+		<text>The Izlom is a half-mutated creature of the Zone, with an unusually long arm. There are legends about them, such as that some Izloms can still speak, and if you don't kill him, he'll tell you stories of his life, and of the Zone's secrets. Having said that, scientists will pay a lot for an Izlom's arm, which is why such stories are rare...</text>
+	</string>
+	<string id="Karlik">
+		<text>Karlik</text>
+	</string>
+	<string id="enc_mutant_karlik_general">
+		<text>A new species of mutant about which nothing definitive is known. The prominent theory is that a Karlik is the result of human genes undergoing severe degeneration due to unidentified toxins. Despite its small stature, the strength of a Karlik can rival that of a young Bloodsucker</text>
+	</string>	
+	<string id="mutant_karlik_ear_name">
+		<text>Karlik's ear</text>+
+	</string>
+	<string id="mutant_karlik_ear_descr">
+		<text>A mutant body part with unknown properties. Rumours say that, if left to dry and then ground into a fine powder, the paste can be used to treat baldness. However, this story is only heard very late at night, around campfires with many empty vodka bottles in and around them... </text>
+	</string>
+	<string id="skelet_head_name">
+		<text>Skull</text>
+	</string>
+	<string id="mutant_skelet_head_descr">
+		<text>Alas, poor Yorick! I knew him, Horatio: a fellow of infinite jest, of most excellent fancy: he hath borne me on his back a thousand times; and now, how abhorred in my imagination it is!</text>
+	</string>
+	<!-- Tark -->
+	<string id="mutant_tark_name">
+		<text>Tark</text>
+	</string>
+	<string id="enc_mutant_tark_meat_descr">
+		<text>Tark ... It needs new descriptions - aleks1970.</text>
+	</string>
+
+	<!-- USEABLE MUTANT PARTS by dariuskzoot-->
+	<!-- EDIBLE PARTS -->
+	<string id="mutant_boar_leg">
+		<text>Wild Boar's hoof</text>
+	</string>
+	<string id="mutant_boar_leg_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+7\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+3\n%c[default]Boar's hooves can be used to produce a number of drugs, including a clinically proven anti-radiation serum. According to Sidorovich, much interest from the outside world has been generated recently in purchasing these hooves for the purpose of creating some very unique, and attractive pieces of jewellery...</text>
+	</string>
+	<string id="mutant_dog_tail">
+		<text>Dog's tail</text>
+	</string>
+	<string id="mutant_dog_tail_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+5\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+3\n%c[default]The resistance of the mutant dogs' skin to electricity, and chemical agents has long been the subject of Scientific attention. Because of the absence of any fatty tissue whatsoever in the mutant dog's tail, it is especially suited for closer examination under laboratory conditions...</text>
+	</string>
+	<string id="mutant_tail_cat">
+		<text>Feral Cat's tail</text>
+	</string>
+	<string id="mutant_tail_cat_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+5\n%c[255,1,255,255]Radiation: %c[255,1,255,1]-3\n%c[default]The outer-most layer of the Feral Cat's skin possesses the rare quality of fighting off radiation. As a result of this, the Scientist's working in the Zone will pay reasonably well in order to get their hands on suitable specimens for further study...</text>
+	</string>
+	<string id="mutant_spleen_rat">
+		<text>Rat spleen</text>
+	</string>
+	<string id="mutant_spleen_rat_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+5\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+3\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-3\n%c[default]The fluid contained inside of the Rat's spleen possesses rare antineoplastic properties. Zone Scientists have been studying them since the second Zone Incident of 2006 in the hopes to better understand how they are formed. They have met with marginal success, but feel that further study may eventually reveal enough information that could prove useful in the development of emission resistant drugs. The market for such medicine could be massive, and lead to dramatically improved treatments for cancerous diseases both inside, and outside of the Zone...</text>
+	</string>
+	<string id="mutant_face_tushkano">
+		<text>Tushkano head</text>
+	</string>
+	<string id="mutant_face_tushkano_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+7\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+3\n%c[default]'Tushkanos' have been found to possess a highly developed intellect, and Scientists are trying to understand how such a tiny brain is able to process so much information. They will pay well for such specimens, and Stalkers do well to collect them for trading purposes - if they don't end up having to consume them first!</text>
+	</string>
+	<string id="mutant_krovosos_jaw">
+		<text>Bloodsucker tentacles</text>
+	</string>
+	<string id="mutant_krovosos_jaw_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+12\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+5\n%c[255,1,255,255]Bleeding: %c[255,255,0,0]+3\n%c[255,1,255,255]Portions: x2\n%c[default]The tentacles of a Bloodsucker contain a special gland which produces a ferment capable of both dissolving the skin, as well as preventing the blood from clotting. Further clinical study of this rare ferment's composition could be the cornerstone of a whole new series of advancements in Medical Science... the one drawback being that specimens are extremely difficult, and dangerous to obtain...</text>
+	</string>
+	<string id="mutant_snork_leg">
+		<text>Snork's foot</text>
+	</string>
+	<string id="mutant_snork_leg_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+7\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+4\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-3\n%c[default]Snork feet contain a huge number of highly elastic tendons. This explains the strange beast's ability to make those unbelievably long jumps... Scientists are in the process of trying to determine the creatures origins through further study in controlled Laboratory conditions... These are quite valuable, and hard to come by!</text>
+	</string>
+	<string id="mutant_psevdodog_tail">
+		<text>Pseudodog tail</text>
+	</string>
+	<string id="mutant_psevdodog_tail_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+5\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+3\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-3\n%c[default]The resistance of mutant dogs' skin to electricity and chemical agents has long been the subject of scientific attention. Since the animal's tail is almost completely free of fat tissue, it is especially suited for lab examination. The Pseudodog's tail is particularly valuable based on its unique psi-energy emissions...</text>
+	</string>
+	<string id="mutant_poltergeist_glas">
+		<text>Eye of the Poltergeist</text>
+	</string>
+	<string id="mutant_poltergeist_glas_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+8\n%c[255,1,255,255]Radiation: %c[255,1,255,1]-5\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-3\n%c[default]The 'Eye of the Poltergeist' is a particularly rare find, as it is only attainable from the corpse of the fallen beast in its physical form... Scientists have very limited information on this unique occular organ, as they are so hard to come by... rumor has it that they will pay a reasonable sum of money in order to get their hands on one for study... (most reports of poltergeist manifestations involve noises and destruction that have no immediate or verifiable cause... situations include inanimate objects being picked up and thrown; noises such as knocking, rapping, or even human voices; and physical attacks on human beings...)</text>
+	</string>
+	<string id="mutant_hand_kontroler">
+		<text>Controller hand</text>
+	</string>
+	<string id="mutant_hand_kontroler_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+10\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+5\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-5\n%c[default]Controllers possess incredibly strong Psionic abilities. Attacking from a distance, and creating a variety of hallucinatory damage... They are, however, susceptible to physical damage, and can be killed using cunning, and skill. Scientists believe that their strength lies in their hands, and will pay good money for them if they are left undamaged...</text>
+	</string>
+	<string id="mutant_flesh_eye">
+		<text>Flesh eye</text>
+	</string>
+	<string id="mutant_flesh_eye_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+7\n%c[255,1,255,255]Radiation: %c[255,1,255,1]-5\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-3\n%c[default]The giant mutated eye of the Flesh has a number of strange characteristics, the most intriguing of which is that it has olfactory cells that allow it to experience smell with its eyes. Furthermore, it has a regenerative lens... making it a self-healing mutant part. Very highly sought after, especially since you can eat it raw or cooked!</text>
+	</string>
+	<string id="mutant_burer_hand">
+		<text>Burer hand</text>
+	</string>
+	<string id="mutant_burer_hand_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+7\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+3\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-3\n%c[default]The Hand of a Burer has a number of unique properties, most useful of which is its strong resistance to radiation + psi-emissions... the trade-off being an increase in metabolism + energy consumption. Zone Scientists do not maintain much interest in these, however, as they have been studied extensively since the formation of the Zone...</text>
+	</string>
+	<string id="mutant_zombie_hand">
+		<text>Zombie hand</text>
+	</string>
+	<string id="mutant_zombie_hand_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+6\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+4\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-2\n%c[default]Zombie hands have a number of unique properties, most useful of which is its strong resistance to radiation. They have been known to increase one's appetite, however, but thankfully not for human flesh! Zone Scientists have been known to pay good money for such anatomical finds provided that they are undamaged...</text>
+	</string>
+	<string id="mutant_fracture_hand">
+		<text>Izlom hand</text>
+	</string>
+	<string id="mutant_fracture_hand_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+10\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+5\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-5\n%c[default]Zone Scientists have been studying Zombies since the second Zone Incident of 2006 in the hopes to better understand how they are formed. They have met with marginal success, but feel that further study may eventually reveal enough information that could prove useful in the development of emission resistant drugs. The market for such medicine could be massive, and lead to dramatically improved treatments for cancerous diseases both inside, and outside of the Zone...</text>
+	</string>
+	<string id="mutant_psevdogigant_hand">
+		<text>Pseudogiant hand</text>
+	</string>
+	<string id="mutant_psevdogigant_hand_description">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+7\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+4\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-3\n%c[default]The mutated hand of a Pseudogiant possesses strange anomalous qualities that are currently under study by the Zone's Scientific Community... they will pay Stalkers relatively well for any, and all undamaged specimens. Extremely rare, and hard to come by... as it is necessary to actually kill one in order to be able to amputate the hand's from it...</text>
+	</string>
+	<string id="part_tarakan">
+		<text>Tarakan shell</text>
+	</string>
+	<string id="enc_part_tarakan">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+5\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+3\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-3\n%c[default]Large piece of the mutated cytoskeleton taken from the young Chernobyl cockroach, or 'Tarakan'. Exhibits many previously unknown characteristics, and used in the preparation of various medicinal ointments through the extraction of radiated enzymes and mutated hormones. It is also said to add a certain 'zing!' to homemade soup...</text>
+	</string>
+	<string id="part_tarakan_strong">
+		<text>Chitinous Tarakan shell</text>
+	</string>
+	<string id="enc_part_tarakan_strong">
+		<text>%c[255,1,255,255]Health: %c[255,1,255,1]+15\n%c[255,1,255,255]Radiation: %c[255,255,0,0]+12\n%c[255,1,255,255]Bleeding: %c[255,1,255,1]-10\n%c[default]The cytoskeleton of a mature Tarakan is more in demand than its younger counterpart. Over time, the toughened shell absorbs so much radiation and other anomalous qualities that it is in extremely high demand for study by the scientific community. At the same time, it can still be used in the preparation of various medicinal ointments that noticeably speed up the healing process...</text>
+	</string>
+	<!-- COLLECTABLE PARTS -->
+	<string id="mutant_chimera_kogot">
+		<text>Chimera talons</text>
+	</string>
+	<string id="mutant_chimera_kogot_description">
+		<text>Chimeras are responsible for most of the headless corpses and severed limbs that litter the Zone. Their talons are rumored to be stronger than tempered steel, which would explain the devastating damage inflicted upon armored victims of Chimera attacks, where one strike is sufficient to completely eviscerate any warm-blooded threat. Scientists will pay particularly well for these hard to acquire trophies...</text>
+	</string>
+	<string id="mutant_werewolf_kogot">
+		<text>Werewolf talons</text>
+	</string>
+	<string id="mutant_werewolf_kogot_description">
+		<text>Werewolf talons are stronger and sharper than those of the Chimera, if you believe the stories of those claiming to have watched them ripping doors apart to get to their victims. For obvious reasons, very few have been brought in for study...</text>
+	</string>
+	<string id="mutant_raptor_kogot">
+		<text>Venom claw</text>
+	</string>
+	<string id="enc_mutant_raptor_kogot_description">
+		<text>Claw of the extremely rare mutant known as Venom. This mutant not only strikes fear into the heart of any sane Stalker, but every other mutant in the Zone. You can expect a very good price indeed for one of these</text>
+	</string>
+	<string id="mutant_deathclaw_antler">
+		<text>Deathclaw horn</text>
+	</string>
+	<string id="enc_mutant_deathclaw_antler_description">
+		<text>A highly unusual and poorly-studied mutant, nicknamed the 'Deathclaw' among Stalkers. To even encounter one, let alone acquire its trophy horn, has proven next to impossible...</text>
+	</string>
+	<string id="part_digitis_biblio">
+		<text>Librarian pelt</text>
+	</string>
+	<string id="enc_part_digitis_biblio">
+		<text>A rare find indeed! The rarest of mutants in the Zone, the furred pelt of a Librarian is fabled to bring good luck to those who possess one. Yet the truth behind its origins are unknown. Rumors tell of experimental animal labs in Pripyat. Some that they migrated all the way from the Moscow Metro. Unfortunately, nobody has survived an encounter with one to even find out how it got its name...</text>
+	</string>
+	<string id="mutant_zombie_teeth">
+		<text>Zombie tooth</text>
+	</string>
+	<string id="enc_mutant_zombie_teeth">
+		<text>In Stalker lore, a Zombie's tooth is 'a mystical charm reputed to grant zombie-like protection throughout the Zone', and many seasoned Stalkers have been known to construct necklaces from them. You'd think such a superstition could only exist in the Zone where zombies abound but, outside the Zone, it is a fascinating item of interest to collectors of the esoteric. As a result, the price of this item has soared, because everyone is looking for something to give them that 'positive edge'.\n Stalker lore goes on to say that 'Zombie teeth work more effectively when used with body armor, food, weapons, and plenty of ammunition...'</text>
+	</string>
+	<string id="rudiment_big">
+		<text>Mutated Zombie tooth</text>
+	</string>
+	<string id="enc_rudiment_big">
+		<text>Mutated tooth (amelogenesis imperfecta) from a zombie affected by excessive radiation, and more commonly occurring in females who had given birth shortly before zombification. Despite having no known properties nor influence on its wearer, either positive or negative, the scientific community has begun to study such samples. As a result, traders will pay through the nose for one of these beautifully colored objects</text>
+	</string>
+	<!-- New mutants 110015 - aleks1970 -->
+	<string id="mutant_ratlike_tail">
+		<text>Tail of Krysovolk</text>
+	</string>
+	<string id="mutant_ratlike_tail_desc">
+		<text>Study of the tail of the Krysovolk (giant rat) is an unexplored field, due to the sheer scarcity of experimental material. All that's known about it is that Scientists will willingly pay whenever one becomes available</text>
+	</string>
+	<!-- Lustonog -->
+	<string id="mutant_swamp_heart">
+		<text>Heart of a Pinniped</text>
+	</string>
+	<string id="mutant_swamp_heart_descr">
+		<text>The heart of a mutated Pinniped is a rare delicacy, and Stalkers can expect a good price for one anywhere...</text>
+	</string>
+	<!-- Spider -->
+	<string id="mutant_spider_part">
+		<text>Spider leg</text>
+	</string>
+	<string id="mutant_spider_part_desc">
+		<text>Because of the rarity of these mutated spiders, and the sheer bloody difficulty in obtaining a body part, their properties currently remain unstudied</text>
+	</string>
+	<!-- Bear -->
+	<string id="mutant_medwed_paw">
+		<text>Bear's paw</text>
+	</string>
+	<string id="mutant_medwed_paw_desc">
+		<text>A mutated Bear's paw possesses properties currently unknown to science, so scientists are eager to get their hands on one...</text>
+	</string>
+	<!-- Bear -->
+	<string id="mutant_medwed_dried_paw">
+		<text>Preserved bear's paw</text>
+	</string>
+	<string id="mutant_medwed_dried_paw_desc">
+		<text>A Bear's paw that's been 'marinated' and shrivelled in a Fruit Punch anomaly, and now possessing properties as yet unknown to science. So it's well worth approaching a scientist with one...</text>
+	</string>
+	<!-- Tark -->
+	<string id="mutant_tark_meat">
+		<text>Tark meat</text>
+	</string>
+	<string id="mutant_tark_meat_description">
+		<text>Tark meat has a slightly sweet taste akin to a combination of beef and venison. Meat from younger tarks tends to be lighter in color, while older tarks produce a richer color and flavor</text>
+	</string>
+	
+</string_table>

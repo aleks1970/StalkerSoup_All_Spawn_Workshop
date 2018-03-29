@@ -1,0 +1,431 @@
+<!-- TB3D 1.1.0.0.1.7 new levels, companions, jupunder doors, agro final, skip groups, treasure hunt wrapup, soul cube,
+ predbannik_barman, zver_taken, more content, articles, suit, storm stages, storm_over, lanky suit, tb3d_gbars_chp2, storm,
+ glavny_pda_info, moved companions to own file, br info from f1 info, tb3d_actor_coward -->
+ 
+<game_information_portions>
+<info_portion id="tb3d_actor_coward"></info_portion>			<!-- 110017 when actor fails to help when called like prip raid -->
+<info_portion id="tb3d_arena_init"></info_portion>				<!-- delays arena updates -->
+<info_portion id="tb3d_started_as_collector"></info_portion>	<!-- used to control mob spawns -->
+<info_portion id="tb3d_restore_input"></info_portion>			<!-- force input back on -->
+<info_portion id="tb3d_gb1_done"></info_portion>				<!-- completed gold bars pass 1 -->
+<info_portion id="tb3d_start_x14">								<!-- got info about lab in fr -->
+	<article>tb3d_x14_article1_info</article>
+</info_portion>
+<info_portion id="tb3d_glavney_help"></info_portion>			<!-- give distress sms on entering npp -->
+<info_portion id="tb3d_x14_done"></info_portion>				<!-- time to start level_up 2 and the storm -->
+<info_portion id="tb3d_harsh_environment"></info_portion>		<!-- actor is in a harsh environment (level 2 and up) -->
+<info_portion id="tb3d_dm_deserters"></info_portion>			<!-- level_up 2 after the storm; ldk deserters start to repopulate -->
+<info_portion id="tb3d_sar_toggled"></info_portion>				<!-- used for monolit re-use -->
+<info_portion id="tb3d_earth_shake"></info_portion>				<!-- calls aes_earthshake then resets info -->
+<info_portion id="tb3d_pass_info">								<!-- give article about soldiers -->
+	<article>sl_pass_on</article>
+</info_portion>
+<info_portion id="shadowman_zver_taken"></info_portion>			<!-- triggers restrictor when rucksak opened -->
+<info_portion id="tb3d_cube_garbled_msg"></info_portion>		<!-- triggers garbled msg about cube -->
+<info_portion id="tb3d_sms_storm"></info_portion>				<!-- stops quake -->
+<info_portion id="tb3d_sms_storm_areas"></info_portion>			<!-- start of level_up 2 -->
+<info_portion id="tb3d_block_1"></info_portion>					<!-- storm area 1 -->
+<info_portion id="tb3d_block_2"></info_portion>					<!-- storm area 2 -->
+<info_portion id="tb3d_harsh_spawns"></info_portion>			<!-- toggles horror spawns -->
+<info_portion id="tb3d_give_storm_info">
+	<article>levelup2_desolation</article>
+</info_portion>
+<info_portion id="tb3d_storm_over"></info_portion>				<!-- 109997, storm ends -->
+<info_portion id="tb3d_sms_storm_over">							<!-- storm ends and starts level up 3 Reclamation -->
+	<article>levelup3_reclemation</article>
+</info_portion>
+<info_portion id="tb3d_sms_storm_suit">							<!-- treasure hunt for storm areas -->
+	<article>levelup2_get_suit</article>
+</info_portion>
+<info_portion id="tb3d_lanky_suit_talk">						<!-- find mushroom art for suit -->
+	<article>tb3d_lanky_mush_art_quest_info</article>
+</info_portion>
+<info_portion id="tb3d_got_lanky_suit">							<!-- special suit for storm areas -->
+</info_portion>
+<info_portion id="tb3d_lanky_suit_repairing"></info_portion>	<!-- special suit being repaired -->
+<info_portion id="tb3d_lanky_suit_fixed"></info_portion>		<!-- special suit repaired, ready for pickup -->
+<info_portion id="tb3d_found_in_npp2"></info_portion>			<!-- mushroom art was found in npp2 so spawn another -->
+
+<info_portion id="tb3d_hunt_note2">
+	<article>tb3d_hunt0_info</article>
+</info_portion>
+<info_portion id="tb3d_hunt2_start"></info_portion>				<!-- 109981, start of treasure hunt part 2, sms from sid -->
+<info_portion id="tb3d_hunt12_send"></info_portion>				<!-- 109988, moves actor out of pipe which he gets stuck in -->
+
+<info_portion id="tb3d_blockpost_attacked"></info_portion>		<!-- 109989, triggers too easily -->
+<info_portion id="tb3d_wrenches_spawned"></info_portion>		<!-- 109992, toolkit quest -->
+<info_portion id="tb3d_tools_spawned"></info_portion>			<!-- 109992, toolkit quest -->
+
+<info_portion id="tb3d_spawn_oman"></info_portion>				<!-- 109997, after storm -->
+
+<info_portion id="tb3d_crest1_done"></info_portion>				<!-- 110000, during storm -->
+<info_portion id="tb3d_crest2_done"></info_portion>				<!-- 110000, after storm -->
+
+<info_portion id="tb3d_syslov_dialog_storm"></info_portion>		<!-- 110003, yantar scientist about storm -->
+<info_portion id="tb3d_spawn_backwater_stash"></info_portion>	<!-- 110004, spawn stash in backwater after talking to arnie -->
+<info_portion id="tb3d_backwater_stash_found"></info_portion>	<!-- 110004, found stash in backwater -->
+
+<!-- **************** ZEP: on finding a document, place last one in journal ********************** -->
+<info_portion id="zep00_have">								<!-- ds gas station: send sms to talk to barman -->
+</info_portion>
+<info_portion id="zep01_have">								<!-- ww shack -->
+	<article>tb3d_zep00_info</article>
+</info_portion>	
+<info_portion id="zep02_have">								<!-- ov table in barn -->
+	<article>tb3d_zep01_info</article>
+</info_portion>
+<info_portion id="zep03_have">								<!-- zaton note behind crate in cave -->
+	<article>tb3d_zep02_info</article>
+</info_portion>
+<info_portion id="zep04_have">								<!-- pripyat drawer near doc book -->
+	<article>tb3d_zep03_info</article>
+</info_portion>	
+<info_portion id="zep05_have">								<!-- jup hdqtrs on desk -->
+	<article>tb3d_zep04_info</article>
+</info_portion>
+<info_portion id="zep06_have">								<!-- eprip commanders office -->
+	<article>tb3d_zep05_info</article>
+	<article>tb3d_agentax_info</article>
+</info_portion>
+<info_portion id="zep07_have">								<!-- dist bus stop, send sms from geek -->
+	<article>tb3d_zep06_info</article>
+</info_portion>
+<info_portion id="zep08_have">								<!-- cemetery toilet -->
+	<article>tb3d_zep07_info</article>
+</info_portion>
+<info_portion id="zep09_have">								<!-- dc hqtrs desk -->
+	<article>tb3d_zep08_info</article>
+</info_portion>
+<info_portion id="zep10_have">								<!-- warlab in wreck room -->
+	<article>tb3d_zep09_info</article>
+</info_portion>
+<info_portion id="zep11_have">								<!-- dm old bus in tunnel -->
+	<article>tb3d_zep10_info</article>
+	<article>tb3d_purged_info</article>
+</info_portion>
+<info_portion id="zep12_have">								<!-- rs main building upstairs comp desk, send sms from bar -->
+	<article>tb3d_zep11_info</article>
+</info_portion>
+<info_portion id="zep13_have">								<!-- wt by bed in tunnel -->
+	<article>tb3d_zep12_info</article>
+	<article>tb3d_turret_info</article>
+</info_portion>
+<info_portion id="zep14_have">								<!-- npp1 camp near gen exit -->
+	<article>tb3d_zep13_info</article>
+</info_portion>
+<info_portion id="zep15_have">								<!-- rs trailer on wheels -->
+	<article>tb3d_zep14_info</article>
+</info_portion>	
+<info_portion id="zep16_have">								<!-- tech cann in tunnel w/controller -->
+	<article>tb3d_zep15_info</article>
+</info_portion>
+<info_portion id="zep17_have">								<!-- wr helipad control -->
+	<article>tb3d_zep16_info</article>
+</info_portion>
+<info_portion id="zep18_have">								<!-- hole on shelf -->
+	<article>tb3d_zep17_info</article>
+</info_portion>
+<info_portion id="zep19_have">								<!-- end st in office -->
+	<article>tb3d_zep18_info</article>
+</info_portion>
+<info_portion id="zep20_have">								<!-- crty on desk -->
+	<article>tb3d_zep19_info</article>
+</info_portion>
+<info_portion id="zep21_have">								<!-- bm on bed -->
+	<article>tb3d_zep20_info</article>
+</info_portion>
+<info_portion id="zep22_have">								<!-- br on desk -->
+	<article>tb3d_zep21_info</article>
+</info_portion>
+<info_portion id="zep23_have">								<!-- f1 in lab -->
+	<article>tb3d_zep22_info</article>
+</info_portion>
+<info_portion id="zep24_have">								<!-- jupu desk in office below booth -->
+	<article>tb3d_zep23_info</article>
+	<article>tb3d_zep24_info</article>
+	<article>tb3d_zep_final_info</article>
+</info_portion>
+
+<!-- **************** NOTES: found all over the zone  ********************** -->
+<info_portion id="tb3d_note_00"></info_portion>				<!-- jup tower -->
+<info_portion id="tb3d_note_01"></info_portion>				<!-- ww tent -->
+<info_portion id="tb3d_note_02"></info_portion>				<!-- dist const. and exit -->
+<info_portion id="tb3d_note_03"></info_portion>				<!-- wrhses bed in barracks -->
+<info_portion id="tb3d_note_04"></info_portion>				<!-- npp2 rooftop camp -->
+<info_portion id="tb3d_note_05">							<!-- attic of dead village -->
+	<article>tb3d_gbar1_info</article>
+</info_portion>
+<info_portion id="tb3d_note_06">							<!-- tech in house, pipes end  -->
+	<article>tb3d_gbar2_info</article>
+</info_portion>
+<info_portion id="tb3d_note_07"></info_portion>				<!-- sarc entrance in npp1  -->
+<info_portion id="tb3d_note_08"></info_portion>				<!-- dead marshes in village  -->
+<info_portion id="tb3d_note_09">							<!-- warlab  -->
+	<article>tb3d_gbar4_info</article>
+</info_portion>
+<info_portion id="tb3d_note_10"></info_portion>				<!-- cemetery caretaker shack  -->
+<info_portion id="tb3d_note_11">							<!-- swamp in cellar  -->
+	<article>tb3d_gbar3_info</article>
+</info_portion>
+<info_portion id="tb3d_note_12"></info_portion>				<!-- dead marsh in controller hut  -->
+<info_portion id="tb3d_note_13"></info_portion>				<!-- tunnels  -->
+<info_portion id="tb3d_note_14"></info_portion>				<!-- extra note in checkpoint  -->
+<info_portion id="tb3d_note_15"></info_portion>				<!-- tunnels lower room to tech  -->
+
+<!-- **************** INGOTS: found all over the zone  ********************** -->
+<info_portion id="tb3d_goldbar_01"></info_portion>			<!-- wr - twin power stations -->
+<info_portion id="tb3d_goldbar_02"></info_portion>			<!-- ws6 - tech - tunnel next to dead bandit -->
+<info_portion id="tb3d_goldbar_03"></info_portion>			<!-- wn5 - tech - pipes end -->
+<info_portion id="tb3d_goldbar_04"></info_portion>			<!-- ws3 - tent se of lab in jupiter -->
+<info_portion id="tb3d_goldbar_05"></info_portion>			<!-- wn2 - ds stash in rocks -->
+<info_portion id="tb3d_goldbar_06"></info_portion>			<!-- n0 - gar above treasure hunt stash by bar exit -->
+<info_portion id="tb3d_goldbar_07"></info_portion>			<!-- s0 - wt tent on hill before yantar lc -->
+<info_portion id="tb3d_goldbar_08"></info_portion>			<!-- swamp in west furnace -->
+<info_portion id="tb3d_goldbar_09"></info_portion>			<!-- swamp in north furnace -->
+<info_portion id="tb3d_goldbar_10"></info_portion>			<!-- es2 - hospital in south hall on table -->
+<info_portion id="tb3d_goldbar_11"></info_portion>			<!-- en3 - dead marsh controller shack -->
+<info_portion id="tb3d_goldbar_12"></info_portion>			<!-- warlab work bench -->
+<info_portion id="tb3d_goldbar_13"></info_portion>			<!-- es6 - research in village tower -->
+<info_portion id="tb3d_goldbar_14"></info_portion>			<!-- labx8 in water -->
+<info_portion id="tb3d_goldbar_15"></info_portion>			<!-- n0s0 - sarc lowest cells -->
+<info_portion id="tb3d_gbars_chp2">							<!--109998 start chapter 2  -->
+	<article>tb3d_warlab_info</article>
+</info_portion>								
+<info_portion id="tb3d_ready_for_tunnel">					<!-- has all the needed bars  -->
+	<article>tb3d_tunnels_info</article>
+</info_portion>								
+<info_portion id="tb3d_npp1_signal_1"></info_portion>		<!-- npp1 from pripyat signals to portal, pipe bend -->
+<info_portion id="tb3d_npp1_signal_2"></info_portion>		<!-- npp1 from pripyat signals to portal, sump -->
+<info_portion id="tb3d_npp1_signal_3"></info_portion>		<!-- npp1 from pripyat signals to portal, sarc entrance -->
+<info_portion id="tb3d_sarc_signal_1"></info_portion>		<!-- on find bar 15, near lower campfire -->
+<info_portion id="tb3d_sarc_signal_2"></info_portion>		<!-- on find bar 15, large hole above granter -->
+
+<!-- **************** ZEP: Cordon - Darkscape (after first dialog with sid as collector) ********************** -->
+<info_portion id="tweed_dialog_flesh_start"></info_portion>		<!-- all.spawn -->
+<info_portion id="tweed_dialog_flesh_ok"></info_portion>
+<!-- **************** Tweed in Darkscape farmhouse -->
+<info_portion id="tweed_zep1_start">							<!-- open ds to esc -->
+	<article>tb3d_tweed_info</article>
+</info_portion>
+<info_portion id="tweed_book_have"></info_portion>				<!-- found it in old bar, actor should sms tweed -->
+<info_portion id="tweed_zep1_done"></info_portion>				<!-- reward: lc to fr (should be later in game) -->
+<!-- **************** Sid after talk to Tweed -->
+<info_portion id="sid_zep2_start">								<!--109980 open esc to ds and get ammo/weapon -->
+	<article>tb3d_zep_sid2_info</article>
+</info_portion>
+<!-- **************** Tweed after talking to Sid and getting ammo -->
+<info_portion id="tweed_zep2_start"></info_portion>				<!-- give weapon and ammo reward: hint about gas st -->
+<!-- **************** Tweed after visiting the Firing Range (after book found) -->
+<info_portion id="tweed_zep3_start"></info_portion>				<!-- spawn bandit camp -->
+<info_portion id="tweed_zep3_done"></info_portion>				<!--TODO: reward: ??? -->
+
+<!-- **************** ZEP: Rostok ********************** -->
+<info_portion id="barman_zep1_start"></info_portion>			<!-- about stranger -->
+<info_portion id="barman_zep2_start">							<!-- open ros to ww and spawn next document-->
+	<article>tb3d_zep_bar1_info</article>
+</info_portion>
+<info_portion id="barman_zep3_start"></info_portion>			<!-- tweed info on old bar -->
+<info_portion id="barman_zep4_start"></info_portion>			<!-- return from research -->
+<info_portion id="lisiy_zep1_start"></info_portion>				<!-- ZEP extra info -->
+<info_portion id="voronin_zep1_start"></info_portion>			<!-- ZEP required info -->
+<info_portion id="voronin_zep2_start">							<!-- ZEP required info -->
+	<article>tb3d_zep1_article_info</article>
+</info_portion>
+<info_portion id="associate_zep1_start"></info_portion>			<!-- ZEP required info -->
+<info_portion id="associate_zep2_start">						<!-- flight recorder -->
+	<article>tb3d_zep2_article_info</article>
+</info_portion>
+<info_portion id="ivancov_zep1_start"></info_portion>			<!-- ZEP extra info -->
+<info_portion id="petrenko_zep1_start">							<!-- ZEP extra info -->
+	<article>tb3d_zep5_article_info</article>
+</info_portion>
+<info_portion id="tb3d_zep4_article1">							<!-- before going to wt -->
+	<article>tb3d_zep4_article1_info</article>
+</info_portion>
+<info_portion id="tb3d_zep4_article2">							<!-- after going to wt -->
+	<article>tb3d_zep4_article2_info</article>
+</info_portion>
+<info_portion id="tb3d_mush_arts_quest">						<!-- find mushroom arts in npp for barman -->
+	<article>tb3d_mush_arts_quest_info</article>
+</info_portion>
+
+<!-- **************** Soul Cube ********************** -->
+<info_portion id="tb3d_cube_found"></info_portion>				<!-- found cube on floating islands -->
+<info_portion id="tb3d_cube_answered"></info_portion>			<!-- response when cube sale responded to -->
+<info_portion id="tb3d_sak_cube_done"></info_portion>			<!-- talked about cube -->
+
+<!-- **************** Jupiter Underground control room doors ********************** -->
+<info_portion id="jupu_close_door"></info_portion>				<!-- unlocked when zep24 found -->
+
+<!-- **************** garbage ********************** -->
+<info_portion id="tb3d_garb2_had_info"></info_portion>			<!-- 109996, spawns bandits in veh graveyard -->
+
+<!-- **************** New Levels ********************** -->
+<!-- **************** Dead Marshes ********************** -->
+<info_portion id="karina_zep1_start">							<!-- ZEP extra info -->
+	<article>tb3d_karina_info</article>
+</info_portion>
+<info_portion id="karina_zep2_start"></info_portion>			<!-- ZEP extra info -->
+<info_portion id="karina_zep3_start"></info_portion>			<!-- GB extra info -->
+<info_portion id="karina_zep4_start"></info_portion>			<!-- GB extra info -->
+<info_portion id="tb3d_dm_samp_has"></info_portion>				<!-- actor found the dead marshes flight recorder -->
+<info_portion id="tb3d_karina_trade">							<!-- start trading food and arts for special gifts -->
+	<article>tb3d_karina_trade_info</article>
+</info_portion>
+
+<!-- **************** Courtyards ********************** -->
+<info_portion id="kras_el_razvvdm"></info_portion>				<!-- start: dist center spawns dm_mil_h1, h2, h8 when zep20 is found -kras_el_razvvdm, informer spawns -->
+<info_portion id="kras_kill_detmir"></info_portion>				<!-- dd mil spawn, talk to informer second time -->
+<info_portion id="kras_kill_detmir_done"></info_portion>		<!-- dd mil dm_mil2_h221 dies NOT USED YET -->
+<info_portion id="kras_killer_spawn"></info_portion>			<!-- dist center -dd_svdkill NOT USED YET -->
+<info_portion id="kras_ngfind"></info_portion>					<!-- dist center stalkers and dogs NOT USED YET-->
+<info_portion id="kras_el_razvnavokz_return"></info_portion>	<!-- dist center spawns ds_mil_h1 -->
+
+<!-- **************** dist ctr ********************** -->
+<info_portion id="pogost_haker_money"></info_portion>			<!-- krasivay, -pogost_militlager_kill_return -->
+<info_portion id="pogost_haker_find_done"></info_portion>		<!-- krasivay, spawns bandits l01_stalker -->
+<info_portion id="tajic_sdoh"></info_portion>					<!-- dist center dd_trader dies, spawn zombies and dogs -->
+<info_portion id="dd_inform_zep1_start">						<!-- ZEP: zep doc 20 found, first talk with informer -->
+	<article>tb3d_informer_info</article>
+</info_portion>
+<info_portion id="dd_inform_zep2_start"></info_portion>			<!-- WR Barman talked to about informer, second dialog with informer -->
+<info_portion id="dd_informant_dead"></info_portion>			<!-- Informant dies in dd, give kras_el_razvnavokz_return -->
+
+<!-- **************** waiting room ********************** -->
+<info_portion id="pred_heli1_restrictor"></info_portion>		<!-- wr main base heli1 attack when actor in zone -->
+<info_portion id="pred_heli2_restrictor"></info_portion>		<!-- wr heli pad heli2 attack when actor in zone -->
+<info_portion id="pred_barkeep_zep1_done"></info_portion>		<!-- barman first meet -->
+<info_portion id="pred_barkeep_zep2_done"></info_portion>		<!-- barman about snitch -->
+<info_portion id="pred_barkeep_zep3_done"></info_portion>		<!-- barman about booze -->
+<info_portion id="tb3d_pred_start"></info_portion>				<!-- 110003, first time in pred -->
+<info_portion id="tb3d_pred_trader"></info_portion>				<!-- spawns trader, model has bad cycles NEED FIX -->
+<info_portion id="wr_barman_informer_yes"></info_portion>		<!-- dd informant can go to wr -->
+<info_portion id="wr_barman_informer_no"></info_portion>		<!-- dd informant cannot go to wr -->
+<info_portion id="tb3d_spawn_omon"></info_portion>				<!-- spawns pred_baza_omon_smart 1-10 inside helipad area levelup 3-->
+<info_portion id="tb3d_spawn_army"></info_portion>				<!-- spawns pred_baza_army_smart 1-10 huts and gate levelup 4-->
+<info_portion id="tb3d_pred_attack"></info_portion>				<!-- spawns blockpost capt. stalker:predbannik_blokpost_soldier70 -->
+<info_portion id="predbannik_podmoga_blokpost"></info_portion>	<!-- blockpost capt on death, spawns pre_blokpost_military_guard_ on road-->
+<info_portion id="tb3d_pred_comm"></info_portion>				<!-- freedom (nuetral) in helipad comm center NOT USED YET-->
+<info_portion id="obmorok_dialog1_done"></info_portion>			<!--TODO: -->
+<info_portion id="obmorok_dialog2_done"></info_portion>			<!--TODO: -->
+<info_portion id="karatel_dialog1_done"></info_portion>			<!--TODO: -->
+<info_portion id="karatel_dialog2_done"></info_portion>			<!--TODO: -->
+
+<!-- **************** broken road and darkscape ********** NOT USED YET ********************** 110017 -->
+<info_portion id="hr_heli1"></info_portion>						<!-- br entry -->
+<info_portion id="hr_heli2"></info_portion>						<!-- br exit to f1 -->
+<info_portion id="tb3d_spawn_afan"></info_portion>				<!-- br hr_afanasyev -->
+<info_portion id="tb3d_spawn_liza"></info_portion>				<!-- br hr_liza -->
+<info_portion id="liza_dialog1_done"></info_portion>			<!--TODO: -->
+<info_portion id="liza_dialog2_done"></info_portion>			<!--TODO: -->
+<info_portion id="afanasyev_dialog1_done"></info_portion>		<!--TODO: -->
+<info_portion id="afanasyev_dialog2_done"></info_portion>		<!--TODO: -->
+<info_portion id="tractorist_zep1_done"></info_portion>			<!-- br -->
+<info_portion id="tractorist_zep2_done"></info_portion>			<!-- br -->
+<info_portion id="tractorist_zep3_done">						<!-- br - about gold bars -->
+	<article>tb3d_tractorist_info</article>
+</info_portion>
+<info_portion id="tractorist_zep4_done"></info_portion>			<!-- br -->
+<info_portion id="tractorist_zep5_done"></info_portion>			<!-- br -->
+
+<!-- **************** darkscape ********************** -->
+<info_portion id="falling_car"></info_portion>					<!-- all.spawn restr: ds_nav6_0003, spawns truck and 2 snipers -->
+<info_portion id="afanasyev_pribor_ok"></info_portion>			<!-- all.spawn restr: ds_heli_spot_lost, triggers sound: heli_spot_lost -->
+<info_portion id="otshelnik_dialog_sestra_start"></info_portion>	<!-- all.spawn spawns: df_masha, df_stalker_1,2,3 in center camp -->
+<info_portion id="ds_heli2"></info_portion>						<!-- falling_car -->
+
+<!-- **************** level_F-1 ********************** 110017 -->
+<info_portion id="tb3d_spawn_zika11"></info_portion>			<!-- zika11,  zika_stalker1 and 2  f1 -->
+<info_portion id="zika_dialog1_done"></info_portion>			<!--TODO: -->
+<info_portion id="zika_dialog2_done"></info_portion>			<!--TODO: -->
+
+<!-- **************** firing range ********************** -->
+<info_portion id="tb3d_poli_sleepers"/>							<!-- groups of sleeping scientists -->
+<info_portion id="tb3d_poli_towers"/>							<!-- observers in towers -->
+<info_portion id="tb3d_poli_apcs"/>								<!-- spawns apcs -->
+<info_portion id="tb3d_poli_hamms"/>							<!-- spawns hamms -->
+<info_portion id="tb3d_poli_btrs"/>								<!-- spawns btrs -->
+
+<!-- **************** x14 ********************** -->
+<info_portion id="tb3d_desant_wave2"></info_portion>			<!-- spawns monolith-1 thru -31 -->
+<info_portion id="zat_kalter_bye_start"></info_portion>			<!-- controls glavny_restrictor: fires glavny_spawn -->
+<info_portion id="glavny_spawn"></info_portion>					<!-- all.spawn trigger - stalker:glavny, no smt #-->
+<info_portion id="x14_glavny_spawn"></info_portion>				<!-- spawns stalker:glavny, no smt #-->
+<info_portion id="x14_glavny_death"></info_portion>				<!-- fired on his death, spawns lab_x14_polter_1, _2, _3, _4 -->
+<info_portion id="glavny_dialog1_done"></info_portion>			<!-- tell player to drop black energy-->
+<info_portion id="glavny_pda_info">								<!-- give info on energy if glavny dead 110013-->
+	<article>tb3d_glavny_info</article>
+</info_portion>
+
+<!-- **************** pogost ********************** -->
+<info_portion id="pogost_haker_find"></info_portion>			<!-- spawns l04_haker, l03_helicopter logic cond -->
+<info_portion id="pogost_haker_wpn"></info_portion>				<!-- spawns kras_novice2_h1, h2, h3, h4, h5, l01_stalker_0014, spawns in vokzal l05_stalker, _0000, _0001, _0002, l05_stalker_0027_hak_wpn, l05_stalker_0028_hak_wpn, l05_stalker_0029_hak_wpn, l05_stalker_0030_hak_wpn -->
+<info_portion id="pogost_oxranik_helpmutant"></info_portion>	<!-- l04_stalker_0001 logic cond, spawns l04_boar_strong (x2), l04_boar_strong_0000 (x2), _0002, _0003 -->
+<info_portion id="pogost_haker_wpn_done"></info_portion>		<!-- spawns l04_stalker_0000, not l04_haker -->
+<info_portion id="pogost_help"></info_portion>					<!-- l04_stalker, l04_stalker_0002, _0003, _0004, l04_zombie_weak, l04_zombie_weak_0000 thru _0006, l04_zombie_normal, l04_zombie_normal_0000 thru _0003, l04_zombie_strong, l04_zombie_strong_0000, _0001 -->
+<info_portion id="zep_sms_from_cemetery"></info_portion>		<!-- distress call from stalkers -->
+
+<!-- **************** predbannik ********************** -->
+<info_portion id="pred_karatel_deat"></info_portion>			<!-- stalker:karatel, if killed by actor #-->
+<info_portion id="cigan_kill_obmorok_start"></info_portion>		<!-- spawns stalker:obmorok stalker:smoker, stalker:pesh_bandit_kamp111,112,113,114 -->
+<info_portion id="predbannik_obmorok_dead"></info_portion>		<!-- on obmorok death - spawns predbannik_bloodsucker_strong_0001, predbannik_psy_dog_radar_0001, predbannik_pseudodog_strong, predbannik_pseudodog_strong_0000, predbannik_snork_strong, predbannik_snork_strong_0000, predbannik_snork_strong_0001, _002 -->
+
+<!-- **************** STILL UNUSED from all.spawn ======= #=changed in all.spawn *********** -->
+<!-- **************** Courtyards, cemetery and dist ctr -->
+<info_portion id="pogost_militlager_kill"></info_portion>		<!-- dist center spawns dd_trader -->
+<info_portion id="pogost_militlager_kill_done"></info_portion>	<!-- dist center given if pogost_mil_tcex inactive, spawns l04_stalker_nh1 - 16 -->
+<info_portion id="pogost_militlager_kill_return"></info_portion>	<!-- not given yet -->
+
+<!-- **************** techniques ********************** -->
+<info_portion id="promz_mil_death"></info_portion>				<!-- tech first enter -->
+<info_portion id="promz_contr_death"></info_portion>			<!-- tech facility tunnel -->
+
+<!-- **************** rinok ********************** -->
+<info_portion id="rinok_dram_start"></info_portion>				<!-- black market -->
+<info_portion id="rinok_dram_attack"></info_portion>			<!-- black market -->
+<info_portion id="rinok_dram_bandit_hit"></info_portion>		<!-- black market -->
+<info_portion id="rinok_dram_bandit1_dead"></info_portion>		<!-- black market -->
+<info_portion id="rinok_koresh_help"></info_portion>			<!-- spawns stalker:l03_stalker, _0000, _0001 -->
+<info_portion id="rinok_koresh_dead"></info_portion>			<!-- on l03_stalker_0001 dead - kras stalker:kras_suhoi_0000 spawn condition, stalker:l03_stalker, _0000 logic cond -->
+<info_portion id="rinok_dram_bandit0_dead"></info_portion>		<!-- on l03_stalker_0000 death - l03_stalker_0001 logic cond -->
+
+<!-- **************** krasivay_help has 299 spawns ********************** -->
+<info_portion id="krasivay_help"></info_portion>				<!--# l01_zombie_normal, l01_zombie_normal_0000 thru _0030, _0032 thru _0078, _0081 thru _0117 -->
+<info_portion id="krasivay_help2"></info_portion>				<!--# l01_zombie_strong, l01_zombie_strong_0000 thru _0038, _0040 thru _0058 -->
+<info_portion id="krasivay_help3"></info_portion>				<!--# l01_zombie_immortal, l01_zombie_immortal_0000 thru _0037, _0039 thru _0056 -->
+<info_portion id="krasivay_help4"></info_portion>				<!--# l01_zombie_weak, l01_zombie_weak_0000 thru _0045, _0047 thru _0066 -->
+<info_portion id="kras_el_razvnavokz"></info_portion>			<!-- in vokzal: l05_space_restrictor logic, spawns l05_stalker_00000_el_razv, l05_stalker_0000_el_razv, l05_stalker_0001_el_razv, l05_stalker_0002_el_razv, l05_stalker_0003_el_razv, l05_stalker_0004_el_razv, l05_stalker_0005_el_razv, l05_stalker_0006_el_razv -->
+<info_portion id="kras_el_razvnavokz_done"></info_portion>		<!-- spawns kras_master, l02_dog_normal_0001, _0004, rinok: l03_stalker_0002,  in vokzal: l05_space_restrictor logic -->
+<info_portion id="kras_el_razvvdm_return"></info_portion>		<!-- spawns in dd: ds_mil_h1 thru _h5, not l02_stalker_0001 thru _0006, _0010 -->
+<info_portion id="kras_ngfind_return"></info_portion>			<!-- spawns l01_stalker_0006, l01_stalker_0010, l01_stalker_0017, l01_stalker_0018, l01_stalker_0022, l01_stalker_0023 -->
+<info_portion id="kras_ng_attak"></info_portion>				<!-- controls space restrictor l01_rest_kras_bandit2 logic -->
+<info_portion id="kras_ng_attak_done"></info_portion>			<!-- fired by space restrictor l01_rest_kras_bandit2 logic -->
+<info_portion id="kras_find_artefact"></info_portion>			<!-- spawns rinok: l03_stalker_0009 -->
+<info_portion id="kras_suhoi_help"></info_portion>				<!-- spawns l01_stalker_0011, l01_stalker_0012, kras_suhoi -->
+<info_portion id="kras_suhoi_help_done"></info_portion>			<!-- kras_suhoi logic cond -->
+<info_portion id="kras_stroika_battle_start"></info_portion>	<!-- l01_space_restrictor_0000 logic, spawns l01_stalker_kras_bandit_12rpg, l01_stalker_0025, l01_stalker_0026, l01_stalker_0027, l01_stalker_0028, l01_stalker_0007, l01_stalker_0029, l01_stalker_0030, l01_stalker_0031, l01_stalker_0032, l01_stalker_0033, l01_stalker_0034, l01_stalker_0035, l01_stalker_0036, l01_stalker_0037 -->
+<info_portion id="kras_stroika_battle_done"></info_portion>		<!-- fired by l01_space_restrictor_0000 -->
+<info_portion id="kras_suhoi_dead"></info_portion>				<!-- not kras_suhoi_0000, fired by his death -->
+
+<!-- **************** vokzal ********************** -->
+<info_portion id="dd_svdkill"></info_portion>					<!-- spawns l02_stalker (trader), l02_stalker_0007, 0015, _lider, dd_stalker_sturm_01 thru 07, l02_zombie_ (lots of em) -->
+<info_portion id="dd_svdkill_done"></info_portion>				<!-- spawns l05_stalker_0008_vok_end, l05_stalker_0010_vok_end, l05_stalker_0011_vok_end, l05_stalker_0012_vok_end, l05_stalker_0013_vok_end, l05_stalker_0014_vok_end, l05_stalker_0015_vok_end, l05_stalker_0016_vok_end, l05_stalker_0017_vok_end, l05_stalker_0018_vok_end, l05_stalker_0019_vok_end, l05_stalker_0020_vok_end, l05_stalker_0021_vok_end, l05_stalker_0022_vok_end, l05_stalker_0023_vok_end, l05_stalker_0024_vok_end, l05_stalker_0025_vok_end, l05_stalker_0026_vok_end, l05_stalker_0031_vok_end, l05_stalker_vok_end_h38, l05_stalker_vok_end_h39, l05_stalker_vok_end_h43, l05_stalker_vok_end_h44,l05_stalker_vok_end_h40, l05_stalker_vok_end_h41, l05_stalker_vok_end_h42, l05_stalker_vok_end_h42 -->
+
+<!-- **************** research ********************** -->
+<info_portion id="yanold_restrictor_contr"></info_portion>		<!-- research station -->
+<info_portion id="kira_zadan_art_start"></info_portion>			<!-- spawns yan_old_smart_sv_1, _2, _3, _4, _5, bunker -->
+<info_portion id="bunker_zadan_art_ok"></info_portion>			<!-- spawns bloodsucker_bunker_atac1, _atac2, _atac3, _atac4, _atac5, _atac6 -->
+<info_portion id="jdanov_zadan_nout_start"></info_portion>		<!-- spawns bloodsucker_bunker_atac2, _atac3, _atac4, _atac5, _ata6 -->
+<info_portion id="yula_zadan_art_ok"></info_portion>			<!-- spawns bebi -->
+<info_portion id="shram_zadan_start"></info_portion>			<!-- spawns swamp_baza_killer_1, _2, _5, _7, _8, _9, last_day_lider -->
+<info_portion id="dok_boloto_samopisez_start"></info_portion>	<!-- bolot_dok_samop_restrictor fires swamp_krowosos_spawn -->
+<info_portion id="swamp_krowosos_spawn"></info_portion>			<!-- fired by bolot_dok_samop_restrictor, spawns bolot_dok_samop_krowosos1, 2 -->
+
+<!-- **************** hole in ground ********************** -->
+<info_portion id="datchik_dialog_start"></info_portion>			<!-- spawns digger_stash_killer_1, _2, _3 -->
+<info_portion id="killer_strag_spawn"></info_portion>			<!-- hole in the ground -->
+
+<!-- **************** added npc deaths ******************** -->
+<info_portion id="tb3d_syslov_dead"></info_portion>				<!-- 110017, should not happen -->
+
+</game_information_portions>

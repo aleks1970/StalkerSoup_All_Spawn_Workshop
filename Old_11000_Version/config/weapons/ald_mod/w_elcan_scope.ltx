@@ -1,0 +1,95 @@
+;;;; TB3D 1.0.9.9.9.8 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[wpn_addon_scope_elcan]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			= "weapons\addons\scope_elcan" ; option for Level Editor
+class			= WP_SCOPE
+cform           = skeleton
+visual          = weapons\upgrade\wpn_scope_elcan.ogf
+$prefetch 		= 32
+description		= enc_weapons1_wpn-addon_scope_elcan
+cost			= 4200
+
+holder_range_modifier	= 1.2
+holder_fov_modifier		= 0.3
+
+inv_name		= wpn-scope_elcan
+inv_name_short	= wpn-scope_elcan_s
+inv_weight		= .4
+
+;snd_zoomin					= weapons\binoculars_zoomin
+;snd_zoomout					= weapons\binoculars_zoomout
+;snd_shoot					= weapons\binoculars_zoomin
+;snd_empty					= weapons\binoculars_zoomin
+;snd_reload					= weapons\binoculars_zoomout
+;snd_close					= weapons\generic_close
+
+;vision_present				= true
+;vis_frame_speed				= 4				; скорость, с которой наводится рамка на цель
+;vis_frame_color				= 0.7,0.7,0.7,1.0	; цвет рамки RGBA (A) Не учитывается
+;found_snd					= detectors\DA-2_beep1
+
+;ammo_limit		 			= 0
+;ammo_current		 		= 0
+;ammo_elapsed		 		= 0
+
+;ammo_mag_size		 		= 0
+;ammo_class		 			= ammo_super_gauss1
+;show_ammo					= false
+
+;fire_dispersion_condition_factor = 5
+;misfire_probability 		= 0.0001
+;condition_shot_dec 			= 0.00003
+
+;hit_power                	= 1
+;hit_impulse		 		 	= 1
+;hit_type					= fire_wound	
+
+;fire_distance            	= 1
+;bullet_speed		 	 	= 1		
+;rpm                      	= 1
+
+;min_radius					= 100
+;max_radius					= 150
+
+
+;light_color		 			= 0.6,0.5,0.3
+;light_range		 			= 3.0
+;light_var_color		 		= 0.05
+;light_var_range		 		= 0.5
+;light_time 		 			= 0.2
+
+
+;cam_relax_speed				= 5.5
+;cam_dispersion				= 2
+;cam_max_angle				= 5
+;cam_max_angle_horz			= 5.0
+;cam_step_angle_horz			= 0.5
+
+;disp_vel_factor				= 8.1
+;disp_crouch_factor			= -1.2
+
+
+inv_grid_width     = 2	
+inv_grid_height    = 1
+inv_grid_x         = 62			;horizontal
+inv_grid_y         = 44			;vertical
+scope_texture		= wpn\crosshair_v2\wpn_crosshair_elcan
+scope_zoom_factor	= 15		;ПСО-1 4X
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[wpn_gauss_scope_elcan]:wpn_addon_scope_elcan
+visual          = balkanzona\gauss_elcan\wpn_gauss_scope_elcan.ogf
+inv_grid_x         = 75			;horizontal
+inv_grid_y         = 32			;vertical
+scope_texture		= balkanzona\gauss_elcan\wpn_gauss_crosshair_elcan.dds
+scope_zoom_factor	= 35		;ПСО-1 4X
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[wpn_ghost_scope_elcan]:wpn_gauss_scope_elcan
+visual          = balkanzona\gauss_elcan\wpn_ghost_scope_elcan.ogf
+inv_grid_x         = 75			;horizontal
+inv_grid_y         = 32			;vertical
+scope_texture		= balkanzona\gauss_elcan\wpn_gauss_crosshair_elcan.dds
+scope_zoom_factor	= 10		;ПСО-1 4X

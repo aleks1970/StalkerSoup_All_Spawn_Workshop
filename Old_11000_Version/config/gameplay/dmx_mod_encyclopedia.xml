@@ -1,0 +1,214 @@
+<!-- TB3D 1.1.0.0.0.5 new levels, chgd locations- to locations_, moved "books" into new file, new location photo - aleks1970, moved books include, removed minigames -->
+<encyclopedia>
+	<!-- *******************  DMX ****************** -->
+	<!-- *******************  MOD ****************** -->
+	<!-- *******************  Deadcity ****************** -->
+	<article id="zone_locations_deadcity" name="zone_locations_deadcity" group="Locations">
+		<texture>ui_locations_dead_city</texture>
+		<text>enc_zone_locations_deadcity</text>
+	</article>
+	<!-- *******************  Limansk ****************** -->
+	<article id="zone_locations_limansk" name="zone_locations_limansk" group="Locations">
+		<texture>ui_locations_limansk</texture>
+		<text>enc_zone_locations_limansk</text>
+	</article>
+	<!-- ******************* Generators ****************** -->
+	<article id="zone_locations_generators" name="zone_locations_generators" group="Locations">
+		<texture>ui_locations_generators</texture>
+		<text>enc_zone_locations_generators</text>
+	</article>
+	<!-- ******************* darklab ****************** -->
+	<article id="zone_locations_darklab" name="zone_locations_darklab" group="Locations">
+		<texture>ui_locations_x18</texture>
+		<text>enc_zone_locations_darklab</text>
+	</article>
+	<!-- ******************* brainlab ****************** -->
+	<article id="zone_locations_brainlab" name="zone_locations_brainlab" group="Locations">
+		<texture>ui_locations_x16</texture>
+		<text>enc_zone_locations_brainlab</text>
+	</article>
+	<!-- ******************* labx10 ****************** -->
+	<article id="zone_locations_labx10" name="zone_locations_labx10" group="Locations">
+		<texture>ui_locations_x10</texture>
+		<text>enc_zone_locations_labx10</text>
+	</article>
+	<!-- ******************* warlab ****************** -->
+	<article id="zone_locations_warlab" name="zone_locations_warlab" group="Locations">
+		<!-- texture>ui_locations_warlab</texture -->
+		<texture>ui_locations_x8</texture>
+		<text>enc_zone_locations_warlab</text>
+	</article>
+	<!-- ******************* secretlab ****************** -->
+	<article id="zone_locations_secretlab" name="zone_locations_secretlab" group="Locations">
+		<texture>ui_locations_secret_lab</texture>
+		<text>enc_zone_locations_secretlab</text>
+	</article>
+	<!-- ******************* Zaton *********** !!!!TB3D  new 134 ******** -->
+	<article id="zone_locations_zaton" name="zone_locations_zaton" group="Locations">
+		<texture>ui_locations_zaton</texture>
+		<text>enc_zone_locations_zaton</text>
+	</article>
+	<!-- ******************* Jupiter *********** !!!!TB3D  new 134 ******** -->
+	<article id="zone_locations_jupiter" name="zone_locations_jupiter" group="Locations">
+		<texture>ui_locations_jupiter</texture>
+		<text>enc_zone_locations_jupiter</text>
+	</article>
+	<!-- ******************* Predbannik *********** !!!!TB3D  new 134 ******** -->
+	<article id="zone_locations_predbannik" name="zone_locations_predbannik" group="Locations">
+		<texture>ui_locations_waiting_room</texture>
+		<text>enc_zone_locations_predbannik</text>
+	</article>
+	<!-- ******************************************************** -->
+	<!-- ******************* - Vehicles - *********************** -->
+	<!-- ******************************************************** -->
+	<article id="zone_vehicles_icarus260" name="vehicles_icarus260_name" group="Vehicles">
+		<texture x="600" y="1575" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_icarus260</text>
+	</article>
+	<article id="zone_vehicles_laz4202" name="vehicles_laz4202_name" group="Vehicles">
+		<texture x="1199" y="225" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_laz4202</text>
+	</article>
+	<article id="zone_vehicles_kavz685" name="vehicles_kavz685_name" group="Vehicles">
+		<texture x="600" y="675" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_kavz685</text>
+	</article>
+	<article id="zone_vehicles_sport_baggi" name="vehicles_sport_baggi_name" group="Vehicles">
+		<texture x="0" y="1350" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_sport_baggi</text>
+	</article>
+	<article id="zone_vehicles_armored_car" name="vehicles_armored_car_name" group="Vehicles">
+		<texture x="1200" y="450" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_armored_car</text>
+	</article>
+	<article id="zone_vehicles_btr80" name="vehicles_btr80_name" group="Vehicles">
+		<texture x="0" y="0" width="300" height="450">ui\ui_car</texture>
+		<text>enc_vehicles_btr80</text>
+	</article>
+	<article id="zone_vehicles_btr90" name="vehicles_btr90_name" group="Vehicles">
+		<texture x="1200" y="1575" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_btr90</text>
+	</article>
+	<article id="zone_vehicles_vezdehod" name="vehicles_vezdehod_name" group="Vehicles">
+		<texture x="1500" y="225" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_vezdehod</text>
+	</article>
+	<article id="zone_vehicles_gaz24" name="vehicles_gaz24_name" group="Vehicles">
+		<texture x="1500" y="900" width="300" height="450">ui\ui_car</texture>
+		<text>enc_vehicles_gaz24</text>
+	</article>
+	<article id="zone_vehicles_gaz66" name="vehicles_gaz66_name" group="Vehicles">
+		<texture x="1200" y="675" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_gaz66</text>
+	</article>
+	<article id="zone_vehicles_zaz965" name="vehicles_zaz965_name" group="Vehicles">
+		<texture x="1500" y="675" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_zaz965</text>
+	</article>
+	<article id="zone_vehicles_zaz968" name="vehicles_zaz968_name" group="Vehicles">
+		<texture x="300" y="900" width="300" height="450">ui\ui_car</texture>
+		<text>enc_vehicles_zaz968</text>
+	</article>
+	<article id="zone_vehicles_zil130" name="vehicles_zil130_name" group="Vehicles">
+		<texture x="900" y="225" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_zil130</text>
+	</article>
+	<article id="zone_vehicles_zil131" name="vehicles_zil131_name" group="Vehicles">
+		<texture x="0" y="1575" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_zil131</text>
+	</article>
+	<article id="zone_vehicles_zil130_truck" name="vehicles_zil130_truck_name" group="Vehicles">
+		<texture x="300" y="675" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_zil130_truck</text>
+	</article>
+	<article id="zone_vehicles_lada2103" name="vehicles_lada2103_name" group="Vehicles">
+		<texture x="1200" y="900" width="300" height="674">ui\ui_car</texture>
+		<text>enc_vehicles_lada2103</text>
+	</article>
+	<article id="zone_vehicles_lada2106" name="vehicles_lada2106_name" group="Vehicles">
+		<texture x="900" y="1125" width="300" height="450">ui\ui_car</texture>
+		<text>enc_vehicles_lada2106</text>
+	</article>
+	<article id="zone_vehicles_moskvitch" name="vehicles_moskvitch_name" group="Vehicles">
+		<texture x="300" y="0" width="300" height="674">ui\ui_car</texture>
+		<text>enc_vehicles_moskvitch</text>
+	</article>
+	<article id="zone_vehicles_kamaz" name="vehicles_kamaz_name" group="Vehicles">
+		<texture x="0" y="900" width="300" height="450">ui\ui_car</texture>
+		<text>enc_vehicles_kamaz</text>
+	</article>
+	<article id="zone_vehicles_kamaz_military" name="vehicles_kamaz_military_name" group="Vehicles">
+		<texture x="0" y="450" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_kamaz_military</text>
+	</article>
+	<article id="zone_vehicles_niva" name="vehicles_niva_name" group="Vehicles">
+		<texture x="600" y="900" width="300" height="450">ui\ui_car</texture>
+		<text>enc_vehicles_niva</text>
+	</article>
+	<article id="zone_vehicles_niva_sport" name="vehicles_niva_sport_name" group="Vehicles">
+		<texture x="300" y="1350" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_niva_sport</text>
+	</article>
+	<article id="zone_vehicles_t40" name="vehicles_t40_name" group="Vehicles">
+		<texture x="1500" y="450" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_t40</text>
+	</article>
+	<article id="zone_vehicles_raf" name="vehicles_raf_name" group="Vehicles">
+		<texture x="1500" y="0" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_raf</text>
+	</article>
+	<article id="zone_vehicles_uaz" name="vehicles_uaz_name" group="Vehicles">
+		<texture x="600" y="0" width="300" height="674">ui\ui_car</texture>
+		<text>enc_vehicles_uaz</text>
+	</article>
+	<article id="zone_vehicles_uaz469_uniq" name="vehicles_uaz469_uniq_name" group="Vehicles">
+		<texture x="1200" y="0" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_uaz469_uniq</text>
+	</article>
+	<article id="zone_vehicles_uaz469_open" name="vehicles_uaz469_open_name" group="Vehicles">
+		<texture x="600" y="1350" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_uaz469_open</text>
+	</article>
+	<article id="zone_vehicles_uaz_buhanka" name="vehicles_uaz_buhanka_name" group="Vehicles">
+		<texture x="900" y="0" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_uaz_buhanka</text>
+	</article>
+	<article id="zone_vehicles_ural4320" name="vehicles_ural4320_name" group="Vehicles">
+		<texture x="900" y="450" width="300" height="674">ui\ui_car</texture>
+		<text>enc_vehicles_ural4320</text>
+	</article>
+	<article id="zone_vehicles_dodge" name="vehicles_dodge_name" group="Vehicles">
+		<texture x="300" y="1575" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_dodge</text>
+	</article>
+	<article id="zone_vehicles_ferrari" name="vehicles_ferrari_name" group="Vehicles">
+		<texture x="1500" y="1350" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_ferrari</text>
+	</article>
+	<article id="zone_vehicles_hummer" name="vehicles_hummer_name" group="Vehicles">
+		<texture x="0" y="675" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_hummer</text>
+	</article>
+	<article id="zone_vehicles_land_rover" name="vehicles_land_rover_name" group="Vehicles">
+		<texture x="900" y="1575" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_land_rover</text>
+	</article>
+	<article id="zone_vehicles_tb3d_atv" name="vehicles_tb3d_atv" group="Vehicles">
+		<texture x="1500" y="1575" width="300" height="224">ui\ui_car</texture>
+		<text>enc_vehicles_tb3d_atv</text>
+	</article>
+	<!-- **************************************************** -->
+	<!-- ****************** - Minigames - ******************* -->
+	<!-- ****************************************************
+	<article id="zone_bulldozer_game" name="bulldozer_game" group="Minigames">
+		<text>bulldozer_game_enc</text>
+	</article>
+	<article id="zone_arcanoid_game" name="arcanoid_game" group="Minigames">
+		<text>arcanoid_game_enc</text>
+	</article>
+	<article id="zone_saper_game" name="saper_game" group="Minigames">
+		<text>saper_game_enc</text>
+	</article>
+       **************************************************** -->
+	<!-- #include gameplay\dmx_mod_enc_books.xml - 110014 aleks1970 -->
+</encyclopedia>

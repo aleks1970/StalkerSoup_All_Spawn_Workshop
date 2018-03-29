@@ -1,0 +1,81 @@
+;; TB3D 1.0.9.9.4.4 new
+#include "items_hud\guitar.ltx"
+#include "items_hud\garmoshka.ltx"
+#include "items_hud\smoking.ltx"
+#include "items_hud\racya.ltx"
+
+[main_ingame_indicators_thresholds]
+radiation       = 0.1,0.25,0.4,0.55,0.7
+wounds          = 0.01,0.2,0.4,0.6,0.8
+jammed          = 0.5,0.6,0.7,0.8,0.9
+starvation        = 0.5,0.6,0.7,0.8,0.9
+fatigue         = 0.3,0.6,0.7,0.8,0.9
+
+;parameters showing of incoming messages PDA in the main menu
+[maingame_ui]
+pda_msgs_max_show_time = 20000
+info_msgs_max_show_time = 10000
+snd_new_contact         = detectors\contact_1
+snd_new_contact1        = detectors\contact_8
+
+[explosion_marks]
+wallmarks     = wm\wm_grenade
+dist        = 0.5 ;2.4  ;
+size        = 0.6 ;0.4  ;
+max_count     = 5
+
+[bloody_marks]
+wallmarks       = wm\wm_blood_1,wm\wm_blood_2,wm\wm_blood_3,wm\wm_blood_4,wm\wm_blood_5,wm\wm_blood_6,wm\wm_blood_7,wm\wm_blood_8,wm\wm_blood_9
+dist            = 3.0 ;7.0 ;;;135     ;2.4  ;(M) max distance of the departure of blood
+max_size        = 0.8  ;0.4 ;;;135   ;0.3  ;(M) radius of the spot when hit by force nominal hit by a large object(The little * 0.5)
+min_size        = 0.1  ;0.2 ;;;;135        ;(M) minimum radius spot
+nominal_hit     =0.3  ;0.4 ;;;;135 ;0.3        ;nominal value of the hit, at which flies with a maximum blood (max_size)
+
+;drops of blood
+
+blood_drops     = wm\wm_blood_drop_1,wm\wm_blood_drop_2,wm\wm_blood_drop_3,wm\wm_blood_drop_4
+start_blood_size  = 0.4     ;size of the wound to begin to drip blood
+stop_blood_size   = 0.025     ;size of the wound that the blood stopped (must be less than start_blood_size)
+
+blood_drop_time     = 0.1     ;OBSOLETE
+blood_drop_time_min = 0.3     ;
+blood_drop_time_max = 2.0     ;
+blood_drop_size     = 0.2     ;droplet size (m) of blood, which fell
+
+
+[entity_fire_particles]
+fire_particles = damage_fx\burn_creatures
+start_burn_size = 0.0003    ;size burns after which to start playing partikly fire
+stop_burn_size  = 0.0001    ;size burns after which stop partikly
+min_burn_time = 10000   ;minimum time wagering partiklov (even if the wound has healed)
+
+[hud_cursor]
+; All sizes as a percentage of the length of the screen
+cross_length    = 0.015 ;on but small
+min_radius      = 0.001 ;so it won't dissapear
+max_radius      = 1.0   ;can limit how large it gets
+radius_lerp_speed = 0.08          ;speed interpolation of the provisions of sight
+cross_color     = 0.7,0.7,0.7,1.0   ;color sight
+disp_scale      = 0.08          ;the scale of sight (with respect to radian)
+
+[hud_hitmark]
+hit_mark_texture = ui\ui_hud_hit_mark
+;ui\ui_hud_hit_mark
+;ui\ui_hud_hit_mark_01
+;ui\ui_hud_hit_mark_02
+;ui\ui_hud_hit_mark_03
+;ui\ui_hud_hit_mark_04
+;ui\ui_hud_hit_mark_05
+;ui\ui_hud_hit_mark_06
+;ui\ui_hud_hit_mark_07
+;ui\ui_hud_hit_mark_08
+;ui\ui_hud_hit_mark_09
+;ui\ui_hud_hit_mark_10
+;ui\ui_hud_hit_mark_11
+;ui\ui_hud_hit_mark_12
+;ui\ui_hud_hit_mark_13
+;ui\ui_hud_hit_mark_14
+;ui\ui_hud_hit_mark_15
+;ui\ui_hud_hit_mark_16
+;ui\ui_hud_hit_mark_17
+;ui\ui_hud_hit_mark_18

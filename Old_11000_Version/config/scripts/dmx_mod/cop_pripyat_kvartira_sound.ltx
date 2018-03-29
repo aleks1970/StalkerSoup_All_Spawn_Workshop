@@ -1,0 +1,15 @@
+[logic]
+active = ph_sound@muzik
+on_hit = hit
+
+[ph_sound@muzik]
+snd = cop_pripyat_kvart_snd
+on_signal = sound_end|ph_idle@wait
+on_info = {+cop_prip_kvartira_snd_off} nil
+
+[ph_idle@wait]
+on_timer = 5000| ph_sound@muzik
+on_info = {+cop_prip_kvartira_snd_off} nil
+
+[hit]
+on_info = %+cop_prip_kvartira_snd_off%

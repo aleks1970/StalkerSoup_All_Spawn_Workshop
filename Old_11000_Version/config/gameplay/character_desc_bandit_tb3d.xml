@@ -1,0 +1,494 @@
+<!-- *** TB3D 1.0.9.9.8.8 removed "�" aleks1970, criticals and final localization -->
+<xml>
+	<specific_character id="bandit_novice_default14" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="24" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_master</team>
+		<class>Bandit_master</class>
+		<community>bandit</community>
+		<rank>95</rank>
+		<reputation>-50</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+#include "inventory\bandit_master_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="bandit_novice_default5" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="24" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_master</team>
+		<class>Bandit_master</class>
+		<community>bandit</community>
+		<rank>95</rank>
+		<reputation>-50</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+#include "inventory\bandit_master_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="bandit_novice_default6" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="24" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_master</team>
+		<class>Bandit_master</class>
+		<community>bandit</community>
+		<rank>95</rank>
+		<reputation>-50</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+#include "inventory\bandit_master_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<!-- ***************BANDIT NOVICE 2*************** -->
+	<specific_character id="bandit_master_pul1" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_novice</team>
+		<class>Bandit_novice</class>
+		<community>bandit</community>
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_3</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="sim_bandit_novice1" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_novice</team>
+		<class>Bandit_novice</class>
+		<community>bandit</community>
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_3</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="sim_bandit_novice11" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_novice</team>
+		<class>Bandit_novice</class>
+		<community>bandit</community>
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_3</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="sim_bandit_novice12" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_novice</team>
+		<class>Bandit_novice</class>
+		<community>bandit</community>
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_4</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="sim_bandit_novice13" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_novice</team>
+		<class>Bandit_novice</class>
+		<community>bandit</community>
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_8</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="sim_bandit_novice14" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_novice</team>
+		<class>Bandit_novice</class>
+		<community>bandit</community>
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_8</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="sim_bandit_novice15" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_novice</team>
+		<class>Bandit_novice</class>
+		<community>bandit</community>
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_8</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="sim_bandit_novice16" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_novice</team>
+		<class>Bandit_novice</class>
+		<community>bandit</community>
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_8</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="bandit_general_default23" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_general</team>
+		<class>Bandit_general</class>
+		<community>bandit</community>
+		<rank>40</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_3</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="bandit_general_default4" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="14" y="4"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_general</team>
+		<class>Bandit_general</class>
+		<community>bandit</community>
+		<rank>40</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_4</visual>
+#include "inventory\bandit_novice_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<!-- ***************BANDIT GENERAL SNIP*************** -->
+	<specific_character id="bandit_general_snip_defaul1t" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="24" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_master</team>
+		<class>Bandit_master</class>
+		<community>bandit</community>
+		<rank>95</rank>
+		<reputation>-50</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+#include "inventory\bandit_master_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="bandit_general_snip_defaul12" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="24" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_master</team>
+		<class>Bandit_master</class>
+		<community>bandit</community>
+		<rank>95</rank>
+		<reputation>-50</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+#include "inventory\bandit_master_items.xml"
+#include "dialogs\uband_esc.xml"
+#include "gameplay\character_criticals_6.xml"
+</specific_character>
+	<!-- ***************BANDIT VETERAN*************** -->
+	<specific_character id="bandit_veteran_default4" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="22" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_veteran</team>
+		<class>Bandit_veteran</class>
+		<community>bandit</community>
+		<rank>70</rank>
+		<reputation>-20</reputation>
+		<visual>actors\bandit\stalker_bandit_veteran</visual>
+#include "inventory\bandit_veteran_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<!-- ***************BANDIT VETERAN GAS*************** -->
+	<specific_character id="bandit_veteran_gas_default1" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="22" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_veteran</team>
+		<class>Bandit_veteran</class>
+		<community>bandit</community>
+		<rank>70</rank>
+		<reputation>-20</reputation>
+		<visual>actors\bandit\stalker_bandit_veteran</visual>
+#include "inventory\bandit_veteran_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="bandit_veteran_gas_default2" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="22" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_veteran</team>
+		<class>Bandit_veteran</class>
+		<community>bandit</community>
+		<rank>70</rank>
+		<reputation>-20</reputation>
+		<visual>actors\bandit\stalker_bandit_veteran</visual>
+#include "inventory\bandit_veteran_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="bandit_veteran_gas_default3" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="22" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_veteran</team>
+		<class>Bandit_veteran</class>
+		<community>bandit</community>
+		<rank>70</rank>
+		<reputation>-20</reputation>
+		<visual>actors\bandit\stalker_bandit_veteran</visual>
+#include "inventory\bandit_veteran_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<!-- ***************BANDIT VETERAN SNIP*************** -->
+	<specific_character id="bandit_veteran_snip_default1" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="22" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_veteran</team>
+		<class>Bandit_veteran</class>
+		<community>bandit</community>
+		<rank>70</rank>
+		<reputation>-20</reputation>
+		<visual>actors\bandit\stalker_bandit_veteran</visual>
+#include "inventory\bandit_veteran_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="bandit_veteran_snip_default2" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="22" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_veteran</team>
+		<class>Bandit_veteran</class>
+		<community>bandit</community>
+		<rank>70</rank>
+		<reputation>-20</reputation>
+		<visual>actors\bandit\stalker_bandit_veteran</visual>
+#include "inventory\bandit_veteran_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<!-- ***************BANDIT MASTER PUL*************** -->
+	<specific_character id="bandit_master_pul" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="24" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_master</team>
+		<class>Bandit_master</class>
+		<community>bandit</community>
+		<rank>95</rank>
+		<reputation>-50</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+#include "inventory\bandit_master_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="bandit_master_pul_default1" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="24" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_master</team>
+		<class>Bandit_master</class>
+		<community>bandit</community>
+		<rank>95</rank>
+		<reputation>-50</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+#include "inventory\bandit_master_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<specific_character id="bandit_master_pul_default2" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="24" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_master</team>
+		<class>Bandit_master</class>
+		<community>bandit</community>
+		<rank>95</rank>
+		<reputation>-50</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+#include "inventory\bandit_master_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<!-- ***************BANDIT MASTER RPG*************** -->
+	<specific_character id="bandit_master_rpg_default1" team_default="1">
+		<name>Unknown_Bandit_name_gameplay</name>
+		<icon x="24" y="14"/>
+		<map_icon x="3" y="2"/>
+		<bio>sim_bandit_novice_bio</bio>
+		<team>Bandit_master</team>
+		<class>Bandit_master</class>
+		<community>bandit</community>
+		<rank>95</rank>
+		<reputation>-50</reputation>
+		<visual>actors\bandit\stalker_bandit_master</visual>
+#include "inventory\bandit_master_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\uband_esc.xml"
+</specific_character>
+	<!-- ************************************* -->
+	<specific_character id="dark_stalker_1_default1" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_dcity_stalk_veteran_bio</bio>
+		<class>sim_dcity_stalk_veteran</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>856</rank>
+		<reputation>2</reputation>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"			
+</specific_character>
+	<specific_character id="dark_stalker_1_default2" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_dcity_stalk_veteran_bio</bio>
+		<class>sim_dcity_stalk_veteran</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>856</rank>
+		<reputation>2</reputation>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"			
+</specific_character>
+	<specific_character id="dark_stalker_1_defaul3" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_dcity_stalk_veteran_bio</bio>
+		<class>sim_dcity_stalk_veteran</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>856</rank>
+		<reputation>2</reputation>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"			
+</specific_character>
+	<specific_character id="dark_stalker_2_default1" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_dcity_stalk_veteran_bio</bio>
+		<class>sim_dcity_stalk_veteran</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>856</rank>
+		<reputation>2</reputation>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"			
+</specific_character>
+	<specific_character id="dark_stalker_3_default1" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_dcity_stalk_veteran_bio</bio>
+		<class>sim_dcity_stalk_veteran</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>856</rank>
+		<reputation>2</reputation>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"			
+</specific_character>
+	<specific_character id="dark_stalker_3_default2" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_dcity_stalk_veteran_bio</bio>
+		<class>sim_dcity_stalk_veteran</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<panic_threshold>0.0</panic_threshold>
+		<rank>856</rank>
+		<reputation>2</reputation>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"			
+    </specific_character>
+</xml>

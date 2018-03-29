@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.6 changed sleep prompts, fixed text block with hard returns in it, amk options, more options, spelling,
+ Text editing by: Martin Pallo 09/12/11, added weather option, Grimwald edits, sleep times, minor edits by: Sword2012 24 Jan 15, amk_warn_attention-->
+<!-- Stats rationalisation by GlowWormToo - 16 Jun 16-->
+<!-- Partial reworking of text - Sword2012 - 12 Dec 16-->
+<!-- 34 artefact descriptions and 17 reports still to do - Sword2012 -->
+<string_table>
+	<string id="mil_lukash_healing_armor_01">
+		<!-- MF Punctuation, tenses -->
+		<text>At last! Thank you, Marked One, this suit is amazing! We'll try to integrate their technology into our own suits. You'll definitely receive some Recipes as a reward. We've got a guy around here - he's a genius, I tell you - his name is Cook. You probably know him. He knows how to make a useful artefact from almost any worthless one. He's a bit weird in the way he talks, though. He took a nasty blow to the head, and he's been speaking somewhat prosaically ever since, so please bear with him, okay?</text>
+	</string>
+	<string id="mil_lukash_healing_armor_02">
+		<text>Yeah, sure</text>
+	</string>
+	<string id="mil_lukash_healing_armor_03">
+		<!-- MF minor rewrite, -->
+		<text>And one more thing, Marked One... I trust that these 'favors' won't reach the ears of Duty, okay?</text>
+	</string>
+	<string id="mil_lukash_healing_armor_04">
+		<text>I guarantee it</text>
+	</string>
+	<string id="trader_beads_1">
+		<!-- MF Punctuation, structure -->
+		<text>It's a good reward I'm giving you, and you'll soon discover the benefits of converting one artefact into another. That's right, it is possible. If you don't believe me, take a look at your PDA, I'm uploading the info to you...</text>
+	</string>
+	<string id="trader_beads_2">
+		<!-- MF your=you are -->
+		<text>I take it you're not going to tell me where you got this info?</text>
+	</string>
+	<string id="trader_beads_3">
+		<text>You're right on that, but I hope that the Recipes will satisfy you...</text>
+	</string>
+	<string id="ecolog_prizrak_outfit_reward_1">
+		<text>I want to thank you for this suit! Not only is it superb, but it's been helping our research as well. Have a look at your PDA - I'm going to give you some very valuable info. 'Chimera Tears' will reduce the psychological effects of Controllers, and may even help you to pass through Pripyat! Take care, Marked One, I hope that our cooperation will last a long time!</text>
+	</string>
+	<string id="drunk_dolg_reward_phr_1">
+		<!-- MF punctuation, minor rewrite -->
+		<text>Hey, Marked One! Here in Duty, we always pay our debts. Take this recipe. It'll show you how to modify an artefact. Trust me, this is rare information, so use it well!</text>
+	</string>
+	<string id="val_sos_dialog_21_amk_1">
+		<!-- MF minor rewrite, capitalization, -->
+		<text>Thank you friend, you helped me out a lot. If I ever get the chance I shall try to return the favor - if I'm still drawing breath... But for now, there's one thing I can tell you - to the south of here is a ranch, and a camp of lone Stalkers. One of them sells some kind of Gauss rifle at a very low price, I think it's around 800 roubles. I wanted to buy it, but that bastard Bloodsucker attacked me, and threw me in here. If you have the money, it sounds like an absolute bargain, even if it needs repairing. Except for that tip I can't offer you anything quite worth saving a life. Actually... there is one more thing I can tell you. Have you ever heard of the 'Acidic Porcupine'?</text>
+	</string>
+	<string id="val_sos_dialog_21_amk_2">
+		<!-- MF tenses, -->
+		<text>Is this a mutant we're talking about? I've never heard of it</text>
+	</string>
+	<string id="val_sos_dialog_21_amk_3">
+		<!-- MF articles, -->
+		<text>No! it's a modified artefact! It's full of smelly acid shit, though. The stuff leaks everywhere, and you don't want it on your belt! No, you'll need something like a bag, or a plastic container, with a lid that can fit tight. Once you create this artefact, you'll understand...</text>
+	</string>
+	<string id="val_sos_dialog_21_amk_4">
+		<text>How'd you get this recipe? You seem new to the Zone... Did you kill someone?</text>
+	</string>
+	<string id="val_sos_dialog_21_amk_5">
+		<!-- MF off=on, capitalization, tenses, articles -->
+		<text>No! I found it on a dead Duty Stalker, b-but I didn't kill him. I wouldn't have stood a chance against him. He had one of those exoskeleton suit things, and a VAL. No chance at all! Something powerful killed him. His exoskeleton was all chewed up, and the VAL was bent. No chance of repairing it. I took his PDA though, and when I looked through it I found this recipe. I'll upload it to your PDA, and you can read it yourself</text>
+	</string>
+	<string id="val_sos_dialog_21_amk_6">
+		<text>Well, thank you! Good luck!</text>
+	</string>
+	<string id="amk_zapiska">
+		<text>Scrap of paper with scribbled notes</text>
+	</string>
+	<string id="amk_zapiska_s">
+		<text>Note</text>
+	</string>
+	<string id="enc_amk_zapiska_descr">
+		<text>-</text>
+	</string>
+	<string id="mil_freedom_commander_3001_amk">
+		<!-- MF structure, standards, medium rewrite -->
+		<text>Thanks, Marked One. I appreciate your help. My guys are exhausted. Two hours ago they had quite a fight with a Controller and some brain-dead Stalkers under its control... That was a hard fight. I lost three good men, and all the others kept complaining about the ringing in their heads. You could tell, just by how they were shooting. Most of them usually shoot pretty well, but not with a Controller frying their brains...\nAs a 'Thank You' for your well-timed help, I'll give you a recipe. Grisha Zvuk recently returned from a spot-check. He and his squad had a skirmish with some guys from Duty, and they found an interesting piece of information in one of the PDAs they looted. I think you'll understand once you read it\nGood luck, my friend. I hope we'll meet again...</text>
+	</string>
+	<string id="bar_dolg_leader_quest_rg6_finish_1_amk">
+		<!-- MF structure, standards, tenses -->
+		<text>Good job, Marked One. You've helped me out a lot. Please accept this suit as a reward. I think it'll be useful to you. Oh, and some scientists gave us a Recipe. You helped us out, so I'm giving it to you. God knows you've earned it! Freedom shouldn't know about this, though. Okay? Take a look at your PDA - I've uploaded information to it</text>
+	</string>
+	<string id="amk_mus_disabled">
+		<text>Dynamic Battle Music : Disabled</text>
+	</string>
+	<string id="amk_mus_enabled">
+		<text>Dynamic Battle Music : Enabled</text>
+	</string>
+	<string id="amk_save_disabled">
+		<text>AutoSave Quests : Disabled</text>
+	</string>
+	<string id="amk_save_enabled">
+		<text>AutoSave Quests : Enabled</text>
+	</string>
+	<string id="amk_dyn_suit_enabled">
+		<text>Advanced Suit Services : Enabled</text>
+	</string>
+	<string id="amk_dyn_suit_disabled">
+		<text>Advanced Suit Services : Disabled</text>
+	</string>
+	<string id="amk_hud_disabled">
+		<text>Active HUD : Disabled</text>
+	</string>
+	<string id="amk_hud_enabled">
+		<text>Active HUD : Enabled</text>
+	</string>
+	<string id="amk_hud_and_blood_enabled">
+		<text>Active HUD : Enabled + Blood</text>
+	</string>
+	<string id="amk_hud_and_steam_enabled">
+		<text>Active HUD : Enabled + Blood + Breath</text>
+	</string>
+	<string id="amk_dof_disabled">
+		<text>DOF : Disabled</text>
+	</string>
+	<string id="amk_dof_blur">
+		<text>DOF : Motion Blur</text>
+	</string>
+	<string id="amk_dof_low">
+		<text>DOF : Dynamic Low</text>
+	</string>
+	<string id="amk_dof_high">
+		<text>DOF : Dynamic High</text>
+	</string>
+	<string id="amk_nv_disabled">
+		<text>NV Sound : Disabled</text>
+	</string>
+	<string id="amk_nv_enabled">
+		<text>NV Sound : Enabled</text>
+	</string>
+	<string id="amk_auto_adj_disabled">
+		<text>Auto Adjust levels : Disabled</text>
+	</string>
+	<string id="amk_auto_adj_enabled">
+		<text>Auto Adjust levels : Enabled</text>
+	</string>
+	<string id="amk_pda_classic">
+		<text>PDA Sounds : Classic</text>
+	</string>
+	<string id="amk_pda_modern">
+		<text>PDA Sounds : Modern</text>
+	</string>
+	<string id="amk_ballistics_disabled">
+		<text>Advanced Ballistics : Disabled</text>
+	</string>
+	<string id="amk_ballistics_enabled">
+		<text>Advanced Ballistics : Enabled</text>
+	</string>
+	<string id="amk_megafone_disabled">
+		<text>Megaphone Chatter : Disabled</text>
+	</string>
+	<string id="amk_megafone_enabled">
+		<text>Megaphone Chatter : Enabled</text>
+	</string>
+	<string id="amk_treasure_old">
+		<text>Stashes : Classic Game Mode</text>
+	</string>
+	<string id="amk_treasure_new">
+		<text>Stashes : Random Content Mode</text>
+	</string>
+	<string id="amk_treasure_rare">
+		<text>Stashes : Randomly Occurring Mode</text>
+	</string>
+	<string id="amk_weather_normal">
+		<text>Weather : Default</text>
+	</string>
+	<string id="amk_weather_cloudy">
+		<text>Weather : Cloudy</text>
+	</string>
+	<string id="amk_weather_fair">
+		<text>Weather : Fair</text>
+	</string>
+	<string id="amk_repop_normal">
+		<text>Repopulation : Normal</text>
+	</string>
+	<string id="amk_repop_moderate">
+		<text>Repopulation : Moderate</text>
+	</string>
+	<string id="amk_repop_hardcore">
+		<text>Repopulation : Hardcore</text>
+	</string>
+	<string id="amk_news_disabled">
+		<text>Game News : Disabled</text>
+	</string>
+	<string id="amk_news_enabled">
+		<text>Game News : Enabled</text>
+	</string>
+	<string id="amk_cop_disabled">
+		<text>Psi Effectors : Disabled</text>
+	</string>
+	<string id="amk_cop_enabled">
+		<text>Psi Effectors : Enabled</text>
+	</string>
+	<string id="amk_options">
+		<text>Advanced Options</text>
+	</string>
+	<string id="amk_rkd0">
+		<text>Cool...</text>
+	</string>
+	<string id="amk_rkd1">
+		<!-- MF punctuation, -->
+		<text>Hey, I have good and bad news for you. Starting with the bad, I don't know what you've done, but it looks like you pissed someone off enough to want you dead. Which is why I'm here...</text>
+	</string>
+	<string id="amk_rkd2">
+		<text>What!!!</text>
+	</string>
+	<string id="amk_rkd3">
+		<text>The good news is that I don't really want to do it. You look like a decent guy, and I don't like killing anything that's not a threat to honest Stalkers. When I took on this job, I was led to believe you were some kind of menace. Now, it's clear I was conned. Trouble is, if I don't complete it nobody will trust me. So, give me a good reason not to kill you...</text>
+	</string>
+	<string id="amk_rkd4">
+		<text>Fuck you!</text>
+	</string>
+	<string id="amk_rkd5">
+		<text>You know, Marked One, I knew that sooner or later this would happen...</text>
+	</string>
+	<string id="amk_rkd6">
+		<text>Let me guess. You were too good at your job, and now you're a security risk...</text>
+	</string>
+	<string id="amk_rkd8">
+		<text>Look, as far as I'm concerned, I haven't seen you. Thanks for the Recipe, although I doubt that's why they want you dead. Good luck, my friend...</text>
+	</string>
+	<string id="amk_recipt_stone_dikoobraz_1_text">
+		<!-- MF articles, minor rewrite, articles -->
+		<text>Recording 1:... during which we saw the whole process from beginning to the end, despite the Monolith soldiers who had surrounded the 'Springboard' anomaly in a tight ring, trying to hide the transmutation process and the artefact itself from any accidental witnesses. But Artiom was standing quite close, through his binoculars he could see the artefact clearly, after it had been thrown into the anomaly. It was an 'Acidic Porcupine' (a weird name, but that's what the Stalker who created it called it. We've checked that). After nine hours, at night, the anomaly threw artefact back out. Now we need to take it from the Monolith soldiers. Artiom has offered to do that during their next prayer to the Monolith. It should start in around forty minutes. After I return, I want to take care of that clever guy, I think you'll support me, Vladislav Leonidovitch.\n \nRecording 2:... I will upload the fragments of the data on to a memory stick, and make copies of it. We dealt with the Monolith soldiers fairly quickly. While they were howling around the rucksack (at first, I thought it was a rucksack, but it actually turned out to be a portable altar! I think that fact would be interesting for the Moscow center and for the foreign colleague, Vladislav Leonidovitch) that one of them had brought to the black right angle, Artiom opened fire with his Vintorez; and I helped him with a couple of grenades. Despite our concerns, the modified artefact was left intact. After two days of our expedition I have noticed additional properties of the 'Stone Porcupine'. This artefact, which I have put under the Absolute class, decreases the amount of radiation that a person receives by 60 mSv per hour! Not only that, the 'Stone Porcupine' reduces a person's sensitivity to electric damage, and increases their stamina...\n \nRecording 3:... we are being chased by the Monolith soldiers, about fifteen of them. They're moving quickly. We tried to run away, but were unsuccessful. They're slowly surrounding us. I will leave the memory stick of data with Artiom Inkin, and try to slow them down...</text>
+	</string>
+	<string id="amk_recipt_stone_dikoobraz_2_text">
+		<!-- MF capitalization, tenses -->
+		<text>Recording 1:...They got me on the way out of the village... Five of them were... We couldn't even report our coordinates, the support group is just waiting... They shot Andrey Semionovith's leg in front of me, bitches! They have led us for a long time, I was carrying Andrey... I didn't even know that they had an underground secret place here. Andrey is coping, these bastards have made a bandage for him and told me that they will get their revenge from us for killing their brothers... Andrey was thrown into a cage next to mine, he was unconscious already... they've untied my hands and haven't even taken my PDA and my bag, just my weapon and ammo...\n \nRecording 2:... Don't know what this is... I don't know... It's not a Bloodsucker, it's not a Chimera... It's not a... It crawled out of the pit when they started to sing! They've opened Andrey's cage door... It didn't touch them, it went for the cage straight away... it got in there... and... IT STARTED TO EAT HIM! HE WAS STILL ALIVE AS IT BIT DOWN AND HE SCREAMED! IT WAS EATING HIS FACE AND HE WAS WHEEZING AND TRYING TO.\n \nRecording 3:... It will come back... They're gone, but it is sitting down there in the pit... I can feel its thoughts... they've gone and left my cage door open... And it has gone back into the pit and it's sending its thoughts into my head and... It tells me... And Andrey Semionovitch tells me... Also in my head... I will leave... I'll just take Andrey's hand... He says that even a hand, it's good anyway... The hand... is important, very important... But it... Doesn't crawl out... It's shining down there... in the pit... like a rainbow... and tells me in my head not to leave... but I will leave... they haven't even closed the door... they've said that it wouldn't let me to get out... but it left as soon as it had finished eating Andrey... just left a hand... Andrey Semionovitch tells me to go now... while it's thinking down there... and take the hand... because it's very important to him...\n \nRecording 4: I've tricked it... it's foolish... I've taken Andrey's hand and the rucksack... and started going... it started to growl and to crawl out... It sent me its thoughts... It thought of anger and it was surprised... It didn't know why I was going... because I had not to... and I've sent it a thought that I really need to leave... Andrey wants to leave as well and he has left! It believed me and didn't come out! It was just growling and shining in the darkness... I'VE TRICKED IT! I've tricked it...</text>
+	</string>
+	<string id="amk_recipt_steel_kolobok_text">
+		<!-- MF tenses, standards, -->
+		<text>Recording 1: I found a dead Stalker, all that was left of him, really, near a Springboard anomaly. He had a 'Kolobok' in his rucksack, a really strange one, it was freaking shimmering. I had a quick thought about it and decided to throw my Kolobok into the Springboard and see what happens. It's a pity, to be honest, I could have gotten a lot of drinks by selling it, but... stuff it, I'll try the trick anyway.\n \nRecording 2: I have been waiting for three hours already, like a lone zombie. Now I regret that I threw the Kolobok into the anomaly, damn it!\n \nRecording 3: Yes! It jumped out like a cork! Five hours have passed and it's here. Shining! I need to celebrate this with some drinks!\n \nRecording 4: Phew! That was close! I'm always gonna walk around the Zone drunk now, I'd freaking die if I was sober! Met a bandit, he shot me with his pistol and his gun broke straight after the shot. So this bastard took out a knife and cut me! Killed him with a shotgun.\n \nRecording 5: It's not that simple. When I'm thinking about it sober, it all doesn't work out. Well, he missed me with his PM, but with the knife he easily ripped my leather jacket. I remember the blade strike... but on my stomach - just a scratch. Maybe my big, round, shiny Koloboks have helped... 'Steel Koloboks'?... 'Steel Bollocks' would be cooler, though...</text>
+	</string>
+	<string id="amk_recipt_titan_kolobok_text">
+		<!-- MF typos, -->
+		<text>Saratsin has brought with him some rookie that he has captured. He said that he had not killed him immediately because the guy was looking around in a weird way, as though he had been carrying something valuable. Stubborn milksoup! We found an interesting 'Kolobok' in his rucksack. Well, it looked like a 'Kolobok', but... There was something different about it. When we asked him what the hell the thing was in his bag, he kept silent. I respect that! Especially when he looked like a complete coward! Saratsin had to break a couple of his fingers before he finally started to talk. He had told us that this was a 'Steel Kolobok' that has been changed in a 'Whirligig'. He said that you throw it in, leave it there for five hours, and after that it becomes different. He also said that it keeps you safe from cartridges, decreases fire and cut damage, but it's fucking radioactive. I've made up a cool name for it - a 'Titan Kolobok'! Now I need to try out his trick and see whether he was telling the truth. But first of all, I need to find a 'Steel Kolobok'...</text>
+	</string>
+	<string id="amk_recipt_almaz_kolobok_text">
+		<!-- MF typos -->
+		<text>This hypermodificate can be obtained by the transmutation of a mesomodificate 'Titan Kolobok' in a Fruit Punch anomaly. It gives its owner's skin immunity to cuts, decreases fire and chemical damage. It's also interesting because it generates some sort of a field around its wearer, that changes the trajectory of cartridges passing through it. The only disadvantage of this quite helpful hypermodificate is that it gives off radioactive emissions</text>
+	</string>
+	<string id="amk_recipt_controller_skalp_text">
+		<text>May He be in Eternity! May He change the World! Preceptor Viktor has told us of another success of his naturalists! Preceptor, as all of us is sure that He has again given us, His followers a gift to strengthen our faith! After a fight with a group of soldiers, that were guarding the scientists, Ostach, the phalanx leader has brought a Steel Scale among with some bodies and salvage. He had sacrificed it with all the bodies to His Flame, but the Watchers, brother Akim and brother Liocho have found the Steel Scale, that has been thrown out of the Burner anomaly after six hours. The artefact was giving off unusual light and that has proved to the Watchers that that was His sign. This changed Steel Scale has been in two battles with a naturalist, Roman. On the way back his phalanx has met and had a battle with four burers. Brother Roman says that this modified Steel Scale was making miracles - he has felt nearly no psy-attacks of the burers! He has also noticed that all the time he was wearing the artefact he didn't want to eat. Truly, He is giving us bits of Eternity even now! Further experiments have shown that this artefact, called Controller's Scalp by the Qualitet makes its owner feel better and saves from chemical burns. Our Faith is growing and becoming even stronger day by day, for He remembers of us! May He be in Eternity! May He change the World!</text>
+	</string>
+	<string id="amk_recipt_souls_text">
+		<!-- MF typos, tenses, structure, more tenses -->
+		<text>About a half a month ago, on the night of the seventh of July, in the No. 3 block a moving 'Burner' anomaly appeared. It's only when I saw the flame moving across the wall, did I work out what it was. But it was too late - I had enough time to grab my G-36, which was hanging on the wall, but not the bag with the 'Soul' artefact, that I'd found two days ago. I got quite sad and drank a bit more. Then, after about four hours I saw my 'Soul' drop out of the flame intact! It was quite weird, though, giving off light like a lamp. So I grabbed it and put it into a container. After I woke up in the morning and saw a cuple of guys roasting a boar in the 'Burner', I immediately remembered about the 'Soul'. I warned Max and went to scientists. The way to their laboratory wasn't the best one, but that's a different story. So, I went to them and gave them that 'Soul' for measurements. Sakharov had long thoughts about it... The artefact could make its owner healthier, and, as Sakharov said, it could decrease the radiation around the wearer as well. Also this artefact (I named it 'Soul Drops', sounds cool) makes its wearer slightly tired. Sakharov was even begging me to sell the artefact to him, but a clever idea had come to my mind - I wanted to throw it into a 'Burner' one more time and see what would happen, and then bring it to the scientists for measurements again. He agreed, not immediately, though. So, I took the artefact and made my way to the tunnel - there are loads of those 'Burners'. I threw the artefact in and waited. In about six hours it jumped out, I got it out, trying not to burn myself, otherwise I would've been like Sakharov... I brought it back for measurements and realized I had been right! This artefact, that I named 'Fiery Soul', was twice as good at protecting from the radiation! I even regret that I hadn't gone to the university, I could've become some sort of professor or something... So, I went the third time to the anomaly and threw it in. Shot several zombies on my way, one was Mika Cameroon, may he rest in peace. No, life is definitely a strange thing: I was drinking with him a month ago and now I've shot him in the head... may he rest... Anyway, I threw that 'Fiery Soul' into the 'Burner', and waited like before. Only this time I had to wait for quite a bit - the artefact appeared after 10 hours, I even had some time to take a nap, some growl woke me. The artefact was shining, as though it was happy 'bout something. Again, I went to the scientists. There were already waiting for me with a massive group of people, gave me some coffee and brandy straight away and did all their work with artefact themselves. My 'Hennesy and coffee' mood made me make up a new name for the artefact - 'Crystal Soul'. Professors were so happy, crying, smiling, saying that this hyper... hyperdif... well, this 'Crystal Soul' increases health and has an incredible protection from the radiation. In the morning I went up to the 'Burner' again, thrown it in. Waited for bloody ages! When it has jumped out, I was slightly surprised - its shine or anything hadn't changed. So, I thought, that's all right. On the way back a moving 'Electro' anomaly was blocking my way, and I couldn't get past it. I sat down, had a long think and decided to throw that 'Soul' into the 'Electro"! This time it was like in a 'Burner' before - the artefact disappeared and was thrown out after just an hour. It was shining differently. When the 'Electro' moved, I continued on my way. I brought the 'Soul' to the Yantar lab and gave it to Sakharov. He's disappeared for a long time, but when he finally got back out from his experiment room, he looked like a freaking psycho. He said it's some kind of Absolute. Before, the trans...transm... well, modified 'Soul' was decreasing its owners stamina apart from increasing health and protecting from radiation, this time it was the other way round, it made the wearer more endurable. I got a lot of money from the scientists for their experiments with that 'Soul'...</text>
+	</string>
+	<string id="amk_recipt_tears_electra_text">
+		<!-- MF typos, -->
+		<text>Formed when a 'Droplet' artefact reacts with an Electro anomaly. The resulting modificate, 'Electric Tears', speeds up the process of removing radiation from the wearer's body, and giving immunity to constant radiation under 7mSv/hour. It also makes the wearer less tired when running. No negative effects have been detected</text>
+	</string>
+	<string id="amk_recipt_tears_fire_text">
+		<!-- MF minor rewrite, -->
+		<text>Formed when a modificate 'Electric Tears' reacts with a Burner anomaly. The resulting mesomodificate 'Fire Tears' speeds up the process of removing radiation from the wearer's body (maximum dose -20 +-2mSv/hour). No negative effects have been detected</text>
+	</string>
+	<string id="amk_recipt_tears_chimaera_text">
+		<!-- MF consitency, typos, minor rewrite, -->
+		<text>Formed when a mesomodified 'Fire Tears' reacts with a Fruit Punch anomaly. The resulting hypermodificate, 'Chimera Tears', provides excellent protection from radiation, and also reduces the effect of psi-emissions a little. Negative characteristics are the deterioration of the wearer's health, and wounds take longer to heal</text>
+	</string>
+	<string id="amk_recipt_grandmother_glassbeards_text">
+		<!-- MF typos, punctuation -->
+		<text>This is essential information for every man in Duty. \n\nOur comrades, the scientists, have given us information on how to change a 'Glassbeads' artefact into one with better properties. This artefact can only be altered in an Electro anomaly, where it needs to stay for five hours. After that, it has a good chance of acquiring new properties. Here is an extract from a scientific document: \n\nThe resulting artefact, called 'Mother's Beads', increases the stamina of its wearer, while the field it generates around its owner deflects cartridges, protecting its owner from critical hits. It is slightly radioactive, and it decreases its wearer's immunity to electrical shock. \n\nI recommend that all soldiers copy this file into their PDAs, and send the information to their squad leader...</text>
+	</string>
+	<string id="amk_recipt_pra_grandmother_glassbeards_text">
+		<!-- MF typos, articles, tenses, rewrote parts that didn't make sense, -->
+		<text>... I found Vanya Four Fingers in the village. I was hiding there from the dogs, when suddenly I heard the Geiger counter sound from the basement. Immediately I pulled out my gun, because who knows, there could be a bandit or a merc down there. But when I looked down, I saw him, his face was in a 'Fruit Punch' anomaly. I only recognized him by his hat - red with the sickle and hammer sign on it. It was only four hours since I last saw him - he went ahead and I stayed to wait for Vadik, to give him the bag. I felt sorry for Vanya... Nevertheless, I put on my gas-mask and went down to get him. I couldn't work out how he got down there, as he was an experienced Stalker, four years in the Zone, until I saw that someone had twisted his neck. Of course, I immediately changed my mind about burying him, hell knows what creature prepared him for its dinner, especially when that creature could be nearby. So I quickly looked through his dead body, trying not to touch his clothes; took his rucksacks and artefacts. Didn't take his favourite TOZ - the 'Fruit Punch' had almost completely destroyed it, and fled as quick as possible. He only had three artefacts: a 'Droplet', one 'Urchin' and 'Mother's Beads'. The 'Droplet' and the 'Urchin' were on his belt, but the 'Mother's Beads' got into the 'Fruit Punch'. I started to think that the artefact is done for, but it actually was intact, was just shining strangely. I tested it before I got to the Freedom base. It had become diffirent. I've named it 'Grandmother's Beads'. It stops bleeding, gives energy and has saved me from cartridges, when I met a soldier zombie. It gave off more radiation than 'Mother's Beads', though. I think I'll sell it and buy some new armor</text>
+	</string>
+	<string id="amk_recipt_burer_grandmother_glassbeards_text">
+		<!-- MF typos, articles, little rewrite, -->
+		<text>Recording: Phew, to be honest, I started to think that I wouldn't see my Aliona again. You know, I was a clerk at our base - spent my time sitting in front of a computer, worked with various documents and reports. But then, when our guys started to kill Stalkers every day, I couldn't stand it anymore! I was disgusted... anyway, that's not what I wanted to tell you. I accidentally read a file there... well, by accidentally I mean... you know, I had to spend some time working with the code, until I finally hacked the damn thing... I didn't make a copy, but I still remember it clearly - it was a scientific report about artefacts' behaviour in anomalies! Do you understand, what that means? In that file it said, that if you take some meso... meso something... it was called 'Grandmother's Beads' - stupid name, don't even ask me, what that is, I haven't got a slightest idea - so, if you take one of those and put it in a 'Whirligig' then in ten, I think it was ten, hours you get a different artefact! Well, sort of different... it's actually the same, but with changed properties. It emits some kind of field, everything fast that flies into it is slowed down a lot. And I thought that must work with cartridges as well! Radioactive. That's it. I hope, this information will be more useful to you than to me</text>
+	</string>
+	<string id="amk_recipt_dikoobraz_text">
+		<!-- MF punctuation, -->
+		<text>To achieve this transmutation, an 'Urchin' artefact needs to be dropped into a Burner anomaly. If the transmutation is successful, in three hours the new artefact, named 'Porcupine', will offer the wearer some protection from radiation. Its only negative property is increased fatigue. Experiments have shown no possibility of changing the modified artefact any further in a Burner anomaly</text>
+	</string>
+	<string id="amk_recipt_electra_dikoobraz_text">
+		<!-- MF minor rewrite, sounds a lot better, articles, consistency (names are not in quatation marks), -->
+		<text>Classified information - only for the members of Freedom! This is freaking top secret! \n\nVitya Ruddy has created a new artefact! First, you need a 'Porcupine' artefact, then you throw it into an Electro anomaly, and in five hours you get a new artefact. Ruddy called it an 'Electric Porcupine', and it absorbs the radiation off its owner and grants you increased stamina. If you're wondering how it affects your success with girls, let's just say that it frees you to focus on other aspects of your personality... Oh, I forgot - if you put the artefact on and walk near an 'Electro' anomaly, it's gonna hit you much harder than normal - the damn thing attracts electricity. So be careful near wall sockets - those things are fucking annoying now! \n\nStephan Mediacenter, infoservice</text>
+	</string>
+	<string id="amk_recipt_sopl_dikoobraz_text">
+		<!-- MF typos, tenses, small rewrite, punctuation -->
+		<text>Gentlemen! The squad of mister Alexy Astronomer has done our laboratory a great favor. The courtyard of our laboratory was full of boars and fleshes, it was a second wave after the last blowout and we already had taken some casualties among our personnel. The squad of Alexy Astronomer, who responded to our call for help, has killed all the mutants! We believe, that money as a reward wouldn't really be enough to show our appreciation and so, to support our future collaboration, we send you the information on how to create an 'Acidic Porcupine' hypermodificate. We beg a pardon for such a colloquial name, but it has been given by the creator of this hypermodificate and it describes its properties the best. I hope that the Duty soldiers will react maturely to this name! To create the 'Acidic Porcupine', an 'Electric Porcupine' needs to be put in a Fruit Punch anomaly for two hours. I want to draw your attention to the fact that the hypermodificate has a rare quality of the radiation-blocking property - the person wearing it gets only 45% of all the emissions he would receive without the artefact. Apart from that, the artefact is effective at stopping bleeding and helps with stamina. The bad properties of the artefact are that it decreases its wearers immunity to electric damage and that it is hard to carry because of the mucus it produces. This mucus is harmless but is quite unpleasant, I must say. In general, our community believes that this little inconvenience will not stop your soldiers' will of using this hypermodificate!\n \nRegards, member of the Russian Academy of Science professor Sakharov</text>
+	</string>
+	<string id="amk_recipt_giant_small_brother_text">
+		<!-- MF tenses, articles, minor rewrite, -->
+		<text>Recording 1: Just got away from the Dark Valley. We lost Yura Buyan - he was torn apart in a 'Whirligig'. We didn't notice it in the battle, but apparently he was pushed there by a Burer... May he rest in peace... That's a terrible way to go. The squad is not complete without him, which means we've got less of a chance of bringing this very interesting piece of paper to the Bar. It seems that Burers have taken some poor scientist into a dungeon for a lunch. In his PDA he wrote that he found a way to change artefacts into new ones, with different properties... modificates, or whatever he's called them... yeah, looks right... So, you get an artefact of some 'absolute' class, whatever that means. The artefact is called 'Sphere' and it is made in a Burner out of a 'Diamond Kolobok'. The scientist has written that this absolute decreases its owner's skin's sensitivity. This is very interesting information, I think we need to bring it to Sakharov and his team, just need to take some more people with us, at least two squads.\n \nRecording 2: Those Freedom bastards were in our way! Three of us killed five of them. As soon as we got their guns off of them - those were very good, someone shot Sasha Cooler in the head, I think with a Dragunov. We threw some grenades, but we didn't see the sniper, so I don't know whether we got him or not. Rinat tells me to go and that he'll cover me... The information is very important. Bloody sniper, still hiding. Anyway, I've got to go...</text>
+	</string>
+	<string id="amk_recipt_shkura_text">
+		<!-- MF minor rewrite, tenses -->
+		<text>Hi, Vova. You are such an idiot! Why do you keep asking 'How is it in the Zone?' It's not exciting! Fucking boring, to be honest. If we didn't catch any of those freaks who go there for artefacts, I would actually die from boredom. Well, it can get scary sometimes, I wont lie... especially when some freaking animal or something worse starts to howl near the post - I don't shit myself, but my hairs do bristle. Even on my arse... Even taking in account that I, like everyone, keep my Kalashnikov with me at all times. Recently we had some fun - we caught a guy who was coming back from the Zone. So, we got him. He was carrying a gem with him, it was shining like the bottom of your tuned car in the darkness! So, we 'kindly' asked him, what's that he was carrying and he told us that the stone he had with him wasn't an ordinary artefact - he said it had the ability of decreasing the damage from chemical burns, and that if you wear it you become kind of bulletproof, but not completely. We've checked the gem with a Geiger counter - the bastard was freaking radioctive! And the guy we'd caught has told us that he was carrying this thing to scientists for the benefit of all people. Then he started to tell us that you need to throw some 'Pellicle' artefact, throw it into a 'Springboard' and then... In five hours you get this thing! He was talking a lot. Looked like a bloody vampire: bald, in scars, hell knows what else. We sent him to the army post, they'll deal with him. Anyway, bye Vova, I need to go to the assembly now. By the way, tell Yulia that I remember and love her, and everything... You know. Bye!</text>
+	</string>
+	<string id="amk_recipt_cheshya_text">
+		<!-- MF minor rewrite, -->
+		<text>Gentlemen, I am happy to report that a new transmutation example has been discovered! A 'Skin' modificate needs to be placed in a 'Whirligig' for five hours. The resulting mesomodificate with a temporary name 'Scale' has got the following properties: it decreases chemical damage, increases health and makes its owner's skin less sensitive to cartridge damage. Attention, important information! The 'Scale' is radioactive and increases bleeding of the wearer! We hope that this information will help you in your noble work and that this little present will make our friendship and partnership even stronger!\n \nRegards, member of the Russian Academy of Science professor Sakharov</text>
+	</string>
+	<string id="amk_recipt_pancir_text">
+		<!-- MF rewrite, -->
+		<text>Major, sir, a report from the center about the 'Scale' artefact has arrived. According to the received data, the 'Steel Scale' artefact (reborn in a 'Fruit Punch' anomaly from a 'Scale' mesomodificate) reduces bleeding, increases health, grants resistance to cartridges and protects from chemical damage. Its only negative property is that it is slightly radioactive. The transmutation does not take that long, just two and a half hours. People from the Center have said that they would like to get some more artefacts for experiments to gather the information about all the modificates, giving us acces to level 5 data. Because of that I ask for your permission to continue torturing the Stalkers we have caught recently.\n \nCaptain M. Lubyankin</text>
+	</string>
+	<string id="amk_recipt_simbion_text">
+		<!-- MF consistency, typos, -->
+		<text>I hurry to tell you that the 'B 4' department has given us a very unpredictable result of their experiments! They have found out that if you place four artefacts ('Medusa', 'Droplet', 'Stone Blood' and 'Thorn') into a 'Fruit Punch' anomaly, then after four hours, twenty-one minutes and eighteen seconds you get a completely new artefact with amazing properties! This modificate, which was named 'Simbion' blocks 45% of the psi-emissions! We have tested it on the prisoners, who have been psi-attacked by our captured Archibald. I must say, that this Contoler has been with us for a long time and without getting the blowout energy it has become quite weak, but still the artefact gives amazing psi-blocking result! I have already written a report for the Center, all I need is your comments and your permission for sending the data.\n \n'B' department chief professor Sneghiriov</text>
+	</string>
+	<string id="amk_recipt_dummy_text">
+		<!-- MF consistency, minor rewrite, punctuation, -->
+		<text>Report No. 14/7 on the 'Liar' project\nTo the director of the K-32 research department\nFor the attention of Professor Sazonov Nickolay Dmitriyevitch\n \nDear Nickolay Dmitriyevitch. Today we completed our series of experiments on 'Dummy' artefacts. During the course of experiments seven Dummy artefacts were destroyed and five degraded, but one Dummy showed positive results in the transmutation series\n \nIf put into an 'Electro' anomaly for 3 hours, 1 minute and 43 seconds, the Dummy artefact gains the following properties: increases immunity to fire damage, increases stamina, and decreases immunity to electric damage. The temporary name of this modified artefact is 'Fire Dummy'\n \nIf the 'Fire Dummy' is put into an Electro anomaly again, then after 5 hours, 3 minutes and 12 seconds the artefact receives the following properties: greatly increases immunity to fire damage, increases stamina, but increases sensitivity to electrical damage. The temporary name of this mesomodification is 'Shining Dummy'\n \nIf put into an 'Electro' anomaly yet again, then after 7 hours and exactly 4 minutes the artefact gains the following properties: considerably increases immunity to burn damage, greatly increases stamina, but correspondingly increases sensitivity to electrical damage. The temporary name of this hypermodification is 'Moonlight Dummy'\n \nWe continued the experiments with the Dummy in the same anomaly but, as with the 'Crowbar', 'Sister', 'Invisible' and 'Lord of Flies' projects, this further experimentartion has proven unsuccessful\n \nBut we tried with another anomaly, and found that when the 'Moonlight Dummy' is put into a 'Fruit Punch', it was accepted by the anomaly. After 8 hours, 3 minutes and 56 seconds the artefact has received 'absolute' properties: it gives almost full immunity to fire damage, extremely increases stamina, and greatly increases immunity to electrical damage. The temporary name of this artefact is 'Pudding'\n \nFurther experiments in other anomalies have not yield any results, as the anomalies always reject the artefact\n \nI believe that our team has achieved wonderful results with the Dummy artefact, the 'Liar' project has been completed successfully, and look forward to continuing our research in this field. You will find documentation and recordings of all experiments on the server\n \nFor security reasons, the activation data sheet for these transmutations will be sent separately\n \nV. Avakyan, Chief of Research Team 7</text>
+	</string>
+	<string id="amk_recipt_fake_text">
+		<!-- MF articles, standards, medium rewrite-->
+		<text>To create the artefact 'Sunshine', drop a 'Moonlight' artefact in a Burner anomaly. After about four hours a modified 'Sunshine' will be created with several positive properties: greatly increased stamina, decreased susceptibility to burns, and a small decrease in sensitivity to electric shock. A negative side effect is that the resulting artefact emits radiation. This information has not been verified</text>
+	</string>
+	<!-- AR -->
+	<string id="enc_amk_recipt_dikoobraz_text">
+		<!-- MF minor rewrite, articles -->
+		<text>%c[255,255,255,255]Radiation %c[255,1,255,1]-40\n%c[255,255,255,255]Stamina %c[255,255,1,1]-18\n%c[default]\nDespite this modification being very simple, the modification 'Porcupine' artefact has wonderful anti-radiation properties! The downside is that the artefact slowly drains the wearer's energy. However, this is a small price for the opportunity to walk through contaminated areas without getting lethal doses of radiation\n \nFormed when an 'Urchin' artefact reacts with a Burner anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]3 hrs Zone\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_electra_dikoobraz_text">
+		<!-- MF medium rewrite, -->
+		<text>%c[255,255,255,255]Radiation %c[255,1,255,1]-50\n%c[255,255,255,255]Stamina %c[255,1,255,1]+91\n%c[255,255,255,255]Electrical %c[255,255,1,1]-10 %\n%c[255,255,255,255]Psionic %c[255,1,255,1]+10 %\n%c[default]\nThe mesomodification 'Electric Porcupine' is highly efficient at inhibiting radiation, while considerably reducing fatigue. Its only negative side effect is an increased sensitivity to electrical shock. It also provides additional protection from telepathic influence\n \nFormed when a modified 'Porcupine' reacts with an Electro anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]5 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_sopl_dikoobraz_text">
+		<!-- MF medium rewrite, articles -->
+		<text>%c[255,255,255,255]Radiation %c[255,1,255,1]-55\n%c[255,255,255,255]Stamina %c[255,1,255,1]+100\n%c[255,255,255,255]Electrical %c[255,255,1,1]-10 %\n%c[255,255,255,255]Chemical %c[255,1,255,1]+5 %\n%c[default]\nThe hypermodification 'Acidic Porcupine' has a huge capacity for absorbing radiation from the wearer, reducing the amount received by more than half. It also imbues the wearer with increased stamina. Notable negative side effects are an increased sensitivity to electric shock, and a constant discharge of an unpleasant (though harmless) mucus. Nevertheless, this slimy artefact is highly valued in the Zone\n \nFormed when a mesomodified 'Electric Porcupine' reacts with a Fruit Punch anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]2 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_stone_dikoobraz_text">
+		<!-- MF medium rewrite, articles -->
+		<text>%c[255,255,255,255]Radiation %c[255,1,255,1]-60\n%c[255,255,255,255]Stamina %c[255,1,255,1]+77\n%c[255,255,255,255]Electrical %c[255,1,255,1]+10 %\n%c[default]\nThe absolute 'Stone Porcupine' artefact reduces the dosage of incoming radiation of the wearer by more than half! In addition, it reduces susceptibility to electrical shock, and increases the wearer's stamina. Its incredible qualities are not only appreciated by scientists, but by many Stalkers\n \nFormed when a hypermodified 'Acidic Porcupine' reacts with a Springboard anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]9 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_steel_kolobok_text">
+		<!-- MF minor rewrite, -->
+		<text>%c[255,255,255,255]Laceration %c[255,1,255,1]+7 %\n%c[255,255,255,255]Penetration %c[255,1,255,1]+2 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+5\n%c[default]\nThe modification 'Steel Kolobok' considerably increases the resistance of the skin to lacerations and rupturing. Unfortunately, it is somewhat radioactive\n \nFormed when a 'Kolobok' reacts with a Springboard anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]2 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_titan_kolobok_text">
+		<!-- MF minor rewrite, -->
+		<text>%c[255,255,255,255]Burning %c[255,1,255,1]+4 %\n%c[255,255,255,255]Laceration %c[255,1,255,1]+9 %\n%c[255,255,255,255]Penetration %c[255,1,255,1]+3 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+6\n%c[default]\nThe mesomodification 'Titan Kolobok' substantially increases the resistance of the skin to lacerations and rupturing. Unfortunately, it is even more radioactive than the 'Steel Kolobok'\n \nFormed when a modified 'Steel Kolobok' reacts with a Whirligig anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]5 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_almaz_kolobok_text">
+		<!-- MF minor rewrite, -->
+		<text>%c[255,255,255,255]Burning %c[255,1,255,1]+4 %\n%c[255,255,255,255]Laceration %c[255,1,255,1]+11 %\n%c[255,255,255,255]Chemical %c[255,1,255,1]+7 %\n%c[255,255,255,255]Penetration %c[255,1,255,1]+1 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+4\n%c[default]\nThe hypermodification 'Diamond Kolobok' increases the resistance of the skin to lacerations and rupturing even more, while emitting more radiation, than the 'Titan Kolobok'\n \nFormed when a mesomodified 'Titan Kolobok' reacts with a Fruit Punch anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]8 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_giant_small_brother_text">
+		<!-- MF minor rewrite, articles -->
+		<text>%c[255,255,255,255]Burning %c[255,1,255,1]+5 %\n%c[255,255,255,255]Laceration %c[255,1,255,1]+14 %\n%c[255,255,255,255]Penetration %c[255,1,255,1]+3 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+9\n%c[default]\nThe absolute 'Sphere' artefact toughens the skin even more than the 'Diamond Kolobok', offering incredible resistance to lacerations and rupturing. However, it is highly radioactive. \n\nFormed when a hypermodified 'Diamond Kolobok' reacts with a Burner anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]3 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_soul_drops_text">
+		<!-- MF minor rewrite, -->
+		<text>%c[255,255,255,255]Health %c[255,1,255,1]+350 %\n%c[255,255,255,255]Radiation %c[255,1,255,1]-7\n%c[255,255,255,255]Stamina %c[255,255,1,1]-16\n%c[255,255,255,255]Bleeding %c[255,1,255,1]-66 %\n%c[default]\nThe modification 'Soul Drops' improves health and reduces blood loss. Slightly radioactive, it also causes a small decrease in the wearer's stamina\n \nFormed when a 'Soul' artefact reacts with a Burner anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]4 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_soul_fire_text">
+		<!-- MF minor rewrite, -->
+		<text>%c[255,255,255,255]Health %c[255,1,255,1]+375 %\n%c[255,255,255,255]Radiation %c[255,1,255,1]-10\n%c[255,255,255,255]Stamina %c[255,255,1,1]-16\n%c[255,255,255,255]Bleeding %c[255,1,255,1]-133 %\n%c[default]\nThe mesomodification 'Fiery Soul' preserves the properties of the artefact 'Soul Drops', improving health and reducing bleeding even further; but with slightly higher radioactivity, and a further decrease in the wearer's stamina\n \nFormed when a modified Soul Drops' reacts with a Burner anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]6 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_soul_cristal_text">
+		<!-- MF minor rewrite, -->
+		<text>%c[255,255,255,255]Health %c[255,1,255,1]+400 %\n%c[255,255,255,255]Radiation %c[255,1,255,1]-15\n%c[255,255,255,255]Stamina %c[255,255,1,1]-16\n%c[255,255,255,255]Bleeding %c[255,1,255,1]-199 %\n%c[default]\nThe hypermodification 'Crystal Soul' retains the properties of improving health, decreasing fatigue and inhibiting blood loss. The downside is its radioactive nature\n \nFormed when a mesomodified 'Fiery Soul' reacts with a Burner anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]10 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_soul_bengal_text">
+		<!-- MF medium rewrite, -->
+		<text>%c[255,255,255,255]Health %c[255,1,255,1]+425 %\n%c[255,255,255,255]Radiation %c[255,1,255,1]-15\n%c[255,255,255,255]Stamina %c[255,1,255,1]+16\n%c[255,255,255,255]Bleeding %c[255,1,255,1]-299 %\n%c[default]\nThis absolute artefact greatly improves health, reduces bleeding, and increases stamina. Though dangerously radioactive, it is highly valued on markets both in and outside the Zone\n \nFormed when a hypermodified 'Crystal Soul' reacts with an Electro anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]1 hour Zone\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_tears_electra_text">
+		<!-- MF complete rewrite, -->
+		<text>%c[255,255,255,255]Radiation %c[255,1,255,1]-7\n%c[255,255,255,255]Stamina %c[255,1,255,1]+16\n%c[default]\nThe modification 'Electric Tears' reduces radiation and increases stamina\n \nFormed when a 'Droplet' artefact reacts with an Electro anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]5 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_tears_fire_text">
+		<!-- MF complete rewrite, -->
+		<text>%c[255,255,255,255]Radiation %c[255,1,255,1]-20\n%c[default]\nThe mesomodification 'Fire Tears' greatly absorbs radiation when worn on a belt\n \nFormed when a modified 'Electric Tears' reacts with a Burner anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]6 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_tears_chimaera_text">
+		<!-- MF complete rewrite, -->
+		<text>%c[255,255,255,255]Health %c[255,255,1,1]-200 %\n%c[255,255,255,255]Radiation %c[255,1,255,1]-30\n%c[255,255,255,255]Bleeding %c[255,255,1,1]+153 %\n%c[255,255,255,255]Psionic %c[255,1,255,1]+15 %\n%c[default]\nThe hypermodification 'Chimera Tears' is exceptionally good at absorbing radiation. It also protects the brain from harmful psi-emissions. However, it causes serious bodily damage, and actively encourages bleeding out\n \nFormed when a mesomodified 'Fire Tears' reacts with a Fruit Punch anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]2 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_grandmother_glassbeards_text">
+		<!-- MF medium rewrite -->
+		<text>%c[255,255,255,255]Stamina %c[255,1,255,1]+64\n%c[255,255,255,255]Electrical %c[255,255,1,1]-15 %\n%c[255,255,255,255]Explosive %c[255,1,255,1]+5 %\n%c[255,255,255,255]Penetration %c[255,1,255,1]+3 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+5\n%c[default]\nModification 'Mother's Beads' offers some protection from electrical shock, while generating a temporal field that alters the trajectory of physical objects approaching it at speed, including cartridges and shrapnel. It is moderately radioactive\n \nFormed when a 'Glassbeads' artefact reacts with an Electro anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]5 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_pra_grandmother_glassbeards_text">
+		<!-- MF medium rewrite -->
+		<text>%c[255,255,255,255]Health %c[255,1,255,1]+100 %\n%c[255,255,255,255]Bleeding %c[255,1,255,1]-66 %\n%c[255,255,255,255]Explosive %c[255,1,255,1]+3 %\n%c[255,255,255,255]Penetration %c[255,1,255,1]+2 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+7\n%c[default]\nThe mesomodification 'Grandmother's Beads' provides increased resistance to cartridges and explosions compared to 'Mother's Beads', due to a more powerful temporal field. However, it is correspondingly more radioactive.\n \nFormed when a modified 'Mother's Beads' reacts with a Fruit Punch anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]3 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_burer_grandmother_glassbeards_text">
+		<!-- MF medium rewrite -->
+		<text>%c[255,255,255,255]Health %c[255,1,255,1]+200 %\n%c[255,255,255,255]Radiation %c[255,1,255,1]-5\n%c[255,255,255,255]Bleeding %c[255,1,255,1]-133 %\n%c[255,255,255,255]Explosive %c[255,1,255,1]+8 %\n%c[255,255,255,255]Penetration %c[255,1,255,1]+4 %\n%c[default]\nThe unique hypermodification 'Elder Beads' rivals the range of 'Absolute Class' artefacts. Its temporal field is very strong with a large radius, so the person wearing it can survive even a direct hit from an SVD. It offers increased protection from explosions than 'Grandmother's Beads', but is more radioactive.\n \nFormed when a mesomodified 'Grandmother's Beads' reacts with a Whirligig anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]10 minute Zone\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_shkura_text">
+		<!-- MF minor rewrite -->
+		<text>%c[255,255,255,255]Burning %c[255,1,255,1]+16 %\n%c[255,255,255,255]Chemical %c[255,1,255,1]+18 %\n%c[255,255,255,255]Penetration %c[255,1,255,1]+3 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+2\n%c[default]\nThe modification 'Skin' reduces susceptibility to burns from hot and chemically aggressive environments, with minimal radiation.\n \nFormed when a 'Pellicle' reacts with a Springboard anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]5 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_cheshya_text">
+		<!-- MF minor correction, -->
+		<text>%c[255,255,255,255]Health %c[255,1,255,1]+100 %\n%c[255,255,255,255]Bleeding %c[255,255,1,1]+153 %\n%c[255,255,255,255]Burning %c[255,1,255,1]+20 %\n%c[255,255,255,255]Chemical %c[255,1,255,1]+24 %\n%c[255,255,255,255]Penetration %c[255,1,255,1]+4 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+4\n%c[default]\nThe mesomodification 'Scale' further reduces damage from heat and chemicals than the 'Skin' artefact, while being slightly more radioactive\n \nFormed when a modified 'Skin' reacts with a Whirligig anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]5 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_pancir_text">
+		<!-- MF medium rewrite, -->
+		<text>%c[255,255,255,255]Health %c[255,1,255,1]+100 %\n%c[255,255,255,255]Bleeding %c[255,1,255,1]-66 %\n%c[255,255,255,255]Burning %c[255,1,255,1]+24 %\n%c[255,255,255,255]Chemical %c[255,1,255,1]+28 %\n%c[255,255,255,255]Penetration %c[255,1,255,1]+5 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+3\n%c[default]\nThe hypermodification 'Steel Scale' offers further protection still from fire and chemicals coming in contact with human skin. The only negative quality is its radioactivity\n \nFormed when a mesomodified 'Scale' reacts with a Fruit Punch anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]2 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_controller_skalp_text">
+		<!-- MF minor rewrite -->
+		<text>%c[255,255,255,255]Health %c[255,1,255,1]+100 %\n%c[255,255,255,255]Nourishment %c[255,255,1,1]-440 %\n%c[255,255,255,255]Bleeding %c[255,1,255,1]-66 %\n%c[255,255,255,255]Burning %c[255,1,255,1]+28 %\n%c[255,255,255,255]Psionic %c[255,1,255,1]+40 %\n%c[255,255,255,255]Chemical %c[255,1,255,1]+15 %\n%c[255,255,255,255]Penetration %c[255,1,255,1]+6 %\n%c[default]\nThe absolute 'Controller Scalp' artefact substantially reduces skin damage from high temperature and chemical environments, reduces the need for food, and blocks psi-radiation by up to 40%. All this, while displaying no discernible negative qualities!\n\nFormed when a hypermodified 'Steel Scale' reacts with a Burner anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]6 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_simbion_text">
+		<!-- MF minor rewrite -->
+		<text>%c[255,255,255,255]Stamina %c[255,255,1,1]-18\n%c[255,255,255,255]Bleeding %c[255,255,1,1]+55 %\n%c[255,255,255,255]Laceration %c[255,255,1,1]-15 %\n%c[255,255,255,255]Psionic %c[255,1,255,1]+45 %\n%c[default]\nThe unique modification 'Simbion' blocks psi-radiation by almost half; but it also makes the body more susceptible to laceration, encourages blood loss, and induces fatigue\n \nFormed by a joint transmutation of four artefacts: 'Medusa', 'Droplet', 'Stone Blood' and 'Thorn' in a Fruit Punch anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]5 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_dummy_fire_text">
+		<!-- MF minor correction -->
+		<text>%c[255,255,255,255]Stamina %c[255,1,255,1]+27\n%c[255,255,255,255]Burning %c[255,1,255,1]+5 %\n%c[255,255,255,255]Impaction %c[255,1,255,1]+5 %\n%c[255,255,255,255]Electrical %c[255,255,1,1]-10 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+2\n%c[default]\nThe field around the modification 'Fire Dummy' cushions the body from impact, and increases its stamina; while also increasing the likelihood of shocks from Electro anomalies. The artefact is slightly radioactive\n \nFormed when a 'Dummy' artefact reacts with an Electro anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]3 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_dummy_bright_text">
+		<!-- MF medium rewrite -->
+		<text>%c[255,255,255,255]Stamina %c[255,1,255,1]+65\n%c[255,255,255,255]Burning %c[255,1,255,1]+8 %\n%c[255,255,255,255]Impaction %c[255,1,255,1]+9 %\n%c[255,255,255,255]Electrical %c[255,255,1,1]-15 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+3\n%c[default]\nThe mesomodification 'Shining Dummy' further increases impact protection and stamina, but also the susceptibility of the organism to electric shock. Compared to the 'Fire Dummy', it is slightly more radioactive\n \nFormed when a modified 'Fire Dummy' reacts with an Electro anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]6 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_dummy_moon_text">
+		<!-- MF complete rewrite -->
+		<text>%c[255,255,255,255]Stamina %c[255,1,255,1]+91\n%c[255,255,255,255]Burning %c[255,1,255,1]+10 %\n%c[255,255,255,255]Impaction %c[255,1,255,1]+11 %\n%c[255,255,255,255]Electrical %c[255,255,1,1]-20 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+5\n%c[default]\nThe hypermodification 'Moonlight Dummy' protects the wearer from more serious injuries due to impact, and grants additional stamina; while further increasing sensitivity to electrical shock, and becoming more radioactive\n \nFormed when a mesomodified 'Shining Dummy' reacts with an Electro anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]8 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="enc_amk_recipt_dummy_puding_text">
+		<!-- MF medium rewrite -->
+		<text>%c[255,255,255,255]Stamina %c[255,1,255,1]+18\n%c[255,255,255,255]Burning %c[255,1,255,1]+13 %\n%c[255,255,255,255]Impaction %c[255,1,255,1]+15 %\n%c[255,255,255,255]Electrical %c[255,1,255,1]+20 %\n%c[255,255,255,255]Radiation %c[255,255,1,1]+7\n%c[default]\nThe absolute 'Pudding' artefact loses some of its radiation, its ability to protect from impact, and to aid stamina; but changes state to substantially absorb burns from anomalous fires and electric shock\n \nFormed when a hypermodified 'Moonlight Dummy' reacts with a Fruit Punch anomaly\n%c[255,255,255,255]Time for transmutation %c[255,224,224,160]12 hrs Zone Time\n%c[255,255,255,255]Probability of successful transmutation %c[255,1,255,1]100 %%c[default]</text>
+	</string>
+	<string id="blowout_not_sleep">
+		<text>Sleeping during a Blowout is inadvisable...</text>
+	</string>
+	<string id="not_need_sleep">
+		<text>You don't need to sleep...</text>
+	</string>
+	<string id="not_need_sleep_nrg">
+		<text>Sleep impossible due to ingesting energy drink...</text>
+	</string>
+	<string id="not_need_sleep_enemy">
+		<text>Sleeping with enemies close by is foolhardy...</text>
+	</string>
+	<string id="not_need_sleep_in_hell">
+		<text>Sleeping during a Hell Hour Blowout is madness...</text>
+	</string>
+	<string id="trans_finished_title">
+		<text>Result of artefact transmutation -</text>
+	</string>
+	<string id="trans_finished_msg">
+		<text>Result of artefact transmutation -</text>
+	</string>
+	<string id="stalker_died">
+		<text>Another Stalker taken by the Zone:</text>
+	</string>
+	<string id="alc_too_much_die">
+		<text>You have died of severe alcohol poisoning...</text>
+	</string>
+	<string id="alc_too_much">
+		<text>I've had waaaay too much to drink!</text>
+	</string>
+	<string id="alc_todo_alcoholic">
+		<text>You are suffering from alcoholism...</text>
+	</string>
+	<string id="alc_need_drink">
+		<text>I need a drink...</text>
+	</string>
+	<string id="alc_need_drink_big">
+		<text>I'm in dire need of alcohol!!!</text>
+	</string>
+	<string id="alc_coded">
+		<text>Addiction to alcohol finally cured. Please try to stay sober...</text>
+	</string>
+	<string id="alc_no_more_need">
+		<text>I don't need so much to drink nowadays... that's better. I need to survive about a week to get this alcohol out of my system...</text>
+	</string>
+	<string id="amk_warn_trans">
+		<text>WARNING! Buffer Underun Error! Transmutation data not saved!! Wait for the transmutation to run its cycle, and try to Save again afterwards...</text>
+	</string>
+	<string id="amk_warn_trans_critical">
+		<text>WARNING! Buffer Underun Error! Transmutation cannot be completed. Loading a previous Save file is recommended...</text>
+	</string>
+	<string id="amk_warn_attention">
+		<text>Attention! Your stored data will soon exceed its limit! RECOMMENDATIONS: Do not take on any new jobs. Wait until all your transmutations are finished. Do not attempt to start a new transmutation. Complete some of your outstanding jobs. Reduce your inventory...</text>
+	</string>
+	<string id="amk_sleep_title">
+		<text>Sleep</text>
+	</string>
+	<string id="amk_sleep_one_hour">
+		<text>Sleep for 1 hour...</text>
+	</string>
+	<string id="amk_sleep_three_hours">
+		<text>Sleep for 5 hours...</text>
+	</string>
+	<string id="amk_sleep_five_hours">
+		<text>Sleep for 8 hours...</text>
+	</string>
+	<string id="amk_sleep_until_full_health">
+		<text>Sleep until fully recovered...</text>
+	</string>
+	<string id="amk_dots_title">
+		<text>Enter tag</text>
+	</string>
+	<string id="amk_dots_done">
+		<text>Send</text>
+	</string>
+	<!-- !!!!TB3D FREE PLAY == COLLECTOR ====-->
+	<string id="amk_welcome_title">
+		<text>STALKERSOUP</text>
+	</string>
+	<string id="amk_welcome_msg">
+		<text>%c[255,255,128,128]Welcome, Stalker... And good hunting!\n%c[default]TB3D</text>
+	</string>
+	<!--=========================================-->
+	<string id="rep_no_weapon_in_slot">
+		<text>No weapon in the slot...</text>
+	</string>
+	<string id="rep_not_need">
+		<text>Weapon does not need repairing...</text>
+	</string>
+	<string id="rep_need_big">
+		<text>Weapon needs to be repaired...</text>
+	</string>
+</string_table>

@@ -1,0 +1,103 @@
+;;;; TB3D 1.0.9.9.8.1 - TB3D style weapons
+
+; Штурмовая винтовка ФН2000 "Палач" с комьютеризированым прицелом
+[wpn_fn2000_comp]:wpn_fn2000
+$spawn				= "weapons\fn2000_comp"
+description			= enc_weapons1_wpn-fn2000_comp
+inv_name			= wpn-fn2000_comp
+inv_name_short		= wpn-fn2000_comp
+class				= WP_BINOC
+ammo_class			= ammo_7.62x39_fmj, ammo_7.62x39_ap
+holder_range_modifier = 2.2
+inv_weight			= 3.9
+fire_point			= -0.01,0.21,0.44
+hud				    = wpn_fn2000_comp_hud
+position			= 0.0, -0.134, -0.01
+visual				= weapons\fn2000\wpn_fn2000_comp.ogf
+inv_grid_width		= 5
+inv_grid_height		= 2
+inv_grid_x			= 24
+inv_grid_y			= 6
+cost				= 28000
+
+hit_rate	            = 1.97
+fire_distance           = 600			;;;109974 10:1
+bullet_speed			= 880
+rpm                     = 850
+
+fire_dispersion_base	= 0.006
+silencer_name  		    = wpn_addon_sil_556_ar
+silencer_x			    = 214
+silencer_y			    = 12
+
+;addons
+scope_status			= 1
+silencer_status			= 2
+grenade_launcher_status	= 0
+
+scope_texture			= wpn\wpn_crosshair_fn2000-comp	;wpn\wpn_crosshair_fn2000d
+scope_zoom_factor		= 14.25
+
+snd_gyro			= characters_voice\human_01\bandit\no_music\no_sound_1
+snd_zoomin			= weapons\arm_binoc\arm_binoculars_pnv_on
+snd_zoomout			= weapons\arm_binoc\arm_binoculars_pnv_off
+snd_close			= weapons\generic_close
+snd_holster			= weapons\rifle_holster
+snd_reload			= weapons\fn2000\fn2000_reload, 0.8, 0.3
+snd_silncer_shot	= weapons\mp40\mp40_shot_sil
+
+;silencer_smoke_particles 		= weapons\generic_shoot_00
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+silencer_hit_power       	= 1.1
+silencer_hit_impulse	 	= 64
+silencer_fire_distance   	= 480					;;;109974 10:1
+silencer_bullet_speed	 	= 670
+
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time		= 0.2
+
+vision_present		= true
+vis_frame_speed		= 4			            ; скорость, с которой наводится рамка на цель
+vis_frame_color		= 0.7,0.7,0.7,1.0	    ; цвет рамки RGBA (A) Не учитывается
+found_snd			= detectors\DA-2_beep1
+
+[wpn_fn2000_comp_hud]:wpn_fn2000_hud
+fire_point			= 0.0,0.0,-0.07
+visual				= weapons\fn2000\wpn_fn2000_comp_hud.ogf
+
+anim_idle_g				= idle_g
+anim_idle_g_aim         = idle_g_aim
+anim_reload_g			= reload_g
+anim_shoot_g			= shoot_g
+anim_switch_grenade_on	= switch_on
+anim_switch_grenade_off	= switch_off
+anim_draw_g				= draw_g
+anim_holster_g			= holster_g
+
+anim_idle_gl			= idle
+anim_idle_gl_aim		= idle_aim
+anim_reload_gl			= reload
+anim_draw_gl			= draw
+anim_holster_gl			= holster
+anim_shoot_gl			= shoot
+
+shell_point			= 0.110000,-0.060000,0.010000
+shell_dir			= 0.0, 1.0, 0.0
+fire_bone			= wpn_body
+position			= 0, 0, 0
+anim_idle_aim		= idle
+
+zoom_offset			= -0.191000,0.011500,-0.225000
+zoom_rotate_x		= -0.060000
+zoom_rotate_y		= 0.040000
+
+grenade_zoom_offset		= -0.1162,-0.145, 0
+grenade_zoom_rotate_x	= -0.203700
+grenade_zoom_rotate_y	= 0.035000
+
+zoom_rotate_time	= 0.4
+rotate_time			= 0.4

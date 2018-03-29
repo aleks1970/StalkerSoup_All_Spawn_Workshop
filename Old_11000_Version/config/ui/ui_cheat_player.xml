@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- ************ TB3D 1.1.0.0.1.6 redone for custom music packs, play-stop button aleks1970 *************** -->
+<!-- *************** Directed Vergas *************** -->
+<cheat>
+	<back_video x="67" y="53" width="519" height="359" stretch="1">
+		<texture>ui\credits_back_512_v10</texture>
+	</back_video>
+	<background x="0" y="0" width="740" height="740" stretch="1">
+		<texture>ui\vr_player</texture>
+	</background>
+	<background_r1 x="69" y="55" width="80" height="360" stretch="1">
+		<texture>ui\vr_ramka1</texture>
+	</background_r1>
+	<background_r2 x="149" y="150" width="300" height="260" stretch="1">
+		<texture>ui\vr_ramka2</texture>
+	</background_r2>
+	<background_r3 x="448" y="150" width="150" height="150" stretch="1">
+		<texture>ui\vr_ramka3</texture>
+	</background_r3>
+	<background_2 x="482" y="63" width="60" height="60" stretch="1">
+		<texture>ui\vr_skull</texture>
+	</background_2>
+	<background_3 x="147" y="65" width="300" height="60" stretch="1">
+		<texture>ui\vr_ns</texture>
+	</background_3>
+	<background_4 x="154" y="60" width="50" height="35">
+		<text font="letterica16" r="0" g="0" b="0" a="5" align="l">-</text>
+	</background_4>
+	<background_5 x="447" y="286" width="140" height="92" stretch="1">
+		<texture>ui\vr_flash</texture>
+	</background_5>
+	<!-- ****************************** Main Buttons ******************************* -->
+	<background_5_2 x="447" y="384" width="68" height="22" stretch="1">
+		<texture>ui\vr_btn</texture>
+	</background_5_2>
+	<background_5_2_1 x="451" y="386" width="16" height="16" stretch="1">
+		<texture>ui\vr_stop</texture>
+	</background_5_2_1>
+	<background_5_2_2 x="474" y="386" width="25" height="25" stretch="1">
+		<text y="3" font="letterica16" r="255" g="0" b="0">mp3_stop</text>
+	</background_5_2_2>
+	<background_5_2_1_0 x="451" y="386" width="16" height="16" stretch="1">
+		<texture>ui\vr_play</texture>
+	</background_5_2_1_0>
+	<background_5_2_2_0 x="474" y="386" width="25" height="25" stretch="1">
+		<text y="3" font="letterica16" r="0" g="220" b="10">play_ui</text>
+	</background_5_2_2_0>
+	<background_5_3 x="516" y="384" width="68" height="22" stretch="1">
+		<texture>ui\vr_btn</texture>
+	</background_5_3>
+	<background_5_3_1 x="564" y="386" width="16" height="16" stretch="1">
+		<texture>ui\vr_exit</texture>
+	</background_5_3_1>
+	<background_5_3_2 x="532" y="386" width="25" height="25" stretch="1">
+		<text y="3" font="letterica16" r="0" g="191" b="255">mp3_exit</text>
+	</background_5_3_2>
+	<!-- *************************************************************************** -->
+	<background_6 x="201" y="128" width="100" height="35">
+		<text font="letterica18" r="207" g="207" b="207" a="5" align="l">mp3_music</text>
+	</background_6>
+	<background_7 x="485" y="128" width="65" height="63">
+		<text font="letterica18" r="207" g="207" b="207" a="255" align="l">mp3_radio</text>
+	</background_7>
+	<background_8 x="453" y="303" width="100" height="35">
+		<text font="letterica18" r="238" g="154" b="0" a="255" align="l">mp3_usb</text>
+	</background_8>
+	<background_9 x="220" y="100" width="100" height="35">
+		<text font="letterica18" r="238" g="154" b="0" a="255" align="l">mp3_files</text>
+	</background_9>
+	<background_10 x="453" y="308" width="50" height="35">
+		<text font="letterica18" r="238" g="154" b="0" a="255" align="l">mp3_reader</text>
+	</background_10>
+	<background_18 x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_empty</texture>
+	</background_18>
+	<background_19 x="76" y="70" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_19>
+	<background_20 x="76" y="112" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_20>
+	<background_21 x="76" y="154" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_21>
+	<background_22 x="76" y="196" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_22>
+	<background_23 x="76" y="238" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_23>
+	<background_24 x="76" y="280" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_24>
+	<background_25 x="76" y="322" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_25>
+	<background_26 x="110" y="70" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_26>
+	<background_27 x="110" y="112" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_27>
+	<background_28 x="110" y="154" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_28>
+	<background_29 x="110" y="196" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_29>
+	<background_30 x="110" y="238" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_30>
+	<background_31 x="110" y="280" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_31>
+	<background_32 x="110" y="322" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_32>
+	<background_41 x="76" y="364" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_41>
+	<background_42 x="110" y="364" width="28" height="28" stretch="1">
+		<texture>ui\vr_kosti_3</texture>
+	</background_42>
+	<btn_quit x="516" y="384" width="68" height="22">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_quit>
+	<btn_stop x="447" y="384" width="68" height="22">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_stop>
+	<btn_play x="516" y="384" width="68" height="22">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_play>
+	<btn_play_stop x="516" y="384" width="68" height="22">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_play_stop>
+	<!-- *************** music slots *************** -->
+	<background_S01 x="155" y="158" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_S01>
+	<background_001 x="155" y="158" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_001>
+	<btn_001 x="155" y="156" width="20" height="20">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_001>
+	<background_S02 x="155" y="179" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_S02>
+	<background_002 x="155" y="179" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_002>
+	<btn_002 x="155" y="177" width="20" height="20">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_002>
+	<background_S03 x="155" y="200" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_S03>
+	<background_003 x="155" y="200" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_003>
+	<btn_003 x="153" y="198" width="20" height="20">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_003>
+	<background_S04 x="155" y="221" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_S04>
+	<background_004 x="155" y="221" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_004>
+	<btn_004 x="153" y="219" width="20" height="20">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_004>
+	<background_S05 x="155" y="242" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_S05>
+	<background_005 x="155" y="242" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_005>
+	<btn_005 x="153" y="240" width="20" height="20">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_005>
+	<background_S06 x="155" y="263" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_S06>
+	<background_006 x="155" y="263" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_006>
+	<btn_006 x="153" y="261" width="20" height="20">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_006>
+	<background_S07 x="155" y="284" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_S07>
+	<background_007 x="155" y="284" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_007>
+	<btn_007 x="153" y="282" width="20" height="20">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_007>
+	<background_S08 x="155" y="305" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_S08>
+	<background_008 x="155" y="305" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_008>
+	<btn_008 x="153" y="303" width="20" height="20">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_008>
+	<background_S09 x="155" y="326" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_S09>
+	<background_009 x="155" y="326" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_009>
+	<btn_009 x="153" y="324" width="20" height="20">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_009>
+	<background_S10 x="155" y="347" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_S10>
+	<background_010 x="155" y="347" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_010>
+	<btn_010 x="153" y="345" width="20" height="20">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_010>
+	<background_S11 x="155" y="368" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_S11>
+	<background_011 x="155" y="368" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_011>
+	<btn_011 x="153" y="366" width="20" height="20">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_011>
+	<background_S12 x="155" y="389" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_S12>
+	<background_012 x="155" y="389" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_012>
+	<btn_012 x="153" y="387" width="20" height="20">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_012>
+	<background_radio_51 x="454" y="156" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_radio_51>
+	<background_radio_1 x="454" y="156" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_radio_1>
+	<btn_1 x="452" y="154" width="20" height="18">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_1>
+	<background_radio_52 x="454" y="174" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_radio_52>
+	<background_radio_2 x="454" y="174" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_radio_2>
+	<btn_2 x="452" y="172" width="20" height="18">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_2>
+	<background_radio_53 x="454" y="192" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_radio_53>
+	<background_radio_3 x="454" y="192" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_radio_3>
+	<btn_3 x="452" y="190" width="20" height="18">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_3>
+	<background_radio_54 x="454" y="210" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_radio_54>
+	<background_radio_4 x="454" y="210" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_radio_4>
+	<btn_4 x="452" y="208" width="20" height="18">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_4>
+	<background_radio_55 x="454" y="228" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_radio_55>
+	<background_radio_5 x="454" y="228" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_radio_5>
+	<btn_5 x="452" y="226" width="20" height="18">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_5>
+	<background_radio_56 x="454" y="246" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_radio_56>
+	<background_radio_6 x="454" y="246" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_radio_6>
+	<btn_6 x="452" y="244" width="20" height="18">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_6>
+	<background_radio_57 x="454" y="264" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_radio_57>
+	<background_radio_7 x="454" y="264" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_radio_7>
+	<btn_7 x="452" y="262" width="20" height="18">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_7>
+	<btn_flash_1 x="76" y="70" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_1>
+	<background_f1 x="76" y="70" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_1</texture>
+	</background_f1>
+	<background_f1_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_1</texture>
+	</background_f1_slot>
+	<btn_flash_2 x="76" y="112" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_2>
+	<background_f2 x="76" y="112" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_3</texture>
+	</background_f2>
+	<background_f2_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_3</texture>
+	</background_f2_slot>
+	<btn_flash_3 x="76" y="154" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_3>
+	<background_f3 x="76" y="154" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_5</texture>
+	</background_f3>
+	<background_f3_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_5</texture>
+	</background_f3_slot>
+	<btn_flash_4 x="76" y="196" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_4>
+	<background_f4 x="76" y="196" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_7</texture>
+	</background_f4>
+	<background_f4_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_7</texture>
+	</background_f4_slot>
+	<btn_flash_5 x="76" y="238" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_5>
+	<background_f5 x="76" y="238" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_9</texture>
+	</background_f5>
+	<background_f5_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_9</texture>
+	</background_f5_slot>
+	<btn_flash_6 x="76" y="280" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_6>
+	<background_f6 x="76" y="280" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_11</texture>
+	</background_f6>
+	<background_f6_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_11</texture>
+	</background_f6_slot>
+	<btn_flash_7 x="76" y="322" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_7>
+	<background_f7 x="76" y="322" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_13</texture>
+	</background_f7>
+	<background_f7_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_13</texture>
+	</background_f7_slot>
+	<btn_flash_8 x="110" y="70" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_8>
+	<background_f8 x="110" y="70" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_2</texture>
+	</background_f8>
+	<background_f8_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_2</texture>
+	</background_f8_slot>
+	<btn_flash_9 x="110" y="112" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_9>
+	<background_f9 x="110" y="112" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_4</texture>
+	</background_f9>
+	<background_f9_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_4</texture>
+	</background_f9_slot>
+	<btn_flash_10 x="110" y="154" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_10>
+	<background_f10 x="110" y="154" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_6</texture>
+	</background_f10>
+	<background_f10_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_6</texture>
+	</background_f10_slot>
+	<btn_flash_11 x="110" y="196" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_11>
+	<background_f11 x="110" y="196" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_8</texture>
+	</background_f11>
+	<background_f11_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_8</texture>
+	</background_f11_slot>
+	<btn_flash_12 x="110" y="238" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_12>
+	<background_f12 x="110" y="238" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_10</texture>
+	</background_f12>
+	<background_f12_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_10</texture>
+	</background_f12_slot>
+	<btn_flash_13 x="110" y="280" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_13>
+	<background_f13 x="110" y="280" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_12</texture>
+	</background_f13>
+	<background_f13_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_12</texture>
+	</background_f13_slot>
+	<btn_flash_14 x="110" y="322" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_14>
+	<background_f14 x="110" y="322" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_14</texture>
+	</background_f14>
+	<background_f14_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_14</texture>
+	</background_f14_slot>
+	<btn_flash_15 x="76" y="364" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_15>
+	<background_f15 x="76" y="364" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_15</texture>
+	</background_f15>
+	<background_f15_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_15</texture>
+	</background_f15_slot>
+	<btn_flash_16 x="110" y="364" width="28" height="28">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_flash_16>
+	<background_f16 x="110" y="364" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_16</texture>
+	</background_f16>
+	<background_f16_slot x="522" y="289" width="28" height="28" stretch="1">
+		<texture>ui\vr_player_flash_16</texture>
+	</background_f16_slot>
+	<background_vol_1 x="450" y="362" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_vol_1>
+	<background_vol_2 x="468" y="362" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_vol_2>
+	<background_vol_3 x="486" y="362" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_vol_3>
+	<background_vol_4 x="504" y="362" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_vol_4>
+	<background_vol_5 x="522" y="362" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_1</texture>
+	</background_vol_5>
+	<background_vol_11 x="450" y="362" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_vol_11>
+	<background_vol_21 x="468" y="362" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_vol_21>
+	<background_vol_31 x="486" y="362" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_vol_31>
+	<background_vol_41 x="504" y="362" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_vol_41>
+	<background_vol_51 x="522" y="362" width="12" height="12" stretch="1">
+		<texture>ui\vr_knopka_2</texture>
+	</background_vol_51>
+	<btn_vol_1 x="448" y="360" width="12" height="12">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_vol_1>
+	<btn_vol_2 x="466" y="360" width="12" height="12">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_vol_2>
+	<btn_vol_3 x="484" y="360" width="12" height="12">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_vol_3>
+	<btn_vol_4 x="502" y="360" width="12" height="12">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_vol_4>
+	<btn_vol_5 x="520" y="360" width="12" height="12">
+		<texture_e>ui\vr_blank</texture_e>
+		<texture_t>ui\vr_knopka_2</texture_t>
+		<texture_h>ui\vr_knopka_2</texture_h>
+	</btn_vol_5>
+	<background_ring_off x="538" y="350" width="48" height="28" stretch="1">
+		<texture>ui\vr_repeat_off</texture>
+	</background_ring_off>
+	<background_ring_on x="538" y="350" width="48" height="28" stretch="1">
+		<texture>ui\vr_repeat_on</texture>
+	</background_ring_on>
+	<btn_ring x="538" y="350" width="48" height="28" stretch="1">
+		<texture_e>ui\vr_blank</texture_e>
+	</btn_ring>
+	<!-- *************** Vergas signature buttons music files in the slot is no flash 0*************** -->
+	<background_btn_001 x="187" y="154" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">mp3_empty</text>
+	</background_btn_001>
+	<background_btn_002 x="187" y="176" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">mp3_empty</text>
+	</background_btn_002>
+	<background_btn_003 x="187" y="197" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">mp3_empty</text>
+	</background_btn_003>
+	<background_btn_004 x="187" y="218" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">mp3_empty</text>
+	</background_btn_004>
+	<background_btn_005 x="187" y="239" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">mp3_empty</text>
+	</background_btn_005>
+	<background_btn_006 x="187" y="260" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">mp3_empty</text>
+	</background_btn_006>
+	<background_btn_007 x="187" y="281" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">mp3_empty</text>
+	</background_btn_007>
+	<background_btn_008 x="187" y="302" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">mp3_empty</text>
+	</background_btn_008>
+	<background_btn_009 x="187" y="323" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">mp3_empty</text>
+	</background_btn_009>
+	<background_btn_010 x="187" y="344" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">mp3_empty</text>
+	</background_btn_010>
+	<background_btn_011 x="187" y="365" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">mp3_empty</text>
+	</background_btn_011>
+	<background_btn_012 x="187" y="386" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">mp3_empty</text>
+	</background_btn_012>
+	<background_10 x="473" y="325" width="50" height="35">
+		<text font="letterica18" r="238" g="154" b="0" a="255" align="l">mp3_no_usb</text>
+	</background_10>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 1*************** -->
+	<background_f1_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_1_1</text>
+	</background_f1_t1>
+	<background_f1_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_1_2</text>
+	</background_f1_t2>
+	<background_f1_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_1_3</text>
+	</background_f1_t3>
+	<background_f1_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_1_4</text>
+	</background_f1_t4>
+	<background_f1_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_1_5</text>
+	</background_f1_t5>
+	<background_f1_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_1_6</text>
+	</background_f1_t6>
+	<background_f1_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_1_7</text>
+	</background_f1_t7>
+	<background_f1_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_1_8</text>
+	</background_f1_t8>
+	<background_f1_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_1_9</text>
+	</background_f1_t9>
+	<background_f1_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_1_10</text>
+	</background_f1_t10>
+	<background_f1_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_1_11</text>
+	</background_f1_t11>
+	<background_f1_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_1_12</text>
+	</background_f1_t12>
+	<background_12 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_1</text>
+	</background_12>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 2*************** -->
+	<background_f2_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_2_1</text>
+	</background_f2_t1>
+	<background_f2_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_2_2</text>
+	</background_f2_t2>
+	<background_f2_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_2_3</text>
+	</background_f2_t3>
+	<background_f2_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_2_4</text>
+	</background_f2_t4>
+	<background_f2_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_2_5</text>
+	</background_f2_t5>
+	<background_f2_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_2_6</text>
+	</background_f2_t6>
+	<background_f2_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_2_7</text>
+	</background_f2_t7>
+	<background_f2_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_2_8</text>
+	</background_f2_t8>
+	<background_f2_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_2_9</text>
+	</background_f2_t9>
+	<background_f2_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_2_10</text>
+	</background_f2_t10>
+	<background_f2_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_2_11</text>
+	</background_f2_t11>
+	<background_f2_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_2_12</text>
+	</background_f2_t12>
+	<background_13 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_2</text>
+	</background_13>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 3*************** -->
+	<background_f3_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_3_1</text>
+	</background_f3_t1>
+	<background_f3_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_3_2</text>
+	</background_f3_t2>
+	<background_f3_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_3_3</text>
+	</background_f3_t3>
+	<background_f3_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_3_4</text>
+	</background_f3_t4>
+	<background_f3_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_3_5</text>
+	</background_f3_t5>
+	<background_f3_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_3_6</text>
+	</background_f3_t6>
+	<background_f3_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_3_7</text>
+	</background_f3_t7>
+	<background_f3_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_3_8</text>
+	</background_f3_t8>
+	<background_f3_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_3_9</text>
+	</background_f3_t9>
+	<background_f3_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_3_10</text>
+	</background_f3_t10>
+	<background_f3_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_3_11</text>
+	</background_f3_t11>
+	<background_f3_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_3_12</text>
+	</background_f3_t12>
+	<background_14 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_3</text>
+	</background_14>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 4*************** -->
+	<background_f4_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_4_1</text>
+	</background_f4_t1>
+	<background_f4_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_4_2</text>
+	</background_f4_t2>
+	<background_f4_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_4_3</text>
+	</background_f4_t3>
+	<background_f4_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_4_4</text>
+	</background_f4_t4>
+	<background_f4_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_4_5</text>
+	</background_f4_t5>
+	<background_f4_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_4_6</text>
+	</background_f4_t6>
+	<background_f4_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_4_7</text>
+	</background_f4_t7>
+	<background_f4_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_4_8</text>
+	</background_f4_t8>
+	<background_f4_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_4_9</text>
+	</background_f4_t9>
+	<background_f4_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_4_10</text>
+	</background_f4_t10>
+	<background_f4_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_4_11</text>
+	</background_f4_t11>
+	<background_f4_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_4_12</text>
+	</background_f4_t12>
+	<background_15 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_4</text>
+	</background_15>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 5*************** -->
+	<background_f5_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_5_1</text>
+	</background_f5_t1>
+	<background_f5_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_5_2</text>
+	</background_f5_t2>
+	<background_f5_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_5_3</text>
+	</background_f5_t3>
+	<background_f5_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_5_4</text>
+	</background_f5_t4>
+	<background_f5_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_5_5</text>
+	</background_f5_t5>
+	<background_f5_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_5_6</text>
+	</background_f5_t6>
+	<background_f5_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_5_7</text>
+	</background_f5_t7>
+	<background_f5_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_5_8</text>
+	</background_f5_t8>
+	<background_f5_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_5_9</text>
+	</background_f5_t9>
+	<background_f5_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_5_10</text>
+	</background_f5_t10>
+	<background_f5_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_5_11</text>
+	</background_f5_t11>
+	<background_f5_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_5_12</text>
+	</background_f5_t12>
+	<background_16 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_5</text>
+	</background_16>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 6*************** -->
+	<background_f6_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_6_1</text>
+	</background_f6_t1>
+	<background_f6_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_6_2</text>
+	</background_f6_t2>
+	<background_f6_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_6_3</text>
+	</background_f6_t3>
+	<background_f6_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_6_4</text>
+	</background_f6_t4>
+	<background_f6_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_6_5</text>
+	</background_f6_t5>
+	<background_f6_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_6_6</text>
+	</background_f6_t6>
+	<background_f6_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_6_7</text>
+	</background_f6_t7>
+	<background_f6_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_6_8</text>
+	</background_f6_t8>
+	<background_f6_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_6_9</text>
+	</background_f6_t9>
+	<background_f6_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_6_10</text>
+	</background_f6_t10>
+	<background_f6_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_6_11</text>
+	</background_f6_t11>
+	<background_f6_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_6_12</text>
+	</background_f6_t12>
+	<background_17 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_6</text>
+	</background_17>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 7*************** -->
+	<background_f7_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_7_1</text>
+	</background_f7_t1>
+	<background_f7_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_7_2</text>
+	</background_f7_t2>
+	<background_f7_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_7_3</text>
+	</background_f7_t3>
+	<background_f7_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_7_4</text>
+	</background_f7_t4>
+	<background_f7_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_7_5</text>
+	</background_f7_t5>
+	<background_f7_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_7_6</text>
+	</background_f7_t6>
+	<background_f7_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_7_7</text>
+	</background_f7_t7>
+	<background_f7_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_7_8</text>
+	</background_f7_t8>
+	<background_f7_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_7_9</text>
+	</background_f7_t9>
+	<background_f7_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_7_10</text>
+	</background_f7_t10>
+	<background_f7_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_7_11</text>
+	</background_f7_t11>
+	<background_f7_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_7_12</text>
+	</background_f7_t12>
+	<background_33 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_7</text>
+	</background_33>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 8*************** -->
+	<background_f8_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_8_1</text>
+	</background_f8_t1>
+	<background_f8_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_8_2</text>
+	</background_f8_t2>
+	<background_f8_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_8_3</text>
+	</background_f8_t3>
+	<background_f8_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_8_4</text>
+	</background_f8_t4>
+	<background_f8_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_8_5</text>
+	</background_f8_t5>
+	<background_f8_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_8_6</text>
+	</background_f8_t6>
+	<background_f8_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_8_7</text>
+	</background_f8_t7>
+	<background_f8_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_8_8</text>
+	</background_f8_t8>
+	<background_f8_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_8_9</text>
+	</background_f8_t9>
+	<background_f8_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_8_10</text>
+	</background_f8_t10>
+	<background_f8_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_8_11</text>
+	</background_f8_t11>
+	<background_f8_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_8_12</text>
+	</background_f8_t12>
+	<background_34 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_8</text>
+	</background_34>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 9*************** -->
+	<background_f9_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_9_1</text>
+	</background_f9_t1>
+	<background_f9_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_9_2</text>
+	</background_f9_t2>
+	<background_f9_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_9_3</text>
+	</background_f9_t3>
+	<background_f9_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_9_4</text>
+	</background_f9_t4>
+	<background_f9_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_9_5</text>
+	</background_f9_t5>
+	<background_f9_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_9_6</text>
+	</background_f9_t6>
+	<background_f9_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_9_7</text>
+	</background_f9_t7>
+	<background_f9_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_9_8</text>
+	</background_f9_t8>
+	<background_f9_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_9_9</text>
+	</background_f9_t9>
+	<background_f9_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_9_10</text>
+	</background_f9_t10>
+	<background_f9_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_9_11</text>
+	</background_f9_t11>
+	<background_f9_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_9_12</text>
+	</background_f9_t12>
+	<background_35 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_9</text>
+	</background_35>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 10*************** -->
+	<background_f10_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_10_1</text>
+	</background_f10_t1>
+	<background_f10_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_10_2</text>
+	</background_f10_t2>
+	<background_f10_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_10_3</text>
+	</background_f10_t3>
+	<background_f10_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_10_4</text>
+	</background_f10_t4>
+	<background_f10_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_10_5</text>
+	</background_f10_t5>
+	<background_f10_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_10_6</text>
+	</background_f10_t6>
+	<background_f10_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_10_7</text>
+	</background_f10_t7>
+	<background_f10_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_10_8</text>
+	</background_f10_t8>
+	<background_f10_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_10_9</text>
+	</background_f10_t9>
+	<background_f10_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_10_10</text>
+	</background_f10_t10>
+	<background_f10_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_10_11</text>
+	</background_f10_t11>
+	<background_f10_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_10_12</text>
+	</background_f10_t12>
+	<background_36 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_10</text>
+	</background_36>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 11*************** -->
+	<background_f11_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_11_1</text>
+	</background_f11_t1>
+	<background_f11_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_11_2</text>
+	</background_f11_t2>
+	<background_f11_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_11_3</text>
+	</background_f11_t3>
+	<background_f11_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_11_4</text>
+	</background_f11_t4>
+	<background_f11_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_11_5</text>
+	</background_f11_t5>
+	<background_f11_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_11_6</text>
+	</background_f11_t6>
+	<background_f11_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_11_7</text>
+	</background_f11_t7>
+	<background_f11_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_11_8</text>
+	</background_f11_t8>
+	<background_f11_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_11_9</text>
+	</background_f11_t9>
+	<background_f11_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_11_10</text>
+	</background_f11_t10>
+	<background_f11_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_11_11</text>
+	</background_f11_t11>
+	<background_f11_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_11_12</text>
+	</background_f11_t12>
+	<background_37 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_11</text>
+	</background_37>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 12*************** -->
+	<background_f12_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_12_1</text>
+	</background_f12_t1>
+	<background_f12_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_12_2</text>
+	</background_f12_t2>
+	<background_f12_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_12_3</text>
+	</background_f12_t3>
+	<background_f12_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_12_4</text>
+	</background_f12_t4>
+	<background_f12_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_12_5</text>
+	</background_f12_t5>
+	<background_f12_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_12_6</text>
+	</background_f12_t6>
+	<background_f12_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_12_7</text>
+	</background_f12_t7>
+	<background_f12_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_12_8</text>
+	</background_f12_t8>
+	<background_f12_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_12_9</text>
+	</background_f12_t9>
+	<background_f12_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_12_10</text>
+	</background_f12_t10>
+	<background_f12_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_12_11</text>
+	</background_f12_t11>
+	<background_f12_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_12_12</text>
+	</background_f12_t12>
+	<background_38 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_12</text>
+	</background_38>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 13*************** -->
+	<background_f13_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_13_1</text>
+	</background_f13_t1>
+	<background_f13_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_13_2</text>
+	</background_f13_t2>
+	<background_f13_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_13_3</text>
+	</background_f13_t3>
+	<background_f13_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_13_4</text>
+	</background_f13_t4>
+	<background_f13_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_13_5</text>
+	</background_f13_t5>
+	<background_f13_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_13_6</text>
+	</background_f13_t6>
+	<background_f13_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_13_7</text>
+	</background_f13_t7>
+	<background_f13_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_13_8</text>
+	</background_f13_t8>
+	<background_f13_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_13_9</text>
+	</background_f13_t9>
+	<background_f13_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_13_10</text>
+	</background_f13_t10>
+	<background_f13_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_13_11</text>
+	</background_f13_t11>
+	<background_f13_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_13_12</text>
+	</background_f13_t12>
+	<background_39 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_13</text>
+	</background_39>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 14*************** -->
+	<background_f14_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_14_1</text>
+	</background_f14_t1>
+	<background_f14_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_14_2</text>
+	</background_f14_t2>
+	<background_f14_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_14_3</text>
+	</background_f14_t3>
+	<background_f14_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_14_4</text>
+	</background_f14_t4>
+	<background_f14_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_14_5</text>
+	</background_f14_t5>
+	<background_f14_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_14_6</text>
+	</background_f14_t6>
+	<background_f14_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_14_7</text>
+	</background_f14_t7>
+	<background_f14_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_14_8</text>
+	</background_f14_t8>
+	<background_f14_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_14_9</text>
+	</background_f14_t9>
+	<background_f14_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_14_10</text>
+	</background_f14_t10>
+	<background_f14_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_14_11</text>
+	</background_f14_t11>
+	<background_f14_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_14_12</text>
+	</background_f14_t12>
+	<background_40 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_14</text>
+	</background_40>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 15*************** -->
+	<background_f15_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_15_1</text>
+	</background_f15_t1>
+	<background_f15_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_15_2</text>
+	</background_f15_t2>
+	<background_f15_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_15_3</text>
+	</background_f15_t3>
+	<background_f15_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_15_4</text>
+	</background_f15_t4>
+	<background_f15_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_15_5</text>
+	</background_f15_t5>
+	<background_f15_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_15_6</text>
+	</background_f15_t6>
+	<background_f15_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_15_7</text>
+	</background_f15_t7>
+	<background_f15_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_15_8</text>
+	</background_f15_t8>
+	<background_f15_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_15_9</text>
+	</background_f15_t9>
+	<background_f15_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_15_10</text>
+	</background_f15_t10>
+	<background_f15_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_15_11</text>
+	</background_f15_t11>
+	<background_f15_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_15_12</text>
+	</background_f15_t12>
+	<background_43 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_15</text>
+	</background_43>
+	<!-- *************** Vergas signature buttons music files in the flash drive slot 16*************** -->
+	<background_f16_t1 x="180" y="157" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_16_1</text>
+	</background_f16_t1>
+	<background_f16_t2 x="180" y="178" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_16_2</text>
+	</background_f16_t2>
+	<background_f16_t3 x="180" y="199" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_16_3</text>
+	</background_f16_t3>
+	<background_f16_t4 x="180" y="220" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_16_4</text>
+	</background_f16_t4>
+	<background_f16_t5 x="180" y="241" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_16_5</text>
+	</background_f16_t5>
+	<background_f16_t6 x="180" y="262" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_16_6</text>
+	</background_f16_t6>
+	<background_f16_t7 x="180" y="283" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_16_7</text>
+	</background_f16_t7>
+	<background_f16_t8 x="180" y="304" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_16_8</text>
+	</background_f16_t8>
+	<background_f16_t9 x="180" y="325" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_16_9</text>
+	</background_f16_t9>
+	<background_f16_t10 x="180" y="346" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_16_10</text>
+	</background_f16_t10>
+	<background_f16_t11 x="180" y="367" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_16_11</text>
+	</background_f16_t11>
+	<background_f16_t12 x="180" y="388" width="100" height="20" stretch="1">
+		<text font="letterica16" r="162" g="181" b="205" a="255">ogg_title_16_12</text>
+	</background_f16_t12>
+	<background_44 x="456" y="326" width="50" height="35">
+		<text font="letterica18" r="162" g="181" b="205" a="255" align="l">ogg_flash_title_16</text>
+	</background_44>
+	<!-- *************** ******************** radio stations *********************************** -->
+	<background_btn_1 x="478" y="154" width="100" height="18" stretch="1">
+		<text font="letterica16" r="155" g="205" b="155" a="255" align="l">mp3_radio_1</text>
+	</background_btn_1>
+	<background_btn_2 x="478" y="172" width="100" height="18" stretch="1">
+		<text font="letterica16" r="155" g="205" b="155" a="255" align="l">mp3_radio_2</text>
+	</background_btn_2>
+	<background_btn_3 x="478" y="190" width="100" height="18" stretch="1">
+		<text font="letterica16" r="155" g="205" b="155" a="255" align="l">mp3_radio_3</text>
+	</background_btn_3>
+	<background_btn_4 x="478" y="208" width="100" height="18" stretch="1">
+		<text font="letterica16" r="155" g="205" b="155" a="255" align="l">mp3_radio_4</text>
+	</background_btn_4>
+	<background_btn_5 x="478" y="226" width="100" height="18" stretch="1">
+		<text font="letterica16" r="155" g="205" b="155" a="255" align="l">mp3_radio_5</text>
+	</background_btn_5>
+	<background_btn_6 x="478" y="244" width="100" height="18" stretch="1">
+		<text font="letterica16" r="155" g="205" b="155" a="255" align="l">mp3_radio_6</text>
+	</background_btn_6>
+	<background_btn_7 x="478" y="262" width="100" height="18" stretch="1">
+		<text font="letterica16" r="155" g="205" b="155" a="255" align="l">mp3_radio_7</text>
+	</background_btn_7>
+</cheat>

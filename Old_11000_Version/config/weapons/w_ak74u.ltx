@@ -1,0 +1,168 @@
+;;;; TB3D 1.0.9.9.9.8 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+; Автомат системы Калашникова АКС-74У. Новая анимация. Автор не известен.
+[wpn_ak74u]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn              	= "weapons\ak-74u"	
+$npc					= on				
+$prefetch 				= 8
+scheduled				= off               
+cform               	= skeleton
+class               	= WP_LR300			
+min_radius          	= 0				
+max_radius          	= 800				
+description				= enc_weapons1_wpn-ak74u
+	
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+holder_range_modifier	= 1.0		   
+holder_fov_modifier		= 0.7    
+
+cost					= 1000				
+weapon_class			= assault_rifle		
+ammo_limit				= 210				
+ammo_elapsed			= 30				
+	
+ammo_mag_size			= 46
+fire_modes				= 1, -1
+ammo_class				= ammo_5.45x39_fmj, ammo_5.45x39_ap, ammo_5.45x39_izomorf 
+
+hand_dependence			= 1									
+single_handed			= 0
+slot 					= 2								
+animation_slot			= 2									
+
+inv_name	        = wpn-ak74u								
+inv_name_short		= wpn-ak74u	
+inv_weight			= 2.7							
+
+inv_grid_width			= 4	 
+inv_grid_height			= 2	   
+inv_grid_x				= 0  
+inv_grid_y				= 16
+
+kill_msg_x			= 0
+kill_msg_y			= 123
+kill_msg_width		= 69
+kill_msg_height		= 30
+
+;params of weapon recoil
+fire_dispersion_base			= 0.012		
+control_inertion_factor			= 1.09f
+
+;отдача
+cam_relax_speed         	= 6	
+cam_dispersion          	= 0.3		;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc			= 0.20		;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac			= 0.9		;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle				= 9.0		;максимальный угол отдачи
+cam_max_angle_horz			= 30.0		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 1.25	    ;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5    ;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.003	    ;вероятность осечки при максимальном износе 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.0001	;увеличение износа при каждом выстреле
+
+fire_point             		= 0.0, 0.262, 0.447				
+flame_particles				= weapons\generic_weapon05	
+smoke_particles				= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
+	
+shell_point		 			= 0.00, 0.262, 0.189			
+shell_particles	 			= weapons\generic_shells	
+
+PDM_disp_base 				= 1.0
+PDM_disp_vel_factor 		= 0.95
+PDM_disp_accel_factor 		= 0.95
+PDM_crouch	 			    = 1.0
+PDM_crouch_no_acc 			= 1.0
+
+hit_power               = 2.19
+hit_impulse		 		= 140			
+hit_type 				= fire_wound 	
+fire_distance           = 600			;;;109974 10:1
+bullet_speed		    = 790		
+rpm                     = 600		
+
+use_aim_bullet				= true		
+time_to_aim					= 1.0	
+
+
+hud                      	= wpn_ak74u_hud				
+position         	        = -0.026,-0.215,0			
+orientation      	        = 0,0,0						
+
+strap_position         		= -0.18,-0.45,0.2			
+strap_orientation      		= -10,-5,10					
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+visual         		        = weapons\ak-74u\ak74u.ogf
+
+light_color					= 0.6,0.5,0.3			
+light_range					= 5						
+light_var_color				= 0.05						
+light_var_range				= 0.5
+light_time 					= 0.2						
+ph_mass						= 5						
+
+scope_status				= 0					
+silencer_status				= 2						
+grenade_launcher_status		= 0						
+
+zoom_enabled				= true
+scope_zoom_factor	    	= 90						
+
+silencer_name  			= wpn_addon_silencer
+silencer_x 				= 169							
+silencer_y 				= 10					
+
+snd_draw					= weapons\ak74u\draw
+snd_holster					= weapons\ak74u\holster
+snd_shoot					= weapons\ak74u\shot_0
+snd_shoot1					= weapons\ak74u\shot_1
+snd_shoot2					= weapons\ak74u\shot_2
+snd_shoot3					= weapons\ak74u\shot_3
+snd_empty					= weapons\ak74u\empty, 0.5
+snd_reload					= weapons\ak74u\ak74u_reload, 0.6, 0.35
+
+snd_shoot_grenade		    = weapons\ak74u\grenshoot
+snd_reload_grenade			= weapons\ak74u\grenload, 1.0, 0.8
+snd_switch					= weapons\ak74u\switch, 1.0, 0.5
+snd_silncer_shot			= weapons\ak74u\Sil_shot 
+
+
+silencer_smoke_particles 	= weapons\generic_shoot_00
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+ 
+[wpn_ak74u_hud]
+shell_point     	   	 	= -0.081, 0.0107, -0.0525 
+shell_dir			     	= 0.0, 1.0, 0.0
+fire_point				    = -0, 0.1, 0.0483  
+fire_point2              	= -0, 0.1, 0.0483  
+fire_bone               	= wpn_body
+
+orientation             	= -180,0,0		
+position                	= 0.125, -0.019, 0.254
+visual                  	= weapons\ak-74u\wpn_ak74u_hud.ogf
+
+anim_idle					= idle
+anim_idle_aim				= idle_aim
+anim_reload					= reload
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= shoot
+anim_idle_sprint			= idle_sprint
+
+zoom_offset			= -0.125, 0.019, -0.115000
+zoom_rotate_x		= 0
+zoom_rotate_y		= 0
+zoom_hide_crosshair	= true
+
+[wpn_ak74u_tactik]:wpn_ak74u			;;109986, pred trader
+silencer_status		= 1

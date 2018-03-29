@@ -1,0 +1,528 @@
+<!-- *** TB3D 1.0.9.9.9.6 , controller vice comptroller, return to "task" text from "task_pda_name" text - aleks1970, removed '-' *** -->
+<article id="tex_take_arhara" name="Find_Minigun_Adrenalin_pda_name" article_type="task">
+	<text>tex_take_arhara</text>
+</article>
+<article id="tex_baty_zadan" name="Find_military_subject_pda_name" article_type="task">
+	<text>tex_baty_zadan</text>
+</article>
+<article id="tex_arhara_ekza" name="Find_Camouflage_Exoskeleton_pda_name" article_type="task">
+	<text>tex_arhara_ekza</text>
+</article>
+<article id="tex_take_shurup" name="Find_vise_Screw_pda_name" article_type="task">
+	<texture x="705" y="240" width="335" height="240">ui\ui_arhara</texture>
+	<text>tex_take_shurup</text>
+</article>
+<article id="tex_take_chaes_ugrum" name="Discover_Antizombin_pda_name" article_type="task">
+	<text>tex_take_chaes_ugrum</text>
+</article>
+<article id="tex_take_mozg" name="Get_controller_brain_Lukas_pda_name" article_type="task">
+	<texture x="0" y="0" width="365" height="240">ui\ui_arhara</texture>
+	<text>tex_take_mozg</text>
+</article>
+<article id="tex_take_disk" name="Find_disk_for_Adrenalin_pda_name" article_type="task">
+	<texture x="0" y="240" width="225" height="165">ui\ui_arhara</texture>
+	<text>tex_take_disk</text>
+</article>
+<article id="enc_atp_way_kordon" name="With_ATP_Cordon_pda_name" group="enc_ways">
+	<texture x="365" y="0" width="340" height="240">ui\ui_arhara</texture>
+	<text>enc_atp_way_kordon_text</text>
+</article>
+<article id="enc_atp_way_military" name="With_ATP_Army_Warehouses_pda_name" group="enc_ways">
+	<texture x="705" y="0" width="340" height="236">ui\ui_arhara</texture>
+	<text>enc_atp_way_military_text</text>
+</article>
+<article id="tex_take_sumka" name="Locate_bag_south_Chernobyl_pda_name" article_type="task">
+	<texture x="705" y="480" width="340" height="240">ui\ui_arhara</texture>
+	<text>tex_take_sumka</text>
+</article>
+<article id="enc_atp_way_pripyt" name="With_ATP_Pripyat_pda_name" group="enc_ways">
+	<texture x="225" y="240" width="390" height="240">ui\ui_arhara</texture>
+	<text>enc_atp_way_pripyt_text</text>
+</article>
+<article id="tex_take_arhara_doctor" name="Find_the_Bolotny_Locket_pda_name" article_type="task">
+	<text>tex_take_arhara_doctor</text>
+</article>
+<!-- *************** AR *************** -->
+<article id="enc_artmod_gusenica" name="af_caterpillar" group="enc_recipts">
+	<ltx>af_caterpillar</ltx>
+	<text>enc_zone_artifact_af_caterpillar_d</text>
+</article>
+<article id="enc_artmod_probabka_burera" name="af_babka_4" group="enc_recipts">
+	<ltx>af_babka_4</ltx>
+	<text>enc_zone_artifact_af_babka_4_d</text>
+</article>
+<article id="enc_artmod_rudiment_small" name="Mutated_vestige_sternum_pda_name" group="enc_recipts">
+	<ltx>rudiment_big</ltx>
+	<text>enc_zone_rudiment_small_d</text>
+</article>
+<!-- New mutants 110015 - aleks1970 -->
+<article id="enc_medwed_paw" name="name_dried_bear_paw" group="enc_recipts">
+	<ltx>mutant_medwed_dry_paw</ltx>
+	<text>enc_zone_medwed_paw_d</text>
+</article>
+<article id="tex_vorona_povar_naiti" name="Find_crow_eggs_cook_pda_name" article_type="task">
+	<text>tex_vorona_povar_naiti</text>
+</article>
+<article id="tex_lekarstvo_bandita" name="Bring_medicine_Akim_pda_name" article_type="task">
+	<text>tex_lekarstvo_bandita</text>
+</article>
+<article id="tex_shaxter_fonarik" name="Find_flashlights_Miner_pda_name" article_type="task">
+	<text>tex_shaxter_fonarik</text>
+</article>
+<article id="tex_akim_kubik" name="Get_Rubic_cube_pda_name" article_type="task">
+	<text>tex_akim_kubik</text>
+</article>
+<article id="tex_shaxter_kniga" name="Find_Miner_father_book_pda_name" article_type="task">
+	<text>tex_shaxter_kniga</text>
+</article>
+<article id="tex_lysyi_klad" name="Find_Bald_Treasure_Cave_pda_name" article_type="task">
+	<text>tex_lysyi_klad</text>
+</article>
+<article id="tex_arx_strelok" name="Scalp_Controller_artifact_Miner_pda_name" article_type="task">
+	<text>tex_arx_strelok</text>
+</article>
+<article id="tex_take_zombie" name="Akim_bring_hands_zombie_pda_name" article_type="task">
+	<text>tex_take_zombie</text>
+</article>
+<article id="tex_take_doc1" name="Find_documents_for_Mayor_pda_name" article_type="task">
+	<text>tex_take_doc1</text>
+</article>
+<article id="tex_take_doc2" name="Find_the_second part_documents_pda_name" article_type="task">
+	<text>tex_take_doc2</text>
+</article>
+<article id="tex_take_doc3" name="Find_four_papers_X_18_pda_name" article_type="task">
+	<text>tex_take_doc3</text>
+</article>
+<article id="tex_take_doc4" name="Find_bronizhileta_note_PDA_X_16_pda_name" article_type="task">
+	<text>tex_take_doc4</text>
+</article>
+<article id="tex_take_doc5" name="Get_one_all_famous_monsters_pda_name" article_type="task">
+	<text>tex_take_doc5</text>
+</article>
+<article id="tex_take_qeast" name="Get_fifteen_artifacts_Cross_pda_name" article_type="task">
+	<text>tex_take_qeast</text>
+</article>
+<article id="tex_take_qeast_bizon" name="Get_six_Anomalous_buffalo_pda_name" article_type="task">
+	<text>tex_take_qeast_bizon</text>
+</article>
+<article id="tex_take_teleporter" name="Find_bring_teleporter_pda_name" article_type="task">
+	<text>tex_take_teleporter</text>
+</article>
+<article id="tex_petrenko_flyga" name="Find_flask_Petrenko_pda_name" article_type="task">
+	<text>tex_petrenko_flyga</text>
+</article>
+<article id="tex_dolgovyzui" name="Find_Products_artifacts_money_pda_name" article_type="task">
+	<text>tex_dolgovyzui</text>
+</article>
+<article id="tex_voronin_termos" name="Get_thermoses_Voronin_pda_name" article_type="task">
+	<texture x="667" y="733" width="356" height="279">ui\ui_arhara</texture>
+	<text>tex_voronin_termos</text>
+</article>
+<article id="tex_garik_vopros" name="Cigarettes_Garik_pda_name" article_type="task">
+	<text>tex_garik_vopros</text>
+</article>
+<article id="tex_petr_sidor" name="Find_two_kits_Sidorovich_pda_name" article_type="task">
+	<text>tex_petr_sidor</text>
+</article>
+<article id="tex_voronin_stol" name="Find_computer_videorecorder_pda_name" article_type="task">
+	<text>tex_voronin_stol</text>
+</article>
+<article id="tex_sahar_ekolog" name="Meet_environmentalists_pick_phone_pda_name" article_type="task">
+	<text>tex_sahar_ekolog</text>
+</article>
+<article id="tex_naemn_shturm" name="Repel_attack_destroy_Humpback_pda_name" article_type="task">
+	<text>tex_naemn_shturm</text>
+</article>
+<article id="tex_voronin_infa" name="Get_Storm_protect_Bar_pda_name" article_type="task">
+	<text>tex_voronin_infa</text>
+</article>
+<article id="tex_kalinin_atp" name="Help_stalkers_kill_leader_bandits_pda_name" article_type="task">
+	<text>tex_kalinin_atp</text>
+</article>
+<article id="tex_gonets_atp" name="Meet_courier_pick_information_pda_name" article_type="task">
+	<text>tex_gonets_atp</text>
+</article>
+<article id="tex_kalinin_btr" name="Get_sniper_AWP_Iglomet_pda_name" article_type="task">
+	<text>tex_kalinin_btr</text>
+</article>
+<article id="tex_btr_ataka" name="Destroy_Armored_Special_Forces_pda_name" article_type="task">
+	<text>tex_btr_ataka</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_peshera_cvalka" name="From_Caves_Dump_pda_name">
+	<text>ways_info_way_arhara_peshera_cvalka_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_peshera_agro" name="From_Caves_Agroprom_pda_name">
+	<text>ways_info_way_arhara_peshera_agro_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_cvalka_peshera" name="From_landfill_Cave_pda_name">
+	<text>ways_info_way_arhara_cvalka_peshera_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_agro_peshera" name="With_agricultural_industry_Cave_pda_name">
+	<text>info_way_arhara_agro_peshera_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_td_les" name="From_Dark_Valley_Forgotten_Forest_pda_name">
+	<text>info_way_arhara_td_les_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_labirint_peshera" name="Of_maze_Cave_pda_name">
+	<text>info_way_arhara_labirint_peshera_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_peshera_labirint" name="From_caves_Labyrinth_pda_name">
+	<text>info_way_arhara_peshera_labirint_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_labirint_yantar" name="From_Labyrinth_Amber_pda_name">
+	<text>info_way_arhara_labirint_yantar_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_labirint_earth" name="Of_maze_Undiscovered_Land_pda_name">
+	<text>info_way_arhara_labirint_earth_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_yantar_labirint" name="From_Amber_Labyrinth_pda_name">
+	<text>info_way_arhara_yantar_labirint_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_atp_pripyat" name="With_ATP_Pripyat_pda_name">
+	<texture x="225" y="240" width="390" height="240">ui\ui_arhara</texture>
+	<text>info_way_arhara_atp_pripyat_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_atp_military" name="With_ATP_Army_Warehouses_pda_name">
+	<text>info_way_arhara_atp_military_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_atp_kordon" name="With_ATP_Cordon_pda_name">
+	<text>info_way_arhara_atp_kordon_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_atp_svalka" name="With_ATP_Garbage_pda_name">
+	<text>info_way_arhara_atp_svalka_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_military_earth" name="From_warehouse_Undiscovered_Land_pda_name">
+	<text>info_way_arhara_military_earth_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_td_earth" name="From_Valley_Undiscovered_Land_pda_name">
+	<text>info_way_arhara_td_earth_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_svalka_earth" name="From_landfill_Undiscovered_Land_pda_name">
+	<text>info_way_arhara_svalka_earth_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_earth_labirint" name="From_unexplored_Earth_Labyrinth_pda_name">
+	<text>info_way_arhara_earth_labirint_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_radar_warlab" name="With_radar_military_lab_pda_name">
+	<text>info_way_arhara_radar_warlab_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_warlab_brainlab" name="From_military_lab_X_16_pda_name">
+	<text>info_way_arhara_warlab_brainlab_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_warlab_skladu" name="From_military_lab_Army_Warehouses_pda_name">
+	<text>info_way_arhara_warlab_skladu_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_x18_warlab" name="From_X_18_military_lab_pda_name">
+	<text>info_way_arhara_x18_warlab_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_kordon_boloto" name="The_cordon_Marsh_pda_name">
+	<text>info_way_arhara_kordon_boloto_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_radar_forest" name="With_radar_Red_Forest_Limansk_pda_name">
+	<text>info_way_arhara_radar_forest_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_chaes2_atp" name="From_north_Chernobyl_ATP_pda_name">
+	<texture x="300" y="485" width="390" height="240">ui\ui_arhara</texture>
+	<text>info_way_arhara_chaes2_atp_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_pripyt_village" name="From_Pripyat_old_village_pda_name">
+	<text>info_way_arhara_pripyt_village_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_village_limansk" name="From_Old_Village_Limansk_pda_name">
+	<text>info_way_arhara_village_limansk_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_village_hospital" name="From_Old_Village_Hospital_pda_name">
+	<text>info_way_arhara_village_hospital_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_chaes_generator" name="From_south_Chernobyl_NPP_generator_pda_name">
+	<text>info_way_arhara_chaes_generator_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_hospital_agroprom" name="From_hospital_Agroprom_pda_name">
+	<text>info_way_arhara_hospital_agroprom_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_agroprom_marsh1" name="With_agricultural_industry_Bogs_pda_name">
+	<text>info_way_arhara_agroprom_marsh1_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_bar_atp" name="The_bar_ATP_pda_name">
+	<text>info_way_arhara_bar_atp_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_gener_pripyat" name="With_generator_Pripyat_pda_name">
+	<text>info_way_arhara_gener_pripyat_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_chaes2_chaes" name="From_north_south_Chernobyl_NPP_pda_name">
+	<text>info_way_arhara_chaes2_chaes_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_gener_hospital" name="With_generator_hospital_pda_name">
+	<text>info_way_arhara_gener_hospital_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_warlab_generators" name="From_military_lab_Generators_pda_name">
+	<text>info_way_arhara_warlab_generators_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_limansk_generators" name="From_Limanskaya_Generators_pda_name">
+	<text>info_way_arhara_limansk_generators_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_forest_warlab" name="From_Red_Forest_military_lab_pda_name">
+	<text>info_way_arhara_forest_warlab_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_dcity_limansk" name="Dead_Cities_Limansk_pda_name">
+	<text>info_way_arhara_dcity_limansk_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_dead_city_atp" name="Dead_Cities_ATP_pda_name">
+	<text>info_way_arhara_dead_city_atp_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_dcity_rostok" name="Dead_GRODA_Wild_Territory_pda_name">
+	<text>info_way_arhara_dcity_rostok_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_atp_dead_city" name="With_ATP_Dead_City_pda_name">
+	<text>info_way_arhara_atp_dead_city_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_dcity_zaton" name="Dead_Cities_Zaton_pda_name">
+	<text>info_way_arhara_dcity_zaton_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_arhara_lima_dcity" name="From_Limanskaya_Dead_City_pda_name">
+	<text>info_way_arhara_lima_dcity_text</text>
+</article>
+<article article_type="journal" group="enc_ways" id="ways_info_way_bar_wild_territory" name="From_Bar_Rostok_Wild_Territory_Rostok_pda_name">
+	<text>info_way_bar_wild_territory_text</text>
+</article>
+<article id="tex_shax_plennik" name="Release_prisoner_bring_notebook_pda_name" article_type="task">
+	<text>tex_shax_plennik</text>
+</article>
+<!-- *************** AR *************** -->
+<article id="enc_artmod_globus" name="af_arhara_globus" group="enc_recipts">
+	<ltx>af_arhara_globus</ltx>
+	<text>enc_zone_artifact_af_arhara_globus_d</text>
+</article>
+<article id="tex_fima_mulo" name="Find_Fima_ordered_items_pda_name" article_type="task">
+	<text>tex_fima_mulo</text>
+</article>
+<article id="tex_adr_shkatulka" name="Find_box_Labyrinth_pda_name" article_type="task">
+	<text>tex_adr_shkatulka</text>
+</article>
+<article id="tex_tretiy_kod" name="Find_the_safe_pda_name" article_type="task">
+	<text>tex_tretiy_kod</text>
+</article>
+<article id="tex_sidor_amulet" name="Bring_Sidorychev_remyaschika_return_amulet_pda_name" article_type="task">
+	<text>tex_sidor_amulet</text>
+</article>
+<article id="tex_otshelnik_yzik" name="Find_bring_Hermit_Box_pda_name" article_type="task">
+	<text>tex_otshelnik_yzik</text>
+</article>
+<article id="tex_ginekolog_lekarstvo" name="Find_bring_gynecologist_medicines_pda_name" article_type="task">
+	<text>tex_ginekolog_lekarstvo</text>
+</article>
+<article id="tex_jora_accumul_seif" name="Find_Zhorik_batteries_pda_name" article_type="task">
+	<text>tex_jora_accumul_seif</text>
+</article>
+<article id="tex_starik_zadanie" name="The_old_man_took_out_watch_pda_name" article_type="task">
+	<text>tex_starik_zadanie</text>
+</article>
+<article id="tex_piligrim_britva" name="Find_Cache_Pilgrim_pda_name" article_type="task">
+	<text>tex_piligrim_britva</text>
+</article>
+<article id="tex_otsh_pda" name="The_Ultra_Detector_Adrenalin_pda_name" article_type="task">
+	<text>tex_otsh_pda</text>
+</article>
+<article id="tex_golo_detektor" name="Find_Elite_Detectors_pda_name" article_type="task">
+	<text>tex_golo_detektor</text>
+</article>
+<article id="tex_medik_pribor_1" name="Learn_about_drawings_pda_name" article_type="task">
+	<text>tex_medik_pribor_1</text>
+</article>
+<article id="tex_akkum_and_mikposx" name="Find_Equipment_Professor_pda_name" article_type="task">
+	<text>tex_akkum_and_mikposx</text>
+</article>
+<article id="tex_chimaera_zadan" name="Cut_off_head_Sidorovich_pda_name" article_type="task">
+	<text>tex_chimaera_zadan</text>
+</article>
+<article id="tex_land_oxot" name="Get_corpse_Controller_pda_name" article_type="task">
+	<text>tex_land_oxot</text>
+</article>
+<article id="tex_ginek_vlip" name="Get_flask_with_solution_pda_name" article_type="task">
+	<text>tex_ginek_vlip</text>
+</article>
+<article id="tex_vuxod_atp" name="Find_artifacts_Kalinin_pda_name" article_type="task">
+	<text>tex_vuxod_atp</text>
+</article>
+<article id="tex_kluk_vstrecha" name="Reconoiter_military_lab_pda_name" article_type="task">
+	<text>tex_kluk_vstrecha</text>
+</article>
+<article id="tex_lukash_pechatka" name="Return_seal_Lukas_pda_name" article_type="task">
+	<text>tex_lukash_pechatka</text>
+</article>
+<article id="tex_body_pantera" name="Get_Pseudodog_things_Dembele_pda_name" article_type="task">
+	<text>tex_body_pantera</text>
+</article>
+<article id="tex_pantera_fone" name="Radio_gear_Panther_pda_name" article_type="task">
+	<text>tex_pantera_fone</text>
+</article>
+<article id="tex_pant_zadan" name="Find_drive_Panther_pda_name" article_type="task">
+	<texture x="221" y="735" width="444" height="289">ui\ui_arhara</texture>
+	<text>tex_pant_zadan</text>
+</article>
+<article id="tex_p_z_tri" name="Find_backpack_Panther_pda_name" article_type="task">
+	<text>tex_p_z_tri</text>
+</article>
+<article id="tex_gologr" name="Accompany_Hologram_Unexplored_Earth_pda_name" article_type="task">
+	<text>tex_gologr</text>
+</article>
+<article id="tex_klenov_gol" name="Bring_the_hologram_Klenow_pda_name" article_type="task">
+	<text>tex_klenov_gol</text>
+</article>
+<article id="tex_klenov_vse" name="Make_Klenov_artifact_Maples_pda_name" article_type="task">
+	<text>tex_klenov_vse</text>
+</article>
+<article id="tex_vitamin_reyd" name="Raid_on_Varlab_pda_name" article_type="task">
+	<text>tex_vitamin_reyd</text>
+</article>
+<article id="tex_esc_razvod" name="Repay_debt_Sidorovich_pda_name" article_type="task">
+	<text>tex_esc_razvod</text>
+</article>
+<article id="tex_za_bablom" name="Collect_interest_for_service_pda_name" article_type="task">
+	<text>tex_za_bablom</text>
+</article>
+<article id="tex_kolmogor_say" name="Find_brother_Kolmogorov_pda_name" article_type="task">
+	<text>tex_kolmogor_say</text>
+</article>
+<article id="tex_sestra_start" name="Find_sister_Kolmogorov_pda_name" article_type="task">
+	<text>tex_sestra_start</text>
+</article>
+<article id="tex_village_shtab" name="Help_capture_headquarters_pda_name" article_type="task">
+	<text>tex_village_shtab</text>
+</article>
+<article id="tex_kolm_obsledov" name="Explore_the_village_pda_name" article_type="task">
+	<text>tex_kolm_obsledov</text>
+</article>
+<article id="tex_derevny_zashita" name="Repel_punitive_pda_name" article_type="task">
+	<text>tex_derevny_zashita</text>
+</article>
+<article id="tex_klenov_antena" name="Get_psi_antenna_pda_name" article_type="task">
+	<text>tex_klenov_antena</text>
+</article>
+<article id="tex_boloto_provod" name="Exploration_on_farm_pda_name" article_type="task">
+	<text>tex_boloto_provod</text>
+</article>
+<article id="tex_zemlyk_zadanie1" name="Locate_destroy_helicopter_pda_name" article_type="task">
+	<text>tex_zemlyk_zadanie1</text>
+</article>
+<article id="tex_black_dok_gener" name="Find_Boatswain_pda_name" article_type="task">
+	<text>tex_black_dok_gener</text>
+</article>
+<article id="tex_udav_poshli" name="Bring_Boatswain_Helicopter_pda_name" article_type="task">
+	<text>tex_udav_poshli</text>
+</article>
+<article id="tex_ander_joystik" name="Find_PSP_Andersen_pda_name" article_type="task">
+	<texture x="0" y="0" width="411" height="395">ui\ui_arhara_1</texture>
+	<text>tex_ander_joystik</text>
+</article>
+<article id="tex_udav_pabota" name="Turn_off_psi_antenna_pda_name" article_type="task">
+	<text>tex_udav_pabota</text>
+</article>
+<article id="tex_priz_shturm" name="Save_Panther_pda_name" article_type="task">
+	<text>tex_priz_shturm</text>
+</article>
+<article id="tex_black_vstrecha" name="Collect_information_pda_name" article_type="task">
+	<text>tex_black_vstrecha</text>
+</article>
+<article id="tex_peshera_nz" name="Find_secret_cave_pda_name" article_type="task">
+	<text>tex_peshera_nz</text>
+</article>
+<article id="tex_kl_na_walk" name="Collect_artifacts_from_Klenow_pda_name" article_type="task">
+	<text>tex_kl_na_walk</text>
+</article>
+<article id="tex_muha_kukl" name="Find_old_doll_pda_name" article_type="task">
+	<text>tex_muha_kukl</text>
+</article>
+<article id="tex_voronin_samopisez" name="Find_black_box_pda_name" article_type="task">
+	<texture x="0" y="394" width="411" height="321">ui\ui_arhara_1</texture>
+	<text>tex_voronin_samopisez</text>
+</article>
+<article id="tex_vkluchit_generator" name="Run_third_generator_pda_name" article_type="task">
+	<text>tex_vkluchit_generator</text>
+</article>
+<article id="tex_solv_say" name="Disable_generator_jammers_pda_name" article_type="task">
+	<text>tex_solv_say</text>
+</article>
+<article id="tex_kluk_ch2" name="Take_position_north_Chernobyl_pda_name" article_type="task">
+	<text>tex_kluk_ch2</text>
+</article>
+<article id="tex_neud_pomozch" name="Back_help_Fang_pda_name" article_type="task">
+	<text>tex_neud_pomozch</text>
+</article>
+<article id="tex_podval_sarkofag" name="Locate_lightning_pda_name" article_type="task">
+	<texture x="413" y="330" width="279" height="328">ui\ui_arhara_1</texture>
+	<text>tex_podval_sarkofag</text>
+</article>
+<article id="tex_podval_lima" name="Find_fellow_Lightning_pda_name" article_type="task">
+	<!-- ***************<texture x="412" y="0" width="279" height="328">ui\ui_arhara_1</texture>*************** -->
+	<texture x="0" y="717" width="364" height="307">ui\ui_arhara_1</texture>
+	<text>tex_podval_lima</text>
+</article>
+<article id="tex_odnonog_first" name="Find_teleport_pda_name" article_type="task">
+	<text>tex_odnonog_first</text>
+</article>
+<article id="tex_odnonog_foto" name="Take_a_picture_pda_name" article_type="task">
+	<text>tex_odnonog_foto</text>
+</article>
+<article id="tex_mesto_v_bunkere" name="View_Cache_pda_name" article_type="task">
+	<texture x="366" y="717" width="364" height="307">ui\ui_arhara_1</texture>
+	<text>tex_mesto_v_bunkere</text>
+</article>
+<article id="tex_radist_zhiv" name="Save_life_radio_operator_pda_name" article_type="task">
+	<text>tex_radist_zhiv</text>
+</article>
+<article id="tex_taynik_radista" name="Find_caches_radioman_pda_name" article_type="task">
+	<text>tex_taynik_radista</text>
+</article>
+<article id="tex_otkrut_seif_sadik" name="Open_safe_let_die_radio_operator_pda_name" article_type="task">
+	<text>tex_otkrut_seif_sadik</text>
+</article>
+<article id="tex_lesnik_say" name="Locate_and_destroy_sniper_pda_name" article_type="task">
+	<text>tex_lesnik_say</text>
+</article>
+<article id="tex_izomorf_dial" name="Make_two_photos_pda_name" article_type="task">
+	<text>tex_izomorf_dial</text>
+</article>
+<article id="tex_kuzy_artmodifik" name="Get_Case_Kuznetsov_pda_name" article_type="task">
+	<texture x="0" y="0" width="349" height="258">ui\ui_arhara_2</texture>
+	<text>tex_kuzy_artmodifik</text>
+</article>
+<article id="tex_dovesti_muzhika" name="Withdraw_from_plant_Chernomor_pda_name" article_type="task">
+	<text>tex_dovesti_muzhika</text>
+</article>
+<article id="tex_plot_dialog" name="Find_things_stalker_pda_name" article_type="task">
+	<text>tex_plot_dialog</text>
+</article>
+<article id="tex_f_after_deaf" name="Find_a_stranger_pda_name" article_type="task">
+	<text>tex_f_after_deaf</text>
+</article>
+<article id="tex_as_ubiysa" name="Prevent_explosion_base_Liberty_pda_name" article_type="task">
+	<texture x="0" y="258" width="349" height="258">ui\ui_arhara_2</texture>
+	<text>tex_as_ubiysa</text>
+</article>
+<article id="tex_kvest_vstrecha" name="Overhear_the_conversation_pda_name" article_type="task">
+	<text>tex_kvest_vstrecha</text>
+</article>
+<article id="tex_kvest_saxar_telep" name="Find_teleport_pda_name" article_type="task">
+	<text>tex_kvest_saxar_telep</text>
+</article>
+<article id="tex_port_na_mg" name="Locate_activate_portal_pda_name" article_type="task">
+	<texture x="412" y="0" width="279" height="328">ui\ui_arhara_1</texture>
+	<text>tex_port_na_mg</text>
+</article>
+<article id="tex_starsh_say" name="Earn_honest_robbery_pda_name" article_type="task">
+	<text>tex_starsh_say</text>
+</article>
+<article id="tex_dci_kontrik" name="Find_polumutanta_pda_name" article_type="task">
+	<texture x="0" y="520" width="349" height="258">ui\ui_arhara_2</texture>
+	<text>tex_dci_kontrik</text>
+</article>
+<article id="tex_uhod_iz_mg" name="Get_of_Dead_Cities_pda_name" article_type="task">
+	<text>tex_uhod_iz_mg</text>
+</article>
+<article id="tex_agro_tainik_norman" name="Find_cache_agricultural_industry_pda_name" article_type="task">
+	<text>tex_agro_tainik_norman</text>
+</article>
+<article id="tex_spasty_doka" name="Release_Bolotny_Doctors_pda_name" article_type="task">
+	<text>tex_spasty_doka</text>
+</article>

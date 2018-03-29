@@ -1,0 +1,275 @@
+<!-- ************ TB3D 1.0.9.9.9.0 new levels, cube*************** -->
+<game_information_portions>
+	<info_portion id="rul_car1_create"/>
+	<info_portion id="rul_car2_create"/>
+	<info_portion id="rul_car3_create"/>
+	<info_portion id="rul_car4_create"/>
+	<info_portion id="rul_car5_create"/>
+	<info_portion id="rul_car6_create"/>
+	<info_portion id="rul_car7_create"/>
+	<info_portion id="rul_car8_create"/>
+	<!-- ***************	<info_portion id="syslov_book_off"></info_portion>  dmx135*************** -->
+	<!-- ***************	<info_portion id="syslov_locations_off"></info_portion>	 !!!!TB3D *************** -->
+	<!-- ***************	syslov books now a seperate file	109990 -->
+	<info_portion id="syslov_dialog_books"/>
+	<info_portion id="syslov_dialog_zone_locations">
+		<article>zone_locations_deadcity</article>
+		<article>zone_locations_limansk</article>
+		<article>zone_locations_generators</article>
+		<article>zone_locations_darklab</article>
+		<article>zone_locations_brainlab</article>
+		<article>zone_locations_labx10</article>
+		<article>zone_locations_warlab</article>
+		<article>zone_locations_secretlab</article>
+		<article>zone_locations_zaton</article>
+		<article>zone_locations_jupiter</article>
+		<article>zone_locations_predbannik</article>
+	</info_portion>
+	<info_portion id="vehicle_icarus260_info">
+		<article>zone_vehicles_icarus260</article>
+	</info_portion>
+	<info_portion id="vehicle_kavz685_info">
+		<article>zone_vehicles_kavz685</article>
+	</info_portion>
+	<info_portion id="vehicle_laz4202_info">
+		<article>zone_vehicles_laz4202</article>
+	</info_portion>
+	<info_portion id="vehicle_sport_baggi_info">
+		<article>zone_vehicles_sport_baggi</article>
+	</info_portion>
+	<info_portion id="vehicle_armored_car_info">
+		<article>zone_vehicles_armored_car</article>
+	</info_portion>
+	<info_portion id="vehicle_btr80_info">
+		<article>zone_vehicles_btr80</article>
+	</info_portion>
+	<info_portion id="vehicle_btr80_camo_info">
+		<article>zone_vehicles_btr80</article>
+	</info_portion>
+	<info_portion id="vehicle_btr80_uniq_info">
+		<article>zone_vehicles_btr80</article>
+	</info_portion>
+	<info_portion id="vehicle_btr90_info">
+		<article>zone_vehicles_btr90</article>
+	</info_portion>
+	<info_portion id="vehicle_lada2103_info">
+		<article>zone_vehicles_lada2103</article>
+	</info_portion>
+	<info_portion id="vehicle_lada2103_red_info">
+		<article>zone_vehicles_lada2103</article>
+	</info_portion>
+	<info_portion id="vehicle_lada2103_green_info">
+		<article>zone_vehicles_lada2103</article>
+	</info_portion>
+	<info_portion id="vehicle_lada2106_info">
+		<article>zone_vehicles_lada2106</article>
+	</info_portion>
+	<info_portion id="vehicle_lada2106_pricep_info">
+		<article>zone_vehicles_lada2106</article>
+	</info_portion>
+	<info_portion id="vehicle_vezdehod_info">
+		<article>zone_vehicles_vezdehod</article>
+	</info_portion>
+	<info_portion id="vehicle_volga_gray_info">
+		<article>zone_vehicles_gaz24</article>
+	</info_portion>
+	<info_portion id="vehicle_volga_black_info">
+		<article>zone_vehicles_gaz24</article>
+	</info_portion>
+	<info_portion id="vehicle_gaz66_info">
+		<article>zone_vehicles_gaz66</article>
+	</info_portion>
+	<info_portion id="vehicle_zaz965_info">
+		<article>zone_vehicles_zaz965</article>
+	</info_portion>
+	<info_portion id="vehicle_zaz968_info">
+		<article>zone_vehicles_zaz968</article>
+	</info_portion>
+	<info_portion id="vehicle_zaz968_yellow_info">
+		<article>zone_vehicles_zaz968</article>
+	</info_portion>
+	<info_portion id="vehicle_zil130_info">
+		<article>zone_vehicles_zil130</article>
+	</info_portion>
+	<info_portion id="vehicle_zil130_truck_info">
+		<article>zone_vehicles_zil130_truck</article>
+	</info_portion>
+	<info_portion id="vehicle_zil131_info">
+		<article>zone_vehicles_zil131</article>
+	</info_portion>
+	<info_portion id="vehicle_kamaz_info">
+		<article>zone_vehicles_kamaz</article>
+	</info_portion>
+	<info_portion id="vehicle_kamaz_truck_info">
+		<article>zone_vehicles_kamaz</article>
+	</info_portion>
+	<info_portion id="vehicle_kamaz_military_info">
+		<article>zone_vehicles_kamaz_military</article>
+	</info_portion>
+	<info_portion id="vehicle_raf_info">
+		<article>zone_vehicles_raf</article>
+	</info_portion>
+	<info_portion id="vehicle_t40_info">
+		<article>zone_vehicles_t40</article>
+	</info_portion>
+	<info_portion id="vehicle_moskvitch_info">
+		<article>zone_vehicles_moskvitch</article>
+	</info_portion>
+	<info_portion id="vehicle_moskvitch_police_info">
+		<article>zone_vehicles_moskvitch</article>
+	</info_portion>
+	<info_portion id="vehicle_moskvitch_black_info">
+		<article>zone_vehicles_moskvitch</article>
+	</info_portion>
+	<info_portion id="vehicle_niva_info">
+		<article>zone_vehicles_niva</article>
+	</info_portion>
+	<info_portion id="vehicle_niva_white_info">
+		<article>zone_vehicles_niva</article>
+	</info_portion>
+	<info_portion id="vehicle_niva_uniq_info">
+		<article>zone_vehicles_niva</article>
+	</info_portion>
+	<info_portion id="vehicle_niva_sport_info">
+		<article>zone_vehicles_niva_sport</article>
+	</info_portion>
+	<info_portion id="vehicle_uaz_info">
+		<article>zone_vehicles_uaz</article>
+	</info_portion>
+	<info_portion id="vehicle_uaz_fsb_info">
+		<article>zone_vehicles_uaz</article>
+	</info_portion>
+	<info_portion id="vehicle_uaz_ukrainian_info">
+		<article>zone_vehicles_uaz</article>
+	</info_portion>
+	<info_portion id="vehicle_uaz469_uniq_info">
+		<article>zone_vehicles_uaz469_uniq</article>
+	</info_portion>
+	<info_portion id="vehicle_uaz469_open_info">
+		<article>zone_vehicles_uaz469_open</article>
+	</info_portion>
+	<info_portion id="vehicle_uaz_buhanka_info">
+		<article>zone_vehicles_uaz_buhanka</article>
+	</info_portion>
+	<info_portion id="vehicle_ural4320_info">
+		<article>zone_vehicles_ural4320</article>
+	</info_portion>
+	<info_portion id="vehicle_ural4320_green_info">
+		<article>zone_vehicles_ural4320</article>
+	</info_portion>
+	<info_portion id="vehicle_ural4320_military_info">
+		<article>zone_vehicles_ural4320</article>
+	</info_portion>
+	<info_portion id="vehicle_dodge_info">
+		<article>zone_vehicles_dodge</article>
+	</info_portion>
+	<info_portion id="vehicle_ferrari_info">
+		<article>zone_vehicles_ferrari</article>
+	</info_portion>
+	<info_portion id="vehicle_hummer_info">
+		<article>zone_vehicles_hummer</article>
+	</info_portion>
+	<info_portion id="vehicle_land_rover_info">
+		<article>zone_vehicles_land_rover</article>
+	</info_portion>
+	<info_portion id="vehicle_tb3d_atv_info">
+		<article>zone_vehicles_tb3d_atv</article>
+	</info_portion>
+	<info_portion id="vehicle_tb3d_sport_info">
+		<article>zone_vehicles_sport_baggi</article>
+	</info_portion>
+	<info_portion id="vehicle_tb3d_rover_info">
+		<article>zone_vehicles_land_rover</article>
+	</info_portion>
+	<info_portion id="vehicle_tb3d_hummer_info">
+		<article>zone_vehicles_hummer</article>
+	</info_portion>
+	<info_portion id="vehicle_tb3d_plow_info">
+		<article>zone_vehicles_vezdehod</article>
+	</info_portion>
+	<info_portion id="vehicle_tb3d_btr_info">
+		<article>zone_vehicles_btr90</article>
+	</info_portion>
+	<info_portion id="vehicle_tb3d_btr_90_info">
+		<article>zone_vehicles_btr90</article>
+	</info_portion>
+	<info_portion id="vehicle_tb3d_btr_80_info">
+		<article>zone_vehicles_btr80</article>
+	</info_portion>
+	<info_portion id="vehicle_tb3d_btr_80camo_info">
+		<article>zone_vehicles_btr80</article>
+	</info_portion>
+	<info_portion id="vehicle_tb3d_btr_80uniq_info">
+		<article>zone_vehicles_btr80</article>
+	</info_portion>
+	<info_portion id="vehicle_armored_car_found_info"/>
+	<info_portion id="vehicle_btr80_uniq_found_info"/>
+	<info_portion id="vehicle_vezdehod_found_info"/>
+	<info_portion id="vehicle_niva_uniq_found_info"/>
+	<info_portion id="vehicle_niva_sport_found_info"/>
+	<info_portion id="vehicle_ferrari_found_info"/>
+	<info_portion id="syslov_skat15upg"/>
+	<info_portion id="holod_start_dialog_off"/>
+	<info_portion id="price_holod_barter_info">
+		<article>price_holod_barter</article>
+	</info_portion>
+	<info_portion id="syslov_shadows_cube_off"/>
+	<info_portion id="shadows_cube_prov_check"/>		<!-- 109990 -->
+	<info_portion id="shadows_cube_dialog_start">
+		<task>syslov_items_quest</task>
+	</info_portion>
+	<info_portion id="radioprotector_info"/>
+	<info_portion id="gercules_info"/>
+	<info_portion id="actor_medkit_use_info"/>
+	<info_portion id="anabiotic_protection_info"/>
+	<info_portion id="psy_blockade_info"/>
+	<info_portion id="barvinok_info"/>
+	<info_portion id="yadulin_info"/>
+	<info_portion id="kombat_start_dialog_off"/>
+	<info_portion id="frase_1"/>
+	<info_portion id="frase_2"/>
+	<info_portion id="frase_3"/>
+	<info_portion id="frase_4"/>
+	<info_portion id="frase_5"/>
+	<info_portion id="frase_6"/>
+	<info_portion id="frase_7"/>
+	<info_portion id="frase_8"/>
+	<info_portion id="frase_9"/>
+	<info_portion id="frase_10"/>
+	<info_portion id="totalizator"/>
+	<info_portion id="dep_1"/>
+	<info_portion id="dep_2"/>
+	<info_portion id="dep_3"/>
+	<info_portion id="start_shadows_dialog_off"/>
+	<info_portion id="shadows_friend"/>
+	<info_portion id="shadows_quest_cube_off"/>
+	<info_portion id="cop_prip_snd_off"/>
+	<info_portion id="cop_prip_kvartira_snd_off"/>
+	<info_portion id="cop_prip_info_take_doc"/>
+	<info_portion id="alex_start_dialog_off"/>
+	<info_portion id="alex_dialog_1_off"/>
+	<info_portion id="grozn_start_dialog_off"/>
+	<info_portion id="mydrec_start_dialog_off"/>
+	<info_portion id="mydrec_start_dialog_yes_nabor">
+		<task>cop_prip_instr_quest</task>
+	</info_portion>
+	<info_portion id="cop_instruments_vzal"/>
+	<info_portion id="mudrec_instruments_otdal"/>
+	<info_portion id="start_cop_prip_info_lab">
+		<task>cop_prip_info_lab</task>
+	</info_portion>
+	<info_portion id="start_cube_quest">
+		<task>soulcube_quest</task>
+	</info_portion>
+	<info_portion id="wpn_soulcube_vzal"/>
+	<info_portion id="shadows_final_cube"/>
+	<info_portion id="hide_weapon_info"/>
+	<info_portion id="actor_enemy_info"/>
+	<info_portion id="actor_ban_chat_info"/>
+	<info_portion id="outfit_blockpost_quest_info">
+		<task>outfit_blockpost_quest</task>
+	</info_portion>
+	<info_portion id="specops_outfit_have_info"/>
+	<info_portion id="actor_propusk_info"/>
+	<info_portion id="actor_uaz_input_info"/>
+</game_information_portions>

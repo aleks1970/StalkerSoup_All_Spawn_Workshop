@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.4 chgd to Military PDAs, minor edits, Artyom, Krysjuk "The Rat", something, Core, repair kit -->
+<!-- Names changed as commented below - Sword2012 - 31 Oct 16 -->
+<!-- Changed all 'Mother's Beads' to 'Glassbeads' - Sword2012 - 12 Dec 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<!-- Reworked up to Line 267 - Sword2012 - 09 Jan 17 -->
+<string_table>
+	<string id="barman_musik_dialog_0">
+		<text>Would you please change the music! It's annoying...</text>
+	</string>
+	<string id="barman_musik_dialog_1">
+		<text>It's five roubles to change the music...</text>
+	</string>
+	<string id="barman_musik_dialog_2">
+		<text>Fair enough. He who pays the piper...</text>
+	</string>
+	<string id="barman_musik_dialog_10">
+		<text>Pay to listen to more crap? No way!</text>
+	</string>
+	<string id="barman_musik_dialog_3">
+		<text>Hey, if I didn't charge, these guys would be asking all the time!</text>
+	</string>
+	<string id="barman_musik_dialog_4">
+		<text>Okay, put on anything retro...</text>
+	</string>
+	<string id="barman_musik_dialog_5">
+		<text>How about some rock 'n' roll?</text>
+	</string>
+	<string id="barman_musik_dialog_6">
+		<text>Anything. Just not this sentimental shit...</text>
+	</string>
+	<string id="barman_musik_dialog_7">
+		<text>Something a bit more modern...</text>
+	</string>
+	<string id="barman_musik_dialog_41">
+		<text>I also prefer retro...</text>
+	</string>
+	<string id="barman_musik_dialog_51">
+		<text>Okay, but don't expect Elvis...</text>
+	</string>
+	<string id="barman_musik_dialog_61">
+		<text>I'll drink to that!</text>
+	</string>
+	<string id="barman_musik_dialog_71">
+		<text>Okay, let's see what I've got...</text>
+	</string>
+	<string id="barman_musik_dialog_8">
+		<text>Can't make up your mind?</text>
+	</string>
+	<string id="borov_start_dialog_0">
+		<text>Hello, Stalker...</text>
+	</string>
+	<string id="borov_start_dialog_1">
+		<text>Can we talk?</text>
+	</string>
+	<string id="borov_11_dialog_0">
+		<text>One of your men told me I can deal with you...</text>
+	</string>
+	<string id="borov_11_dialog_1">
+		<text>I'm told you helped out one of my men, Mongol. For that, I give my sincere thanks. I'll put the word out. Any Bandit in this valley who attacks you will answer to me and my boys. If you want to trade, feel free to talk to Core. He's just outside my office...</text>
+	</string>
+	<string id="borov_11_dialog_2">
+		<text>I've been told you have a key to the underground laboratory...</text>
+	</string>
+	<string id="borov_11_dialog_3">
+		<text>Ah, it's the key you want! But you won't be the first. Everything of any value went long ago, and there's nothing but mutants down there now. Yes, I've got a key, but don't think I'm going to hand it over for free. You'll have to earn it!</text>
+	</string>
+	<string id="borov_11_dialog_4">
+		<text>No problem. Nothing in the Zone comes easy...</text>
+	</string>
+	<string id="borov_11_dialog_5">
+		<text>Well, if you've got the balls, I've got a task for you. A helicopter crashed here recently - nearby, to the east of the bog. I don't know why, but it came from the center of the Zone. I sent some of my men to check it out, but they say there's a den of chimeras close by, and they couldn't get any closer. They reported seeing a couple of corpses in hazmat suits near the helicopter, and an artefact case nearby. So, if you want to try your luck, go and have a rummage around there and bring me everything you find, in exchange for the key...</text>
+	</string>
+	<string id="borov_11_dialog_6">
+		<text>Chimeras and hazmat suits! I knew this wouldn't be easy. Yeah, I'll go check it out...</text>
+	</string>
+	<string id="borov_11_dialog_7">
+		<text>Chimeras are very territorial. I really don't fancy going up against a den of them...</text>
+	</string>
+	<string id="borov_12_dialog_0">
+		<text>I found the helicopter, and you can tell your guys that the chimeras won't bother them again...</text>
+	</string>
+	<string id="borov_12_dialog_1">
+		<text>I sent my morons to track you, but I've not received their report yet. What was there? In the helicopter?</text>
+	</string>
+	<string id="borov_12_dialog_2">
+		<text>There was nothing. Just a couple of dead scientists, that's all. Someone must have already got there...</text>
+	</string>
+	<string id="borov_12_dialog_3">
+		<text>I found a container that I didn't want to risk opening, and some documents. That's all...</text>
+	</string>
+	<string id="borov_12_dialog_21">
+		<text>Nothing, you say? And after the deal we made! My men saw you carrying a container...</text>
+	</string>
+	<string id="borov_12_dialog_42">
+		<text>Yes, and I dropped it when the chimeras came after me!</text>
+	</string>
+	<string id="borov_12_dialog_31">
+		<text>Well, it's been a pleasure to deal with you. I'll have the container and documents, please...</text>
+	</string>
+	<string id="borov_12_dialog_32">
+		<text>Here's your loot. Do you have the key?</text>
+	</string>
+	<string id="borov_12_dialog_33">
+		<text>Ha, Borov always keeps his word! Here's your key. And I've some other business for you, if you're interested...</text>
+	</string>
+	<string id="borov_12_dialog_34">
+		<text>Sounds good. When I'm ready I'll let you know...</text>
+	</string>
+	<string id="borov_12_dialog_22">
+		<text>And your men saw nothing? From the ones I've seen they were probably too drunk to see their own noses...</text>
+	</string>
+	<string id="borov_12_dialog_23">
+		<text>This is not necessary. There's been too much drinking here. Let's try again to work as a team. Can we turn to one more order of business?</text>
+	</string>
+	<string id="borov_21_dialog_0">
+		<text>What is it you want?</text>
+	</string>
+	<string id="borov_21_dialog_1">
+		<text>One of my men known as Rat has gone missing, along with my PDA. Coincidence? I think not! That PDA was full of our internal communications... Which brings us to business, find this Rat and my PDA. How you get it is up to you - just bring me the PDA and we'll discuss your reward. Having someone like you on our side, whom people trust, can always be advantageous to both of us...</text>
+	</string>
+	<string id="borov_21_dialog_2">
+		<text>The Zone's a big place. Where should I start looking?</text>
+	</string>
+	<string id="borov_21_dialog_3">
+		<text>He was spotted recently at the Cordon, but it's highly unlikely someone like him will have got out alive. Do we have an agreement?</text>
+	</string>
+	<string id="borov_21_dialog_4">
+		<text>Yes, I'll try to find your Rat...</text>
+	</string>
+	<string id="borov_21_dialog_5">
+		<text>No, not at the Cordon. The Military are all over that place, and if it gets out that I'm helping a bandit...</text>
+	</string>
+	<string id="borov_22_dialog_0">
+		<text>Greetings, Borov. I found your Rat...</text>
+	</string>
+	<string id="borov_22_dialog_1">
+		<text>Well done. I hope he's dead. Where's the PDA?</text>
+	</string>
+	<string id="borov_22_dialog_2">
+		<text>Where's my reward?</text>
+	</string>
+	<string id="borov_22_dialog_3">
+		<text>Show me the PDA, and I'll give you your reward</text>
+	</string>
+	<string id="borov_22_dialog_4">
+		<text>Fair enough. Do you recognize this PDA?</text>
+	</string>
+	<string id="borov_22_dialog_51">
+		<text>Wonderful! Here's the key to the underground lab I promised, and the location of a cache. Also the supply room is open to you, so take anything you need. The cache is located at the north of the Army Warehouses, near the fallen helicopter</text>
+	</string>
+	<string id="borov_22_dialog_52">
+		<text>Excellent! Here's the location of a cache. It's located at the north of the Army Warehouses, near the fallen helicopter. Also, check the supply room. It should now be open to you...</text>
+	</string>
+	<string id="borov_22_dialog_6">
+		<text>Good. You kept your word...</text>
+	</string>
+	<string id="krysyk_start_dialog_0">
+		<text>Hey, Stalker! Come closer. Let's talk...</text>
+	</string>
+	<string id="krysyk_start_dialog_1">
+		<text>Hey, Rat?</text>
+	</string>
+	<string id="krysyk_start_dialog_2">
+		<text>Krysjuk! My name is Krysjuk!</text>
+	</string>
+	<string id="krysyk_11_dialog_0">
+		<text>Okay! Calm down, I know Rat's not your real name! I have some business for you...</text>
+	</string>
+	<string id="krysyk_11_dialog_1">
+		<text>What business could I possibly have with you? I've not dealt with you before...</text>
+	</string>
+	<string id="krysyk_11_dialog_2">
+		<text>Borov. You've got his PDA, and he wants your head...</text>
+	</string>
+	<string id="krysyk_11_dialog_3">
+		<text>Yes, I took it. It has the coordinates of places Borov keeps his caches. But I can share this information with you if you'll help me out...</text>
+	</string>
+	<string id="krysyk_11_dialog_41">
+		<text>Look, I know you're a thief, so I can't trust you. Why shouldn't I just shoot you?</text>
+	</string>
+	<string id="krysyk_11_dialog_42">
+		<text>What kind of help are we talking about?</text>
+	</string>
+	<string id="krysyk_11_dialog_51">
+		<text>Kill me if you want, but it won't help you find the PDA. It's hidden in a secret place</text>
+	</string>
+	<string id="krysyk_11_dialog_52">
+		<text>Listen, please. I've been hiding here for days, but I can't get past the soldiers. I won't live long if Borov finds me. If you can get the Barman to let me pass through, Borov can't come after me...</text>
+	</string>
+	<string id="krysyk_11_dialog_621">
+		<text>I'll talk to the Barman, but I can't promise you anything...</text>
+	</string>
+	<string id="krysyk_11_dialog_622">
+		<text>Yes, you have gone! Have got! Go there, go here...</text>
+	</string>
+	<string id="krysyk_11_dialog_61">
+		<text>It is good that I have joked, and you have laughed... What commission do you have?</text>
+	</string>
+	<string id="krysyk_11_dialog_62">
+		<text>Ah, you young reptile! You will tell me everything!</text>
+	</string>
+	<string id="krysyk_12_dialog_0">
+		<text>Hi, Krysjuk. I talked with the Barman. He'll let you pass through, but only in exchange for everything you've stolen. It's his reputation he's risking, and if anyone gets wind of this he may need to return the loot to its former owners...</text>
+	</string>
+	<string id="krysyk_12_dialog_1">
+		<text>Okay, I'll show you where it is, but who should go and collect it?</text>
+	</string>
+	<string id="krysyk_12_dialog_2">
+		<text>Don't worry. I'll get it, and also take it to the Barman</text>
+	</string>
+	<string id="krysyk_12_dialog_3">
+		<text>Okay, write down these coordinates in the Dark Valley. In the cache are three Moonlights and a Glassbeads. Take them all to the Barman. If he agrees to my passage, I'll tell you where the PDA is</text>
+	</string>
+	<string id="krysyk_13_dialog_0">
+		<text>Hello, Barkeep! We have a request from a bandit...</text>
+	</string>
+	<string id="krysyk_13_dialog_1">
+		<text>Hmm, so you're dealing with criminals now. Why did I not see this coming?</text>
+	</string>
+	<string id="krysyk_13_dialog_2">
+		<text>Very funny. This Krysjuk, aka Rat needs to hide from Borov. Might it be in your interest help him out?</text>
+	</string>
+	<string id="krysyk_13_dialog_3">
+		<text>I've no interest in this thief. Bandits are a blight on honest Stalkers. If he wants total safety, tell him it'll be my neck on the line, and he'll need to pay. I want all the loot from his cache. Once you bring me everything of use in there, I'll allow him safe passage. Tell him that...</text>
+	</string>
+	<string id="krysyk_13_dialog_4">
+		<text>Okay, I'll let him know your terms</text>
+	</string>
+	<string id="krysyk_14_dialog_0">
+		<text>How's the station master of the Underground Railroad?</text>	<!-- Swapped lines and changed context - Sword2012 - 30 Mar 17 -->
+	</string>
+	<string id="krysyk_14_dialog_1">
+		<text>Fuck off, Marked One. What do you want?</text>	<!-- Swapped lines and changed context - Sword2012 - 30 Mar 17 -->
+	</string>
+	<string id="krysyk_14_dialog_2">
+		<text>Krysjuk told me where his cache is. I went there and found three Moonlights and a Glassbeads</text>
+	</string>
+	<string id="krysyk_14_dialog_3">
+		<text>That'll be enough to buy him passage. Give them here, and tell him we have a deal. I'll ask the block posts to let him pass...</text>
+	</string>
+	<string id="krysyk_14_dialog_42">
+		<text>All of them? I've done all the work. Don't I get a share?</text>
+	</string>
+	<string id="krysyk_14_dialog_41">
+		<text>Okay, I'll find Rat and let him know. Thanks...</text>	<!-- Swapped lines and changed context - Sword2012 - 30 Mar 17 -->
+	</string>
+	<string id="krysyk_14_dialog_51">
+		<text>And tell him never to come back. Bandits aren't welcome here...</text>	<!-- Swapped lines and changed context - Sword2012 - 30 Mar 17 -->
+	</string>
+	<string id="krysyk_14_dialog_52">
+		<text>Keep the lot if you want. Do you think I give a shit about a fucking bandit?</text>	<!-- Swapped lines and changed context - Sword2012 - 30 Mar 17 -->
+	</string>
+	<string id="krysyk_15_dialog_0">
+		<text>The Barman has agreed to let you through. Does this solve your problem?</text>
+	</string>
+	<string id="krysyk_15_dialog_1">
+		<text>Yes, thank you. I just want to live a quieter life...</text>
+	</string>
+	<string id="krysyk_15_dialog_2">
+		<text>I gave the Barman everything in your cache. Do I end up with anything out of this, other than saving your life?</text>
+	</string>
+	<string id="krysyk_15_dialog_3">
+		<text>Don't worry, do you really think I gave the Barkeep everything? Your share is waiting for you in Agroprom... In the meantime, here's how to make a Medusa artefact. You'll need to throw the head of a Tushkano, a bandage, a sausage, and a can of food into an Electro...</text>
+	</string>
+	<string id="krysyk_15_dialog_4">
+		<text>Thanks, I'll go and look... I really hope you've changed but, if you've lied to me, I promise that Borov won't be the only one after you...</text>
+	</string>
+	<string id="esc_wolf_sak">
+		<text>Wolf</text>
+	</string>
+	<string id="esc_shustryi_sak">
+		<text>Nimble</text>
+	</string>
+	<string id="esc_fox_sak">
+		<text>Fox</text>
+	</string>
+	<string id="esc_provodnik_sak">
+		<text>Guide</text>
+	</string>
+	<string id="gar_dm_novice_sak">
+		<text>Jurik</text>
+	</string>
+	<string id="gar_hellcar_sak">
+		<text>Bes</text>
+	</string>
+	<string id="agr_krot_sak">
+		<text>Mole</text>
+	</string>
+	<string id="val_bandit_krisyk_sak">
+		<text>Krysjuk 'The Rat'</text>
+	</string>
+	<string id="val_bandit_krisyk_name">
+		<text>Krysjuk 'The Rat'</text>
+	</string>
+	<string id="bar_docent_0">
+		<text>Greetings man of science! What are you offering?</text>
+	</string>
+	<string id="bar_docent_1">
+		<text>And greetings to you also, Marked One. Here, I modify PDAs to detect mutants...</text>
+	</string>
+	<string id="bar_docent_2">
+		<text>This sounds extremely useful! How does it work?</text>
+	</string>
+	<string id="bar_docent_3">
+		<text>Each mutant emits a different energy signal. But I need mutant DNA, and up to date mapping information, to calibrate the detector</text>
+	</string>
+	<string id="bar_docent_4">
+		<text>So which mutants can you detect?</text>
+	</string>
+	<string id="bar_docent_dialog_13">
+		<text>Well, I've chosen the most dangerous:\n - Burer,\n - Chimera,\n - Librarian,\n - Werewolf,\n - Bloodsucker,\n - Pseudogiant,\n - Controller.\nWhich would you prefer?</text>
+	</string>
+	<string id="bar_docent_51">
+		<text>Definitely Bloodsuckers. You can never have too much notice of those bastards!</text>
+	</string>
+	<string id="bar_docent_52">
+		<text>Pseudogiants are far better bypassed, once you know where they are!</text>
+	</string>
+	<string id="bar_docent_53">
+		<text>The most dangerous mutant in the Zone would have to be a Controller!</text>
+	</string>
+	<string id="bar_docent_dialog_58">
+		<text>To me in general all the same, I and so with them I will consult...</text>
+	</string>
+	<string id="bar_docent_61">
+		<text>For proper adjustment I need a pair of Bloodsucker tentacles, and 20 Military PDAs</text>
+	</string>
+	<string id="bar_docent_62">
+		<text>For proper adjustment I need two hands from a Pseudogiant, and 15 Military PDAs</text>
+	</string>
+	<string id="bar_docent_63">
+		<text>For proper adjustment I need two hands from a Controller, and 30 Military PDAs</text>
+	</string>
+	<string id="bar_docent_71">
+		<text>I'll find these parts for you, and the PDAs. I'm looking forward to this upgrade</text>
+	</string>
+	<string id="bar_docent_72">
+		<text>Those giants are a bastard to take down, but I'll bring you their hands and the PDAs</text>
+	</string>
+	<string id="bar_docent_73">
+		<text>It's going to be tough, but I'll find you those Controller hands and the PDAs somehow</text>
+	</string>
+	<string id="bar_docent_dialog_78">
+		<text>When there will be concrete results, then will talk.</text>
+	</string>
+	<string id="tex_docent_detector1">
+		<text>For alteration of a PDA into a detector which reacts to Bloodsuckers, it is necessary to extract a pair of tentacles from one of these Bloodsuckers and to collect 20 Military PDAs. To bring all it is to the Associate and he will alter my PDA.</text>	<!-- Changed 'Senior Lecturer' to 'Associate'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_docent_detector2">
+		<text>For alteration of a PDA into a detector which reacts to Pseudo-Giants, it is necessary to extract 2 parts of a body from different Pseudo-Giants and to collect 15 Military PDAs. To bring all this to the Associate and he will alter my PDA.</text>	<!-- Changed 'Senior Lecturer' to 'Associate'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_docent_detector3">
+		<text>For alteration usual PDA in the detector which reacts on Controllers, it is necessary to extract 2 parts of a body of the Controller and to collect 30 Military PDAs. To bring all this to the Associate and he will alter my PDA.</text>	<!-- Changed 'Senior Lecturer' to 'Associate'- Sword2012 - 31 Oct 16-->
+	</string>
+	<!-- new text for the new minimap icon/spot - aleks1970 -->
+	<string id="tex_docent_detector4">
+		<text>For alteration usual PDA in the detector which reacts on Wolfs, it is necessary to extract 3 parts of a body of the Wolf and to collect 20 Military PDAs. To bring all this to the Associate and he will alter my PDA.</text>	<!-- Changed 'Senior Lecturer' to 'Associate'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_docent_detector5">
+		<text>For alteration usual PDA in the detector which reacts on Chimeras, it is necessary to extract 4 parts of a body of the Chimera and to collect 40 Military PDAs. To bring all this to the Associate and he will alter my PDA.</text>	<!-- Changed 'Senior Lecturer' to 'Associate'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_docent_detector6">
+		<text>For alteration usual PDA in the detector which reacts on Burers, it is necessary to extract 4 parts of a body of the Burer and to collect 15 Military PDAs. To bring all this to the Associate and he will alter my PDA.</text>	<!-- Changed 'Senior Lecturer' to 'Associate'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_docent_detector7">
+		<text>For alteration usual PDA in the detector which reacts on Librarians, it is necessary to extract 1 parts of a body of the Librarian and to collect 30 Military PDAs. To bring all this to the Associate and he will alter my PDA.</text>	<!-- Changed 'Senior Lecturer' to 'Associate'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="bar_docent_1dialog_0">
+		<text>I Welcome, the master!</text>
+	</string>
+	<string id="bar_docent_1dialog_1">
+		<text>It is good to see you!</text>
+	</string>
+	<string id="bar_docent_1dialog_2">
+		<text>I Have collected the necessary items for the detector on the Bloodsucker. Here they are.</text>
+	</string>
+	<string id="bar_docent_1dialog_3">
+		<text>This is excellent, now it is possible to make the modification. Here, now your PDA is adjusted to detect Bloodsuckers within 30-40 metres</text>
+	</string>
+	<string id="bar_docent_1dialog_4">
+		<text>Thanks! that's great.</text>
+	</string>
+	<string id="bar_docent_2dialog_0">
+		<text>I've brought what you asked for...</text>
+	</string>
+	<string id="bar_docent_2dialog_1">
+		<text>Yes in this cellar what health...</text>
+	</string>
+	<string id="bar_docent_2dialog_2">
+		<text>I have your Pseudogiant parts, and your military PDAs...</text>
+	</string>
+	<string id="bar_docent_2dialog_3">
+		<text>Your PDA has been adjusted to detect Pseudogants. Now you won't find them by accident...</text>
+	</string>
+	<string id="bar_docent_2dialog_4">
+		<text>Thank you, my friend...</text>
+	</string>
+	<string id="bar_docent_3dialog_0">
+		<text>How's life, Associate?</text>	<!-- Changed 'Senior Lecturer' to 'Associate'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="bar_docent_3dialog_1">
+		<text>In general, in comparison with Sementsky - it is quite good...</text>
+	</string>
+	<string id="bar_docent_3dialog_2">
+		<text>Yes! I have brought the parts for the detector...</text>
+	</string>
+	<string id="bar_docent_3dialog_3">
+		<text>Well, now you'll never be surprised by a Controller. You'll be able to detect one 50 metres away...</text>
+	</string>
+	<string id="bar_docent_3dialog_4">
+		<text>Have a Bottle on me...</text>
+	</string>
+	<string id="bar_docent_4dialog_0">
+		<text>It's good to see you again...</text>
+	</string>
+	<string id="bar_docent_4dialog_1">
+		<text>How's it going?</text>
+	</string>
+	<string id="bar_docent_4dialog_2">
+		<text>I have your Werewolf claw, and your military PDAs...</text>
+	</string>
+	<string id="bar_docent_4dialog_3">
+		<text>Well, now you'll never be jumped by a Werewolf.. You'll be able to detect one from 40 metres away...</text>
+	</string>
+	<string id="bar_docent_4dialog_4">
+		<text>Now it's back to the hunt...</text>
+	</string>
+	<string id="bar_docent_5dialog_0">
+		<text>How are your business on these days, Associate?</text>	<!-- Changed 'Senior Lecturer' to 'Associate'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="bar_docent_5dialog_1">
+		<text>Well, you're coming from the hunting, right?</text>
+	</string>
+	<string id="bar_docent_5dialog_2">
+		<text>I Have collected the necessary items for the detector on the Chimeras. Here they are.</text>
+	</string>
+	<string id="bar_docent_5dialog_3">
+		<text>Well I upgraded the PDA, it is now adjusted for the Chimeras! Now you'll be able to see these Chimeras on long distance...</text>
+	</string>
+	<string id="bar_docent_5dialog_4">
+		<text>Ahh, you're my lifesaver...</text>
+	</string>
+	<string id="bar_docent_6dialog_0">
+		<text>Hi, there...</text>
+	</string>
+	<string id="bar_docent_6dialog_1">
+		<text>Excellent, you're back already!?</text>
+	</string>
+	<string id="bar_docent_6dialog_2">
+		<text>Yes, I have brought the required Burer hands and PDAs for the detector!</text>
+	</string>
+	<string id="bar_docent_6dialog_3">
+		<text>This is great, now it is possible to make new modification on the PDA! Here, take the PDA. It is now adjusted to detect Burers within 40-50 metres</text>
+	</string>
+	<string id="bar_docent_6dialog_4">
+		<text>Now, these ugly Burer creatures will become extinct in the Zone...</text>
+	</string>
+	<string id="bar_docent_7dialog_0">
+		<text>Greetings, Senior lecturer...</text>
+	</string>
+	<string id="bar_docent_7dialog_1">
+		<text>What do you need!?</text>
+	</string>
+	<string id="bar_docent_7dialog_2">
+		<text>I have collected PDAs and hand of the Librarian. Here take away...</text>
+	</string>
+	<string id="bar_docent_7dialog_3">
+		<text>Well I upgraded the PDA, it is now adjusted for the Librarians!</text>
+	</string>
+	<string id="bar_docent_7dialog_4">
+		<text>Well my friend. Librarians are waiting for me!</text>
+	</string>
+	<string id="bar_docent_dialog_11">
+		<text>Hello, do you want to see another mutant on your PDA scanner!?</text>
+	</string>
+	<string id="bar_docent_dialog_12">
+		<text>Yes, please advise me which mutant to choose first!</text>
+	</string>
+	<string id="bar_docent_dialog_5">
+		<text>Well, I've chosen the most dangerous:\n - Burer,\n - Chimera,\n - Librarian,\n - Werewolf,\n - Bloodsucker,\n - Pseudogiant,\n - Controller.\nWhich would you prefer?</text>
+	</string>
+	<string id="bar_docent_dialog_54">
+		<text>Werewolf. those creepy night creatures brrr...</text>
+	</string>
+	<string id="bar_docent_dialog_55">
+		<text>Chimeras, better to avoid them, it is too fast for me!</text>
+	</string>
+	<string id="bar_docent_dialog_56">
+		<text>Burers, I do not wish to come close to them!</text>
+	</string>
+	<string id="bar_docent_dialog_57">
+		<text>Librarian. That is big and scary mutant...</text>
+	</string>
+	<string id="bar_docent_dialog_59">
+		<text>Not now, I'll come back later...</text>
+	</string>
+	<string id="bar_docent_dialog_64">
+		<text>For proper adjustment I need paws of the Werewolf, 3 paws And 20 Military PDAs</text>
+	</string>
+	<string id="bar_docent_dialog_65">
+		<text>For proper adjustment of detecting the Chimeras, it's necessary to collect 4 claws and 40 Military PDAs.</text>
+	</string>
+	<string id="bar_docent_dialog_66">
+		<text>For proper adjustment of the detector, which will show Burer on the map, it's necessary to collect 4 hands and 15 Military PDAs.</text>
+	</string>
+	<string id="bar_docent_dialog_67">
+		<text>For proper adjustment I need hand of the Librarian, 1 hand and 30 Military PDAs</text>
+	</string>
+	<string id="bar_docent_dialog_74">
+		<text>I will find these Werewolf paws and bring the PDAs! No more hiding places in the Zone for them...</text>
+	</string>
+	<string id="bar_docent_dialog_75">
+		<text>These Chimeras. I often come across on to them, I will bring their claws and the PDAs</text>
+	</string>
+	<string id="bar_docent_dialog_76">
+		<text>These Burers creatures are powerful and ugly...\n... I will bring their hands and the PDAs</text>
+	</string>
+	<string id="bar_docent_dialog_77">
+		<text>I will find one hand from the Librarian and bring the PDAs!</text>
+	</string>
+	<!-- new text for the new minimap icon/spot -END- - aleks1970 -->
+	<string id="bar_docent_npc_dialog_0">
+		<text>Associate, I need some help finding someone.</text>	<!-- Changed 'Senior Lecturer' to 'Associate'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="bar_docent_npc_dialog_1">
+		<text>Well, from here we can trace any unencrypted personal PDA, and put a position marker on your own PDA map. For five Military PDAs and a small fee I can find anyone you want, as long as you have a rough idea of what area we should search...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_2">
+		<text>Okay, let's do it...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_3">
+		<text>Okay, I'll collect some PDAs and return...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_4">
+		<text>So who are you looking for?</text>
+	</string>
+	<string id="bar_docent_npc_dialog_61">
+		<text>And their name?</text>
+	</string>
+	<string id="bar_docent_npc_dialog_8">
+		<text>All done! There's a position marker on your PDA!</text>
+	</string>
+	<string id="bar_docent_npc_dialog_9">
+		<text>Thank you...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_51">
+		<text>Someone in the Cordon...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_52">
+		<text>There's a guy supposed to be in the Dump...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_53">
+		<text>Someone I heard about in the Dark Valley...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_711">
+		<text>A Stalker known as Fox...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_712">
+		<text>A guy called Nimble...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_713">
+		<text>His name is Wolf...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_714">
+		<text>Sorry, I've no idea where he might be..</text>
+	</string>
+	<string id="bar_docent_npc_dialog_721">
+		<text>I'm looking for Yurik. I have business with him...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_722">
+		<text>I need to find Bes...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_723">
+		<text>I need to talk with Mole...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_731">
+		<text>This bandit, Krysjuk the Rat. I need to find him...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_732">
+		<text>I'm looking for Guide...</text>
+	</string>
+	<string id="bar_docent_npc_dialog_733">
+		<text>Artyom the culinary specialist. Can you find him?</text>
+	</string>
+	<string id="garik_dialog_0">
+		<text>Hi, I need to see the repairmen...</text>
+	</string>
+	<string id="garik_dialog_1">
+		<text>It's not that simple. I can't allow just anyone through here...</text>
+	</string>
+	<string id="garik_dialog_3">
+		<text>Why isn't it simple? What do you want?</text>
+	</string>
+	<string id="garik_dialog_4">
+		<text>How about you give me some anti-rads and I'll let you through. Deal?</text>
+	</string>
+	<string id="garik_dialog_5">
+		<text>Nice try, but I prefer vodka. Now if you'll excuse me, I really need to get through...</text>
+	</string>
+	<string id="garik_dialog_6">
+		<text>Sorry, I don't have any anti-rads...</text>
+	</string>
+	<string id="garik_dialog_7">
+		<text>How about a medkit, military grade?</text>
+	</string>
+	<string id="garik_dialog_71">
+		<text>It's simple, will you accept?</text>
+	</string>
+	<string id="garik_dialog_72">
+		<text>Yes, here you are...</text>
+	</string>
+	<string id="garik_dialog_73">
+		<text>I have a Scientific medkit, which is much better!</text>
+	</string>
+	<string id="garik_dialog_74">
+		<text>I don't have any medkits...</text>
+	</string>
+	<string id="garik_dialog_75">
+		<text>Simple? Give two then you will pass.</text>
+	</string>
+	<string id="garik_dialog_76">
+		<text>Garik you redneck? Take.</text>
+	</string>
+	<string id="garik_dialog_77">
+		<text>Its a small world Garick, again we will meet.</text>
+	</string>
+	<string id="garik_dialog_8">
+		<text>Have agreed! Pass!</text>
+	</string>
+	<string id="trade_dialog_sidor_0">
+		<text>I need some supplies...</text>
+	</string>
+	<string id="trade_dialog_sidor_1">
+		<text>I can trade certain supplies in exchange for Artefacts... What exactly do you need?</text>
+	</string>
+	<string id="trade_dialog_sidor_2">
+		<text>Ammunition, Grenades...</text>
+	</string>
+	<string id="trade_dialog_sidor_3">
+		<text>I need a decent Weapon...</text>
+	</string>
+	<string id="trade_dialog_sidor_4">
+		<text>Medical Supplies...</text>
+	</string>
+	<string id="trade_dialog_sidor_5">
+		<text>Field repair kits...</text>
+	</string>
+	<string id="trade_dialog_sidor_21">
+		<text>I can offer the following:\n \n12x70 buckshot for a Medusa artefact\nRG-5 grenades(x2) for a Quirk artefact\n5.45x39mm cartridges for a Droplet artefact\n7.62x39mm cartridges for a Stone Blood artefact</text>
+	</string>
+	<string id="trade_dialog_sidor_54">
+		<text>I've changed my mind...</text>
+	</string>
+	<string id="trade_dialog_sidor_22">
+		<text>I'll take the shotgun shells...</text>
+	</string>
+	<string id="trade_dialog_sidor_23">
+		<text>I'll take the grenades...</text>
+	</string>
+	<string id="trade_dialog_sidor_24">
+		<text>I'll take the 5.45x39mm cartridges...</text>
+	</string>
+	<string id="trade_dialog_sidor_25">
+		<text>I'll take the 7.62x39mm cartridges...</text>
+	</string>
+	<string id="trade_dialog_sidor_222">
+		<text>I'll give you three packs of 12x70 buckshot for a Medusa...</text>
+	</string>
+	<string id="trade_dialog_sidor_221">
+		<text>Sounds good to me... here you are...</text>
+	</string>
+	<string id="trade_dialog_sidor_232">
+		<text>I'll give you two RG-5 Grenades for a Quirk...</text>
+	</string>
+	<string id="trade_dialog_sidor_231">
+		<text>Hand over the grenades then...</text>
+	</string>
+	<string id="trade_dialog_sidor_242">
+		<text>Here's three packs of 5.45x39mm cartridges for the Droplet...</text>
+	</string>
+	<string id="trade_dialog_sidor_241">
+		<text>You've got yourself a deal...</text>
+	</string>
+	<string id="trade_dialog_sidor_252">
+		<text>Two packs of 7.62x39mm cartridges for the Stone Blood...</text>
+	</string>
+	<string id="trade_dialog_sidor_251">
+		<text>I can always use more cartridges...</text>
+	</string>
+	<string id="trade_dialog_sidor_666">
+		<text>I don't have the right artefact, sorry...</text>
+	</string>
+	<string id="trade_dialog_sidor_31">
+		<text>Here's what I can offer you:\n \nA TOZ-34 Shotgun for a Flash artefact\nA Saiga-12K for a Meat Chunk artefact</text>
+	</string>
+	<string id="trade_dialog_sidor_32">
+		<text>Give me the TOZ-34...</text>
+	</string>
+	<string id="trade_dialog_sidor_33">
+		<text>I'll take the Saiga-12k...</text>
+	</string>
+	<string id="trade_dialog_sidor_322">
+		<text>For the TOZ-34, I'll need a Flash artefact...</text>
+	</string>
+	<string id="trade_dialog_sidor_321">
+		<text>Yes, here you are then...</text>
+	</string>
+	<string id="trade_dialog_sidor_332">
+		<text>I'll swap the Saiga12k for a Meat Chunk...</text>
+	</string>
+	<string id="trade_dialog_sidor_331">
+		<text>Here you go... one Meat Chunk artefact...</text>
+	</string>
+	<string id="trade_dialog_sidor_41">
+		<text>Here's what I can do:\n \nMedkits for a Stone Flower artefact\nVodka for a Quirk artefact</text>
+	</string>
+	<string id="trade_dialog_sidor_42">
+		<text>I can always use more medkits...</text>
+	</string>
+	<string id="trade_dialog_sidor_43">
+		<text>You can never have enough Vodka...</text>
+	</string>
+	<string id="trade_dialog_sidor_422">
+		<text>How does eight medkits for a Stone Flower artefact sound?...</text>
+	</string>
+	<string id="trade_dialog_sidor_421">
+		<text>Sounds good to me... hand 'em over...</text>
+	</string>
+	<string id="trade_dialog_sidor_432">
+		<text>Three bottles of Vodka in exchange for a Quirk artefact...</text>
+	</string>
+	<string id="trade_dialog_sidor_431">
+		<text>You've got yourself a deal...</text>
+	</string>
+	<string id="trade_dialog_sidor_51">
+		<text>Here's the deal:\n \nThree Armor repair kits (8 units each) in exchange for a Gravi artefact\nThree Weapon repair kits in exchange for a Stone Flower artefact...</text>
+	</string>
+	<string id="trade_dialog_sidor_52">
+		<text>I'll take the Armor repair kits...</text>
+	</string>
+	<string id="trade_dialog_sidor_53">
+		<text>I'll need the Weapon repair kits...</text>
+	</string>
+	<string id="trade_dialog_sidor_522">
+		<text>Three 10% Armor repair kits (8 units each) for one Gravi...</text>
+	</string>
+	<string id="trade_dialog_sidor_521">
+		<text>Sounds good to me...</text>
+	</string>
+	<string id="trade_dialog_sidor_532">
+		<text>Three 10% Weapon repair kits for one Stone Flower</text>
+	</string>
+	<string id="trade_dialog_sidor_531">
+		<text>There can't be enough said about keeping your Weapons in check...</text>
+	</string>
+	<string id="trade_dialog_barman_0">
+		<text>I'd like to purchase some equipment...</text>
+	</string>
+	<string id="trade_dialog_barman_1">
+		<text>The chief currency in the Zone is artefacts!\nWhat do you need?</text>
+	</string>
+	<string id="trade_dialog_barman_2">
+		<text>Ammunition, equipment...</text>
+	</string>
+	<string id="trade_dialog_barman_3">
+		<text>Good weapons...</text>
+	</string>
+	<string id="trade_dialog_barman_4">
+		<text>First aid...</text>
+	</string>
+	<string id="trade_dialog_barman_5">
+		<text>Repair kits...</text>
+	</string>
+	<string id="trade_dialog_barman_21">
+		<text>My ammunition supply is:\n5.45x39mm cartridges for a Flash artefact\nRGD-5 grenades for a Stone Flower artefact\n5.56x39mm cartridges for a Slime artefact\n9x39mm cartridges for a Gravi artefact</text>
+	</string>
+	<string id="trade_dialog_barman_54">
+		<text>Nothing for now, thanks...</text>
+	</string>
+	<string id="trade_dialog_barman_22">
+		<text>Cartridges for the AK-74, please...</text>
+	</string>
+	<string id="trade_dialog_barman_23">
+		<text>I will take Grenades...</text>
+	</string>
+	<string id="trade_dialog_barman_24">
+		<text>Cartridges 5.56 for NATO weapons I need...</text>
+	</string>
+	<string id="trade_dialog_barman_25">
+		<text>Cartridges 9x39mm for the Vintorez and Groza, please...</text>
+	</string>
+	<string id="trade_dialog_barman_222">
+		<text>I Can give five packs standard or three packs armor-piercing for one Flash... Which do you want?</text>
+	</string>
+	<string id="trade_dialog_barman_221">
+		<text>Five standard, please...</text>
+	</string>
+	<string id="trade_dialog_barman_2211">
+		<text>Give the armor-piercing...</text>
+	</string>
+	<string id="trade_dialog_barman_232">
+		<text>Three grenades RGD5 for a Stone Flower... Agreed?</text>
+	</string>
+	<string id="trade_dialog_barman_231">
+		<text>I need grenades.</text>
+	</string>
+	<string id="trade_dialog_barman_242">
+		<text>I'll give five packs of standard or three packs of armor-piercing for one Slime... Agreed?</text>
+	</string>
+	<string id="trade_dialog_barman_241">
+		<text>Standard...</text>
+	</string>
+	<string id="trade_dialog_barman_2411">
+		<text>Armor-piercing, please.</text>
+	</string>
+	<string id="trade_dialog_barman_252">
+		<text>Five packs standard or four sniper or three armor-piercing for one Gravi... which do you want?</text>
+	</string>
+	<string id="trade_dialog_barman_251">
+		<text>Five standard...</text>
+	</string>
+	<string id="trade_dialog_barman_2511">
+		<text>Sniper, please...</text>
+	</string>
+	<string id="trade_dialog_barman_25111">
+		<text>Armor-piercing, please. Just right for Bloodsuckers...</text>
+	</string>
+	<string id="trade_dialog_barman_666">
+		<text>Sorry, I don't have one. Another time, maybe...</text>
+	</string>
+	<string id="trade_dialog_barman_31">
+		<text>Here are my best weapons:\nThe automatic Special Val (AS Val), is created on the basis of a silent Rifle Vintorez. Its one of the most deadly weapons in the zone. A bargain for two artefacts Fireball\nAn OC-14 Groza automatic with grenade launcher - an compact, reliable, and powerful combat rifle variant for close quarters combat - for a Night Star artefact</text>
+	</string>
+	<string id="trade_dialog_barman_32">
+		<text>I'll take the Val...</text>
+	</string>
+	<string id="trade_dialog_barman_33">
+		<text>I'll have the Groza...</text>
+	</string>
+	<string id="trade_dialog_barman_322">
+		<text>For the Val, two Fireballs. Agreed?</text>
+	</string>
+	<string id="trade_dialog_barman_321">
+		<text>Agreed. Give me the Val...</text>
+	</string>
+	<string id="trade_dialog_barman_332">
+		<text>The Groza for a Night star... Agreed?</text>
+	</string>
+	<string id="trade_dialog_barman_331">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_barman_41">
+		<text>For first aid I offer:\nMedkits for a Sparkler artefact\nVodka, to reduce radiation, for a Stone Blood artefact</text>
+	</string>
+	<string id="trade_dialog_barman_42">
+		<text>Medkits, please...</text>
+	</string>
+	<string id="trade_dialog_barman_43">
+		<text>I need the Vodka...</text>
+	</string>
+	<string id="trade_dialog_barman_422">
+		<text>For five medkits, one Sparkler...</text>
+	</string>
+	<string id="trade_dialog_barman_421">
+		<text>Medkits aren't so easy to find, so you've got a deal...</text>
+	</string>
+	<string id="trade_dialog_barman_432">
+		<text>Five vodka in exchange for a Stone Blood... Agreed?</text>
+	</string>
+	<string id="trade_dialog_barman_431">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_barman_51">
+		<text>For repairs I can offer:\nArmor repair kits for a Meat Chunk artefact\nWeapon repair kits for a Fireball artefact</text>
+	</string>
+	<string id="trade_dialog_barman_52">
+		<text>Armor repair kits...</text>
+	</string>
+	<string id="trade_dialog_barman_53">
+		<text>Weapon repair kits...</text>
+	</string>
+	<string id="trade_dialog_barman_522">
+		<text>One Meat Chunk for three ten-percent, eight-unit kits. Okay?</text>
+	</string>
+	<string id="trade_dialog_barman_521">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_barman_532">
+		<text>Three ten-percent weapon kits in exchange for Fireball... Agreed?</text>
+	</string>
+	<string id="trade_dialog_barman_531">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_petrenko_0">
+		<text>I need some equipment</text>
+	</string>
+	<string id="trade_dialog_petrenko_1">
+		<text>If you have the Artefacts? Then I have the goods...\nWhat are you looking for?</text>
+	</string>
+	<string id="trade_dialog_petrenko_2">
+		<text>Ammunition, equipment...</text>
+	</string>
+	<string id="trade_dialog_petrenko_3">
+		<text>Decent weapons...</text>
+	</string>
+	<string id="trade_dialog_petrenko_4">
+		<text>First aid...</text>
+	</string>
+	<string id="trade_dialog_petrenko_5">
+		<text>Repair kits...</text>
+	</string>
+	<string id="trade_dialog_petrenko_21">
+		<text>I can offer:\n7.62x54mm cartridges for a Droplet artefact\nUnderbarrel VOG-25 grenades for a Stone Blood artefact\n7.62x39mm cartridges for a Medusa artefact\nDuty armor for a Mica artefact...</text>
+	</string>
+	<string id="trade_dialog_petrenko_54">
+		<text>I will take nothing...</text>
+	</string>
+	<string id="trade_dialog_petrenko_22">
+		<text>I need Sniper cartridges.</text>
+	</string>
+	<string id="trade_dialog_petrenko_23">
+		<text>I will take the VOG grenades.</text>
+	</string>
+	<string id="trade_dialog_petrenko_24">
+		<text>For the AK-47 give ammo...</text>
+	</string>
+	<string id="trade_dialog_petrenko_25">
+		<text>Give me the armor...</text>
+	</string>
+	<string id="trade_dialog_petrenko_222">
+		<text>Although the 7N13 round is good for penetration, its dispersion is too wide for snipers, even at average distances.\nThe 7N1 standard cartridge is 2-3 times better than the 7N13 in terms of dispersion, but it doesn't penetrate so well\nIn terms of grouping, the 7N14 is as good as the 7N1, but far better in armor-piercing thanks to a tempered steel core.\nFor one Droplet artefact I'll give you two packs of standard sniper cartridges, or one pack of armor-piercing... Which would you prefer?</text>
+	</string>
+	<string id="trade_dialog_petrenko_221">
+		<text>Give standard, two packs...</text>
+	</string>
+	<string id="trade_dialog_petrenko_2211">
+		<text>Exact sniper cartridges are necessary to me...</text>
+	</string>
+	<string id="trade_dialog_petrenko_2212">
+		<text>I'll take armor-piercing, please. They're precise and lethal...</text>
+	</string>
+	<string id="trade_dialog_petrenko_232">
+		<text>For one artefact Stone Blood I can offer four VOG-25 or three VOG-25p. Which will you take?</text>
+	</string>
+	<string id="trade_dialog_petrenko_231">
+		<text>Give four twenty fifth...</text>
+	</string>
+	<string id="trade_dialog_petrenko_2311">
+		<text>Three, but more powerful...</text>
+	</string>
+	<string id="trade_dialog_petrenko_242">
+		<text>Three packs of standard cartridges or two armor-piercing - a Medusa artefact... Choose...</text>
+	</string>
+	<string id="trade_dialog_petrenko_241">
+		<text>Standard, there is more of them...</text>
+	</string>
+	<string id="trade_dialog_petrenko_2411">
+		<text>Armor-piercing certainly...</text>
+	</string>
+	<string id="trade_dialog_petrenko_252">
+		<text>OYAG-91D Universal protection! An excellent protective suit for the Zone. In structure: overalls OYAG-9D, system has a closed breathing cycle, a built in system of suppression of abnormal fields. Gives qualitative protection against cartridge and fragmental hits. - Mica\nThe Duty Exoskeleton will manage in two artefacts!... I will trade for three Micas...</text>
+	</string>
+	<string id="trade_dialog_petrenko_251">
+		<text>Well give Universal protection</text>
+	</string>
+	<string id="trade_dialog_petrenko_2511">
+		<text>Exo? Give, I will test...</text>
+	</string>
+	<string id="trade_dialog_petrenko_666">
+		<text>You ask Too much...</text>
+	</string>
+	<string id="trade_dialog_petrenko_31">
+		<text>I have sniper rifles:\nA Vintora Dragunova (SVD) for an Urchin artefact\nA shortened SVU-AS for a Soul artefact</text>
+	</string>
+	<string id="trade_dialog_petrenko_32">
+		<text>SVD though is heavy, but very accurate, I will take it...</text>
+	</string>
+	<string id="trade_dialog_petrenko_33">
+		<text>The SVD expert is lighter, I will take it...</text>
+	</string>
+	<string id="trade_dialog_petrenko_322">
+		<text>For the SVD, one Urchin... Agreed?</text>
+	</string>
+	<string id="trade_dialog_petrenko_321">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_petrenko_332">
+		<text>An SVD 'Expert' in exchange for a Soul... Agreed?</text>
+	</string>
+	<string id="trade_dialog_petrenko_331">
+		<text>No problem. Souls aren't that rare...</text>
+	</string>
+	<string id="trade_dialog_petrenko_41">
+		<text>I have only military medkits in stock...</text>
+	</string>
+	<string id="trade_dialog_petrenko_42">
+		<text>What do you want for them?</text>
+	</string>
+	<string id="trade_dialog_petrenko_422">
+		<text>For three medkits one Stone Flower... Agreed?</text>
+	</string>
+	<string id="trade_dialog_petrenko_421">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_petrenko_51">
+		<text>Sorry, I don't have any Repair kits...</text>
+	</string>
+	<string id="trade_dialog_sakharov_0">
+		<text>Do you sell any specialized equipment?</text>
+	</string>
+	<string id="trade_dialog_sakharov_1">
+		<text>No, it's against the rules, and we don't usually offer this service, unlike some governmental services... But we may have a few items superfluous to requirements, which you could repurpose on our behalf. What are you looking for?...</text>
+	</string>
+	<string id="trade_dialog_sakharov_2">
+		<text>Equipment and ammunition...</text>
+	</string>
+	<string id="trade_dialog_sakharov_3">
+		<text>Advanced weapons...</text>
+	</string>
+	<string id="trade_dialog_sakharov_4">
+		<text>First aid...</text>
+	</string>
+	<string id="trade_dialog_sakharov_5">
+		<text>Repair kits for weapons and armor...</text>
+	</string>
+	<string id="trade_dialog_sakharov_21">
+		<text>At the moment we can exchange you:\nM72-M Gauss charges for a Night Star artefact\nM72-M Super Gauss charges for a Spring artefact\nAn SSP-99M Vega, the Ecologist 'Combat' suit, for a Crystal artefact\n12x70mm shotgun shells for a Sparkler artefact</text>
+	</string>
+	<string id="trade_dialog_sakharov_54">
+		<text>I've changed my mind. I'll come back later...</text>
+	</string>
+	<string id="trade_dialog_sakharov_22">
+		<text>Charges for the Gauss rifle, please...</text>
+	</string>
+	<string id="trade_dialog_sakharov_23">
+		<text>Super Gauss? Let's give them a try...</text>
+	</string>
+	<string id="trade_dialog_sakharov_24">
+		<text>I'll have the combat suit. I hope it's green, for camouflage...</text>
+	</string>
+	<string id="trade_dialog_sakharov_25">
+		<text>Shotgun shells, please...</text>
+	</string>
+	<string id="trade_dialog_sakharov_222">
+		<text>For one power capacitor with high performance 9AA elements in a ten-round magazine, we ask for one Night Star artefact... Agreed?</text>
+	</string>
+	<string id="trade_dialog_sakharov_221">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_sakharov_232">
+		<text>For three Super Gauss power capacitors, one Spring...</text>
+	</string>
+	<string id="trade_dialog_sakharov_231">
+		<text>Whatever it costs...</text>
+	</string>
+	<string id="trade_dialog_sakharov_242">
+		<text>Certainly the green Overalls SSP-99M of Vega! Protection of a torso against cartridge and fragmental damage. Effective protection against radiation and biological anomalies. Resistant to chemically-excited environments and other influences harmful to the organism!\nAnd we ask for it only one artefact Crystal.</text>
+	</string>
+	<string id="trade_dialog_sakharov_241">
+		<text>Direct advertising, give!</text>
+	</string>
+	<string id="trade_dialog_sakharov_252">
+		<text>We have three types of cartridge for a shotgun, and can offer them to you for an Sparkler artefact:\nThe standard 12-gauge cartridge filled with buckshot. Five packs...nThe Dart has a stabilised flight for consistent flight. Three packs...\nThe heavy Zhekan Slug - Two packs...</text>
+	</string>
+	<string id="trade_dialog_sakharov_251">
+		<text>Standard Buckshot works on most mutants - I'll have those, please...</text>
+	</string>
+	<string id="trade_dialog_sakharov_2511">
+		<text>Accurate Darts are just what I need...</text>
+	</string>
+	<string id="trade_dialog_sakharov_2512">
+		<text>Zhekan Slugs - Reassuringly lethal to all known mutants!</text>
+	</string>
+	<string id="trade_dialog_sakharov_666">
+		<text>Sorry, I don't have one. Another time perhaps...</text>
+	</string>
+	<string id="trade_dialog_sakharov_31">
+		<text>We can offer you these weapons:\nA smooth-bore SPAS 12 shotgun for a Slug artefact\nAn M72-M Gauss Rifle for three Glassbead artefacts</text>
+	</string>
+	<string id="trade_dialog_sakharov_32">
+		<text>A SPAS12? I’ll have that, please!</text>
+	</string>
+	<string id="trade_dialog_sakharov_33">
+		<text>A Gauss Rifle! I've been after one of those for a long time!</text>
+	</string>
+	<string id="trade_dialog_sakharov_322">
+		<text>The SPAS 12 smooth-bore shotgun is known for its high reliability and flexibility. Maybe even the best close-combat weapon in the Zone. And only needs one Slug to do the job...</text>
+	</string>
+	<string id="trade_dialog_sakharov_321">
+		<text>Okay, I'll take the Spas12...</text>
+	</string>
+	<string id="trade_dialog_sakharov_332">
+		<text>The Gauss Rifle is one of the quietest and deadliest weapons in existence, because its propulsive energy comes from artefacts and not gunpowder. And despite its enormous destructive power that'll penetrate any bulletproof vest, the recoil is practically non-existent. All we ask for it are three Glassbeads artefacts...</text>
+	</string>
+	<string id="trade_dialog_sakharov_331">
+		<text>Three? You know they're not easy to obtain, don't you? But your price is still very reasonable. I'll take it...</text>
+	</string>
+	<string id="trade_dialog_sakharov_41">
+		<text>For your health we can recommend:\nScientific medkits for a Thorn artefact\nAnti-radiation meds for a Slime artefact</text>
+	</string>
+	<string id="trade_dialog_sakharov_42">
+		<text>Scientific medkits? How many? And are they good?</text>
+	</string>
+	<string id="trade_dialog_sakharov_43">
+		<text>Antirads? That'll help me save vodka...</text>
+	</string>
+	<string id="trade_dialog_sakharov_422">
+		<text>It's a medkit developed specially for working in the conditions of the Zone. It's designed for both wounds and radiation sickness, and also reduces a stored dose of radiation. Four medkits for one Thorn... Okay?</text>
+	</string>
+	<string id="trade_dialog_sakharov_421">
+		<text>Well if these medkits are so good, I will take...</text>
+	</string>
+	<string id="trade_dialog_sakharov_432">
+		<text>Antirad medication completely reduces radiation. Five doses for one Slime. Interested?</text>
+	</string>
+	<string id="trade_dialog_sakharov_431">
+		<text>Yes, that's fine...</text>
+	</string>
+	<string id="trade_dialog_sakharov_51">
+		<text>As a rule we don't stock armor repair parts, but we had a large box of complete repair kits delivered to us several months ago in error. We informed our suppliers but have had no response, so with a clear conscience I can offer you two complete kits, each containg eight repair units, for a Gravi artefact...</text>
+	</string>
+	<string id="trade_dialog_sakharov_52">
+		<text>Just two kits for such a valuable artefact?</text>
+	</string>
+	<string id="trade_dialog_sakharov_522">
+		<text>Okay. Three complete kits for a Gravi. Agreed?</text>
+	</string>
+	<string id="trade_dialog_sakharov_521">
+		<text>That's better...</text>
+	</string>
+	<string id="trade_dialog_skraga_0">
+		<text>So do you trade in any other goods?</text>
+	</string>
+	<string id="trade_dialog_skraga_1">
+		<text>If you've got the artefacts then I've got the goods...What exactly do you need?</text>
+	</string>
+	<string id="trade_dialog_skraga_2">
+		<text>Cartridges, grenades, armor?</text>
+	</string>
+	<string id="trade_dialog_skraga_3">
+		<text>A decent weapon...</text>
+	</string>
+	<string id="trade_dialog_skraga_4">
+		<text>First aid...</text>
+	</string>
+	<string id="trade_dialog_skraga_5">
+		<text>Accessories for repairs...</text>
+	</string>
+	<string id="trade_dialog_skraga_21">
+		<text>From ammunition I can offer:\n5.56 cartridges for NATO weapons, for a Slime artefact\nF-1 grenades for a Thorn artefact\nPKM machine gun cartridges for a Crystal Thorn artefact\n5.7x39mm cartridges for the Belgian FN P90, for a Gravi artefact</text>
+	</string>
+	<string id="trade_dialog_skraga_54">
+		<text>I don't need anything...</text>
+	</string>
+	<string id="trade_dialog_skraga_22">
+		<text> 5.56mm cartridges...</text>
+	</string>
+	<string id="trade_dialog_skraga_23">
+		<text>I need grenades...</text>
+	</string>
+	<string id="trade_dialog_skraga_24">
+		<text>Cartridges for the PKM, please...</text>
+	</string>
+	<string id="trade_dialog_skraga_25">
+		<text>Cartridges for the 5.7x39mm Belgian FN P90, please...</text>
+	</string>
+	<string id="trade_dialog_skraga_222">
+		<text>For one Slime I can give you five packs of standard or three armor-piercing. Okay?</text>
+	</string>
+	<string id="trade_dialog_skraga_221">
+		<text>Five standard...</text>
+	</string>
+	<string id="trade_dialog_skraga_2211">
+		<text>Armor-piercing...</text>
+	</string>
+	<string id="trade_dialog_skraga_232">
+		<text>Two grenades for a Thorn... Agreed?</text>
+	</string>
+	<string id="trade_dialog_skraga_231">
+		<text>I need grenades...</text>
+	</string>
+	<string id="trade_dialog_skraga_242">
+		<text>Two boxes of cartridges for a Crystal Thorn artefact. Agreed?</text>
+	</string>
+	<string id="trade_dialog_skraga_241">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_skraga_252">
+		<text>Four packs of cartridges for a Gravi. Agreed?</text>
+	</string>
+	<string id="trade_dialog_skraga_251">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_skraga_666">
+		<text>Sorry, I don't have one. Another time perhaps...</text>
+	</string>
+	<string id="trade_dialog_skraga_31">
+		<text>I can offer:\nA Belgian FN P90 for a Goldfish artefact\nAn FN2000 automatic with a 40mm grenade launcher, sight-module, and fire control for three Soul artefacts</text>
+	</string>
+	<string id="trade_dialog_skraga_32">
+		<text>Give me the Belgian FN P90...</text>
+	</string>
+	<string id="trade_dialog_skraga_33">
+		<text>I've wanted for a long time to get my hands on a FN2000...</text>
+	</string>
+	<string id="trade_dialog_skraga_322">
+		<text>Where is the Goldfish?</text>
+	</string>
+	<string id="trade_dialog_skraga_321">
+		<text>Here, take away...</text>
+	</string>
+	<string id="trade_dialog_skraga_332">
+		<text>The cost is three Souls...</text>
+	</string>
+	<string id="trade_dialog_skraga_331">
+		<text>Here take these Souls...</text>
+	</string>
+	<string id="trade_dialog_skraga_41">
+		<text>Well, I can offer you:\nMedkits, for a Medusa artefact\nAntirads, for a Quirk artefact...</text>
+	</string>
+	<string id="trade_dialog_skraga_42">
+		<text>I'll take the medkits...</text>
+	</string>
+	<string id="trade_dialog_skraga_43">
+		<text>You won't survive long in the Zone without Antirads...</text>
+	</string>
+	<string id="trade_dialog_skraga_422">
+		<text>For five medkits one Medusa... agree?</text>
+	</string>
+	<string id="trade_dialog_skraga_421">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_skraga_432">
+		<text>Five Antirads in exchange for a Quirk... Okay?</text>
+	</string>
+	<string id="trade_dialog_skraga_431">
+		<text>Yes, that's fine...</text>
+	</string>
+	<string id="trade_dialog_skraga_51">
+		<text>Well, I can offer you:\nWeapon repair kits, for a Stone Flower artefact</text>
+	</string>
+	<string id="trade_dialog_skraga_52">
+		<text>For armor, please...</text>
+	</string>
+	<string id="trade_dialog_skraga_53">
+		<text>Weapon kits, please...</text>
+	</string>
+	<string id="trade_dialog_skraga_522">
+		<text>For three ten-percent, eight-unit kits - one Gravi... Okay?</text>
+	</string>
+	<string id="trade_dialog_skraga_521">
+		<text>Okay...</text>
+	</string>
+	<string id="trade_dialog_skraga_532">
+		<text>Three ten-percent weapon kits in exchange for Stone Flower... Okay?</text>
+	</string>
+	<string id="trade_dialog_skraga_531">
+		<text>Yes, I accept...</text>
+	</string>
+	<string id="sidor_repair_dialog_0">
+		<text>I've never seen this type of repair kit before. How do I use it?</text>
+	</string>
+	<string id="sidor_repair_dialog_1">
+		<text>standard - When you open it up, it'll scan all the weapons and armor you're carrying, and inform you which ones can be used for spares. You select which items should be salvaged, but be careful not to choose your own kit! Repairs to your weapons will be the ones you're holding, not in your backpack. Repairs to armor will be to what you're wearing. If your kit's too badly damaged, then it may be beyond simple repair. The unit will send a message to your PDA via Bluetooth, and you'll need to see a weapons or armor specialist. If you're carrying something like a detector instead of a pistol, the kit won't recognise it, and you'll get a message telling you to put it away. That's all - just play with it. Oh, a useful tip - if you're ever in a place where you can't carry all the loot you find, then strip it down for spare parts instead. That'll also prevent other bastards finding it, and using it against you...</text>
+	</string>
+	<!-- <string id="sidor_repair_dialog_2">
+		<text>And what is this parts bag for?</text>
+	</string>
+	<string id="sidor_repair_dialog_3">
+		<text>It's simply a carrying case for salvaged parts from weapons and armor. I've added some parts for you already... try it out for yourself... and, be careful not to lose it out there, otherwise you won't be able to carry any parts at all...</text>
+	</string> -->
+	<string id="sidor_repair_dialog_4">
+		<text>I will make sure to keep it on me at all times, thanks!</text>
+	</string>
+	<string id="trade_dialog_sak_0">
+		<text>I need some equipment</text>
+	</string>
+	<string id="trade_dialog_sak_1">
+		<text>Please understand that money is of no use here. Only artefacts are accepted in trade... What are you looking for?</text>
+	</string>
+	<string id="trade_dialog_sak_2">
+		<text>Ammo, grenades, decent body armor...</text>
+	</string>
+	<string id="trade_dialog_sak_3">
+		<text>Good weapons...</text>
+	</string>
+	<string id="trade_dialog_sak_4">
+		<text>First aid...</text>
+	</string>
+	<string id="trade_dialog_sak_5">
+		<text>Repair kits...</text>
+	</string>
+	<string id="trade_dialog_sak_21">
+		<text>I can offer:\nSniper cartridges, for a Meat Chunk artefact\n9x39 cartridges for the Shaft and the Vintorez, for a Gravi artefact\nGauss charges, for a Fireball artefact\nMilitary SKAT10 armor, for three Urchin artefacts</text>
+	</string>
+	<string id="trade_dialog_sak_54">
+		<text>Ah, sorry. Not at the moment, thanks...</text>
+	</string>
+	<string id="trade_dialog_sak_22">
+		<text>How many sniper cartridges?</text>
+	</string>
+	<string id="trade_dialog_sak_23">
+		<text>Vintorez cartridges, please</text>
+	</string>
+	<string id="trade_dialog_sak_24">
+		<text>Gauss charges? How many?</text>
+	</string>
+	<string id="trade_dialog_sak_25">
+		<text>The SKAT10 armor for how much?</text>
+	</string>
+	<string id="trade_dialog_sak_222">
+		<text>Although the 7N13 round is good for penetration, its dispersion is too wide for snipers, even at average distances.\nThe 7N1 standard cartridge is 2-3 times better than the 7N13 in terms of dispersion, but it doesn't penetrate so well\nIn terms of grouping, the 7N14 is as good as the 7N1, but far better in armor-piercing thanks to a tempered steel core.\nFor a Meat Chunk I'll give you two packs of standard sniper cartridges, or one pack of armor-piercing. Your choice...</text>
+	</string>
+	<string id="trade_dialog_sak_221">
+		<text>Two packs of standard, please...</text>
+	</string>
+	<string id="trade_dialog_sak_2211">
+		<text>I need accurate sniper cartridges...</text>
+	</string>
+	<string id="trade_dialog_sak_2212">
+		<text>Armor-piercing, please, for distance...</text>
+	</string>
+	<string id="trade_dialog_sak_232">
+		<text>Five packs of standard, four packs of sniper, or three packs of armor-piercing, for one Gravi... What type?</text>
+	</string>
+	<string id="trade_dialog_sak_231">
+		<text>Give five standard...</text>
+	</string>
+	<string id="trade_dialog_sak_2311">
+		<text>Sniper, please.</text>
+	</string>
+	<string id="trade_dialog_sak_2312">
+		<text>Armor piercing - for Bloodsuckers...</text>
+	</string>
+	<string id="trade_dialog_sak_242">
+		<text>One completely charged node for a Fireball...</text>
+	</string>
+	<string id="trade_dialog_sak_241">
+		<text>I agree, here's a Fireball</text>
+	</string>
+	<string id="trade_dialog_sak_252">
+		<text>Three Urchins and the SKAT10 is yours...</text>
+	</string>
+	<string id="trade_dialog_sak_251">
+		<text>Here's three Urchins...</text>
+	</string>
+	<string id="trade_dialog_sak_666">
+		<text>Sorry, I don't have them...</text>
+	</string>
+	<string id="trade_dialog_sak_31">
+		<text>I can offer a special silenced BCC Vintorez with flash suppression for snipers...</text>
+	</string>
+	<string id="trade_dialog_sak_32">
+		<text>What are you asking for it?</text>
+	</string>
+	<string id="trade_dialog_sak_33">
+		<text>A Saiga - that's quite something!.</text>
+	</string>
+	<string id="trade_dialog_sak_322">
+		<text>Just one Crystal... Agreed?</text>
+	</string>
+	<string id="trade_dialog_sak_321">
+		<text>Agreed!</text>
+	</string>
+	<string id="trade_dialog_sak_332">
+		<text>A Saiga in exchange for a Meat Chunk... Sound good to you?</text>
+	</string>
+	<string id="trade_dialog_sak_331">
+		<text>Yes, it does. Meat Chunks aren't that difficult to find...</text>
+	</string>
+	<string id="trade_dialog_sak_41">
+		<text>I only have military medkits...</text>
+	</string>
+	<string id="trade_dialog_sak_42">
+		<text>And what you ask?</text>
+	</string>
+	<string id="trade_dialog_sak_43">
+		<text>You won't survive long in the Zone without vodka...</text>
+	</string>
+	<string id="trade_dialog_sak_422">
+		<text>For three medkits one Crystal Thorn... Agreed?</text>
+	</string>
+	<string id="trade_dialog_sak_421">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_sak_432">
+		<text>Five bottles in exchange for a Quirk... Agreed?</text>
+	</string>
+	<string id="trade_dialog_sak_431">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_sak_51">
+		<text>Well, I can offer you:\nArmor repair kits, for a Flash artefact</text>
+	</string>
+	<string id="trade_dialog_sak_52">
+		<text>How many kits?</text>
+	</string>
+	<string id="trade_dialog_sak_53">
+		<text>For weapon repair...</text>
+	</string>
+	<string id="trade_dialog_sak_522">
+		<text>For three ten-percent, eight-unit kits, one Flash... Agreed?</text>
+	</string>
+	<string id="trade_dialog_sak_521">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_sak_532">
+		<text>Three ten-percent weapon complete kits in exchange for a Stone Flower... Okay?</text>
+	</string>
+	<string id="trade_dialog_sak_531">
+		<text>Yes, please...</text>
+	</string>
+	<string id="trade_dialog_doktor_0">
+		<text>I need some equipment...</text>
+	</string>
+	<string id="trade_dialog_doktor_1">
+		<text>I'll do my best for you but I'll need to replace them, so I'll need some artefacts in exchange... What do you need?</text>
+	</string>
+	<string id="trade_dialog_doktor_2">
+		<text>Cartridges...</text>
+	</string>
+	<string id="trade_dialog_doktor_3">
+		<text>Good weapons...</text>
+	</string>
+	<string id="trade_dialog_doktor_4">
+		<text>Medkits...</text>
+	</string>
+	<string id="trade_dialog_doktor_5">
+		<text>Repair kits...</text>
+	</string>
+	<string id="trade_dialog_doktor_21">
+		<text>Here's the ammunition I have:\nShotgun cartridges, for a Thorn artefact\nRGD-5 grenades, for a Slime artefact\n5.56x39mm cartridges, for a Droplet artefact\n7.62x39mm cartridges, for a Flash artefact</text>
+	</string>
+	<string id="trade_dialog_doktor_54">
+		<text>Nothing for now, thanks...</text>
+	</string>
+	<string id="trade_dialog_doktor_22">
+		<text>How many shotgun shells?</text>
+	</string>
+	<string id="trade_dialog_doktor_23">
+		<text>Grenades, please...</text>
+	</string>
+	<string id="trade_dialog_doktor_24">
+		<text>Cartridges for NATO weapons, please...</text>
+	</string>
+	<string id="trade_dialog_doktor_25">
+		<text>AK-47 cartridges...</text>
+	</string>
+	<string id="trade_dialog_doktor_222">
+		<text>For five packs of shotgun shells - one Thorn... Agreed?</text>
+	</string>
+	<string id="trade_dialog_doktor_221">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_doktor_232">
+		<text>Five grenades for one Slime... Okay?</text>
+	</string>
+	<string id="trade_dialog_doktor_231">
+		<text>I need grenades...</text>
+	</string>
+	<string id="trade_dialog_doktor_242">
+		<text>Three packs of cartridges - one Droplet artefact... Agreed?</text>
+	</string>
+	<string id="trade_dialog_doktor_241">
+		<text>I accept...</text>
+	</string>
+	<string id="trade_dialog_doktor_252">
+		<text>Three packs of cartridges - Flash... agree?</text>
+	</string>
+	<string id="trade_dialog_doktor_251">
+		<text>Yes, the stopping power is tremendous!...</text>
+	</string>
+	<string id="trade_dialog_doktor_666">
+		<text>Sorry, I don't have one. Another time perhaps...</text>
+	</string>
+	<string id="trade_dialog_doktor_31">
+		<text>Well, I can offer you a SiG sniper rifle. It was created for urban combat, so several components have been machined down or replaced. This reduced the weight by half, but kept deterioration to a minimum. There's a fixed optical sight with an increased frequency rate... I can swap it for some Mica artefacts\nIf you're desperate, I've an old but reliable AK-47, for a Soul artefact...</text>
+	</string>
+	<string id="trade_dialog_doktor_32">
+		<text>How many Micas for the sniper SiG?</text>
+	</string>
+	<string id="trade_dialog_doktor_33">
+		<text>The AK-47 will do...</text>
+	</string>
+	<string id="trade_dialog_doktor_322">
+		<text>Three should be enough...</text>
+	</string>
+	<string id="trade_dialog_doktor_321">
+		<text>Here are your artefacts. Thank you...</text>
+	</string>
+	<string id="trade_dialog_doktor_332">
+		<text>Soul that is?</text>
+	</string>
+	<string id="trade_dialog_doktor_331">
+		<text>Is available, have specially reserved...</text>
+	</string>
+	<string id="trade_dialog_doktor_41">
+		<text>Well, I can offer you:\nMedkits, for a Slug artefact\nAntirads, for a Stone Flower artefact</text>
+	</string>
+	<string id="trade_dialog_doktor_42">
+		<text>Medkits? What kind, and how many?</text>
+	</string>
+	<string id="trade_dialog_doktor_43">
+		<text>Antirads? How many?</text>
+	</string>
+	<string id="trade_dialog_doktor_422">
+		<text>Three Scientific kits for one Slug... Okay?</text>
+	</string>
+	<string id="trade_dialog_doktor_421">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_doktor_432">
+		<text>Five Antirads in exchange for one Stone Flower... Okay?</text>
+	</string>
+	<string id="trade_dialog_doktor_431">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_doktor_51">
+		<text>I only have Repair kits for weapons...</text>
+	</string>
+	<string id="trade_dialog_doktor_52">
+		<text>For armor, please...</text>
+	</string>
+	<string id="trade_dialog_doktor_53">
+		<text>And what do you need for them?</text>
+	</string>
+	<string id="trade_dialog_doktor_522">
+		<text>For three ten-percent, eight-unit kits one Gravi... Okay?</text>
+	</string>
+	<string id="trade_dialog_doktor_521">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_doktor_532">
+		<text>Three ten-percent weapon complete kits in exchange for a Crystal Thorn... Okay?</text>
+	</string>
+	<string id="trade_dialog_doktor_531">
+		<text>Yes, please...</text>
+	</string>
+	<string id="trade_dialog_jlob_0">
+		<text>Hi, what are you selling?</text>
+	</string>
+	<string id="trade_dialog_jlob_11">
+		<text>I'm in charge of provisions here. We're looking for people who can get food for us. I can make it worth your while...</text>
+	</string>
+	<string id="trade_dialog_jlob_12">
+		<text>What do you need? And what are you offering?</text>
+	</string>
+	<string id="trade_dialog_jlob_1">
+		<text>We don't need any money or artefacts. Those Duty bastards are trying to cut off our supplies and starve us out, and so far they've been doing a good job of it. We need food and fresh water. If you can get us some beer and cigars that would be even better!</text>
+	</string>
+	<string id="trade_dialog_jlob_2">
+		<text>What kind of cartridges are you offering?</text>
+	</string>
+	<string id="trade_dialog_jlob_3">
+		<text>Do you have any good weapons?</text>
+	</string>
+	<string id="trade_dialog_jlob_4">
+		<text>What medical supplies do you have?</text>
+	</string>
+	<string id="trade_dialog_jlob_5">
+		<text>Do you have any repair kits?</text>
+	</string>
+	<string id="trade_dialog_jlob_21">
+		<text>For cartridges:\nFive sandwiches will get you one box of 5.45x39mm\nTwo bars of chocolate gets you one RGD-5 Grenade\nTwo cans of  '100 Rads' beer gets you a box of 9x19mm +P+\nFive loaves of bread get you an F1 grenade</text>
+	</string>
+	<string id="trade_dialog_jlob_54">
+		<text>Sorry, nothing to trade today...</text>
+	</string>
+	<string id="trade_dialog_jlob_22">
+		<text>I'll take those 5.45 cartridges, please...</text>
+	</string>
+	<string id="trade_dialog_jlob_23">
+		<text>I'll have an RGD-5 grenade...</text>
+	</string>
+	<string id="trade_dialog_jlob_24">
+		<text>The 9x19 armor piercing...</text>
+	</string>
+	<string id="trade_dialog_jlob_25">
+		<text>I'll have an F-1...</text>
+	</string>
+	<string id="trade_dialog_jlob_222">
+		<text>Give me the sandwich first and then you can have your cartridges...</text>
+	</string>
+	<string id="trade_dialog_jlob_221">
+		<text>Yes, here they are...</text>
+	</string>
+	<string id="trade_dialog_jlob_232">
+		<text>Those are my favorites!</text>
+	</string>
+	<string id="trade_dialog_jlob_231">
+		<text>I'll see if I can get you some more...</text>
+	</string>
+	<string id="trade_dialog_jlob_242">
+		<text>Energy drinks are needed here...</text>
+	</string>
+	<string id="trade_dialog_jlob_241">
+		<text>Go on, have a drink...</text>
+	</string>
+	<string id="trade_dialog_jlob_252">
+		<text>This bread had better be fresh! Half the guys here are shitting blood from irradiated food...</text>
+	</string>
+	<string id="trade_dialog_jlob_251">
+		<text>Give me the grenades...</text>
+	</string>
+	<string id="trade_dialog_jlob_666">
+		<text>Sorry, I'm out. Maybe next time...</text>
+	</string>
+	<string id="trade_dialog_jlob_31">
+		<text>You want weapons? Here's what I have:\nThe AN-94 'Abakan' will cost you ten tins of canned food\nThe HK MP5 will cost you five sausages</text>
+	</string>
+	<string id="trade_dialog_jlob_32">
+		<text>I need an Abakan...</text>
+	</string>
+	<string id="trade_dialog_jlob_33">
+		<text>The MP-5, please...</text>
+	</string>
+	<string id="trade_dialog_jlob_322">
+		<text>Hand over the canned food...</text>
+	</string>
+	<string id="trade_dialog_jlob_321">
+		<text>Here you are, enjoy!</text>
+	</string>
+	<string id="trade_dialog_jlob_332">
+		<text>There'd better not be maggots in it...</text>
+	</string>
+	<string id="trade_dialog_jlob_331">
+		<text>It's good. Check for yourself...</text>
+	</string>
+	<string id="trade_dialog_jlob_41">
+		<text>This is what's available from our infirmary:\nTwo flasks of water get you one medkit\nFive sandwiches get you one Cossacks vodka</text>
+	</string>
+	<string id="trade_dialog_jlob_42">
+		<text>I'll take the medkit...</text>
+	</string>
+	<string id="trade_dialog_jlob_43">
+		<text>I'll take the vodka...</text>
+	</string>
+	<string id="trade_dialog_jlob_422">
+		<text>Finally, some fresh water...</text>
+	</string>
+	<string id="trade_dialog_jlob_421">
+		<text>There you are, drink up...</text>
+	</string>
+	<string id="trade_dialog_jlob_432">
+		<text>Five sandwiches for a bottle...</text>
+	</string>
+	<string id="trade_dialog_jlob_431">
+		<text>Ah, vodka! You can never drink enough of it...</text>
+	</string>
+	<string id="trade_dialog_jlob_51">
+		<text>Repair kits:\nThree 'Zone' beers will get you one Armor repair kit\nThree Cuban cigars will get you one Weapon repair kit</text>
+	</string>
+	<string id="trade_dialog_jlob_52">
+		<text>I'll take the Armor kit.</text>
+	</string>
+	<string id="trade_dialog_jlob_53">
+		<text>Weapon kits are what I need. Here, enjoy these Cuban cigars...</text>
+	</string>
+	<string id="trade_dialog_jlob_522">
+		<text>Do you have the beer?</text>
+	</string>
+	<string id="trade_dialog_jlob_521">
+		<text>Here's three beers. Enjoy!</text>
+	</string>
+	<string id="trade_dialog_jlob_532">
+		<text>Wow, it's been too long since I enjoyed one of these...</text>
+	</string>
+	<string id="trade_dialog_jlob_531">
+		<text>They're not easy to find in the Zone...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_0">
+		<text>Do you sell equipment?</text>
+	</string>
+	<string id="trade_dialog_sherstyk_1">
+		<text>Yes, but only for vodka. What are looking for?</text>
+	</string>
+	<string id="trade_dialog_sherstyk_2">
+		<text>Cartridges, grenades, and body armor...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_3">
+		<text>A decent combat rifle or machine gun...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_4">
+		<text>Military medkits...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_21">
+		<text>Well, if you can get me vodka, I can get you:\n5.45x39mm cartridges for the AK-74\nF-1 grenades\n7.62 PKM machine gun cartridges\nA decent armored suit</text>
+	</string>
+	<string id="trade_dialog_sherstyk_22">
+		<text>AK-74 cartridges, please...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_23">
+		<text>F-1 grenades...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_24">
+		<text>PKM rounds...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_25">
+		<text>I sell two versions of that ammo\nA small box for seven bottles of vodka\nA larger box for twelve bottles of vodka\n \nYour choice...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_27">
+		<text>I'll take the armor, but only if its new...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_222">
+		<text>I can give five packs of standard or three packs armor-piercing for three bottles... up to you?</text>
+	</string>
+	<string id="trade_dialog_sherstyk_221">
+		<text>Five standard, please...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_2211">
+		<text>The armor-piercing, please...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_232">
+		<text>An F-1 grenade for a bottle of vodka... Agreed?</text>
+	</string>
+	<string id="trade_dialog_sherstyk_231">
+		<text>Agreed...</text>
+	</string>
+	<!-- <string id="trade_dialog_sherstyk_241000">
+		<text>I agree...</text>
+	</string> -->
+	<string id="trade_dialog_sherstyk_241">
+		<text>A box of 100 cartridges for seven bottles...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_243">
+		<text>One box of 250 cartridges for twelve bottles...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_250">
+		<text>I really need it though, I will accept SKAT9...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_252">
+		<text>This armor just came from the warehouse!\nI have two types:\nA SKAT9 for fifteen bottles\nA SKAT10 for twenty five bottles...\nBut the SKAT10 isn't, er, accessible at the moment...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_251">
+		<text>Okay, I'll take the SKAT10...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_254">
+		<text>This armor just came from the warehouse!\nI have two types:\nA SKAT9 for fifteen bottles\nA SKAT10 for twenty five bottles...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_666">
+		<text>Sorry, not enough vodka. I'll come back...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_31">
+		<text>I can get you:\nAn Abakan equipped with a 3h-fold optical sight for sniper fire. The optics built into the case have a more powerful zoom than the standard sights\nA PKM machine gun - strong and heavy, but very powerful with hard-hitting rounds and a 100 shot magazine capacity. Guaranteed to give the Chimeras a surprise!</text>
+	</string>
+	<string id="trade_dialog_sherstyk_32">
+		<text>An Abakan sniper? How many bottles?</text>
+	</string>
+	<string id="trade_dialog_sherstyk_33">
+		<text>How much vodka for the PKM?</text>
+	</string>
+	<string id="trade_dialog_sherstyk_322">
+		<text>The gun is first class! Fifteen bottles I want... agree?</text>
+	</string>
+	<string id="trade_dialog_sherstyk_321">
+		<text>Its a deal, here's your vodka...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_332">
+		<text>Look, bringing out a PKM machine gun without being seen is no easy task... It'll cost you a case of vodka - 20 bottles. Deal?</text>
+	</string>
+	<string id="trade_dialog_sherstyk_331">
+		<text>Deal...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_333">
+		<text>Look, bringing out a PKM machine gun without being seen is no easy task...\n... Oh, it seems that I've already sold the last one...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_334">
+		<text>I really need this weapon. I'll be back for a day or two...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_41">
+		<text>Yes, Military medkits are twice as effective as standard kits...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_42">
+		<text>And how many will you give?</text>
+	</string>
+	<string id="trade_dialog_sherstyk_422">
+		<text>Two medkits for a bottle...</text>
+	</string>
+	<string id="trade_dialog_sherstyk_421">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_0">
+		<text>You said you could supply equipment?</text>
+	</string>
+	<string id="trade_dialog_kuznezov_1">
+		<text>Yes, but first bring some vodka and then I'll help you out, depending on how many you bring...\nWhat exactly do you want?</text>
+	</string>
+	<string id="trade_dialog_kuznezov_12">
+		<text>Well, for vodka I can exchange:\n5.45x39mm cartridges for the AK-74\nRGD5 grenades\n7.62 cartridges for the AK-47\nSniper cartridges\nBerill-5M armor</text>
+	</string>
+	<string id="trade_dialog_kuznezov_122">
+		<text>I'll take armor...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_123">
+		<text>For one Berill-5M armor, I want fifteen bottles... Agreed?</text>
+	</string>
+	<string id="trade_dialog_kuznezov_124">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_2">
+		<text>Cartridges, grenades, and some good armor...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_3">
+		<text>A decent combat rifle or a machine gun?</text>
+	</string>
+	<string id="trade_dialog_kuznezov_4">
+		<text>Military medkits are unique. Do you have any spare...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_21">
+		<text>Well, for vodka I can exchange:\n5.45x39mm cartridges for the AK-74\nRGD5 grenades\n7.62 cartridges for the AK-47\nSniper cartridges</text>
+	</string>
+	<string id="trade_dialog_kuznezov_54">
+		<text>Nothing for now, thanks...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_22">
+		<text>I'll take cartridges for the AK-74...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_23">
+		<text>I need grenades</text>
+	</string>
+	<string id="trade_dialog_kuznezov_24">
+		<text>I'll take the AK-47 ammo...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_25">
+		<text>The Sniper - the king of the Zone, give me some cartridges...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_222">
+		<text>I can give five packs of standard or three packs of armor-piercing for three bottles... up to you?</text>
+	</string>
+	<string id="trade_dialog_kuznezov_221">
+		<text>Five packs of standard, please...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_2211">
+		<text>The armor-piercing, please...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_232">
+		<text>Two grenades = one vodka... Okay?</text>
+	</string>
+	<string id="trade_dialog_kuznezov_231">
+		<text>I need grenades.</text>
+	</string>
+	<string id="trade_dialog_kuznezov_242">
+		<text>Cartridges only armor-piercing - five bottles for three packs...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_241">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_252">
+		<text>A pack of sniper cartridges - three bottles...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_251">
+		<text>If that's what it costs...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_666">
+		<text>Sorry, I don't have one. Another time perhaps...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_31">
+		<text>I can get you:\nAn Abakan. A powerful, reliable weapon\nAn AK-47. A classic weapon all over the world, reliable and efficient...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_32">
+		<text>An Abakan? How many bottles you ask?</text>
+	</string>
+	<string id="trade_dialog_kuznezov_33">
+		<text>An AK-47! How much vodka?</text>
+	</string>
+	<string id="trade_dialog_kuznezov_322">
+		<text>I want ten bottles... Agreed?</text>
+	</string>
+	<string id="trade_dialog_kuznezov_321">
+		<text>Certainly! Here's the vodka...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_332">
+		<text>It's cheap... Eight bottles and it's yours...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_331">
+		<text>Agreed...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_41">
+		<text>They're twice as effective as standard kits... Real soldiers protect their health...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_42">
+		<text>And how many will you give?</text>
+	</string>
+	<string id="trade_dialog_kuznezov_422">
+		<text>Two medkits for a bottle...</text>
+	</string>
+	<string id="trade_dialog_kuznezov_421">
+		<text>Agreed!</text>
+	</string>
+	<string id="sak_military_stalker_dialog_0">
+		<text>Stalker, we need to talk...</text>
+	</string>
+	<string id="sak_military_stalker_dialog_1">
+		<text>Yes, I believe we can be of service to each other...</text>
+	</string>
+	<string id="sak_military_stalker_dialog_2">
+		<text>Interesting. I'm listening...</text>
+	</string>
+	<string id="sherstyk_1_dialog_0">
+		<text>Do you know where the documents are located on the third floor?</text>
+	</string>
+	<string id="sherstyk_1_dialog_1">
+		<text>And that! We hardly sleep with this case in embrace... In any way an opportunity will not wait what to send all this shit to the center... On hearings there that that with Burner a brain is connected... Or with a way brains zombie...\nAnd you that what advantage of them?</text>
+	</string>
+	<string id="sherstyk_1_dialog_2">
+		<text>There is an interest, time is asked...</text>
+	</string>
+	<string id="sherstyk_1_dialog_3">
+		<text>Interest is? And in what you estimate this interest?</text>
+	</string>
+	<string id="sherstyk_1_dialog_4">
+		<text>Well not in gold reserves in Russia... And there are variants?</text>
+	</string>
+	<string id="sherstyk_1_dialog_5">
+		<text>Has got us here to sit... You of binge, neither women, nor entertainments... I to you so will tell - for good binge all can be got... got it?</text>
+	</string>
+	<string id="sherstyk_1_dialog_6">
+		<text>Well very good binge I do not promise, but vodka it is possible to adjust... Not of burning...</text>
+	</string>
+	<string id="sherstyk_1_dialog_7">
+		<text>Appears so... A box of vodka - and the case is yours... That's a bargain yes?</text>
+	</string>
+	<string id="sherstyk_1_dialog_8">
+		<text>A bargain! there Will be a box of vodka for you!</text>
+	</string>
+	<string id="sherstyk_1_dialog_9">
+		<text>Eh of the fighter! The native land for vodka will sell... Itself I will extract...</text>
+	</string>
+	<string id="tex_agroprom_vodka">
+		<text>\nIn exchange for twenty bottles of vodka, Ensign Sherstyuk agrees to get you a case of documents...</text>	<!-- Changed 'Sherstjuk' to 'Sherstyuk'- Sword2012 - 27 Mar 17-->
+	</string>
+	<string id="tex_borov_11">
+		<text>Borov has sent me to survey the site of a helicopter crash which is located behind a bog, just south of the lab, in the Dark Valley. All that is valuable - we must drag to Borov...</text>
+	</string>
+	<string id="tex_bandit_krisyk">
+		<text>\nThe Bandit known by the nickname 'Rat' has compiled many secrets in his PDA. Borov wants the return of this PDA. In any way. A mark on a map where the Rat disappeared, it is possible that the Associate from the '100 Rads' bar can pinpoint his location.</text>	<!-- Changed 'Senior Lecturer' to 'Associate'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="sherstyk_12_dialog_0">
+		<text>Hello, the vodka has arrived!</text>
+	</string>
+	<string id="sherstyk_12_dialog_1">
+		<text>Ah, you're a good man! Let's take a look...</text>
+	</string>
+	<string id="sherstyk_12_dialog_2">
+		<text>Have you brought the documents?</text>
+	</string>
+	<string id="sherstyk_12_dialog_3">
+		<text>The word of a military man is his bond! Here are your documents...</text>
+	</string>
+	<string id="sherstyk_12_dialog_4">
+		<text>Here's your vodka...</text>
+	</string>
+	<string id="sherstyk_12_dialog_5">
+		<text>Hold this suitcase, do not strain yourself now...</text>
+	</string>
+	<string id="enc_price">
+		<text>Trader deals</text>
+	</string>
+	<string id="price_sidor_text">
+		<text>Sidorovich's deals for artefacts:\n \n12x70 buckshot - three packs for a Medusa\n5.45x39mm cartridges - three packs for a Droplet\n7.62x39mm cartridges - two packs for a Stone Blood\nRG-5 grenades - two for a Quirk\n \nA TOZ-34 for a Flash\nA Saiga-12k for a Meat Chunk\n \nEight medkits for a Stone Flower\nThree bottles of vodka for a Quirk\n \nThree Armor repair kits (8 units each) for a Gravi\nThree Weapon repair kits (8 units each) for a Stone Flower</text>
+	</string>
+	<string id="price_barman_text">
+		<text>Barkeep's offers for artefacts:\n \n5.45x39mm cartridges: five packs of standard, or three packs of armor-piercing for a Flash\n5.56x39mm cartridges: five packs of standard, or three packs of armor-piercing for a Slime\n9x39mm cartridges: five packs of standard, or three packs of armor-piercing for a Gravi\nThree RGD-5 grenades for a Stone Flower\n \nAn AS Val for two Fireballs\nAn OC-14 Groza for a Night Star\n \nFive Standard medkits for a Sparkler\nThree bottles of vodka for a Stone Blood\n \nThree Armor repair kits (8 units each) for a Meat Chunk\nThree Weapon repair kits for a Fireball</text>
+	</string>
+	<string id="price_petrenko_text">
+		<text>Petrenko's deals for artefacts:\n \n7.62x54mm cartridges: two packs of standard sniper rounds, or a pack of armor-piercing for a Droplet\n7.62x39mm cartridges: five packs of standard, or three packs of armor-piercing for a Medusa\nFour VOG-25 grenades, or three VOG-25A for a Stone Blood\n \nA Duty PSZ-9Md Universal for two Micas, or a Duty Exoskeleton for three Micas\n \nA Vintora Dragunova (SVD) sniper rifle for an Urchin\nA truncated SVU Expert automatic sniper rifle for a Soul\n \nThree Military medkits for a Stone Flower</text>
+	</string>
+	<string id="price_scraga_text">
+		<text>Miser's deals:\n \n5.56mm cartridges: five packs of standard, or three packs of armor-piercing for a Slime\nPKM machine gun cartridges - two boxes for a Crystal Thorn\n5.7x39mm cartridges for the Belgian FN P90 - four packs for a Gravi\nTwo F-1 grenades for a Thorn\n \nA Belgian FN P90 for a Goldfish\nAn FN2000 for three Souls\n \nFive standard medkits for a Medusa\nFive Antirads for a Quirk\n \nThree Weapon repair kits (8 units each) for a Stone Flower</text>
+	</string>
+	<string id="price_sak_text">
+		<text>Syak's deals for artefacts:\n \nSniper cartridges: two packs of standard, or one pack of armor-piercing for a Meat Chunk\n9x39 cartridges: five packs of standard, four packs of sniper, or three packs of armor-piercing for a Gravi\nGauss rifle charges for a Fireball\n \nA Military SKAT10 for three Urchins\n \nA BCC Vintorez Pro for a Crystal\n \nThree Military medkits for a Crystal Thorn\n \nThree Armor repair kits (8 units each) for a Flash</text>
+	</string>
+	<string id="price_doktor_text">
+		<text>The Swamp Doctor's offers for artefacts:\n \nShotgun cartridges - five packs for a Thorn\n5.56x39mm cartridges - three packs for a Droplet\n7.62x39mm cartridges - three packs for a Flash\nFive RGD-5 grenades for a Slime\n \nAn SiG sniper rifle for three Micas\nAn AK-47 for a Soul\n \nThree Scientific medkits for a Slug\nFive Antirads for a Stone Flower\n \nThree Weapon repair kits (8 units each) for a Gravi</text>
+	</string>
+	<string id="price_jila_text">
+		<text>Core's deals for food and drink:\n \nAmmunition:\nFive fresh sandwiches get you one box of 5.45x39mm cartridges\nTwo bars of chocolate get you one RGD-5 grenade\nTwo '100 Rads' beer get you one box of 9x19mm +P+ Cartridges\nFive loaves of bread get you one F1 grenade\n \nWeapons:\nAn AN-94 'Abakan' will cost you ten tins of canned food\nAn HK MP5 will cost you five sausages\n \nMedical Supplies:\nTwo flasks of water get you one medkit\nFive sandwiches get you one Cossacks vodka\n \nRepair kits:\nThree 'Zone' beers get you one Armor repair kit (8 units)\nThree Cuban cigars get you one Weapon repair kit (8 units)</text>
+	</string>
+	<string id="price_kuznezov_text">
+		<text>Kuznetsov's deals for vodka:\n \n5.45x39mm cartridges for the AK-74 - Five standard packs, or three armor-piercing packs, for three bottles\n7.62x39mm AK-47 cartridges -Three packs for five bottles\nSniper rounds - One pack for three bottles\nRGD5 grenades - two for one bottle\n \nAn AN-94 'Abakan' for 5 litres\nAn AK-47 for 4 litres\n \nTwo medkits for a bottle</text>
+	</string>
+	<string id="price_sherstuk_text">
+		<text>Sherstyuk's deals for vodka:\n \n5.45x39mm cartridges for the AK-74 - three bottles for five packs of standard, or three packs of armor-piercing\n7.62 PKM machine gun cartridges\n - One box of 100 rounds for seven bottles\n - One box of 250 rounds for twelve bottles\nOne F-1 grenade for one bottle\n \nMilitary SKAT9-M for fifteen bottles\nMilitary SKAT10-M for twenty five bottles\n \nAbakan sniper rifle - fifteen bottles\nPKM machine gun for twenty bottles\n \nTwo Standard medkits for one bottle</text>	<!-- Changed 'Sherstjuk' to 'Sherstyuk'- Sword2012 - 27 Mar 17-->
+	</string>
+	<string id="price_sakharov_text">
+		<text>Sakharov's offers for artefacts:\n \n9mm charges for the M72-M Gauss rifle - ten rounds for a Night Star\n9mm charges for the M72-M Super Gauss - three rounds for a Spring\n12x70mm Shotgun shells: five packs of Buckshot, three packs of Darts, or two packs of Slugs for a Sparkler\n \nAn SSP-99M Vega suit for a Crystal\n \nA SPAS 12 smooth-bore shotgun for a Slug\nAn M72-M Gauss-rifle for three Glassbeads\n \nFour Scientific medkits for a Thorn\nFive Antirads for a Slime\n \nThree Armor repair kits (8 units each) for a Gravi</text>
+	</string>
+	<string id="about_repair_box_dialog_0">
+		<text>Can you supply me with another Toolbox?</text>
+	</string>
+	<string id="about_repair_box_dialog_1">
+		<text>Did you go and lose yours or something?</text>
+	</string>
+	<string id="about_repair_box_dialog_2">
+		<text>Just answer the question...</text>
+	</string>
+	<string id="about_repair_box_dialog_3">
+		<text>Yeah, I can provide you with another one... but...</text>
+	</string>
+	<string id="about_repair_box_dialog_4">
+		<text>But, what?...</text>
+	</string>
+	<string id="about_repair_box_dialog_5">
+		<text>But these things aren't cheap. It will cost you ten Medusa artefacts...</text>
+	</string>
+	<string id="about_repair_box_dialog_61">
+		<text>Okay, fine... it's not like I have a choice... here you go...</text>
+	</string>
+	<string id="about_repair_box_dialog_62">
+		<text>That's a bit steep, don't you think?!</text>
+	</string>
+	<string id="about_repair_box_dialog_71">
+		<text>That's what I like about you, Marked One... you never haggle...</text>
+	</string>
+	<string id="about_repair_box_dialog_72">
+		<text>You drive a hard bargain... Okay, fine, make it seven...</text>
+	</string>
+	<string id="about_repair_box_dialog_81">
+		<text>You want to make something of it?... Go ahead!</text>
+	</string>
+	<string id="about_repair_box_dialog_82">
+		<text>Thanks. I'll be back for it when I have the artefacts...</text>
+	</string>
+</string_table>

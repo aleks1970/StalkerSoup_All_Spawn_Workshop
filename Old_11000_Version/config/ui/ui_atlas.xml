@@ -1,0 +1,167 @@
+<!-- ************ TB3D 1.0.9.9.7.0 *************** -->
+<cheat>
+	<back_video x="16" y="13" width="500" height="340" stretch="1">
+		<texture>ui\credits_back_512_v10</texture>
+	</back_video>
+	<background x="0" y="0" width="527" height="360" stretch="1">
+		<texture x="0" y="0" width="350" height="460">ui\ui_dg_inventory</texture>
+	</background>
+	<title x="140" y="0" width="10" height="30">
+		<text font="letterica16">test_3_ui</text>
+	</title>
+	<caption x="195" y="273" width="10" height="30">
+		<text font="letterica18">test_3_ui</text>
+	</caption>
+	<caption2 x="260" y="320" width="10" height="30">
+		<text font="letterica16">test_3_ui</text>
+	</caption2>
+	<edit_box x="30" y="297" width="350" height="30">
+		<texture>ui_linetext_e</texture>
+		<text font="letterica18" r="240" g="220" b="185"/>
+	</edit_box>
+	<btn_1 x="20" y="30" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_1>
+	<btn_2 x="145" y="30" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_2>
+	<btn_3 x="270" y="30" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_3>
+	<btn_4 x="395" y="30" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_4>
+	<btn_5 x="20" y="138" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_5>
+	<btn_6 x="145" y="138" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_6>
+	<btn_7 x="270" y="138" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_7>
+	<btn_8 x="20" y="68" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_8>
+	<btn_9 x="145" y="68" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_9>
+	<btn_10 x="270" y="68" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_10>
+	<btn_11 x="395" y="68" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_11>
+	<btn_12 x="20" y="173" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_12>
+	<btn_13 x="145" y="173" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_13>
+	<btn_14 x="270" y="173" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_14>
+	<btn_15 x="20" y="103" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_15>
+	<btn_16 x="145" y="103" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_16>
+	<btn_17 x="270" y="103" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_17>
+	<btn_18 x="395" y="103" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_18>
+	<btn_19 x="20" y="211" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_19>
+	<btn_20 x="145" y="211" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_20>
+	<btn_21 x="270" y="211" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_21>
+	<btn_22 x="395" y="138" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_22>
+	<btn_23 x="395" y="211" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_23>
+	<btn_24 x="20" y="249" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_24>
+	<btn_25 x="145" y="249" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_25>
+	<btn_26 x="395" y="173" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_26>
+	<btn_27 x="270" y="249" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_27>
+	<btn_28 x="395" y="249" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_28>
+	<btn_0 x="395" y="297" width="100" height="30">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+	</btn_0>
+</cheat>

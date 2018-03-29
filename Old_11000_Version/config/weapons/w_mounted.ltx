@@ -1,0 +1,328 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;-- turret put/get packets, put OGSE values in comments, updated
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+
+[mounted_weapon]:identity_immunities
+GroupControlSection			= spawn_group
+class						= W_MOUNTD
+$spawn						= "weapons\mounted_weapon"
+cform   	                = skeleton
+visual  	                = weapons\mounted_weapons\wpn_pkm_trenoga.ogf  
+
+;-----------------------------------------------------------------------------------
+
+;params of weapon recoil
+fire_dispersion_base		= 0.02 		;1
+
+;מעהאקא
+cam_relax_speed         	= 3.0		;5.0
+cam_dispersion          	= 0.7
+cam_max_angle				= 8
+cam_max_angle_horz			= 9.0   	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 1.8		;(degree) size of step camera moved in horizontal position while shooting
+
+
+fire_dispersion_condition_factor = 5
+misfire_probability 		= 0.0001
+condition_shot_dec 			= 0.00003
+;-----------------------------------------------------------------------------------
+
+
+; ttc
+hit_power					= 2.77		;1.2
+hit_impulse					= 220
+hit_type 					= fire_wound 	
+
+fire_distance  		        = 200					;;;109974 10:1
+bullet_speed				= 800
+rpm            		        = 600		;650
+
+light_color		 = 0.9,0.9,0.5
+light_range		 = 6
+light_var_color  = 0.05
+light_var_range  = 0.5
+light_time 		 = 0.3
+
+ammo_class		 = ammo_7.62x54_7h1
+
+flame_particles		    = weapons\generic_weapon08
+smoke_particles		    = weapons\generic_shoot_00
+
+shell_point		 = 0.0,0.0,0.0
+shell_particles	 = weapons\generic_shells00
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+
+snd_shoot					= weapons\weapon_btr
+;------------------------------------------------------------------------------------------
+
+[ammo_btr]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			= "weapons\ammo\ammo_gauss" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+visual                  = weapons\ammo\ammo_gauss.ogf
+description				= enc_weapons1_ammo_ammo-gauss
+$prefetch 		= 64
+
+cost			= 550
+
+box_size		= 10
+
+inv_name		= ammo-gauss
+inv_name_short	= ammo-gauss_s
+inv_weight		= .5
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 4
+inv_grid_y			= 14
+
+k_dist			= 1.1
+k_disp			= 1
+k_hit			= 100.0
+k_impulse		= 10
+k_pierce		= 10
+impair			= 1.0
+buck_shot		= 1
+tracer			= on
+wm_size         = 0.6
+
+explosive		= off ;on
+
+
+[stationary_mgun]:mounted_weapon						;;apc, apc_nato, btr_90, btr_acto, btr_script_u_01, btr_u_02, _03, btr_u_0n1, combine_apc, dron_test, tank_cry
+ph_mass			 		= 10000 
+
+cam_relax_speed         	= 3.0			;5.0
+cam_dispersion          	= 0.0007
+cam_max_angle				= 1				;8
+snd_shoot					= weapons\weapon_heli
+use_aim_bullet				= false
+
+ammo_class					= ammo_btr
+fire_dispersion_base		= 0.02			;1
+rpm            		        = 600			;650
+hit_power					= 1.0			;1.2
+hit_impulse					= 100			;220
+fire_distance  		        = 200					;;;109974 10:1
+bullet_speed				= 800
+
+light_color					= 0.9,0.9,0.5
+light_range					= 6
+light_var_color				= 0.05
+light_var_range				= 0.5
+light_time 					= 0.3
+
+flame_particles				= weapons\generic_weapon_btr
+smoke_particles				= weapons\generic_shoot_00
+shell_point					= 0.0, 0.0, 0.0
+shell_particles				= weapons\generic_shells00
+
+tracer_trail_scale	 		= 1.0			;0.15
+tracer_start_length	 		= 1.0			;2
+tracer_width		 		= 0.5			;0.07
+
+inv_name	        		= enc_wpn_mounted_weapon_tmp	; name in inventory	
+inv_name_short				= enc_wpn_mounted_weapon_tmp
+
+[turret_kpvt]:stationary_mgun									;;veh_btr_u_01
+hit_power					= 2.2
+bullet_speed				= 920
+;------------------------------ O.G.S.E. sound remake -----------------------
+;snd_shoot					= weapons\weapon_btr_kpvt
+;-----------------------------------------------------------------------------
+;ammo_class					= ammo_12.7x108_heli
+flame_particles				= weapons\heli_weapon
+shell_particles				= weapons\generic_shells
+
+[turret_mgun]:mounted_weapon
+GroupControlSection			= spawn_group
+$spawn						= "weapons\turret_mgun"
+$prefetch					= 1
+cform						= skeleton
+class						= TURRETMG
+script_binding				= turret_mgun.bind
+visual						= weapons\mounted_weapons\wpn_pkm_trenoga.ogf
+
+wallmarks					= explosion_marks
+
+// SHeliMovementState::Load
+path_angular_sp_pitch		= 0.35
+path_angular_sp_heading		= 0.75
+path_linear_acc_fw			= 6
+path_linear_acc_bk			= 4
+on_point_range_dist			= 10.0
+velocity					= 30
+min_altitude				= -15
+path_angular_sp_pitch_0		= 0.2
+path_angular_sp_heading_0	= 1
+safe_altitude				= -10
+
+// SHeliBodyState::Load
+model_angular_sp_bank		= 0.5
+model_angular_sp_pitch		= 0.1
+model_pitch_koef			= 0.016
+model_bank_koef				= 0.018
+
+// SHeliEnemy::Load
+use_fire_trail				= false
+fire_trail_length			= 0
+
+death_angular_vel			= 0.1,6.0,0.2
+death_lin_vel_koeff			= 1
+
+immunities_sect				= turret_mgun_immunities
+
+// CShootingObject::Load
+rpm				= 620					;650
+// CShootingObject::LoadFireParams
+fire_dispersion_base		= 0.02		;0.4
+hit_power					= 2.77		;0.95
+hit_impulse					= 240		;300
+fire_distance				= 100					;;;109974 10:1
+bullet_speed				= 800		;870
+use_aim_bullet				= false
+
+// CShootingObject::LoadLights
+light_color					= 0.9,0.8,0.4
+light_range					= 5
+light_var_color				= 0.05
+light_var_range				= 0.5
+light_time					= 0.2
+
+// CShootingObject::LoadShellParticles
+shell_particles				= weapons\generic_shells00
+shell_point					= 0.0,0.0,0.0
+
+// CShootingObject::LoadFlameParticles
+flame_particles				= weapons\generic_weapon08
+smoke_particles				= weapons\generic_shoot_00
+;shot_particles				=
+
+snd_shoot					= weapons\pkm_shot
+snd_shoot_rocket			= weapons\heli_rocket_shoot
+
+// CRocketLauncher::Load
+launch_speed				= 60
+
+// CHelicopter::UseFireTrail
+fire_dispersion_null		= 1.0
+
+ammo_class					= ammo_7.62x54_7h1 ;ammo_7.62x54_ap
+rocket_class				= wpn_rpg7_missile
+use_rocket					= false
+use_mgun					= true
+min_rocket_attack_dist		= 0
+max_rocket_attack_dist		= 0
+min_mgun_attack_dist		= 3
+max_mgun_attack_dist		= 400		;200
+time_between_rocket_attack	= 0
+syncronize_rocket			= false
+barrel_dir_tolerance		= 2
+
+smoke_particle			= damage_fx\heli_burn
+
+;light_range			= 10.0
+light_brightness		= 5.0
+;light_color			= 0.9,0.9,0.5
+light_color_animmator	= koster_00
+
+// CHelicopter::MoveStep
+magic_angle				= 0.3
+
+// CHelicopter::OnShot
+fire_trace_width		= 0.1
+
+// CHelicopter::DieHelicopter
+broken_snd				= $no_sound
+
+[turret_mgun_immunities]
+burn_immunity			= 0.2
+strike_immunity			= 0.05
+shock_immunity			= 0.8
+wound_immunity			= 0.01
+radiation_immunity		= 0.005
+telepatic_immunity		= 0.0
+chemical_burn_immunity	= 0.01
+fire_wound_immunity		= 0.06			;0.15
+explosion_immunity		= 0.55			;0.6
+
+[turret_army]:turret_mgun
+visual					= weapons\mounted_weapons\wpn_turret_pkm.ogf
+
+[turret_nato]:turret_mgun
+visual					= weapons\mounted_weapons\wpn_turret_nato.ogf
+ammo_class				= ammo_5.56x45_ap
+snd_shoot				= weapons\lr300_shoot2
+rpm						= 700
+fire_dispersion_base	= 0.014			;0.3
+hit_power				= 2.3			;0.7
+hit_impulse				= 180			;280
+fire_distance			= 200					;;;109974 10:1
+bullet_speed			= 920			;970
+
+[turret_tb3d_tripod]:turret_mgun
+visual				= weapons\mounted_weapons\wpn_turret_nato.ogf					;;--green camo on tripod
+ammo_class			= ammo_5.56x45_ap
+snd_shoot			= weapons\lr300_shoot2
+rpm						= 300
+fire_dispersion_base	= 0.014
+hit_power				= 1.0
+hit_impulse				= 100
+fire_distance			= 60					;;;109974 10:1
+bullet_speed			= 720
+
+cam_relax_speed         = 1.0
+cam_dispersion          = 1.0
+
+tracer_trail_scale	 	= 0.2
+tracer_start_length	 	= 0.6
+tracer_width		 	= 0.01
+
+fire_dispersion_condition_factor = 5
+misfire_probability 	= 0.001
+condition_shot_dec 		= 0.0003
+
+min_mgun_attack_dist	= 1
+max_mgun_attack_dist	= 60
+
+immunities_sect			= turret_tb3d_immunities
+
+[turret_tb3d_pivot]:turret_tb3d_tripod
+visual					= weapons\mounted_weapons\wpn_turret_pkm.ogf				;;--green camo on pivit
+max_mgun_attack_dist	= 60
+
+[turret_tb3d_barrier]:turret_tb3d_pivot
+max_mgun_attack_dist	= 80
+immunities_sect			= turret_tb3d_barrier_immunities
+misfire_probability 		= 0.0
+condition_shot_dec 			= 0.0
+
+[turret_tb3d_pkm]:turret_tb3d_tripod
+visual						= weapons\mounted_weapons\wpn_pkm_trenoga.ogf			;;--open PKM on tripod
+min_mgun_attack_dist	= 1
+max_mgun_attack_dist	= 30
+
+[turret_tb3d_immunities]
+burn_immunity			= 0.1
+strike_immunity			= 0.1
+shock_immunity			= 0.1
+wound_immunity			= 0.1
+radiation_immunity		= 0.0
+telepatic_immunity		= 0.0
+chemical_burn_immunity	= 0.01
+fire_wound_immunity		= 0.15
+explosion_immunity		= 0.6
+
+[turret_tb3d_barrier_immunities]
+burn_immunity			= 0.0
+strike_immunity			= 0.0
+shock_immunity			= 0.0
+wound_immunity			= 0.0
+radiation_immunity		= 0.0
+telepatic_immunity		= 0.0
+chemical_burn_immunity	= 0.0
+fire_wound_immunity		= 0.0
+explosion_immunity		= 0.0

@@ -1,0 +1,150 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[wpn_ots33]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn              = "weapons\ots33"
+$npc				= on
+$prefetch 			= 8
+scheduled           = off 
+cform               = skeleton
+class               = WP_LR300
+min_radius          = 0
+max_radius          = 200
+description			= enc_weapons1_wpn-ots33
+
+ef_weapon_type		= 6
+fire_modes			= 1, 2, 3, -1
+
+holder_range_modifier = 1.0
+holder_fov_modifier	= 1.0
+cost				= 2200
+weapon_class        = pistol
+
+ammo_limit		 	= 264
+ammo_current		= 66
+ammo_elapsed		= 18
+ammo_mag_size		= 19
+ammo_class		 	= ammo_9x18_fmj, ammo_9x18_pmm
+
+hand_dependence		 	= 1
+single_handed			= 1
+slot 			 	    = 1
+animation_slot			= 1
+
+inv_name			= wpn_ots33
+inv_name_short		= wpn_ots33
+inv_weight			= 1.15
+
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 44
+inv_grid_y			= 75
+
+kill_msg_x			= 126
+kill_msg_y			= 154
+kill_msg_width		= 35
+kill_msg_height		= 23
+
+;базовая дисперсия
+fire_dispersion_base	= 0.02 	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+
+;отдача
+cam_relax_speed         = 0	;скорость возврата в исходное положение
+cam_dispersion          = 1.5	;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 0.0	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 1.0	;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle			= 20.0	;максимальный угол отдачи
+cam_max_angle_horz		= 10.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 0.6	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 	= 0.004	  ;вероятность осечки при максимальном износе 
+condition_shot_dec 		= 0.0002 ;увеличение износа при каждом выстреле
+
+direction               = 0, 0, 1
+fire_point              = 0.0, 0.129, 0.19
+flame_particles		   	= weapons\generic_weapon03
+smoke_particles		   	= weapons\generic_shoot_00
+
+shell_point		 	= 0.0, 0.129, 0.05
+shell_dir		 	= 0.0, 0.0, 0.4
+shell_particles	 	= weapons\generic_shells
+rpm_empty_click 	= 200
+
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 	= 0.8
+PDM_disp_accel_factor 	= 0.8
+PDM_crouch	 		    = 1.0
+PDM_crouch_no_acc 		= 1.0
+
+hit_power           = 0.91
+hit_impulse		 	= 140
+hit_type 			= fire_wound
+fire_distance       = 100					;;;109974 10:1
+bullet_speed	    = 330
+rpm                 = 850
+
+use_aim_bullet		= true		;Поддерживается ли первая супер пуля
+time_to_aim			= 1.0	
+
+hud                      	= wpn_ots33_hud
+normal                   	= 0, 1, 0
+position                 	= -0.015, -0.085, 0.0
+orientation              	= 0, 0, 0
+
+strap_position      = 0.05,-0.2,-0.11
+strap_orientation   = -15,9,-80	
+strap_bone0			= bip01_spine1
+strap_bone1			= bip01_spine
+
+startup_ammo             	= 90
+visual                   	= weapons\ots33\wpn_ots33.ogf
+
+light_color		 	= 0.6,0.5,0.3
+light_range		 	= 2.0
+light_var_color		= 0.05
+light_var_range		= 0.5
+light_time 		 	= 0.2
+ph_mass			 	= 2
+
+scope_status			= 0
+silencer_status			= 0
+grenade_launcher_status	= 0
+
+zoom_enabled			= true
+scope_zoom_factor	    = 90
+
+snd_draw			= weapons\pm_draw, 0.5
+snd_holster			= weapons\generic_holster, 0.5
+snd_shoot			= weapons\ots_33\shot
+snd_empty			= weapons\pistol_empty, 0.6
+snd_reload			= weapons\pm_reload, 0.8
+snd_close			= weapons\generic_close, 0.6
+
+[wpn_ots33_hud]
+shell_point			= -0.425,-0.005,0.06
+shell_dir		 	= 0.0, 1.0, 0.0
+
+fire_point               	= -0.35,0.0,0.05
+fire_bone                	= wpn_body
+orientation              	= 0,0,0
+position                 	= 0,0,0
+visual                   	= weapons\ots33\wpn_ots33_hud.ogf
+
+anim_holster			= holster
+anim_idle			= idle
+anim_empty			= empty
+anim_reload			= reload_full
+anim_reload_empty		= reload
+anim_draw			= draw
+anim_draw_empty			= draw_empty
+anim_shoot			= shoot
+anim_shot_last			= shoot_last
+anim_close			= close
+anim_idle_aim			= idle_aim
+anim_idle_sprint		= idle_sprint
+
+zoom_offset			= -0.1468,0.082,-0.3
+zoom_rotate_x			= 0.015
+zoom_rotate_y			= 0.0

@@ -1,0 +1,214 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+[wpn_m60d]:identity_immunities
+GroupControlSection				= spawn_group
+;;discovery_dependency 			= 
+$spawn                  		= "weapons\m60"		; option for Level Editor
+$npc			 				= on				; option for Level Editor
+$prefetch 		 				= 8
+scheduled               		= off               ; option for ALife Simulator
+cform                   		= skeleton
+class                   		= WP_LR300
+min_radius 						= 50
+max_radius 						= 150
+description						= desc_m60_descr
+ef_main_weapon_type				= 2
+ef_weapon_type					= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier			= 1.0		       ; eye_range 
+holder_fov_modifier				= 0.7              ; eye_fov
+;-----------------------------------------------------------------------------------
+
+weapon_class					= assault_rifle
+
+cost							= 20000
+
+ammo_limit 						= 400
+ammo_current 					= 90
+ammo_elapsed 					= 10
+ammo_mag_size 					=100
+ammo_class						= ammo_7.62x51_ap, ammo_7.62x51_fmj
+fire_modes						= -1
+
+hand_dependence		 			= 1
+single_handed					= 0
+
+inv_name 						= desc_m60
+inv_name_short 					= desc_m60_s
+inv_weight						= 10.7
+
+inv_grid_width     				= 6
+inv_grid_height    				= 2
+inv_grid_x         				= 65
+inv_grid_y         				= 18
+
+kill_msg_x						= 72
+kill_msg_y						= 82
+kill_msg_width					= 56
+kill_msg_height					= 23
+
+slot 							= 2		; // secondary
+animation_slot					= 2		; type of the animation that will be used
+
+;-----------------------------------------------------------------------------------
+;params of weapon recoil
+fire_dispersion_base			= 0.03		
+control_inertion_factor			= 1.25f
+
+cam_relax_speed         		= 3.25		
+cam_relax_speed_ai         		= 5
+cam_dispersion          		= 0.3		
+cam_dispersion_inc				= 0.4		
+cam_dispertion_frac				= 0.3		;cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle					= 11.0	    	
+cam_max_angle_horz				= 19.0		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz				= 1.0;1		;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor 	= 5	    	
+misfire_probability 			= 0.003	
+misfire_condition_k				= 0.05
+condition_shot_dec 				= 0.0008	
+;-----------------------------------------------------------------------------------
+
+direction               		= 0, 0, 1
+
+fire_point 						= 0.0, 0.0, -0.7
+flame_particles					= weapons\generic_weapon05
+smoke_particles         		= weapons\generic_shoot_00
+
+shell_point		 				= 0.0, 0.129, 0.192	
+shell_dir		 				= 0.0, 0.0, 0.4
+
+rpm_empty_click 	 			= 200
+
+PDM_disp_base 					= 1.2
+PDM_disp_vel_factor 			= 0.8
+PDM_disp_accel_factor 			= 0.8
+PDM_crouch	 					= 1.0
+PDM_crouch_no_acc 				= 1.0
+
+; ttc
+hit_power        				= 0.87
+hit_impulse		 				= 60
+hit_type 						= fire_wound
+
+f
+fire_distance 					= 80					;;;109974 10:1
+bullet_speed 					= 853	;290 
+rpm 							= 600	
+; end ttc
+
+use_aim_bullet					= true		
+time_to_aim						= 1.0
+
+silencer_hit_power       		= 0.87
+silencer_hit_impulse	 		= 50
+silencer_fire_distance   		= 70					;;;109974 10:1
+silencer_bullet_speed	 		= 853
+
+hud                     		= wpn_m60d_hud
+normal 							= 0, 0, 0
+position 						= -0.02, 0.07, 0.2
+orientation 					= 180, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position 					= 0, 0, 0 ;-- position (offset) and orientation of the weapon when it is strapped
+strap_orientation 				= 180, 180, 0 ;-- (3rd person view in degrees)
+strap_bone0 					= bip01_spine2
+strap_bone1 					= bip01_spine1
+
+
+startup_ammo            		= 1000
+visual                  		= dav_wpn_xp1\HMG\m-60\m-60.ogf
+
+light_color		 				= 0.6,0.5,0.3
+light_range		 				= 5
+light_var_color		 			= 0.05
+light_var_range		 			= 0.1
+light_time 		 				= 0.2
+
+ph_mass			 				= 36
+
+;addons
+scope_status					= 0
+silencer_status					= 0
+grenade_launcher_status			= 0
+
+scope_name 						= wpn_addon_scope			; section name for the attachable scope
+scope_x 						= 42						; offset in inventory icon
+scope_y 						= 3
+
+silencer_name  					= wpn_addon_silencer
+silencer_x 						= 218
+silencer_y 						= 13
+
+
+silencer_light_color			= 1.0, 0.1, 0.0
+silencer_light_range			= 0.01
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_light_time 			= 0.2
+
+zoom_enabled					= true
+scope_zoom_factor	    		= 80
+
+snd_draw 						= weapons\generic_draw
+snd_holster 					= weapons\generic_holster
+snd_shoot 						= weapons\m60\lmg_m60_0
+snd_shoot1 						= weapons\m60\lmg_m60_1
+snd_shoot2 						= weapons\m60\lmg_m60_2
+snd_shoot3 						= weapons\m60\lmg_m60_3
+snd_shoot4 						= weapons\m60\lmg_m60_4
+snd_shoot5 						= weapons\m60\lmg_m60_5
+snd_empty 						= weapons\gen_empty, 0.5
+snd_reload						= weapons\m60\m60_reload, 0.7, 0.5
+snd_shoot_grenade 				= weapons\gen_grenshoot
+snd_reload_grenade 				= weapons\gen_grenload
+
+;params when silencer is attached 
+;similar to corresponding params without prefix silencer_
+
+;silencer_flame_particles 		= weapons\generic_weapon01
+silencer_smoke_particles 		= weapons\generic_shoot_00
+
+snd_silncer_shot				= weapons\w_ak74_shot1 
+
+[wpn_m60d_hud]
+shell_point     	   	 		= 0.15, 0.0, -0.05
+shell_dir			     		= 0.0, 1.0, 0.0
+
+fire_point						= 0.0,0.0,0.16
+fire_bone               		= root
+orientation             		= 180, 0, 0		
+position                		= -0.07, -0.063, 0.26
+visual                  		= dav_wpn_xp1\HMG\m-60\wpn_m-60_hud.ogf
+
+;anim_idle						= idle
+;anim_idle_aim					= idle_aim
+;anim_reload					= reload
+;anim_draw						= draw
+;anim_holster					= holster
+;anim_shoot						= shoot
+;anim_idle_sprint				= idle_sprint
+
+anim_idle						= m-60_idle
+anim_idle_aim					= m-60_idle_aim
+anim_reload						= m-60_reload
+anim_draw						= m-60_draw
+anim_holster					= m-60_holster
+anim_shoot						= m-60_shoot
+anim_idle_sprint				= m-60_sprint
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;HUD offset in zoom mode (to all)
+
+
+;zoom_offset					= -0.137700,0.033800,-0.115100
+zoom_offset						= -0.218500,0.023000,-0.200000
+zoom_rotate_x					= 0.000000
+zoom_rotate_y					= 0.000000
+
+zoom_rotate_time				= 0.45
+rotate_time						= 0.45
+
+zoom_hide_crosshair				= true						;to hide crosshair in zoo

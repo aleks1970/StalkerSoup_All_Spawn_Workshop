@@ -1,0 +1,702 @@
+;<!-- TB3D 1.0.9.9.5.0  moved immuns and damages, cleanup and tweaks, nano helmet added, tweaked armor/masks, info and tweaks, immortal damage-->
+;<!-- aleks1970; excluded duplicates section, dAVROs tweaks, death_claw -->
+;bone_name		= <hit_scale>,<fwd_damage_anim_index>,<wound_scale>,<bonepassbullet>
+;<hit_scale>				- coeff. changes hit (to invoke anim) 0.0 (no hit) to 1.0 (full hit)
+;<fwd_damage_anim_index>	- -1 = default anim, 1..n = indexes into model's ragdoll physics if exists
+;<wound_scale>				- coeff. changes in the value of an open wound (bleeding), 0% to 100% of wound amount
+;<bonepassbullet> 			- (nil or 0)=false, (non 0)=threshold - bullet passes through body when health_hit > threshold
+
+;--------------------------------- how damage is calculated ------------------------------------------
+;hit_power: Determined by the length and type of barrel. = 28*LOG10(2*k_hit*hit_rate)
+;k_hit: Bullet power.
+;k_pierce: Ability to penetrate armor.
+;
+;1. NPC health is in the range from 0 to 200%.
+;
+;2. If the bullet is not armor-piercing (k_pierce = 0) then the damage to health is calculated as:
+;	health_hit = hit_power * k_hit * hit_fraction * hit_scale * 100
+;	The resulting number is subtracted from the NPC's health and when health <= 0 - the NPC is killed.
+;	
+;3. If the bullet is armor-piercing (k_pierce > 0), then the factor of damage depends on if the bullet pierced the protection or not.
+;	If the bullet pierced the protection (k_pierce <= BodyDamage or HeadDamage) then the damage is considered as in step 2.
+;	If the bullet hits protection (k_pierce > BodyDamage or HeadDamage) then the damage is considered as the
+;	calculation of two numbers and whichever is greater:
+;		health_hit = [hit_fraction * hit_scale * 100]
+;		or			 [hit_power * k_hit * F * hit_scale * 100]
+;						where F = (k_pierce-BodyDamage) / k_pierce or F = (k_pierce-HeadDamage) / k_pierce
+;		Damage to health by breaking through the armor with an armor-piercing bullet (hit_fraction * hit_scale * 100).
+;NOTE: k_pierce above 0.78 causes double damage when pierces protection so it should not exceed this value unless intended to '1 shot' kill.
+
+[immortal_damage]			;impact on unprotected areas 100%, anim, critical areas get high wound increase
+default						= 0.0, -1, 0.0
+
+bip01_pelvis 				= 0.0001, 1, 0.0001			;;these are root bones and cannot be 0
+bip01_spine 		 		= 0.0001, 1, 0.0001
+bip01_spine1 		 		= 0.0001, 1, 0.0001
+bip01_spine2 		 		= 0.0001, 1, 0.0001
+bip01_neck 			 		= 0.0001, 0, 0.0001
+bip01_head 			 		= 0.0001, 0, 0.0001			;;
+eyelid_1 			 		= 0.0, 0, 0.0
+eye_left 			 		= 0.0, 0, 0.0
+eye_right 			 		= 0.0, 0, 0.0
+jaw_1 		 		 		= 0.0, 0, 0.0
+
+bip01_l_clavicle	 		= 0.0, 10, 0.0
+bip01_l_upperarm	 		= 0.0, 10, 0.0
+bip01_l_forearm	 	 	    = 0.0, 10, 0.0
+bip01_l_hand	 	 	    = 0.0, -1, 0.0
+bip01_l_finger0	 	 	    = 0.0, -1, 0.0
+bip01_l_finger01	 		= 0.0, -1, 0.0
+bip01_l_finger02	 		= 0.0, -1, 0.0
+bip01_l_finger1	 	 	    = 0.0, -1, 0.0
+bip01_l_finger11	 		= 0.0, -1, 0.0
+bip01_l_finger12	 		= 0.0, -1, 0.0
+bip01_l_finger2	 	 	    = 0.0, -1, 0.0
+bip01_l_finger21	 		= 0.0, -1, 0.0
+bip01_l_finger22	 		= 0.0, -1, 0.0
+
+bip01_r_clavicle	 		= 0.0, 8, 0.0
+bip01_r_upperarm	 		= 0.0, 8, 0.0
+bip01_r_forearm	 	 		= 0.0, 8, 0.0
+bip01_r_hand	 	 		= 0.0, -1, 0.0
+bip01_r_finger0	 	 		= 0.0, -1, 0.0
+bip01_r_finger01	 		= 0.0, -1, 0.0
+bip01_r_finger02	 		= 0.0, -1, 0.0
+bip01_r_finger1	 	 		= 0.0, -1, 0.0
+bip01_r_finger11	 		= 0.0, -1, 0.0
+bip01_r_finger12	 		= 0.0, -1, 0.0
+bip01_r_finger2	 	 	 	= 0.0, -1, 0.0
+bip01_r_finger21	 		= 0.0, -1, 0.0
+bip01_r_finger22	 		= 0.0, -1, 0.0
+
+bip01_l_thigh	 	 		= 0.0, 4, 0.0
+bip01_l_calf	 	 		= 0.0, 4, 0.0
+bip01_l_foot	 	 		= 0.0, 4, 0.0
+bip01_l_toe0	 	 		= 0.0, -1, 0.0
+bip01_r_thigh	 	 		= 0.0, 6, 0.0
+bip01_r_calf	 	 		= 0.0, 6, 0.0
+bip01_r_foot	 	 		= 0.0, 6, 0.0
+bip01_r_toe0	 	 		= 0.0, -1, 0.0
+
+;======================= npc section =================================
+[stalker_damage]			;impact on unprotected areas 100%, anim, critical areas get high wound increase
+default						= 1.0, -1, 1.0
+
+bip01_pelvis 				= 1.0, 1, 0.3
+bip01_spine 		 		= 1.0, 1, 0.8
+bip01_spine1 		 		= 1.0, 1, 0.8
+bip01_spine2 		 		= 1.0, 1, 0.8
+bip01_neck 			 		= 1.0, 0, 1.0
+bip01_head 			 		= 4.0, 0, 1.0, 3
+eyelid_1 			 		= 4.0, 0, 1.0, 3
+eye_left 			 		= 4.0, 0, 1.0, 3
+eye_right 			 		= 4.0, 0, 1.0, 3
+jaw_1 		 		 		= 4.0, 0, 1.0
+
+bip01_l_clavicle	 		= 1.0, 10, 0.7
+bip01_l_upperarm	 		= 1.0, 10, 0.6
+bip01_l_forearm	 	 	    = 1.0, 10, 0.5
+bip01_l_hand	 	 	    = 0.1, -1, 0.2
+bip01_l_finger0	 	 	    = 0.05, -1, 0.1
+bip01_l_finger01	 		= 0.05, -1, 0.1
+bip01_l_finger02	 		= 0.05, -1, 0.1
+bip01_l_finger1	 	 	    = 0.05, -1, 0.1
+bip01_l_finger11	 		= 0.05, -1, 0.1
+bip01_l_finger12	 		= 0.05, -1, 0.1
+bip01_l_finger2	 	 	    = 0.05, -1, 0.1
+bip01_l_finger21	 		= 0.05, -1, 0.1
+bip01_l_finger22	 		= 0.05, -1, 0.1
+
+bip01_r_clavicle	 		= 1.0, 8, 0.7
+bip01_r_upperarm	 		= 1.0, 8, 0.6
+bip01_r_forearm	 	 		= 0.1, 8, 0.5
+bip01_r_hand	 	 		= 0.05, -1, 0.2
+bip01_r_finger0	 	 		= 0.05, -1, 0.1
+bip01_r_finger01	 		= 0.05, -1, 0.1
+bip01_r_finger02	 		= 0.05, -1, 0.1
+bip01_r_finger1	 	 		= 0.05, -1, 0.1
+bip01_r_finger11	 		= 0.05, -1, 0.1
+bip01_r_finger12	 		= 0.05, -1, 0.1
+bip01_r_finger2	 	 	 	= 0.05, -1, 0.1
+bip01_r_finger21	 		= 0.05, -1, 0.1
+bip01_r_finger22	 		= 0.05, -1, 0.1
+
+bip01_l_thigh	 	 		= 1.0, 4, 0.5
+bip01_l_calf	 	 		= 1.0, 4, 0.4
+bip01_l_foot	 	 		= 0.1, 4, 0.3
+bip01_l_toe0	 	 		= 0.1, -1, 0.2
+bip01_r_thigh	 	 		= 1.0, 6, 0.5
+bip01_r_calf	 	 		= 1.0, 6, 0.4
+bip01_r_foot	 	 		= 0.1, 6, 0.3
+bip01_r_toe0	 	 		= 0.1, -1, 0.2
+
+[bandit_damage]:stalker_damage
+
+[soldier_damage]:stalker_damage
+default						= 0.9, -1, 1.0
+
+bip01_pelvis 				= 0.9, 1, 0.3
+bip01_spine 		 		= 0.9, 1, 0.8
+bip01_spine1 		 		= 0.9, 1, 0.8
+bip01_spine2 		 		= 0.9, 1, 0.8
+bip01_neck 			 		= 1.9, 0, 1.0
+bip01_head 			 		= 3.0, 0, 1.0, 3
+eyelid_1 			 		= 3.0, 0, 1.0, 3
+eye_left 			 		= 3.0, 0, 1.0, 3
+eye_right 			 		= 3.0, 0, 1.0, 3
+jaw_1 		 		 		= 3.0, 0, 1.0
+
+bip01_l_clavicle	 		= 0.9, 10, 0.7
+bip01_l_upperarm	 		= 0.9, 10, 0.6
+bip01_l_forearm	 	 	    = 0.5, 10, 0.5
+bip01_l_hand	 	 	    = 0.1, -1, 0.2
+bip01_l_finger0	 	 	    = 0.05, -1, 0.1
+bip01_l_finger01	 		= 0.05, -1, 0.1
+bip01_l_finger02	 		= 0.05, -1, 0.1
+bip01_l_finger1	 	 	    = 0.05, -1, 0.1
+bip01_l_finger11	 		= 0.05, -1, 0.1
+bip01_l_finger12	 		= 0.05, -1, 0.1
+bip01_l_finger2	 	 	    = 0.05, -1, 0.1
+bip01_l_finger21	 		= 0.05, -1, 0.1
+bip01_l_finger22	 		= 0.05, -1, 0.1
+
+bip01_r_clavicle	 		= 0.9, 8, 0.7
+bip01_r_upperarm	 		= 0.9, 8, 0.6
+bip01_r_forearm	 	 		= 0.5, 8, 0.5
+bip01_r_hand	 	 		= 0.05, -1, 0.2
+bip01_r_finger0	 	 		= 0.05, -1, 0.1
+bip01_r_finger01	 		= 0.05, -1, 0.1
+bip01_r_finger02	 		= 0.05, -1, 0.1
+bip01_r_finger1	 	 		= 0.05, -1, 0.1
+bip01_r_finger11	 		= 0.05, -1, 0.1
+bip01_r_finger12	 		= 0.05, -1, 0.1
+bip01_r_finger2	 	 	 	= 0.05, -1, 0.1
+bip01_r_finger21	 		= 0.05, -1, 0.1
+bip01_r_finger22	 		= 0.05, -1, 0.1
+
+bip01_l_thigh	 	 		= 0.9, 4, 0.5
+bip01_l_calf	 	 		= 0.9, 4, 0.4
+bip01_l_foot	 	 		= 0.1, 4, 0.3
+bip01_l_toe0	 	 		= 0.1, -1, 0.2
+bip01_r_thigh	 	 		= 0.9, 6, 0.5
+bip01_r_calf	 	 		= 0.9, 6, 0.4
+bip01_r_foot	 	 		= 0.1, 6, 0.3
+bip01_r_toe0	 	 		= 0.1, -1, 0.2
+
+[stalker_monolith_damage]:soldier_damage
+default						= 0.8, -1, 1.0
+
+bip01_pelvis 				= 0.8, 1, 0.3
+bip01_spine 		 		= 0.8, 1, 0.8
+bip01_spine1 		 		= 0.8, 1, 0.8
+bip01_spine2 		 		= 0.8, 1, 0.8
+bip01_neck 			 		= 1.8, 0, 1.0
+bip01_head 			 		= 2.0, 0, 1.0, 3
+eyelid_1 			 		= 2.0, 0, 1.0, 3
+eye_left 			 		= 2.0, 0, 1.0, 3
+eye_right 			 		= 2.0, 0, 1.0, 3
+jaw_1 		 		 		= 2.0, 0, 1.0
+
+bip01_l_clavicle	 		= 0.8, 10, 0.7
+bip01_l_upperarm	 		= 0.8, 10, 0.6
+bip01_l_forearm	 	 	    = 0.5, 10, 0.5
+bip01_r_clavicle	 		= 0.8, 8, 0.7
+bip01_r_upperarm	 		= 0.8, 8, 0.6
+bip01_r_forearm	 	 		= 0.5, 8, 0.5
+
+[stalker_zombied_damage]:stalker_damage
+
+;***************************BODY SECTIONS****************************************
+; Protection: First parameter = % reduce health, second parameter = amount of protection.
+; 1.0 = full health reduction, protection 1.0 = 100%
+; a perfect armor will have 0% health reduction (0.0) and 100% protection (1.0)
+; unprotected areas should be 1.0,0.0 to not interfere with regular damages 
+;********************************************************************************
+[body_damage_invulnerable_base]
+bip01_pelvis 				= 0.0, 1.0		;0 (none) health reduction, 1.0 (max) protection
+bip01_spine 		 		= 0.0, 1.0
+bip01_spine1 		 		= 0.0, 1.0
+bip01_spine2 		 		= 0.0, 1.0
+bip01_l_clavicle	 		= 0.0, 1.0
+bip01_l_upperarm	 		= 0.0, 1.0
+bip01_l_forearm	 	 		= 0.0, 1.0
+bip01_l_hand	 	 		= 0.0, 1.0
+bip01_r_clavicle	 		= 0.0, 1.0
+bip01_r_upperarm	 		= 0.0, 1.0
+bip01_r_forearm	 	 		= 0.0, 1.0
+bip01_r_hand	 	 		= 0.0, 1.0
+bip01_l_thigh	 	 		= 0.0, 1.0
+bip01_l_calf	 	 		= 0.0, 1.0
+bip01_l_foot	 	 		= 0.0, 1.0
+bip01_r_thigh	 	 		= 0.0, 1.0
+bip01_r_calf	 	 		= 0.0, 1.0
+bip01_r_foot	 	 		= 0.0, 1.0
+
+[body_damage_jacket_base]
+bip01_pelvis 				= 1.0, 0.0
+bip01_spine 		 		= 1.0, 0.16
+bip01_spine1 		 		= 1.0, 0.16
+bip01_spine2 		 		= 1.0, 0.16
+
+bip01_l_clavicle	 		= 1.0, 0.16
+bip01_l_upperarm	 		= 1.0, 0.0
+bip01_l_forearm	 	 		= 1.0, 0.0
+bip01_l_hand	 	 		= 1.0, 0.0
+
+bip01_r_clavicle	 		= 1.0, 0.16
+bip01_r_upperarm	 		= 1.0, 0.0
+bip01_r_forearm	 	 		= 1.0, 0.0
+bip01_r_hand	 	 		= 1.0, 0.0
+
+bip01_l_thigh	 	 		= 1.0, 0.0
+bip01_l_calf	 	 		= 1.0, 0.0
+bip01_l_foot	 	 		= 1.0, 0.0
+bip01_r_thigh	 	 		= 1.0, 0.0
+bip01_r_calf	 	 		= 1.0, 0.0
+bip01_r_foot	 	 		= 1.0, 0.0
+
+[body_novice_damage]:body_damage_jacket_base	;bandit, stalker
+
+[body_kurtka_damage]:body_damage_jacket_base	;SKAT-9M
+bip01_pelvis 				= 1.0, 0.26
+bip01_spine 		 		= 1.0, 0.31
+bip01_spine1 		 		= 1.0, 0.31
+bip01_spine2 		 		= 1.0, 0.31
+
+[body_plasch_damage]:body_damage_jacket_base	;black troops, ecolog
+bip01_pelvis 				= 1.0, 0.16
+bip01_spine 		 		= 1.0, 0.31
+bip01_spine1 		 		= 1.0, 0.31
+bip01_spine2 		 		= 1.0, 0.31
+
+[body_gilet_damage]:body_damage_jacket_base		;svoboda light, ecolog
+bip01_pelvis 				= 1.0, 0.26
+bip01_spine 		 		= 0.76, 0.43
+bip01_spine1 		 		= 0.76, 0.43
+bip01_spine2 		 		= 1.0, 0.25
+
+[body_damage_armor_base]
+bip01_pelvis 				= 1.0, 0.21
+bip01_spine 		 		= 0.71, 0.56
+bip01_spine1 		 		= 0.71, 0.56
+bip01_spine2 		 		= 0.71, 0.56
+
+bip01_l_clavicle	 		= 1.0, 0.21
+bip01_l_upperarm	 		= 1.0, 0.21
+bip01_l_forearm	 	 		= 1.0, 0.21
+bip01_l_hand	 	 		= 1.0, 0.21
+
+bip01_r_clavicle	 		= 1.0, 0.21
+bip01_r_upperarm	 		= 1.0, 0.21
+bip01_r_forearm	 	 		= 1.0, 0.21
+bip01_r_hand	 	 		= 1.0, 0.21
+
+bip01_l_thigh	 	 		= 1.0, 0.21
+bip01_l_calf	 	 		= 1.0, 0.21
+bip01_l_foot	 	 		= 1.0, 0.21
+bip01_r_thigh	 	 		= 1.0, 0.21
+bip01_r_calf	 	 		= 1.0, 0.21
+bip01_r_foot	 	 		= 1.0, 0.21
+
+[body_kombez_damage]:body_damage_jacket_base
+
+[body_armor_damage]:body_damage_armor_base
+bip01_pelvis 				= 0.2, 0.21
+bip01_spine 		 		= 0.361, 0.66
+bip01_spine1 		 		= 0.361, 0.66
+bip01_spine2 		 		= 0.361, 0.66
+bip01_l_upperarm	 		= 0.376, 0.41
+bip01_r_upperarm	 		= 0.376, 0.41
+bip01_l_thigh	 	 		= 0.476, 0.41
+bip01_r_thigh	 	 		= 0.476, 0.41
+
+[body_exo_damage]
+bip01_pelvis 				= 0.05, 0.71
+bip01_spine 		 		= 0.046, 0.86
+bip01_spine1 		 		= 0.046, 0.86
+bip01_spine2 		 		= 0.046, 0.86
+
+bip01_l_clavicle	 		= 0.066, 0.61
+bip01_l_upperarm	 		= 0.066, 0.61
+bip01_l_forearm	 	 		= 0.6, 0.31
+bip01_l_hand	 	 		= 0.6, 0.31
+
+bip01_r_clavicle	 		= 0.66, 0.41
+bip01_r_upperarm	 		= 0.66, 0.41
+bip01_r_forearm	 	 		= 1.0, 0.31
+bip01_r_hand	 	 		= 1.0, 0.31
+
+bip01_l_thigh	 	 		= 0.266, 0.41
+bip01_l_calf	 	 		= 0.3, 0.31
+bip01_l_foot	 	 		= 0.3, 0.31
+bip01_r_thigh	 	 		= 0.266, 0.41
+bip01_r_calf	 	 		= 0.3, 0.31
+bip01_r_foot	 	 		= 0.3, 0.31
+
+[hunter_plasch_damage]
+bip01_pelvis 				= 0.6, 0.35
+bip01_spine 				= 0.6, 0.35
+bip01_spine1 				= 0.6, 0.35
+bip01_spine2 				= 0.6, 0.35
+bip01_l_clavicle 			= 0.6, 0.21
+bip01_l_upperarm 			= 0.9, 0.35
+bip01_l_forearm 			= 0.9, 0.35
+bip01_l_hand 				= 0.9, 0.30
+bip01_r_clavicle 			= 0.6, 0.21
+bip01_r_upperarm 			= 0.9, 0.35
+bip01_r_forearm 			= 0.9, 0.35
+bip01_r_hand 				= 0.9, 0.30
+bip01_l_thigh 				= 0.9, 0.35
+bip01_l_calf 				= 0.9, 0.40
+bip01_l_foot 				= 0.9, 0.25
+bip01_r_thigh 				= 0.9, 0.35
+bip01_r_calf 				= 0.9, 0.40
+bip01_r_foot 				= 0.9, 0.25
+
+[hunter_kombez_damage]
+bip01_pelvis 				= 0.8, 0.4
+bip01_spine 				= 0.8, 0.4
+bip01_spine1 				= 0.8, 0.4
+bip01_spine2 				= 0.8, 0.4
+bip01_l_clavicle 			= 0.8, 0.3
+bip01_l_upperarm 			= 0.9, 0.4
+bip01_l_forearm 			= 0.9, 0.4
+bip01_l_hand 				= 1.0, 0.35
+bip01_r_clavicle 			= 0.8, 0.3
+bip01_r_upperarm 			= 0.9, 0.4
+bip01_r_forearm 			= 0.9, 0.4
+bip01_r_hand 				= 1.0, 0.35
+bip01_l_thigh 				= 0.6, 0.45
+bip01_l_calf 				= 0.9, 0.5
+bip01_l_foot 				= 0.9, 0.25
+bip01_r_thigh 				= 0.9, 0.45
+bip01_r_calf 				= 0.9, 0.5
+bip01_r_foot 				= 0.9, 0.25
+
+;************************HEAD SECTIONS**************************
+;Protection: First parameter = % reduce health, second parameter = amount of protection.
+;***************************************************************
+[head_invuln_damage]
+bip01_neck 			 		= 0.0, 1.0
+bip01_head 			 		= 0.0, 1.0
+eyelid_1 			 		= 0.0, 1.0
+eye_left 			 		= 0.0, 1.0
+eye_right 			 		= 0.0, 1.0
+jaw_1 		 		 		= 0.0, 1.0
+
+[head_mask_damage]
+bip01_neck 			 		= 1.0, 0.1
+bip01_head 			 		= 1.0, 0.1
+eyelid_1 			 		= 1.0, 0.01
+eye_left 			 		= 1.0, 0.01
+eye_right 			 		= 1.0, 0.01
+jaw_1 		 		 		= 1.0, 0.01
+
+[head_antigas_damage]:head_mask_damage
+bip01_neck 			 		= 0.9, 0.15
+bip01_head 			 		= 0.9, 0.10
+
+[head_kupol_damage]:head_mask_damage
+bip01_neck 			 		= 1.0, 0.17
+bip01_head 			 		= 1.0, 0.17
+eyelid_1 			 		= 1.0, 0.017
+eye_left 			 		= 1.0, 0.017
+eye_right 			 		= 1.0, 0.017
+jaw_1 		 		 		= 1.0, 0.017
+
+[head_helmet_damage]:head_mask_damage
+bip01_neck 			 		= 1.0, 0.2
+bip01_head 			 		= 1.0, 0.2
+eyelid_1 			 		= 1.0, 0.02
+eye_left 			 		= 1.0, 0.02
+eye_right 			 		= 1.0, 0.02
+jaw_1 		 		 		= 1.0, 0.02
+
+;***********************FULL SECTIONS**************************
+[kurtka_invuln_damage]:body_damage_invulnerable_base,head_invuln_damage
+hit_fraction				= 0.1
+
+;;_god, hero
+[ldk_kurtka_invuln_damage]:body_damage_invulnerable_base,head_invuln_damage
+hit_fraction				= 0.1
+
+;;novice_outfit, bandit_outfit
+[kurtka_novice_damage]:body_novice_damage,head_mask_damage
+hit_fraction				= 0.5
+
+;;neytral_novice_outfit_m1, neytral_novice_gaz_outfit_m1, military_stalker_outfit
+;;stalker_nebo_1, stalker_nebo_2, military_commander_outfit (Military SKAT-9M Armor)
+[kurtka_mask_damage]:body_kurtka_damage,head_mask_damage
+hit_fraction				= 0.4
+
+;;black_troop_immunity1, dark_helmet, plasch_hunter2
+[plasch_mask_damage]:body_plasch_damage,head_mask_damage
+hit_fraction				= 0.4
+
+;;outfit_bandit_m1
+[plasch_antigas_damage]:body_plasch_damage,head_antigas_damage
+hit_fraction				= 0.4
+
+;;bandit_gaz_outfit_m1, bandit_veteran_outfit_m1
+[kurtka_antigas_damage]:body_kurtka_damage,head_antigas_damage
+hit_fraction				= 0.4
+
+;;fire_outfit (fire fighter), ecolog_outfit
+[kurtka_kupol_damage]:body_kurtka_damage,head_kupol_damage
+hit_fraction				= 0.4
+
+;;svoboda_gaz_outfit_m1, svoboda_light_outfit, outfit_soldier_m1, soldier_outfit, nebo_light_outfit, stalker_hero
+[gilet_mask_damage]:body_gilet_damage,head_mask_damage
+hit_fraction				= 0.4
+
+;;monolit_gaz_outfit_m1, monolit_outfit, monolit_black_outfit, arnie, astrologer, bes, cap, cook, fanatic, fox
+;;guide, ivancov, killer1 thru 9, kuznetsov, lukash, max, mole, nimble, petrenko, screw, seriy, skinflint, skull,
+;;voronin, warrant officer, wolf, yurik
+[kombez_mask_damage]:body_kombez_damage,head_mask_damage
+hit_fraction				= 0.4
+
+;;neytral_gaz_outfit_m1, neytral_gaz_outfit_m2, killer_gaz_outfit_m1, outfit_killer_m1, killer_outfit, stalker_guard_outfit (bar)
+;;stalker_outfit, strelok_outfit, outfit_killer_m1
+[gilet_antigas_damage]:body_gilet_damage,head_antigas_damage
+hit_fraction				= 0.4
+
+;;svoboda_heavy_gaz_outfit_m1, dolg_gaz_outfit_m1, svoboda_heavy_outfit, dolg_outfit, nebo_heavy_outfit
+[kombez_antigas_damage]:body_kombez_damage,head_antigas_damage
+hit_fraction				= 0.4
+
+;;scientific_outfit, dolg_scientific_outfit, protection_outfit, freedom_scientific_outfit, merc_scientific_outfit
+;;monolit_scientific_outfit, nebo_scientific_outfit
+[kombez_kupol_damage]:body_kombez_damage,head_kupol_damage
+hit_fraction				= 0.4
+
+;;specops_outfit
+[kombez_helmet_damage]:body_kombez_damage,head_helmet_damage
+hit_fraction				= 0.4
+
+;;military_outfit, militaryspec_outfit (SKAT-10)
+[armor_helmet_damage]:body_armor_damage,head_helmet_damage
+hit_fraction				= 0.3
+
+;;neytral_exo_gaz_outfit_m1, svoboda_yellow_exo_outfit_m1, exo_outfit, killer_blue_exoskeleton
+;;dolg_black_exoskeleton, svoboda_exoskeleton, monolit_exoskeleton, neytral_exo_antigas_outfit
+;;exo_bandit_outfit, nebo_exo_outfit, exo_mil_exoskeleton
+[exo_helmet_damage]:body_exo_damage,head_helmet_damage
+hit_fraction				= 0.3
+
+;;hunter_plasch2
+[hunter_plasch_mask_damage]:hunter_plasch_damage,head_antigas_damage	;DMX
+hit_fraction				= 0.4
+
+;;kombez hunter 1 and 3
+[hunter_kombez_mask_damage]:hunter_kombez_damage,head_antigas_damage	;DMX
+hit_fraction				= 0.4
+
+;;speedn_kupol
+[nano_helmet_damage]:body_exo_damage,head_helmet_damage
+hit_fraction				= 0.2
+
+;;===========================MOB================================
+[m_zombie_damage]
+default						= 0.015, -1, 0.01					;;;gotta shoot em in the head
+bip01_neck 					= 0.8, -1, 0.5
+bip01_head 					= 1.0, -1, 1.0
+
+[m_zombie_damage_normal]:m_zombie_damage
+bip01_neck 					= 0.7, -1, 0.1
+bip01_head 					= 1.0, -1, 1.0, 5.0
+
+[m_zombie_damage_strong]:m_zombie_damage
+bip01_neck 					= 0.7, -1, 0.5
+bip01_head 					= 1.0, -1, 1.0
+
+;;;======================== creature section ===========================
+;;;hit_power * k_hit * bip01_ * fire_wound_immunity * 100%
+[e_creature_damage]	;;;1.0 = 100% of hit power
+default       			= 1.0, -1, 0.05			;;;not a vital spot, small hit but still bleeds
+bip01_head      		= 1.0, -1, 1.0, 10		;;;maximum hit
+bip01_neck      		= 1.0, -1, 0.9			;;;small chance of two hits
+bip01_spine     		= 1.0, -1, 0.8			;;;usually 2 to 3 hits
+bip01_pelvis 			= 1.0, -1, 0.7			;;;2 to 4 hits
+
+[m_tushkano_damage]:e_creature_damage
+default					= 1.0, -1, 0.5
+bip01_pelvis 			= 1.0, -1, 0.8
+bip01_spine 			= 1.0, -1, 0.8
+bip01_spine1 			= 1.0, -1, 0.8
+bip01_neck 				= 1.0, -1, 0.8
+bip01_head 				= 1.0, -1, 1.0, 10
+
+[tarakan_damage]:m_tushkano_damage
+
+[m_rat_damage]:e_creature_damage
+default					= 1.0, -1, 1.0, 1
+bip01_pelvis 			= 1.0, -1, 1.0, 1
+bip01_spine 			= 1.0, -1, 1.0, 1
+bip01_spine1 			= 1.0, -1, 1.0, 1
+bip01_neck 				= 1.0, -1, 1.0, 1
+bip01_head 				= 1.0, -1, 1.0, 1
+
+[m_cat_damage]:e_creature_damage
+
+[m_Dog_damage]:e_creature_damage
+
+[m_Flesh_damage]:e_creature_damage
+bip01_pelvis 			= 0.6, -1, 0.3
+bip01_spine 			= 0.7, -1, 0.3
+bip01_neck 				= 0.9, -1, 0.5
+bip01_head 				= 1.0, -1, 0.7
+
+[m_Boar_damage]:e_creature_damage
+bip01_spine1    		= 0.67, -1, 0.3
+bip01_spine2 			= 0.67, -1, 0.3
+bip01_neck      		= 0.675, -1, 1.0
+bip01_head      		= 0.68, -1, 1.0, 1
+
+[m_Pseudodog_damage]:e_creature_damage
+bip01_neck      		= 1.0, -1, 0.9
+bip01_spine     		= 0.9, -1, 0.8
+bip01_pelvis 			= 0.8, -1, 0.8
+
+[m_Burer_damage]:e_creature_damage
+default					= 0.01, -1, 0.01
+bip01_neck 				= 0.48, -1, 0.5
+bip01_head 				= 0.49, -1, 0.2
+bip01_spine1    		= 0.44, -1, 0.3
+
+[m_Snork_damage]:e_creature_damage
+default					= 0.06, -1, 0.06, 10
+bip01_pelvis 			= 0.6, -1, 0.3
+bip01_spine 			= 0.66, -1, 0.4
+bip01_spine1 			= 0.66, -1, 0.4
+bip01_neck 				= 0.8, -1, 0.5
+bip01_head 				= 0.9, -1, 0.5, 10
+
+[m_bloodsucker_damage]:e_creature_damage
+default					= 0.0, -1, 0.0, 10
+bip01_head      		= 1.0, -1, 0.9, 10
+bip01_neck      		= 0.6, -1, 0.7, 8
+bip01_spine     		= 0.02, -1, 0.001
+bip01_spine1    		= 0.02, -1, 0.005
+bip01_spine2    		= 0.01, -1, 0.001
+bip01_spine3    		= 0.01, -1, 0.001
+
+[m_Chimera_damage]:e_creature_damage
+default					= 0.06, -1, 0.05, 10
+bip01_neck 				= 0.53, -1, 0.35
+bip01_head 				= 0.55, -1, 0.5
+bip01_spine 			= 0.133, -1, 0.05
+bip01_spine1 			= 0.133, -1, 0.05
+
+[m_Controller_damage]:e_creature_damage
+default					= 0.0, -1, 0.0
+bip01_pelvis 			= 0.6, -1, 0.5
+bip01_spine 			= 0.6, -1, 0.5
+bip01_spine1 			= 0.6, -1, 0.5
+bip01_neck 				= 1.0, -1, 1.0
+
+[m_Fracture_damage]:e_creature_damage
+bip01_pelvis 			= 0.1, -1, 0.1
+;bip01_spine 			= 0.1, -1, 0.1
+bip01_spine1 			= 0.2, -1, 0.1
+bip01_neck 				= 0.4, -1, 0.1
+bip01_head 				= 0.6, -1, 0.50
+
+[m_giant_damage]:e_creature_damage
+default         		= 0.007, -1, 0.001
+bone01          		= 0.07, -1, 0.1
+bip01_pelvis    		= 0.17, -1, 0.1
+bip01_spine     		= 0.17, -1, 0.1
+bip01_neck      		= 0.47, -1, 0.5
+bip01_head      		= 0.55, -1, 0.2, 1
+
+[m_bibliotekar_damage]:e_creature_damage
+default					= 0.001, -1, 0.001
+bip01_pelvis 			= 0.01, -1, 0.1
+bip01_spine1 			= 0.07, -1, 0.1
+bip01_neck 				= 0.16, -1, 0.1
+bip01_head 				= 0.23, -1, 0.50
+
+[m_Poltergeist_damage]:e_creature_damage
+
+[m_Pseudodogfrend_damage]:e_creature_damage
+default					= 0.1, -1, 0.1
+bip01_pelvis 			= 0.1, -1, 0.1
+bip01_spine 			= 0.1, -1, 0.1
+bip01_spine1 			= 0.1, -1, 0.1
+bip01_neck 				= 0.3, -1, 1.5
+bip01_head 				= 0.3, -1, 0.3, 10
+
+[zombied_damage]
+hit_fraction				= 0.1
+bip01_pelvis 				= 1.0, 0.5
+bip01_spine 		 		= 1.0, 0.5
+bip01_spine1 		 		= 1.0, 0.5
+bip01_spine2 		 		= 1.0, 0.5
+bip01_neck 			 	= 1.0, 0.9
+bip01_head 			 	= 1.0, 0.9
+eyelid_1 			 	= 1.0, 0.09
+eye_left 			 	= 1.0, 0.09
+eye_right 			 	= 1.0, 0.09
+jaw_1 		 		 	= 1.0, 0.09
+bip01_l_clavicle	 		= 1.0, 0.4
+bip01_l_upperarm	 		= 1.0, 0.03
+bip01_l_forearm	 	 		= 1.0, 0.03
+bip01_l_hand	 	 		= 1.0, 0.01
+bip01_r_clavicle	 		= 1.0, 0.4
+bip01_r_upperarm	 		= 1.0, 0.03
+bip01_r_forearm	 	 		= 1.0, 0.03
+bip01_r_hand	 	 		= 1.0, 0.01
+bip01_l_thigh	 	 		= 1.0, 0.03
+bip01_l_calf	 	 		= 1.0, 0.03
+bip01_l_foot	 	 		= 1.0, 0.01
+bip01_l_toe0	 	 		= 1.0, 0.01
+bip01_r_thigh	 	 		= 1.0, 0.03
+bip01_r_calf	 	 		= 1.0, 0.03
+bip01_r_foot	 	 		= 1.0, 0.01
+bip01_r_toe0	 	 		= 1.0, 0.01
+
+[deathclaw_damage]
+default       = 0.6, -1, 0.5
+bip01_spine     = 0.5, -1, 0.5
+bip01_spine1    = 0.5, -1, 0.5
+bip01_spine2    = 0.5, -1, 0.5
+bip01_neck      = 0.9, -1, 0.8
+bip01_head      = 1.0, -1, 0.9, 10
+bip01_ponytail1  = 0.25, -1, 1.0, 10
+bip01_ponytail2  = 0.25, -1, 1.0, 10
+bip01_l_upperarm = 0.15, -1, 0.5
+bip01_l_forearm = 0.15, -1, 0.5
+bip01_l_hand = 0.15, -1, 0.5
+bip01_r_upperarm = 0.15, -1, 0.5
+bip01_r_forearm = 0.15, -1, 0.5
+bip01_r_hand = 0.15, -1, 0.5
+bip01_pelvis = 0.15, -1, 0.5
+
+[m_karlik_damage]
+default				= 0.05, -1, 0.1
+bip01_pelvis 			= 1.0, 2, 0.3
+bip01_spine 			= 1.0, 2, 0.8
+bip01_spine1 			= 0.6, 2, 0.8
+bip01_spine2 			= 0.6, 2, 0.8
+bip01_neck 				= 1.0, 0, 1.0
+bip01_head 				= 3.0, 0, 1.0
+leye 			 		= 2.0, 0, 1.0, 5.0
+reye 			 		= 2.0, 0, 1.0, 5.0
+bip01_l_clavicle	 		= 1.0, 8, 0.7 
+bip01_l_upperarm	 		= 1.0, 10, 0.6
+bip01_l_forearm	 	 	    = 0.2, 10, 0.5
+bip01_l_hand	 	 	    = 0.1, 1, 0.2
+bip01_r_clavicle	 		= 1.0, 8, 0.7 
+bip01_r_upperarm	 		= 1.0, 8, 0.6
+bip01_r_forearm	 	 		= 0.2, 8, 0.5
+bip01_r_hand	 	 		= 0.1, 1, 0.2
+bip01_l_thigh	 	 		= 1.0, 4, 0.5
+bip01_l_calf	 	 		= 1.0, 4, 0.4
+bip01_l_foot	 	 		= 0.2, 4, 0.3
+bip01_l_toe0	 	 		= 0.0, -1, 0.2
+bip01_l_toe01	 	 		= 0.0, -1, 0.2
+bip01_r_thigh	 	 		= 1.0, 6, 0.5
+bip01_r_calf	 	 		= 1.0, 6, 0.4
+bip01_r_foot	 	 		= 0.2, 6, 0.3
+bip01_r_toe0	 	 		= 0.0, -1, 0.2
+bip01_r_toe01	 	 		= 0.0, -1, 0.2

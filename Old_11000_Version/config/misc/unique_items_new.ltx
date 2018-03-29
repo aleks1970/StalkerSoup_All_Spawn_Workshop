@@ -1,0 +1,355 @@
+;<!-- TB3D 1.0.9.9.9.8 gold bars, glowsticks, old book, new glowsticks icons, added ';' in this row - aleks1970 -->
+
+[esc_medkit]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 				= "food and drugs\medkit_army"
+$prefetch 			= 8
+class			= II_MEDKI
+cform				= skeleton
+visual				= equipments\item_aptechka3.ogf
+description			= enc_equipment_medi_medkit2
+inv_name			= Medkit_army
+inv_name_short		= Medkit_army_s
+inv_weight			= 0.1
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 16
+inv_grid_y			= 20
+cost				= 230
+
+; eatable item
+eat_health			= 0.6
+eat_satiety			= 0
+eat_power			= -0.3
+eat_radiation		= -0.1
+
+wounds_heal_perc	= 1.0
+eat_portions_num	= 1
+eat_max_power		= 0.1
+
+; food item
+animation_slot		= 4
+
+;hud item
+hud = wpn_vodka_hud
+
+
+[swamp_samopisez]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn 				= "arhara_items\samopisez"
+;$prefetch 			= 32
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\samopisez.ogf
+radius				= 1
+;script_binding		        = stalker.object_init
+quest_item			= false
+
+description			= item_samopisez 
+
+inv_name			     = item_samop
+inv_name_short		     = item_samop_s
+inv_weight			= 20.0
+inv_grid_width		     = 2
+inv_grid_height		= 2
+inv_grid_x			= 4
+inv_grid_y			= 48
+cost				     = 1500
+
+[kolba_orand]:identity_immunities
+GroupControlSection		= spawn_group
+discovery_dependency	=
+$spawn					= "arhara_items\kolbasa_orange"
+cform                   = skeleton
+class					= II_ATTCH
+;visual                  = equipments\kolba_orand
+visual                  = food\kolbasa_orange.ogf		;109998
+
+radius				= 1
+quest_item			= false
+cost					= 50
+
+description			= Orange_Kolbasa 
+inv_name				= Kolbasa
+inv_name_short			= Kolbasa_s
+inv_weight				= 3
+inv_grid_width			= 1		;109998
+inv_grid_height			= 1
+inv_grid_x				= 70
+inv_grid_y				= 29
+
+[kolba_siniy]:identity_immunities
+GroupControlSection		= spawn_group
+;discovery_dependency	=
+$spawn					= "arhara_items\kolbasa_blue"
+cform                   = skeleton
+class					= II_ATTCH
+;visual                  = equipments\kolba_siniy
+visual                  = food\kolbasa_blue.ogf			;;109998
+
+radius				= 1
+quest_item			= false
+cost					= 50
+
+description			= Blond_Kolbasa
+inv_name				= Kolbasa_blond_item
+inv_name_short			= Kolbasa_blond_item_s
+inv_weight				= 3
+inv_grid_width			= 1		;;109998
+inv_grid_height			= 1
+inv_grid_x				= 42
+inv_grid_y				= 50
+
+[novice_pda]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn 				= "devices\quest_items\novice_pda"
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\item_pda.ogf
+radius				= 1
+quest_item			= true
+description			= enc_novice_pda_descr
+inv_name			= novice_pda
+inv_name_short		= novice_pda_s
+inv_weight			= 0.1
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 35
+inv_grid_y			= 63
+cost				= 0
+
+[pda_klerik]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn 				= "devices\quest_items\pda_francuz"
+;$prefetch 			= 32
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\item_pda.ogf
+radius				= 1
+quest_item			= false
+
+description			= clerik_pda_desc
+
+inv_name			= clerik_pda
+inv_name_short		= clerik_pda_s
+inv_weight			= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 37
+inv_grid_y			= 63
+cost				= 1
+
+[pda_naem_swamp]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn 				= "devices\quest_items\pda_naem_swamp"
+;$prefetch 			= 32
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\item_pda1.ogf
+radius				= 1
+quest_item			= false
+
+description			= naem_pda_desc
+
+inv_name			= naem_pda
+inv_name_short		= naem_pda_s
+inv_weight			= 0.1
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 36
+inv_grid_y			= 65
+cost				= 1
+
+[notebook_yanold]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn 				= "devices\quest_items\notebook_yanold"
+;$prefetch 			= 32
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\item_notebook_new
+radius				= 1
+quest_item			= false
+
+description         = old_notebook_desc
+
+inv_name			= old_notebook
+inv_name_short		= old_notebook_s
+inv_weight			= 1.2
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 13  ; 39
+inv_grid_y			= 23  ; 14
+cost				= 0
+
+[zep_gold_bar1]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+;no description
+
+[zep_gold_bar2]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+description				= gold_bar2_desc
+
+[zep_gold_bar3]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+description				= gold_bar3_desc
+
+[zep_gold_bar4]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+description				= gold_bar4_desc
+
+[zep_gold_bar5]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+description				= gold_bar5_desc
+
+[zep_gold_bar6]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+description				= gold_bar6_desc
+
+[zep_gold_bar7]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+description				= gold_bar7_desc
+
+[zep_gold_bar8]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+;no description
+
+[zep_gold_bar9]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+;no description
+
+[zep_gold_bar10]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+description				= gold_bar10_desc
+
+[zep_gold_bar11]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+description				= gold_bar11_desc
+
+[zep_gold_bar12]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+description				= gold_bar12_desc
+
+[zep_gold_bar13]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+description				= gold_bar13_desc
+
+[zep_gold_bar14]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+;no description	
+
+[zep_gold_bar15]:bullion_gild
+$spawn					= "devices\arhara_items\bullion_gild"
+description				= gold_bar15_desc
+
+[tb3d_prop]:bomba_big
+visual = physics\box\konteyner_01 
+can_take				= false
+ph_mass					= 9999999
+inv_name				= ""
+inv_name_short			= ""
+custom_data = scripts\no_collide.ltx
+
+immunities_sect			= tb3d_prop_immunities_sect
+
+[tb3d_prop_immunities_sect]
+burn_immunity			= 0.0
+strike_immunity			= 0.0
+shock_immunity			= 0.0
+wound_immunity			= 0.0
+radiation_immunity		= 0.0
+telepatic_immunity		= 0.0
+chemical_burn_immunity	= 0.0
+explosion_immunity		= 0.0
+fire_wound_immunity		= 0.0
+
+[tb3d_roof_tile]:tb3d_prop
+visual = physics\large_trash\shifer_03 
+
+[tb3d_old_dozer]:tb3d_prop
+visual = objects\trash_buldozer
+
+[tb3d_box_wood]:tb3d_prop
+visual = dynamics\box\box_wood_01
+ 
+[tb3d_box_metal]:tb3d_prop
+visual = physics\box\konteyner_01
+
+[tb3d_fly_island]:tb3d_prop					;;;may use to cover flaws, not to interfere with dav
+visual = dav\fly_island 
+
+[tb3d_laputa_island]:tb3d_prop				;;;may use to cover flaws, not to interfere with dav
+visual = dav\laputa 
+
+[glow_stick_red]:af_base    					;from: Phosphoric stick (ALEX BOY)
+GroupControlSection = spawn_group
+$spawn    = "artifacts\fosfor"
+$npc      = on    
+cform     = skeleton
+class     = ARTEFACT
+visual    = balkanzona\glow_sticks\red_a.ogf
+;visual    = balkanzona\glow_sticks\red_1b.ogf
+description    = fosfor_descr
+inv_name       = fosfor_r
+inv_name_short = fosfor_r
+inv_weight     = 0.15
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x     = 26		;;109998
+inv_grid_y     = 59
+jump_height  = 0.0
+cost         = 400
+particles    = anomaly2\artefact\artefact_zharka
+lights_enabled    = true
+trail_light_color = 1.0,0.01,0.01
+trail_light_range = 5.0
+belt = false
+ 
+health_restore_speed     = 0.0   
+radiation_restore_speed  = 0.0 
+satiety_restore_speed    = 0.0    
+power_restore_speed      = 0.0    
+bleeding_restore_speed   = 0.0
+inventory_radiation      = 0.0
+hit_absorbation_sect     = imitator_absorbation
+
+[glow_stick_green]:glow_stick_red
+trail_light_color = 0.01,1.0,0.01
+inv_name       = fosfor_g
+inv_name_short = fosfor_g
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x     = 24		;;109998
+inv_grid_y     = 59
+visual    = balkanzona\glow_sticks\green_a.ogf
+;visual    = balkanzona\glow_sticks\green_2b.ogf
+
+[glow_stick_blue]:glow_stick_red
+trail_light_color = 0.01,0.01,1.0
+inv_name       = fosfor_b
+inv_name_short = fosfor_b
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x     = 28		;;109998
+inv_grid_y     = 59
+visual    = balkanzona\glow_sticks\blue_a.ogf
+;visual    = balkanzona\glow_sticks\blue_3b.ogf
+
+[glow_stick_yellow]:glow_stick_red
+trail_light_color = 1.0,1.0,0.01
+inv_name       = fosfor_y
+inv_name_short = fosfor_y
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x     = 30		;;109998
+inv_grid_y     = 59
+visual    = balkanzona\glow_sticks\yellow_a.ogf
+;visual    = balkanzona\glow_sticks\yellow_4b.ogf

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.1.5 added ALD-Weapons pack description, glow grenades, aleks1970 edits, removed "string_table" - aleks1970 -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Rewritten, edited and proofed by Sword2012 for clarity, brevity, and consistency. 09 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<!-- WEAPON ADDITIONS -->
+	<string id="enc_arsenal_vepr12">
+		<text>Boar-12 'Hammer'</text>
+	</string>
+	<string id="enc_arsenal_vepr12_s">
+		<text>Boar-12</text>
+	</string>
+	<string id="enc_arsenal_vepr12_descr">
+		<text>The (Wild) Boar-12 is a relatively new development from the Hammer design team\nBased on the time-tested design of the RPK machine-gun (produced at the same factory), it was created as a direct competitor to the popular Russian Saiga-12 series of rifles\nAlthough its main purpose is for sport (practice shooting under IPSC rules) and home security, the Boar-12 has become a popular support weapon for law enforcement agencies\n • Ammunition:\n • 12x70 Tungsten Buckshot\n • 12x70 Buckshot\n • 12x76 Slug\n • 12x76 Dart\n • Magazine capacity: 20 rounds</text>
+	</string>
+	<string id="wpn_ump45_Taktik">
+		<text>HK UMP-45 'Tactical'</text>
+	</string>
+	<string id="wpn_ump45_Taktik_s">
+		<text>HK UMP-45</text>
+	</string>
+	<string id="enc_weapons1_wpn_ump45_Taktikal">
+		<text>• Ammunition:\n • .45 ACP FMJ\n • .45 ACP Hydra-Shok\n • Magazine capacity: 30 + 1 rounds\nThe UMP-45 Tactical is a blowback-operated, magazine-fed submachine gun firing from a closed bolt, with integrated suppressor and Eotech scope.\nThe UMP-45 is chambered for larger cartridges and magazines than other submachine guns like the 9x19mm MP5,\nto provide greater stopping power against unarmored targets (albeit with a slightly lower effective range) than the MP5\nA larger cartridge produces more recoil, making control more difficult in full-auto mode. To mitigate this, the cyclic rate of fire was reduced to 600 rounds/min</text>
+	</string>
+	<string id="wpn_fn2000_paratrooper">
+		<text>FN2000 'Marine'</text>
+	</string>
+	<string id="wpn_fn2000_paratrooper_s">
+		<text>FN2000</text>
+	</string>
+	<string id="enc_weapons1_wpn_fn2000_paratrooper">
+		<text>• Ammunition:\n • 9x39mm PAB9\n • 9x39mm SP-5\n • 9x39mm SP-6\n • 9x39mm Isomorphic\n • Magazine capacity: 30 rounds\n • Effective range 800 m\n • Rate of fire 890/min\n• Rifle grenade M209\n• Scope (x8.0)\n• Integrated suppressor\nThe gun was modelled on the standard Belgian Fabrique Nationale Herstal F2000 Automatic grenade launcher, at the request of SPN Naval officers.\nVarious artefacts are used in its manufacture, which significantly increases its performance characteristics.\nEvidence of their supply into the Zone was found at the crash site of a military helicopter.\nFinding one, however, is another matter...</text>
+	</string>
+	<string id="wpn_electro_gun">
+		<text>Electro Rail gun</text>
+	</string>
+	<string id="wpn_electro_gun_s">
+		<text>Rail gun</text>
+	</string>
+	<string id="enc_wpn_electro_gun">
+		<text>• Ammunition:\n • 15mm cartridges\n • Magazine capacity: 15 rounds\nA new model of electric guns from the Freedom group. Unlike the gauss gun, Rails does not have a grave battery, there is a compact capacitor. Yes, and with the ball calliper more, so this rifle is both lighter and more powerful. Comes with a charger for recharging the rifle.</text>
+	</string>
+<!-- UNIQUE WEAPON ADDITIONS -->
+	<string id="ars_m249">
+		<text>M-249 M1</text>
+	</string>
+	<string id="arsenal_m249_descr">
+		<text>• Ammunition:\n • 5.56x45mm SS190\n • 5.56x45mm AP\n • 5.56x45mm R\n • Rate of fire 1250/min\n • Effective range 250 m\n • Muzzle velocity 970 m/s\n • This machine gun was designed by Belgian FN Herstel in the late 1970's - 80's. it is in service in many countries such as Belgium and the U.S. ( under the designation M249 saw). Minimi - easy (manual) machine-gun is based on the vapor-automatic with rotating bolt.</text>
+	</string>
+	<string id="enc_weapons1_VSS_Taktikal">
+		<text>VSS Vintorez 'Tactical'</text>
+	</string>
+	<string id="enc_weapons1_VSS_Taktikal_s">
+		<text>VSS Vintorez</text>
+	</string>
+	<string id="enc_weapons1_wpn_VSS_Taktikal">
+		<text>• Ammunition:\n • 9x39mm PAB9\n • 9x39mm SP-5\n • 9x39mm SP-6\n • 9x39mm Isomorphic\n • Magazine capacity: 25 rounds\n• Effective range 600m\n• Rate of fire: 600/min\nTactical Vintorez with Eotech red dot colimator, with possibility to attach\n • ELCAN digital hunting scope</text>
+	</string>
+	<string id="wpn_ghost_gauss">
+		<text>VGI Gauss M72 'Ghost'</text>
+	</string>
+	<string id="enc_weapons1_wpn_ghost_gauss">
+		<text>• Ammunition:\n • 2mm Gauss capsules\n • Magazine capacity: 20 rounds\n • Effective Range: 1000m\nThis unique M72 Gauss Rifle, once owned by 'Ghost', was found lying at the center of an 'Electro' anomaly, which permanently altered its firing characteristics. Whereas the slow recharge rates of normal Gauss Rifles make them effectively useless after one shot, the 'Ghost' possesses a furious rate of automatic fire, and should be used with extreme care...</text>
+	</string>
+	<string id="wpn_ghost_gauss_stealth">
+		<text>VGI Ghost 'Stealth'</text>
+	</string>
+	<string id="enc_weapons1_wpn_ghost_gauss_stealth">
+		<text>• Ammunition:\n • 2mm Gauss capsules\n • Magazine capacity: 20 rounds\n • Effective Range: 1000m\nThe VGI 'Ghost Stealth' Gauss Rifle has, for a long time, been the primary choice for stealth operations, and was successfully tested in conjunction with the Ghost stealth outfit. This weapon has all the positive qualities of its predecessor, the Gaust M72 'Ghost', plus new ones achieved by immersing it in various anomalies. In addition to a higher rate of fire, in comparison with normal Gauss Rifles, it is almost invisible in daylight</text>
+	</string>
+<!-- ATTACHMENTS -->
+	<string id="wpn_sil_g3">
+		<text>Suppressor G3</text>
+	</string>
+	<string id="enc_wpn_addon_wpn_sil_g3">
+		<text>Suppressor for the Heckler and Koch G3 rifle</text>
+	</string>
+	<string id="wpn_sil_upg_556_silencer">
+		<text>Suppressor 'SCAR'</text>
+	</string>
+	<string id="enc_wpn_addon_sil_upg_556_silencer">
+		<text>Suppressor for the unique Zone weapon, the SCAR Crysis</text>
+	</string>
+	<string id="wpn_sil_usp">
+		<text>Suppressor 'USP'</text>
+	</string>
+	<string id="enc_wpn_addon_sil_usp">
+		<text>Suppressor created specially for the USP pistol variants</text>
+	</string>
+	<string id="wpn_addon_launcher_hk79">
+		<text>Heckler and Koch HK79</text>
+	</string>
+	<string id="enc_wpn_addon_launcher_hk79">
+		<text>HK79 Grenade Launcher, designed by the German company Heckler and Koch for installation on their rifles such as the 7.62mm G3, and the 5.56mm HK33 and G41.\nUsed primarily by the German and Norwegian armed forces, this single-shot, 40mm launcher has a rifled steel barrel that is hinged to the launcher frame at the front, and can be tipped down at the back for loading.\nThe firing mechanism is cocked manually, and has a manual safety catch at the back. The trigger is on the left of the launcher, above the barrel. The rear 'ladder' sight is clamped to the top of the rifle, and has markings for 50m to 350m.\nThe HK79 is suitable for all types of low-velocity 40mm grenades, including fragmentation, anti-tank, flare, smoke, tear gas, and rubber pellet rounds</text>
+	</string>
+<!-- BLADES -->
+<!-- SCOPES -->
+	<string id="wpn-scope_elcan">
+		<text>ELCAN digital hunting scope</text>
+	</string>
+	<string id="wpn-scope_elcan_s">
+		<text>ELCAN</text>
+	</string>
+	<string id="enc_weapons1_wpn-addon_scope_elcan">
+		<text>This particular model utilizes a computerized scope system with variable zoom</text>
+	</string>
+	<string id="ars-scope_m2">
+		<text>PSO-3</text>
+	</string>
+	<string id="ars-scope_m2_s">
+		<text>PSO-3</text>
+	</string>
+	<string id="enc_arsenal_scope_m2">
+		<text>Reticle, high multiplicity JI-3</text>
+	</string>
+	<string id="enc_arsenal_scope_m1">
+		<text>POSP 3-9x42V Optical sight</text>
+	</string>
+	<string id="enc_arsenal_scope_m1_s">
+		<text>POSP 3-9x42V</text>
+	</string>
+	<string id="enc_arsenal_scope_m1_descr">
+		<text>POSP 3-9x42V relates to an optical sight, which can be used in the dark with a built-in backlight\nAdjustment knobs provide for lateral and angular correction\nThe alternating color reticle illumination rangefinder lets you easily determine the distance to the subject under observation\nThe internal part of the body is filled with nitrogen, which prevents the formation of moisture on the lenses inside, and possible corrosion of metal components\nUses the standard SVD dovetail mount\nDesigned for use on the SVU-AS sniper rifle</text>
+	</string>
+	<string id="wpn_addon_zrak_scope1">
+		<text>Zastava optical sight</text>
+	</string>
+	<string id="enc_weapons_addon_zrak_scope1">
+		<text>'Zrak' is the optical sight specially designed for the Zastava family of sniper rifles</text>
+	</string>
+	<string id="wpn_addon_ik_scope">
+		<text>IR head</text>
+	</string>
+	<string id="enc_weapons_wpn_addon_ik_scope">
+		<text>Infrared head for optical sights, used for accurate aiming in darkness</text>
+	</string>
+	<string id="wpn_addon_hensoldt_scope">
+		<text>Hensoldt Fero-Z 24</text>
+	</string>
+	<string id="enc_weapons_wpn_addon_hensoldt_scope">
+		<text>Hensoldt Fero-Z 24. 4 x multiple optical sight on a HK STANAG claw mount, designed for installation on HK G3 and G41 combat rifles, as well as the MP5 submachine gun</text>
+	</string>
+	<string id="equip_device_nightvision_goggles_m1">
+		<text>Night Vision goggles</text>
+	</string>
+	<string id="equip_device_nightvision_goggles_m1_s">
+		<text>Night Vision goggles</text>
+	</string>
+	<string id="enc_equipment_devic_nightvision_goggles_m1">
+		<text>Night Vision goggles.\nThe night vision device, assembled with the more sophisticated element base and equipped with a digital signal filtering system. Provides a brighter image with much less noise.</text>
+	</string>
+	<string id="equip_device_nightvision_goggles_m2">
+		<text>Powerful Night Vision goggles</text>
+	</string>
+	<string id="equip_device_nightvision_goggles_m2_s">
+		<text>Powerful goggles</text>
+	</string>
+	<string id="enc_equipment_devic_nightvision_goggles_m2">
+		<text>Powerful Night Vision goggles.\nImproved night vision device, made with the latest technology. Provides a virtually daytime image with almost no noise.\nRecharge time improved by using the latest Li-ion battery technology, and a more efficient transducer.</text>
+	</string>
+	<string id="enc_1p78">
+		<text>Optical sight 1P78 "Chestnut"</text>
+	</string>
+	<string id="enc_1p78_desc">
+		<text>The sight 1P78 "Chestnut" is designed to equip on the automatic weapons and machine guns.\nThe sight has a multiplicity of 2.8x. Of weapons, which can be found in the Zone, established primarily to various submachine guns and some shortened machines.</text>
+	</string>
+<!-- AMMUNITION -->
+	<string id="ammo_rail_gun_15m">
+		<text>Cartridges 15mm</text>
+	</string>
+	<string id="ammo_rail_gun_15m_s">
+		<text>Cartridges 15mm</text>
+	</string>
+	<string id="enc_ammo_rail_gun_15m">
+		<text>Cartridges 15mm, are lead balls with a steel core. Used in Electro gun.</text>
+	</string>
+<!-- GLOWING GRENADES -->
+	<string id="fosfor_grenade_g">
+		<text>AN-M83G Green Phosphor</text>
+	</string>
+	<string id="fosfor_grenade_r">
+		<text>AN-M83R Red Phosphor</text>
+	</string>
+	<string id="fosfor_grenade_b">
+		<text>AN-M83B Blue Phosphor</text>
+	</string>
+	<string id="fosfor_grenade_y">
+		<text>AN-M83Y Yellow Phosphor</text>
+	</string>
+	<string id="fosfor_grenade_descr">
+		<text>Military Spec Ops AN-M83 Phosphor grenades\n• Lighting range: 10m\n• Lit time: approx 60 sec\nBased on the AN-M83 HC white smoke hand grenade\nGrenade body is made mostly from fibreglass, and contains a filler with chemical agents needed to obtain glowing light effects in various colors after ignition\nAvailable in four colors:\n• Military AN-M83R - Red\n• Military AN-M83B - Blue\n• Military AN-M83G - Green\n• Military AN-M83Y - Yellow\nAll versions must be be treated with extreme care, and may activate if dropped or impacted!</text>
+	</string>
+<!-- MISC -->
+	<string id="itm_morphine">
+		<text>Morphine</text>
+	</string>
+	<string id="enc_equipment_morphine">
+		<text>A plant-based opiate that acts directly on the central nervous system to alleviate enervating pain, especially from grating bone, trapped nerves, or severe tissue damage. To use, press the automatic injector into a muscle for a one-shot treatment until you can reach safety and emergency treatment. It won't cure anything, and you'll be unaware of further damage - but you won't care. Common side effects include constipation, vomiting, and drowsiness, hence its name. Use sparingly to avoid withdrawal symptoms...</text>
+	</string>
+	<string id="item_battery_05">
+		<text>Pack of AA batteries.</text>
+	</string>
+	<string id="enc_item_battery_05">
+		<text>Night in the Zone, it's something terrible. And that would not be so creepy, many stalkers use headlamps. For them, then these merchants bring these batteries.</text>
+	</string>
+<!-- 20:05 16.11.2014 -->

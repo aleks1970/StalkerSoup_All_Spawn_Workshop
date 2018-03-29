@@ -1,0 +1,438 @@
+<!-- ************ TB3D 1.1.0.0.0.7 new inventory and dialogs, predbannik_barman, glavny, predbannik_trader -->
+<xml>
+	<!-- ***************Darkscape*************** -->
+	<!-- ***************trader tweed in the farmhouse*************** -->
+	<specific_character id="ds_tweed" team_default="1">
+		<name>Tweed_name_gameplay</name>
+		<icon>ui_npc_tweed</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_bandit_master</bio>
+		<class>ds_tweed</class>
+		<community>trader</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>160</reputation>
+		<snd_config>characters_voice\human_01\woman\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\neytral\unic\tweed</visual>
+#include "inventory\tweed_items.xml"
+#include "gameplay\character_criticals_6.xml"     
+#include "dialogs\tweed_ds.xml"
+	</specific_character>
+	
+	<!-- ***************Courtyards*************** -->
+	<!-- ***************Deserter (bar informant) in building*************** -->
+	<specific_character id="dd_informator" team_default="1">
+		<name>bar_informer_name</name>
+		<icon>ui_arhara_osvedomitel</icon>
+		<map_icon x="0" y="0"/>
+		<bio>bar_informer_bio</bio>
+		<class>dd_informator</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="600" max="1000" infinitive="0"/>
+		<rank>500</rank>
+		<reputation>0</reputation>
+		<visual>actors\neytral\unic\bar_informator</visual>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+#include "inventory\ds_traitor_items.xml"
+#include "gameplay\character_criticals_6.xml"     
+#include "dialogs\traitor_ds.xml"
+	</specific_character>
+	
+	<!-- ***************dead Marshes*************** -->
+	<!-- ***************trader karina in scientist's house*************** -->
+	<specific_character id="karina" team_default="1">
+		<name>Karina_name_gameplay</name>
+		<icon>ui_npc_karina</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_bandit_master</bio>
+		<class>karina</class>
+		<community>trader</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>160</reputation>
+		<snd_config>characters_voice\human_01\woman\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\neytral\unic\karina</visual>
+#include "inventory\karina_items.xml"
+#include "gameplay\character_criticals_6.xml"     
+#include "dialogs\karina_dm.xml"
+	</specific_character>
+	
+	<!-- ***************Broken Road*************** -->
+	<!-- ***************Lone scientist in radar complex*************** -->
+	<specific_character id="tractorist" team_default="1">
+		<name>Leskinov_name_gameplay</name>
+		<icon>ui_npc_u_stalker_ecolog</icon>
+		<map_icon x="0" y="6"/>
+		<bio>sim_ecolog_bio</bio>
+		<class>tractorist</class>
+		<community>ecolog</community>
+		<terrain_sect>stalker_ecolog_terrain</terrain_sect>
+		<rank>800</rank>
+		<reputation>50</reputation>
+		<visual>actors\ecolog\stalker_ecolog</visual>
+		<snd_config>characters_voice\human_03\ecolog\</snd_config>
+		<crouch_type>1</crouch_type>
+#include "inventory\yan_ecolog_items.xml"
+#include "gameplay\character_criticals_3.xml"
+#include "dialogs\tractorist_hr.xml"
+	</specific_character>
+	
+	<!-- *******waiting room******** -->
+  <specific_character id="predbannik_barman" no_random = "1">
+    <name>pred_barmen_name</name>
+    <icon>ui_npc_predb_barmen</icon>
+    <map_icon x="1" y="4"></map_icon>
+    <bio>pred_barmen_bio</bio>
+    <class>predbannik_barman</class>
+    <community>trader</community>
+    <money min="100000" max="110000" infinitive="1"></money>
+    <rank>700</rank>
+    <reputation>50</reputation>
+    <visual>actors\neytral\unic\predbannik_barman</visual>
+    <snd_config>characters_voice\human_01\stalker\</snd_config>
+    <crouch_type>-1</crouch_type>
+#include "inventory\trader_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\pred_barman.xml"
+  </specific_character>
+
+  <specific_character id="predbannik_m_trader" no_random = "1">
+    <name>pred_trader_name</name>
+    <icon>ui_npc_predb_krohobor</icon>
+    <map_icon x="1" y="4"></map_icon>
+    <bio>pred_trader_bio</bio>
+    <class>predbannik_m_trader</class>
+    <community>trader</community>
+    <money min="100000" max="110000" infinitive="1"></money>
+    <rank>700</rank>
+    <reputation>50</reputation>
+    <!-- visual>new\sidor_kepka</visual -->
+	<visual>actors\neytral\unic\krohobor</visual>	<!-- underground like sid -->
+    <snd_config>characters_voice\human_01\stalker\</snd_config>
+    <crouch_type>-1</crouch_type>
+#include "inventory\trader_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\pred_trader.xml"
+  </specific_character>
+
+	<!-- ***************x14*************** -->
+	<!-- ***************hideaway in lab*************** -->
+	<specific_character id="glavny" team_default="1">
+		<name>glavny_name_gameplay</name>
+		<icon>ui_npc_pavel_serg</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_bandit_master</bio>
+		<class>glavny</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>160</reputation>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\unic\ucheniy\ucheniy_monolit</visual>
+#include "inventory\trader_items.xml"
+#include "gameplay\character_criticals_6.xml"     
+#include "dialogs\glavny_x14.xml"
+	</specific_character>
+	
+	<!-- ***************Hiding Road*************** -->
+	<!-- ***************liza*************** -->
+	<specific_character id="hr_liza" team_default="1">
+		<name>liza_name_gameplay</name>
+		<icon>ui_npc_tweed</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_bandit_master</bio>
+		<class>hr_liza</class>
+		<community>trader</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>160</reputation>
+		<snd_config>characters_voice\human_01\woman\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\unic\women\dev</visual>
+#include "inventory\tweed_items.xml"
+#include "gameplay\character_criticals_6.xml"     
+#include "dialogs\liza_hr.xml"
+	</specific_character>
+	
+	<!-- ***************afanasyev*************** -->
+	<specific_character id="hr_afanasyev" team_default="1">
+		<name>afanasyev_name_gameplay</name>
+		<icon>ui_npc_pavel_serg</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_bandit_master</bio>
+		<class>hr_afanasyev</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>160</reputation>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\unic\ucheniy\real_blask_dok</visual>
+#include "inventory\trader_items.xml"
+#include "gameplay\character_criticals_6.xml"     
+#include "dialogs\afanasyev_hr.xml"
+	</specific_character>
+	
+	<!-- ***************obmorok*************** -->
+	<specific_character id="pred_obmorok" team_default="1">
+		<name>obmorok_name_gameplay</name>
+		<icon>ui_npc_pavel_serg</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_bandit_master</bio>
+		<class>pred_obmorok</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>160</reputation>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\bandit\unic\obmorok</visual>
+#include "inventory\trader_items.xml"
+#include "gameplay\character_criticals_6.xml"     
+#include "dialogs\obmorok_pred.xml"
+	</specific_character>
+	
+	<!-- ***************karatel*************** -->
+	<specific_character id="pred_karatel" team_default="1">
+		<name>karatel_name_gameplay</name>
+		<icon>ui_npc_pavel_serg</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_bandit_master</bio>
+		<class>pred_karatel</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>160</reputation>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\soldier\unic\Andrey_Lunev</visual>
+#include "inventory\trader_items.xml"
+#include "gameplay\character_criticals_6.xml"     
+#include "dialogs\karatel_pred.xml"
+	</specific_character>
+	
+	<!-- ***************F1 Zika*************** -->
+	<specific_character id="f1_zika11" team_default="1">
+		<name>zika11_name_gameplay</name>
+		<icon>ui_npc_pavel_serg</icon>
+		<map_icon x="1" y="0"/>
+		<bio>sim_bandit_master</bio>
+		<class>f1_zika11</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>160</reputation>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\neytral\unic\tema_likvidator</visual>
+#include "inventory\trader_items.xml"
+#include "gameplay\character_criticals_6.xml"     
+#include "dialogs\zika11_f1.xml"
+	</specific_character>
+	
+	<!-- ***************OLD Last Day Killers by dAVROs*************** -->
+	<!-- ***************109954 returned as spawns already in pre-109950 saves*************** -->
+	<!-- ***************Black Exo Blue belt*************** -->
+	<specific_character id="ldk1" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_hunter_70_novice</icon>
+		<map_icon x="1" y="0"/>
+		<bio>lastday_killer1</bio>
+		<class>sim_dcity_lastday_master</class>
+		<community>lastday</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>890</rank>
+		<reputation>-970</reputation>
+		<money min="50" max="730" infinitive="0"/>
+		<visual>actors\ldk\last_day_killer1</visual>
+		<snd_config>characters_voice\human_02\ldk\</snd_config>
+		<panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+#include "inventory\lastday_killer1_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"
+				</specific_character>
+	<!-- ***************Black Exo with breastplate buttons and white face respirator*************** -->
+	<specific_character id="ldk2" team_default="1">
+		<name>GENERATE_NAME_lieutenant</name>
+		<icon>ui_npc_sapsan</icon>
+		<map_icon x="1" y="0"/>
+		<bio>lastday_killer1</bio>
+		<class>sim_dcity_lastday_master</class>
+		<community>lastday</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>-800</reputation>
+		<snd_config>characters_voice\human_02\ldk\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\ldk\last_day_killer2</visual>
+#include "inventory\lastday_killer2_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************Black light duty Exo with soft sunglassed helmet*************** -->
+	<specific_character id="ldk3" team_default="1">
+		<name>GENERATE_NAME_lieutenant</name>
+		<icon>ui_npc_sapsan</icon>
+		<map_icon x="1" y="0"/>
+		<bio>lastday_killer1</bio>
+		<class>sim_dcity_lastday_master</class>
+		<community>lastday</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>-700</reputation>
+		<snd_config>characters_voice\human_02\ldk\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\ldk\last_day_killer3</visual>
+#include "inventory\lastday_killer2_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************Black Stalker suit with black hood respirator*************** -->
+	<specific_character id="ldk4" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_sapsan</icon>
+		<map_icon x="1" y="0"/>
+		<bio>lastday_killer1</bio>
+		<class>sim_dcity_lastday_master</class>
+		<community>lastday</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>414</rank>
+		<reputation>-550</reputation>
+		<snd_config>characters_voice\human_02\ldk\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\ldk\last_day_killer4</visual>
+#include "inventory\lastday_killer4_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************Black Exo with breast plate buttons and Black face respirator*************** -->
+	<specific_character id="ldk5" team_default="1">
+		<name>GENERATE_NAME_lieutenant</name>
+		<icon>ui_npc_black_inkvizitor_redeye</icon>
+		<map_icon x="1" y="0"/>
+		<bio>lastday_killer1</bio>
+		<class>sim_dcity_lastday_master</class>
+		<community>lastday</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>902</rank>
+		<reputation>-460</reputation>
+		<money min="50" max="730" infinitive="0"/>
+		<visual>actors\ldk\last_day_killer5</visual>
+		<snd_config>characters_voice\human_02\ldk\</snd_config>
+		<panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+#include "inventory\lastday_killer3_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"
+				</specific_character>
+	<!-- ***************Black medium duty Exo Purple trim*************** -->
+	<specific_character id="ldk6" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_stalker_bandit_veteran</icon>
+		<map_icon x="3" y="2"/>
+		<bio>lastday_killer1</bio>
+		<class>sim_dcity_lastday_master</class>
+		<community>lastday</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>867</rank>
+		<reputation>-390</reputation>
+		<visual>actors\ldk\last_day_killer6</visual>
+		<snd_config>characters_voice\human_02\ldk\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\lastday_killer1_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\generic_dialogs.xml"
+    </specific_character>
+	<!-- ***************Nano suit with glass visor*************** -->
+	<specific_character id="ldk7" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="3" y="0"/>
+		<bio>lastday_killer1</bio>
+		<class>sim_dcity_lastday_master</class>
+		<community>lastday</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>822</rank>
+		<reputation>-644</reputation>
+		<visual>actors\ldk\last_day_killer7</visual>
+		<snd_config>characters_voice\human_02\ldk\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\lastday_killer2_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\generic_dialogs.xml"
+    </specific_character>
+	<!-- *************** Full Invisible stealth*************** -->
+	<specific_character id="ldk8" team_default="1">
+		<name>The_undead_name_gameplay</name>
+		<icon>ui_npc_u_stalker_mo_head_1</icon>
+		<map_icon x="3" y="0"/>
+		<bio>lastday_killer1</bio>
+		<class>sim_dcity_lastday_master</class>
+		<community>lastday</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>522</rank>
+		<reputation>-890</reputation>
+		<money min="50" max="730" infinitive="0"/>
+		<visual>actors\ldk\last_day_killer8</visual>
+		<snd_config>characters_voice\human_02\ldk\</snd_config>
+		<panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+#include "inventory\lastday_killer3_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"
+				</specific_character>
+	<!-- ***************Part Invisible stealth*************** -->
+	<specific_character id="ldk9" team_default="1">
+		<name>Patch_name_gameplay</name>
+		<icon>ui_npc_u_stalker_mo_head_1</icon>
+		<map_icon x="3" y="0"/>
+		<bio>lastday_killer1</bio>
+		<class>sim_dcity_lastday_master</class>
+		<community>lastday</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>522</rank>
+		<reputation>-890</reputation>
+		<money min="50" max="730" infinitive="0"/>
+		<visual>actors\ldk\last_day_killer9</visual>
+		<snd_config>characters_voice\human_02\ldk\</snd_config>
+		<panic_threshold>0.0</panic_threshold>
+		<crouch_type>1</crouch_type>
+#include "inventory\lastday_killer5_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"
+				</specific_character>
+				
+  <specific_character id="predbannik_trader" no_random = "1">	<!-- 110007, support for prior saves -->
+    <name>pred_trader_name</name>
+    <icon>ui_npc_predb_krohobor</icon>
+    <map_icon x="1" y="4"></map_icon>
+    <bio>pred_trader_bio</bio>
+    <class>predbannik_trader</class>
+    <community>trader</community>
+    <money min="100000" max="110000" infinitive="1"></money>
+    <rank>700</rank>
+    <reputation>50</reputation>
+    <!-- visual>new\sidor_kepka</visual -->
+	<visual>actors\neytral\unic\krohobor</visual>
+    <snd_config>characters_voice\human_01\stalker\</snd_config>
+    <crouch_type>-1</crouch_type>
+#include "inventory\trader_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\pred_trader.xml"
+  </specific_character>
+  
+</xml>

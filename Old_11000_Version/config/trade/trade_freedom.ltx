@@ -1,0 +1,11 @@
+;;;TB3D 1.1.0.0.0.0 includes do not work under sects
+
+[trader]
+buy_condition = generic_buy
+sell_condition = {+mil_leader_quest2_complete} generic_sell_3, {+mil_lukash_dolg_task_complete} generic_sell_2, generic_sell_1
+buy_supplies = {+mil_leader_quest2_complete} supplies_after_pavlik,{+mil_lukash_dolg_task_complete} supplies_after_dolg, supplies_start
+
+#include "TB3D_generic_buy_1.ltx"
+#include "TB3D_generic_sell.ltx"
+#include "shop_zhmot\zhmot_supl.ltx"
+

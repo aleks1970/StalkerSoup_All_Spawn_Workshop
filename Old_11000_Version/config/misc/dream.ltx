@@ -1,0 +1,139 @@
+;<!-- TB3D 1.0.41e -->
+;--------------------------------------------------------------------------------
+;--- Dreams ---------------------------------------------------------------------
+;--------------------------------------------------------------------------------
+[dreams]
+regular_probability = 50
+scenario            = scenario1, scenario2, scenario3
+regular             = regular_dream1, regular_dream2, regular_dream3, regular_dream4, regular_dream5, regular_dream6, regular_dream7
+dream_types         = nightmare, normal, happy
+
+;--------------------------------------------------------------------------------
+;--- Regular dreams -------------------------------------------------------------
+;--------------------------------------------------------------------------------
+[regular_dream1]
+dream       = aes_sky_red
+probability = 5
+type        = nightmare
+
+[regular_dream2]
+dream       = esc_sky_01
+probability = 10
+type        = normal
+
+[regular_dream3]
+dream       = Movie-003_Rats_OutPut-010
+probability = 8
+type        = happy
+
+[regular_dream4]
+dream       = bloodshock_dream
+probability = 11
+type        = normal
+
+[regular_dream5]
+dream       = dream_monolith_call
+probability = 7
+type        = nightmare
+
+[regular_dream6]
+dream       = dream_the_past
+probability = 4
+type        = nightmare
+
+[regular_dream7]
+dream       = gshock_dream
+probability = 58
+type        = normal
+
+
+;--------------------------------------------------------------------------------
+;--- Scenario dreams ---------------------------------------------------------------
+;--------------------------------------------------------------------------------
+[scenario1]
+dream       = sleep\Movie-003_Rats_OutPut-010
+;to_regular  = 3,normal
+cond        = {+agr_military_documents_done}
+
+[scenario2]
+dream       = sleep\Movie-003_Rats_OutPut-010
+;to_regular  = 3,normal
+cond        = {+agr_military_documents_done}
+
+[scenario3]
+dream       = sleep\Movie-003_Rats_OutPut-010
+;to_regular  = 3,normal
+cond        = {+agr_military_documents_done}
+
+;--------------------------------------------------------------------------------
+;--- Level specific -------------------------------------------------------------
+;--------------------------------------------------------------------------------
+[l01_escape]
+probability = 5
+types = happy,normal
+
+[l02_garbage]
+probability = 5
+
+[l03_agroprom]
+probability = 10
+
+[l03u_agr_underground]
+probability = 30
+
+[l05_bar]
+probability = 15
+
+[l04_darkvalley]
+probability = 50
+
+[l04u_labx18]
+probability = 70
+
+[k01_darkscape]
+probability = 20
+
+[l06_rostok]
+probability = 20
+
+[l08_yantar]
+probability = 70
+
+[l08u_brainlab]
+probability = 80
+
+[l09_deadcity]
+probability = 40
+
+[l13_deadmil]
+probability = 30
+
+[l07_military]
+probability = 35
+
+[l10u_bunker]
+probability = 30
+
+[l10_radar]
+probability = 75
+
+[l17_radar_underground]
+probability = 85
+
+[l11_pripyat]
+probability = 80
+
+[l12_stancia]
+probability = 85
+
+[l12U_sarcofag]
+probability = 90
+
+[l12u_control_monolith]
+probability = 95
+
+[l12_stancia_2]
+probability = 100
+
+[l23_final_battle]
+probability = 100

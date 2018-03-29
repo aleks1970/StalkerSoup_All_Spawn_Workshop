@@ -1,0 +1,1743 @@
+;<!-- TB3D 1.0.9.9.7.2 edits by glowworm, fixed artefact_Z'ha'dum, also fixed the other art. names aleks1970 -->
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; new Artefacts ot AMK Team (2009)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;---------------------------- Gift ----------------------------------
+[af_kristal_zp]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\af_kristal_zp"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= amk\modificat\amk_kristal.ogf
+description			= enc_zone_artifact_kristal_zp
+inv_name			= af_kristal_zp
+inv_name_short		= af_kristal_zp_s ; add names aleks1970
+inv_weight			= 0.8
+
+inv_grid_x			= 73;22
+inv_grid_y			= 0;9
+
+jump_height			= 0.1
+
+cost				= 150000
+
+particles			= anomaly2\artefact\artefact_zharka
+
+lights_enabled = true
+trail_light_color = 0.9,0.5,0.5
+
+trail_light_range = 3.0
+
+;the rate of increase (decrease) 
+health_restore_speed		= 0.0			
+radiation_restore_speed		= 0.0	
+satiety_restore_speed		= 0.0				
+power_restore_speed		= 0.0				
+bleeding_restore_speed		= 0.0
+inventory_radiation		= 0.0
+		
+hit_absorbation_sect		= af_kristal_zp_absorbation
+
+artefact_activation_seq		= af_activation_bold
+
+[af_kristal_zp_absorbation]
+
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 2.5
+shock_immunity = 1.0
+wound_immunity = 2.5		
+radiation_immunity = -4.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 2.5
+
+
+;---------------------------- Aquamarine ----------------------------------
+[af_kristal_blue]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\af_kristal_blue"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= amk\modificat\amk_kristal_blue.ogf
+description			= enc_zone_artifact_kristal_blue
+inv_name			= af_kristal_blue
+inv_name_short		= af_kristal_blue_s ; add names aleks1970
+inv_weight			= 2
+
+inv_grid_x			= 72;21
+inv_grid_y			= 0;9
+
+jump_height			= 0.1
+
+cost				= 1000000
+
+particles			= anomaly2\artefact\artefact_zharka
+
+lights_enabled = true
+trail_light_color = 0.9,0.5,0.5
+
+trail_light_range = 3.0
+
+;the rate of increase (decrease) 
+health_restore_speed		= 0.0			
+radiation_restore_speed		= 0.0	
+satiety_restore_speed		= 0.0				
+power_restore_speed		= 0.0				
+bleeding_restore_speed		= 0.0
+inventory_radiation		= 0.025
+		
+hit_absorbation_sect		= af_kristal_blue_absorbation
+
+artefact_activation_seq		= af_activation_bold
+
+[af_kristal_blue_absorbation]
+
+burn_immunity = 1.5				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.5
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.5
+explosion_immunity = 0.23
+fire_wound_immunity  = 0.28
+
+;---------------------------- Bur ----------------------------------
+[af_repei]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\af_repei"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= amk\modificat\amk_repei.ogf
+description			= enc_zone_artifact_repei
+inv_name			= af_repei
+inv_name_short		= af_repei_s ; add names aleks1970
+inv_weight			= 0.3
+
+inv_grid_x			= 80;29
+inv_grid_y			= 1;10
+
+jump_height			= 0.1
+
+cost				=9400
+
+particles			= anomaly2\artefact\artefact_puxx
+
+lights_enabled = true
+trail_light_color = 0.1,0.1,0.5
+trail_light_range = 3.0
+
+;the rate of increase (decrease) 
+health_restore_speed		= 0.0			
+radiation_restore_speed		= 0.0	
+satiety_restore_speed		= 0.0				
+power_restore_speed		= 0.0				
+bleeding_restore_speed		= 0.0
+inventory_radiation		= 0.0
+		
+hit_absorbation_sect		= af_repei_absorbation
+
+artefact_activation_seq		= af_activation_bold
+
+[af_repei_absorbation]
+burn_immunity = 1.0				
+strike_immunity = 1.0
+shock_immunity = 0.8
+wound_immunity = 0.86		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.08
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; new Artefacts from DanekSTALKER
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;---------------------------------- "Indilian"----------------------------
+[af_dummy_indilian]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy indilian"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_indilian.ogf
+description			= enc_zone_artifact_af_dummy_indilian
+inv_name			= af_dummy_indilian
+inv_name_short		= af_dummy_indilian_s ; add names aleks1970
+inv_weight			= 0.5
+
+inv_grid_x			= 74;23
+inv_grid_y			= 0;9
+jump_height			= 0.1
+
+cost				= 150000
+particles			= anomaly2\artefact\artefact_zharka
+
+lights_enabled = true	 
+trail_light_color = 0.9,0.5,0.5
+trail_light_range = 3.0
+
+;the rate of increase (decrease) 
+health_restore_speed = -0.003		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+inventory_radiation		= 0.0
+
+hit_absorbation_sect = af_dummy_indilian_absorbation
+
+artefact_activation_seq		= af_activation_bold
+
+[af_dummy_indilian_absorbation]
+burn_immunity = 1.0				 
+strike_immunity = 0.60
+shock_immunity = 1.0
+wound_immunity = 0.60
+radiation_immunity = 1.0
+telepatic_immunity = 0.3
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+; ----------------------------------"Joker"--------------------------------
+[af_dummy_djoker]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy djoker"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_djoker.ogf
+description			= enc_zone_artifact_af_dummy_djoker
+inv_name			= af_dummy_djoker
+inv_name_short		= af_dummy_djoker_s ; add names aleks1970
+inv_weight			= 1.2
+
+inv_grid_x			= 78;27
+inv_grid_y			= 0;9
+jump_height			= 0.0
+
+cost				= 16000
+
+particles			= anomaly2\artefact\artefact_zharka
+
+lights_enabled = false			
+
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = -0.022
+bleeding_restore_speed = 0.0
+inventory_radiation		= 0.015
+
+hit_absorbation_sect = af_dummy_djoker_absorbation
+
+[af_dummy_djoker_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 0.7
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 0.7
+fire_wound_immunity  = 1.0
+
+;---------------------- "Coal"-----------------------
+[af_dummy_coal]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy coal"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_coal.ogf
+description			= enc_zone_artifact_af_dummy_coal
+inv_name			= af_dummy_coal
+inv_name_short		= af_dummy_coal_s ; add names aleks1970
+inv_weight			= 5
+
+inv_grid_x			= 81;30
+inv_grid_y			= 1;10
+jump_height			= 0.1
+
+cost				= 7400
+
+lights_enabled = true	 
+trail_light_color = 0.9,0.5,0.5
+trail_light_range = 3.0
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = -0.0165
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_coal_absorbation
+
+[af_dummy_coal_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 0.65
+telepatic_immunity = 0.7
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+;----------------------- "Baby Dummy"---------------------------
+[af_dummy_seashell]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy seashell"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_seashell.ogf
+description			= enc_zone_artifact_af_dummy_seashell
+inv_name			= af_dummy_seashell
+inv_name_short		= af_dummy_seashell_s ; add names aleks1970
+inv_weight			= 0.8
+
+inv_grid_x			= 76;25
+inv_grid_y			= 0;9
+jump_height			= 0.1
+
+cost				= 12500
+particles			= anomaly2\artefact\artefact_zharka
+
+lights_enabled = true	 
+trail_light_color = 0.9,0.5,0.5
+trail_light_range = 3.0
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0003		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_seashell_absorbation
+
+[af_dummy_seashell_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 0.86
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.06
+
+;----------------------------------- "Mushroom"-------------------------
+[af_dummy_mushroom]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy mushroom"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_mushroom.ogf
+description			= enc_zone_artifact_af_dummy_mushroom
+inv_name			= af_dummy_mushroom
+inv_name_short		= af_dummy_mushroom_s ; add names aleks1970
+inv_weight			= 0.5
+
+inv_grid_x			= 77;26
+inv_grid_y			= 0;9
+jump_height			= 0.1
+
+cost				= 20000
+particles			= anomaly2\artefact\artefact_zharka
+
+lights_enabled = true 
+trail_light_color = 0.6,0.7,0.5
+trail_light_range = 3.0
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = -0.00278
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_mushroom_absorbation
+
+[af_dummy_mushroom_absorbation]
+burn_immunity = 1.5				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.5
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.5
+explosion_immunity = 1.5
+fire_wound_immunity  = 0.65
+
+;------------------------------- "Weight" -------------------------------
+[af_dummy_dumbbell]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy dumbbell"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_dumbbell.ogf
+description			= enc_zone_artifact_af_dummy_dumbbell
+inv_name			= af_dummy_dumbbell
+inv_name_short		= af_dummy_dumbbell_s ; add names aleks1970
+inv_weight			= 18.0
+
+inv_grid_x			= 79;28
+inv_grid_y			= 0;9
+jump_height			= 0.1
+
+cost				= 20000
+particles			= anomaly2\artefact\artefact_zharka
+
+lights_enabled = false			
+
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.00085		
+radiation_restore_speed = -0.0031
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_dumbbell_absorbation
+
+[af_dummy_dumbbell_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+;---------------------- "Whirligig"----------------------------
+[af_dummy_vertyshka]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy vertyshka"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_vertyshka.ogf
+description			= enc_zone_artifact_af_dummy_vertyshka
+inv_name			= af_dummy_vertyshka
+inv_name_short		= af_dummy_vertyshka_s ; add names aleks1970
+inv_weight			= 0.2
+
+inv_grid_x			= 75;24
+inv_grid_y			= 0;9
+
+jump_height			= 0.1
+
+cost				= 5000
+
+lights_enabled = true
+trail_light_color = 0.001, 0.002, 0.3
+trail_light_range = 4
+
+;the rate of increase (decrease) 
+health_restore_speed		= 0.0			
+radiation_restore_speed		= 0.0	
+satiety_restore_speed		= 0.0				
+power_restore_speed		= 0.0				
+bleeding_restore_speed		= 0.0
+inventory_radiation		= 0.0
+		
+hit_absorbation_sect		= af_dummy_vertyshka_absorbation
+
+artefact_activation_seq		= af_activation_bold
+
+[af_dummy_vertyshka_absorbation]
+burn_immunity = 1.0				 
+strike_immunity = 1.0
+shock_immunity = 0.35
+wound_immunity = 1.0		
+radiation_immunity = 1.2
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.08
+
+;------------------------------ "Star of the monolith"-------------------------------
+[af_dummy_star_monolith]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy star monolith"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_star_monolith.ogf
+description			= enc_zone_artifact_af_dummy_star_monolith
+inv_name			= af_dummy_star_monolith
+inv_name_short		= af_dummy_star_monolith_s ; add names aleks1970
+inv_weight			= 0.8
+
+inv_grid_x			= 80;29
+inv_grid_y			= 0;9
+
+jump_height			= 0.1
+
+cost				= 50000
+
+lights_enabled = true
+trail_light_color = 0.001, 0.002, 0.3
+trail_light_range = 4
+
+;the rate of increase (decrease) 
+health_restore_speed		= 0.0			
+radiation_restore_speed		= -0.005	
+satiety_restore_speed		= 0.0				
+power_restore_speed		= 0.0				
+bleeding_restore_speed		= 0.0
+inventory_radiation		= 0.0
+		
+hit_absorbation_sect		= af_dummy_star_monolith_absorbation
+
+artefact_activation_seq		= af_activation_bold
+
+[af_dummy_star_monolith_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 0.4
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.4
+
+; ------------------"orig"---?"Needle"?----------------------
+[af_dummy_quill]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy quill"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_quill.ogf
+description			= enc_zone_artifact_af_dummy_quill
+inv_name			= af_dummy_quill
+inv_name_short		= af_dummy_quill_s ; add names aleks1970
+inv_weight			= 0.2
+
+inv_grid_x			= 73;22
+inv_grid_y			= 1;10
+jump_height			= 0.1
+
+cost				= 12800		;5000
+
+particles			= anomaly2\artefact\artefact_puxx
+
+lights_enabled = true
+trail_light_color =  0.5, 0.1, 0.1  
+trail_light_range = 4.0
+
+
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+inventory_radiation		= 0.0005
+
+hit_absorbation_sect = af_dummy_quill_absorbation
+
+[af_dummy_quill_absorbation]
+burn_immunity = 0.78			;factors of immunity 
+strike_immunity = 0.82
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+;-------------------- "Fire wool"---------------------
+[af_dummy_wool]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy wool"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_wool.ogf
+description			= enc_zone_artifact_af_dummy_wool
+inv_name			= af_dummy_wool
+inv_name_short		= af_dummy_wool_s ; add names aleks1970
+inv_weight			= 0.1
+
+inv_grid_x			= 72;21
+inv_grid_y			= 1;10
+jump_height			= 0.1
+
+cost				= 8000
+
+
+lights_enabled = true	 
+trail_light_color = 0.9,0.3,0.4
+trail_light_range = 3.5
+
+
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0003		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_wool_absorbation
+
+[af_dummy_wool_absorbation]
+burn_immunity = 0.65				;factors of immunity 
+strike_immunity = 1.2
+shock_immunity = 1.0
+wound_immunity = 0.6		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.15
+fire_wound_immunity  = 1.0
+
+; ---------------------"Octopus"--------------------
+[af_dummy_bonanza]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy bonanza"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_bonanza.ogf
+description			= enc_zone_artifact_af_dummy_bonanza
+inv_name			= af_dummy_bonanza
+inv_name_short		= af_dummy_bonanza_s ; add names aleks1970
+inv_weight			= 1.0
+
+inv_grid_x			= 76;25
+inv_grid_y			= 1;10
+jump_height			= 0.1
+
+cost				= 6000
+
+particles			= anomaly2\artefact\artefact_ameba
+
+lights_enabled = false			
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = -0.0007
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_bonanza_absorbation
+
+[af_dummy_bonanza_absorbation]
+burn_immunity = 0.93				;factors of immunity 
+strike_immunity = 0.4
+shock_immunity = 0.93
+wound_immunity = 1.07		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 0.93
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.07
+
+;----------------------- "The mercury ball"----------------------------
+[af_dummy_mercury_ball]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy mercury_ball"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_mercury_ball.ogf
+description			= enc_zone_artifact_af_dummy_mercury_ball
+inv_name			= af_dummy_mercury_ball
+inv_name_short		= af_dummy_mercury_ball_s ; add names aleks1970
+inv_weight			= 2.7
+
+inv_grid_x			= 78;27
+inv_grid_y			= 1;10
+jump_height			= 0.1
+
+cost				=65000
+
+particles			= anomaly2\artefact\artefact_mercury_ball
+
+lights_enabled = true 
+trail_light_color = 1.0,1.0,1.0
+trail_light_range = 4.0
+
+
+health_restore_speed = 0.001		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0165
+bleeding_restore_speed = 0.0
+inventory_radiation		= 0.002
+
+hit_absorbation_sect = af_dummy_mercury_ball_absorbation
+
+[af_dummy_mercury_ball_absorbation]
+burn_immunity = 1.0				
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.4
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+; ---------------"Burning leaves"------------------
+[af_dummy_bezi]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy bezi"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_bezi.ogf
+description			= enc_zone_artifact_af_dummy_bezi
+inv_name			= af_dummy_bezi
+inv_name_short		= af_dummy_bezi_s ; add names aleks1970
+inv_weight			= 0.3
+
+inv_grid_x			= 74;23
+inv_grid_y			= 1;10
+jump_height			= 0.1
+
+cost				= 14200	
+
+particles			= 1935\artefact\artefact_pux00
+
+lights_enabled = true			
+trail_light_color = 0.1,0.5,0.1
+trail_light_range = 4.0
+
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.018
+
+hit_absorbation_sect = af_dummy_bezi_absorbation
+
+[af_dummy_bezi_absorbation]
+burn_immunity = 1.0				
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 0.65
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+;-------------------------- "Radiance"--------------------------
+[af_dummy_glow]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy glow"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_glow.ogf
+description			= enc_zone_artifact_af_dummy_glow
+inv_name			= af_dummy_glow
+inv_name_short		= af_dummy_glow_s ; add names aleks1970
+inv_weight			= 0.1
+
+inv_grid_x			= 79;28
+inv_grid_y			= 1;10
+jump_height			= 0.1
+
+cost				= 4000
+particles			= anomaly2\artefact\artefact_glow
+
+lights_enabled = false
+
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_glow_absorbation
+
+[af_dummy_glow_absorbation]
+burn_immunity = 0.65				 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.12		
+radiation_immunity = 1.2
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+;-------------------------- "Node"---------------------------
+[af_dummy_node]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy node"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_node.ogf
+description			= enc_zone_artifact_af_dummy_node
+inv_name			= af_dummy_node
+inv_name_short		= af_dummy_node_s ; add names aleks1970
+inv_weight			= 0.6
+
+inv_grid_x			= 77;26
+inv_grid_y			= 1;10
+
+jump_height			= 0.1
+
+cost				= 20000
+
+
+
+lights_enabled = true
+trail_light_color = 0.5,0.7,0.9
+trail_light_range = 5.0
+
+;the rate of increase (decrease) 
+health_restore_speed		= 0.0			
+radiation_restore_speed		= 0.0	
+satiety_restore_speed		= 0.0				
+power_restore_speed		= 0.0				
+bleeding_restore_speed		= 0.0
+inventory_radiation		= 0.0007
+		
+hit_absorbation_sect		= af_dummy_node_absorbation
+
+artefact_activation_seq		= af_activation_bold
+
+[af_dummy_node_absorbation]
+burn_immunity = 1.0				 
+strike_immunity = 1.15
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.15
+fire_wound_immunity  = 0.82
+
+;----------------------- "Witch Spit"--------------------
+[af_kosi]:af_base
+GroupControlSection	= spawn_group
+$spawn				= "artifacts\moscito medusa"
+
+$prefetch 			= 64
+cform				= skeleton
+class				= ARTEFACT
+visual				= physics\anomaly\danek\artefact_kosi.ogf
+description			= enc_zone_artifact_af_kosi
+inv_name			= af_kosi
+inv_name_short		= af_kosi_s ; add names aleks1970
+inv_weight			= 0.2
+inv_grid_x			= 75;24
+inv_grid_y			= 1;10
+cost				= 23000
+
+jump_height			= 0.1
+
+particles			= anomaly2\artefact\artefact_kosa
+lights_enabled = true  
+trail_light_color = 0.6,0.7,0.5
+trail_light_range = 0.5
+
+;the rate of increase (decrease) 
+health_restore_speed		= 0.0			
+radiation_restore_speed		= 0.0
+satiety_restore_speed		= 0.0
+power_restore_speed			= 0.00555
+bleeding_restore_speed		= 0.012
+
+hit_absorbation_sect		= af_kosi_absorbation
+artefact_activation_seq		= af_activation_bold
+
+[af_kosi_absorbation]
+burn_immunity = 1.0				 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.35		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; new Artefacts dAVROs
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;------------------------------------------Konishi -------------------------
+[af_konishi]:af_base
+GroupControlSection	= spawn_group
+$spawn				= "artifacts\moscito medusa"
+
+$prefetch 			= 64
+cform				= skeleton
+class				= ARTEFACT
+visual				= physics\anomaly\danek\artefact_konishi.ogf
+description			= enc_zone_artifact_konishi
+inv_name			= af_konishi	; add names aleks1970
+inv_name_short		= af_konishi_s	; add names aleks1970
+inv_weight			= 2.3
+inv_grid_x			= 65
+inv_grid_y			= 0
+cost				= 127000
+
+jump_height			= 0.1
+
+particles			= anomaly2\artefact\artefact_mincer
+lights_enabled = true  
+trail_light_color = 0.0,0.5,0.0
+trail_light_range = 0.5
+
+health_restore_speed		= 0.0			
+radiation_restore_speed		= 0.0
+satiety_restore_speed		= -50.75
+power_restore_speed			= 0.0
+bleeding_restore_speed		= 0.0
+
+hit_absorbation_sect		= af_konishi_absorbation
+artefact_activation_seq		= af_activation_bold
+
+;--------------------------------------------Konishi_Absorb ----------------------
+[af_konishi_absorbation]
+burn_immunity = 1.0				
+strike_immunity = 1.0
+shock_immunity = 0.66
+wound_immunity = 1.0	
+radiation_immunity = 0.59
+telepatic_immunity = 0.72
+chemical_burn_immunity = 0.85
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+[af_star_paradox]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy star monolith"
+$npc			= on				
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_star_paradox.ogf
+description			= enc_zone_artifact_star_paradox
+inv_name			= af_star_paradox	; add names aleks1970
+inv_name_short		= af_star_paradox_s	; add names aleks1970
+inv_weight			= 3.2
+
+inv_grid_x			= 64
+inv_grid_y			= 0
+
+jump_height			= 0.1
+
+cost				=255000
+
+particles			= anomaly2\artefact\artefact_electra
+
+lights_enabled = true
+trail_light_color = 0.001, 0.002, 0.9
+trail_light_range = 4
+
+health_restore_speed		= 0.0			
+radiation_restore_speed		= -0.005	
+satiety_restore_speed		= 0.0				
+power_restore_speed		= 0.0				
+bleeding_restore_speed		= 0.0
+inventory_radiation		= 0.0
+		
+hit_absorbation_sect		= af_af_star_paradox_absorbation
+
+artefact_activation_seq		= af_activation_bold
+
+;------------------------------------------Star paradox Absorb -------------------
+[af_af_star_paradox_absorbation]
+burn_immunity = 0.8				 
+strike_immunity = 0.8
+shock_immunity = 0.8
+wound_immunity = 0.8		
+radiation_immunity = 0.8
+telepatic_immunity = 0.4
+chemical_burn_immunity = 0.8
+explosion_immunity = 0.8
+fire_wound_immunity  = 0.8
+
+;---------------------------------------Hawking--------------------------------
+[af_hawking]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy mercury_ball"
+$npc			= on				
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_hawking.ogf
+description			= enc_zone_artifact_hawking
+inv_name			= af_hawking	; add names aleks1970
+inv_name_short		= af_hawking_s	; add names aleks1970
+inv_weight			= 45
+
+inv_grid_x			= 67
+inv_grid_y			= 1
+jump_height			= 0.1
+
+cost				= 162000
+
+particles			= anomaly2\artefact\artefact_puxx
+
+lights_enabled = true 
+trail_light_color = 0.0,0.5,0.5
+trail_light_range = 5.0
+
+
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+inventory_radiation		= 0.0
+
+hit_absorbation_sect = af_hawking_absorbation
+
+[af_hawking_absorbation]
+burn_immunity = 1.0				 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 0.63		
+radiation_immunity = 0.42
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 0.55
+fire_wound_immunity  = 0.36
+
+
+;---------------------------- Zero ----------------------------------
+[af_element_zero]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\af_repei"
+$npc			= on				
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= amk\modificat\element_zero.ogf
+description			= enc_zone_artifact_element_zero
+inv_name			= af_element_zero	; add names aleks1970
+inv_name_short		= af_element_zero_s	; add names aleks1970
+inv_weight			= 2.4
+
+inv_grid_x			= 66
+inv_grid_y			= 0
+
+jump_height			= 0.1
+
+cost				= 153500
+
+particles			= anomaly2\artefact\artefact_mercury_ball
+
+lights_enabled = true
+trail_light_color = 0.153,0.8,0.61
+trail_light_range = 3.0
+
+health_restore_speed		= 0.0			
+radiation_restore_speed		= 0.0	
+satiety_restore_speed		= 0.0				
+power_restore_speed			= -0.012				
+bleeding_restore_speed		= 0.0
+inventory_radiation			= 0.00033
+		
+hit_absorbation_sect		= af_element_zero_absorbation
+
+artefact_activation_seq		= af_activation_bold
+
+[af_element_zero_absorbation]
+burn_immunity = 1.0				
+strike_immunity = 0.78
+shock_immunity = 0.23
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 0.71
+fire_wound_immunity  = 0.8
+
+
+;---------------------------------- Kournikova--------------------------------------
+[af_kournikova]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy indilian"
+$npc			= on				
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_kournikova.ogf
+description			= enc_zone_artifact_af_kournikova
+inv_name			= af_kournikova	; add names aleks1970
+inv_name_short		= af_kournikova_s	; add names aleks1970
+inv_weight			= 0.5
+
+inv_grid_x			= 66
+inv_grid_y			= 1
+jump_height			= 0.1
+
+cost				= 181000
+particles			= anomaly2\artefact\artefact_ameba
+
+lights_enabled = true	 
+trail_light_color = 0.9,0.5,0.5
+trail_light_range = 3.0
+
+health_restore_speed = -0.0003		
+radiation_restore_speed = 0.00
+satiety_restore_speed = -0.003
+power_restore_speed = -0.003
+bleeding_restore_speed = 0.0
+inventory_radiation		= 0.0001
+
+hit_absorbation_sect = af_kournikova_absorbation
+ 
+artefact_activation_seq		= af_activation_bold
+
+[af_kournikova_absorbation]
+burn_immunity = 1.0				
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0
+radiation_immunity = 0.14
+telepatic_immunity = 1.0
+chemical_burn_immunity = 0.54
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+
+;---------------------Gold--------------------
+[af_gold]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy coal"
+$npc			= on				
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_gold.ogf
+description			= enc_zone_artifact_gold
+inv_name			= af_gold	; add names aleks1970
+inv_name_short		= af_gold_s	; add names aleks1970
+inv_weight			= 18
+
+inv_grid_x			= 67
+inv_grid_y			= 0
+jump_height			= 0.01
+
+cost				= 35000
+
+lights_enabled = true	 
+trail_light_color = 0.95,0.65,0.15
+trail_light_range = 3.0
+
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_gold_absorbation
+
+[af_gold_absorbation]
+burn_immunity = 1.0				 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 0.94
+telepatic_immunity = 0.92
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+
+; ------------------XZS 2x4--------------------------------
+[af_xzs2x4]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy quill"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_xZs-2x4.ogf
+description			= enc_zone_artifact_af_xzs2x4
+inv_name			= af_xzs2x4	; add names aleks1970
+inv_name_short		= af_xzs2x4_s	; add names aleks1970
+inv_weight			= 3.1
+
+inv_grid_x			= 65
+inv_grid_y			= 1
+jump_height			= 0.1
+
+cost				= 193000
+
+particles			= anomaly2\artefact\artefact_glow
+
+lights_enabled = true
+trail_light_color =  0.5, 0.1, 0.1  
+trail_light_range = 4.0
+
+
+
+health_restore_speed = 0.00042		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0025
+bleeding_restore_speed = 0.0
+inventory_radiation		= 0.00
+
+hit_absorbation_sect = af_xzs2x4_absorbation
+
+[af_xzs2x4_absorbation]
+burn_immunity = 1.0				 
+strike_immunity = 0.63
+shock_immunity = 1.0
+wound_immunity = 0.62		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.62
+
+
+
+; ---------------Zhadum------------------
+[af_zhadum]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy bezi"
+$npc			= on				
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= physics\anomaly\danek\artefact_Z_ha_dum.ogf
+description			= enc_zone_artifact_af_zhadum
+inv_name			= af_zhadum	; add names aleks1970
+inv_name_short		= af_zhadum_s	; add names aleks1970
+inv_weight			= 0.3
+
+inv_grid_x			= 64
+inv_grid_y			= 1
+jump_height			= 0.1
+
+cost				= 164200	
+
+particles			= anomaly2\artefact\artefact_gravi
+
+lights_enabled = true			
+trail_light_color = 0.1,0.5,0.1
+trail_light_range = 4.0
+
+health_restore_speed = -0.0005		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = -0.0024
+bleeding_restore_speed = -0.0038
+
+hit_absorbation_sect = af_zhadum_absorbation
+
+[af_zhadum_absorbation]
+burn_immunity = 1.0				
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 0.05
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+
+; ---------------"dAVROs Mushrooms"------------------
+
+
+[af_dummy_mushroom1]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy mushroom"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= davros\mushroom_2.ogf
+description			= enc_zone_mushy_bigA
+inv_name			= mushy_bigA	; add names aleks1970
+inv_name_short		= mushy_bigA_s   ; add names aleks1970
+inv_weight			= 0.5
+
+inv_grid_x			= 58
+inv_grid_y			= 0
+
+cost				= 9400
+;particles			= anomaly2\artefact\artefact_ameba
+
+lights_enabled = true 
+trail_light_color = 0.263,0.078,0.267
+trail_light_range = 0.5
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_mushroom1_absorbation
+
+[af_dummy_mushroom1_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+
+
+[af_dummy_mushroom2]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy mushroom"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= davros\mushroom_3.ogf
+description			= enc_zone_mushy_bigB
+inv_name			= mushy_bigB	; add names aleks1970
+inv_name_short		= mushy_bigB_s   ; add names aleks1970
+inv_weight			= 0.5
+
+inv_grid_x			= 59
+inv_grid_y			= 0
+
+cost				= 11200
+;particles			= anomaly2\artefact\artefact_puxx
+
+lights_enabled = true 
+trail_light_color = 0.02,0.82,0.02
+trail_light_range = 0.5
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+inventory_radiation		= 0.0003
+
+hit_absorbation_sect = af_dummy_mushroom2_absorbation
+
+[af_dummy_mushroom2_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 0.94
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+
+
+
+[af_dummy_mushroom3]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy mushroom"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= davros\mushy_bigA.ogf
+description			= enc_zone_mushy_bigC
+inv_name			= mushy_bigC	; add names aleks1970
+inv_name_short		= mushy_bigC_s   ; add names aleks1970
+inv_weight			= 0.5
+
+inv_grid_x			= 57
+inv_grid_y			= 1
+
+cost				= 17600
+;particles			= anomaly2\artefact\artefact_ameba
+
+lights_enabled = false 
+trail_light_color = 0.6,0.7,0.5
+trail_light_range = 3.0
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.00007
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_mushroom3_absorbation
+
+[af_dummy_mushroom3_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 0.97		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+
+
+[af_dummy_mushroom4]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy mushroom"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= davros\mushy_bigB.ogf
+description			= enc_zone_mushy_bigD
+inv_name			= mushy_bigD ; add names aleks1970
+inv_name_short		= mushy_bigD_s ; add names aleks1970
+inv_weight			= 0.5
+
+inv_grid_x			= 58
+inv_grid_y			= 1
+
+cost				= 21000
+;particles			= anomaly2\artefact\artefact_puxx
+
+lights_enabled = false 
+trail_light_color = 0.6,0.7,0.5
+trail_light_range = 3.0
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_mushroom4_absorbation
+
+[af_dummy_mushroom4_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 0.95
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+
+
+[af_dummy_mushroom5]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy mushroom"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= davros\mushroom_5.ogf
+description			= enc_zone_mushy_bigE
+inv_name			= mushy_bigE ; add names aleks1970
+inv_name_short		= mushy_bigE_s ; add names aleks1970
+inv_weight			= 0.5
+
+inv_grid_x			= 61
+inv_grid_y			= 0
+
+cost				= 24500
+;particles			= anomaly2\artefact\artefact_ameba
+
+lights_enabled = false 
+trail_light_color = 0.6,0.7,0.5
+trail_light_range = 3.0
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_mushroom5_absorbation
+
+[af_dummy_mushroom5_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 0.92
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+
+
+[af_dummy_mushroom6]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy mushroom"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= davros\mushy_bigD.ogf
+description			= enc_zone_mushy_bigF
+inv_name			= mushy_bigF ; add names aleks1970
+inv_name_short		= mushy_bigF_s ; add names aleks1970
+inv_weight			= 0.5
+
+inv_grid_x			= 60
+inv_grid_y			= 1
+
+cost				= 27000
+;particles			= anomaly2\artefact\artefact_puxx
+
+lights_enabled = false 
+trail_light_color = 0.6,0.7,0.5
+trail_light_range = 3.0
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.000023
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_mushroom6_absorbation
+
+[af_dummy_mushroom6_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+
+
+[af_dummy_mushroom7]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy mushroom"
+$npc			= on				; option for Level Editor
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= davros\mushy_bigF.ogf
+description			= enc_zone_mushy_bigG
+inv_name			= mushy_bigG ; add names aleks1970
+inv_name_short		= mushy_bigG_s ; add names aleks1970
+inv_weight			= 12
+
+inv_grid_x			= 57
+inv_grid_y			= 2
+
+cost				= 78000
+;particles			= anomaly2\artefact\artefact_puxx
+
+lights_enabled = false 
+trail_light_color = 0.6,0.07,0.05
+trail_light_range = 1.0
+
+;the rate of increase (decrease) 
+health_restore_speed = -0.00006		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_mushroom7_absorbation
+
+[af_dummy_mushroom7_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+
+
+
+
+[af_dummy_mushroom8]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy mushroom"
+$npc			= on				
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= davros\mushy_bigG.ogf
+description			= enc_zone_mushy_bigH
+inv_name			= mushy_bigH ; add names aleks1970
+inv_name_short		= mushy_bigH_s ; add names aleks1970
+inv_weight			= 0.5
+
+inv_grid_x			= 58
+inv_grid_y			= 2
+
+cost				= 43000
+;particles			= anomaly2\artefact\artefact_puxx
+
+lights_enabled = false 
+trail_light_color = 0.6,0.7,0.5
+trail_light_range = 3.0
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0
+
+hit_absorbation_sect = af_dummy_mushroom8_absorbation
+
+[af_dummy_mushroom8_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 0.93
+shock_immunity = 1.0
+wound_immunity = 0.96		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 0.91
+fire_wound_immunity  = 1.0
+
+
+
+
+[af_dummy_mushy_small]:af_base
+GroupControlSection	= spawn_group
+$spawn 			= "artifacts\dummy mushroom"
+$npc			= on				
+;$prefetch 		= 3
+cform           = skeleton
+class   		= ARTEFACT
+
+visual				= davros\mushy_smallF.ogf
+description			= enc_zone_mushy_small
+inv_name			= mushy_small ; add names aleks1970
+inv_name_short		= mushy_small_s ; add names aleks1970
+inv_weight			= 0.5
+
+inv_grid_x			= 59
+inv_grid_y			= 2
+
+cost				= 22000
+;particles			= anomaly2\artefact\artefact_puxx
+
+lights_enabled = true 
+trail_light_color = 0.9,0.46,0.1
+trail_light_range = 1.0
+
+;the rate of increase (decrease) 
+health_restore_speed = 0.0		
+radiation_restore_speed = 0.0
+satiety_restore_speed = 0.0
+power_restore_speed = 0.0
+bleeding_restore_speed = 0.0006
+
+hit_absorbation_sect = af_dummy_mushroom10_absorbation
+
+[af_dummy_mushroom10_absorbation]
+burn_immunity = 1.0				;factors of immunity 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 1.0
+

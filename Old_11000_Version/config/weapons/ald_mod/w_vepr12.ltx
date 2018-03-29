@@ -1,0 +1,226 @@
+;;;; TB3D 1.1.0.0.1.6 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+; Shotgun ( shotgun ) Boar -12 
+;--------------------------------------
+[wpn_vepr12]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                  = "weapons\vepr12"					; option for Level Editor
+$npc			 		= on				; option for Level Editor
+$prefetch 		 		= 8
+scheduled               = off              ; option for ALife Simulator
+cform                   = skeleton
+class                   = WP_LR300
+min_radius              = 1
+max_radius              = 40
+description				= enc_arsenal_vepr12_descr
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 0.9
+holder_fov_modifier		= 1.3
+;-----------------------------------------------------------------------------------
+
+weapon_class			= shotgun
+
+cost					= 34000
+
+ammo_elapsed			= 20
+ammo_mag_size		 	= 20
+ammo_class		 		= ammo_12x70_buck, ammo_12x70_kart, ammo_12x76_zhekan, ammo_12x76_dart, ammo_zhekan_izomorf ;--;, ammo_16x70_buck, ammo_16x70_kart, ammo_16x70_zhekan
+fire_modes				= 1, -1
+
+
+grenade_class		= ammo_vog-25, ammo_vog-25p
+launch_speed			= 0
+
+hand_dependence		 	= 1
+single_handed			= 0
+
+inv_name				= enc_arsenal_vepr12
+inv_name_short			= enc_arsenal_vepr12_s
+inv_weight				= 3.6
+
+inv_grid_width     = 5
+inv_grid_height    = 2
+inv_grid_x         = 10
+inv_grid_y         = 57
+
+kill_msg_x			= 72
+kill_msg_y			= 82
+kill_msg_width		= 56
+kill_msg_height		= 23
+
+slot 					= 2		; // secondary
+animation_slot			= 2		; type of the animation that will be used
+
+;-----------------------------------------------------------------------------------
+;params of weapon recoil
+fire_dispersion_base			= 0.12		;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor			= 1.25f
+
+;отдача
+cam_relax_speed         	= 8.5		;скорость возврата в исходное положение
+cam_relax_speed_ai         	= 120.75
+cam_dispersion          	= 0.3		;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc			= 0.3		;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac			= 0.9		;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle				= 6.0	    	;максимальный угол отдачи
+cam_max_angle_horz			= 8.0		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 0.67;1		;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor 	= 4		;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 	= 0.0005	;вероятность осечки при максимальном износе 
+misfire_condition_k		= 0.05
+condition_shot_dec 		= 0.000025	;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+
+direction               = 0, 0, 1
+
+fire_point             	=  0,0.216,0.655
+flame_particles			= weapons\generic_weapon05
+shell_particles	 		= weapons\arsenal_shells1
+smoke_particles			= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
+
+shell_point		 		= 0,0.216,0.134	;0.174
+shell_dir		 		= 0.0, 1.0, 0.0
+
+rpm_empty_click 	 	= 200
+
+PDM_disp_base 			= 1.25
+PDM_disp_vel_factor 		= 0.8
+PDM_disp_accel_factor 		= 0.8
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+hit_power                	= 2.77		; size of damage by bullet
+hit_impulse		 			= 85		; size of physic impulse by bullet	
+hit_type 					= fire_wound 	; [] type of the wound
+;hit_rate					= 2.1
+fire_distance            	= 110		;-;180		;;;109974 10:1
+bullet_speed				= 500		; starting bullet speed
+rpm                      	= 450		; max round per minute
+
+use_aim_bullet			= true		;Поддерживается ли первая суппер пуля
+time_to_aim					= 0.70  ;-;1.0
+
+silencer_hit_power       	= 1.72
+silencer_hit_impulse	 	= 80
+silencer_fire_distance   	= 9					;;;109974 10:1
+silencer_bullet_speed	 	= 280
+
+hud                     = wpn_vepr12_hud
+normal                  = 0, 1, 0
+position         	    = -0.026,-0.172,-0.026
+orientation             = 0, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.16,-0.36,0.15			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -10,-5,10					; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+;visual                  =  weapons\vepr12\wpn_vepr12_b.ogf
+visual                  	= weapons\vepr12\wpn_vepr12_b2.ogf	;aleks1970
+
+light_color		 		= 0.6,0.5,0.3
+light_range		 		= 5
+light_var_color		 	= 0.05
+light_var_range		 	= 0.1
+light_time 		 		= 0.2
+
+;addons
+scope_status			= 1
+silencer_status			= 2
+grenade_launcher_status	= 0
+
+scope_name 					= wpn_addon_scope 		; section name for the attachable scope
+scope_x 					= 64						; offset in inventory icon
+scope_y 					= -11
+
+silencer_name  				= wpn_addon_sil_86x70	;wpn_addon_silencer
+silencer_x 					= 198	;194
+silencer_y 					= 5	;8
+
+grenade_launcher_name 		= wpn_addon_grenade_launcher_ag36 
+grenade_launcher_x 			= 145	;85						; offset in inventory icon
+grenade_launcher_y 			= 25	;-1
+
+;silencer_flame_particles 	= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+silencer_light_color		= 1.0, 0.1, 0.0
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+zoom_enabled		= true
+scope_zoom_factor	= 35
+scope_texture	= wpn\crosshair\wpn_crosshair_nato_tochka_green
+
+;------------------------------ O.G.S.E. sound remake ------------------------
+snd_draw					= weapons\vepr12\draw
+snd_holster					= weapons\vepr12\holster
+snd_shoot					= weapons\vepr12\vepr_shot, 0.7
+snd_empty					= weapons\vepr12\empty, 0.5
+snd_reload					= weapons\vepr12\vepr_reload, 0.5
+snd_silncer_shot		    = weapons\tm_val_shot_0	;weapons\vepr12\vepr_shot_silent
+
+snd_shoot_grenade			= weapons\tm_spas12_shot
+snd_reload_grenade			= arsenal_mod\gp25\gp25_grenload
+snd_switch					= arsenal_mod\gp25\gp25_switch
+;-----------------------------------------------------------------------------
+;-- HUD DESCRIPTION
+;----------------------------------------------------------------------------- 
+[wpn_vepr12_hud]
+;allow_inertion				= true
+shell_point		 			= 0,0,-0.6
+shell_dir				 	= 0.0, 0.0, 0.0
+
+fire_point					= -0.015,0.112500,0.12200
+fire_bone                	= wpn_body
+orientation              	= 2, 2, 0
+position             	   	= 0.118,-0.068,-0.01
+;visual                  	= weapons\vepr12\wpn_vepr12_b_hud.ogf
+visual                  	= weapons\vepr12\wpn_vepr12_b2_hud.ogf	;aleks1970
+
+grenade_bone            	= wpn_grenade
+
+; animation names
+
+anim_idle					= idle
+anim_idle_aim				= idle_aim
+anim_reload					= reload
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= shoot
+anim_idle_sprint			= idle_sprint
+
+; attached grenade launcher [GRENADE fire mode]
+anim_idle_g					= idle_w_gl
+anim_idle_g_aim				= idle_aim_w_gl
+anim_reload_g				= reload_w_gl
+anim_shoot_g				= shoot_w_gl
+anim_switch_grenade_on		= draw_w_gl
+anim_switch_grenade_off		= draw_w_gl
+anim_draw_g					= draw_w_gl
+anim_holster_g				= holster_w_gl
+
+;(режим обычной стрельбы)
+anim_idle_gl				= idle
+anim_idle_gl_aim			= idle_aim
+anim_reload_gl				= reload
+anim_draw_gl				= draw
+anim_holster_gl				= holster
+anim_shoot_gl				= shoot
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+zoom_hide_crosshair			= true
+zoom_rotate_time			= 0.30
+zoom_offset					= -0.114910,0.048000,-0.099100
+zoom_rotate_x				= 0.049776
+zoom_rotate_y				= 0.028300

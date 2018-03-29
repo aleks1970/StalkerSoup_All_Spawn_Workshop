@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.6 added several from bind_det_arts for localization, removed "string_table" - aleks1970 -->
+ <!-- Stats rationalisation by GlowWormToo - 16 Jun 16-->
+ <!-- Comprehensive reworking by Sword2012 - 30 Nov 16-->
+ <!-- 'Fervent Crystal' renamed 'Fervent Soul' - Sword2012 - 10 Dec 16-->
+ <!-- 10991.1 -->
+	<string id="nm_545x39_izomorf">
+		<text>'5.45x39 Isomorphic'</text>
+	</string>
+	<string id="nm_545x39_izomorf1">
+		<text>'5.45x39 Isomorphic-1'</text>
+	</string>
+	<string id="nm_osnova_fotik">
+		<text>'Isomorphic basis for f.ap'</text>
+	</string>
+	<string id="nm_linza_fotik">
+		<text>'Isomorphic lens for f.ap'</text>
+	</string>
+	<string id="nm_pushka_fotik">
+		<text>'Isomorphic gate f.ap'</text>
+	</string>
+	<string id="nm_rukzak_izomorf">
+		<text>'Isomorphic backpack'</text>
+	</string>
+	<string id="nm_izom_globus">
+		<text>'Isomorphic Globe'</text>
+	</string>
+	<string id="nm_izomorf_kristal">
+		<text>'Isomorphic Crystal'</text>
+	</string>
+	<string id="nm_ammo_zhekan_izomorf">
+		<text>'Jeka Isomorphic'</text>
+	</string>
+	<string id="nm_kaktus_izomorf">
+		<text>'Isomorphic Cactus'</text>
+	</string>
+	<string id="nm_izomorf_kompas">
+		<text>'Isomorphic Compass'</text>
+	</string>
+	<string id="nm_wa2000_izomorf">
+		<text>'Anomalous Walther WA2000'</text>
+	</string>
+	<string id="nm_762x54_izomorf">
+		<text>'7.62x54 Isomorphic'</text>
+	</string>
+	<string id="nm_psevdokristall">
+		<text>'Isomorphic Pseudocrystal'</text>
+	</string>
+	<string id="nm_izomorf_plastilin">
+		<text>'Isomorphic Plasticine'</text>
+	</string>
+	<!-- 1099.1 end -->
+	<string id="af_buliz">
+		<text>Cobblestone</text>
+	</string>
+	<string id="af_buliz_s">
+		<text>Cobblestone</text>
+	</string>
+	<string id="enc_zone_artifact_buliz">
+		<text>An artefact which, as a result of energy collapse, has lost all of its properties. While practically useless to Stalkers, 'Cobblestones' are of interest to scientists outside the Zone involved in the commercial production of New Age talismans, imbuing these 'empty vessels' with specific properties for wealthy clients. Imagine an artefact with health-giving and even stamina-increasing properties in your bedroom! Hence their relatively high selling price...</text>
+	</string>
+	<string id="af_spirit_1">
+		<text>Soul Drops</text>
+	</string>
+	<string id="af_spirit_1_s">
+		<text>Drops</text>
+	</string>
+	<string id="enc_zone_artifact_spirit_1">
+		<text>This modified artefact possesses outstanding health-giving properties, speeding up recovery, preventing blood loss through accelerated coagulation, and inhibiting the onset of radiation sickness. The downside is that in redirecting the body's resources, there is a noticeable decrease in stamina</text>
+	</string>
+	<string id="af_spirit_2">
+		<text>Fiery Soul</text>
+	</string>
+	<string id="af_spirit_2_s">
+		<text>Soul</text>
+	</string>
+	<string id="enc_zone_artifact_spirit_2">
+		<text>This mesomodified artefact has properties similar to Soul Drops, but increasing the body's rate of recovery, while further reducing blood loss and the effects of radiation. It does this more efficiently than its predecessor, in that no further reduction in stamina is experienced</text>
+	</string>
+	<string id="af_spirit_3">
+		<text>Crystal Soul</text>
+	</string>
+	<string id="af_spirit_3_s">
+		<text>Soul</text>
+	</string>
+	<string id="enc_zone_artifact_spirit_3">
+		<text>This hypermodified artefact has properties similar to Fiery Soul, but increasing the body's rate of recovery, reducing blood loss, and inhibiting the effects of radiation even further. More efficient still than its predecessor, the inherent reduction in stamina has stayed the same</text>
+	</string>
+	<string id="af_spirit_4">
+		<text>Fervent Soul</text>
+	</string>
+	<string id="af_spirit_4_s">
+		<text>Soul</text>
+	</string>
+	<string id="enc_zone_artifact_spirit_4">
+		<text>This absolute artefact has all the health and protective benefits of a Crystal Soul in even more abundance, but with no negative qualities whatsoever. It even boosts the owner's stamina! While scientists try to determine the effective lifespan of this restorative artefact, the Fervent Soul continues to be one of the Zone's greatest gifts to Stalkers and mankind. As with most absolute artefacts, wearing more than two of a kind in close proximity is not recommended, due to the devastating effect of their compounded flux upon the body's internal organs</text>
+	</string>
+	<string id="af_cry_1">
+		<text>Electric Tears</text>
+	</string>
+	<string id="af_cry_1_s">
+		<text>Tears</text>
+	</string>
+	<string id="enc_zone_artifact_cry_1">
+		<text>This modified artefact inhibits the onset of radiation sickness while also stimulating the body's oxygenation process, effectively increasing its stamina</text>
+	</string>
+	<string id="af_cry_2">
+		<text>Fire Tears</text>
+	</string>
+	<string id="af_cry_2_s">
+		<text>Tears</text>
+	</string>
+	<string id="enc_zone_artifact_cry_2">
+		<text>While this mesomodified artefact inherits only the radiation-inhibiting properties from its predecessor, Electric Tears, it increases that protection three-fold</text>
+	</string>
+	<string id="af_cry_3">
+		<text>Chimera Tears</text>
+	</string>
+	<string id="af_cry_3_s">
+		<text>Tears</text>
+	</string>
+	<string id="enc_zone_artifact_cry_3">
+		<text>This hypermodified artefact increases the already outstanding radiation protection of Fire Tears by a further 50%, while inhibiting the effects of dangerous Psi-emissions on the body. The practical cost of doing this, however, is a marked clotting deficiency that encourages profuse bleeding from any laceration, and a noticeable slowdown in the body's rate of recovery after injury</text>
+	</string>
+	<string id="af_babka_1">
+		<text>Mother's Beads</text>
+	</string>
+	<string id="af_babka_1_s">
+		<text>Beads</text>
+	</string>
+	<string id="enc_zone_artifact_babka_1">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+5\n%c[default]\nThis modified artefact generates a localized gravitational field that refracts high velocity objects entering it, effectively offering minor protection from fragmentation and weapons fire. In addition, radiation within the field stimulates the body's oxygenation process, effectively increasing stamina. Because the radiation is contained by the field, the use of compatible artefacts is necessary to neutralize the onset of radiation sickness. This combination also lowers the resistance of the body to electrical activity, making Electro and similar anomalies even more dangerous</text>
+	</string>
+	<string id="af_babka_2">
+		<text>Grandmother's Beads</text>
+	</string>
+	<string id="af_babka_2_s">
+		<text>Beads</text>
+	</string>
+	<string id="enc_zone_artifact_babka_2">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+7\n%c[default]\nThis mesomodified artefact has a weaker gravitational field than Mother's Beads, losing some of its previous ability to protect against firearm and fragmentation damage, and no longer affects stamina. It also emits harmful radionuclides at a faster rate, necessitating stronger countermeasures. These deficiencies are compensated by its capacity to increase the body's rate of recovery, and reduce blood loss, after injury</text>
+	</string>
+	<string id="af_babka_3">
+		<text>Elder Beads</text>
+	</string>
+	<string id="af_babka_3_s">
+		<text>Beads</text>
+	</string>
+	<string id="enc_zone_artifact_babka_3">
+		<text>A perfect balance between its radionuclide emissions and gravitational field make this hypermodification one of the most useful artefacts in the Zone, with zero negative properties, and well worth the effort of transmuting a Grandmother's Beads! Firearm and fragmentation protection is doubled, as is the body's injury recovery rate and blood loss reduction. Furthermore, it slows down the rate at which harmful radionuclides are absorbed into the body. Sometimes sold as 'Wisdom Beads' outside the Zone</text>
+	</string>	
+	<string id="af_pudd_1">
+		<text>Fire Dummy</text>
+	</string>
+	<string id="af_pudd_1_s">
+		<text>Dummy</text>
+	</string>
+	<string id="enc_zone_artifact_pudd_1">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+2\n%c[default]\nThis modified artefact, like its predecessor Dummy, increases the body's rate of hydration to the epidermis, effectively providing supplementary protection from burns, and cushioning against impacts like bumps and falls. Oxygenation is also accelerated, providing extra stamina. Be aware that increased moisturisation of the skin not only reduces the body's resistance to electric shock, but also escalates the rate at which it absorbs harmful radionuclides</text>
+	</string>
+	<string id="af_pudd_2">
+		<text>Shining Dummy</text>
+	</string>
+	<string id="af_pudd_2_s">
+		<text>Dummy</text>
+	</string>
+	<string id="enc_zone_artifact_pudd_2">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+3\n%c[default]\nThe increased hydration stimulated by this mesomodified artefact provides better burn protection, impaction padding, and stamina than a Fire Dummy; while typically increasing susceptability to electric shock and radionuclide absorption</text>
+	</string>
+	<string id="af_pudd_3">
+		<text>Moonlight Dummy</text>
+	</string>
+	<string id="af_pudd_3_s">
+		<text>Dummy</text>
+	</string>
+	<string id="enc_zone_artifact_pudd_3">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+5\n%c[default]\nThe accelerated hydration created by this hypermodified artefact continues to provide even better burn protection, impaction padding, and stamina than a Shining Dummy; while correspondingly increasing susceptability to electric shock and radionuclide absorption to potentially lethal levels</text>
+	</string>
+	<string id="af_pudd_4">
+		<text>Pudding</text>
+	</string>
+	<string id="af_pudd_4_s">
+		<text>Pudding</text>
+	</string>
+	<string id="enc_zone_artifact_pudd_4">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+7\n%c[default]\nThis absolute artefact offers higher protection from burn and impaction damage than its antecedent, Moonlight Dummy. However, oxygenation is reduced and, while still giving a welcome stamina boost, it now gives the skin a more glutinous texture that actually insulates it from electric shock damage. This nonconduction does not apply to radionuclide absorption, which is even higher than previously, necessitating the use of complementary artefacts to avoid excessive desquamation. As with most absolute artefacts, wearing more than two of a kind in close proximity is not recommended, due to the devastating effect of their compounded flux upon the body's internal organs</text>
+	</string>
+	<string id="af_dik_1">
+		<text>Porcupine</text>
+	</string>
+	<string id="af_dik_1_s">
+		<text>Porcupine</text>
+	</string>
+	<string id="enc_zone_artifact_dik_1">
+		<text>This modified artefact, along the lines of its predecessor Urchin, offers considerable protection from radiation, but decreases personal levels of stamina</text>
+	</string>
+	<string id="af_dik_2">
+		<text>Electric Porcupine</text>
+	</string>
+	<string id="af_dik_2_s">
+		<text>Porcupine</text>
+	</string>
+	<string id="enc_zone_artifact_dik_2">
+		<text>This mesomodified artefact provides similar radiation protection to the Porcupine, but instead of decreasing, actually increases stamina. The tradeoff for this is increased sensitivity to electric shock</text>
+	</string>
+	<string id="af_dik_3">
+		<text>Acidic Porcupine</text>
+	</string>
+	<string id="af_dik_3_s">
+		<text>Porcupine</text>
+	</string>
+	<string id="enc_zone_artifact_dik_3">
+		<text>This hypermodified artefact is similar to the Electric Porcupine in that it provides increased radiation protection and stamina, with a proportional rise in sensitivity to electric shock, but a significant reduction in hemorrhaging after injury</text>
+	</string>
+	<string id="af_dik_4">
+		<text>Stone Porcupine</text>
+	</string>
+	<string id="af_dik_4_s">
+		<text>Porcupine</text>
+	</string>
+	<string id="enc_zone_artifact_dik_4">
+		<text>This absolute artefact possesses all the positive protection of its predecessors but, instead of increasing, sensitivity to electric shock is actually decreased. As with most absolute artefacts, wearing more than two of a kind in close proximity is not recommended, due to the devastating effect of their compounded flux upon the body's internal organs</text>
+	</string>
+	<string id="af_kol_1">
+		<text>Steel Kolobok</text>
+	</string>
+	<string id="af_kol_1_s">
+		<text>Kolobok</text>
+	</string>
+	<string id="enc_zone_artifact_kol_1">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+5\n%c[default]\nThis modified artefact generates a dense energy field that diffracts high velocity projectiles away from the wearer, thus offering some protection from weapons fire. It also toughens the body's epidermis, effectively making skin less prone to rupture. Unfortunately, the radiation responsible for this field is also harmful to the human body</text>
+	</string>
+	<string id="af_kol_2">
+		<text>Titan Kolobok</text>
+	</string>
+	<string id="af_kol_2_s">
+		<text>Kolobok</text>
+	</string>
+	<string id="enc_zone_artifact_kol_2">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+6\n%c[default]\nThis mesomodified artefact generates a more intense energy field than its predecessor, Steel Kolobok, giving increased protection from direct weapons fire. It reduces the skin's natural susceptability to laceration, while also protecting it from burns. These additional benefits are offset by an increased amount of radionuclides known to cause both short and long term damage to the human body</text>
+	</string>
+	<string id="af_kol_3">
+		<text>Diamond Kolobok</text>
+	</string>
+	<string id="af_kol_3_s">
+		<text>Kolobok</text>
+	</string>
+	<string id="enc_zone_artifact_kol_3">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+4\n%c[default]\nThis hypermodified artefact has a slightly weaker energy field than the Titan Kolobok, but still provides some protection from fast-moving projectiles. In addition to further protection from laceration and burns, it also protects against tissue damage from caustic and corrosive chemicals. While still radioactive, it does not discharge as much as its predecessor</text>
+	</string>
+	<string id="af_kol_4">
+		<text>Sphere</text>
+	</string>
+	<string id="af_kol_4_s">
+		<text>Sphere</text>
+	</string>
+	<string id="enc_zone_artifact_kol_4">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+9\n%c[default]\nThis absolute artefact inherits most of the positive properties of its predecessors in the Kolobok family, and helps protect the skin from tearing, burns, and projectiles. As with most absolute artefacts, wearing more than two of a kind in close proximity is not recommended, due to the devastating effect of their compounded flux upon the body's internal organs</text>
+	</string>
+	<string id="af_armor_1">
+		<text>Skin</text>
+	</string>
+	<string id="af_armor_1_s">
+		<text>Skin</text>
+	</string>
+	<string id="enc_zone_artifact_armor_1">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+2\n%c[default]\nThis modified artefact reacts with human skin, creating a temporary form of natural armor against high velocity projectiles, including bullets. The Skin artefact also offers resistance to damage from chemicals, most notably those resulting from the Zone itself. It is mildly radioactive</text>
+	</string>
+	<string id="af_armor_2">
+		<text>Scale</text>
+	</string>
+	<string id="af_armor_2_s">
+		<text>Scale</text>
+	</string>
+	<string id="enc_zone_artifact_armor_2">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+4\n%c[default]\nThis mesomodified artefact, like its predecessor Skin, forms a temporary barrier on human skin, effectively protecting it from transient bullet injury and chemical burns. The Scale artefact also contributes to overall human health, creating a feeling of well-being and fast recovery, although a side effect is increased susceptability to bleeding due to increased blood flow. It is slightly more radioactive than a Skin</text>
+	</string>
+	<string id="af_armor_3">
+		<text>Steel Scale</text>
+	</string>
+	<string id="af_armor_3_s">
+		<text>Scale</text>
+	</string>
+	<string id="enc_zone_artifact_armor_3">
+		<text>%c[1,1,1,1]______ %c[255,255,255,255]Radiation %c[255,255,1,1]+3\n%c[default]\nThis hypermodified artefact inherits all the positive properties of its predecessors Skin and Scale, but with increased effect. Furthermore, instead of stimulating blood loss when injured, it actually stems the flow and, while still radioactive, its emissions are at a slower rate than its predecessors</text>
+	</string>
+	<string id="af_armor_4">
+		<text>Controller Scalp</text>
+	</string>
+	<string id="af_armor_4_s">
+		<text>Scale</text>
+	</string>
+	<string id="enc_zone_artifact_armor_4">
+		<text>This absolute artefact evolves from its sub-family in an unusual way. It is no longer radioactive, but still protects against damage from heat, chemicals and high velocity projectiles. However, its chief benefit is in providing wide-ranging protection from most forms of Psi-emissions. Despite having no nuclear power source of its own, it is able to draw upon the body's own energy resources, thus stimulating the need to eat a little more often while using it. As with most absolute artefacts, wearing more than two of a kind in close proximity is not recommended, due to the devastating effect of their compounded flux upon the body's internal organs</text>
+	</string>
+	<string id="af_simbion">
+		<text>Simbion</text>
+	</string>
+	<string id="af_simbion_s">
+		<text>Simbion</text>
+	</string>
+	<string id="enc_zone_artifact_simbion">
+		<text>This unusual hybrid modification is the only known artefact obtained by transmuting four dissimilar artefacts into one. Its ability to rechannel the body's resources is so effective that just two will give a full 90% protection against most known Psi-emissions. The downside of this is a marked susceptibility to tearing and bleeding of the skin, and a weakening of the body's ability to metabolise oxygen, effectively reducing stamina. An invaluable possession if you plan on encountering a Psi-capable enemy or environment</text>
+	</string>

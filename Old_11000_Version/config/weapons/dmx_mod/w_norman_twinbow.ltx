@@ -1,0 +1,105 @@
+;;;; TB3D 1.0.9.9.7.6 - TB3D style weapons
+; јрбалет Ќормана
+; јвтор: nafigator
+[wpn_crossbow_m1]:wpn_crossbow
+$spawn                  = "weapons\uniq\wpn_crossbow_m1"				
+min_radius              = 0
+max_radius              = 400
+description				= enc_wpn_crossbow_m1	;TB3D 10992
+cost					= 9800
+ammo_limit		 		= 120
+ammo_current		 	= 90
+ammo_elapsed		 	= 12	
+
+inv_name				= wpn_crossbow_m1
+inv_name_short			= wpn_crossbow_m1
+inv_weight				= 2.3
+inv_grid_width			= 5
+inv_grid_x				= 35
+inv_grid_y				= 67
+
+kill_msg_x			= 194
+kill_msg_y			= 123
+kill_msg_width		= 46
+kill_msg_height		= 27
+
+fire_dispersion_base	= 0.02  ;угол (в градусах) базовой дисперсии оружи€ (оружи€ зажатого в тисках)
+control_inertion_factor	= 1.1f
+cam_relax_speed         = 18.0	;скорость возврата в исходное положение
+cam_dispersion          = 2.0	;увеличени€ угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 0.0	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 1.0	;ствол будет подыматьс€ на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle			= 5.0	;максимальный угол отдачи
+cam_max_angle_horz		= 5.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 0.2	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 0 ;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 1.00	;веро€тность осечки при максимальном износе
+misfire_condition_k			= 1.0 
+condition_shot_dec 			= 0.0000001  ;увеличение износа при каждом выстреле
+
+fire_point			        = -0.005000,0.130000,0.220000
+rpm_empty_click 	 		= 600
+shell_point		 			= 0.0, 0.133, 0.06
+
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 	= 1.1
+PDM_disp_accel_factor 	= 1.1
+PDM_crouch	 		    = 1.0
+PDM_crouch_no_acc 		= 1.0
+
+hit_power           = 2.5
+fire_distance		= 1000			;;;109976
+bullet_speed	    = 380			;;;109976
+use_aim_bullet		= true		;ѕоддерживаетс€ ли перва€ супер пул€
+time_to_aim			= 1
+
+hud                      	= wpn_crossbow_m1_hud
+normal                   	= 0, 1, 0
+position                 	= -0.025, -0.055, -0.485
+orientation              	= 0, 8, 0
+startup_ammo             	= 90
+visual                   	= weapons\twinbow\wpn_twinbow.ogf
+
+light_color		 			= 0.6,0.5,0.3
+light_range		 			= 3.0
+light_var_color		 		= 0.05
+light_var_range		 		= 0.5
+light_time 		 			= 0.001
+
+silencer_status				= 1
+scope_texture				= wpn\twinbow\4x32
+scope_zoom_factor	   		= 22.5
+
+snd_draw					= weapons\twinbow\draw
+snd_draw_empty				= weapons\twinbow\draw
+snd_holster					= weapons\twinbow\holster
+snd_shoot					= weapons\twinbow\shoot
+snd_empty					= weapons\twinbow\empty
+snd_reload					= weapons\twinbow\reload
+snd_close					= weapons\twinbow\holster
+
+[wpn_crossbow_m1_hud]
+shell_point			= -0.000000,0.040000,-0.235000
+fire_point          = -0.001000,0.056000,-0.200000
+fire_bone                	= wpn_body
+orientation              	= 6.2,8,0
+position                 	= 0.01,-0.10,0.0
+visual                   	= weapons\twinbow\wpn_twinbow_hud.ogf
+
+anim_holster			= holster
+anim_idle				= idle
+anim_empty				= empty
+anim_reload				= reload
+anim_reload_empty		= reload
+anim_draw				= draw
+anim_draw_empty			= draw_empty
+anim_shoot				= shoot
+anim_shot_last			= shoot
+anim_close				= holster
+anim_idle_aim			= idle
+anim_idle_sprint		= sprint
+
+zoom_offset			= -0.139400,0.124400,-0.166400
+zoom_rotate_x		= 0.118200
+zoom_rotate_y		= 0.110500

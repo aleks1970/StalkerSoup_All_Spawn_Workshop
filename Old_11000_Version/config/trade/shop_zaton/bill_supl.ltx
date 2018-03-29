@@ -1,0 +1,584 @@
+;<!-- aleks1970 excluded duplicate sections -->
+;/// Сдесь товары которые должны быть в продаже, их колличество и шанс появления 
+;/// ammo_9x18_fmj = 10, 0.6 
+;/// патроны 9х18 в колличестве 10 пачек и с шансом 60%. 
+;/// Причем шанс расчитывается для КАЖДОЙ пачки, так что кол патронов могет быть разным. 
+;/// Если поставить 
+;/// ammo_9x18_fmj = 10, 1
+;/// То всегда будет 10 пачек. 
+
+[supplies_start]
+
+ogg_flash_2			= 1, 0.7
+amk_metka				= 1, 0.7
+arc_art_box_basic		= 1, 0.7
+matras				    = 1, 0.7
+treasure_item			= 1, 0.7
+
+;Оружие
+wpn_fort				     = 1, 0.8
+wpn_sig220				= 1, 0.8
+wpn_mp5					= 1, 0.8
+
+detector_advances		= 1, 0.7
+;wpn_addon_silencer		= 1, 0.8	;  excluded duplicate sections aleks1970
+;wpn_9mm_nato_silencer	= 1, 0.8	;  excluded duplicate sections aleks1970
+
+;Броники
+stalker_outfit			= 1, 0.3
+
+;Медикаменты
+bandage					= 3, 0.7
+
+;Еда
+bread					= 2, 0.7
+kolbasa					= 2, 0.7
+conserva				= 2, 0.7
+energy_drink			= 2, 0.7
+
+; DMX MOD
+; Оружие
+wpn_m8000          = 1, 0.8
+wpn_glock19        = 1, 0.8
+wpn_m590           = 1, 0.8
+wpn_remington870   = 1, 0.8
+wpn_zastava        = 1, 0.8
+wpn_ppk            = 1, 0.8
+wpn_mauser         = 1, 0.8
+
+fake_wpn_machette   = 1, 0.8
+fake_wpn_knife_ak47 = 1, 0.8
+
+grenade_m61             = 5, 0.3
+w_dynamite              = 5, 0.3
+
+wpn_addon_sil_57      = 1, 0.8
+wpn_addon_sil_762x39  = 1, 0.8
+wpn_addon_sil_9_p     = 1, 0.8
+wpn_addon_sil_45      = 1, 0.8
+wpn_9mm_nato_silencer = 1, 0.8
+wpn_addon_silencer    = 1, 0.8
+wpn_addon_c96_priklad = 1, 0.8
+
+; Амуниция
+mine_1                  = 1, 0.3
+razgruzka               = 1, 0.3
+garmoshka_b             = 1, 0.3
+guitar_b                = 1, 0.3
+racya_b                 = 1, 0.3
+smoking_b               = 10, 0.3
+fosfor                    = 1, 0.3
+device_warning_module     = 1, 0.3
+mine_detector             = 1, 0.3
+fake_bolt_detector_medved = 1, 0.3
+fake_device_torch         = 1, 0.3
+fake_wpn_binoc            = 1, 0.3
+fake_helmet_stalker       = 1, 0.3
+bolt_box                  = 1, 0.3
+item_car_repair           = 1, 0.3
+
+; Еда
+pivo                      = 10, 0.3
+irp-b                     = 10, 0.3
+mechta                    = 10, 0.3
+voda                      = 10, 0.3
+tuchenka                  = 10, 0.3
+ogursi                    = 10, 0.3
+nuts                      = 10, 0.7
+olives                    = 10, 0.7
+kolbasadmx                = 10, 0.3
+pivo_baltika              = 10, 0.3
+sok                       = 10, 0.3
+sholad                    = 10, 0.3
+energy_non_stop           = 10, 0.3
+energy_stalker            = 10, 0.3
+mineral_water             = 10, 0.3
+smirnoff_vodka            = 10, 0.7
+nemiroff_vodka            = 10, 0.7
+
+; Медикаменты
+tab                       = 1, 0.3
+antiseptic                = 1, 0.3
+zhgut                     = 3, 0.3
+yadulin                   = 3, 0.3
+
+; ammunition
+; ammo_11.43x23_fmj         = 2, 0.15
+; ammo_11.43x23_hydro       = 2, 0.15
+; ammo_12.7x108             = 5, 0.25
+ammo_12x70_buck           = 5, 0.25
+; ammo_12x70_flare          = 5, 0.25
+ammo_12x70_kart           = 2, 0.15
+; ammo_12x76_dart           = 2, 0.15
+; ammo_12x76_zhekan         = 2, 0.15
+; ammo_12x76_zhekan_heli    = 2, 0.15
+; ammo_130vps               = 5, 0.25
+; ammo_14.5x114_ap          = 2, 0.15
+; ammo_16x70_buck           = 2, 0.15
+; ammo_16x70_kart           = 2, 0.15
+; ammo_16x70_zhekan         = 2, 0.15
+; ammo_20x85                = 2, 0.15
+; ammo_20x85a               = 2, 0.15
+; ammo_5.45x39_ap           = 2, 0.15
+ammo_5.45x39_fmj          = 5, 0.25
+; ammo_5.45x39_izomorf      = 5, 0.25
+; ammo_5.56x45_ap           = 2, 0.15
+; ammo_5.56x45_ss190        = 5, 0.25
+; ammo_5.7x28_ap            = 2, 0.15
+; ammo_5.7x28_fmj           = 2, 0.15
+; ammo_5.7x28_ss190         = 2, 0.15
+; ammo_50_bmg               = 2, 0.15
+; ammo_50ae                 = 2, 0.15
+; ammo_7.62x25_p            = 2, 0.15
+; ammo_7.62x25_ps           = 2, 0.15
+; ammo_7.62x39_ap           = 2, 0.15
+; ammo_7.62x39_fmj          = 2, 0.15
+; ammo_7.62x51_ap           = 2, 0.15
+; ammo_7.62x51_fmj          = 2, 0.15
+; ammo_7.62x51box           = 2, 0.15
+; ammo_7.62x54_7h1          = 2, 0.15
+; ammo_7.62x54_7h14         = 2, 0.15
+; ammo_7.62x54_ap           = 2, 0.15
+; ammo_7.62x54_foto         = 2, 0.15
+; ammo_7.62x54_izomorf      = 2, 0.15
+; ammo_7.62x54r             = 2, 0.15
+; ammo_7.92x33_ap           = 2, 0.15
+; ammo_7.92x33_fmj          = 2, 0.15
+; ammo_8.6x70               = 2, 0.15
+ammo_9x18_fmj             = 5, 0.25
+; ammo_9x18_pbp             = 2, 0.15
+; ammo_9x18_pmm             = 2, 0.15
+ammo_9x19_fmj             = 5, 0.25
+; ammo_9x19_pbp             = 2, 0.15
+; ammo_9x19_super           = 5, 0.25
+; ammo_9x39_ap              = 2, 0.15
+; ammo_9x39_izomorf         = 5, 0.25
+; ammo_9x39_pab9            = 5, 0.25
+; ammo_9x39_sp5             = 2, 0.15
+; ammo_arbolt               = 2, 0.15
+; ammo_arm_binoc            = 5, 0.25
+; ammo_balon                = 2, 0.15
+; ammo_balon_rg10           = 2, 0.15
+; ammo_base                 = 5, 0.25
+; ammo_btr                  = 5, 0.25
+; ammo_flame                = 5, 0.25
+; ammo_foto                 = 5, 0.25
+; ammo_gauss                = 5, 0.25
+; ammo_gravi                = 5, 0.25
+; ammo_igl                  = 2, 0.15
+; ammo_igl_new              = 2, 0.15
+; ammo_igla                 = 2, 0.15
+; ammo_knife                = 5, 0.25
+; ammo_m209                 = 2, 0.15
+; ammo_m209_smoke           = 2, 0.15
+; ammo_minigun              = 2, 0.15
+; ammo_og-7b                = 2, 0.15
+; ammo_samopal              = 5, 0.25
+; ammo_soul                 = 5, 0.25
+; ammo_super_arbolt         = 2, 0.15
+; ammo_super_gauss          = 5, 0.25
+; ammo_super_gauss1         = 5, 0.25
+; ammo_vog-25               = 2, 0.15
+; ammo_vog-25p              = 2, 0.15
+; ammo_xrep1                = 5, 0.25
+; ammo_xrep2                = 5, 0.25
+; ammo_xrep3                = 5, 0.25
+; ammo_zhekan_izomorf       = 5, 0.25
+
+[supplies_after_darkvalley]
+ogg_flash_2			= 1, 0.7
+amk_metka				= 1, 0.37
+arc_art_box_basic		= 1, 0.7
+matras				    = 1, 0.7
+treasure_item			= 1, 0.7
+
+;Оружие
+wpn_fort				= 1, 0.8
+wpn_hpsa				= 1, 0.8
+wpn_sig220				= 1, 0.8
+wpn_colt1911			= 1, 0.8
+wpn_ak74u				= 1, 0.8
+wpn_mp5					= 1, 0.8
+
+detector_advances		= 1, 0.7
+
+;Броники
+stalker_outfit			= 1, 0.3
+
+;AMK OUTFITS
+neytral_gaz_outfit_m1	= 1, 0.3
+
+;Медикаменты
+bandage					= 5, 0.7
+
+;Еда
+bread					= 2,	0.7
+kolbasa					= 2,	0.7
+conserva				= 2,	0.7
+energy_drink			= 2,	0.7
+
+; DMX MOD
+; Оружие
+wpn_val_small      = 1, 0.8
+wpn_m8000          = 1, 0.8
+wpn_glock19        = 1, 0.8
+wpn_m590           = 1, 0.8
+wpn_remington870   = 1, 0.8
+wpn_xm1014         = 1, 0.8
+wpn_zastava        = 1, 0.8
+wpn_ppk            = 1, 0.8
+wpn_mauser         = 1, 0.8
+wpn_masada         = 1, 0.8
+
+fake_wpn_machette   = 1, 0.8
+fake_wpn_knife_ak47 = 1, 0.8
+
+grenade_m67             = 5, 0.3
+grenade_m61             = 5, 0.3
+w_dynamite              = 5, 0.3
+
+wpn_addon_sil_57      = 1, 0.8
+wpn_addon_sil_762x39  = 1, 0.8
+wpn_addon_sil_9_p     = 1, 0.8
+wpn_addon_sil_45      = 1, 0.8
+wpn_9mm_nato_silencer = 1, 0.8
+wpn_addon_silencer    = 1, 0.8
+wpn_addon_c96_priklad = 1, 0.8
+
+; Амуниция
+mine_1                  = 1, 0.3
+mine_2                  = 1, 0.3
+razgruzka               = 1, 0.3
+garmoshka_b             = 1, 0.3
+guitar_b                = 1, 0.3
+racya_b                 = 1, 0.3
+smoking_b               = 10, 0.3
+fosfor                    = 1, 0.3
+device_warning_module     = 1, 0.3
+mine_detector             = 1, 0.7
+fake_bolt_detector_medved = 1, 0.3
+fake_device_torch         = 1, 0.3
+fake_wpn_binoc            = 1, 0.3
+fake_helmet_stalker       = 1, 0.3
+bolt_box                  = 1, 0.3
+item_car_repair           = 1, 0.3
+
+; Еда
+pivo                      = 10, 0.3
+irp-b                     = 10, 0.3
+mechta                    = 10, 0.3
+voda                      = 10, 0.3
+tuchenka                  = 10, 0.3
+yantar                    = 10, 0.3
+ogursi                    = 10, 0.3
+nuts                      = 10, 0.7
+olives                    = 10, 0.7
+kolbasadmx                = 10, 0.3
+pivo_baltika              = 10, 0.3
+sok                       = 10, 0.3
+syh_pay_gde_3             = 10, 0.3
+syh_pay_spp5              = 10, 0.3
+sholad                    = 10, 0.3
+energy_ad_rush            = 10, 0.3
+energy_non_stop           = 10, 0.3
+energy_red_bull           = 10, 0.3
+energy_stalker            = 10, 0.3
+mineral_water             = 10, 0.3
+smirnoff_vodka            = 10, 0.7
+nemiroff_vodka            = 10, 0.7
+absolut_vodka             = 10, 0.7
+
+; Медикаменты
+tab                       = 1, 0.3
+antiseptic                = 1, 0.3
+zhgut                     = 3, 0.3
+yadulin                   = 3, 0.3
+
+; ammunition
+; ammo_11.43x23_fmj         = 2, 0.15
+; ammo_11.43x23_hydro       = 2, 0.15
+; ammo_12.7x108             = 5, 0.25
+ammo_12x70_buck           = 5, 0.25
+; ammo_12x70_flare          = 5, 0.25
+ammo_12x70_kart           = 2, 0.15
+; ammo_12x76_dart           = 2, 0.15
+; ammo_12x76_zhekan         = 2, 0.15
+; ammo_12x76_zhekan_heli    = 2, 0.15
+; ammo_130vps               = 5, 0.25
+; ammo_14.5x114_ap          = 2, 0.15
+; ammo_16x70_buck           = 2, 0.15
+; ammo_16x70_kart           = 2, 0.15
+; ammo_16x70_zhekan         = 2, 0.15
+; ammo_20x85                = 2, 0.15
+; ammo_20x85a               = 2, 0.15
+ammo_5.45x39_ap           = 2, 0.15
+ammo_5.45x39_fmj          = 5, 0.25
+; ammo_5.45x39_izomorf      = 5, 0.25
+; ammo_5.56x45_ap           = 2, 0.15
+ammo_5.56x45_ss190        = 5, 0.25
+; ammo_5.7x28_ap            = 2, 0.15
+; ammo_5.7x28_fmj           = 2, 0.15
+; ammo_5.7x28_ss190         = 2, 0.15
+; ammo_50_bmg               = 2, 0.15
+; ammo_50ae                 = 2, 0.15
+; ammo_7.62x25_p            = 2, 0.15
+; ammo_7.62x25_ps           = 2, 0.15
+; ammo_7.62x39_ap           = 2, 0.15
+ammo_7.62x39_fmj          = 2, 0.15
+; ammo_7.62x51_ap           = 2, 0.15
+ammo_7.62x51_fmj          = 2, 0.15
+; ammo_7.62x51box           = 2, 0.15
+ammo_7.62x54_7h1          = 2, 0.15
+; ammo_7.62x54_7h14         = 2, 0.15
+; ammo_7.62x54_ap           = 2, 0.15
+; ammo_7.62x54_foto         = 2, 0.15
+; ammo_7.62x54_izomorf      = 2, 0.15
+; ammo_7.62x54r             = 2, 0.15
+; ammo_7.92x33_ap           = 2, 0.15
+; ammo_7.92x33_fmj          = 2, 0.15
+; ammo_8.6x70               = 2, 0.15
+ammo_9x18_fmj             = 5, 0.25
+; ammo_9x18_pbp             = 2, 0.15
+; ammo_9x18_pmm             = 2, 0.15
+ammo_9x19_fmj             = 5, 0.25
+ammo_9x19_pbp             = 2, 0.15
+; ammo_9x19_super           = 5, 0.25
+; ammo_9x39_ap              = 2, 0.15
+; ammo_9x39_izomorf         = 5, 0.25
+ammo_9x39_pab9            = 5, 0.25
+; ammo_9x39_sp5             = 2, 0.15
+; ammo_arbolt               = 2, 0.15
+; ammo_arm_binoc            = 5, 0.25
+; ammo_balon                = 2, 0.15
+; ammo_balon_rg10           = 2, 0.15
+; ammo_base                 = 5, 0.25
+; ammo_btr                  = 5, 0.25
+; ammo_flame                = 5, 0.25
+; ammo_foto                 = 5, 0.25
+; ammo_gauss                = 5, 0.25
+; ammo_gravi                = 5, 0.25
+; ammo_igl                  = 2, 0.15
+; ammo_igl_new              = 2, 0.15
+; ammo_igla                 = 2, 0.15
+; ammo_knife                = 5, 0.25
+; ammo_m209                 = 2, 0.15
+; ammo_m209_smoke           = 2, 0.15
+; ammo_minigun              = 2, 0.15
+; ammo_og-7b                = 2, 0.15
+; ammo_samopal              = 5, 0.25
+; ammo_soul                 = 5, 0.25
+; ammo_super_arbolt         = 2, 0.15
+; ammo_super_gauss          = 5, 0.25
+; ammo_super_gauss1         = 5, 0.25
+; ammo_vog-25               = 2, 0.15
+; ammo_vog-25p              = 2, 0.15
+; ammo_xrep1                = 5, 0.25
+; ammo_xrep2                = 5, 0.25
+; ammo_xrep3                = 5, 0.25
+; ammo_zhekan_izomorf       = 5, 0.25
+
+[supplies_after_brain]
+ogg_flash_2			= 1, 0.7
+amk_metka				= 1, 0.37
+arc_art_box_basic		= 1, 0.7
+arc_art_box_8basic		= 1, 0.7
+matras				    = 1, 0.7
+treasure_item			= 1, 0.7
+
+;Оружие
+wpn_crossbow				= 1, 0.8
+wpn_hpsa				= 1, 0.8
+wpn_beretta				= 1, 0.8
+wpn_walther				= 1, 0.8
+wpn_sig220				= 1, 0.8
+wpn_colt1911			= 1, 0.8
+wpn_usp					= 1, 0.8
+wpn_ak74u				= 1, 0.8
+wpn_mp5					= 1, 0.8
+
+detector_advances		= 1, 0.7
+wpn_addon_scope		= 1, 0.8
+wpn_addon_grenade_launcher	= 1, 0.8
+
+;Броники
+specops_outfit			= 1, 0.3
+stalker_outfit			= 1, 0.3
+neytral_gaz_outfit_m1	= 1, 0.3
+
+;Медикаменты
+bandage					= 10,	0.7
+
+;Еда
+bread					= 2,	0.7
+kolbasa					= 2,	0.7
+conserva				= 2,	0.7
+energy_drink			= 2,	0.7
+
+; DMX MOD
+; Оружие
+wpn_sayga12k       = 1, 0.8
+wpn_val_small      = 1, 0.8
+wpn_m8000          = 1, 0.8
+wpn_glock19        = 1, 0.8
+wpn_m590           = 1, 0.8
+wpn_remington870   = 1, 0.8
+wpn_xm1014         = 1, 0.8
+wpn_l86            = 1, 0.8
+wpn_zastava        = 1, 0.8
+wpn_r700           = 1, 0.8
+wpn_ppk            = 1, 0.8
+wpn_mauser         = 1, 0.8
+wpn_masada         = 1, 0.8
+wpn_g36aimpoint    = 1, 0.8
+
+fake_wpn_machette   = 1, 0.8
+fake_wpn_knife_ak47 = 1, 0.8
+
+grenade_m67             = 5, 0.3
+grenade_m61             = 5, 0.3
+grenade_7643b           = 5, 0.3
+grenade_an_m14          = 5, 0.3
+w_dynamite              = 5, 0.3
+
+wpn_addon_sil_57      = 1, 0.8
+wpn_addon_sil_762x39  = 1, 0.8
+wpn_addon_sil_9_p     = 1, 0.8
+wpn_addon_sil_45      = 1, 0.8
+wpn_9mm_nato_silencer = 1, 0.8
+wpn_addon_silencer    = 1, 0.8
+wpn_addon_c96_priklad = 1, 0.8
+
+; Амуниция
+mine_1                  = 1, 0.3
+mine_2                  = 1, 0.3
+mine_3                  = 1, 0.3
+razgruzka               = 1, 0.3
+garmoshka_b             = 1, 0.3
+guitar_b                = 1, 0.3
+racya_b                 = 1, 0.3
+smoking_b               = 10, 0.3
+fake_wpn_arm_binoc      = 1, 0.3
+fosfor                    = 1, 0.3
+silencers_box             = 1, 0.3
+device_warning_module     = 1, 0.3
+mine_detector             = 1, 0.7
+fake_bolt_detector_medved = 1, 0.3
+fake_device_torch         = 1, 0.3
+fake_wpn_binoc            = 1, 0.3
+fake_helmet_stalker       = 1, 0.3
+bolt_box                  = 1, 0.3
+item_car_repair           = 1, 0.3
+
+; Еда
+pivo                      = 10, 0.3
+irp-b                     = 10, 0.3
+mechta                    = 10, 0.3
+voda                      = 10, 0.3
+tuchenka                  = 10, 0.3
+yantar                    = 10, 0.3
+ogursi                    = 10, 0.3
+nuts                      = 10, 0.7
+olives                    = 10, 0.7
+kolbasadmx                = 10, 0.3
+pivo_baltika              = 10, 0.3
+sok                       = 10, 0.3
+syh_pay_gde_3             = 10, 0.3
+syh_pay_spp5              = 10, 0.3
+sholad                    = 10, 0.3
+energy_ad_rush            = 10, 0.3
+energy_non_stop           = 10, 0.3
+energy_red_bull           = 10, 0.3
+energy_stalker            = 10, 0.3
+mineral_water             = 10, 0.3
+smirnoff_vodka            = 10, 0.7
+nemiroff_vodka            = 10, 0.7
+absolut_vodka             = 10, 0.7
+
+; Медикаменты
+tab                       = 1, 0.3
+antiseptic                = 1, 0.3
+zhgut                     = 3, 0.3
+yadulin                   = 3, 0.3
+
+; ammunition
+; ammo_11.43x23_fmj         = 2, 0.15
+; ammo_11.43x23_hydro       = 2, 0.15
+; ammo_12.7x108             = 5, 0.25
+ammo_12x70_buck           = 5, 0.25
+; ammo_12x70_flare          = 5, 0.25
+ammo_12x70_kart           = 2, 0.15
+ammo_12x76_dart           = 2, 0.15
+ammo_12x76_zhekan         = 2, 0.15
+; ammo_12x76_zhekan_heli    = 2, 0.15
+; ammo_130vps               = 5, 0.25
+; ammo_14.5x114_ap          = 2, 0.15
+; ammo_16x70_buck           = 2, 0.15
+; ammo_16x70_kart           = 2, 0.15
+; ammo_16x70_zhekan         = 2, 0.15
+; ammo_20x85                = 2, 0.15
+; ammo_20x85a               = 2, 0.15
+ammo_5.45x39_ap           = 2, 0.15
+ammo_5.45x39_fmj          = 5, 0.25
+; ammo_5.45x39_izomorf      = 5, 0.25
+ammo_5.56x45_ap           = 2, 0.15
+ammo_5.56x45_ss190        = 5, 0.25
+; ammo_5.7x28_ap            = 2, 0.15
+; ammo_5.7x28_fmj           = 2, 0.15
+; ammo_5.7x28_ss190         = 2, 0.15
+; ammo_50_bmg               = 2, 0.15
+; ammo_50ae                 = 2, 0.15
+; ammo_7.62x25_p            = 2, 0.15
+; ammo_7.62x25_ps           = 2, 0.15
+ammo_7.62x39_ap           = 2, 0.15
+ammo_7.62x39_fmj          = 2, 0.15
+ammo_7.62x51_ap           = 2, 0.15
+ammo_7.62x51_fmj          = 2, 0.15
+ammo_7.62x51box           = 2, 0.15
+ammo_7.62x54_7h1          = 2, 0.15
+ammo_7.62x54_7h14         = 2, 0.15
+ammo_7.62x54_ap           = 2, 0.15
+; ammo_7.62x54_foto         = 2, 0.15
+; ammo_7.62x54_izomorf      = 2, 0.15
+ammo_7.62x54r             = 2, 0.15
+; ammo_7.92x33_ap           = 2, 0.15
+; ammo_7.92x33_fmj          = 2, 0.15
+; ammo_8.6x70               = 2, 0.15
+ammo_9x18_fmj             = 5, 0.25
+; ammo_9x18_pbp             = 2, 0.15
+ammo_9x18_pmm             = 2, 0.15
+ammo_9x19_fmj             = 5, 0.25
+ammo_9x19_pbp             = 2, 0.15
+; ammo_9x19_super           = 5, 0.25
+; ammo_9x39_ap              = 2, 0.15
+; ammo_9x39_izomorf         = 5, 0.25
+ammo_9x39_pab9            = 5, 0.25
+; ammo_9x39_sp5             = 2, 0.15
+; ammo_arbolt               = 2, 0.15
+; ammo_arm_binoc            = 5, 0.25
+; ammo_balon                = 2, 0.15
+; ammo_balon_rg10           = 2, 0.15
+; ammo_base                 = 5, 0.25
+; ammo_btr                  = 5, 0.25
+; ammo_flame                = 5, 0.25
+; ammo_foto                 = 5, 0.25
+; ammo_gauss                = 5, 0.25
+; ammo_gravi                = 5, 0.25
+; ammo_igl                  = 2, 0.15
+; ammo_igl_new              = 2, 0.15
+; ammo_igla                 = 2, 0.15
+; ammo_knife                = 5, 0.25
+; ammo_m209                 = 2, 0.15
+; ammo_m209_smoke           = 2, 0.15
+; ammo_minigun              = 2, 0.15
+; ammo_og-7b                = 2, 0.15
+; ammo_samopal              = 5, 0.25
+; ammo_soul                 = 5, 0.25
+; ammo_super_arbolt         = 2, 0.15
+; ammo_super_gauss          = 5, 0.25
+; ammo_super_gauss1         = 5, 0.25
+; ammo_vog-25               = 2, 0.15
+; ammo_vog-25p              = 2, 0.15
+; ammo_xrep1                = 5, 0.25
+; ammo_xrep2                = 5, 0.25
+; ammo_xrep3                = 5, 0.25
+; ammo_zhekan_izomorf       = 5, 0.25

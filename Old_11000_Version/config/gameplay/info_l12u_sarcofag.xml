@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- ************ TB3D 1.1.0.0.0.0 sar2_spawn_ *************** -->
+<game_information_portions>
+	<!-- *************** autopsy management *************** -->
+	<info_portion id="sar_secret_door_find"/>
+	<info_portion id="sar_start_decoding"/>
+	<info_portion id="sar_access_decoding"/>
+	<info_portion id="sar_finish_decoding"/>
+	<info_portion id="sar_fail_decoding">
+		<disable>sar_start_decoding</disable>
+	</info_portion>
+	<info_portion id="sar_enter_command_center">
+		<task>sar_monolith_destroy</task>
+	</info_portion>
+	<info_portion id="mon_door_unlocked"/>
+	<info_portion id="sar_mon_poltergeist_1_spawn"/>
+	<info_portion id="sar_mon_poltergeist_2_spawn"/>
+	<info_portion id="sar_mon_poltergeist_3_spawn"/>
+	<info_portion id="sar_mon_poltergeist_1_dead"/>
+	<info_portion id="sar_mon_poltergeist_2_dead"/>
+	<info_portion id="sar_mon_poltergeist_3_dead"/>
+	<info_portion id="oso_init_dialog"/>
+	<!-- *************** spawn monolitovcev *************** -->
+	<info_portion id="sar_monolith_spawn1"/>
+	<info_portion id="sar_monolith_spawn2"/>
+	<info_portion id="sar_monolith_spawn3"/>
+	<info_portion id="sar_monolith_spawn4"/>
+	<info_portion id="sar_monolith_spawn5"/>
+	<info_portion id="sar_monolith_spawn6"/>
+	<info_portion id="sar_monolith_spawn7"/>
+	<info_portion id="sar_monolith_spawn8"/>
+	<info_portion id="sar_start_teleport"/>
+	<info_portion id="sar_end_teleport"/>
+	<!-- *************** destruction of the Monolith *************** -->
+	<info_portion id="sar_monolith_generator_find"/>
+	<info_portion id="sar_monolith_damaged"/>
+	<info_portion id="sar_monolith_heavy_damaged"/>
+	<info_portion id="sar_monolith_destroy"/>
+	<info_portion id="sar_monolith_off"/>
+	<info_portion id="sar_monolith_down_1"/>
+	<info_portion id="sar_monolith_down_2"/>
+	<info_portion id="sar_monolith_down_3"/>
+	<info_portion id="sar_monolith_down_4"/>
+	<info_portion id="sar_monolith_down_5"/>
+	<info_portion id="sar_monolith_down_6"/>
+	<info_portion id="sar_monolith_recharged">
+		<task>sar_warlab</task>
+		<article>zones_mystery</article>
+		<article>sl_monolith_off</article>
+	</info_portion>
+	<info_portion id="sar_warlab_go"/>
+	<!-- *************** search Monolith *************** -->
+	<info_portion id="sar_monolith_call">
+		<task>sar_monolith</task>
+	</info_portion>
+	<info_portion id="sar_monolith_find"/>
+	<info_portion id="sar_monolith_go"/>
+	<info_portion id="mon_ambush"/>
+	<info_portion id="mon_1_trigger"/>
+	<info_portion id="mon_2_trigger"/>
+	<info_portion id="mon_3_trigger"/>
+	<!-- *************** Sarcofag 2 *************** -->
+	<info_portion id="sar2_teleport_start"/>
+	<info_portion id="sar2_monolith_rock"/>
+	<info_portion id="sar2_monolith_end"/>
+	<info_portion id="sar2_monolith_miracle"/>
+	<!-- *************** Important character deaths for use in PDA communications *************** -->
+	<info_portion id="sar2_death_1"/>	<!-- tutorial_wounded -->
+	<info_portion id="sar2_death_2"/>	<!-- stalker_freeman -->
+	<info_portion id="sar2_death_3"/>	<!-- cit doctor -->
+	<info_portion id="sar2_death_4"/>	<!-- gar dm novice -->
+	<info_portion id="sar2_death_5"/>	<!-- bandit_novice -->
+	<info_portion id="sar2_death_6"/>	<!-- ranger -->
+	<info_portion id="sar2_death_7"/>	<!-- bandit_general -->
+	<info_portion id="sar2_death_8"/>	<!-- zombied_novice -->
+	<info_portion id="sar2_death_9"/>	<!-- fox -->
+	<info_portion id="sar2_death_10"/>	<!-- seriy -->
+	<info_portion id="sar2_death_11"/>	<!-- agro ratcatcher -->
+	<info_portion id="sar2_death_12"/>	<!-- wolf -->
+	<info_portion id="sar2_death_13"/>	<!-- ecolog prof -->
+	<info_portion id="sar2_death_14"/>	<!-- psih -->
+	<info_portion id="sar2_death_15"/>	<!-- stalker_explorer -->
+	<info_portion id="sar2_death_16"/>	<!-- hellcar -->
+	<info_portion id="sar2_death_17"/>	<!-- fanat -->
+	<info_portion id="sar2_death_18"/>	<!-- gar_dolg_blokpost_commander -->
+	<info_portion id="sar2_death_19"/>	<!-- agro krot -->
+	<info_portion id="sar2_death_20"/>	<!-- bandit_borov alife_l12u_sarcofag.ltx mil_ara -->
+	<info_portion id="sar2_death_21"/>	<!-- arena_manager -->
+	<info_portion id="sar2_death_22"/>	<!-- zastava_commander_1 -->
+	<info_portion id="sar2_death_23"/>	<!-- bandit_leader -->
+	<info_portion id="sar2_death_24"/>	<!-- svoboda_zombi_stalker alife_l12u_sarcofag.ltx mil_stalker0012 -->
+	<info_portion id="sar2_death_25"/>	<!-- monolith_regular2 -->
+	<info_portion id="sar2_death_26"/>	<!-- monolith_regular -->
+	<info_portion id="sar2_death_27"/>	<!-- bandit_veteran -->
+	<info_portion id="sar2_death_28"/>	<!-- soldier_regular -->
+	<info_portion id="sar2_death_29"/>	<!-- killer_regular -->
+	<info_portion id="sar2_death_30"/>	<!-- killer_informator -->
+	<info_portion id="sar2_death_31"/>	<!-- svoboda_cook -->
+	<info_portion id="sar2_death_32"/>	<!-- svoboda_bodyguard -->
+	<info_portion id="sar2_death_33"/>	<!-- svoboda_stukach alife_l12u_sarcofag.ltx mil_freedom_member0001 -->
+	<info_portion id="sar2_death_34"/>	<!-- esc_soldier_commander -->
+	<info_portion id="sar2_death_35"/>	<!-- zombied_stalker -->
+	<info_portion id="sar2_death_36"/>	<!-- soldier_specnaz -->
+	<info_portion id="sar2_death_37"/>	<!-- killer_specnaz -->
+	<info_portion id="sar2_death_38"/>	<!-- dolg_specnaz_cherep skull -->
+	<info_portion id="sar2_death_39"/>	<!-- svoboda_blockpost_leader -->
+	<info_portion id="sar2_death_40"/>	<!-- dolg_guard_commander -->
+	<info_portion id="sar2_death_41"/>	<!-- alife_l05_bar.ltx bar_dolg_ivancov -->
+	<info_portion id="sar2_death_42"/>	<!-- dolg_petrenko -->
+	<info_portion id="sar2_death_43"/>	<!-- alife_l05_bar.ltx bar_dolg_leader -->
+	<info_portion id="sar2_death_44"/>	<!-- svoboda_attack_commander -->
+	<info_portion id="sar2_death_45"/>	<!-- crazy_veterans_lucky -->
+	<info_portion id="sar2_death_46"/>	<!-- svoboda_engineer screw -->
+	<info_portion id="sar2_death_47"/>	<!-- svoboda_leader max -->
+	<info_portion id="sar2_death_48"/>	<!-- svoboda_trader curmudgeon -->
+	<info_portion id="sar2_death_49"/>	<!-- svoboda_master_max lukash -->
+	<info_portion id="sar2_death_50"/>	<!-- monolith_specnaz2 -->
+	<info_portion id="sar2_death_51"/>	<!-- monolith_specnaz -->
+	<info_portion id="sar2_death_52"/>	<!-- svoboda_master_ugrumiy -->
+	<info_portion id="sar2_death_53"/>	<!-- arena_savage -->
+	<info_portion id="sar2_death_54"/>	<!-- zombied_exo -->
+	<info_portion id="sar2_death_55"/>	<!-- monolith_leader -->
+	<info_portion id="sar2_death_56"/>	<!-- killer_ambush_tiran -->
+	<info_portion id="sar2_death_57"/>	<!-- killer_exo -->
+	<info_portion id="sar2_death_58"/>	<!-- soldier_stalker -->
+	<info_portion id="sar2_death_59"/>	<!-- monolith_exo -->
+	<info_portion id="sar2_death_60"/>	<!-- monolith_exo2 -->
+</game_information_portions>

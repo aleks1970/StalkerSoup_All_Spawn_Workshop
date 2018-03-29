@@ -1,0 +1,1450 @@
+<!-- ************ TB3D 1.1.0.0.0.0 fixed typo line 35, minor edits, shortened some tasks, argali to arhara,
+ dan grab and bad psi helmet, dan_pda, barrem_talk, cop_prip_info_lab, gavr_docs, Fan to Fang aleks1970, added articles,
+ system_ecolog_arhara, removed '-', yakut_treasure *************** -->
+<game_task id="voronin_flesh">
+	<title>Psychos_stick_to_Voronin_gameplay_titles</title>
+	<objective>
+		<text>Find_Psychos_stick_Army_Warehouses_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>voronin_flesh_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Psychos_stick_Army_Warehouses_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.voronin_flesh_have</function_complete>
+		<infoportion_set_complete>voronin_flesh_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Psychos_stick_Voronin_gameplay_descriptions</text>
+		<map_location_type hint="Voronin_name_gameplay">blue_location</map_location_type>
+		<object_story_id>bar_dolg_general_voronin</object_story_id>
+		<infoportion_complete>voronin_flesh_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="fox_kriss">
+	<title>Bring_parcel_to_Fox_gameplay_titles</title>
+	<objective>
+		<text>Get_parcel_from_Prapor_Fox_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>fox_kriss_done</infoportion_complete>
+		<article>tex_take_pushka</article>
+	</objective>
+	<objective>
+		<text>Get_the_parcel_Fox_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>Arhara_dialog.fox_kriss_have</function_complete>
+		<infoportion_set_complete>fox_kriss_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Return_to_Fox_gameplay_descriptions</text>
+		<map_location_type hint="Fox_name_gameplay">blue_location</map_location_type>
+		<object_story_id>Escape_stalker_from_raid</object_story_id>
+		<infoportion_complete>fox_kriss_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="prapor_jaw">
+	<title>Bring_Jaw_for_Prapor_gameplay_titles</title>
+	<objective>
+		<text>Find_shupaltsa_Prapor_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>prapor_jaw_done</infoportion_complete>
+		<article>jaw_for_prapor</article>
+	</objective>
+	<objective>
+		<text>Find_Jaw_for_Prapor_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.prapor_jaw_have</function_complete>
+		<infoportion_set_complete>prapor_jaw_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_the_jaw_Prapor_gameplay_descriptions</text>
+		<map_location_type hint="Prapor_name_gameplay">blue_location</map_location_type>
+		<object_story_id>gar_spot_dolg_blokpost</object_story_id>
+		<infoportion_complete>prapor_jaw_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="informator_pda">
+	<title>Bring_Tirans_PDA_Informant_gameplay_titles</title>
+	<objective>
+		<text>To_talk_with_Dan_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>informator_pda_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Talk_with_Dan_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Dan_name_gameplay">blue_location</map_location_type>
+		<object_story_id>marsh_dan</object_story_id>
+		<function_complete>new_dialog.informator_pda_have</function_complete>
+		<infoportion_set_complete>informator_pda_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Tirans_PDA_Informant_gameplay_descriptions</text>
+		<map_location_type hint="Informant_name_gameplay">blue_location</map_location_type>
+		<object_story_id>bar_bar_osvedomitel</object_story_id>
+		<infoportion_complete>informator_pda_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="gavr_pda">
+	<title>Kill_Bolt_bring_his_PDA_LeHavre_gameplay_titles</title>
+	<objective>
+		<text>Find_Bolt_pick_PDA_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>gavr_pda_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Bolt_pick_PDA_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Bolt_name_gameplay">blue_location</map_location_type>
+		<object_story_id>mil_bolt</object_story_id>
+		<function_complete>new_dialog.gavr_pda_have</function_complete>
+		<infoportion_set_complete>gavr_pda_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Bolts_PDA_LeHavre_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="LeHavre_name_gameplay">blue_location</map_location_type>
+		<object_story_id>mil_trader_gavr</object_story_id>
+		<infoportion_complete>gavr_pda_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="freeman_eagle">
+	<title>Bring_Desert_Eagle_Freeman_gameplay_titles</title>
+	<objective>
+		<text>Find_Desert_Eagle_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_weapons</icon>
+		<infoportion_complete>freeman_eagle_done</infoportion_complete>
+		<article>find_desert_eagle</article>
+	</objective>
+	<objective>
+		<text>Find_Desert_Eagle_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.freeman_eagle_have</function_complete>
+		<infoportion_set_complete>freeman_eagle_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Desert_Eagle_Freeman_gameplay_descriptions</text>
+		<map_location_type hint="Freeman_name_gameplay">blue_location</map_location_type>
+		<object_story_id>rostok_stalker</object_story_id>
+		<infoportion_complete>freeman_eagle_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="freeman_case">
+	<title>Bring_case_to_Freeman_gameplay_titles</title>
+	<objective>
+		<text>Talk_to_James_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>freeman_case_done</infoportion_complete>
+		<article>case_to_freeman</article>
+	</objective>
+	<objective>
+		<text>Talk_to_James_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="James_name_gameplay">blue_location</map_location_type>
+		<object_story_id>bar_rostok_james</object_story_id>
+		<function_complete>new_dialog.freeman_case_have</function_complete>
+		<infoportion_set_complete>freeman_case_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_case_to_Freeman_gameplay_descriptions</text>
+		<map_location_type hint="Freeman_name_gameplay">blue_location</map_location_type>
+		<object_story_id>rostok_stalker</object_story_id>
+		<infoportion_complete>freeman_case_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="gavr_doc">
+	<title>Bring_documents_from_lab_X_10_to_LeHavre_gameplay_titles</title>
+	<objective>
+		<text>Find_Monolith_Lab_X_10_pick_documents_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>gavr_doc_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Monolith_Lab_X_10_pick_documents_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Monolith_name_gameplay">blue_location</map_location_type>
+		<object_story_id>radar_monolit_dead</object_story_id>
+		<function_complete>new_dialog.gavr_doc_have</function_complete>
+		<infoportion_set_complete>gavr_doc_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_documents_to_LeHavre_gameplay_descriptions</text>
+		<map_location_type hint="LeHavre_name_gameplay">blue_location</map_location_type>
+		<object_story_id>mil_trader_gavr</object_story_id>
+		<infoportion_complete>gavr_doc_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="bland_flash">
+	<title>Bring_Hoods_stick_Freeman_gameplay_titles</title>
+	<objective>
+		<text>Find_Hood_pick_up_stick_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>bland_flash_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Hood_pick_up_stick_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Blend_name_gameplay">blue_location</map_location_type>
+		<object_story_id>dark_bland</object_story_id>
+		<function_complete>new_dialog.bland_flash_have</function_complete>
+		<infoportion_set_complete>bland_flash_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_stick_to_Freeman_gameplay_descriptions</text>
+		<map_location_type hint="Freeman_name_gameplay">blue_location</map_location_type>
+		<object_story_id>rostok_stalker</object_story_id>
+		<infoportion_complete>bland_flash_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="dan_pda">
+	<title>Find_forty_PDAs_for_Dan_gameplay_titles</title>
+	<objective>
+		<text>Find_forty_PDAs_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>dan_pda_sdal</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_forty_PDAs_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>braad_test.sorok_pda</function_complete>
+		<infoportion_set_complete>dan_pda_est</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_the_PDAs_Dan_gameplay_descriptions</text>
+		<map_location_type hint="Dan_name_gameplay">blue_location</map_location_type>
+		<object_story_id>marsh_dan</object_story_id>
+		<infoportion_complete>dan_pda_sdal</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="dan_grab">
+	<title>Get_Parcel_From_Scientist_gameplay_titles</title>
+	<objective>
+		<text>Get_dan_the_parcel_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>dan_grab_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Talk_to_Arhara_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Arhara_name_gameplay">blue_location</map_location_type>
+		<object_story_id>yakut_agro</object_story_id>
+		<infoportion_complete>dan_grab_begin</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Get_parcel_from_Ivashchenko_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Ivashchenko_name_gameplay">blue_location</map_location_type>
+		<object_story_id>military_ecolog_agro1</object_story_id>
+		<function_complete>new_dialog.dan_grab_have</function_complete>
+		<infoportion_set_complete>dan_grab_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_the_parcel_Dan_gameplay_descriptions</text>
+		<map_location_type hint="Dan_name_gameplay">blue_location</map_location_type>
+		<object_story_id>marsh_dan</object_story_id>
+		<infoportion_complete>dan_grab_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="yakut_help">
+	<title>Notebook_on_subway_gameplay_titles</title>
+	<objective>
+		<text>Find_Arhara_the_notebook_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>yakut_help_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Arhara_the_notebook_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Notebook_name_gameplay">blue_location</map_location_type>
+		<object_story_id>stalker_agro_und</object_story_id>
+		<function_complete>new_dialog.yakut_help_have</function_complete>
+		<infoportion_set_complete>yakut_help_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Arhara_notebook_gameplay_descriptions</text>
+		<map_location_type hint="Arhara_name_gameplay">blue_location</map_location_type>
+		<object_story_id>yakut_agro</object_story_id>
+		<infoportion_complete>yakut_help_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="yakut_treasure">
+	<title>Laptop_for_Yakut_gameplay_titles</title>
+	<objective>
+		<text>Bring_the_laptop_Yakut_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>yakut_treasure_done</infoportion_complete>
+	</objective>
+	<!--objective>
+		<text>Get_Dan_Psi_helmet_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Dan_name_gameplay">blue_location</map_location_type>
+		<object_story_id>marsh_dan</object_story_id>
+		<infoportion_complete>dan_flash_done</infoportion_complete>
+	</objective-->
+	<objective>
+		<text>Find_laptop_Radar_near_helicopter_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Arharas_laptop_name_gameplay">crlc_big</map_location_type>
+		<object_story_id>yakut_treasure_box</object_story_id>
+		<function_complete>new_dialog.yakut_treasure_have</function_complete>
+		<infoportion_set_complete>yakut_treasure_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Yakut_laptop_Arhara_gameplay_descriptions</text>
+		<map_location_type hint="Yakut_name_gameplay">blue_location</map_location_type>
+		<object_story_id>yakut_agro2</object_story_id>
+		<infoportion_complete>yakut_treasure_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="dan_flash">
+	<title>scientist_stick_Lab_X_18_for_Dan_gameplay_titles</title>
+	<objective>
+		<text>stick_from_Lab_X_18_Dan_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>dan_flash_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Scientist_stick_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.dan_flash_have</function_complete>
+		<infoportion_set_complete>dan_flash_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_scientist_stick_Dan_gameplay_descriptions</text>
+		<map_location_type hint="Dan_name_gameplay">blue_location</map_location_type>
+		<object_story_id>marsh_dan</object_story_id>
+		<infoportion_complete>dan_flash_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="treasure_ecolog">
+	<title>Bring_Ghosts_diary_to_scientist_gameplay_titles</title>
+	<objective>
+		<text>Bring_Ghosts_diary_scientist_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>treasure_ecolog_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Ghosts_diary_in_Agroprom_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Ghosts_Diary_name_gameplay">crlc_big</map_location_type>
+		<object_story_id>prizrak_treasure_box</object_story_id>
+		<function_complete>new_dialog.treasure_ecolog_have</function_complete>
+		<infoportion_set_complete>treasure_ecolog_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Ghosts_diary_scientist_gameplay_descriptions</text>
+		<map_location_type hint="Scientist_name_gameplay">blue_location</map_location_type>
+		<object_story_id>yan_ecolog_help</object_story_id>
+		<infoportion_complete>treasure_ecolog_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="barmen_simbion">
+	<title>Get_Simbion_artifact_for_Bartender_gameplay_titles</title>
+	<objective>
+		<text>Get_Simbion_artifact_Bartender_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>barmen_simbion_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Simbion_artefact_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.barmen_simbion_have</function_complete>
+		<infoportion_set_complete>barmen_simbion_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_the_Simbion_Bartender_gameplay_descriptions</text>
+		<map_location_type hint="Bartender_name_gameplay">blue_location</map_location_type>
+		<object_story_id>bar_Barman</object_story_id>
+		<infoportion_complete>barmen_simbion_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="system_ecolog">
+	<title>Get_Laptop_for_scientist_gameplay_titles</title>
+	<objective>
+		<text>Get_Laptop_for_scientist_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>system_ecolog_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Talk_to_Arhara_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Arhara_name_gameplay">blue_location</map_location_type>
+		<object_story_id>yakut_agro</object_story_id>
+		<infoportion_complete>system_ecolog_arhara</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Laptop_for_scientist_Yantar_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.system_ecolog_have</function_complete>
+		<infoportion_set_complete>system_ecolog_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Laptop_to_scientist_gameplay_descriptions</text>
+		<map_location_type hint="Scientist_name_gameplay">blue_location</map_location_type>
+		<object_story_id>yan_ecolog_help</object_story_id>
+		<infoportion_complete>system_ecolog_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="yakut_true">
+	<title>Find_Ghost_gameplay_titles</title>
+	<objective>
+		<text>find_ghost_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_kill_stalker</icon>
+		<infoportion_complete>yakut_true_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>find_ghost_gameplay_descriptions</text>
+		<map_location_type hint="Ghost_name_gameplay">blue_location</map_location_type>
+		<object_story_id>new_prizrak</object_story_id>
+		<infoportion_complete>yakut_true_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="prizrak_zver">
+	<title>Kill_Beast_take_his_stick_gameplay_titles</title>
+	<objective>
+		<text>Bring_Beasts_stick_Ghost_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_kill_stalker</icon>
+		<infoportion_complete>prizrak_zver_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Meet_Moor_with_Ghosts_group_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Ghosts_Group_name_gameplay">blue_location</map_location_type>
+		<object_story_id>stalker_rost_sysh</object_story_id>
+		<infoportion_complete>prizrak_zver_begin</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Beast_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Beast_last_spotted_name_gameplay">blue_location</map_location_type>
+		<object_story_id>sniper_kosoi</object_story_id>
+		<function_complete>new_dialog.prizrak_zver_have</function_complete>
+		<infoportion_set_complete>prizrak_zver_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Beasts_stick_Ghost_gameplay_descriptions</text>
+		<map_location_type hint="Ghost_name_gameplay">blue_location</map_location_type>
+		<object_story_id>new_prizrak</object_story_id>
+		<infoportion_complete>prizrak_zver_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="prizrak_finalzver">
+	<title>Kill_Beast_Bring_documents_ghost_gameplay_titles</title>
+	<objective>
+		<text>Kill_east_Bring_documents_Ghost_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_kill_stalker</icon>
+		<infoportion_complete>prizrak_finalzver_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Meet_cordon_with_Ghosts_group_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Ghosts_Group_name_gameplay">blue_location</map_location_type>
+		<object_story_id>esc_tirex</object_story_id>
+		<infoportion_complete>prizrak_finalzver_begin</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Beast_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Zver_name_gameplay">blue_location</map_location_type>
+		<object_story_id>esc_zver</object_story_id>
+		<function_complete>new_dialog.prizrak_finalzver_have</function_complete>
+		<infoportion_set_complete>prizrak_finalzver_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Beasts_stick_Ghost_gameplay_descriptions</text>
+		<map_location_type hint="Ghost_name_gameplay">blue_location</map_location_type>
+		<object_story_id>new_prizrak</object_story_id>
+		<infoportion_complete>prizrak_finalzver_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="yakut_ograblen">
+	<title>Get_your_stuff_back_gameplay_titles</title>
+	<objective>
+		<text>Get_your_items_back_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>yakut_ograblen_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_alleged_robbers_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Robbers_name_gameplay">blue_location</map_location_type>
+		<object_story_id>mil_naemnik_zondr</object_story_id>
+		<function_complete>new_dialog.yakut_ograblen_have</function_complete>
+		<infoportion_set_complete>yakut_ograblen_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Talk_with_Yakut_gameplay_descriptions</text>
+		<map_location_type hint="Yakut_name_gameplay">blue_location</map_location_type>
+		<object_story_id>yakut_agro2</object_story_id>
+		<infoportion_complete>yakut_ograblen_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="treasure_sysh">
+	<title>Locate_Owls_hiding_place_Lab_X10_gameplay_titles</title>
+	<objective>
+		<text>Owls_hiding_place_in_the_Lab_X10_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>treasure_sysh_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Owls_note_Lab_X_10_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Owls_Cache_name_gameplay">crlc_big</map_location_type>
+		<object_story_id>sysh_treasure_box</object_story_id>
+		<function_complete>new_dialog.treasure_sysh_have</function_complete>
+		<infoportion_set_complete>treasure_sysh_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_owls_note_Ghost_gameplay_descriptions</text>
+		<map_location_type hint="Ghost_name_gameplay">blue_location</map_location_type>
+		<object_story_id>new_prizrak</object_story_id>
+		<infoportion_complete>treasure_sysh_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="atak_larger">
+	<title>Protect_hunters_Cordon_gameplay_titles</title>
+	<objective>
+		<text>Protect_hunters_Cordon_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_eliminate_lager</icon>
+		<infoportion_complete>atak_larger_done</infoportion_complete>
+		<infoportion_fail>neud_kvest</infoportion_fail>
+		<article>tex_atak_larger</article>
+	</objective>
+	<objective>
+		<text>Talk_to_Sepator_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<!-- ***************                <map_location_type hint="The_leader_of_the_hunters_name_gameplay">blue_location</map_location_type> *************** -->
+		<object_story_id>esc_hunter_zaschita_2</object_story_id>
+		<infoportion_complete>atak_larger_begin</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Repel_the_attackers_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>braad_test.atak_larger_have</function_complete>
+		<infoportion_set_complete>atak_larger_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Carry_bag_to_Zahar_gameplay_descriptions</text>
+		<map_location_type hint="Zahar_name_gameplay">blue_location</map_location_type>
+		<object_story_id>stalker_green_zahar</object_story_id>
+		<infoportion_complete>atak_larger_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="zahar_vstrecha">
+	<title>Talk_with_Zahar_gameplay_titles</title>
+	<objective>
+		<text>Talk_with_Zahar_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_kill_stalker</icon>
+		<infoportion_complete>zahar_vstrecha_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Talk_with_Zahar_gameplay_descriptions</text>
+		<map_location_type hint="Zahar_name_gameplay">blue_location</map_location_type>
+		<object_story_id>stalker_green_zahar</object_story_id>
+		<infoportion_complete>zahar_vstrecha_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="zahar_naemnik">
+	<title>Destroy_Mercenary_camp_Rostock_gameplay_titles</title>
+	<objective>
+		<text>Destroy_Mercenary_camp_Rostock_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_eliminate_lager</icon>
+		<infoportion_complete>zahar_naemnik_done</infoportion_complete>
+		<infoportion_fail>stalker_green_zahar_umer</infoportion_fail>
+	</objective>
+	<objective>
+		<text>Destroy_mercenaries_Rostock_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Merc_Camp_name_gameplay">crlc_big</map_location_type>
+		<object_story_id>naem_zahar1</object_story_id>
+		<function_complete>braad_test.zahar_naemnik_have</function_complete>
+		<infoportion_set_complete>zahar_naemnik_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Talk_to_Zahar_gameplay_descriptions</text>
+		<map_location_type hint="Zahar_name_gameplay">blue_location</map_location_type>
+		<object_story_id>stalker_green_zahar</object_story_id>
+		<infoportion_complete>zahar_naemnik_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="bandranen_pda">
+	<title>Find_Military_PDA_gameplay_titles</title>
+	<objective>
+		<text>Find_Military_PDA_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>prapor_talk_est</infoportion_complete>
+		<article>find_mil_pda_article</article>							<!-- 109982 -->
+	</objective>
+	<objective>
+		<text>Find_bandit_that_stole_PDA_gameplay_descriptions</text>
+		<map_location_type hint="Bandit_name_gameplay">blue_location</map_location_type>
+		<object_story_id>gar_wounded</object_story_id>
+		<infoportion_complete>bandranen_pda_est</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_gangster_and_get_PDA_gameplay_descriptions</text>
+		<infoportion_complete>prapor_talk_need</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_man_who_owns_PDA_gameplay_descriptions</text>
+		<infoportion_complete>prapor_talk_est</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="prapor_apt">
+	<title>Obtain_scientific_kits_Prapor_gameplay_titles</title>
+	<objective>
+		<text>Obtain_scientific_kits_Prapor_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>prapor_apt_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_ten_scientific_kits_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.prapor_apt_have</function_complete>
+		<infoportion_set_complete>prapor_apt_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_scientific_kits_Prapor_gameplay_descriptions</text>
+		<map_location_type hint="Prapor_name_gameplay">blue_location</map_location_type>
+		<object_story_id>gar_spot_dolg_blokpost</object_story_id>
+		<infoportion_complete>prapor_apt_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="barrem_talk">
+	<title>Fire_Tears_the_Bartender_gameplay_titles</title>
+	<objective>
+		<text>Find_Fire_Tears_artifact_for_Bartender_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_artefact</icon>
+		<infoportion_complete>barrem_talk_est</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Fire_Tears_artifact_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.barrem_talk_have</function_complete>
+		<infoportion_set_complete>barrem_talk_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Fire_Tears_to_Bartender_gameplay_descriptions</text>
+		<map_location_type hint="Bartender_name_gameplay">blue_location</map_location_type>
+		<object_story_id>bar_Barman</object_story_id>
+		<infoportion_complete>barrem_talk_est</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="ara_flash">
+	<title>Find_who_knows_of_missing_team_gameplay_titles</title>
+	<objective>
+		<text>someone_knows_of_missing_team_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_kill_stalker</icon>
+		<infoportion_complete>sah_talk_est</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Mercenary_knows_of_missing_team_gameplay_descriptions</text>
+		<infoportion_complete>ara_pda_est</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Mercenary_Sivogo_gameplay_descriptions</text>
+		<map_location_type hint="Ash_Gray_name_gameplay">crlc_big</map_location_type>
+		<object_story_id>rost_siv</object_story_id>
+		<infoportion_complete>sah_talk_need</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Talk_to_scientists_gameplay_descriptions</text>
+		<map_location_type hint="Sakharov_name_gameplay">blue_location</map_location_type>
+		<object_story_id>yan_general_ecolog</object_story_id>
+		<infoportion_complete>sah_talk_est</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="ucen_talk">
+	<title>Find_group_scientists_Lab_X10_gameplay_titles</title>
+	<objective>
+		<text>Find_group_of_scientists_Lab_X10_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_kill_stalker</icon>
+		<infoportion_complete>ucen_talk_est</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_group_of_scientists_Lab_X10_gameplay_descriptions</text>
+		<map_location_type hint="A_group_of_scientists_name_gameplay">crlc_big</map_location_type>
+		<object_story_id>ecolog_wound_bunker</object_story_id>
+		<infoportion_complete>ucen_talk_est</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="prizrak_tainiy">
+	<title>Find_engineering_plan_Burner_gameplay_titles</title>
+	<objective>
+		<text>Find_engineering_plan_Burner_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>prizrak_tainiy_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Talk_to_Freeman_gameplay_descriptions</text>
+		<map_location_type hint="Freeman_name_gameplay">blue_location</map_location_type>
+		<object_story_id>rostok_stalker</object_story_id>
+		<infoportion_complete>prizrak_tainiy_begin</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Tamaz_pick_plan_Burner_gameplay_descriptions</text>
+		<map_location_type hint="Tamaz_name_gameplay">crlc_big</map_location_type>
+		<object_story_id>tamaz_garbage</object_story_id>
+		<function_complete>new_dialog.prizrak_tainiy_have</function_complete>
+		<infoportion_set_complete>prizrak_tainiy_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Include_1_plan_Freeman_gameplay_descriptions</text>
+		<map_location_type hint="Freeman_name_gameplay">blue_location</map_location_type>
+		<object_story_id>rostok_stalker</object_story_id>
+		<infoportion_complete>prizrak_tainiy_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="gold_art">
+	<title>Find_Golden_Hunk_artifacts_Ghost_gameplay_titles</title>
+	<objective>
+		<text>Find_Golden_Hunk_artifacts_Ghost_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_artefact</icon>
+		<infoportion_complete>gold_art_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Golden_Hunk_artifacts_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.gold_art_have</function_complete>
+		<infoportion_set_complete>gold_art_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_artifacts_Golden_slice_Ghost_gameplay_descriptions</text>
+		<map_location_type hint="Ghost_name_gameplay">blue_location</map_location_type>
+		<object_story_id>new_prizrak</object_story_id>
+		<infoportion_complete>gold_art_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="tri_tainik">
+	<title>NPP2_Monolith_diarys_for_Specter_gameplay_titles</title>
+	<objective>
+		<text>Find_NPP2_Monolith_diarys_Specter_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>tri_tainik_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_diary_number_1_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Diary_1_name_gameplay">crlc_big</map_location_type>
+		<object_story_id>new_prizrak_treasure1</object_story_id>
+		<function_complete>new_dialog.tri_tainik_first</function_complete>
+		<infoportion_set_complete>tri_tainik_first</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Find_diary_number_2_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Diary_2_name_gameplay">crlc_big</map_location_type>
+		<object_story_id>new_prizrak_treasure2</object_story_id>
+		<function_complete>new_dialog.tri_tainik_second</function_complete>
+		<infoportion_set_complete>tri_tainik_second</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Find_diary_number_3_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Diary_3_name_gameplay">crlc_big</map_location_type>
+		<object_story_id>new_prizrak_treasure3</object_story_id>
+		<function_complete>new_dialog.tri_tainik_third</function_complete>
+		<infoportion_set_complete>tri_tainik_third</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Find_three_diaries_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.tri_tainik_have</function_complete>
+		<infoportion_set_complete>tri_tainik_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_three_diaries_Ghost_gameplay_descriptions</text>
+		<map_location_type hint="Ghost_name_gameplay">blue_location</map_location_type>
+		<object_story_id>new_prizrak</object_story_id>
+		<infoportion_complete>tri_tainik_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="dyak_help">
+	<title>Help_Clear_Sky_release_buddy_gameplay_titles</title>
+	<objective>
+		<text>Help_release_thier_buddy_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_kill_stalker</icon>
+		<infoportion_complete>dyak_help_done</infoportion_complete>
+		<infoportion_fail>dyak_help_fail</infoportion_fail>
+		<article>arc_dyak_help_need</article>
+	</objective>
+	<objective>
+		<text>Help_release_thier_buddy_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Captive_scout_name_gameplay">blue_location</map_location_type>
+		<object_story_id>esc_saha</object_story_id>
+		<infoportion_complete>dyak_help_have</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Report_to_Clerk_gameplay_descriptions</text>
+		<infoportion_complete>dyak_help_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="kalmyak_need">
+	<title>Procure_the_container_Kalmyk_gameplay_titles</title>
+	<objective>
+		<text>Procure_the_container_Kalmyk_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>kalmyak_need_done</infoportion_complete>
+		<infoportion_fail>kalmyak_dead</infoportion_fail>
+		<article>arc_kalmyak_need</article>
+	</objective>
+	<objective>
+		<text>Find_container_Kalmyks_backpack_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.kalmyak_need_have</function_complete>
+		<infoportion_set_complete>kalmyak_need_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Back_to_Kalmyak_gameplay_descriptions</text>
+		<map_location_type hint="Kalmyk_name_gameplay">blue_location</map_location_type>
+		<object_story_id>kalmyak</object_story_id>
+		<infoportion_complete>kalmyak_need_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="marsh_remont">
+	<title>Get_three_cans_Kalmyk_Ointment_gameplay_titles</title>
+	<objective>
+		<text>Get_three_of_Kalmyk_Ointment_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>marsh_remont_done</infoportion_complete>
+		<article>arc_marsh_remont</article>
+	</objective>
+	<objective>
+		<text>Find_three_cans_Kalmyk_Ointment_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.marsh_remont_have</function_complete>
+		<infoportion_set_complete>marsh_remont_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>three_cans_kalmyak_salve_Basil_gameplay_descriptions</text>
+		<infoportion_complete>marsh_remont_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="dyak_maz">
+	<title>Get_Clerk_Soul_gameplay_titles</title>
+	<objective>
+		<text>Get_Clerk_Soul_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>dyak_maz_done</infoportion_complete>
+		<infoportion_fail>dyak_dead</infoportion_fail>
+		<article>arc_dyak_maz</article>
+	</objective>
+	<objective>
+		<text>Find_Clerk_Soul_artifact_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.dyak_maz_have</function_complete>
+		<infoportion_set_complete>dyak_maz_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Soul_artifact_Clerk_gameplay_descriptions</text>
+		<infoportion_complete>dyak_maz_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="controller_hutor">
+	<title>Bring_Sviblov_brain_of_controller_gameplay_titles</title>
+	<objective>
+		<text>Bring_Sviblov_the_brain_controller_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_monster_part</icon>
+		<infoportion_complete>controller_hutor_done</infoportion_complete>
+		<article>arc_controller_hutor</article>
+	</objective>
+	<objective>
+		<text>Bring_Sviblov_the_brain_controller_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.controller_hutor_have</function_complete>
+		<infoportion_set_complete>controller_hutor_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_the_brain_Sviblov_gameplay_descriptions</text>
+		<map_location_type hint="Sviblov_name_gameplay">blue_location</map_location_type>
+		<object_story_id>clear_scy_leader</object_story_id>
+		<infoportion_complete>controller_hutor_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="sveeblov_ferma">
+	<title>Sviblova_PKM_machine_guns_gameplay_titles</title>
+	<objective>
+		<text>Sviblov_PKM_machine_guns_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_weapons</icon>
+		<infoportion_complete>sveeblov_ferma_done</infoportion_complete>
+		<infoportion_fail>sveeblov_ferma_fail</infoportion_fail>
+		<article>arc_sveeblov_ferma</article>
+	</objective>
+	<objective>
+		<text>Talk_Clear_Sky_scout_Kashcheev_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<infoportion_complete>sveeblov_ferma_begin</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Sneak_and_Steal_guns_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.sveeblov_ferma_have</function_complete>
+		<infoportion_set_complete>sveeblov_ferma_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_the_guns_Sviblov_gameplay_descriptions</text>
+		<map_location_type hint="Sviblov_name_gameplay">blue_location</map_location_type>
+		<object_story_id>clear_scy_leader</object_story_id>
+		<infoportion_complete>sveeblov_ferma_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="kot_need_doc">
+	<title>Find_map_the_dead_Monolith_gameplay_titles</title>
+	<objective>
+		<text>Find_map_of_the_dead_Monolith_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_find_item</icon>
+		<infoportion_complete>kot_need_doc_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_the_map_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.kot_need_doc_have</function_complete>
+		<infoportion_set_complete>kot_need_doc_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_the_map_Cat_gameplay_descriptions</text>
+		<map_location_type hint="Cat_name_gameplay">blue_location</map_location_type>
+		<object_story_id>kot</object_story_id>
+		<infoportion_complete>kot_need_doc_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="kot_need_next">
+	<title>Find_the_remaining_Monolith_gameplay_titles</title>
+	<objective>
+		<text>Find_Monolith_Cat_needs_notebooks_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_find_item</icon>
+		<infoportion_complete>kot_need_next_done</infoportion_complete>
+		<article>arc_kot_need_next</article>
+	</objective>
+	<objective>
+		<text>Find_Monolith_and_their_notepads_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.kot_need_next_have</function_complete>
+		<infoportion_set_complete>kot_need_next_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_notebook_Cat_gameplay_descriptions</text>
+		<map_location_type hint="Cat_name_gameplay">blue_location</map_location_type>
+		<object_story_id>kot</object_story_id>
+		<infoportion_complete>kot_need_next_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="need_televizor">
+	<title>Get_Chiston_TV_gameplay_titles</title>
+	<objective>
+		<text>Get_Chiston_a_TV_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_find_item</icon>
+		<infoportion_complete>need_televizor_done</infoportion_complete>
+		<article>arc_need_televizor</article>
+	</objective>
+	<objective>
+		<text>Find_Television_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.need_televizor_have</function_complete>
+		<infoportion_set_complete>need_televizor_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_TV_Chiston_gameplay_descriptions</text>
+		<infoportion_complete>need_televizor_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="gigant_red">
+	<title>Put_mark_on_Red_Pseudogiant_gameplay_titles</title>
+	<objective>
+		<text>Put_mark_on_Red_Pseudogiant_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_mutant</icon>
+		<infoportion_complete>gigant_red_done</infoportion_complete>
+		<infoportion_fail>gigant_red_strong1_dead</infoportion_fail>
+		<article>arc_gigant_red</article>
+	</objective>
+	<objective>
+		<text>Find_mutant_put_label_it_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<infoportion_complete>gigant_red_strong1_hit</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Go_back_to_Cold_gameplay_descriptions</text>
+		<infoportion_complete>gigant_red_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="borman_sniper">
+	<title>Eliminate_the_Monolith_sniper_gameplay_titles</title>
+	<objective>
+		<text>Eliminate_Monolith_sniper_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_kill_stalker</icon>
+		<infoportion_complete>borman_sniper_done</infoportion_complete>
+		<article>arc_borman_sniper</article>
+	</objective>
+	<objective>
+		<text>Find_and_eliminate_sniper_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<infoportion_complete>borman_sniper_have</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Back_to_Borman for_reward_gameplay_descriptions</text>
+		<map_location_type hint="Borman_name_gameplay">blue_location</map_location_type>
+		<object_story_id>borman</object_story_id>
+		<infoportion_complete>borman_sniper_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="borman_glushitel">
+	<title>Help_Borman_with_silencer_gameplay_titles</title>
+	<objective>
+		<text>Help_Borman_jam_Radio_Liberty_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_technique</icon>
+		<infoportion_complete>borman_glushitel_done</infoportion_complete>
+		<article>arc_borman_glushitel</article>
+	</objective>
+	<objective>
+		<text>Find_silencer_signal_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.borman_glushitel_begin</function_complete>
+		<infoportion_set_complete>borman_glushitel_begin</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_silencer_Miser_conversion_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Miser_name_gameplay">blue_location</map_location_type>
+		<object_story_id>Mil_Miser</object_story_id>
+		<infoportion_complete>borman_glushitel_next</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Put_silencer_back_where_found_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<infoportion_complete>borman_glushitel_have</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Return_to_Borman_gameplay_descriptions</text>
+		<map_location_type hint="Borman_name_gameplay">blue_location</map_location_type>
+		<object_story_id>borman</object_story_id>
+		<infoportion_complete>borman_glushitel_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="kot_kalmyak_lekar">
+	<title>Get_some_medicine_Cat_gameplay_titles</title>
+	<objective>
+		<text>Get_some_medicine_Cat_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_deficit</icon>
+		<infoportion_complete>kot_kalmyak_lekar_done</infoportion_complete>
+		<infoportion_fail>kalmyak_dead</infoportion_fail>
+	</objective>
+	<objective>
+		<text>Get_medication_from_Kalmyak_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<map_location_type hint="Kalmyk_name_gameplay">blue_location</map_location_type>
+		<object_story_id>kalmyak</object_story_id>
+		<infoportion_complete>kot_kalmyak_lekar_have</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Bring_medicine_Cat_gameplay_descriptions</text>
+		<map_location_type hint="Cat_name_gameplay">blue_location</map_location_type>
+		<object_story_id>bkot</object_story_id>
+		<infoportion_complete>kot_kalmyak_lekar_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="kalmyak_lekar">
+	<title>Get_Night_Star_ten_Snork_feet_Kalmyak_gameplay_titles</title>
+	<objective>
+		<text>Get_ingredients_Kalmyak_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_artefact</icon>
+		<infoportion_complete>kot_kalmyak_lekar_est</infoportion_complete>
+		<infoportion_fail>kalmyak_dead</infoportion_fail>
+	</objective>
+	<objective>
+		<text>Find_ingredients_Kalmyak_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.kot_kalmyak_lekar_next</function_complete>
+		<infoportion_set_complete>kot_kalmyak_lekar_next</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Kalmyak_ingredients_gameplay_descriptions</text>
+		<map_location_type hint="Kalmyk_name_gameplay">blue_location</map_location_type>
+		<object_story_id>kalmyak</object_story_id>
+		<infoportion_complete>kot_kalmyak_lekar_est</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="kot_holod_lekar">
+	<title>Get_some_medicine_Cat_gameplay_titles</title>
+	<objective>
+		<text>Get_some_medicine_Cat_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_deficit</icon>
+		<infoportion_complete>kot_holod_lekar_done</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Get_medication_Cold_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<infoportion_complete>kot_holod_lekar_have</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Bring_medicine_Cat_gameplay_descriptions</text>
+		<map_location_type hint="Cat_name_gameplay">blue_location</map_location_type>
+		<object_story_id>bkot</object_story_id>
+		<infoportion_complete>kot_holod_lekar_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="holod_lekar">
+	<title>Get_Cold_Simbion_artifact_gameplay_titles</title>
+	<objective>
+		<text>Get_Cold_Simbion_artifact_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_artefact</icon>
+		<infoportion_complete>kot_holod_lekar_est</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_Simbion_artifact_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.kot_holod_lekar_next</function_complete>
+		<infoportion_set_complete>kot_holod_lekar_next</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_the_artifact_gameplay_descriptions</text>
+		<infoportion_complete>kot_holod_lekar_est</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="xalyava_nebo">
+	<title>Recon_Freebie_Mercs_gameplay_titles</title>
+	<objective>
+		<text>Recon_Freebie_and_Mercs_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_grouping</icon>
+		<infoportion_complete>xalyava_nebo_done</infoportion_complete>
+		<infoportion_fail>xalyava_nebo_fail</infoportion_fail>
+		<article>arc_xalyava_nebo</article>
+	</objective>
+	<objective>
+		<text>Recon_the_transaction_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.xalyava_nebo_have</function_complete>
+		<infoportion_set_complete>xalyava_nebo_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Back_to_Sviblov_gameplay_descriptions</text>
+		<map_location_type hint="Sviblov_name_gameplay">blue_location</map_location_type>
+		<object_story_id>clear_scy_leader</object_story_id>
+		<infoportion_complete>xalyava_nebo_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="kot_agro_mono">
+	<title>Get_info_from_Monolith_gameplay_titles</title>
+	<objective>
+		<text>Get_info_from_Monolith_Cat_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_grouping</icon>
+		<infoportion_complete>kot_agro_mono_done</infoportion_complete>
+		<infoportion_fail>kot_agro_mono_fail</infoportion_fail>
+		<article>arc_kot_agro_mono</article>
+	</objective>
+	<objective>
+		<text>Find_the_group_Monolith_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<infoportion_complete>kot_agro_mono_have</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Back_to_Cat_gameplay_descriptions</text>
+		<map_location_type hint="Cat_name_gameplay">blue_location</map_location_type>
+		<object_story_id>bkot</object_story_id>
+		<infoportion_complete>kot_agro_mono_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="brat_luis">
+	<title>Find_Brother_Louis_swamp_gameplay_titles</title>
+	<objective>
+		<text>Find_Brother_Louis_swamp_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_grouping</icon>
+		<infoportion_complete>brat_luis_have</infoportion_complete>
+		<article>arc_brat_luis</article>
+	</objective>
+	<objective>
+		<text>Find_Brother_Louis_swamp_gameplay_descriptions</text>
+		<infoportion_complete>brat_luis_have</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="francuz_start">
+	<title>Find_Frenchman_army_warehouses_gameplay_titles</title>
+	<objective>
+		<text>Find the Frenchman in army warehouses</text>
+		<icon>ui_iconsTotal_grouping</icon>
+		<infoportion_complete>francuz_done</infoportion_complete>
+		<article>arc_francuz_start</article>
+	</objective>
+	<objective>
+		<text>Find_Frenchman_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.francuz_have</function_complete>
+		<infoportion_set_complete>francuz_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Back_to_Zahar_gameplay_descriptions</text>
+		<map_location_type hint="Zahar_name_gameplay">blue_location</map_location_type>
+		<object_story_id>stalker_green_zahar</object_story_id>
+		<infoportion_complete>francuz_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="kot_find_rabi">
+	<title>Find_Dealer_Rabinowitz_gameplay_titles</title>
+	<objective>
+		<text>Find_Dealer_Rabinowitz_gameplay_descriptions</text>
+		<icon>ui_iconsNpc_trader</icon>
+		<infoportion_complete>kot_find_rabi_done</infoportion_complete>
+		<article>arc_kot_find_rabi</article>
+	</objective>
+	<objective>
+		<text>Find_Rabinowitz_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<infoportion_complete>kot_find_rabi_have</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Back_to_Cat_gameplay_descriptions</text>
+		<map_location_type hint="Cat_name_gameplay">blue_location</map_location_type>
+		<object_story_id>bkot</object_story_id>
+		<infoportion_complete>kot_find_rabi_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="kurier_first">
+	<title>Meet_Sviblov_gameplay_titles</title>
+	<objective>
+		<text>Meet_Sviblov_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_locations</icon>
+		<infoportion_complete>nebo_kurier_second</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Meet_Sviblov_gameplay_descriptions</text>
+		<map_location_type hint="Sviblov_name_gameplay">blue_location</map_location_type>
+		<object_story_id>clear_scy_leader</object_story_id>
+		<infoportion_complete>nebo_kurier_second</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="nebo_kurier">
+	<title>Find_the_courier_radar_gameplay_titles</title>
+	<objective>
+		<text>Find_courier_in_radar_gameplay_descriptions</text>
+		<icon>ui_iconsNpc_stalker_neytral_balon_1</icon>
+		<infoportion_complete>nebo_kurier_done</infoportion_complete>
+		<article>arc_nebo_kurier</article>
+	</objective>
+	<objective>
+		<text>Find_courier_in_radar_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<infoportion_complete>nebo_kurier_have</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Back_to_Sviblov_gameplay_descriptions</text>
+		<map_location_type hint="Sviblov_name_gameplay">blue_location</map_location_type>
+		<object_story_id>clear_scy_leader</object_story_id>
+		<infoportion_complete>nebo_kurier_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="doc_need">
+	<title>Classify_Case_courier_Sakharov_gameplay_titles</title>
+	<objective>
+		<text>Classify_Case_courier_Sakharov_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_yan_scientist_job</icon>
+		<infoportion_complete>nebo_kurier_doc_est</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Classify_Case_courier_Sakharov_gameplay_descriptions</text>
+		<map_location_type hint="Sakharov_name_gameplay">blue_location</map_location_type>
+		<object_story_id>yan_general_ecolog</object_story_id>
+		<infoportion_complete>nebo_kurier_doc_est</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="shadowman_zver">
+	<title>Help_stalkers_Red_Forest_gameplay_titles</title>
+	<objective>
+		<text>fight_off_monster_swarm_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_defend_lager</icon>
+		<infoportion_complete>shadowman_zver_done</infoportion_complete>
+		<infoportion_fail>shadowman_zver_fail</infoportion_fail>
+		<article>arc_shadowman_zver</article>
+	</objective>
+	<objective>
+		<text>Help_stalkers_fight_off_monsters_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.shadowman_zver_have</function_complete>
+		<infoportion_set_complete>shadowman_zver_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Talk_to_Shadowman_gameplay_descriptions</text>
+		<map_location_type hint="Shadowman_name_gameplay">blue_location</map_location_type>
+		<object_story_id>shadowman</object_story_id>
+		<infoportion_complete>shadowman_zver_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="shadowman_forest">
+	<title>Help_stalkers_seize_bridge_Red_Forest_gameplay_titles</title>
+	<objective>
+		<text>Help_stalkers_seize_bridge_Red_Forest_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_eliminate_lager</icon>
+		<infoportion_complete>shadowman_forest_done</infoportion_complete>
+		<article>arc_shadowman_forest</article>
+	</objective>
+	<objective>
+		<text>Help_stalkers_seize_bridge_Red_Forest_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<infoportion_complete>shadowman_forest_have</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Talk_with_Shadowman_gameplay_descriptions</text>
+		<map_location_type hint="Shadowman_name_gameplay">blue_location</map_location_type>
+		<object_story_id>shadowman</object_story_id>
+		<infoportion_complete>shadowman_forest_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="klyak_forest_doc">
+	<title>Find_documents_Red_Forest_for_Fang_gameplay_titles</title>
+	<objective>
+		<text>Find_documents_Red_Forest_Fang_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>klyak_forest_doc_done</infoportion_complete>
+		<article>arc_klyak_forest_doc</article>
+	</objective>
+	<objective>
+		<text>Find_documents_Red_Forest_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<function_complete>new_dialog.klyak_forest_doc_have</function_complete>
+		<infoportion_set_complete>klyak_forest_doc_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Return_the_documents_Fang_gameplay_descriptions</text>
+		<infoportion_complete>klyak_forest_doc_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="dead_sms_sidor">
+	<title>Talk_to_Sidorovich_gameplay_titles</title>
+	<objective>
+		<text>Talk_to_Sidorovich_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_esc_trader_job</icon>
+		<infoportion_complete>mitya_dead_sms_sidor_est</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Talk_to_Sidorovich_gameplay_descriptions</text>
+		<map_location_type hint="Sidorovich_name_gameplay">blue_location</map_location_type>
+		<object_story_id>Escape_Trader</object_story_id>
+		<infoportion_complete>mitya_dead_sms_sidor_est</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="denis_wound">
+	<title>Help_Dennis_Red_Forest_gameplay_titles</title>
+	<objective>
+		<text>Help_Dennis_Red_Forest_gameplay_descriptions</text>
+		<icon>ui_iconsNpc_stalker_neytral_rukzak_4</icon>
+		<infoportion_complete>denis_wound_done</infoportion_complete>
+		<infoportion_fail>denis_wound_fail</infoportion_fail>
+		<article>arc_denis_wound</article>
+	</objective>
+	<objective>
+		<text>Find_Denis_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<infoportion_complete>denis_wound_have</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Help_Dennis_withdraw_safe_place_gameplay_descriptions</text>
+		<icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
+		<infoportion_complete>denis_wound_next</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Back_to_Fang_in_Bar_gameplay_descriptions</text>
+		<infoportion_complete>denis_wound_done</infoportion_complete>
+	</objective>
+</game_task>
+<!-- ***************  !!!!TB3D    new in 134 *************** -->
+<game_task id="syslov_items_quest">
+	<title>Get_the_necessary_gear_gameplay_titles</title>
+	<objective>
+		<text>Get_necessary_gear_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_food</icon>
+		<map_location_type hint="Syslov_name_gameplay">blue_location</map_location_type>
+		<object_story_id>syslov</object_story_id>
+		<infoportion_complete>syslov_shadows_cube_off</infoportion_complete>
+		<article>syslov_items_quest_opisanie</article>
+	</objective>
+	<objective>
+		<text>Find_necessary_gear_gameplay_descriptions</text>
+		<function_complete>dmx_mod.shadows_cube_prov_check</function_complete>
+	</objective>
+	<objective>
+		<text>Give_the_gear_Syslov_gameplay_descriptions</text>
+		<map_location_type hint="Syslov_name_gameplay">blue_location</map_location_type>
+		<object_story_id>syslov</object_story_id>
+		<infoportion_complete>syslov_shadows_cube_off</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="cop_prip_info_lab">
+	<title>information_on_the_laboratory_gameplay_titles</title>
+	<objective>
+		<text>Find_information_on_laboratory_gameplay_descriptions</text>
+		<function_complete>dmx_mod.dmx_pripyat_map_have</function_complete>
+		<icon>ui_iconsTotal_cop_doc</icon>
+		<article>cop_prip_info_lab_opisanie</article>
+	</objective>
+	<objective>
+		<text>Explore_the_hospital_area_gameplay_descriptions</text>
+		<function_complete>dmx_mod.dmx_pripyat_map_have</function_complete>
+		<function_call_complete>dmx_mod.next_labx8</function_call_complete>
+	</objective>
+</game_task>
+<game_task id="cop_prip_instr_quest">
+	<title>Find_tools_East_Pripyat_gameplay_titles</title>
+	<objective>
+		<text>Find_the_tools_East_Pripyat_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_cop_instr</icon>
+		<map_location_type hint="Sage_name_gameplay">blue_location</map_location_type>
+		<object_story_id>mudri</object_story_id>
+		<infoportion_complete>mudrec_instruments_otdal</infoportion_complete>
+		<article>cop_prip_instr_quest_opisanie</article>
+	</objective>
+	<objective>
+		<text>Search_for_tools_gameplay_descriptions</text>
+		<function_complete>dmx_mod.cop_pripyat_instruments_have</function_complete>
+		<infoportion_set_complete>cop_instruments_vzal</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_instruments_Sage_gameplay_descriptions</text>
+		<map_location_type hint="Sage_name_gameplay">blue_location</map_location_type>
+		<object_story_id>mudri</object_story_id>
+		<infoportion_complete>mudrec_instruments_otdal</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="soulcube_quest" prio="500">
+	<title>Find_Cube_Shadows_gameplay_titles</title>
+	<objective>
+		<text>Find_Cube_for_Shadows_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_cube_quest</icon>
+		<map_location_type hint="Shadows_name_gameplay">blue_location</map_location_type>
+		<object_story_id>shadows</object_story_id>
+		<infoportion_complete>shadows_final_cube</infoportion_complete>
+		<article>soulcube_quest_opisanie</article>
+	</objective>
+	<objective>
+		<text>Find_Cube_gameplay_descriptions</text>
+		<function_complete>dmx_mod.wpn_soulcube_have</function_complete>
+		<function_call_complete>dmx_mod.labx8_cube_take</function_call_complete>
+		<infoportion_set_complete>wpn_soulcube_vzal</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Back_to_Shadows_gameplay_descriptions</text>
+		<map_location_type hint="Shadows_name_gameplay">blue_location</map_location_type>
+		<object_story_id>shadows</object_story_id>
+		<infoportion_complete>shadows_final_cube</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="outfit_blockpost_quest">
+	<title>Find_armor_Beryl5M_gameplay_titles</title>
+	<objective>
+		<text>Find_armor_Beryl5M_gameplay_descriptions</text>
+		<map_location_type hint="Sidorovich_name_gameplay">blue_location</map_location_type>
+		<object_story_id>Escape_Trader</object_story_id>
+		<infoportion_complete>dmx_escape_blockpost_case</infoportion_complete>	<!-- 110017 escape_blockpost_case - aleks1970 -->
+		<icon>ui_iconsTotal_find_item</icon>
+		<article>outfit_blockpost_quest_opisanie</article>
+	</objective>
+	<objective>
+		<text>Find_armor_gameplay_descriptions</text>
+		<function_complete>dmx_mod.specops_outfit_have</function_complete>
+		<infoportion_set_complete>specops_outfit_have_info</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Back_to_Sidorovich_gameplay_descriptions</text>
+		<map_location_type hint="Sidorovich_name_gameplay">blue_location</map_location_type>
+		<object_story_id>Escape_Trader</object_story_id>
+		<infoportion_complete>dmx_escape_blockpost_case</infoportion_complete>	<!-- 110017 escape_blockpost_case - aleks1970 -->
+	</objective>
+</game_task>

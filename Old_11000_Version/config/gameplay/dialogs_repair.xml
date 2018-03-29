@@ -1,0 +1,1192 @@
+<!-- ************ TB3D 1.1.0.0.1.3, 134  AMK2 unverifiable, trader_repair_precond*************** -->
+<game_dialogs>
+	<!-- ***************Sidorovich  with complicated. repair logs*************** -->
+	<dialog id="release_repair_weapon">
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<precondition>repair_check.can_give_weapon</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>release_repair_weapon_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>release_repair_weapon_1</text>
+				<action>repair_check.give_weapon_to_player</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="escape_trader_repair">
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<precondition>repair_check.trader_repair_precond</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>escape_trader_repair_0</text>
+				<give_info>all_tabl_stvol</give_info>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>escape_trader_repair_1</text>
+				<action>repair_check.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>21</next>
+				<next>31</next>
+				<!-- ***************<next>4</next>*************** -->
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<precondition>repair_check.trader_check_money_s1</precondition>
+				<text>escape_trader_repair_2</text>
+				<action>repair_check.trader_repiar_weapon_s1</action>
+				<next>6</next>
+				<next>62</next>
+				<next>63</next>
+				<next>64</next>
+				<next>65</next>
+				<next>66</next>
+			</phrase>
+			<phrase id="21">
+				<precondition>repair_check.check_damaged1</precondition>
+				<text>escape_trader_repair_21</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="3">
+				<precondition>repair_check.trader_check_money_s2</precondition>
+				<text>escape_trader_repair_3</text>
+				<action>repair_check.trader_repiar_weapon_s2</action>
+				<next>6</next>
+				<next>62</next>
+				<next>63</next>
+				<next>64</next>
+				<next>65</next>
+				<next>66</next>
+			</phrase>
+			<phrase id="31">
+				<precondition>repair_check.check_damaged2</precondition>
+				<text>escape_trader_repair_31</text>
+				<next>14</next>
+				<!-- ***************</phrase>
+<phrase id="4">
+<precondition>repair_check.trader_check_money_s6</precondition>
+<text>escape_trader_repair_4</text>
+<action>repair_check.trader_repiar_armor_s6</action>
+<next>7</next>*************** -->
+			</phrase>
+			<phrase id="5">
+				<text>escape_trader_repair_5</text>
+			</phrase>
+			<phrase id="6">
+				<precondition>repair_check.show_timer1</precondition>
+				<text>escape_trader_repair_6</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="62">
+				<precondition>repair_check.show_timer2</precondition>
+				<text>escape_trader_repair_62</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="63">
+				<precondition>repair_check.show_timer3</precondition>
+				<text>escape_trader_repair_63</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="64">
+				<precondition>repair_check.show_timer4</precondition>
+				<text>escape_trader_repair_64</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="65">
+				<precondition>repair_check.show_timer5</precondition>
+				<text>escape_trader_repair_65</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="66">
+				<precondition>repair_check.show_timer6</precondition>
+				<text>escape_trader_repair_66</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<!-- ***************<phrase id="7">
+<text>escape_trader_repair_7</text>
+<next>9</next>
+<next>10</next>
+</phrase>*************** -->
+			<phrase id="8">
+				<text>escape_trader_repair_8</text>
+			</phrase>
+			<phrase id="9">
+				<text>escape_trader_repair_9</text>
+			</phrase>
+			<phrase id="10">
+				<precondition>repair_check.trader_repair_precond</precondition>
+				<text>escape_trader_repair_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>escape_trader_repair_11</text>
+				<action>repair_check.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>21</next>
+				<next>31</next>
+				<!-- ***************<next>4</next>*************** -->
+				<next>5</next>
+			</phrase>
+			<phrase id="12">
+				<text>escape_trader_repair_12</text>
+			</phrase>
+			<phrase id="13">
+				<text>escape_trader_repair_13</text>
+				<action>repair_check.pay_damaged1</action>
+				<next>10</next>
+				<next>12</next>
+			</phrase>
+			<phrase id="14">
+				<text>escape_trader_repair_14</text>
+				<action>repair_check.pay_damaged2</action>
+				<next>10</next>
+				<next>12</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- *************** Vasili complicated. repairing shafts and a normal repair armor*************** -->
+	<dialog id="finish_repair_weapon">
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<precondition>repair_check.can_give_weapon</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>finish_repair_weapon_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>finish_repair_weapon_1</text>
+				<action>repair_check.give_weapon_to_player</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="march_trader_repair">
+		<!-- *************** !!!!TB3D 134 *************** -->
+		<has_info>marsh_remont_done</has_info>
+		<precondition>repair_check.trader_repair_precond</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>march_trader_repair_0</text>
+				<give_info>all_tabl_stvol</give_info>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>march_trader_repair_1</text>
+				<action>repair_check.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>21</next>
+				<next>31</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<precondition>repair_check.trader_check_money_s1</precondition>
+				<text>march_trader_repair_2</text>
+				<action>repair_check.trader_repiar_weapon_s1</action>
+				<next>6</next>
+				<next>62</next>
+				<next>63</next>
+				<next>64</next>
+				<next>65</next>
+				<next>66</next>
+			</phrase>
+			<phrase id="21">
+				<precondition>repair_check.check_damaged1</precondition>
+				<text>march_trader_repair_21</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="3">
+				<precondition>repair_check.trader_check_money_s2</precondition>
+				<text>march_trader_repair_3</text>
+				<action>repair_check.trader_repiar_weapon_s2</action>
+				<next>6</next>
+				<next>62</next>
+				<next>63</next>
+				<next>64</next>
+				<next>65</next>
+				<next>66</next>
+			</phrase>
+			<phrase id="31">
+				<precondition>repair_check.check_damaged2</precondition>
+				<text>march_trader_repair_31</text>
+				<next>14</next>
+			</phrase>
+			<phrase id="4">
+				<precondition>repair_check.trader_check_money_s6</precondition>
+				<text>march_trader_repair_4</text>
+				<action>repair_check.trader_repiar_armor_s6</action>
+				<next>7</next>
+				<next>71</next>
+				<next>72</next>
+				<next>73</next>
+				<next>74</next>
+				<next>75</next>
+			</phrase>
+			<phrase id="5">
+				<text>march_trader_repair_5</text>
+			</phrase>
+			<phrase id="6">
+				<precondition>repair_check.show_timer1</precondition>
+				<text>march_trader_repair_6</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="62">
+				<precondition>repair_check.show_timer2</precondition>
+				<text>march_trader_repair_62</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="63">
+				<precondition>repair_check.show_timer3</precondition>
+				<text>march_trader_repair_63</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="64">
+				<precondition>repair_check.show_timer4</precondition>
+				<text>march_trader_repair_64</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="65">
+				<precondition>repair_check.show_timer5</precondition>
+				<text>march_trader_repair_65</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="66">
+				<precondition>repair_check.show_timer6</precondition>
+				<text>march_trader_repair_66</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="7">
+				<precondition>repair_check.show_timer_b1</precondition>
+				<text>march_trader_repair_7</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="71">
+				<precondition>repair_check.show_timer5</precondition>
+				<text>march_trader_repair_71</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="72">
+				<precondition>repair_check.show_timer_u5</precondition>
+				<text>march_trader_repair_72</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="73">
+				<precondition>repair_check.show_timer_b4</precondition>
+				<text>march_trader_repair_73</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="74">
+				<precondition>repair_check.show_timer_b5</precondition>
+				<text>march_trader_repair_74</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="75">
+				<precondition>repair_check.show_timer_b6</precondition>
+				<text>march_trader_repair_75</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="8">
+				<text>march_trader_repair_8</text>
+			</phrase>
+			<phrase id="81">
+				<text>march_trader_repair_81</text>
+			</phrase>
+			<phrase id="9">
+				<text>march_trader_repair_9</text>
+			</phrase>
+			<phrase id="10">
+				<precondition>repair_check.trader_repair_precond</precondition>
+				<text>march_trader_repair_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>march_trader_repair_11</text>
+				<action>repair_check.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>21</next>
+				<next>31</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="12">
+				<text>march_trader_repair_12</text>
+			</phrase>
+			<phrase id="13">
+				<text>march_trader_repair_13</text>
+				<action>repair_check.pay_damaged1</action>
+				<next>10</next>
+				<next>12</next>
+			</phrase>
+			<phrase id="14">
+				<text>march_trader_repair_14</text>
+				<action>repair_check.pay_damaged2</action>
+				<next>10</next>
+				<next>12</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- *************** The lanky with complicated. repairing shafts and a normal repair armor*************** -->
+	<dialog id="final_repair_weap">
+		<precondition>repair_check.can_give_weapon</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>final_repair_weap_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>final_repair_weap_1</text>
+				<action>repair_check.give_weapon_to_player</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="dlinnuy_repair">
+		<precondition>repair_check.trader_repair_precond</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>dlinnuy_repair_0</text>
+				<give_info>all_tabl_stvol</give_info>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>dlinnuy_repair_1</text>
+				<action>repair_check.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>21</next>
+				<next>31</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<precondition>repair_check.trader_check_money_s1</precondition>
+				<text>dlinnuy_repair_2</text>
+				<action>repair_check.trader_repiar_weapon_s1</action>
+				<next>6</next>
+				<next>62</next>
+				<next>63</next>
+				<next>64</next>
+				<next>65</next>
+				<next>66</next>
+				<next>660</next>
+				<next>661</next>
+				<next>662</next>
+				<next>663</next>
+				<next>664</next>
+				<next>665</next>
+			</phrase>
+			<phrase id="21">
+				<precondition>repair_check.check_damaged1</precondition>
+				<text>dlinnuy_repair_21</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="3">
+				<precondition>repair_check.trader_check_money_s2</precondition>
+				<text>dlinnuy_repair_3</text>
+				<action>repair_check.trader_repiar_weapon_s2</action>
+				<next>6</next>
+				<next>62</next>
+				<next>63</next>
+				<next>64</next>
+				<next>65</next>
+				<next>66</next>
+				<next>660</next>
+				<next>661</next>
+				<next>662</next>
+				<next>663</next>
+				<next>664</next>
+				<next>665</next>
+			</phrase>
+			<phrase id="31">
+				<precondition>repair_check.check_damaged2</precondition>
+				<text>dlinnuy_repair_31</text>
+				<next>14</next>
+			</phrase>
+			<phrase id="4">
+				<precondition>repair_check.trader_check_money_s6</precondition>
+				<text>dlinnuy_repair_4</text>
+				<action>repair_check.trader_repiar_armor_s6</action>
+				<next>7</next>
+				<next>71</next>
+				<next>72</next>
+				<next>73</next>
+				<next>74</next>
+				<next>75</next>
+			</phrase>
+			<phrase id="5">
+				<text>dlinnuy_repair_5</text>
+			</phrase>
+			<phrase id="6">
+				<precondition>repair_check.show_timer1</precondition>
+				<text>dlinnuy_repair_6</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="62">
+				<precondition>repair_check.show_timer2</precondition>
+				<text>dlinnuy_repair_62</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="63">
+				<precondition>repair_check.show_timer3</precondition>
+				<text>dlinnuy_repair_63</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="64">
+				<precondition>repair_check.show_timer4</precondition>
+				<text>dlinnuy_repair_64</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="65">
+				<precondition>repair_check.show_timer5</precondition>
+				<text>dlinnuy_repair_65</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="66">
+				<precondition>repair_check.show_timer6</precondition>
+				<text>dlinnuy_repair_66</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="660">
+				<precondition>repair_check.show_timer_u1</precondition>
+				<text>dlinnuy_repair_660</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="661">
+				<precondition>repair_check.show_timer_u2</precondition>
+				<text>dlinnuy_repair_661</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="662">
+				<precondition>repair_check.show_timer_u3</precondition>
+				<text>dlinnuy_repair_662</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="663">
+				<precondition>repair_check.show_timer_u4</precondition>
+				<text>dlinnuy_repair_663</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="664">
+				<precondition>repair_check.show_timer_u5</precondition>
+				<text>dlinnuy_repair_664</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="665">
+				<precondition>repair_check.show_timer_u6</precondition>
+				<text>dlinnuy_repair_665</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="7">
+				<precondition>repair_check.show_timer_b1</precondition>
+				<text>march_trader_repair_7</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="71">
+				<precondition>repair_check.show_timer5</precondition>
+				<text>march_trader_repair_71</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="72">
+				<precondition>repair_check.show_timer_u5</precondition>
+				<text>march_trader_repair_72</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="73">
+				<precondition>repair_check.show_timer_b4</precondition>
+				<text>march_trader_repair_73</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="74">
+				<precondition>repair_check.show_timer_b5</precondition>
+				<text>march_trader_repair_74</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="75">
+				<precondition>repair_check.show_timer_b6</precondition>
+				<text>march_trader_repair_75</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="8">
+				<text>dlinnuy_repair_8</text>
+			</phrase>
+			<phrase id="81">
+				<text>dlinnuy_repair_81</text>
+			</phrase>
+			<phrase id="9">
+				<text>dlinnuy_repair_9</text>
+			</phrase>
+			<phrase id="10">
+				<precondition>repair_check.trader_repair_precond</precondition>
+				<text>dlinnuy_repair_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>dlinnuy_repair_11</text>
+				<action>repair_check.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>21</next>
+				<next>31</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="12">
+				<text>dlinnuy_repair_12</text>
+			</phrase>
+			<phrase id="13">
+				<text>dlinnuy_repair_13</text>
+				<action>repair_check.pay_damaged1</action>
+				<next>10</next>
+				<next>12</next>
+			</phrase>
+			<phrase id="14">
+				<text>dlinnuy_repair_14</text>
+				<action>repair_check.pay_damaged2</action>
+				<next>10</next>
+				<next>12</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- *************** Lanky the upgrade logs *************** -->
+	<dialog id="dlinnuy_upgrade">
+		<precondition>repair_check.trader_upgrade_precond</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>dlinnuy_upgrade_0</text>
+				<give_info>all_tabl_upgrade</give_info>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>dlinnuy_upgrade_1</text>
+				<action>repair_check.upgrade_costs</action>
+				<next>50</next>
+				<!-- *************** the inclusion of the window after the second dialogue, Durga options cut down*************** -->
+				<next>5</next>
+			</phrase>
+			<phrase id="50">
+				<text>start_wnd_upgrade</text>
+				<action>ui_weapon_upgrade.main_wnd</action>
+				<!-- *************** inclusion of windows *************** -->
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="2">
+				<precondition>repair_check.is_upgrade_1st_stvol_all_precond</precondition>
+				<precondition>repair_check.trader_check_money_upgr_s1</precondition>
+				<text>dlinnuy_upgrade_2</text>
+				<next>21</next>
+			</phrase>
+			<phrase id="21">
+				<text>dlinnuy_upgrade_21</text>
+				<next>211</next>
+				<next>212</next>
+				<next>213</next>
+				<next>214</next>
+			</phrase>
+			<phrase id="211">
+				<precondition>repair_check.is_upgrade_1st_stvol_kalibr</precondition>
+				<precondition>repair_check.trader_check_money_upgr_s1</precondition>
+				<text>dlinnuy_upgrade_211</text>
+				<action>repair_check.trader_upgrade_weapon_s1_kalibr</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="212">
+				<precondition>repair_check.is_upgrade_1st_stvol_otdaca</precondition>
+				<precondition>repair_check.trader_check_money_upgr_s1</precondition>
+				<text>dlinnuy_upgrade_212</text>
+				<action>repair_check.trader_upgrade_weapon_s1_otdaca</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="213">
+				<precondition>repair_check.is_upgrade_1st_stvol_ves</precondition>
+				<precondition>repair_check.trader_check_money_upgr_s1</precondition>
+				<text>dlinnuy_upgrade_213</text>
+				<action>repair_check.trader_upgrade_weapon_s1_ves</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="214">
+				<text>dlinnuy_upgrade_214</text>
+			</phrase>
+			<phrase id="3">
+				<precondition>repair_check.is_upgrade_2st_stvol_all_precond</precondition>
+				<precondition>repair_check.trader_check_money_upgr_s2</precondition>
+				<text>dlinnuy_upgrade_3</text>
+				<next>31</next>
+			</phrase>
+			<phrase id="31">
+				<text>dlinnuy_upgrade_31</text>
+				<next>311</next>
+				<next>312</next>
+				<next>313</next>
+				<next>314</next>
+			</phrase>
+			<phrase id="311">
+				<precondition>repair_check.is_upgrade_2st_stvol_kalibr</precondition>
+				<precondition>repair_check.trader_check_money_upgr_s2</precondition>
+				<text>dlinnuy_upgrade_311</text>
+				<action>repair_check.trader_upgrade_weapon_s2_kalibr</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="312">
+				<precondition>repair_check.is_upgrade_2st_stvol_otdaca</precondition>
+				<precondition>repair_check.trader_check_money_upgr_s2</precondition>
+				<text>dlinnuy_upgrade_312</text>
+				<action>repair_check.trader_upgrade_weapon_s2_otdaca</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="313">
+				<precondition>repair_check.is_upgrade_2st_stvol_ves</precondition>
+				<precondition>repair_check.trader_check_money_upgr_s2</precondition>
+				<text>dlinnuy_upgrade_313</text>
+				<action>repair_check.trader_upgrade_weapon_s2_ves</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="314">
+				<text>dlinnuy_upgrade_314</text>
+			</phrase>
+			<phrase id="5">
+				<text>dlinnuy_upgrade_5</text>
+			</phrase>
+			<phrase id="6">
+				<precondition>repair_check.show_timer4</precondition>
+				<text>dlinnuy_upgrade_6</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="8">
+				<text>dlinnuy_upgrade_8</text>
+			</phrase>
+			<phrase id="10">
+				<precondition>repair_check.trader_upgrade_precond</precondition>
+				<text>dlinnuy_upgrade_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>dlinnuy_upgrade_11</text>
+				<action>repair_check.upgrade_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="12">
+				<text>dlinnuy_upgrade_12</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************Sack uslozh.remontom trunks and easy booking *************** -->
+	<dialog id="skryga_konez_repair_weap">
+		<precondition>repair_check.can_give_weapon</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>skryga_konez_repair_weap_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>skryga_konez_repair_weap_1</text>
+				<action>repair_check.give_weapon_to_player</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="skryga_repair_weap">
+		<has_info>sak_repair_box_done</has_info>
+		<precondition>repair_check.trader_repair_precond</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>skryga_repair_weap_0</text>
+				<give_info>all_tabl_stvol</give_info>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>skryga_repair_weap_1</text>
+				<action>repair_check.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>21</next>
+				<next>31</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<precondition>repair_check.trader_check_money_s1</precondition>
+				<text>skryga_repair_weap_2</text>
+				<action>repair_check.trader_repiar_weapon_s1</action>
+				<next>6</next>
+				<next>62</next>
+				<next>63</next>
+				<next>64</next>
+				<next>65</next>
+				<next>66</next>
+			</phrase>
+			<phrase id="21">
+				<precondition>repair_check.check_damaged1</precondition>
+				<text>skryga_repair_weap_21</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="3">
+				<precondition>repair_check.trader_check_money_s2</precondition>
+				<text>skryga_repair_weap_3</text>
+				<action>repair_check.trader_repiar_weapon_s2</action>
+				<next>6</next>
+				<next>62</next>
+				<next>63</next>
+				<next>64</next>
+				<next>65</next>
+				<next>66</next>
+			</phrase>
+			<phrase id="31">
+				<precondition>repair_check.check_damaged2</precondition>
+				<text>skryga_repair_weap_31</text>
+				<next>14</next>
+			</phrase>
+			<phrase id="4">
+				<precondition>repair_check.trader_check_money_s6</precondition>
+				<text>skryga_repair_weap_4</text>
+				<action>repair_check.trader_repiar_armor_s6</action>
+				<next>7</next>
+				<next>71</next>
+				<next>72</next>
+				<next>73</next>
+				<next>74</next>
+				<next>75</next>
+			</phrase>
+			<phrase id="5">
+				<text>skryga_repair_weap_5</text>
+			</phrase>
+			<phrase id="6">
+				<precondition>repair_check.show_timer1</precondition>
+				<text>skryga_repair_weap_6</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="62">
+				<precondition>repair_check.show_timer2</precondition>
+				<text>skryga_repair_weap_62</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="63">
+				<precondition>repair_check.show_timer3</precondition>
+				<text>skryga_repair_weap_63</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="64">
+				<precondition>repair_check.show_timer4</precondition>
+				<text>skryga_repair_weap_64</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="65">
+				<precondition>repair_check.show_timer5</precondition>
+				<text>skryga_repair_weap_65</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="66">
+				<precondition>repair_check.show_timer6</precondition>
+				<text>skryga_repair_weap_66</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="7">
+				<precondition>repair_check.show_timer_b1</precondition>
+				<text>march_trader_repair_7</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="71">
+				<precondition>repair_check.show_timer5</precondition>
+				<text>march_trader_repair_71</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="72">
+				<precondition>repair_check.show_timer_u5</precondition>
+				<text>march_trader_repair_72</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="73">
+				<precondition>repair_check.show_timer_b4</precondition>
+				<text>march_trader_repair_73</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="74">
+				<precondition>repair_check.show_timer_b5</precondition>
+				<text>march_trader_repair_74</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="75">
+				<precondition>repair_check.show_timer_b6</precondition>
+				<text>march_trader_repair_75</text>
+				<next>81</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="8">
+				<text>skryga_repair_weap_8</text>
+			</phrase>
+			<phrase id="81">
+				<text>skryga_repair_weap_81</text>
+			</phrase>
+			<phrase id="9">
+				<text>skryga_repair_weap_9</text>
+			</phrase>
+			<phrase id="10">
+				<precondition>repair_check.trader_repair_precond</precondition>
+				<text>skryga_repair_weap_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>skryga_repair_weap_11</text>
+				<action>repair_check.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>21</next>
+				<next>31</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="12">
+				<text>skryga_repair_weap_12</text>
+			</phrase>
+			<phrase id="13">
+				<text>skryga_repair_weap_13</text>
+				<action>repair_check.pay_damaged1</action>
+				<next>10</next>
+				<next>12</next>
+			</phrase>
+			<phrase id="14">
+				<text>skryga_repair_weap_14</text>
+				<action>repair_check.pay_damaged2</action>
+				<next>10</next>
+				<next>12</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ************************************************************** -->
+	<!-- *************** Sidorovich Repair dialog start   old to make it harder. maintenance of trunks*************** -->
+	<!-- ************************************************************** -->
+	<!-- ***************<dialog id="escape_trader_repair">
+        <precondition>repair_check.trader_repair_precond</precondition>
+        <has_info>tutorial_end</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>escape_trader_repair_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>escape_trader_repair_1</text>
+                <action>escape_dialog.repair_costs</action>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+                <next>5</next>
+            </phrase>
+            <phrase id="2">
+                <precondition>escape_dialog.trader_check_money_s1</precondition>
+                <text>escape_trader_repair_2</text>
+                <action>escape_dialog.trader_repiar_weapon_s1</action>
+                <next>6</next>
+            </phrase>
+            <phrase id="3">
+                <precondition>escape_dialog.trader_check_money_s2</precondition>
+                <text>escape_trader_repair_3</text>
+                <action>escape_dialog.trader_repiar_weapon_s2</action>
+                <next>6</next>
+            </phrase>
+            <phrase id="4">
+                <precondition>escape_dialog.trader_check_money_s6</precondition>
+                <text>escape_trader_repair_4</text>
+                <action>escape_dialog.trader_repiar_armor_s6</action>
+                <next>7</next>
+            </phrase>
+            <phrase id="5">
+                <text>escape_trader_repair_5</text>
+            </phrase>
+            <phrase id="6">
+                <text>escape_trader_repair_6</text>
+                <next>8</next>
+                <next>10</next>
+            </phrase>
+            <phrase id="7">
+                <text>escape_trader_repair_7</text>
+                <next>9</next>
+                <next>10</next>
+            </phrase>
+            <phrase id="8">
+                <text>escape_trader_repair_8</text>
+            </phrase>
+            <phrase id="9">
+                <text>escape_trader_repair_9</text>
+            </phrase>
+            <phrase id="10">
+                <precondition>repair_check.trader_repair_precond</precondition>
+                <text>escape_trader_repair_10</text>
+                <next>11</next>
+            </phrase>
+            <phrase id="11">
+                <text>escape_trader_repair_11</text>
+                <action>escape_dialog.repair_costs</action>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+                <next>5</next>
+            </phrase>
+        </phrase_list>
+    </dialog>*************** -->
+	<!-- ********************************************************** -->
+	<!-- *************** Barist Repair dialog start *************** -->
+	<!-- ********************************************************** -->
+	<dialog id="bar_trader_repair">
+		<precondition>repair_check.trader_repair_precond</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>bar_trader_repair_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bar_trader_repair_1</text>
+				<action>bar_dialogs.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<precondition>bar_dialogs.trader_check_money_s1</precondition>
+				<text>bar_trader_repair_2</text>
+				<action>bar_dialogs.trader_repiar_weapon_s1</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="3">
+				<precondition>bar_dialogs.trader_check_money_s2</precondition>
+				<text>bar_trader_repair_3</text>
+				<action>bar_dialogs.trader_repiar_weapon_s2</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="4">
+				<precondition>bar_dialogs.trader_check_money_s6</precondition>
+				<text>bar_trader_repair_4</text>
+				<action>bar_dialogs.trader_repiar_armor_s6</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="5">
+				<text>bar_trader_repair_5</text>
+			</phrase>
+			<phrase id="6">
+				<text>bar_trader_repair_6</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="7">
+				<text>bar_trader_repair_7</text>
+				<next>9</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="8">
+				<text>bar_trader_repair_8</text>
+			</phrase>
+			<phrase id="9">
+				<text>bar_trader_repair_9</text>
+			</phrase>
+			<phrase id="10">
+				<precondition>repair_check.trader_repair_precond</precondition>
+				<text>bar_trader_repair_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>bar_trader_repair_11</text>
+				<action>bar_dialogs.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ********************************************************** -->
+	<!-- *************** Doctor Repair dialog start *************** -->
+	<!-- ********************************************************** -->
+	<dialog id="yantar_trader_repair">
+		<precondition>repair_check.trader_repair_precond</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>yantar_trader_repair_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>yantar_trader_repair_1</text>
+				<action>dialogs_yantar.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<precondition>dialogs_yantar.trader_check_money_s1</precondition>
+				<text>yantar_trader_repair_2</text>
+				<action>dialogs_yantar.trader_repiar_weapon_s1</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="3">
+				<precondition>dialogs_yantar.trader_check_money_s2</precondition>
+				<text>yantar_trader_repair_3</text>
+				<action>dialogs_yantar.trader_repiar_weapon_s2</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="4">
+				<precondition>dialogs_yantar.trader_check_money_s6</precondition>
+				<text>yantar_trader_repair_4</text>
+				<action>dialogs_yantar.trader_repiar_armor_s6</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="5">
+				<text>yantar_trader_repair_5</text>
+			</phrase>
+			<phrase id="6">
+				<text>yantar_trader_repair_6</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="7">
+				<text>yantar_trader_repair_7</text>
+				<next>9</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="8">
+				<text>yantar_trader_repair_8</text>
+			</phrase>
+			<phrase id="9">
+				<text>yantar_trader_repair_9</text>
+			</phrase>
+			<phrase id="10">
+				<precondition>repair_check.trader_repair_precond</precondition>
+				<text>yantar_trader_repair_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>yantar_trader_repair_11</text>
+				<action>dialogs_yantar.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ********************************************************* -->
+	<!-- *************** Screw Repair dialog start *************** -->
+	<!-- ********************************************************* -->
+	<dialog id="mil_trader_repair">
+		<precondition>repair_check.trader_repair_precond</precondition>
+		<!-- ***************has_info>mil_miser_task</has_info*************** -->
+		<phrase_list>
+			<phrase id="0">
+				<text>mil_trader_repair_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>mil_trader_repair_1</text>
+				<action>dialogs_military.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<precondition>dialogs_military.trader_check_money_s1</precondition>
+				<text>mil_trader_repair_2</text>
+				<action>dialogs_military.trader_repiar_weapon_s1</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="3">
+				<precondition>dialogs_military.trader_check_money_s2</precondition>
+				<text>mil_trader_repair_3</text>
+				<action>dialogs_military.trader_repiar_weapon_s2</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="4">
+				<precondition>dialogs_military.trader_check_money_s6</precondition>
+				<text>mil_trader_repair_4</text>
+				<action>dialogs_military.trader_repiar_armor_s6</action>
+				<next>7</next>
+			</phrase>
+			<phrase id="5">
+				<text>mil_trader_repair_5</text>
+			</phrase>
+			<phrase id="6">
+				<text>mil_trader_repair_6</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="7">
+				<text>mil_trader_repair_7</text>
+				<next>9</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="8">
+				<text>mil_trader_repair_8</text>
+			</phrase>
+			<phrase id="9">
+				<text>mil_trader_repair_9</text>
+			</phrase>
+			<phrase id="10">
+				<precondition>repair_check.trader_repair_precond</precondition>
+				<text>mil_trader_repair_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>mil_trader_repair_11</text>
+				<action>dialogs_military.repair_costs</action>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ************************************************** -->
+	<!-- *************** Repair dialogs end *************** -->
+	<!-- ************************************************** -->
+</game_dialogs>

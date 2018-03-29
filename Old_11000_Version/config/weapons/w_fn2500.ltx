@@ -1,0 +1,180 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+;Ўтурмова€ винтовка ‘Ќ2000
+[wpn_fn2500]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn				= "weapons\fn-2000"	; name and section in level editor
+$npc				= on
+$prefetch			= 8
+scheduled			= off			; option for ALife Simulator
+cform				= skeleton
+class				= WP_GROZA
+min_radius			= 0
+max_radius			= 800
+description			= enc_weapons1_wpn-fn2500
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier		= 1.85		; во сколько раз увеличиваетс€ eye_range 
+holder_fov_modifier		= 0.3		; во сколько раз увеличиваетс€ eye_fov
+;-----------------------------------------------------------------------------------
+
+cost				= 10
+weapon_class			= assault_rifle
+
+ammo_limit			= 1000
+ammo_current			= 90
+ammo_elapsed			= 30
+
+ammo_mag_size			= 50
+
+hand_dependence			= 1
+single_handed			= 0
+
+ammo_class			= ammo_5.56x45_ss190, ammo_5.56x45_ap
+fire_modes			= 1, 3, -1
+launch_speed			= 0
+
+slot				= 2		; // secondary
+animation_slot			= 2		; type of the animation that will be used
+
+inv_name			= wpn-fn2500
+inv_name_short			= wpn-fn2500
+inv_weight			= 2.6
+
+inv_grid_width			= 4
+inv_grid_height			= 2
+inv_grid_x			= 5
+inv_grid_y			= 9
+
+kill_msg_x			= 131
+kill_msg_y			= 123
+kill_msg_width			= 64
+kill_msg_height			= 30
+
+;спавнить автоматически боеприпасы при подъеме оружи€
+;auto_spawn_ammo		= false
+
+;-----------------------------------------------------------------------------------
+;базова€ дисперси€
+fire_dispersion_base		= 0.012	;угол (в градусах) базовой дисперсии оружи€ (оружи€ зажатого в тисках)
+control_inertion_factor		= 1.2f
+
+;отдача
+cam_relax_speed			= 5.6	;скорость возврата в исходное положение
+cam_dispersion			= 0.2	;увеличени€ угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 0.1	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 1.0	;ствол будет подыматьс€ на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+
+cam_max_angle			= 8.5	;максимальный угол отдачи
+cam_max_angle_horz		= 9.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 0.6	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability		= 0.0005	;веро€тность осечки при максимальном износе
+misfire_condition_k		= 0.005 
+condition_shot_dec		= 0.000025 ;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+
+direction			= 0, 0, 1
+
+fire_point			= 0.010000,0.166000,0.475000
+
+flame_particles			= weapons\generic_weapon05
+smoke_particles			= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
+
+shell_point			= -0.020000,0.186000,0.200000
+shell_dir			= 0.0, 1.0, 0.0
+shell_particles	 		= weapons\generic_shells
+rpm_empty_click			= 200
+
+PDM_disp_base			= 1.0
+PDM_disp_vel_factor		= 1.05
+PDM_disp_accel_factor		= 1.05
+PDM_crouch			= 1.0
+PDM_crouch_no_acc		= 1.0
+
+;;;;;;  ƒл€ Ќародной сол€нки 2009
+hit_power        		= 4.32
+hit_impulse		 	    = 240
+hit_type 			    = fire_wound
+hit_rate	            = 1.92
+fire_distance           = 800			;;;109974 10:1
+bullet_speed			= 1210
+rpm                     = 1250
+
+use_aim_bullet			= true			;ѕоддерживаетс€ ли перва€ суппер пул€
+time_to_aim			= 0.5	
+
+hud				= wpn_fn2000_hud
+normal				= 0, 1, 0
+position			= -0.026, -0.132, 0.0
+orientation			= 0, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position			= -0.15,-0.35,0.27	; position (offset) and orientation of the weapon when it is strapped
+strap_orientation		= -10,-3,10					; (3rd person view in degrees))
+strap_bone0			= bip01_spine2
+strap_bone1			= bip01_spine1
+
+startup_ammo			= 1000
+visual				= weapons\fn2000\wpn_fn2000_new.ogf
+
+light_color			= 0.6,0.5,0.3
+light_range			= 4
+light_var_color			= 0.05
+light_var_range			= 0.1
+light_time			= 0.2
+
+
+ph_mass				= 4
+
+;addons
+scope_status			= 1
+silencer_status			= 2
+grenade_launcher_status		= 1
+zoom_enabled			= true	; aleks1970
+
+scope_texture			= wpn\crosshair\wpn_crosshair_fn2000
+lens_texture			= wpn\wpn_crosshair_g36_lens
+lens_texture_x			= 183
+lens_texture_y			= 75
+lens_texture_w			= 648
+lens_texture_h			= 648
+
+
+silencer_name		= wpn_addon_sil_556_ar
+silencer_x			= 173						
+silencer_y			= 13
+zoom_enabled		= true
+scope_zoom_factor	= 50
+
+snd_draw			= weapons\fn2000\fn2000_draw
+snd_holster			= weapons\fn2000\fn2000_holster
+snd_shoot			= weapons\fn2000_new\shot
+snd_shoot1			= weapons\fn2000_new\shot1  
+snd_shoot2			= weapons\fn2000_new\shot2  
+snd_shoot3			= weapons\fn2000_new\shot3               
+snd_empty			= weapons\fn2000\fn2000_empty, 0.8
+snd_reload			= weapons\fn2000\fn2000_new_reload
+snd_shoot_grenade	= weapons\M203\M203_grenshoot
+snd_reload_grenade	= weapons\fn2000\fn2000_grenload
+snd_switch			= weapons\M203\M203_switch
+;snd_silncer_shot	= weapons\fn2000\fn2000_shot_sil ; duplicated aleks1970
+;------------------------------------------------------------------------------------------
+silencer_smoke_particles	= weapons\generic_shoot_00
+snd_silncer_shot		= weapons\w_ak74_shot1, 0.6
+
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time		= 0.2
+
+grenade_vel			= 76
+grenade_class		= ammo_m209, ammo_m209_smoke
+

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.4 DKZ fn2000 fix, sg552, galil 7.62, aleks fixes -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+<string_table>
+	<string id="ars-m16a2">
+		<text>Colt M16A2</text>
+	</string>
+	<string id="enc_arsenal_m16a2">
+		<text>• Ammunition: 5.56x45mm SS109, 5.56x45mm AP\n• Weight: 3.7kg\n• Magazine Capacity: 30 Rounds\nImproved M16A1 Rifle. It has a heavier barrel, the firing mode is limited to three round bursts, and sports a 30-round magazine.\n Accepted accessories:\n• M16 Scope\n• 5.56x45mm suppressor\n• M203 Grenade Launcher</text>
+	</string>
+	<string id="ars-m16a12">
+		<text>Modified Colt M16A2</text>
+	</string>
+	<string id="enc_arsenal_m16a12">
+		<text>• Ammunition: 5.56x45mm SS109, 5.56x45mm AP\n• Weight: 3.7kg\n• Magazine Capacity: 30 Rounds\nModified M16A2 Rifle used by Masters within the Monolith Faction and certain Elite Mercenaries. Based on recent reports from the Scientific community, these rifles come from deep within the Zone, where they are somehow 'changed' in the same way as artefacts are 'cooked' and certain improvements are made. They have taken on a spooky 'transparency' as a result of this, and possess a higher firing rate, better accuracy, and more stopping power. Many Stalkers would give literally anything in order to get their hands on one...</text>
+	</string>
+	<string id="ars-famas_p3">
+		<text>FAMAS Prototype</text>
+	</string>
+	<string id="enc_arsenal_famas_p3">
+		<text>• Ammunition: 5.56x45mm, SS109, 5.56x45mm AP\n• Weight: 3.5kg\n• Capacity: 30 Rounds\n• Length: 757mm\n• Barrel Length: 488mm\n• Rate of Fire: 900 r/m\n• Range: 300 metres\nPrototype of an innovative new series of FAMAS Assault Rifles. Very rare weapon within the Zone. Further modification of the standard NATO magazine utilizing a 30 round magazine. High rate of fire, and the 'Bull-Pup' design make this quite a rare example of splendid small arms design.</text>
+	</string>
+	<string id="ars-sg552">
+		<text>SIG SG-552 'Commando'</text>
+	</string>
+	<string id="enc_arsenal_sg552">
+		<text>• Ammunition: 5.56x45mm, SS109, 5.56x45mm AP\n• Weight: 3.2kg\n• Capacity: 30 Rounds\n• Length: 730mm\n• Barrel length: 226mm\n• Rate of Fire: 780 r/m\nThe SIG SG-550 is a very convenient weapon that has been pressed into service primarily by the Zone's Scientific Community.\nAttachments: ACOG Scope, 5.56x45mm Suppressor, M203 Grenade Launcher</text>
+	</string>
+	<string id="ars-sg552-fss">
+		<text>SIG SG-552 'FSS Commando'</text>
+	</string>
+	<string id="enc_arsenal_sg552_fss">
+		<text>• Ammunition: 5.56x45mm, SS109, 5.56x45mm AP\n• Weight: 3.2kg\n• Capacity: 30 Rounds\n• Length: 730mm\n• Barrel length: 226mm\n• Rate of Fire: 780 r/m\nThe SIG SG-550 is a very convenient weapon that has been pressed into service primarily by the Zone's Scientific Community.\nThis is a special edition modified by 'Dellis' for FSS members and are prized for their durability.\nAttachments: ACOG Scope, 5.56x45mm Suppressor, M203 Grenade Launcher</text>
+	</string>
+	<string id="ars-xm8_para">
+		<text>HK XM8 'Para'</text>
+	</string>
+	<string id="enc_arsenal_xm8_para">
+		<text>• Ammunition: 5.56x45mm, SS109, 5.56x45mm AP\n• Weight: 3.5kg\n• Capacity: 100 Rounds\n• Length: 833 mm\n• Length of barrel: 312mm\nXM8 Automatic Rifle with drum-type magazine intended to fill a perceived role between light machinegun and combat rifles. Its weighted barrel makes this weapon an exceptionally accurate weapon. The built in optical sight allows accurate fire at average distances. This weapon also supports the installation of a 5.56x45mm suppressor</text>
+	</string>
+	<string id="ars-hk417">
+		<text>Heckler-Koch 417 'Sniper'</text>
+	</string>
+	<string id="enc_arsenal_hk417">
+		<text>• Ammunition: 7.62x51mm, 7.62x51mm AP\n• Weight: 5kg\n• Capacity: 20 Rounds\nHK 417 7.62mm NATO Class Automatic Rifle developed on the basis of an automatic rifle Heckler-Koch HK 416 calibre 5.56mm NATO. Development of the HK 417 was launched in 2005 on the basis of experience gained from the international coalition forces in Afghanistan and Iraq, where under certain conditions, 5.56mm calibre weapons showed a lack of effective range and the lack of breakdown and suspend the small-calibre cartridges. Rifles NC 417 series went into production in 2007 or 2008, and offered to equip the army and police forces. HK 417 rifle has a modular design, largely repeated the design of the American M16 rifle, with one important difference - Germany rifle HK 417 is a modified vapor Automation, a conventional gas piston with short stroke. There are a number of other differences, but all the basic controls and method of disassembly and assembly of weapons inherited from the M16/M4 platform. Equipped with an Optical-Sight supporting (6x) multiplicity</text>
+	</string>
+	<string id="ars-sr25_mk11_mod0">
+		<text>Knights SR-25</text>
+	</string>
+	<string id="enc_arsenal_sr25_mk11_mod0">
+		<text>• Ammunition: 7.62x51mm, 7.62x51mm AP\n• Weight: 6.5kg\n• Capacity: 20 Rounds\nThe SR-25 rifle was developed as an improvement of the AR-10, itself the precursor to the AR15/M16 family. Using the AR10 as a base it was refined and altered to be a DMR and LEA Sharpshooter weapon using 7.62x51mm cartridge. The SR25 is a direct impingement weapon capable of 1 MOA groupings. With tuning it is said to approach 0.5 MOA accuracy levels. In the Zone they are only as good as the one who performs the maintenance.</text>
+	</string>
+	<!-- dkz-03 WEAPON ADDITIONS -->
+	<string id="ars-peceneg">
+		<text>PKP Pecheneg</text>
+	</string>
+	<string id="enc_arsenal_peceneg">
+		<text>• Ammunition: 7.62x54mmR (Belt, 'Isomorphic')\n• Weight: 8.7kg\nThe Pecheneg is a modernized PK machine gun. It sports a fixed finned barrel with carrying handle and a polymer stock, foregrip and pistol grip. The weight is reduced, compared to a PK, to that of most western SAW models, yet still firing the full-power 7.62x54mmR at 825m/sec. It is not for sustained supporting fire since the barrel cannot be swapped in action. Its main saving feature is a redesigned muzzle that eliminates the early models' massive blast as it warmed up and opened the tolerances.</text>
+	</string>
+	<string id="ars-mod-ak_md">
+		<text>'Mini' Dragunov</text>
+	</string>
+	<string id="arsenal_mod-ak_md">
+		<text>• Ammunition: 7.62x39mm, 7.62x39mm AP\n• Capacity: 30 Rounds • Weight: 4.1kg\nThe 'Mini' Dragunov sniper rifle was established in Romania in 1993 as a hybrid between the venerable AK-47 and SVD rifle. Has a pistol grip, telescopic sights, and stock taken directly from the SVD Dragunov. Not a bad weapon for taking on multiple targets at short ranges, and in urban situations that allow for cover. Allows for both single shot, and burst firing modes. Supports both the 'GP-30 Grenade Launcher, as well as the 7.62 AR suppressor.</text>
+	</string>
+	<string id="ars-stg44">
+		<text>STG-44</text>
+	</string>
+	<string id="arsenal_mod-stg44">
+		<text>• Ammunition: 7.92x33mm, 7.92x33mm AP\n• Capacity: 30 Rounds • Optics: ZF-4\n• Weight: 4.1kg\nThe STG-44 (Sturmgewehr 44 or 'Storm Rifle 1944') was an combat rifle developed in Nazi Germany during World War II, and was the first of its kind to see major deployment. Generally accepted as the world's first combat rifle, the STG-44's effect on post-war arms design was wide-ranging, as evidenced by Mikhail Kalashnikov's AK-47, and later in the U.S. M16 and it's variants. The Soviet Union was quick to adopt the combat rifle concept. The AK-47 used a similar-sized intermediate round and followed the design concept, but was mechanically different.</text>
+	</string>
+	<string id="ars-sig550">
+		<text>SG-550 'Necro'</text>
+	</string>
+	<string id="enc_arsenal_wpn-sig550">
+		<text>• Ammunition: 5.56x45mm, 5.56x45mm AP\n• Capacity: 40 Rounds • Weight: 4.1kg\nThis SIG 550 was modified by a skilled weaponsmith. The magazines are 40 rounds casket types and the recoil has been reduced for more accuracy. There are oversized mounts for a grenade launcher that look sturdy enough to use the more potent M406-HE grenades. The upper receiver has been engraved with the phrase, 'Necro', itself derived from the Ancient Greek meaning 'Death'. Looks like the 'Zone Ninja' who owned this weapon couldn't hang on to it.</text>
+	</string>
+	<string id="ars-mp40">
+		<text>MP-40</text>
+	</string>
+	<string id="enc_arsenal_mp40">
+		<text>• Ammunition: 9x19mm fmj, 9x19mm pbp\n• Capacity: 32 Rounds\n• Weight: 3.1kg\n• Optics: ZF-4\nThe MP-40 ( Maschinenpistole) were submachine guns developed in Nazi Germany and used extensively by paratroopers, tank crews, platoon and squad leaders, and other troops during World War II... The MP-40 was often called the 'Schmeisser' by the Allies, after weapons designer Hugo Schmeisser, although he did not actually design it. A major weakness was it's 32-round magazine. The single-feed resulted in increased friction against the remaining cartridges moving upwards towards the feed lips, occasionally resulting in feed failures; this problem was exacerbated by the presence of dirt or other debris. Another problem was that the magazine was also sometimes misused as a handhold. This could cause the weapon to malfunction when hand pressure on the magazine body caused the magazine lips to move out of the line of feed, since the magazine well did not keep the magazine firmly locked. German soldiers were trained to grasp the handhold on the underside of the weapon to avoid such feed malfunctions...</text>
+	</string>
+	<string id="ars-mp41">
+		<text>MP-41</text>
+	</string>
+	<string id="enc_arsenal_mp41">
+		<text>• Ammunition: 9x19mm fmj, 9x19mm pbp\n• Capacity: 32 Rounds • Weight: 3.5kg\n• Optics: ZF-4\nThe MP-41 submachine gun was developed by Hugo Schmeisser, son of the Louis Schmeisser who developed the first practical machine gun, the MP-18. In 1941, C.G.Haenel Company, at which Schmeisser was chief designer, manufactured MP-40 submachine guns for the German Army. It is possible that Schmeisser decided to develop a submachine gun which was better suited for infantry use than the MP-40. For this reason, he combined the receiver, action and magazine of MP-40 with the wooden stock and selective-fire mechanism of MP-28. Haenel company produced more than a few MP-41 submachine guns, which were mostly purchased by SS troops, which had their own supply chains. However, late in 1941 the Erma Company filed a patent infringement lawsuit against Haenel, and as a result, Haenel company was forced to close down the production of the MP-41. Only 26,700 MP-41's were made during the war, and most were issued to SS, SD, and Police Troops...</text>
+	</string>
+	<string id="ars-akm">
+		<text>AKM KG-74</text>
+	</string>
+	<string id="enc_arsenal_akm_sk2">
+		<text>• Ammunition: 7.62x39mm, 7.62x39mm AP\n• Capacity: 45 Rounds • Weight: 2.9kg \nThe AKM was the redesign of the AK47 for mass production. Stamped sheet steel receiver and other cheap shortcuts enabled the low cost manufacture of the weapon in numbers approaching 60 milliion. It made up for low quality with a chrome-lined barrel and improvements in reliability - notably because there is so much space inside the weapon for dirt to accumulate without impacting functionality. This variant has been customized by 'Lanky' on special commission by a Stalker who had etched his name into the stock: 'Boutch71'. It has an extended magazine, probably from an RPK, as well as mounting lugs for the 'GP-30' Grenade Launcher.</text>
+	</string>
+	<string id="ars-an94sk2">
+		<text>AN-94 SK2 'Gulag'</text>
+	</string>
+	<string id="enc_arsenal_an94_sk2">
+		<text>• Ammunition: 5.45x39mm fmj, 5.45x39mm AP\n• Rate of Fire: 600 rpm • Effective Range: 650 metres\n• Magazine Capacity: 30 Rounds\nThe AN-94 SK2 Gulag is a rare improvement on the Abakan AN-92. It has useful full-automatic fire and fantastic recoil control. Balanced, light and accurate the 'Gulag' series are sought after weapons!</text>
+	</string>
+	<string id="wpn_imigalilar_5.56x45mm">
+		<text>IMI Galil ARM</text>
+	</string>
+	<string id="enc_arsenal_galil_arm">
+		<text>• Ammunition: 5.56x45mm ss190, 5.56x45mm AP\n• Grenade Launcher: M203 (attachable)\n• Magazine Capacity: 35 Rounds\nThe Galil is a family of Israeli small arms designed by Yisrael Galili and Yaacov Lior in the late 1960s and produced by Israel Military Industries Ltd. (now Israel Weapon Industries Ltd.) of Ramat HaSharon. The weapon system consists of a line chambered for the intermediate 5.56x45mm NATO calibre with either the M193 or SS109 ball cartridge and several models designed for use with the 7.62x51mm NATO rifle round. It is named after the Galilee (Galil in Hebrew), a large region in northern Israel. Typically, the Galil's design is optimized for operation in arid conditions and is based on the Finnish RK 62, which itself was derived from the Soviet AK-47 combat rifle. It was selected as the winner of a competition for the Israel Defense Forces that included many other rival designs (among them, the M16A1, Stoner 63, AK-47 and HK33) and was formally accepted into service in 1972, replacing the more dust-sensitive FN FAL</text>
+	</string>
+	<!-- 7.62x51mm NATO Assault Rifles -->
+	<string id="name_wpn_imigalilar_7.62x51mm">
+		<text>IMI Galil AR (7.62x51mm NATO)</text>
+	</string>
+	<string id="desc_wpn_imigalilar_7.62x51mm">
+		<text>%c[250,150,150,250]Type: Battle Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,150,75,0]Reliability: 4/10.\n%c[250,150,150,250]Magazine Capacity: 25 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Calibre: 7.62x51mm NATO.\nAttachable: 7.62x51mm Suppressor, M203.\nIntergrated: x4.0 Telescopic Sight.\n%c[default]The Galil is an Israeli combat rifle, designed by Yisrael Galili under Israeli Military Industries in 1969. Its design is based on that of the Finnish RK 62 rifle, which in turn is derived from the Russian AK-47. It was adopted by the Israeli Defence Forces (IDF) in 1972, beating out several other rifles and replacing the unreliable FN FAL. The Galil is noted for its reliability in combat conditions, and ease of maintenance.</text>
+	</string>
+	<string id="name_wpn_imigalilarm_7.62x51mm">
+		<text>IMI Galil ARM (7.62x51mm NATO)</text>
+	</string>
+	<string id="desc_wpn_imigalilarm_7.62x51mm">
+		<text>%c[250,150,150,250]Type: Light Machine Gun.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 50 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Calibre: 7.62x51mm NATO.\nAttachable: 7.62x51mm Suppressor, Trijicon ACOG, M203.\n%c[default]The Galil is an Israeli combat rifle, designed by Yisrael Galili under Israeli Military Industries in 1969. Its design is based on that of the Finnish RK 62 rifle, which in turn is derived from the Russian AK-47. It was adopted by the Israeli Defence Forces (IDF) in 1972, beating out several other rifles and replacing the unreliable FN FAL. The Galil is noted for its reliability in combat conditions, and ease of maintenance. The ARM variant of the Galil is a light machine gun, with a larger handguard and heavier barrel, and is equipped with a bipod.</text>
+	</string>
+	<string id="ars-k98">
+		<text>Kar98k 'Sepp'</text>
+	</string>
+	<string id="enc_arsenal_k98">
+		<text>• Ammunition: 7.92x33mm fmj, 7.92x33mm AP\n• Optics: Zeiss ZF42 (attachable)\n• Magazine Capacity: 5 Rounds\nThe Karabiner 98 Kurz is a bolt-action rifle that has been expertly re-chambered for the 7.92x33mm cartridge by Sidorovich's Technician. Also known as the 'Mauser' rifle, it was adopted as the standard service rifle in 1935 by the German Wehrmacht. It was one of the final developments in the long line of Mauser military rifles. Although supplemented by semi- and fully automatic rifles during World War II, it remained the German service rifle until the end of World War II in 1945. It is hard to say if it is legitimate, or not, but the on the rails of the scope he gave me with it, reads the inscription: "Presented to Josef 'Sepp' Allerberger for exemplary service and superb marksmanship - 20th April, 1945"</text>
+	</string>
+	<string id="ars_wpn_mossberg590_12ga">
+		<text>Mossberg 590A1 'Francis'</text>
+	</string>
+	<string id="desc_wpn_mossberg590_12ga">
+		<text>• Ammunition: 12x70 'Grape Shot'\n• Capacity: 8 Rounds\nSidorovich gave me this gun. A shotgun. It's in pretty rough shape, but should do in a pinch. He tells me it belonged to some guy named 'Francis' that passed through here a while ago. Tough looking guy, all covered in tattoos, leather, chains and shit, and an attitude to match. What kind of a name is 'Francis' for a guy like that?! Anyways... Sid says that he traded this thing in for a whole case of Vodka, and that was the last anyone's ever seen of him... simply vanished... disappeared. Perhaps he died out there in the Zone, or perhaps he managed to bribe some Soldiers to fly him out of here with some of the Vodka. Who really cares... now I've got his gun. Oh, one more thing... Sid says he mumbled something under his breath when he handed it over... "Shoot 'em in the head..." or something like that... some weird folks pass through the Zone... some weird people indeed... Gave me some odd looking ammo for it as well... said it should 'do the trick'... we'll just wait, and see...</text>
+	</string>
+	<!-- ATTACHMENTS -->
+	<string id="ars-sil_545_ar">
+		<!-- new silencer - aleks1970 -->
+		<text>Suppressor 'THP-A-5.45'</text>
+	</string>
+	<string id="enc_arsenal_sil_545_ar">
+		<text>Suppressor-tactical flash suppressor for the AK series machine guns calibre 5.45mm - 'THP-A-5.45". It can be installed in place of regular AK Compensator on 'Abakan' and RPK machine guns series '74". It designed to reduce the volume of the shot while shooting a machine gun in the rear hemisphere, and masking the arrow at the expense of distortion of the sound field in the forward hemisphere and the lack of flame shot.</text>
+	</string>
+	<string id="ars-sil_1143_p">
+		<text>Suppressor M-P 11.43</text>
+	</string>
+	<string id="enc_arsenal_sil_1143_p">
+		<text>Suppressor for pistols and PP calibre 11.43mm (.45).</text>
+	</string>
+	<string id="ars-sil_556_ar">
+		<text>5.56x45mm Suppressor</text>
+	</string>
+	<string id="enc_arsenal_sil_556_ar">
+		<text>Provides reliable precision accuracy with minimal &amp; repeatable zero-shift. Durability is maximized by CNC automated fusion welding of the components used in its construction- giving this supressor much longevity in the field. The back-pressure lowering design of the suppressor aids in shooter comfort, reduces weapon fouling, and minimizes cyclic rate increase. The outstanding reduction of the muzzle report does an excellent job of masking the shooter's location.</text>
+	</string>
+	<string id="ars-sil_762_ar">
+		<text>7.62x51mm Suppressor</text>
+	</string>
+	<string id="enc_arsenal_sil_762_ar">
+		<text>Provides reliable, precision accuracy with minimal and repeatable zero-shift. Users have the ability to install or remove the suppressor within seconds while being subjected to the harshest environments. The back-pressure lowering design of the suppressor aids in shooter comfort, reduces weapon fouling, and minimizes cyclic rate increase. As a final step, tapered-bore EDM technology is utilized to ensure precise bore alignment resulting in enhanced accuracy and maximum performance.</text>
+	</string>
+	<string id="ars_sil_762b_ar">
+		<text>Suppressor 7.62x51mm NATO</text>
+	</string>
+	<string id="enc_arsenal_sil_762b_ar">
+		<text>Advanced Armament Suppressor:\nAAC 762-SDN-6 Rifle Suppressor. Compact fast-attach sound and flash suppressor for 7.62x51mm calibre. It is 1.25 inches shorter than the 762-SD and features a fully welded all-Inconel baffle stack and front end cap to maximize durability on selected 7.62mm weapons.</text>
+	</string>
+	<string id="ars_sil_762_p">
+		<text>Suppressor M7.62-P</text>
+	</string>
+	<string id="enc_arsenal_sil_762_p">
+		<text>Suppressor for guns and pistols using a cartridge 7.62x25 TT.</text>
+	</string>
+	<string id="ars_grenade_launcher_ag36">
+		<text>Under-barrel grenade launcher AG36</text>
+	</string>
+	<string id="ars_grenade_launcher_ag36_s">
+		<text>AG36</text>
+	</string>
+	<string id="enc_grenade_launcher_ag36">
+		<text>40mm grenade launcher AG36 has been developed in late 1990s by the German company Heckler und Koch for combat rifles. Grenade AG36 - single-shot weapon, shoot all types of unitary shots 40x46mm calibre. For recharging of the barrel breech end tilts to the left, which allows you to charge it with shots of warhead lengths. Firing and trigger mechanism is self-cocking, in addition there is a two-way manual safety.</text>
+	</string>
+	<string id="ars-acog">
+		<text>ACOG Scope</text>
+	</string>
+	<string id="enc_arsenal_acog">
+		<text>The Acog 4x32 rifle scope provides the option of quick acquisition close range and the precision for longer range shooting. It is built with a solid, military-grade aluminum alloy housing. A forged 7075-T6 aircraft aluminum alloy housing provides for a nearly indestructible sighting system. Multi-layer coated lenses ensure peak optical performance, and a large exit pupil allows for maximum eye latitude.</text>
+	</string>
+	<string id="ars-scope1">
+		<text>M16 Scope</text>
+	</string>
+	<string id="enc_arsenal_scope1">
+		<text>One piece aircraft-grade aluminum with scratch resistant hard-coat anodized black matte finish. Fits all A1 and A2 models. Mil-dot aiming system, superior quality precision lens elements, an integral see-through carry handle mount, marked for 100 to 500 metres. Precise click-in windage, and elevation adjustment for easy and exact zeroing.</text>
+	</string>
+	<!-- dkz-03 SCOPES -->
+	<string id="ars-zf4">
+		<text>ZF-4 Scope</text>
+	</string>
+	<string id="enc_arsenal_zf4">
+		<text>Scope designed for use with weapons issued to the Nazi German troops during World War II. It has been adapted for use with the MP-40, MP-41, and STG-44. The lens is a bit scratched, and dirty but, nonetheless, it will certainly get the job done when necessary.</text>
+	</string>
+	<string id="ars-zf4_2">
+		<text>Zeiss ZF42 Scope</text>
+	</string>
+	<string id="enc_arsenal_zf4_2">
+		<text>Special Sniper Scope from Sidorovich. It was designed specifically for the Kar98k he gave me. Apparently, this once belonged to a 'JS Allerberger' and word also has it that he was one hell of a shot!!!</text>
+	</string>
+	<!-- AMMUNITION -->
+	<string id="ars-7.62x51_fmj">
+		<text>7.62x51mm FMJ</text>
+	</string>
+	<string id="ars-7.62x51_fmj_s">
+		<text>7.62x51mm FMJ</text>
+	</string>
+	<string id="enc_arsenal_7.62x51_fmj">
+		<text>Rifle cartridge developed in the 1950's as a standard for small arms among NATO countries (not to be confused with the similar 7.62x54mmR cartridge). When loaded with a cartridge design that expands, tumbles, or fragments in tissue, this cartridge is capable of delivering good terminal performance. Proponents of the hydrostatic shock theory contend that this includes remote wounding effects caused by hydraulic pressure waves through tissue disrupting cell structures - particularly in less malleable organs like the liver.</text>
+	</string>
+	<string id="ars-7.62x51_ap">
+		<text>7.62x51mm AP</text>
+	</string>
+	<string id="ars-7.62x51_ap_s">
+		<text>7.62x51mm AP</text>
+	</string>
+	<string id="enc_arsenal_7.62x51_ap">
+		<text>The 7.62x51mm armor-piercing cartridge has a steel core and extra powder to increase velocity. It can penetrate most body armor short of NIJ Class IV with apparent ease and still cause grievous, if not lethal, wounds.</text>
+	</string>
+	<!-- dkz-03 AMMO -->
+	<string id="ammo-7.92x33-fmj">
+		<text>7.92x33mm fmj</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-7.92x33-fmj">
+		<text>Rifle cartridge developed in Nazi Germany prior to, and during World War II. The ammunition is also referred to as 7.92mm Kurz (Kurz being German for short), 7.92 Kurz, or 7.92mmK, and was specifically intended for development of an combat rifle (Sturmgewehr in German). The round was developed as a compromise between the longer 7.92x57mm Mauser rifle and 9mm pistol rounds, and is known as an intermediate cartridge</text>
+	</string>
+	<string id="ammo-7.92x33-ap">
+		<text>7.92x33mm AP</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-7.92x33-ap">
+		<text>Armor-Piercing variant of the 7.92x33mm German rifle cartridge developed in Nazi Germany prior to, and during World War II. Specifically intended for use in the combat rifles that Germany was developing. The round was a compromise between the longer 7.92x57mm Mauser rifle cartridge (8mm Mauser) and 9x19mm (9mm Luger) pistol rounds.</text>
+	</string>
+	<string id="ars-balon">
+		<text>Gas Canister</text>
+	</string>
+	<string id="ars-balon_s">
+		<text>Gas Canister</text>
+	</string>
+	<string id="enc_arsenal_ammo_balon">
+		<text>Gas Canister containing a highly volatile mixture of gases and metallic soaps for use with flamethrower-type weaponry. Extremely Dangerous. This canister is not in the best condition. Absolutely NO SMOKING!!!</text>
+	</string>
+	<string id="military_scope_pk">
+		<text>PK-01A Scope</text>
+	</string>
+	<string id="military_scope_pk_s">
+		<text>PK-01A 'red-dot'</text>
+	</string>
+	<string id="enc_military_scope_pk_descr">
+		<text>Tactical military scope with a supersharp 1 MOA red-dot reticicle, and adjustable brightness levels... Fully multi-coated nitrogen-filled tightly-sealed lens setup. Constructed of a compact and lightweight military alloy all-metal body withstanding the harshest enviroments and hardest recoil. A wide 40° field-of-view, and both eyes aiming capability make this scope indispensable for fast moving targets, and those appearing for a short period of time in urban combat situations in various lighting conditions...</text>
+	</string>
+	<string id="ars_scope_pks07">
+		<text>PKS-07 Scope</text>
+	</string>
+	<string id="ars_scope_pks07_s">
+		<text>PKS-07</text>
+	</string>
+	<string id="enc_arsenal_scope_pks07">
+		<text>Daily sevenfold collimator sight PKS-07. Rifle Scope allows fast and accurate aiming and make a shot in the various weather conditions at temperatures from minus 40 to plus 40°C. Used on the Kord rifle and others...</text>
+	</string>
+	<string id="GP_30_pk">
+		<text>GP-30 Grenade launcher</text>
+	</string>
+	<string id="GP_30_pk_s">
+		<text>GP-30</text>
+	</string>
+	<string id="enc_GP_30_pk_descr">
+		<text>The Russian Army adopted the GP-30 in 1989... While retaining the same combat effectiveness as it's predecessor, the GP-25, it is lighter, simpler and less expensive to make. It fires the same 40mm VOG-25 and VOG-25P fragmentation grenades, which are loaded from the muzzle and held in the barrel by a spring catch. Indirect fire capability has been discarded, and the sights moved to the right side of weapon in order to make aiming more comfortable. Each grenade launcher is issued with a rubber recoil pad, and a special return spring guide with receiver cover catch for use on early production Kalashnikov rifles...</text>
+	</string>
+	<string id="sil_TGP_A_pk">
+		<text>TGP-A Suppressor</text>
+	</string>
+	<string id="sil_TGP_A_pk_s">
+		<text>TGP-A Suppressor</text>
+	</string>
+	<string id="enc_sil_TGP_A_pk_descr">
+		<text>Suppressor designed for use with AK series rifles. Increases aiming precision, as it strips away hot gases from around the projectile in a uniform fashion. The suppressor can reduce the recoil significantly as it traps the escaping gas. This gas mass is a little less than one-half the projectile mass, with the gas exiting the muzzle at about twice the projectile's velocity...</text>
+	</string>
+	<string id="ammo_M406_pk">
+		<text>M406-HE Grenade</text>
+	</string>
+	<string id="ammo_M406_pk_s">
+		<text>M406-HE</text>
+	</string>
+	<string id="enc_ammo_M406_pk_descr">
+		<text>The M406-HE grenade consists of an aluminium projectile body with a rotating band and a cartridge case containing the propelling charge and percussion primer. An oval-shaped steel assembly containing a highly explosive charge is fitted to the rear of the projectile...</text>
+	</string>
+</string_table>

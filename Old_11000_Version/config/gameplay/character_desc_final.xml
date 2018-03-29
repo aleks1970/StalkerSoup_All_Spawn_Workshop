@@ -1,0 +1,462 @@
+<!-- ************ TB3D 1.0.9.9.7.7 new invent and dialogs, fly, suplies and dialogs*************** -->
+<xml>
+	<!-- ***************<The Fly>*************** -->
+	<specific_character id="final_muxa" team_default="1">
+		<name>Fly_name_gameplay</name>
+		<icon>ui_npc_devchenka</icon>
+		<bio>esc_stalker_novice_bio</bio>
+		<class>final_muxa</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>140</rank>
+		<reputation>12</reputation>
+		<snd_config>characters_voice\human_01\woman\</snd_config>
+		<crouch_type>0</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\woman\devchonka</visual>
+#include "inventory\stalker_novice_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\final_muxa.xml"
+	</specific_character>
+	<!-- ***************Smiths*************** -->
+	<specific_character id="kuzhetsov" team_default="1">
+		<name>esc_soldier_commander_name</name>
+		<icon>ui_npc_u_soldier_beret_1</icon>
+		<bio>esc_soldier_commander_bio</bio>
+		<class>kuzhetsov</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>764</rank>
+		<reputation>-15</reputation>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>actors\soldier\soldier_beret_1</visual>		
+#include "inventory\soldier_regular_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************agr_nii_commander*************** -->
+	<specific_character id="kapitan_agro" team_default="1">
+		<name>Division_Captain_name_gameplay</name>
+		<icon>ui_npc_u_soldier_beret</icon>
+		<map_icon x="2" y="0"/>
+		<bio>sim_soldier_commander_bio</bio>
+		<class>kapitan_agro</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="50" max="100" infinitive="0"/>
+		<rank>950</rank>
+		<reputation>-20</reputation>
+		<visual>actors\soldier\soldier_beret</visual>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\soldier_commander_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"   
+  </specific_character>
+	<!-- ***************Bartender*************** -->
+	<specific_character id="final_barman" team_default="1">
+		<name>Barkeep_name_gameplay</name>
+		<icon>ui_npc_u_barman</icon>
+		<map_icon x="1" y="4"/>
+		<bio>bartender_bio</bio>
+		<class>final_barman</class>
+		<community>trader</community>
+		<money min="1000000" max="1100000" infinitive="1"/>
+		<rank>700</rank>
+		<reputation>50</reputation>
+		<visual>actors\barman\barman</visual>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"
+  </specific_character>
+	<!-- ***************Sakharov*************** -->
+	<specific_character id="final_saharov" team_default="1">
+		<name>Sakharov_name_gameplay</name>
+		<icon>ui_npc_u_ucheniy_2</icon>
+		<map_icon x="7" y="0"/>
+		<bio>sakharov_bio</bio>
+		<class>final_saharov</class>
+		<community>ecolog</community>
+		<terrain_sect>stalker_ecolog_terrain</terrain_sect>
+		<money min="1000000" max="1100000" infinitive="1"/>
+		<rank>44</rank>
+		<reputation>50</reputation>
+		<visual>actors\ucheniy\ucheniy_2</visual>
+		<snd_config>characters_voice\human_03\ecolog\</snd_config>
+		<crouch_type>1</crouch_type>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************Maples*************** -->
+	<specific_character id="final_klenov" team_default="1">
+		<name>Maples_name_gameplay</name>
+		<icon>ui_npc_klenov</icon>
+		<map_icon x="1" y="0"/>
+		<bio>esc_wolf_bio</bio>
+		<class>final_klenov</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>900</rank>
+		<reputation>0</reputation>
+		<visual>actors\ucheniy\ucheniy_1</visual>
+		<snd_config>characters_voice\human_01\</snd_config>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"				
+	</specific_character>
+	<!-- ***************DOLG LEADER*************** -->
+	<specific_character id="final_voronin" team_default="1">
+		<name>Voronin_name_gameplay</name>
+		<icon>ui_npc_u_stalker_do_komandir</icon>
+		<map_icon x="0" y="0"/>
+		<bio>bar_voronin_bio</bio>
+		<class>final_voronin</class>
+		<community>dolg</community>
+		<terrain_sect>stalker_dolg_terrain</terrain_sect>
+		<money min="500" max="1000" infinitive="0"/>
+		<rank>918</rank>
+		<reputation>0</reputation>
+		<visual>actors\dolg\stalker_do_komandir</visual>
+		<snd_config>characters_voice\human_01\dolg\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+  </specific_character>
+	<!-- ***************DOLG PETRENKO*************** -->
+	<specific_character id="final_petrenko" team_default="1">
+		<name>Petrenko_name_gameplay</name>
+		<icon>ui_npc_u_stalker_do_balon_3</icon>
+		<map_icon x="0" y="0"/>
+		<bio>bar_petrenko_bio</bio>
+		<class>final_petrenko</class>
+		<community>dolg</community>
+		<terrain_sect>stalker_dolg_terrain</terrain_sect>
+		<money min="1000" max="11000" infinitive="1"/>
+		<rank>459</rank>
+		<reputation>0</reputation>
+		<visual>actors\dolg\stalker_do_balon_3</visual>
+		<snd_config>characters_voice\human_01\dolg\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\final_petrenko_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+
+</specific_character>
+	<!-- ***************dan*************** -->
+	<specific_character id="final_dan" team_default="1">
+		<name>Dan_name_gameplay</name>
+		<icon>ui_npc_u_hunter_5_novice</icon>
+		<map_icon x="0" y="0"/>
+		<bio>sim_marsh_ohotnik_regular_bio</bio>
+		<class>final_dan</class>
+		<community>green</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="50000" max="60000" infinitive="0"/>
+		<rank>259</rank>
+		<reputation>100</reputation>
+		<visual>actors\hunters\hunter5</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\final_dan_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- *************** BOROV *************** -->
+	<specific_character id="final_borov" team_default="1">
+		<name>Borov_name_gameplay</name>
+		<icon>ui_npc_u_stalker_bandit_borov</icon>
+		<map_icon x="0" y="0"/>
+		<bio>val_borov_bio</bio>
+		<class>final_borov</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>621</rank>
+		<hit_probability_factor>1.5</hit_probability_factor>
+		<reputation>-147</reputation>
+		<visual>actors\bandit\stalker_bandit_borov</visual>
+		<snd_config>characters_voice\human_01\bandit\</snd_config>
+		<crouch_type>1</crouch_type>
+#include "inventory\final_petrenko_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"				
+	</specific_character>
+	<!-- ***************Shadow of the Monolith*************** -->
+	<specific_character id="final_shade_mono" team_default="1">
+		<name>Shadow_of_Monolith_name_gameplay</name>
+		<icon>ui_npc_u_ten_monolita_ot_arhara</icon>
+		<map_icon x="3" y="0"/>
+		<bio>pri_monolith_exo_bio</bio>
+		<class>final_shade_mono</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>922</rank>
+		<reputation>-890</reputation>
+		<visual>actors\stalker_zombi\corp_monolit</visual>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\generic_dialogs.xml"
+    </specific_character>
+	<!-- ***************<Miner>*************** -->
+	<specific_character id="final_shaxter" team_default="1">
+		<name>Miner_name_gameplay</name>
+		<icon>ui_npc_shaxter</icon>
+		<map_icon x="1" y="0"/>
+		<bio>final_shaxter_bio</bio>
+		<class>final_shaxter</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>1000</reputation>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>new\dark_stalker_voron</visual>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************The Hermit*************** -->
+	<specific_character id="final_otshelnik" team_default="1">
+		<name>Hermit_name_gameplay</name>
+		<icon>ui_npc_u_land_otshelnik</icon>
+		<map_icon x="1" y="0"/>
+		<bio>final_hermit_bio</bio>
+		<class>final_otshelnik</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>911</rank>
+		<reputation>91</reputation>
+		<money min="1000000" max="1000000" infinitive="1"/>
+		<visual>new\stalker_otshelnik</visual>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+#include "inventory\final_hermit_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************<Akim>*************** -->
+	<specific_character id="final_akim" team_default="1">
+		<name>Akim_name_gameplay</name>
+		<icon>ui_npc_u_hunter_61_novice</icon>
+		<map_icon x="1" y="0"/>
+		<bio>final_akim_bio</bio>
+		<class>final_akim</class>
+		<community>trader</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>1000</reputation>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>new\stalker_do_balon_4</visual>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_1.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************COLDS*************** -->
+	<specific_character id="final_holod" team_default="1">
+		<name>Cold_name_gameplay</name>
+		<icon>ui_npc_u_stalker_nebo_holodov</icon>
+		<map_icon x="3" y="2"/>
+		<bio>gar_stalker_regular_bio</bio>
+		<class>final_holod</class>
+		<community>nebo</community>
+		<rank>444</rank>
+		<reputation>59</reputation>
+		<money min="4600" max="5000" infinitive="0"/>
+		<visual>actors\nebo\holodov</visual>
+		<snd_config>characters_voice\human_01\freedom\</snd_config>
+		<crouch_type>1</crouch_type>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"	
+	</specific_character>
+	<!-- ***************<Chimera>*************** -->
+	<specific_character id="final_chimaera" team_default="1">
+		<name>Chimera_name_gameplay</name>
+		<icon>ui_npc_u_sniper_chimaera</icon>
+		<map_icon x="5" y="0"/>
+		<bio>sim_land_arhara_sniper_veteran_bio</bio>
+		<class>final_chimaera</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<money min="20" max="360" infinitive="0"/>
+		<rank>996</rank>
+		<reputation>-950</reputation>
+		<visual>new\holo_plash</visual>
+		<snd_config>characters_voice\human_02\bandit\</snd_config>
+		<crouch_type>0</crouch_type>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+</specific_character>
+	<!-- ***************Kolmogorov*************** -->
+	<specific_character id="final_kolmogor" team_default="1">
+		<name>Kolmogorov_name_gameplay</name>
+		<icon>ui_npc_kolmogor</icon>
+		<map_icon x="1" y="0"/>
+		<bio>final_unknown_bio</bio>
+		<class>final_kolmogor</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>911</rank>
+		<reputation>91</reputation>
+		<visual>new\kolmogor</visual>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_6.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************Ara*************** -->
+	<specific_character id="final_ara" team_default="1">
+		<name>Ara_name_gameplay</name>
+		<icon>ui_npc_u_stalker_ki_informator</icon>
+		<map_icon x="2" y="0"/>
+		<bio>mil_Killer_informator_bio</bio>
+		<class>final_ara</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>904</rank>
+		<reputation>-149</reputation>
+		<snd_config>characters_voice\human_02\\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\killer\stalker_ki_informator</visual>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************SVOBODA LEADER*************** -->
+	<specific_character id="final_lukash" team_default="1">
+		<name>mil_Svoboda_leader_name</name>
+		<icon>ui_npc_u_stalker_sv_leader</icon>
+		<map_icon x="5" y="0"/>
+		<bio>mil_Svoboda_leader_bio</bio>
+		<snd_config>characters_voice\human_01\freedom\</snd_config>
+		<crouch_type>0</crouch_type>
+		<class>final_lukash</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>914</rank>
+		<reputation>136</reputation>
+		<visual>actors\svoboda\stalker_sv_leader</visual>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- *************** Mole *************** -->
+	<specific_character id="final_krot" team_default="1">
+		<name>Mole_name_gameplay</name>
+		<icon>ui_npc_u_stalker_neytral_rukzak_4</icon>
+		<map_icon x="0" y="0"/>
+		<bio>agr_krot_bio</bio>
+		<class>final_krot</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>507</rank>
+		<reputation>49</reputation>
+		<money min="600" max="2000" infinitive="0"/>
+		<panic_threshold>0.0</panic_threshold>
+		<visual>actors\neytral\stalker_neytral_rukzak_4</visual>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_4.xml"
+#include "dialogs\generic_dialogs.xml"   
+  </specific_character>
+	<!-- ***************Ghost*************** -->
+	<specific_character id="final_prizrak" team_default="1">
+		<name>Ghost_name_gameplay</name>
+		<icon>ui_npc_gener_prizrak</icon>
+		<map_icon x="0" y="6"/>
+		<bio>sim_stalker_veteran_bio</bio>
+		<class>final_prizrak</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>721</rank>
+		<reputation>50</reputation>
+		<visual>actors\neytral\stalker_prizrak</visual>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\final_prizrak.xml"
+</specific_character>
+	<!-- ***************Marsh Doctor*************** -->
+	<specific_character id="final_dok_arh" team_default="1">
+		<name>Marsh_Doctor_name_gameplay</name>
+		<icon>ui_npc_u_doktor</icon>
+		<bio>Sak_bio</bio>
+		<class>final_dok_arh</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>138</rank>
+		<reputation>10</reputation>
+		<money min="1000" max="10000" infinitive="0"/>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+		<visual>actors\izgoy\izgoy</visual>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_5.xml"
+#include "dialogs\generic_dialogs.xml"
+	</specific_character>
+	<!-- ***************<Pilgrim>*************** -->
+	<specific_character id="final_piligrim" team_default="1">
+		<name>Pilgrim_name_gameplay</name>
+		<icon>ui_npc_u_land_arhara_piligrim</icon>
+		<map_icon x="1" y="0"/>
+		<bio>final_unknown_bio</bio>
+		<class>final_piligrim</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>924</rank>
+		<reputation>19</reputation>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>new\stalker_piligrim</visual>
+#include "inventory\final_piligrim_items.xml"
+#include "gameplay\character_criticals_2.xml"
+#include "dialogs\generic_dialogs.xml"						
+	</specific_character>
+	<!-- ***************Canine*************** -->
+	<specific_character id="final_kluk" team_default="1">
+		<name>Canine_name_gameplay</name>
+		<icon>ui_npc_u_stalker_kluk</icon>
+		<map_icon x="1" y="0"/>
+		<bio>final_unknown_bio</bio>
+		<class>final_kluk</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>911</rank>
+		<reputation>91</reputation>
+		<visual>new\stalker_kluk</visual>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+#include "inventory\final_piligrim_items.xml"
+#include "gameplay\character_criticals_2.xml"
+#include "dialogs\final_kluk.xml"
+ 	</specific_character>
+	<!-- ***************Arhara*************** -->
+	<specific_character id="final_arhara" team_default="1">
+		<name>Arhara_name_gameplay</name>
+		<icon>ui_npc_arhara</icon>
+		<map_icon x="1" y="0"/>
+		<bio>final_unknown_bio</bio>
+		<class>final_arhara</class>
+		<community>stalker</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>924</rank>
+		<reputation>19</reputation>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>0</crouch_type>
+		<visual>new\arhara</visual>
+#include "inventory\final_generic_items.xml"
+#include "gameplay\character_criticals_2.xml"
+#include "dialogs\final_arhara.xml"						
+	</specific_character>
+</xml>

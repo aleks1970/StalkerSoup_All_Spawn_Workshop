@@ -1,0 +1,197 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+; ќгнемет јћ  системы Ўурупа
+[wpn_flame]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn              	= "weapons\flame"
+$npc					= on				
+$prefetch 				= 8
+scheduled				= off           
+cform               	= skeleton
+class               	= WP_LR300		
+min_radius          	= 0		
+max_radius          	= 10			
+description				= wpn-flame_readme
+	
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+holder_range_modifier	= 1.0		    
+holder_fov_modifier		= 0.7
+
+cost					= 25000				
+weapon_class			= assault_rifle	
+ammo_limit				= 210		
+ammo_elapsed			= 30			
+	
+ammo_mag_size			= 150
+fire_modes				= -1
+f_mode				    = 2
+ammo_class				= ammo_flame   
+
+hand_dependence			= 2									
+single_handed			= 0
+slot 					= 2
+animation_slot			= 2
+
+inv_name	        	= wpn-flame_name							
+inv_name_short			= wpn-flame_name_s	
+inv_weight			    = 5								
+
+inv_grid_width			= 5
+inv_grid_height			= 2	   
+inv_grid_x				= 8 
+inv_grid_y				= 38
+
+kill_msg_x			= 0
+kill_msg_y			= 123
+kill_msg_width		= 69
+kill_msg_height		= 30
+
+fire_dispersion_base			= 0.15	;угол (в градусах) базовой дисперсии оружи€ (оружи€ зажатого в тисках)
+control_inertion_factor			= 1.25f
+disp_rate = 1.6
+
+;отдача
+cam_relax_speed         	= 5		    ;скорость возврата в исходное положение
+cam_dispersion          	= 0.001		;увеличени€ угла (в градусах) с каждым выстрелом
+cam_dispersion_inc			= 0.00001	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac			= 0.00001	;ствол будет подыматьс€ на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle				= 0.00001	;максимальный угол отдачи
+cam_max_angle_horz			= 0.01		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 1.1		;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.003	    ;веро€тность осечки при максимальном износе 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.00000005	;увеличение износа при каждом выстреле
+
+fire_point             		= 0,0.0,0.610
+flame_particles				= amk\firebat
+smoke_particles				= 
+grenade_flame_particles		= weapons\generic_weapon01
+	
+shell_point		 			= 0.00, 0.262, 0.189			
+shell_particles	 			= 	
+
+PDM_disp_base 				= 1.0
+PDM_disp_vel_factor 		= 1.3
+PDM_disp_accel_factor 		= 1.3
+PDM_crouch	 				= 1.0
+PDM_crouch_no_acc 			= 1.0
+
+hit_power                	= 1.0		
+hit_impulse		 			= 0	
+hit_type 					= burn
+hit_rate	                = 2.5
+fire_distance            	= 10
+bullet_speed				= 60		
+rpm                      	= 300		
+
+use_aim_bullet				= false		;ѕоддерживаетс€ ли перва€ супер пул€
+time_to_aim					= 1.0	
+
+hud                      	= wpn_flame_hud
+position         	        = -0.015,0.15,0.3
+orientation      	        = 0,0,0						
+
+strap_position         		= -0.16,-0.40,0.15		
+strap_orientation      		= -10,-5,10					
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+visual         		        = amk\wpn_flame.ogf
+
+light_color					= 0.6,0.5,0.3		
+light_range					= 5						
+light_var_color				= 0.05						
+light_var_range				= 0.5
+light_time 					= 0.2						
+ph_mass						= 5						
+scope_status				= 0						
+silencer_status				= 0						
+grenade_launcher_status		= 0						
+
+zoom_enabled				= false				
+scope_zoom_factor	    	= 90				
+
+scope_name 					= wpn_addon_scope		
+scope_x 					= 42						
+scope_y 					= 3
+silencer_name  				= wpn_addon_silencer	
+silencer_x 					= 218					
+silencer_y 					= 13					
+grenade_launcher_name 		= wpn_addon_grenade_launcher
+grenade_launcher_x 			= 116						
+grenade_launcher_y 			= 23
+
+snd_draw					= $no_sound ;weapons\ak74_draw
+snd_holster					= $no_sound ;weapons\generic_holster
+snd_shoot					= weapons\F-0
+snd_shoot1					= weapons\F-1
+snd_shoot2					= weapons\F-2
+snd_shoot3					= weapons\F-3
+snd_empty					= $no_sound ;weapons\gen_empty, 0.5
+snd_reload					= $no_sound ;weapons\ak74u_reload, 0.7, 0.75
+snd_shoot_grenade			= $no_sound ;weapons\gen_grenshoot
+snd_reload_grenade			= $no_sound ;weapons\gen_grenload, 1.0, 0.8
+snd_switch					= $no_sound ;weapons\groza_switch, 1.0, 0.5
+
+[wpn_flame_hud]
+shell_point     	   	 	= 10.15, 0.0, -0.05
+shell_dir			     	= -0.01, 1.0, 0.0
+
+fire_point			        = 0.0,0.0,0.0
+fire_point2              	= 0.0, 0.00, 0.0
+fire_bone               	= wpn_flame
+
+orientation             	= 0.0, 0.0, 0.0		
+position                 	= -0.12, -0.17, 0.07
+visual                  	= amk\wpn_flame_hud.ogf
+
+anim_idle				= idle
+anim_idle_aim			= idle
+anim_reload				= empty
+anim_draw				= draw
+anim_holster			= holster
+anim_shoot				= shoot
+anim_idle_sprint		= sprint
+
+zoom_offset			= -0.137700,0.033800,-0.115100
+zoom_rotate_x		= -0.005000
+zoom_rotate_y		= 0.017900
+zoom_hide_crosshair	= true				
+
+[ammo_flame]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn			= "weapons\ammo\ammo_5.45x39_fmj" ; option for Level Editor
+class			= AMMO
+cform                   = skeleton
+;;;visual                  = amk\amk_ballon.ogf
+visual                  = weapons-new\flame\flame_balon.ogf	;new aleks1970
+description				= enc_ammo_flame_name_descr
+$prefetch 		= 64
+
+cost					 = 1600	;150
+
+box_size		= 75	;60
+
+inv_name		= ammo_flame_name
+inv_name_short	= ammo_flame_name
+inv_weight		= 2.50
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 4
+inv_grid_y			= 40
+
+k_dist			= 1
+k_disp			= 3
+k_hit			= 1.8
+k_impulse		= 0
+k_pierce		= 0
+impair			= 1
+buck_shot		= 8
+tracer			= off
+wm_size         = 0.7
+explosive		= on

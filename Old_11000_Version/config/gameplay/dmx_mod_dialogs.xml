@@ -1,0 +1,1334 @@
+<!-- ***** TB3D 1.1.0.0.0.3 updated to 135, fixed soul cube, removed "�" aleks1970, sharav storm ***** -->
+<game_dialogs>
+	<!-- ***************RyLiosha spawn - modified-by-phobos2077*************** -->
+	<dialog id="rul_sidor_cars">
+		<precondition>rul.sidor_has_cars</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>rul_cars_000</text>
+				<next>1</next>
+			</phrase>
+		<phrase id="1">
+				<text>rul_cars_001</text>
+				<action>rul.sidor_offers</action>
+				<next>11</next>
+				<next>12</next>
+				<next>13</next>
+				<next>5</next>
+			</phrase>
+		<phrase id="11">
+				<dont_has_info>rul_car1_create</dont_has_info>
+				<precondition>rul.have_money_for_car1</precondition>
+				<text>rul_cars_011</text>
+				<next>21</next>
+			</phrase>
+		<phrase id="12">
+				<dont_has_info>rul_car2_create</dont_has_info>
+				<precondition>rul.have_money_for_car2</precondition>
+				<text>rul_cars_012</text>
+				<next>22</next>
+			</phrase>
+		<phrase id="13">
+				<dont_has_info>rul_car3_create</dont_has_info>
+				<precondition>rul.have_money_for_car3</precondition>
+				<text>rul_cars_013</text>
+				<next>23</next>
+			</phrase>
+            <phrase id="21">
+				<text>rul_cars_021</text>
+				<action>rul.car1_spawn</action>
+				<give_info>rul_car1_create</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="22">
+				<text>rul_cars_022</text>
+				<action>rul.car2_spawn</action>
+				<give_info>rul_car2_create</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="23">
+				<text>rul_cars_023</text>
+				<action>rul.car3_spawn</action>
+				<give_info>rul_car3_create</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>rul_cars_002</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="5">
+				<text>rul_cars_005</text>
+			</phrase>
+			<phrase id="6">
+				<text>rul_cars_006</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="rul_barmen_cars">
+		<precondition>rul.barmen_has_cars</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>rul_cars_100</text>
+				<next>1</next>
+			</phrase>
+		<phrase id="1">
+				<text>rul_cars_101</text>
+				<action>rul.barmen_offers</action>
+				<next>14</next>
+				<next>16</next>
+				<next>5</next>
+			</phrase>
+		<phrase id="14">
+				<dont_has_info>rul_car4_create</dont_has_info>
+				<precondition>rul.have_money_for_car4</precondition>
+				<text>rul_cars_114</text>
+				<next>24</next>
+			</phrase>
+		<phrase id="16">
+				<dont_has_info>rul_car6_create</dont_has_info>
+				<precondition>rul.have_money_for_car6</precondition>
+				<text>rul_cars_116</text>
+				<next>26</next>
+			</phrase>
+            <phrase id="24">
+				<text>rul_cars_124</text>
+				<action>rul.car4_spawn</action>
+				<give_info>rul_car4_create</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="26">
+				<text>rul_cars_126</text>
+				<action>rul.car6_spawn</action>
+				<give_info>rul_car6_create</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>rul_cars_002</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="5">
+				<text>rul_cars_005</text>
+			</phrase>
+			<phrase id="6">
+				<text>rul_cars_006</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="rul_mudlo_cars">
+		<precondition>rul.mudlo_has_cars</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>rul_cars_200</text>
+				<next>1</next>
+			</phrase>
+		<phrase id="1">
+				<text>rul_cars_201</text>
+				<action>rul.mudlo_offers</action>
+				<next>15</next>
+				<next>5</next>
+			</phrase>
+		<phrase id="15">
+				<dont_has_info>rul_car5_create</dont_has_info>
+				<precondition>rul.have_money_for_car5</precondition>
+				<text>rul_cars_215</text>
+				<next>25</next>
+			</phrase>
+            <phrase id="25">
+				<text>rul_cars_225</text>
+				<action>rul.car5_spawn</action>
+				<give_info>rul_car5_create</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>rul_cars_002</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="5">
+				<text>rul_cars_005</text>
+			</phrase>
+			<phrase id="6">
+				<text>rul_cars_206</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************Cars have Suslov*************** -->
+	<dialog id="rul_syslov_cars">
+		<precondition>rul.syslov_has_cars</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>rul_cars_300</text>
+				<next>1</next>
+			</phrase>
+		<phrase id="1">
+				<text>rul_cars_301</text>
+				<action>rul.syslov_offers</action>
+				<next>15</next>
+				<next>16</next>
+				<next>5</next>
+			</phrase>
+		<phrase id="15">
+				<dont_has_info>rul_car7_create</dont_has_info>
+				<precondition>rul.have_money_for_car7</precondition>
+				<text>rul_cars_315</text>
+				<next>25</next>
+			</phrase>
+		<phrase id="16">
+				<dont_has_info>rul_car8_create</dont_has_info>
+				<precondition>rul.have_money_for_car8</precondition>
+				<text>rul_cars_415</text>
+				<next>26</next>
+			</phrase>
+            <phrase id="25">
+				<text>rul_cars_325</text>
+				<action>rul.car7_spawn</action>
+				<give_info>rul_car7_create</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="26">
+				<text>rul_cars_425</text>
+				<action>rul.car8_spawn</action>
+				<give_info>rul_car8_create</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>rul_cars_002</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="5">
+				<text>rul_cars_005</text>
+			</phrase>
+			<phrase id="6">
+				<text>rul_cars_206</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************Dialogue with Suslov about books*************** 109990, now from website -->
+	<dialog id="syslov_book_dialog">
+		<dont_has_info>syslov_dialog_books</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>syslov_book1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>syslov_book2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>syslov_book3</text>
+				<give_info>syslov_dialog_books</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************Dialogue with Suslov article about new locations*************** -->
+	<dialog id="syslov_locations_dialog">
+		<precondition>dmx_mod.syslov_moral_many</precondition>
+		<dont_has_info>syslov_dialog_zone_locations</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>syslov_locations1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>syslov_locations2</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>syslov_yes_locations</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>syslov_locations3</text>
+				<next>5</next>
+				<next>6</next>
+			</phrase>
+			<phrase id="5">
+				<text>syslov_kachat</text>
+				<action>dmx_mod.syslov_moral_many_dal</action>
+				<give_info>syslov_dialog_zone_locations</give_info>
+			</phrase>
+			<phrase id="6">
+				<text>syslov_ne_kachat</text>
+			</phrase>
+			<phrase id="3">
+				<text>syslov_no_locations</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************SHOPPING Unic have SUSLOVA*************** -->
+	<dialog id="syslov_uniq_items">
+		<phrase_list>
+			<phrase id="0">
+				<text>syslov_uniq1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>syslov_uniq2</text>
+				<next>2</next>
+				<next>7</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<dont_has_info>syslov_skat15upg</dont_has_info>
+				<precondition>dmx_mod.syslov_skat15_have</precondition>
+				<text>upgrade_skat</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>no_uniq</text>
+			</phrase>
+			<phrase id="4">
+				<text>syslov_upgrade_skat</text>
+				<next>5</next>
+				<next>6</next>
+			</phrase>
+			<phrase id="5">
+				<precondition>dmx_mod.skat15up_moral_many</precondition>
+				<precondition>dmx_mod.skat15up_art_have</precondition>
+				<text>yes_upgrade_skat</text>
+				<action>dmx_mod.skat15up_moral_many_dal</action>
+				<action>dmx_mod.upgrader_berem_otdal_art</action>
+				<give_info>syslov_skat15upg</give_info>
+			</phrase>
+			<phrase id="6">
+				<text>no_upgrade_skat</text>
+			</phrase>
+			<phrase id="7">
+				<dont_has_info>shadows_cube_dialog_start</dont_has_info>
+				<dont_has_info>syslov_shadows_cube_off</dont_has_info>
+				<text>shadows_cube</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>shadows_cube1</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>shadows_cube2</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>shadows_cube3</text>
+				<next>11</next>
+				<next>12</next>
+			</phrase>
+			<phrase id="11">
+				<text>shadows_cube_yes</text>
+				<give_info>shadows_cube_dialog_start</give_info>
+				<action>dmx_mod.spawn_sc_outfit</action>
+			</phrase>
+			<phrase id="12">
+				<text>shadows_cube_no</text>
+				<give_info>syslov_shadows_cube_off</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************Dialogue with Suslov about storm, 110003*************** -->
+	<dialog id="tb3d_yan_saharov_storm">
+		<has_info>tb3d_sms_storm_areas</has_info>
+		<dont_has_info>tb3d_syslov_dialog_storm</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>syslov_storm1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>syslov_storm2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>syslov_storm3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>syslov_storm4</text>
+				<give_info>tb3d_syslov_dialog_storm</give_info>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>syslov_storm5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************Barter grub Y COLD*************** -->
+	<dialog id="holod_dmx_food_barter">
+		<phrase_list>
+			<phrase id="0">
+				<text>holod_dmx_food1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>holod_dmx_food2</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>14</next>
+			</phrase>
+			<phrase id="2">
+				<text>holod_sigaret</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>holod_sigaret1</text>
+				<next>6</next>
+				<next>7</next>
+				<next>14</next>
+			</phrase>
+			<phrase id="6">
+				<precondition>dmx_mod.holod_dmx_food_mechta_prov</precondition>
+				<text>holod_sigaret_mechta</text>
+				<action>dmx_mod.mechta_otdal_pol_col</action>
+			</phrase>
+			<phrase id="7">
+				<precondition>dmx_mod.holod_dmx_food_sigara_prov</precondition>
+				<text>holod_sigaret_sigara</text>
+				<action>dmx_mod.sigara_otdal_pol_col</action>
+			</phrase>
+			<phrase id="3">
+				<text>holod_vodka</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>holod_vodka1</text>
+				<next>9</next>
+				<next>10</next>
+				<next>14</next>
+			</phrase>
+			<phrase id="9">
+				<precondition>dmx_mod.holod_absolut_prov</precondition>
+				<text>holod_2_absol</text>
+				<action>dmx_mod.absolut_otdal_pol_kaz</action>
+			</phrase>
+			<phrase id="10">
+				<precondition>dmx_mod.holod_smirnoff_prov</precondition>
+				<precondition>dmx_mod.holod_dialog_many_food_prov</precondition>
+				<text>holod_smirnov_and_many</text>
+				<action>dmx_mod.holod_dialog_many_food_otdal</action>
+				<action>dmx_mod.smirnoff_otdal_pol_kaz</action>
+			</phrase>
+			<phrase id="4">
+				<text>holod_kolbasa</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>holod_kolbasa1</text>
+				<next>12</next>
+				<next>13</next>
+				<next>14</next>
+			</phrase>
+			<phrase id="12">
+				<precondition>dmx_mod.holod_kolbasadmx_prov</precondition>
+				<text>holod_kolbasa_doctor</text>
+				<action>dmx_mod.kolbasa_dmx_dal_pol_kolba</action>
+			</phrase>
+			<phrase id="13">
+				<precondition>dmx_mod.holod_chernigov_prov</precondition>
+				<text>holod_chernigov</text>
+				<action>dmx_mod.chernigov_otdal_pol_kol</action>
+			</phrase>
+			<phrase id="14">
+				<text>holod_no_barter</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************OPENING DIALOGUE Y COLD*************** -->
+	<dialog id="holod_start_dialog">
+		<dont_has_info>holod_start_dialog_off</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>holod_start_dialog0</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>holod_start_dialog1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>holod_start_dialog2</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>holod_start_dialog_nem</text>
+				<action>dmx_mod.nemiroff_vodka_berem</action>
+				<give_info>holod_start_dialog_off</give_info>
+				<!-- *************** !!!!TB3D 134 *************** -->
+				<next>11</next>
+			</phrase>
+			<phrase id="3">
+				<text>holod_start_dialog_abs</text>
+				<action>dmx_mod.absolut_vodka_berem</action>
+				<give_info>holod_start_dialog_off</give_info>
+				<!-- *************** !!!!TB3D 134 *************** -->
+				<next>11</next>
+			</phrase>
+			<phrase id="4">
+				<text>holod_start_dialog_smir</text>
+				<action>dmx_mod.smirnoff_vodka_berem</action>
+				<give_info>holod_start_dialog_off</give_info>
+				<!-- *************** !!!!TB3D 134 *************** -->
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>holod_start_dialog_history</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>holod_start_dialog3</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>holod_start_dialog4</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>holod_start_dialog5</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>holod_start_dialog6</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>holod_start_dialog_over</text>
+				<give_info>price_holod_barter_info</give_info>
+				<give_info>holod_start_dialog_off</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************CONTINUATION OF CUBA IN SHADOW**********109991 -->
+	<dialog id="syslov_shadows_cube">
+		<has_info>shadows_cube_dialog_start</has_info>
+		<has_info>shadows_cube_prov_check</has_info>
+		<dont_has_info>syslov_shadows_cube_off</dont_has_info>
+		<precondition>dmx_mod.shadows_cube_prov</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>shadows_cube_prines</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>shadows_cube_prines1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>shadows_cube_prines2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>shadows_cube_prines3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>shadows_cube_prines4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>shadows_cube_prines5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>shadows_cube_prines6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>shadows_cube_prines7</text>
+				<next>8</next>
+				<next>9</next>
+			</phrase>
+			<phrase id="8">
+				<text>shadows_cube_prines_yes</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="9">
+				<text>shadows_cube_prines_no</text>
+				<action>dmx_mod.shadows_cube_otdal</action>
+				<action>dmx_mod.shadows_cube_many_25000</action>
+				<give_info>syslov_shadows_cube_off</give_info>
+			</phrase>
+			<phrase id="10">
+				<text>shadows_cube_prines_yes1</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>shadows_cube_prines_yes2</text>
+				<action>dmx_mod.shadows_cube_otdal</action>
+				<action>dmx_mod.shadows_spawn</action>
+				<give_info>syslov_shadows_cube_off</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************Shadows - !!!!TB3D new 134*************** -->
+	<dialog id="start_shadows_dialog">
+		<dont_has_info>start_shadows_dialog_off</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>start_shadows_dialog0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>start_shadows_dialog1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>start_shadows_dialog2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>start_shadows_dialog3</text>
+				<next>33</next>
+			</phrase>
+			<phrase id="33">
+				<text>start_shadows_dialog4</text>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>start_shadows_dialog4_good</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="5">
+				<text>start_shadows_dialog4_bad</text>
+				<action>dmx_mod.shadows_enemy</action>
+				<give_info>start_shadows_dialog_off</give_info>
+				<next>9</next>
+			</phrase>
+			<phrase id="6">
+				<text>start_shadows_dialog5</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>start_shadows_dialog6</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>start_shadows_dialog7</text>
+				<action>dmx_mod.fake_cube_dal</action>
+				<give_info>start_shadows_dialog_off</give_info>
+				<give_info>shadows_friend</give_info>
+				<next>10</next>
+			</phrase>
+			<phrase id="9">
+				<text>start_shadows_dialog9_bad</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text></text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="start_shadows_dialog_bad">
+		<has_info>start_shadows_dialog_off</has_info>
+		<dont_has_info>shadows_friend</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>shadows_quest_cube_bad0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>shadows_quest_cube_bad1</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="shadows_quest_cube">
+		<dont_has_info>shadows_quest_cube_off</dont_has_info>
+		<has_info>shadows_friend</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>shadows_quest_cube0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>shadows_quest_cube1</text>
+				<action>dmx_mod.fake_cube_otdal</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>shadows_quest_cube2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>shadows_quest_cube3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>shadows_quest_cube4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>shadows_quest_cube5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>shadows_quest_cube6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>shadows_quest_cube7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>shadows_quest_cube8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>shadows_quest_cube9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>shadows_quest_cube10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>shadows_quest_cube11</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>shadows_quest_cube12</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="13">
+				<text>shadows_quest_cube13</text>
+				<next>14</next>
+			</phrase>
+			<phrase id="14">
+				<text>shadows_quest_cube14</text>
+				<action>dmx_mod.cube_pripyat_spawn</action>
+				<action>dmx_mod.pripyat_to_cop_pripyat</action>
+				<give_info>start_cube_quest</give_info>
+				<give_info>shadows_quest_cube_off</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="shadows_final_cube_dialog">
+		<has_info>wpn_soulcube_vzal</has_info>
+		<dont_has_info>shadows_final_cube</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>shadows_final_cube_dialog0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>shadows_final_cube_dialog1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>shadows_final_cube_dialog2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>shadows_final_cube_dialog3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>shadows_final_cube_dialog4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>shadows_final_cube_dialog5</text>
+				<next>6</next>
+				<next>7</next>
+			</phrase>
+			<phrase id="6">
+				<precondition>dmx_mod.item_doc_x8_have</precondition>
+				<text>shadows_final_cube_dialog_yes_dnev</text>
+				<action>dmx_mod.give_item_doc_x8</action>
+				<action>dmx_mod.dal_many_500</action>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>shadows_final_cube_dialog_yes_dnev_1</text>
+				<next>10</next>
+				<next>11</next>
+				<next>12</next>
+				<next>13</next>
+			</phrase>
+			<phrase id="7">
+				<text>shadows_final_cube_dialog_no_dnev</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>shadows_final_cube_dialog_no_dnev_1</text>
+				<next>10</next>
+				<next>11</next>
+				<next>12</next>
+				<next>13</next>
+			</phrase>
+			<phrase id="10">
+				<precondition>dmx_mod.dmx_military_map_have</precondition>
+				<text>shadows_final_cube_dialog_as_plan</text>
+				<action>dmx_mod.give_dmx_military_map</action>
+				<action>dmx_mod.dal_many_500</action>
+				<next>14</next>
+			</phrase>
+			<phrase id="11">
+				<precondition>dmx_mod.dmx_pripyat_map_have</precondition>
+				<text>shadows_final_cube_dialog_pripyat</text>
+				<action>dmx_mod.give_dmx_pripyat_map</action>
+				<action>dmx_mod.dal_many_500</action>
+				<next>14</next>
+			</phrase>
+			<phrase id="12">
+				<precondition>dmx_mod.item_doc_x8_2_have</precondition>
+				<text>shadows_final_cube_dialog_doc_x8</text>
+				<action>dmx_mod.give_item_doc_x8_2</action>
+				<action>dmx_mod.dal_many_500</action>
+				<next>14</next>
+			</phrase>
+			<phrase id="13">
+				<text>shadows_final_cube_dialog_not</text>
+				<next>16</next>
+			</phrase>
+			<phrase id="14">
+				<text>shadows_final_cube_dialog_aga</text>
+				<next>15</next>
+				<next>13</next>
+			</phrase>
+			<phrase id="15">
+				<text>shadows_final_cube_dialog_yes_smotri</text>
+				<next>18</next>
+			</phrase>
+			<phrase id="18">
+				<text>shadows_final_cube_dialog_aga_2</text>
+				<next>10</next>
+				<next>11</next>
+				<next>12</next>
+				<next>13</next>
+			</phrase>
+			<phrase id="16">
+				<text>shadows_final_cube_dialog6</text>
+				<next>17</next>
+			</phrase>
+			<phrase id="17">
+				<text>shadows_final_cube_dialog7</text>
+				<give_info>shadows_final_cube</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************BASE stalkers in Pripyat*************** -->
+	<!-- ***************Stalker Sanya*************** -->
+	<dialog id="alex_start_dialog">
+		<dont_has_info>alex_start_dialog_off</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>alex_start_dialog0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>alex_start_dialog1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>alex_start_dialog2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>alex_start_dialog3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>alex_start_dialog4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>alex_start_dialog5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>alex_start_dialog6</text>
+				<give_info>alex_start_dialog_off</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="alex_dialog_1">
+		<has_info>start_cop_prip_info_lab</has_info>
+		<dont_has_info>alex_dialog_1_off</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>alex_dialog_1_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>alex_dialog_1_2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>alex_dialog_1_3</text>
+				<give_info>alex_dialog_1_off</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************Formidable*************** -->
+	<dialog id="grozn_start_dialog">
+		<dont_has_info>grozn_start_dialog_off</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>grozn_start_dialog0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>grozn_start_dialog1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>grozn_start_dialog2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>grozn_start_dialog3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>grozn_start_dialog4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>grozn_start_dialog5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>grozn_start_dialog6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>grozn_start_dialog7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>grozn_start_dialog8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>grozn_start_dialog9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>grozn_start_dialog10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>grozn_start_dialog11</text>
+				<action>dmx_mod.monsters_quest_spawn</action>
+				<give_info>start_cop_prip_info_lab</give_info>
+				<give_info>grozn_start_dialog_off</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************Sage*************** -->
+	<dialog id="mydrec_start_dialog">
+		<dont_has_info>mydrec_start_dialog_off</dont_has_info>
+		<dont_has_info>mydrec_start_dialog_yes_nabor</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>mydrec_start_dialog0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>mydrec_start_dialog1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>mydrec_start_dialog2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>mydrec_start_dialog3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>mydrec_start_dialog4</text>
+				<next>5</next>
+				<next>6</next>
+			</phrase>
+			<phrase id="5">
+				<text>mydrec_start_dialog_jal</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="6">
+				<text>mydrec_start_dialog_vodka_go</text>
+				<action>dmx_mod.actor_drinking_vodka</action>
+				<next>9</next>
+			</phrase>
+			<phrase id="7">
+				<text>mydrec_start_dialog5</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>mydrec_start_dialog6</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>mydrec_start_dialog7</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>mydrec_start_dialog8</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>mydrec_start_dialog9</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>mydrec_start_dialog10</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="13">
+				<text>mydrec_start_dialog11</text>
+				<next>14</next>
+			</phrase>
+			<phrase id="14">
+				<text>mydrec_start_dialog12</text>
+				<next>15</next>
+			</phrase>
+			<phrase id="15">
+				<text>mydrec_start_dialog13</text>
+				<next>16</next>
+				<next>17</next>
+			</phrase>
+			<phrase id="16">
+				<text>mydrec_start_dialog_yes_nabor</text>
+				<next>18</next>
+			</phrase>
+			<phrase id="18">
+				<text>mydrec_start_dialog14</text>
+				<next>19</next>
+				<next>20</next>
+			</phrase>
+			<phrase id="19">
+				<text>mydrec_start_dialog15_yes</text>
+				<action>dmx_mod.instruments_spawn</action>
+				<give_info>mydrec_start_dialog_yes_nabor</give_info>
+			</phrase>
+			<phrase id="20">
+				<text>mydrec_start_dialog15_no</text>
+				<give_info>mydrec_start_dialog_off</give_info>
+			</phrase>
+			<phrase id="17">
+				<text>mydrec_start_dialog_no_nabor</text>
+				<give_info>mydrec_start_dialog_off</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="mudrec_instruments">
+		<has_info>mydrec_start_dialog_off</has_info>
+		<dont_has_info>mydrec_start_dialog_yes_nabor</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>mudrec_instruments0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>mudrec_instruments1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>mudrec_instruments2</text>
+				<action>dmx_mod.instruments_spawn</action>
+				<give_info>mydrec_start_dialog_yes_nabor</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="mudrec_instruments_prines">
+		<has_info>cop_instruments_vzal</has_info>
+		<dont_has_info>mudrec_instruments_otdal</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>mudrec_instruments_prines0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>mudrec_instruments_prines1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>mudrec_instruments_prines2</text>
+				<action>dmx_mod.give_cop_pripyat_instruments</action>
+				<give_info>mudrec_instruments_otdal</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************TALK ABOUT U SIDOROVICH Armor*************** -->
+	<dialog id="sidorovich_outfit_blockpost_dialog">
+		<has_info>escape_blockpost_case</has_info>	<!-- 110016.8, new - escape_blockpost_case - aleks1970 -->
+		<has_info>specops_outfit_have_info</has_info>
+		<dont_has_info>dmx_escape_blockpost_case</dont_has_info>	<!-- 110017 escape_blockpost_case - aleks1970 -->
+		<phrase_list>
+			<phrase id="0">
+				<text>sidorovich_outfit_blockpost_dialog0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>sidorovich_outfit_blockpost_dialog1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>sidorovich_outfit_blockpost_dialog2</text>
+				<action>dmx_mod.blockpost_quest_spawn</action>
+				<action>dmx_mod.give_certificate_and_key</action>
+				<give_info>dmx_escape_blockpost_case</give_info>	<!-- 110017 escape_blockpost_case - aleks1970 -->
+				<action>escape_tasks.dmx_blockpost_gulag_set</action>	<!-- 110017 - aleks1970 -->
+			<!--	<give_info>actor_propusk_info</give_info>	-->	<!-- 110017 - aleks1970 -->
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************CONDUCTOR*************** -->
+	<dialog id="kombat_start_dialog">
+		<dont_has_info>kombat_start_dialog_off</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>kombat_start0</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>kombat_start1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>kombat_start2</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>kombat_start3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>kombat_start4</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>kombat_start5</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>kombat_start6</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>kombat_start7</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>kombat_start8</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>kombat_start9</text>
+				<give_info>kombat_start_dialog_off</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<!-- ***************Tote has SUSLOVA*************** -->
+	<dialog id="totalizator">
+		<precondition>game_totalizator.precond_2</precondition>
+		<dont_has_info>totalizator</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>totalizator_0</text>
+				<next>1</next>
+				<next>21</next>
+			</phrase>
+			<phrase id="1">
+				<text>totalizator_1</text>
+				<precondition>game_totalizator.precond_6</precondition>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>totalizator_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>totalizator_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>totalizator_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>totalizator_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>totalizator_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>totalizator_7</text>
+				<action>game_totalizator.random_dialog</action>
+				<next>8</next>
+				<next>9</next>
+				<next>10</next>
+				<next>11</next>
+				<next>12</next>
+				<next>13</next>
+				<next>14</next>
+				<next>15</next>
+				<next>16</next>
+				<next>17</next>
+				<next>18</next>
+			</phrase>
+			<phrase id="8">
+				<text>totalizator_8</text>
+				<has_info>frase_1</has_info>
+				<next>19</next>
+			</phrase>
+			<phrase id="9">
+				<text>totalizator_9</text>
+				<has_info>frase_2</has_info>
+				<next>19</next>
+			</phrase>
+			<phrase id="10">
+				<text>totalizator_10</text>
+				<has_info>frase_3</has_info>
+				<next>19</next>
+			</phrase>
+			<phrase id="11">
+				<text>totalizator_11</text>
+				<has_info>frase_4</has_info>
+				<next>19</next>
+			</phrase>
+			<phrase id="12">
+				<text>totalizator_12</text>
+				<has_info>frase_5</has_info>
+				<next>19</next>
+			</phrase>
+			<phrase id="13">
+				<text>totalizator_13</text>
+				<has_info>frase_6</has_info>
+				<next>19</next>
+			</phrase>
+			<phrase id="14">
+				<text>totalizator_14</text>
+				<has_info>frase_7</has_info>
+				<next>19</next>
+			</phrase>
+			<phrase id="15">
+				<text>totalizator_15</text>
+				<has_info>frase_8</has_info>
+				<next>19</next>
+			</phrase>
+			<phrase id="16">
+				<text>totalizator_16</text>
+				<has_info>frase_9</has_info>
+				<next>19</next>
+			</phrase>
+			<phrase id="17">
+				<text>totalizator_17</text>
+				<has_info>frase_10</has_info>
+				<next>19</next>
+			</phrase>
+			<phrase id="18">
+				<text>totalizator_18</text>
+				<action>game_totalizator.disable_portion</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="19">
+				<text>totalizator_19</text>
+				<action>game_totalizator.transfer_stavka</action>
+				<give_info>totalizator</give_info>
+				<next>20</next>
+			</phrase>
+			<phrase id="20">
+				<text>totalizator_20</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="21">
+				<text>totalizator_21</text>
+				<precondition>game_totalizator.precond_5</precondition>
+				<next>22</next>
+			</phrase>
+			<phrase id="22">
+				<text>totalizator_22</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="give_prize">
+		<precondition>game_totalizator.precond</precondition>
+		<dont_has_info>totalizator</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>give_prize_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>give_prize_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>give_prize_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>give_prize_3</text>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>give_prize_4</text>
+				<action>game_totalizator.give_prize</action>
+			</phrase>
+			<phrase id="5">
+				<text>give_prize_5</text>
+				<action>game_totalizator.transfer_bank</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="give_dolg">
+		<precondition>game_totalizator.precond_3</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>give_dolg_0</text>
+				<action>game_totalizator.give_dolg</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>give_dolg_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="take_deposit">
+		<precondition>game_totalizator.precond_4</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>take_deposit_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>take_deposit_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>take_deposit_2</text>
+				<give_info>dep_1</give_info>
+				<next>5</next>
+			</phrase>
+			<phrase id="3">
+				<text>take_deposit_3</text>
+				<give_info>dep_2</give_info>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>take_deposit_4</text>
+				<give_info>dep_3</give_info>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>take_deposit_5</text>
+				<action>game_totalizator.transfer_deposit</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>take_deposit_6</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+</game_dialogs>

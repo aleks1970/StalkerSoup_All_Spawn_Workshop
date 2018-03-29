@@ -1,0 +1,284 @@
+;;;; TB3D 1.0.9.9.9.8 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[wpn_m16_sniper]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn                  = "weapons\m16a2_sk1"					; option for Level Editor
+$npc			 		= on				; option for Level Editor
+$prefetch 		 		= 8
+scheduled               = off              ; option for ALife Simulator
+cform                   = skeleton
+class                   = WP_AK74
+min_radius              = 0
+max_radius              = 800
+description				= desc_m16_sniper_descr
+
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0		       ; eye_range 
+holder_fov_modifier		= 0.7              ; eye_fov
+;-----------------------------------------------------------------------------------
+weapon_class			= assault_rifle		; the type of the box that will be used in buy-menu in multiplayer mode
+cost					= 16000				; the price of the item
+ammo_limit				= 210
+ammo_current			= 30
+ammo_elapsed			= 18
+
+ammo_mag_size			= 18				; clip (magazine) size
+grenade_class			= ammo_m209
+ammo_class				= ammo_5.56x45_ss190, ammo_5.56x45_ap
+fire_modes				= 1, 2, 4, -1
+launch_speed			= 0
+
+hand_dependence			= 1					; how many hands (1 or 2) we used to hold weapon in
+single_handed			= 0
+
+inv_name				= desc_m16_sniper
+inv_name_short			= desc_m16_sniper_s
+inv_weight				= 2.89
+
+inv_grid_width     		= 5
+inv_grid_height    		= 2
+inv_grid_x         		= 53
+inv_grid_y         		= 10
+
+kill_msg_x				= 175
+kill_msg_y				= 0
+kill_msg_width			= 82
+kill_msg_height			= 28
+slot 					= 2					; number of slot in inventory we put weapon in (1 - knife slot, 2 - pistol, 3 - rifle, 4 - grenade, 5 - apparatus)
+animation_slot			= 2					; type of the animation that will be used
+f_mode					= 2
+
+;-----------------------------------------------------------------------------------
+; base dispersion
+;
+; === Setting of the weapon shooting dispersal parameter ===
+;Dispersal consists from to basic constituents – dispersal of the weapon (relatively small). In fact, this is a dispersal of a weapon griped in a vice; - dispersal of the weapon behavior in the hands of the host (if he running, or walking or shoots in single shots or in a burst) is another, more significant factor of dispersal. 
+;Dispersal of the weapon depends only from basic dispersal, basket case factor ant time of the ammo.
+;Dispersal of the way the host shooting (standing, running and etc.)
+;Two types of shooting modes can be defined: - usual mode and zoomed mode.  
+;Usual mode: - depends from the position of the player while shooting (standing, sitting, walking and running)
+;Zoomed mode – depends from the dispersal of the weapon and do NOT depends from the position of the shooter. In that mode, dispersal of the weapon &laquo switches to;&raquo;  sight swinging (created be effector). 
+;Weapon recoil in the game also created by recoil effector. 
+;
+;-----------------------------------------------------------------------------------
+;params of weapon recoil
+fire_dispersion_base			= 0.001		 	
+control_inertion_factor			= 1.25f
+
+cam_relax_speed         		= 5.0 		
+cam_relax_speed_ai         		= 10
+cam_dispersion          		= 0.13		
+cam_dispersion_inc				= 0.23			;cam_dispersion
+cam_dispertion_frac				= 0.45			;cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle					= 10.0			
+cam_max_angle_horz				= 14.0			;(degree) maximum shot horizontal degree 
+cam_step_angle_horz				= 2.8			;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor 	= 1.2		
+misfire_probability 			= 0.007 
+misfire_condition_k				= 0.1 
+condition_shot_dec 				= 0.0002 
+disp_rate = 1.85
+;-----------------------------------------------------------------------------------
+direction               = 0, 0, 1
+fire_point              = 0.0, 0.227, 0.709	;--;fire_point2  = 0.0, 0.100, 0.595 excluded - aleks1970
+
+flame_particles			= weapons\generic_weapon05	; particles for shooting effects
+shell_particles	 		= weapons\arsenal_shells1	; name of the particles for shells
+grenade_flame_particles	= weapons\generic_weapon01
+
+shell_point             = 0.120000,0.200000,0.070000
+shell_dir               = 0.0, 0.0, 0.4
+
+rpm_empty_click 	 	= 200
+PDM_disp_base 			= 1.1
+PDM_disp_vel_factor 	= 0.8
+PDM_disp_accel_factor 	= 0.8
+PDM_crouch	 			= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+hit_power        		= 0.44
+hit_impulse	        	= 30
+hit_type 	        	= fire_wound
+hit_rate	        	= 1.85
+fire_distance       	= 280					;;;109974 10:1
+bullet_speed			= 948
+rpm                 	= 650 
+
+use_aim_bullet			= true
+time_to_aim				= 1.0
+
+
+hud						= wpn_m16_hud
+normal                  = 0, 1, 0
+position				= -0.026, -0.170, 0.0
+orientation				= 0,0,0						; (3rd person view)
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.16,-0.40,0.15			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -10,-5,10					; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+startup_ammo            	= 1000
+visual                   	= dav_wpn_xp1\sniper\m16_sniper\m16_sniper.ogf
+light_color					= 0.6,0.5,0.3				; params for light during the fire
+light_range					= 5							; radius
+light_var_color				= 0.05						
+light_var_range				= 0.5
+light_time 					= 0.2						
+ph_mass						= 5							; physic mass (kg)
+
+
+
+;addons
+scope_status				= 1							; 0 - no addon
+silencer_status				= 2							; 1 - permanent
+grenade_launcher_status		= 2							; 2 - attachable
+
+scope_name 						= wpn_scope_colt   
+scope_texture					= arsenal_mod\crosshairs\colt_scope      
+scope_x 						= 79
+scope_y 						= -8
+
+silencer_name  					= wpn_addon_sil_556_ar                
+silencer_x                  	= 218
+silencer_y                  	= 17
+
+grenade_launcher_name 			= wpn_addon_grenade_launcher_m203
+grenade_launcher_x 				= 117
+grenade_launcher_y 				= 33
+grenade_vel						= 75
+
+;params when silencer is attached 
+;similar to corresponding params without prefix silencer_
+
+;silencer_flame_particles 		= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+silencer_light_color			= 0.6,0.5,0.3
+silencer_light_range			= 0.01
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_light_time 			= 0.2
+
+zoom_enabled					= true						; (on,off)zoom mode (right mouse button)
+scope_zoom_factor	    		= 55						; fov for zoom mode
+
+silencer_hit_power       		= 0.44
+silencer_hit_impulse	 		= 25
+silencer_fire_distance   		= 18					;;;109974 10:1
+silencer_bullet_speed	 		= 948
+
+;sounds (name of the sound, volume (0.0 - 1.0), delay (sec))
+snd_draw						= psevdo_sounds\draw, 0.5
+snd_holster						= psevdo_sounds\holster, 0.4
+snd_shoot						= psevdo_sounds\m16\m16_shoot
+snd_shoot1						= psevdo_sounds\m16\m16_shoot1
+snd_empty						= psevdo_sounds\nato_empty, 0.6
+snd_reload						= psevdo_sounds\m16\ar15_reload, 0.9, 0.15
+snd_shoot_grenade				= psevdo_sounds\M203\M203_shot
+snd_reload_grenade				= psevdo_sounds\M203\M203_gosuke_reload, 1.0, 0.11
+snd_switch						= psevdo_sounds\M203\switch, 1.0, 0.5
+snd_silncer_shot				= psevdo_sounds\silenser\lr300_shot_sil, 0.7
+
+;-----------------------------------------------------------------------------
+;-- HUD DESCRIPTION
+;-----------------------------------------------------------------------------
+ 
+[wpn_m16_hud]
+;similar to corresponding params in weapon section but for 1st person view
+
+shell_point						= 0.028,0.029,-0.063
+shell_dir               		= 0.0, 1.0, 0.0
+fire_bone               		= wpn_body
+;-;fire_point 						= 0.012500, 0.051500,0.237000
+;-;fire_point2						= 0.060500,-6.929000,-0.497000
+fire_point              		= 0.13,0.0,0.0
+fire_point2             		= 0.13,0.0,-0.09
+
+orientation 					= 2.00000,  2.000000,  0
+position						= -0.015,-0.15999,0.08000
+visual           	        	= dav_wpn_xp1\sniper\m16_sniper\m16_sniper_hud.ogf
+grenade_bone            		= grenka1	;-;grenade - aleks1970
+
+anim_idle						= idle
+anim_idle_aim					= idle_aim	;-;idle - aleks1970
+anim_reload						= reload
+anim_draw						= draw
+anim_holster					= holster
+anim_shoot						= shoot
+anim_idle_sprint				= idle_sprint
+
+; animation names
+; attached grenade launcher [GRENADE fire mode]
+anim_idle_g						= idle_g
+anim_idle_g_aim					= idle_g_aim
+anim_reload_g					= reload_g
+anim_shoot_g					= shoot_g
+anim_switch_grenade_on			= g_on
+anim_switch_grenade_off			= g_off
+anim_draw_g						= draw_g
+anim_holster_g					= holster_g	;-;holster - aleks1970
+
+; attached grenade launcher [NORMAL fire mode]
+anim_idle_gl					= idle_w_gl
+anim_idle_gl_aim				= idle_w_gl_aim
+anim_reload_gl					= reload_w_gl
+anim_draw_gl					= draw_w_gl
+anim_holster_gl					= holster_w_gl	;-;holster - aleks1970
+anim_shoot_gl					= shoot_w_gl
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;HUD offset in zoom mode (to all)
+;(use CONSOLE: hud_adjust_mode 0,1,2, then keys WSADQE and P to show current value in console)
+
+zoom_offset						= -0.125400,0.021700,-0.050000
+zoom_rotate_x					= 0.0271
+zoom_rotate_y					= 0.0243
+
+zoom_hide_crosshair	= true						;to hide crosshair in zoom 
+
+; same as above, but for attached grenade launcher for
+; in NORMAL shoot mode
+grenade_normal_zoom_offset		= -0.125400,0.021700,-0.050000
+grenade_normal_zoom_rotate_x	= 0.0271
+grenade_normal_zoom_rotate_y	= 0.0243
+
+; same as above, but for attached grenade launcher for
+; in GRENADE mode
+grenade_zoom_offset				= -0.138700,-0.135800,0.300000  ;= -0.087700,-0.135800,0.300000
+grenade_zoom_rotate_x			= -0.171400
+grenade_zoom_rotate_y			= 0.026
+
+zoom_rotate_time	       	 	= 0.3
+rotate_time			        	= 0.2
+
+
+[wpn_scope_colt]:identity_immunities
+GroupControlSection	= spawn_group
+discovery_dependency = 
+$spawn							= "weapons\addons\scope_colt" ; option for Level Editor
+class							= WP_SCOPE
+cform           				= skeleton
+visual          				= dav_wpn_xp1\upgrades\scope_colt-w.ogf
+$prefetch 						= 32
+description						= dav_wpn_scope_m16_descr
+cost							= 2000
+
+holder_range_modifier			= 1.2
+holder_fov_modifier				= 0.3
+
+inv_name						= dav_wpn_scope_m16
+inv_name_short					= dav_wpn_scope_m16_s
+inv_weight						= 0.6
+
+inv_grid_width     				= 1
+inv_grid_height    				= 1
+inv_grid_x         				= 35
+inv_grid_y         				= 44
+scope_texture					= arsenal_mod\crosshairs\colt_scope
+scope_zoom_factor				= 25		
+
+

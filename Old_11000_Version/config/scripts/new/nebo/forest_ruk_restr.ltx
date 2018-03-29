@@ -1,0 +1,15 @@
+;;TB3D 1.0.9.9.7.5 zver_taken
+
+[logic]
+active = sr_idle@one
+
+[sr_idle@one]
+on_info = {+shadowman_zver_start} sr_idle@two
+
+[sr_idle@two]
+on_actor_inside = sr_idle@tri %+shadowman_zver_rukzak% 
+on_info = {+shadowman_zver_taken} sr_idle@tri %+shadowman_zver_rukzak% 
+
+[sr_idle@tri]
+on_timer = 10000 | nil 
+

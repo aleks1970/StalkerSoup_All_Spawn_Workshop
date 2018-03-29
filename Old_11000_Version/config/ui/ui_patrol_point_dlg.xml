@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ************ TB3D 1.1.0.0.1.7 *************** -->
+<window>
+	<background x="0" y="0" width="1024" height="768">
+		<texture x="0" y="0" width="1024" height="768">ui\ui_ingame2_back_01</texture>
+	</background>
+	<form x="256" y="168" width="560" height="460">
+		<texture>ui_menu_options_dlg</texture>
+		<!-- <texture x="0" y="0" width="1024" height="768">ui\ui_pda</texture> -->
+		<!-- <texture>ui_pda</texture> -->
+		<caption x="30" y="0" width="500" height="25" complex_mode="0">
+			<text x="120" y="2" font="graffiti32" r="238" g="155" b="23" a="255" align="l">Save point</text>
+		</caption>
+		
+		<label_patrol_name x="85" y="77" width="50" height="23">
+			<text font="letterica18" r="238" g="155" b="23">Patrol name</text>
+		</label_patrol_name>
+		
+		<patrol_name x="170" y="72" width="280" height="23">
+			<texture>ui_linetext_e</texture>
+			<text font="letterica18" r="240" g="217" b="182"/>
+		</patrol_name>
+		
+		<label_patrol_position_name x="85" y="97" width="50" height="23">
+			<text font="letterica18" r="238" g="155" b="23">Position name</text>
+		</label_patrol_position_name>
+		
+		<patrol_position_name x="170" y="92" width="280" height="23">
+			<texture>ui_linetext_e</texture>
+			<text font="letterica18" r="240" g="217" b="182"/>
+		</patrol_position_name>
+		
+		<label_anim_name x="85" y="112" width="50" height="23">
+			<text font="letterica18" r="238" g="155" b="23">Animation</text>
+		</label_anim_name>
+		
+		<anim_name x="170" y="107" width="280" height="23">
+			<texture>ui_linetext_e</texture>
+			<text font="letterica18" r="240" g="217" b="182"/>
+		</anim_name>
+		
+		<label_sig_name x="85" y="147" width="50" height="23">
+			<text font="letterica18" r="238" g="155" b="23">Signal</text>
+		</label_sig_name>
+		
+		<sig_name x="170" y="142" width="280" height="23">
+			<texture>ui_linetext_e</texture>
+			<text font="letterica18" r="240" g="217" b="182"/>
+		</sig_name>
+
+		<frame x="80" y="190" width="429" height="180">
+			<texture>ui_tablist_textbox</texture>
+		</frame>
+		
+		<list_view x="85" y="200" width="240" height="290" item_height="18">
+			<font font="letterica16" r="216" g="186" b="140" />
+		</list_view>
+
+		<btn_save x="201" y="390" width="157" height="48">
+			<texture>ui_button_main01</texture>
+			<text font="graffiti22">Save</text>
+			<text_color>
+				<e r="227" g="199" b="178"/>
+				<t r="180" g="153" b="155"/>
+				<d r="106" g="95" b="91"/>
+				<h r="0" g="0" b="0"/>
+			</text_color>
+		</btn_save>
+
+		<btn_cancel x="357" y="390" width="157" height="48">
+			<texture>ui_button_main01</texture>			
+			<text font="graffiti22">ui_mm_cancel</text>
+			<text_color>
+				<e r="227" g="199" b="178"/>
+				<t r="180" g="153" b="155"/>
+				<d r="106" g="95" b="91"/>
+				<h r="0" g="0" b="0"/>
+			</text_color>
+		</btn_cancel>
+	</form>
+</window>

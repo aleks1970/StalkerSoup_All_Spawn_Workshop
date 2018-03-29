@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.4 -->
+<!-- Translated and corrected by Steve90k for fluency and ease of reading. Edited and proofed by Sword2012 for clarity, brevity, and consistency. 07 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 12 Dec 16 -->
+	<string id="agr_find_ghost_descr">
+		<text>I learned that one of Strelok's group was called Ghost. Theres some kind of connection. If I find Ghost, I'll be one step closer to finding Strelok...</text>
+	</string>
+	<string id="agr_journal_cache">
+		<text>Well, the cache gave me a new lead. I found a flash drive that the group used as a 'log book'. Posts on it were basic, but enough to understand that in Strelok's group were two others - Ghost and Fang. There was a mention of a 'mutual friend' who provided substantial assistance to the group, but there are no clues as whether he was a member or not. According to Ghost, Fang died when they were ambushed together. So Ghost should know where Strelok is. Finally - something concrete! Judging from the correspondence, I need to head further North...</text>
+	</string>
+	<string id="agr_journal_krot">
+		<text>Well, the meeting with Mole was productive. Perhaps the group's in hiding. Maybe in the catacombs under the Research Institute. I need to find out what's down there and, hopefully, find Strelok's secret stash...</text>
+	</string>
+	<string id="agr_krot_secret_info">
+		<text>Mole: "Down the stairs to the room with columns, then to the exit, go into a large room with pipes on the ceiling." From there, move to the second exit, go out into the tunnel, and turn left. At the end of the concourse the service tunnel will be on the right. Theres a small room - cross it and turn right. On the left wall of the airshaft, look for the inscription 'Do not hide - attack!' This is the entrance to Strelok's hiding place</text>
+	</string>
+	<string id="agr_krot_secret_info_name">
+		<text>Strelok's cache</text>
+	</string>
+	<string id="agr_military_case">
+		<text>Report from the Investigative Team\nFor official use onlynProject Manager: Colonel SBU Kruchelnikovu V\nFrom: Team head Captain Maksimenko DFn\nMemorandum\nOur group consists of three teams of investigators, plus SWAT SBU. From 12-25 May 2012, we conducted an initial survey of 'Agroprom', the former Research Institute of Agriculture on radioactively contaminated soils.\nMost of its equipment and documentation have gone, but we found information indicating that during the period between 2005 and 2008 the work being done at the Institute is unclear. Also that the details of work carried out there, and officially submitted to the Ministry of Agriculture, appear to have been fabricated.\nWe found that many invoices had been forged, falsified, or amended, plus information suggesting that a great deal of equipment and consumables had been requested, under state programme funding, by a Dr. Pitor Danilovich Strizh, and this had been diverted to a laboratory named X-18 - even though there is no official governmental laboratory with this name on record.\nThe coordinates suggest that laboratory X-18 is a clandestine operation within an hour's drive from the Agroprom Institute.\nWe propose to find this laboratory and, in cooperation with our analytical department, uncover its purpose. However, even the information we have available is sketchy, which will most likely result in an incomplete and inconclusive investigation.\nWithin the retrieved documents a certain unidentified group is referred to, along with a Professor Vadim Mikhailovich Chubko, but I can find no current government information relating to him, and this will probably cause our analytical department to reach another dead end.\nThe attached document contains everything we have relating to Professor Chubko VM\n \nCaptain Maksimenko DF 26 May 2012\n \nFrom: Dr Strizh PD\nTo: Prof. Chubko VM\n \nDear Vadim\nAs we agreed, I am sending you another batch of equipment and supplies. It will all pass scrutiny as necessary for agricultural experiments in your unusual conditions, so there should be no problems with the Ministry. How are the experiments going? I was very impressed with what you showed me last time.\nYours sincerely, Pitor\n \nFrom: Prof. Chubko VM, Head of the Institute of Agricultural Sciences (Agroprom)\nTo: Doctor Strizh PD\n \nDear Pitor\nThank you very much indeed. Everything was received in good condition. My boys are delighted with their new laser spectrometer and, if not for your help, our research would have ended a long time ago. The experiments have run their course, we have the results we desired, and what you saw last time is nothing compared with what we have now. You must come over to visit. You're always welcome here! Moreover, our 'experimental farm', as you suggested, is no more than an hours' drive away.\nOh, and I have some good news for you! Next Monday, I shall discuss your candidacy with the advisory board. I think they will support me in my recommendation.\nSincerely, Vadim\n \nFrom: Dr Strizh PD\nTo: Prof. Chubko VM\n \nDear Vadim\nThank you for your confidence in me. I am honoured by your proposal, and would be very happy to join you at your labs. Every scientist dreams of being involved in research and results like this!\nYours sincerely, Pitor\n \nP.S. I was able to obtain two of the latest Japanese broadband oscilloscopes from the military, and have sent them on to you</text>
+	</string>
+	<string id="agr_military_case_name">
+		<text>Report from the Investigative Team</text>
+	</string>
+	<string id="agr_nii_security_plan">
+		<text>This security schedule details guards, patrols, and towers. All official documents are stored on the third floor of the Institute. During the day time, the area is heavily patrolled. At night time, patrols are fewer. Just after 23:00 there's a change of guards. At this time, the main building is mostly empty. The main gate, however, is heavily protected. It's far better to try via the catacombs</text>
+	</string>
+	<string id="agr_nii_security_plan_name">
+		<text>Security schedule of the Research Institute</text>
+	</string>
+	<string id="agr_rats_n_soldiers_text">
+		<text>Rats coming from the sewers are causing major hygiene and morale problems here. PoW's have been sent down to the collectors to eradicate them</text>
+	</string>
+	<string id="agr_task_case">
+		<text>Trader: As soon as you get the document case from the Agroprom Military base, take it to the Barkeep at the '100 Rads' in Rostok</text>
+	</string>
+	<string id="article_agr_krot_sos">
+		<text>SOS - the Military are cutting us down. Anyone who can hear me - please help!</text>
+	</string>
+	<string id="article_agr_krot_sos_name">
+		<text>Meeting with Mole</text>
+	</string>
+	<string id="article_agr_krot_sos1">
+		<text>Mole: Please help us! We're getting slaughtered here!</text>
+	</string>
+	<string id="st_operation_agroprom">
+		<text>Operation 'Agroprom'</text>
+	</string>
+	<string id="storyline_gunslinger_flash_info">
+		<text>Obtained from Ghost:\n \nStrelok, I have bad news. Fang is dead!\nWe waited in the village near the Warehouses. Naturally, we encountered the usual troublemakers. Fang sensed them first - you know the feeling - he just knew something was wrong. We killed two of them easily, stupid rookies, but the third was a lot smarter and ambushed us. He was much better armed with heavy equipment, and Fang was killed almost instantly\nThe next time we go together to the center, we'll need to be a lot more careful. I'll never know who ordered the ambush, but that third guy got away. I think it was one of the Mercs. He had a deep scar on his face. Keep a lookout for him!\nStay alert and good luck...\nGhost\n \nMy dear friend\nIt's been difficult to communicate. My signals aren't going out, and there's been additional surveillance.\nI've gone north, to where we were before. There was no time to wait for you, I'm sorry\nThat punk who killed Fang will regret ever being born. Find out who he is for me - I'll be back soon. Good luck.\nStrelok\n \nYou didn't find him? You shouldn't have gone to the center alone. Where can I find you?\nGhost</text>
+	</string>

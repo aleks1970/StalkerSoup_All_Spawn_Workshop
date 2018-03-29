@@ -1,0 +1,14 @@
+<!--TB3D 1.0.9.9.9.3.3 fixed weapon and added stuff-->
+<supplies>
+	[spawn] \n
+	wpn_svu = 1, 1, 1, 0 \n
+	ammo_7.62x54_ap = 2\n
+	ammo_7.62x54_7h1 = 2, prob = 0.5 \n
+	medkit_army = 1, prob = 0.04 \n
+	bandage_dmx = 1, prob = 0.01 \n
+	yadulin = 1, prob = 0.01 \n
+	bread = 1, prob = 0.03 \n
+	kolbasa = 1, prob = 0.03 \n
+	vodka = 1, prob = 0.02 \n
+	cigara = 1, prob = 0.01 \n
+</supplies>

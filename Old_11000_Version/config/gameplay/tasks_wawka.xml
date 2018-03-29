@@ -1,0 +1,153 @@
+<!-- ************ TB3D 1.0.9.9.7.0 *************** -->
+<game_task id="bandit_krisyk_pomer">
+	<title>Find_Krysyukas_PDA_gameplay_titles</title>
+	<objective>
+		<text>Find_Krysyukas_PDA_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>bandit_krisyk_done</infoportion_complete>
+		<article>tex_bandit_krisyk_pomer</article>
+	</objective>
+	<objective>
+		<text>Find_location_of_Cache_PDA_gameplay_descriptions</text>
+		<function_complete>sak_dialog.have_pda_krysyka</function_complete>
+		<infoportion_set_complete>bandit_krisyk_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Give_the_PDA_Borov_gameplay_descriptions</text>
+		<map_location_type hint="Borov_name_gameplay">blue_location</map_location_type>
+		<object_story_id>val_borov</object_story_id>
+		<infoportion_complete>bandit_krisyk_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="max_pomer_teleport">
+	<title>Deliver_the_Playboy_magazines_gameplay_titles</title>
+	<objective>
+		<text>Find_the_Playboy_magazines_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>mil_max_teleport_08_done</infoportion_complete>
+		<article>tex_max_pomer_teleport</article>
+		<infoportion_fail>mil_freedom_member0002_umer</infoportion_fail>
+	</objective>
+	<objective>
+		<text>Get_Sakharov_magazines_gameplay_descriptions</text>
+		<infoportion_complete>mil_max_teleport_08_have</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Bring_the_magazines_Screw_gameplay_descriptions</text>
+		<map_location_type hint="Shurup_name_gameplay">blue_location</map_location_type>
+		<object_story_id>mil_Svoboda_engineer</object_story_id>
+		<infoportion_complete>mil_max_teleport_08_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="tolik_pomer_resiver">
+	<title>Deliver_the_Radio_gameplay_titles</title>
+	<objective>
+		<text>Find_with_the_Radio_Station_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>mil_volk_resiver_done</infoportion_complete>
+		<infoportion_fail>mil_volk_resiver_fail</infoportion_fail>
+		<article>tex_tolik_pomer_resiver</article>
+	</objective>
+	<objective>
+		<text>Find_Fans_gameplay_descriptions</text>
+		<map_location_type hint="Fanat_name_gameplay">blue_location</map_location_type>
+		<object_story_id>esc_lager_leader</object_story_id>
+		<infoportion_complete>mil_volk_resiver_1have</infoportion_complete>
+	</objective>
+	<objective>
+		<text>Find_a_Station_gameplay_descriptions</text>
+		<function_complete>sak_dialog.mil_volk_resiver_have</function_complete>
+		<infoportion_set_complete>mil_volk_resiver_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_Station_Wolf_gameplay_descriptions</text>
+		<map_location_type hint="Wolf_name_gameplay">blue_location</map_location_type>
+		<object_story_id>Escape_novice_lager_volk</object_story_id>
+		<infoportion_complete>mil_volk_resiver_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="chemodan_serega">
+	<title>Deliver_ammunition_gameplay_titles</title>
+	<objective>
+		<text>Acquire_box_ammunition_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>chemodan_serega_done</infoportion_complete>
+		<article>tex_chemodan_serega</article>
+	</objective>
+	<objective>
+		<text>Deliver_cartridges_Serly_gameplay_descriptions</text>
+		<map_location_type hint="Serly_name_gameplay">blue_location</map_location_type>
+		<object_story_id>gar_seryi_drug_wounded</object_story_id>
+		<infoportion_complete>chemodan_serega_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="chemodan_voronin">
+	<title>Deliver_ammunition_gameplay_titles</title>
+	<objective>
+		<text>Acquire_box_ammunition_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>chemodan_voronin_done</infoportion_complete>
+		<article>tex_chemodan_voronin</article>
+	</objective>
+	<objective>
+		<text>Deliver_cartridges_to_Voronin_gameplay_descriptions</text>
+		<map_location_type hint="Voronin_name_gameplay">blue_location</map_location_type>
+		<object_story_id>bar_dolg_general_voronin</object_story_id>
+		<infoportion_complete>chemodan_voronin_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="chemodan_lukash">
+	<title>Deliver_ammunition_gameplay_titles</title>
+	<objective>
+		<text>Acquire_box_ammunition_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>chemodan_lukash_done</infoportion_complete>
+		<article>tex_chemodan_lukash</article>
+	</objective>
+	<objective>
+		<text>Deliver_cartridges_Lukash_gameplay_descriptions</text>
+		<map_location_type hint="Lukash_name_gameplay">blue_location</map_location_type>
+		<object_story_id>Mil_Lukash</object_story_id>
+		<infoportion_complete>chemodan_lukash_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="yurik_pomer_pivo">
+	<title>Find_Dan_10_cans_beer_gameplay_titles</title>
+	<objective>
+		<text>Get_Dan_10_cans_of_beer_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_found_thing</icon>
+		<infoportion_complete>yurik_pomer_pivo_done</infoportion_complete>
+		<article>tex_yurik_pomer_pivo</article>
+	</objective>
+	<objective>
+		<text>Find_10_cans_of_beer_gameplay_descriptions</text>
+		<function_complete>wawka_dialog.have_pivo10</function_complete>
+		<infoportion_set_complete>yurik_pomer_pivo_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_10_cans_of_beer_Dan_gameplay_descriptions</text>
+		<map_location_type hint="Den_name_gameplay">blue_location</map_location_type>
+		<object_story_id>marsh_dan</object_story_id>
+		<infoportion_complete>yurik_pomer_pivo_done</infoportion_complete>
+	</objective>
+</game_task>
+<game_task id="yurik_pomer_plan">
+	<title>Bring_Dan_BM_16_gameplay_titles</title>
+	<objective>
+		<text>Bring_Dan_BM_16_gameplay_descriptions</text>
+		<icon>ui_iconsTotal_weapons</icon>
+		<infoportion_complete>yurik_pomer_plan_done</infoportion_complete>
+		<article>tex_yurik_pomer_plan</article>
+	</objective>
+	<objective>
+		<text>Pick_the_BM_16_gameplay_descriptions</text>
+		<function_complete>wawka_dialog.have_wpn_bm16</function_complete>
+		<infoportion_set_complete>yurik_pomer_plan_have</infoportion_set_complete>
+	</objective>
+	<objective>
+		<text>Bring_the_BM_16_Dan_gameplay_descriptions</text>
+		<map_location_type hint="Den_name_gameplay">blue_location</map_location_type>
+		<object_story_id>marsh_dan</object_story_id>
+		<infoportion_complete>yurik_pomer_plan_done</infoportion_complete>
+	</objective>
+</game_task>

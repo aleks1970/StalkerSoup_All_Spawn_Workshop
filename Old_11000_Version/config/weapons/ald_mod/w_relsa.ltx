@@ -1,0 +1,219 @@
+; 110016
+[wpn_tihar]:identity_immunities
+GroupControlSection	= spawn_group
+discovery_dependency = 
+$spawn                  = "weapons\wpn_tihar"		; option for Level Editor
+$npc			 		= on				; option for Level Editor
+$prefetch 		 		= 8
+scheduled               = off              	; option for ALife Simulator
+cform                   = skeleton
+class                   = WP_SVD
+min_radius              = 0
+max_radius              = 50
+inv_name				= wpn_electro_gun
+inv_name_short			= wpn_electro_gun_s
+;--;description				= "Новая модель электро ружья от группировки Свобода. В отличии от гаусс-пушки у Рельсы нет грамозкого сьемного аккумулятора, есть компактный конденсатор. Да и при том каллибр шарика больше, так что эта винтовка и легче и мощьнее. В комплекте имеется зарядник для подзарядки винтовки. \n%c[255,1,255,255]•%c[default]Магазин: 15 патронов, \n Боеприпасы: Патроны 15мм."
+description				= enc_wpn_electro_gun
+
+ef_main_weapon_type		 = 3
+ef_weapon_type			 = 8
+
+;--- scope weapons -----------------------------------------------------------------
+holder_range_modifier	= 2.15               ; во сколько раз увеличивается eye_range 
+holder_fov_modifier		= 0.3              ; во сколько раз увеличивается eye_fov
+;-----------------------------------------------------------------------------------
+
+cost					= 250000
+weapon_class			= sniper_rifle
+
+ammo_limit				= 60
+ammo_current			= 10
+ammo_elapsed			= 0
+
+ammo_mag_size			= 15
+ammo_class				= ammo_15mm 
+
+sprint_allowed			= true ;false
+;-----------------------------------------------------------------------------------
+;базовая дисперсия
+fire_dispersion_base		= 0.003	;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor		= 1.2f
+	
+;отдача
+cam_relax_speed         	= 4.5	;скорость возврата в исходное положение
+cam_dispersion          	= 0.3	;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 0.5	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac		= 1.0	;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle			= 5.0	;максимальный угол отдачи
+cam_max_angle_horz		= 2.0	;(degree) maximum shot horizontal degree 
+cam_step_angle_horz		= 0.25	;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor = 5	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.0005 ;вероятность осечки при максимальном износе 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.00001 ;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+
+hand_dependence 		= 1
+single_handed			= 0
+
+slot 					= 2		; // secondary
+animation_slot			= 2		; type of the animation that will be used
+
+inv_weight				= 4.9
+
+inv_grid_width			= 6
+inv_grid_height			= 2
+inv_grid_x				= 64
+inv_grid_y				= 31
+
+kill_msg_x			= 0
+kill_msg_y			= 0
+kill_msg_width		= 98
+kill_msg_height		= 23
+
+direction               = 0, 0, 1
+
+fire_point              = 0.0, 0.129, 0.942
+
+flame_particles		    = weapons\generic_weapon_gauss
+smoke_particles		   	= weapons\generic_weapon07
+rpm_empty_click 		= 200
+
+shell_point		 		= 0.0, 0.129, 0.192	
+shell_dir		 		= 0.0, 0.0, 0.4
+shell_particles	 		= weapons\generic_shells
+
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 		= 0.9
+PDM_disp_accel_factor 		= 1.0
+PDM_crouch	 		= 1.0
+PDM_crouch_no_acc 		= 1.0
+
+; ttc
+hit_power           = 9.15	;--;5.25
+hit_impulse		 	= 190
+hit_type 			= shock	;--;fire_wound
+hit_rate	            = 2.0
+fire_distance           	= 1000
+bullet_speed		 	= 850	;начальная скорость пули
+rpm                     	= 180
+; end ttc
+
+use_aim_bullet				= true		;Поддерживается ли первая суппер пуля
+time_to_aim					= 1.0	
+
+hud                     = wpn_tihar_hud
+normal                  = 0, 1, 0
+position                = -0.026, -0.077, 0.00
+orientation             = 0, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+;под мишкой
+strap_position         		= -0.15,-0.15,0.45			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      		= -25,-189,65				; (3rd person view in degrees)
+;strap_position         		= -0.26,-0.11,0.15			; position (offset) and orientation of the weapon when it is strapped
+;strap_orientation      		= -15,-9,110				; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+startup_ammo            = 10
+visual                  = weapons\relsa\volt.ogf
+
+light_color		 		= 0.6,0.5,0.3
+light_range		 		= 4.0
+light_var_color		 	= 0.05
+light_var_range		 	= 0.5
+light_time 		 		= 0.2
+
+ph_mass			 		= 3
+;cost			 		= 900
+
+;addons
+scope_status				= 1
+silencer_status				= 0
+grenade_launcher_status		= 0
+zoom_enabled				= true
+
+zoom_enabled			= true
+scope_zoom_factor	    = 12		;ПСО-3 8X
+
+scope_texture			= wpn\wpn_crosshair_Volt_Driver ;1P21-AMK_1680-W
+
+silencer_name  				= wpn_addon_silencer
+silencer_x 					= 250
+silencer_y 					= 12
+
+;звуки
+snd_draw				= weapons\gauss\draw
+snd_holster				= weapons\gauss\holster
+snd_shoot				= weapons\volt\volt_shot
+snd_empty				= weapons\gauss\empty, 0.5
+snd_reload				= weapons\gauss\reload, 1.0, 1.0
+snd_silncer_shot	= weapons\gauss\shot ;weapons\svd\svd_shoot_sil, 0.5
+
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 2
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+[wpn_tihar_hud]
+
+fire_point			= -0.044000,0.111000,0.155000
+fire_bone               = wpn_body
+orientation             = -0.50, 0, 0        ;0, 0, 0 ;
+position                = 0.04,-0.009,0.15   ;0, 0, 0 ; ;1-горизонталь,2-высота,3-отдаление
+visual                  = weapons\relsa\volt_hud.ogf
+
+shell_point			= -0.042000,0.103000,0.267000				; position (3rd person view) for shell to throw out
+shell_dir			 		= 0.0, 1.0, 0.0
+
+anim_holster	= holster
+anim_idle		= idle
+anim_idle_aim	= idle
+anim_reload		= reload
+anim_draw		= draw
+anim_shoot		= shoot
+
+;смещени¤ HUD дл¤ режима приближени¤
+zoom_offset = -0.090300,-0.064500,0.229000
+zoom_rotate_x = 0.000000
+zoom_rotate_y = 0.017000
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 15 mm balls for electric guns  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[ammo_15mm]:identity_immunities
+GroupControlSection	= spawn_group
+discovery_dependency 	= 
+$spawn		= "weapons\ammo\ammo_samopal"
+class		= AMMO
+cform		= skeleton
+visual		= weapons\ntw20\ammo_20x83_mg151.ogf
+inv_name		= ammo_rail_gun_15m
+inv_name_short	= ammo_rail_gun_15m_s
+;--;description	= "Патроны 15мм, представляют собой свинцовые шарики со стальным сердечником. Используются в Электро ружье."
+description		= enc_ammo_rail_gun_15m
+$prefetch 		= 64
+
+cost		= 1500
+
+box_size		= 15
+
+inv_weight	= 0.2
+
+inv_grid_width	= 2
+inv_grid_height	= 2
+inv_grid_x		= 62
+inv_grid_y		= 31
+
+k_dist		= 1
+k_disp		= 1
+k_hit		= 7
+k_impulse		= 120
+k_pierce		= 8
+impair		= 1.8
+buck_shot		= 1
+tracer		= off
+wm_size 		= 0.15
+;tracer_color_ID	= 0
+explosive		= on

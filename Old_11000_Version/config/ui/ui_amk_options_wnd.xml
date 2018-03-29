@@ -1,0 +1,205 @@
+<!-- ************ TB3D 1.0.9.9.7.0 added ddof, added alife, news, psi effect, alife to weather *************** -->
+<window>
+	<back_video x="0" y="0" width="1024" height="430">
+		<texture x="0" y="0" width="1024" height="430">ui\ui_mm_window_back_crop</texture>
+	</back_video>
+	<background x="0" y="0" width="1024" height="768">
+		<texture x="0" y="0" width="1024" height="768">ui\ui_static_mm_back_07</texture>
+	</background>
+	<newspaper_video x="137" y="512" width="256" height="256">
+		<texture>ui\ui_mm_newspaper</texture>
+	</newspaper_video>
+	<btn_1 x="72" y="80" width="256" height="35">
+		<texture_e>ui\ui_btn_mm_e</texture_e>
+		<texture_t>ui\ui_btn_mm_t</texture_t>
+		<texture_h>ui\ui_btn_mm_h</texture_h>
+		<text>anomaly_detected_ui</text>
+	</btn_1>
+	<form x="427" y="168" width="560" height="560">
+		<_texture>ui\ui_options_menu_static</_texture>
+		<_texture_offset x="-29" y="-19"/>
+		<texture>ui_menu_options_dlg</texture>
+		<caption x="150" y="10" width="500" height="25" complex_mode="0">
+			<text font="graffiti22" r="184" g="168" b="131">amk_options</text>
+		</caption>
+		<picture x="115" y="71" width="128" height="128" clipper="1" stretch="1">
+			<texture>ui\ui_noise</texture>
+		</picture>
+		<info_pic x="57" y="55" width="497" height="171">
+			<texture x="0" y="768" width="497" height="171">ui\ui_static_mm_back_04</texture>
+		</info_pic>
+		<!-- *************** first column *************** -->
+		<radio_autosave x="80" y="38" width="200" height="40" radio="1">
+			<button x="0" y="0" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_save_disabled</text>
+			</button>
+			<button x="0" y="20" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_save_enabled</text>
+			</button>
+		</radio_autosave>
+		<radio_amk_mus x="80" y="84" width="200" height="40" radio="1">
+			<button x="0" y="0" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_mus_disabled</text>
+			</button>
+			<button x="0" y="20" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_mus_enabled</text>
+			</button>
+		</radio_amk_mus>
+		<radio_helmets_sound x="80" y="130" width="200" height="40" radio="1">
+			<button x="0" y="0" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_pda_classic</text>
+			</button>
+			<button x="0" y="20" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_pda_modern</text>
+			</button>
+		</radio_helmets_sound>
+		<radio_amk_treasure x="80" y="176" width="400" height="74" radio="1">
+			<button x="0" y="0" width="200">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_treasure_old</text>
+			</button>
+			<button x="0" y="20" width="200">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_treasure_new</text>
+			</button>
+			<button x="0" y="40" width="200">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_treasure_rare</text>
+			</button>
+		</radio_amk_treasure>
+		<radio_amk_news x="80" y="242" width="400" height="50" radio="1">
+			<button x="0" y="0" width="200">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_news_disabled</text>
+			</button>
+			<button x="0" y="20" width="200">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_news_enabled</text>
+			</button>
+		</radio_amk_news>
+		<radio_amk_weather x="80" y="288" width="200" height="74" radio="1">
+			<button x="0" y="0" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_weather_normal</text>
+			</button>
+			<button x="0" y="20" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_weather_cloudy</text>
+			</button>
+			<button x="0" y="40" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_weather_fair</text>
+			</button>
+		</radio_amk_weather>
+		<radio_amk_cop x="80" y="354" width="200" height="50" radio="1">
+			<button x="0" y="0" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_cop_disabled</text>
+			</button>
+			<button x="0" y="20" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_cop_enabled</text>
+			</button>
+		</radio_amk_cop>
+		<radio_amk_megafone x="80" y="400" width="200" height="50" radio="1">
+			<button x="0" y="0" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_megafone_disabled</text>
+			</button>
+			<button x="0" y="20" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_megafone_enabled</text>
+			</button>
+		</radio_amk_megafone>
+		<!-- *************** end 1st col *************** -->
+		<!-- *************** 2nd col *************** -->
+		<radio_shoot_effect x="320" y="90" width="200" height="50" radio="1">
+			<button x="0" y="0" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_ballistics_disabled</text>
+			</button>
+			<button x="0" y="20" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_ballistics_enabled</text>
+			</button>
+		</radio_shoot_effect>
+		<radio_dyn_suit x="320" y="136" width="200" height="50" radio="1">
+			<button x="0" y="0" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_dyn_suit_disabled</text>
+			</button>
+			<button x="0" y="20" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_dyn_suit_enabled</text>
+			</button>
+		</radio_dyn_suit>
+		<radio_amk_hud x="320" y="182" width="170" height="98" radio="1">
+			<button x="0" y="0" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_hud_disabled</text>
+			</button>
+			<button x="0" y="20" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_hud_enabled</text>
+			</button>
+			<button x="0" y="40" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_hud_and_blood_enabled</text>
+			</button>
+			<button x="0" y="60" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_hud_and_steam_enabled</text>
+			</button>
+		</radio_amk_hud>
+		<radio_amk_nv x="320" y="268" width="400" height="50" radio="1">
+			<button x="0" y="0" width="200">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_nv_disabled</text>
+			</button>
+			<button x="0" y="20" width="200">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_nv_enabled</text>
+			</button>
+		</radio_amk_nv>
+		<radio_amk_ddof x="320" y="314" width="170" height="98" radio="1">
+			<button x="0" y="0" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_dof_disabled</text>
+			</button>
+			<button x="0" y="20" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_dof_blur</text>
+			</button>
+			<button x="0" y="40" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_dof_low</text>
+			</button>
+			<button x="0" y="60" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_dof_high</text>
+			</button>
+		</radio_amk_ddof>
+		<radio_amk_auto x="320" y="400" width="200" height="50" radio="1">
+			<button x="0" y="0" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_auto_adj_disabled</text>
+			</button>
+			<button x="0" y="20" width="142">
+				<text font="letterica16" r="20" g="180" b="220" complex_mode="0">amk_auto_adj_enabled</text>
+			</button>
+		</radio_amk_auto>
+		<!-- *************** end 2nd col *************** -->
+		<btn_okay x="232" y="505" width="157" height="48">
+			<texture_e>ui_button_main03_e</texture_e>
+			<texture_t>ui_button_main03_t</texture_t>
+			<texture_h>ui_button_main03_h</texture_h>
+			<text font="graffiti22">ui_mm_apply</text>
+			<text_color>
+				<e r="227" g="199" b="178"/>
+				<t r="180" g="153" b="155"/>
+				<d r="106" g="95" b="91"/>
+				<h r="0" g="0" b="0"/>
+			</text_color>
+		</btn_okay>
+		<btn_quit x="388" y="505" width="157" height="48">
+			<texture_e>ui_button_main03_e</texture_e>
+			<texture_t>ui_button_main03_t</texture_t>
+			<texture_h>ui_button_main03_h</texture_h>
+			<text font="graffiti22">ui_inv_cancel</text>
+			<text_color>
+				<e r="227" g="199" b="178"/>
+				<t r="180" g="153" b="155"/>
+				<d r="106" g="95" b="91"/>
+				<h r="0" g="0" b="0"/>
+			</text_color>
+		</btn_quit>
+		
+		
+--[[		<btn_okay x="232" y="505" width="157" height="48">
+			<texture_e>ui_button_main03_e</texture_e>
+			<texture_t>ui_button_main03_t</texture_t>
+			<texture_h>ui_button_main03_h</texture_h>
+			<text>ui_inv_ok</text>
+		</btn_okay>
+		<btn_quit x="388" y="505" width="157" height="48">
+			<texture_e>ui_button_main03_e</texture_e>
+			<texture_t>ui_button_main03_t</texture_t>
+			<texture_h>ui_button_main03_h</texture_h>
+			<text>ui_inv_cancel</text>
+		</btn_quit>]]
+		
+	</form>
+</window>

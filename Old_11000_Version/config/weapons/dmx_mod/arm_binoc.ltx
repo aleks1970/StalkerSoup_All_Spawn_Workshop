@@ -1,0 +1,178 @@
+;;;; TB3D 1.0.9.9.7.4 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+;; Русский бинокль от W@llTheR - модели и текстуры. Прицельная сетка - Алексеич. Остальное Shadows
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[wpn_arm_binoc]:identity_immunities
+GroupControlSection			= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn						= "weapons\arm_binocular"
+$npc						= on							; option for Level Editor
+$prefetch 					= 8
+scheduled					= off							; option for ALife Simulator
+cform						= skeleton
+class						= WP_BINOC
+hud							= wpn_arm_binoc_hud
+
+ef_main_weapon_type			= 5
+ef_weapon_type				= 0
+
+
+flame_particles		   		= weapons\generic_weapon05
+smoke_particles		   		= weapons\generic_shoot_00
+
+fire_point               	= 0.0, 0.133, 0.161
+shell_point		 			= 0.0, 0.133, 0.047
+shell_particles	 			= weapons\generic_shells
+
+position					= -0.08 , -0.05 , 0.05 
+normal						= 0, 1, 0
+direction					= 0, 0, 1
+orientation					= 0 , -90, 70
+
+attach_angle_offset			= 3.080506,-1.493053,-1.202040   ;устанавливается в радианах Angle*PI/180
+attach_position_offset		= 0.080000,0.021273,0.100000
+attach_bone_name			= bip01_r_hand
+auto_attach					= true
+
+visual						= weapons\arm_binoculars\wpn_binoculars_arm.ogf
+description					= enc_equipment_dmx_binocul
+hand_dependence		 		= 0
+single_handed				= 1
+
+slot 			 			= 4	; // binocular
+animation_slot				= 13	; type of the animation that will be used
+
+ammo_limit		 			= 0
+ammo_current		 		= 0
+ammo_elapsed		 		= 0
+
+ammo_mag_size		 		= 0
+ammo_class		 			= ammo_arm_binoc
+
+inv_name		 			= wpn_arm_binoc
+inv_name_short				= wpn_arm_binoc_s
+inv_weight		 			= 1.2
+
+show_ammo					= false
+
+inv_grid_width				= 2
+inv_grid_height				= 1
+inv_grid_x					= 30
+inv_grid_y					= 65
+
+min_radius					= 100
+max_radius					= 150
+
+cost						= 900
+
+cam_relax_speed				= 5.5
+cam_dispersion				= 2
+cam_max_angle				= 5
+cam_max_angle_horz			= 5.0
+cam_step_angle_horz			= 0.5
+
+disp_vel_factor				= 8.1
+disp_crouch_factor			= -1.2
+disp_jump_factor			= 3
+
+ph_mass						= 1
+
+scope_status				= 1
+silencer_status				= 0
+grenade_launcher_status		= 0
+
+zoom_enabled				= true
+scope_texture				= wpn\wpn_crosshair_bino_dmx
+scope_zoom_factor			= 10
+zoom_hide_crosshair         = true
+
+
+fire_dispersion_base		= 0.051 ;0.015
+
+;cam_relax_speed         	= 1.5		; aleks1970
+;cam_dispersion          	= 1.5		; aleks1970
+;cam_max_angle				= 7			; aleks1970
+;cam_max_angle_horz			= 10.0		; aleks1970
+;cam_step_angle_horz			= 1.5		; aleks1970
+
+fire_dispersion_condition_factor = 5
+misfire_probability 		= 0.0001
+condition_shot_dec 			= 0.00003
+
+hit_power                	= 1
+hit_impulse		 		 	= 1
+hit_type					= fire_wound	
+
+fire_distance            	= 1
+bullet_speed		 	 	= 1		
+rpm                      	= 1
+
+light_color		 			= 0.6,0.5,0.3
+light_range		 			= 3.0
+light_var_color		 		= 0.05
+light_var_range		 		= 0.5
+light_time 		 			= 0.2
+
+;------------------------------ S.T.A.L.K.E.R`s sound remake ------------------------------
+snd_draw					= weapons\bino_draw
+snd_holster					= weapons\bino_holster
+snd_gyro					= weapons\arm_binoc\arm_binoculars_gyro
+snd_zoomin					= weapons\arm_binoc\arm_binoculars_pnv_on
+snd_zoomout					= weapons\arm_binoc\arm_binoculars_pnv_off
+snd_shoot					= weapons\arm_binoc\arm_binoculars_pnv_on
+snd_empty					= weapons\arm_binoc\arm_binoculars_pnv_on
+snd_reload					= weapons\arm_binoc\arm_binoculars_pnv_off
+snd_close					= weapons\generic_close
+
+vision_present				= true
+vis_frame_speed				= 4				; скорость, с которой наводится рамка на цель
+vis_frame_color				= 0.7,0.7,0.7,1.0	; цвет рамки RGBA (A) Не учитывается
+found_snd					= detectors\DA-2_beep1
+
+[wpn_arm_binoc_hud]
+shell_point					= 0.0, 0.0, 0.0
+fire_point              	= 0.05, 0.0, 0.1
+fire_bone               	= binoculars
+orientation             	= 10, 0, -2
+position                	= 0.18, 0, 0
+;position                	= 0.15, -0.14, 0.25
+visual                  	= weapons\arm_binoculars\wpn_binoculars_arm_hud.ogf
+
+zoom_offset					= -0.238600,0.153600,0.000000
+zoom_rotate_x				= -0.014000
+zoom_rotate_y				= 0.324000
+
+anim_idle					= idle
+anim_reload					= idle
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= idle
+anim_idle_aim				= idle
+
+[fake_wpn_arm_binoc]:identity_immunities
+GroupControlSection	= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn 			= "food and drugs\antirad"
+$prefetch 		= 32
+class			= II_ANTIR
+cform           = skeleton
+visual						= weapons\arm_binoculars\wpn_binoculars_arm.ogf
+description					= enc_equipment_dmx_binocul
+inv_name		 			= wpn_arm_binoc
+inv_name_short				= wpn_arm_binoc_s
+inv_weight			        = 1.2
+
+inv_grid_width				= 2
+inv_grid_height				= 1
+inv_grid_x					= 30
+inv_grid_y					= 65
+cost				        = 900
+
+eat_health = 0
+eat_satiety = 0
+eat_power = 0
+eat_radiation = 0
+wounds_heal_perc = 0
+eat_portions_num = 1
+animation_slot	= 4
+hud = wpn_vodka_hud

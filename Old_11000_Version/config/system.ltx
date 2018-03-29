@@ -1,0 +1,272 @@
+;<!-- TB3D 1.1.0.0.1.6.2 new Collector additions, trader edits by glowworm, ldk edits, removed narod_opt, ald weapons,
+; immunities/damages and added conditions.ltx and terrains.ltx, criticals.ltx, ldk, attachable_item,
+; aleks1970; excluded duplicates section, revamped and seperated into includes, new levels, consolidated weapon includes, cleanup, ; ; ; plug ins,
+; ui_enc_locations - aleks1970, mp, DLCs, revision of the gameplay folder/files - aleks1970, info_companions
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; origin: "People Salsola 2009" from 14.06.
+; First Adaptation: Rulix aka Bak on 02/07/2009, edited by Idler
+; Rewritten for STALKERSOUP 2010-2013.
+
+#include "defines.ltx"
+#include "misc\doc_view.ltx"		;;;135
+#include "misc\stco.ltx"			;;;135
+#include "prefetch.ltx"
+#include "weathers\environment.ltx"
+#include "creatures\conditions.ltx"
+#include "creatures\immunities.ltx"
+#include "creatures\immunities_ldk.ltx"
+#include "creatures\damages.ltx"
+#include "creatures\damages_ldk.ltx"
+#include "creatures\criticals.ltx"
+#include "creatures\perception.ltx"
+#include "creatures\terrains.ltx"
+#include "creatures\step_manager.ltx"
+#include "creatures\monsters.ltx"
+#include "creatures\stalkers.ltx"
+#include "weapons\weapons.ltx"
+#include "misc\items.ltx"
+#include "misc\amk_transmutator.ltx"
+#include "misc\amk_mod_matras.ltx"
+#include "misc\amk_mod_metka.ltx"
+#include "misc\amk_mod_zapiska.ltx"
+#include "misc\amk_mod_ballon.ltx"
+#include "misc\amk_mod_kanistra.ltx"
+#include "misc\Strange_Zone_mod\meceniy_items.ltx"
+#include "misc\arc.ltx"
+#include "misc\arc_containers.ltx"
+#include "misc\arc_diary.ltx"
+#include "misc\monster_items.ltx"
+#include "misc\z_vertoz_monster_items.ltx"
+#include "creatures\actor.ltx"
+#include "misc\zones.ltx"
+#include "misc\postprocess.ltx"
+#include "misc\artefacts.ltx"
+#include "misc\amk_mod_arts.ltx"
+#include "misc\Strange_Zone_mod\meceniy_arts.ltx"
+#include "misc\devices.ltx"
+#include "misc\quest_items.ltx"
+#include "misc\arhara_items.ltx"		;;;;135
+#include "misc\outfit.ltx"
+#include "misc\Strange_Zone_mod\meceniy_outfits.ltx"
+#include "misc\effectors.ltx"
+#include "creatures\helicopter.ltx"
+#include "creatures\mi6.ltx"			;;;;135
+#include "external.ltx"
+#include "misc\unique_items.ltx"
+#include "misc\unique_items_new.ltx"
+;;;;;;;;; ZEP documents ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+#include "tb3d_zep_documents.ltx"
+;;;;;;;;;  The Collector's Random Hiding Places  ;;;;;;;;;;;;;;;;
+#include "valerich_spawn_sections.ltx"
+#include "artefacts_amkzp.ltx"
+#include "misc\davros_items.ltx"
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+#include "misc\amk_mod_outfits.ltx"		;;;;135
+#include "misc\OGG_player.ltx"				;;;;135
+#include "creatures\game_relations.ltx"
+#include "creatures\vechicles.ltx"
+#include "mp\TB3D_livelink.ltx"
+#include "evaluation.ltx"
+#include "fonts.ltx"
+#include "alife.ltx"
+;;;;;;;; Smart Terrain
+#include "misc\smart_terrain.ltx"
+;;;;;;;; Respawns
+#include "misc\respawn.ltx"
+#include "creatures\spawn_sections.ltx"
+#include "creatures\spawn_sections_v92.ltx"
+#include "creatures\spawn_sections_tb3d.ltx"
+;;;;;;;; Extra Content
+#include "extracontent.ltx"
+#include "localization.ltx"
+#include "blowout.ltx"
+#include "misc\dmx_mod_items.ltx"
+#include "inventory_sect.ltx"				;actor inventory settings
+#include "physics_engine.ltx"				;;;; TB3D 109933
+#include "hud.ltx"							;;;; TB3D 109933
+;#include "inventory\inventory_items.ltx"	;;;; TB3D 109974, removed 109999
+#include "camera_views.ltx"					;;;; TB3D 109933
+#include "script_engine.ltx"				;;;; TB3D 109933
+#include "name_generator.ltx"				;;;; TB3D 109933
+#include "attachable_items.ltx"				;;;; TB3D 109933
+;#include "mp_skins.ltx"
+#include "restrictor_engine.ltx"			;;;; TB3D 109933
+#include "medic.ltx"						;;;;
+#include "arsenal_expansion.ltx"			;;;; TB3D 109933, alife and timers
+#include "msk.ltx"							;;;; DMX
+;;;;;; - New! Plugin files - aleks1970 
+#include "TB3D_Texture_Pack.ltx"			;;;; 109975 used to identify plug in
+#include "TB3D_Music_Pack.ltx"				;;;; 109975 used to identify plug in
+#include "ui\TB3D_Ui_Pack.ltx"				;;;; 109975 used to identify plug in
+#include "weapons\TB3D_Scopes_Pack.ltx"				;;;; 109975 used to identify plug in
+#include "weapons\TB3D_Weapons_Pack.ltx"			;;;; 109975 used to identify plug in
+#include "weapons\TB3D_Outfit_Pack.ltx"				;;;; 109975 used to identify plug in
+#include "mp\TB3D_Livelink_Pack.ltx"				;;;; 109975 used to identify plug in
+#include "text\TB3D_Localization_Pack.ltx"			;;;; 109975 used to identify plug in
+#include "inventory\TB3D_Inventory_Pack.ltx"		;;;; 109975 used to identify plug in
+#include "weathers\TB3D_Environment_Pack.ltx"		;;;; 109975 used to identify plug in
+#include "trade\TB3D_Trade_Pack.ltx"				;;;; 109999 used to identify plug in
+;;;;;; - New! files for hercules potion and artefact in extra slot - aleks1970 
+#include "misc\outfits\outfits_arts_boost.ltx"
+#include "misc\outfits\outfits_hercule_boost.ltx"
+;;;;;; - new! DLCs, 110016.2
+#include "DLC\TB3D_DLC_001.ltx"
+#include "DLC\TB3D_DLC_002.ltx"
+#include "DLC\TB3D_DLC_003.ltx"
+#include "DLC\TB3D_DLC_004.ltx"
+#include "DLC\TB3D_DLC_005.ltx"
+
+[sound]
+occlusion_scale = 0.4
+snd_collide_min_volume=0.1
+snd_collide_max_volume=200.0
+
+[demo_record]
+speed0    = 0.3
+speed1    = 3.0
+speed2    = 15.0
+speed3    = 60.0
+ang_speed0  = 0.1
+ang_speed1  = 0.5
+ang_speed2  = 7.0
+ang_speed3  = 2.0
+
+;-------------------------------- STALKERSOUP ------------------------------------------
+[tb3d]
+inv_grid_size=50	;4096x4096 ui_icon_equipment.dds, for future use
+;---------------------------------------------------------------------------------------
+
+[texture_desc]	;mp files removed 110004
+;files = ui_mp_icon_rank, ui_icons_map, ui_common, ui_old_textures, ui_ingame, ui_map_description, ui_models_multiplayer, ui_team_logo, ui_team_logo_small, ui_mainmenu, ui_mp_main, ui_statistics, ui_si_frame, amk_transmutator, ui_enc_locations, ui_hud, ui_numpad, ui_inventory, ui_inventory2, ui_iconstotal, ui_pda, ui_icons_npc, ui_npc_monster, ui_npc_unique, ui_buy_menu, ui_asus_intro, amk_ui_base, aem_ui_npc, ui_arhara_unique, ui_razgruzka, amk_pda, amk_blank, ui_npc_ldk, ui_repair_buttons
+files = ui_icons_map, ui_common, ui_old_textures, ui_ingame, ui_map_description, ui_mainmenu, ui_statistics, ui_si_frame, amk_transmutator, ui_enc_locations, ui_hud, ui_numpad, ui_inventory, ui_inventory2, ui_iconstotal, ui_pda, ui_icons_npc, ui_npc_monster, ui_npc_unique, ui_buy_menu, ui_asus_intro, amk_ui_base, aem_ui_npc, ui_arhara_unique, ui_razgruzka, amk_pda, amk_blank, ui_npc_ldk, ui_repair_buttons
+
+;----------- list of xml files containing info_portions---------------------;-;
+[info_portions]
+files = dmx_mod_info, info_amk, info_amk_recipts, info_arhara_way, info_collector, info_flamequest, info_known_objects, info_l01escape, info_l02garbage, info_l03agroprom, info_l04agroprom_u, info_l05dark_valley, info_l06dark_valley_u, info_l07rostok, info_l08deadcity, info_l08yantar, info_l10military, info_l10radar, info_l11pripyat, info_l12u_sarcofag, info_l16radar_antena, info_l19stanciya, info_lchanger_ico, info_legacy, info_level_tips, info_portions, info_portions_light, info_portions_test, info_sak_way, info_stories, info_unic, info_wawka_way, info_way, meceniy_info, aem_info, info_l08rostok_bar, info_l09marshes, info_l09rostok_dolg, info_l11yantar, info_l12yantar_u, info_l13deadcity, info_l14swamp, info_l17monolith_control, info_l21generators, info_l22warlab, info_companions
+;; info_syslov_books ;110016.2 to be added when books get translated
+
+[encyclopedia]
+files = enc_legacy, dmx_mod_enc_books, dmx_mod_encyclopedia, encyclopedia_equipment, encyclopedia_infos, encyclopedia_mutants, encyclopedia_social, encyclopedia_tutorial, encyclopedia_weapons, encyclopedia_zone, storyline_info_to_diary
+;-;-------- File "storyline_info_to_diary.xml" have included files: ---------;-;
+;-; storyline_info_escape.xml, storyline_info_garbage.xml, storyline_info_agroprom.xml, storyline_info_bar.xml, storyline_info_darkvalley.xml, storyline_info_military.xml, storyline_info_yantar.xml, storyline_info_deadcity.xml, storyline_info_radar.xml, storyline_info_pripyat.xml, storyline_info_sarcofag.xml, storyline_info_aes.xml, storyline_info_taskmanager.xml, storyline_info_amk_recipts.xml, storyline_info_arhara_way.xml, storyline_info_sak_way.xml, storyline_info_wawka_way.xml, storyline_new.xml, arc_diary_articles.xml, encyclopedia_amk_recipts.xml, encyclopedia_new.xml, encyclopedia_sak_way.xml, stories.xml, storyline_info_tb3d.xml
+;-;---------------- File "storyline_info_to_diary.xml" End ------------------;-;
+
+[dialogs]		;;removed: dialogs_test
+files = dialogs, dialogs_aes, dialogs_agroprom, dialogs_amk, dialogs_amk_escape, dialogs_amk_recipts, dialogs_arhara, dialogs_bar, dialogs_darkvalley, dialogs_deadcity, dialogs_escape, dialogs_flamequest, dialogs_garbage, dialogs_labx18, dialogs_military, dialogs_miniquest, dialogs_new, dialogs_pripyat, dialogs_radar, dialogs_reload, dialogs_repair, dialogs_tb3d, dialogs_teleport, dialogs_trading, dialogs_wawka, dialogs_yantar, dmx_mod_dialogs, meceniy_dialogs, valerich_dialogs, dialogs_DLC_1, dialogs_DLC_2, dialogs_DLC_3, dialogs_DLC_4, dialogs_DLC_5
+
+[profiles]
+;a list of xml files containing the profiles of stalkers and traders
+files =  npc_amk, npc_new, npc_profile, npc_profile_tb3d, aem_profile, npc_profile_DLC_1, npc_profile_DLC_2, npc_profile_DLC_3, npc_profile_DLC_4, npc_profile_DLC_5
+
+;a list of xml files that contain descriptions of specific stalkers and traders
+;-;New: character_desc_aes2, character_desc_bandit, character_desc_bandit_tb3d ;-; aleks1970
+specific_characters_files = aem_characters, character_desc_aes, character_desc_aes2, character_desc_agroprom, character_desc_amk, character_desc_arhara, character_desc_bandit, character_desc_bandit_tb3d, character_desc_bar, character_desc_darkvalley, character_desc_deadcity, character_desc_escape, character_desc_final, character_desc_garbage, character_desc_general, character_desc_kishka, character_desc_ldk, character_desc_military, character_desc_new, character_desc_pripyat, character_desc_radar, character_desc_sarcofag, character_desc_simulation, character_desc_sniper, character_desc_tb3d, character_desc_yantar, dmx_mod_character, character_DLC_1, character_DLC_2, character_DLC_3, character_DLC_4, character_DLC_5
+
+[artefacts_tasks]
+;the name of the scripting function that is invoked to create list of artifacts
+script_func = ;trader_job.artefacts_task_list_text
+
+[game_tasks]
+files = game_tasks
+;-;-------- File "game_tasks.xml" have included files: ---------;-;
+;-; tasks_aes.xml, tasks_agroprom.xml, tasks_arhara.xml, tasks_bar.xml, tasks_darkvalley.xml, tasks_deadcity.xml, tasks_escape.xml, tasks_flame.xml, tasks_garbage.xml, tasks_military.xml, tasks_minquests.xml, tasks_new.xml, tasks_radar.xml, tasks_sarcofag.xml, tasks_wawka.xml, tasks_yantar.xml, game_tasks_by_vendor.xml, meceniy_task.xml
+;-;---------------- File "game_tasks.xml" End ------------------;-;
+
+
+[search_light]
+GroupControlSection = spawn_group
+$spawn        = "physics\search_light"
+class       = O_SEARCH
+cform       = skeleton
+visual        = equipments\projector.ogf
+script_binding      = bind_physic_object.init
+
+[spectator]
+$player        = on
+class                   = SPECT
+      
+[tg_event]	; aleks1970
+class        = EVENT
+ 
+[interface]
+font_game                = font_game
+font_small               = font_small
+ 
+[graph_point]
+class                = AI_GRAPH
+$spawn               = "ai\graph point"
+
+;-----------------------------------------------------------------
+; Trade
+;-----------------------------------------------------------------
+[trade]	;109999
+;coefficients of price changes in the trade, depending on the relationship to the character
+;linearly approximated between the significance
+buy_price_factor_hostile  = 0.5    ;0.7  ;factor when buying goodwill = -100
+buy_price_factor_friendly = 0.75     ;1    ;factor when buying goodwill = 100
+sell_price_factor_hostile = 2.0     ;1.2  ;factor when buying goodwill = -100
+sell_price_factor_friendly  = 1.0  ;1    ;factor when buying goodwill = 100
+;-----------------------------------------------------------------
+
+[breakable_object]
+class           = O_BRKBL
+remove_time         = 10      ;after remove_time seconds object will be removed after it is breaked
+hit_break_threthhold    = 0.0      ;weapon impact can stand breakable_object
+collision_break_threthhold  = 2000.f  ;collision impact can stand breakable_object
+immunity_factor       = 1.3     ;hit power multiplier
+
+[climable_object]
+class           = O_CLMBL
+
+[zone_team_base]
+$spawn      = "network\team base"
+class     = Z_TEAMBS
+GroupControlSection = spawn_group_zone
+
+[tutorial_conditions_thresholds]
+max_power       = 0.75
+power         = 0.1
+bleeding        = 0.4
+satiety         = 0.5
+radiation       = 0.1
+weapon_jammed     = 0.9
+psy_health        = 0.5
+
+[squad_manager]
+schedule_min      =   1
+schedule_max      = 999
+
+[agent_manager]
+schedule_min      = 10 ;0
+schedule_max      = 100 ;0
+
+[collision_damage]
+bonce_damage_factor_for_objects = 0.8
+
+[pkm_visual_memory]			;;;;!!!!TB3D
+min_view_distance       	= 0.01		; start of visual cone (0.01xFOV at min view dist)
+max_view_distance       	= 1.0		; end of cone (1.0xFOV at far plane)
+visibility_threshold    	= 100 ;150.0		; distance that you leave their vision range
+always_visible_distance		= 1 ;0.01		; multiplier against min render distance
+time_quant          		= 0.00001	; how quickly changes are reacted to
+decrease_value        		= 0.1		; how quickly the energy dissipates after an impact
+velocity_factor         	= 0.5		; amount of force initially applied from an impact
+luminocity_factor     		= 0.5		; Factor illumination eni (only dl Lktra)
+transparency_threshold    	= 0.4
+view_fov_deg        		= 90 ;110
+view_aspect         		= 1
+view_far_plane        		= 100 ;150
+
+[details]
+swing_normal_amp1 = 0.1
+swing_normal_amp2 = 0.05
+swing_normal_rot1 = 30.0
+swing_normal_rot2 = 1.0
+swing_normal_speed  = 2.0
+;// fast
+swing_fast_amp1   = 0.35;0.25
+swing_fast_amp2   = 0.20;0.15
+swing_fast_rot1   = 5
+swing_fast_rot2   = 0.5;0.75
+swing_fast_speed  = 0.5;1
+

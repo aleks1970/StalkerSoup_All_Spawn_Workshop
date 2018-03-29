@@ -1,0 +1,202 @@
+;;;; TB3D 1.0.9.9.8.6 - TB3D style weapons
+;<!-- excluded empty "discovery_dependency" aleks1970 -->
+[wpn_an94_sniper]:identity_immunities
+GroupControlSection		= spawn_group
+; discovery_dependency = ; aleks1970
+$spawn              	= "weapons\wpn_an94_sniper"	
+$npc					= on				
+$prefetch 				= 8
+scheduled				= off              
+cform               	= skeleton
+class               	= WP_AK74		
+min_radius          	= 0				
+max_radius          	= 800				
+description				= enc_arsenal_an94_sniper
+	
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+sprint_allowed			= false
+;-----------------------------------------------------------------------------------
+holder_range_modifier	= 1.0		       ; во сколько раз увеличивается eye_range 
+holder_fov_modifier		= 0.7              ; во сколько раз увеличивается eye_fov
+;-----------------------------------------------------------------------------------
+cost					= 15000				
+weapon_class			= assault_rifle		
+	
+ammo_limit				= 210				
+ammo_elapsed			= 30				
+ammo_mag_size			= 36
+fire_modes				= 1, 2, -1
+ammo_class				= ammo_5.45x39_fmj, ammo_5.45x39_ap, ammo_5.45x39_izomorf   
+grenade_class			= ammo_vog-25, ammo_vog-25p			
+launch_speed			= 0
+
+hand_dependence			= 1									
+single_handed			= 0
+slot 					= 2									
+animation_slot			= 2									
+
+inv_name	        	= an94_sniper							
+inv_name_short			= an94_sniper
+inv_weight			    = 6.2								
+
+inv_grid_width			= 6	 
+inv_grid_height			= 2	    
+inv_grid_x				= 54
+inv_grid_y				= 71
+
+kill_msg_x			= 0
+kill_msg_y			= 28
+kill_msg_width		= 84
+kill_msg_height		= 28
+
+;params of weapon recoil
+fire_dispersion_base			= 0.01		;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor			= 1.25f
+
+;отдача
+cam_relax_speed         		= 0		;скорость возврата в исходное положение
+cam_relax_speed_ai         		= 5.6
+cam_dispersion          		= 0.15		;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc			= 0.3		;увеличениe cam_dispersion с каждым выстрелом
+cam_dispertion_frac			= 0.9		;ствол будет подыматься на cam_dispersion*cam_dispertion_frac +- cam_dispersion*(1-cam_dispertion_frac)
+cam_max_angle				= 10.0	    	;максимальный угол отдачи
+cam_max_angle_horz			= 20.0		;(degree) maximum shot horizontal degree 
+cam_step_angle_horz			= 1.1;1		;(degree) size of step camera moved in horizontal position while shooting
+
+fire_dispersion_condition_factor 	= 5	    	;увеличение дисперсии в процентах при максимальном износе 
+misfire_probability 		= 0.003	;вероятность осечки при максимальном износе 
+misfire_condition_k			= 0.05
+condition_shot_dec 			= 0.0001	;увеличение износа при каждом выстреле
+;-----------------------------------------------------------------------------------
+fire_point             		=  0,0.225,0.665			
+fire_point2            		=  0,0.161,0.465			
+flame_particles				= weapons\generic_weapon05	
+smoke_particles				= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
+	
+shell_point		 			= 0,0.237,0.187				
+shell_particles	 			= weapons\arsenal_shells1	
+
+PDM_disp_base 				= 1.0
+PDM_disp_vel_factor 		= 1.3
+PDM_disp_accel_factor 		= 1.3
+PDM_crouch	 				= 1.0
+PDM_crouch_no_acc 			= 1.0
+
+; ttc
+hit_power        	= 2.22
+hit_impulse		 	= 140
+hit_type 			= fire_wound
+fire_distance            	= 600					;;;109974 10:1
+bullet_speed				= 840		
+rpm                      	= 700		
+
+use_aim_bullet				= true		;Поддерживается ли первая супер пуля
+time_to_aim					= 1.0	
+
+
+hud                      	= wpn_an94_sniper_hud				
+position         	        = -0.026,-0.172,0			
+orientation      	        = 0,0,0						
+;--STRAP PARAMETERS-----------------------------------------------------------------
+strap_position         		= -0.16,-0.40,0.15			
+strap_orientation      		= -10,-5,10					
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+visual         		        = weapons\an94_sniper\wpn_an94_sniper.ogf		
+
+light_color					= 0.6,0.5,0.3				
+light_range					= 5							
+light_var_color				= 0.05						
+light_var_range				= 0.5
+light_time 					= 0.2						
+ph_mass						= 5							; physic mass (kg)
+
+;addons
+scope_status				= 1						    ; 0 - no addon
+silencer_status				= 2							; 1 - permanent
+grenade_launcher_status		= 2							; 2 - attachable
+
+zoom_enabled				= true						
+scope_zoom_factor	    	= 22.5						
+scope_texture               = wpn\crosshair\wpn_crosshair_an2012
+
+scope_name 					= wpn_addon_scope
+scope_x 					= 47						
+scope_y 					= 0
+silencer_name  				= wpn_addon_silencer		
+silencer_x 					= 259						
+silencer_y 					= 10				
+grenade_launcher_name 		= wpn_addon_grenade_launcher
+grenade_launcher_x 			= 118						
+grenade_launcher_y 			= 23
+
+;sounds (name of the sound, volume (0.0 - 1.0), delay (sec))
+snd_draw					= weapons\generic_draw, 0.5
+snd_holster					= weapons\generic_holster, 0.5
+snd_shoot					= weapons\abakan\abakan_shoot
+snd_empty					= weapons\gen_empty, 0.5
+snd_reload					= weapons\ak_reload2, 0.5
+snd_shoot_grenade			= weapons\gp25_shot
+snd_reload_grenade			= weapons\gp25_reload, 1.0, 0.8
+snd_switch					= weapons\gp25_switch, 1.0, 0.5
+snd_silncer_shot			= weapons\w_ak74_shot1, 0.5
+
+silencer_smoke_particles 	= weapons\generic_shoot_00
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+ 
+[wpn_an94_sniper_hud]
+allow_inertion				= true
+shell_point					= -0.065000,0.000000,-0.045000
+shell_dir			     	= 0.0, 1.0, 0.0
+fire_point               	= 0.237,0.0,0.0
+fire_bone               	= wpn_body
+
+orientation             	= 0, 0, 0		
+position                	= 0, 0, 0
+visual                  	= weapons\an94_sniper\wpn_an94_sniper_hud.ogf
+grenade_bone            	= wpn_grenade
+
+anim_idle					= idle
+anim_idle_aim				= idle_aim
+anim_reload					= reload
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= shoot
+anim_idle_sprint			= idle_sprint
+
+anim_idle_g					= idle_g
+anim_idle_g_aim				= idle_g_aim
+anim_reload_g				= reload_g
+anim_shoot_g				= shoot_g
+anim_switch_grenade_on		= g_on
+anim_switch_grenade_off		= g_off
+anim_draw_g					= draw_g
+anim_holster_g				= holster_g
+
+anim_idle_gl				= idle_w_gl
+anim_idle_gl_aim			= idle_w_gl_aim
+anim_reload_gl				= reload_w_gl
+anim_draw_gl				= draw_w_gl
+anim_holster_gl				= holster_w_gl
+anim_shoot_gl				= shoot_w_gl
+
+zoom_offset			= -0.127011,0.037401,-0.145000
+zoom_rotate_x		= -0.00000
+zoom_rotate_y		= 0.00000
+zoom_hide_crosshair	= true						;to hide crosshair in zoom 
+
+grenade_normal_zoom_offset			= -0.127011,0.037401,-0.145000
+grenade_normal_zoom_rotate_x		= -0.00000
+grenade_normal_zoom_rotate_y		= 0.00000
+
+grenade_zoom_offset			= -0.0894,-0.136,0.0
+grenade_zoom_rotate_x		= -0.0
+grenade_zoom_rotate_y		= -0.0
+
+[wpn_an94_custom]:wpn_an94_sniper			;;109986, pred trader

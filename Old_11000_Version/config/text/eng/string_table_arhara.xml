@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- TB3D 1.1.0.0.0.8 dmx135 controller vice comptroller, doc message in pripyat removed dose_asses...,
+ dip: gen/Astrol questline, The Doctor, \\n, cop_prip_msg1, line 981 - removed russian char. aleks1970,
+ tex_lukash_pechatka, tex_lysyi_klad and many minor edits, tex_otkrut_seif_sadik, boatswain, amber, lukash,
+ doc_alive, map_mil_trader, map_mil_tehnician - aleks1970, tex_klenov_vse -->
+<!-- Names changed as commented below - Sword2012 - 31 Oct 16 -->
+<!-- Corrected many generic punctuation, in-game and US/UK spelling errors - Sword2012 - 13 Dec 16 -->
+<!-- Line 346, changed 'Hog' to 'Borov' - Sword2012 - 21 Jun 17 -->
+<string_table>
+	<string id="blow_phrase1">
+		<text>Attention! An emission is imminent! Get out of the open and find cover!</text>
+	</string>
+	<string id="blow_phrase2">
+		<text>Attention! An emission is imminent! Find shelter quickly...</text>
+	</string>
+	<string id="blow_phrase3">
+		<text>Attention! Attention! An emission is expected very soon!</text>
+	</string>
+	<string id="blow_phrase4">
+		<text>Intensified meteorological and seismological data indicates that an emission is fast-approaching! Get under cover!</text>
+	</string>
+	<string id="important_msg">
+		<text>Important Message</text>
+	</string>
+	<string id="atp_for_test22">
+		<text>ATP Territory</text>
+	</string>
+	<string id="peshera">
+		<text>The Caves</text>
+	</string>
+	<string id="puzir">
+		<text>Forgotten Forest</text>
+	</string>
+	<string id="av_peshera">
+		<text>Labyrinth</text>
+	</string>
+	<string id="aver">
+		<text>Reconnoitered Territory</text>
+	</string>
+	<string id="marsh">
+		<text>The Swamps</text>
+	</string>
+	<string id="lost_village">
+		<text>Old Village</text>
+	</string>
+	<string id="red_forest">
+		<text>Red Forest</text>
+	</string>
+	<string id="warlab">
+		<text>Military Lab</text>
+	</string>
+	<string id="generators">
+		<text>Generators</text>
+	</string>
+	<string id="hospital">
+		<text>Hospital</text>
+	</string>
+	<string id="limansk">
+		<text>Limansk</text>
+	</string>
+	<string id="dead_city">
+		<text>Dead City</text>
+	</string>
+	<string id="jupiter">
+		<text>Jupiter</text>
+	</string>
+	<string id="zaton">
+		<text>Backwater</text>
+	</string>
+	<string id="pripyat">
+		<text>East Pripyat</text>
+	</string>
+	<string id="jupiter_underground">
+		<text>Jupiter Underground</text>
+	</string>
+	<string id="labx8">
+		<text>Laboratory X-8</text>
+	</string>
+	<!-- new 10991 -->
+	<string id="sniper_novice">
+		<text>Novice Avenger</text>
+	</string>
+	<string id="sniper_experienced">
+		<text>Experienced Avenger</text>
+	</string>
+	<string id="sniper_master">
+		<text>Master Avenger</text>
+	</string>
+	<string id="sniper_veteran">
+		<text>Veteran Avenger</text>
+	</string>
+	<string id="nebo_master">
+		<text>Master Clear Sky</text>
+	</string>
+	<string id="nebo_veteran">
+		<text>Veteran Clear Sky</text>
+	</string>
+	<string id="nebo_experienced">
+		<text>Experienced Clear Sky</text>
+	</string>
+	<string id="nebo_novice">
+		<text>Beginner Clear Sky</text>
+	</string>
+	<string id="map_technician">
+		<text>Technician</text>
+	</string>
+	<string id="map_trader">
+		<text>Trader</text>
+	</string>
+	<string id="map_cmdr_freedom">
+		<text>Commander Freedom</text>
+	</string>
+	<string id="map_cmdr_debt">
+		<text>Commander Debt</text>
+	</string>
+	<string id="map_cmdr_clearsky">
+		<text>Commander Clear Sky</text>
+	</string>
+	<!-- <string id="cop_prip_msg1">
+		<text>I got to the apartment. Pavel Sergeyevich and Shadows have been here but are gone. I found an interesting Notepad about that night's incident in the lab... So after all that happened, our friend went back to the lab. Apparently never came out from there...\nBy the way.. there is a receiver here with a strange continuously repeated message. certainly a Military transmission...\nWhat do you think?</text>
+	</string>
+	<string id="cop_prip_msg2">
+		<text>You are very close.. BUT We have a problem... our last conversation overheard. And maybe someone else knew about the Cube...\nA squad of Mercenaries has arrived in the eastern part of Pripyat. They know what you're looking for in the apartment...\nNeed to get them to believe otherwise. You do not want to trouble? You can try to merge some of the misinformation in the Stalkers network...\nTry to write in the chat through PDA: Sell the cube of shadows, inexpensively. Meet us at the Cordon around the perimeter.\nWrite exactly how I wrote, then perhaps they decide that you have already picked up a cube... Try.</text>
+	</string> -->
+	<string id="bullseye_private">
+		<text>Bullseye: private channel.</text>
+	</string>
+	<string id="shadows_private">
+		<text>Shadows: private channel.</text>
+	</string>
+	<string id="labx8_private1">
+		<text>I know where the entrance is to Laboratory X-8. Sending now...</text>
+	</string>
+	<string id="labx8_private2">
+		<text>All right. I hope Pavel is alive... He knows what we want.</text>
+	</string>
+	<string id="unknown_private">
+		<text>Unknown: private channel.</text>
+	</string>
+	<string id="propusk_msg">
+		<text>Bullseye, the circumstances have changed! One of the soldiers who was with the Colonel survived!\nI just saw him on the way to the checkpoint. Get there quickly, before he tells them everything...</text>
+	</string>
+	<string id="journal_article">
+		<text>Article in journal:</text>
+	</string>
+	<string id="intel_mutant">
+		<text>Intel on mutant:</text>
+	</string>
+	<string id="intel_group">
+		<text>Intel on faction:</text>
+	</string>
+	<string id="intel_art">
+		<text>Intel on artefact:</text>
+	</string>
+	<string id="intel_anom">
+		<text>Intel on anomaly:</text>
+	</string>
+	<string id="intel_local">
+		<text>Intel on location:</text>
+	</string>
+	<string id="zone_history">
+		<text>Zone History:</text>
+	</string>
+	<string id="local_lore">
+		<text>Local folklore:</text>
+	</string>
+	<string id="pers_note">
+		<text>Personal note:</text>
+	</string>
+	<string id="intel_transport">
+		<text>Intel about transport:</text>
+	</string>
+	<string id="data_downloaded">
+		<text>Downloaded PDA data:</text>
+	</string>
+	<string id="mil_secret_arhara">
+		<text>Military Secret:</text>
+	</string>
+	<string id="flame_tip1">
+		<text>Danger! Critical pressure!</text>
+	</string>
+	<string id="flame_tip2">
+		<text>Unable to generate flames without colloidal gas or gasoline...</text>
+	</string>
+	<string id="flame_tip3">
+		<text>No flamethrower to refill!</text>
+	</string>
+	<string id="stop_stalker">
+		<text>Stalker! Stop!</text>
+	</string>
+	<string id="mod_downloaded">
+		<text>New artefact modification downloaded to PDA...</text>
+	</string>
+	<string id="doc_alive">
+		<text>The Doctor is alive!\nHurry! Follow him through the teleport to a safe place...</text>
+	</string>
+	<string id="tele_ready">
+		<text>The Teleport is ready...</text>
+	</string>
+	<string id="kit_enemies">
+		<text>Enemies are too close by to use the Repair kit!!!</text>
+	</string>
+	<string id="rep_slot1">
+		<text>The weapon in the first slot has been repaired...</text>
+	</string>
+	<string id="rep_slot2">
+		<text>The weapon in the second slot has been repaired...</text>
+	</string>
+	<string id="rep_damaged">
+		<text>Weapon too severely damaged!!!</text>
+	</string>
+	<string id="rep_nofix">
+		<text>The weapon does not require repair...</text>
+	</string>
+	<string id="rep_armor_done">
+		<text>Armor successfully repaired</text>
+	</string>
+	<string id="rep_armor_bad">
+		<text>The armor is too severely damaged!!!</text>
+	</string>
+	<string id="rep_armor_good">
+		<text>The armor does not require repair...</text>
+	</string>
+	<string id="rep_no_armor">
+		<text>What armor? Moron!</text>
+	</string>
+	<string id="rec_ria10_3">
+		<text>Received: three RIA-10 Repair kits</text>
+	</string>
+	<string id="rec_riw10_3">
+		<text>Received: three RIW-10 Repair kits</text>
+	</string>
+	<string id="rec_ria10">
+		<text>Received: RIA-10 Repair kit</text>
+	</string>
+	<string id="rec_riw10">
+		<text>Received: RIW-10 Repair kit</text>
+	</string>
+	<!-- end 10991 -->
+	<string id="tex_take_arhara">
+		<text>Yes, in the Zone is nothing just do not... That's an example - to find the minigun for Adrenalin... It should be found in Yantar, where the helicopter went down... And where is this Yantar? Customer hinted that he needed to talk with a professor by the name of Sakharov...</text>
+	</string>
+	<string id="tex_baty_zadan">
+		<text>Hmm. Not so simple. We need to take Sakharov's tracking device to the Wild Territory and find something the military want. They won't tell me what it is, but the detector will let me know if I'm within ten metres of it. After finding it, I should take it to Sakharov, who'll then give me a Minigun for Adrenalin</text>
+	</string>
+	<string id="tex_arhara_ekza">
+		<text>How did I get involved in this? Find a 'Stealth' exoskeleton in the ATP, or 'Bandit Central'... Sure as hell they're not going to give it up easily. Voronin told me roughly where to find it - in an attic - but useful though that may be, the real question is 'How do you find an invisible suit?'</text>
+	</string>
+	<string id="tex_take_shurup">
+		<text>Screw this, so droll! Bring him the usual vices through the floor of the Zone... Quite to the head does not make friends. Although... All geniuses are a little weird, but this does not look like a genius. And, then, just disabled by brain from childhood... It's good that there is an approximate figure, where these vices can be. Fitter-taught, mmat it.</text>
+	</string>
+	<string id="tex_take_chaes_ugrum">
+		<text>We must get antizombin to watch 'Freedom'. Have to be dragged behind it for new traders. Here I am stump, it was necessary to immediately buy... And not one, but a couple... And suddenly, the hog more of them will not sell? Go north in Chernobyl NPP, for sure, then very useful...</text>
+	</string>
+	<string id="tex_take_mozg">
+		<text>It is necessary to extract and bring Lukash brain Controller of at least two pieces. You can search for it in the ATP or trudge to the north of Chernobyl... In addition, find the anarchist and talk to my will, as long as my pocket will not be three hundred thousand scars.</text>
+	</string>
+	<string id="tex_take_disk">
+		<text>Adrenalin gave me information about one of the exits from the ATP and asks you to bring him to drive for the company, which carried him to one of the Stalkers. You can, of course, drive, and do not look for it. I did, after all, and so knew where the exit from the territory... Adrenalin had no choice as to tell me about it before setting. Otherwise, as I got out? But the conscience I still have. So I'll try to do the job.</text>
+	</string>
+	<string id="enc_atp_way_kordon_text">
+		<text>Adrenalin gave me information about one of the exits from the ATP. Go to the Cordon, presumably, is on these stones.</text>
+	</string>
+	<string id="enc_atp_way_military_text">
+		<text>I got information about another outlet with the ATP, the army warehouses. It is somewhere in this corner of the roof. On the third passage knows Sakharov. We must see him, until the bullet is not words...</text>
+	</string>
+	<string id="tex_take_sumka">
+		<text>Yes, but the professor is not very much appreciative of other people's lives... Because of the bags in this ass posted... Well, that at least a rough determination of a mobile observation point gave the military. It's somewhere in the Chernobyl-NPP1, near the entrance to the sarcophagus...</text>
+	</string>
+	<string id="enc_atp_way_pripyt_text">
+		<text>I have information on the last, and it seems very proper transition from the ATP - in Pripyat. Judging by this picture, it is necessary to explore this part of the destroyed roof.</text>
+	</string>
+	<string id="tex_take_arhara_doctor">
+		<text>I need to find a missing locket for the Swamp Doctor. It's in a backpack on the roof of one of those really high buildings in Pripyat. I've no idea how to get up there, but the Doc suggested I look for a 'shortcut' in the ATP...</text><!-- Changed from 'Bolotny Doctor' - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="enc_artmod_gusenica_text">
+		<text>Sakharov sold recipe Artefact Modification: A Controller's bezoar in a Burner anomaly can result in a Plasma Caterpillar artefact. Transformation time just five minutes, with the probability of a successful outcome at 75%</text>
+	</string>
+	<string id="enc_pripyt_way_atp_text">
+		<text>I have information on the transition from the north at Chernobyl NPP. All Freedom said was that the label from the card could disappear due to abnormal activity at the station. Well, that though the picture is...</text>
+	</string>
+	<string id="tex_lekarstvo_bandita">
+		<text>I need to find three vials of medicine for Akim. They were dropped in the minefield, on the left of the road outside the southern checkpoint at the Cordon...</text>
+	</string>
+	<string id="tex_vorona_povar_naiti">
+		<text>Now I need to find ten crow eggs for the drunken chef... Apparently, Akim knows about these things, and where the crows lay them so they're easy to collect...</text>
+	</string>
+	<string id="tex_shaxter_fonarik">
+		<text>Shakhtar's failing eyesight means that he needs two flashlights to help him read. He remembers them being sold by traders at the border, but that was a long time ago. Maybe Sidorovich, Akim or Kuznetsov would know...</text>
+	</string>
+	<string id="tex_akim_kubik">
+		<text>Akim wants a Rubik's Cube, which he saw being thrown onto a roof at the Bandit base in the Dark Valley. Nothing unusual or anomalous about it - just a bog-standard Rubik's Cube that's been left out in the rain. Sometimes I question my own sanity...</text>
+	</string>
+	<string id="tex_shaxter_kniga">
+		<text>Somewhere on the outskirts of the Forgotten Forest are the remains of Rasstrel's people from a helicopter flying over uncharted territory. One of them was carrying a book, which Minor needs desperately. All I know is that this place is close to two or three large stones, and that the wreckage should still be there...</text>
+	</string>
+	<string id="tex_lysyi_klad">
+		<text>Baldy decided to share his lost treasure and asked me to bring him the contents, which is in some Cave. Good luck! I have no superfluous gestures learned where to locate the entrance to the cave! That is, only... Is there this Shakhtar? Or was the cave... a dream? Need to know. Or maybe a treasure of gold coins to find. I should see if the Miner knows anything about it...</text>	<!-- Changed 'Bald' to 'Baldy'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_arx_strelok">
+		<text>Miner needs a 'Controller Scalp' artefact. Otherwise, he will not give me the PDA...</text>
+	</string>
+	<string id="tex_take_zombie">
+		<text>In... Has not yet managed to escape from the cordon, and have already found ten hands of zombies... I do not even know where they are found, look like... Here is the news... In the Zone is a zombie?</text>
+	</string>
+	<string id="tex_take_doc1">
+		<text>Akim needs some old document. 'In the Dump, on top of something...' he said. A building? A bus? A container? Where the hell do I start?</text>
+	</string>
+	<string id="tex_take_doc2">	<!-- It's Agroprom underground! - aleks1970 -->
+		<text>I need to find the second part of the documents for Akim. All I know is that they're in the Agroprom underground in a very safe and dangerous place. Can this job get any better?</text>
+	</string>
+	<string id="tex_take_doc3">
+		<text>Akim needs a third document from X-18. However, this one has been separated into four sections! He says that three should be inside the lab, and the fourth somewhere outside near the lab's entrance...</text>
+	</string>
+	<string id="tex_take_doc4">
+		<text>Well, I've been hired as a courier... To start with I need to find: a SKAT10 armored suit, a Stalker Exoskeleton, a Bandit Exoskeleton, and a Duty PSZ-9MD Scientific suit. And there's more  - we still have to find the PDA and the lost document! The document's supposed to be somewhere in  Lab X-16, and the PDA in close proximity to a crane standing at the base of an unfinished building at the Bandit base, in the Dark Valley. 'Short and sweet', he says. Easier to get to the bloody Monolith, if you ask me...</text>
+	</string>
+	<string id="tex_take_doc5">
+		<text>To do this, my 'geeky-biologist' friend needs a body part from every common mutant... What the hell is he is going to do with them?</text>
+	</string>
+	<string id="tex_take_qeast">
+		<text>Crest wants me to find fifteen artefacts for him. Medusa, Stone Flower, and Fireball - five of each. Better to find the Balls first, then the Flowers and Medusas to keep the radiation down. I'm just glad he didn't want Controller Scalps...</text>
+	</string>
+	<string id="tex_take_qeast_bizon">
+		<text>I need to find six Anomalous Bisons for Crest. Trouble is that not only the military, but every bunch of scumbags in the Zone tries to get their hands on these beauties. I'll need to hunt them down carefully...</text>
+	</string>
+	<string id="tex_take_teleporter">
+		<text>This is no easy job. I need to find a helicopter that crashed somewhere in the north of the forest, close to a group of large stones under which the military could spend the night safely. If I'm lucky the URT teleporter device they were carrying should still be with them...</text>
+	</string>
+	<string id="tex_petrenko_flyga">
+		<text>I need to ask Lanky in the Bar where Petrenko's gold-plated flask might be, or who stole it. This award means a lot to him...</text>
+	</string>
+	<string id="tex_dolgovyzui">
+		<text>In wrong price, intellectual... Ten chips have warriors in the cordon to find five 'quirks' to bring, and yes even fifty thousand scars riprap... Send to himself in the night travel on the Zone, arrange on a regular basis, every five minutes...</text>
+	</string>
+	<string id="tex_voronin_termos">
+		<text>For anyone looking for Voronin's Thermoses there are two types, large and small, five of each. To find the large ones, here's a picture of their location. It looks like they're near a tree outside the Freedom base, close to the power transmission lines. For info on the small flasks there's a rumor that Garik, a security guard at the '100 Rads', knows something about them...</text>
+	</string>
+	<string id="tex_garik_vopros">
+		<text>For information on the small Thermos flasks, Garik wants 20,000Ru and ten packs of cigarettes... Grand designs for a bodyguard who hangs around the Bar, thinking he'll go far someday. One day he'll go too far...</text>
+	</string>
+	<string id="tex_petr_sidor">
+		<text>Sidorovich is pissed off with me, and now I need to find him a couple of tool kits as a gift to get Petrenko off his back. Here, you can fix anything with a screwdriver, a few spanners, and a hammer... Screwdrivers and hammers you can usually find in the ATP, but for spanners I'll need to visit Screw at the Army Warehouses, and see if he has any spares...</text>
+	</string>
+	<string id="tex_voronin_stol">
+		<text>I'm tasked with finding Borov's secret room, and a multimedia computer system with a video transceiver. All this equipment must be delivered to Voronin...</text><!-- Was 'Hog's secret room'- Sword2012 - 21 Jun 17-->
+	</string>
+	<string id="tex_sahar_ekolog">
+		<text>Well, my e... Just dragged... and here... One environmentalist pulled, will now have two to carry. Hopefully, they will cooperate... We have to go to move to Rostok and meet these two nerds. Then hold them in a bunker Sakharov. The handles and news? Or a white stick? Well, at least if they die, pick up one phone and bring to Sakharov. Yes, we must not forget. Themselves environmentalists silo door will not open - their hands were busy. We must open the door and wait until they come.</text>
+	</string>
+	<string id="tex_voronin_infa">
+		<text>I need to find a Groza OTs-14 for defense outpost 'debt'. After the report from Voronin. Basically, he's right. Good gun in the upcoming dust-did not interfere.</text>
+	</string>
+	<string id="tex_naemn_shturm">
+		<text>Vigorous loaf... Come on business and got involved... It is necessary to help repel the attack of mercenaries on a checkpoint of Duty, that on the border with Wilderness territory and destroy their leader, nicknamed Hump. This must be done for me personally, not someone from the Duty... otherwise Voronin will not communicate with me... I wonder how he knows about it?</text>
+	</string>
+	<string id="tex_kalinin_atp">
+		<text>Well, things... Not only to me their concerns, so more were added. It is necessary to repel the bandits, and then find and neutralize their leader, nicknamed Shnyrov. He should be in the ATP. Yes, still have to look after Kalinin - in short a stray bullet, and all my efforts were in vain. In addition to awards for the job, I feel the spinal cord, Kalinin, I still need it.</text>
+	</string>
+	<string id="tex_gonets_atp">
+		<text>Must meet the messenger who carries Kalinin information. He goes straight from the end of the road leading from ATP (the road the other side of ATP, if you look out from where I went to the ATP) and may die. Then the info and awards I have not seen... Kalinin advises to use for speed a UAZ.</text>
+	</string>
+	<string id="tex_kalinin_btr">
+		<text>Kalinin is preparing for an attack on his camp from a group of special forces and two armored vehicles. He's asked me to bring him an 'Iglomet', his personal weapon of choice for this scenario. Sounds like he wants to have some fun...</text>
+	</string>
+	<string id="tex_btr_ataka">
+		<text>I've been tasked with eliminating two APCs and the military commander... Well, isn't that a coincidence? I have an RPG and a flashless sniper rifle...</text>
+	</string>
+	<string id="ways_info_way_arhara_peshera_cvalka_text">
+		<text>Miner gave me information on a transition to the Dump from the lower level of the Caves. There's a mark in my PDA...</text>
+	</string>
+	<string id="ways_info_way_arhara_peshera_agro_text">
+		<text>Shakhtar uploaded information on a transition from the Caves to Agroprom. It's near those big anomalies at the entrance to his camp...</text>
+	</string>
+	<string id="ways_info_way_arhara_cvalka_peshera_text">
+		<text>Baldy at the bar said there's a transition from the Dump to the Caves, located in an abandoned railway tunnel...</text><!-- Changed 'Bald' to 'Baldy'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="info_way_arhara_agro_peshera_text">
+		<text>Baldy in the bar gave me a tip on a transition from Agroprom to the Caves, at the end of a disused railway tunnel...</text>	<!-- Changed 'Bald' to 'Baldy'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="info_way_arhara_td_les_text">
+		<text>Kalinin gave me a tip about a transition from the Dark Valley to the Forgotten Forest. That could come in handy one day...</text>
+	</string>
+	<string id="info_way_arhara_peshera_labirint_text">
+		<text>Miner gave me information on how to access the Labyrinth from the Caves. In the lower levels, in a bright area with a couple of mining carts, is a high wall that looks impossible to climb - but I should try anyway. At the top should be a round open shaft set into the wall. From there, I'm on my own...</text>
+	</string>
+	<string id="info_way_arhara_labirint_peshera_text">
+		<text>It's good that the prisoner survived. He gave a tip to the transition from the Labyrinth back to the Caves. The transition is located on the lower level, in one of the grottos near the entrance to the second cavern...</text>
+	</string>
+	<string id="info_way_arhara_labirint_yantar_text">
+		<text>Fima Coal, a former prisoner of Monolith, showed me a transition from the Labyrinth to Yantar. The transition is at the top of the Labyrinth...</text>	<!-- Changed 'Coal Fima' to 'Fima Coal'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="info_way_arhara_labirint_earth_text">
+		<text>Miner showed me a way out of the Labyrinth to Recon. The transition is at the top of the Labyrinth...</text>
+	</string>
+	<string id="info_way_arhara_yantar_labirint_text">
+		<text>Adrenalin told me of a transition from Yantar to the Labyrinth, and noted it on my PDA map</text>	<!-- Changed 'Crank' to 'Adrenalin'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="info_way_arhara_atp_pripyat_text">
+		<text>Sakharov as a reward for the bag said the transition from ATP to Pripyat. With a broken roof ridge on the ATP - the roof of Skyscraper on the Pripyat River.</text>
+	</string>
+	<string id="info_way_arhara_atp_military_text">
+		<text>Adrenalin gave me information on the transition from ATP to the Army Warehouses.</text>
+	</string>
+	<string id="info_way_arhara_atp_kordon_text">
+		<text>Adrenalin gave me information about the transition from ATP to the Cordon.</text>
+	</string>
+	<string id="info_way_arhara_atp_svalka_text">
+		<text>Kalinin gave me a tip on the trail from the ATP landfill, said it started in my PDA.</text>
+	</string>
+	<string id="info_way_arhara_military_earth_text">
+		<text>The old man shared the trail from the Army Warehouses to Recon</text>
+	</string>
+	<string id="info_way_arhara_td_earth_text">
+		<text>The old man spoke about the transition from the Dark Valley to Recon. Find it on the PDA map is not difficult.</text>
+	</string>
+	<string id="info_way_arhara_svalka_earth_text">
+		<text>Cyclops gave a tip to the transition from the Garbage to Recon. Useful trail!</text>
+	</string>
+	<string id="info_way_arhara_earth_labirint_text">
+		<text>Cyclops said about the transition from Recon to the Labyrinth. The transition is located right in the cave of the Infirmary.</text>
+	</string>
+	<string id="info_way_arhara_radar_warlab_text">
+		<text>Fang gave information about the transition from the radar to a military lab. It is located in one of the doors on the second floor of a small tank that is located near the crossroads at Pripyat.</text>
+	</string>
+	<string id="info_way_arhara_warlab_brainlab_text">
+		<text>Here's more information on the Fang. On the transition from a military lab to the Laboratory X-16. Apparently, all underground utilities are connected by tunnels that allows you to move quickly underground.</text>
+	</string>
+	<string id="info_way_arhara_warlab_skladu_text">
+		<text>Panther's bodyguard announced the transition from a military lab in Army Warehouses, right on the base of Freedom. The transition mentioned in my PDA. Very useful information, by the way...</text>
+	</string>
+	<string id="info_way_arhara_x18_warlab_text">
+		<text>Maples said that all the underground laboratories of the Zone were connected. One of them he knows that leads from the ground-floor of X-18 to a military lab. In my PDA is a marker.</text>	<!-- Changed 'Maple' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="info_way_arhara_kordon_boloto_text">
+		<text>Fanatic threw coordinates of a transition to the Swamps. The transition is located somewhere near the fence-nets for camping novices not far from Sidorovich's bunker.</text>	<!-- Changed 'Fan' to 'Fanatic'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="info_way_arhara_radar_forest_text">
+		<text>Fang told me at the Bar that he had another scout, Pilgrim, who found a trail to the Red Forest. The transition is marked on the Radar map and in my PDA. Just became known passage from Army Warehouses to Limansk.</text>
+	</string>
+	<string id="info_way_arhara_chaes2_atp_text">
+		<text>Senior at the roadblock on the base of 'Freedom' gave a tip to the transition from the North of Chernobyl NPP to the ATP.</text>
+	</string>
+	<string id="info_way_arhara_pripyt_village_text">
+		<text>Fang uploaded coordinates for the transition from the Pripyat River to the old village. Mark appears on the PDA.</text>
+	</string>
+	<string id="info_way_arhara_village_limansk_text">
+		<text>Kolmogor spoke about the transition from the Old Village in Limansk. There is a marker on the PDA.</text>
+	</string>
+	<string id="info_way_arhara_village_hospital_text">
+		<text>Kolmogor told about yet another transition. From the Old Village to the Hospital.</text>
+	</string>
+	<string id="info_way_arhara_chaes_generator_text">
+		<text>Ghost knows where the transition from the South of Chernobyl NPP to the Generators. It starts at the gate, next to the mobile military communications post at the station.</text>
+	</string>
+	<string id="info_way_arhara_hospital_agroprom_text">
+		<text>Black Doctor opened a short trail from the Hospital to the Agroprom. It begins near the stairs in the far tail of the third Hospital section and is marked on my PDA.</text>
+	</string>
+	<string id="info_way_arhara_agroprom_marsh1_text">
+		<text>The cache contained part of a card with a picture and the coordinates of the transition from the Agroprom in the swamp. Just pointed out that the passage opens in the radioactive Zone. Better bring a couple of Antirads or Vodka.</text>
+	</string>
+	<string id="info_way_arhara_bar_atp_text">
+		<text>Adrenalin spoke about the transition from the Bar to the ATP. There is also a mark on my PDA. Finding it may not be easy.</text>	<!-- Changed 'Crank' to 'Adrenalin'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="info_way_arhara_gener_pripyat_text">
+		<text>Ghost has discovered a trail to the Generators from Pripyat. It begins near the village of Stalkers.</text>
+	</string>
+	<string id="info_way_arhara_chaes2_chaes_text">
+		<text>The note from Strelok has information about another transition from North to South Chernobyl. I copied the coordinates into your PDA</text>	<!-- Changed 'Arrow ' to 'Strelok '- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="info_way_arhara_gener_hospital_text">
+		<text>Countryman suggested the trail to the Generators in the Hospital. It is located near the barrier on the old Betonka.</text>
+	</string>
+	<string id="info_way_arhara_warlab_generators_text">
+		<text>In his notebook, is the code for the door, were the coordinates of the transition from the military laboratories to Generators.</text>
+	</string>
+	<string id="info_way_arhara_limansk_generators_text">
+		<text>Semetsky suggested the trail from Limansk to Generators. It begins near the construction site and leads through a door in a barn in an underground tunnel.</text>
+	</string>
+	<string id="info_way_arhara_forest_warlab_text">
+		<text>The note by the representative of a dead clan 'Last Day' were the coordinates of the transition from Red Forest in the military laboratories. The trail begins in the cave on a hillside near an abandoned tank.</text>
+	</string>
+	<string id="info_way_arhara_dcity_limansk_text">
+		<text>With the activation of unknown device found in the cache to unlock trail from the Dead Cities to Limansk.</text>
+	</string>
+	<string id="info_way_arhara_dead_city_atp_text">
+		<text>With the activation of unknown device found in the cache to unlock trail of the Dead City to the ATP. There is a marker on the PDA.</text>
+	</string>
+	<string id="info_way_arhara_dcity_rostok_text">
+		<text>With the activation of unknown device found in the cache to unlock trail of the Dead City to the Wild Territory. There is a marker on the PDA about this transition.</text>
+	</string>
+	<string id="info_way_arhara_atp_dead_city_text">
+		<text>With the activation of unknown device found in the cache to unlock trail with the ATP to the Dead City. There is a marker on the PDA about this transition.</text>
+	</string>
+	<string id="info_way_arhara_dcity_zaton_text">
+		<text>The coordinates of the note Sparks managed to find one unlocked entrance to Backwater. There is a secret passage from the Dead city's Creek...</text>
+	</string>
+	<string id="info_way_arhara_lima_dcity_text">
+		<text>To activate the portal in Limansk... It turned out that he is not in the third dimension, as in Dead City...</text>
+	</string>
+	<string id="info_way_bar_wild_territory_text">
+		<text>With the way cleared to the Wild territory I can now travel to X-16, a lab somewhere near the Yantar scientific outpost...</text>
+	</string>
+	<string id="tex_shax_plennik">
+		<text>My mission is to release a prisoner from a Monolith jail. The code to his cell is in a notebook, probably held by one of the guards. Hopefully, Shadow Monolith, the immortal leader of those fanatics, won't be around... The crucial thing is that the prisoner survives, because he's the only one who knows the way out of the Labyrinth...</text>
+	</string>
+	<string id="enc_artmod_globus_text">
+		<text>Miner gave me a recipe for an absolute artefact modification: a Simbion in a Fruit Punch anomaly for ten minutes has a 75% probability of creating a 'Rattle'...</text>
+	</string>
+	<string id="tex_fima_mulo">
+		<text>I need to bring Fima Coal ten scientific kits, ten bandages, two pieces of soap and a Soul artefact. He left the soap in the basement of a house in the Rookie village at the Cordon...</text>	<!-- Changed 'Fimke' to 'Fima Coal'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_adr_shkatulka">
+		<text>Have to go to the Labyrinth again and try to find a casket and a safe. The casket, I need to bring to Adrenalin, who tells me it's located on the second level up of the Labyrinth, but I can only get there via a Bubble teleport, which is somewhere on the lower level... The entrance to the lower level is close to the transition to the Miner, but now I can also get to the Labyrinth from Yantar...</text>
+	</string>
+	<string id="tex_tretiy_kod">
+		<text>First, prepare by getting two artefacts, a Rattle and a Plasma Caterpillar. Then go to Sidorovich and, if you're lucky, find a way to join the Monolith. You'll need decent armor, as everyone will see you as an enemy... In the Labyrinth you'll have to find the Shadow Monolith's code for the inner door, find a safe and a couple of tool kits, take the tool kits to Sidorovich, get yourself back to normal, then bring the safe to Miner. From memory, the codes to the outer doors are 434018 and 206018...</text>
+	</string>
+	<string id="tex_sidor_amulet">
+		<text>I need to find a Labyrinthine maze, controlled by the Monolith. I've borrowed Sid's Monolithian amulet, which is effectively a death warrant. He wants two tool kits from the Monolith base before he'll remove the amulet from me. If they're not outside the base, then I'll need to find a way inside...</text>
+	</string>
+	<string id="tex_otshelnik_yzik">
+		<text>I need to ask one of the pilots from the crash where they dropped the weapon box from the helicopter. Then find the box and bring it to Hermit. No problem, then...</text>
+	</string>
+	<string id="tex_ginekolog_lekarstvo">
+		<text>I need to ask Cyclops where to find medical supplies. But I'm not allowed to kill or hurt anyone, so I'll need to be smart...</text>
+	</string>
+	<string id="tex_jora_accumul_seif">
+		<text>I need to ask the old man where I can find a couple of old accumulator cells. Then bring them to Jora Anomaly so we can get the safe open...</text>	<!-- Changed 'Zhorka' to 'Jora Anomaly'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_starik_zadanie">
+		<text>I need to go to the Hermit for information, then find the Fiery Cave and look for some old accumulator cells for Jora Anomaly. Also to find a watch for the old man. So I need to find an entrance to the cave, and then try to get inside....</text>
+	</string>
+	<string id="tex_piligrim_britva">
+		<text>So, I need to find a cache for Pilgrim. It's located somewhere behind the old cabins near the right of the trail leading to the caves. Bring him everything in the backpack, but leave the backpack undisturbed. Easy, but there's a problem. The trail has become a base for snipers, and Pilgrim asked me stay out of sight and earshot, and get the job done without unnecessary deaths. He doesn't want to start a war, especially with snipers. If I'm spotted, then I'm screwed, and my progress with the Pilgrim isn't going to happen...</text>
+	</string>
+	<string id="tex_otsh_pda">
+		<text>Victor Hologram is terminally ill, but can be treated with the help of a special medical device, an 'Ultra' detector. Find one, or preferably two, and take them to Adrenalin who, in return, should give me more information...</text>
+	</string>
+	<string id="tex_golo_detektor">
+		<text>An honest deal. I need to find two 'Elite' detectors and a 'Plasma Caterpillar' artefact. Victor Hologram gave me a rough idea of the location of the 'Ultra' detectors, and other useful items...</text>
+	</string>
+	<string id="tex_medik_pribor_1">
+		<text>I need to ask Cyclops where there's a floppy disk with the drawings. Find and bring it to the Gynecologist. Go fetch, Stalker...</text>
+	</string>
+	<string id="tex_akkum_and_mikposx">
+		<text>Well, that one should not be dragged anywhere. Everything here is close. We must find the key to eliminating one of the teleports. Penetrate into the Fiery cavern and see what was on the base. We need to find two power supplies for Freedom Exoskeleton and chip control (or something like that). And bring it all to the Gynecologist... So much time here to drag... Why, one wonders? Got another strange SMS from some colliding, which in the course of an old map... Wonderful...</text>
+	</string>
+	<string id="tex_chimaera_zadan">
+		<text>That is, how I lived... To kill Sidorovich, but still bring his head to Chimera as proof. Otherwise, I do not get reagents for Perfuzor. Go to the Gynecologist, something must come up with...</text>	<!-- Changed 'Shura' to 'Gynecologist '- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_land_oxot">
+		<text>We must go to the Rusty Timber, there is one of the rocks that are located around the perimeter of the forest to find the corpse of the Controller and drag it Filin. On payment by the Hunters while no mention was. But, obviously, for nothing they do will not be stuffed.</text>
+	</string>
+	<string id="tex_ginek_vlip">
+		<text>Need to talk to a hunter named Owl. It should help make a Scarecrow Head of Sidorovich. Then give the head to Chimera, find the bulb with solutions for Perfuzor and bring the full flask to Gynecologist.</text>	<!-- Changed 'Shura' to 'Gynecologist '- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_vuxod_atp">
+		<text>For information on the transition from ATP Kalinin asks you to bring him three of the artefact. 'Glassbeads', 'Moonlight' and 'Flash'. All this can be gathered up in the ATP. Damn, I wonder.. rushed here without talking with Stalkers of withdrawal...</text>
+	</string>
+	<string id="tex_kluk_vstrecha">
+		<text>We must explore new territory and find out who lives there and is doing what. The main goal - to find out whether there is the kidnapped daughter of one of the leaders of the 'O-consciousness' there. Then it is necessary to share information with Fang and Pilgrim.</text>
+	</string>
+	<string id="tex_lukash_pechatka">
+		<text>We must stomp on Radar, to locate there a Monolith called Spider and take the Signet Ring from him. According to Lucas, Spider is at the old bunker beyond the first corner from the main road, before the turn to Pripyat. Once you have it then the Mercenaries will think your one of them and let you enter. Of course we need to return the Signet to Lukash to get the reward... but not before visiting Fang in the Bar.</text>
+	</string>
+	<string id="tex_body_pantera">
+		<text>It's not urgent, but the person will pay for his kindness should be, although it is a Mercenary. Job is - to whistle from the headquarters base Lukash Freedom at Army Warehouses a stuffed Pseudodog and bring it to Panthers. It is better to kill two birds with one stone: to wait for the next job on the Panthers Army Warehouses, and when performing it, take to Scarecrow.</text>
+	</string>
+	<string id="tex_pantera_fone">
+		<text>I have less than fifteen minutes to find the premises of a military lab station for the Mercenary Panthers. It is known that the portable radio is in a backpack, a backpack found in the laboratory. But not on its lower levels. We must remember that backpacks may be several. We'll have to hurry. Now the reputation among the Mercenaries to me is very important.</text>
+	</string>
+	<string id="tex_pant_zadan">
+		<text>Arrive at a fixed point on the bridge and wait in the direction of the checkpoint pops a messenger. You must pick up the disc, but you can not kill the messenger himself. We have to act in another way...</text>
+	</string>
+	<string id="tex_p_z_tri">
+		<text>I feel one place that I still need this mercenary. And she herself - nothing simple... The main thing is not screw around at this time. It is necessary to steal from Oruzheyka Lukash's backpack, well, or its contents. Yes, we must not forget about Scarecrow's Pseudodog for the bodyguard. Task is simplified by the fact that the Panthers gave me map.</text>
+	</string>
+	<string id="tex_gologr">
+		<text>Must accompany the hologram on the Reconoitered Earth before entering the Army Warehouses. Further, he knows the way and gets himself.</text>
+	</string>
+	<string id="tex_klenov_gol">
+		<text>Have to find Victor Hologram, to try to persuade him to return to Maples. In case of success, obviously, and to accompany... However...</text>	<!-- Changed 'Klenow' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_klenov_vse">
+		<text>There is a chance to get an artificial artefact of 'Heart of Poltergeist.' You must bring to Maples: 'Heart Poltergeist' and ten 'Cobblestones'.</text>	<!-- Changed 'Klenow' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_vitamin_reyd">
+		<text>To get a present from Lucas and the key to a teleport in a military lab, I have to help the group to commit mop-up march at Radar to the entrance to the military laboratory. Or rather, to show them an open road. With a group I meet at Radar at the entrance to the Army Warehouses.</text>
+	</string>
+	<string id="tex_esc_razvod">
+		<text>Sidorovich sent text messages and requests to pay with a Stalker, that in a small house near the ruins opposite the farm. That is, give him 70,000! However, the merchant promises to give a percentage for the service.</text>
+	</string>
+	<string id="tex_za_bablom">
+		<text>It is done. We have to go to Sidoravich and get back the money and interest.</text>
+	</string>
+	<string id="tex_kolmogor_say">
+		<text>Kolmogor's looking for his brother. There is evidence that punishers took him along with a group of prisoner Stalkers toward an abandoned store. Need help Kolmogor.</text>
+	</string>
+	<string id="tex_sestra_start">
+		<text>We need to find her sister Kolmogor. Incredible, but it seems that this Panther. We must find her and find out everything. However, I have long been of it has not received news. Generally not known whether she is alive. There is only one way to learn to send text messages and wait for a response. If the Panthers and sister Kolmogor, anyway, it should lead to the village.</text>
+	</string>
+	<string id="tex_village_shtab">
+		<text>We must help the group to capture the headquarters of the Kolmogor punishers in the Village. All the military is to clean up, and there should be only not numerous guards. The headquarters is situated on a hill in the central house. If the capture succeeds, after talks with Kolmogor.</text>
+	</string>
+	<string id="tex_kolm_obsledov">
+		<text>Kolmogor asked to bring Pilgrim and explore the village. It is necessary to determine whether remains there punishers. After the reconnaissance, I need to talk to Kolmogor.</text>
+	</string>
+	<string id="tex_derevny_zashita">
+		<text>Need help Stalkers to repel the attack squad, returning with a stripper on helicopters. After the successful outcome of the bout to talk to Kolmogor.</text>
+	</string>
+	<string id="tex_klenov_antena">
+		<text>Maples can not complete the experiment in a new generator for the artefacts. He needs a Psychiatric Mobile Antenna, the signal which comes from the Cordon. Who set it there? For what purpose? I am a complete layman in physics, higher mathematics and other tricks, so it is unclear how this Hallucinogenic Antenna can help him. However, the label on the PDA, and we should go. Something he mentioned about the mutants? Hmm...</text>	<!-- Changed 'Maple' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_boloto_provod">
+		<text>Connoisseur Bolot requests that I reconnoiter the situation on the old farm. He needs to bring the two Zombie Embryos, who hid in one of three caches on this farm. This is his first condition for information on the transition from the Swamps to the Old Village via the Wasted Woodlands. I need to make this work.</text>
+	</string>
+	<string id="flesh_cocoon_item">
+		<text>Flesh Embryo</text>
+	</string>
+	<string id="flesh_cocoon_item_s">
+		<text>Flesh Embryo</text>
+	</string>
+	<string id="flesh_cocoon_description">
+		<text>Flesh Embryo. When leaving, the Cocoon immediately reaches adult size by mutated cells of the body, capable to performing billions of divisions a second. Dangerous!. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. Edible, satisfies hunger, a little healing and accelerates wound healing. The recommended distance to the center of activation - not less than ten meters.</text>
+	</string>
+	<string id="tushkano_cocoon_item">
+		<text>Mutated Rat Embryo</text>
+	</string>
+	<string id="tushkano_cocoon_item_s">
+		<text>Mutated Rat Embryo</text>
+	</string>
+	<string id="tushkano_cocoon_description">
+		<text>Tushkano Cocoon. Contains up to five embryos. Growth to the state of adult Tushkano - instant. Activated by impact (throw it to the ground). Time after the activation before the appearance of an adult organism within ten to fifteen seconds. Edible, satisfies hunger, a little healing and accelerates wound healing. The recommended distance to the center of activation - no less than seven meters.</text>
+	</string>
+	<string id="gigant_cocoon_item">
+		<text>Pseudogiant Embryo</text>
+	</string>
+	<string id="gigant_cocoon_item_s">
+		<text>Pseudogiant Embryo</text>
+	</string>
+	<string id="gigant_cocoon_description">
+		<text>Pseudogiant Embryo. Extremely rare. Maturation of the cocoon before activating up to several months. Growth after activation by the accumulated potential is divided by the body's cells, instantly. Is simply an increase in cell size rather than their quantity. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. Edible, satisfies hunger, a little bit healing and accelerates wound healing. The recommended distance to the center of the activation of at least fifteen feet.</text>
+	</string>
+	<string id="poltergeist_cocoon_item">
+		<text>Poltergeist Embryo</text>
+	</string>
+	<string id="poltergeist_cocoon_item_s">
+		<text>Poltergeist Embryo</text>
+	</string>
+	<string id="poltergeist_cocoon_description">
+		<text>Poltergeist Embryo. Extremely rare. Necessary for the maturation of the cocoon darkness. Sunlight duration of maturation multiplied. Growth after activation - instant. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. Edible, satisfies hunger, a little bit healing and accelerates wound healing. The recommended distance to the center of the activation of at least twelve feet.</text>
+	</string>
+	<string id="controller_cocoon_item">
+		<text>Controller Embryo</text>
+	</string>
+	<string id="controller_cocoon_item_s">
+		<text>Controller Embryo</text>
+	</string>
+	<string id="controller_cocoon_description">
+		<text>The Embryo of the Controller. Insanely rare, since such a method of 'breeding' is not typical for this type of mutants. Able to reproduce only Mother Controllers. In vivo activation produces a parent myself with the help of telepathy. Growth mechanism when activated - is unknown. Growth after activation - instant. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. The recommended distance to the center of the activation of at least twenty-five meters.</text>
+	</string>
+	<string id="chimera_cocoon_item">
+		<text>Chimera Embryo</text>
+	</string>
+	<string id="chimera_cocoon_item_s">
+		<text>Chimera Embryo</text>
+	</string>
+	<string id="chimera_cocoon_description">
+		<text>Chimera Embryo. Is unknown, but it seems that the cocoon is already mature individual who has become dormant. Growth after activation - instant. After activation - extremely aggressive and dangerous. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. Edible, fully satisfies hunger, instantly restores health and heals wounds. The recommended distance to the center of the activation of at least twenty-five meters.</text>
+	</string>
+	<string id="cat_cocoon_item">
+		<text>Feral Cat Embryo</text>
+	</string>
+	<string id="cat_cocoon_item_s">
+		<text>Feral Cat Embryo</text>
+	</string>
+	<string id="cat_cocoon_description">
+		<text>Embryo of a Feral Cat. Remains a mystery of his immediate increase after activation. Argued that the reason for the rapid maturation of a food parents. And that, basically, Radioactive rats. Usually occurs the birth of two individuals. Growth after activation - instant. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. Edible, satisfies hunger, a little healing and accelerates wound healing. The recommended distance to the center of the activation of at least ten meters.</text>
+	</string>
+	<string id="boar_cocoon_item">
+		<text>Boar Embryo</text>
+	</string>
+	<string id="boar_cocoon_item_s">
+		<text>Boar Embryo</text>
+	</string>
+	<string id="boar_cocoon_description">
+		<text>The embryo of a Wild Boar. Infrequent, since it is not the main way of breeding boars. Instantaneous growth following activation is achieved by a sharp increase in air 'layers' in muscle tissue, which, as animal food, replaced the normal fat and muscle tissue. Growth after activation - instant. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism within ten to fifteen seconds. Edible, satisfies hunger, a little healing and accelerates wound healing. The recommended distance to the center of the activation of at least fifteen feet.</text>
+	</string>
+	<string id="dog_cocoon_item">
+		<text>Chernobyl Dog Embryo</text>
+	</string>
+	<string id="dog_cocoon_item_s">
+		<text>Chernobyl Dog Embryo</text>
+	</string>
+	<string id="dog_cocoon_description">
+		<text>Embryo of the Chernobyl Blind Dog. One species of breeding flocks, reaching more than ten goals. The reason for the growth of instant - instant hypertrophy of the cells under the influence of light energy. Usually comes up to three individuals. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. Edible, satisfies hunger, a little healing and accelerates wound healing. The recommended distance to the center of the activation of at least twelve feet.</text>
+	</string>
+	<string id="psydog_cocoon_item">
+		<text>Psi-dog Embryo</text>
+	</string>
+	<string id="psydog_cocoon_item_s">
+		<text>Psi-dog Embryo</text>
+	</string>
+	<string id="psydog_cocoon_description">
+		<text>Psi-dog Embryo. Information about the occurrence of such Embryos, however as the nature of the Psi-dog remains a mystery. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. Growth after activation - instant. Toxic, reduces the health and speed healing of wounds, though, and relieves hunger. The recommended distance to the center of the activation of at least fifteen feet.</text>
+	</string>
+	<string id="psevdodog_cocoon_item">
+		<text>Chernobyl Pseudodog Embryo</text>
+	</string>
+	<string id="psevdodog_cocoon_item_s">
+		<text>Chernobyl Pseudodog Embryo</text>
+	</string>
+	<string id="psevdodog_cocoon_description">
+		<text>Chernobyl Pseudodog Embryo. One species of breeding flocks, reaching more than ten goals. The reason for the growth of instant - instant hypertrophy of the cells under the influence of light energy. Is born, usually two individuals. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. Edible, satisfies hunger, a little healing and accelerates wound healing. The recommended distance to the center of the activation of at least twelve feet.</text>
+	</string>
+	<string id="krovosos_cocoon_item">
+		<text>Bloodsucker Embryo</text>
+	</string>
+	<string id="krovosos_cocoon_item_s">
+		<text>Bloodsucker Embryo</text>
+	</string>
+	<string id="krovosos_cocoon_description">
+		<text>Bloodsucker Embryo. For this type of reproduction can only individual, long-term feeding on the blood of Chimeras and Pseudogiant. A rare find. The mechanism of instantaneous growth, probably due to a combination of options for the growth of Embryos for Chimeras and Pseudogiants. Extremely dangerous!. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. Edible, satisfies hunger, little treats and accelerates the healing of wounds, lightly displays radiation. The recommended distance to the center of the activation of at least twenty-five meters.</text>
+	</string>
+	<string id="burer_cocoon_item">
+		<text>Burer Embryo</text>
+	</string>
+	<string id="burer_cocoon_item_s">
+		<text>Burer Embryo</text>
+	</string>
+	<string id="burer_cocoon_description">
+		<text>Burer Embryo. Rumor has it that this is not the Embryo, but the lure for people who invented themselves a Burer. Probably takes place only apparent activation, and adult Burer teleported to the right place, if the danger to her by the victim is minimal. Very rare find. Chance of teleporting adult when activated - does not exceed 25-50% of the day - a chance to teleport even lower. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. Edible, satisfies hunger, a little healing and accelerates wound healing. The recommended distance to the center of the activation of at least twenty-five meters.</text>
+	</string>
+	<string id="zombie_cocoon_item">
+		<text>Zombie Embryo</text>
+	</string>
+	<string id="zombie_cocoon_item_s">
+		<text>Zombie Embryo</text>
+	</string>
+	<string id="zombie_cocoon_description">
+		<text>Zombie Embryo. This is probably one of the baits made by scientists from the 'On-consciousness' militants for the Monolith, with a view to eliminating fear and making the ranks of the Stalkers and other interested persons, tending to the Zone center. Cocoon in this case is a smart teleport. This is probably the test specimens teleport containing tissue. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. Rotten meat!.. poison Zombie. The recommended distance to the center of the activation of at least fifteen feet.</text>
+	</string>
+	<string id="snork_cocoon_item">
+		<text>Snork Embryo</text>
+	</string>
+	<string id="snork_cocoon_item_s">
+		<text>Snork Embryo</text>
+	</string>
+	<string id="snork_cocoon_description">
+		<text>Snork Embryo. Complete mystery to scientists. It defies any explanation of the emergence from the Cocoon an adult Snork in the clothing and mask. Probably the cocoon is formed in contact with the mutant in some sort of anomaly, which results in the packaging of the living creatures to the size and weight of the cocoon. Activated by impact (throw on the ground). Time after the activation before the appearance of an adult organism: within ten to fifteen seconds. Stinky meat.. Snork toxic. The recommended distance to the center of the activation of at least fifteen feet.</text>
+	</string>
+	<string id="item_kapitan_pda">
+		<text>Military Captain's PDA</text>
+	</string>
+	<string id="item_kapitan_pda_s">
+		<text>Captain's PDA</text>
+	</string>
+	<string id="enc_item_kapitan_pda_descr">
+		<text>Captain Midges' PDA. Unfortunately, the Antenna is damaged. As a phone use it is already impossible. Among the various disk imaging is a record of recent communications. After forty seconds, it will be copied in my PDA and duplicate on the screen.</text>
+	</string>
+	<string id="item_pult_anders">
+		<text>Sony PSP</text>
+	</string>
+	<string id="item_pult_anders_s">
+		<text>Sony PSP</text>
+	</string>
+	<string id="enc_item_pult_anders_descr">
+		<text>PSP game console with a joystick. Andersen used it not only for recreation during his free time, but fitted it with a coded chip to disable Psionic antennae. Operates within a radius of about two meters from an antenna</text>
+	</string>
+	<string id="item_simulator1">
+		<text>Simulator</text>
+	</string>
+	<string id="item_simulator1_s">
+		<text>Simulator</text>
+	</string>
+	<string id="enc_item_simulator1_descr">
+		<text>-</text>
+	</string>
+	<string id="item_simulator2">
+		<text>Simulator</text>
+	</string>
+	<string id="item_simulator2_s">
+		<text>Simulator</text>
+	</string>
+	<string id="enc_item_simulator2_descr">
+		<text>-</text>
+	</string>
+	<string id="item_samop">
+		<text>Flight Data Recorder</text>
+	</string>
+	<string id="item_samop_s">
+		<text>Flight Recorder</text>
+	</string>
+	<string id="item_samopisez">
+		<text>Onboard Recorder</text>
+	</string>
+	<string id="item_samopisez_s">
+		<text>Recorder</text>
+	</string>
+	<string id="enc_item_samopisez_descr">
+		<text>A typical form of 'Black Box'. Contains records of conversations of pilots, state information systems, helicopter and crew actions.</text>
+	</string>
+<!-- Excluded -
+	<string id="name_adj_psi_gen_1">
+		<text>"Adjustable Psi-Generator 1"</text>
+	</string>
+	<string id="name_adj_psi_gen_2">
+		<text>"Adjustable Psi-Generator 2"</text>
+	</string>
+	<string id="name_adj_psi_gen_3">
+		<text>"Adjustable Psi-Generator 3"</text>
+	</string>
+	<string id="name_adj_psi_gen_4">
+		<text>"Adjustable Psi-Generator 4"</text>
+	</string>
+	<string id="name_adj_psi_gen_5">
+		<text>"Adjustable Psi-Generator 5"</text>
+	</string>
+	<string id="name_adj_psi_generator">
+		<text>"The Generator"</text>
+	</string>
+-->
+	<string id="item_mini_antenna">
+		<text>Adjustable Psi-Generator #1</text>
+	</string>
+	<string id="item_mini_antenna_s">
+		<text>Psi-Generator #1</text>
+	</string>
+	<string id="item_mini_antenna2">
+		<text>Adjustable Psi-Generator #2</text>
+	</string>
+	<string id="item_mini_antenna2_s">
+		<text>Psi-Generator #2</text>
+	</string>
+	<string id="item_mini_antenna3">
+		<text>Adjustable Psi-Generator #3</text>
+	</string>
+	<string id="item_mini_antenna3_s">
+		<text>Psi-Generator #3</text>
+	</string>
+	<string id="item_mini_antenna4">
+		<text>Adjustable Psi-Generator #4</text>
+	</string>
+	<string id="item_mini_antenna4_s">
+		<text>Psi-Generator #4</text>
+	</string>
+	<string id="item_mini_antenna5">
+		<text>Adjustable Psi-Generator #5</text>
+	</string>
+	<string id="item_mini_antenna5_s">
+		<text>Psi-Generator #5</text>
+	</string>
+	<string id="enc_item_mini_antenna_descr">
+		<text>The generator of electromagnetic interference. Used to block electrical and radio signals. Some specimens are provided with a display for the installation of power generator and set at a certain rate.</text>
+	</string>
+	<string id="item_mini_antenna_generator">
+		<text>The Generator</text>
+	</string>
+	<string id="item_mini_antenna_generator_s">
+		<text>The Generator</text>
+	</string>
+	<string id="enc_item_mini_antenna_generator_descr">
+		<text>The generator of electromagnetic interference. Used to block electrical and radio signals. Some specimens are provided with a display for the installation of power generator and set at a certain rate.</text>
+	</string>
+	<string id="tex_zemlyk_zadanie1">
+		<text>In order to get access to the basement with the scientist who ran away from the C-Consciousness base, we need to locate and eliminate a chopper which is flying around the northern area of the Generators. This chopper is flying high and scanning the area for the lost scientist.\nWhen you locate the helicopter, fire at the chopper with a high calibre weapon to attract it's attention, then when it flies in closer to take a better look, shoot it down. When the chopper is damaged, report back to the Countryman to get access to the basement.</text>
+	</string>
+	<string id="tex_black_dok_gener">
+		<text>Find Ghost, the former Trader of the village in the Generators vicinity. He is bound to a way into the C-Consciousness base, and can scout if Panther is being held there.\nHe was last time seen wandering very drunk through the northern area of the Swamps. It's most likely he's taken shelter somewhere.</text>
+	</string>
+	<string id="tex_udav_poshli">
+		<text>One of the Black Doctor's men will fly a helicopter to the cemetary in the Swamps, to pick up you and Ghost. Travel towards the Cemetary, and make sure Ghost survives. When you get close to the cemetary, the helicopter will make contact with you and give you you're next orders.</text>
+	</string>
+	<string id="tex_ander_joystik">
+		<text>In order to turn off the Psi-antennae surrounding the C-Consciousness base, Anderson needs his game console, which he programmed to edit the software inside the Psi-antennae. The only problem is, he didn't know where it's got to. Only that that he lost it somewhere during a routine check in the Generators vicinity. He also sent us a picture with the route he walked that day. Locate the game console and bring it back to Anderson for further instructions.\nHint: The game console gives off a red light as long as the batteries are still intact, so searching for this small device would be alot easier at night, except maybe for the Mutants roaming around under the cover of darkness.</text>
+	</string>
+	<string id="tex_udav_pabota">
+		<text>Guide Ghost towards the edge of the Psi-Field and wait for him to deactivate all the Antenna's. For the Psi-Field to lower to safe point of Psi-Emission we need to wait a bit.\nWait for Ghost to get back to the edge of the Psi-Field, in order to not cause suspicion he will walk towards another point more west of your location.\nTalk to him there to find out if he has seen Panther, or any other suspicous activity in the base, and report back to Ghost. Wait for the Psi-Emission to lower to a safe level.</text>
+	</string>
+	<string id="tex_priz_shturm">
+		<text>Capture the base by force, and be very quick. The faster the base is under control, the more chance we have that Panther is still alive.\nFritz and the Black Doctor's men will attack through the western side, where there's a hole in the wall. Together with Ghost we will attack through the main gate.</text>
+	</string>
+	<string id="tex_black_vstrecha">
+		<text>Meet with one of the Black Doctor's messengers, up north near the transition to the Hospital.\nHe should have a dossier with all the info the Black Doctor has on the Astrologer...</text>
+	</string>
+	<string id="tex_peshera_nz">
+		<text>Find the secret cave in the Reconnoitered Territory, but do not go into the cave, we don't know what to expect down there.\nThe teleport deactivator we found in the C-Consciousness base, indicates that a teleport is blocking the entry, it will deactivate later.\nAs soon as you have found the cave, report to Fang who is residing in the Fiery Cave.</text>
+	</string>
+	<string id="tex_kl_na_walk">
+		<text>Klemenov has some news regarding the experiments with the Heart of the Poltergeist artefact, go towards Warlab and see what has become of this Experiment.</text>
+	</string>
+	<string id="tex_muha_kukl">
+		<text>Fly wants you to retrieve a doll that she supposedly lost while on a trip through the Zone when she was younger, somewhere in the region of the Brain Scorcher, and most likely in one of the houses in which she took shelter.\nFind this special doll, and bring it to her. After this she'll hopefully tell us what happened to the artefact she claims to have seen...</text>
+	</string>
+	<string id="tex_voronin_samopisez">
+		<text>Turns out the Helicopter with the backpack, with the Water Flower artefact in it, was shot down over the CNPP, together with two other Helicopters, during a raid.\nVoronin asked us to check up with one of these Helicopters who should still have an intact Flight Data Recorder. It is located on top of the Sarcophagus.\nWhen you find this Flight Data Recorder, report back to Voronin and see if he can learn something from the information that should be in it.</text>
+	</string>
+	<string id="tex_vkluchit_generator">
+		<text>That had to work on the 'C-Consciousness'... True, Panther said it was a myth. But can you believe her? I need to return to the Generators, to find Andersen and Solvador. One of them should know what to do next. As a result, all my bodily movements must earn the third generator. Otherwise, Fly cannot be resurrected. Is this even possible? In any case I must try. I'm indirectly responsible for her death...</text>
+	</string>
+	<string id="tex_solv_say">
+		<text>The Black Doctor needs a Third Generator to make enough energy to conduct more research.\nTherefore you need to disable five Psi-Field jammers located in the Sub-station next to the C-Consciousness base.\nFind these jammers and bring them to Anderson. After you have done this; talk to Anderson and wait for the third generator to go online.</text>
+	</string>
+	<string id="tex_kluk_ch2">
+		<text>Fang will stay behind, while you go the specified location given to you Fang.\nFang has information that the Astrologer will get to Chernobyl NPP2 (that's North) through the gate near this location, so keep an eye on the gate.\nIf the Astrologer appears, call Fang and fight off the Astrologer's troops...</text>
+	</string>
+	<string id="tex_neud_pomozch">
+		<text>Fang has found the Astrologer at some other place, and has sent you to an ambush location.\nGet back to Fang as fast as possible, and help him fight off the Astrologer's troops.</text>
+	</string>
+	<string id="tex_podval_sarkofag">
+		<text>To find accommodation and help Lightning, there is useful information. It is located in a sort of control center, where many corridors.</text>
+	</string>
+	<string id="tex_podval_lima">
+		<text>Find a house in Limansk. According to Lightning, on its roof is a teleporter, which is likely, and took advantage of her friend. We must find this man. He has a Detector Isomorphic and learn about the location of the second portal in Zamonolite.</text>
+	</string>
+	<string id="item_strannik_bloknot">
+		<text>Wanderer's Notebook</text>
+	</string>
+	<string id="item_strannik_bloknot_s">
+		<text>Wanderer's Notebook</text>
+	</string>
+	<string id="enc_item_strannik_bloknot_descr">
+		<text>In the Zone is a man who managed to reveal the mystery of the Isomorphic and use their properties. According to reports, he only sells parts to the Monolith, unaware of the consequences. Find this person is not so difficult, he has no legs.</text>
+	</string>
+	<string id="item_blok_neizvestn">
+		<text>Unknown Stalker's notebook</text>
+	</string>
+	<string id="item_blok_neizvestn_s">
+		<text>Unknown Stalker's notebook</text>
+	</string>
+	<string id="enc_item_blok_neizvestn_descr">
+		<text>I do not know who you are. But if you're here, you should be aware of my discoveries, and can repeat my way. Take the gun. It is the only cartridge. Stand in the outlined circle or close to it. From this position most easily seen by Monolith. In fact, it is unrealistic to photograph, but I found a way. You can take a position and closer, but will the illumination of the film. Aim at the top of the Monolith. Autofocus and red mark on my radar without zoom prompts you when you aim. Then, look in the optics and do a shot of the exact coordinates. Cartridge only one, and if you miss it, get a second chance will be gone. If successful attempt, there will be photos. Take it before starting teleporter. Photo you need just to learn the code. This is the code for the portal, which lies somewhere in Limansk. What will happen next, I do not know, but you walk in my footsteps. Good luck...</text>
+	</string>
+	<string id="tex_odnonog_first">
+		<text>If you believe Maximilian, somewhere in the basement of the Sarcophagus is teleport. We must find it.</text>
+	</string>
+	<string id="tex_odnonog_foto">
+		<text>If you can find the teleport, you have to use it. We should try to photograph the Monolith, and bring the photo to Maximilian.</text>
+	</string>
+	<string id="tex_mesto_v_bunkere">
+		<text>Looks like Fang something dug out... One thing is clear, if he is right, without mashalata nothing to do there. We must take a stance in the bunker. Judging by the pictures, it's close to the transition to the Sarcophagus. We will wait for reviews. Fang said that the guests are invisible, unless you turn on flashlights. Then wait until they open the door to the cache. And further, under certain circumstances.</text>
+	</string>
+	<string id="item_neizv_zapiska">
+		<text>Notebook containing Intel</text>
+	</string>
+	<string id="item_neizv_zapiska_s">
+		<text>Notebook containing Intel</text>
+	</string>
+	<string id="enc_item_neizv_zapiska_descr">
+		<text>My best people have made verification of this camera. It seems that this is only part of a design that has an unknown energy. In addition to a kind of glow, possesses regenerate part artov... Where to look for other parts of the structure is not known. But this piece, by itself, does not work. Corps bombs leave until the cache. They have no chief, those obscure superstrong caps... Their dealer, one-legged neutral somewhere zapropostilsya. My people are looking for it hard. There is more good news. Managed to introduce agents to collect information and intelligence, almost all local groups. And we need to establish contact with former men of our clan. Continue to work. Otstuchi Chief, let reconsider the fees.</text>
+	</string>
+	<string id="tex_radist_zhiv">
+		<text>We must try to save the life of radio operator. Fang said that he, kind of like, neutral and it can provide valuable information.</text>
+	</string>
+	<string id="tex_taynik_radista">
+		<text>According to some reports, in Pripyat, in the kindergarten have caches radio operator. Apparently, it's not a backpack, but the whole housing, where it may Maximilian spent their time between searching for artefacts that are isomorphic and trafficking. We need to find and explore the cache.</text>
+	</string>
+	<string id="tex_lesnik_say">
+		<text>Take a position on the roof of the Forester - the tower, to try to detect and destroy unknown sniper before he kills another Stalker. Forester said that particularly need to look at the bushes, trees and other hiding places.</text>
+	</string>
+	<string id="item_forest_last_dead_listok">
+		<text>Instructions</text>
+	</string>
+	<string id="item_forest_last_dead_listok_s">
+		<text>Instructions</text>
+	</string>
+	<string id="enc_item_forest_last_dead_listok_descr">
+		<text>PDA thing is not reliable. That battery sits, it will fill with water. Memory, too, girl-shy. Therefore, we write: 'While our sniper distracts Stalkers need to get to the station and take away from the local forester chas camera. This is important! After try to ingratiate themselves svobodovtsam and visit some professor or doctor to Warlab... Mmat, napridumayut Yet these scientists currently ranks... To our knowledge, it has an interest of our oldest thing. After the assignment - returning a dead city. And yet. In one of the caves that on a hillside, near the destroyed tank, begins transition and just in Warlab. this transition and take advantage if the first part of the plan will succeed. '</text>
+	</string>
+	<string id="item_transmutator">
+		<text>Transmutator</text>
+	</string>
+	<string id="item_transmutator_s">
+		<text>Transmutator</text>
+	</string>
+	<string id="enc_item_transmutator_descr">
+		<text>The Anomalous Transmutator has three horizontal displays - Ingredients, Inventory, and Result\n \nWhen activated, the device scans your inventory and displays the quantity of useable items (Ingredients), for the purpose of creating or transmuting artefacts, in the centre display. Scroll left or right to see more\n \nClicking on any item here will allocate it to the top display as a potential ingredient for transmutation (cooking). Clicking on an item in the top display simply returns it to your inventory below. The double arrow button on the right of the display is a 'Clear All', and will return the entire row to your inventory\n \nThe bottom row will display nothing until the device is within 2-3 metres of an anomaly, whereupon it will display the nature of the anomaly, plus all the Recipes that you've collected for that anomaly, in the form of a known resultant artefact. Scroll left or right to see more\n \nClicking on a desired resultant artefact will move the required ingredients, if you have them, to the top display, and inform you (in RED) if any are missing. A transmutation cannot complete without ALL the required ingredients\n \nIf the information is in GREEN, then you have all the required ingredients, and the time to 'cook' them will be displayed. Just press 'START' to offer the requisite inventory items to the anomaly, and initiate the transmutation process. NOTE: Do not move away from the anomaly until the process has started. This will be confirmed when the anomaly emits a blinding white flash\n \nThe device is designed to work in consonance with anomalous energy fields, and so allows for experimentation. Even without a stored Recipe, you can guess at the items required, enter them in the Ingredients row, and press 'START'. You'll see a blinding white flash as usual and, if you used the correct items, and the anomaly accepted them, you'll get a positive result after a designated time, even without the prerequisite data! If the anomaly rejects it, the device will switch off and you'll lose nothing\n \nPressing 'OFF' at any time will deactivate the device</text>
+	</string>
+	<string id="tex_izomorf_dial">
+		<text>Maples gave me isomorphic, saying that he was somehow affects the relationship with the zombie. In addition, he hinted that at Yantar some svobodovtsev at the plant, where the entrance to the X-16 saw a strange zombie and some interesting subject. But first, the main task. We must get to X-16 (there's a good transition to there from Warlab), and take two photos using the camera gun. The first photo should be of the Brain, which is suspended in a glass tank under the dome of the laboratory. This should ideally be done from the upper level at the board, and the camera gun should display a message when you're in the correct spot. Take the second photo in the tunnels that lead from laboratory X-16 in Yantar. There lives a mutated Controller, a photographic record of which is neeeded to complete the history of the area. Say, the brain had a sore, just for scientists. Fotopatrona all three. Hence, once can miss. After Maples include photographs, he promised to give to them something else.</text>	<!-- Changed 'Klenow' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="item_chemodan_piyan">
+		<text>Field Briefcase</text>
+	</string>
+	<string id="item_chemodan_piyan_s">
+		<text>Field Briefcase</text>
+	</string>
+	<string id="enc_item_chemodan_piyan_descr">
+		<text>Tactical field briefcase containing appraisals for disciplinary reviews. This one contains reports on soldiers and commanders in the Zone, who have been discretely observed in the acts of drunkenness, bribery, and being 'on the take'...</text>
+	</string>
+	<string id="tex_kuzy_artmodifik">
+		<text>It is necessary to bring the case to the incriminating documents Kuznetsov. Is not easy. First, we must find at least twelve bottles of vodka. Five bottles gave Kuznetsov. After this you should go to the Agriculture &amp; try not to catch the eye of the military. The approximate scheme of the route is in the image on the PDA. Find time for the complex and try to talk to him. Give him vodka, and wait for checks to guard waiting vertuhu, drink vodka. Then these can be approached. You can not kill anyone. Ahead of time, too, could not go. Have to wait for the action of alcohol on the mortal soldier's head, and then just whistle this case. If Casey did not will have to talk to the captain and find out where he his zanykal.</text>
+	</string>
+	<string id="tex_dovesti_muzhika">
+		<text>Withdraw Chernomor from the plant. Go long enough to get to the parking lot of Stalkers, that in the hollow across the road from the entrance to the plant. Black Sea should not be lost.</text>
+	</string>
+	<string id="item_klenov_opisalovo">
+		<text>Instructions from Maples</text>	<!-- Changed 'Klenow' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="item_klenov_opisalovo_s">
+		<text>Instructions from Maples</text>	<!-- Changed 'Klenow' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="enc_item_klenov_opisalovo_descr">
+		<text>I have the honor to inform you the following items. Time to study the subject was not enough, so we found out only the basic parameters. When photographing is emitted from the barrel of energy in the form of an impulse, which is reaching the desired object, part of it is reflected, and partially penetrates into the object itself. If the object is a living creature, he applied considerable damage and sometimes death. Part of the reflected energy is imprinted on the matrix of the camera and converted into a picture. Probably on the images to appear something more than what the normal eye can see. The energy emitted in the production of the image is contained in an airtight container, built in the body. I experimented. Make a simple camera shots of objects is not possible. Probably, the momentum can be sent only to objects that have some additional qualities or characteristics. What are these objects and how to find them - an enigma. However, judging by the pictures made you successful, it is not quite ordinary objects or living beings.\nMaples..</text>	<!-- Changed 'Klenov' to 'Maples'- Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="tex_plot_dialog">
+		<text>We'll have to climb to the dump, find the flesh, that ate stuff out of the bag a Stalker, pick them up and return to the owner.</text>
+	</string>
+	<string id="tex_f_after_deaf">
+		<text>Need to know who brought the bomb into the camp newcomers and established mines. Probably have to use your camera.</text>
+	</string>
+	<string id="tex_as_ubiysa">
+		<text>Find a stranger on the basis of 'Freedom' and prevent an explosion. Will have to re-use fotopushku.</text>
+	</string>
+	<string id="tex_kvest_vstrecha">
+		<text>Go to Reconoitered Earth. There should have a meeting of a Stalker and a representative of the clan 'last day' to overhear their conversation. To do this would probably require mashalat as the distance to communicate should be small, and the people of the clan 'last day' experienced and careful. We need to find a group of stones, one of which more than others. They are located in the Reconnoitered Territory, near the trail at the pass at the Army Warehouses. These stones do not appear on the map. Reportedly, this is where an appointment. Necessary to climb this big rock and wait... It is extremely important not to frighten the negotiators and no one was killed. Information is most important.</text>
+	</string>
+	<string id="tex_kvest_saxar_telep">
+		<text>Find a cache on some tree in one of the buildings inside the perimeter of military bases in the Agroprom, to take away from him some object and show Sakharov. As a result, the professor should give the coordinates of the teleport, which is rumored to lead somewhere in the X-16, and try to find a lab energy isomorphic. Next on the circumstances, but the laboratory must choose a living...</text>
+	</string>
+	<string id="item_planshetka2">
+		<text>Cigar Box with a note inside</text>
+	</string>
+	<string id="item_planshetka2_s">
+		<text>Cigar Box with a note inside</text>
+	</string>
+	<string id="enc_item_planshetka2_descr">
+		<text>A box of cigars under the note by an unknown: Man, I have no more opportunity to catch those isomorphic that you send. Everything that falls into the portal eventually ends up in the hands of bad people. Your only that the administration is isomorphic, in the capable hands has monstrous strength. In addition, he was able to open only one known to teleport in a dead city. So I changed the code slightly by transposing the numeric groups. It's only a small change, but it should stop the bastard... I'm sorry that I initially tried to kill you by sending a mutant and mine. But I see that I was tenacious, and so smart and experienced. Because send you a box with the note. This box is missing a key part of the activation of the portal in one of the basements in Limansk. If you have the correct code, then perhaps we shall meet again...</text>
+	</string>
+	<string id="item_planshetka">
+		<text>Tablet PC</text>
+	</string>
+	<string id="item_planshetka_s">
+		<text>Tablet PC</text>
+	</string>
+	<string id="enc_item_planshetka_descr">
+		<text>A box of cigars under the note by an unknown: Man, I have no more opportunity to catch those isomorphic that you send. Everything that falls into the portal, the next time fall into the hands of bad people. Your only that the administration is isomorphic, in the capable hands has monstrous strength. In addition, he was able to open only one known to teleport in a dead city. So I changed the code slightly by transposing the numeric groups. It's only a small change, but it should stop the bastard... I'm sorry that I initially tried to kill you by sending a mutant and mine. But I see that I was tenacious, and so smart and experienced. Because send you a box with the note. This box is missing a key part of the activation of the portal in one of the basements in Limansk. If you have the correct code, then perhaps we shall meet again...</text>
+	</string>
+	<string id="tex_port_na_mg">
+		<text>Find Limansk basement, which houses the teleport and try to activate it. Where goes this portal, it is not clear. Rather, there is speculation that it is to the mysterious ghost towns.</text>
+	</string>
+	<string id="item_nauch_recomend">
+		<text>Recommendation</text>
+	</string>
+	<string id="item_nauch_recomend_s">
+		<text>Recommendation</text>
+	</string>
+	<string id="enc_item_nauch_recomend_descr">
+		<text>So, Senior Fellow, the latest recommendations:\n On a platform above the brain should be a couple modifiers. For us - a dummy and of no interest. Further, or in conjunction with this, to be activated teleporter. Look down, along the supply cables. You'll have to jump off the platform on the cable to the teleporter. I advise you to wear all the protection you have. Next. Do not rush to the teleporter, and after passing through a cable midway, turn to tank with the brain and destroy at the time of self-healing protective field of the Brain. The right weapon you have. Then you can go to the teleporter. Destroy the shield is essential to use the teleporter. Otherwise, you will die. Two modifiers should be in your backpack. You will get to the very brain. There should be a transformation in modifiers necessary for us to break the psy-ray influence of the Brain. Further activates the teleport to take you back to the surface. '</text>
+	</string>
+	<string id="tex_starsh_say">
+		<text>We'll need to raise the morale of the Stalkers engaged in the operation. We need to find the Stalkers, the leading surveillance camp of bandits and place them at the right moment to commit robbery at the camp. Probably will not profit as much as, but we need to bring them twenty cans of food, ten medkits, five bottles of vodka, ten packs of 5.45x39 armor-piercing, and two short Kalashnikovs - the AKS 74U will be fine. Okay? You should be able to find most of these at the bandit camp, but if not then look elsewhere for them. Then you have to gather and bring the survivors of Stalkers to their guests.</text>
+	</string>
+	<string id="tex_dci_kontrik">
+		<text>It is necessary to pay a visit to this village and to protect the country Controller... Really do not know how to defend a hostile mutant to you...</text>
+	</string>
+	<string id="tex_uhod_iz_mg">
+		<text>Is not easy. We must enlist the support of Obmorok... Attempt to penetrate the security zone of the city and in the attic to find a stash of Norman, the figure he gave. Following directly from the attic to reconnoiter the situation in the area, and using any weapon, try to shoot someone from the people the last day. Most importantly, we must destroy the assistant chief of protection. He wears a green scientific kombeza environmentalists. With luck, connect with malicious and send it away... Further, should help this fainting with fire on the path of my departure...</text>
+	</string>
+	<string id="enc_equip_stco">
+		<text>Global Positioning Device</text>
+	</string>
+	<string id="enc_equip_stco_s">
+		<text>Positioning Device</text>
+	</string>
+	<string id="enc_equip_stco_descr">
+		<text>System for determining the geographic coordinates, direction and true solar time. For accurate compass work to the horizontal position of the device, which is achieved by coincidence cross compass. Activating the device is in the pistol slot.\nCostav devaysa:\n1. Magnetic compass\n2. Laser Rangefinder\n3. GPS receiver\n4. Hours</text>
+	</string>
+	<string id="tex_agro_tainik_norman">
+		<text>With the device, which gave Norman have the coordinates found on the Agroprom input into the unknown stash and pick out another device that allows you to remove protection from transitions in the dead city, established by people from the clan 'last day'.\n Here are the coordinates:\nDolgota 1924 ^ 14 * 30 '.61\nShirota 51 ^ 30 * 55 '.64\nVysota 183m</text>
+	</string>
+	<string id="tex_spasty_doka">
+		<text>I need to free the Swamp Doctor who was taken hostage by people from the 'Last Day' group. There are two options... Perfumer was able to negotiate with the chief security officer by the name Duda... It is located in a house with columns, which is near the area. The Doc is obviously held somewhere. If you have enough money to pay ransom, and finish the job 'peaceful' way. The Doc is released and he gets to the house of Perfumer. After it will be possible to arrange a showdown with the very group that if you disable protection center.\n The second option is also available. If money for the ransom is not enough, you can try to force release of the Doctor. But that he got to the Perfumer, it will have to change, that is, to give him time his masthalat and anomalous M-16.</text>	<!-- Changed from 'Bolotny Doctor' - Sword2012 - 31 Oct 16-->
+	</string>
+	<string id="item_iskra_listok">
+		<text>Spark's Note</text>
+	</string>
+	<string id="item_iskra_listok_s">
+		<text>Spark's Note</text>
+	</string>
+	<string id="enc_item_iskra_listok_descr">
+		<text>Hello... I knew it would all end badly... Here are the coordinates...\nDolgota 24 ^ 14 * 28 '.00\nShirota 51 ^ 30 * 53'.47\nVysota 188m\n I don't know how you're going to define them, but that place should be reachable...</text>
+	</string>
+	<string id="tex_otkrut_seif_sadik">		<!-- 109984 -->
+		<text>Open the safe, but don't let the radio operator die...</text>
+	</string>
+	<string id="local_energy_zone">		<!-- 110000 -->
+		<text>Unknown Anomalous Zone</text>
+	</string>
+	<string id="map_mil_technician">	<!-- 110007 - aleks1970 -->
+		<text>Military technician</text>
+	</string>
+	<string id="map_mil_trader">
+		<text>Military trader</text>
+	</string>
+</string_table>

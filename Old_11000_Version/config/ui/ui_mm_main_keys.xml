@@ -1,0 +1,96 @@
+<!-- ************ TB3D 1.0.9.9.7.0 created 09/30/11, new pda menu 10/15/12*************** -->
+<window>
+	<background x="0" y="0" width="1024" height="768">
+		<texture>ui_menu_background</texture>
+	</background>
+	<back_movie x="-18" y="470" width="386" height="256">
+		<texture x="0" y="0" width="386" height="256">intro\intro_keys</texture>
+	</back_movie>
+	<shniaga_wnd x="802" y="374" width="192" height="192">
+		<buttons_region x="0" y="0" width="140" height="190" always_show_scroll="false"/>
+		<shniaga x="4" y="1" width="392" height="73">
+			<texture>ui_menu_move</texture>
+			<texture/>
+			<magnifire x="30" y="0" width="232" height="23" stretch="1">
+				<texture/>
+			</magnifire>
+			<left_anim x="43" y="37" width="55" height="55" stretch="1" heading="1" alignment="c">
+				<texture/>
+			</left_anim>
+			<right_anim x="340" y="37" width="55" height="55" stretch="1" heading="1" alignment="c">
+				<texture/>
+			</right_anim>
+			<left_grating x="0" y="4" width="55" height="67">
+				<texture/>
+			</left_grating>
+			<right_grating x="337" y="4" width="55" height="67">
+				<texture/>
+			</right_grating>
+		</shniaga>
+	</shniaga_wnd>
+	<menu_main btn_height="23" font="graffiti22" a="255" r="20" g="180" b="220">
+		<btn name="btn_new_game" caption="ui_mm_newgame"/>
+		<btn name="btn_load" caption="ui_mm_load_game"/>
+		<btn name="btn_multiplayer" caption="ui_mm_multiplayer_n"/>
+		<btn name="btn_options" caption="ui_mm_options_n"/>
+		<btn name="btn_credits" caption="ui_mm_credits"/>
+		<btn name="btn_quit" caption="ui_mm_quit2windows"/>
+	</menu_main>
+	<menu_main_last_save btn_height="23" font="graffiti22" a="255" r="20" g="180" b="220">
+		<btn name="btn_new_game" caption="ui_mm_newgame"/>
+		<btn name="btn_load" caption="ui_mm_load_game"/>
+		<btn name="btn_lastsave" caption="ui_mm_last_save"/>
+		<btn name="btn_multiplayer" caption="ui_mm_multiplayer_n"/>
+		<btn name="btn_options" caption="ui_mm_options_n"/>
+		<btn name="btn_credits" caption="ui_mm_credits"/>
+		<btn name="btn_quit" caption="ui_mm_quit2windows"/>
+	</menu_main_last_save>
+	<menu_new_game btn_height="23" font="graffiti22" a="255" r="20" g="180" b="220">
+		<btn name="btn_novice" caption="ui_mm_novice"/>
+		<btn name="btn_stalker" caption="ui_mm_stalker"/>
+		<btn name="btn_veteran" caption="ui_mm_veteran"/>
+		<btn name="btn_master" caption="ui_mm_master"/>
+		<btn name="btn_collector" caption="ui_mm_collector"/>
+		<!-- ***************!!!!TB3D*************** -->
+		<btn name="btn_new_back" caption="ui_mm_back"/>
+	</menu_new_game>
+	<menu_main_single btn_height="23" font="graffiti22" a="255" r="20" g="180" b="220">
+		<btn name="btn_amk" caption="amk_options"/>
+		<btn name="btn_ret" caption="ui_mm_return_game"/>
+		<btn name="btn_lastsave" caption="ui_mm_last_save"/>
+		<btn name="btn_load" caption="ui_mm_load_game"/>
+		<btn name="btn_save" caption="ui_mm_save_game"/>
+		<btn name="btn_options" caption="ui_mm_options_n"/>
+		<btn name="btn_quit_to_mm" caption="ui_mm_quit_game"/>
+		<btn name="btn_quit" caption="ui_mm_quit2windows"/>
+	</menu_main_single>
+	<menu_main_single_dead btn_height="23" font="graffiti22" a="255" r="20" g="180" b="220">
+		<btn name="btn_lastsave" caption="ui_mm_last_save"/>
+		<btn name="btn_load" caption="ui_mm_load_game"/>
+		<btn name="btn_options" caption="ui_mm_options_n"/>
+		<btn name="btn_credits" caption="ui_mm_credits"/>
+		<btn name="btn_quit_to_mm" caption="ui_mm_quit_game"/>
+		<btn name="btn_quit" caption="ui_mm_quit2windows"/>
+	</menu_main_single_dead>
+	<menu_main_mm btn_height="23" font="graffiti22" a="255" r="20" g="180" b="220">
+		<btn name="btn_ret" caption="ui_mm_return_game"/>
+		<btn name="btn_options" caption="ui_mm_options_n"/>
+		<btn name="btn_credits" caption="ui_mm_credits"/>
+		<btn name="btn_quit_to_mm" caption="ui_mm_disconnect"/>
+		<btn name="btn_quit" caption="ui_mm_quit2windows"/>
+	</menu_main_mm>
+	<menu_sound random="0">
+		<!-- ***************whell_sound>car\apc_run</whell_sound>
+		<whell_click>car\test_car_stop</whell_click*************** -->
+		<menu_music>music\main_menu</menu_music>
+		<!-- ***************menu_music>music\guitar_2</menu_music>
+		<menu_music>music\guitar_1</menu_music>
+		<menu_music>music\guitar_3</menu_music*************** -->
+	</menu_sound>
+	<static_version x="325" y="742" width="300" height="30">
+		<text align="l" font="graffiti22" a="120" r="224" g="215" b="144" complex_mode="0"/>
+	</static_version>
+	<mod_version x="13" y="740" width="300" height="27">
+		<text align="l" font="graffiti22" a="95" r="0" g="0" b="0" complex_mode="0"/>
+	</mod_version>
+</window>

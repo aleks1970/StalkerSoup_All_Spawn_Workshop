@@ -1,0 +1,63 @@
+<!-- ************ TB3D 1.0.9.9.7.0 new buttons aleks1970 *************** -->
+<ui_trans>
+	<transmutator_frame x="0" y="0" width="531" height="361">	<!--  stretch="1" -->
+		<texture>ui_transmutator_frame</texture>
+	</transmutator_frame>
+
+	<transmutator_clear_button x="420" y="62" width="23" height="39" hint="Clear_item_section_transmutator_script">
+		<texture_e>ui_transmutator_clear_e</texture_e>
+		<texture_h>ui_transmutator_clear_h</texture_h>
+		<texture_t>ui_transmutator_clear_t</texture_t>
+	</transmutator_clear_button>
+
+	<transmutator_quit_button x="406" y="302" width="92" height="25">
+		<texture_e>ui_transmutator_quit_e</texture_e>
+		<texture_h>ui_transmutator_quit_h</texture_h>
+		<texture_t>ui_transmutator_quit_t</texture_t>
+		<text font="graffiti19" r="120" g="117" b="67">Output_transmutator_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>	<!-- <t r="231" g="168" b="12"/> -->
+			<d r="18" g="70" b="148"/>	<!-- <d r="18" g="70" b="148"/> -->
+			<e r="0" g="0" b="0"/>	<!-- <e r="5" g="100" b="200"/> -->
+			<h r="255" g="255" b="255"/>	<!-- <h r="25" g="155" b="255"/> -->
+		</text_color>
+	</transmutator_quit_button>
+
+	<transmutator_start_button x="180" y="302" width="112" height="25">
+		<texture_e>ui_transmutator_start_e</texture_e>
+		<texture_h>ui_transmutator_start_h</texture_h>
+		<texture_t>ui_transmutator_start_t</texture_t>
+		<text font="graffiti19" r="120" g="117" b="67">Start_transmutator_script</text>
+		<text_color>
+			<t r="231" g="168" b="12"/>
+			<d r="18" g="70" b="148"/>
+			<e r="0" g="0" b="0"/>
+			<h r="255" g="255" b="255"/>
+		</text_color>
+	</transmutator_start_button>
+
+	<transmutator_PrevLeft_button x="24" y="167" width="39" height="23">
+		<texture_e>ui_transmutator_PrevLeft_e</texture_e>
+		<texture_h>ui_transmutator_PrevLeft_h</texture_h>
+		<texture_t>ui_transmutator_PrevLeft_t</texture_t>
+	</transmutator_PrevLeft_button>
+
+	<transmutator_PrevRight_button x="404" y="167" width="39" height="23">
+		<texture_e>ui_transmutator_PrevRight_e</texture_e>
+		<texture_h>ui_transmutator_PrevRight_h</texture_h>
+		<texture_t>ui_transmutator_PrevRight_t</texture_t>
+	</transmutator_PrevRight_button>
+
+	<transmutator_RecLeft_button x="24" y="246" width="39" height="23" hint="Record_left_transmutator_script">
+		<texture_e>ui_transmutator_RecLeft_e</texture_e>
+		<texture_h>ui_transmutator_RecLeft_h</texture_h>
+		<texture_t>ui_transmutator_RecLeft_t</texture_t>
+	</transmutator_RecLeft_button>
+
+	<transmutator_RecRight_button x="404" y="246" width="39" height="23" hint="Record_right_transmutator_script">
+		<texture_e>ui_transmutator_RecRight_e</texture_e>
+		<texture_h>ui_transmutator_RecRight_h</texture_h>
+		<texture_t>ui_transmutator_RecRight_t</texture_t>
+	</transmutator_RecRight_button>
+
+</ui_trans>

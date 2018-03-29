@@ -1,0 +1,53 @@
+<!-- ************ TB3D 1.0.9.9.7.0 new buttons aleks1970 *************** -->
+<ui_texture>
+	<file_name>ui\amk_transmutator</file_name>
+	<texture id="ui_transmutator_frame" x="0" y="0" width="516" height="362"/>
+
+	<!-- green clear button -->
+	<texture id="ui_transmutator_clear_e" x="319" y="366" width="24" height="39"/>
+	<texture id="ui_transmutator_clear_h" x="348" y="366" width="24" height="39"/>
+	<texture id="ui_transmutator_clear_t" x="377" y="366" width="24" height="39"/>
+	<!-- orange clear button -->
+<!--<texture id="ui_transmutator_clear_e" x="319" y="407" width="24" height="39"/>
+	<texture id="ui_transmutator_clear_h" x="348" y="407" width="24" height="39"/>
+	<texture id="ui_transmutator_clear_t" x="377" y="407" width="24" height="39"/>
+-->
+	<texture id="ui_transmutator_quit_e" x="126" y="366" width="92" height="25"/>
+	<texture id="ui_transmutator_quit_h" x="126" y="393" width="92" height="25"/>
+	<texture id="ui_transmutator_quit_t" x="126" y="420" width="92" height="25"/>
+	<texture id="ui_transmutator_quit_black" x="126" y="450" width="92" height="25"/>
+
+	<texture id="ui_transmutator_start_e" x="8" y="366" width="112" height="25"/>
+	<texture id="ui_transmutator_start_h" x="8" y="393" width="112" height="25"/>
+	<texture id="ui_transmutator_start_t" x="8" y="420" width="112" height="25"/>
+	<texture id="ui_transmutator_start_black" x="8" y="450" width="112" height="25"/>
+
+	<!-- arrow green button -->
+	<texture id="ui_transmutator_PrevLeft_e" x="228" y="366" width="38" height="23"/>
+	<texture id="ui_transmutator_PrevLeft_h" x="228" y="393" width="38" height="23"/>
+	<texture id="ui_transmutator_PrevLeft_t" x="228" y="420" width="38" height="23"/>
+	<texture id="ui_transmutator_PrevLeft_black" x="228" y="450" width="38" height="23"/>
+
+	<texture id="ui_transmutator_PrevRight_e" x="267" y="366" width="38" height="23"/>
+	<texture id="ui_transmutator_PrevRight_h" x="267" y="393" width="38" height="23"/>
+	<texture id="ui_transmutator_PrevRight_t" x="267" y="420" width="38" height="23"/>
+	<texture id="ui_transmutator_PrevRight_black" x="267" y="450" width="38" height="23"/>
+
+	<!-- arrow orange button -->
+<!--<texture id="ui_transmutator_PrevLeft_e" x="415" y="366" width="38" height="23"/>
+	<texture id="ui_transmutator_PrevLeft_h" x="415" y="393" width="38" height="23"/>
+	<texture id="ui_transmutator_PrevLeft_t" x="415" y="420" width="38" height="23"/>
+
+	<texture id="ui_transmutator_PrevRight_e" x="454" y="366" width="38" height="23"/>
+	<texture id="ui_transmutator_PrevRight_h" x="454" y="393" width="38" height="23"/>
+	<texture id="ui_transmutator_PrevRight_t" x="454" y="420" width="38" height="23"/>
+-->
+	<!-- arrow Rec button -->
+	<texture id="ui_transmutator_RecLeft_e" x="415" y="366" width="38" height="23"/>
+	<texture id="ui_transmutator_RecLeft_h" x="415" y="393" width="38" height="23"/>
+	<texture id="ui_transmutator_RecLeft_t" x="415" y="420" width="38" height="23"/>
+
+	<texture id="ui_transmutator_RecRight_e" x="454" y="366" width="38" height="23"/>
+	<texture id="ui_transmutator_RecRight_h" x="454" y="393" width="38" height="23"/>
+	<texture id="ui_transmutator_RecRight_t" x="454" y="420" width="38" height="23"/>
+</ui_texture>

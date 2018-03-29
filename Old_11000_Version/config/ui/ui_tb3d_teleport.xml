@@ -1,0 +1,114 @@
+<!-- ************ TB3D 1.1.0.0.0.7 132 stable locations, added portds 8/23/11, cleanup, new locations, BETA Teleports aleks1970, warehouses*************** -->
+<!-- Maps arranged in alphabetical order - Sword2012 31 Jan 16, eprip -->
+<cheat>
+	<back_video x="12" y="19" width="376" height="512" stretch="1">	<!-- <back_video x="12" y="10" width="380" height="478" stretch="1"> -->
+		<texture>ui\credits_back_512_v10</texture>
+	</back_video>
+	<background x="0" y="0" width="400" height="525" stretch="1">
+		<texture x="0" y="0" width="350" height="460">ui\ui_dg_inventory</texture>
+	</background>
+	<title x="70" y="4" width="50" height="32">
+		<text font="graffiti22" a="200" r="100" g="240" b="220">stalkersoup_teleporter_ui</text>
+	</title>
+	<caption x="35" y="24" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="200" b="230">enter_destination_name_ui</text>
+	</caption>
+	<captionL1 x="35" y="40" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="200" b="230">valid_locations_ui</text>
+	</captionL1>
+	<captionL2 x="35" y="56" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">agroprom, agrounder, atp, bar, blackmarket, brokenroad,</text>
+	</captionL2>	<!-- cordon, garbage, agroprom, agrounder, bar, dvalley, rostok, -->
+	<captionL3 x="35" y="72" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">caveminers, cemetery, cordon, courtyards, darkscape1, darkscape2,</text>
+	</captionL3>	<!-- yantar, warehouses, radar, radar2, x10, x10_2, x16, x18, -->
+	<captionL4 x="35" y="88" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">deadmarsh, dcity, dcity2, diggerstash, distribution, dvalley, endstation,</text>
+	</captionL4>	<!-- caveminers, labry1, labry2, recon, hosp, village, redforest -->
+	<captionL5 x="35" y="104" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">f1, ffcross, ffent, firingrange, garbage, gencamp, gennorth,</text>
+	</captionL5>	<!-- atp, swamp, ffent, ffcross, Limbasement, limeast, limcentral, -->
+	<captionL6 x="35" y="120" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">hosp, jupcomplex, jupshop, jupstation, jupsump,</text>
+	</captionL6>	<!-- npp1bridge, npp1control, npp2control, npp2exit, npp2roof, -->
+	<captionL7 x="35" y="136" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">jupunbooth, jupuncars, jupunelevator, jupunladder,</text>
+	</captionL7>	<!-- npp2monolith, npp2x8, warentrance, warbrain, dcity, dcity2, -->
+	<captionL8 x="35" y="152" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">labry1, labry2, labx8, labx8_elev, limbasement, limcentral, limeast,</text>
+	</captionL8>	<!-- jupstation, jupcomplex, jupsump, jupshop, jupunbooth, labx8, -->
+	<captionL9 x="35" y="168" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">npp1bridge, npp1control, npp2control, npp2exit, npp2monolith,</text>
+	</captionL9>	<!-- jupuncars, jupunelevator, jupunladder, zaton, zatbridge, -->
+	<captionL10 x="35" y="184" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">npp2roof, npp2x8, pripchurch, pripdoctor, epripdock, epriphosp,</text>
+	</captionL10>	<!-- zatcave, zatship, zatgun, priphosp, pripstation, pripchurch, -->
+	<captionL11 x="35" y="200" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">epriproof, epripshop, epripstation, radar, radar2, recon, research1,</text>
+	</captionL11>	<!-- pripshop, priproof, pripdock, gennorth, gencamp, secretlab, -->
+	<!-- *************** New Teleport section aleks1970 start *************** -->
+	<captionL12 x="35" y="216" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">rostok, redforest, secretlab, swamp, techniques, tunnels, village,</text>
+	</captionL12>	<!-- techniques, waitingroom1, darkscape1, deadmarsh, brokenroad, -->
+	<captionL13 x="35" y="232" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">waitingroom1, waitingroom2, warbrain, warehouses, warentrance,</text>
+	</captionL13>	<!-- wasted2, f1, research1, tunnels, diggerstash, distribution, -->
+	<captionL14 x="35" y="248" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">wasted1, wasted2, x10, x10_2, x16, x18, yantar,</text>
+	</captionL14>	<!-- courtyards, blackmarket, cemetery, endstation, firingrange, -->
+	<captionL15 x="35" y="264" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">zaton, zatbridge, zatcave, zatgun, zatship</text>
+	</captionL15>
+	<!-- *************** New Teleport section aleks1970 end *************** -->
+	<caption2 x="35" y="288" width="335" height="35">
+		<text font="letterica18" a="255" r="200" g="20" b="20">genstronghold_taken_ui</text>
+	</caption2>
+	<!-- *************** New BETA Teleports section aleks1970 start *************** -->
+	<caption3 x="35" y="308" width="335" height="35" hint="skip_game_descr_hint_ui">
+		<text font="letterica18" a="255" r="200" g="200" b="0">skip_first_parts_of_game_1_ui</text>
+	</caption3>
+	<caption4 x="35" y="324" width="335" height="35" hint="skip_game_descr_hint_ui">
+		<text font="letterica18" a="255" r="200" g="200" b="0">skip_first_parts_of_game_2_ui</text>
+	</caption4>
+	<caption5 x="35" y="340" width="335" height="35" hint="skip_game_descr_hint_ui">
+		<text font="letterica18" a="255" r="200" g="200" b="0">stalker_start_save_ui</text>
+	</caption5>
+	<caption6 x="35" y="360" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">escape_completes_cave_quest_ui</text>
+	</caption6>
+	<caption7 x="35" y="376" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">skip_to_yan_ui</text>
+	</caption7>
+	<caption8 x="35" y="392" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">skip_to_mil_ui</text>
+	</caption8>
+	<caption9 x="35" y="408" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">skip_to_prip_ui</text>
+	</caption9>
+	<caption10 x="35" y="424" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">skip_to_sar_ui</text>
+	</caption10>
+	<caption11 x="35" y="440" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">skip_monolith_ui</text>
+	</caption11>
+	<caption12 x="35" y="456" width="335" height="35">
+		<text font="letterica18" a="255" r="0" g="220" b="220">skip_oso_ui</text>
+	</caption12>
+	<!-- *************** New BETA Teleports section aleks1970 end *************** -->
+	<btn_1 x="20" y="485" width="117" height="29">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+		<text>travel_ui</text>
+	</btn_1>
+	<edit_box x="146" y="486" width="117" height="29">
+		<texture>ui_linetext_e</texture>
+		<text align="c" font="letterica18" r="240" g="217" b="182"/>
+	</edit_box>
+	<btn_quit x="270" y="485" width="117" height="29">
+		<texture_e>ui_button_ordinary_e</texture_e>
+		<texture_t>ui_button_ordinary_t</texture_t>
+		<texture_h>ui_button_ordinary_h</texture_h>
+		<text>ui_inv_exit</text>
+	</btn_quit>
+</cheat>

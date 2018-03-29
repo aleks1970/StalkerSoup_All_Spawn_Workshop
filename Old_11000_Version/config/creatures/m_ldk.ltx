@@ -1,0 +1,364 @@
+;<!-- TB3D 1.0.9.9.4.2 new -->
+;=================================================================================================
+;==================================================================================================
+;   				Last Day Killers - damages and immunities
+;===================  BY dAVROs for STALKERSOUP   11may2013  =====================================
+
+[ldk]:common_ph_friction_params_on_npc_death
+;;  For normal Lastday killers -- Masters and Troops
+
+class             						= AI_STL_S            ; Class identifier
+can_select_items        				= on
+ef_creature_type        				= 17              ; option for evaluation functions
+$spawn              					= "stalkers\stalker"      ; option for Level Editor
+$npc              						= on              ; option for Level Editor
+visual              					= actors\hero\stalker_novice.ogf; option for Level Editor
+corpse_visual         					= equipments\item_rukzak.ogf  ;actors\hero\stalker_novice.ogf; option for Level Editor
+custom_data           					= stalker_custom_data.ltx   ; option for Level Editor
+character_profile       				= default           ; option for Level Editor
+use_single_item_rule      				= off
+$prefetch             					= 32
+cform             						= skeleton            ; collision class
+species             					= human
+material            					= creatures\human
+destroyed_vis_name        				= physics\Dead_Body\skelet_crash
+script_binding          				= bind_stalker.init
+GroupControlSection       				= spawn_group
+SpaceRestrictionSection     			= space_restrictor,zone_mine_field
+attachable_items        				= yad, device_torch, attachable_item, hand_radio, bread, vodka, sigaret, energy_drink, kolbasa, guitar_a, harmonica_a, wpn_binoc, kruglov_flash, cigara, beer_a, sweetness, flaska, sandwich, balalaika_a
+
+;---SECTIONS----------------------------------------------------------
+damage              					= stalker_damage
+immunities_sect         				= stalker_resist
+condition_sect          				= stalker_condition
+
+Health              					= 500          	; option for ALife Simulator
+money             						= 5000          ; option for ALife Simulator
+going_speed           					= 2.5         	; option for ALife Simulator
+current_level_going_speed				= 1           	; option for ALife Simulator
+search_speed          					= 1.0         	; option for ALife Simulator
+going_item_detect_probability 			= 0.4         	; option for ALife Simulator
+search_item_detect_probability  		= 0.9         	; option for ALife Simulator
+max_item_mass         					= 120        	; option for ALife Simulator
+inv_max_weight          				= 80.0
+MaxHealthValue          				= 600          	; option for ALife Simulator, range [0..200]
+smart_terrain_choose_interval 			= 00:15:00
+
+time_to_search_for_artefacts  			= 60000 ; in milliseconds
+distance_to_search_for_artefacts		= 30.0  ; in meters
+terrain              					= stalker_terrain
+
+;---SOUND-------------------------------------------------------------
+sound_threshold         				= 0.05
+self_sound_factor       				= 0.1
+self_decrease_quant       				= 250 ; in milliseconds
+self_decrease_factor      				= 0.95  ; fading factor
+killer_clsids         					= Z_MINCER,Z_GALANT,ZS_BFUZZ,ZS_MBALD,ZS_GALAN,ZS_MINCE
+sound_perceive_section      			= stalker_sound_perceive
+
+;---VISIBILITY--------------------------------------------------------
+vision_danger_section     				= stalker_vision_danger
+vision_free_section       				= stalker_vision_free
+eye_fov             					= 120
+eye_range           					= 80
+far_plane_factor        				= 1.0
+fog_density_factor        				= 0.05
+
+;---MEMORY------------------------------------------------------------
+DynamicObjectsCount						= 32
+DynamicSoundsCount						= 32
+DynamicHitCount							= 32
+
+;---ENEMY------------------------------------------------------------
+ignore_monster_threshold				= 0.2 
+max_ignore_distance						= 12.0
+panic_threshold							= 0.02
+
+;---SOUND PLAYER------------------------------------------------------
+sound_death           					= fight\death\death_
+sound_anomaly_death       				= fight\death\anomaly_
+sound_hit           					= fight\hit\hit_
+sound_humming         					= states\idle\idle_
+sound_alarm           					= fight\enemy\enemy_
+sound_backup          					= fight\backup\backup_,fight\threat\threat_close_
+sound_detour          					= fight\detour\detour_,fight\fire\fire_,fight\threat\threat_close_
+sound_friendly_fire       				= fight\friendly_fire\friendly_fire_
+sound_panic_human       				= states\panic_human\panic_human_
+sound_panic_monster       				= states\panic_monster\panic_monster_
+sound_tolls           					= fight\tolls\tolls_
+sound_grenade_alarm						= fight\grenade\grenade_
+sound_friendly_grenade_alarm  			= fight\friendly_grenade\friendly_grenade_
+sound_need_backup       				= fight\cover_fire\cover_fire_
+sound_running_in_danger     			= states\breath\breath_1
+sound_walking_in_danger     			= states\breath\breath_2
+sound_kill_wounded        				= help\wounded\kill_wounded_
+sound_enemy_critically_wounded  		= fight\enemy_hit\enemy_hit_
+sound_enemy_killed_or_wounded 			= fight\enemy_down\enemy_down_
+sound_attack							= fight\attack\attack_
+sound_search          					= fight\searching_enemy\search_
+sound_attack_no_allies        			= fight\fire\fire_,fight\threat\threat_distant_
+sound_attack_allies_single_enemy  		= fight\attack\attack_,fight\attack\attack_one_,fight\fire\fire_
+sound_attack_allies_several_enemies 	= fight\attack\attack_,fight\attack\attack_many_,fight\fire\fire_
+sound_search1_no_allies       			= fight\threat\threat_distant_
+sound_search1_with_allies     			= fight\searching_enemy\search_,fight\searching_enemy\enemy_lost_
+
+;---STEP MANAGER------------------------------------------------------
+LegsCount           					= 2
+step_params           					= stalker_step_manager
+foot_bones            					= stalker_foot_bones
+
+;---MOVEMENT----------------------------------------------------------
+movement_speeds         				= ldk_movement_speeds
+
+;---SIGHT-------------------------------------------------------------------------
+max_left_torso_angle      				= 45
+max_right_torso_angle     				= 30
+
+;---WEAPON BONES------------------------------------------------------------------
+weapon_bone0          					= bip01_r_finger1
+weapon_bone1          					= bip01_l_finger1
+weapon_bone2          					= bip01_r_finger11
+
+;---ANIMATION BONES------------------------------------------------------------------
+bone_head           					= bip01_head
+bone_shoulder         					= bip01_spine2
+bone_spin           					= bip01_spine1
+bone_model            					= bip01
+
+;---ANIMATION------------------------------------------------------------------------
+crouch_type           					= -1 	; 0 - crouch a little, 1 - crouch full; -1 - random crouch
+
+disp_walk_stand							= 3 
+disp_walk_crouch						= 2  
+disp_run_stand							= 5 
+disp_run_crouch							= 4 
+disp_stand_stand						= 3  
+disp_stand_crouch						= 2	
+disp_stand_stand_zoom					= 1 
+disp_stand_crouch_zoom					= 1 
+
+
+;---FIRE QUEUE PARAMETERS
+weapon_min_queue_size_far   			= 1
+weapon_max_queue_size_far   			= 6
+weapon_min_queue_interval_far 			= 500
+weapon_max_queue_interval_far 			= 1000
+
+weapon_min_queue_size_medium  			= 4
+weapon_max_queue_size_medium  			= 6
+weapon_min_queue_interval_medium		= 500
+weapon_max_queue_interval_medium		= 750
+
+weapon_min_queue_size_close   			= 4
+weapon_max_queue_size_close   			= 10
+weapon_min_queue_interval_close 		= 300
+weapon_max_queue_interval_close 		= 500
+
+;---CRITICAL WOUND------------------------------------------------------------------
+critical_wound_threshold    			= 0.23
+critical_wound_decrease_quant 			= 0.2		
+body_parts_section_id					= stalker_critical_wound_body_parts
+critical_wound_weights      			= 80,60,20 
+
+;---HIT INFO---------------------------------------------------------
+hit_power           					= 0.15
+hit_type            					= strike
+power_fx_factor     					= 50.0
+
+;---PHYSICS-----------------------------------------------------------
+ph_box0_center 		 					= 0.0,  0.9,  0.0
+ph_box0_size 		 					= 0.35, 0.9,  0.35
+ph_box1_center 		 					= 0.0,  0.6,  0.0
+ph_box1_size 		 					= 0.4, 0.6,  0.4
+;---------------------------------------------------------------------
+ph_crash_speed_min 						= 10	
+ph_crash_speed_max 						= 30
+ph_collision_damage_factor 				= 0.1	
+;---------------------------------------------------------------------
+ph_mass = 80
+
+
+
+;--------------------------------------------------------------------------------------------------
+;;=========================== LDK parameters ======================================================
+[ldk_troop]:ldk
+max_item_mass         					= 130        ; option for ALife Simulator
+inv_max_weight          				= 100.0
+
+[ldk_nano]:ldk
+movement_speeds         				= ldk_nano_movement_speeds
+max_item_mass         					= 100        ; option for ALife Simulator
+inv_max_weight          				= 40.0
+earch_speed          					= 2.0
+
+[ldk_master]:ldk
+
+[ldk_commander]:ldk
+movement_speeds         				= ldk_commander_movement_speeds
+max_item_mass         					= 150        ; option for ALife Simulator
+inv_max_weight          				= 120.0
+
+;;===========================LDK Movement speeds======================================================
+
+
+[ldk_movement_speeds]  ;; Normal speed
+  danger_crouch_walk_forward  			= 1.0
+  danger_crouch_walk_backward 			= 1.0
+  danger_crouch_walk_left   			= 1.0
+  danger_crouch_walk_right  			= 1.0
+  danger_crouch_run_forward   			= 1.0
+  danger_crouch_run_backward  			= 1.0
+  danger_crouch_run_left    			= 1.0
+  danger_crouch_run_right   			= 1.0
+  danger_stand_walk_forward 			= 1.0
+  danger_stand_walk_backward  			= 1.0
+  danger_stand_walk_left    			= 1.0
+  danger_stand_walk_right   			= 1.0
+  danger_stand_run_forward  			= 1.0
+  danger_stand_run_backward 			= 1.0
+  danger_stand_run_left   				= 1.0
+  danger_stand_run_right    			= 1.0
+  free_stand_walk_forward   			= 1.0
+  free_stand_run_forward    			= 1.0
+  panic_stand_run_forward   			= 4.0
+
+[ldk_nano_movement_speeds]  ;; Fast movers due to Nano suit lightness & enhancements
+  danger_crouch_walk_forward  			= 2.0
+  danger_crouch_walk_backward 			= 2.0
+  danger_crouch_walk_left   			= 2.0
+  danger_crouch_walk_right  			= 2.0
+  danger_crouch_run_forward   			= 3.0
+  danger_crouch_run_backward  			= 3.0
+  danger_crouch_run_left    			= 3.0
+  danger_crouch_run_right   			= 3.0
+  danger_stand_walk_forward 			= 3.0
+  danger_stand_walk_backward  			= 3.0
+  danger_stand_walk_left    			= 4.0
+  danger_stand_walk_right   			= 4.0
+  danger_stand_run_forward  			= 8.0
+  danger_stand_run_backward 			= 6.0
+  danger_stand_run_left   				= 6.0
+  danger_stand_run_right    			= 6.0
+  free_stand_walk_forward   			= 3.0
+  free_stand_run_forward    			= 8.0
+  panic_stand_run_forward   			= 14.0
+
+
+[ldk_commander_movement_speeds]  ;; Slow movers due to very heavy armor and weapons
+	danger_crouch_walk_forward			= 0.8
+	danger_crouch_walk_backward			= 0.6
+	danger_crouch_walk_left				= 0.8
+	danger_crouch_walk_right			= 0.8
+	danger_crouch_run_forward			= 0.8
+	danger_crouch_run_backward			= 0.6
+	danger_crouch_run_left				= 0.8
+	danger_crouch_run_right				= 0.8
+	danger_stand_walk_forward			= 0.8
+	danger_stand_walk_backward			= 0.8
+	danger_stand_walk_left				= 0.8
+	danger_stand_walk_right				= 0.8
+	danger_stand_run_forward			= 0.8
+	danger_stand_run_backward			= 0.8
+	danger_stand_run_left				= 0.8
+	danger_stand_run_right				= 0.8
+	free_stand_walk_forward				= 0.8
+	free_stand_run_forward				= 0.8
+	panic_stand_run_forward				= 3.0
+
+
+
+
+;------------------------------------------------------------------------------------------------
+;Particle effects for Commander suits - special suits consume enrgy giving off a shimmer effect
+;------------------------------------------------------------------------------------------------
+[commander_suit_particles]
+ldk_particles_lfoot = ldk_particles_lhand
+ldk_particles_rfoot = ldk_particles_rhand
+ldk_particles_lhand = ldk_particles_bip01_r_toe0
+
+[ldk_particles_lhand]
+particle = anomaly2\teleport_damage_smoke_00		;anomaly2\gravity_damage_01_smoke
+sound = anomaly\bfuzz_blowout
+bone = bip01_l_hand
+stop_on_death = true
+
+[ldk_particles_rhand]
+particle = anomaly2\teleport_damage_smoke_00		;anomaly2\gravity_damage_01_smoke
+sound = anomaly\bfuzz_blowout
+bone = bip01_r_hand
+stop_on_death = true
+
+[ldk_particles_bip01_r_toe0]
+particle = anomaly2\teleport_damage_smoke_00		;anomaly2\gravity_damage_01_smoke
+sound = anomaly\bfuzz_blowout
+bone = bip01_r_toe0
+stop_on_death = true
+
+
+
+
+
+
+[nano_tough]:ldk_nano
+damage							= nano_damage_tough
+immunities_sect					= nano_immunities_tough
+
+[nano_tough1]:ldk_nano
+damage							= nano_damage_tough
+immunities_sect					= nano_immunities_tough1
+
+[nano_tough2]:ldk_nano
+damage							= nano_damage_tough
+immunities_sect					= nano_immunities_tough2
+
+[nano_tough3]:ldk_nano
+damage							= nano_damage_tough
+immunities_sect					= nano_immunities_tough3
+
+[nano_tough4]:ldk_nano
+damage							= nano_damage_tough
+immunities_sect					= nano_immunities_tough4
+
+;=============================================================================================================================
+
+[troop_tough]:ldk
+damage							= troop_damage_tough
+immunities_sect					= troop_immunities_tough
+
+;=============================================================================================================================
+
+[ldk_tough]:ldk				; for sim spawns with random NPC's
+damage							= ldk_damage_tough
+immunities_sect					= ldk_immunities_tough
+
+[ldk_tough2]:ldk			; for LDK1_master to LDK9_master spawns
+damage							= ldk_damage_tough
+immunities_sect					= ldk_immunities_tough2
+
+;=============================================================================================================================
+;================== Really Tough LDK Commanders ===========================================================================================================
+
+[ldk_commander1]:ldk_commander
+damage							= ldk_damage_commander1
+immunities_sect					= ldk_immunities_commander1
+
+[ldk_commander2]:ldk_commander
+damage							= ldk_damage_commander2
+immunities_sect					= ldk_immunities_commander2
+
+[ldk_commander3]:ldk_commander
+damage							= ldk_damage_commander3
+immunities_sect					= ldk_immunities_commander3
+
+[ldk_commander4]:ldk_commander
+damage							= ldk_damage_commander4
+immunities_sect					= ldk_immunities_commander4
+
+[ldk_commander5]:ldk_commander
+damage							= ldk_damage_commander5
+immunities_sect					= ldk_immunities_commander5
+
+[ldk_commander6]:ldk_commander		; LDK supreme Commander
+damage							= ldk_damage_commander6
+immunities_sect					= ldk_immunities_commander6
+bones_particles 				= commander_suit_particles
