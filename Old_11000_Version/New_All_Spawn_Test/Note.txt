@@ -3,7 +3,7 @@ All.spawn file changes;
 Changed:
  Weapons to weapons,
  level_f-1 to level_f_1
-............................
+........................................
 Removed duplicated:
 heli_idle_move
 heli_sleep
@@ -16,7 +16,21 @@ actors_way
 heli_death_way
 heli_move_end_1
 heli_blockpost_idle_move
-...........................
+.........................................
 Changed text:
 soldier of fortune => soldier_of_fortune
-Andrey_Lunev	   => andrey_lunev-
+Andrey_Lunev	   => andrey_lunev
+.........................................
+Changes;
+alife_red_forest:
+killer_forest_most capacity from 15 to 9
+
+alife_l12u_control_monolith:
+oso_init_dialod    => oso_init_dialog
+
+alife_warlab:
+level_vertex_id 3902 => 4403
+vitamin_reyd_ok    => vitamin_reyd_zadan_have
+
+way_l05_bar:
+game_vertex_id = 51048 => 65535
