@@ -28,6 +28,8 @@ del sections.ini
 echo. 
 echo. Working with %acperlname% Perl version...
 %acperl% universal_acdc.pl -decompile %path% -out all_32 -scan config -nofatal sources  -g %Gpath% -log log.txt
+::%acperl% universal_acdc.pl -decompile %path% -out all_32_simple -sort simple -scan config -nofatal sources  -g %Gpath% -log sort_log.txt
+::%acperl% universal_acdc.pl -decompile %path% -out all_32_complex -sort complex -scan config -nofatal sources  -g %Gpath% -log sort_complex_log.txt
 log.txt
 pause
 Exit /b
@@ -40,7 +42,6 @@ echo. Working with %acperl64name% Perl version...
 log64.txt
 pause
 Exit /b
-
 
 
 
