@@ -1,0 +1,6129 @@
+===== 110017 new all.spawn, sids listed from compiler, spots, game_story_ids.ltx =====
+===== listed in numerical order, some need to be added to game_story_ids.ltx =========
+
+[1_esc_quest_case_01]						note: not in startup
+id = 3510
+story_id = 0
+
+  001          = "Escape_trader_self"				no ids in all.spawn, all these need to be verified for an id
+  002          = "Escape_Tutorial_Artefact"
+
+[1_escape_trader]
+id = 2833
+story_id = 3
+
+[1_esc_shustryi]
+id = 3174
+story_id = 4
+
+[1_esc_fox]
+id = 2886
+story_id = 5
+
+[1_esc_wolf]
+id = 2849
+story_id = 6
+
+[1_esc_vagon_wounded]
+id = 2854
+story_id = 7
+
+  008		   = "Escape_anomaly_field"				no id in all.spawn
+
+[1_esc_novice_attacker1]
+id = 2867
+story_id = 9
+
+  010          = "Escape_raid_commander1"			no ids in all.spawn
+  011          = "Escape_raid_commander2"
+  012          = "esc_vagon_newbie1"
+  013          = "esc_vagon_newbie2"
+
+[1_esc_heli]
+id = 2856
+story_id = 14
+
+  015          = "esc_level_patrol"					no ids in all.spawn
+  016		   = "esc_wounded_flash"
+
+[1_esc_fabrika_bandit_space_restrictor]
+id = 2881
+story_id = 17
+
+[1_esc_matugalnik]
+id = 2928
+story_id = 18
+
+[1_esc_anomaly_field1]
+id = 3083
+story_id = 19
+
+-------- 20
+
+[1_esc_killer2]
+id = 2931
+story_id = 21
+
+[1_esc_stalker_fanat]
+id = 2927
+story_id = 22
+
+  023			= "esc_secret_shustryi"				no id in all.spawn
+
+[1_esc_factory_prisoner_guard]
+id = 2872
+story_id = 24
+
+[1_esc_tutorial_secret_place]
+id = 3165
+story_id = 25
+
+[1_esc_tutorial_bandits]
+id = 3170
+story_id = 26
+
+[1_esc_secret_shustryi]
+id = 3176
+story_id = 27
+
+[1_esc_mill_rest]
+id = 2989
+story_id = 28
+
+[1_esc_suicidal_flesh]
+id = 2839
+story_id = 29
+
+  030			= "esc_vp_finder"					no ids in all.spawn
+  031			= "soldiers_bridge"
+
+[1_esc_bridge_soldier5]
+id = 2907
+story_id = 32
+
+[1_esc_tutorial_dead_novice]
+id = 3008
+story_id = 33
+
+--------- 34 - 90
+
+[1_exit_to_garbage_01]
+id = 3015
+story_id = 91
+
+[1_esc_provodnik]
+id = 3018
+story_id = 92
+
+------- 93
+
+[45_f1_to_zaton]
+id = 20825
+story_id = 94
+
+[45_f1_to_hiding]
+id = 20824
+story_id = 95
+
+-------- 96 - 99
+
+==========================================100
+
+[2_gar_seryi]
+id = 2361
+story_id = 100
+
+[2_gar_dm_bandit_1]
+id = 2299
+story_id = 101
+
+[2_gar_dm_bandit_2]
+id = 2300
+story_id = 102
+
+[2_gar_dm_bandit_3]
+id = 2301
+story_id = 103
+
+[2_gar_dm_novice]
+id = 2298
+story_id = 104
+
+[2_gar_boars_territory2]
+id = 2327
+story_id = 105
+
+[2_gar_bandit_agr_6]
+id = 2310
+story_id = 106
+
+[2_gar_hellcar]
+id = 2401
+story_id = 107
+
+[2_gar_dolg_blokpost_zone_warn]
+id = 2326
+story_id = 108
+
+[2_gar_wounded_bandit]
+id = 2372
+story_id = 109
+
+  110			= "gar_newbie_in_tunnel"				no id in all.spawn
+
+[2_gar_bandits_lager2]
+id = 2363
+story_id = 111
+
+[2_gar_fake_spot1]
+id = 2383
+story_id = 112
+
+[2_gar_fake_spot2]
+id = 2384
+story_id = 113
+
+[2_gar_fake_spot6]
+id = 2388
+story_id = 114
+
+[2_gar_dolg_blokpost_4]
+id = 2319
+story_id = 115
+
+[2_gar_fake_spot4]
+id = 2386
+story_id = 116
+
+[2_gar_fake_spot7]
+id = 2389
+story_id = 117
+
+[2_gar_fake_spot5]
+id = 2387
+story_id = 118
+
+[2_gar_fake_spot3]
+id = 2385
+story_id = 119
+
+[2_gar_fake_spot9]
+id = 2391
+story_id = 120
+
+[2_gar_fake_spot10]
+id = 2392
+story_id = 121
+
+[2_gar_fake_spot11]
+id = 2393
+story_id = 122
+
+[2_gar_seryi_drug3]
+id = 2379
+story_id = 123
+
+  124			= "gar_stalker_corpse"				no id in all.spawn
+
+-------- 125 - 190
+
+  ;[191] = "to_agroprom",		--not in all.spawn				in test section of spots
+
+[2_exit_to_agroprom_02]
+id = 2468
+story_id = 192
+
+[2_exit_to_escape_01]
+id = 2471
+story_id = 193
+
+[2_exit_to_bar_01]
+id = 2469
+story_id = 194
+
+--[195] = "to_darkvalley",		--not in all.spawn				in test section of spots
+
+[2_exit_to_darkvalley_01]
+id = 2470
+story_id = 196
+
+--[197] = "to_puzir",			--not in all.spawn				in test section of spots
+--[198] = "to_puzir",			--not in all.spawn				in test section of spots
+
+-------- 199
+
+=========================================200
+
+[200] = "to_lostvillage"			note: from spots
+[201] = "to_marsh"					note: from spots
+
+[25_hospital_wooden_board_01_0000]
+id = 5271
+story_id = 202
+
+[203] = "to_bar"					note: from spots
+
+-------- 204 - 208
+
+[209] = "to_vokzal"					note: from spots
+[210] = "to_zaton"					note: from spots
+[211] = "to_darkforest"				note: from spots
+[212] = "to_poli"					note: from spots
+[213] = "to_lostvillage"			note: from spots
+[214] = "to_pripyat"				note: from spots
+
+----------- 215 - 217
+
+[25_hospital_arka_1_0000]
+id = 5312
+story_id = 218
+
+[25_hospital_arka_2_0018]
+id = 5311
+story_id = 219
+
+[25_hospital_arka_3_0017]
+id = 5310
+story_id = 220
+
+[25_hospital_arka_4_0001]
+id = 5281
+story_id = 221
+
+[25_hospital_arka_5_0001]
+id = 5282
+story_id = 222
+
+[25_hospital_arka_5_0003]
+id = 5286
+story_id = 223
+
+[25_hospital_arka_4_0003]
+id = 5285
+story_id = 224
+
+[25_hospital_arka_3_0011]
+id = 5301
+story_id = 225
+
+[25_hospital_arka_2_0012]
+id = 5302
+story_id = 226
+
+[25_hospital_arka_1_0013]
+id = 5303
+story_id = 227
+
+-------- 228 - 230
+
+[231] = "to_npp"				note: from spots
+[232] = "to_pred"				note: from spots
+
+----------------- 233 - 240
+
+[241] = "to_hiding"				note: from spots
+
+[38_predbannik_level_to_promzone]
+id = 18771
+story_id = 242
+
+--------- 243 - 250
+
+  251           = "to_aver_level_changer_from_peshera"				no ids in all.spawn
+  252           = "av_peshera_to_peshera"
+  253           = "av_peshera_to_digger"
+
+--------- 254 - 255
+
+[46_promzone_to_research]
+id = 12406
+story_id = 256
+
+[257] = "to_hiding"				note: from spots
+[258] = "to_pred"				note: from spots
+
+---------- 259 - 260
+
+[42_hiding_road_to_f1]
+id = 11813
+story_id = 261
+
+[42_hiding_road_to_promzone]
+id = 11814
+story_id = 262
+
+[42_hiding_road_to_waiting]
+id = 12039
+story_id = 263
+
+--------- 264 - 265
+
+  266           = "darkscape_to_escape"				no ids in all.spawn
+  267           = "darkscape_to_poli"
+  
+[43_darkscape_to_dv]
+id = 21274
+story_id = 268
+
+--------- 269 & 270
+
+[51_pogost_to_kras]
+id = 16599
+story_id = 271
+
+[272] = "to_swampold"			note: from spots
+
+[48_kras_to_pogost]
+id = 10382
+story_id = 273
+
+[274] = "to_dd"					note: from spots
+
+[49_dd_to_vokzal]
+id = 6947
+story_id = 275
+
+[276] = "to_kras"				note: from spots
+[277] = "to_pripyat"			note: from spots
+
+[49_to_rinok]
+id = 6948
+story_id = 278
+
+[50_rinok_to_dd]
+id = 14457
+story_id = 279
+
+[52_vokzal_to_dd]
+id = 19473
+story_id = 280
+
+  ;281			= "rinok_to_atp"
+
+[282] = "to_redforest"			note: from spots
+
+  ;283           = "hospital_exit_to_lost_village"				no ids in all.spawn
+
+[54_x14_to_jupund]
+id = 21748
+story_id = 284
+
+[56_poligon_to_cordon]
+id = 20782
+story_id = 285
+
+[56_poligon_to_ds]
+id = 20822
+story_id = 286
+
+----------- 287 - 291
+
+[41_exit_to_gen]
+id = 17715
+story_id = 292
+
+[41_exit_to_dist]
+id = 17466
+story_id = 293
+
+--------- 294 - 298
+
+[299] = "to_marsh"				note: from spots
+
+
+======================================================300
+
+[3_agr_quest_case_02]
+id = 16411
+story_id = 300
+
+[3_agr_gunslinger_collector_entrance]
+id = 16420
+story_id = 301
+
+[3_agr_krot]
+id = 16345
+story_id = 302
+
+3_agr_factory_skirmish1_location]
+id = 16365
+story_id = 303
+
+[3_agr_swamp_spot]
+id = 16370
+story_id = 304
+
+[3_agr_captains_chamber_location]
+id = 16314
+story_id = 306
+
+[4_kat_soldier_trigger2]
+id = 20211
+story_id = 307
+
+---------- 308 - 310
+
+[3_agr_collector_entrance1]
+id = 16306
+story_id = 311
+
+[3_agr_collector_entrance2]
+id = 16321
+story_id = 312
+
+[3_agr_collector_entrance3]
+id = 16322
+story_id = 313
+
+[3_agr_collector_entrance4]
+id = 16323
+story_id = 314
+
+[3_agr_collector_entrance5]
+id = 16324
+story_id = 315
+
+[3_agr_collector_entrance6]
+id = 16325
+story_id = 316
+
+----------- 317 - 319
+
+[3_agr_factory_location]
+id = 16378
+story_id = 320
+
+[3_agr_nii_space_restrictor]
+id = 16299
+story_id = 321
+
+---------- 322 - 349
+
+[4_kat_stalker]
+id = 20301
+story_id = 350
+
+  351           = "mar_level_changer_to_zaton"				no ids in all.spawn
+  352           = "mar_level_changer_to_pripyat"
+  ;353           = "deadsity_to_marsh"
+  ;354           = "deadsity_to_limansk"
+  ;355           = "deadsity_to_red_forest"
+  356           = "mar_level_changer_to_deadsity"
+  357           = "mar_level_changer_to_limansk"
+  358           = "to_deadsity"
+  359           = "level_changer_limansk_to_red_forest"
+  360           = "level_changer_limansk_to_marsh"
+  ;361           = "red_level_changer_to_limansk"
+  362           = "red_to_lost_village"
+  363           = "red_to_hosp"
+  364           = "red_to_deadsity"
+  365           = "lost_village_to_red_forest"
+  366           = "lost_village_to_aver"
+
+[40_exit_to_npp2]
+id = 6072
+story_id = 367
+
+  368           = "yantar_old_to_tech"				no ids in all.spawn
+ 
+----------- 369
+
+[3_agr_ratcatcher]
+id = 16377
+story_id = 370
+
+------------ 371 - 390
+
+  391		   = "agr_exit_to_garbage_01"				no ids in all.spawn
+  
+[3_exit_to_garbage_02]
+id = 16450
+story_id = 392
+
+[3_agr_helicopter2]
+id = 16367
+story_id = 393
+
+  394		   = "agr_stalker_look_point"				no ids in all.spawn
+
+[4_agr_u_space_restrictor]
+id = 20243
+story_id = 395
+
+[4_kat2_physic_object_0011]
+id = 20250
+story_id = 396
+
+[4_kat2_physic_object_0001]
+id = 20268
+story_id = 397
+
+  398		   = "agr_stalker_on_enter"				no ids in all.spawn
+
+[4_kat_lights_hanging_lamp]
+id = 20417
+story_id = 399
+
+========================================400
+
+[5_val_escort_captive]
+id = 22199
+story_id = 400
+
+[5_val_sacrifice_victim]
+id = 22127
+story_id = 401
+
+[5_val_prisoner_captive]
+id = 22266
+story_id = 402
+
+  403          = "val_sacrifice_bloodsucker"				no ids in all.spawn
+
+[5_val_sacrifice_guard1]
+id = 22128
+story_id = 404
+
+[5_val_sacrifice_guard2]
+id = 22129
+story_id = 405
+
+[5_val_escort_nap1]
+id = 22202
+story_id = 406
+
+[5_val_escort_guard1]
+id = 22201
+story_id = 407
+
+[5_val_escort_guard2]
+id = 22200
+story_id = 408
+
+[5_val_sacrifice_tunnel_bandit]
+id = 22126
+story_id = 409
+
+  410          = "val_opendoor_monolith"				no ids in all.spawn
+  411          = "val_opendoor_victim"
+  412          = "val_opendoor_soldier"
+  413          = "val_stairs_victim1"
+  414          = "val_stairs_victim2"
+  415          = "val_lvl_changer1"
+
+[5_exit_to_garbage_02]
+id = 22125
+story_id = 416
+
+[5_exit_to_escape]
+id = 22123
+story_id = 417
+
+  418          = "val_stopper_soldier1"				no ids in all.spawn
+  419          = "val_stopper_soldier2"
+  420          = "val_stopper_soldier3"
+  421          = "val_exit_gate"				;;;removed in all.spawn 109940
+
+[5_val_sos_wounded]
+id = 22133
+story_id = 422
+
+  423          = "val_gate_btr"				no ids in all.spawn
+
+[5_val_escort_bandit_halfdead]
+id = 22203
+story_id = 424
+
+[5_val_lager_bandits_borov]
+id = 22211
+story_id = 425
+
+[5_val_door_underground]
+id = 22334
+story_id = 426
+
+[5_val_location_zone3]
+id = 22333
+story_id = 427
+
+  428          = "val_zone_monolith"				no ids in all.spawn
+  429          = "val_zone_robbers"
+
+[5_val_location_zone2]
+id = 22335
+story_id = 430
+
+[5_val_pipe_zone]
+id = 22336
+story_id = 431
+
+[6_dar_space_restrictor_0001]
+id = 14225
+story_id = 432
+
+[6_second_door_marker]
+id = 14224
+story_id = 433
+
+[5_val_exit_tunnel_zone]
+id = 22322
+story_id = 434
+
+[5_val_farm_zone]
+id = 22346
+story_id = 435
+
+[5_val_sos_bs]
+id = 22134
+story_id = 436
+
+[5_val_bandit_rpg_dead]
+id = 22342
+story_id = 437
+
+  ;;438          = "exit_to_darkvalley"				no ids in all.spawn
+  ;;439          = "garbage_old_to_predbannik"
+
+[6_dar_stalker0000]
+id = 14046
+story_id = 450
+
+[6_dar_stalker0000_0000]
+id = 14195
+story_id = 451
+
+[6_dar_control_poltergeist]
+id = 14197
+story_id = 452
+
+------------- 453 - 470
+
+  471          = "x18_sound_1"				no ids in all.spawn
+  472          = "x18_sound_2"
+  473          = "x18_sound_3"
+  474          = "x18_sound_4"
+  475          = "x18_sound_5"
+  476          = "x18_sound_6"
+  477          = "x18_sound_7"
+  478          = "x18_sound_8"
+  479          = "x18_sound_9"
+  480          = "x18_sound_10"
+  481		    = "dv_to_darkscape"		;;109940.1
+  
+------------- 481 - 499
+
+====================================500
+
+[7_bar_barman]
+id = 1000
+story_id = 500
+
+  501		= "bar_dolg_arhive_documents"				no ids in all.spawn
+
+[8_bar_hunters_toz]
+id = 19907
+story_id = 502
+
+[8_bar_ecolog_professor]
+id = 19916
+story_id = 503
+
+[7_bar_bar_visitor_hunter]
+id = 993
+story_id = 504
+
+[7_bar_dolg_ivancov]
+id = 1096
+story_id = 505
+
+[7_bar_dolg_petrenko]
+id = 1095
+story_id = 506
+
+[7_bar_dolg_leader]
+id = 1097
+story_id = 507
+
+[7_bar_water_tower_zone]
+id = 1005
+story_id = 508
+
+[8_bar_freedom_attacker_commander]
+id = 19921
+story_id = 509
+
+[7_bar_bar_drunk_dolg]
+id = 986
+story_id = 510
+
+  511		= "bar_crazy_veterans_leader"				no ids in all.spawn
+
+[6_dar_dar_document4]
+id = 14366
+story_id = 512
+
+  513		= "bar_decoding_documents"				no ids in all.spawn
+  514		= "bar_svoboda_ambush_tiran"
+
+[7_bar_bar_osvedomitel]
+id = 1003
+story_id = 515
+
+[7_bar_dolg_regular_5]
+id = 1103
+story_id = 516
+
+  517		= "bar_psih"
+
+[7_bar_zastava_guard_3]
+id = 1090
+story_id = 518
+
+------------------ 519 - 569
+
+[7_bar_bar_locator]
+id = 1112
+story_id = 570
+
+[7_bar_arena_man]
+id = 1158
+story_id = 571
+
+[7_bar_dolg_locator]
+id = 1111
+story_id = 572
+
+[7_bar_inv_box]
+id = 1156
+story_id = 573
+
+[7_bar_inventory_box_2]
+id = 1160
+story_id = 574
+
+--------------- 575 - 590
+
+  591		= "rostok_exit_to_bar"				no ids in all.spawn
+
+[7_bar_to_military]
+id = 1311
+story_id = 592
+
+[7_exit_to_garbage_01]
+id = 1110
+story_id = 593
+
+[7_exit_to_rostok_01]						note: not in startup
+id = 1020
+story_id = 594
+
+[8_rostok_stalker_0004]
+id = 19969
+story_id = 595
+
+[8_rostok_secret_way_mapspot]
+id = 19975
+story_id = 596
+
+[8_rostok_volkodav_band_mapspot]
+id = 19976
+story_id = 597
+
+--------------- 598 - 599
+
+=====================================================600
+
+--------------- 600
+
+[8_bar_freedom_attacker_10]
+id = 19978
+story_id = 601
+
+[8_bar_freedom_attacker_9]
+id = 19981
+story_id = 602
+
+[8_bar_freedom_attacker_11]
+id = 19979
+story_id = 603
+
+[8_bar_freedom_attacker_12]
+id = 19980
+story_id = 604
+
+[8_rostok_kruglov_finish_mapspot]
+id = 19990
+story_id = 605
+
+  606		= "pl_weapon_spawn"				no ids in all.spawn
+
+[7_bar_bar_lisiy]
+id = 990
+story_id = 607
+
+[8_exit_to_yantar_01]
+id = 19889
+story_id = 608
+
+  609		= "bar_wasted_level_changer"	;;;;109940				no ids in all.spawn
+
+--------------------- 610 - 614
+
+[24_lim_physic_object_0034]
+id = 8497
+story_id = 615
+
+-------------------- 616 - 699
+
+=====================================================700
+
+  700          = "Freedom_patrol_commander_base"				no ids in all.spawn
+  701          = "Freedom_patrol_commander_level" 
+
+[11_mil_freedom_member0018]
+id = 9656
+story_id = 702
+
+[11_mil_stalker0012]
+id = 9648
+story_id = 703
+
+[11_mil_freedom_stalker0004]
+id = 9965
+story_id = 704
+
+[11_mil_bandit_outfit]
+id = 9888
+story_id = 705
+
+  706          = "Mil_RG6"				no ids in all.spawn
+
+[11_mil_freedom_member0012]
+id = 9660
+story_id = 707
+
+[11_mil_dolg_stalker0000]
+id = 9653
+story_id = 708
+
+  709          = "Mil_Freedom_Kamikadze"				no ids in all.spawn
+
+[11_mil_freedom_member0001]
+id = 9675
+story_id = 710
+
+[11_mil_dolg_stalker0006_0000]
+id = 10011
+story_id = 711
+
+[11_mil_ara_guard3]
+id = 9674
+story_id = 712
+
+[11_mil_ara_guard2]
+id = 9671
+story_id = 713
+
+[11_mil_ara_guard1]
+id = 9673
+story_id = 714
+
+------------- 715 - 718
+
+[11_mil_ara]
+id = 9672
+story_id = 719
+
+[11_mil_patrol_stalker0014]
+id = 9669
+story_id = 720
+
+[11_mil_patrol_stalker0013]
+id = 9668
+story_id = 721
+
+[11_mil_patrol_stalker_0000]
+id = 9670
+story_id = 722
+
+[11_mil_explosive_dinamit]
+id = 9901
+story_id = 723
+
+[11_mil_blockpost_freedomstalker001]
+id = 9917
+story_id = 724
+
+[11_mil_stalker0023]
+id = 9664
+story_id = 725
+
+[11_mil_stalker0024]
+id = 9665
+story_id = 726
+
+[11_mil_stalker0025]
+id = 9666
+story_id = 727
+
+[11_mil_freedom_stalker0026]
+id = 9661
+story_id = 728
+
+  729          = "Mil_Controller" 				no ids in all.spawn
+
+[11_mil_freedom_member0025]
+id = 9918
+story_id = 730
+
+[11_mil_freedom_member0024]
+id = 9907
+story_id = 731
+
+[11_mil_freedom_stalker0010]
+id = 9655
+story_id = 732
+
+[11_mil_freedom_gulag_defense_res]
+id = 9903
+story_id = 733
+
+[11_mil_freedom_member0021]
+id = 9662
+story_id = 734
+
+  735          = "Mil_WaterTower"				no ids in all.spawn
+
+[11_mil_dolg_stalker0003]
+id = 9652
+story_id = 736
+
+[11_mil_dolg_stalker0007]
+id = 9654
+story_id = 737
+
+[11_mil_dolg_stalker0006]
+id = 9650
+story_id = 738
+
+--------------------- 739
+
+[11_mil_dolg_stalker0001]
+id = 9905
+story_id = 740
+
+-------------------- 741 - 769
+
+[11_mil_locator1]
+id = 9948
+story_id = 770
+
+[11_exit_to_bar_01]
+id = 9966
+story_id = 771
+
+  772          = "Mil_Exit_to_DeadCity"				no ids in all.spawn
+
+[11_exit_to_radar_01]
+id = 9967
+story_id = 773
+
+[11_mil_dolg_war_zone1]
+id = 9598
+story_id = 774
+
+-------------------- 775 - 799
+
+=====================================================800
+
+[13_pri_helicopter1]
+id = 13288
+story_id = 800
+
+[13_pri_helicopter2]
+id = 13289
+story_id = 801
+
+  802          = "pri_heli3"				no ids in all.spawn
+
+[13_pri_helicopter4]
+id = 13290
+story_id = 803
+
+  804          = "pri_wave2_monolith_victim1"				no ids in all.spawn
+  805          = "pri_wave2_monolith_victim2"
+
+[13_pri_followers_leader]
+id = 13278
+story_id = 806
+
+[13_pri_wave3_btr]
+id = 13396
+story_id = 807
+
+[13_pri_wave1_monolith1_rsniper1]
+id = 13397
+story_id = 808
+
+[13_pri_corner_monolith1]
+id = 13263
+story_id = 809
+
+[13_pri_depot_controller1]
+id = 13322
+story_id = 810
+
+[13_pri_depot_controller2]
+id = 13323
+story_id = 811
+
+[13_pri_depot_controller3]
+id = 13324
+story_id = 812
+
+  813          = "pri_zombied_victim1"				no ids in all.spawn
+  814          = "pri_zombied_victim2"
+  815          = "pri_gigant1"
+  816          = "pri_gigant2"
+  817          = "pri_gigant3"
+  818          = "pri_gigant4"
+  819          = "pri_gigant5"
+  820          = "pri_wave4_monolith6"
+
+[13_pri_wave4_monolith5_free1]
+id = 13427
+story_id = 821
+
+[13_pri_hotel_door]
+id = 13304
+story_id = 822
+
+[13_pri_followers]
+id = 13281
+story_id = 823
+
+[13_pri_depot_base_restr]
+id = 13321
+story_id = 824
+
+[13_pri_hotel_zone]
+id = 13306
+story_id = 825
+
+[13_pri_monolith_sniper_to_walker_zone]
+id = 13390
+story_id = 826
+
+[13_pri_stadium_restr]
+id = 13338
+story_id = 827
+
+[13_pri_monolith_leader]
+id = 13353
+story_id = 828
+
+[13_pri_snork_spawn_restrictor]
+id = 13503
+story_id = 829
+
+[13_pri_space_restrictor_0011]					note: not in startup
+id = 13584
+story_id = 830
+
+  831		   = "pri_followers_marker"				no ids in all.spawn
+
+[13_exit_to_stancia_01]
+id = 13538
+story_id = 832
+
+[13_exit_to_radar_01]
+id = 13539
+story_id = 833
+
+  834		   = "pri_to_eprip"				no ids in all.spawn
+
+------------------- 835 - 899
+
+=====================================================900
+
+[9_yan_scientist_help]
+id = 17225
+story_id = 900
+
+  901          = "yan_scan_psi_radiation"				no ids in all.spawn
+
+[9_yantar_ecolog_general]
+id = 17224
+story_id = 902
+
+[9_yantar_dead_scientist_01]
+id = 17223
+story_id = 903
+
+--------------------- 904
+
+[9_yantar_semenov]
+id = 17282
+story_id = 905
+
+[9_yan_zombie_zone_mapspot]
+id = 17237
+story_id = 906
+
+[9_yan_mapspot_from_vasiliev]
+id = 17238
+story_id = 907
+
+[10_lab_switcher_hanging_lamp]
+id = 8835
+story_id = 908
+
+[10_lab_switcher_hanging_lamp_0000]
+id = 8833
+story_id = 909
+
+[10_lab_switcher_hanging_lamp_0001]
+id = 8830
+story_id = 910
+
+[10_lab_primari_switcher_hanging_lamp_green_0000]
+id = 8775
+story_id = 911
+
+[10_lab_primari_switcher_hanging_lamp_red_0000]
+id = 8771
+story_id = 912
+
+[10_lab_primari_switcher_hanging_lamp_green_0001]
+id = 8776
+story_id = 913
+
+[10_lab_primari_switcher_hanging_lamp_red_0001]
+id = 8773
+story_id = 914
+
+[10_lab_primari_switcher_hanging_lamp_green_0002]
+id = 8777
+story_id = 915
+
+[10_lab_primari_switcher_hanging_lamp_red_0002]
+id = 8774
+story_id = 916
+
+  917		   = "yan_labx16_documents"				no ids in all.spawn
+
+[10_x16_stalker_ghost]
+id = 8699
+story_id = 918
+
+---------------- 919
+
+[9_yan_helmet]
+id = 17289
+story_id = 920
+
+[9_yantar_tunnel_finish]
+id = 17213
+story_id = 921
+
+[9_yan_specnaz_dead]
+id = 17397
+story_id = 922
+
+[10_x16_physic_object_0006]
+id = 8720
+story_id = 923
+
+[9_yan_physic_destroyable_object_0001]
+id = 17324
+story_id = 924
+
+[9_exit_to_rostok_01]
+id = 17255
+story_id = 925
+
+---------------- 926 - 999
+
+=====================================================1000
+
+[12_rad2_space_restrictor]
+id = 18303
+story_id = 1000
+
+  1001         = "rad_code_door"				no ids in all.spawn
+  1002         = "rad_entrance_guard1"
+  1003         = "rad_entrance_guard2"
+  1004         = "rad_suicide"
+
+[12_rad2_space_restrictor_0001]
+id = 18346
+story_id = 1005
+
+[18_bun_space_restrictor_0002]
+id = 3791
+story_id = 1006
+
+[12_exit_to_pripyat_01]
+id = 18040
+story_id = 1007
+
+[12_exit_to_military_01]					note: not in startup
+id = 18039
+story_id = 1008
+
+----------------- 1009 - 1070
+
+[12_rad_curve_road_low_guard]
+id = 18003
+story_id = 1071
+
+[12_rad_curve_road_mid_guard1]
+id = 17919
+story_id = 1072
+
+[12_rad_curve_road_mid_guard2]
+id = 17918
+story_id = 1073
+
+[12_rad_curve_road_high_guard2]
+id = 17921
+story_id = 1074
+
+[12_rad_curve_road_high_guard1]
+id = 17920
+story_id = 1075
+
+----------------- 1076 - 1079
+
+[12_rad_explosive_barrel_0003]
+id = 18005
+story_id = 1080
+
+[12_rad_explosive_barrel_0004]
+id = 18006
+story_id = 1081
+
+[12_rad_explosive_barrel_0009]
+id = 18121
+story_id = 1082
+
+[12_rad_explosive_barrel_0010]
+id = 18122
+story_id = 1083
+
+[12_rad_explosive_barrel_0005]
+id = 18007
+story_id = 1084
+
+[12_rad_explosive_barrel_0014]
+id = 18126
+story_id = 1085
+
+------------------- 1086 - 1089
+
+[12_rad_explosive_barrel]
+id = 17996
+story_id = 1090
+
+[12_rad_explosive_barrel_0001]
+id = 17993
+story_id = 1091
+
+[12_rad_explosive_barrel_0011]
+id = 18123
+story_id = 1092
+
+[12_rad_explosive_barrel_0012]
+id = 18124
+story_id = 1093
+
+[12_rad_explosive_barrel_0000]
+id = 17997
+story_id = 1094
+
+[12_rad_explosive_barrel_0002]
+id = 17994
+story_id = 1095
+
+[12_rad_explosive_barrel_0008]
+id = 18010
+story_id = 1096
+
+[12_rad_explosive_barrel_0007]
+id = 18009
+story_id = 1097
+
+[12_rad_explosive_barrel_0013]
+id = 18125
+story_id = 1098
+
+[12_rad_explosive_barrel_0006]
+id = 18008
+story_id = 1099
+
+=====================================================1100
+
+-------------- 1100
+
+[14_aes_explosive_dinamit]
+id = 6773
+story_id = 1101
+
+[14_aes_space_restrictor_task_0000]
+id = 6799
+story_id = 1102
+
+[14_aes_soldier_desant_wave_0029]
+id = 6665
+story_id = 1103
+
+[14_aes_soldier_desant_wave_0006]
+id = 6635
+story_id = 1104
+
+[14_aes_soldier_desant_wave_0007]
+id = 6906
+story_id = 1105
+
+[14_aes_soldier_desant_wave_0015]
+id = 6909
+story_id = 1106
+
+[14_aes_soldier_desant_wave_0023]
+id = 6642
+story_id = 1107
+
+[14_aes_soldier_desant_wave_0042]
+id = 6710
+story_id = 1108
+
+[14_aes_soldier_desant_wave_0053]
+id = 6728
+story_id = 1109
+
+[14_aes_soldier_desant_wave_0052]
+id = 6725
+story_id = 1110
+
+  1111         = "aes_kvartet" 				no ids in all.spawn
+
+[14_aes_btr_0000]
+id = 6905
+story_id = 1112
+
+[14_aes_btr]
+id = 6636
+story_id = 1113
+
+[14_aes_btr_0002]
+id = 6781
+story_id = 1114
+
+[14_aes_space_restrictor_map_spot]
+id = 6825
+story_id = 1115
+
+[14_aes_space_restrictor_map_spot_0000]
+id = 6826
+story_id = 1116
+
+[14_aes_space_restrictor_map_spot_0001]
+id = 6827
+story_id = 1117
+
+[17_aes2_physic_object_0002]
+id = 2064
+story_id = 1118
+
+  1119         = "aes_zombie1"				no ids in all.spawn
+  1120         = "aes_zombie2"
+  1121         = "aes_zombie3"
+  1122         = "aes_zombie4"
+  1123         = "aes_zombie5"
+  1124         = "aes_zombie6"
+
+---------------------- 1125 - 1199
+
+=====================================================1200
+
+  1200         = "cit_doctor"				no ids in all.spawn
+  1201         = "cit_heli"
+  1202         = "cit_actor_weapon_zone"
+  1203         = "cit_actor_escape_zone"
+  1204         = "cit_level_exit_zone"
+  1205         = "cit_actor_escape_car_zone"
+  1206         = "cit_killers_base_zone"
+  1207         = "cit_bandits_base_zone"
+  1208         = "cit_gorsovet_zone"
+  1209         = "cit_vp"
+  1210         = "cit_bochka_button"
+
+--------------------- 1211 - 1222
+
+[40_yantar_old_to_generator]
+id = 6073
+story_id = 1223
+
+--------------------- 1224 - 1299
+
+=====================================================1300
+
+[15_sar_monolith_spot]
+id = 18558
+story_id = 1300
+
+  1301			= "sar_generator_1"				no ids in all.spawn
+  1302			= "sar_generator_2"
+
+[15_sar_door]
+id = 18566
+story_id = 1303
+
+  1304			= "sar_command_center"				no ids in all.spawn
+
+[16_mon_physic_destroyable_object_0006]
+id = 4716
+story_id = 1305
+
+[15_sar_monolith_find]
+id = 18562
+story_id = 1306
+
+[16_mon_stalker]
+id = 4731
+story_id = 1307
+
+----------------- 1308 - 1399
+
+====================================================1400
+
+[17_warlab_pointer]
+id = 2068
+story_id = 1400
+
+--------------- 1401 - 1999
+
+====================================================1500
+
+  1500			= "darscape_helicopter"				no ids in all.spawn
+  1501          = "ds_falling_barrel_1"
+  1502          = "ds_falling_barrel_2"
+  1503          = "ds_falling_barrel_3"
+  1504          = "ds_falling_barrel_4" 
+  1505          = "ds_falling_barrel_5"
+  1506          = "ds_falling_barrel_6"
+  1507          = "ds_falling_barrel_7"
+  1508          = "ds_falling_barrel_8"
+  1509          = "ds_falling_barrel_9"
+  1510          = "ds_falling_barrel_10"
+  
+------------------ 1511 - 1514  
+  
+  1515          = "ds_table"				no ids in all.spawn
+  
+------------------ 1516 - 1519  
+  
+  1520          = "ds_barrel_faller1"				no ids in all.spawn
+  1521          = "ds_barrel_faller2"
+  1522          = "ds_barrel_faller3"
+  1523          = "ds_barrel_faller4"
+  1524          = "ds_barrel_faller5"
+  1525          = "ds_barrel_faller6"
+  1526          = "ds_barrel_faller7"
+  1527          = "ds_barrel_faller8"
+  1528          = "ds_barrel_faller9"
+  
+------------------ 1529 - 1549 
+  
+  1550          = "bun_bloodsucker_prim"				no ids in all.spawn
+  
+------------------ 1551 - 1599   
+
+====================================================2000
+
+[1_esc_inventory_box]
+id = 3318
+story_id = 2000
+
+[1_esc_inventory_box_0000]
+id = 3320
+story_id = 2001
+
+[1_esc_inventory_box_0001]
+id = 3319
+story_id = 2002
+
+[1_esc_inventory_box_0002]
+id = 3321
+story_id = 2003
+
+  2004        = "esc_simulation_box_5"				no ids in all.spawn
+
+[2_gar_inventory_box_0000]
+id = 2585
+story_id = 2005
+
+[2_gar_inventory_box_0001]
+id = 2586
+story_id = 2006
+
+[2_gar_inventory_box_0002]
+id = 2587
+story_id = 2007
+
+[2_gar_inventory_box_0003]
+id = 2588
+story_id = 2008
+
+  2009        = "gar_simulation_box_5" 				no ids in all.spawn
+
+[3_agr_inventory_box_0028]
+id = 16552
+story_id = 2010
+
+[3_agr_inventory_box]
+id = 16526
+story_id = 2011
+
+  2012        = "agr_simulation_box_3" 				no ids in all.spawn
+  2013        = "agr_simulation_box_4" 
+  2014        = "agr_simulation_box_5"   
+
+[11_mil_inventory_box_0028]
+id = 10349
+story_id = 2015
+
+[11_mil_inventory_box_0029]
+id = 10350
+story_id = 2016
+
+[11_mil_inventory_box_0030]
+id = 10351
+story_id = 2017
+
+[11_mil_inventory_box_0031]
+id = 10352
+story_id = 2018
+
+[11_mil_inventory_box_0032]
+id = 10353
+story_id = 2019
+
+[7_bar_simulation_box_1]
+id = 1313
+story_id = 2020
+
+[7_bar_simulation_box_2]
+id = 1314
+story_id = 2021
+
+  2022        = "bar_simulation_box_3" 				no ids in all.spawn
+  2023        = "bar_simulation_box_4" 
+  2024        = "bar_simulation_box_5"
+
+[5_val_inventory_box_0032]
+id = 22508
+story_id = 2025
+
+[5_val_inventory_box_0033]
+id = 22509
+story_id = 2026
+
+  2027        = "val_simulation_box_3" 				no ids in all.spawn
+  2028        = "val_simulation_box_4" 
+  2029        = "val_simulation_box_5"
+
+[8_ros_inventory_box_0027]
+id = 20141
+story_id = 2030
+
+[8_ros_inventory_box_0026]
+id = 20140
+story_id = 2031
+
+[8_ros_inventory_box_0028]
+id = 20142
+story_id = 2032
+
+  2033        = "ros_simulation_box_4" 				no ids in all.spawn
+  2034        = "ros_simulation_box_5"
+  2035        = "yan_simulation_box_1" 
+  2036        = "yan_simulation_box_2" 
+  2037        = "yan_simulation_box_3" 
+  2038        = "yan_simulation_box_4" 
+  2039        = "yan_simulation_box_5"
+
+--------------------- 2040 - 2099
+
+=============================================3000
+
+-------------------- 3000
+
+[5_val_smart_bandit_2]
+id = 22389
+story_id = 3001
+
+[2_gar_smart_bandit_large_lager]
+id = 2510
+story_id = 3002
+
+[3_agr2_bandit_st]
+id = 16467
+story_id = 3003
+
+------------------- 3004 - 3049
+
+[2_gar_smart_boars]
+id = 2583
+story_id = 3050
+
+--------------------- 3051 - 3069
+
+[11_mil_monster]
+id = 10023
+story_id = 3070
+
+[11_mil_bandit]
+id = 10024
+story_id = 3071
+
+-------------------- 3072 - 3999
+
+=============================================4000
+
+[38_predbannik_barman]
+id = 19463
+story_id = 4000
+
+[38_predbannik_m_trader]
+id = 19462
+story_id = 4001
+
+[48_kras_trader]
+id = 11683
+story_id = 4002
+
+[49_dd_trader]
+id = 8198
+story_id = 4003
+
+[49_l02_stalker]
+id = 8306
+story_id = 4004
+
+[42_hr_afanasyev]
+id = 11957
+story_id = 4005
+
+[42_hr_liza]
+id = 11958
+story_id = 4006
+
+[45_f1_zika11]
+id = 20854
+story_id = 4007
+
+---------------- 4008 - 4499
+
+  4500			= "eprip_to_prip"				;109987, return lc				no ids in all.spawn
+
+---------------- 4501 - 4999
+
+=============================================5000
+
+[1_esc_inventory_box_0005]
+id = 3300
+story_id = 5000
+
+[1_esc_inventory_box_0006]
+id = 3301
+story_id = 5001
+
+[1_esc_inventory_box_0007]
+id = 3302
+story_id = 5002
+
+[1_esc_inventory_box_0008]
+id = 3303
+story_id = 5003
+
+[1_esc_inventory_box_0009]
+id = 3304
+story_id = 5004
+
+[1_esc_inventory_box_0010]
+id = 3305
+story_id = 5005
+
+[1_esc_inventory_box_0011]
+id = 3306
+story_id = 5006
+
+[1_esc_inventory_box_0004]
+id = 3299
+story_id = 5007
+
+[1_esc_inventory_box_0012]
+id = 3307
+story_id = 5008
+
+[1_esc_inventory_box_0013]
+id = 3308
+story_id = 5009
+
+[1_esc_inventory_box_0014]
+id = 3309
+story_id = 5010
+
+[1_esc_inventory_box_0016]
+id = 3311
+story_id = 5011
+
+[1_esc_inventory_box_0015]
+id = 3310
+story_id = 5012
+
+[1_esc_inventory_box_0017]
+id = 3312
+story_id = 5013
+
+[1_esc_inventory_box_0018]
+id = 3313
+story_id = 5014
+
+[1_esc_inventory_box_0019]
+id = 3314
+story_id = 5015
+
+[1_esc_inventory_box_0020]
+id = 3315
+story_id = 5016
+
+[1_esc_inventory_box_0021]
+id = 3316
+story_id = 5017
+
+[1_esc_inventory_box_0022]
+id = 3323
+story_id = 5018
+
+[1_esc_inventory_box_0023]
+id = 3317
+story_id = 5019
+
+------------------ 5020 - 5029
+
+[2_gar_inventory_box_0004]
+id = 2589
+story_id = 5030
+
+[2_gar_inventory_box_0005]
+id = 2590
+story_id = 5031
+
+[2_gar_inventory_box_0006]
+id = 2591
+story_id = 5032
+
+[2_gar_inventory_box_0007]
+id = 2592
+story_id = 5033
+
+[2_gar_inventory_box_0008]
+id = 2593
+story_id = 5034
+
+[2_gar_inventory_box_0009]
+id = 2594
+story_id = 5035
+
+[2_gar_inventory_box_0010]
+id = 2595
+story_id = 5036
+
+[2_gar_inventory_box]
+id = 2584
+story_id = 5037
+
+[2_gar_inventory_box_0011]
+id = 2596
+story_id = 5038
+
+[2_gar_inventory_box_0012]
+id = 2597
+story_id = 5039
+
+[2_gar_inventory_box_0013]
+id = 2598
+story_id = 5040
+
+[2_gar_inventory_box_0014]
+id = 2599
+story_id = 5041
+
+[2_gar_inventory_box_0015]
+id = 2600
+story_id = 5042
+
+[2_gar_inventory_box_0016]
+id = 2601
+story_id = 5043
+
+[2_gar_inventory_box_0017]
+id = 2602
+story_id = 5044
+
+[2_gar_inventory_box_0018]
+id = 2603
+story_id = 5045
+
+[2_gar_inventory_box_0019]
+id = 2604
+story_id = 5046
+
+[2_gar_inventory_box_0020]
+id = 2605
+story_id = 5047
+
+[2_gar_inventory_box_0021]
+id = 2606
+story_id = 5048
+
+[2_gar_inventory_box_0022]
+id = 2607
+story_id = 5049
+
+[2_gar_inventory_box_0023]
+id = 2608
+story_id = 5050
+
+[2_gar_inventory_box_0024]
+id = 2609
+story_id = 5051
+
+[2_gar_inventory_box_0025]
+id = 2610
+story_id = 5052
+
+[2_gar_inventory_box_0026]
+id = 2611
+story_id = 5053
+
+[2_gar_inventory_box_0027]
+id = 2612
+story_id = 5054
+
+------------------- 5055 - 5064
+
+[3_agr_inventory_box_0000]
+id = 16527
+story_id = 5065
+
+[3_agr_inventory_box_0001]
+id = 16528
+story_id = 5066
+
+[3_agr_inventory_box_0002]
+id = 16596
+story_id = 5067
+
+[3_agr_inventory_box_0003]
+id = 16529
+story_id = 5068
+
+[3_agr_inventory_box_0004]
+id = 16530
+story_id = 5069
+
+[3_agr_inventory_box_0005]
+id = 16531
+story_id = 5070
+
+[3_agr_inventory_box_0006]
+id = 16532
+story_id = 5071
+
+[3_agr_inventory_box_0009]
+id = 16533
+story_id = 5072
+
+[3_agr_inventory_box_0007]
+id = 16525
+story_id = 5073
+
+[3_agr_inventory_box_0010]
+id = 16534
+story_id = 5074
+
+[3_agr_inventory_box_0008]
+id = 16524
+story_id = 5075
+
+[3_agr_inventory_box_0011]
+id = 16535
+story_id = 5076
+
+[3_agr_inventory_box_0012]
+id = 16536
+story_id = 5077
+
+[3_agr_inventory_box_0013]
+id = 16537
+story_id = 5078
+
+[3_agr_inventory_box_0014]
+id = 16538
+story_id = 5079
+
+[3_agr_inventory_box_0015]
+id = 16539
+story_id = 5080
+
+[3_agr_inventory_box_0016]
+id = 16540
+story_id = 5081
+
+[3_agr_inventory_box_0023]
+id = 16547
+story_id = 5082
+
+[3_agr_inventory_box_0017]
+id = 16541
+story_id = 5083
+
+[3_agr_inventory_box_0018]
+id = 16542
+story_id = 5084
+
+[3_agr_inventory_box_0019]
+id = 16543
+story_id = 5085
+
+[3_agr_inventory_box_0020]
+id = 16544
+story_id = 5086
+
+[3_agr_inventory_box_0021]
+id = 16545
+story_id = 5087
+
+[3_agr_inventory_box_0024]
+id = 16548
+story_id = 5088
+
+[3_agr_inventory_box_0022]
+id = 16546
+story_id = 5089
+
+[3_agr_inventory_box_0025]
+id = 16549
+story_id = 5090
+
+[3_agr_inventory_box_0026]
+id = 16550
+story_id = 5091
+
+[3_agr_inventory_box_0027]
+id = 16551
+story_id = 5092
+
+-------------------- 5093 - 5099
+
+[4_agr_u_inventory_box_0000]
+id = 20419
+story_id = 5100
+
+[4_agr_u_inventory_box_0001]
+id = 20420
+story_id = 5101
+
+[4_agr_u_inventory_box_0002]
+id = 20421
+story_id = 5102
+
+[4_agr_u_inventory_box]
+id = 20418
+story_id = 5103
+
+[4_agr_u_inventory_box_0003]
+id = 20422
+story_id = 5104
+
+--------------------- 5105 - 5199
+
+[11_mil_inventory_box]
+id = 10341
+story_id = 5200
+
+[11_mil_inventory_box_0000]
+id = 10296
+story_id = 5201
+
+[11_mil_inventory_box_0001]
+id = 10297
+story_id = 5202
+
+[11_mil_inventory_box_0002]
+id = 10298
+story_id = 5203
+
+[11_mil_inventory_box_0003]
+id = 10299
+story_id = 5204
+
+[11_mil_inventory_box_0004]
+id = 10300
+story_id = 5205
+
+[11_mil_inventory_box_0005]
+id = 10301
+story_id = 5206
+
+[11_mil_inventory_box_0006]
+id = 10302
+story_id = 5207
+
+[11_mil_inventory_box_0007]
+id = 10303
+story_id = 5208
+
+[11_mil_inventory_box_0008]
+id = 10237
+story_id = 5209
+
+[11_mil_inventory_box_0009]
+id = 10304
+story_id = 5210
+
+[11_mil_inventory_box_0010]
+id = 10305
+story_id = 5211
+
+[11_mil_inventory_box_0011]
+id = 10306
+story_id = 5212
+
+[11_mil_inventory_box_0012]
+id = 10307
+story_id = 5213
+
+[11_mil_inventory_box_0013]
+id = 10308
+story_id = 5214
+
+[11_mil_inventory_box_0014]
+id = 10309
+story_id = 5215
+
+[11_mil_inventory_box_0015]
+id = 10310
+story_id = 5216
+
+[11_mil_inventory_box_0016]
+id = 10311
+story_id = 5217
+
+[11_mil_inventory_box_0017]
+id = 10312
+story_id = 5218
+
+[11_mil_inventory_box_0018]
+id = 10313
+story_id = 5219
+
+[11_mil_inventory_box_0019]
+id = 10314
+story_id = 5220
+
+[11_mil_inventory_box_0020]
+id = 10315
+story_id = 5221
+
+[11_mil_inventory_box_0021]
+id = 10316
+story_id = 5222
+
+[11_mil_inventory_box_0022]
+id = 10317
+story_id = 5223
+
+[11_mil_inventory_box_0023]
+id = 10318
+story_id = 5224
+
+[11_mil_inventory_box_0024]
+id = 10319
+story_id = 5225
+
+[11_mil_inventory_box_0025]
+id = 10320
+story_id = 5226
+
+[11_mil_inventory_box_0026]
+id = 10321
+story_id = 5227
+
+[11_mil_inventory_box_0027]
+id = 10322
+story_id = 5228
+
+[9_yan_inventory_box_0000]
+id = 17445
+story_id = 5229
+
+[9_yan_inventory_box_0001]
+id = 17446
+story_id = 5230
+
+[9_yan_inventory_box_0002]
+id = 17447
+story_id = 5231
+
+[9_yan_inventory_box_0003]
+id = 17448
+story_id = 5232
+
+[9_yan_inventory_box_0004]
+id = 17449
+story_id = 5233
+
+[9_yan_inventory_box_0005]
+id = 17450
+story_id = 5234
+
+[9_yan_inventory_box_0006]
+id = 17451
+story_id = 5235
+
+[9_yan_inventory_box_0007]
+id = 17452
+story_id = 5236
+
+[9_yan_inventory_box_0008]
+id = 17453
+story_id = 5237
+
+[9_yan_inventory_box_0009]
+id = 17454
+story_id = 5238
+
+[9_yan_inventory_box_0010]
+id = 17455
+story_id = 5239
+
+[9_yan_inventory_box_0011]
+id = 17456
+story_id = 5240
+
+[9_yan_inventory_box_0012]
+id = 17457
+story_id = 5241
+
+[9_yan_inventory_box_0013]
+id = 17458
+story_id = 5242
+
+[10_x16_inventory_box]
+id = 8915
+story_id = 5243
+
+[10_x16_inventory_box_0000]
+id = 8916
+story_id = 5244
+
+[12_rad_inventory_box_0001]
+id = 18472
+story_id = 5245
+
+[12_rad_inventory_box_0002]
+id = 18473
+story_id = 5246
+
+[12_rad_inventory_box_0003]
+id = 18474
+story_id = 5247
+
+[12_rad_inventory_box_0000]
+id = 18475
+story_id = 5248
+
+[12_rad_inventory_box_0004]
+id = 18476
+story_id = 5249
+
+[12_rad_inventory_box_0005]
+id = 18477
+story_id = 5250
+
+[13_pripyat_inventory_box_0000]
+id = 13647
+story_id = 5251
+
+[13_pripyat_inventory_box]
+id = 13648
+story_id = 5252
+
+[13_pripyat_inventory_box_0001]
+id = 13649
+story_id = 5253
+
+[13_pripyat_inventory_box_0002]
+id = 13650
+story_id = 5254
+
+[13_pripyat_inventory_box_0003]
+id = 13651
+story_id = 5255
+
+-------------------------- 5256 - 5399
+
+[5_val_inventory_box]
+id = 22475
+story_id = 5400
+
+[5_val_inventory_box_0000]
+id = 22476
+story_id = 5401
+
+[5_val_inventory_box_0001]
+id = 22477
+story_id = 5402
+
+[5_val_inventory_box_0002]
+id = 22478
+story_id = 5403
+
+[5_val_inventory_box_0003]
+id = 22479
+story_id = 5404
+
+[5_val_inventory_box_0004]
+id = 22480
+story_id = 5405
+
+[5_val_inventory_box_0005]
+id = 22481
+story_id = 5406
+
+[5_val_inventory_box_0006]
+id = 22482
+story_id = 5407
+
+[5_val_inventory_box_0007]
+id = 22483
+story_id = 5408
+
+[5_val_inventory_box_0008]
+id = 22484
+story_id = 5409
+
+[5_val_inventory_box_0009]
+id = 22485
+story_id = 5410
+
+[5_val_inventory_box_0010]
+id = 22486
+story_id = 5411
+
+[5_val_inventory_box_0011]
+id = 22487
+story_id = 5412
+
+[5_val_inventory_box_0012]
+id = 22488
+story_id = 5413
+
+[5_val_inventory_box_0013]
+id = 22489
+story_id = 5414
+
+[5_val_inventory_box_0014]
+id = 22490
+story_id = 5415
+
+[5_val_inventory_box_0015]
+id = 22491
+story_id = 5416
+
+[5_val_inventory_box_0016]
+id = 22492
+story_id = 5417
+
+[5_val_inventory_box_0017]
+id = 22493
+story_id = 5418
+
+[5_val_inventory_box_0018]
+id = 22494
+story_id = 5419
+
+[5_val_inventory_box_0019]
+id = 22495
+story_id = 5420
+
+[5_val_inventory_box_0020]
+id = 22496
+story_id = 5421
+
+[5_val_inventory_box_0021]
+id = 22497
+story_id = 5422
+
+[5_val_inventory_box_0022]
+id = 22498
+story_id = 5423
+
+[5_val_inventory_box_0023]
+id = 22499
+story_id = 5424
+
+[5_val_inventory_box_0024]
+id = 22500
+story_id = 5425
+
+[5_val_inventory_box_0025]
+id = 22501
+story_id = 5426
+
+[5_val_inventory_box_0026]
+id = 22502
+story_id = 5427
+
+[5_val_inventory_box_0027]
+id = 22503
+story_id = 5428
+
+[5_val_inventory_box_0028]
+id = 22504
+story_id = 5429
+
+[5_val_inventory_box_0029]
+id = 22505
+story_id = 5430
+
+[5_val_inventory_box_0030]
+id = 22506
+story_id = 5431
+
+[5_val_inventory_box_0031]
+id = 22507
+story_id = 5432
+
+[6_x18_inventory_box_0002]
+id = 14380
+story_id = 5433
+
+[6_x18_inventory_box_0000]
+id = 14379
+story_id = 5434
+
+[7_bar_secret_0000]
+id = 1315
+story_id = 5435
+
+[7_bar_secret_0001]
+id = 1316
+story_id = 5436
+
+[7_bar_secret_0002]
+id = 1317
+story_id = 5437
+
+[7_bar_secret_0003]
+id = 1318
+story_id = 5438
+
+[7_bar_secret_0004]
+id = 1319
+story_id = 5439
+
+[7_bar_secret_0005]
+id = 1320
+story_id = 5440
+
+[7_bar_secret_0006]
+id = 1321
+story_id = 5441
+
+[7_bar_secret_0007]
+id = 1322
+story_id = 5442
+
+[7_bar_secret_0008]
+id = 1323
+story_id = 5443
+
+[7_bar_secret_0009]
+id = 1324
+story_id = 5444
+
+[7_bar_secret_0010]
+id = 1325
+story_id = 5445
+
+[7_bar_secret_0011]
+id = 1326
+story_id = 5446
+
+[7_bar_secret_0012]
+id = 1327
+story_id = 5447
+
+[7_bar_secret_0013]
+id = 1328
+story_id = 5448
+
+[7_bar_secret_0014]
+id = 1329
+story_id = 5449
+
+[7_bar_secret_0015]
+id = 1330
+story_id = 5450
+
+[7_bar_secret_0016]
+id = 1331
+story_id = 5451
+
+[7_bar_secret_0017]
+id = 1332
+story_id = 5452
+
+[7_bar_secret_0018]
+id = 1333
+story_id = 5453
+
+[7_bar_secret_0019]
+id = 1334
+story_id = 5454
+
+[8_ros_inventory_box]
+id = 20113
+story_id = 5455
+
+[8_ros_inventory_box_0000]
+id = 20114
+story_id = 5456
+
+[8_ros_inventory_box_0002]
+id = 20116
+story_id = 5457
+
+[8_ros_inventory_box_0003]
+id = 20117
+story_id = 5458
+
+[8_ros_inventory_box_0004]
+id = 20118
+story_id = 5459
+
+[8_ros_inventory_box_0005]
+id = 20119
+story_id = 5460
+
+[8_ros_inventory_box_0006]
+id = 20120
+story_id = 5461
+
+[8_ros_inventory_box_0007]
+id = 20121
+story_id = 5462
+
+[8_ros_inventory_box_0008]
+id = 20122
+story_id = 5463
+
+[8_ros_inventory_box_0024]
+id = 20138
+story_id = 5464
+
+[8_ros_inventory_box_0009]
+id = 20123
+story_id = 5465
+
+[8_ros_inventory_box_0010]
+id = 20124
+story_id = 5466
+
+[8_ros_inventory_box_0011]
+id = 20125
+story_id = 5467
+
+[8_ros_inventory_box_0012]
+id = 20126
+story_id = 5468
+
+[8_ros_inventory_box_0013]
+id = 20127
+story_id = 5469
+
+[8_ros_inventory_box_0014]
+id = 20128
+story_id = 5470
+
+[8_ros_inventory_box_0015]
+id = 20129
+story_id = 5471
+
+[8_ros_inventory_box_0016]
+id = 20130
+story_id = 5472
+
+[8_ros_inventory_box_0017]
+id = 20131
+story_id = 5473
+
+[8_ros_inventory_box_0018]
+id = 20132
+story_id = 5474
+
+[8_ros_inventory_box_0019]
+id = 20133
+story_id = 5475
+
+[8_ros_inventory_box_0020]
+id = 20134
+story_id = 5476
+
+[8_ros_inventory_box_0021]
+id = 20135
+story_id = 5477
+
+[8_ros_inventory_box_0022]
+id = 20136
+story_id = 5478
+
+[8_ros_inventory_box_0023]
+id = 20137
+story_id = 5479
+
+[8_ros_inventory_box_0025]
+id = 20139
+story_id = 5480
+
+  5481		  = "atp_inventory_box_1"					;;;;109940				no ids in all.spawn
+
+[42_hr_inventory_box_vdv]
+id = 11956
+story_id = 5482
+
+[42_hr_inventory_box_specnaz]
+id = 12038
+story_id = 5483
+
+[42_hr_inventory_box_baza_nauch]
+id = 12037
+story_id = 5484
+
+[42_hr_inventory_box_1]
+id = 11953
+story_id = 5485
+
+[43_ds_bandit_stoy_inventory_box]
+id = 21244
+story_id = 5486
+
+  5487		  = "inventory_pripw_kinot1_mon"				no ids in all.spawn
+
+---------------------- 5488 - 5999
+
+===============================================6000
+
+[17_exit_to_pripyat_from_st2]
+id = 1762
+story_id = 6000
+
+[14_exit_to_pripyat_from_st1]
+id = 6568
+story_id = 6001
+
+[1_exit_to_darkvalley_from_esc]						note: not in startup
+id = 2711
+story_id = 6002
+
+[32_zaton_to_escape]
+id = 0
+story_id = 6003
+
+  6004		  = "zaton_to_f1"					;;;;;;109940				no ids in all.spawn
+  6005		  = "zaton_to_jup"					;;;;;;109940
+  6006		  = "zaton_to_village"					;;;;;;109940
+  6007		  = "zaton_to_prip"					;;;;;;109940
+  6008		  = "pripyat_to_jup"					;;;;;;109940
+  6009		  = "pripyat_to_zat"					;;;;;;109940
+  6010		  = "eprip_to_kras"					;;;;;;109940
+
+[48_kras_to_eprip]
+id = 11792
+story_id = 6011
+
+  6012		  = "cemetery_to_dcity"					;;;;;;109940				no ids in all.spawn
+  6013		  = "dcity_to_cemetery"					;;;;;;109940
+
+[37_cs_und_to_red_forest]						note: not in startup
+id = 21048
+story_id = 6014
+
+[53_digger_stash_to_tech]
+id = 10361
+story_id = 6015
+
+[53_digger_stash_to_research]
+id = 10362
+story_id = 6016
+
+[54_level_changer_lab_x14_to_sar]						note: not in startup
+id = 21749
+story_id = 6017
+
+[54_level_changer_lab_x14_to_eprip]						note: not in startup
+id = 21777
+story_id = 6018
+
+[37_level_changer_tunnels_to_hosp]
+id = 21125
+story_id = 6019
+
+	6020	= "level_changer_tech_to_digger"				no ids in all.spawn
+	6021	= "level_changer_research_to_tunnels"
+	6022	= "level_changer_hospital_to_tunnels"
+
+-------------------- 6023 - 6999
+
+=============================================7000
+
+[1_amk_zone_mincer_average_0]
+id = 2715
+story_id = 7000
+
+[1_amk_zone_fountain_average_1]
+id = 2716
+story_id = 7001
+
+[1_amk_zone_mincer_average_2]
+id = 2717
+story_id = 7002
+
+[1_amk_zone_mincer_strong_3]
+id = 2718
+story_id = 7003
+
+[1_amk_zone_witches_galantine_4]
+id = 3556
+story_id = 7004
+
+[1_amk_zone_zharka_static_average_5]
+id = 2723
+story_id = 7005
+
+[1_amk_zone_zharka_static_weak_6]
+id = 2724
+story_id = 7006
+
+[1_zone_witches_galantine_7]
+id = 3557
+story_id = 7007
+
+[1_amk_zone_mosquito_bald_average_8]
+id = 2725
+story_id = 7008
+
+[1_amk_zone_mincer_strong_9]
+id = 2726
+story_id = 7009
+
+[1_amk_zone_mincer_average_10]
+id = 2727
+story_id = 7010
+
+[1_amk_zone_ogon_average_11]
+id = 2728
+story_id = 7011
+
+[1_amk_zone_mincer_average_12]
+id = 2729
+story_id = 7012
+
+[1_amk_zone_mincer_weak_13]
+id = 2730
+story_id = 7013
+
+[1_amk_zone_zharka_static_strong_14]
+id = 2731
+story_id = 7014
+
+[1_amk_zone_mosquito_bald_average_15]
+id = 2732
+story_id = 7015
+
+[1_amk_zone_mincer_average_16]
+id = 2733
+story_id = 7016
+
+[1_amk_zone_mosquito_bald_average_17]
+id = 2734
+story_id = 7017
+
+[1_amk_zone_mincer_strong_18]
+id = 2735
+story_id = 7018
+
+[1_amk_zone_mincer_weak_19]
+id = 2736
+story_id = 7019
+
+[1_amk_zone_mosquito_bald_average_20]
+id = 2737
+story_id = 7020
+
+[1_amk_zone_mosquito_bald_average_21]
+id = 2738
+story_id = 7021
+
+[1_amk_zone_mosquito_bald_weak_22]
+id = 2739
+story_id = 7022
+
+[1_amk_zone_mincer_average_23]
+id = 2740
+story_id = 7023
+
+[1_amk_zone_mosquito_bald_average_24]
+id = 2741
+story_id = 7024
+
+[1_amk_zone_mincer_weak_25]
+id = 2742
+story_id = 7025
+
+[1_amk_zone_mincer_strong_26]
+id = 2743
+story_id = 7026
+
+[1_amk_zone_mincer_average_27]								note: not in startup
+id = 2744
+story_id = 7027
+
+[1_amk_zone_mosquito_bald_average_28]
+id = 2745
+story_id = 7028
+
+[1_amk_zone_mosquito_bald_average_29]
+id = 2746
+story_id = 7029
+
+[1_amk_zone_mosquito_bald_weak_30]
+id = 2747
+story_id = 7030
+
+[1_amk_zone_mosquito_bald_average_31]
+id = 2748
+story_id = 7031
+
+[1_amk_zone_mosquito_bald_average_32]
+id = 2749
+story_id = 7032
+
+[1_amk_zone_zharka_static_weak_33]
+id = 2750
+story_id = 7033
+
+[1_amk_zone_zharka_static_average_34]
+id = 2751
+story_id = 7034
+
+[1_amk_zone_mosquito_bald_weak_35]
+id = 2752
+story_id = 7035
+
+[1_amk_zone_mincer_weak_36]
+id = 2753
+story_id = 7036
+
+[1_amk_zone_mincer_weak_37]
+id = 2754
+story_id = 7037
+
+[1_amk_zone_mosquito_bald_weak_38]
+id = 2755
+story_id = 7038
+
+[1_amk_zone_mincer_average_39]
+id = 2756
+story_id = 7039
+
+[2_amk_zone_fountain_average_40]
+id = 2250
+story_id = 7040
+
+[2_amk_zone_mincer_average_41]
+id = 2251
+story_id = 7041
+
+[2_amk_zone_mosquito_bald_average_42]
+id = 2252
+story_id = 7042
+
+[2_amk_zone_mosquito_bald_weak_43]
+id = 2253
+story_id = 7043
+
+[2_amk_zone_mosquito_bald_strong_44]
+id = 2254
+story_id = 7044
+
+[2_amk_zone_mincer_weak_45]
+id = 2255
+story_id = 7045
+
+[2_amk_zone_zharka_static_weak_46]
+id = 2256
+story_id = 7046
+
+[2_amk_zone_mosquito_bald_average_47]
+id = 2257
+story_id = 7047
+
+[2_amk_zone_ogon_average_48]
+id = 2258
+story_id = 7048
+
+[2_amk_zone_mincer_strong_49]
+id = 2259
+story_id = 7049
+
+[2_amk_zone_mosquito_bald_average_50]
+id = 2260
+story_id = 7050
+
+[2_amk_zone_mosquito_bald_average_51]
+id = 2261
+story_id = 7051
+
+[2_amk_zone_mincer_average_52]
+id = 2262
+story_id = 7052
+
+[2_amk_zone_mincer_weak_53]
+id = 2263
+story_id = 7053
+
+[2_amk_zone_mincer_strong_54]
+id = 2264
+story_id = 7054
+
+[2_amk_zone_mincer_weak_55]
+id = 2265
+story_id = 7055
+
+[2_amk_zone_mincer_average_56]
+id = 2266
+story_id = 7056
+
+[2_amk_zone_mincer_average_57]
+id = 2267
+story_id = 7057
+
+[2_amk_zone_mosquito_bald_average_58]
+id = 2268
+story_id = 7058
+
+[2_amk_zone_mincer_strong_59]
+id = 2269
+story_id = 7059
+
+[2_amk_zone_mosquito_bald_average_60]
+id = 2270
+story_id = 7060
+
+[2_amk_zone_mincer_average_61]
+id = 2271
+story_id = 7061
+
+[2_amk_zone_mosquito_bald_average_62]
+id = 2272
+story_id = 7062
+
+[2_amk_zone_mosquito_bald_strong_63]
+id = 2273
+story_id = 7063
+
+[2_amk_zone_mincer_strong_64]							note: not in startup
+id = 2274
+story_id = 7064
+
+[2_amk_zone_mincer_strong_65]
+id = 2275
+story_id = 7065
+
+[2_amk_zone_mosquito_bald_average_66]
+id = 2276
+story_id = 7066
+
+[2_amk_zone_mosquito_bald_average_67]
+id = 2277
+story_id = 7067
+
+[2_amk_zone_mincer_weak_68]
+id = 2278
+story_id = 7068
+
+[2_amk_zone_mosquito_bald_weak_69]
+id = 2279
+story_id = 7069
+
+[2_amk_zone_mincer_average_70]
+id = 2280
+story_id = 7070
+
+[2_amk_zone_mosquito_bald_average_71]
+id = 2281
+story_id = 7071
+
+[2_amk_zone_mosquito_bald_strong_72]
+id = 2282
+story_id = 7072
+
+[2_amk_zone_mincer_strong_73]							note: not in startup
+id = 2283
+story_id = 7073
+
+[2_amk_zone_mosquito_bald_average_74]
+id = 2284
+story_id = 7074
+
+[2_amk_zone_mincer_weak_75]
+id = 2285
+story_id = 7075
+
+[2_amk_zone_mosquito_bald_average_76]
+id = 2286
+story_id = 7076
+
+[2_amk_zone_mincer_weak_77]
+id = 2287
+story_id = 7077
+
+[2_amk_zone_witches_galantine_78]
+id = 2288
+story_id = 7078
+
+[3_amk_zone_fountain_average_79]
+id = 16181
+story_id = 7079
+
+[3_amk_zone_mincer_average_80]
+id = 16182
+story_id = 7080
+
+[3_amk_zone_mincer_strong_81]
+id = 16183
+story_id = 7081
+
+[3_amk_zone_mosquito_bald_average_82]
+id = 16184
+story_id = 7082
+
+[3_amk_zone_ogon_average_83]
+id = 16185
+story_id = 7083
+
+[3_amk_zone_mosquito_bald_average_84]
+id = 16186
+story_id = 7084
+
+[3_amk_zone_mosquito_bald_average_85]
+id = 16187
+story_id = 7085
+
+[3_amk_zone_mosquito_bald_strong_86]
+id = 16188
+story_id = 7086
+
+[3_amk_zone_mincer_strong_87]
+id = 16189
+story_id = 7087
+
+[3_amk_zone_mincer_strong_88]
+id = 16190
+story_id = 7088
+
+[3_amk_zone_mosquito_bald_strong_89]
+id = 16191
+story_id = 7089
+
+[3_amk_zone_mincer_average_90]
+id = 16192
+story_id = 7090
+
+[3_amk_zone_mosquito_bald_weak_91]
+id = 16193
+story_id = 7091
+
+[3_amk_zone_witches_galantine_92]
+id = 16194
+story_id = 7092
+
+[3_amk_zone_mincer_strong_93]
+id = 16195
+story_id = 7093
+
+[3_amk_zone_mincer_average_94]
+id = 16196
+story_id = 7094
+
+[3_amk_zone_mincer_average_95]
+id = 16197
+story_id = 7095
+
+[3_amk_zone_mosquito_bald_average_96]
+id = 16198
+story_id = 7096
+
+[3_amk_zone_mosquito_bald_strong_97]
+id = 16199
+story_id = 7097
+
+[3_amk_zone_mosquito_bald_weak_98]
+id = 16200
+story_id = 7098
+
+[3_amk_zone_mosquito_bald_strong_99]
+id = 16201
+story_id = 7099
+
+[3_amk_zone_mosquito_bald_average_100]
+id = 16202
+story_id = 7100
+
+[3_amk_zone_mosquito_bald_average_101]
+id = 16203
+story_id = 7101
+
+[3_amk_zone_mosquito_bald_average_102]
+id = 16204
+story_id = 7102
+
+[3_amk_zone_mosquito_bald_average_103]
+id = 16205
+story_id = 7103
+
+[3_amk_zone_mosquito_bald_average_104]
+id = 16206
+story_id = 7104
+
+[3_amk_zone_mosquito_bald_average_105]
+id = 16207
+story_id = 7105
+
+[3_amk_zone_mincer_strong_106]
+id = 16208
+story_id = 7106
+
+[3_amk_zone_mincer_average_107]
+id = 16209
+story_id = 7107
+
+[3_amk_zone_witches_galantine_108]
+id = 16210
+story_id = 7108
+
+[3_amk_zone_buzz_average_109]
+id = 16211
+story_id = 7109
+
+[3_amk_zone_zharka_static_weak_110]
+id = 16212
+story_id = 7110
+
+[3_amk_zone_zharka_static_average_111]
+id = 16213
+story_id = 7111
+
+[3_amk_zone_zharka_static_strong_112]
+id = 16214
+story_id = 7112
+
+[3_amk_zone_mincer_average_113]
+id = 16215
+story_id = 7113
+
+[3_amk_zone_mosquito_bald_average_114]
+id = 16216
+story_id = 7114
+
+[3_amk_zone_mosquito_bald_weak_115]
+id = 16217
+story_id = 7115
+
+[3_amk_zone_witches_galantine_116]
+id = 16218
+story_id = 7116
+
+[3_amk_zone_witches_galantine_117]
+id = 16219
+story_id = 7117
+
+[3_amk_zone_witches_galantine_118]
+id = 16220
+story_id = 7118
+
+[5_amk_zone_mosquito_bald_average_119]
+id = 21896
+story_id = 7119
+
+[5_amk_zone_mincer_weak_120]
+id = 21897
+story_id = 7120
+
+[5_amk_zone_witches_galantine_121]
+id = 21898
+story_id = 7121
+
+[5_amk_zone_mincer_average_122]
+id = 21899
+story_id = 7122
+
+[5_amk_zone_ogon_average_123]
+id = 21900
+story_id = 7123
+
+[5_amk_zone_witches_galantine_124]
+id = 21901
+story_id = 7124
+
+[5_amk_zone_witches_galantine_125]
+id = 21902
+story_id = 7125
+
+[5_amk_zone_witches_galantine_126]
+id = 21903
+story_id = 7126
+
+[5_amk_zone_buzz_average_127]
+id = 21904
+story_id = 7127
+
+[5_amk_zone_buzz_average_128]
+id = 21905
+story_id = 7128
+
+[5_amk_zone_buzz_average_129]
+id = 21906
+story_id = 7129
+
+[5_amk_zone_mincer_weak_130]
+id = 21907
+story_id = 7130
+
+[5_amk_zone_witches_galantine_131]
+id = 21908
+story_id = 7131
+
+[5_amk_zone_witches_galantine_132]
+id = 21909
+story_id = 7132
+
+[5_amk_zone_zharka_static_weak_133]
+id = 21910
+story_id = 7133
+
+[5_amk_zone_zharka_static_weak_134]
+id = 21911
+story_id = 7134
+
+[5_amk_zone_zharka_static_weak_135]
+id = 21912
+story_id = 7135
+
+[5_amk_zone_zharka_static_average_136]
+id = 21913
+story_id = 7136
+
+[5_amk_zone_zharka_static_average_137]
+id = 21914
+story_id = 7137
+
+[5_amk_zone_buzz_strong_138]
+id = 21915
+story_id = 7138
+
+[5_amk_zone_buzz_average_139]
+id = 21916
+story_id = 7139
+
+[5_amk_zone_buzz_average_140]
+id = 21917
+story_id = 7140
+
+[5_amk_zone_zharka_static_weak_141]
+id = 21918
+story_id = 7141
+
+[5_amk_zone_mincer_strong_142]
+id = 21919
+story_id = 7142
+
+[5_amk_zone_witches_galantine_143]
+id = 21920
+story_id = 7143
+
+[5_amk_zone_mincer_average_144]
+id = 21921
+story_id = 7144
+
+[5_amk_zone_witches_galantine_145]
+id = 21922
+story_id = 7145
+
+[5_amk_zone_witches_galantine_146]
+id = 21923
+story_id = 7146
+
+[5_amk_zone_mincer_strong_147]
+id = 21924
+story_id = 7147
+
+[5_amk_zone_mincer_average_148]
+id = 21925
+story_id = 7148
+
+[5_amk_zone_mincer_strong_149]
+id = 21926
+story_id = 7149
+
+[5_amk_zone_mosquito_bald_strong_150]
+id = 21927
+story_id = 7150
+
+[5_amk_zone_mosquito_bald_average_151]
+id = 21928
+story_id = 7151
+
+[5_amk_zone_mosquito_bald_average_152]
+id = 21929
+story_id = 7152
+
+[5_amk_zone_witches_galantine_153]
+id = 21930
+story_id = 7153
+
+[5_amk_zone_witches_galantine_154]
+id = 21931
+story_id = 7154
+
+[5_amk_zone_witches_galantine_155]
+id = 21932
+story_id = 7155
+
+[5_amk_zone_buzz_average_156]
+id = 21933
+story_id = 7156
+
+[5_amk_zone_buzz_average_157]
+id = 21934
+story_id = 7157
+
+[7_amk_zone_fountain_average_158]
+id = 954
+story_id = 7158
+
+[7_amk_zone_mosquito_bald_strong_159]
+id = 955
+story_id = 7159
+
+[7_amk_zone_mincer_average_160]
+id = 956
+story_id = 7160
+
+[7_amk_zone_buzz_strong_161]
+id = 957
+story_id = 7161
+
+[7_amk_zone_ogon_average_162]
+id = 958
+story_id = 7162
+
+[7_amk_zone_mincer_strong_163]
+id = 959
+story_id = 7163
+
+[7_amk_zone_mosquito_bald_average_164]
+id = 960
+story_id = 7164
+
+[7_amk_zone_mincer_weak_165]
+id = 961
+story_id = 7165
+
+[8_amk_zone_mosquito_bald_weak_166]
+id = 19724
+story_id = 7166
+
+[8_amk_zone_mosquito_bald_average_167]
+id = 19725
+story_id = 7167
+
+[8_amk_zone_zharka_static_weak_168]
+id = 19726
+story_id = 7168
+
+[8_amk_zone_zharka_static_average_169]
+id = 19727
+story_id = 7169
+
+[8_amk_zone_fountain_average_170]
+id = 19728
+story_id = 7170
+
+[8_amk_zone_witches_galantine_171]
+id = 19729
+story_id = 7171
+
+[8_amk_zone_mosquito_bald_average_172]
+id = 19730
+story_id = 7172
+
+[8_amk_zone_mincer_average_173]
+id = 19731
+story_id = 7173
+
+[8_amk_zone_mosquito_bald_strong_174]
+id = 19732
+story_id = 7174
+
+[8_amk_zone_mosquito_bald_weak_175]
+id = 19733
+story_id = 7175
+
+[8_amk_zone_witches_galantine_176]
+id = 19734
+story_id = 7176
+
+[8_amk_zone_mincer_weak_177]
+id = 19735
+story_id = 7177
+
+[8_amk_zone_mincer_strong_178]
+id = 19736
+story_id = 7178
+
+[8_amk_zone_ogon_average_179]
+id = 19737
+story_id = 7179
+
+[8_amk_zone_witches_galantine_180]
+id = 19738
+story_id = 7180
+
+[8_amk_zone_witches_galantine_181]
+id = 19739
+story_id = 7181
+
+[8_amk_zone_witches_galantine_182]
+id = 19740
+story_id = 7182
+
+[8_amk_zone_zharka_static_average_183]
+id = 19741
+story_id = 7183
+
+[8_amk_zone_zharka_static_strong_184]
+id = 19742
+story_id = 7184
+
+[8_amk_zone_zharka_static_strong_185]
+id = 19743
+story_id = 7185
+
+[8_amk_zone_mincer_weak_186]
+id = 19744
+story_id = 7186
+
+[8_amk_zone_witches_galantine_187]
+id = 19745
+story_id = 7187
+
+[8_amk_zone_witches_galantine_188]
+id = 19746
+story_id = 7188
+
+[8_amk_zone_mincer_strong_189]
+id = 19747
+story_id = 7189
+
+[8_amk_zone_witches_galantine_190]
+id = 19748
+story_id = 7190
+
+[8_amk_zone_mosquito_bald_average_191]
+id = 19749
+story_id = 7191
+
+[8_amk_zone_mincer_average_192]
+id = 19750
+story_id = 7192
+
+[8_amk_zone_mincer_strong_193]
+id = 19751
+story_id = 7193
+
+[8_amk_zone_mincer_average_194]
+id = 19752
+story_id = 7194
+
+[8_amk_zone_mosquito_bald_average_195]
+id = 19753
+story_id = 7195
+
+[8_amk_zone_witches_galantine_196]
+id = 19754
+story_id = 7196
+
+[9_amk_zone_witches_galantine_197]
+id = 17008
+story_id = 7197
+
+[9_amk_zone_mincer_average_198]
+id = 17009
+story_id = 7198
+
+[9_amk_zone_fountain_average_199]
+id = 17010
+story_id = 7199
+
+[9_amk_zone_mincer_weak_200]
+id = 17011
+story_id = 7200
+
+[9_amk_zone_ogon_average_201]
+id = 17012
+story_id = 7201
+
+[9_amk_zone_witches_galantine_202]
+id = 17013
+story_id = 7202
+
+[9_amk_zone_witches_galantine_203]
+id = 17014
+story_id = 7203
+
+[9_amk_zone_mosquito_bald_strong_204]
+id = 17015
+story_id = 7204
+
+[9_amk_zone_mosquito_bald_average_205]
+id = 17016
+story_id = 7205
+
+[9_amk_zone_mincer_average_206]
+id = 17017
+story_id = 7206
+
+[9_amk_zone_mincer_weak_207]
+id = 17018
+story_id = 7207
+
+[9_amk_zone_mosquito_bald_strong_208]
+id = 17019
+story_id = 7208
+
+[9_amk_zone_mosquito_bald_average_209]
+id = 17020
+story_id = 7209
+
+[9_amk_zone_witches_galantine_210]
+id = 17021
+story_id = 7210
+
+[9_amk_zone_witches_galantine_211]
+id = 17022
+story_id = 7211
+
+[9_amk_zone_witches_galantine_212]
+id = 17023
+story_id = 7212
+
+[9_amk_zone_mosquito_bald_average_213]
+id = 17024
+story_id = 7213
+
+[9_amk_zone_mincer_strong_214]
+id = 17025
+story_id = 7214
+
+[9_amk_zone_mosquito_bald_average_215]
+id = 17026
+story_id = 7215
+
+[9_amk_zone_mosquito_bald_average_216]
+id = 17027
+story_id = 7216
+
+[9_amk_zone_mosquito_bald_strong_217]
+id = 17028
+story_id = 7217
+
+[9_amk_zone_mincer_average_218]
+id = 17029
+story_id = 7218
+
+[9_amk_zone_mosquito_bald_average_219]
+id = 17030
+story_id = 7219
+
+[9_amk_zone_buzz_average_220]
+id = 17031
+story_id = 7220
+
+[9_amk_zone_mosquito_bald_average_221]
+id = 17032
+story_id = 7221
+
+[9_amk_zone_mosquito_bald_weak_222]
+id = 17033
+story_id = 7222
+
+[9_amk_zone_mosquito_bald_weak_223]
+id = 17034
+story_id = 7223
+
+[9_amk_zone_mosquito_bald_average_224]
+id = 17035
+story_id = 7224
+
+[9_amk_zone_mosquito_bald_weak_225]
+id = 17036
+story_id = 7225
+
+[9_amk_zone_witches_galantine_226]
+id = 17037
+story_id = 7226
+
+[9_amk_zone_witches_galantine_227]
+id = 17038
+story_id = 7227
+
+[9_amk_zone_mosquito_bald_weak_228]
+id = 17039
+story_id = 7228
+
+[9_amk_zone_mosquito_bald_weak_229]
+id = 17040
+story_id = 7229
+
+[9_amk_zone_mosquito_bald_weak_230]
+id = 17041
+story_id = 7230
+
+[9_amk_zone_mosquito_bald_weak_231]
+id = 17042
+story_id = 7231
+
+[9_amk_zone_mosquito_bald_average_232]
+id = 17043
+story_id = 7232
+
+[9_amk_zone_mincer_weak_233]
+id = 17044
+story_id = 7233
+
+[9_amk_zone_mincer_average_234]
+id = 17045
+story_id = 7234
+
+[9_amk_zone_mosquito_bald_weak_235]
+id = 17046
+story_id = 7235
+
+[9_amk_zone_mincer_weak_236]
+id = 17047
+story_id = 7236
+
+[9_amk_zone_mosquito_bald_weak_237]
+id = 17048
+story_id = 7237
+
+[9_amk_zone_mincer_average_238]
+id = 17049
+story_id = 7238
+
+[9_amk_zone_buzz_strong_239]
+id = 17050
+story_id = 7239
+
+[9_amk_zone_buzz_average_240]
+id = 17051
+story_id = 7240
+
+[9_amk_zone_buzz_average_241]
+id = 17052
+story_id = 7241
+
+[9_amk_zone_mincer_weak_242]
+id = 17053
+story_id = 7242
+
+[9_amk_zone_mosquito_bald_average_243]
+id = 17054
+story_id = 7243
+
+[9_amk_zone_mincer_average_244]
+id = 17055
+story_id = 7244
+
+[9_amk_zone_mosquito_bald_weak_245]
+id = 17056
+story_id = 7245
+
+[9_amk_zone_mincer_average_246]
+id = 17057
+story_id = 7246
+
+[9_amk_zone_witches_galantine_247]
+id = 17058
+story_id = 7247
+
+[9_amk_zone_witches_galantine_248]
+id = 17059
+story_id = 7248
+
+[9_amk_zone_witches_galantine_249]
+id = 17060
+story_id = 7249
+
+[9_amk_zone_mincer_strong_250]
+id = 17061
+story_id = 7250
+
+[9_amk_zone_mosquito_bald_average_251]
+id = 17062
+story_id = 7251
+
+[9_amk_zone_mosquito_bald_weak_252]
+id = 17063
+story_id = 7252
+
+[11_amk_zone_fountain_average_253]
+id = 9525
+story_id = 7253
+
+[11_amk_zone_witches_galantine_254]
+id = 9526
+story_id = 7254
+
+[11_amk_zone_mosquito_bald_weak_255]
+id = 9527
+story_id = 7255
+
+[11_amk_zone_mincer_average_256]
+id = 9528
+story_id = 7256
+
+[11_amk_zone_mosquito_bald_weak_257]
+id = 9529
+story_id = 7257
+
+[11_amk_zone_mosquito_bald_average_258]
+id = 9530
+story_id = 7258
+
+[11_amk_zone_witches_galantine_259]
+id = 9531
+story_id = 7259
+
+[11_amk_zone_mosquito_bald_average_260]
+id = 9532
+story_id = 7260
+
+[11_amk_zone_ogon_average_261]
+id = 9533
+story_id = 7261
+
+[11_amk_zone_mincer_average_262]
+id = 9534
+story_id = 7262
+
+[11_amk_zone_mincer_weak_263]
+id = 9535
+story_id = 7263
+
+[11_amk_zone_mosquito_bald_weak_264]
+id = 9536
+story_id = 7264
+
+[11_amk_zone_mosquito_bald_average_265]
+id = 9537
+story_id = 7265
+
+[11_amk_zone_witches_galantine_266]
+id = 9538
+story_id = 7266
+
+[11_amk_zone_mincer_average_267]
+id = 9539
+story_id = 7267
+
+[11_amk_zone_mosquito_bald_weak_268]
+id = 9540
+story_id = 7268
+
+[11_amk_zone_mincer_weak_269]
+id = 9541
+story_id = 7269
+
+[11_amk_zone_mincer_average_270]
+id = 9542
+story_id = 7270
+
+[11_amk_zone_witches_galantine_271]
+id = 9543
+story_id = 7271
+
+[11_amk_zone_mosquito_bald_weak_272]
+id = 9544
+story_id = 7272
+
+[11_amk_zone_mosquito_bald_average_273]
+id = 9545
+story_id = 7273
+
+[11_amk_zone_zharka_static_weak_274]
+id = 9546
+story_id = 7274
+
+[11_amk_zone_zharka_static_average_275]
+id = 9547
+story_id = 7275
+
+[11_amk_zone_zharka_static_strong_276]
+id = 9548
+story_id = 7276
+
+[11_amk_zone_mosquito_bald_weak_277]
+id = 9549
+story_id = 7277
+
+[11_amk_zone_buzz_average_278]
+id = 9550
+story_id = 7278
+
+[11_amk_zone_buzz_279]
+id = 9551
+story_id = 7279
+
+[11_amk_zone_buzz_280]
+id = 9552
+story_id = 7280
+
+[11_amk_zone_mosquito_bald_weak_281]
+id = 9553
+story_id = 7281
+
+[11_amk_zone_zharka_static_weak_282]
+id = 9554
+story_id = 7282
+
+[11_amk_zone_mincer_average_283]
+id = 9555
+story_id = 7283
+
+[11_amk_zone_zharka_static_average_284]
+id = 9556
+story_id = 7284
+
+[11_amk_zone_zharka_static_strong_285]
+id = 9557
+story_id = 7285
+
+[11_amk_zone_zharka_static_weak_286]
+id = 9558
+story_id = 7286
+
+[11_amk_zone_mosquito_bald_weak_287]
+id = 9559
+story_id = 7287
+
+[11_amk_zone_mincer_average_288]
+id = 9560
+story_id = 7288
+
+[11_amk_zone_mincer_weak_289]
+id = 9561
+story_id = 7289
+
+[11_amk_zone_mosquito_bald_average_290]
+id = 9562
+story_id = 7290
+
+[11_amk_zone_mincer_strong_291]
+id = 9563
+story_id = 7291
+
+[11_amk_zone_mincer_average_292]
+id = 9564
+story_id = 7292
+
+[12_amk_zone_fountain_average_293]
+id = 17765
+story_id = 7293
+
+[12_amk_zone_mosquito_bald_average_294]
+id = 17766
+story_id = 7294
+
+[12_amk_zone_mosquito_bald_strong_295]
+id = 17767
+story_id = 7295
+
+[12_amk_zone_mincer_average_296]
+id = 17768
+story_id = 7296
+
+[12_amk_zone_mosquito_bald_average_297]
+id = 17769
+story_id = 7297
+
+[12_amk_zone_witches_galantine_298]
+id = 17770
+story_id = 7298
+
+[12_amk_zone_ogon_average_299]
+id = 17771
+story_id = 7299
+
+[12_amk_zone_mincer_average_300]
+id = 17772
+story_id = 7300
+
+[12_amk_zone_witches_galantine_301]
+id = 17773
+story_id = 7301
+
+[12_amk_zone_mosquito_bald_average_302]
+id = 17774
+story_id = 7302
+
+[12_amk_zone_mincer_average_303]
+id = 17775
+story_id = 7303
+
+[12_amk_zone_mincer_average_304]
+id = 17776
+story_id = 7304
+
+[12_amk_zone_mincer_strong_305]
+id = 17777
+story_id = 7305
+
+[12_amk_zone_witches_galantine_306]
+id = 17778
+story_id = 7306
+
+[12_amk_zone_mosquito_bald_strong_307]
+id = 17779
+story_id = 7307
+
+[12_amk_zone_mincer_average_308]
+id = 17780
+story_id = 7308
+
+[12_amk_zone_witches_galantine_309]
+id = 17781
+story_id = 7309
+
+[12_amk_zone_mincer_average_310]
+id = 17782
+story_id = 7310
+
+[12_amk_zone_mosquito_bald_strong_311]
+id = 17783
+story_id = 7311
+
+[12_amk_zone_witches_galantine_312]
+id = 17784
+story_id = 7312
+
+[12_amk_zone_mosquito_bald_strong_313]
+id = 17785
+story_id = 7313
+
+[12_amk_zone_mincer_average_314]
+id = 17786
+story_id = 7314
+
+[12_amk_zone_mincer_average_315]
+id = 17787
+story_id = 7315
+
+[12_amk_zone_mosquito_bald_average_316]
+id = 17788
+story_id = 7316
+
+[12_amk_zone_witches_galantine_317]
+id = 17789
+story_id = 7317
+
+[12_amk_zone_mincer_average_318]
+id = 17790
+story_id = 7318
+
+[12_amk_zone_mincer_strong_319]
+id = 17791
+story_id = 7319
+
+[12_amk_zone_mosquito_bald_average_320]
+id = 17792
+story_id = 7320
+
+[12_amk_zone_witches_galantine_321]
+id = 17793
+story_id = 7321
+
+[12_amk_zone_witches_galantine_322]
+id = 17794
+story_id = 7322
+
+[12_amk_zone_witches_galantine_323]
+id = 17795
+story_id = 7323
+
+[12_amk_zone_witches_galantine_324]
+id = 17796
+story_id = 7324
+
+[12_amk_zone_mosquito_bald_average_325]
+id = 17797
+story_id = 7325
+
+[12_amk_zone_mincer_average_326]
+id = 17798
+story_id = 7326
+
+[12_amk_zone_mosquito_bald_average_327]
+id = 17799
+story_id = 7327
+
+[12_amk_zone_mincer_strong_328]
+id = 17800
+story_id = 7328
+
+[12_amk_zone_witches_galantine_329]
+id = 17801
+story_id = 7329
+
+[12_amk_zone_witches_galantine_330]
+id = 17802
+story_id = 7330
+
+[12_amk_zone_witches_galantine_331]
+id = 17803
+story_id = 7331
+
+[12_amk_zone_mosquito_bald_average_332]
+id = 17804
+story_id = 7332
+
+[12_amk_zone_witches_galantine_333]
+id = 17805
+story_id = 7333
+
+[12_amk_zone_witches_galantine_334]
+id = 17806
+story_id = 7334
+
+[12_amk_zone_witches_galantine_335]
+id = 17807
+story_id = 7335
+
+[12_amk_zone_mosquito_bald_average_336]
+id = 17808
+story_id = 7336
+
+[12_amk_zone_mincer_average_337]
+id = 17809
+story_id = 7337
+
+[12_amk_zone_mincer_average_338]
+id = 17810
+story_id = 7338
+
+[12_amk_zone_mosquito_bald_strong_339]
+id = 17811
+story_id = 7339
+
+[12_amk_zone_witches_galantine_340]
+id = 17812
+story_id = 7340
+
+[12_amk_zone_zharka_static_average_341]
+id = 17813
+story_id = 7341
+
+[12_amk_zone_zharka_static_strong_342]
+id = 17814
+story_id = 7342
+
+[12_amk_zone_witches_galantine_343]
+id = 17815
+story_id = 7343
+
+[12_amk_zone_mincer_strong_344]
+id = 17816
+story_id = 7344
+
+[12_amk_zone_mosquito_bald_strong_345]
+id = 17817
+story_id = 7345
+
+[12_amk_zone_witches_galantine_346]
+id = 17818
+story_id = 7346
+
+[12_amk_zone_witches_galantine_347]
+id = 17819
+story_id = 7347
+
+[12_amk_zone_witches_galantine_348]
+id = 17820
+story_id = 7348
+
+[12_amk_zone_witches_galantine_349]
+id = 17821
+story_id = 7349
+
+[12_amk_zone_witches_galantine_350]
+id = 17822
+story_id = 7350
+
+[13_amk_zone_fountain_average_351]
+id = 13063
+story_id = 7351
+
+[13_amk_zone_mosquito_bald_strong_352]
+id = 13064
+story_id = 7352
+
+[13_amk_zone_ogon_average_353]
+id = 13065
+story_id = 7353
+
+[13_amk_zone_mincer_strong_354]
+id = 13066
+story_id = 7354
+
+[13_amk_zone_buzz_strong_355]
+id = 13067
+story_id = 7355
+
+[13_amk_zone_witches_galantine_356]
+id = 13068
+story_id = 7356
+
+[13_amk_zone_witches_galantine_357]
+id = 13069
+story_id = 7357
+
+[13_amk_zone_mosquito_bald_strong_358]
+id = 13070
+story_id = 7358
+
+[13_amk_zone_mosquito_bald_strong_359]
+id = 13071
+story_id = 7359
+
+[13_amk_zone_mincer_strong_360]
+id = 13072
+story_id = 7360
+
+[13_amk_zone_mincer_strong_361]
+id = 13073
+story_id = 7361
+
+[13_amk_zone_mincer_strong_362]
+id = 13074
+story_id = 7362
+
+[13_amk_zone_mincer_strong_363]
+id = 13075
+story_id = 7363
+
+[13_amk_zone_witches_galantine_364]
+id = 13076
+story_id = 7364
+
+[13_amk_zone_witches_galantine_365]
+id = 13077
+story_id = 7365
+
+[13_amk_zone_witches_galantine_366]
+id = 13078
+story_id = 7366
+
+[13_amk_zone_witches_galantine_367]
+id = 13079
+story_id = 7367
+
+[13_amk_zone_buzz_strong_368]
+id = 13080
+story_id = 7368
+
+[13_amk_zone_buzz_strong_369]
+id = 13081
+story_id = 7369
+
+[13_amk_zone_buzz_strong_370]
+id = 13082
+story_id = 7370
+
+[13_amk_zone_buzz_strong_371]
+id = 13083
+story_id = 7371
+
+[13_amk_zone_witches_galantine_372]
+id = 13084
+story_id = 7372
+
+[13_amk_zone_mincer_strong_373]
+id = 13085
+story_id = 7373
+
+[13_amk_zone_mincer_strong_374]
+id = 13086
+story_id = 7374
+
+[13_amk_zone_witches_galantine_375]
+id = 13087
+story_id = 7375
+
+[13_amk_zone_mosquito_bald_strong_376]
+id = 13088
+story_id = 7376
+
+[13_amk_zone_mincer_strong_377]
+id = 13089
+story_id = 7377
+
+[13_amk_zone_mincer_strong_378]
+id = 13090
+story_id = 7378
+
+[13_amk_zone_witches_galantine_379]
+id = 13091
+story_id = 7379
+
+[13_amk_zone_witches_galantine_380]
+id = 13092
+story_id = 7380
+
+[13_amk_zone_witches_galantine_381]
+id = 13093
+story_id = 7381
+
+[13_amk_zone_witches_galantine_382]
+id = 13094
+story_id = 7382
+
+[13_amk_zone_mosquito_bald_strong_383]
+id = 13095
+story_id = 7383
+
+[13_amk_zone_witches_galantine_384]
+id = 13096
+story_id = 7384
+
+[13_amk_zone_witches_galantine_385]
+id = 13097
+story_id = 7385
+
+[13_amk_zone_mincer_strong_386]
+id = 13098
+story_id = 7386
+
+[13_amk_zone_mosquito_bald_strong_387]
+id = 13099
+story_id = 7387
+
+[13_amk_zone_witches_galantine_388]
+id = 13100
+story_id = 7388
+
+[13_amk_zone_witches_galantine_389]
+id = 13101
+story_id = 7389
+
+[13_amk_zone_witches_galantine_390]
+id = 13102
+story_id = 7390
+
+[13_amk_zone_witches_galantine_391]
+id = 13103
+story_id = 7391
+
+[13_amk_zone_witches_galantine_392]
+id = 13104
+story_id = 7392
+
+[13_amk_zone_witches_galantine_393]
+id = 13105
+story_id = 7393
+
+[13_amk_zone_mosquito_bald_strong_394]
+id = 13106
+story_id = 7394
+
+[13_amk_zone_mosquito_bald_average_395]
+id = 13107
+story_id = 7395
+
+[13_amk_zone_mincer_average_396]
+id = 13108
+story_id = 7396
+
+[13_amk_zone_mincer_average_397]
+id = 13109
+story_id = 7397
+
+[14_amk_zone_fountain_average_398]
+id = 6569
+story_id = 7398
+
+[14_amk_zone_witches_galantine_399]
+id = 6570
+story_id = 7399
+
+[14_amk_zone_mosquito_bald_average_400]
+id = 6571
+story_id = 7400
+
+[14_amk_zone_mincer_average_401]
+id = 6572
+story_id = 7401
+
+[14_amk_zone_ogon_average_402]
+id = 6573
+story_id = 7402
+
+[14_amk_zone_witches_galantine_403]
+id = 6574
+story_id = 7403
+
+[14_amk_zone_witches_galantine_404]
+id = 6575
+story_id = 7404
+
+[14_amk_zone_mincer_average_405]
+id = 6576
+story_id = 7405
+
+[14_amk_zone_witches_galantine_406]
+id = 6577
+story_id = 7406
+
+[14_amk_zone_witches_galantine_407]
+id = 6578
+story_id = 7407
+
+[14_amk_zone_witches_galantine_408]
+id = 6579
+story_id = 7408
+
+--------------------------7409 - 7999
+
+============================================8000
+
+---------------------------- 8000 - 8954
+
+  8955          = "arhara_tele"				no ids in all.spawn
+
+---------------------------- 8956 - 8999
+
+============================================9000
+
+--------------------------- 9000 - 9001
+
+ ;9002        = "exit_to_peshera_from_agroprom"				no ids in all.spawn
+
+--------------------------- 9003 - 9059
+
+[5_krysyk_inventory_box1]
+id = 22580
+story_id = 9060
+
+[3_krysyk_inventory_box2]
+id = 16598
+story_id = 9061
+
+[11_borov_inventory_box]
+id = 10360
+story_id = 9062
+
+----------------- 9063 - 9099
+
+[3_exit_to_escape_100]
+id = 16178
+story_id = 9100
+
+[1_exit_to_agroprom_101]
+id = 2712
+story_id = 9101
+
+[3_exit_to_yantar_102]
+id = 16179
+story_id = 9102
+
+[9_exit_to_agroprom_103]
+id = 17006
+story_id = 9103
+
+[8_exit_to_mil_104]
+id = 19723
+story_id = 9104
+
+[11_exit_to_rostok_105]
+id = 9515
+story_id = 9105
+
+[9_exit_to_radar_106]
+id = 17007
+story_id = 9106
+
+[12_exit_to_darkvalley_107]
+id = 17758
+story_id = 9107
+
+[12_exit_to_yantar_108]
+id = 17757
+story_id = 9108
+
+[5_exit_to_radar_109]
+id = 21892
+story_id = 9109
+
+[5_exit_to_mil_110]
+id = 21893
+story_id = 9110
+
+[11_exit_to_darkvalley_111]
+id = 9516
+story_id = 9111
+
+-------------------- 9112 - 9114
+
+[3_agr_inventory_box_sak]
+id = 16180
+story_id = 9115
+
+---------------------------- 9116 - 9119
+
+[1_teleport_120]
+id = 3531
+story_id = 9120
+
+--------------------------- 9121 - 9500
+
+[12_Sak]
+id = 17759
+story_id = 9501
+
+[13_doktor]
+id = 13663
+story_id = 9502
+
+[1_doktor1]
+id = 3532
+story_id = 9503
+
+[7_dolgovazyi]
+id = 1348
+story_id = 9504
+
+[[7_bar_docent]
+id = 1353
+story_id = 9505
+
+[3_sak_military_stalker]
+id = 16597
+story_id = 9506
+
+[5_val_bandit_trader]
+id = 22578
+story_id = 9507
+
+[1_val_bandit_krisyk]
+id = 3534
+story_id = 9508
+
+[2_amk_artem_kulinar]
+id = 2692
+story_id = 9509
+
+[2_amk_vitek_voron]
+id = 2693
+story_id = 9510
+
+--------------- 9511 - 9599
+
+==========================================9600
+
+------------------ 9600 - 9607
+
+[8_bar_rostok_james]
+id = 19722
+story_id = 9608
+
+--------------------- 9609
+
+[18_ecolog_wound_bunker]
+id = 3670
+story_id = 9610
+
+[8_rost_siv]
+id = 19713
+story_id = 9611
+
+[8_naem_zahar1]
+id = 19716
+story_id = 9612
+
+[7_stalker_green_zahar]
+id = 914
+story_id = 9613
+
+--------------------- 9614
+
+[18_radar_monolit_dead]
+id = 3686
+story_id = 9615
+
+[5_dark_bland]
+id = 21837
+story_id = 9616
+
+[2_tamaz_garbage]
+id = 2240
+story_id = 9617
+
+--------------------- 9618
+
+[7_rostok_stalker]
+id = 952
+story_id = 9619
+
+------------------- 9620 - 9621
+
+  ;9621         = "mil_bolt"				no ids in all.spawn
+
+[30_marsh_dan]
+id = 4203
+story_id = 9622
+
+  9623         = "mil_trader_gavr"				no ids in all.spawn
+
+----------------- 9624 - 9629
+
+  9630         = "yakut_agro"				no ids in all.spawn
+  
+[3_military_ecolog_agro1]
+id = 16160
+story_id = 9631
+
+------------------- 9632 - 9649
+
+[11_yakut_agro2]
+id = 9514
+story_id = 9650
+
+------------------------ 9651
+
+[12_new_prizrak]
+id = 17753
+story_id = 9652
+
+[30_stalker_marsh_sysh]
+id = 3998
+story_id = 9653
+
+--------------------- 9654 - 9659
+
+  9660         = "stalker_agro_und"				no ids in all.spawn
+
+[12_yakut_treasure_box]
+id = 18480
+story_id = 9661
+
+[3_prizrak_treasure_box]
+id = 16153
+story_id = 9662
+
+[18_sysh_treasure_box]
+id = 3685
+story_id = 9663
+
+--------------------- 9664 - 9689
+
+  9690         = "sniper_kosoi"				no ids in all.spawn
+  
+--------------------- 9691 - 9711
+
+  9712         = "mil_naemnik_zondr"				no ids in all.spawn
+
+--------------------- 9613 - 9725
+
+  9726         = "esc_tirex"				no ids in all.spawn
+
+--------------------- 9727 - 9730
+
+  9731         = "esc_zver"				no ids in all.spawn
+  
+--------------------- 9732 - 9799
+
+  9800         = "esc_kostya"				no ids in all.spawn
+  9801         = "lc_to_x10"
+  9802         = "lc_to_svalka"
+  9803         = "lc_to_as"
+  9804         = "lc_to_pripyat"
+  9805         = "lc_to_x18"
+  9806         = "lc_to_radar"
+
+[6_zvuk_physic_object_0001]
+id = 13929
+story_id = 9807
+
+[12_zvuk_physic_object_0002]
+id = 17750
+story_id = 9808
+
+[18_zvuk_physic_object_0003]
+id = 3665
+story_id = 9809
+
+  9810         = "lc_to_sarcofag"				no ids in all.spawn
+  9811         = "lc_to_radar2"
+  9812         = "lc_to_radar3"
+  9813         = "lc_to_radar4"
+  9814         = "lc_to_as2"
+  9815         = "lc_to_as3"
+  9816         = "lc_to_as4"
+
+[12_zvuk_physic_object_0004]
+id = 17752
+story_id = 9817
+
+[13_zvuk_physic_object_0005]
+id = 13061
+story_id = 9818
+
+[13_zvuk_physic_object_0006]
+id = 13062
+story_id = 9819
+
+------------------------ 9820 - 9898
+
+  9820         = "lc_to_pripyat2"				no ids in all.spawn
+  9821         = "lc_to_bar"
+  9822         = "lc_to_svalka2"
+  9823         = "lc_to_svalka3"
+  9824         = "lc_to_td"
+  9825         = "lc_to_td2"
+  9826         = "lc_to_kordon"
+  9827         = "lc_to_kordon2"
+  9828         = "lc_to_agroprom"
+  9829         = "lc_to_agroprom2"
+  9830         = "lc_to_agroprom3"
+  9831         = "lc_to_yantar1"
+  9832         = "lc_to_yantar2"
+  9833         = "lc_to_yantar3"
+  9834         = "lc_to_yantar4"
+  9835         = "lc_to_yantar5"
+  9836         = "lc_to_yantar6"
+  9837         = "lc_to_yantar7"
+  9838         = "lc_to_yantar8"
+  9839         = "lc_to_yantar9"
+  9840         = "lc_to_yantar10"
+  9841         = "lc_to_yantar11"
+  9842         = "lc_to_bar2"
+  9843         = "lc_to_bar3"
+  9844         = "lc_to_bar4"
+  9845         = "lc_to_bar5"
+  9846         = "lc_to_bar6"
+  9847         = "lc_to_bar7"
+  9848         = "lc_to_kordon3"
+  9849         = "lc_to_kordon4"
+  9850         = "lc_to_kordon5"
+  9851         = "lc_to_kordon6"
+  9852         = "lc_to_kordon7"
+  9853         = "lc_to_kordon8"
+  9854         = "lc_to_kordon9"
+  9855         = "lc_to_kordon10"
+  9856         = "lc_to_kordon11"
+  9857         = "lc_to_kordon12"
+  9858         = "lc_to_kordon13"
+  9859         = "lc_to_kordon14"
+  9860         = "lc_to_kordon15"
+  9861         = "lc_to_svalka4"
+  9862         = "lc_to_svalka5"
+  9863         = "lc_to_svalka6"
+  9864         = "lc_to_svalka7"
+  9865         = "lc_to_svalka8"
+  9866         = "lc_to_svalka9"
+  9867         = "lc_to_svalka10"
+  9868         = "lc_to_svalka11"
+  9869         = "lc_to_svalka12"
+  9870         = "lc_to_dt1"
+  9871         = "lc_to_dt2"
+  9872         = "lc_to_dt3"
+  9873         = "lc_to_dt4"
+  9874         = "lc_to_dt5"
+  9875         = "lc_to_dt6"
+  9876         = "lc_to_dt7"
+  9877         = "lc_to_dt8"
+  9878         = "lc_to_dt9"
+  9879         = "lc_to_dt10"
+  9880         = "lc_to_dt11"
+  9881         = "m_teleport_5"
+  9882         = "m_teleport_7"
+  9883         = "m_teleport_8"
+  9884         = "m_teleport_9"
+  9885         = "m_teleport_10"
+  9886         = "m_teleport_11"
+  9887         = "m_teleport_12"
+  9888         = "m_teleport_13"
+  9889         = "m_teleport_14"
+  9890         = "m_teleport_15"
+  9891         = "m_teleport_16"
+  9892         = "m_teleport_17"
+  9893         = "m_teleport_20"
+  9894         = "m_teleport_21"
+  9895         = "m_teleport_22"
+  9896         = "m_teleport_23"
+  9897         = "m_teleport_24"
+  9898         = "m_teleport_25"
+
+[1_esc_akim]
+id = 3547
+story_id = 9899
+
+=======================================9900
+
+[17_new_prizrak_treasure1]
+id = 1759
+story_id = 9900
+
+[17_new_prizrak_treasure2]
+id = 1760
+story_id = 9901
+
+[17_new_prizrak_treasure3]
+id = 1761
+story_id = 9902
+
+[3_agro_adrenalin]
+id = 16148
+story_id = 9903
+
+----------------------- 9904
+
+[11_tamaz_body2]
+id = 9513
+story_id = 9905
+
+---------------------- 9906 - 9969
+
+
+[21_puzir_crest]
+id = 803
+story_id = 9970
+
+[19_atp_kalinin]
+id = 21606
+story_id = 9971
+
+[23_labirint_shade_monolit]
+id = 12761
+story_id = 9972
+
+[22_land_lazaret_starik]
+id = 12163
+story_id = 9973
+
+[22_otshelnik]
+id = 12164
+story_id = 9974
+
+[22_aver_filin]
+id = 12183
+story_id = 9975
+
+[27_pantera]
+id = 5072
+story_id = 9976
+
+[27_warlab_vitamin]
+id = 5068
+story_id = 9977
+
+[22_tehnik_golograma]
+id = 12326
+story_id = 9978
+
+[27_warlab_golograma]
+id = 4969
+story_id = 9979
+
+[12_radar_vitamin]
+id = 17738
+story_id = 9980
+
+[29_kolmogor]
+id = 13817
+story_id = 9981
+
+[29_village_pantera]
+id = 13744
+story_id = 9982
+
+[26_generators_zvezdochet]
+id = 1512
+story_id = 9985
+
+[30_marsh_udav]
+id = 4081
+story_id = 9986
+
+[26_generators_udav]
+id = 1518
+story_id = 9987
+
+[22_new_kluk_nz]
+id = 12328
+story_id = 9988
+
+[22_devchonka]
+id = 12331
+story_id = 9989
+
+[14_chaes1_prizrak]
+id = 6564
+story_id = 9990
+
+[26_gen_sapsan1]
+id = 1641
+story_id = 9991
+
+[17_chaes2_mono_fugas]
+id = 1729
+story_id = 9992
+
+[19_atp_mobil_torgovetz]
+id = 21669
+story_id = 9993
+
+[13_prip_dok_arh]
+id = 13047
+story_id = 9994
+
+[26_gen_andersen1]
+id = 1623
+story_id = 9995
+
+[26_gen_solvador1]
+id = 1622
+story_id = 9996
+
+[22_land_sniper_chimaera]
+id = 12201
+story_id = 9997
+
+[22_land_medik]
+id = 12157
+story_id = 9998
+
+[20_peshera_shaxter]
+id = 6379
+story_id = 9999
+
+================================================10000
+
+------------------------------ 10000
+
+  ;10001			= "tm_stohe_selo_test_lager"				no ids in all.spawn
+  
+------------------------------ 10002 - 10999
+
+================================================11000
+
+------------------------------ 11000 - 11499
+
+[2_exit_to_puzir_from_garbage]
+id = 2237
+story_id = 11500
+
+  ;11501        = "level_changer_from_puzir_to_red_forest"  ;;110000, not used				no ids in all.spawn
+
+[2_exit_to_peshera_from_garbage]
+id = 2236
+story_id = 11502
+
+[3_exit_to_peshera_from_agroprom]
+id = 16147
+story_id = 11503
+
+[20_peshera_to_svalka]
+id = 6506
+story_id = 11504
+
+[20_peshera_to_agroprom]
+id = 6507
+story_id = 11505
+
+[21_to_td_level_changer_from_puzir]
+id = 783
+story_id = 11506
+
+[22_aver_level_changer_to_svalka]
+id = 12051
+story_id = 11507
+
+[22_aver_level_changer_to_darkvalley]
+id = 12103
+story_id = 11508
+
+[22_aver_level_changer_to_military]
+id = 12104
+story_id = 11509
+
+[22_aver_level_changer_to_av_peshera]
+id = 12111
+story_id = 11510
+
+[23_av_peshera_na_aver]
+id = 12601
+story_id = 11511
+
+[23_av_peshera_to_yantar]
+id = 12622
+story_id = 11512
+
+[5_exit_to_aver_from_td]
+id = 21886
+story_id = 11513
+
+[11_exit_to_aver_from_as]
+id = 9511
+story_id = 11514
+
+[9_yantar_to_av_peshera]
+id = 17003
+story_id = 11515
+
+  11516        = "exit_to_red_forest"				no ids in all.spawn
+
+[24_exit_from_limansk]
+id = 8663
+story_id = 11517
+
+[24_exit_to_hospital]
+id = 8664
+story_id = 11518
+
+[25_exit_to_limansk_from_hospital]
+id = 5465
+story_id = 11519
+
+  11520        = "level_changer_to_generators_from_pripyat"				no ids in all.spawn
+  11521        = "gener_to_hospital_level_changer"					;;;109954
+
+[26_gener_to_warlab_level_changer]
+id = 1408
+story_id = 11522
+
+  11523        = "gener_research_level_changer"					;;;109940				no ids in all.spawn
+
+[28_red_level_changer_to_atp]
+id = 5978
+story_id = 11524
+
+[28_red_level_changer_to_limansk]
+id = 5976
+story_id = 11525
+
+[28_red_level_changer_to_radar]
+id = 5979
+story_id = 11526
+
+[28_red_level_changer_to_puzir]
+id = 5977
+story_id = 11527
+
+  11528        = "puzir_level_changer_red_forest"	;;110000, added back in				no ids in all.spawn
+
+[29_lost_village_limansk]
+id = 13904
+story_id = 11529
+
+  11530        = "level_changer_to_hospital_from_generators"				no ids in all.spawn
+
+[29_lost_village_hospital]
+id = 13905
+story_id = 11531
+
+  11532        = "hospital_exit_to_lost_village"				no ids in all.spawn
+  11533        = "level_changer_from_atp_to_military"
+  11534        = "exit_to_marsh_from_escape"
+  11535        = "exit_to_marsh_from_escape2"
+  11536        = "exit_to_marsh_from_agr"
+
+[30_mar_level_changer_to_escape_1]
+id = 4537
+story_id = 11537
+
+[30_mar_level_changer_to_escape_2]
+id = 4538
+story_id = 11538
+
+[30_mar_level_changer_to_agroprom_1]
+id = 4539
+story_id = 11539
+
+------------------ 11540 - 11999
+
+====================================================12000
+
+  12000        = "hospital_wooden_board_01_0000"				no ids in all.spawn
+
+[28_red_physic_object_vedro]
+id = 5918
+story_id = 12001
+
+------------------- 12002 - 12500
+
+[21_to_svalka_level_changer_from_puzir]
+id = 812
+story_id = 12501
+
+	12502		= "exit_to_ds"		;;109940.1				no ids in all.spawn
+	12503		= "exit_to_range"		;;109940.1
+	12504		= "lost_village_to_zaton"		;;109940.1
+
+--------------------- 12505
+
+[2_svalka_to_aver_level_changer]
+id = 2235
+story_id = 12506
+
+--------------------- 12507 - 12999
+
+===================================================13000
+
+-------------------- 13000 - 13999
+
+===================================================14000
+
+[30_clear_scy_leader]
+id = 4269
+story_id = 14000
+
+[30_esc_saha]
+id = 4258
+story_id = 14001
+
+[1_escape_to_marsh]
+id = 2709
+story_id = 14002
+
+[30_kalmyak]
+id = 4231
+story_id = 14003
+
+[30_kot]
+id = 4192
+story_id = 14004
+
+[24_borman]
+id = 8391
+story_id = 14005
+
+[3_chuk]
+id = 16138
+story_id = 14006
+
+[3_gek]
+id = 16137
+story_id = 14007
+
+[25_black_doctor]
+id = 5191
+story_id = 14008
+
+[25_kot_hos]
+id = 5193
+story_id = 14009
+
+[30_mar_treasure_1]
+id = 4334
+story_id = 14010
+
+[30_mar_treasure_2]
+id = 4335
+story_id = 14011
+
+[30_mar_treasure_3]
+id = 4336
+story_id = 14012
+
+[30_mar_treasure_4]
+id = 4337
+story_id = 14013
+
+[30_mar_treasure_5]
+id = 4339
+story_id = 14014
+
+[30_mar_treasure_6]
+id = 4338
+story_id = 14015
+
+[30_mar_treasure_7]
+id = 4341
+story_id = 14016
+
+[30_mar_treasure_8]
+id = 4340
+story_id = 14017
+
+[30_mar_treasure_9]
+id = 4343
+story_id = 14018
+
+[30_mar_treasure_10]
+id = 4342
+story_id = 14019
+
+[30_mar_treasure_11]
+id = 4345
+story_id = 14020
+
+[30_mar_treasure_12]
+id = 4344
+story_id = 14021
+
+[30_mar_treasure_14]
+id = 4346
+story_id = 14022
+
+[30_mar_treasure_13]
+id = 4347
+story_id = 14023
+
+[30_mar_treasure_16]
+id = 4348
+story_id = 14024
+
+[30_mar_treasure_15]
+id = 4349
+story_id = 14025
+
+[30_mar_treasure_18]
+id = 4350
+story_id = 14026
+
+[30_mar_treasure_17]
+id = 4351
+story_id = 14027
+
+[30_mar_treasure_20]
+id = 4352
+story_id = 14028
+
+[30_mar_treasure_19]
+id = 4353
+story_id = 14029
+
+---------------------- 14030 - 14049
+
+[24_lim_treasure_12]
+id = 8432
+story_id = 14050
+
+[24_lim_treasure_9]
+id = 8433
+story_id = 14051
+
+[24_lim_treasure_6]
+id = 8434
+story_id = 14052
+
+[24_lim_treasure_2]
+id = 8435
+story_id = 14053
+
+[24_lim_treasure_11]
+id = 8436
+story_id = 14054
+
+[24_lim_treasure_7]
+id = 8437
+story_id = 14055
+
+[24_lim_treasure_3]
+id = 8438
+story_id = 14056
+
+[24_lim_treasure_8]
+id = 8439
+story_id = 14057
+
+[24_lim_treasure_10]
+id = 8440
+story_id = 14058
+
+[24_lim_treasure_13]
+id = 8441
+story_id = 14059
+
+------------------- 14060 - 14069
+
+[28_red_treasure_4]
+id = 5814
+story_id = 14070
+
+[28_red_treasure_5]
+id = 5815
+story_id = 14071
+
+[28_red_treasure_3]
+id = 5816
+story_id = 14072
+
+[28_red_treasure_6]
+id = 5817
+story_id = 14073
+
+[28_red_treasure_10]
+id = 5818
+story_id = 14074
+
+[28_red_treasure_17]
+id = 5819
+story_id = 14075
+
+[28_red_treasure_18]
+id = 5820
+story_id = 14076
+
+[28_red_treasure_19]
+id = 5821
+story_id = 14077
+
+[28_red_treasure_11]
+id = 5822
+story_id = 14078
+
+[28_red_treasure_12]
+id = 5823
+story_id = 14079
+
+[28_red_treasure_8]
+id = 5824
+story_id = 14080
+
+[28_red_treasure_23]
+id = 5825
+story_id = 14081
+
+[28_red_treasure_1]
+id = 5826
+story_id = 14082
+
+[28_red_treasure_20]
+id = 5827
+story_id = 14083
+
+[28_red_treasure_15]
+id = 5828
+story_id = 14084
+
+--------------------- 14085 - 14089
+
+[28_shadowman]
+id = 5668
+story_id = 14090
+
+[7_bkot]
+id = 910
+story_id = 14092
+
+------------------- 14093 - 14999
+
+==================================================15000
+
+------------------- 15000 - 15999
+
+==================================================16000
+
+------------------ 16000 - 16999
+
+==================================================17000
+
+  17000         = "m_teleport_aver_baza_vxod"				no ids in all.spawn
+  17001         = "m_teleport_land_baza_vuxod"
+  17002         = "m_teleport_aver_taynik"
+  17003         = "m_teleport_warlab_sekret"
+  17004         = "m_teleport_village_plen"
+  17005         = "snotvornoe_tele"			;first medicine
+  17006         = "shaxter_tele"			;miner's medicine
+  17007         = "arhara_obman"
+  17008         = "m_teleport_1_chaes2"
+  17009         = "m_teleport_3_chaes2"
+  17010         = "m_teleport_1_generators"
+  17011         = "m_teleport_2_generators"
+  17012         = "m_teleport_2_chaes2"
+  17013         = "m_teleport_1_hosp_verh1"
+  17014         = "m_teleport_hosp_vhod_otsek"
+  17015         = "m_teleport_blok_vhod_otsek"
+  17016         = "m_teleport_prip_dok_vxod"
+
+[26_baza_doza_timer_restrictor]
+id = 1690
+story_id = 17017
+
+[26_podstanziy_doza_timer_restrictor]
+id = 1651
+story_id = 17018
+
+[8_dt_zone_zvuk_restrictor]
+id = 19683
+story_id = 17019
+
+  17020         = "m_teleport_limansk_krusha"				no ids in all.spawn
+  17021         = "m_teleport_sarcofag_foto"
+  17022         = "m_teleport_nad_mozgom"
+  17023         = "m_teleport_blok_ruchag"
+  17024         = "m_teleport_podval_ok"
+  17025         = "m_teleport_podv_vuxod"
+
+[31_dcity_bandosu_doza_timer_restrictor]
+id = 9045
+story_id = 17026
+
+[31_dcity_gorod_doza_timer_restrictor]
+id = 9074
+story_id = 17027
+
+[31_dcity_gorod1_doza1_timer_restrictor]
+id = 9075
+story_id = 17028
+
+[31_dcity_zenter_doza_timer_restrictor]
+id = 9076
+story_id = 17029
+
+[31_pomoshnik_timer_zenter_doza_restrictor]
+id = 9077
+story_id = 17030
+
+[31_dcity_zenter1_doza_timer_restrictor]
+id = 9078
+story_id = 17031
+
+[31_pomoshnik1_timer_zenter1_doza_restrictor]
+id = 9079
+story_id = 17032
+
+[31_dcity_zenter2_doza_timer_restrictor]
+id = 9080
+story_id = 17033
+
+[31_pomoshnik2_timer_zenter2_doza_restrictor]
+id = 9081
+story_id = 17034
+
+[31_dcity_zenter3_doza_timer_restrictor]
+id = 9082
+story_id = 17035
+
+[31_pomoshnik3_timer_zenter3_doza_restrictor]
+id = 9083
+story_id = 17036
+
+[31_dcity_zenter4_doza_timer_restrictor]
+id = 9084
+story_id = 17037
+
+[31_pomoshnik4_timer_zenter4_doza_restrictor]
+id = 9085
+story_id = 17038
+
+  17039         = "pusto"				no ids in all.spawn
+  17040         = "m_teleport_agro_norm_taynik"
+
+[31_dcity_plendok_doza_timer_restrictor]
+id = 9187
+story_id = 17041
+
+[31_pomoshnik_timer_plendok_doza_restrictor]
+id = 9188
+story_id = 17042
+
+  17043         = "m_teleport_dcity_kanaliy"				no ids in all.spawn
+
+[31_dcity_kanaliy_dinamit1]
+id = 9297
+story_id = 17044
+
+[31_dcity_kanaliy_dinamit2]
+id = 9302
+story_id = 17045
+
+[31_dcity_kanaliy_dinamit_nevid2]
+id = 9308
+story_id = 17046
+
+[31_dcity_kanaliy_dinamit_nevid1]
+id = 9326
+story_id = 17047
+
+[1_esc_dinamit_panera]
+id = 3645
+story_id = 17048
+
+[11_khutor_zone2]
+id = 9939
+story_id = 17049
+
+[19_atp_sedoy_delete_restrictor]
+id = 21674
+story_id = 17050
+
+[5_spawn_bland_restrictor]
+id = 21850
+story_id = 17051
+
+[5_spawn1_bland1_restrictor]
+id = 21851
+story_id = 17052
+
+[24_video_finish_dopa_restrictor]
+id = 8328
+story_id = 17053
+
+---------------------- 17054 - 17999
+
+===================================================18000
+
+[22_aver_arhara_secret_1]
+id = 12274
+story_id = 18000
+
+[22_aver_arhara_secret_2]
+id = 12275
+story_id = 18001
+
+[22_aver_arhara_secret_3]
+id = 12276
+story_id = 18002
+
+[22_aver_arhara_secret_4]
+id = 12277
+story_id = 18003
+
+[22_aver_arhara_secret_5]
+id = 12278
+story_id = 18004
+
+[27_warlab_arhara_secret_1]
+id = 5007
+story_id = 18005
+
+[27_warlab_arhara_secret_2]
+id = 5008
+story_id = 18006
+
+[27_warlab_arhara_secret_3]
+id = 5009
+story_id = 18007
+
+[29_village_arhara_secret_1]
+id = 13837
+story_id = 18008
+
+[29_village_arhara_secret_2]
+id = 13838
+story_id = 18009
+
+[29_village_arhara_secret_3]
+id = 13839
+story_id = 18010
+
+[29_village_arhara_secret_4]
+id = 13840
+story_id = 18011
+
+[26_generators_arhara_secret_1]
+id = 1431
+story_id = 18012
+
+[26_generators_arhara_secret_2]
+id = 1432
+story_id = 18013
+
+[26_generators_arhara_secret_3]
+id = 1433
+story_id = 18014
+
+[26_generators_arhara_secret_4]
+id = 1434
+story_id = 18015
+
+[26_generators_arhara_secret_5]
+id = 1435
+story_id = 18016
+
+[19_atp_arhara_secret_1]
+id = 21671
+story_id = 18017
+
+[19_atp_arhara_secret_2]
+id = 21672
+story_id = 18018
+
+[19_atp_arhara_secret_3]
+id = 21673
+story_id = 18019
+
+  18020		  = "zone_smallrain_s"				no ids in all.spawn
+  18021		  = "zone_zavesa_s"
+  18022		  = "zone_fountain_s"
+  18023		  = "zone_sphere_s"
+  18024		  = "zone_ogon_s"
+
+[31_dead_city_secret_1]
+id = 8995
+story_id = 18025
+
+[31_dead_city_secret_2]
+id = 8996
+story_id = 18026
+
+[31_dead_city_secret_3]
+id = 8997
+story_id = 18027
+
+[31_dead_city_secret_4]
+id = 8998
+story_id = 18028
+
+[31_dead_city_secret_5]
+id = 8999
+story_id = 18029
+
+[29_lost_village_inventory_box]
+id = 13903
+story_id = 18030
+
+--------------------- 18031 - 18099
+
+  18100         = "gener_na_boloto"						;;;marsh_heli_dok lc				no ids in all.spawn
+  18101         = "boloto_na_gener"						;;;marsh_heli_dok lc
+
+[26_generators_heli_zaschita_baza]
+id = 1509
+story_id = 18102
+
+[26_generators_heli_black]
+id = 1522
+story_id = 18103
+
+[26_generators_zone_emi1]
+id = 1631
+story_id = 18104
+
+[26_generators_zone_emi2]
+id = 1632
+story_id = 18105
+
+[26_generators_zone_emi3]
+id = 1633
+story_id = 18106
+
+[26_generators_zone_emi4]
+id = 1634
+story_id = 18107
+
+[26_generators_zone_emi5]
+id = 1635
+story_id = 18108
+
+------------------ 18109 - 18999
+
+===================================================19000
+
+------------------ 19000
+
+[3_final_muxa]
+id = 16059
+story_id = 19001
+
+[3_final_otshelnik]
+id = 16071
+story_id = 19002
+
+[3_final_petrenko]
+id = 16066
+story_id = 19003
+
+[3_final_arhara]
+id = 16083
+story_id = 19004
+
+[3_final_prizrak]
+id = 16079
+story_id = 19005
+
+[3_final_dok_arh]
+id = 16080
+story_id = 19006
+
+[3_final_piligrim]
+id = 16081
+story_id = 19007
+
+[9_yantar_baty]
+id = 16992
+story_id = 19008
+
+[1_esc_pda_slom_timer_restrictor]
+id = 3611
+story_id = 19009
+
+[2_sv_kord_pda_slom_timer_restrictor]
+id = 2222
+story_id = 19010
+
+[5_darkvalley_pda_slom_timer_restrictor]
+id = 21854
+story_id = 19011
+
+[3_agroprom_pda_slom_timer_restrictor]
+id = 16053
+story_id = 19012
+
+[7_bar_pda_slom_timer_restrictor]
+id = 867
+story_id = 19013
+
+[2_svalka_td_pda_slom_timer_restrictor]
+id = 2223
+story_id = 19014
+
+[2_sv_agro_pda_slom_timer_restrictor]
+id = 2224
+story_id = 19015
+
+[2_sval_bar_pda_slom_timer_restrictor]
+id = 2225
+story_id = 19016
+
+[26_gen_prizrak_izomorf]
+id = 1687
+story_id = 19017
+
+[26_odnonogiy_stalk]
+id = 1679
+story_id = 19018
+
+[15_odnonogiy_proval_restrictor]
+id = 18482
+story_id = 19019
+
+[15_odnonogiy1_proval1_restrictor]
+id = 18483
+story_id = 19020
+
+[15_nevid_monolit]
+id = 18481
+story_id = 19021
+
+[18_stalk_radist]
+id = 3653
+story_id = 19022
+
+[13_ozhivil_radista_restrictor]
+id = 13010
+story_id = 19023
+
+[13_radist_after]
+id = 13011
+story_id = 19024
+
+[13_pripyt_kluk]
+id = 12998
+story_id = 19025
+
+[28_forest_lastday_snip1]
+id = 5599
+story_id = 19026
+
+[28_ozhivil2_radista2_restrictor]
+id = 5603
+story_id = 19027
+
+[9_yantar_chernomor]
+id = 16986
+story_id = 19028
+
+[3_agro_chsovoy_trezv]
+id = 16030
+story_id = 19029
+
+[3_trezv_kapitan]
+id = 16036
+story_id = 19030
+
+[1_esc_father_pant]
+id = 3628
+story_id = 19031
+
+[1_esc_pantera_bomba]
+id = 3627
+story_id = 19032
+
+[22_aver_zlobnuy]
+id = 12399
+story_id = 19033
+
+[22_strelka_mesto_dialog_restrictor]
+id = 12401
+story_id = 19034
+
+[22_strelka_radius_space_restrictor]
+id = 12403
+story_id = 19035
+
+[16_molniy]
+id = 4684
+story_id = 19036
+
+[24_oblast_klucha_restrictor]
+id = 8326
+story_id = 19037
+
+[24_teleport_podval_ok_restrictor]
+id = 8329
+story_id = 19038
+
+[28_forest_last_snip_proval_restrictor]
+id = 5601
+story_id = 19039
+
+[28_red_dolbannay_doska]
+id = 5897
+story_id = 19040
+
+[31_dsity_rasstrel1]
+id = 9114
+story_id = 19041
+
+[31_dsity_rasstrel2]
+id = 9115
+story_id = 19042
+
+[31_dcity_last_rasstrel1]
+id = 9116
+story_id = 19043
+
+[11_military_fotomuzhik]
+id = 9474
+story_id = 19044
+
+[11_milit_zapas_fotomuzhik]
+id = 9475
+story_id = 19045
+
+[1_esc_foto_muzhik]
+id = 3635
+story_id = 19046
+
+[1_zapasnoy_foto_muzhik]
+id = 3639
+story_id = 19047
+
+[31_city_starshoy]
+id = 8977
+story_id = 19048
+
+[46_promz_mil_box]
+id = 12517
+story_id = 19049
+
+==========================================================  end of startup !!!!
+
+------------- 19050 - 97000
+
+  ;19981         = "kalter"					;;;;109940  deadcity level not used				no ids in all.spawn
+  ;19982         = "deads_dachik_pom_4"
+  ;19983         = "deads_chehov_pom_1"
+  ;19984         = "deads_swiblov_pom_1"
+  ;19985         = "deads_dachik_pom_5"
+  ;19986         = "deads_chehov_pom_3"
+  ;19987         = "deads_swiblov_pom_8"
+
+  ; TEST LEVEL (20000+)
+  ;20000        = "test_stalker1"				no ids in all.spawn
+  ;20001        = "test_stalker2"  
+  ;20002        = "test_searchlight1"
+  ;20003        = "test_searchlight2"
+  
+===============================================97000
+
+  97000			= "chaes2_rsch_level_changer"		;;;109940				no ids in all.spawn
+
+[7_bar_atp_level_changer]
+id = 913
+story_id = 97001
+
+------------------------ 97002 - 97010
+
+  97011         = "to_military"				no ids in all.spawn
+
+------------------------ 97012 - 97020
+
+[20_peshera_to_av_peshera]
+id = 6370
+story_id = 97021
+
+------------------------ 97022 - 97030
+
+  97031         = "stancia_2_atp"				no ids in all.spawn
+
+------------------------ 97032 - 97040
+
+[19_level_changer_na_pripyat]
+id = 21539
+story_id = 97041
+
+----------------------- 97042 - 97070
+
+[5_darkvalley_les]
+id = 21885
+story_id = 97071
+
+----------------------- 97072 - 97080
+
+[23_labirint_arhara_to_peshera]
+id = 12809
+story_id = 97081
+
+---------------------- 97082 - 97090
+
+[19_level_changer_to_military]
+id = 21577
+story_id = 97091
+
+[19_level_changer_na_kordon]
+id = 21578
+story_id = 97092
+
+[19_level_changer_na_svalku]
+id = 21628
+story_id = 97093
+
+[12_radar_level_changer_to_warlab]
+id = 17734
+story_id = 97094
+
+[27_warlab_level_changer_to_brainlab]
+id = 5115
+story_id = 97095
+
+[27_warlab_generators_level_changer]
+id = 4936
+story_id = 97096
+
+[27_warlab_skladu_level_changer]
+id = 4981
+story_id = 97097
+
+[6_x18_level_changer_to_warlab]
+id = 13926
+story_id = 97098
+
+[17_chaes2_atp_level_changer]
+id = 1758
+story_id = 97099
+
+[13_pripyat_lost_village]
+id = 13052
+story_id = 97100
+
+  97101         = "marsh_perehod_to_wasted"				;;;;109940				no ids in all.spawn
+
+[17_chaes2_chaes_level_changer]
+id = 1757
+story_id = 97102
+
+[14_chaes_to_generators]
+id = 6563
+story_id = 97103
+
+[25_hospital_agroprom]
+id = 5537
+story_id = 97104
+
+[3_agroprom_marsh1]
+id = 16096
+story_id = 97105
+
+[26_gener_pripyat_level_changer]
+id = 1659
+story_id = 97106
+
+[24_limansk_to_generators]
+id = 8363
+story_id = 97107
+
+[28_red_forest_to_warlab]
+id = 5611
+story_id = 97108
+
+[31_dcity_to_limansk]
+id = 9141
+story_id = 97109
+
+[31_dead_city_to_atp]
+id = 9142
+story_id = 97110
+
+[31_dead_city_to_newrostok]
+id = 9143
+story_id = 97111
+
+[19_atp_to_dead_city]
+id = 21747
+story_id = 97112
+
+[31_dcity_to_zaton]
+id = 9296
+story_id = 97113
+
+[24_lima_to_dead_city]
+id = 8307
+story_id = 97114
+
+  97115         = "prip_to_eprip"				;;109970				no ids in all.spawn
+  97116			= "pripyat_cop_to_pripyat_1"	;;109978
+  97117			= "pripyat_cop_to_pripyat_2"	;;109978
+  97118			= "pripyat_cop_to_lab_x8"		;;109978
+  97119			= "lab_x8_to_pripyat_cop"		;;109978
+  97120         = "syslov"
+  97121         = "shadows"
+  97122         = "mudri"
+  97123         = "marsh_remont"
+  97124         = "pavel_sergeevich"
+
+[43_ds_tweed]
+id = 21241
+story_id = 97125
+
+  97126			= "karina"						;added to all.spawn 109950
+  ;97127			= "predbannik_barman"		;added to all.spawn 109954
+
+------------------ 97128 - 97127
+
+[42_tractorist]
+id = 11955
+story_id = 97128
+
+------------------ 97129 - 97998
+
+  97999			= "pripyat_to_cop_pripyat"		;added 110012				no ids in all.spawn
+
+=============================================98000
+
+  98000		= "zat_to_jup"				no ids in all.spawn
+  98001		= "jup_to_eprip"
+  98002		= "eprip_to_jup"
+  98003		= "jup_to_jupunder"
+  98004		= "jupunder_to_eprip"
+  98005		= "jup_to_zat"
+  98006		= "jupunder_to_limansk"
+  98007		= "eprip_to_bar"
+  98008		= "jup_to_yantar"
+  98009		= "eprip_to_jupunder"
+  98010		= "redforest_to_dcity"
+
+[38_waiting_to_research]
+id = 19275
+story_id = 98011
+
+  98012		= "research_to_waiting"				no ids in all.spawn
+  98013		= "research_to_techniques"
+  98014		= "eprip_to_x14"
+  98015		= "labx8_to_x14"
+  98016		= "jupu_to_x14"
+  98017		= "dcity_to_gen"
+  98018		= "gen_to_dcity"
+  98019		= "mil_to_npp1"
+  98020		= "npp1_to_npp2"
+  98021		= "npp2_to_npp1"
+  98022		= "dm_to_tech"
+  98023		= "tech_to_dm"
+  98024		= "kras_to_rinok"
+  98025		= "rinok_to_kras"
+  98026		= "vok_to_lim"
+  98027		= "lim_to_vok"
+  98028		= "jupu_to_x10"
+  98029		= "x10_to_jupu"
+  98030		= "recon_to_npp2"
+  98031		= "npp2_to_recon"
+  98032		= "rsrch_to_ros"
+  98033		= "ros_to_rsrch"
+  98034		= "prom_to_gen"
+  98035		= "gen_to_prom"
+  98036		= "mar_to_yan"						;;;;109960
+
+------------------- 98037 - 98520
+
+   98521	= "gen_to_dm"						;;;109954				no ids in all.spawn
+   
+------------------- 98522 - 98974
+
+  98975		= "zat_to_eprip"					;;;109972				no ids in all.spawn
+  98976		= "eprip_to_zat"
+  98977		= "eprip_to_npp1"
+  98978		= "npp1_to_eprip"
+  98979		= "rs_to_eprip"
+  98980		= "eprip_to_rs"
+  98981		= "br_to_dm"
+  98982		= "dm_to_br"
+  98983		= "hos_to_f1"
+  98984		= "f1_to_hos"
+  98985		= "ww_to_hos"
+  98986		= "hos_to_ww"
+  98987		= "cem_to_gen"
+  98988		= "gen_to_cem"
+  98989		= "jup_to_cem"
+  98990		= "cem_to_jup"  
+  98991		= "prom_to_jup"
+  98992		= "jup_to_prom"  
+  98993		= "tunnels_to_tech" 
+  98994		= "npp1_to_dv" 
+  98995		= "dv_to_npp1" 
+  98996     = "pripyat_to_npp1"						;;;;dav 109950
+  98997		= "chaes_to_zat"
+  98998		= "sarc_to_chaes"
+  98999		= "sarc_to_bar"
+
+=============================================99000
+
+	99000 = "pas_b400_lamp_track_red"				no ids in all.spawn
+	99001 = "pas_b400_lamp_track_green"
+	99002 = "pas_b400_lamp_track_flash"
+	99003 = "pas_b400_lamp_downstairs_red"
+	99004 = "pas_b400_lamp_downstairs_green"
+	99005 = "pas_b400_lamp_downstairs_flash"
+	99006 = "pas_b400_lamp_control_down_red"
+	99007 = "pas_b400_lamp_control_down_green"
+	99008 = "pas_b400_lamp_control_down_flash"
+	99010 = "pas_b400_lamp_control_up_red"
+	99011 = "pas_b400_lamp_control_up_green"
+	99012 = "pas_b400_lamp_control_up_flash"
+	99013 = "pas_b400_lamp_hall_red"
+	99014 = "pas_b400_lamp_hall_green"
+	99015 = "pas_b400_lamp_hall_flash"
+	99016 = "pas_b400_lamp_way_red"
+	99017 = "pas_b400_lamp_way_green"
+	99018 = "pas_b400_lamp_way_flash"
+	99019 = "pri_b306_lamp_1"
+	99020 = "pri_b306_lamp_4"
+	99021 = "pri_b306_lamp_7"
+	99022 = "pri_b306_lamp_2"
+	99023 = "pri_b306_lamp_5"
+	99024 = "pri_b306_lamp_8"
+	99025 = "pri_b306_lamp_3"
+	99026 = "pri_b306_lamp_6"
+	99027 = "pri_b306_lamp_9"
+	
+-------------------- 99028 - 99029
+
+  99030		= "npp2_to_x14"				no ids in all.spawn
+  99031		= "x14_to_npp2"
+  99032		= "radar_to_rostok"
+  99033		= "rostok_to_radar"
+  99034		= "aes_to_dark"
+  99035		= "dark_to_aes"
+  99036		= "aes_to_aes2"
+  99037		= "aes2_to_aes"
+  99038		= "jupu_to_tunnels"
+  99039		= "tunnels_to_jupu"
+  99040		= "redf_to_tunnels"
+  99041		= "npp1_to_radar"
+  99042		= "radar_to_npp1"
+  99043		= "npp1west_to_npp2west"		;;109998
+
+-------------------- 99044 - 99199
+
+[44_dark_forest_to_village]
+id = 4894
+story_id = 99200
+
+[44_dark_forest_to_swamp]
+id = 4934
+story_id = 99201
+
+------------------ 99202 - 99999
+
+=============================================100000
+
+---------------------   100000 - 481515
+
+=============================================400000
+
+  481516        = "gar_stalker_flame_quest23"				no ids in all.spawn
+
+---------------------   481517 - 777887
+
+=============================================777888
+
+[11_mil_freedom_member0002]
+id = 9657
+story_id = 777888
+
+=============================================1999900				no ids in all.spawn
+
+  1999900		= "tb3d_start"
+  1999901		= "m_teleport_tb3d1"
+  1999902		= "m_teleport_tb3d2"
+  1999903		= "m_teleport_tb3d3"
+  1999904		= "m_teleport_tb3d4"
+  
+  1999975		= "skip_to_prip"				;;109986
+  1999976		= "skip_to_x14"
+  1999977		= "skip_to_yan"
+  
+  1999978		= "teleport_gbar1"
+  1999979		= "teleport_gbar2"
+  1999980		= "teleport_gbar3"
+  1999981		= "teleport_gbar4"
+  1999982		= "teleport_gbar5"
+  1999983		= "teleport_gbar6"
+  1999984		= "teleport_gbar7"
+  1999985		= "teleport_gbar8"
+  1999986		= "teleport_gbar9"
+  1999987		= "teleport_gbar10"
+  
+  1999988		= "skip_to_sar"
+  1999989		= "skip_to_mono2"
+  1999990		= "skip_to_mono1"
+  1999991		= "skip_to_mil"
+  1999992		= "chaes_tower"
+  1999993		= "refused_osozn"
+  1999994		= "joined_osozn"
+  1999995		= "start_collector"
+  1999996		= "talked_to_momolith"
+  1999997		= "tb3d_teleport_zaton"
+  1999998		= "tb3d_teleport_escape"
+  1999999		= "tb3d_teleport"			;;;generic teleports in ESC-F2 menu
+
+  ; collector22		has no sids
