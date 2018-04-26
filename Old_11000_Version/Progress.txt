@@ -38,16 +38,5 @@ game_vertex_id = 51048 => 65535
 Changes on 26.04.2018
 alife_promzone:
 changed promz_respawn_inventory_box_mil parent id to 19049
-
-alife_l07_military:
-commenting out section;
-;id = 65535
-;version = 118
-;script_version = 6
-;spawn_id = 13568
-;spawned_obj = 
-
-reverting shape to old style;
-shapes = shape_0	;1
 .........................................
 
