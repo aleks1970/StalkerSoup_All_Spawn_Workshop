@@ -27,8 +27,8 @@ echo. %compilef_1%
 
 pause
 cls
-goto a
-::goto b
+::goto a
+goto b
 
 :a
 echo. 
@@ -42,7 +42,7 @@ Exit /b
 del sections.ini
 echo. 
 echo. Working with %acperl64name% Perl version...
-%acperl64% universal_acdc.pl -compile %compilef_1% -out %new_spawn1%\64all.spawn -Idx %idx_folder%\index_file_1  -g %Gpath% -scan "config" -log compile_log64.txt
+%acperl64% universal_acdc.pl -compile %compilef_64% -out %new_spawn1%\64all.spawn -Idx %idx_folder%\index_file_1  -g %Gpath% -scan "config" -log compile_log64.txt
 Exit /b
 
 
