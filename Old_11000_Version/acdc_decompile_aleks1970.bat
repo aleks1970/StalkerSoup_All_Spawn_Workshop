@@ -20,8 +20,8 @@ echo. %Gpath%
 echo. %acperlname% is default Perl version for unpack/pack!...
 pause
 cls
-goto a
-::goto b
+::goto a
+goto b
 
 :a
 del sections.ini

@@ -39,4 +39,9 @@ Changes on 26.04.2018
 alife_promzone:
 changed promz_respawn_inventory_box_mil parent id to 19049
 .........................................
-
+Changes on 08.07.2018
+alife_l07_military.ltx:
+changed direction for sim_stalker_prut object
+Old: 0, 7.34338439626505e-018, -1.58842453856778e-007
+New: direction = -1.58842453856778e-007, 7.34338439626505e-018, 4.62306165571746e-011
+.........................................
